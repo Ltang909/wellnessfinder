@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Naturopathic aesthetics clinics — WellFinder</title>
+  <meta name="description" content="Microneedling, cosmetic acupuncture, IV drips and vitamin injections tucked inside your naturopathic benefits. Filter by city and modality." />
+  <meta property="og:title" content="Naturopathic aesthetics clinics — WellFinder" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="naturopath">
+
+  <header class="site-header">
+    <div class="wrap">
+      <nav class="nav">
+        <a class="brand" href="index.html"><img src="assets/wellfinder-mark.svg" alt="" width="34" height="34" /> WellFinder</a>
+        <div class="nav-links">
+          <a href="index.html#directory">Browse Treatments</a>
+          <a href="pilates.html">Pilates Clinics</a>
+          <a href="naturopath.html">Naturopath Clinics</a>
+          <a href="golf.html">Golf Clinics</a>
+          <a href="index.html#insurance">Insurance Benefits</a>
+          <a href="index.html#resources">Resources</a>
+          <a href="about.html">About</a>
+        </div>
+        <div class="nav-right">
+          <span id="favCount" class="nav-chip" style="display:none"></span>
+          <a class="btn btn--honey btn--sm" href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Get in touch</a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </nav>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html#directory">Browse Treatments</a>
+      <a href="index.html#insurance">Insurance Benefits</a>
+      <a href="about.html">About</a>
+      <div class="mm-group">
+        <a href="pilates.html">Pilates</a>
+        <a href="naturopath.html">Naturopath</a>
+        <a href="golf.html">Golf</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="subhero">
+    <div class="wrap">
+      <a class="back" href="index.html">← Back to WellFinder</a>
+      <p class="eyebrow">A WellFinder directory</p>
+      <h1>Every naturopathic aesthetics clinic, <em>mapped and priced.</em></h1>
+      <p>Microneedling, cosmetic acupuncture, IV drips, and vitamin injections tucked inside your naturopathic benefits. I haven't personally tried every clinic below — some are gathered leads. Please confirm modality, pricing, and direct billing directly with each clinic before booking.</p>
+      <div class="subhero-actions">
+        <button class="btn btn--ghost btn--sm" data-share type="button">Share this list</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section--tight">
+    <div class="wrap">
+      <div class="filters">
+        <div class="filters-row">
+          <div class="filter-field">
+            <label>Province</label>
+            <div class="seg" id="provSeg">
+              <button class="active" data-val="">All</button>
+              <button data-val="ON">ON</button>
+              <button data-val="BC">BC</button>
+              <button data-val="AB">AB</button>
+            </div>
+          </div>
+          <div class="filter-field">
+            <label for="citySelect">Search by city</label>
+            <select id="citySelect"></select>
+          </div>
+          <div class="filter-field" style="flex:1 1 100%">
+            <label>Filter by modality</label>
+            <div class="chip-row" id="chipRow"></div>
+          </div>
+        </div>
+        <div class="filters-foot">
+          <span></span>
+          <button class="reset-btn" id="resetBtn" type="button">Reset filters</button>
+        </div>
+      </div>
+
+      <div class="result-bar" id="resultBar">
+        <strong><span id="resultCount">0</span> <span id="resultNoun">clinics</span></strong>
+        <span id="resultTotal"></span>
+      </div>
+
+      <div class="clinic-list" id="clinicList"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html"><img src="assets/wellfinder-mark.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p class="footer-tag">Find well. Live well.</p>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col"><h5>Browse</h5>
+          <a href="index.html#directory">Treatments</a>
+          <a href="pilates.html">Clinics</a>
+          <a href="index.html#categories">Categories</a>
+        </div>
+        <div class="footer-col"><h5>Resources</h5>
+          <a href="index.html#resources">Guides</a>
+          <a href="index.html#insurance">Insurance</a>
+        </div>
+        <div class="footer-col"><h5>Company</h5>
+          <a href="about.html">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">Wellness coverage can vary by insurer, plan, and provider. These are personal discoveries and community recommendations — not guarantees of coverage. Always check with your insurer before booking. This directory is for informational purposes only.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/clinics.js"></script>
+</body>
+</html>
