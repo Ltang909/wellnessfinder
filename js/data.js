@@ -8,7 +8,7 @@
 /* ---------- Treatments (home directory) ---------- */
 const TREATMENTS = [
   { group: "Move Better", name: "Clinical Pilates", billed: "Physio / Chiro",
-    categories: ["Physiotherapy", "Chiropractic"], link: "pilates.html",
+    categories: ["Physiotherapy", "Chiropractic"], link: "/pilates",
     desc: "One-on-one reformer or movement sessions guided by a physiotherapist or rehab professional. A workout experience with a clinical twist — great for posture, strength, mobility, and injury prevention.",
     detail: "Because the session is delivered by a regulated physiotherapist or chiropractor, it's billed as physiotherapy or chiropractic rather than as a fitness class — which is why it often lands inside your extended health benefits." },
 
@@ -18,32 +18,32 @@ const TREATMENTS = [
     detail: "Delivered by an osteopathic practitioner, so it's typically claimed under an osteopathy benefit. Confirm your osteopathy allowance and whether your plan recognizes your provider's designation." },
 
   { group: "Move Better", name: "Golf Swing Assessment", billed: "Physio / Chiro",
-    categories: ["Physiotherapy", "Chiropractic"], link: "golf.html",
+    categories: ["Physiotherapy", "Chiropractic"], link: "/golf",
     desc: "A TPI movement screen for golfers — mobility, stability, and rotation — run by a TPI-certified physiotherapist or chiropractor, not a golf pro.",
     detail: "Because it's a physical screen delivered by a physio or chiro, it's billed like any other physio/chiro visit — worth checking your benefits before assuming it's an out-of-pocket golf lesson." },
 
   { group: "Look & Feel Better", name: "Cosmetic Acupuncture", billed: "Acupuncture / Naturo",
-    categories: ["Acupuncture", "Naturopathy"], link: "naturopath.html",
+    categories: ["Acupuncture", "Naturopathy"], link: "/naturopath",
     desc: "Fine needle treatments focused on skin tone, circulation, and a natural glow.",
     detail: "Often provided by a naturopathic doctor or registered acupuncturist, so it can be claimed under naturopathy or acupuncture depending on the provider's credentials and your plan." },
 
   { group: "Look & Feel Better", name: "Microneedling", billed: "Naturopathy*",
-    categories: ["Naturopathy"], link: "naturopath.html",
+    categories: ["Naturopathy"], link: "/naturopath",
     desc: "Collagen-focused skin treatment often paired with a naturopathic skin consultation. *Coverage varies by provider.",
     detail: "When performed within a naturopathic visit, part of the appointment may be claimable under naturopathy. Coverage varies widely — always confirm with the clinic and your insurer first." },
 
   { group: "Look & Feel Better", name: "Vitamin B Injections", billed: "Naturopathy",
-    categories: ["Naturopathy"], link: "naturopath.html",
+    categories: ["Naturopathy"], link: "/naturopath",
     desc: "A wellness injection often explored for energy support and maintenance.",
     detail: "Administered during a naturopathic appointment and typically billed under naturopathy. Ask whether the injectable itself and the visit are billed separately." },
 
   { group: "Look & Feel Better", name: "Glutathione Injections", billed: "Naturopathy",
-    categories: ["Naturopathy"], link: "naturopath.html",
+    categories: ["Naturopathy"], link: "/naturopath",
     desc: "An antioxidant-focused wellness treatment often explored for skin and overall wellness goals.",
     detail: "Offered by naturopathic doctors and generally claimed under naturopathy. Confirm the per-visit cost and what portion your plan reimburses." },
 
   { group: "Look & Feel Better", name: "IV Vitamin Therapy", billed: "Naturopathy",
-    categories: ["Naturopathy"], link: "naturopath.html",
+    categories: ["Naturopathy"], link: "/naturopath",
     desc: "Personalized vitamin and hydration infusions administered by qualified practitioners.",
     detail: "When supervised by a naturopathic doctor, the consult portion is often claimable under naturopathy even if the infusion itself is out of pocket. Check the split with the clinic." },
 
