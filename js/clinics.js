@@ -1,6 +1,8 @@
 /* ============================================================
    WellFinder — clinic directory engine
-   Powers pilates.html, naturopath.html and golf.html
+   Loads providers from /api/providers.php (falls back to any
+   *_CLINICS arrays in data.js for offline/preview use), then
+   powers pilates.html, naturopath.html and golf.html.
    ============================================================ */
 (function () {
   "use strict";
@@ -39,7 +41,7 @@
       ? `<div class="cc-tags">${f.tags.map((t) => `<span class="cc-tag">${esc(t)}</span>`).join("")}</div>` : "";
     const note = f.note ? `<div class="cc-note">${esc(f.note)}</div>` : "";
     return `
-      <article class="clinic-card" data-search="${esc(f.search || "")}">
+      <article class="clinic-card">
         <div class="cc-top">
           <h3>${esc(f.name)}</h3>
           <span class="cc-badge ${f.badge.cls}">${esc(f.badge.text)}</span>
@@ -59,9 +61,8 @@
     return links;
   }
 
-  /* dynamic city dropdown limited to current province/region */
   function fillCities(select, list, keyFn, placeholder) {
-    const cities = Array.from(new Set(list.map(keyFn))).sort((a, b) => a.localeCompare(b));
+    const cities = Array.from(new Set(list.map(keyFn).filter(Boolean))).sort((a, b) => a.localeCompare(b));
     const cur = select.value;
     select.innerHTML = `<option value="">${placeholder}</option>` +
       cities.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join("");
@@ -70,9 +71,9 @@
 
   function setCount(n, total, noun) {
     const bar = $("#resultBar"); if (!bar) return;
-    $("#resultCount", bar).textContent = n;
-    $("#resultTotal", bar).textContent = `${total} total in database`;
-    $("#resultNoun", bar).textContent = noun;
+    const rc = $("#resultCount", bar); if (rc) rc.textContent = n;
+    const rt = $("#resultTotal", bar); if (rt) rt.textContent = `${total} total in directory`;
+    const rn = $("#resultNoun", bar); if (rn) rn.textContent = noun;
   }
 
   function renderList(container, cards, emptyMsg) {
@@ -83,24 +84,34 @@
     container.innerHTML = cards.join("");
   }
 
-  /* ============================================================
-     PILATES
-     ============================================================ */
-  function initPilates() {
-    const list = $("#clinicList"); if (!list || typeof PILATES_CLINICS === "undefined") return;
-    const state = { prov: "", city: "", chips: new Set() };
-    const total = PILATES_CLINICS.length;
+  function matchSearch(c, term, keys) {
+    if (!term) return true;
+    return keys.some((k) => {
+      let v = c[k];
+      if (Array.isArray(v)) v = v.join(" ");
+      return String(v == null ? "" : v).toLowerCase().includes(term);
+    });
+  }
+  function wireSearch(state, apply) {
+    const box = $("#searchBox");
+    if (!box) return;
+    box.addEventListener("input", () => { state.search = box.value.trim().toLowerCase(); apply(); });
+  }
 
-    // province segmented
+  /* ---------------- PILATES ---------------- */
+  function initPilates(CLINICS) {
+    const list = $("#clinicList"); if (!list) return;
+    const state = { prov: "", city: "", chips: new Set(), search: "" };
+    const total = CLINICS.length;
+    const KEYS = ["name", "city", "loc", "modalities", "billed"];
+
     $$("#provSeg button").forEach((b) => b.addEventListener("click", () => {
       $$("#provSeg button").forEach((x) => x.classList.remove("active"));
-      b.classList.add("active"); state.prov = b.dataset.val;
-      state.city = "";
+      b.classList.add("active"); state.prov = b.dataset.val; state.city = "";
       fillCities(citySel, provFiltered(), (c) => c.city, "All cities");
       apply();
     }));
 
-    // chips
     const chipRow = $("#chipRow");
     chipRow.innerHTML = PILATES_CHIPS.map((c) => `<button class="chip" data-chip="${esc(c)}">${esc(c)}</button>`).join("");
     chipRow.addEventListener("click", (e) => {
@@ -113,19 +124,21 @@
 
     const citySel = $("#citySelect");
     citySel.addEventListener("change", () => { state.city = citySel.value; apply(); });
-    fillCities(citySel, PILATES_CLINICS, (c) => c.city, "All cities");
+    fillCities(citySel, CLINICS, (c) => c.city, "All cities");
 
     $("#resetBtn").addEventListener("click", () => {
-      state.prov = ""; state.city = ""; state.chips.clear();
+      state.prov = ""; state.city = ""; state.chips.clear(); state.search = "";
+      const box = $("#searchBox"); if (box) box.value = "";
       $$("#provSeg button").forEach((x, i) => x.classList.toggle("active", i === 0));
       $$(".chip", chipRow).forEach((x) => x.classList.remove("active"));
-      fillCities(citySel, PILATES_CLINICS, (c) => c.city, "All cities");
-      citySel.value = "";
+      fillCities(citySel, CLINICS, (c) => c.city, "All cities"); citySel.value = "";
       apply();
     });
 
+    wireSearch(state, apply);
+
     function provFiltered() {
-      return PILATES_CLINICS.filter((c) => !state.prov || c.prov === state.prov);
+      return CLINICS.filter((c) => !state.prov || c.prov === state.prov);
     }
     function chipMatch(c) {
       for (const chip of state.chips) {
@@ -138,10 +151,10 @@
       return true;
     }
     function apply() {
-      const filtered = PILATES_CLINICS.filter((c) =>
+      const filtered = CLINICS.filter((c) =>
         (!state.prov || c.prov === state.prov) &&
         (!state.city || c.city === state.city) &&
-        chipMatch(c));
+        chipMatch(c) && matchSearch(c, state.search, KEYS));
       const cards = filtered.map((c) => clinicCardHTML({
         name: c.name,
         badge: { cls: badgeClass(c.db), text: c.directBill ? "Direct bill" : badgeText(c.db) },
@@ -154,24 +167,23 @@
         ],
         links: buildLinks(c),
       }));
-      renderList(list, cards, "Try removing a filter or switching province.");
+      renderList(list, cards, "Try removing a filter, clearing search, or switching province.");
       setCount(filtered.length, total, "clinics");
     }
     apply();
   }
 
-  /* ============================================================
-     NATUROPATH
-     ============================================================ */
-  function initNaturo() {
-    const list = $("#clinicList"); if (!list || typeof NATURO_CLINICS === "undefined") return;
-    const state = { prov: "", city: "", tags: new Set() };
-    const total = NATURO_CLINICS.length;
+  /* ---------------- NATUROPATH ---------------- */
+  function initNaturo(CLINICS) {
+    const list = $("#clinicList"); if (!list) return;
+    const state = { prov: "", city: "", tags: new Set(), search: "" };
+    const total = CLINICS.length;
+    const KEYS = ["name", "city", "loc", "modalities", "billed", "tags"];
 
     $$("#provSeg button").forEach((b) => b.addEventListener("click", () => {
       $$("#provSeg button").forEach((x) => x.classList.remove("active"));
       b.classList.add("active"); state.prov = b.dataset.val; state.city = "";
-      fillCities(citySel, NATURO_CLINICS.filter((c) => !state.prov || c.prov === state.prov), (c) => c.city, "All cities");
+      fillCities(citySel, CLINICS.filter((c) => !state.prov || c.prov === state.prov), (c) => c.city, "All cities");
       apply();
     }));
 
@@ -194,21 +206,25 @@
 
     const citySel = $("#citySelect");
     citySel.addEventListener("change", () => { state.city = citySel.value; apply(); });
-    fillCities(citySel, NATURO_CLINICS, (c) => c.city, "All cities");
+    fillCities(citySel, CLINICS, (c) => c.city, "All cities");
 
     $("#resetBtn").addEventListener("click", () => {
-      state.prov = ""; state.city = ""; state.tags.clear();
+      state.prov = ""; state.city = ""; state.tags.clear(); state.search = "";
+      const box = $("#searchBox"); if (box) box.value = "";
       $$("#provSeg button").forEach((x, i) => x.classList.toggle("active", i === 0));
       $$(".chip", chipRow).forEach((x) => x.classList.toggle("active", x.dataset.chip === "all"));
-      fillCities(citySel, NATURO_CLINICS, (c) => c.city, "All cities"); citySel.value = "";
+      fillCities(citySel, CLINICS, (c) => c.city, "All cities"); citySel.value = "";
       apply();
     });
 
+    wireSearch(state, apply);
+
     function apply() {
-      const filtered = NATURO_CLINICS.filter((c) =>
+      const filtered = CLINICS.filter((c) =>
         (!state.prov || c.prov === state.prov) &&
         (!state.city || c.city === state.city) &&
-        (state.tags.size === 0 || [...state.tags].some((t) => c.tags.includes(t))));
+        (state.tags.size === 0 || [...state.tags].some((t) => (c.tags || []).includes(t))) &&
+        matchSearch(c, state.search, KEYS));
       const cards = filtered.map((c) => clinicCardHTML({
         name: c.name,
         badge: { cls: badgeClass(c.db), text: badgeText(c.db) },
@@ -220,48 +236,51 @@
         ],
         links: buildLinks(c),
       }));
-      renderList(list, cards, "Try selecting All modalities or a different city.");
+      renderList(list, cards, "Try selecting All modalities, clearing search, or a different city.");
       setCount(filtered.length, total, "clinics");
     }
     apply();
   }
 
-  /* ============================================================
-     GOLF
-     ============================================================ */
-  function initGolf() {
-    const list = $("#clinicList"); if (!list || typeof GOLF_CLINICS === "undefined") return;
-    const state = { region: "", city: "", tpiOnly: false };
-    const total = GOLF_CLINICS.length;
+  /* ---------------- GOLF ---------------- */
+  function initGolf(CLINICS) {
+    const list = $("#clinicList"); if (!list) return;
+    const state = { region: "", city: "", tpiOnly: false, search: "" };
+    const total = CLINICS.length;
+    const KEYS = ["name", "city", "loc", "disc", "tpi", "note", "region"];
 
     const regionSel = $("#regionSelect");
     regionSel.innerHTML = `<option value="">All regions</option>` +
       GOLF_REGIONS.map((r) => `<option value="${esc(r)}">${esc(r)}</option>`).join("");
     regionSel.addEventListener("change", () => {
       state.region = regionSel.value; state.city = "";
-      fillCities(citySel, GOLF_CLINICS.filter((c) => !state.region || c.region === state.region), (c) => c.city, "All cities");
+      fillCities(citySel, CLINICS.filter((c) => !state.region || c.region === state.region), (c) => c.city, "All cities");
       apply();
     });
 
     const citySel = $("#citySelect");
     citySel.addEventListener("change", () => { state.city = citySel.value; apply(); });
-    fillCities(citySel, GOLF_CLINICS, (c) => c.city, "All cities");
+    fillCities(citySel, CLINICS, (c) => c.city, "All cities");
 
     const tpiToggle = $("#tpiToggle");
     tpiToggle.addEventListener("change", () => { state.tpiOnly = tpiToggle.checked; apply(); });
 
     $("#resetBtn").addEventListener("click", () => {
-      state.region = ""; state.city = ""; state.tpiOnly = false;
+      state.region = ""; state.city = ""; state.tpiOnly = false; state.search = "";
+      const box = $("#searchBox"); if (box) box.value = "";
       regionSel.value = ""; tpiToggle.checked = false;
-      fillCities(citySel, GOLF_CLINICS, (c) => c.city, "All cities"); citySel.value = "";
+      fillCities(citySel, CLINICS, (c) => c.city, "All cities"); citySel.value = "";
       apply();
     });
 
+    wireSearch(state, apply);
+
     function apply() {
-      const filtered = GOLF_CLINICS.filter((c) =>
+      const filtered = CLINICS.filter((c) =>
         (!state.region || c.region === state.region) &&
         (!state.city || c.city === state.city) &&
-        (!state.tpiOnly || c.tpi));
+        (!state.tpiOnly || c.tpi) &&
+        matchSearch(c, state.search, KEYS));
       const cards = filtered.map((c) => clinicCardHTML({
         name: c.name,
         badge: { cls: badgeClass(c.db), text: badgeText(c.db) },
@@ -276,16 +295,54 @@
         ],
         links: buildLinks(c),
       }));
-      renderList(list, cards, "Try clearing the TPI filter or choosing a different region.");
+      renderList(list, cards, "Try clearing the TPI filter, clearing search, or choosing a different region.");
       setCount(filtered.length, total, "clinics");
     }
     apply();
   }
 
-  document.addEventListener("DOMContentLoaded", () => {
+  /* ---------------- DATA LOADING ---------------- */
+  async function loadProviders(type) {
+    const res = await fetch("api/providers.php?type=" + encodeURIComponent(type), {
+      headers: { "Accept": "application/json" },
+    });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const data = await res.json();
+    if (!data || data.ok !== true) throw new Error((data && data.error) || "Bad response");
+    return data.items || [];
+  }
+
+  function offlineData(page) {
+    if (page === "pilates" && typeof PILATES_CLINICS !== "undefined") return PILATES_CLINICS;
+    if (page === "naturopath" && typeof NATURO_CLINICS !== "undefined") return NATURO_CLINICS;
+    if (page === "golf" && typeof GOLF_CLINICS !== "undefined") return GOLF_CLINICS;
+    return null;
+  }
+
+  function run(page, data) {
+    if (page === "pilates") initPilates(data);
+    else if (page === "naturopath") initNaturo(data);
+    else if (page === "golf") initGolf(data);
+  }
+
+  async function boot() {
     const page = document.body.dataset.page;
-    if (page === "pilates") initPilates();
-    else if (page === "naturopath") initNaturo();
-    else if (page === "golf") initGolf();
-  });
+    if (!["pilates", "naturopath", "golf"].includes(page)) return;
+    const list = $("#clinicList");
+    if (list) list.innerHTML = `<div class="empty-state"><p>Loading providers…</p></div>`;
+    try {
+      const data = await loadProviders(page);
+      run(page, data);
+    } catch (e) {
+      const fallback = offlineData(page);
+      if (fallback) { run(page, fallback); return; }
+      if (list) {
+        list.innerHTML = `<div class="empty-state"><h3>Couldn't load providers</h3>` +
+          `<p>Please refresh the page. If it keeps happening, the directory service may be temporarily unavailable.</p></div>`;
+      }
+      setCount(0, 0, "clinics");
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", boot);
 })();
