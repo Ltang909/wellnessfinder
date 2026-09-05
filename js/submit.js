@@ -10,8 +10,13 @@
   const naturo = document.querySelector(".type-naturopath");
   function sync() {
     const t = typeSel.value;
-    if (golf) golf.hidden = t !== "golf";
-    if (naturo) naturo.hidden = t !== "naturopath";
+    [[golf, t === "golf"], [naturo, t === "naturopath"]].forEach(([section, active]) => {
+      if (!section) return;
+      section.hidden = !active;
+      section.querySelectorAll("input, select, textarea, button").forEach((control) => {
+        control.disabled = !active;
+      });
+    });
   }
   typeSel.addEventListener("change", sync);
   sync();

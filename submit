@@ -59,6 +59,9 @@
   <section class="section">
     <div class="wrap wrap--narrow">
       <form id="submitForm" class="submit-form" novalidate>
+        <noscript>
+          <p class="form-status err">This form requires JavaScript. To suggest a provider, please <a href="https://instagram.com/chimai0403">message us on Instagram</a>.</p>
+        </noscript>
         <div class="field">
           <label for="type">Category *</label>
           <select id="type" name="type" required>
