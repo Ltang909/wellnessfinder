@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Suggest a provider — WellFinder</title>
+  <meta name="description" content="Know a clinic offering covered wellness treatments? Suggest it and we'll review it for the WellFinder directory." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="submit">
+
+<header class="site-header">
+    <div class="wrap">
+      <nav class="nav">
+        <a class="brand" href="/"><img src="assets/wellfinder-mark.svg" alt="" width="34" height="34" /> WellFinder</a>
+        <div class="nav-links">
+          <a href="/#directory">Browse Treatments</a>
+          <a href="/pilates">Pilates Clinics</a>
+          <a href="/naturopath">Naturopath Clinics</a>
+          <a href="/golf">Golf Clinics</a>
+          <a href="/#insurance">Insurance Benefits</a>
+          <a href="/#resources">Resources</a>
+          <a href="/about">About</a>
+        </div>
+        <div class="nav-right">
+          <span id="favCount" class="nav-chip" style="display:none"></span>
+          <a class="btn btn--honey btn--sm" href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Get in touch</a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </nav>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="/#directory">Browse Treatments</a>
+      <a href="/#insurance">Insurance Benefits</a>
+      <a href="/about">About</a>
+      <div class="mm-group">
+        <a href="/pilates">Pilates</a>
+        <a href="/naturopath">Naturopath</a>
+        <a href="/golf">Golf</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="subhero">
+    <div class="wrap">
+      <a class="back" href="/">← Back to WellFinder</a>
+      <p class="eyebrow">Community</p>
+      <h1>Suggest a <em>provider.</em></h1>
+      <p>Found a clinic offering a covered wellness treatment that isn't listed yet? Share what you know. Submissions go into a review queue, and once approved they appear in the directory.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap wrap--narrow">
+      <form id="submitForm" class="submit-form" novalidate>
+        <div class="field">
+          <label for="type">Category *</label>
+          <select id="type" name="type" required>
+            <option value="">Choose one…</option>
+            <option value="pilates">Pilates</option>
+            <option value="naturopath">Naturopathic aesthetics</option>
+            <option value="golf">Golf / TPI assessment</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="name">Provider / clinic name *</label>
+          <input type="text" id="name" name="name" required maxlength="250" />
+        </div>
+
+        <div class="grid-2">
+          <div class="field">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" maxlength="120" />
+          </div>
+          <div class="field">
+            <label for="province">Province</label>
+            <select id="province" name="province">
+              <option value="">—</option>
+              <option value="ON">ON</option>
+              <option value="BC">BC</option>
+              <option value="AB">AB</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="location">Location / address</label>
+          <input type="text" id="location" name="location" maxlength="300" placeholder="Neighbourhood or full address" />
+        </div>
+
+        <div class="grid-2">
+          <div class="field">
+            <label for="website">Website</label>
+            <input type="url" id="website" name="website" maxlength="250" placeholder="https://" />
+          </div>
+          <div class="field">
+            <label for="billed">Billed as</label>
+            <input type="text" id="billed" name="billed" maxlength="250" placeholder="Physiotherapy, Chiropractic, Naturopathy…" />
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="field">
+            <label for="modalities">Modalities / services</label>
+            <input type="text" id="modalities" name="modalities" maxlength="300" placeholder="Reformer, Mat, IV therapy…" />
+          </div>
+          <div class="field">
+            <label for="price">Price</label>
+            <input type="text" id="price" name="price" maxlength="120" placeholder="e.g. $140, or leave blank" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="directBilling">Direct billing to insurance?</label>
+          <select id="directBilling" name="directBilling">
+            <option value="">Not sure</option>
+            <option value="Yes">Yes</option>
+            <option value="No">No</option>
+            <option value="Confirm w/ clinic">Confirm with clinic</option>
+          </select>
+        </div>
+
+        <!-- Golf-specific -->
+        <div class="type-golf" hidden>
+          <div class="grid-2">
+            <div class="field">
+              <label for="tpi">TPI certification</label>
+              <input type="text" id="tpi" name="tpi" maxlength="120" placeholder="e.g. TPI Level 2" />
+            </div>
+            <div class="field">
+              <label for="region">Region</label>
+              <input type="text" id="region" name="region" maxlength="60" placeholder="York, Peel, Toronto…" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="bookingUrl">Booking link</label>
+            <input type="url" id="bookingUrl" name="bookingUrl" maxlength="250" placeholder="https://" />
+          </div>
+        </div>
+
+        <!-- Naturopath-specific -->
+        <div class="type-naturopath" hidden>
+          <div class="field">
+            <label for="tags">Treatment tags</label>
+            <input type="text" id="tags" name="tags" maxlength="300" placeholder="microneedling, cosmetic-acupuncture, iv-therapy…" />
+            <p class="hint">Comma-separated. Helps the modality filters on the site.</p>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <div class="field">
+            <label for="email">Provider contact email</label>
+            <input type="email" id="email" name="email" maxlength="250" placeholder="Optional" />
+          </div>
+          <div class="field">
+            <label for="submitter">Your email</label>
+            <input type="email" id="submitter" name="submitter" maxlength="250" placeholder="Optional — so we can follow up" />
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="note">Anything else?</label>
+          <textarea id="note" name="note" rows="3" maxlength="500" placeholder="How you heard it's covered, what to ask for, etc."></textarea>
+        </div>
+
+        <!-- honeypot: hidden from people, catches bots -->
+        <div class="hp" aria-hidden="true">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" tabindex="-1" autocomplete="off" />
+        </div>
+
+        <div class="submit-row">
+          <button type="submit" class="btn btn--primary" id="submitBtn">Submit for review</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </div>
+        <p class="submit-disclaimer">Submissions are reviewed before appearing on the site. Coverage always depends on your specific plan — this is a suggestion, not a guarantee.</p>
+      </form>
+    </div>
+  </section>
+
+<footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="assets/wellfinder-mark.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p class="footer-tag">Find well. Live well.</p>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col"><h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/pilates">Clinics</a>
+          <a href="/#categories">Categories</a>
+        </div>
+        <div class="footer-col"><h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+          <a href="/#insurance">Insurance</a>
+        </div>
+        <div class="footer-col"><h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">Wellness coverage can vary by insurer, plan, and provider. These are personal discoveries and community recommendations — not guarantees of coverage. Always check with your insurer before booking. This directory is for informational purposes only.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/submit.js"></script>
+</body>
+</html>
