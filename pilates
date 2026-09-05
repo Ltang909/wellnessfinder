@@ -55,6 +55,7 @@
       <h1>Clinics offering Pilates <em>billed as physio or chiro.</em></h1>
       <p>This list is <span class="scraped">scraped from public sources</span>, so please double-check pricing, direct billing, and coverage directly with each clinic via email or their website before booking.</p>
       <div class="subhero-actions">
+        <a class="btn btn--primary btn--sm" href="/submit">Suggest a provider</a>
         <button class="btn btn--ghost btn--sm" data-share type="button">Share this list</button>
       </div>
     </div>
@@ -64,6 +65,10 @@
     <div class="wrap">
       <div class="filters">
         <div class="filters-row">
+          <div class="filter-field" style="flex:1 1 100%">
+            <label for="searchBox">Search providers</label>
+            <input type="search" id="searchBox" class="search-input" placeholder="Search by name, city, or modality…">
+          </div>
           <div class="filter-field">
             <label>Province</label>
             <div class="seg" id="provSeg">
