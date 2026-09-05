@@ -1,0 +1,3 @@
+# Protected config files (only on Hostinger)
+/portal/config.php
+/api/config.php
