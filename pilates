@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Pilates clinics covered by your benefits — WellFinder</title>
-  <meta name="description" content="A scraped, filterable list of clinics offering Clinical Pilates billed as physiotherapy or chiropractic. Filter by modality, direct billing, or city." />
-  <meta property="og:title" content="Pilates clinics covered by benefits — WellFinder" />
+  <title>Naturopathic aesthetics clinics — WellFinder</title>
+  <meta name="description" content="Microneedling, cosmetic acupuncture, IV drips and vitamin injections tucked inside your naturopathic benefits. Filter by city and modality." />
+  <meta property="og:title" content="Naturopathic aesthetics clinics — WellFinder" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body data-page="pilates">
+<body data-page="naturopath">
 
   <header class="site-header">
     <div class="wrap">
@@ -51,9 +51,9 @@
   <section class="subhero">
     <div class="wrap">
       <a class="back" href="/">← Back to WellFinder</a>
-      <p class="eyebrow">Pilates directory</p>
-      <h1>Clinics offering Pilates <em>billed as physio or chiro.</em></h1>
-      <p>This list is <span class="scraped">scraped from public sources</span>, so please double-check pricing, direct billing, and coverage directly with each clinic via email or their website before booking.</p>
+      <p class="eyebrow">A WellFinder directory</p>
+      <h1>Every naturopathic aesthetics clinic, <em>mapped and priced.</em></h1>
+      <p>Microneedling, cosmetic acupuncture, IV drips, and vitamin injections tucked inside your naturopathic benefits. I haven't personally tried every clinic below — some are gathered leads. Please confirm modality, pricing, and direct billing directly with each clinic before booking.</p>
       <div class="subhero-actions">
         <a class="btn btn--primary btn--sm" href="/submit">Suggest a provider</a>
         <button class="btn btn--ghost btn--sm" data-share type="button">Share this list</button>
@@ -75,6 +75,7 @@
               <button class="active" data-val="">All</button>
               <button data-val="ON">ON</button>
               <button data-val="BC">BC</button>
+              <button data-val="AB">AB</button>
             </div>
           </div>
           <div class="filter-field">
@@ -82,7 +83,7 @@
             <select id="citySelect"></select>
           </div>
           <div class="filter-field" style="flex:1 1 100%">
-            <label>Filter</label>
+            <label>Filter by modality</label>
             <div class="chip-row" id="chipRow"></div>
           </div>
         </div>
