@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>TPI golf assessments covered by your benefits — WellFinder</title>
   <meta name="description" content="Every TPI golf assessment WellFinder has found across the GTA — billed under physiotherapy or chiropractic, filterable by region, city, and TPI certification." />
-  <meta property="og:title" content="The Golf Files — WellFinder " />
+  <meta property="og:title" content="The Golf Files — WellFinder" />
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -55,6 +55,7 @@
       <h1>Every TPI golf assessment, <em>mapped across the GTA.</em></h1>
       <p>Golf Swing Assessment sat in my "still exploring" list for a while — turns out it's a real, billable thing under physio and chiro, and there are more clinics doing it than I expected. This list is <span class="scraped">scraped from public sources</span>, so double-check pricing, direct billing, and coverage with each clinic before booking.</p>
       <div class="subhero-actions">
+        <a class="btn btn--primary btn--sm" href="/submit">Suggest a provider</a>
         <button class="btn btn--ghost btn--sm" data-share type="button">Share this list</button>
       </div>
     </div>
@@ -80,6 +81,10 @@
     <div class="wrap">
       <div class="filters">
         <div class="filters-row">
+          <div class="filter-field" style="flex:1 1 100%">
+            <label for="searchBox">Search providers</label>
+            <input type="search" id="searchBox" class="search-input" placeholder="Search by name, city, or modality…">
+          </div>
           <div class="filter-field">
             <label for="regionSelect">Region</label>
             <select id="regionSelect"></select>
