@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Naturopathic aesthetics clinics — WellFinder</title>
-  <meta name="description" content="Microneedling, cosmetic acupuncture, IV drips and vitamin injections tucked inside your naturopathic benefits. Filter by city and modality." />
-  <meta property="og:title" content="Naturopathic aesthetics clinics — WellFinder" />
+  <title>Clinical Pilates clinics — WellFinder</title>
+  <meta name="description" content="Reformer and mat Clinical Pilates billed through physiotherapy or chiropractic — covered by your benefits, not an out-of-pocket studio rate. Filter by city and modality." />
+  <meta property="og:title" content="Clinical Pilates clinics — WellFinder" />
   <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body data-page="naturopath">
+<body data-page="pilates">
 
   <header class="site-header">
     <div class="wrap">
@@ -52,8 +52,8 @@
     <div class="wrap">
       <a class="back" href="/">← Back to WellFinder</a>
       <p class="eyebrow">A WellFinder directory</p>
-      <h1>Every naturopathic aesthetics clinic, <em>mapped and priced.</em></h1>
-      <p>Microneedling, cosmetic acupuncture, IV drips, and vitamin injections tucked inside your naturopathic benefits. I haven't personally tried every clinic below — some are gathered leads. Please confirm modality, pricing, and direct billing directly with each clinic before booking.</p>
+      <h1>Every Clinical Pilates studio, <em>mapped and priced.</em></h1>
+      <p>Clinical Pilates — billed through physiotherapy or chiropractic, not a studio drop-in rate — hiding inside your paramedical benefits. I haven't personally tried every clinic below — some are gathered leads. Please confirm modality, pricing, and direct billing directly with each clinic before booking.</p>
       <div class="subhero-actions">
         <a class="btn btn--primary btn--sm" href="/submit">Suggest a provider</a>
         <button class="btn btn--ghost btn--sm" data-share type="button">Share this list</button>
