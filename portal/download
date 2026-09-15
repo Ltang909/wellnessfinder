@@ -1,0 +1,14 @@
+# Block direct browser access to portal config/sample files.
+# (They're PHP, so requesting them just runs blank code rather than leaking
+# the credentials inside — but there's no reason to allow the request at all.)
+<FilesMatch "^config(\.sample)?\.php$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
+Options -Indexes
