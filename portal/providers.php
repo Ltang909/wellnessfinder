@@ -95,11 +95,18 @@ render_header('Providers');
 <?php else: ?>
 <div class="table-scroll">
   <table class="data-table admin-table">
-    <thead><tr><th>Name</th><th>Type</th><th>Location</th><th>Status</th><th>Actions</th></tr></thead>
+    <thead><tr><th></th><th>Name</th><th>Type</th><th>Location</th><th>Status</th><th>Actions</th></tr></thead>
     <tbody>
       <?php foreach ($rows as $r):
         $st = strtolower((string) ($r['Status'] ?? '')); ?>
         <tr>
+          <td>
+            <?php if (!empty($r['Image'])): ?>
+              <img class="thumb" src="<?= h('../' . ltrim((string) $r['Image'], '/')) ?>" alt="">
+            <?php else: ?>
+              <span class="thumb thumb-empty" aria-hidden="true"></span>
+            <?php endif; ?>
+          </td>
           <td>
             <strong><?= h((string) $r['Name']) ?></strong>
             <?php if (!empty($r['Submitter'])): ?><div class="sub">submitted by <?= h((string) $r['Submitter']) ?></div><?php endif; ?>
