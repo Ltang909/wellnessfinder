@@ -27,11 +27,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $errors = provider_validate($data);
     if (!$errors) {
         try {
+            $removeImage = !empty($_POST['remove_image']);
+            $data['Image'] = provider_process_image($_FILES['Image'] ?? null, $removeImage, $row['Image'] ?? null);
+        } catch (RuntimeException $e) {
+            $errors[] = $e->getMessage();
+        }
+    }
+    if (!$errors) {
+        try {
             provider_update($id, $data);
             redirect('providers.php?saved=updated');
         } catch (Throwable $e) {
             $errors[] = 'Could not save your changes.';
         }
+    } else {
+        $p['Image'] = $row['Image'] ?? null; // keep showing the current photo alongside the errors
     }
 }
 
@@ -44,7 +54,7 @@ render_header('Edit provider');
 
 <?php if ($errors): ?><div class="notice error"><?= h(implode(' ', $errors)) ?></div><?php endif; ?>
 
-<form method="post" class="pform" autocomplete="off">
+<form method="post" class="pform" autocomplete="off" enctype="multipart/form-data">
   <?= csrf_field() ?>
   <input type="hidden" name="id" value="<?= (int) $id ?>">
   <?php include __DIR__ . '/_form_fields.php'; ?>
