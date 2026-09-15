@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 require_once __DIR__ . '/lib.php';
+require_once __DIR__ . '/image_lib.php';
 
 const PROVIDER_TYPES    = ['Pilates', 'Naturopath', 'Golf'];
 const PROVIDER_STATUSES = ['approved', 'pending', 'rejected'];
