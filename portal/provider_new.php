@@ -12,6 +12,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $errors = provider_validate($data);
     if (!$errors) {
         try {
+            $data['Image'] = provider_process_image($_FILES['Image'] ?? null, false, null);
+        } catch (RuntimeException $e) {
+            $errors[] = $e->getMessage();
+        }
+    }
+    if (!$errors) {
+        try {
             provider_insert($data);
             redirect('providers.php?saved=added');
         } catch (Throwable $e) {
@@ -27,7 +34,7 @@ render_header('Add provider');
 
 <?php if ($errors): ?><div class="notice error"><?= h(implode(' ', $errors)) ?></div><?php endif; ?>
 
-<form method="post" class="pform" autocomplete="off">
+<form method="post" class="pform" autocomplete="off" enctype="multipart/form-data">
   <?= csrf_field() ?>
   <?php include __DIR__ . '/_form_fields.php'; ?>
   <div class="pform-actions">
