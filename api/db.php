@@ -59,6 +59,7 @@ function map_provider(string $type, array $r): array {
                 'modalities' => $r['Modalities'] ?? '', 'billed' => $r['Billed'] ?? '',
                 'price' => $r['Price'] ?? '', 'db' => $db,
                 'web' => $r['Website'] ?? '', 'email' => $r['EmailContact'] ?: null,
+                'image' => image_url($r['Image'] ?? null),
             ];
         case 'Naturopath':
             $tags = trim((string) ($r['Tags'] ?? ''));
@@ -69,6 +70,7 @@ function map_provider(string $type, array $r): array {
                 'price' => $r['Price'] ?? '', 'web' => $r['Website'] ?: null,
                 'email' => $r['EmailContact'] ?: null,
                 'tags' => $tags === '' ? [] : array_values(array_filter(array_map('trim', explode(',', $tags)))),
+                'image' => image_url($r['Image'] ?? null),
             ];
         case 'Golf':
         default:
@@ -78,6 +80,14 @@ function map_provider(string $type, array $r): array {
                 'region' => $r['Region'], 'note' => $r['Note'] ?: null, 'db' => $db,
                 'price' => $r['Price'] ?? '', 'web' => $r['Website'] ?: null,
                 'email' => $r['EmailContact'] ?: null, 'book' => $r['BookingUrl'] ?: null,
+                'image' => image_url($r['Image'] ?? null),
             ];
     }
+}
+
+/* Turn a stored "uploads/providers/xyz.jpg" path into a root-relative URL
+   the front-end can drop straight into an <img src>. */
+function image_url(?string $path): ?string {
+    $path = trim((string) $path);
+    return $path === '' ? null : '/' . ltrim($path, '/');
 }
