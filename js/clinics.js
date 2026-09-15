@@ -40,8 +40,10 @@
     const tags = (f.tags && f.tags.length)
       ? `<div class="cc-tags">${f.tags.map((t) => `<span class="cc-tag">${esc(t)}</span>`).join("")}</div>` : "";
     const note = f.note ? `<div class="cc-note">${esc(f.note)}</div>` : "";
+    const photo = f.image ? `<img class="cc-photo" src="${esc(f.image)}" alt="" loading="lazy">` : "";
     return `
       <article class="clinic-card">
+        ${photo}
         <div class="cc-top">
           <h3>${esc(f.name)}</h3>
           <span class="cc-badge ${f.badge.cls}">${esc(f.badge.text)}</span>
@@ -158,7 +160,7 @@
       const cards = filtered.map((c) => clinicCardHTML({
         name: c.name,
         badge: { cls: badgeClass(c.db), text: c.directBill ? "Direct bill" : badgeText(c.db) },
-        loc: c.loc, mapsQ: c.name + " " + c.loc,
+        loc: c.loc, mapsQ: c.name + " " + c.loc, image: c.image,
         meta: [
           { label: "Modalities", val: c.modalities },
           { label: "Billed as", val: c.billed },
@@ -228,7 +230,7 @@
       const cards = filtered.map((c) => clinicCardHTML({
         name: c.name,
         badge: { cls: badgeClass(c.db), text: badgeText(c.db) },
-        loc: c.loc, mapsQ: c.name + " " + c.loc,
+        loc: c.loc, mapsQ: c.name + " " + c.loc, image: c.image,
         meta: [
           { label: "Modalities", val: c.modalities },
           { label: "Billed as", val: c.billed },
@@ -284,7 +286,7 @@
       const cards = filtered.map((c) => clinicCardHTML({
         name: c.name,
         badge: { cls: badgeClass(c.db), text: badgeText(c.db) },
-        loc: c.loc, mapsQ: c.name + " " + c.loc,
+        loc: c.loc, mapsQ: c.name + " " + c.loc, image: c.image,
         note: c.note,
         tags: [c.disc, c.tpi].filter(Boolean),
         meta: [
