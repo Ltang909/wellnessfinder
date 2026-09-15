@@ -1,3 +1,9 @@
 # Protected config files (only on Hostinger)
 /portal/config.php
 /api/config.php
+
+# Uploaded provider photos live only on the server — never in git.
+# If your Hostinger deploy ever runs `git clean`/force-checkout instead of
+# a plain `git pull`, check that it doesn't wipe this folder.
+/uploads/providers/*
+!/uploads/providers/.gitkeep
