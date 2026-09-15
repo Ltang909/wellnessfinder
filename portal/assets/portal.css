@@ -179,6 +179,11 @@ h1,h2,h3{font-family:"Fraunces",Georgia,serif; font-weight:600; color:var(--pine
 .pform input:focus, .pform select:focus, .pform textarea:focus { outline: none; border-color: var(--forest); box-shadow: 0 0 0 3px rgba(46,93,80,.12); }
 .pform textarea { resize: vertical; }
 .pform .hint { font-size: .78rem; color: var(--muted); margin: 2px 0 0; }
+.image-preview { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+.image-preview img { width: 96px; height: 72px; object-fit: cover; border-radius: 8px; border: 1px solid var(--line); }
+.remove-toggle { display: flex; align-items: center; gap: 6px; font-size: .82rem; font-weight: 500; text-transform: none; letter-spacing: normal; color: var(--ink); }
+.thumb { width: 44px; height: 36px; object-fit: cover; border-radius: 6px; display: block; border: 1px solid var(--line); }
+.thumb-empty { background: var(--paper); }
 .pform-actions { display: flex; gap: 12px; align-items: center; margin-top: 4px; }
 .form-flash { background: #dcefe4; color: #1f6b4c; border-radius: 10px; padding: 11px 15px; font-weight: 600; margin: 0 0 18px; }
 
