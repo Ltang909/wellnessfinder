@@ -1,24 +1,21 @@
-# WellFinder — public_html root
-# Your public pages (pilates, naturopath, golf, about, submit) are saved
-# WITHOUT a .html extension. Without the two rules below, Apache doesn't
-# know they're HTML and browsers may download them instead of rendering them.
-
-DirectoryIndex index.html
-
-<IfModule mod_mime.c>
-  AddType text/html .html
+# CRITICAL: this folder only ever holds resized JPEGs written by
+# portal/image_lib.php. Never let anything in it execute as a script,
+# in case someone ever manages to drop a disguised file in here.
+<IfModule mod_php.c>
+  php_flag engine off
+</IfModule>
+<IfModule mod_php7.c>
+  php_flag engine off
 </IfModule>
 
-<FilesMatch "^(pilates|naturopath|golf|about|submit)$">
-  ForceType text/html
+<FilesMatch "\.(php|phtml|php\d|phar|cgi|pl)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
 </FilesMatch>
-
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-
-  # /pilates.html (or any old bookmark/search-engine link) -> /pilates
-  RewriteCond %{THE_REQUEST} \s/+([^?\s]+)\.html[\s?] [NC]
-  RewriteRule ^ /%1 [R=301,L]
-</IfModule>
 
 Options -Indexes
