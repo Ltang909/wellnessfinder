@@ -24,6 +24,18 @@ $statuses = ['approved', 'pending', 'rejected'];
 
 <div class="field"><label for="Name">Name *</label><input id="Name" name="Name" required maxlength="250" value="<?= $pv('Name') ?>"></div>
 
+<div class="field">
+  <label for="Image">Photo</label>
+  <?php if (!empty($p['Image'])): ?>
+    <div class="image-preview">
+      <img src="<?= h('../' . ltrim((string) $p['Image'], '/')) ?>" alt="Current photo">
+      <label class="remove-toggle"><input type="checkbox" name="remove_image" value="1"> Remove current photo</label>
+    </div>
+  <?php endif; ?>
+  <input type="file" id="Image" name="Image" accept="image/jpeg,image/png,image/webp">
+  <p class="hint">JPG, PNG or WEBP, up to 5 MB. It's resized automatically — no need to shrink it first.</p>
+</div>
+
 <div class="row">
   <div class="field"><label for="City">City</label><input id="City" name="City" maxlength="120" value="<?= $pv('City') ?>"></div>
   <div class="field"><label for="Province">Province</label><input id="Province" name="Province" maxlength="10" placeholder="ON / BC / AB" value="<?= $pv('Province') ?>"></div>
