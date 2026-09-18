@@ -90,14 +90,14 @@
     <button class="modal-close" id="closeEmailModal" type="button" aria-label="Close">×</button>
     <div class="email-icon" aria-hidden="true">✦</div>
     <p class="eyebrow">Keep your shortlist handy</p>
-    <h2 id="emailTitle">Send my saved benefits</h2>
-    <p>Enter your email to keep your shortlist and hear when new matching clinics are added.</p>
+    <h2 id="emailTitle">Save my email</h2>
+    <p>Enter your email to complete the shortlist experience and preview future clinic updates.</p>
     <form id="emailForm">
       <label for="discoverEmail">Email address</label>
-      <div class="email-row"><input id="discoverEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required /><button class="btn btn--primary" type="submit">Send my list</button></div>
+      <div class="email-row"><input id="discoverEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required /><button class="btn btn--primary" type="submit">Save email</button></div>
       <small>No spam. Unsubscribe anytime.</small>
     </form>
-    <div class="email-success" id="emailSuccess" hidden><strong>You’re on the list.</strong><p>Your saved benefits are also ready to view right now.</p><a class="btn btn--primary" href="/saved">View saved benefits</a></div>
+    <div class="email-success" id="emailSuccess" hidden><strong>Email saved for this preview.</strong><p>Your saved benefits are ready to view right now.</p><a class="btn btn--primary" href="/saved">View saved benefits</a></div>
   </dialog>
 
   <script src="js/data.js"></script>
