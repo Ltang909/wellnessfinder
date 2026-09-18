@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Discover Treatments — WellFinder</title>
+  <meta name="description" content="Swipe through wellness treatments that may be covered by your extended health benefits." />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/discover.css" />
+</head>
+<body data-page="discover">
+  <header class="site-header">
+    <div class="wrap">
+      <nav class="nav">
+        <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+        <div class="nav-links">
+          <a class="discover-nav-active" href="/discover">Discover</a>
+          <a href="/#directory">Browse Treatments</a>
+          <a href="/pilates">Pilates Clinics</a>
+          <a href="/naturopath">Naturopath Clinics</a>
+          <a href="/golf">Golf Clinics</a>
+          <a href="/#insurance">Insurance Benefits</a>
+          <a href="/about">About</a>
+        </div>
+        <div class="nav-right">
+          <span id="favCount" class="nav-chip" style="display:none"></span>
+          <a class="btn btn--honey btn--sm" href="/#subscribe">Become a Founding User</a>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+      </nav>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="/discover">Discover treatments</a>
+      <a href="/#directory">Browse Treatments</a>
+      <a href="/#insurance">Insurance Benefits</a>
+      <a href="/about">About</a>
+      <div class="mm-group">
+        <a href="/pilates">Pilates</a>
+        <a href="/naturopath">Naturopath</a>
+        <a href="/golf">Golf</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="discover-page">
+    <section class="discover-shell" aria-labelledby="discoverTitle">
+      <div class="discover-intro">
+        <div class="discover-progress-row">
+          <span id="cardProgress">1 of 11</span>
+          <span class="progress-dot" aria-hidden="true"></span>
+          <span id="savedProgress">0 saved</span>
+        </div>
+        <h1 id="discoverTitle">Find the benefit you didn’t know you had.</h1>
+        <p>Swipe right to save it. Swipe left to keep exploring.</p>
+        <div class="discover-progress-track" aria-hidden="true"><span id="progressBar"></span></div>
+      </div>
+
+      <div class="discover-stage" id="discoverStage">
+        <div class="discover-card-wrap" id="cardWrap" aria-live="polite"></div>
+        <div class="swipe-toast" id="swipeToast" role="status" aria-live="polite"></div>
+      </div>
+
+      <div class="discover-actions" id="discoverActions">
+        <button class="swipe-action swipe-action--skip" id="skipBtn" type="button">
+          <span class="action-icon" aria-hidden="true">←</span>
+          <span><strong>Skip</strong><small>Not for me</small></span>
+        </button>
+        <p class="drag-hint"><span aria-hidden="true">↔</span> Drag the card or use the buttons</p>
+        <button class="swipe-action swipe-action--save" id="saveBtn" type="button">
+          <span><strong>Save</strong><small>Add to my list</small></span>
+          <span class="action-icon" aria-hidden="true">♥</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="discover-footer">
+    <a href="/#directory">Prefer a list? Browse every treatment →</a>
+    <p>Coverage varies by insurer, plan and provider. Always confirm before booking.</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/discover.js"></script>
+</body>
+</html>
