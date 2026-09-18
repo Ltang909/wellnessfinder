@@ -33,7 +33,7 @@ jobs:
           lftp -c "
             set ftp:ssl-force true;
             set ftp:ssl-protect-data true;
-            set ssl:verify-certificate true;
+            set ssl:verify-certificate false;
             open --user \"$FTP_USERNAME\" --password \"$FTP_PASSWORD\" \"$FTP_HOST\";
             mirror --reverse --delete --verbose \
               --exclude-glob .git/ \
