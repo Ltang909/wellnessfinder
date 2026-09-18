@@ -1,3 +1,4 @@
+# Deploys the staging branch to staging.wellfinder.ca
 name: Deploy staging
 
 on:
