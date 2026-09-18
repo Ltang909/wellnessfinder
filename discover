@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Discover Treatments — WellFinder</title>
-  <meta name="description" content="Swipe through wellness treatments that may be covered by your extended health benefits." />
+  <title>Discover Providers — WellFinder</title>
+  <meta name="description" content="Swipe through wellness providers and save the clinics that feel right for you." />
   <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,7 +37,7 @@
           </details>
         </div>
         <div class="nav-right">
-          <a class="saved-nav" href="/saved" aria-label="View saved benefits"><span aria-hidden="true">♡</span> Saved <b id="savedNavCount">0</b></a>
+          <a class="saved-nav" href="/saved" aria-label="View saved providers"><span aria-hidden="true">♡</span> Saved <b id="savedNavCount">0</b></a>
           <a class="btn btn--honey btn--sm founding-cta" href="/#subscribe">Join WellFinder</a>
         </div>
         <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
@@ -62,8 +62,8 @@
         <div class="discover-progress-row">
           <span id="cardProgress">1 of 11</span><span class="progress-dot" aria-hidden="true"></span><span id="savedProgress">0 saved</span>
         </div>
-        <h1 id="discoverTitle">What could your benefits cover?</h1>
-        <p>Swipe right to save. Swipe left to keep exploring.</p>
+        <h1 id="discoverTitle">Meet providers that fit your wellness goals.</h1>
+        <p>Swipe right to save a provider. Swipe left to pass.</p>
         <div class="discover-progress-track" aria-hidden="true"><span id="progressBar"></span></div>
       </div>
 
@@ -89,7 +89,7 @@
   <dialog class="email-modal" id="emailModal" aria-labelledby="emailTitle">
     <button class="modal-close" id="closeEmailModal" type="button" aria-label="Close">×</button>
     <div class="email-icon" aria-hidden="true">✦</div>
-    <p class="eyebrow">Keep your shortlist handy</p>
+    <p class="eyebrow">Keep your provider shortlist handy</p>
     <h2 id="emailTitle">Save my email</h2>
     <p>Enter your email to complete the shortlist experience and preview future clinic updates.</p>
     <form id="emailForm">
@@ -97,7 +97,7 @@
       <div class="email-row"><input id="discoverEmail" name="email" type="email" autocomplete="email" placeholder="you@example.com" required /><button class="btn btn--primary" type="submit">Save email</button></div>
       <small>No spam. Unsubscribe anytime.</small>
     </form>
-    <div class="email-success" id="emailSuccess" hidden><strong>Email saved for this preview.</strong><p>Your saved benefits are ready to view right now.</p><a class="btn btn--primary" href="/saved">View saved benefits</a></div>
+    <div class="email-success" id="emailSuccess" hidden><strong>Email saved for this preview.</strong><p>Your saved providers are ready to view right now.</p><a class="btn btn--primary" href="/saved">View saved benefits</a></div>
   </dialog>
 
   <script src="js/data.js"></script>
