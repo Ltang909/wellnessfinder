@@ -13,11 +13,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <title>TPI golf assessments covered by your benefits — WellFinder</title>
   <meta name="description" content="Every TPI golf assessment WellFinder has found across the GTA — billed under physiotherapy or chiropractic, filterable by region, city, and TPI certification." />
   <meta property="og:title" content="The Golf Files — WellFinder" />
-  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="icon" href="/assets/favicon-active.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="/css/styles.css" />
 </head>
 <body data-page="golf">
 <!-- Google Tag Manager (noscript) -->
@@ -27,7 +27,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <header class="site-header">
     <div class="wrap">
       <nav class="nav">
-        <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+        <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
         <div class="nav-links">
           <a href="/#directory">Browse Treatments</a>
           <a href="/pilates">Pilates Clinics</a>
@@ -39,7 +39,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="nav-right">
           <span id="favCount" class="nav-chip" style="display:none"></span>
-          <a class="btn btn--honey btn--sm" href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Get in touch</a>
+          <a class="btn btn--honey btn--sm" href="/#subscribe">Become a Founding User</a>
         </div>
         <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
@@ -49,6 +49,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="mobile-menu" id="mobileMenu">
       <a href="/#directory">Browse Treatments</a>
       <a href="/#insurance">Insurance Benefits</a>
+      <a href="/#resources">Resources</a>
       <a href="/about">About</a>
       <div class="mm-group">
         <a href="/pilates">Pilates</a>
@@ -127,7 +128,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="wrap">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
           <p class="footer-tag">Find well. Live well.</p>
           <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
           <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
@@ -150,8 +151,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </footer>
 
-  <script src="js/data.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/clinics.js"></script>
+  <script src="/js/data.js"></script>
+  <script src="/js/app.js"></script>
+  <script src="/js/clinics.js"></script>
 </body>
 </html>

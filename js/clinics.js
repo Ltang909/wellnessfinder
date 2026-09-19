@@ -28,10 +28,24 @@
     return db;
   }
 
+  /* Deterministic brand tile shown when a provider has no photo yet. */
+  const MONO_CLASSES = ["mono-0", "mono-1", "mono-2", "mono-3"];
+  function monoClass(name) {
+    let h = 0;
+    for (const ch of String(name || "")) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+    return MONO_CLASSES[h % MONO_CLASSES.length];
+  }
+  function initial(name) {
+    const c = String(name || "").trim().charAt(0);
+    return c ? c.toUpperCase() : "•";
+  }
+
   function clinicCardHTML(f) {
-    const meta = f.meta.map((m) =>
-      `<div><div class="m-label">${esc(m.label)}</div><div class="m-val">${esc(m.val)}</div></div>`
-    ).join("");
+    const meta = f.meta
+      .filter((m) => String(m.val == null ? "" : m.val).trim() !== "")
+      .map((m) =>
+        `<div><div class="m-label">${esc(m.label)}</div><div class="m-val">${esc(m.val)}</div></div>`
+      ).join("");
     const links = f.links.map((l) => {
       const isMail = /^mailto:/i.test(l.href);
       const attrs = isMail ? "" : `target="_blank" rel="noopener"`;
@@ -40,7 +54,9 @@
     const tags = (f.tags && f.tags.length)
       ? `<div class="cc-tags">${f.tags.map((t) => `<span class="cc-tag">${esc(t)}</span>`).join("")}</div>` : "";
     const note = f.note ? `<div class="cc-note">${esc(f.note)}</div>` : "";
-    const photo = f.image ? `<img class="cc-photo" src="${esc(f.image)}" alt="" loading="lazy">` : "";
+    const photo = f.image
+      ? `<img class="cc-photo" src="${esc(f.image)}" alt="" loading="lazy" onerror="this.remove()">`
+      : `<div class="cc-mono ${monoClass(f.name)}" aria-hidden="true"><span>${esc(initial(f.name))}</span></div>`;
     return `
       <article class="clinic-card">
         ${photo}
@@ -50,7 +66,7 @@
         </div>
         <a class="cc-loc" href="${esc(mapsUrl(f.mapsQ))}" target="_blank" rel="noopener">${PIN}<span>${esc(f.loc)}</span></a>
         ${note}${tags}
-        <div class="cc-meta">${meta}</div>
+        ${meta ? `<div class="cc-meta">${meta}</div>` : ""}
         <div class="cc-links">${links}</div>
       </article>`;
   }
@@ -305,7 +321,7 @@
 
   /* ---------------- DATA LOADING ---------------- */
   async function loadProviders(type) {
-    const res = await fetch("api/providers.php?type=" + encodeURIComponent(type), {
+    const res = await fetch("/api/providers.php?type=" + encodeURIComponent(type), {
       headers: { "Accept": "application/json" },
     });
     if (!res.ok) throw new Error("HTTP " + res.status);

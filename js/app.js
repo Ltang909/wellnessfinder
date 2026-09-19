@@ -116,11 +116,13 @@
   function treatmentCardHTML(t) {
     const saved = getFavs().includes(t.name);
     const cats = t.categories.join(",");
+    const art = (typeof TREATMENT_ART !== "undefined" && TREATMENT_ART[t.group]) || "";
     const findBtn = t.link
       ? `<a class="btn btn--primary btn--sm" href="${t.link}">Find clinics →</a>`
-      : "";
+      : `<a class="btn btn--ghost btn--sm" href="/submit">Suggest a clinic →</a>`;
     return `
       <article class="treatment-card" data-cats="${esc(cats)}" data-name="${esc(t.name)}">
+        ${art ? `<div class="tc-art" aria-hidden="true"><img src="${esc(art)}" alt="" loading="lazy"></div>` : ""}
         <button class="fav-btn ${saved ? "saved" : ""}" data-fav="${esc(t.name)}"
           aria-label="Save ${esc(t.name)}" aria-pressed="${saved}">${HEART}</button>
         <span class="tc-billed">Billed as ${esc(t.billed)}</span>
@@ -131,6 +133,52 @@
         <div class="tc-foot">${findBtn}</div>
       </article>`;
   }
+
+  /* Directory filter state: billing tab + goal pill combine. */
+  const dirState = { tab: "All", goal: null };
+
+  function applyDirectoryFilter() {
+    const wrap = $("#directoryGroups"); if (!wrap || typeof TREATMENTS === "undefined") return;
+    const goalCats = (dirState.goal && typeof GOAL_MAP !== "undefined") ? GOAL_MAP[dirState.goal] : null;
+    let visible = 0;
+    $$(".dir-group", wrap).forEach((group) => {
+      let gVisible = 0;
+      $$(".treatment-card", group).forEach((card) => {
+        const cats = card.dataset.cats.split(",");
+        const tabOk = dirState.tab === "All" || cats.includes(dirState.tab);
+        const goalOk = !goalCats || cats.some((c) => goalCats.includes(c));
+        const show = tabOk && goalOk;
+        card.classList.toggle("hidden", !show);
+        if (show) { visible++; gVisible++; }
+      });
+      group.classList.toggle("hidden", gVisible === 0);
+    });
+    const total = TREATMENTS.length;
+    const bits = [];
+    if (dirState.tab !== "All") bits.push(dirState.tab);
+    if (dirState.goal) bits.push(dirState.goal);
+    const dc = $("#dirCount");
+    if (dc) dc.textContent = bits.length
+      ? `Showing ${visible} of ${total} · ${bits.join(" + ")}`
+      : `${total} treatments logged`;
+  }
+
+  /* Public hook used by the "Popular categories" goal pills. */
+  window.wfDirectory = {
+    setGoal(goal) {
+      dirState.goal = (dirState.goal === goal) ? null : goal;
+      $$(".cat-item").forEach((p) => p.classList.toggle("active", p.dataset.goal === dirState.goal));
+      applyDirectoryFilter();
+      return dirState.goal;
+    },
+    clearFilters() {
+      dirState.tab = "All"; dirState.goal = null;
+      const tabsEl = $("#filterTabs");
+      if (tabsEl) $$(".filter-tab", tabsEl).forEach((t, i) => t.classList.toggle("active", i === 0));
+      $$(".cat-item").forEach((p) => p.classList.remove("active"));
+      applyDirectoryFilter();
+    },
+  };
 
   function renderDirectory() {
     const wrap = $("#directoryGroups"); if (!wrap || typeof TREATMENTS === "undefined") return;
@@ -172,25 +220,25 @@
       const tab = e.target.closest(".filter-tab"); if (!tab) return;
       $$(".filter-tab", tabsEl).forEach((t) => t.classList.remove("active"));
       tab.classList.add("active");
-      const sel = tab.dataset.tab;
-      $$(".dir-group", wrap).forEach((group) => {
-        let visible = 0;
-        $$(".treatment-card", group).forEach((card) => {
-          const cats = card.dataset.cats.split(",");
-          const show = sel === "All" || cats.includes(sel);
-          card.classList.toggle("hidden", !show);
-          if (show) visible++;
-        });
-        group.classList.toggle("hidden", visible === 0);
-      });
+      dirState.tab = tab.dataset.tab;
+      applyDirectoryFilter();
     });
+    applyDirectoryFilter();
   }
 
   function renderCategories() {
     const grid = $("#catGrid"); if (!grid || typeof GOAL_CATEGORIES === "undefined") return;
     grid.innerHTML = GOAL_CATEGORIES.map((c) =>
-      `<a class="cat-item" href="#directory"><span class="cat-emoji" aria-hidden="true">${c.emoji}</span><span>${esc(c.label)}</span></a>`
+      `<button type="button" class="cat-item" data-goal="${esc(c.label)}" aria-pressed="false"><span class="cat-emoji" aria-hidden="true">${c.emoji}</span><span>${esc(c.label)}</span></button>`
     ).join("");
+    grid.addEventListener("click", (e) => {
+      const pill = e.target.closest(".cat-item"); if (!pill) return;
+      const active = window.wfDirectory.setGoal(pill.dataset.goal);
+      $$(".cat-item", grid).forEach((p) =>
+        p.setAttribute("aria-pressed", p.dataset.goal === active ? "true" : "false"));
+      const dir = document.getElementById("directory");
+      if (dir) dir.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
   }
 
   function renderExploring() {
