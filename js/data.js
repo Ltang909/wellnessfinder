@@ -66,6 +66,32 @@ const TREATMENTS = [
 const TREATMENT_GROUPS = ["Move Better", "Look & Feel Better", "Perform Better", "Brain & Mind"];
 const TREATMENT_TABS = ["All", "Physiotherapy", "Chiropractic", "Osteopathy", "Naturopathy", "Acupuncture", "Speech Therapy", "Psychotherapy"];
 
+/* ---------- Treatment cover art (one per group) ---------- */
+const TREATMENT_ART = {
+  "Move Better": "/assets/treat-move.jpg",
+  "Look & Feel Better": "/assets/treat-look.jpg",
+  "Perform Better": "/assets/treat-perform.jpg",
+  "Brain & Mind": "/assets/treat-mind.jpg",
+};
+
+/* ---------- Goal pills -> billing categories ----------
+   Powers the "Popular categories" pills so they genuinely filter the
+   treatment directory instead of being dead anchors. */
+const GOAL_MAP = {
+  "Pain Relief":   ["Physiotherapy", "Chiropractic", "Osteopathy", "Acupuncture"],
+  "Sports Injury": ["Physiotherapy", "Chiropractic"],
+  "Mental Health": ["Psychotherapy"],
+  "Women's Health":["Naturopathy", "Acupuncture"],
+  "Mobility":      ["Physiotherapy", "Chiropractic", "Osteopathy"],
+  "Fertility":     ["Naturopathy", "Acupuncture"],
+  "Chronic Pain":  ["Physiotherapy", "Acupuncture", "Psychotherapy"],
+  "Stress":        ["Psychotherapy", "Naturopathy"],
+  "Post Surgery":  ["Physiotherapy"],
+  "Children":      ["Speech Therapy"],
+  "Seniors":       ["Physiotherapy", "Osteopathy"],
+  "Office Workers":["Physiotherapy", "Chiropractic"],
+};
+
 /* ---------- Popular goal categories ---------- */
 const GOAL_CATEGORIES = [
   { emoji: "🩹", label: "Pain Relief" }, { emoji: "🏃", label: "Sports Injury" },

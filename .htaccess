@@ -9,9 +9,12 @@ DirectoryIndex index.html
   AddType text/html .html
 </IfModule>
 
-<FilesMatch "^(pilates|naturopath|golf|about|submit)$">
+<FilesMatch "^(pilates|naturopath|golf|about|submit|404)$">
   ForceType text/html
 </FilesMatch>
+
+# Branded 404 page (replaces the host's default error page)
+ErrorDocument 404 /404
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
