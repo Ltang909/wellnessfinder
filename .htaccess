@@ -1,6 +1,6 @@
 # WellFinder — public_html root
-# Your public pages (pilates, naturopath, golf, about, submit) are saved
-# WITHOUT a .html extension. Without the two rules below, Apache doesn't
+# Your public pages (pilates, naturopath, golf, about, submit, discover,
+# saved) are saved WITHOUT a .html extension. Without the two rules below, Apache doesn't
 # know they're HTML and browsers may download them instead of rendering them.
 
 DirectoryIndex index.html
@@ -9,7 +9,7 @@ DirectoryIndex index.html
   AddType text/html .html
 </IfModule>
 
-<FilesMatch "^(pilates|naturopath|golf|about|submit|404)$">
+<FilesMatch "^(pilates|naturopath|golf|about|submit|discover|saved|404)$">
   ForceType text/html
 </FilesMatch>
 
