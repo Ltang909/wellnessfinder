@@ -39,5 +39,10 @@ jobs:
             --exclude='/.github/' \
             --exclude='/staging/' \
             --exclude='/.well-known/' \
+            --exclude='/api/config.php' \
+            --exclude='/portal/config.php' \
+            --exclude='/api/download/' \
+            --exclude='/portal/download/' \
+            --exclude='/uploads/providers/' \
             -e "ssh -p $SSH_PORT" \
             ./ "$SSH_USER@$SSH_HOST:domains/wellfinder.ca/public_html/"
