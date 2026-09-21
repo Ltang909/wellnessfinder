@@ -21,24 +21,23 @@ jobs:
       - name: Check out main
         uses: actions/checkout@v4
 
-      - name: Install deployment client
-        run: sudo apt-get update && sudo apt-get install --yes lftp
+      - name: Install SSH tools
+        run: sudo apt-get update && sudo apt-get install -y sshpass rsync openssh-client
 
-      - name: Deploy to Hostinger production
+      - name: Deploy to Hostinger over SSH
         env:
-          FTP_HOST: ${{ secrets.PROD_FTP_HOST }}
-          FTP_USERNAME: ${{ secrets.PROD_FTP_USERNAME }}
-          FTP_PASSWORD: ${{ secrets.PROD_FTP_PASSWORD }}
+          SSH_HOST: ${{ secrets.HOSTINGER_HOST }}
+          SSH_PORT: ${{ secrets.HOSTINGER_PORT }}
+          SSH_USER: ${{ secrets.HOSTINGER_USERNAME }}
+          SSH_PASS: ${{ secrets.NAME_PASSWORD }}
         run: |
-          lftp -c "
-            set ftp:ssl-force true;
-            set ftp:ssl-protect-data true;
-            set ssl:verify-certificate false;
-            open --user \"$FTP_USERNAME\" --password \"$FTP_PASSWORD\" \"$FTP_HOST\";
-            mirror --reverse --delete --verbose \
-              --exclude-glob .git/ \
-              --exclude-glob .github/ \
-              --exclude-glob staging/ \
-              ./ ./;
-            bye
-          "
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          ssh-keyscan -p "$SSH_PORT" "$SSH_HOST" >> ~/.ssh/known_hosts
+          sshpass -p "$SSH_PASS" rsync -avz --delete \
+            --exclude='/.git/' \
+            --exclude='/.github/' \
+            --exclude='/staging/' \
+            --exclude='/.well-known/' \
+            -e "ssh -p $SSH_PORT" \
+            ./ "$SSH_USER@$SSH_HOST:public_html/"
