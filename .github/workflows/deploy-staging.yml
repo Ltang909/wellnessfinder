@@ -39,6 +39,12 @@ jobs:
               --exclude-glob .git/ \
               --exclude-glob .github/ \
               --exclude-glob staging/ \
+              --exclude-glob .well-known/ \
+              --exclude-glob api/config.php \
+              --exclude-glob portal/config.php \
+              --exclude-glob api/download/ \
+              --exclude-glob portal/download/ \
+              --exclude-glob uploads/providers/ \
               ./ ./;
             bye
           "
