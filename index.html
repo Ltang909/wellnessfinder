@@ -15,11 +15,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta property="og:title" content="WellFinder — Find Well. Live Well." />
   <meta property="og:description" content="A curated guide to wellness treatments hiding under your extended health benefits — what they are, how they're billed, and where to go." />
   <meta property="og:type" content="website" />
-  <link rel="icon" href="/assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body data-page="home">
 <!-- Google Tag Manager (noscript) -->
@@ -27,41 +27,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
   <!-- HEADER -->
-  <header class="site-header">
-    <div class="wrap">
-      <nav class="nav">
-        <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
-        <div class="nav-links">
-          <a href="#directory">Browse Treatments</a>
-          <a href="/pilates">Pilates Clinics</a>
-          <a href="/naturopath">Naturopath Clinics</a>
-          <a href="/golf">Golf Clinics</a>
-          <a href="#insurance">Insurance Benefits</a>
-          <a href="#resources">Resources</a>
-          <a href="/about">About</a>
-          <a href="/discover">Discover</a>
-        </div>
-        <div class="nav-right">
-          <span id="favCount" class="nav-chip" style="display:none"></span>
-          <a class="btn btn--honey btn--sm" href="#subscribe">Become a Founding User</a>
-        </div>
-        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-        </button>
-      </nav>
-    </div>
-    <div class="mobile-menu" id="mobileMenu">
-      <a href="#directory">Browse Treatments</a>
-      <a href="#insurance">Insurance Benefits</a>
-      <a href="#resources">Resources</a>
-      <a href="/about">About</a>
-      <a href="/discover">Discover</a>
-      <div class="mm-group">
-        <a href="/pilates">Pilates</a>
-        <a href="/naturopath">Naturopath</a>
-        <a href="/golf">Golf</a>
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-links compact-nav">
+        <a href="/discover">Discover</a><a href="#directory">Browse</a>
+        <details class="nav-menu"><summary>Find Clinics <span aria-hidden="true">⌄</span></summary><div class="nav-menu-panel"><a href="/pilates"><strong>Pilates</strong><span>Physio-led movement</span></a><a href="/naturopath"><strong>Naturopathic</strong><span>Skin, IV and wellness</span></a><a href="/golf"><strong>Golf</strong><span>TPI and swing assessments</span></a></div></details>
+        <details class="nav-menu"><summary>Learn <span aria-hidden="true">⌄</span></summary><div class="nav-menu-panel nav-menu-panel--small"><a href="#insurance"><strong>Insurance Benefits</strong></a><a href="#resources"><strong>Resources</strong></a><a href="/about"><strong>About WellFinder</strong></a></div></details>
       </div>
-    </div>
+      <div class="nav-right"><a class="saved-nav" href="/saved" aria-label="View saved benefits"><span aria-hidden="true">♡</span> Saved <span id="favCount" class="nav-chip" style="display:none"></span></a><a class="btn btn--honey btn--sm founding-cta" href="#subscribe">Join WellFinder</a></div>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </nav></div>
+    <div class="mobile-menu" id="mobileMenu"><a href="/discover">Discover</a><a href="#directory">Browse treatments</a><a href="/saved">♡ Saved benefits</a><p>Find clinics</p><div class="mm-group"><a href="/pilates">Pilates</a><a href="/naturopath">Naturopathic</a><a href="/golf">Golf</a></div><a href="#insurance">Insurance benefits</a><a href="#resources">Resources</a><a href="/about">About</a></div>
   </header>
 
   <!-- HERO -->
@@ -73,7 +50,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <h1>Discover wellness treatments <em>covered by your benefits.</em></h1>
           <p class="lede">Find physiotherapy, massage, psychology, naturopathy, IV therapy, clinical Pilates and more. Compare clinics, understand your insurance coverage, and book with confidence.</p>
           <div class="hero-cta">
-            <a class="btn btn--primary" href="#directory">Browse treatments</a>
+            <a class="btn btn--primary" href="/discover">Discover treatments</a>
+            <a class="btn btn--light" href="#directory">Browse treatments</a>
             <a class="btn btn--light" href="/pilates">Pilates clinics</a>
             <a class="btn btn--light" href="/naturopath">Naturopath clinics</a>
           </div>
@@ -228,7 +206,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="wrap">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
           <p class="footer-tag">Find well. Live well.</p>
           <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
           <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
@@ -247,14 +225,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="footer-col">
           <h5>Company</h5>
           <a href="/about">About</a>
-          <a href="mailto:Hello@wellfinder.ca">Contact</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
         </div>
       </div>
       <p class="footer-bottom">Wellness coverage can vary by insurer, plan, and provider. These are personal discoveries and community recommendations — not guarantees of coverage. Always check with your insurer before booking. This directory is for informational purposes only.</p>
     </div>
   </footer>
 
-  <script src="/js/data.js"></script>
-  <script src="/js/app.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/site-nav.js?v=3"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>

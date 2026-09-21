@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/discover.css?v=20260920" />
+  <link rel="stylesheet" href="css/discover.css" />
 </head>
 <body data-page="discover">
   <header class="site-header compact-header">
@@ -73,13 +73,11 @@
       </div>
 
       <div class="discover-actions" id="discoverActions">
-        <p class="drag-hint"><span aria-hidden="true">↔</span> Drag the card or use the buttons</p>
-        <div class="swipe-row">
-          <button class="swipe-action swipe-action--skip" id="skipBtn" type="button"><span aria-hidden="true">×</span><strong>Skip</strong></button>
-          <button class="swipe-action swipe-action--save" id="saveBtn" type="button"><span aria-hidden="true">♥</span><strong>Save</strong></button>
-        </div>
-        <a class="clinic-link" id="clinicBtn" href="/#directory">View provider details <span aria-hidden="true">→</span></a>
+        <button class="swipe-action swipe-action--skip" id="skipBtn" type="button"><span aria-hidden="true">×</span><strong>Skip</strong></button>
+        <button class="swipe-action swipe-action--save" id="saveBtn" type="button"><span aria-hidden="true">♡</span><strong>Save</strong></button>
+        <a class="swipe-action swipe-action--clinic" id="clinicBtn" href="/#directory"><span aria-hidden="true">⌖</span><strong>Find Clinics</strong></a>
       </div>
+      <p class="drag-hint"><span aria-hidden="true">↔</span> Drag the card or use the buttons</p>
     </section>
   </main>
 
@@ -103,8 +101,8 @@
   </dialog>
 
   <script src="js/data.js"></script>
-  <script src="js/site-nav.js?v=2"></script>
+  <script src="js/site-nav.js?v=3"></script>
   <script src="js/app.js"></script>
-  <script src="js/discover.js?v=providers-2"></script>
+  <script src="js/discover.js?v=providers-1"></script>
 </body>
 </html>

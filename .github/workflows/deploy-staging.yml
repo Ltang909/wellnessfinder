@@ -1,0 +1,44 @@
+# Deploys the staging branch to staging.wellfinder.ca
+name: Deploy staging
+
+on:
+  push:
+    branches:
+      - staging
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-staging
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: staging
+      url: https://staging.wellfinder.ca
+    steps:
+      - name: Check out staging
+        uses: actions/checkout@v4
+
+      - name: Install deployment client
+        run: sudo apt-get update && sudo apt-get install --yes lftp
+
+      - name: Deploy to Hostinger staging
+        env:
+          FTP_HOST: ${{ secrets.STAGING_FTP_HOST }}
+          FTP_USERNAME: ${{ secrets.STAGING_FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.STAGING_FTP_PASSWORD }}
+        run: |
+          lftp -c "
+            set ftp:ssl-force true;
+            set ftp:ssl-protect-data true;
+            set ssl:verify-certificate false;
+            open --user \"$FTP_USERNAME\" --password \"$FTP_PASSWORD\" \"$FTP_HOST\";
+            mirror --reverse --delete --verbose \
+              --exclude-glob .git/ \
+              --exclude-glob .github/ \
+              --exclude-glob staging/ \
+              ./ ./;
+            bye
+          "
