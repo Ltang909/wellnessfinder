@@ -1,0 +1,44 @@
+# Deploys the main branch to wellfinder.ca
+name: Deploy production
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://wellfinder.ca
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+
+      - name: Install deployment client
+        run: sudo apt-get update && sudo apt-get install --yes lftp
+
+      - name: Deploy to Hostinger production
+        env:
+          FTP_HOST: ${{ secrets.PROD_FTP_HOST }}
+          FTP_USERNAME: ${{ secrets.PROD_FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.PROD_FTP_PASSWORD }}
+        run: |
+          lftp -c "
+            set ftp:ssl-force true;
+            set ftp:ssl-protect-data true;
+            set ssl:verify-certificate false;
+            open --user \"$FTP_USERNAME\" --password \"$FTP_PASSWORD\" \"$FTP_HOST\";
+            mirror --reverse --delete --verbose \
+              --exclude-glob .git/ \
+              --exclude-glob .github/ \
+              --exclude-glob staging/ \
+              ./ ./;
+            bye
+          "
