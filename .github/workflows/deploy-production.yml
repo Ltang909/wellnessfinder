@@ -40,4 +40,4 @@ jobs:
             --exclude='/staging/' \
             --exclude='/.well-known/' \
             -e "ssh -p $SSH_PORT" \
-            ./ "$SSH_USER@$SSH_HOST:public_html/"
+            ./ "$SSH_USER@$SSH_HOST:domains/wellfinder.ca/public_html/"
