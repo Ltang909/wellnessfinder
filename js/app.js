@@ -255,13 +255,13 @@
 
   function renderResources() {
     const grid = $("#resourceGrid"); if (!grid || typeof RESOURCES === "undefined") return;
-    grid.innerHTML = RESOURCES.map((r) =>
-      `<article class="resource-card">
-         <span class="res-tag">${esc(r.tag)}</span>
+    grid.innerHTML = RESOURCES.map((r) => {
+      const inner = `<span class="res-tag">${esc(r.tag)}</span>
          <h4>${esc(r.title)}</h4>
-         <p>${esc(r.desc)}</p>
-       </article>`
-    ).join("");
+         <p>${esc(r.desc)}</p>` + (r.url ? `<span class="res-more">Read the guide →</span>` : "");
+      const body = r.url ? `<a class="resource-link" href="${esc(r.url)}">${inner}</a>` : inner;
+      return `<article class="resource-card">${body}</article>`;
+    }).join("");
   }
 
   /* ============================================================
