@@ -7,7 +7,7 @@ DirectoryIndex index.html
   AddType text/html .html
 </IfModule>
 
-<FilesMatch "^(pilates|naturopath|golf|about|submit|discover|saved|404|blog-clinical-pilates|blog-clinical-vs-group-pilates)$">
+<FilesMatch "^(pilates|naturopath|golf|about|submit|discover|saved|404|blog-clinical-pilates|blog-clinical-vs-group-pilates|blog-tpi-golf-assessment|blog-tpi-vs-pga-golf-assessment)$">
   ForceType text/html
 </FilesMatch>
 

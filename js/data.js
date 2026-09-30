@@ -113,6 +113,8 @@ const EXPLORING = [
 const RESOURCES = [
   { tag: "Treatment guide", title: "What is Clinical Pilates?", desc: "How it differs from a studio Pilates class, and why it's billed through physiotherapy.", url: "/blog-clinical-pilates" },
   { tag: "Treatment guide", title: "Clinical Pilates vs Group Pilates: Which Do You Need?", desc: "The differences, who each is for, how benefits may apply, and how to combine both in your week.", url: "/blog-clinical-vs-group-pilates" },
+  { tag: "Treatment guide", title: "What Is a TPI Golf Swing Assessment?", desc: "How a TPI assessment looks at the body behind your swing, and how benefits may apply.", url: "/blog-tpi-golf-assessment" },
+  { tag: "Treatment guide", title: "TPI vs PGA Golf Assessment: What Is the Difference?", desc: "How clinical TPI and golf instruction differ, and how to combine both.", url: "/blog-tpi-vs-pga-golf-assessment" },
   { tag: "Treatment guide", title: "How does Acupuncture work?", desc: "The basics of the practice, and what cosmetic acupuncture adds on top." },
   { tag: "Insurance guide", title: "Can Physiotherapy bill insurance directly?", desc: "What direct billing means, and how to ask a clinic before your first visit." },
   { tag: "Treatment guide", title: "Chiropractor vs. Osteopath — what's the difference?", desc: "Two commonly confused, commonly covered paramedical disciplines, compared." },
