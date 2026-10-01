@@ -335,8 +335,6 @@
     renderInsurers();
     renderWhy();
     renderDirectory();
-    renderCategories();
-    renderExploring();
     renderResources();
     initAnalyzer();
     // set year in footers
