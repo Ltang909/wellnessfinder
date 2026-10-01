@@ -255,8 +255,13 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 
 .insurers { margin-top: 26px; }
 .insurers p { font-size: .82rem; color: #a9c1b4; margin: 0 0 12px; }
-.insurers-row { display: flex; flex-wrap: wrap; gap: 8px; }
-.insurer-pill { font-size: .82rem; background: rgba(255,255,255,.1); color: #eaf2ec; border: 1px solid rgba(255,255,255,.16); border-radius: 999px; padding: 6px 13px; }
+.insurers-row { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); }
+.insurer-track { display: flex; align-items: center; gap: 18px; width: max-content; animation: insurer-scroll 36s linear infinite; padding: 4px 0; }
+.insurers-row:hover .insurer-track { animation-play-state: paused; }
+.insurer-logo { display: inline-flex; align-items: center; justify-content: center; background: #fff; border-radius: 12px; padding: 10px 18px; height: 56px; flex: 0 0 auto; }
+.insurer-logo img { height: 36px; width: auto; max-width: 150px; object-fit: contain; }
+@keyframes insurer-scroll { to { transform: translateX(calc(-50% - 9px)); } }
+@media (prefers-reduced-motion: reduce) { .insurer-track { animation: none; flex-wrap: wrap; width: auto; } }
 
 @media (max-width: 860px) { .insurance-grid { grid-template-columns: 1fr; gap: 28px; } }
 

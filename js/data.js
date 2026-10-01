@@ -103,7 +103,21 @@ const RESOURCES = [
 ];
 
 /* ---------- Insurers ---------- */
-const INSURERS = ["Sun Life", "Manulife", "Canada Life", "Green Shield Canada", "Blue Cross", "Desjardins", "ClaimSecure", "Equitable Life", "Beneva", "Empire Life", "People Corporation", "RWAM", "Medavie Blue Cross"];
+const INSURERS = [
+  { name: "Sun Life", logo: "/assets/logos/sun-life.svg" },
+  { name: "Manulife", logo: "/assets/logos/manulife.svg" },
+  { name: "Canada Life", logo: "/assets/logos/canada-life.svg" },
+  { name: "GreenShield", logo: "/assets/logos/green-shield.svg" },
+  { name: "Blue Cross", logo: "/assets/logos/blue-cross.png" },
+  { name: "Desjardins", logo: "/assets/logos/desjardins.svg" },
+  { name: "ClaimSecure", logo: "/assets/logos/claimsecure.png" },
+  { name: "Equitable Life", logo: "/assets/logos/equitable-life.png" },
+  { name: "Beneva", logo: "/assets/logos/beneva.png" },
+  { name: "Empire Life", logo: "/assets/logos/empire-life.svg" },
+  { name: "People Corporation", logo: "/assets/logos/people-corp.svg" },
+  { name: "RWAM", logo: "/assets/logos/rwam.png" },
+  { name: "Medavie Blue Cross", logo: "/assets/logos/medavie.svg" },
+];
 
 /* ---------- Insurance analyzer keyword map ---------- */
 /* Each entry: keywords that appear in a benefits booklet -> the paramedical

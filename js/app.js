@@ -92,7 +92,11 @@
      ============================================================ */
   function renderInsurers() {
     const row = $("#insurersRow"); if (!row || typeof INSURERS === "undefined") return;
-    row.innerHTML = INSURERS.map((n) => `<span class="insurer-pill">${esc(n)}</span>`).join("");
+    const items = INSURERS.map((i) =>
+      `<span class="insurer-logo"><img src="${esc(i.logo)}" alt="${esc(i.name)}" loading="lazy"></span>`
+    ).join("");
+    // duplicate the track so the scroll loops seamlessly
+    row.innerHTML = `<div class="insurer-track">${items}${items}</div>`;
   }
 
   const WHY_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>`;
