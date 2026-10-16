@@ -74,6 +74,20 @@ const TREATMENT_ART = {
   "Brain & Mind": "/assets/treat-mind.jpg",
 };
 
+/* ---------- Per-treatment provider photos (with credit) ---------- */
+const TREATMENT_IMAGES = {
+  "Clinical Pilates": { src: "/assets/treatments/clinical-pilates.jpg", credit: "Mindful Movement Centre, Toronto", url: "http://www.mindfulmovementcentre.com/" },
+  "Facial Manual Therapy": { src: "/assets/treatments/facial-manual-therapy.jpg", credit: "Coast Therapy, Vancouver", url: "https://coasttherapy.ca/physiotherapy/tmj-tmd-treatment/" },
+  "Golf Swing Assessment": { src: "/assets/treatments/golf-swing-assessment.jpg", credit: "Seven Summits Rehab and Health, Vancouver", url: "https://sevensummitsrehab.ca/services-booking/tpi-golf-assessment/" },
+  "Cosmetic Acupuncture": { src: "/assets/treatments/cosmetic-acupuncture.jpg", credit: "Tracy's Acupuncture Clinic, Vancouver", url: "https://acupunctureclinicvancouver.com/class/facial-cupuncture/" },
+  "Microneedling": { src: "/assets/treatments/microneedling.jpg", credit: "Vertex Aesthetics, Toronto", url: "https://vertexaesthetics.ca/microneedling-in-toronto-on/" },
+  "Vitamin B Injections": { src: "/assets/treatments/vitamin-b-injections.jpg", credit: "Toronto Functional Medicine Centre, Toronto", url: "http://www.theivlounge.ca/" },
+  "IV Vitamin Therapy": { src: "/assets/treatments/iv-vitamin-therapy.jpg", credit: "REJUUV IV Drip Toronto", url: "https://ivdriptoronto.ca/" },
+  "Interview Preparation": { src: "/assets/treatments/interview-preparation.jpg", credit: "Coaching with Mona, Toronto", url: "https://coachingwithmona.com/" },
+  "Singing Voice Therapy": { src: "/assets/treatments/singing-voice-therapy.jpg", credit: "Melanie Tapson Voice Care, Toronto", url: "https://melanietapson.com/" },
+  "Neurofeedback": { src: "/assets/treatments/neurofeedback.jpg", credit: "Elevare, Toronto", url: "https://elevaretrauma.com/neurofeedback/" },
+};
+
 /* ---------- Goal pills -> billing categories ----------
    Powers the "Popular categories" pills so they genuinely filter the
    treatment directory instead of being dead anchors. */

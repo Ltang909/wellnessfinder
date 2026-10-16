@@ -123,13 +123,15 @@
   function treatmentCardHTML(t) {
     const saved = getFavs().includes(t.name);
     const cats = t.categories.join(",");
-    const art = (typeof TREATMENT_ART !== "undefined" && TREATMENT_ART[t.group]) || "";
+    const img = (typeof TREATMENT_IMAGES !== "undefined" && TREATMENT_IMAGES[t.name]) || null;
+    const art = img ? img.src : ((typeof TREATMENT_ART !== "undefined" && TREATMENT_ART[t.group]) || "");
+    const credit = img ? `<div class="tc-credit">Photo: <a href="${esc(img.url)}" target="_blank" rel="noopener">${esc(img.credit)}</a></div>` : "";
     const findBtn = t.link
       ? `<a class="btn btn--primary btn--sm" href="${t.link}">Find clinics →</a>`
       : `<a class="btn btn--ghost btn--sm" href="/submit">Suggest a clinic →</a>`;
     return `
       <article class="treatment-card" data-cats="${esc(cats)}" data-name="${esc(t.name)}">
-        ${art ? `<div class="tc-art" aria-hidden="true"><img src="${esc(art)}" alt="" loading="lazy"></div>` : ""}
+        ${art ? `<div class="tc-art" aria-hidden="true"><img src="${esc(art)}" alt="" loading="lazy"></div>${credit}` : ""}
         <button class="fav-btn ${saved ? "saved" : ""}" data-fav="${esc(t.name)}"
           aria-label="Save ${esc(t.name)}" aria-pressed="${saved}">${HEART}</button>
         <span class="tc-billed">Billed as ${esc(t.billed)}</span>

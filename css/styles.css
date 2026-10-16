@@ -298,6 +298,8 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
   overflow: hidden; aspect-ratio: 16 / 7; background: var(--mist); flex: none;
 }
 .tc-art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.tc-credit { font-size: .72rem; color: var(--ink-soft); opacity: .75; margin: -10px 0 12px; }
+.tc-credit a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .treatment-card .fav-btn { box-shadow: var(--shadow-sm); }
 .fav-btn {
   position: absolute; top: 16px; right: 16px;
