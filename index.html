@@ -62,12 +62,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="nav-links compact-nav">
         <a href="/discover">Discover</a><a href="#directory">Browse</a>
         <details class="nav-menu"><summary>Find Clinics <span aria-hidden="true">⌄</span></summary><div class="nav-menu-panel"><a href="/pilates"><strong>Pilates</strong><span>Physio-led movement</span></a><a href="/naturopath"><strong>Naturopathic</strong><span>Skin, IV and wellness</span></a><a href="/golf"><strong>Golf</strong><span>TPI and swing assessments</span></a></div></details>
-        <details class="nav-menu"><summary>Learn <span aria-hidden="true">⌄</span></summary><div class="nav-menu-panel nav-menu-panel--small"><a href="#insurance"><strong>Insurance Benefits</strong></a><a href="#resources"><strong>Resources</strong></a><a href="/about"><strong>About WellFinder</strong></a></div></details>
+        <details class="nav-menu"><summary>Learn <span aria-hidden="true">⌄</span></summary><div class="nav-menu-panel nav-menu-panel--small"><a href="#resources"><strong>Resources</strong></a><a href="/about"><strong>About WellFinder</strong></a></div></details>
       </div>
       <div class="nav-right"><a class="saved-nav" href="/saved" aria-label="View saved benefits"><span aria-hidden="true">♡</span> Saved <span id="favCount" class="nav-chip" style="display:none"></span></a><a class="btn btn--honey btn--sm founding-cta" href="#subscribe">Join WellFinder</a></div>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     </nav></div>
-    <div class="mobile-menu" id="mobileMenu"><a href="/discover">Discover</a><a href="#directory">Browse treatments</a><a href="/saved">♡ Saved benefits</a><p>Find clinics</p><div class="mm-group"><a href="/pilates">Pilates</a><a href="/naturopath">Naturopathic</a><a href="/golf">Golf</a></div><a href="#insurance">Insurance benefits</a><a href="#resources">Resources</a><a href="/about">About</a></div>
+    <div class="mobile-menu" id="mobileMenu"><a href="/discover">Discover</a><a href="#directory">Browse treatments</a><a href="/saved">♡ Saved benefits</a><p>Find clinics</p><div class="mm-group"><a href="/pilates">Pilates</a><a href="/naturopath">Naturopathic</a><a href="/golf">Golf</a></div><a href="#resources">Resources</a><a href="/about">About</a></div>
   </header>
 
   <!-- HERO -->
@@ -75,19 +75,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="wrap">
       <div class="hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">My guide to covered wellness</p>
           <h1>Discover wellness treatments <em>covered by your benefits.</em></h1>
-          <p class="lede">Find physiotherapy, massage, psychology, naturopathy, IV therapy, clinical Pilates and more. Compare clinics, understand your insurance coverage, and book with confidence.</p>
+          <p class="lede">Find hidden and surprising insurance covered treatments like clinical Pilates, golf swing assessments, skincare and more. Maximize your benefits for minimal out of pocket cost.</p>
           <div class="hero-cta">
             <a class="btn btn--primary" href="/discover">Discover treatments</a>
-            <a class="btn btn--light" href="#directory">Browse treatments</a>
-            <a class="btn btn--light" href="/pilates">Pilates clinics</a>
-            <a class="btn btn--light" href="/naturopath">Naturopath clinics</a>
+            <a class="btn btn--light" href="#directory">Find clinics</a>
           </div>
           <div class="hero-trust">
             <span><span class="check">✔</span> Canada-focused</span>
             <span><span class="check">✔</span> Extended health benefits</span>
             <span><span class="check">✔</span> No sign-up required</span>
+          </div>
+          <div class="hero-logos">
+            <p>Compatible with plans from</p>
+            <div class="insurers-row" id="insurersRow"></div>
+            <p class="hero-logos-note">Coverage varies by employer and policy.</p>
           </div>
         </div>
         <div class="hero-visual">
@@ -106,44 +108,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
 
-  <!-- INSURANCE ANALYZER -->
-  <section class="section insurance" id="insurance">
-    <div class="wrap">
-      <div class="insurance-grid">
-        <div class="insurance-intro">
-          <p class="eyebrow">Insurance benefits</p>
-          <h2>Know what your insurance covers.</h2>
-          <p>Paste in the coverage section of your benefits booklet and get a plain-language breakdown of what's likely covered and which treatments you're eligible for.</p>
-          <p class="insurance-disclaimer">This is an automated estimate for informational purposes only — not a guarantee of coverage. Always confirm exact amounts and eligibility with your insurer before booking.</p>
-          <div class="insurers">
-            <p>Compatible with plans from</p>
-            <div class="insurers-row" id="insurersRow"></div>
-            <p style="margin-top:12px">Coverage varies by employer and policy.</p>
-          </div>
-        </div>
-        <div class="analyzer-card">
-          <label for="benefitsInput">Paste your benefits text</label>
-          <textarea id="benefitsInput" placeholder="e.g. Physiotherapy $500/year, Massage $500, Naturopath $300, Psychology $1,000 combined…"></textarea>
-          <div class="analyzer-actions">
-            <button class="btn btn--primary" id="analyzeBtn">Read my benefits</button>
-            <button class="sample" id="sampleBtn" type="button">Try a sample</button>
-          </div>
-          <div class="analyzer-result" id="analyzerResult">
-            <p class="analyzer-empty">Your coverage breakdown will appear here.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- WHY -->
   <section class="section">
     <div class="wrap">
       <div class="section-head">
         <p class="eyebrow">Why WellFinder</p>
-        <h2>Why thousands of Canadians are searching smarter</h2>
+        <h2>Real people, real claims</h2>
+        <p>What readers have claimed through their extended health benefits.</p>
       </div>
       <div class="why-grid" id="whyGrid"></div>
+      <p class="why-note">Examples shared by readers. Coverage varies by insurer, plan, and provider. Always confirm with your insurer and the clinic before booking.</p>
     </div>
   </section>
 
@@ -225,7 +199,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="footer-col">
           <h5>Resources</h5>
           <a href="#resources">Guides</a>
-          <a href="#insurance">Insurance</a>
         </div>
         <div class="footer-col">
           <h5>Company</h5>

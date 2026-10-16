@@ -223,38 +223,8 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 }
 
 /* ============================================================
-   Insurance analyzer
+   Insurer logo marquee
    ============================================================ */
-.insurance { background: var(--forest); color: #fff; }
-.insurance .eyebrow { color: #dbe8df; }
-.insurance .eyebrow::before { background: var(--honey); }
-.insurance h2 { color: #fff; }
-.insurance-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
-.insurance-intro p { color: #d5e2d9; margin-top: 14px; max-width: 40ch; }
-.insurance-disclaimer { font-size: .82rem; color: #a9c1b4; margin-top: 20px; max-width: 44ch; }
-.analyzer-card { background: #fff; color: var(--ink); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow-lg); }
-.analyzer-card label { font-weight: 600; font-size: .92rem; display: block; margin-bottom: 8px; }
-.analyzer-card textarea {
-  width: 100%; min-height: 130px; resize: vertical;
-  border: 1.5px solid var(--line); border-radius: var(--radius-sm);
-  padding: 13px 14px; font-family: var(--sans); font-size: .95rem; color: var(--ink);
-  background: var(--paper);
-}
-.analyzer-card textarea:focus { outline: none; border-color: var(--forest); background: #fff; }
-.analyzer-actions { display: flex; gap: 10px; margin-top: 14px; align-items: center; flex-wrap: wrap; }
-.analyzer-actions .sample { font-size: .85rem; color: var(--forest); background: none; border: none; padding: 0; text-decoration: underline; text-underline-offset: 3px; }
-.analyzer-result { margin-top: 18px; border-top: 1px dashed var(--line); padding-top: 18px; }
-.analyzer-empty { color: var(--forest-300); font-size: .95rem; }
-.coverage-item { background: var(--mist); border-radius: var(--radius-sm); padding: 14px 16px; margin-bottom: 10px; border-left: 3px solid var(--forest); }
-.coverage-item h4 { font-family: var(--sans); font-size: 1rem; font-weight: 700; color: var(--ink); display: flex; align-items: center; gap: 8px; }
-.coverage-item .cov-amt { font-size: .86rem; color: var(--honey-deep); font-weight: 600; }
-.coverage-item p { margin: 6px 0 0; font-size: .9rem; color: var(--ink-soft); }
-.coverage-item .cov-unlocks { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
-.cov-tag { font-size: .78rem; background: #fff; border: 1px solid var(--mist-deep); border-radius: 999px; padding: 3px 10px; color: var(--forest-600); }
-.cov-summary { font-size: .92rem; color: var(--ink-soft); margin-bottom: 14px; }
-
-.insurers { margin-top: 26px; }
-.insurers p { font-size: .82rem; color: #a9c1b4; margin: 0 0 12px; }
 .insurers-row { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent); }
 .insurer-track { display: flex; align-items: center; gap: 18px; width: max-content; animation: insurer-scroll 36s linear infinite; padding: 4px 0; }
 .insurers-row:hover .insurer-track { animation-play-state: paused; }
@@ -263,18 +233,24 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 @keyframes insurer-scroll { to { transform: translateX(calc(-50% - 9px)); } }
 @media (prefers-reduced-motion: reduce) { .insurer-track { animation: none; flex-wrap: wrap; width: auto; } }
 
-@media (max-width: 860px) { .insurance-grid { grid-template-columns: 1fr; gap: 28px; } }
+/* hero logo strip */
+.hero-logos { margin-top: 26px; max-width: 600px; }
+.hero-logos > p:first-child { font-size: .82rem; font-weight: 600; color: var(--ink-soft); margin: 0 0 10px; }
+.hero-logos-note { font-size: .78rem; color: var(--ink-soft); opacity: .75; margin: 10px 0 0; }
+.hero .insurer-logo { border: 1px solid rgba(23, 48, 34, .1); box-shadow: 0 2px 10px rgba(23, 48, 34, .06); }
 
 /* ============================================================
    Why grid
    ============================================================ */
-.why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-.why-item { display: flex; gap: 14px; padding: 22px; background: var(--card); border: 1px solid var(--line-soft); border-radius: var(--radius); }
-.why-item .why-ic { flex: none; width: 40px; height: 40px; border-radius: 11px; background: var(--mist); color: var(--forest); display: grid; place-items: center; }
-.why-item .why-ic svg { width: 22px; height: 22px; }
-.why-item p { margin: 0; font-weight: 500; color: var(--ink); font-size: .98rem; align-self: center; }
-@media (max-width: 820px) { .why-grid { grid-template-columns: 1fr 1fr; } }
-@media (max-width: 520px) { .why-grid { grid-template-columns: 1fr; } }
+.why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+.claim-card { background: var(--card); border: 1px solid var(--line-soft); border-radius: var(--radius); padding: 20px; display: flex; flex-direction: column; gap: 6px; }
+.claim-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 4px; }
+.claim-name { font-weight: 700; font-size: 1.02rem; color: var(--ink); }
+.claim-covered { font-size: .75rem; font-weight: 700; color: #fff; background: var(--forest); border-radius: 999px; padding: 4px 11px; white-space: nowrap; }
+.claim-what { margin: 0; font-weight: 600; font-size: .98rem; color: var(--ink); }
+.claim-billed { margin: 0; font-size: .86rem; color: var(--ink-soft); }
+.claim-price { margin: 8px 0 0; padding-top: 10px; border-top: 1px dashed var(--line); font-size: .9rem; font-weight: 600; color: var(--forest); }
+.why-note { margin-top: 18px; font-size: .82rem; color: var(--ink-soft); opacity: .8; max-width: 70ch; }
 
 /* ============================================================
    Directory (treatments)

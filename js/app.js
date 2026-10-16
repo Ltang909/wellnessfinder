@@ -99,19 +99,22 @@
     row.innerHTML = `<div class="insurer-track">${items}${items}</div>`;
   }
 
-  const WHY_ICON = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>`;
   function renderWhy() {
     const grid = $("#whyGrid"); if (!grid) return;
-    const items = [
-      "Discover treatments covered by extended health benefits",
-      "Compare clinics in one place",
-      "Learn what each treatment actually does",
-      "Save your favourite treatments",
-      "Read your benefits summary in plain language",
-      "Find providers near you",
+    const claims = [
+      { name: "Chi", treatment: "Clinical Pilates", billed: "Physiotherapy", covered: "100% covered", price: "$100 per 45 min session" },
+      { name: "Leon", treatment: "Facial massage", billed: "Osteopathy", covered: "100% covered", price: "$120 per session" },
+      { name: "Celine", treatment: "Glutathione injection", billed: "Naturopath", covered: "", price: "" },
+      { name: "Chun Ho", treatment: "Neurofeedback", billed: "Psychology", covered: "100% covered", price: "$180 per session" },
+      { name: "Daniel", treatment: "Singing voice therapy", billed: "Speech therapy", covered: "100% covered", price: "$160 per 45 min session" },
     ];
-    grid.innerHTML = items.map((t) =>
-      `<div class="why-item"><span class="why-ic">${WHY_ICON}</span><p>${esc(t)}</p></div>`
+    grid.innerHTML = claims.map((c) =>
+      `<div class="claim-card">
+         <div class="claim-top"><span class="claim-name">${esc(c.name)}</span>${c.covered ? `<span class="claim-covered">${esc(c.covered)}</span>` : ""}</div>
+         <p class="claim-what">${esc(c.treatment)}</p>
+         <p class="claim-billed">Billed as ${esc(c.billed)}</p>
+         ${c.price ? `<p class="claim-price">${esc(c.price)}</p>` : ""}
+       </div>`
     ).join("");
   }
 
@@ -268,68 +271,6 @@
     }).join("");
   }
 
-  /* ============================================================
-     INSURANCE ANALYZER
-     ============================================================ */
-  const SAMPLE_TEXT =
-    "Paramedical Practitioners: Physiotherapist $500 per calendar year. " +
-    "Registered Massage Therapist $500. Chiropractor $400. Naturopath $300. " +
-    "Acupuncturist $300. Psychologist / Social Worker $1,000 combined. " +
-    "Speech Language Pathologist $500. Osteopath $400. Coverage at 100% of reasonable and customary charges.";
-
-  function analyze(text) {
-    const lower = text.toLowerCase();
-    const found = [];
-    COVERAGE_MAP.forEach((entry) => {
-      const re = new RegExp(entry.keywords.join("|"), "i");
-      if (re.test(lower)) {
-        // try to find a nearby dollar amount / percent for this keyword
-        let amount = "";
-        const kwMatch = lower.match(new RegExp("(" + entry.keywords.join("|") + ")[^\\n.$%]{0,60}?(\\$[\\d,]+|\\d{1,3}\\s?%)", "i"));
-        if (kwMatch) amount = kwMatch[2].replace(/\s/g, "");
-        found.push({ ...entry, amount });
-      }
-    });
-    return found;
-  }
-
-  function renderAnalysis(found) {
-    const out = $("#analyzerResult"); if (!out) return;
-    if (!found.length) {
-      out.innerHTML = `<p class="analyzer-empty">No paramedical categories detected. Paste the "paramedical" or "extended health services" section of your booklet — the part that lists practitioners and their annual maximums.</p>`;
-      return;
-    }
-    const unlocked = new Set();
-    found.forEach((f) => f.unlocks.forEach((u) => unlocked.add(u)));
-    const summary = unlocked.size
-      ? `Based on what you pasted, you may be able to explore <strong>${unlocked.size}</strong> WellFinder treatment${unlocked.size > 1 ? "s" : ""} across ${found.length} covered categor${found.length > 1 ? "ies" : "y"}.`
-      : `Detected ${found.length} covered categor${found.length > 1 ? "ies" : "y"}. These are commonly-used benefits — browse the directory for treatments billed under them.`;
-
-    const items = found.map((f) => {
-      const amt = f.amount ? `<span class="cov-amt">${esc(f.amount)}</span>` : "";
-      const tags = f.unlocks.length
-        ? `<div class="cov-unlocks">${f.unlocks.map((u) => `<span class="cov-tag">${esc(u)}</span>`).join("")}</div>`
-        : "";
-      return `<div class="coverage-item">
-                <h4>${esc(f.label)} ${amt}</h4>
-                <p>${esc(f.note)}</p>${tags}
-              </div>`;
-    }).join("");
-
-    out.innerHTML = `<p class="cov-summary">${summary}</p>${items}`;
-  }
-
-  function initAnalyzer() {
-    const btn = $("#analyzeBtn"); if (!btn) return;
-    const ta = $("#benefitsInput");
-    btn.addEventListener("click", () => renderAnalysis(analyze(ta.value || "")));
-    const sample = $("#sampleBtn");
-    if (sample) sample.addEventListener("click", () => {
-      ta.value = SAMPLE_TEXT;
-      renderAnalysis(analyze(SAMPLE_TEXT));
-    });
-  }
-
   /* ---------- boot ---------- */
   document.addEventListener("DOMContentLoaded", () => {
     initNav();
@@ -340,7 +281,6 @@
     renderWhy();
     renderDirectory();
     renderResources();
-    initAnalyzer();
     // set year in footers
     $$("[data-year]").forEach((el) => (el.textContent = new Date().getFullYear()));
   });
