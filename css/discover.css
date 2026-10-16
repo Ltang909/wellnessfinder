@@ -12,3 +12,10 @@ body[data-page="discover"]{min-height:100vh;background:#f6f2e9;color:var(--ink)}
 @media(max-width:1050px){.compact-nav{display:none!important}.founding-cta{display:none!important}.discover-shell{padding-top:1.25rem}}
 @media(max-width:620px){.discover-shell{width:92vw}.discover-intro h1{font-size:2rem}.discover-stage,.discover-card-wrap{min-height:565px}.discover-card{min-height:545px;border-radius:23px}.card-photo{height:235px}.card-content{padding:1.2rem}.card-content h2{font-size:1.9rem}.benefit-check{align-items:flex-start}.benefit-check a{font-size:.72rem}.discover-actions{gap:.42rem}.swipe-action{min-width:0;flex:1;padding:.68rem .45rem;font-size:.78rem}.email-row{flex-direction:column}.saved-nav{padding:.42rem .58rem}.discover-footer{padding-top:.4rem}}
 @media(prefers-reduced-motion:reduce){.discover-card,.card-photo img,.swipe-action{animation:none!important;transition:none!important}}
+/* ---------- email + postal gate ---------- */
+.gate-form { display: flex; flex-direction: column; gap: 10px; margin-top: 1.4rem; text-align: left; }
+.gate-form label { font-size: .78rem; font-weight: 800; }
+.gate-form input { width: 100%; padding: .8rem .9rem; border: 1px solid rgba(35,54,47,.2); border-radius: 10px; font: inherit; margin-top: .3rem; }
+.gate-form .btn { margin-top: .4rem; }
+.gate-form small { color: var(--muted); text-align: center; }
+.gate-error { color: #91534b; font-size: .85rem; font-weight: 700; margin: 0; text-align: center; }

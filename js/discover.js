@@ -1,14 +1,207 @@
-(function(){"use strict";if(typeof PILATES_CLINICS==="undefined")return;const stage=document.getElementById("discoverStage"),cardWrap=document.getElementById("cardWrap"),progress=document.getElementById("cardProgress"),savedProgress=document.getElementById("savedProgress"),progressBar=document.getElementById("progressBar"),toast=document.getElementById("swipeToast"),actions=document.getElementById("discoverActions"),skipBtn=document.getElementById("skipBtn"),saveBtn=document.getElementById("saveBtn"),clinicBtn=document.getElementById("clinicBtn"),savedNavCount=document.getElementById("savedNavCount"),emailModal=document.getElementById("emailModal"),emailForm=document.getElementById("emailForm"),emailSuccess=document.getElementById("emailSuccess");if(!stage||!cardWrap)return;
-const INTERACTION_KEY="wf_provider_interactions",ID_KEY="wf_visitor_id",FIRST_KEY="wf_first_visit",EMAIL_KEY="wf_discover_email";const categoryImages={Pilates:"https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1000&q=82",Naturopathic:"https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=1000&q=82",Golf:"https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1000&q=82"};
-function normalize(list,category){return list.map(function(p,i){return{id:category.toLowerCase()+"-"+i+"-"+p.name.toLowerCase().replace(/[^a-z0-9]+/g,"-"),name:p.name,category:category,location:p.loc||p.city||"Ontario",services:p.modalities||p.note||"Wellness care",billed:p.billed||p.disc||"Confirm with clinic",price:p.price||"Confirm with clinic",url:p.web||p.book||((category==="Pilates")?"/pilates":category==="Naturopathic"?"/naturopath":"/golf")}})}
-const providers=normalize(PILATES_CLINICS,"Pilates").concat(normalize(NATURO_CLINICS,"Naturopathic"),normalize(GOLF_CLINICS,"Golf"));let index=0,locked=false,activePointer=null,startX=0,startY=0,deltaX=0,deltaY=0,currentCard=null;
-function visitorId(){let id=localStorage.getItem(ID_KEY);if(!id){id=(crypto.randomUUID?crypto.randomUUID():"wf-"+Date.now()+"-"+Math.random().toString(16).slice(2));localStorage.setItem(ID_KEY,id)}if(!localStorage.getItem(FIRST_KEY))localStorage.setItem(FIRST_KEY,new Date().toISOString());if(window.posthog&&typeof window.posthog.identify==="function")window.posthog.identify(id);return id}
-function interactions(){try{return JSON.parse(localStorage.getItem(INTERACTION_KEY))||{}}catch(_){return{}}}
-function record(provider,reaction){const all=interactions();all[provider.id]=reaction;localStorage.setItem(INTERACTION_KEY,JSON.stringify(all));const payload={visitor_id:visitorId(),first_visit:localStorage.getItem(FIRST_KEY),provider_id:provider.id,provider_name:provider.name,provider_type:provider.category,reaction:reaction};fetch("/api/crm.php",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(payload),keepalive:true}).catch(function(){})}
-function likedCount(){const all=interactions();return Object.keys(all).filter(function(k){return all[k]==="liked"}).length}
-function esc(v){return String(v||"").replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
-function updateMeta(){const liked=likedCount();progress.textContent=Math.min(index+1,providers.length)+" of "+providers.length;savedProgress.textContent=liked+" saved";if(savedNavCount)savedNavCount.textContent=liked;progressBar.style.width=Math.min(index/providers.length*100,100)+"%";if(index<providers.length)clinicBtn.href=providers[index].url}
-function renderCard(){updateMeta();if(index>=providers.length){actions.hidden=true;cardWrap.innerHTML='<section class="discover-complete"><div><div class="complete-mark">✓</div><h2>Your provider shortlist is ready.</h2><p>You saved <strong>'+likedCount()+'</strong> provider'+(likedCount()===1?"":"s")+'.</p><div class="complete-actions"><a class="btn btn--primary" href="/saved">View saved providers</a><button class="btn btn--honey" id="emailComplete" type="button">Save my email</button><button class="btn btn--ghost" id="restartDiscover" type="button">Start over</button></div></div></section>';document.getElementById("restartDiscover").onclick=function(){index=0;actions.hidden=false;renderCard()};document.getElementById("emailComplete").onclick=function(){emailModal.showModal()};currentCard=null;return}const p=providers[index];cardWrap.innerHTML='<article class="discover-card entering" tabindex="0" aria-label="'+esc(p.name)+'. Swipe right to save or left to pass."><span class="choice-stamp choice-stamp--save">Save ♥</span><span class="choice-stamp choice-stamp--skip">Pass</span><div class="card-photo"><img src="'+categoryImages[p.category]+'" alt="" loading="'+(index===0?"eager":"lazy")+'"><span class="card-kicker">'+esc(p.category)+' provider</span></div><div class="card-content"><h2>'+esc(p.name)+'</h2><p class="card-description">'+esc(p.location)+'</p><div class="benefit-check"><div><small>Services</small><strong>'+esc(p.services)+'</strong></div><a href="'+esc(p.url)+'" target="_blank" rel="noopener">View provider</a></div><div class="card-bottom"><span class="billing-note">Billed as: '+esc(p.billed)+'</span><span class="inline-clinic">'+esc(p.price)+'</span></div></div></article>';currentCard=cardWrap.querySelector(".discover-card");["pointerdown","pointermove","pointerup","pointercancel"].forEach(function(type){currentCard.addEventListener(type,{pointerdown:onDown,pointermove:onMove,pointerup:onUp,pointercancel:onCancel}[type])});currentCard.addEventListener("keydown",function(e){if(e.key==="ArrowRight")dismiss("right");if(e.key==="ArrowLeft")dismiss("left")});locked=false}
-function onDown(e){if(locked||e.target.closest("a"))return;activePointer=e.pointerId;startX=e.clientX;startY=e.clientY;deltaX=0;deltaY=0;currentCard.classList.remove("entering");currentCard.classList.add("dragging");currentCard.setPointerCapture(e.pointerId)}function onMove(e){if(e.pointerId!==activePointer||locked)return;deltaX=e.clientX-startX;deltaY=e.clientY-startY;currentCard.style.transform="translate3d("+deltaX+"px,"+(deltaY*.16)+"px,0) rotate("+Math.max(-12,Math.min(12,deltaX/18))+"deg)";const s=Math.min(Math.abs(deltaX)/110,1);currentCard.querySelector(".choice-stamp--save").style.opacity=deltaX>0?s:0;currentCard.querySelector(".choice-stamp--skip").style.opacity=deltaX<0?s:0}function onUp(e){if(e.pointerId!==activePointer||locked)return;activePointer=null;currentCard.classList.remove("dragging");Math.abs(deltaX)>=Math.max(80,currentCard.offsetWidth*.2)?dismiss(deltaX>0?"right":"left"):center()}function onCancel(){if(!locked){activePointer=null;center()}}function center(){if(!currentCard)return;currentCard.style.transition="transform .32s cubic-bezier(.22,.8,.3,1)";currentCard.style.transform="translate3d(0,0,0) rotate(0)";currentCard.querySelectorAll(".choice-stamp").forEach(function(el){el.style.opacity=0});setTimeout(function(){if(currentCard)currentCard.style.transition=""},340)}
-function dismiss(direction){if(locked||!currentCard)return;locked=true;const p=providers[index];record(p,direction==="right"?"liked":"disliked");toast.className="swipe-toast "+(direction==="right"?"save":"skip");toast.textContent=direction==="right"?"♥ "+p.name+" saved":"Passed — this helps tune your matches";void toast.offsetWidth;toast.classList.add("show");const sign=direction==="right"?1:-1,distance=innerWidth+currentCard.offsetWidth+180;currentCard.style.transition="transform .56s cubic-bezier(.2,.72,.18,1),opacity .45s";currentCard.style.transform="translate3d("+(sign*distance)+"px,-24px,0) rotate("+(sign*18)+"deg)";currentCard.style.opacity=0;setTimeout(function(){index++;renderCard();if(direction==="right"&&likedCount()===2&&!localStorage.getItem(EMAIL_KEY))emailModal.showModal()},580)}
-skipBtn.onclick=function(){dismiss("left")};saveBtn.onclick=function(){dismiss("right")};document.getElementById("closeEmailModal").onclick=function(){emailModal.close()};emailModal.addEventListener("click",function(e){if(e.target===emailModal)emailModal.close()});emailForm.addEventListener("submit",function(e){e.preventDefault();const input=document.getElementById("discoverEmail");if(!input.checkValidity()){input.reportValidity();return}const email=input.value.trim();localStorage.setItem(EMAIL_KEY,email);if(window.posthog&&typeof window.posthog.identify==="function")window.posthog.identify(visitorId(),{email:email});fetch("/api/crm.php",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({visitor_id:visitorId(),first_visit:localStorage.getItem(FIRST_KEY),email:email}),keepalive:true}).catch(function(){});emailForm.hidden=true;emailSuccess.hidden=false});visitorId();renderCard()})();
+/* ============================================================
+   WellFinder Discover — swipe through TREATMENTS, then an
+   email + postal code gate that leads to the wellness page.
+   ============================================================ */
+(function () {
+  "use strict";
+
+  if (typeof TREATMENTS === "undefined") return;
+
+  var stage = document.getElementById("discoverStage");
+  var cardWrap = document.getElementById("cardWrap");
+  var progress = document.getElementById("cardProgress");
+  var savedProgress = document.getElementById("savedProgress");
+  var progressBar = document.getElementById("progressBar");
+  var toast = document.getElementById("swipeToast");
+  var actions = document.getElementById("discoverActions");
+  var skipBtn = document.getElementById("skipBtn");
+  var saveBtn = document.getElementById("saveBtn");
+  var clinicBtn = document.getElementById("clinicBtn");
+  var savedNavCount = document.getElementById("savedNavCount");
+  if (!stage || !cardWrap) return;
+
+  var EMAIL_KEY = "wf_discover_email";
+  var POSTAL_KEY = "wf_postal_code";
+
+  var deck = TREATMENTS.slice();
+  var index = 0;
+  var currentCard = null;
+  var locked = false;
+
+  /* ---------- helpers ---------- */
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function slug(name) {
+    return String(name).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  }
+  function imgFor(t) {
+    if (typeof TREATMENT_IMAGES !== "undefined" && TREATMENT_IMAGES[t.name]) return TREATMENT_IMAGES[t.name].src;
+    if (typeof TREATMENT_ART !== "undefined" && TREATMENT_ART[t.group]) return TREATMENT_ART[t.group];
+    return "";
+  }
+  function favs() {
+    try { return window.wfFavs ? window.wfFavs.get() : []; } catch (_) { return []; }
+  }
+  function treatmentNames() {
+    return deck.map(function (t) { return t.name; });
+  }
+  function savedCount() {
+    var names = treatmentNames();
+    return favs().filter(function (n) { return names.indexOf(n) > -1; }).length;
+  }
+  function showToast(msg) {
+    if (!toast) return;
+    toast.textContent = msg;
+    toast.classList.add("on");
+    clearTimeout(showToast._t);
+    showToast._t = setTimeout(function () { toast.classList.remove("on"); }, 1400);
+  }
+  function updateMeta() {
+    var total = deck.length;
+    if (progress) progress.textContent = Math.min(index + 1, total) + " of " + total;
+    if (savedProgress) savedProgress.textContent = savedCount() + " saved";
+    if (progressBar) progressBar.style.width = Math.round((index / total) * 100) + "%";
+    if (savedNavCount) savedNavCount.textContent = favs().length;
+  }
+
+  /* ---------- card ---------- */
+  function cardHTML(t) {
+    var img = imgFor(t);
+    var s = slug(t.name);
+    return '<article class="discover-card entering" tabindex="0" aria-label="' + esc(t.name) + '. Press right arrow to save, left arrow to pass.">'
+      + '<span class="choice-stamp choice-stamp--save">Save</span>'
+      + '<span class="choice-stamp choice-stamp--skip">Pass</span>'
+      + (img ? '<div class="card-photo"><img src="' + esc(img) + '" alt="" loading="' + (index === 0 ? "eager" : "lazy") + '">'
+        + '<span class="card-kicker">Billed as ' + esc(t.billed) + "</span></div>" : "")
+      + '<div class="card-content"><h2>' + esc(t.name) + "</h2>"
+      + '<p class="card-description">' + esc(t.desc) + "</p>"
+      + '<div class="benefit-check"><div><small>Coverage</small><strong>' + esc(t.billed) + " benefit</strong></div>"
+      + '<a href="/clinics-' + s + '">Find clinics</a></div>'
+      + "</div></article>";
+  }
+
+  function renderCard() {
+    updateMeta();
+    if (index >= deck.length) { renderGate(); return; }
+    var t = deck[index];
+    if (clinicBtn) clinicBtn.href = "/clinics-" + slug(t.name);
+    cardWrap.innerHTML = cardHTML(t);
+    currentCard = cardWrap.querySelector(".discover-card");
+    attachSwipe(currentCard);
+    currentCard.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight") dismiss("right");
+      else if (e.key === "ArrowLeft") dismiss("left");
+    });
+    locked = false;
+  }
+
+  /* ---------- swipe ---------- */
+  function attachSwipe(el) {
+    var pid = null, startX = 0, startY = 0, dx = 0;
+    var stampSave = el.querySelector(".choice-stamp--save");
+    var stampSkip = el.querySelector(".choice-stamp--skip");
+    el.addEventListener("pointerdown", function (e) {
+      if (locked) return;
+      pid = e.pointerId; startX = e.clientX; startY = e.clientY; dx = 0;
+      try { el.setPointerCapture(pid); } catch (_) {}
+      el.classList.add("dragging");
+    });
+    el.addEventListener("pointermove", function (e) {
+      if (e.pointerId !== pid || locked) return;
+      var dy = e.clientY - startY;
+      dx = e.clientX - startX;
+      if (Math.abs(dy) > Math.abs(dx) + 12) return; // let vertical scroll win
+      el.style.transform = "translateX(" + dx + "px) rotate(" + dx / 22 + "deg)";
+      var o = Math.min(1, Math.abs(dx) / 90);
+      if (stampSave) stampSave.style.opacity = dx > 0 ? o : 0;
+      if (stampSkip) stampSkip.style.opacity = dx < 0 ? o : 0;
+    });
+    function end(e) {
+      if (e.pointerId !== pid || locked) return;
+      pid = null;
+      el.classList.remove("dragging");
+      if (dx > 110) return flyOut("right");
+      if (dx < -110) return flyOut("left");
+      el.style.transform = "";
+      if (stampSave) stampSave.style.opacity = 0;
+      if (stampSkip) stampSkip.style.opacity = 0;
+    }
+    el.addEventListener("pointerup", end);
+    el.addEventListener("pointercancel", end);
+  }
+
+  function flyOut(dir) {
+    if (!currentCard || locked) return;
+    locked = true;
+    var el = currentCard;
+    el.style.transition = "transform .28s ease, opacity .28s ease";
+    el.style.transform = "translateX(" + (dir === "right" ? 480 : -480) + "px) rotate(" + (dir === "right" ? 18 : -18) + "deg)";
+    el.style.opacity = "0";
+    setTimeout(function () { dismiss(dir); }, 260);
+  }
+
+  function dismiss(dir) {
+    if (index >= deck.length) return;
+    var t = deck[index];
+    if (dir === "right") {
+      if (window.wfFavs && !window.wfFavs.has(t.name)) window.wfFavs.toggle(t.name);
+      showToast("Saved " + t.name);
+    } else {
+      showToast("Passed");
+    }
+    index++;
+    renderCard();
+  }
+
+  /* ---------- gate: email + postal code -> wellness page ---------- */
+  function renderGate() {
+    if (actions) actions.hidden = true;
+    updateMeta();
+    var n = savedCount();
+    cardWrap.innerHTML = '<section class="discover-complete"><div>'
+      + '<div class="complete-mark">✓</div>'
+      + "<h2>Your treatment shortlist is ready.</h2>"
+      + "<p>You saved <strong>" + n + "</strong> treatment" + (n === 1 ? "" : "s") + ".</p>"
+      + '<form id="gateForm" class="gate-form" novalidate>'
+      + '<label for="gateEmail">Email address</label>'
+      + '<input id="gateEmail" type="email" autocomplete="email" placeholder="you@example.com">'
+      + '<label for="gatePostal">Postal code</label>'
+      + '<input id="gatePostal" autocomplete="postal-code" placeholder="M4B 1B3">'
+      + '<p class="gate-error" id="gateError" hidden></p>'
+      + '<button class="btn btn--primary" type="submit">See my wellness page →</button>'
+      + "<small>We use your postal code to suggest nearby clinics. No spam, unsubscribe anytime.</small>"
+      + "</form></div></section>";
+    var form = document.getElementById("gateForm");
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var email = document.getElementById("gateEmail").value.trim();
+      var postal = document.getElementById("gatePostal").value.trim().toUpperCase();
+      var err = document.getElementById("gateError");
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) {
+        err.textContent = "Enter a valid email address.";
+        err.hidden = false;
+        return;
+      }
+      if (!/^[A-Z]\d[A-Z][ -]?\d[A-Z]\d$/.test(postal)) {
+        err.textContent = "Enter a valid postal code, like M4B 1B3.";
+        err.hidden = false;
+        return;
+      }
+      try {
+        localStorage.setItem(EMAIL_KEY, email);
+        localStorage.setItem(POSTAL_KEY, postal);
+      } catch (_) {}
+      window.location.href = "/saved";
+    });
+    currentCard = null;
+  }
+
+  /* ---------- buttons ---------- */
+  if (skipBtn) skipBtn.addEventListener("click", function () { flyOut("left"); });
+  if (saveBtn) saveBtn.addEventListener("click", function () { flyOut("right"); });
+
+  renderCard();
+})();
