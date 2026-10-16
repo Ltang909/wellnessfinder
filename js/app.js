@@ -280,6 +280,10 @@
     const golf = (typeof GOLF_CLINICS !== "undefined" ? GOLF_CLINICS : []);
     const naturo = (typeof NATURO_CLINICS !== "undefined" ? NATURO_CLINICS : []).filter(inOntario);
     const byTag = (tag) => naturo.filter((c) => c.tags && c.tags.includes(tag));
+    const facial = (typeof FACIAL_CLINICS !== "undefined" ? FACIAL_CLINICS : []).filter(inOntario);
+    const interview = (typeof INTERVIEW_CLINICS !== "undefined" ? INTERVIEW_CLINICS : []).filter(inOntario);
+    const voice = (typeof VOICE_CLINICS !== "undefined" ? VOICE_CLINICS : []).filter(inOntario);
+    const neuro = (typeof NEUROFEEDBACK_CLINICS !== "undefined" ? NEUROFEEDBACK_CLINICS : []).filter(inOntario);
     const glutaSeen = new Set();
     const gluta = [];
     ["iv-therapy", "vitamin-injections"].forEach((tag) =>
@@ -297,10 +301,10 @@
       { name: "Glutathione Therapy (IV and IM)", billed: "Naturopathy", clinics: gluta },
       { name: "IV Vitamin Therapy", clinics: byTag("iv-therapy") },
       { name: "Vitamin B Injections", clinics: byTag("vitamin-injections") },
-      { name: "Facial Manual Therapy", clinics: [] },
-      { name: "Interview Preparation", clinics: [] },
-      { name: "Singing Voice Therapy", clinics: [] },
-      { name: "Neurofeedback", clinics: [] },
+      { name: "Facial Manual Therapy", clinics: facial },
+      { name: "Interview Preparation", clinics: interview },
+      { name: "Singing Voice Therapy", clinics: voice },
+      { name: "Neurofeedback", clinics: neuro },
     ];
     grid.innerHTML = groups.map((g) => {
       const billed = g.billed || billedFor(g.name);

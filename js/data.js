@@ -180,6 +180,86 @@ const COVERAGE_MAP = [
 ];
 
 /* ============================================================
+   FACIAL MANUAL THERAPY CLINICS (16)
+   ============================================================ */
+const FACIAL_CLINICS = [
+  { name: "TMJ Osteopathy and Concussion Care", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Osteopathy", note: "TMJ/jaw-focused osteopathy", web: "https://www.tmjosteopathy.com/" },
+  { name: "Say Word Osteopathy", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Osteopathy", note: "TMJ and jaw issues", web: "https://www.saywordosteopathy.ca/" },
+  { name: "Body & Mind Osteopathic Clinic", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Osteopathy", note: "cranial osteopathy; Toronto and Vaughan", web: "https://www.bodyandmind.clinic/" },
+  { name: "Erica Pearson Osteopathy", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Osteopathy", note: "cranial sacral osteopathy", web: "https://www.ericaosteopathy.com/" },
+  { name: "Toronto Naturopath Osteopath Clinic", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Osteopathy", note: "cranial sacral therapy", web: "https://naturopathosteopathclinic.com/" },
+  { name: "Mississauga Naturopath Osteopath Clinic", city: "Mississauga", loc: "Mississauga, ON", prov: "ON", billed: "Osteopathy", note: "craniosacral therapy; Mississauga location", web: "https://naturopathosteopathclinic.com/" },
+  { name: "Continuum Wellness", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Osteopathy", note: "cranial osteopathy; treats TMJ dysfunction", web: "https://www.continuumwellness.ca/" },
+  { name: "Mike Fuhr Osteopathy + Massage", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Osteopathy", note: "CranioSacral cornerstone; TMJ massage", web: "https://osteomike.com/" },
+  { name: "Royal York Massage Therapy & Osteopathy", city: "Etobicoke", loc: "Etobicoke, ON", prov: "ON", billed: "Osteopathy", note: "cranial osteopathy; direct billing", web: "https://rymt.ca/" },
+  { name: "Toronto Osteopathy & Wellness", city: "North York", loc: "North York, ON", prov: "ON", billed: "Osteopathy", note: "cranial osteopathy; TMJ issues", web: "https://osteowellto.com/" },
+  { name: "Roncesvalles Osteopathy & Wellness", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Osteopathy", note: "craniosacral therapy", web: "https://www.roncyosteo.com/" },
+  { name: "Patchouli7drops", city: "Richmond Hill", loc: "Richmond Hill, ON", prov: "ON", billed: "Osteopathy", note: "craniosacral and nervous system care", web: "https://patchouli7drops.com/" },
+  { name: "Q. Osteo-Med Clinic", city: "Richmond Hill", loc: "Richmond Hill, ON", prov: "ON", billed: "Osteopathy", note: "cranial therapy; TMJ disorder focus", web: "https://q-osteomed.com/" },
+  { name: "Natural Health Clinic of Halton", city: "Oakville", loc: "Oakville, ON", prov: "ON", billed: "Osteopathy", note: "craniosacral therapy", web: "https://www.nhchalton.com/" },
+  { name: "Osteopathy First", city: "Burlington", loc: "Burlington, ON", prov: "ON", billed: "Osteopathy", note: "craniosacral therapy; DOMP-led", web: "https://www.osteopathyfirst.ca/" },
+  { name: "Rehab ARK", city: "Markham", loc: "Markham, ON", prov: "ON", billed: "Osteopathy", note: "craniosacral therapy; manual osteopathy", web: "https://www.rehabark.com/" },
+];
+
+/* ============================================================
+   INTERVIEW PREPARATION PROVIDERS (15)
+   ============================================================ */
+const INTERVIEW_CLINICS = [
+  { name: "Careers by Design", city: "Mississauga", loc: "Mississauga, ON", prov: "ON", billed: "Psychotherapy", note: "RP registered; interview coaching focus", web: "https://www.careersbydesign.ca" },
+  { name: "Career Success Now", city: "Mississauga", loc: "Mississauga, ON", prov: "ON", billed: "Counselling", note: "interview prep and mock interviews", web: "https://careersuccessnow.com" },
+  { name: "CareerJoy", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Counselling", note: "career coaching focus; interview prep", web: "https://www.careerjoy.com" },
+  { name: "JB Career Solutions", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Counselling", note: "career coaching focus", web: "https://jbcareersolutions.com" },
+  { name: "MindfulCareer", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Counselling", note: "career coach", web: "https://mindfulcareer.ca" },
+  { name: "CareerNiche", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Counselling", note: "career counselling focus", web: "http://www.careerniche.ca" },
+  { name: "Career Compass Canada", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Counselling", note: "career coaching focus", web: "https://www.careercompasscanada.com" },
+  { name: "Kevin William Grant", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychotherapy", note: "RP registered; interview skills coaching", web: "https://www.kevinwgrant.com" },
+  { name: "Amanda Tobe and Associates", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychotherapy", note: "psychologist-led; mock interviews; insurance-covered", web: "https://www.amandatobe.com" },
+  { name: "Possibilities Clinic", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychotherapy", note: "RP registered; career coaching and therapy", web: "https://possibilitiesclinic.com" },
+  { name: "Canada Career Counselling", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychotherapy", note: "RP/RPsych team; career counselling", web: "https://canadacareercounselling.com" },
+  { name: "Barbara Fish", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychotherapy", note: "RP registered; career counselling", web: "https://barbarafish.com" },
+  { name: "Lights Consulting & Coaching", city: "Markham", loc: "Markham, ON", prov: "ON", billed: "Counselling", note: "career coaching focus", web: "https://www.lightsconsulting.ca" },
+  { name: "FOCUS inspired", city: "Markham", loc: "Markham, ON", prov: "ON", billed: "Counselling", note: "career coaching focus", web: "http://www.focusinspired.com" },
+  { name: "The McFadden Group Career Coaching", city: "Burlington", loc: "Burlington, ON", prov: "ON", billed: "Counselling", note: "career coaching focus", web: "http://www.tmgcareercoaching.com" },
+];
+
+/* ============================================================
+   SINGING VOICE THERAPY CLINICS (10)
+   ============================================================ */
+const VOICE_CLINICS = [
+  { name: "Melanie Tapson Voice Care", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Speech Therapy", note: "clinical singing voice therapist (PAVA-RV)", web: "https://melanietapson.com/" },
+  { name: "SpeechAppeal", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Speech Therapy", note: "dedicated Singing Voice Therapy service", web: "https://www.speechappeal.ca/" },
+  { name: "The Voice Clinic", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Speech Therapy", note: "singer and speaker voice treatment + repair", web: "http://www.thevoiceclinic.com/" },
+  { name: "St. Michael's Hospital Outpatient Voice and Swallowing Clinic", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Speech Therapy", note: "hospital voice clinic; stroboscopy + OHIP-covered voice therapy", web: "https://unityhealth.to/areas-of-care/programs-and-clinics/ear-nose-throat-and-voice-department-of-otolaryngology-head-and-neck-surgery/" },
+  { name: "Toronto Adult Speech Clinic", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Speech Therapy", note: "adult voice therapy", web: "http://www.torontoadultspeechclinic.com/" },
+  { name: "SpeechAim", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Speech Therapy", note: "voice therapy incl. singers and vocal nodules", web: "https://www.speechaim.com/" },
+  { name: "Speech Specialists", city: "Scarborough", loc: "Scarborough, ON", prov: "ON", billed: "Speech Therapy", note: "adult voice therapy; vocal nodules and vocal strain", web: "https://speechspecialists.ca/" },
+  { name: "Speech Therapy Toronto", city: "North York", loc: "North York, ON", prov: "ON", billed: "Speech Therapy", note: "adult voice problems incl. vocal nodules", web: "https://speechtherapytoronto.com/" },
+  { name: "Beyond Words Speech-Language Pathology", city: "Whitby", loc: "Whitby, ON", prov: "ON", billed: "Speech Therapy", note: "adult voice disorders; serves Durham Region", web: "http://www.beyondslp.ca/" },
+  { name: "B. Ryan Speech-Language Pathology", city: "Pickering", loc: "Pickering, ON", prov: "ON", billed: "Speech Therapy", note: "voice disorders clinic", web: "http://ryanspeechtherapy.com/" },
+];
+
+/* ============================================================
+   NEUROFEEDBACK CLINICS (15)
+   ============================================================ */
+const NEUROFEEDBACK_CLINICS = [
+  { name: "Now + Next Psychotherapy & Neurofeedback", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychotherapy", note: "LENS neurofeedback for calm and focus", web: "https://nowandnextpsychotherapy.ca/" },
+  { name: "The ADD Centre & The Biofeedback Institute of Toronto", city: "Mississauga", loc: "Mississauga, ON", prov: "ON", billed: "Psychology", note: "qEEG brain mapping and ADHD brain training", web: "https://www.addcentre.com" },
+  { name: "Neuropotential Clinics", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychology", note: "BCIA board-certified neurofeedback for anxiety ADHD trauma", web: "https://neuropotentialclinics.com/" },
+  { name: "VieClinic", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychology", note: "qEEG brain mapping and ADHD treatment", web: "https://vieclinic.com" },
+  { name: "The Insight Clinic", city: "Whitby", loc: "Whitby, ON", prov: "ON", billed: "Psychotherapy", note: "neurofeedback paired with talk therapy", web: "https://theinsightclinic.ca/" },
+  { name: "Vaughan Psychotherapy", city: "Vaughan", loc: "Vaughan, ON", prov: "ON", billed: "Psychotherapy", note: "10-week neurofeedback and psychotherapy program", web: "https://www.vaughanpsychotherapist.com/" },
+  { name: "The Wise Self Psychotherapy Clinic", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychotherapy", note: "LENS neurofeedback in Etobicoke", web: "https://www.thewiseself.ca/" },
+  { name: "A Time To Heal Psychotherapy", city: "Vaughan", loc: "Vaughan, ON", prov: "ON", billed: "Psychotherapy", note: "neurofeedback and biofeedback for anxiety ADHD", web: "https://www.atimetohealpsychotherapy.com/" },
+  { name: "Toronto Neurofeedback and Psychotherapy Centre", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychotherapy", note: "brain-based healing plus psychotherapy", web: "https://nuvistamentalhealth.com/locations/toronto/" },
+  { name: "Heal Psychotherapy", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychotherapy", note: "LENS and ILF neurofeedback for trauma", web: "https://www.healpsychotherapy.ca/" },
+  { name: "Rachael Frankford Psychotherapy and Neurofeedback", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychotherapy", note: "trauma-focused neurofeedback practice", web: "http://www.rachaelfrankford.com/" },
+  { name: "New Pathways Therapy Center", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychotherapy", note: "neurofeedback for trauma recovery", web: "https://www.newpathwaystherapy.com/" },
+  { name: "ACE Clinics", city: "Toronto", loc: "Toronto, ON", prov: "ON", billed: "Psychology", note: "EEG assessment and neurofeedback for ADHD", web: "https://aceclinics.com/" },
+  { name: "Critical Trauma Therapy", city: "Oakville", loc: "Oakville, ON", prov: "ON", billed: "Psychiatry", note: "neurofeedback with qEEG-guided TMS", web: "https://criticaltraumatherapy.com/" },
+  { name: "Natural Health Clinic of Halton", city: "Milton", loc: "Milton, ON", prov: "ON", billed: "Naturopath", note: "neurofeedback and biofeedback clinic", web: "https://www.nhchalton.com/" },
+];
+
+/* ============================================================
    PILATES CLINICS (41)
    ============================================================ */
 const PILATES_CLINICS = [
