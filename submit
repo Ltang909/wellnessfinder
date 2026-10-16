@@ -16,7 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css?v=4" />
 <link rel="canonical" href="https://wellfinder.ca/submit" />
 </head>
 <body data-page="submit">
@@ -33,7 +33,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <a href="/pilates">Pilates Clinics</a>
           <a href="/naturopath">Naturopath Clinics</a>
           <a href="/golf">Golf Clinics</a>
-          <a href="/#insurance">Insurance Benefits</a>
           <a href="/#resources">Resources</a>
           <a href="/about">About</a>
         </div>
@@ -48,7 +47,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <div class="mobile-menu" id="mobileMenu">
       <a href="/#directory">Browse Treatments</a>
-      <a href="/#insurance">Insurance Benefits</a>
       <a href="/about">About</a>
       <div class="mm-group">
         <a href="/pilates">Pilates</a>
@@ -208,12 +206,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="footer-col"><h5>Browse</h5>
           <a href="/#directory">Treatments</a>
-          <a href="/pilates">Clinics</a>
-          <a href="/#categories">Categories</a>
+          <a href="/#gta">Clinics</a>
         </div>
         <div class="footer-col"><h5>Resources</h5>
           <a href="/#resources">Guides</a>
-          <a href="/#insurance">Insurance</a>
         </div>
         <div class="footer-col"><h5>Company</h5>
           <a href="/about">About</a>
@@ -225,7 +221,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </footer>
 
   <script src="js/site-nav.js?v=3"></script>
-  <script src="js/app.js"></script>
+  <script src="js/app.js?v=4"></script>
   <script src="js/submit.js"></script>
 </body>
 </html>

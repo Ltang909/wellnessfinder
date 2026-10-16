@@ -93,7 +93,7 @@
   function renderInsurers() {
     const row = $("#insurersRow"); if (!row || typeof INSURERS === "undefined") return;
     const items = INSURERS.map((i) =>
-      `<span class="insurer-logo"><img src="${esc(i.logo)}" alt="${esc(i.name)}" loading="lazy"></span>`
+      `<span class="insurer-logo"><img src="${esc(i.logo)}" alt="${esc(i.name)}"></span>`
     ).join("");
     // duplicate the track so the scroll loops seamlessly
     row.innerHTML = `<div class="insurer-track">${items}${items}</div>`;
