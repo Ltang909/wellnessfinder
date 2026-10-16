@@ -242,7 +242,9 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 /* ============================================================
    Why grid
    ============================================================ */
-.why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+.why-scroll { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 4px 2px 16px; margin: 0 -2px; scrollbar-width: thin; -webkit-overflow-scrolling: touch; }
+.why-scroll .claim-card { flex: 0 0 300px; scroll-snap-align: start; }
+@media (max-width: 560px) { .why-scroll .claim-card { flex-basis: 264px; } }
 .claim-card { background: var(--card); border: 1px solid var(--line-soft); border-radius: var(--radius); padding: 20px; display: flex; flex-direction: column; gap: 6px; }
 .claim-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 4px; }
 .claim-name { font-weight: 700; font-size: 1.02rem; color: var(--ink); }

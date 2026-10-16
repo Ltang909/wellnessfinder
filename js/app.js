@@ -104,7 +104,7 @@
     const claims = [
       { name: "Chi", treatment: "Clinical Pilates", billed: "Physiotherapy", covered: "100% covered", price: "$100 per 45 min session" },
       { name: "Leon", treatment: "Facial massage", billed: "Osteopathy", covered: "100% covered", price: "$120 per session" },
-      { name: "Celine", treatment: "Glutathione injection", billed: "Naturopath", covered: "", price: "" },
+      { name: "Celine", treatment: "IM vitamin therapy", billed: "Naturopath", covered: "", price: "" },
       { name: "Chun Ho", treatment: "Neurofeedback", billed: "Psychology", covered: "100% covered", price: "$180 per session" },
       { name: "Daniel", treatment: "Singing voice therapy", billed: "Speech therapy", covered: "100% covered", price: "$160 per 45 min session" },
     ];
@@ -280,19 +280,13 @@
     const golf = (typeof GOLF_CLINICS !== "undefined" ? GOLF_CLINICS : []);
     const naturo = (typeof NATURO_CLINICS !== "undefined" ? NATURO_CLINICS : []).filter(inOntario);
     const byTag = (tag) => naturo.filter((c) => c.tags && c.tags.includes(tag));
-    const seen = new Set();
-    const gluta = [];
-    ["iv-therapy", "vitamin-injections"].forEach((tag) =>
-      byTag(tag).forEach((c) => { if (!seen.has(c.name)) { seen.add(c.name); gluta.push(c); } })
-    );
     const map = {
       "Clinical Pilates": { clinics: pilates },
       "Golf Swing Assessment": { clinics: golf },
       "Cosmetic Acupuncture": { clinics: byTag("cosmetic-acupuncture") },
       "Microneedling": { clinics: byTag("microneedling") },
-      "Glutathione Injections": { display: "Glutathione Therapy (IV and IM)", billed: "Naturopathy", clinics: gluta },
+      "IM Vitamin Therapy": { clinics: byTag("vitamin-injections") },
       "IV Vitamin Therapy": { clinics: byTag("iv-therapy") },
-      "Vitamin B Injections": { clinics: byTag("vitamin-injections") },
       "Facial Manual Therapy": { clinics: (typeof FACIAL_CLINICS !== "undefined" ? FACIAL_CLINICS : []).filter(inOntario) },
       "Interview Preparation": { clinics: (typeof INTERVIEW_CLINICS !== "undefined" ? INTERVIEW_CLINICS : []).filter(inOntario) },
       "Singing Voice Therapy": { clinics: (typeof VOICE_CLINICS !== "undefined" ? VOICE_CLINICS : []).filter(inOntario) },
@@ -326,8 +320,8 @@
     const grid = $("#gtaGrid"); if (!grid || typeof TREATMENTS === "undefined") return;
     const names = [
       "Clinical Pilates", "Golf Swing Assessment", "Cosmetic Acupuncture",
-      "Microneedling", "Glutathione Injections", "IV Vitamin Therapy",
-      "Vitamin B Injections", "Facial Manual Therapy", "Interview Preparation",
+      "Microneedling", "IV Vitamin Therapy", "IM Vitamin Therapy",
+      "Facial Manual Therapy", "Interview Preparation",
       "Singing Voice Therapy", "Neurofeedback",
     ];
     grid.innerHTML = names.map((name) => {
