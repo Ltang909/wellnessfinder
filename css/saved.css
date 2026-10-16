@@ -6,3 +6,16 @@ body[data-page="saved"]{background:#f6f2e9;color:var(--ink)}.saved-hero{padding:
 .postal-form input{flex:1;min-width:0;padding:.7rem .9rem;border:1px solid rgba(35,54,47,.2);border-radius:10px;font:inherit;text-transform:uppercase}
 #nearbyWrap .clinic-grid{margin-top:1.2rem}
 #nearbySub{color:var(--muted)}
+.saved-tx-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:.6rem}
+.saved-tx{display:flex;align-items:center;gap:.7rem;background:#fff;border:1px solid rgba(35,54,47,.09);border-radius:14px;padding:.55rem .7rem}
+.saved-tx img{width:52px;height:52px;border-radius:10px;object-fit:cover;flex:0 0 auto}
+.saved-tx-body{flex:1;min-width:0}
+.saved-tx-body h3{margin:0;font-size:.92rem}
+.saved-tx-body p{margin:.1rem 0 0;font-size:.76rem;color:var(--muted)}
+.saved-tx-link{flex:0 0 auto;font-size:.78rem;font-weight:800;color:var(--forest);white-space:nowrap}
+.saved-tx-x{flex:0 0 auto;border:0;background:transparent;color:var(--muted);font-size:1.2rem;cursor:pointer;padding:.2rem .4rem}
+.saved-tx-x:hover{color:#91534b}
+.radius-wrap{max-width:420px;margin:.4rem 0 1.2rem}
+.radius-wrap label{display:block;font-size:.82rem;font-weight:700;margin-bottom:.3rem}
+.radius-wrap input[type=range]{width:100%;accent-color:var(--forest)}
+#forYouSub{color:var(--muted)}

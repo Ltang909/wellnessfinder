@@ -304,6 +304,106 @@
     return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
   }
 
+  /* ---------- geo: approximate distance for "near you" ---------- */
+  const CITY_COORDS = {
+    "Toronto": [43.6532, -79.3832], "North York": [43.7615, -79.4111],
+    "Scarborough": [43.7731, -79.2578], "Etobicoke": [43.6205, -79.5132],
+    "East York": [43.6905, -79.3279], "Mississauga": [43.5890, -79.6441],
+    "Brampton": [43.7315, -79.7624], "Vaughan": [43.8563, -79.5085],
+    "Markham": [43.8561, -79.3370], "Richmond Hill": [43.8828, -79.4403],
+    "Newmarket": [44.0592, -79.4608], "Aurora": [44.0069, -79.4504],
+    "Oakville": [43.4675, -79.6877], "Burlington": [43.3255, -79.7990],
+    "Milton": [43.5183, -79.8774], "Thornhill": [43.8125, -79.4168],
+    "Woodbridge": [43.7897, -79.5544], "Maple": [43.8563, -79.5085],
+    "Stouffville": [43.9700, -79.2470], "Whitby": [43.8975, -78.9429],
+    "Pickering": [43.8354, -79.0898], "Ancaster": [43.2175, -79.9791],
+    "Kitchener": [43.4516, -80.4925]
+  };
+  function haversineKm(a, b) {
+    const R = 6371;
+    const dLat = (b[0] - a[0]) * Math.PI / 180;
+    const dLon = (b[1] - a[1]) * Math.PI / 180;
+    const s = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+      Math.cos(a[0] * Math.PI / 180) * Math.cos(b[0] * Math.PI / 180) *
+      Math.sin(dLon / 2) * Math.sin(dLon / 2);
+    return 2 * R * Math.asin(Math.sqrt(s));
+  }
+  function getUserCoords(postal) {
+    const fsa = String(postal || "").toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 6);
+    return fetch("https://api.zippopotam.us/ca/" + fsa)
+      .then((r) => { if (!r.ok) throw new Error("geo"); return r.json(); })
+      .then((j) => [parseFloat(j.places[0].latitude), parseFloat(j.places[0].longitude)])
+      .catch(() => (fsa[0] === "M" ? CITY_COORDS["Toronto"] : [43.85, -79.52]));
+  }
+  window.wfGeo = { CITY_COORDS, haversineKm, getUserCoords };
+
+  /* Every clinic in the database, tagged with its treatment. */
+  function allClinicsWithTreatment() {
+    const out = [];
+    const push = (list, treatment, tag) => {
+      (list || []).forEach((c) => {
+        if (c.prov && c.prov !== "ON") return;
+        if (tag && (!c.tags || c.tags.indexOf(tag) < 0)) return;
+        out.push({ clinic: c, treatment });
+      });
+    };
+    push(typeof PILATES_CLINICS !== "undefined" ? PILATES_CLINICS : [], "Clinical Pilates");
+    push(typeof GOLF_CLINICS !== "undefined" ? GOLF_CLINICS : [], "Golf Swing Assessment");
+    const nat = (typeof NATURO_CLINICS !== "undefined" ? NATURO_CLINICS : []).filter((c) => c.prov === "ON");
+    push(nat, "Cosmetic Acupuncture", "cosmetic-acupuncture");
+    push(nat, "Microneedling", "microneedling");
+    push(nat, "IV Vitamin Therapy", "iv-therapy");
+    push(nat, "IM Vitamin Therapy", "vitamin-injections");
+    push(typeof FACIAL_CLINICS !== "undefined" ? FACIAL_CLINICS : [], "Facial Manual Therapy");
+    push(typeof INTERVIEW_CLINICS !== "undefined" ? INTERVIEW_CLINICS : [], "Interview Preparation");
+    push(typeof VOICE_CLINICS !== "undefined" ? VOICE_CLINICS : [], "Singing Voice Therapy");
+    push(typeof NEUROFEEDBACK_CLINICS !== "undefined" ? NEUROFEEDBACK_CLINICS : [], "Neurofeedback");
+    return out;
+  }
+  window.wfAllClinics = allClinicsWithTreatment;
+
+  /* ---------- clinic info modal ---------- */
+  function ensureClinicModal() {
+    if (document.getElementById("clinicModal")) return;
+    const d = document.createElement("dialog");
+    d.className = "clinic-modal";
+    d.id = "clinicModal";
+    d.innerHTML = `<button class="modal-close" data-close aria-label="Close">×</button><div id="clinicModalBody"></div>`;
+    document.body.appendChild(d);
+    d.addEventListener("click", (e) => {
+      if (e.target.closest("[data-close]") || e.target === d) d.close();
+    });
+  }
+  function clinicMailto(c, serviceName) {
+    if (!c.email) return "";
+    return `mailto:${esc(c.email)}?subject=${encodeURIComponent(`Question about ${serviceName} (found via WellFinder)`)}&body=${encodeURIComponent(`Hi,\n\nI found your clinic via wellfinder.ca for ${serviceName}. I hope to get more information regarding price, claim process and schedule.\n\nThank you!`)}`;
+  }
+  function openClinicModal(name) {
+    const found = window.wfAllClinics().find((x) => x.clinic.name === name);
+    if (!found) return;
+    const c = found.clinic;
+    ensureClinicModal();
+    const mailto = clinicMailto(c, found.treatment);
+    const rows = [
+      c.about ? `<p class="cm-about">${esc(c.about)}</p>` : "",
+      c.loc ? `<p><strong>Address</strong><br>${esc(c.loc)}</p>` : "",
+      c.price && c.price.indexOf("$") > -1 ? `<p><strong>Price</strong><br>${esc(c.price)}</p>` : "",
+      c.billed ? `<p><strong>Billed as</strong><br>${esc(c.billed)}</p>` : "",
+      c.modalities ? `<p><strong>Services</strong><br>${esc(c.modalities)}</p>` : "",
+      c.note ? `<p><strong>Note</strong><br>${esc(c.note)}</p>` : "",
+    ].filter(Boolean).join("");
+    const host = c.web ? c.web.replace(/^https?:\/\//, "").split("/")[0] : "";
+    document.getElementById("clinicModalBody").innerHTML =
+      `<p class="eyebrow">${esc(found.treatment)}</p><h3>${esc(c.name)}</h3>${rows}
+       <div class="clinic-actions">
+         ${c.web ? `<a class="btn btn--ghost btn--sm" href="${esc(c.web)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
+         ${mailto ? `<a class="btn btn--ghost btn--sm" href="${mailto}" aria-label="Email ${esc(c.name)}">✉</a>` : ""}
+         ${c.book ? `<a class="btn btn--primary btn--sm" href="${esc(c.book)}" target="_blank" rel="noopener">Book online ↗</a>` : ""}
+       </div>
+       ${host ? `<p class="cm-src">Info compiled from the clinic's public website: <a href="${esc(c.web)}" target="_blank" rel="noopener">${esc(host)}</a></p>` : ""}`;
+    document.getElementById("clinicModal").showModal();
+  }
+
   function clinicListHTML(clinics) {
     if (!clinics.length) return `<p class="gta-empty">No GTA listings yet. <a href="/submit">Suggest a clinic</a></p>`;
     return `<ul class="gta-list">${clinics.map((c) =>
@@ -313,27 +413,32 @@
 
   /* Rich clinic cards for the per-treatment minipages:
      save icon, website, email (prefilled), booking link. */
-  function clinicCardsHTML(clinics, serviceName) {
+  function clinicCardsHTML(clinics, serviceName, wrap) {
     if (!clinics.length) return `<p class="gta-empty">No GTA listings yet. <a href="/submit">Suggest a clinic</a></p>`;
-    return `<div class="clinic-grid">` + clinics.map((c) => {
+    const cards = clinics.map((c) => {
       const saved = window.wfFavs && window.wfFavs.has(c.name);
-      const mailto = c.email
-        ? `mailto:${esc(c.email)}?subject=${encodeURIComponent(`Question about ${serviceName} (found via WellFinder)`)}&body=${encodeURIComponent(`Hi,\n\nI found your clinic via wellfinder.ca for ${serviceName}. I hope to get more information regarding price, claim process and schedule.\n\nThank you!`)}`
-        : "";
-      const meta = [c.city, c.note].filter(Boolean).map(esc).join(" · ");
+      const mailto = clinicMailto(c, serviceName || c.treatment || "wellness");
+      const meta = [serviceName || c.treatment, c.city].filter(Boolean).map(esc).join(" · ");
+      const dist = c.distKm != null && isFinite(c.distKm) ? `<p class="clinic-dist">≈ ${Math.round(c.distKm)} km away</p>` : "";
+      const addr = c.loc ? `<p class="clinic-addr">📍 ${esc(c.loc)}</p>` : "";
+      const price = c.price && c.price.indexOf("$") > -1 ? `<p class="clinic-price">${esc(c.price)}</p>` : "";
       return `<article class="clinic-card">
         <button class="fav-btn ${saved ? "saved" : ""}" data-fav="${esc(c.name)}"
           aria-label="Save ${esc(c.name)}" aria-pressed="${saved}">${HEART}</button>
         <h4>${c.web ? `<a href="${esc(c.web)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}</h4>
         ${meta ? `<p class="clinic-meta">${meta}</p>` : ""}
+        ${dist}${addr}${price}
         <div class="clinic-actions">
           ${c.web ? `<a class="btn btn--ghost btn--sm" href="${esc(c.web)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
-          ${mailto ? `<a class="btn btn--ghost btn--sm" href="${mailto}">Email</a>` : ""}
+          ${mailto ? `<a class="btn btn--ghost btn--sm" href="${mailto}" aria-label="Email ${esc(c.name)}">✉</a>` : ""}
           ${c.book ? `<a class="btn btn--primary btn--sm" href="${esc(c.book)}" target="_blank" rel="noopener">Book ↗</a>` : ""}
+          <button class="btn btn--ghost btn--sm" data-clinic-info="${esc(c.name)}">Info</button>
         </div>
       </article>`;
-    }).join("") + `</div>`;
+    }).join("");
+    return wrap === false ? cards : `<div class="clinic-grid">${cards}</div>`;
   }
+  window.wfClinicCardsHTML = clinicCardsHTML;
 
   function renderGtaDirectory() {
     const grid = $("#gtaGrid"); if (!grid || typeof TREATMENTS === "undefined") return;
@@ -372,13 +477,18 @@
     }
   }
 
-  /* Save buttons work on every page, not just the directory. */
+  /* Save buttons + clinic info buttons work on every page. */
   function initGlobalFavs() {
     document.addEventListener("click", (e) => {
-      const fav = e.target.closest(".fav-btn"); if (!fav) return;
-      const on = window.wfFavs.toggle(fav.dataset.fav);
-      fav.classList.toggle("saved", on);
-      fav.setAttribute("aria-pressed", on ? "true" : "false");
+      const fav = e.target.closest(".fav-btn");
+      if (fav) {
+        const on = window.wfFavs.toggle(fav.dataset.fav);
+        fav.classList.toggle("saved", on);
+        fav.setAttribute("aria-pressed", on ? "true" : "false");
+        return;
+      }
+      const info = e.target.closest("[data-clinic-info]");
+      if (info) openClinicModal(info.getAttribute("data-clinic-info"));
     });
   }
 

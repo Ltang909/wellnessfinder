@@ -22,10 +22,6 @@
   var postalForm = document.getElementById("postalForm");
   var postalInput = document.getElementById("postalInput");
   var postalError = document.getElementById("postalError");
-  var nearbyGrid = document.getElementById("nearbyGrid");
-  var nearbySub = document.getElementById("nearbySub");
-
-  var TORONTO_CITIES = ["Toronto", "North York", "Scarborough", "Etobicoke", "East York"];
 
   /* ---------- helpers ---------- */
   function esc(s) {
@@ -51,34 +47,15 @@
     return "";
   }
 
-  /* Every clinic in the database, tagged with its treatment. */
+  /* Every clinic in the database, tagged with its treatment (shared). */
   function allClinics() {
-    var out = [];
-    function push(list, treatment, tag) {
-      (list || []).forEach(function (c) {
-        if (c.prov && c.prov !== "ON") return;
-        if (tag && (!c.tags || c.tags.indexOf(tag) < 0)) return;
-        out.push({ clinic: c, treatment: treatment });
-      });
-    }
-    push(typeof PILATES_CLINICS !== "undefined" ? PILATES_CLINICS : [], "Clinical Pilates");
-    push(typeof GOLF_CLINICS !== "undefined" ? GOLF_CLINICS : [], "Golf Swing Assessment");
-    var nat = (typeof NATURO_CLINICS !== "undefined" ? NATURO_CLINICS : []).filter(function (c) { return c.prov === "ON"; });
-    push(nat, "Cosmetic Acupuncture", "cosmetic-acupuncture");
-    push(nat, "Microneedling", "microneedling");
-    push(nat, "IV Vitamin Therapy", "iv-therapy");
-    push(nat, "IM Vitamin Therapy", "vitamin-injections");
-    push(typeof FACIAL_CLINICS !== "undefined" ? FACIAL_CLINICS : [], "Facial Manual Therapy");
-    push(typeof INTERVIEW_CLINICS !== "undefined" ? INTERVIEW_CLINICS : [], "Interview Preparation");
-    push(typeof VOICE_CLINICS !== "undefined" ? VOICE_CLINICS : [], "Singing Voice Therapy");
-    push(typeof NEUROFEEDBACK_CLINICS !== "undefined" ? NEUROFEEDBACK_CLINICS : [], "Neurofeedback");
-    return out;
+    return window.wfAllClinics ? window.wfAllClinics() : [];
   }
-  var CLINIC_INDEX = allClinics();
 
   function findClinic(name) {
-    for (var i = 0; i < CLINIC_INDEX.length; i++) {
-      if (CLINIC_INDEX[i].clinic.name === name) return CLINIC_INDEX[i];
+    var all = allClinics();
+    for (var i = 0; i < all.length; i++) {
+      if (all[i].clinic.name === name) return all[i];
     }
     return null;
   }
@@ -87,41 +64,20 @@
   function postalZone(postal) {
     var fsa = String(postal || "").toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 3);
     if (!/^[A-Z]\d[A-Z]$/.test(fsa)) return null;
-    if (fsa[0] === "M") return "toronto";
-    if (fsa[0] === "L") return "gta";
-    return "other";
-  }
-  function cityZone(city) {
-    return TORONTO_CITIES.indexOf(city) > -1 ? "toronto" : "gta";
-  }
-
-  function suggestClinics(zone, savedTreatments, limit) {
-    var seen = {};
-    var ranked = [];
-    CLINIC_INDEX.forEach(function (item) {
-      if (seen[item.clinic.name]) return;
-      seen[item.clinic.name] = true;
-      var score = 0;
-      if (savedTreatments.indexOf(item.treatment) > -1) score += 2;
-      if (zone && zone !== "other" && cityZone(item.clinic.city) === zone) score += 1;
-      ranked.push({ item: item, score: score });
-    });
-    ranked.sort(function (a, b) { return b.score - a.score; });
-    return ranked.slice(0, limit || 12).map(function (r) { return r.item; });
+    return fsa[0];
   }
 
   /* ---------- render ---------- */
   function treatmentCard(t) {
     var img = imgFor(t);
     var s = slug(t.name);
-    return '<article class="saved-card">'
-      + (img ? '<div class="saved-card-photo"><img src="' + esc(img) + '" alt="" loading="lazy"></div>' : "")
-      + '<div class="saved-card-body"><p class="eyebrow">Treatment</p><h2>' + esc(t.name) + "</h2>"
-      + "<p>" + esc(t.desc) + "</p>"
-      + '<div class="saved-coverage">Billed as ' + esc(t.billed) + "</div>"
-      + '<div class="saved-card-actions"><a href="/clinics-' + s + '">Find clinics</a>'
-      + '<button type="button" data-unsave="' + esc(t.name) + '">Remove</button></div>'
-      + "</div></article>";
+    return '<article class="saved-tx">'
+      + (img ? '<img src="' + esc(img) + '" alt="" loading="lazy">' : "")
+      + '<div class="saved-tx-body"><h3>' + esc(t.name) + "</h3>"
+      + "<p>Billed as " + esc(t.billed) + "</p></div>"
+      + '<a class="saved-tx-link" href="/clinics-' + s + '">Find clinics →</a>'
+      + '<button type="button" class="saved-tx-x" data-unsave="' + esc(t.name) + '" aria-label="Remove ' + esc(t.name) + '">×</button>'
+      + "</article>";
   }
 
   function clinicCard(item) {
@@ -136,32 +92,75 @@
       + "</div></article>";
   }
 
-  function renderNearby() {
-    if (!nearbyGrid) return;
+  /* ---------- recommended: all clinics for saved treatments ---------- */
+  var RADIUS_KEY = "wf_radius_km";
+
+  function savedTreatmentNames() {
+    return favs().filter(function (n) { return !!treatmentByName(n); });
+  }
+
+  function clinicsForTreatments(names) {
+    var seen = {};
+    var out = [];
+    allClinics().forEach(function (item) {
+      if (names.indexOf(item.treatment) < 0) return;
+      if (seen[item.clinic.name]) return;
+      seen[item.clinic.name] = true;
+      var copy = {};
+      for (var k in item.clinic) copy[k] = item.clinic[k];
+      copy.treatment = item.treatment;
+      out.push(copy);
+    });
+    return out;
+  }
+
+  function renderForYou() {
+    var grid = document.getElementById("forYouGrid");
+    var sub = document.getElementById("forYouSub");
+    var radiusWrap = document.getElementById("radiusWrap");
+    var radiusInput = document.getElementById("radiusInput");
+    var radiusLabel = document.getElementById("radiusLabel");
+    if (!grid) return;
+    var names = savedTreatmentNames();
+    if (!names.length) {
+      if (sub) sub.textContent = "Save some treatments to get clinic recommendations.";
+      if (radiusWrap) radiusWrap.hidden = true;
+      grid.innerHTML = '<p class="saved-none"><a href="/discover">Discover treatments</a> to get started.</p>';
+      return;
+    }
     var postal = "";
     try { postal = localStorage.getItem(POSTAL_KEY) || ""; } catch (_) {}
     if (postalInput && !postalInput.value) postalInput.value = postal;
-    var zone = postalZone(postal);
-    var savedTreatments = favs().filter(function (n) { return !!treatmentByName(n); });
-    if (!zone) {
-      if (nearbySub) nearbySub.textContent = "Enter your postal code above and we will rank clinics closest to you.";
-      nearbyGrid.innerHTML = "";
+    var radiusKm = 25;
+    try { radiusKm = parseInt(localStorage.getItem(RADIUS_KEY) || "25", 10) || 25; } catch (_) {}
+    if (radiusInput) radiusInput.value = radiusKm;
+    if (radiusLabel) radiusLabel.textContent = "Within " + radiusKm + " km";
+
+    var list = clinicsForTreatments(names);
+    var cards = window.wfClinicCardsHTML ? function (l) { return window.wfClinicCardsHTML(l, "", false); } : null;
+    if (!window.wfGeo || !postalZone(postal) || !cards) {
+      if (sub) sub.textContent = list.length + " clinics for your saved treatments. Add your postal code to sort by distance.";
+      if (radiusWrap) radiusWrap.hidden = true;
+      grid.innerHTML = cards ? cards(list) : "";
       return;
     }
-    var zoneLabel = zone === "toronto" ? "Toronto" : "the GTA";
-    if (nearbySub) nearbySub.textContent = "Showing clinics near " + postal.toUpperCase() + " (" + zoneLabel + ").";
-    var picks = suggestClinics(zone, savedTreatments, 12);
-    nearbyGrid.innerHTML = picks.map(function (item) {
-      var c = item.clinic;
-      return '<article class="clinic-card"><h4>'
-        + (c.web ? '<a href="' + esc(c.web) + '" target="_blank" rel="noopener">' + esc(c.name) + "</a>" : esc(c.name))
-        + "</h4>"
-        + '<p class="clinic-meta">' + esc(item.treatment) + (c.city ? " · " + esc(c.city) : "") + "</p>"
-        + '<div class="clinic-actions">'
-        + (c.web ? '<a class="btn btn--ghost btn--sm" href="' + esc(c.web) + '" target="_blank" rel="noopener">Website ↗</a>' : "")
-        + (c.book ? '<a class="btn btn--primary btn--sm" href="' + esc(c.book) + '" target="_blank" rel="noopener">Book ↗</a>' : "")
-        + "</div></article>";
-    }).join("");
+    if (radiusWrap) radiusWrap.hidden = false;
+    if (sub) sub.textContent = "Finding clinics near " + postal.toUpperCase() + "…";
+    grid.innerHTML = '<p class="saved-none">Loading nearby clinics…</p>';
+    window.wfGeo.getUserCoords(postal).then(function (userPt) {
+      var withDist = list.map(function (c) {
+        var coords = window.wfGeo.CITY_COORDS[c.city];
+        c.distKm = coords ? window.wfGeo.haversineKm(userPt, coords) : Infinity;
+        return c;
+      }).filter(function (c) { return c.distKm <= radiusKm; });
+      withDist.sort(function (a, b) { return a.distKm - b.distKm; });
+      if (sub) sub.textContent = withDist.length + " clinics within " + radiusKm + " km of " + postal.toUpperCase() + " (distances are approximate).";
+      if (!withDist.length) {
+        grid.innerHTML = '<p class="saved-none">No clinics within ' + radiusKm + ' km. Try a wider radius.</p>';
+        return;
+      }
+      grid.innerHTML = cards(withDist);
+    });
   }
 
   function render() {
@@ -185,7 +184,7 @@
     clinicWrap.innerHTML = clinics.length
       ? clinics.map(clinicCard).join("")
       : '<p class="saved-none">No saved clinics yet. <a href="/#gta">Browse the GTA directory</a></p>';
-    renderNearby();
+    renderForYou();
   }
 
   document.addEventListener("click", function (e) {
@@ -212,7 +211,14 @@
     }
     postalError.hidden = true;
     try { localStorage.setItem(POSTAL_KEY, val); } catch (_) {}
-    renderNearby();
+    renderForYou();
+  });
+
+  /* radius slider */
+  var radiusInputEl = document.getElementById("radiusInput");
+  if (radiusInputEl) radiusInputEl.addEventListener("change", function () {
+    try { localStorage.setItem(RADIUS_KEY, radiusInputEl.value); } catch (_) {}
+    renderForYou();
   });
 
   /* keep the email form working */
