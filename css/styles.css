@@ -272,6 +272,21 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 @media (max-width: 560px) { .gta-list { columns: 1; } }
 
 /* ============================================================
+   Treatment minipages
+   ============================================================ */
+.tp-wrap { max-width: 880px; }
+.tp-wrap .eyebrow a { color: inherit; }
+.tp-wrap h1 { margin: 10px 0 12px; }
+.tp-billed { display: inline-block; font-size: .85rem; font-weight: 600; color: var(--forest); background: var(--mist); border-radius: 999px; padding: 5px 14px; margin: 0 0 14px; }
+.tp-wrap .lede { margin: 0 0 22px; }
+.tp-fig { margin: 0 0 26px; border-radius: var(--radius); overflow: hidden; }
+.tp-fig img { width: 100%; max-height: 320px; object-fit: cover; display: block; }
+.tp-fig figcaption { font-size: .75rem; color: var(--ink-soft); opacity: .75; padding: 8px 4px 0; }
+.tp-fig figcaption a { color: inherit; }
+.tp-list h2 { font-size: 1.25rem; margin: 6px 0 14px; }
+.tp-list .gta-block { margin-bottom: 0; }
+
+/* ============================================================
    Directory (treatments)
    ============================================================ */
 .dir-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; flex-wrap: wrap; margin-bottom: 24px; }

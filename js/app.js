@@ -126,9 +126,7 @@
     const img = (typeof TREATMENT_IMAGES !== "undefined" && TREATMENT_IMAGES[t.name]) || null;
     const art = img ? img.src : ((typeof TREATMENT_ART !== "undefined" && TREATMENT_ART[t.group]) || "");
     const credit = img ? `<div class="tc-credit">Photo: <a href="${esc(img.url)}" target="_blank" rel="noopener">${esc(img.credit)}</a></div>` : "";
-    const findBtn = t.link
-      ? `<a class="btn btn--primary btn--sm" href="${t.link}">Find clinics →</a>`
-      : `<a class="btn btn--ghost btn--sm" href="/submit">Suggest a clinic →</a>`;
+    const findBtn = `<a class="btn btn--primary btn--sm" href="/clinics-${treatmentSlug(t.name)}">Find clinics →</a>`;
     return `
       <article class="treatment-card" data-cats="${esc(cats)}" data-name="${esc(t.name)}">
         ${art ? `<div class="tc-art" aria-hidden="true"><img src="${esc(art)}" alt="" loading="lazy"></div>${credit}` : ""}
@@ -273,49 +271,90 @@
     }).join("");
   }
 
-  function renderGtaDirectory() {
-    const grid = $("#gtaGrid"); if (!grid || typeof TREATMENTS === "undefined") return;
+  /* Shared: GTA clinic sources per treatment. Used by the homepage
+     GTA directory and by the per-treatment minipages. */
+  function gtaDataFor(name) {
+    if (typeof TREATMENTS === "undefined") return null;
     const inOntario = (c) => c.prov === "ON";
     const pilates = (typeof PILATES_CLINICS !== "undefined" ? PILATES_CLINICS : []).filter(inOntario);
     const golf = (typeof GOLF_CLINICS !== "undefined" ? GOLF_CLINICS : []);
     const naturo = (typeof NATURO_CLINICS !== "undefined" ? NATURO_CLINICS : []).filter(inOntario);
     const byTag = (tag) => naturo.filter((c) => c.tags && c.tags.includes(tag));
-    const facial = (typeof FACIAL_CLINICS !== "undefined" ? FACIAL_CLINICS : []).filter(inOntario);
-    const interview = (typeof INTERVIEW_CLINICS !== "undefined" ? INTERVIEW_CLINICS : []).filter(inOntario);
-    const voice = (typeof VOICE_CLINICS !== "undefined" ? VOICE_CLINICS : []).filter(inOntario);
-    const neuro = (typeof NEUROFEEDBACK_CLINICS !== "undefined" ? NEUROFEEDBACK_CLINICS : []).filter(inOntario);
-    const glutaSeen = new Set();
+    const seen = new Set();
     const gluta = [];
     ["iv-therapy", "vitamin-injections"].forEach((tag) =>
-      byTag(tag).forEach((c) => { if (!glutaSeen.has(c.name)) { glutaSeen.add(c.name); gluta.push(c); } })
+      byTag(tag).forEach((c) => { if (!seen.has(c.name)) { seen.add(c.name); gluta.push(c); } })
     );
-    const billedFor = (name) => {
-      const t = TREATMENTS.find((x) => x.name === name);
-      return t ? t.billed : "";
+    const map = {
+      "Clinical Pilates": { clinics: pilates },
+      "Golf Swing Assessment": { clinics: golf },
+      "Cosmetic Acupuncture": { clinics: byTag("cosmetic-acupuncture") },
+      "Microneedling": { clinics: byTag("microneedling") },
+      "Glutathione Injections": { display: "Glutathione Therapy (IV and IM)", billed: "Naturopathy", clinics: gluta },
+      "IV Vitamin Therapy": { clinics: byTag("iv-therapy") },
+      "Vitamin B Injections": { clinics: byTag("vitamin-injections") },
+      "Facial Manual Therapy": { clinics: (typeof FACIAL_CLINICS !== "undefined" ? FACIAL_CLINICS : []).filter(inOntario) },
+      "Interview Preparation": { clinics: (typeof INTERVIEW_CLINICS !== "undefined" ? INTERVIEW_CLINICS : []).filter(inOntario) },
+      "Singing Voice Therapy": { clinics: (typeof VOICE_CLINICS !== "undefined" ? VOICE_CLINICS : []).filter(inOntario) },
+      "Neurofeedback": { clinics: (typeof NEUROFEEDBACK_CLINICS !== "undefined" ? NEUROFEEDBACK_CLINICS : []).filter(inOntario) },
     };
-    const groups = [
-      { name: "Clinical Pilates", clinics: pilates },
-      { name: "Golf Swing Assessment", clinics: golf },
-      { name: "Cosmetic Acupuncture", clinics: byTag("cosmetic-acupuncture") },
-      { name: "Microneedling", clinics: byTag("microneedling") },
-      { name: "Glutathione Therapy (IV and IM)", billed: "Naturopathy", clinics: gluta },
-      { name: "IV Vitamin Therapy", clinics: byTag("iv-therapy") },
-      { name: "Vitamin B Injections", clinics: byTag("vitamin-injections") },
-      { name: "Facial Manual Therapy", clinics: facial },
-      { name: "Interview Preparation", clinics: interview },
-      { name: "Singing Voice Therapy", clinics: voice },
-      { name: "Neurofeedback", clinics: neuro },
+    const entry = map[name];
+    if (!entry) return null;
+    const t = TREATMENTS.find((x) => x.name === name) || {};
+    return {
+      name: entry.display || name,
+      billed: entry.billed || t.billed || "",
+      desc: t.desc || "",
+      detail: t.detail || "",
+      image: (typeof TREATMENT_IMAGES !== "undefined" && TREATMENT_IMAGES[name]) || null,
+      clinics: entry.clinics,
+    };
+  }
+
+  function treatmentSlug(name) {
+    return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  }
+
+  function clinicListHTML(clinics) {
+    if (!clinics.length) return `<p class="gta-empty">No GTA listings yet. <a href="/submit">Suggest a clinic</a></p>`;
+    return `<ul class="gta-list">${clinics.map((c) =>
+      `<li>${c.web ? `<a href="${esc(c.web)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}<span>${esc(c.city || "")}</span></li>`
+    ).join("")}</ul>`;
+  }
+
+  function renderGtaDirectory() {
+    const grid = $("#gtaGrid"); if (!grid || typeof TREATMENTS === "undefined") return;
+    const names = [
+      "Clinical Pilates", "Golf Swing Assessment", "Cosmetic Acupuncture",
+      "Microneedling", "Glutathione Injections", "IV Vitamin Therapy",
+      "Vitamin B Injections", "Facial Manual Therapy", "Interview Preparation",
+      "Singing Voice Therapy", "Neurofeedback",
     ];
-    grid.innerHTML = groups.map((g) => {
-      const billed = g.billed || billedFor(g.name);
-      const head = `<div class="gta-head"><h4>${esc(g.name)}</h4><span class="gta-meta">${billed ? `Billed as ${esc(billed)} · ` : ""}${g.clinics.length} clinic${g.clinics.length === 1 ? "" : "s"}</span></div>`;
-      const body = g.clinics.length
-        ? `<ul class="gta-list">${g.clinics.map((c) =>
-            `<li>${c.web ? `<a href="${esc(c.web)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}<span>${esc(c.city || "")}</span></li>`
-          ).join("")}</ul>`
-        : `<p class="gta-empty">No GTA listings yet. <a href="/submit">Suggest a clinic</a></p>`;
-      return `<div class="gta-block">${head}${body}</div>`;
+    grid.innerHTML = names.map((name) => {
+      const g = gtaDataFor(name); if (!g) return "";
+      const head = `<div class="gta-head"><h4>${esc(g.name)}</h4><span class="gta-meta">${g.billed ? `Billed as ${esc(g.billed)} · ` : ""}${g.clinics.length} clinic${g.clinics.length === 1 ? "" : "s"}</span></div>`;
+      return `<div class="gta-block">${head}${clinicListHTML(g.clinics)}</div>`;
     }).join("");
+  }
+
+  /* Per-treatment minipage: <body data-treatment="Clinical Pilates"> */
+  function renderTreatmentPage() {
+    const name = document.body && document.body.dataset ? document.body.dataset.treatment : "";
+    if (!name) return;
+    const g = gtaDataFor(name); if (!g) return;
+    const head = $("#tpHead"), list = $("#tpList");
+    if (head) {
+      head.innerHTML =
+        `<p class="eyebrow"><a href="/">WellFinder</a> · GTA directory</p>
+         <h1>${esc(g.name)} clinics in the GTA</h1>
+         ${g.billed ? `<p class="tp-billed">Billed as ${esc(g.billed)}</p>` : ""}
+         ${g.desc ? `<p class="lede">${esc(g.desc)}</p>` : ""}
+         ${g.image ? `<figure class="tp-fig"><img src="${esc(g.image.src)}" alt="${esc(g.name)}" loading="lazy"><figcaption>Photo: <a href="${esc(g.image.url)}" target="_blank" rel="noopener">${esc(g.image.credit)}</a></figcaption></figure>` : ""}`;
+      document.title = `${g.name} clinics in the GTA — WellFinder`;
+    }
+    if (list) {
+      list.innerHTML = `<h2>${g.clinics.length} clinic${g.clinics.length === 1 ? "" : "s"}</h2>` + clinicListHTML(g.clinics);
+    }
   }
 
   /* ---------- boot ---------- */
@@ -329,6 +368,7 @@
     renderDirectory();
     renderResources();
     renderGtaDirectory();
+    renderTreatmentPage();
     // set year in footers
     $$("[data-year]").forEach((el) => (el.textContent = new Date().getFullYear()));
   });
