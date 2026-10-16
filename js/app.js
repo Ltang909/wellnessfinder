@@ -273,6 +273,47 @@
     }).join("");
   }
 
+  function renderGtaDirectory() {
+    const grid = $("#gtaGrid"); if (!grid || typeof TREATMENTS === "undefined") return;
+    const inOntario = (c) => c.prov === "ON";
+    const pilates = (typeof PILATES_CLINICS !== "undefined" ? PILATES_CLINICS : []).filter(inOntario);
+    const golf = (typeof GOLF_CLINICS !== "undefined" ? GOLF_CLINICS : []);
+    const naturo = (typeof NATURO_CLINICS !== "undefined" ? NATURO_CLINICS : []).filter(inOntario);
+    const byTag = (tag) => naturo.filter((c) => c.tags && c.tags.includes(tag));
+    const glutaSeen = new Set();
+    const gluta = [];
+    ["iv-therapy", "vitamin-injections"].forEach((tag) =>
+      byTag(tag).forEach((c) => { if (!glutaSeen.has(c.name)) { glutaSeen.add(c.name); gluta.push(c); } })
+    );
+    const billedFor = (name) => {
+      const t = TREATMENTS.find((x) => x.name === name);
+      return t ? t.billed : "";
+    };
+    const groups = [
+      { name: "Clinical Pilates", clinics: pilates },
+      { name: "Golf Swing Assessment", clinics: golf },
+      { name: "Cosmetic Acupuncture", clinics: byTag("cosmetic-acupuncture") },
+      { name: "Microneedling", clinics: byTag("microneedling") },
+      { name: "Glutathione Therapy (IV and IM)", billed: "Naturopathy", clinics: gluta },
+      { name: "IV Vitamin Therapy", clinics: byTag("iv-therapy") },
+      { name: "Vitamin B Injections", clinics: byTag("vitamin-injections") },
+      { name: "Facial Manual Therapy", clinics: [] },
+      { name: "Interview Preparation", clinics: [] },
+      { name: "Singing Voice Therapy", clinics: [] },
+      { name: "Neurofeedback", clinics: [] },
+    ];
+    grid.innerHTML = groups.map((g) => {
+      const billed = g.billed || billedFor(g.name);
+      const head = `<div class="gta-head"><h4>${esc(g.name)}</h4><span class="gta-meta">${billed ? `Billed as ${esc(billed)} · ` : ""}${g.clinics.length} clinic${g.clinics.length === 1 ? "" : "s"}</span></div>`;
+      const body = g.clinics.length
+        ? `<ul class="gta-list">${g.clinics.map((c) =>
+            `<li>${c.web ? `<a href="${esc(c.web)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}<span>${esc(c.city || "")}</span></li>`
+          ).join("")}</ul>`
+        : `<p class="gta-empty">No GTA listings yet. <a href="/submit">Suggest a clinic</a></p>`;
+      return `<div class="gta-block">${head}${body}</div>`;
+    }).join("");
+  }
+
   /* ---------- boot ---------- */
   document.addEventListener("DOMContentLoaded", () => {
     initNav();
@@ -283,6 +324,7 @@
     renderWhy();
     renderDirectory();
     renderResources();
+    renderGtaDirectory();
     // set year in footers
     $$("[data-year]").forEach((el) => (el.textContent = new Date().getFullYear()));
   });
