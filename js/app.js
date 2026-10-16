@@ -104,18 +104,20 @@
     const claims = [
       { name: "Chi", treatment: "Clinical Pilates", billed: "Physiotherapy", covered: "100% covered", price: "$100 per 45 min session" },
       { name: "Leon", treatment: "Facial massage", billed: "Osteopathy", covered: "100% covered", price: "$120 per session" },
-      { name: "Celine", treatment: "IM vitamin therapy", billed: "Naturopath", covered: "", price: "" },
+      { name: "Celine", treatment: "IM vitamin therapy", billed: "Naturopath", covered: "100% covered", price: "$50-80 per session" },
       { name: "Chun Ho", treatment: "Neurofeedback", billed: "Psychology", covered: "100% covered", price: "$180 per session" },
       { name: "Daniel", treatment: "Singing voice therapy", billed: "Speech therapy", covered: "100% covered", price: "$160 per 45 min session" },
     ];
-    grid.innerHTML = claims.map((c) =>
+    const card = (c) =>
       `<div class="claim-card">
          <div class="claim-top"><span class="claim-name">${esc(c.name)}</span>${c.covered ? `<span class="claim-covered">${esc(c.covered)}</span>` : ""}</div>
          <p class="claim-what">${esc(c.treatment)}</p>
          <p class="claim-billed">Billed as ${esc(c.billed)}</p>
          ${c.price ? `<p class="claim-price">${esc(c.price)}</p>` : ""}
-       </div>`
-    ).join("");
+         <p class="claim-insurer"><img src="assets/logos/manulife.svg" alt="Manulife logo"><span>Claimed through Manulife</span></p>
+       </div>`;
+    const half = claims.map(card).join("");
+    grid.innerHTML = `<div class="why-track">${half}${half}</div>`;
   }
 
   const HEART = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.5 1-1a5.5 5.5 0 0 0 0-7.9Z"/></svg>`;
@@ -212,13 +214,6 @@
         const open = detail.classList.toggle("open");
         more.setAttribute("aria-expanded", open ? "true" : "false");
         more.textContent = open ? "Less details ↑" : "More details →";
-        return;
-      }
-      const fav = e.target.closest(".fav-btn");
-      if (fav) {
-        const on = window.wfFavs.toggle(fav.dataset.fav);
-        fav.classList.toggle("saved", on);
-        fav.setAttribute("aria-pressed", on ? "true" : "false");
       }
     });
 
@@ -316,6 +311,30 @@
     ).join("")}</ul>`;
   }
 
+  /* Rich clinic cards for the per-treatment minipages:
+     save icon, website, email (prefilled), booking link. */
+  function clinicCardsHTML(clinics, serviceName) {
+    if (!clinics.length) return `<p class="gta-empty">No GTA listings yet. <a href="/submit">Suggest a clinic</a></p>`;
+    return `<div class="clinic-grid">` + clinics.map((c) => {
+      const saved = window.wfFavs && window.wfFavs.has(c.name);
+      const mailto = c.email
+        ? `mailto:${esc(c.email)}?subject=${encodeURIComponent(`Question about ${serviceName} (found via WellFinder)`)}&body=${encodeURIComponent(`Hi,\n\nI found your clinic via wellfinder.ca for ${serviceName}. I hope to get more information regarding price, claim process and schedule.\n\nThank you!`)}`
+        : "";
+      const meta = [c.city, c.note].filter(Boolean).map(esc).join(" · ");
+      return `<article class="clinic-card">
+        <button class="fav-btn ${saved ? "saved" : ""}" data-fav="${esc(c.name)}"
+          aria-label="Save ${esc(c.name)}" aria-pressed="${saved}">${HEART}</button>
+        <h4>${c.web ? `<a href="${esc(c.web)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}</h4>
+        ${meta ? `<p class="clinic-meta">${meta}</p>` : ""}
+        <div class="clinic-actions">
+          ${c.web ? `<a class="btn btn--ghost btn--sm" href="${esc(c.web)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
+          ${mailto ? `<a class="btn btn--ghost btn--sm" href="${mailto}">Email</a>` : ""}
+          ${c.book ? `<a class="btn btn--primary btn--sm" href="${esc(c.book)}" target="_blank" rel="noopener">Book ↗</a>` : ""}
+        </div>
+      </article>`;
+    }).join("") + `</div>`;
+  }
+
   function renderGtaDirectory() {
     const grid = $("#gtaGrid"); if (!grid || typeof TREATMENTS === "undefined") return;
     const names = [
@@ -324,11 +343,13 @@
       "Facial Manual Therapy", "Interview Preparation",
       "Singing Voice Therapy", "Neurofeedback",
     ];
-    grid.innerHTML = names.map((name) => {
+    grid.innerHTML = `<div class="gta-links">` + names.map((name) => {
       const g = gtaDataFor(name); if (!g) return "";
-      const head = `<div class="gta-head"><h4>${esc(g.name)}</h4><span class="gta-meta">${g.billed ? `Billed as ${esc(g.billed)} · ` : ""}${g.clinics.length} clinic${g.clinics.length === 1 ? "" : "s"}</span></div>`;
-      return `<div class="gta-block">${head}${clinicListHTML(g.clinics)}</div>`;
-    }).join("");
+      return `<a class="gta-link" href="/clinics-${treatmentSlug(name)}">
+        <span class="gta-link-name">${esc(g.name)}</span>
+        <span class="gta-link-meta">${g.billed ? `Billed as ${esc(g.billed)} · ` : ""}${g.clinics.length} clinic${g.clinics.length === 1 ? "" : "s"} <span aria-hidden="true">→</span></span>
+      </a>`;
+    }).join("") + `</div>`;
   }
 
   /* Per-treatment minipage: <body data-treatment="Clinical Pilates"> */
@@ -347,8 +368,18 @@
       document.title = `${g.name} clinics in the GTA — WellFinder`;
     }
     if (list) {
-      list.innerHTML = `<h2>${g.clinics.length} clinic${g.clinics.length === 1 ? "" : "s"}</h2>` + clinicListHTML(g.clinics);
+      list.innerHTML = `<h2>${g.clinics.length} clinic${g.clinics.length === 1 ? "" : "s"}</h2>` + clinicCardsHTML(g.clinics, g.name);
     }
+  }
+
+  /* Save buttons work on every page, not just the directory. */
+  function initGlobalFavs() {
+    document.addEventListener("click", (e) => {
+      const fav = e.target.closest(".fav-btn"); if (!fav) return;
+      const on = window.wfFavs.toggle(fav.dataset.fav);
+      fav.classList.toggle("saved", on);
+      fav.setAttribute("aria-pressed", on ? "true" : "false");
+    });
   }
 
   /* ---------- boot ---------- */
@@ -363,6 +394,7 @@
     renderResources();
     renderGtaDirectory();
     renderTreatmentPage();
+    initGlobalFavs();
     // set year in footers
     $$("[data-year]").forEach((el) => (el.textContent = new Date().getFullYear()));
   });

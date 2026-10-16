@@ -242,9 +242,14 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 /* ============================================================
    Why grid
    ============================================================ */
-.why-scroll { display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 4px 2px 16px; margin: 0 -2px; scrollbar-width: thin; -webkit-overflow-scrolling: touch; }
-.why-scroll .claim-card { flex: 0 0 300px; scroll-snap-align: start; }
-@media (max-width: 560px) { .why-scroll .claim-card { flex-basis: 264px; } }
+.why-scroll { overflow: hidden; margin: 0 -8px; padding: 0 8px; }
+.why-track { display: flex; gap: 16px; width: max-content; padding: 4px 2px 16px; animation: why-scroll 38s linear infinite; }
+.why-track:hover { animation-play-state: paused; }
+@keyframes why-scroll { to { transform: translateX(calc(-50% - 8px)); } }
+.why-track .claim-card { flex: 0 0 300px; }
+@media (max-width: 560px) { .why-track .claim-card { flex-basis: 264px; } }
+.claim-insurer { display: flex; align-items: center; gap: 8px; margin: 10px 0 0; padding-top: 10px; border-top: 1px dashed var(--line); font-size: .78rem; color: var(--ink-soft); }
+.claim-insurer img { height: 20px; width: auto; }
 .claim-card { background: var(--card); border: 1px solid var(--line-soft); border-radius: var(--radius); padding: 20px; display: flex; flex-direction: column; gap: 6px; }
 .claim-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 4px; }
 .claim-name { font-weight: 700; font-size: 1.02rem; color: var(--ink); }
@@ -270,6 +275,23 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .gta-empty { margin: 0; font-size: .92rem; color: var(--ink-soft); }
 .gta-empty a { color: var(--forest); font-weight: 600; }
 .gta-note { margin-top: 18px; font-size: .82rem; color: var(--ink-soft); opacity: .8; max-width: 70ch; }
+
+/* GTA directory: treatment links */
+.gta-links { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 12px; }
+.gta-link { display: flex; flex-direction: column; gap: 5px; background: var(--card); border: 1px solid var(--line-soft); border-radius: var(--radius); padding: 17px 19px; text-decoration: none; color: inherit; transition: border-color .15s, transform .15s; }
+.gta-link:hover { border-color: var(--forest); transform: translateY(-2px); }
+.gta-link-name { font-weight: 700; font-size: 1.02rem; color: var(--ink); }
+.gta-link-meta { font-size: .85rem; color: var(--ink-soft); }
+
+/* Minipage clinic cards */
+.clinic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 14px; margin-top: 6px; }
+.clinic-card { position: relative; background: var(--card); border: 1px solid var(--line-soft); border-radius: var(--radius); padding: 20px; display: flex; flex-direction: column; gap: 8px; }
+.clinic-card .fav-btn { position: absolute; top: 14px; right: 14px; }
+.clinic-card h4 { margin: 0; padding-right: 40px; font-size: 1.02rem; }
+.clinic-card h4 a { color: var(--ink); text-decoration: none; }
+.clinic-card h4 a:hover { color: var(--forest); text-decoration: underline; text-underline-offset: 3px; }
+.clinic-meta { margin: 0; font-size: .85rem; color: var(--ink-soft); }
+.clinic-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
 @media (max-width: 900px) { .gta-list { columns: 2; } }
 @media (max-width: 560px) { .gta-list { columns: 1; } }
 

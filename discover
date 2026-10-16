@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=5" />
+  <link rel="stylesheet" href="css/styles.css?v=6" />
   <link rel="stylesheet" href="css/discover.css" />
 <link rel="canonical" href="https://wellfinder.ca/discover" />
 </head>
@@ -99,9 +99,9 @@
     <div class="email-success" id="emailSuccess" hidden><strong>Email saved for this preview.</strong><p>Your saved providers are ready to view right now.</p><a class="btn btn--primary" href="/saved">View saved benefits</a></div>
   </dialog>
 
-  <script src="js/data.js?v=5"></script>
+  <script src="js/data.js?v=6"></script>
   <script src="js/site-nav.js?v=3"></script>
-  <script src="js/app.js?v=5"></script>
+  <script src="js/app.js?v=6"></script>
   <script src="js/discover.js?v=providers-1"></script>
 </body>
 </html>
