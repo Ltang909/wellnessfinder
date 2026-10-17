@@ -257,13 +257,10 @@
 
   function renderResources() {
     const grid = $("#resourceGrid"); if (!grid || typeof RESOURCES === "undefined") return;
-    grid.innerHTML = RESOURCES.map((r) => {
-      const inner = `<span class="res-tag">${esc(r.tag)}</span>
-         <h4>${esc(r.title)}</h4>
-         <p>${esc(r.desc)}</p>` + (r.url ? `<span class="res-more">Read the guide →</span>` : "");
-      const body = r.url ? `<a class="resource-link" href="${esc(r.url)}">${inner}</a>` : inner;
-      return `<article class="resource-card">${body}</article>`;
-    }).join("");
+    grid.outerHTML = `<ul class="resource-list">` + RESOURCES.map((r) => {
+      const title = r.url ? `<a href="${esc(r.url)}">${esc(r.title)}</a>` : esc(r.title);
+      return `<li>${title}</li>`;
+    }).join("") + `</ul>`;
   }
 
   /* Shared: GTA clinic sources per treatment. Used by the homepage

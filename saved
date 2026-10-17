@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=8">
+<link rel="stylesheet" href="css/styles.css?v=9">
 <link rel="stylesheet" href="css/saved.css?v=4">
 <link rel="canonical" href="https://wellfinder.ca/saved" />
 </head>
@@ -59,7 +59,7 @@
 <form id="savedEmailForm"><label for="savedEmail">Email address</label><div><input id="savedEmail" type="email" autocomplete="email" placeholder="you@example.com" required><button class="btn btn--honey" type="submit">Save email</button></div><small id="savedEmailStatus">No spam. Unsubscribe anytime.</small></form>
 </section>
 </main>
-<script src="js/data.js?v=8"></script><script src="js/site-nav.js?v=3"></script>
-<script src="js/app.js?v=8"></script><script src="js/saved.js?v=8"></script>
+<script src="js/data.js?v=9"></script><script src="js/site-nav.js?v=3"></script>
+<script src="js/app.js?v=9"></script><script src="js/saved.js?v=9"></script>
 </body>
 </html>
