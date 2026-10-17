@@ -358,7 +358,23 @@
   }
   window.wfAllClinics = allClinicsWithTreatment;
 
-  /* ---------- clinic info modal ---------- */
+  /* Keywords: other treatments a clinic offers (computed across all datasets). */
+  let _alsoCache = null;
+  function alsoOffersMap() {
+    if (_alsoCache) return _alsoCache;
+    const m = {};
+    window.wfAllClinics().forEach((x) => {
+      const k = x.clinic.name;
+      m[k] = m[k] || {};
+      m[k][x.treatment] = true;
+    });
+    _alsoCache = m;
+    return m;
+  }
+  function clinicAlsoOffers(name, exclude) {
+    const m = alsoOffersMap()[name] || {};
+    return Object.keys(m).filter((t) => t !== exclude);
+  }
   function ensureClinicModal() {
     if (document.getElementById("clinicModal")) return;
     const d = document.createElement("dialog");
@@ -418,12 +434,14 @@
       const dist = c.distKm != null && isFinite(c.distKm) ? `<p class="clinic-dist">≈ ${Math.round(c.distKm)} km away</p>` : "";
       const addr = c.loc ? `<p class="clinic-addr">📍 ${esc(c.loc)}</p>` : "";
       const price = c.price && c.price.indexOf("$") > -1 ? `<p class="clinic-price">${esc(c.price)}</p>` : "";
+      const also = clinicAlsoOffers(c.name, serviceName || c.treatment).slice(0, 4);
+      const alsoHtml = also.length ? `<p class="clinic-also">${also.map((t) => `<span>${esc(t)}</span>`).join("")}</p>` : "";
       return `<article class="clinic-card">
         <button class="fav-btn ${saved ? "saved" : ""}" data-fav="${esc(c.name)}"
           aria-label="Save ${esc(c.name)}" aria-pressed="${saved}">${HEART}</button>
         <h4>${c.web ? `<a href="${esc(c.web)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}</h4>
         ${meta ? `<p class="clinic-meta">${meta}</p>` : ""}
-        ${dist}${addr}${price}
+        ${dist}${addr}${price}${alsoHtml}
         <div class="clinic-actions">
           ${c.web ? `<a class="btn btn--ghost btn--sm" href="${esc(c.web)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
           ${mailto ? `<a class="btn btn--ghost btn--sm" href="${mailto}" aria-label="Email ${esc(c.name)}">✉</a>` : ""}

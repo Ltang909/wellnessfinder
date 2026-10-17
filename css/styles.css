@@ -673,3 +673,5 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .resource-list li:last-child{border-bottom:0}
 .resource-list a{color:var(--ink);text-decoration:none}
 .resource-list a:hover{color:var(--forest);text-decoration:underline;text-underline-offset:3px}
+.clinic-also{display:flex;flex-wrap:wrap;gap:6px;margin:.3rem 0}
+.clinic-also span{font-size:.7rem;font-weight:700;color:var(--forest);background:var(--mist);border-radius:999px;padding:3px 10px}
