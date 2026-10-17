@@ -341,6 +341,40 @@ const NUTRITION_CLINICS = [
   { name: "The Spot Rehab Performance & Recovery", city: "Markham", web: "https://www.thespotrehab.com/", billed: "Dietitian", note: "Erica Kao RD; sports nutrition focus", prov: "ON" }
 ];
 
+const FERTACU_CLINICS = [
+  { name: "Acutoronto", city: "Toronto", prov: "ON", web: "https://www.acutoronto.com/about-us/", billed: "Acupuncture", note: "R.Ac/R.TCMP team; reproductive health focus" },
+  { name: "Conceive Health", city: "Toronto", prov: "ON", web: "https://conceivehealth.com/fertility-acupuncture/", billed: "Acupuncture", note: "IUI/IVF acupuncture; transfer-day support" },
+  { name: "White Lotus Clinic", city: "Toronto", prov: "ON", web: "https://www.whitelotusclinic.ca/natural-fertility/", billed: "Acupuncture", note: "fertility acupuncture since 2002; IVF/IUI/ICSI and male factor" },
+  { name: "Fertility Acupuncture by Jaynee Kim", city: "Kitchener", prov: "ON", web: "https://www.acubyjaynee.com/", billed: "Acupuncture", note: "R.TCMP/R.Ac; natural conception; IUI/IVF; male factor" },
+  { name: "Riverside Acupuncture & Wellness Centre", city: "Ottawa", prov: "ON", web: "https://acupunctureottawa.com/", billed: "Acupuncture", note: "R.Ac/R.TCMP; IVF prep and pre/post transfer support" },
+  { name: "Acubalance Wellness Centre", city: "Vancouver", prov: "BC", web: "https://acubalance.ca/fertility-ivf-support/", billed: "Acupuncture", note: "first TCM fertility clinic in BC; IVF/IUI support, male and female fertility; Dr. Lorne Brown, Dr. TCM" },
+  { name: "Longevity Fertility Centre", city: "Calgary", prov: "AB", web: "https://longevityfertility.com/", billed: "Acupuncture", note: "Gov of Alberta licensed TCM practice; male and female fertility, IUI/IVF support; Dr. Charlie Wang R.Ac., TCMD" },
+  { name: "Elements of Health Centre", city: "Victoria", prov: "BC", web: "https://www.elementscentre.ca/?p=1675", billed: "Acupuncture", note: "Harris Fisher, registered Dr. TCM; fertility, IVF/IUI couples, men's health" },
+  { name: "Balance Point Acupuncture and Integrative Medicine", city: "Kelowna", prov: "BC", web: "https://balancepointokanagan.com/fertility-acupuncture/", billed: "Acupuncture", note: "RAC fertility practitioner (Vivi Wu); fertility and women's health, IVF support" },
+  { name: "Priscilla Kerr Wellness", city: "Winnipeg", prov: "MB", web: "http://kerrwellness.ca/", billed: "Acupuncture", note: "Registered Acupuncturist; certified TCM Fertility Doctor; male and female infertility, ~27,000 treatments" },
+  { name: "AcuMedicina Clinic", city: "Montreal", prov: "QC", web: "https://www.acumedicina.com/", billed: "Acupuncture", note: "male and female infertility; registered acupuncturist (OAQ); Montreal and Laval clinics" },
+  { name: "Clinic acuenergie", city: "Montreal", prov: "QC", web: "https://www.acuenergie.com/", billed: "Acupuncture", note: "female and male infertility; IUI and IVF support; licensed acupuncturist (OAQ)" },
+  { name: "Sheena Laflamme Acupuncture", city: "Gatineau", prov: "QC", web: "http://www.sheenalaflamme.com/", billed: "Acupuncture", note: "fertility with or without assisted reproduction; R.Ac member of OAQ" },
+  { name: "The Perinatal Wellness Centre", city: "Dartmouth", prov: "NS", web: "https://www.theperinatalwellnesscentre.com/", billed: "Acupuncture", note: "male and female fertility; ART support; registered acupuncturist (Halifax metro)" }
+];
+
+const FERTNAT_CLINICS = [
+  { name: "The Root Natural Health Clinic", city: "Mississauga", prov: "ON", web: "https://www.theroot.ca/?p=3023", billed: "Naturopathy", note: "fertility + preconception ND care; male partner assessment" },
+  { name: "Infertility and Reproductive Care Naturopathic Medicine", city: "Ottawa", prov: "ON", web: "https://www.infertilitynaturopath.com/ottawa-fertility-clinic", billed: "Naturopathy", note: "licensed ND; IVF/ICSI/IUI adjunctive care; sperm health" },
+  { name: "Dr. Andrea Hilborn ND", city: "Kingston", prov: "ON", web: "https://drandreahilbornnd.com/", billed: "Naturopathy", note: "IUI/IVF prep; egg and sperm health; male factor" },
+  { name: "Dr. Rachel Corradetti-Sargeant ND", city: "Hamilton", prov: "ON", web: "https://www.rachelcorradetti.com/preconception-consults", billed: "Naturopathy", note: "licensed ND; preconception testing and acupuncture" },
+  { name: "Dr. Samantha Zahavi ND", city: "Toronto", prov: "ON", web: "https://www.doctormomnd.com/fertility-pregnancy-toronto", billed: "Naturopathy", note: "egg and sperm health; couples attend together; IVF support" },
+  { name: "Dr. Annie Coughlin ND", city: "Winnipeg", prov: "MB", web: "https://www.drcoughlin.com/", billed: "Naturopathy", note: "licensed ND; collaborative natural fertility care" },
+  { name: "Natural Wellness Clinic Calgary", city: "Calgary", prov: "AB", web: "https://naturally.ca/fertility-pregnancy/", billed: "Naturopathy", note: "fertility optimization for couples; cycle monitoring, sperm testing, IVF/IUI co-therapy" },
+  { name: "Sask Naturopath (Dr. Stephanie Stokes ND)", city: "Saskatoon", prov: "SK", web: "http://www.sasknaturopath.com/", billed: "Naturopathy", note: "ND; fertility focus, male and female hormones" },
+  { name: "TruMed Fertility", city: "Edmonton", prov: "AB", web: "https://www.trumedfertility.com/", billed: "Naturopathy", note: "naturopathic fertility clinic; hormone and thyroid testing; male and female fertility" },
+  { name: "Vancouver Island Naturopathic Clinic", city: "Victoria", prov: "BC", web: "http://islandnaturopathic.com/acupuncture/", billed: "Naturopathy", note: "licensed NDs; fertility acupuncture for couples, IUI/IVF; Olive Fertility collaboration" },
+  { name: "Inbloom Health", city: "Charlottetown", prov: "PE", web: "https://www.inbloomhealth.ca/", billed: "Naturopathy", note: "preconception and infertility; licensed NDs (PEIAND/CAND)" },
+  { name: "EASTND Wellness Clinic", city: "Moncton", prov: "NB", web: "https://www.eastnd.ca/", billed: "Naturopathy", note: "fertility screening and testing; male and female fertility; ND (NBAND/CAND)" },
+  { name: "Sage Elements Naturopathic Clinic", city: "Halifax", prov: "NS", web: "https://www.sageelements.ca/", billed: "Naturopathy", note: "fertility and healthy pregnancy; hormonal testing; licensed NDs" },
+  { name: "Fredericton Naturopathic Clinic", city: "Fredericton", prov: "NB", web: "https://www.naturedocs.ca/", billed: "Naturopathy", note: "infertility testing and treatment; 2 full-time NDs" }
+];
+
 /* ---------- Per-treatment provider photos (with credit) ---------- */
 const TREATMENT_IMAGES = {
   "Clinical Pilates": { src: "/assets/treatments/clinical-pilates.jpg", credit: "Mindful Movement Centre, Toronto", url: "http://www.mindfulmovementcentre.com/" },
