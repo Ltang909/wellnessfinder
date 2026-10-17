@@ -72,15 +72,10 @@ const TREATMENTS = [
     desc: "The viral scalp treatment: deep cleanse, exfoliation, massage, and steam. Reimagined as therapy when performed by a registered massage therapist.",
     detail: "A head spa performed by an RMT can be billed as massage therapy. The same treatment at a salon without a registered practitioner cannot be claimed." },
 
-  { group: "Perform Better", name: "Hyperbaric Oxygen Therapy", billed: "Medical",
-    categories: ["Medical"], link: null,
-    desc: "Breathing pure oxygen inside a pressurized chamber, used for recovery, energy, and tissue healing. In Ontario this is offered at physician led clinics.",
-    detail: "Ontario hyperbaric clinics are physician led rather than naturopathic, so sessions fall under medical care. Availability in the GTA is limited, so confirm the clinic and the billing before booking." },
-
-  { group: "Look & Feel Better", name: "Medical Botox", billed: "Dental / Medical",
-    categories: ["Dental", "Medical"], link: null,
-    desc: "Therapeutic botox for jaw clenching, TMJ pain, and chronic migraines. This is medical treatment, not the cosmetic kind.",
-    detail: "When prescribed for TMJ dysfunction or chronic migraine, botox is a medical or dental treatment rather than a cosmetic one, which changes how it can be claimed. Confirm with your provider and your plan first." },
+  { group: "Look & Feel Better", name: "Medical Botox", billed: "Dental",
+    categories: ["Dental"], link: null,
+    desc: "Therapeutic botox for jaw clenching and TMJ pain, performed by a dentist. This is dental treatment, not the cosmetic kind.",
+    detail: "When a dentist prescribes botox for TMJ dysfunction or bruxism, it is a dental treatment rather than a cosmetic one, which changes how it can be claimed. Confirm with your dentist and your plan first." },
 
   { group: "Brain & Mind", name: "Sleep Coaching", billed: "Psychology",
     categories: ["Psychology"], link: null,
@@ -146,7 +141,18 @@ const TREATMENTS = [
     categories: ["Dietitian"], link: null,
     desc: "Meal planning and fueling strategies from a registered dietitian for training, performance, and recovery.",
     detail: "Registered dietitian is a covered category in many extended health plans, yet most people never check. Sessions bill as dietitian services." },
+
+  { group: "Look & Feel Better", name: "Fertility Acupuncture", billed: "Acupuncture",
+    categories: ["Acupuncture"], link: null,
+    desc: "Acupuncture protocols that support fertility for both women and men, often used alongside IVF or IUI or while trying naturally.",
+    detail: "Delivered by a registered acupuncturist, sessions typically bill under acupuncture benefits. Many people only discover this coverage after paying out of pocket for months." },
+
+  { group: "Look & Feel Better", name: "Fertility Consultation", billed: "Naturopathy",
+    categories: ["Naturopathy"], link: null,
+    desc: "Naturopathic fertility care for both partners: hormone testing, cycle support, sperm health, and preconception planning.",
+    detail: "Naturopathic doctors can order labs and build fertility plans for both male and female partners. Visits bill as naturopathy under most extended plans." },
 ];
+
 
 
 const TREATMENT_GROUPS = ["Move Better", "Look & Feel Better", "Perform Better", "Brain & Mind"];
@@ -311,12 +317,6 @@ const GUASHA_CLINICS = [
   { name: "Rebalance Sports Medicine", city: "Toronto", web: "https://rebalancetoronto.com/sports-medicine-services/cosmetic-acupuncture-downtown-toronto/", billed: "Acupuncture", note: "Cosmetic acupuncture incl. Gua Sha by TCM registered acupuncturists, direct billing", prov: "ON" }
 ];
 
-const HBOT_CLINICS = [
-  { name: "Ontario HBOT", city: "Toronto", web: "https://www.ontariohbot.ca", billed: "Medical (OHIP)", note: "physician-led; OHIP covers 14 conditions", prov: "ON" },
-  { name: "MO2R Medical Oxygen Repair", city: "Mississauga", web: "https://mo2r.ca", billed: "Medical", note: "physician-led; Dr. Wayne Evans, hyperbaric medicine certified", prov: "ON" },
-  { name: "Champagne Hyperbarics", city: "Toronto", web: "https://champagnehbot.ca", billed: "Medical (OHIP)", note: "OHIP-covered indications; open 7 days a week", prov: "ON" },
-  { name: "Modern Medical Hyperbaric Clinic", city: "Thunder Bay", web: "http://modernmedicalclinic.ca", billed: "Medical (OHIP)", note: "physician-led; all 14 OHIP indications", prov: "ON" }
-];
 
 const BOTOX_CLINICS = [
   { name: "Dr. Yolanda Cruz Dentistry On The Path", city: "Toronto", web: "https://torontodentistry.info/tmj/botox-for-tmj-bruxism/", billed: "Dental", note: "therapeutic Botox for TMD/bruxism; not cosmetic", prov: "ON" },

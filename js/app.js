@@ -267,10 +267,10 @@
      GTA directory and by the per-treatment minipages. */
   function gtaDataFor(name) {
     if (typeof TREATMENTS === "undefined") return null;
-    const inOntario = (c) => c.prov === "ON";
-    const pilates = (typeof PILATES_CLINICS !== "undefined" ? PILATES_CLINICS : []).filter(inOntario);
+    const inDirectory = () => true; // directory is Canada-wide; every entry is Canadian
+    const pilates = (typeof PILATES_CLINICS !== "undefined" ? PILATES_CLINICS : []).filter(inDirectory);
     const golf = (typeof GOLF_CLINICS !== "undefined" ? GOLF_CLINICS : []);
-    const naturo = (typeof NATURO_CLINICS !== "undefined" ? NATURO_CLINICS : []).filter(inOntario);
+    const naturo = (typeof NATURO_CLINICS !== "undefined" ? NATURO_CLINICS : []).filter(inDirectory);
     const byTag = (tag) => naturo.filter((c) => c.tags && c.tags.includes(tag));
     const map = {
       "Clinical Pilates": { clinics: pilates },
@@ -298,7 +298,6 @@
       "Accent Modification": { clinics: (typeof ACCENT_CLINICS !== "undefined" ? ACCENT_CLINICS : []).filter(inOntario) },
       "Myofunctional Therapy": { clinics: (typeof MYOFUNC_CLINICS !== "undefined" ? MYOFUNC_CLINICS : []).filter(inOntario) },
       "Facial Gua Sha": { clinics: (typeof GUASHA_CLINICS !== "undefined" ? GUASHA_CLINICS : []).filter(inOntario) },
-      "Hyperbaric Oxygen Therapy": { clinics: (typeof HBOT_CLINICS !== "undefined" ? HBOT_CLINICS : []).filter(inOntario) },
       "Medical Botox": { clinics: (typeof BOTOX_CLINICS !== "undefined" ? BOTOX_CLINICS : []).filter(inOntario) },
       "Sports Nutrition": { clinics: (typeof NUTRITION_CLINICS !== "undefined" ? NUTRITION_CLINICS : []).filter(inOntario) },
     };
@@ -387,7 +386,6 @@
     push(typeof ACCENT_CLINICS !== "undefined" ? ACCENT_CLINICS : [], "Accent Modification");
     push(typeof MYOFUNC_CLINICS !== "undefined" ? MYOFUNC_CLINICS : [], "Myofunctional Therapy");
     push(typeof GUASHA_CLINICS !== "undefined" ? GUASHA_CLINICS : [], "Facial Gua Sha");
-    push(typeof HBOT_CLINICS !== "undefined" ? HBOT_CLINICS : [], "Hyperbaric Oxygen Therapy");
     push(typeof BOTOX_CLINICS !== "undefined" ? BOTOX_CLINICS : [], "Medical Botox");
     push(typeof NUTRITION_CLINICS !== "undefined" ? NUTRITION_CLINICS : [], "Sports Nutrition");
     return out;
