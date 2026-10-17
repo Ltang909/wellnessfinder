@@ -376,7 +376,11 @@
       .then((j) => [parseFloat(j.places[0].latitude), parseFloat(j.places[0].longitude)])
       .catch(() => POSTAL_REGION[fsa[0]] || CITY_COORDS["Toronto"]);
   }
-  window.wfGeo = { CITY_COORDS, POSTAL_REGION, haversineKm, getUserCoords };
+  function clinicCoords(c) {
+    if (c && c.lat != null && c.lng != null) return [parseFloat(c.lat), parseFloat(c.lng)];
+    return CITY_COORDS[c.city];
+  }
+  window.wfGeo = { CITY_COORDS, POSTAL_REGION, haversineKm, getUserCoords, clinicCoords };
 
   /* Every clinic in the database, tagged with its treatment. */
   function allClinicsWithTreatment() {
@@ -493,7 +497,7 @@
     const cards = clinics.map((c) => {
       const saved = window.wfFavs && window.wfFavs.has(c.name);
       const mailto = clinicMailto(c, serviceName || c.treatment || "wellness");
-      const meta = [serviceName || c.treatment, c.city].filter(Boolean).map(esc).join(" · ");
+      const meta = [serviceName || c.treatment, c.city, c.postal].filter(Boolean).map(esc).join(" · ");
       const dist = c.distKm != null && isFinite(c.distKm) ? `<p class="clinic-dist">≈ ${Math.round(c.distKm)} km away</p>` : "";
       const addr = c.loc ? `<p class="clinic-addr">📍 ${esc(c.loc)}</p>` : "";
       const price = c.price && c.price.indexOf("$") > -1 ? `<p class="clinic-price">${esc(c.price)}</p>` : "";

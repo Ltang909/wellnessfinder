@@ -149,7 +149,7 @@
     grid.innerHTML = '<p class="saved-none">Loading nearby clinics…</p>';
     window.wfGeo.getUserCoords(postal).then(function (userPt) {
       var withDist = list.map(function (c) {
-        var coords = window.wfGeo.CITY_COORDS[c.city];
+        var coords = window.wfGeo.clinicCoords(c);
         c.distKm = coords ? window.wfGeo.haversineKm(userPt, coords) : Infinity;
         return c;
       }).filter(function (c) { return c.distKm <= radiusKm; });
