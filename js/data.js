@@ -72,10 +72,10 @@ const TREATMENTS = [
     desc: "The viral scalp treatment: deep cleanse, exfoliation, massage, and steam. Reimagined as therapy when performed by a registered massage therapist.",
     detail: "A head spa performed by an RMT can be billed as massage therapy. The same treatment at a salon without a registered practitioner cannot be claimed." },
 
-  { group: "Perform Better", name: "Hyperbaric Oxygen Therapy", billed: "Naturopathy",
-    categories: ["Naturopathy"], link: null,
-    desc: "Breathing pure oxygen inside a pressurized chamber, used for recovery, energy, and tissue healing. A small number of naturopathic clinics offer sessions.",
-    detail: "Offered at select naturopathic clinics as part of a naturopathic treatment plan. Availability in the GTA is limited, so confirm the clinic and the billing before booking." },
+  { group: "Perform Better", name: "Hyperbaric Oxygen Therapy", billed: "Medical",
+    categories: ["Medical"], link: null,
+    desc: "Breathing pure oxygen inside a pressurized chamber, used for recovery, energy, and tissue healing. In Ontario this is offered at physician led clinics.",
+    detail: "Ontario hyperbaric clinics are physician led rather than naturopathic, so sessions fall under medical care. Availability in the GTA is limited, so confirm the clinic and the billing before booking." },
 
   { group: "Look & Feel Better", name: "Medical Botox", billed: "Dental / Medical",
     categories: ["Dental", "Medical"], link: null,
@@ -159,6 +159,187 @@ const TREATMENT_ART = {
   "Perform Better": "/assets/treat-perform.jpg",
   "Brain & Mind": "/assets/treat-mind.jpg",
 };
+
+/* ---------- New treatment clinic datasets (phase 2) ---------- */
+const REDLIGHT_CLINICS = [
+  { name: "RMT Movement", city: "Brampton", web: "https://www.rmtmovement.ca/med-spa-brampton/red-light-therapy", billed: "Physiotherapy", note: "Sessions $40-$100; direct billing; clinic offers physiotherapy", prov: "ON" },
+  { name: "PhysioActive", city: "Thornhill", web: "https://www.physioactive.ca/our-services/technology/", billed: "Physiotherapy", note: "Full-size red/infrared light unit used within physiotherapy care plans", prov: "ON" },
+  { name: "Performance Recovery Therapy", city: "Toronto", web: "https://prtherapyinc.com/services/recovery-room.html", billed: "Physiotherapy/Chiropractic", note: "Recovery Room red light: $15 drop-in or $40-$50/mo membership; FAQ says insurance doesn't cover Recovery Room sessions directly", prov: "ON" },
+  { name: "Pillars of Wellness", city: "Burlington", web: "https://pillarsofwellness.ca/service/book-red-light-therapy-in-burlington/", billed: "Physiotherapy", note: "Intro $25 (reg $39); billable as physiotherapy add-on or under physio supervision", prov: "ON" },
+  { name: "Northstone Chiropractic", city: "Greater Sudbury", web: "https://www.northstonechiropractic.ca/bioflex-laser-therapy", billed: "Chiropractic", note: "BioFlex photobiomodulation (red/near-infrared light); complements chiropractic plans", prov: "ON" },
+  { name: "Active Chiropractic", city: "Paris", web: "https://activechiro.ca/cold-laser-therapy/", billed: "Chiropractic", note: "Theralase cold laser (660nm red light photobiomodulation); covered by chiropractic plans", prov: "ON" },
+  { name: "Athlete's Care", city: "Toronto", web: "https://www.athletescare.com/content/index.php?pid=15&id=299", billed: "Physiotherapy/Chiropractic", note: "Deep-tissue laser (red/infrared photobiomodulation) by physiotherapist or chiropractor; covered as physio/chiro adjunct", prov: "ON" },
+  { name: "Core Wellness Centre", city: "Toronto", web: "https://corewellnesscentre.ca/shockwave-therapy-toronto", billed: "Physiotherapy/Chiropractic", note: "Cold laser therapy assessed by physiotherapist or chiropractor; St Clair West", prov: "ON" }
+];
+
+const CRYO_CLINICS = [
+  { name: "York Rehab Clinic", city: "Richmond Hill", web: "https://www.yorkrehabclinic.ca/blog/cryotherapy-in-richmond-hill-targeted-cold-therapy-with-our-new-btl-cryotherapy-system/", billed: "Physiotherapy", note: "BTL localized cryotherapy (-35C cold air) built into a physiotherapy plan; clinician-guided", prov: "ON" },
+  { name: "Lakeside Health and Sport", city: "Oakville", web: "https://lakesidehealthandsport.com/", billed: "Physiotherapy", note: "Cryotherapy listed among physiotherapy session modalities; direct billing", prov: "ON" }
+];
+
+const SHOCKWAVE_CLINICS = [
+  { name: "Rosedale Wellness Centre", city: "Toronto", web: "https://www.rosedalewellness.com/shockwave", billed: "Physiotherapy", note: "Physiotherapists deliver radial shockwave; 120 Bloor St E", prov: "ON" },
+  { name: "Core Wellness Centre", city: "Toronto", web: "https://corewellnesscentre.ca/shockwave-therapy-toronto", billed: "Physiotherapy/Chiropractic", note: "First visit assessed by physiotherapist or chiropractor; St Clair West", prov: "ON" },
+  { name: "Integra Health", city: "Toronto", web: "https://www.integrahealth.ca/shockwave-therapy", billed: "Physiotherapy/Chiropractic", note: "Chiro + physio team; downtown 130 King St W; extended-benefit billing", prov: "ON" },
+  { name: "Yorkville Sports Medicine", city: "Toronto", web: "https://www.yorkvillesportsmed.com/shockwave-therapy-toronto", billed: "Physiotherapy/Chiropractic", note: "$105 per 30-min visit; billed under chiropractic or physiotherapy at patient's choice", prov: "ON" },
+  { name: "Athlete's Care", city: "Toronto", web: "https://www.athletescare.com/content/index.php?pid=15&id=297", billed: "Physiotherapy/Chiropractic", note: "Registered physiotherapists and chiropractors; covered by many Ontario extended plans", prov: "ON" },
+  { name: "Leaside Sports Medicine", city: "Toronto", web: "https://www.leasidesportsmedicine.com/services/shockwave-therapy/", billed: "Physiotherapy/Chiropractic", note: "$60-$100 per session; direct billing; 1929 Bayview Ave", prov: "ON" },
+  { name: "Toronto Chiropractic Services", city: "Toronto", web: "https://torontochiropracticservices.com/services/", billed: "Chiropractic", note: "Radial shockwave by Dr. Adrian Cohen; 206 Dupont St", prov: "ON" },
+  { name: "Kent Chiro-Med Wellness Clinic", city: "Ottawa", web: "https://www.kentchiromed.com/shockwave-therapy-ottawa/", billed: "Physiotherapy/Chiropractic", note: "Shockwave $30 add-on to physio/chiro visit; 563 Gladstone Ave", prov: "ON" },
+  { name: "Dynamic Physiotherapy", city: "Mississauga", web: "https://www.dynamicphysiotherapy.ca/", billed: "Physiotherapy", note: "Physio clinic since 1996; direct billing; shockwave for tendon pain", prov: "ON" },
+  { name: "Pro-Active Physiotherapy Clinic", city: "Mississauga", web: "https://www.proactiveclinic.ca/shockwave-therapy/", billed: "Physiotherapy", note: "Shockwave by skilled physiotherapists; direct billing", prov: "ON" },
+  { name: "Delta Physiotherapy & Rehab", city: "Mississauga", web: "https://www.deltaphysiotherapy.ca/shockwave-therapy", billed: "Physiotherapy", note: "Licensed therapists; Storz shockwave device; covered by most private insurance", prov: "ON" },
+  { name: "Hamilton Physio & Rehab", city: "Hamilton", web: "https://www.hamiltonphysiorehab.ca/Services/Shockwave-Therapy", billed: "Physiotherapy", note: "Direct billing to extended benefits; 200 James St S", prov: "ON" },
+  { name: "Proremedy Physiotherapy", city: "Mississauga", web: "https://proremedyphysio.com/shockwave-therapy/", billed: "Physiotherapy", note: "Registered physiotherapists; direct billing; Streetsville location", prov: "ON" },
+  { name: "Activa Physiotherapy", city: "Ottawa", web: "https://activa.com/services/", billed: "Physiotherapy", note: "Shockwave modality; covered by most insurance providers", prov: "ON" }
+];
+
+const HEADSPA_CLINICS = [
+  { name: "Da Estrela Wellness", city: "Guelph", web: "https://www.daestrelawellness.ca/blog/discover-the-japanese-head-spa-experience-in-guelph-at-da-estrela-wellness", billed: "Massage Therapy", note: "Japanese head spa performed by RMTs", prov: "ON" },
+  { name: "Tonic Physiotherapy & Rehabilitation Centre", city: "Milton", web: "https://tonicphysio.com/registered-massage-therapy/indie-head-massage/", billed: "Massage Therapy", note: "Indian head massage by registered massage therapists", prov: "ON" },
+  { name: "Savannah Massage Therapy & Wellness Clinic", city: "Kitchener-Waterloo", web: "https://savannahmassage.ca/", billed: "Massage Therapy", note: "Indie head massage by RMT team, direct billing", prov: "ON" }
+];
+
+const TMJMASSAGE_CLINICS = [
+  { name: "Liam O'Reilly RMT", city: "Toronto", web: "https://www.liamrmt.com/tmj-massage-toronto", billed: "Massage Therapy", note: "TMJ massage incl. intra-oral by RMT; 600 Sherbourne St", prov: "ON" },
+  { name: "The Holistic Move", city: "Toronto", web: "https://theholisticmove.com/tmj-massage-toronto/", billed: "Massage Therapy", note: "Tim Wong RMT, CMTO-licensed; Yorkville", prov: "ON" },
+  { name: "Rebalance Sports Medicine", city: "Toronto", web: "https://rebalancetoronto.com/blog/how-massage-therapy-can-help-with-jaw-pain-and-tmj-dysfunction/", billed: "Massage Therapy", note: "Desiree Caceres Ramirez RMT; University & King", prov: "ON" },
+  { name: "Frame Fidelity", city: "Toronto", web: "https://www.framefidelity.com/post/tmj-massage-a-natural-and-effective-remedy-for-jaw-pain", billed: "Massage Therapy", note: "Michael Ioannou RMT; 505 Eglinton Ave W", prov: "ON" },
+  { name: "Restoracare Health", city: "Toronto", web: "https://restoracarehealth.com/buccal-massage-toronto", billed: "Massage Therapy", note: "Buccal massage for TMJ by RMTs; Sugar Beach", prov: "ON" },
+  { name: "Bravella Health", city: "Ottawa", web: "https://ottawa.bravellahealth.com/massage-therapy-ottawa/", billed: "Massage Therapy", note: "Abby Delarge RMT (CMTO); TMJ massage therapy listed", prov: "ON" },
+  { name: "Trish Scott RMT", city: "London", web: "https://trishscottrmt.ca/buccal", billed: "Massage Therapy", note: "Buccal intraoral massage for TMJ dysfunction", prov: "ON" },
+  { name: "Oliver RMT", city: "Waterloo", web: "https://www.oliver-rmt.com/landing/somatic-massage-body-awareness-waterloo.html", billed: "Massage Therapy", note: "Oliver Bee Dasey-Springer RMT; treats TMJ", prov: "ON" },
+  { name: "Savannah Massage Therapy & Wellness Clinic", city: "Kitchener-Waterloo", web: "https://savannahmassage.ca/", billed: "Massage Therapy", note: "Therapeutic massage for TMJ by RMT team, direct billing", prov: "ON" }
+];
+
+const LYMPH_CLINICS = [
+  { name: "Integra Health", city: "Toronto", web: "https://www.integrahealth.ca/skinlab-services/lymphatic-drainage-massage", billed: "Massage Therapy", note: "Full body MLD by RMT; Financial District; benefits-eligible", prov: "ON" },
+  { name: "Body & Mind Osteopathic Clinic", city: "Toronto", web: "https://www.bodyandmind.clinic/manual-lymphatic-drainage/", billed: "Massage Therapy", note: "Vadzim Siniauski RMT; North York; RMT receipts issued", prov: "ON" },
+  { name: "RMT Movement", city: "Brampton", web: "https://www.rmtmovement.ca/massage-therapy-mississauga/lymphatic-drainage", billed: "Massage Therapy", note: "$130/60min; RMTs trained in lymphatic massage, direct billing", prov: "ON" },
+  { name: "Triada Health Ottawa", city: "Ottawa", web: "https://triadahealthottawa.com/manual-lymphatic-drainage-ottawa/", billed: "Massage Therapy", note: "Carly Smith RMT MLD-C; Nepean; direct billing", prov: "ON" },
+  { name: "Ottawa Cancer and Lymphatics Centre", city: "Ottawa", web: "https://breastrehab.ca/massage-therapy/", billed: "Massage Therapy", note: "RMTs with 300+ hrs lymphatic training", prov: "ON" },
+  { name: "Tannis Maciel RMT", city: "Kitchener-Waterloo", web: "https://tannismacielrmt.com/", billed: "Massage Therapy", note: "RMT lymphatic specialist; invoices under RMT benefits", prov: "ON" },
+  { name: "Mulberry Wellness", city: "Hamilton", web: "https://www.mulberrywellness.ca/lymphatic-drainage-massage", billed: "Massage Therapy", note: "RMT team incl. Vodder MLD Level 1; 166 Bay St N", prov: "ON" },
+  { name: "Swelling Solutions Lymphatic Health Centre", city: "Waterloo", web: "https://www.lymphkr.com/", billed: "Massage Therapy", note: "Catharine Burt BScN RMT CDT; oncology lymphedema therapist", prov: "ON" },
+  { name: "Savannah Massage Therapy & Wellness Clinic", city: "Kitchener-Waterloo", web: "https://savannahmassage.ca/", billed: "Massage Therapy", note: "Manual lymph drainage primary treatment; RMT team, direct billing", prov: "ON" }
+];
+
+const PELVIC_CLINICS = [
+  { name: "Proactive Pelvic Health Centre", city: "Toronto", web: "https://www.proactiveph.com/contact-toronto-west", billed: "Physiotherapy", note: "Little Italy clinic; one-on-one private treatment rooms", prov: "ON" },
+  { name: "Maja Degen Physiotherapy & Pelvic Floor Physiotherapy", city: "Toronto", web: "https://www.majadegenphysiotherapist.com/", billed: "Physiotherapy", note: "Beaches; orthopaedic and pelvic health physiotherapist", prov: "ON" },
+  { name: "Men's Pelvic Floor Physiotherapy Clinic", city: "Vaughan", web: "https://www.menspelvicfloorphysiotherapy.ca/", billed: "Physiotherapy", note: "Male pelvic floor specialist PT; free phone consultation", prov: "ON" },
+  { name: "RCP Health", city: "Oakville", web: "https://rcphealth.ca/service/physiotherapy/pelvic-floor-physiotherapy-oakville/", billed: "Physiotherapy", note: "Registered PTs; direct billing; no referral needed", prov: "ON" },
+  { name: "Palermo Physiotherapy & Wellness Centre", city: "Oakville", web: "https://palermophysio.ca/category/physiotherapy/pelvic-floor-physiotherapy/", billed: "Physiotherapy", note: "Level 3 certified pelvic floor PT (CPO member)", prov: "ON" },
+  { name: "Athlete's Care Sports Medicine Centres", city: "Toronto", web: "http://www.athletescare.com/sports-medicine-services/pelvic-health-physiotherapy~3~324.html", billed: "Physiotherapy", note: "GTA-wide locations; consult $159, follow-up $109", prov: "ON" },
+  { name: "PhysioZen Physiotherapy Clinic", city: "Scarborough", web: "http://physiozen.ca/pelvic-physiotherapy", billed: "Physiotherapy", note: "Certified pelvic health PT; Lawrence Warden Medical Centre", prov: "ON" },
+  { name: "Axis Therapy and Performance", city: "Mississauga", web: "https://axistherapy.com/pelvic-floor-physiotherapy-mississauga/", billed: "Physiotherapy", note: "6 GTA locations; integrated physio clinic", prov: "ON" },
+  { name: "PhysioDNA", city: "Toronto", web: "https://physiodna.com/pelvic-health-physiotherapy/", billed: "Physiotherapy", note: "Bloor West Village; post-grad certified pelvic health PTs", prov: "ON" },
+  { name: "Delta Physiotherapy & Rehab", city: "Mississauga", web: "https://www.deltaphysiotherapy.ca/pregnancy-chiropractic-care", billed: "Physiotherapy", note: "Erin Mills location only; licensed Ontario PTs", prov: "ON" },
+  { name: "Rebirth Wellness Centre", city: "London", web: "https://www.rebirthwellness.ca/pelvic-floor-physiotherapy", billed: "Physiotherapy", note: "Assessment $165; follow-ups $90-$165", prov: "ON" }
+];
+
+const BIKEFIT_CLINICS = [
+  { name: "Revive Health", city: "Hamilton", web: "https://hamontphysio.ca/services/physio-bike-fitter/", billed: "Physiotherapy", note: "Physiotherapist-led bike fittings; Kirkendall neighbourhood", prov: "ON" },
+  { name: "Back Works Physiotherapy", city: "Waterloo", web: "https://www.backworksphysiotherapy.ca/our-services", billed: "Physiotherapy", note: "Custom bike fit by a registered physiotherapist; serving KW since 1993", prov: "ON" },
+  { name: "Peak To Shore Physiotherapy & Sports Medicine", city: "Collingwood", web: "https://peaktoshorephysiotherapy.com/newsletter/pedal-smarter-how-our-physiotherapists-can-support-your-cycling-goals/", billed: "Physiotherapy", note: "Comprehensive bike-fitting services by physiotherapists; also Stayner/Wasaga Beach", prov: "ON" },
+  { name: "Active Health Institute", city: "Ottawa", web: "https://activehealthinstitute.janeapp.com/", billed: "Physiotherapy", note: "Physiotherapist + bike fitter (Alyssa); 1,500+ bike fits completed", prov: "ON" }
+];
+
+const GAIT_CLINICS = [
+  { name: "The Running Physio", city: "Toronto", web: "https://therunningphysio.ca/physical-therapy-treatments/running-assessments/", billed: "Physiotherapy", note: "Running gait analysis (treadmill + slow-motion video); Queen West", prov: "ON" },
+  { name: "PhysioPlus Health Group", city: "Toronto", web: "https://physioplushealth.com/orthotics/running-assessment/", billed: "Physiotherapy", note: "Slow-motion frame-by-frame video gait analysis by PT; Bloor West Village", prov: "ON" },
+  { name: "The Runner's Academy", city: "Toronto", web: "https://www.therunnersacademy.com/running-gait-analysis-1", billed: "Physiotherapy", note: "Running gait analysis with registered PT team; covered by most extended plans", prov: "ON" },
+  { name: "Foundation Physiotherapy & Wellness", city: "Toronto", web: "https://foundationphysio.com/services/specialized-program-based-services/runningprogram/", billed: "Physiotherapy", note: "90-min PT running assessment + treadmill video; assessment $198", prov: "ON" },
+  { name: "Back Works Physiotherapy", city: "Waterloo", web: "https://www.backworksphysiotherapy.ca/our-services", billed: "Physiotherapy", note: "Running assessment by registered PT with gait analysis experience", prov: "ON" },
+  { name: "Grand River Sports Medicine Centre", city: "Kitchener", web: "https://www.grsm.ca/services/physiotherapy/", billed: "Physiotherapy", note: "Video analysis of running gait by registered physiotherapist; initial $145", prov: "ON" },
+  { name: "Live Active Sport Med", city: "Toronto", web: "https://liveactivesportmed.com/running-clinic-toronto/", billed: "Physiotherapy", note: "Run gait analysis + retraining; Beaches & Etobicoke locations", prov: "ON" },
+  { name: "Athlete's Care Ottawa", city: "Ottawa", web: "https://www.athletescareottawa.ca/physiotherapy-services/video-analysis-ottawa.html", billed: "Physiotherapy", note: "Video analysis incl. running technique by sports med team with physiotherapists", prov: "ON" }
+];
+
+const SLEEP_CLINICS = [
+  { name: "Lotus Wellness Psychology Clinic", city: "Richmond Hill", web: "https://lotuswellnessclinic.ca", billed: "Psychology", note: "Dr. Nancy Bahl C.Psych; sleep challenges/insomnia area of focus", prov: "ON" },
+  { name: "Harmonia Counselling & Psychotherapy", city: "Toronto", web: "https://www.harmoniacounselling.com", billed: "Psychotherapy", note: "CBT-I insomnia specialist; Mariam Daneshgar MSW RSW psychotherapist; virtual", prov: "ON" },
+  { name: "Uprise Psychology & Wellness", city: "Ottawa", web: "https://uprisepsychology.com/sleep-and-insomnia-therapy-in-ottawa/", billed: "Psychology", note: "CBT-I insomnia program; psychologists and registered psychotherapists", prov: "ON" }
+];
+
+const COUPLES_CLINICS = [
+  { name: "The Cohen Clinic", city: "Toronto", web: "https://thecohenclinic.com/", billed: "Psychology", note: "clinical psychologists and RPs; couples counselling; 1407 Yonge St", prov: "ON" },
+  { name: "Couples Counselling Centre", city: "Toronto", web: "https://couplescounsellingcentre.com/", billed: "Psychotherapy", note: "$135-180/session; EFT + Gottman; Toronto downtown + Hamilton", prov: "ON" },
+  { name: "Clear Path Solutions", city: "Toronto", web: "https://www.clearpathsolutions.ca/", billed: "Psychology", note: "Dr. Douglas Saunders C.Psych; EFT-based couples therapy; 123 Edward St", prov: "ON" },
+  { name: "Horizon Therapy", city: "Toronto", web: "http://www.horizontherapy.ca/", billed: "Psychotherapy", note: "RP/RSW/psychologist team; couples counselling; 455 Avenue Rd", prov: "ON" },
+  { name: "Toronto Psychology Clinic", city: "Toronto", web: "https://torontopsychology.com/", billed: "Psychology", note: "registered clinical psychologists; individual and couple therapy; 2 Carlton St", prov: "ON" },
+  { name: "Lotus Wellness Psychology Clinic", city: "Richmond Hill", web: "https://lotuswellnessclinic.ca", billed: "Psychology", note: "Dr. Nancy Bahl C.Psych; couples therapy; in-person and virtual", prov: "ON" },
+  { name: "CBT Psychology", city: "Thornhill", web: "https://cbtpsychology.com/", billed: "Psychology", note: "PhD clinical psychologists team; includes couples psychologists; 7626 Yonge St", prov: "ON" },
+  { name: "Cornerstone Family Counselling", city: "Mississauga", web: "https://cornerstonefamilycounselling.com/who-we-help/couples-therapy/", billed: "Psychotherapy", note: "CRPO-registered RPs; $170/session; EFT + RMFT training", prov: "ON" },
+  { name: "Collaborative Therapy", city: "Mississauga", web: "https://www.collaborativetherapist.ca/couples-therapy", billed: "Psychotherapy", note: "RP clinic near Square One; couples sessions $190; EFT + Gottman", prov: "ON" },
+  { name: "Anchored Therapy Centre", city: "Mississauga", web: "https://anchoredtherapycentre.com/", billed: "Psychotherapy", note: "registered psychotherapists; couples therapy $160/50 min; also Georgetown", prov: "ON" },
+  { name: "Real Life Counselling", city: "Mississauga", web: "https://www.reallifecounselling.com/mississauga-counselling/", billed: "Psychotherapy", note: "all therapists registered RPs; EFT marriage counselling; virtual across Ontario", prov: "ON" },
+  { name: "Local Psychotherapy", city: "Toronto", web: "https://www.localpsychotherapy.ca/", billed: "Psychotherapy", note: "RP (Qualifying) CRPO #19262; queer-affirming couples work; 111 Queen St E", prov: "ON" }
+];
+
+const MENTALPERF_CLINICS = [
+  { name: "The Mental Game Clinic", city: "Toronto", web: "https://www.thementalgame.me/", billed: "Psychology", note: "registered clinical psychologist + Certified Mental Performance Consultant; 1150 Yonge St", prov: "ON" },
+  { name: "Heads Up Mental Game Coaching", city: "Toronto", web: "https://www.mentalgamecoaching.ca/", billed: "Psychotherapy", note: "RP-run Mind Gym; mental coaching and sports performance counselling", prov: "ON" },
+  { name: "Friesen Sport and Performance Psychology", city: "Grimsby", web: "http://friesenperformance.com/", billed: "Psychology", note: "Dr. Chris Friesen PhD clinical psychologist; peak performance 1:1 sessions", prov: "ON" },
+  { name: "The Therapy Collective", city: "Milton", web: "https://thetherapycollective.ca/sports-psychology/", billed: "Psychotherapy", note: "sports mindset training by registered psychotherapist; Milton + virtual Ontario", prov: "ON" },
+  { name: "Mindful With You Psychotherapy & Counselling", city: "Ontario", web: "https://www.mindfulwithyou.com/", billed: "Psychotherapy", note: "sports performance therapy by RP; virtual across Ontario", prov: "ON" }
+];
+
+const ACCENT_CLINICS = [
+  { name: "SpeechScience", city: "Toronto", web: "https://speechscience.com/", billed: "Speech Therapy", note: "Accent modification by SLP Bonnie Gross, First Canadian Place downtown", prov: "ON" },
+  { name: "The Speech Associates", city: "Toronto", web: "https://www.speechassociates.ca/", billed: "Speech Therapy", note: "Accent modification by CASLPO-registered SLPs, virtual and in-home", prov: "ON" },
+  { name: "HealthCasa", city: "Toronto", web: "https://www.healthcasa.com/slp-ontario", billed: "Speech Therapy", note: "Virtual accent modification by CASLPO-registered SLPs across Ontario", prov: "ON" },
+  { name: "SpeechAim", city: "Toronto", web: "http://www.speechaim.com/", billed: "Speech Therapy", note: "Accent work among adult treatment goals, CASLPO-registered SLPs, $130-$160", prov: "ON" },
+  { name: "Speak Squad", city: "Burlington", web: "https://www.speaksquad.ca/about-us", billed: "Speech Therapy", note: "Accent modification by Reg. CASLPO SLP Peter Medeiros", prov: "ON" },
+  { name: "Kingston Integrated Healthcare (KIHC)", city: "Kingston", web: "https://kihc.ca", billed: "Speech Therapy", note: "Accent modification by CASLPO SLP Adrienne Nobbe", prov: "ON" }
+];
+
+const MYOFUNC_CLINICS = [
+  { name: "The Speech Associates", city: "Toronto", web: "https://www.speechassociates.ca/", billed: "Speech Therapy", note: "Orofacial Myofunctional Therapy by AOMT-certified SLP, York Region and virtual", prov: "ON" },
+  { name: "playTOK", city: "Markham", web: "https://www.playtok.com/Services", billed: "Speech Therapy", note: "OMT assessment $250 by OMT-trained registered SLP", prov: "ON" },
+  { name: "Family Speech Clinic", city: "Newmarket", web: "https://familyspeechclinic.com/", billed: "Speech Therapy", note: "OMT-certified Reg. CASLPO SLP Juliana Hifawi", prov: "ON" },
+  { name: "Ascent Clinical Services", city: "Brooklin", web: "https://www.ascentclinicalservices.ca/", billed: "Speech Therapy", note: "OMT-certified CASLPO SLP Juliana Hifawi, Whitby/Brooklin clinic", prov: "ON" },
+  { name: "Speak Squad", city: "Burlington", web: "https://www.speaksquad.ca/about-us", billed: "Speech Therapy", note: "Myofunctional therapy by SLP Telma Santos, Reg. CASLPO clinic", prov: "ON" },
+  { name: "SPOT Speech & OMT", city: "Northwestern Ontario (virtual)", web: "https://spotspeech.com/", billed: "Speech Therapy", note: "CASLPO-registered SLP trained in OMT, virtual Ontario services; clinic in Winnipeg", prov: "ON" }
+];
+
+const GUASHA_CLINICS = [
+  { name: "MyoCare RMT + Wellness", city: "Toronto", web: "http://www.myocarermt.com/cosmetic-acupuncture-and-facial-rejuvenation/", billed: "Acupuncture", note: "Sculpting Gua Sha Facial by R.ac Scott Koza, $95-$175, Bathurst St", prov: "ON" },
+  { name: "Yellow Gazebo Natural Health Care", city: "Toronto", web: "https://yellowgazeboclinic.com/our-services/1016316-2/", billed: "Acupuncture", note: "Jade/rose quartz Gua Sha in cosmetic acupuncture by RAc, $160 per 60min", prov: "ON" },
+  { name: "Continuum Wellness", city: "Toronto", web: "https://www.continuumwellness.ca/acupuncture-traditional-chinese-medicine-toronto", billed: "Acupuncture", note: "Facial Gua Sha in cosmetic acupuncture by R.TCMP/R.Ac Liya Derong Li, Yonge & Lawrence", prov: "ON" },
+  { name: "NatCan Integrative Health and Wellness Centre", city: "Woodbridge", web: "https://natcanintegrative.com/pages/our-team", billed: "Acupuncture", note: "Gua Sha Lymphatic Drainage Facial by R.Ac Alisa Cesselli", prov: "ON" },
+  { name: "Rebalance Sports Medicine", city: "Toronto", web: "https://rebalancetoronto.com/sports-medicine-services/cosmetic-acupuncture-downtown-toronto/", billed: "Acupuncture", note: "Cosmetic acupuncture incl. Gua Sha by TCM registered acupuncturists, direct billing", prov: "ON" }
+];
+
+const HBOT_CLINICS = [
+  { name: "Ontario HBOT", city: "Toronto", web: "https://www.ontariohbot.ca", billed: "Medical (OHIP)", note: "physician-led; OHIP covers 14 conditions", prov: "ON" },
+  { name: "MO2R Medical Oxygen Repair", city: "Mississauga", web: "https://mo2r.ca", billed: "Medical", note: "physician-led; Dr. Wayne Evans, hyperbaric medicine certified", prov: "ON" },
+  { name: "Champagne Hyperbarics", city: "Toronto", web: "https://champagnehbot.ca", billed: "Medical (OHIP)", note: "OHIP-covered indications; open 7 days a week", prov: "ON" },
+  { name: "Modern Medical Hyperbaric Clinic", city: "Thunder Bay", web: "http://modernmedicalclinic.ca", billed: "Medical (OHIP)", note: "physician-led; all 14 OHIP indications", prov: "ON" }
+];
+
+const BOTOX_CLINICS = [
+  { name: "Dr. Yolanda Cruz Dentistry On The Path", city: "Toronto", web: "https://torontodentistry.info/tmj/botox-for-tmj-bruxism/", billed: "Dental", note: "therapeutic Botox for TMD/bruxism; not cosmetic", prov: "ON" },
+  { name: "North Star Dentistry", city: "Mississauga", web: "https://northstardentistry.ca/services/general-dentistry/therapeutic-botox-mississauga", billed: "Dental", note: "Dr. Mays Al-Saffar; TMD-certified therapeutic Botox", prov: "ON" },
+  { name: "Birchmount Dental Group", city: "Scarborough", web: "https://www.birchmountdentalgroup.com/site/botox-scarborough", billed: "Dental", note: "Botox in dental plan for bruxism/TMJ", prov: "ON" },
+  { name: "Dundas Dental Group", city: "Toronto", web: "https://dundasdentalgroup.com/index.php/tmj-botox/", billed: "Dental", note: "Dr. Sina Fay; TMJ Botox in The Junction", prov: "ON" },
+  { name: "Rejuvenus Clinic", city: "Toronto", web: "https://www.rejuvenusclinic.ca/service-page/botox-for-bruxism-teeth-grinding", billed: "Medical", note: "physician-delivered Botox for bruxism; from $50 deposit", prov: "ON" },
+  { name: "HMC Headache Migraine and Concussion Centre", city: "Ajax", web: "https://hmccentre.com/health-services/botox-treatment-for-migraine/", billed: "Medical", note: "Botox for chronic migraine; PREEMPT protocol; OHIP-covered consult", prov: "ON" },
+  { name: "Copeland MD", city: "Whitby", web: "https://mdaesthetics.ca/pages/chronic-migraines", billed: "Medical", note: "BOTOX for chronic migraine; OHIP-covered consult; $250 procedure fee", prov: "ON" },
+  { name: "Beauty Within", city: "London", web: "https://beautywithin.ca/cosmetic-skin-treatments/chronic-migraine-treatment-with-botox-therapeutic", billed: "Medical", note: "Dr. Tetelbaum; therapeutic Botox for chronic migraine; $200+tax injection fee", prov: "ON" }
+];
+
+const NUTRITION_CLINICS = [
+  { name: "JM Nutrition", city: "Toronto", web: "https://www.julienutrition.com/dietnutri/pamela-mitri-registered-dietitian/", billed: "Dietitian", note: "Pamela Mitri MSc RD; sports nutrition specialty", prov: "ON" },
+  { name: "Studio Athletica", city: "Toronto", web: "https://www.studioathletica.com/recovery/nutrition/registered-dietician/", billed: "Dietitian", note: "registered dietitian consults; sports nutrition counselling", prov: "ON" },
+  { name: "ASCEND Rehabilitation", city: "Mississauga", web: "https://ascendrehabilitation.ca/portfolio-item/dietetics-and-nutrition/", billed: "Dietitian", note: "Ben Sit Dietitian; sports nutrition for athletic performance", prov: "ON" },
+  { name: "Capital Nutrition Group", city: "Ottawa", web: "https://www.nutritionistottawa.com/", billed: "Dietitian", note: "RD team; sports & performance nutrition; $150-220 initial", prov: "ON" },
+  { name: "Sport Nutrition North", city: "Ottawa", web: "https://www.sportnutritionnorth.ca/", billed: "Dietitian", note: "Veronique RD; initial consult $140", prov: "ON" },
+  { name: "DRRD Nutrition", city: "Ottawa", web: "http://www.drrdnutrition.com/specialties/sports-nutrition", billed: "Dietitian", note: "RD team; dedicated sports nutrition service", prov: "ON" },
+  { name: "Nepean Sports Medicine & Physiotherapy Centre", city: "Nepean", web: "https://www.nepeansportsmedicine.ca/site/dietitian-nutrition-nepean-ottawa", billed: "Dietitian", note: "RD team; sports nutrition section", prov: "ON" },
+  { name: "Peak Nutrition", city: "Toronto", web: "https://csnutrition.ca", billed: "Dietitian", note: "Terence Boateng MHSc RD CSEP-CE; performance nutrition", prov: "ON" },
+  { name: "The Spot Rehab Performance & Recovery", city: "Markham", web: "https://www.thespotrehab.com/", billed: "Dietitian", note: "Erica Kao RD; sports nutrition focus", prov: "ON" }
+];
 
 /* ---------- Per-treatment provider photos (with credit) ---------- */
 const TREATMENT_IMAGES = {
