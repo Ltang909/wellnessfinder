@@ -56,7 +56,98 @@ const TREATMENTS = [
     categories: ["Psychotherapy"], link: null,
     desc: "Brain-training sessions using real-time feedback to build awareness, focus, and regulation. *Coverage varies by provider.",
     detail: "When offered by a registered psychotherapist or psychologist, sessions may be claimed under mental-health benefits. Coverage varies by provider designation, so confirm first." },
+
+  { group: "Look & Feel Better", name: "Red Light Therapy", billed: "Physio / Chiro",
+    categories: ["Physiotherapy", "Chiropractic"], link: null,
+    desc: "Panels of red and near infrared light aimed at skin health, muscle recovery, and joint comfort. Offered at physio and chiro clinics as part of rehab, and at wellness studios for skin.",
+    detail: "When delivered as part of a physiotherapy or chiropractic treatment plan, red light sessions are often billed under that visit rather than as a standalone wellness service." },
+
+  { group: "Perform Better", name: "Cryotherapy", billed: "Physiotherapy",
+    categories: ["Physiotherapy"], link: null,
+    desc: "Brief exposure to extreme cold, through whole body chambers or targeted applicators, used for muscle recovery, inflammation, and soreness after training.",
+    detail: "Sports physio clinics that offer cryo as part of recovery programming typically bill the visit as physiotherapy. Standalone cryo studios without regulated practitioners usually cannot be claimed." },
+
+  { group: "Look & Feel Better", name: "Head Spa", billed: "Massage Therapy",
+    categories: ["Massage Therapy"], link: null,
+    desc: "The viral scalp treatment: deep cleanse, exfoliation, massage, and steam. Reimagined as therapy when performed by a registered massage therapist.",
+    detail: "A head spa performed by an RMT can be billed as massage therapy. The same treatment at a salon without a registered practitioner cannot be claimed." },
+
+  { group: "Perform Better", name: "Hyperbaric Oxygen Therapy", billed: "Naturopathy",
+    categories: ["Naturopathy"], link: null,
+    desc: "Breathing pure oxygen inside a pressurized chamber, used for recovery, energy, and tissue healing. A small number of naturopathic clinics offer sessions.",
+    detail: "Offered at select naturopathic clinics as part of a naturopathic treatment plan. Availability in the GTA is limited, so confirm the clinic and the billing before booking." },
+
+  { group: "Look & Feel Better", name: "Medical Botox", billed: "Dental / Medical",
+    categories: ["Dental", "Medical"], link: null,
+    desc: "Therapeutic botox for jaw clenching, TMJ pain, and chronic migraines. This is medical treatment, not the cosmetic kind.",
+    detail: "When prescribed for TMJ dysfunction or chronic migraine, botox is a medical or dental treatment rather than a cosmetic one, which changes how it can be claimed. Confirm with your provider and your plan first." },
+
+  { group: "Brain & Mind", name: "Sleep Coaching", billed: "Psychology",
+    categories: ["Psychology"], link: null,
+    desc: "Structured programs for insomnia and poor sleep, often based on CBT for insomnia, delivered by psychologists or sleep therapists.",
+    detail: "CBT for insomnia is an evidence based psychological treatment. When delivered by a registered psychologist, sessions typically fall under psychology benefits." },
+
+  { group: "Move Better", name: "Pelvic Floor Physiotherapy", billed: "Physiotherapy",
+    categories: ["Physiotherapy"], link: null,
+    desc: "Assessment and treatment of the pelvic floor muscles for incontinence, postpartum recovery, pelvic pain, and core strength.",
+    detail: "Delivered by physiotherapists with pelvic health training, so it bills as physiotherapy like any other physio visit. Many people pay out of pocket without realizing it is covered." },
+
+  { group: "Perform Better", name: "Bike Fitting", billed: "Physiotherapy",
+    categories: ["Physiotherapy"], link: null,
+    desc: "A professional bike fit assessing your position, movement, and comfort on the bike, run by a physiotherapist instead of a bike shop.",
+    detail: "When a physiotherapist performs the fit as a musculoskeletal assessment, it can be billed as physiotherapy. A retail bike shop fit cannot be claimed." },
+
+  { group: "Perform Better", name: "Running Gait Analysis", billed: "Physiotherapy",
+    categories: ["Physiotherapy"], link: null,
+    desc: "Video and movement analysis of your running form to address pain, improve efficiency, and prevent injury.",
+    detail: "Offered at physiotherapy clinics as part of an assessment, so it typically bills as physiotherapy rather than as a coaching service." },
+
+  { group: "Move Better", name: "Shockwave Therapy", billed: "Physio / Chiro",
+    categories: ["Physiotherapy", "Chiropractic"], link: null,
+    desc: "Acoustic wave treatment for stubborn tendon issues like plantar fasciitis and tennis elbow, offered at physio and chiro clinics.",
+    detail: "Delivered as part of a physiotherapy or chiropractic treatment plan, so it is usually billed under that visit." },
+
+  { group: "Move Better", name: "TMJ Massage", billed: "Massage Therapy",
+    categories: ["Massage Therapy"], link: null,
+    desc: "Targeted jaw, neck, and head massage for teeth grinding, clenching, and jaw pain, including intra oral techniques.",
+    detail: "Performed by a registered massage therapist, it bills as massage therapy. Many people live with jaw pain without knowing this option exists in their benefits." },
+
+  { group: "Move Better", name: "Lymphatic Drainage", billed: "Massage Therapy",
+    categories: ["Massage Therapy"], link: null,
+    desc: "Gentle rhythmic massage that supports lymph flow, often used after surgery or for swelling and fluid retention.",
+    detail: "When performed by an RMT as part of recovery care, it bills as massage therapy." },
+
+  { group: "Brain & Mind", name: "Couples Therapy", billed: "Psychology",
+    categories: ["Psychology", "Psychotherapy"], link: null,
+    desc: "Structured relationship counselling with a psychologist or registered psychotherapist, including approaches like the Gottman method.",
+    detail: "Many people assume couples therapy is never covered, but sessions with a registered provider typically fall under psychology or psychotherapy benefits." },
+
+  { group: "Brain & Mind", name: "Mental Performance Coaching", billed: "Psychology",
+    categories: ["Psychology"], link: null,
+    desc: "Mindset coaching for athletes, performers, and executives: focus, confidence, and pressure management with a sports psychologist.",
+    detail: "Delivered by a registered psychologist, performance coaching is a psychological service rather than generic life coaching, which is why it can fall under psychology benefits." },
+
+  { group: "Perform Better", name: "Accent Modification", billed: "Speech Therapy",
+    categories: ["Speech Therapy"], link: null,
+    desc: "Speech therapy for clearer communication: pronunciation, rhythm, and confidence for professionals speaking English as an additional language.",
+    detail: "Delivered by a speech language pathologist, so it bills as speech therapy like any other speech service." },
+
+  { group: "Perform Better", name: "Myofunctional Therapy", billed: "Speech Therapy",
+    categories: ["Speech Therapy"], link: null,
+    desc: "Exercises for tongue posture, breathing, and swallowing patterns, used for mouth breathing, orthodontic relapse, and sleep quality.",
+    detail: "Offered by speech language pathologists and some dental clinics, it bills as speech therapy when delivered by a registered provider." },
+
+  { group: "Look & Feel Better", name: "Facial Gua Sha", billed: "Acupuncture",
+    categories: ["Acupuncture"], link: null,
+    desc: "Traditional Chinese medicine facial technique using smooth stone tools for circulation, tension, and glow, performed at acupuncture clinics.",
+    detail: "When performed by a registered acupuncturist as part of TCM treatment, it typically bills under acupuncture benefits." },
+
+  { group: "Perform Better", name: "Sports Nutrition", billed: "Dietitian",
+    categories: ["Dietitian"], link: null,
+    desc: "Meal planning and fueling strategies from a registered dietitian for training, performance, and recovery.",
+    detail: "Registered dietitian is a covered category in many extended health plans, yet most people never check. Sessions bill as dietitian services." },
 ];
+
 
 const TREATMENT_GROUPS = ["Move Better", "Look & Feel Better", "Perform Better", "Brain & Mind"];
 const TREATMENT_TABS = ["All", "Physiotherapy", "Chiropractic", "Osteopathy", "Naturopathy", "Acupuncture", "Speech Therapy", "Psychotherapy"];

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mental Performance Coaching clinics in the GTA — WellFinder</title>
+  <meta name="description" content="Find Mental Performance Coaching clinics in the GTA on WellFinder." />
+  <link rel="canonical" href="https://wellfinder.ca/clinics-mental-performance-coaching" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css?v=10" />
+</head>
+<body data-treatment="Mental Performance Coaching">
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+    </nav></div>
+  </header>
+  <main class="section">
+    <div class="wrap tp-wrap">
+      <div id="tpHead"></div>
+      <div id="tpList" class="tp-list"></div>
+      <p class="gta-note">Listings are for informational purposes only. Coverage varies by insurer, plan, and provider. Always confirm with your insurer and the clinic before booking.</p>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="footer-bottom">Wellness coverage can vary by insurer, plan, and provider. These are personal discoveries and community recommendations — not guarantees of coverage. Always check with your insurer before booking. This directory is for informational purposes only.</p>
+    </div>
+  </footer>
+  <script src="js/data.js?v=10"></script>
+  <script src="js/app.js?v=10"></script>
+</body>
+</html>

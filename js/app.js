@@ -284,8 +284,7 @@
       "Singing Voice Therapy": { clinics: (typeof VOICE_CLINICS !== "undefined" ? VOICE_CLINICS : []).filter(inOntario) },
       "Neurofeedback": { clinics: (typeof NEUROFEEDBACK_CLINICS !== "undefined" ? NEUROFEEDBACK_CLINICS : []).filter(inOntario) },
     };
-    const entry = map[name];
-    if (!entry) return null;
+    const entry = map[name] || { clinics: [] };
     const t = TREATMENTS.find((x) => x.name === name) || {};
     return {
       name: entry.display || name,
@@ -439,12 +438,7 @@
 
   function renderGtaDirectory() {
     const grid = $("#gtaGrid"); if (!grid || typeof TREATMENTS === "undefined") return;
-    const names = [
-      "Clinical Pilates", "Golf Swing Assessment", "Cosmetic Acupuncture",
-      "Microneedling", "IV Vitamin Therapy", "IM Vitamin Therapy",
-      "Facial Manual Therapy", "Interview Preparation",
-      "Singing Voice Therapy", "Neurofeedback",
-    ];
+    const names = TREATMENTS.map((t) => t.name);
     grid.innerHTML = `<div class="gta-links">` + names.map((name) => {
       const g = gtaDataFor(name); if (!g) return "";
       return `<a class="gta-link" href="/clinics-${treatmentSlug(name)}">

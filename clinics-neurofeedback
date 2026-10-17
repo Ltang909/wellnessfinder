@@ -7,7 +7,7 @@
   <meta name="description" content="Brain-training sessions using real-time feedback to build awareness, focus, and regulation. *Coverage varies by provider." />
   <link rel="canonical" href="https://wellfinder.ca/clinics-neurofeedback" />
   <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="css/styles.css?v=9" />
+  <link rel="stylesheet" href="css/styles.css?v=10" />
 </head>
 <body data-treatment="Neurofeedback">
   <header class="site-header compact-header">
@@ -28,7 +28,7 @@
       <p class="footer-bottom">Wellness coverage can vary by insurer, plan, and provider. These are personal discoveries and community recommendations — not guarantees of coverage. Always check with your insurer before booking. This directory is for informational purposes only.</p>
     </div>
   </footer>
-  <script src="js/data.js?v=9"></script>
-  <script src="js/app.js?v=9"></script>
+  <script src="js/data.js?v=10"></script>
+  <script src="js/app.js?v=10"></script>
 </body>
 </html>
