@@ -332,7 +332,33 @@
     "Woodbridge": [43.7897, -79.5544], "Maple": [43.8563, -79.5085],
     "Stouffville": [43.9700, -79.2470], "Whitby": [43.8975, -78.9429],
     "Pickering": [43.8354, -79.0898], "Ancaster": [43.2175, -79.9791],
-    "Kitchener": [43.4516, -80.4925]
+    "Kitchener": [43.4516, -80.4925],
+    "Waterloo": [43.4643, -80.5204], "Guelph": [43.5448, -80.2482],
+    "Hamilton": [43.2557, -79.8711], "London": [42.9849, -81.2453],
+    "Windsor": [42.3149, -83.0364], "Kingston": [44.2312, -76.4860],
+    "Barrie": [44.3894, -79.6903], "Ottawa": [45.4215, -75.6972],
+    "Gatineau": [45.4765, -75.7013],
+    "Vancouver": [49.2827, -123.1207], "Victoria": [48.4284, -123.3656],
+    "Kelowna": [49.8880, -119.4960], "Surrey": [49.1913, -122.8490],
+    "Burnaby": [49.2488, -122.9805], "Richmond": [49.1666, -123.1336],
+    "Calgary": [51.0447, -114.0719], "Edmonton": [53.5461, -113.4938],
+    "Red Deer": [52.2681, -113.8112],
+    "Saskatoon": [52.1579, -106.6702], "Regina": [50.4452, -104.6189],
+    "Winnipeg": [49.8951, -97.1384],
+    "Montreal": [45.5017, -73.5673], "Quebec City": [46.8139, -71.2080],
+    "Laval": [45.6066, -73.7124],
+    "Halifax": [44.6488, -63.5752], "Moncton": [46.0878, -64.7782],
+    "Fredericton": [45.9636, -66.6431], "Charlottetown": [46.2382, -63.1311],
+    "St. John's": [47.5615, -52.7126],
+    "Whitehorse": [60.7217, -135.0538], "Yellowknife": [62.4540, -114.3718]
+  };
+  const POSTAL_REGION = {
+    A: [47.5615, -52.7126], B: [44.6488, -63.5752], C: [46.2382, -63.1311],
+    E: [45.9636, -66.6431], G: [46.8139, -71.2080], H: [45.5017, -73.5673],
+    J: [45.4765, -75.7013], K: [45.4215, -75.6972], L: [43.85, -79.52],
+    M: [43.6532, -79.3832], N: [42.9849, -81.2453], P: [46.4917, -80.9930],
+    R: [49.8951, -97.1384], S: [52.1579, -106.6702], T: [51.0447, -114.0719],
+    V: [49.2827, -123.1207], X: [62.4540, -114.3718], Y: [60.7217, -135.0538]
   };
   function haversineKm(a, b) {
     const R = 6371;
@@ -348,9 +374,9 @@
     return fetch("https://api.zippopotam.us/ca/" + fsa)
       .then((r) => { if (!r.ok) throw new Error("geo"); return r.json(); })
       .then((j) => [parseFloat(j.places[0].latitude), parseFloat(j.places[0].longitude)])
-      .catch(() => (fsa[0] === "M" ? CITY_COORDS["Toronto"] : [43.85, -79.52]));
+      .catch(() => POSTAL_REGION[fsa[0]] || CITY_COORDS["Toronto"]);
   }
-  window.wfGeo = { CITY_COORDS, haversineKm, getUserCoords };
+  window.wfGeo = { CITY_COORDS, POSTAL_REGION, haversineKm, getUserCoords };
 
   /* Every clinic in the database, tagged with its treatment. */
   function allClinicsWithTreatment() {
@@ -509,17 +535,28 @@
     if (!name) return;
     const g = gtaDataFor(name); if (!g) return;
     const head = $("#tpHead"), list = $("#tpList");
+    const PROV_NAMES = { ON: "Ontario", BC: "British Columbia", AB: "Alberta", SK: "Saskatchewan", MB: "Manitoba", QC: "Quebec", NB: "New Brunswick", NS: "Nova Scotia", PE: "Prince Edward Island", NL: "Newfoundland and Labrador", YT: "Yukon", NT: "Northwest Territories", NU: "Nunavut" };
     if (head) {
       head.innerHTML =
-        `<p class="eyebrow"><a href="/">WellFinder</a> · GTA directory</p>
-         <h1>${esc(g.name)} clinics in the GTA</h1>
+        `<p class="eyebrow"><a href="/">WellFinder</a> · Canada directory</p>
+         <h1>${esc(g.name)} clinics across Canada</h1>
          ${g.billed ? `<p class="tp-billed">Billed as ${esc(g.billed)}</p>` : ""}
          ${g.desc ? `<p class="lede">${esc(g.desc)}</p>` : ""}
          ${g.image ? `<figure class="tp-fig"><img src="${esc(g.image.src)}" alt="${esc(g.name)}" loading="lazy"><figcaption>Photo: <a href="${esc(g.image.url)}" target="_blank" rel="noopener">${esc(g.image.credit)}</a></figcaption></figure>` : ""}`;
-      document.title = `${g.name} clinics in the GTA — WellFinder`;
+      document.title = `${g.name} clinics across Canada — WellFinder`;
     }
     if (list) {
-      list.innerHTML = `<h2>${g.clinics.length} clinic${g.clinics.length === 1 ? "" : "s"}</h2>` + clinicCardsHTML(g.clinics, g.name);
+      const provs = [...new Set(g.clinics.map((c) => c.prov || "ON"))].sort();
+      const renderList = (prov) => {
+        const cs = prov ? g.clinics.filter((c) => (c.prov || "ON") === prov) : g.clinics;
+        const filter = provs.length > 1
+          ? `<label class="prov-filter">Province <select id="provSelect"><option value="">All of Canada (${g.clinics.length})</option>${provs.map((p) => `<option value="${p}">${PROV_NAMES[p] || p}</option>`).join("")}</select></label>`
+          : "";
+        list.innerHTML = `<div class="tp-list-head"><h2>${cs.length} clinic${cs.length === 1 ? "" : "s"}${prov ? " in " + esc(PROV_NAMES[prov] || prov) : " across Canada"}</h2>${filter}</div>` + clinicCardsHTML(cs, g.name);
+        const sel = document.getElementById("provSelect");
+        if (sel) { sel.value = prov || ""; sel.addEventListener("change", () => renderList(sel.value)); }
+      };
+      renderList("");
     }
   }
 

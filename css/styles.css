@@ -675,3 +675,6 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .resource-list a:hover{color:var(--forest);text-decoration:underline;text-underline-offset:3px}
 .clinic-also{display:flex;flex-wrap:wrap;gap:6px;margin:.3rem 0}
 .clinic-also span{font-size:.7rem;font-weight:700;color:var(--forest);background:var(--mist);border-radius:999px;padding:3px 10px}
+.tp-list-head{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:.4rem}
+.prov-filter{display:inline-flex;align-items:center;gap:.5rem;font-size:.85rem;font-weight:700}
+.prov-filter select{padding:.5rem .7rem;border:1px solid rgba(35,54,47,.2);border-radius:10px;font:inherit;background:#fff}
