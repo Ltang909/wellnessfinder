@@ -26,10 +26,14 @@
       setFavs(f); updateFavCount(); return i === -1;
     } };
   function updateFavCount() {
-    const el = $("#favCount"); if (!el) return;
     const n = getFavs().length;
-    el.textContent = n ? `${n} saved` : "";
-    el.style.display = n ? "inline" : "none";
+    const el = $("#favCount");
+    if (el) {
+      el.textContent = n ? `${n} saved` : "";
+      el.style.display = n ? "inline" : "none";
+    }
+    const uni = document.getElementById("universalSavedCount");
+    if (uni) { uni.textContent = n; uni.hidden = !n; }
   }
 
   /* ---------- mobile nav ---------- */
@@ -128,7 +132,7 @@
     const img = (typeof TREATMENT_IMAGES !== "undefined" && TREATMENT_IMAGES[t.name]) || null;
     const art = img ? img.src : ((typeof TREATMENT_ART !== "undefined" && TREATMENT_ART[t.group]) || "");
     const credit = img ? `<div class="tc-credit">Photo: <a href="${esc(img.url)}" target="_blank" rel="noopener">${esc(img.credit)}</a></div>` : "";
-    const findBtn = `<a class="btn btn--primary btn--sm" href="/clinics-${treatmentSlug(t.name)}">Find clinics →</a>`;
+    const findBtn = `<a class="btn btn--primary btn--sm" href="/clinics-${treatmentSlug(t.name)}">Find clinics</a>`;
     return `
       <article class="treatment-card" data-cats="${esc(cats)}" data-name="${esc(t.name)}">
         ${art ? `<div class="tc-art" aria-hidden="true"><img src="${esc(art)}" alt="" loading="lazy"></div>${credit}` : ""}
@@ -137,14 +141,15 @@
         <span class="tc-billed">Billed as ${esc(t.billed)}</span>
         <h4>${esc(t.name)}</h4>
         <p>${esc(t.desc)}</p>
+        <p class="tc-near" data-near="${esc(t.name)}" hidden></p>
         <button class="tc-more" aria-expanded="false">More details →</button>
         <div class="tc-detail"><p>${esc(t.detail)}</p></div>
         <div class="tc-foot">${findBtn}</div>
       </article>`;
   }
 
-  /* Directory filter state: billing tab + goal pill combine. */
-  const dirState = { tab: "All", goal: null };
+  /* Directory filter state: billing tab + goal pill + search combine. */
+  const dirState = { tab: "All", goal: null, query: "" };
 
   function applyDirectoryFilter() {
     const wrap = $("#directoryGroups"); if (!wrap || typeof TREATMENTS === "undefined") return;
@@ -156,7 +161,8 @@
         const cats = card.dataset.cats.split(",");
         const tabOk = dirState.tab === "All" || cats.includes(dirState.tab);
         const goalOk = !goalCats || cats.some((c) => goalCats.includes(c));
-        const show = tabOk && goalOk;
+        const qOk = !dirState.query || card.dataset.name.toLowerCase().includes(dirState.query);
+        const show = tabOk && goalOk && qOk;
         card.classList.toggle("hidden", !show);
         if (show) { visible++; gVisible++; }
       });
@@ -166,6 +172,7 @@
     const bits = [];
     if (dirState.tab !== "All") bits.push(dirState.tab);
     if (dirState.goal) bits.push(dirState.goal);
+    if (dirState.query) bits.push(`"${dirState.query}"`);
     const dc = $("#dirCount");
     if (dc) dc.textContent = bits.length
       ? `Showing ${visible} of ${total} · ${bits.join(" + ")}`
@@ -176,7 +183,11 @@
   window.wfDirectory = {
     setGoal(goal) {
       dirState.goal = (dirState.goal === goal) ? null : goal;
-      $$(".cat-item").forEach((p) => p.classList.toggle("active", p.dataset.goal === dirState.goal));
+      $$(".cat-item, .goal-chip").forEach((p) => {
+        const on = p.dataset.goal === dirState.goal;
+        p.classList.toggle("active", on);
+        p.setAttribute("aria-pressed", on ? "true" : "false");
+      });
       applyDirectoryFilter();
       return dirState.goal;
     },
@@ -184,7 +195,7 @@
       dirState.tab = "All"; dirState.goal = null;
       const tabsEl = $("#filterTabs");
       if (tabsEl) $$(".filter-tab", tabsEl).forEach((t, i) => t.classList.toggle("active", i === 0));
-      $$(".cat-item").forEach((p) => p.classList.remove("active"));
+      $$(".cat-item, .goal-chip").forEach((p) => { p.classList.remove("active"); p.setAttribute("aria-pressed", "false"); });
       applyDirectoryFilter();
     },
   };
@@ -215,6 +226,13 @@
         more.setAttribute("aria-expanded", open ? "true" : "false");
         more.textContent = open ? "Less details ↑" : "More details →";
       }
+    });
+
+    // search filtering
+    const searchEl = $("#dirSearch");
+    if (searchEl) searchEl.addEventListener("input", () => {
+      dirState.query = searchEl.value.trim().toLowerCase();
+      applyDirectoryFilter();
     });
 
     // tab filtering
@@ -382,6 +400,182 @@
   }
   window.wfGeo = { CITY_COORDS, POSTAL_REGION, haversineKm, getUserCoords, clinicCoords };
 
+  /* ---------- location: one postal code for the whole site ---------- */
+  const POSTAL_KEY = "wf_postal_code";
+  const wfLoc = {
+    get() { try { return localStorage.getItem(POSTAL_KEY) || ""; } catch { return ""; } },
+    set(v) { try { localStorage.setItem(POSTAL_KEY, v); } catch {} },
+    valid(v) { return /^[A-Z]\d[A-Z][ -]?\d[A-Z]\d$/.test(String(v || "").trim().toUpperCase()); },
+    _coords: null,
+    coords() {
+      const p = this.get();
+      if (!p) return Promise.resolve(null);
+      if (!this._coords) this._coords = getUserCoords(p).catch(() => null);
+      return this._coords;
+    },
+    reset() { this._coords = null; },
+  };
+  window.wfLoc = wfLoc;
+
+  function initLocationBar() {
+    if (document.getElementById("locBar")) return;
+    const header = document.querySelector(".site-header");
+    if (!header) return;
+    const bar = document.createElement("div");
+    bar.id = "locBar";
+    bar.className = "loc-bar";
+    header.insertAdjacentElement("afterend", bar);
+    const formHTML = (val) =>
+      `<form class="loc-form" data-loc-form><input name="postal" placeholder="Postal code" autocomplete="postal-code" aria-label="Postal code" value="${esc(val || "")}"><button class="btn btn--primary btn--sm" type="submit">Set location</button></form>`;
+    const render = () => {
+      const p = wfLoc.get();
+      bar.innerHTML = p
+        ? `<div class="wrap loc-bar-in"><span>📍 Clinics near <b>${esc(p.toUpperCase())}</b></span><button type="button" class="loc-change" data-loc-edit>Change</button></div>`
+        : `<div class="wrap loc-bar-in"><span>📍 See clinics near you</span>${formHTML("")}</div>`;
+    };
+    render();
+    bar.addEventListener("click", (e) => {
+      if (!e.target.closest("[data-loc-edit]")) return;
+      bar.innerHTML = `<div class="wrap loc-bar-in"><span>📍 Your location</span>${formHTML(wfLoc.get())}</div>`;
+      const inp = bar.querySelector("input");
+      if (inp) { inp.focus(); inp.select(); }
+    });
+    bar.addEventListener("submit", (e) => {
+      const form = e.target.closest("[data-loc-form]"); if (!form) return;
+      e.preventDefault();
+      const input = form.querySelector("input[name=postal]");
+      const v = (input.value || "").trim().toUpperCase();
+      if (!wfLoc.valid(v)) { input.focus(); return; }
+      wfLoc.set(v); wfLoc.reset(); render();
+      window.dispatchEvent(new CustomEvent("wf:location"));
+    });
+    window.addEventListener("wf:location", render);
+  }
+
+  /* Clinics per treatment with distances from the saved postal code.
+     Returns { key, pt, byTreatment: { name: [{c, d}] sorted by d } } or null. */
+  let _nearCache = null;
+  function nearData() {
+    const p = wfLoc.get();
+    if (!p || typeof TREATMENTS === "undefined") return Promise.resolve(null);
+    if (_nearCache && _nearCache.key === p) return Promise.resolve(_nearCache);
+    return wfLoc.coords().then((pt) => {
+      if (!pt) return null;
+      const byTreatment = {};
+      TREATMENTS.forEach((t) => {
+        const g = gtaDataFor(t.name);
+        byTreatment[t.name] = (g ? g.clinics : []).map((c) => {
+          const cc = clinicCoords(c);
+          return { c, d: cc ? haversineKm(pt, cc) : Infinity };
+        }).sort((a, b) => a.d - b.d);
+      });
+      _nearCache = { key: p, pt, byTreatment };
+      return _nearCache;
+    });
+  }
+  window.wfNearData = nearData;
+
+  const NEAR_RADIUS_KM = 25;
+  function nearRowHTML(t, meta) {
+    const saved = getFavs().includes(t.name);
+    return `<article class="near-row">
+      <div class="near-main"><h4>${esc(t.name)}</h4><p class="near-meta">Billed as ${esc(t.billed)} · ${esc(meta)}</p></div>
+      <button class="fav-btn fav-btn--inline ${saved ? "saved" : ""}" data-fav="${esc(t.name)}" aria-label="Save ${esc(t.name)}" aria-pressed="${saved}">${HEART}</button>
+      <a class="btn btn--primary btn--sm" href="/clinics-${treatmentSlug(t.name)}">Find clinics</a>
+    </article>`;
+  }
+
+  function stampTreatmentCards(nd) {
+    $$(".treatment-card").forEach((card) => {
+      const slot = card.querySelector("[data-near]");
+      if (!slot) return;
+      const list = (nd && nd.byTreatment[card.dataset.name]) || [];
+      const n = list.filter((x) => x.d <= NEAR_RADIUS_KM).length;
+      slot.textContent = n ? `${n} clinic${n === 1 ? "" : "s"} within ${NEAR_RADIUS_KM} km of you` : "";
+      slot.hidden = !n;
+    });
+  }
+
+  function renderNearYou() {
+    const grid = $("#nearYouGrid"); if (!grid || typeof TREATMENTS === "undefined") return;
+    const sub = $("#nearYouSub");
+    if (!wfLoc.get()) {
+      if (sub) sub.textContent = "Treatments with the most clinics across Canada. Set your postal code above and this list ranks itself by what is near you.";
+      const top = TREATMENTS
+        .map((t) => ({ t, n: (gtaDataFor(t.name) || { clinics: [] }).clinics.length }))
+        .sort((a, b) => b.n - a.n).slice(0, 6);
+      grid.innerHTML = top.map((x) => nearRowHTML(x.t, `${x.n} clinics across Canada`)).join("");
+      return;
+    }
+    if (sub) sub.textContent = `Finding clinics near ${wfLoc.get().toUpperCase()}…`;
+    nearData().then((nd) => {
+      if (!nd) return;
+      const scored = TREATMENTS.map((t) => {
+        const within = (nd.byTreatment[t.name] || []).filter((x) => x.d <= NEAR_RADIUS_KM);
+        return { t, n: within.length, nearest: within.length ? within[0].d : Infinity };
+      }).filter((x) => x.n > 0).sort((a, b) => b.n - a.n || a.nearest - b.nearest).slice(0, 6);
+      if (sub) sub.textContent = `Treatments ranked by clinics within ${NEAR_RADIUS_KM} km of ${wfLoc.get().toUpperCase()}. Distances are approximate.`;
+      grid.innerHTML = scored.length
+        ? scored.map((x) => nearRowHTML(x.t, `${x.n} clinic${x.n === 1 ? "" : "s"} within ${NEAR_RADIUS_KM} km · nearest ≈ ${Math.max(1, Math.round(x.nearest))} km`)).join("")
+        : `<p class="gta-empty">No clinics within ${NEAR_RADIUS_KM} km yet. The full directory below covers the whole country.</p>`;
+      stampTreatmentCards(nd);
+    });
+  }
+
+  /* ---------- recommendations ---------- */
+  function computeRecommendations(nd) {
+    const favs = getFavs();
+    const favTreatments = TREATMENTS.filter((t) => favs.includes(t.name));
+    const favCats = new Set();
+    favTreatments.forEach((t) => t.categories.forEach((c) => favCats.add(c)));
+    const recs = [];
+    TREATMENTS.forEach((t) => {
+      if (favs.includes(t.name)) return;
+      let score = 0, reason = "";
+      const shared = t.categories.find((c) => favCats.has(c));
+      if (shared && favTreatments.length) {
+        const pair = favTreatments.find((ft) => ft.categories.includes(shared));
+        score += 100;
+        reason = `Pairs with ${pair.name}`;
+      }
+      const total = (gtaDataFor(t.name) || { clinics: [] }).clinics.length;
+      if (nd) {
+        const within = (nd.byTreatment[t.name] || []).filter((x) => x.d <= NEAR_RADIUS_KM).length;
+        if (within) {
+          score += within;
+          if (!reason) reason = `${within} clinic${within === 1 ? "" : "s"} within ${NEAR_RADIUS_KM} km of you`;
+        }
+      }
+      score += Math.min(total, 50) / 10;
+      if (!reason) reason = `${total} clinics across Canada`;
+      recs.push({ t, score, reason });
+    });
+    return recs.sort((a, b) => b.score - a.score).slice(0, 6);
+  }
+  window.wfRecommendations = () =>
+    (wfLoc.get() ? nearData() : Promise.resolve(null)).then((nd) => computeRecommendations(nd));
+
+  function renderRecommendations() {
+    const grid = $("#recGrid"); if (!grid || typeof TREATMENTS === "undefined") return;
+    window.wfRecommendations().then((recs) => {
+      grid.innerHTML = recs.map((r) => nearRowHTML(r.t, r.reason)).join("");
+    });
+  }
+
+  function renderGoalChips() {
+    const el = $("#goalChips"); if (!el || typeof GOAL_MAP === "undefined") return;
+    el.innerHTML = Object.keys(GOAL_MAP).map((g) =>
+      `<button type="button" class="goal-chip" data-goal="${esc(g)}" aria-pressed="false">${esc(g)}</button>`
+    ).join("");
+    el.addEventListener("click", (e) => {
+      const chip = e.target.closest(".goal-chip"); if (!chip) return;
+      window.wfDirectory.setGoal(chip.dataset.goal);
+      const dir = document.getElementById("directory");
+      if (dir) dir.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+
+
   /* Every clinic in the database, tagged with its treatment. */
   function allClinicsWithTreatment() {
     const out = [];
@@ -484,7 +678,7 @@
   }
 
   function clinicListHTML(clinics) {
-    if (!clinics.length) return `<p class="gta-empty">No GTA listings yet. <a href="/submit">Suggest a clinic</a></p>`;
+    if (!clinics.length) return `<p class="gta-empty">No clinics listed yet. <a href="/submit">Suggest a clinic</a></p>`;
     return `<ul class="gta-list">${clinics.map((c) =>
       `<li>${c.web ? `<a href="${esc(c.web)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}<span>${esc(c.city || "")}</span></li>`
     ).join("")}</ul>`;
@@ -493,7 +687,7 @@
   /* Rich clinic cards for the per-treatment minipages:
      save icon, website, email (prefilled), booking link. */
   function clinicCardsHTML(clinics, serviceName, wrap) {
-    if (!clinics.length) return `<p class="gta-empty">No GTA listings yet. <a href="/submit">Suggest a clinic</a></p>`;
+    if (!clinics.length) return `<p class="gta-empty">No clinics listed yet. <a href="/submit">Suggest a clinic</a></p>`;
     const cards = clinics.map((c) => {
       const saved = window.wfFavs && window.wfFavs.has(c.name);
       const mailto = clinicMailto(c, serviceName || c.treatment || "wellness");
@@ -551,16 +745,46 @@
     }
     if (list) {
       const provs = [...new Set(g.clinics.map((c) => c.prov || "ON"))].sort();
+      const PAGE_SIZE = 12;
+      let userPt = null;
+      let currentProv = "";
       const renderList = (prov) => {
-        const cs = prov ? g.clinics.filter((c) => (c.prov || "ON") === prov) : g.clinics;
+        currentProv = prov || "";
+        let cs = prov ? g.clinics.filter((c) => (c.prov || "ON") === prov) : g.clinics.slice();
+        if (userPt) {
+          cs = cs.map((c) => {
+            const cc2 = clinicCoords(c);
+            return Object.assign({}, c, { distKm: cc2 ? haversineKm(userPt, cc2) : Infinity });
+          }).sort((a, b) => a.distKm - b.distKm);
+        }
         const filter = provs.length > 1
           ? `<label class="prov-filter">Province <select id="provSelect"><option value="">All of Canada (${g.clinics.length})</option>${provs.map((p) => `<option value="${p}">${PROV_NAMES[p] || p}</option>`).join("")}</select></label>`
           : "";
-        list.innerHTML = `<div class="tp-list-head"><h2>${cs.length} clinic${cs.length === 1 ? "" : "s"}${prov ? " in " + esc(PROV_NAMES[prov] || prov) : " across Canada"}</h2>${filter}</div>` + clinicCardsHTML(cs, g.name);
+        const sortedNote = userPt ? ` <span class="tp-sorted">Sorted by distance from ${esc(wfLoc.get().toUpperCase())} · approximate</span>` : "";
+        const first = cs.slice(0, PAGE_SIZE);
+        const rest = cs.slice(PAGE_SIZE);
+        list.innerHTML = `<div class="tp-list-head"><h2>${cs.length} clinic${cs.length === 1 ? "" : "s"}${prov ? " in " + esc(PROV_NAMES[prov] || prov) : " across Canada"}${sortedNote}</h2>${filter}</div>`
+          + clinicCardsHTML(first, g.name)
+          + (rest.length ? `<div class="clinic-grid see-more-body" hidden>${clinicCardsHTML(rest, g.name, false)}</div><button type="button" class="btn btn--ghost see-more-btn" data-see-more>See all ${cs.length} clinics</button>` : "");
         const sel = document.getElementById("provSelect");
         if (sel) { sel.value = prov || ""; sel.addEventListener("change", () => renderList(sel.value)); }
+        const moreBtn = list.querySelector("[data-see-more]");
+        if (moreBtn) moreBtn.addEventListener("click", () => {
+          const body = list.querySelector(".see-more-body");
+          const open = body.hidden;
+          body.hidden = !open;
+          moreBtn.textContent = open ? "Show less" : `See all ${cs.length} clinics`;
+        });
       };
       renderList("");
+      if (wfLoc.get()) {
+        wfLoc.coords().then((pt) => { if (pt) { userPt = pt; renderList(currentProv); } });
+        window.addEventListener("wf:location", () => {
+          userPt = null;
+          if (wfLoc.get()) wfLoc.coords().then((pt) => { if (pt) { userPt = pt; renderList(currentProv); } });
+          else renderList(currentProv);
+        });
+      }
     }
   }
 
@@ -581,17 +805,30 @@
 
   /* ---------- boot ---------- */
   document.addEventListener("DOMContentLoaded", () => {
+    if (window.__wfBooted) return;
+    window.__wfBooted = true;
     initNav();
     initShare();
     initNewsletter();
     updateFavCount();
+    initLocationBar();
     renderInsurers();
     renderWhy();
     renderDirectory();
+    renderGoalChips();
+    renderNearYou();
+    renderRecommendations();
     renderResources();
     renderGtaDirectory();
     renderTreatmentPage();
     initGlobalFavs();
+    window.addEventListener("wf:location", () => {
+      renderNearYou();
+      renderRecommendations();
+      if (typeof TREATMENTS !== "undefined") {
+        nearData().then((nd) => { if (nd) stampTreatmentCards(nd); });
+      }
+    });
     // set year in footers
     $$("[data-year]").forEach((el) => (el.textContent = new Date().getFullYear()));
   });

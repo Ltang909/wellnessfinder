@@ -12,12 +12,12 @@
   var path = location.pathname;
   var hash = location.hash;
 
-  // The four universal nav items: label + target.
+  // The universal nav items: label + target.
   var NAV_LINKS = [
-    { label: "Discover",  href: "/discover" },
-    { label: "Browse",    href: "/#directory" },
-    { label: "Resources", href: "/#resources" },
-    { label: "About",     href: "/about" }
+    { label: "Treatments", href: "/#directory" },
+    { label: "Clinics",    href: "/#gta" },
+    { label: "Resources",  href: "/#resources" },
+    { label: "About",      href: "/about" }
   ];
 
   // Highlight the link matching the current page (and home-page anchor).
@@ -30,19 +30,18 @@
       var onBase = (base === "" || base === "/") ? path === "/" : path === base;
       return onBase && hash === anchor;
     }
-    if (link.href === "/discover") return path === "/discover";
     if (link.href === "/about") return path === "/about";
     return path === link.href;
   }
 
-  // "Browse" also covers the clinic directory pages it links into.
+  // "Treatments" also covers the clinic directory pages it links into.
   function isBrowseActive() {
     if (path === "/" && hash === "#directory") return true;
     return path === "/pilates" || path === "/naturopath" || path === "/golf";
   }
 
   function linkHTML(link) {
-    var active = link.label === "Browse" ? isBrowseActive() : isActive(link);
+    var active = link.label === "Treatments" ? isBrowseActive() : isActive(link);
     return '<a href="' + link.href + '"' +
       (active ? ' aria-current="page" class="is-active"' : "") +
       ">" + link.label + "</a>";
@@ -50,7 +49,7 @@
 
   var desktopLinks = NAV_LINKS.map(linkHTML).join("");
   var mobileLinks = NAV_LINKS.map(linkHTML).join("") +
-    '<a href="/saved">Saved providers</a>';
+    '<a href="/saved">My wellness</a>';
 
   header.className = "site-header universal-header";
   header.innerHTML =
@@ -62,7 +61,7 @@
       '<div class="nav-right">' +
         '<a class="universal-saved" href="/saved"' +
           (path === "/saved" ? ' aria-current="page" class="is-active"' : "") +
-          '><span aria-hidden="true">♡</span> Saved <b id="universalSavedCount">0</b></a>' +
+          '><span aria-hidden="true">♡</span> My wellness <b id="universalSavedCount">0</b></a>' +
         '<a class="btn btn--honey btn--sm universal-join" href="/#subscribe">Join WellFinder</a>' +
       "</div>" +
       '<button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">' +
@@ -73,16 +72,10 @@
     "</nav></div>" +
     '<div class="mobile-menu" id="mobileMenu">' + mobileLinks + "</div>";
 
-  // Saved-count badge (unchanged behaviour).
+  // Saved-count badge: the unified wf_favourites store.
   var count = 0;
   try {
-    var providerLikes = JSON.parse(localStorage.getItem("wf_provider_interactions")) || {};
-    count = Object.keys(providerLikes).filter(function (k) {
-      return providerLikes[k] === "liked";
-    }).length;
-    if (!count) {
-      count = (JSON.parse(localStorage.getItem("wf_favourites")) || []).length;
-    }
+    count = (JSON.parse(localStorage.getItem("wf_favourites")) || []).length;
   } catch (_) {}
   var badge = document.getElementById("universalSavedCount");
   badge.textContent = count;

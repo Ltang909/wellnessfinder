@@ -678,3 +678,78 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .tp-list-head{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;margin-bottom:.4rem}
 .prov-filter{display:inline-flex;align-items:center;gap:.5rem;font-size:.85rem;font-weight:700}
 .prov-filter select{padding:.5rem .7rem;border:1px solid rgba(35,54,47,.2);border-radius:10px;font:inherit;background:#fff}
+
+/* ============================================================
+   Compact revamp: location bar, near-you rows, goal chips,
+   recommendations, see-more — smaller type, tighter spacing
+   ============================================================ */
+
+/* location bar */
+.loc-bar { background: var(--forest); color: #e7efe9; font-size: .85rem; }
+.loc-bar-in { display: flex; align-items: center; gap: 12px; padding-top: 7px; padding-bottom: 7px; flex-wrap: wrap; }
+.loc-bar b { color: #fff; }
+.loc-change { background: none; border: 1px solid rgba(255,255,255,.45); color: #fff; border-radius: 999px; padding: 3px 12px; font-size: .8rem; font-weight: 600; }
+.loc-change:hover { background: rgba(255,255,255,.12); }
+.loc-form { display: inline-flex; gap: 8px; align-items: center; }
+.loc-form input { border: 0; border-radius: 999px; padding: 7px 14px; font: inherit; font-size: .85rem; width: 150px; background: #fff; color: var(--ink); }
+.loc-form .btn { background: var(--honey); color: #fff; }
+.loc-form .btn:hover { background: var(--honey-deep); color: #fff; }
+
+/* compact rows: near you + recommendations */
+.near-list { display: grid; gap: 8px; }
+.near-row { display: flex; align-items: center; gap: 12px; background: var(--card); border: 1px solid var(--line-soft); border-radius: 12px; padding: 10px 14px; }
+.near-main { min-width: 0; }
+.near-row h4 { font-size: .98rem; margin: 0; }
+.near-meta { font-size: .8rem; color: var(--ink-soft); margin: 2px 0 0; }
+.near-row .btn { margin-left: auto; flex: none; }
+.near-row .fav-btn--inline { margin-left: auto; }
+.near-row .fav-btn--inline + .btn { margin-left: 0; }
+.fav-btn--inline { position: static; flex: none; }
+
+/* goal chips */
+.goal-chips { display: flex; flex-wrap: wrap; gap: 7px; margin: 0 0 16px; }
+.goal-chip { font-size: .83rem; font-weight: 600; padding: 7px 13px; border-radius: 999px; background: #fff; color: var(--ink-soft); border: 1.5px solid var(--line); transition: all .16s ease; }
+.goal-chip:hover { border-color: var(--forest-300); color: var(--ink); }
+.goal-chip.active { background: var(--forest); color: #fff; border-color: var(--forest); }
+.dir-search { max-width: 320px; margin: 0 0 20px; padding: 10px 14px; font-size: .9rem; }
+
+/* near-you stamp on treatment cards */
+.tc-near { font-size: .8rem !important; font-weight: 700; color: var(--forest) !important; margin: 0 0 6px !important; }
+
+/* see more on clinic lists */
+.see-more-btn { margin-top: 12px; }
+.see-more-body { margin-top: 10px; }
+.tp-sorted { font-family: var(--sans); font-size: .78rem; font-weight: 600; color: var(--forest-300); }
+
+/* compact pass */
+body { font-size: 16px; }
+.section { padding: 54px 0; }
+.section--tight { padding: 36px 0; }
+.section-head { margin-bottom: 26px; }
+.section-head h2 { font-size: clamp(1.55rem, 3vw, 2.1rem); }
+.section-head p { font-size: .98rem; margin-top: 10px; }
+.hero-grid { padding: 52px 0 60px; }
+.hero h1 { font-size: clamp(2.2rem, 4.6vw, 3.3rem); }
+.hero .lede { margin: 16px 0 22px; }
+.dir-group { margin-bottom: 26px; }
+.card-grid { gap: 12px; }
+.treatment-card { padding: 14px; }
+.treatment-card h4 { font-size: 1.06rem; margin-bottom: 5px; }
+.treatment-card p { font-size: .87rem; }
+.tc-art { margin: -14px -14px 12px; }
+.tc-credit { margin: -6px 0 10px; }
+.tc-foot { padding-top: 10px; }
+.clinic-grid { gap: 10px; margin-top: 4px; }
+.clinic-card { padding: 14px; gap: 6px; }
+.clinic-card h4 { font-size: .96rem; }
+.gta-link { padding: 12px 14px; }
+.gta-link-name { font-size: .95rem; }
+.filter-tabs { margin-bottom: 16px; }
+.claim-card { padding: 14px; }
+.newsletter h2 { font-size: clamp(1.45rem, 2.8vw, 1.9rem); }
+.clinic-cta { padding: 30px; }
+@media (max-width: 620px) {
+  .near-row { flex-wrap: wrap; }
+  .near-row .btn { margin-left: 0; }
+  .near-row .fav-btn--inline { margin-left: 0; }
+}

@@ -75,7 +75,7 @@
       + (img ? '<img src="' + esc(img) + '" alt="" loading="lazy">' : "")
       + '<div class="saved-tx-body"><h3>' + esc(t.name) + "</h3>"
       + "<p>Billed as " + esc(t.billed) + "</p></div>"
-      + '<a class="saved-tx-link" href="/clinics-' + s + '">Find clinics →</a>'
+      + '<a class="saved-tx-link" href="/clinics-' + s + '">Find clinics</a>'
       + '<button type="button" class="saved-tx-x" data-unsave="' + esc(t.name) + '" aria-label="Remove ' + esc(t.name) + '">×</button>'
       + "</article>";
   }
@@ -125,7 +125,7 @@
     if (!names.length) {
       if (sub) sub.textContent = "Save some treatments to get clinic recommendations.";
       if (radiusWrap) radiusWrap.hidden = true;
-      grid.innerHTML = '<p class="saved-none"><a href="/discover">Discover treatments</a> to get started.</p>';
+      grid.innerHTML = '<p class="saved-none"><a href="/#directory">Browse treatments</a> to get started.</p>';
       return;
     }
     var postal = "";
@@ -180,14 +180,16 @@
     if (empty) empty.hidden = total > 0;
     treatWrap.innerHTML = treatments.length
       ? treatments.map(treatmentCard).join("")
-      : '<p class="saved-none">No saved treatments yet. <a href="/discover">Discover treatments</a></p>';
+      : '<p class="saved-none">No saved treatments yet. <a href="/#directory">Browse treatments</a></p>';
     clinicWrap.innerHTML = clinics.length
       ? clinics.map(clinicCard).join("")
-      : '<p class="saved-none">No saved clinics yet. <a href="/#gta">Browse the GTA directory</a></p>';
+      : '<p class="saved-none">No saved clinics yet. <a href="/#gta">Browse clinics across Canada</a></p>';
     renderForYou();
   }
 
   document.addEventListener("click", function (e) {
+    var f = e.target.closest("#savedRecGrid .fav-btn");
+    if (f) { setTimeout(function () { render(); renderRecs(); }, 0); return; }
     var b = e.target.closest("[data-unsave]");
     if (!b) return;
     if (window.wfFavs) {
@@ -235,5 +237,23 @@
     });
   }
 
+  function renderRecs() {
+    var grid = document.getElementById("savedRecGrid");
+    if (!grid || !window.wfRecommendations) return;
+    window.wfRecommendations().then(function (recs) {
+      var HEART = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.5 1-1a5.5 5.5 0 0 0 0-7.9Z"/></svg>';
+      grid.innerHTML = recs.map(function (r) {
+        var s = slug(r.t.name);
+        var saved = favs().indexOf(r.t.name) > -1;
+        return '<article class="near-row"><div class="near-main"><h4>' + esc(r.t.name) + '</h4>'
+          + '<p class="near-meta">Billed as ' + esc(r.t.billed) + " · " + esc(r.reason) + "</p></div>"
+          + '<button type="button" class="fav-btn fav-btn--inline' + (saved ? " saved" : "") + '" data-fav="' + esc(r.t.name) + '" aria-label="Save ' + esc(r.t.name) + '" aria-pressed="' + saved + '">' + HEART + "</button>"
+          + '<a class="btn btn--primary btn--sm" href="/clinics-' + s + '">Find clinics</a></article>';
+      }).join("");
+    });
+  }
+
   render();
+  renderRecs();
+  window.addEventListener("wf:location", renderRecs);
 })();

@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=21">
+<link rel="stylesheet" href="css/styles.css?v=22">
 <link rel="stylesheet" href="css/saved.css?v=5">
 <link rel="canonical" href="https://wellfinder.ca/saved" />
 </head>
@@ -17,11 +17,11 @@
 <header class="site-header">
 <div class="wrap"><nav class="nav">
 <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34"> WellFinder</a>
-<div class="nav-links"><a href="/discover">Discover</a><a href="/#directory">Browse</a><a href="/pilates">Pilates</a><a href="/naturopath">Naturopathic</a><a href="/golf">Golf</a><a href="/about">About</a></div>
-<div class="nav-right"><a class="btn btn--honey btn--sm" href="/discover">Keep discovering</a></div>
+<div class="nav-links"><a href="/#directory">Treatments</a><a href="/pilates">Pilates</a><a href="/naturopath">Naturopathic</a><a href="/golf">Golf</a><a href="/about">About</a></div>
+<div class="nav-right"><a class="btn btn--honey btn--sm" href="/#directory">Browse treatments</a></div>
 <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
 </nav></div>
-<div class="mobile-menu" id="mobileMenu"><a href="/discover">Discover</a><a href="/#directory">Browse treatments</a><a href="/pilates">Pilates clinics</a><a href="/naturopath">Naturopathic clinics</a><a href="/golf">Golf clinics</a></div>
+<div class="mobile-menu" id="mobileMenu"><a href="/#directory">Browse treatments</a><a href="/pilates">Pilates clinics</a><a href="/naturopath">Naturopathic clinics</a><a href="/golf">Golf clinics</a></div>
 </header>
 <main>
 <section class="saved-hero"><div class="wrap saved-hero-inner">
@@ -35,7 +35,7 @@
 <div class="saved-tx-list" id="savedTreatments"></div>
 <h2 class="saved-h2">Saved clinics</h2>
 <div class="saved-grid" id="savedClinics"></div>
-<section class="saved-empty" id="savedEmpty" hidden><span aria-hidden="true">♡</span><h2>Your shortlist is waiting.</h2><p>Swipe through treatments and save the ones you want to explore.</p><a class="btn btn--primary" href="/discover">Start discovering</a></section>
+<section class="saved-empty" id="savedEmpty" hidden><span aria-hidden="true">♡</span><h2>Your shortlist is waiting.</h2><p>Save treatments and clinics to build your shortlist.</p><a class="btn btn--primary" href="/#directory">Browse treatments</a></section>
 </section>
 
 <section class="wrap saved-section" id="forYouWrap">
@@ -54,12 +54,19 @@
 <div class="clinic-grid" id="forYouGrid"></div>
 </section>
 
+<section class="wrap saved-section" id="savedRecWrap">
+<p class="eyebrow">For you</p>
+<h2>Recommended treatments</h2>
+<p>Based on what you save and what is near you.</p>
+<div class="near-list" id="savedRecGrid"></div>
+</section>
+
 <section class="saved-email">
 <div><p class="eyebrow">Don’t lose your list</p><h2>Keep your list close.</h2><p>Add your email and we will keep your wellness page ready for your next visit.</p></div>
 <form id="savedEmailForm"><label for="savedEmail">Email address</label><div><input id="savedEmail" type="email" autocomplete="email" placeholder="you@example.com" required><button class="btn btn--honey" type="submit">Save email</button></div><small id="savedEmailStatus">No spam. Unsubscribe anytime.</small></form>
 </section>
 </main>
-<script src="js/data.js?v=21"></script><script src="js/site-nav.js?v=3"></script>
-<script src="js/app.js?v=21"></script><script src="js/saved.js?v=21"></script>
+<script src="js/data.js?v=22"></script><script src="js/site-nav.js?v=4"></script>
+<script src="js/app.js?v=22"></script><script src="js/saved.js?v=22"></script>
 </body>
 </html>

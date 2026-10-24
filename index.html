@@ -19,7 +19,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=21" />
+  <link rel="stylesheet" href="css/styles.css?v=22" />
 <link rel="canonical" href="https://wellfinder.ca/" />
 <script type="application/ld+json">
 {
@@ -60,14 +60,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="wrap"><nav class="nav">
       <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
       <div class="nav-links compact-nav">
-        <a href="/discover">Discover</a><a href="#directory">Browse</a>
+        <a href="#directory">Treatments</a><a href="#gta">Clinics</a>
         <details class="nav-menu"><summary>Find Clinics <span aria-hidden="true">⌄</span></summary><div class="nav-menu-panel"><a href="/pilates"><strong>Pilates</strong><span>Physio-led movement</span></a><a href="/naturopath"><strong>Naturopathic</strong><span>Skin, IV and wellness</span></a><a href="/golf"><strong>Golf</strong><span>TPI and swing assessments</span></a></div></details>
         <details class="nav-menu"><summary>Learn <span aria-hidden="true">⌄</span></summary><div class="nav-menu-panel nav-menu-panel--small"><a href="#resources"><strong>Resources</strong></a><a href="/about"><strong>About WellFinder</strong></a></div></details>
       </div>
       <div class="nav-right"><a class="saved-nav" href="/saved" aria-label="View saved benefits"><span aria-hidden="true">♡</span> Saved <span id="favCount" class="nav-chip" style="display:none"></span></a><a class="btn btn--honey btn--sm founding-cta" href="#subscribe">Join WellFinder</a></div>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     </nav></div>
-    <div class="mobile-menu" id="mobileMenu"><a href="/discover">Discover</a><a href="#directory">Browse treatments</a><a href="/saved">♡ Saved benefits</a><p>Find clinics</p><div class="mm-group"><a href="/pilates">Pilates</a><a href="/naturopath">Naturopathic</a><a href="/golf">Golf</a></div><a href="#resources">Resources</a><a href="/about">About</a></div>
+    <div class="mobile-menu" id="mobileMenu"><a href="#directory">Browse treatments</a><a href="/saved">♡ My wellness</a><p>Find clinics</p><div class="mm-group"><a href="/pilates">Pilates</a><a href="/naturopath">Naturopathic</a><a href="/golf">Golf</a></div><a href="#resources">Resources</a><a href="/about">About</a></div>
   </header>
 
   <!-- HERO -->
@@ -78,8 +78,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <h1>Discover wellness treatments <em>covered by your benefits.</em></h1>
           <p class="lede">Your benefits cover more than you think. Discover hidden gems like clinical Pilates, golf swing assessments, and skincare treatments, and get the most out of your plan for little out of pocket.</p>
           <div class="hero-cta">
-            <a class="btn btn--primary" href="/discover">Discover treatments</a>
-            <a class="btn btn--light" href="#directory">Find clinics</a>
+            <a class="btn btn--primary" href="#directory">Browse treatments</a>
           </div>
           <div class="hero-trust">
             <span><span class="check">✔</span> Canada-focused</span>
@@ -105,6 +104,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- NEAR YOU -->
+  <section class="section section--tight" id="nearYou">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Near you</p>
+        <h2>Treatments with clinics close to home</h2>
+        <p id="nearYouSub"></p>
+      </div>
+      <div class="near-list" id="nearYouGrid"></div>
     </div>
   </section>
 
@@ -134,8 +145,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <button class="btn btn--ghost btn--sm" data-share type="button">Share list</button>
         </div>
       </div>
+      <div class="goal-chips" id="goalChips" aria-label="Browse by goal"></div>
       <div class="filter-tabs" id="filterTabs" role="tablist"></div>
+      <input class="search-input dir-search" id="dirSearch" type="search" placeholder="Search treatments" aria-label="Search treatments">
       <div id="directoryGroups"></div>
+    </div>
+  </section>
+
+  <!-- RECOMMENDED -->
+  <section class="section section--tight" id="recommended">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">For you</p>
+        <h2>Recommended treatments</h2>
+        <p>Based on what you save and what is near you. Tap the heart to keep any of them.</p>
+      </div>
+      <div class="near-list" id="recGrid"></div>
     </div>
   </section>
 
@@ -223,8 +248,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </footer>
 
-  <script src="js/data.js?v=21"></script>
-  <script src="js/site-nav.js?v=3"></script>
-  <script src="js/app.js?v=21"></script>
+  <script src="js/data.js?v=22"></script>
+  <script src="js/site-nav.js?v=4"></script>
+  <script src="js/app.js?v=22"></script>
 </body>
 </html>
