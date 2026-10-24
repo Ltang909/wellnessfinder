@@ -811,3 +811,28 @@ body { font-size: 16px; }
 .tc-clinic-list li a { font-weight: 600; }
 .tc-clinic-list li span { display: block; color: var(--ink-2); font-size: .8rem; }
 .tc-all { font-size: .86rem; font-weight: 600; }
+
+/* ---------- phone hero compaction (Oct 2026) ---------- */
+@media (max-width: 640px) {
+  .loc-bar-in { padding-top: 5px; padding-bottom: 5px; }
+  .site-header { padding: 10px 0; }
+  .hero-grid { padding: 10px 0 20px; gap: 12px; }
+  .hero-copy { gap: 8px; }
+  .hero h1 { font-size: clamp(1.25rem, 6.3vw, 2rem); line-height: 1.0; }
+  .lede { font-size: .84rem; line-height: 1.45; margin: 0; }
+  .hero-cta .btn { padding: 10px 18px; font-size: .92rem; }
+  .hero-trust { font-size: .85rem; gap: 8px 16px; margin-top: 0; }
+  .hero-logos { margin-top: 2px; }
+  .hero-logos .logos-label { margin-bottom: 6px; }
+  .insurer-logo { padding: 4px 10px; }
+  .insurer-logo img { height: 28px; }
+  .hero-logos-note { display: none; }
+  .receipt { max-width: 290px; padding: 11px 16px 9px; }
+  .receipt-head { padding-bottom: 6px; margin-bottom: 2px; }
+  .receipt-head .r-clinic { font-size: 1rem; }
+  .receipt-row { font-size: .84rem; padding: 4px 0; }
+  .receipt-row .r-sub { font-size: .74rem; }
+  .receipt-total { font-size: 1.26rem; padding-top: 6px; margin-top: 2px; }
+  .receipt-total .r-save { font-size: .7rem; padding: 3px 8px; }
+  .covered-stamp { font-size: .66rem; padding: 5px 9px; top: 10px; right: -8px; }
+}
