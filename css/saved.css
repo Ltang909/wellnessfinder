@@ -21,3 +21,4 @@ body[data-page="saved"]{background:#f6f2e9;color:var(--ink)}.saved-hero{padding:
 #forYouSub{color:var(--muted)}
 /* 20% smaller type across the wellness page so more content fits (shrunk twice) */
 html:has(body[data-page="saved"]){font-size:10.24px}
+.gate-error { color: #91534b; font-size: .85rem; font-weight: 700; margin: 0; text-align: center; }
