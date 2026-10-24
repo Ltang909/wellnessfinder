@@ -176,13 +176,44 @@
 
   const HEART = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.5 1-1a5.5 5.5 0 0 0 0-7.9Z"/></svg>`;
 
+  /* Useful facts for the More details panel: typical cost range and,
+     where the data knows it, how many listed clinics direct bill. */
+  function treatmentFactsHTML(t) {
+    const facts = [];
+    const cost = (typeof TREATMENT_COSTS !== "undefined" && TREATMENT_COSTS[t.name]) || "";
+    if (cost) facts.push(`<p class="tc-fact"><b>Typical cost:</b> ${esc(cost)}</p>`);
+    const g = gtaDataFor(t.name);
+    const clinics = g ? g.clinics : [];
+    const dbYes = clinics.filter((c) => c.db === "Yes" || c.directBill === true).length;
+    if (dbYes) facts.push(`<p class="tc-fact"><b>Direct billing:</b> ${dbYes} listed clinic${dbYes === 1 ? " offers" : "s offer"} it</p>`);
+    return facts.join("");
+  }
+
+  /* Embedded clinic list for the More details panel: each clinic name
+     links straight to the clinic, so there is no separate hunt. */
+  function tcClinicsHTML(list, total, slug, near) {
+    const rows = list.map(({ c, d }) => {
+      const href = c.web || ("https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(c.name + " " + (c.city || "")));
+      const bits = [];
+      if (c.city) bits.push(esc(c.city));
+      if (d != null && isFinite(d) && d <= 100) bits.push("≈" + Math.max(1, Math.round(d)) + " km");
+      if (c.db === "Yes" || c.directBill === true) bits.push("Direct billing");
+      return `<li><a href="${esc(href)}" target="_blank" rel="noopener">${esc(c.name)}</a>${bits.length ? `<span>${bits.join(" · ")}</span>` : ""}</li>`;
+    }).join("");
+    return `<p class="tc-clinics-title">${near ? "Clinics near you" : "Clinics"}</p>
+      <ul class="tc-clinic-list">${rows}</ul>
+      <a class="tc-all" href="/clinics-${slug}">See all ${total} clinics →</a>`;
+  }
+
   function treatmentCardHTML(t) {
     const saved = getFavs().includes(t.name);
     const cats = t.categories.join(",");
     const img = (typeof TREATMENT_IMAGES !== "undefined" && TREATMENT_IMAGES[t.name]) || null;
     const art = img ? img.src : ((typeof TREATMENT_ART !== "undefined" && TREATMENT_ART[t.group]) || "");
     const credit = img ? `<div class="tc-credit">Photo: <a href="${esc(img.url)}" target="_blank" rel="noopener">${esc(img.credit)}</a></div>` : "";
-    const findBtn = `<a class="btn btn--primary btn--sm" href="/clinics-${treatmentSlug(t.name)}">Find clinics</a>`;
+    const g = gtaDataFor(t.name);
+    const clinics = g ? g.clinics : [];
+    const firstFew = clinics.slice(0, 4).map((c) => ({ c, d: null }));
     return `
       <article class="treatment-card" data-cats="${esc(cats)}" data-name="${esc(t.name)}">
         ${art ? `<div class="tc-art" aria-hidden="true"><img src="${esc(art)}" alt="" loading="lazy"></div>${credit}` : ""}
@@ -193,8 +224,7 @@
         <p>${esc(t.desc)}</p>
         <p class="tc-near" data-near="${esc(t.name)}" hidden></p>
         <button class="tc-more" aria-expanded="false">More details →</button>
-        <div class="tc-detail"><p>${esc(t.detail)}</p></div>
-        <div class="tc-foot">${findBtn}</div>
+        <div class="tc-detail">${treatmentFactsHTML(t)}<div class="tc-clinics" data-tc-clinics="${esc(t.name)}">${tcClinicsHTML(firstFew, clinics.length, treatmentSlug(t.name), false)}</div></div>
       </article>`;
   }
 
@@ -250,6 +280,45 @@
     },
   };
 
+  /* Directory grouping: benefits (the big benefit groups) or modalities
+     (each treatment under its primary billing modality). */
+  let dirGroupMode = "benefits";
+  function dirGroupsHTML() {
+    const groupBlock = (label, list) =>
+      `<div class="dir-group" data-group="${esc(label)}">
+         <h3>${esc(label)}</h3>
+         <div class="card-grid">${list.map(treatmentCardHTML).join("")}</div>
+       </div>`;
+    if (dirGroupMode === "modalities") {
+      const tabOrder = TREATMENT_TABS.filter((x) => x !== "All");
+      const primaries = [];
+      TREATMENTS.forEach((t) => {
+        const c = (t.categories || [])[0];
+        if (c && !primaries.includes(c)) primaries.push(c);
+      });
+      primaries.sort((x, y) => {
+        const ix = tabOrder.indexOf(x), iy = tabOrder.indexOf(y);
+        return (ix < 0 ? 99 : ix) - (iy < 0 ? 99 : iy);
+      });
+      return primaries.map((c) =>
+        groupBlock(c, TREATMENTS.filter((t) => (t.categories || [])[0] === c))).join("");
+    }
+    return TREATMENT_GROUPS.map((g) =>
+      groupBlock(g, TREATMENTS.filter((t) => t.group === g))).join("");
+  }
+  function initGroupToggle() {
+    const bar = document.querySelector(".group-toggle");
+    if (!bar || bar.dataset.wired) return;
+    bar.dataset.wired = "1";
+    bar.addEventListener("click", (e) => {
+      const btn = e.target.closest("[data-groupmode]"); if (!btn) return;
+      dirGroupMode = btn.dataset.groupmode;
+      $$(".gt-btn", bar).forEach((b) => b.classList.toggle("active", b === btn));
+      const wrap = $("#directoryGroups");
+      if (wrap) { wrap.innerHTML = dirGroupsHTML(); applyDirectoryFilter(); }
+    });
+  }
+
   function renderDirectory() {
     const wrap = $("#directoryGroups"); if (!wrap || typeof TREATMENTS === "undefined") return;
     // tabs
@@ -257,16 +326,11 @@
     tabsEl.innerHTML = TREATMENT_TABS.map((t, i) =>
       `<button class="filter-tab ${i === 0 ? "active" : ""}" data-tab="${esc(t)}">${esc(t)}</button>`
     ).join("");
-    // groups
-    wrap.innerHTML = TREATMENT_GROUPS.map((g) => {
-      const cards = TREATMENTS.filter((t) => t.group === g).map(treatmentCardHTML).join("");
-      return `<div class="dir-group" data-group="${esc(g)}">
-                <h3>${esc(g)}</h3>
-                <div class="card-grid">${cards}</div>
-              </div>`;
-    }).join("");
+    // groups: by benefit group (default) or by primary modality
+    wrap.innerHTML = dirGroupsHTML();
     $("#dirCount").textContent = `${TREATMENTS.length} treatments logged`;
 
+    initGroupToggle();
     // interactions
     wrap.addEventListener("click", (e) => {
       const more = e.target.closest(".tc-more");
@@ -559,46 +623,26 @@
     return `<article class="near-row">
       <div class="near-main"><h4>${esc(t.name)}</h4><p class="near-meta">Billed as ${esc(t.billed)} · ${esc(meta)}</p></div>
       <button class="fav-btn fav-btn--inline ${saved ? "saved" : ""}" data-fav="${esc(t.name)}" aria-label="Save ${esc(t.name)}" aria-pressed="${saved}">${HEART}</button>
-      <a class="btn btn--primary btn--sm" href="/clinics-${treatmentSlug(t.name)}">Find clinics</a>
     </article>`;
   }
 
   function stampTreatmentCards(nd) {
     $$(".treatment-card").forEach((card) => {
-      const slot = card.querySelector("[data-near]");
-      if (!slot) return;
       const list = (nd && nd.byTreatment[card.dataset.name]) || [];
-      const n = list.filter((x) => x.d <= NEAR_RADIUS_KM).length;
-      slot.textContent = n ? `${n} clinic${n === 1 ? "" : "s"} within ${NEAR_RADIUS_KM} km of you` : "";
-      slot.hidden = !n;
+      const slot = card.querySelector("[data-near]");
+      if (slot) {
+        const n = list.filter((x) => x.d <= NEAR_RADIUS_KM).length;
+        slot.textContent = n ? `${n} clinic${n === 1 ? "" : "s"} within ${NEAR_RADIUS_KM} km of you` : "";
+        slot.hidden = !n;
+      }
+      const tcWrap = card.querySelector("[data-tc-clinics]");
+      if (tcWrap && list.length) {
+        const near = isFinite(list[0].d) && list[0].d <= 100;
+        tcWrap.innerHTML = tcClinicsHTML(list.slice(0, 4), list.length, treatmentSlug(card.dataset.name), near);
+      }
     });
   }
 
-  function renderNearYou() {
-    const grid = $("#nearYouGrid"); if (!grid || typeof TREATMENTS === "undefined") return;
-    const sub = $("#nearYouSub");
-    if (!wfLoc.get()) {
-      if (sub) sub.textContent = "Treatments with the most clinics across Canada. Set your postal code above and this list ranks itself by what is near you.";
-      const top = TREATMENTS
-        .map((t) => ({ t, n: (gtaDataFor(t.name) || { clinics: [] }).clinics.length }))
-        .sort((a, b) => b.n - a.n).slice(0, 6);
-      grid.innerHTML = top.map((x) => nearRowHTML(x.t, `${x.n} clinics across Canada`)).join("");
-      return;
-    }
-    if (sub) sub.textContent = `Finding clinics near ${wfLoc.get().toUpperCase()}…`;
-    nearData().then((nd) => {
-      if (!nd) return;
-      const scored = TREATMENTS.map((t) => {
-        const within = (nd.byTreatment[t.name] || []).filter((x) => x.d <= NEAR_RADIUS_KM);
-        return { t, n: within.length, nearest: within.length ? within[0].d : Infinity };
-      }).filter((x) => x.n > 0).sort((a, b) => b.n - a.n || a.nearest - b.nearest).slice(0, 6);
-      if (sub) sub.textContent = `Treatments ranked by clinics within ${NEAR_RADIUS_KM} km of ${wfLoc.get().toUpperCase()}. Distances are approximate.`;
-      grid.innerHTML = scored.length
-        ? scored.map((x) => nearRowHTML(x.t, `${x.n} clinic${x.n === 1 ? "" : "s"} within ${NEAR_RADIUS_KM} km · nearest ≈ ${Math.max(1, Math.round(x.nearest))} km`)).join("")
-        : `<p class="gta-empty">No clinics within ${NEAR_RADIUS_KM} km yet. The full directory below covers the whole country.</p>`;
-      stampTreatmentCards(nd);
-    });
-  }
 
   /* ---------- recommendations ---------- */
   function computeRecommendations(nd) {
@@ -894,15 +938,14 @@
     renderWhy();
     renderDirectory();
     renderGoalChips();
-    renderNearYou();
     renderRecommendations();
+    if (wfLoc.get()) nearData().then((nd) => { if (nd) stampTreatmentCards(nd); });
     renderResources();
     renderGtaDirectory();
     renderTreatmentPage();
     initGlobalFavs();
     window.addEventListener("wf:location", () => {
-      renderNearYou();
-      renderRecommendations();
+        renderRecommendations();
       if (typeof TREATMENTS !== "undefined") {
         nearData().then((nd) => { if (nd) stampTreatmentCards(nd); });
       }

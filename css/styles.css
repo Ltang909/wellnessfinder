@@ -788,3 +788,26 @@ body { font-size: 16px; }
   .hero h1 { font-size: clamp(1.75rem, 7.6vw, 2rem); line-height: 1.06; }
   .hero-grid { padding-top: 42px; }
 }
+
+/* ---------- homepage polish batch (Oct 2026) ---------- */
+.h1-br { display: none; }
+.insurer-logo { background: transparent; border: none; box-shadow: none; padding: 6px 10px; height: auto; }
+.group-toggle { display: flex; align-items: center; gap: 8px; margin: 14px 0 2px; font-size: .85rem; color: var(--ink-2); font-weight: 600; }
+.gt-btn { border: 1px solid var(--line); background: #fff; color: var(--ink-2); border-radius: 999px; padding: 6px 14px; font: inherit; font-size: .85rem; cursor: pointer; }
+.gt-btn.active { background: var(--green); border-color: var(--green); color: #fff; }
+@media (max-width: 640px) {
+  .h1-br { display: inline; }
+  .hero h1 { font-size: clamp(1.55rem, 6.9vw, 2rem); }
+}
+
+/* ---------- card details: facts and embedded clinics (Oct 2026) ---------- */
+.hero .insurer-logo { border: none; box-shadow: none; background: transparent; }
+.tc-fact { font-size: .86rem; margin: 0 0 6px; color: var(--ink-2); }
+.tc-fact b { color: var(--ink); }
+.tc-clinics { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 10px; }
+.tc-clinics-title { font-size: .78rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--green); margin: 0 0 6px; }
+.tc-clinic-list { list-style: none; margin: 0 0 8px; padding: 0; display: grid; gap: 7px; }
+.tc-clinic-list li { font-size: .88rem; line-height: 1.35; }
+.tc-clinic-list li a { font-weight: 600; }
+.tc-clinic-list li span { display: block; color: var(--ink-2); font-size: .8rem; }
+.tc-all { font-size: .86rem; font-weight: 600; }

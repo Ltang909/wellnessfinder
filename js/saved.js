@@ -254,7 +254,7 @@
         return '<article class="near-row"><div class="near-main"><h4>' + esc(r.t.name) + '</h4>'
           + '<p class="near-meta">Billed as ' + esc(r.t.billed) + " · " + esc(r.reason) + "</p></div>"
           + '<button type="button" class="fav-btn fav-btn--inline' + (saved ? " saved" : "") + '" data-fav="' + esc(r.t.name) + '" aria-label="Save ' + esc(r.t.name) + '" aria-pressed="' + saved + '">' + HEART + "</button>"
-          + '<a class="btn btn--primary btn--sm" href="/clinics-' + s + '">Find clinics</a></article>';
+          + '</article>';
       }).join("");
     });
   }

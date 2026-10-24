@@ -155,6 +155,40 @@ const TREATMENTS = [
 
 
 
+/* Typical Canadian market ranges per treatment, shown as guidance in
+   the directory cards. Editorial estimates, not clinic quotes. */
+const TREATMENT_COSTS = {
+  "Clinical Pilates": "$90 to $160 per session",
+  "Golf Swing Assessment": "$100 to $250 per assessment",
+  "Cosmetic Acupuncture": "$90 to $150 per session",
+  "Microneedling": "$200 to $350 per session",
+  "IV Vitamin Therapy": "$150 to $300 per drip",
+  "IM Vitamin Therapy": "$40 to $85 per injection",
+  "Facial Manual Therapy": "$90 to $140 per session",
+  "Interview Preparation": "$100 to $250 per session",
+  "Singing Voice Therapy": "$110 to $160 per session",
+  "Neurofeedback": "$100 to $175 per session",
+  "Red Light Therapy": "$30 to $80 per session",
+  "Cryotherapy": "$40 to $90 per session",
+  "Shockwave Therapy": "$75 to $150 per session",
+  "Head Spa": "$120 to $200 per treatment",
+  "Medical Botox": "$350 to $900 per treatment area",
+  "Sleep Coaching": "$100 to $200 per session",
+  "Pelvic Floor Physiotherapy": "$110 to $185 per session",
+  "Bike Fitting": "$150 to $350 per fitting",
+  "Running Gait Analysis": "$100 to $200 per assessment",
+  "TMJ Massage": "$80 to $130 per session",
+  "Lymphatic Drainage": "$90 to $140 per session",
+  "Couples Therapy": "$150 to $250 per session",
+  "Mental Performance Coaching": "$125 to $225 per session",
+  "Accent Modification": "$110 to $160 per session",
+  "Myofunctional Therapy": "$100 to $175 per session",
+  "Facial Gua Sha": "$80 to $140 per session",
+  "Sports Nutrition": "$100 to $175 per consultation",
+  "Fertility Acupuncture": "$90 to $140 per session",
+  "Fertility Consultation": "$150 to $300 for an initial consultation"
+};
+
 const TREATMENT_GROUPS = ["Move Better", "Look & Feel Better", "Perform Better", "Brain & Mind"];
 const TREATMENT_TABS = ["All", "Physiotherapy", "Chiropractic", "Osteopathy", "Naturopathy", "Acupuncture", "Speech Therapy", "Psychotherapy"];
 
