@@ -774,3 +774,11 @@ body { font-size: 16px; }
 .cc-mono span { font-size: 2.2rem; width: 60px; height: 60px; }
 /* footer divider spans full width while text keeps a readable measure */
 .footer-bottom { max-width: none; padding-right: max(0px, calc(100% - 80ch)); }
+
+/* ---------- mobile hero fix (Oct 2026) ---------- */
+/* Grid items must be allowed to shrink below their content width:
+   the insurer marquee (max-content track inside a 600px strip) was
+   forcing the hero's single mobile column to 600px on a 430px screen,
+   clipping the headline, trust row and receipt at the right edge. */
+.hero-grid > *, .about-grid > *, .split > *, .catalog-layout > *, .footer-grid > * { min-width: 0; }
+.hero-logos { max-width: 100%; }
