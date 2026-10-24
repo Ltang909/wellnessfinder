@@ -418,7 +418,31 @@
     "Halifax": [44.6488, -63.5752], "Moncton": [46.0878, -64.7782],
     "Fredericton": [45.9636, -66.6431], "Charlottetown": [46.2382, -63.1311],
     "St. John's": [47.5615, -52.7126],
-    "Whitehorse": [60.7217, -135.0538], "Yellowknife": [62.4540, -114.3718]
+    "Whitehorse": [60.7217, -135.0538], "Yellowknife": [62.4540, -114.3718],
+    "Nanaimo": [49.1659, -123.9401], "Coquitlam": [49.2838, -122.7930],
+    "Vernon": [50.2671, -119.2720], "Grande Prairie": [55.1707, -118.7884],
+    "Sherbrooke": [45.4042, -71.8929], "Delta": [49.0848, -122.9067],
+    "Cambridge": [43.3616, -80.3144], "St. Catharines": [43.1594, -79.2469],
+    "Peterborough": [44.3091, -78.3197], "Brantford": [43.1394, -80.2644],
+    "Greater Sudbury": [46.5221, -80.9534], "North Bay": [46.3091, -79.4608],
+    "Ajax": [43.8509, -79.0204], "Collingwood": [44.5007, -80.2165],
+    "Longueuil": [45.5312, -73.5185], "Airdrie": [51.2917, -114.0144],
+    "North Vancouver": [49.3200, -123.0724], "Lethbridge": [49.6956, -112.8451],
+    "St. Albert": [53.6334, -113.6284], "Saint John": [45.2733, -66.0633],
+    "Medicine Hat": [50.0292, -110.7034], "Okotoks": [50.7255, -113.9749],
+    "Sherwood Park": [53.5422, -113.2960], "Oshawa": [43.8971, -78.8658],
+    "Abbotsford": [49.0504, -122.3045], "Kamloops": [50.6745, -120.3273],
+    "Prince George": [53.9171, -122.7497], "Thunder Bay": [48.3809, -89.2477],
+    "Dartmouth": [44.6652, -63.5676], "Brandon": [49.8484, -99.9501],
+    "Sault Ste. Marie": [46.5219, -84.3461], "Chilliwack": [49.1577, -121.9513],
+    "Fort McMurray": [56.7264, -111.3790], "Langley": [49.1044, -122.6604],
+    "Woodstock": [43.1315, -80.7466], "Chatham-Kent": [42.3489, -82.1809],
+    "Cobourg": [43.9595, -78.1673], "Orillia": [44.6082, -79.4197],
+    "Niagara Falls": [43.0962, -79.0377], "White Rock": [49.0253, -122.8029],
+    "Sydney": [46.1368, -60.1819], "Montréal": [45.5017, -73.5673],
+    "Trois-Rivières": [46.3432, -72.5428], "Trois-Rivieres": [46.3432, -72.5428],
+    "Kitchener-Waterloo": [43.4516, -80.4925], "New Westminster": [49.2057, -122.9110],
+    "Mission": [49.1337, -122.3114]
   };
   const POSTAL_REGION = {
     A: [47.5615, -52.7126], B: [44.6488, -63.5752], C: [46.2382, -63.1311],
@@ -438,11 +462,12 @@
     return 2 * R * Math.asin(Math.sqrt(s));
   }
   function getUserCoords(postal) {
-    const fsa = String(postal || "").toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 6);
+    const cleaned = String(postal || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+    const fsa = cleaned.slice(0, 3);
     return fetch("https://api.zippopotam.us/ca/" + fsa)
       .then((r) => { if (!r.ok) throw new Error("geo"); return r.json(); })
       .then((j) => [parseFloat(j.places[0].latitude), parseFloat(j.places[0].longitude)])
-      .catch(() => POSTAL_REGION[fsa[0]] || CITY_COORDS["Toronto"]);
+      .catch(() => POSTAL_REGION[cleaned[0]] || CITY_COORDS["Toronto"]);
   }
   function clinicCoords(c) {
     if (c && c.lat != null && c.lng != null) return [parseFloat(c.lat), parseFloat(c.lng)];
