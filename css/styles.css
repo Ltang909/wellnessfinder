@@ -177,7 +177,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
   line-height: 1.02; letter-spacing: -0.02em;
 }
 .hero h1 em { font-style: italic; color: var(--forest); }
-.hero .lede { margin: 22px 0 30px; max-width: 34ch; }
+.hero .lede { margin: 22px 0 30px; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 26px; }
 .hero-trust { display: flex; flex-wrap: wrap; gap: 18px; color: var(--ink-soft); font-size: .92rem; }
 .hero-trust span { display: inline-flex; align-items: center; gap: 7px; }
