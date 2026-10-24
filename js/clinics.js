@@ -337,7 +337,30 @@
     return null;
   }
 
+  /* Merge duplicate providers whose names differ only by casing or
+     spacing in the feed (e.g. "BODY MAISON" vs "Body Maison"): keep one
+     card, preferring the row with more detail, filling gaps from the other. */
+  function dedupeProviders(items) {
+    const byKey = new Map();
+    const score = (c) => Object.values(c).filter((v) => v !== null && v !== undefined && v !== "").length;
+    (items || []).forEach((c) => {
+      const key = String(c.name || "").toLowerCase().replace(/\s+/g, " ").trim();
+      if (!key) return;
+      const prev = byKey.get(key);
+      if (!prev) { byKey.set(key, Object.assign({}, c)); return; }
+      const keep = score(c) > score(prev) ? c : prev;
+      const other = keep === c ? prev : c;
+      const merged = Object.assign({}, keep);
+      Object.keys(other).forEach((k) => {
+        if (merged[k] === null || merged[k] === undefined || merged[k] === "") merged[k] = other[k];
+      });
+      byKey.set(key, merged);
+    });
+    return Array.from(byKey.values());
+  }
+
   function run(page, data) {
+    data = dedupeProviders(data);
     if (page === "pilates") initPilates(data);
     else if (page === "naturopath") initNaturo(data);
     else if (page === "golf") initGolf(data);

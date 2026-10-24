@@ -7,7 +7,7 @@
   <meta name="description" content="Find Couples Therapy clinics across Canada on WellFinder." />
   <link rel="canonical" href="https://wellfinder.ca/clinics-couples-therapy" />
   <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="css/styles.css?v=22" />
+  <link rel="stylesheet" href="css/styles.css?v=23" />
 </head>
 <body data-treatment="Couples Therapy">
   <header class="site-header compact-header">
@@ -25,10 +25,32 @@
   </main>
   <footer class="site-footer">
     <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p class="footer-tag">Find well. Live well.</p>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#gta">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
       <p class="footer-bottom">Wellness coverage can vary by insurer, plan, and provider. These are personal discoveries and community recommendations — not guarantees of coverage. Always check with your insurer before booking. This directory is for informational purposes only.</p>
     </div>
   </footer>
-  <script src="js/data.js?v=22"></script>
-  <script src="js/app.js?v=22"></script>
+  <script src="js/data.js?v=23"></script>
+  <script src="js/app.js?v=23"></script>
 </body>
 </html>

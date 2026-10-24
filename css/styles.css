@@ -538,7 +538,6 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .mono-1 { background: linear-gradient(135deg, var(--honey-deep), var(--honey)); }
 .mono-2 { background: linear-gradient(135deg, #5c6e58, #9db09a); }
 .mono-3 { background: linear-gradient(135deg, #b76e68, var(--blush)); }
-}
 .cc-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
 .clinic-card h3 { font-size: 1.16rem; line-height: 1.2; }
 .cc-badge { flex: none; font-size: .72rem; font-weight: 700; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
@@ -753,3 +752,25 @@ body { font-size: 16px; }
   .near-row .btn { margin-left: 0; }
   .near-row .fav-btn--inline { margin-left: 0; }
 }
+
+/* ---------- visual scan fixes (Oct 2026) ---------- */
+/* soft edge fade on the claims marquee, like the insurer row */
+.why-scroll { -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
+/* directory mini-cards: arrow never orphans onto its own line */
+.gta-link-meta { display: flex; align-items: baseline; gap: 6px; }
+.gta-link-meta-text { min-width: 0; }
+.gta-arrow { flex: none; }
+/* clinic cards: long location lines wrap instead of clipping */
+.clinic-grid > *, .clinic-list > * { min-width: 0; }
+.clinic-meta { overflow-wrap: break-word; }
+.clinic-card h4 { overflow-wrap: break-word; }
+/* pin card actions to the bottom so buttons align across a row */
+.clinic-card .clinic-actions { margin-top: auto; padding-top: 8px; }
+.clinic-card .cc-links { margin-top: auto; padding-top: 14px; }
+/* sticky filter panel: solid background so cards do not show through */
+.filters { background: var(--paper); backdrop-filter: none; }
+/* slimmer monogram banners on directory cards */
+.cc-mono { aspect-ratio: 16 / 6; }
+.cc-mono span { font-size: 2.2rem; width: 60px; height: 60px; }
+/* footer divider spans full width while text keeps a readable measure */
+.footer-bottom { max-width: none; padding-right: max(0px, calc(100% - 80ch)); }

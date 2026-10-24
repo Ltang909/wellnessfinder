@@ -23,6 +23,11 @@
   var postalInput = document.getElementById("postalInput");
   var postalError = document.getElementById("postalError");
 
+  function storeSet(k, v) {
+    if (window.wfStoreSet) window.wfStoreSet(k, v);
+    else { try { localStorage.setItem(k, v); } catch (_) {} }
+  }
+
   /* ---------- helpers ---------- */
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -176,6 +181,7 @@
       }
     });
     if (count) count.textContent = names.length;
+    if (clear) clear.hidden = !names.length;
     var total = treatments.length + clinics.length;
     if (empty) empty.hidden = total > 0;
     treatWrap.innerHTML = treatments.length
@@ -199,7 +205,7 @@
     render();
   });
   if (clear) clear.addEventListener("click", function () {
-    try { localStorage.setItem(FAV_KEY, "[]"); } catch (_) {}
+    storeSet(FAV_KEY, "[]");
     render();
   });
 
@@ -212,14 +218,14 @@
       return;
     }
     postalError.hidden = true;
-    try { localStorage.setItem(POSTAL_KEY, val); } catch (_) {}
+    storeSet(POSTAL_KEY, val);
     renderForYou();
   });
 
   /* radius slider */
   var radiusInputEl = document.getElementById("radiusInput");
   if (radiusInputEl) radiusInputEl.addEventListener("change", function () {
-    try { localStorage.setItem(RADIUS_KEY, radiusInputEl.value); } catch (_) {}
+    storeSet(RADIUS_KEY, radiusInputEl.value);
     renderForYou();
   });
 
@@ -232,7 +238,7 @@
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       if (!input.checkValidity()) { input.reportValidity(); return; }
-      try { localStorage.setItem(EMAIL_KEY, input.value.trim()); } catch (_) {}
+      storeSet(EMAIL_KEY, input.value.trim());
       if (status) { status.textContent = "Email saved."; status.style.color = "#315f52"; }
     });
   }

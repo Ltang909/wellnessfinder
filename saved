@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=22">
+<link rel="stylesheet" href="css/styles.css?v=23">
 <link rel="stylesheet" href="css/saved.css?v=5">
 <link rel="canonical" href="https://wellfinder.ca/saved" />
 </head>
@@ -66,7 +66,34 @@
 <form id="savedEmailForm"><label for="savedEmail">Email address</label><div><input id="savedEmail" type="email" autocomplete="email" placeholder="you@example.com" required><button class="btn btn--honey" type="submit">Save email</button></div><small id="savedEmailStatus">No spam. Unsubscribe anytime.</small></form>
 </section>
 </main>
-<script src="js/data.js?v=22"></script><script src="js/site-nav.js?v=4"></script>
-<script src="js/app.js?v=22"></script><script src="js/saved.js?v=22"></script>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p class="footer-tag">Find well. Live well.</p>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#gta">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">Wellness coverage can vary by insurer, plan, and provider. These are personal discoveries and community recommendations — not guarantees of coverage. Always check with your insurer before booking. This directory is for informational purposes only.</p>
+    </div>
+  </footer>
+<script src="js/data.js?v=23"></script><script src="js/site-nav.js?v=5"></script>
+<script src="js/app.js?v=23"></script><script src="js/saved.js?v=23"></script>
 </body>
 </html>

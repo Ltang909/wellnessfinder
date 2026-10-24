@@ -1,3 +1,47 @@
+/* Durable saves: localStorage mirrored into a 1-year cookie so saves
+   survive localStorage purges (notably iOS Safari). On load, any key
+   missing from localStorage is restored from the cookie. Writes go
+   through window.wfStoreSet / wfStoreRemove so both stores stay in
+   sync. Included by site-nav.js and app.js; runs once (window guard). */
+(function () {
+  if (window.__wfStore) return;
+  window.__wfStore = true;
+  var KEYS = ["wf_favourites", "wf_postal_code", "wf_radius_km", "wf_discover_email"];
+  function cGet(n) {
+    var m = document.cookie.match(new RegExp("(?:^|; )" + n + "=([^;]*)"));
+    return m ? decodeURIComponent(m[1]) : null;
+  }
+  function cSet(n, v) {
+    if (String(v).length > 3800) return; // stay under the per-cookie limit
+    var exp = new Date(Date.now() + 365 * 864e5).toUTCString();
+    document.cookie = n + "=" + encodeURIComponent(v) + "; expires=" + exp +
+      "; path=/; SameSite=Lax" + (location.protocol === "https:" ? "; Secure" : "");
+  }
+  function cDel(n) {
+    document.cookie = n + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+  }
+  try {
+    KEYS.forEach(function (k) {
+      var lv = null;
+      try { lv = localStorage.getItem(k); } catch (_) {}
+      if (lv == null) {
+        var cv = cGet(k);
+        if (cv != null) { try { localStorage.setItem(k, cv); } catch (_) {} }
+      } else {
+        cSet(k, lv); // keep the cookie fresh
+      }
+    });
+  } catch (_) {}
+  window.wfStoreSet = function (k, v) {
+    try { localStorage.setItem(k, v); } catch (_) {}
+    if (KEYS.indexOf(k) > -1) cSet(k, String(v));
+  };
+  window.wfStoreRemove = function (k) {
+    try { localStorage.removeItem(k); } catch (_) {}
+    if (KEYS.indexOf(k) > -1) cDel(k);
+  };
+})();
+
 /* WellFinder universal navigation.
  * Injected into every page's <header class="site-header"> so the nav stays
  * consistent site-wide. Edit the NAV_LINKS list below to change the nav;

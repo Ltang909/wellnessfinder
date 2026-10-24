@@ -4,6 +4,51 @@
 (function () {
   "use strict";
 
+/* Durable saves: localStorage mirrored into a 1-year cookie so saves
+   survive localStorage purges (notably iOS Safari). On load, any key
+   missing from localStorage is restored from the cookie. Writes go
+   through window.wfStoreSet / wfStoreRemove so both stores stay in
+   sync. Included by site-nav.js and app.js; runs once (window guard). */
+(function () {
+  if (window.__wfStore) return;
+  window.__wfStore = true;
+  var KEYS = ["wf_favourites", "wf_postal_code", "wf_radius_km", "wf_discover_email"];
+  function cGet(n) {
+    var m = document.cookie.match(new RegExp("(?:^|; )" + n + "=([^;]*)"));
+    return m ? decodeURIComponent(m[1]) : null;
+  }
+  function cSet(n, v) {
+    if (String(v).length > 3800) return; // stay under the per-cookie limit
+    var exp = new Date(Date.now() + 365 * 864e5).toUTCString();
+    document.cookie = n + "=" + encodeURIComponent(v) + "; expires=" + exp +
+      "; path=/; SameSite=Lax" + (location.protocol === "https:" ? "; Secure" : "");
+  }
+  function cDel(n) {
+    document.cookie = n + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";
+  }
+  try {
+    KEYS.forEach(function (k) {
+      var lv = null;
+      try { lv = localStorage.getItem(k); } catch (_) {}
+      if (lv == null) {
+        var cv = cGet(k);
+        if (cv != null) { try { localStorage.setItem(k, cv); } catch (_) {} }
+      } else {
+        cSet(k, lv); // keep the cookie fresh
+      }
+    });
+  } catch (_) {}
+  window.wfStoreSet = function (k, v) {
+    try { localStorage.setItem(k, v); } catch (_) {}
+    if (KEYS.indexOf(k) > -1) cSet(k, String(v));
+  };
+  window.wfStoreRemove = function (k) {
+    try { localStorage.removeItem(k); } catch (_) {}
+    if (KEYS.indexOf(k) > -1) cDel(k);
+  };
+})();
+
+
   /* ---------- helpers ---------- */
   const $  = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
@@ -18,7 +63,11 @@
     try { return JSON.parse(localStorage.getItem(FAV_KEY)) || []; }
     catch { return []; }
   };
-  const setFavs = (a) => { try { localStorage.setItem(FAV_KEY, JSON.stringify(a)); } catch {} };
+  const setFavs = (a) => {
+    const v = JSON.stringify(a);
+    if (window.wfStoreSet) window.wfStoreSet(FAV_KEY, v);
+    else { try { localStorage.setItem(FAV_KEY, v); } catch {} }
+  };
   window.wfFavs = { get: getFavs, has: (n) => getFavs().includes(n),
     toggle(n) {
       const f = getFavs(); const i = f.indexOf(n);
@@ -96,6 +145,7 @@
      ============================================================ */
   function renderInsurers() {
     const row = $("#insurersRow"); if (!row || typeof INSURERS === "undefined") return;
+    if (row.querySelector(".insurer-track")) return; // static markup already present
     const items = INSURERS.map((i) =>
       `<span class="insurer-logo"><img src="${esc(i.logo)}" alt="${esc(i.name)}"></span>`
     ).join("");
@@ -404,7 +454,10 @@
   const POSTAL_KEY = "wf_postal_code";
   const wfLoc = {
     get() { try { return localStorage.getItem(POSTAL_KEY) || ""; } catch { return ""; } },
-    set(v) { try { localStorage.setItem(POSTAL_KEY, v); } catch {} },
+    set(v) {
+      if (window.wfStoreSet) window.wfStoreSet(POSTAL_KEY, v);
+      else { try { localStorage.setItem(POSTAL_KEY, v); } catch {} }
+    },
     valid(v) { return /^[A-Z]\d[A-Z][ -]?\d[A-Z]\d$/.test(String(v || "").trim().toUpperCase()); },
     _coords: null,
     coords() {
@@ -722,7 +775,7 @@
       const g = gtaDataFor(name); if (!g) return "";
       return `<a class="gta-link" href="/clinics-${treatmentSlug(name)}">
         <span class="gta-link-name">${esc(g.name)}</span>
-        <span class="gta-link-meta">${g.billed ? `Billed as ${esc(g.billed)} · ` : ""}${g.clinics.length} clinic${g.clinics.length === 1 ? "" : "s"} <span aria-hidden="true">→</span></span>
+        <span class="gta-link-meta"><span class="gta-link-meta-text">${g.billed ? `Billed as ${esc(g.billed)} · ` : ""}${g.clinics.length} clinic${g.clinics.length === 1 ? "" : "s"}</span><span class="gta-arrow" aria-hidden="true">→</span></span>
       </a>`;
     }).join("") + `</div>`;
   }

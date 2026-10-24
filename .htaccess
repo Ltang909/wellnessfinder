@@ -14,6 +14,11 @@ DirectoryIndex index.html
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
+  # One canonical origin (no www) so browser storage for saves and
+  # location is shared instead of split across two hosts.
+  RewriteCond %{HTTP_HOST} ^www\.wellfinder\.ca$ [NC]
+  RewriteRule ^ https://wellfinder.ca%{REQUEST_URI} [R=301,L]
+
   # /discover (retired swipe page) -> homepage directory
   RewriteRule ^discover$ /#directory [R=301,L,NE]
 
