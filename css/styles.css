@@ -832,7 +832,8 @@ body { font-size: 16px; }
 /* ---------- Fund header pass (Oct 31, 2026) ----------
    The Fund tagline is the main header now. It is sized so even the
    longest rotation ("Fund personal growth with insurance benefits.")
-   fits on ONE line at every width: nowrap + viewport-scaled type.
+   fits on ONE line on tablet/desktop: nowrap + viewport-scaled type.
+   Phones wrap to two lines at a bigger size (media rule below).
    The hero body copy runs the full width of the header, justified so
    both edges line up with it. Order in the hero: header, description,
    insurer logo chain, then CTAs. Placed last so it wins over the
@@ -841,5 +842,7 @@ body { font-size: 16px; }
 .hero .lede { text-align: justify; text-align-last: left; }
 .hero-logos { margin: 28px auto 30px; }
 @media (max-width: 640px) {
-  .hero h1 { font-size: 4vw; line-height: 1.1; }
+  /* Phones wrap the header to two lines at a readable size instead of
+     shrinking it to fit one line (Leon's call, Oct 31). */
+  .hero h1 { font-size: clamp(1.9rem, 8.6vw, 2.4rem); line-height: 1.08; white-space: normal; }
 }
