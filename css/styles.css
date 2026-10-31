@@ -439,7 +439,6 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 30px; }
 .footer-brand .brand { color: #fff; margin-bottom: 14px; }
 .footer-brand .brand:hover { color: #fff; }
-.footer-tag { font-family: var(--serif); font-size: 1.05rem; color: #eaf1ec; margin: 0 0 6px; }
 .footer-brand p { font-size: .9rem; color: #9fb2a8; max-width: 34ch; margin: 0 0 14px; }
 .footer-brand a { color: var(--honey); font-size: .9rem; }
 .footer-col h5 { font-family: var(--sans); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #8ba296; margin: 0 0 14px; }

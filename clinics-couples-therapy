@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=29" />
+  <link rel="stylesheet" href="css/styles.css?v=30" />
 </head>
 <body data-treatment="Couples Therapy">
   <header class="site-header compact-header">
@@ -31,7 +31,6 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
-          <p class="footer-tag">Find well. Live well.</p>
           <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
           <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
         </div>
