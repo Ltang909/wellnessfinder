@@ -4,34 +4,34 @@
 
 :root {
   /* Palette */
-  --ink:        #16241f;
-  --ink-soft:   #3a4c45;
-  --forest:     #2e5d50;
-  --forest-600: #274f44;
-  --forest-300: #6f978a;
-  --mist:       #e4ede5;
-  --mist-deep:  #cddcd0;
-  --paper:      #faf8f2;
-  --paper-warm: #f3efe4;
+  --ink:        #0F2D2B;
+  --ink-soft:   #47635B;
+  --forest:     #0F2D2B;
+  --forest-600: #0A201E;
+  --forest-300: #6E8F7A;
+  --mist:       #E8EFE9;
+  --mist-deep:  #A7BFAE;
+  --paper:      #F4F6F3;
+  --paper-warm: #EDE8DA;
   --card:       #ffffff;
-  --honey:      #ce8b4a;
-  --honey-deep: #b5763a;
-  --blush:      #d98c86;
-  --line:       #e2ded2;
-  --line-soft:  #ece9df;
+  --honey:      #6E8F7A;
+  --honey-deep: #55705F;
+  --blush:      #A7BFAE;
+  --line:       #E4E2D6;
+  --line-soft:  #EDE8DA;
 
   /* Type */
-  --serif: "Fraunces", Georgia, "Times New Roman", serif;
-  --sans:  "Hanken Grotesk", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --sans:  "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   /* Structure */
   --wrap: 1180px;
   --radius-sm: 8px;
   --radius:    16px;
   --radius-lg: 26px;
-  --shadow-sm: 0 1px 2px rgba(22,36,31,.05), 0 2px 8px rgba(22,36,31,.04);
-  --shadow:    0 10px 30px -12px rgba(22,36,31,.16);
-  --shadow-lg: 0 30px 60px -24px rgba(22,36,31,.24);
+  --shadow-sm: 0 1px 2px rgba(15,45,43,.05), 0 2px 8px rgba(15,45,43,.04);
+  --shadow:    0 10px 30px -12px rgba(15,45,43,.16);
+  --shadow-lg: 0 30px 60px -24px rgba(15,45,43,.24);
 }
 
 /* ---------- reset ---------- */
@@ -658,7 +658,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .clinic-modal::backdrop{background:rgba(20,34,30,.55);backdrop-filter:blur(5px)}
 .clinic-modal .modal-close{position:absolute;right:1rem;top:.7rem;border:0;background:transparent;font-size:1.8rem;color:var(--muted);cursor:pointer}
 .clinic-modal .eyebrow{margin:0 0 .3rem;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.13em;color:#80612d}
-.clinic-modal h3{margin:0 0 .8rem;font:500 1.9rem/1.1 "Fraunces",serif}
+.clinic-modal h3{margin:0 0 .8rem;font:500 1.9rem/1.1 "Playfair Display",serif}
 .clinic-modal p{font-size:.92rem;color:var(--ink)}
 .clinic-modal p strong{color:var(--forest)}
 .cm-about{font-size:1rem!important;line-height:1.55}
