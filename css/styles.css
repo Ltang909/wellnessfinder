@@ -343,7 +343,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 }
 .treatment-card:hover { border-color: var(--mist-deep); box-shadow: var(--shadow-sm); }
 .treatment-card.hidden { display: none; }
-.tc-billed { font-size: .74rem; font-weight: 600; color: var(--honey-deep); background: #fbf1e5; border-radius: 999px; padding: 4px 10px; align-self: flex-start; margin-bottom: 12px; }
+.tc-billed { font-size: .74rem; font-weight: 600; color: var(--honey-deep); background: var(--paper-warm); border-radius: 999px; padding: 4px 10px; align-self: flex-start; margin-bottom: 12px; }
 .treatment-card h4 { font-size: 1.22rem; margin-bottom: 8px; padding-right: 34px; }
 .treatment-card p { font-size: .92rem; color: var(--ink-soft); margin: 0 0 8px; }
 .tc-more { font-size: .88rem; color: var(--forest); background: none; border: none; padding: 0; font-weight: 600; align-self: flex-start; }
@@ -455,7 +455,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .subhero h1 { font-size: clamp(2rem, 4.4vw, 3.1rem); max-width: 18ch; }
 .subhero h1 em { font-style: italic; color: var(--forest); }
 .subhero p { max-width: 60ch; color: var(--ink-soft); margin: 18px 0 0; font-size: 1.02rem; }
-.subhero .scraped { background: #fbf1e5; color: var(--honey-deep); font-weight: 600; padding: 1px 6px; border-radius: 4px; }
+.subhero .scraped { background: var(--paper-warm); color: var(--honey-deep); font-weight: 600; padding: 1px 6px; border-radius: 4px; }
 .subhero-actions { margin-top: 22px; display: flex; gap: 10px; flex-wrap: wrap; }
 
 /* explainer (golf TPI) */
@@ -536,13 +536,13 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .mono-0 { background: linear-gradient(135deg, var(--forest-600), var(--forest-300)); }
 .mono-1 { background: linear-gradient(135deg, var(--honey-deep), var(--honey)); }
 .mono-2 { background: linear-gradient(135deg, #5c6e58, #9db09a); }
-.mono-3 { background: linear-gradient(135deg, #b76e68, var(--blush)); }
+.mono-3 { background: linear-gradient(135deg, #265047, var(--blush)); }
 .cc-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
 .clinic-card h3 { font-size: 1.16rem; line-height: 1.2; }
 .cc-badge { flex: none; font-size: .72rem; font-weight: 700; padding: 4px 10px; border-radius: 999px; white-space: nowrap; }
 .cc-badge.ok { background: #e7f1ea; color: var(--forest-600); }
 .cc-badge.no { background: #f3efe4; color: var(--ink-soft); }
-.cc-badge.confirm { background: #fbf1e5; color: var(--honey-deep); }
+.cc-badge.confirm { background: var(--paper-warm); color: var(--honey-deep); }
 .cc-loc { font-size: .9rem; color: var(--forest); display: inline-flex; align-items: center; gap: 6px; }
 .cc-loc svg { width: 14px; height: 14px; flex: none; }
 .cc-note { font-size: .86rem; color: var(--ink-soft); }
@@ -656,7 +656,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .clinic-modal{width:min(92vw,560px);padding:2rem;border:0;border-radius:24px;background:#fffdf8;color:var(--ink);box-shadow:0 30px 100px rgba(24,43,37,.3)}
 .clinic-modal::backdrop{background:rgba(20,34,30,.55);backdrop-filter:blur(5px)}
 .clinic-modal .modal-close{position:absolute;right:1rem;top:.7rem;border:0;background:transparent;font-size:1.8rem;color:var(--muted);cursor:pointer}
-.clinic-modal .eyebrow{margin:0 0 .3rem;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.13em;color:#80612d}
+.clinic-modal .eyebrow{margin:0 0 .3rem;font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.13em;color:var(--honey-deep)}
 .clinic-modal h3{margin:0 0 .8rem;font:500 1.9rem/1.1 "Playfair Display",serif}
 .clinic-modal p{font-size:.92rem;color:var(--ink)}
 .clinic-modal p strong{color:var(--forest)}

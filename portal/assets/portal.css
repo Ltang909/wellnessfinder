@@ -153,7 +153,7 @@ h1,h2,h3{font-family:"Playfair Display",Georgia,serif; font-weight:600; color:va
 .admin-nav a { color: #dbe8df; font-size: .9rem; font-weight: 600; padding: 6px 10px; border-radius: 8px; display: inline-flex; align-items: center; gap: 6px; }
 .admin-nav a:hover { background: rgba(255,255,255,.12); text-decoration: none; color: #fff; }
 .admin-nav a.active { background: rgba(255,255,255,.16); color: #fff; }
-.admin-nav .badge { background: var(--honey); color: #241a0e; font-size: .72rem; font-weight: 700; padding: 1px 7px; border-radius: 999px; }
+.admin-nav .badge { background: var(--honey); color: #0F2D2B; font-size: .72rem; font-weight: 700; padding: 1px 7px; border-radius: 999px; }
 
 /* ---- status pills ---- */
 .pill { display: inline-block; font-size: .74rem; font-weight: 700; padding: 2px 10px; border-radius: 999px; text-transform: capitalize; }
