@@ -173,12 +173,26 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
   max-width: 900px; margin: 0 auto; text-align: center;
   padding: 84px 0 92px;
 }
+.hero-copy { position: relative; }
 .hero h1 {
-  font-size: clamp(2.5rem, 5.4vw, 4rem);
-  line-height: 1.02; letter-spacing: -0.02em;
+  font-size: clamp(2.9rem, 7vw, 5.1rem);
+  line-height: 1.04; letter-spacing: -0.02em; font-weight: 600;
 }
 .hero h1 em { font-style: italic; color: var(--forest); }
-.hero .lede { margin: 22px auto 30px; max-width: 62ch; }
+.hero .lede { margin: 24px auto 30px; max-width: none; text-align: justify; font-size: 1.13rem; }
+.float-chip {
+  position: absolute; z-index: 2; pointer-events: none;
+  background: var(--card); border: 1.5px solid currentColor; border-radius: 999px;
+  font-family: var(--sans); font-size: .8rem; font-weight: 700; padding: 6px 13px;
+  box-shadow: var(--shadow-sm); white-space: nowrap;
+  animation: floaty 5s ease-in-out infinite alternate;
+}
+.fc1 { color: #A85D4D; top: -46px; left: 1%; transform: rotate(-6deg); }
+.fc2 { color: #7A5C8F; top: -42px; right: 1%; transform: rotate(5deg); animation-delay: .8s; }
+.fc3 { color: #2C5F8D; bottom: 34%; left: -6%; transform: rotate(4deg); animation-delay: 1.6s; }
+.fc4 { color: #9A6A1C; bottom: 36%; right: -5%; transform: rotate(-5deg); animation-delay: 2.3s; }
+@keyframes floaty { from { margin-top: 0; } to { margin-top: -7px; } }
+@media (max-width: 1080px) { .float-chip { display: none; } }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 26px; justify-content: center; }
 .hero-trust { display: flex; flex-wrap: wrap; gap: 18px; color: var(--ink-soft); font-size: .92rem; justify-content: center; }
 .hero-trust span { display: inline-flex; align-items: center; gap: 7px; }
@@ -208,10 +222,11 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 }
 .tagline-band .eyebrow { justify-content: center; }
 .tagline-line {
-  font-size: clamp(2.3rem, 5.6vw, 3.9rem);
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
   line-height: 1.12; letter-spacing: -0.01em;
   max-width: 21em; margin: 0 auto;
 }
+.tagline-disclaimer { margin-top: 10px; font-size: .82rem; opacity: .75; }
 .rotator { display: inline-block; }
 .rotator-word {
   display: inline-block; font-style: italic;
@@ -825,4 +840,15 @@ body { font-size: 16px; }
   .insurer-logo { padding: 4px 10px; }
   .insurer-logo img { height: 28px; }
   .hero-logos-note { display: none; }
+}
+
+/* ---------- Fund header pass (Oct 31, 2026) ----------
+   The Fund tagline is the main header now: oversized type, and the
+   hero body copy runs the full width of the header, justified so
+   both edges line up with it. Placed last so it wins over the
+   compact pass and phone blocks above. */
+.hero h1 { font-size: clamp(2.9rem, 7vw, 5.1rem); line-height: 1.04; }
+.hero .lede { text-align: justify; text-align-last: left; }
+@media (max-width: 640px) {
+  .hero h1 { font-size: clamp(2rem, 9.6vw, 2.6rem); line-height: 1.05; }
 }

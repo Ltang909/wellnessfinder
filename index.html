@@ -19,7 +19,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=32" />
+  <link rel="stylesheet" href="css/styles.css?v=33" />
 <link rel="canonical" href="https://wellfinder.ca/" />
 <script type="application/ld+json">
 {
@@ -75,10 +75,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="wrap">
       <div class="hero-grid">
         <div class="hero-copy">
-          <h1>Discover wellness treatments<br class="h1-br"> <em>covered by your benefits.</em></h1>
-          <p class="lede">Your benefits cover more than you think. Discover hidden gems like clinical Pilates, golf swing assessments, and skincare treatments, and get the most out of your plan for little out of pocket.</p>
+          <span class="float-chip fc1" aria-hidden="true">Clinical Pilates</span>
+          <span class="float-chip fc2" aria-hidden="true">Head spa</span>
+          <span class="float-chip fc3" aria-hidden="true">TPI golf assessment</span>
+          <span class="float-chip fc4" aria-hidden="true">IV vitamin therapy</span>
+          <h1 aria-label="Fund hobbies, skincare, self-care, fitness, mental wellness, recovery and personal growth with insurance benefits.">Fund <span class="rotator" aria-hidden="true"><span class="rotator-word" id="fundWord" style="color:#0F2D2B">hobbies</span></span> with insurance benefits.</h1>
+          <p class="lede">Your benefits cover more than you think. Clinical Pilates, golf swing assessments, cosmetic acupuncture and more, often for little or nothing out of pocket.</p>
           <div class="hero-cta">
             <a class="btn btn--primary" href="#directory">Browse treatments</a>
+            <a class="btn btn--ghost" href="#tagline">How it works</a>
           </div>
           <div class="hero-trust">
             <span><span class="check">✔</span> Canada-focused</span>
@@ -109,11 +114,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 
   <!-- TAGLINE -->
-  <section class="section tagline-band">
+  <section class="section tagline-band" id="tagline">
     <div class="wrap">
       <p class="eyebrow">The WellFinder idea</p>
-      <h2 class="tagline-line" aria-label="Fund hobbies, skincare, self-care, fitness, mental wellness, recovery and personal growth with insurance benefits.">Fund <span class="rotator" aria-hidden="true"><span class="rotator-word" id="fundWord" style="color:#0F2D2B">hobbies</span></span> with insurance benefits.</h2>
-      <p class="tagline-sub">Think clinical Pilates billed as physiotherapy, a golf swing assessment with a TPI-certified clinician, cosmetic acupuncture, lymphatic drainage, head spa therapy or IV vitamin therapy. Most people pay for treatments like these out of pocket, never realizing a qualified practitioner can often bill them under benefits they already have.</p>
+      <h2 class="tagline-line">The treatments hiding in your benefits</h2>
+      <p class="tagline-sub">Most people pay out of pocket for these, not knowing a qualified practitioner can often bill them under benefits they already have. Clinical Pilates billed as physiotherapy, a TPI golf swing assessment, cosmetic acupuncture and more.</p>
       <div class="tagline-chips">
         <a href="/clinics-clinical-pilates">Clinical Pilates</a>
         <a href="/clinics-golf-swing-assessment">Golf swing assessment</a>
@@ -122,7 +127,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="/clinics-head-spa">Head spa</a>
         <a href="/clinics-iv-vitamin-therapy">IV vitamin therapy</a>
       </div>
-      <p class="tagline-note"><strong>Here is the catch:</strong> only a few practitioners can actually offer these treatments in a way your benefits will cover. A Pilates session only bills as physiotherapy when a licensed physiotherapist delivers it, and the same pattern holds across most lesser-known treatments: the right credentials, the right billing setup, and they are hard to find on your own. <strong>WellFinder finds those practitioners for you</strong>, clinic by clinic, so you can discover the treatments and the people qualified to offer them. Coverage varies by insurer, plan and provider, so always confirm before you book.</p>
+      <p class="tagline-note"><strong>The catch:</strong> only a few practitioners offer these treatments with the credentials and billing setup insurers require. <strong>WellFinder finds them for you.</strong></p>
+      <p class="tagline-note tagline-disclaimer">Coverage varies by insurer, plan and provider. Always confirm before you book.</p>
     </div>
   </section>
 
