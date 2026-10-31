@@ -165,11 +165,12 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .hero {
   position: relative; overflow: hidden;
   background:
-    radial-gradient(120% 90% at 88% -10%, rgba(206,139,74,.10), transparent 55%),
+    radial-gradient(120% 90% at 88% -10%, rgba(110,143,122,.16), transparent 55%),
     linear-gradient(180deg, var(--mist) 0%, var(--paper) 78%);
 }
 .hero-grid {
-  display: grid; grid-template-columns: 1.15fr .85fr; gap: 56px; align-items: center;
+  display: grid; grid-template-columns: 1fr; gap: 0; align-items: center;
+  max-width: 900px; margin: 0 auto; text-align: center;
   padding: 84px 0 92px;
 }
 .hero h1 {
@@ -177,49 +178,14 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
   line-height: 1.02; letter-spacing: -0.02em;
 }
 .hero h1 em { font-style: italic; color: var(--forest); }
-.hero .lede { margin: 22px 0 30px; }
-.hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 26px; }
-.hero-trust { display: flex; flex-wrap: wrap; gap: 18px; color: var(--ink-soft); font-size: .92rem; }
+.hero .lede { margin: 22px auto 30px; max-width: 62ch; }
+.hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 26px; justify-content: center; }
+.hero-trust { display: flex; flex-wrap: wrap; gap: 18px; color: var(--ink-soft); font-size: .92rem; justify-content: center; }
 .hero-trust span { display: inline-flex; align-items: center; gap: 7px; }
 .check { color: var(--forest); font-weight: 700; }
 
-/* receipt motif */
-.receipt {
-  background: var(--card);
-  border-radius: 18px;
-  box-shadow: var(--shadow-lg);
-  padding: 26px 26px 20px;
-  position: relative;
-  transform: rotate(1.4deg);
-  border: 1px solid var(--line-soft);
-  max-width: 340px; margin-left: auto;
-}
-.receipt::before, .receipt::after {
-  content: ""; position: absolute; left: 0; right: 0; height: 10px;
-  background-image: radial-gradient(circle at 6px 0, transparent 6px, var(--card) 6px);
-  background-size: 12px 12px;
-}
-.receipt::before { top: -10px; background-position: 0 -6px; }
-.receipt::after  { bottom: -10px; transform: rotate(180deg); }
-.receipt-head { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1.5px dashed var(--line); padding-bottom: 12px; margin-bottom: 12px; }
-.receipt-head .r-clinic { font-family: var(--serif); font-size: 1.15rem; font-weight: 600; }
-.receipt-head .r-date { font-size: .8rem; color: var(--forest-300); }
-.receipt-row { display: flex; justify-content: space-between; font-size: .94rem; padding: 7px 0; color: var(--ink-soft); }
-.receipt-row .r-label b { color: var(--ink); font-weight: 600; display: block; }
-.receipt-row .r-label small { color: var(--forest-300); }
-.receipt-total { display: flex; justify-content: space-between; align-items: center; border-top: 1.5px dashed var(--line); margin-top: 10px; padding-top: 14px; }
-.receipt-total .r-cost { font-family: var(--serif); font-size: 1.9rem; font-weight: 600; color: var(--forest); }
-.receipt-stamp {
-  position: absolute; top: 16px; right: -12px;
-  background: var(--forest); color: #fff; font-size: .72rem; font-weight: 700;
-  letter-spacing: .04em; padding: 6px 14px; border-radius: 999px; transform: rotate(6deg);
-  box-shadow: var(--shadow);
-}
-.receipt-note { text-align: center; font-size: .78rem; color: var(--forest-300); margin-top: 12px; }
-
 @media (max-width: 900px) {
-  .hero-grid { grid-template-columns: 1fr; gap: 40px; padding: 60px 0 68px; }
-  .receipt { transform: rotate(0); margin: 0 auto; }
+  .hero-grid { grid-template-columns: 1fr; gap: 0; padding: 60px 0 68px; }
 }
 
 /* ============================================================
@@ -232,6 +198,39 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .insurer-logo img { height: 36px; width: auto; max-width: 150px; object-fit: contain; }
 @keyframes insurer-scroll { to { transform: translateX(calc(-50% - 9px)); } }
 @media (prefers-reduced-motion: reduce) { .insurer-track { animation: none; flex-wrap: wrap; width: auto; } }
+
+/* ============================================================
+   Tagline band (homepage)
+   ============================================================ */
+.tagline-band {
+  background: linear-gradient(180deg, var(--paper-warm) 0%, var(--paper) 100%);
+  text-align: center;
+}
+.tagline-band .eyebrow { justify-content: center; }
+.tagline-line {
+  font-size: clamp(2.3rem, 5.6vw, 3.9rem);
+  line-height: 1.12; letter-spacing: -0.01em;
+  max-width: 21em; margin: 0 auto;
+}
+.rotator { display: inline-block; }
+.rotator-word {
+  display: inline-block; font-style: italic;
+  border-bottom: .07em solid currentColor; padding-bottom: .03em;
+}
+.rotator-word.roll { animation: word-roll .55s cubic-bezier(.2,.7,.3,1); }
+@keyframes word-roll {
+  0% { transform: translateY(55%); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+.tagline-sub { max-width: 68ch; margin: 26px auto 0; color: var(--ink-soft); font-size: 1.05rem; }
+.tagline-chips { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 24px; }
+.tagline-chips a {
+  background: var(--card); border: 1px solid var(--line); color: var(--forest);
+  font-weight: 600; font-size: .92rem; padding: 8px 16px; border-radius: 999px;
+}
+.tagline-chips a:hover { border-color: var(--mist-deep); box-shadow: var(--shadow-sm); }
+.tagline-note { max-width: 72ch; margin: 26px auto 0; font-size: .94rem; color: var(--ink-soft); }
+.tagline-note strong { color: var(--forest); }
 
 /* hero logo strip */
 .hero-logos { margin-top: 26px; max-width: 600px; }
@@ -826,12 +825,4 @@ body { font-size: 16px; }
   .insurer-logo { padding: 4px 10px; }
   .insurer-logo img { height: 28px; }
   .hero-logos-note { display: none; }
-  .receipt { max-width: 290px; padding: 11px 16px 9px; }
-  .receipt-head { padding-bottom: 6px; margin-bottom: 2px; }
-  .receipt-head .r-clinic { font-size: 1rem; }
-  .receipt-row { font-size: .84rem; padding: 4px 0; }
-  .receipt-row .r-sub { font-size: .74rem; }
-  .receipt-total { font-size: 1.26rem; padding-top: 6px; margin-top: 2px; }
-  .receipt-total .r-save { font-size: .7rem; padding: 3px 8px; }
-  .covered-stamp { font-size: .66rem; padding: 5px 9px; top: 10px; right: -8px; }
 }

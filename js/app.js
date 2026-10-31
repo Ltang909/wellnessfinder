@@ -950,6 +950,29 @@
         nearData().then((nd) => { if (nd) stampTreatmentCards(nd); });
       }
     });
+    // Tagline word rotator (homepage): cycles the guideline word list,
+    // each word in its own colour, rolling up into place.
+    var fundWord = document.getElementById("fundWord");
+    if (fundWord && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      var FUND_WORDS = [
+        ["hobbies", "#0F2D2B"],
+        ["skincare", "#A85D4D"],
+        ["self-care", "#55705F"],
+        ["fitness", "#265047"],
+        ["mental wellness", "#7A5C8F"],
+        ["recovery", "#2C5F8D"],
+        ["personal growth", "#9A6A1C"]
+      ];
+      var fundIdx = 0;
+      setInterval(function () {
+        fundIdx = (fundIdx + 1) % FUND_WORDS.length;
+        fundWord.classList.remove("roll");
+        void fundWord.offsetWidth; // restart the roll animation
+        fundWord.textContent = FUND_WORDS[fundIdx][0];
+        fundWord.style.color = FUND_WORDS[fundIdx][1];
+        fundWord.classList.add("roll");
+      }, 2200);
+    }
     // set year in footers
     $$("[data-year]").forEach((el) => (el.textContent = new Date().getFullYear()));
   });
