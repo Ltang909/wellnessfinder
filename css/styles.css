@@ -170,7 +170,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 }
 .hero-grid {
   display: grid; grid-template-columns: 1fr; gap: 0; align-items: center;
-  max-width: 900px; margin: 0 auto; text-align: center;
+  max-width: 1160px; margin: 0 auto; text-align: center;
   padding: 84px 0 92px;
 }
 .hero-copy { position: relative; }
@@ -180,19 +180,6 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 }
 .hero h1 em { font-style: italic; color: var(--forest); }
 .hero .lede { margin: 24px auto 30px; max-width: none; text-align: justify; font-size: 1.13rem; }
-.float-chip {
-  position: absolute; z-index: 2; pointer-events: none;
-  background: var(--card); border: 1.5px solid currentColor; border-radius: 999px;
-  font-family: var(--sans); font-size: .8rem; font-weight: 700; padding: 6px 13px;
-  box-shadow: var(--shadow-sm); white-space: nowrap;
-  animation: floaty 5s ease-in-out infinite alternate;
-}
-.fc1 { color: #A85D4D; top: -46px; left: 1%; transform: rotate(-6deg); }
-.fc2 { color: #7A5C8F; top: -42px; right: 1%; transform: rotate(5deg); animation-delay: .8s; }
-.fc3 { color: #2C5F8D; bottom: 34%; left: -6%; transform: rotate(4deg); animation-delay: 1.6s; }
-.fc4 { color: #9A6A1C; bottom: 36%; right: -5%; transform: rotate(-5deg); animation-delay: 2.3s; }
-@keyframes floaty { from { margin-top: 0; } to { margin-top: -7px; } }
-@media (max-width: 1080px) { .float-chip { display: none; } }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 26px; justify-content: center; }
 .hero-trust { display: flex; flex-wrap: wrap; gap: 18px; color: var(--ink-soft); font-size: .92rem; justify-content: center; }
 .hero-trust span { display: inline-flex; align-items: center; gap: 7px; }
@@ -843,12 +830,16 @@ body { font-size: 16px; }
 }
 
 /* ---------- Fund header pass (Oct 31, 2026) ----------
-   The Fund tagline is the main header now: oversized type, and the
-   hero body copy runs the full width of the header, justified so
-   both edges line up with it. Placed last so it wins over the
+   The Fund tagline is the main header now. It is sized so even the
+   longest rotation ("Fund personal growth with insurance benefits.")
+   fits on ONE line at every width: nowrap + viewport-scaled type.
+   The hero body copy runs the full width of the header, justified so
+   both edges line up with it. Order in the hero: header, description,
+   insurer logo chain, then CTAs. Placed last so it wins over the
    compact pass and phone blocks above. */
-.hero h1 { font-size: clamp(2.9rem, 7vw, 5.1rem); line-height: 1.04; }
+.hero h1 { font-size: clamp(1.05rem, 4.05vw, 3.3rem); line-height: 1.1; white-space: nowrap; }
 .hero .lede { text-align: justify; text-align-last: left; }
+.hero-logos { margin: 28px auto 30px; }
 @media (max-width: 640px) {
-  .hero h1 { font-size: clamp(2rem, 9.6vw, 2.6rem); line-height: 1.05; }
+  .hero h1 { font-size: 4vw; line-height: 1.1; }
 }
