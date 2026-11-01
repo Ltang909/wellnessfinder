@@ -420,7 +420,7 @@
         <p class="fc-sub">${esc(cfg.sub)}</p>
         <p class="fc-viewall"><a href="/clinics-${slug}">View all ${total} ${esc(cfg.label)} clinics \u2192</a></p>
         <div class="fc-rail">
-          ${[-3, -2, -1, 0, 1, 2, 3].map((k) => cardHTML(at(k), k)).join("")}
+          ${(() => { const lo = -Math.floor((n - 1) / 2), hi = Math.ceil((n - 1) / 2); const ks = []; for (let k = lo; k <= hi; k++) ks.push(k); return ks.map((k) => cardHTML(at(k), k)).join(""); })()}
         </div>
         <p class="fc-pager"><button type="button" data-fc-nav="-1" aria-label="Previous clinic">\u2039</button><b>${fcIndex + 1} / ${n}</b><button type="button" data-fc-nav="1" aria-label="Next clinic">\u203a</button></p>
       </div>
