@@ -1,9 +1,17 @@
 [
  {
+  "id": "aurora-north-medical-centre-aurora--clinical-pilates",
   "clinic_id": "aurora-north-medical-centre-aurora",
   "clinic_name": "Aurora North Medical Centre",
   "treatment": "Clinical Pilates",
   "billed_as": "Physio / Chiro",
+  "practitioners": [
+   {
+    "id": "aurora-north-medical-centre-aurora--elli-luy",
+    "name": "Elli Luy",
+    "as_recorded": "Elli Luy, Reg. PT"
+   }
+  ],
   "practitioner": "Elli Luy, Reg. PT",
   "price": "$150 initial · $90-$120 follow-up",
   "price_source": "Jane App booking page HTML (auroranorthmedical.janeapp.com): Initial Clinical Pilates Assessment + Treatment (50min) $150; Subsequent Clinical Pilates $90 (30min), $100 (40min), $120 (45/50min)",
@@ -13,10 +21,18 @@
   "batch": "batch-001"
  },
  {
+  "id": "body-maison-toronto--clinical-pilates",
   "clinic_id": "body-maison-toronto",
   "clinic_name": "BODY MAISON",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "body-maison-toronto--marina",
+    "name": "Marina",
+    "as_recorded": "Marina (Resident Physiotherapist)"
+   }
+  ],
   "practitioner": "Marina (Resident Physiotherapist)",
   "price": "$150 initial · $125 follow-up",
   "price_source": "Clinic's own booking product page: Physiotherapy Initial Assessment (60min, incl. Rehab Reformer Pilates) $150; follow-up 50min $125 (also 30min $100, 20min $80) — confirms directory \"$125-150\"",
@@ -26,10 +42,18 @@
   "batch": "batch-001"
  },
  {
+  "id": "jc-clinic-north-york--clinical-pilates",
   "clinic_id": "jc-clinic-north-york",
   "clinic_name": "JC Clinic",
   "treatment": "Clinical Pilates",
   "billed_as": "Physio / Chiro / Naturo",
+  "practitioners": [
+   {
+    "id": "jc-clinic-north-york--yoona-kim",
+    "name": "Yoona Kim",
+    "as_recorded": "Yoona Kim, BPhEd — Pilates instructor (NOT a registered physiotherapist)"
+   }
+  ],
   "practitioner": "Yoona Kim, BPhEd — Pilates instructor (NOT a registered physiotherapist)",
   "price": "$120 intro (2 sessions) · $65 per session",
   "price_source": "Jane App Pilates/Ballet page, live browser read 2026-11-01: 'Intro - 2 Pilates Sessions' 120 min $120; 'Pilates (50 min)' $65. Supersedes the earlier $140/$80 figure, which could not be re-confirmed on the booking page.",
@@ -39,10 +63,12 @@
   "batch": "batch-001"
  },
  {
+  "id": "reconnect-wellness-newmarket--clinical-pilates",
   "clinic_id": "reconnect-wellness-newmarket",
   "clinic_name": "Reconnect Wellness",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [],
   "practitioner": null,
   "price": null,
   "price_source": "Practitioner audit 2026-11-01 (rule v2): FAIL — rendered Jane check confirms NO Pilates service exists anywhere in Reconnect's booking flow (no Pilates category; Forum Gandhi's 25 bookable services are Physiotherapy, Pelvic Health and Lymphatic Drainage only; no other practitioner lists Pilates either). The recorded $130/$113 were general physiotherapy prices. Price and CP practitioner struck.",
@@ -52,10 +78,18 @@
   "batch": "batch-001"
  },
  {
+  "id": "bijoy-s-physio-pilates-aurora--clinical-pilates",
   "clinic_id": "bijoy-s-physio-pilates-aurora",
   "clinic_name": "Bijoy's Physio & Pilates",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "bijoy-s-physio-pilates-aurora--amira-kanianthra",
+    "name": "Amira Kanianthra",
+    "as_recorded": "Amira Kanianthra"
+   }
+  ],
   "practitioner": "Amira Kanianthra",
   "price": "$120 initial · $100 follow-up",
   "price_source": "Jane App booking page linked from clinic site (hosted under Beaverton Physiotherapy Jane account, location 'Bijoy's Physio Pilates', 42 Temperance St): 'Bijoy's Initial Consultation - Physiotherapy' $120; 'Physio/Pilates 45mins' $100 — clinic's Clinical Pilates page says follow-ups are typically 45 minutes",
@@ -65,10 +99,23 @@
   "batch": "batch-001"
  },
  {
+  "id": "mvmt-physiotherapy-vaughan--clinical-pilates",
   "clinic_id": "mvmt-physiotherapy-vaughan",
   "clinic_name": "MVMT Physiotherapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "mvmt-physiotherapy-vaughan--teresa-raso",
+    "name": "Teresa Raso",
+    "as_recorded": "Teresa Raso, Meghan Pietluch"
+   },
+   {
+    "id": "mvmt-physiotherapy-vaughan--meghan-pietluch",
+    "name": "Meghan Pietluch",
+    "as_recorded": "Teresa Raso, Meghan Pietluch"
+   }
+  ],
   "practitioner": "Teresa Raso, Meghan Pietluch",
   "price": "$135 initial · $120 follow-up",
   "price_source": "Jane App booking page HTML: 'Initial Assessment- Clinical Pilates' $135; 'Clinical Pilates (45 minutes)' $120 (also 30 min $95 and 60 min Clinical Pilates $135)",
@@ -78,10 +125,18 @@
   "batch": "batch-001"
  },
  {
+  "id": "rehab-plus-pilates-studio-richmond-hill--clinical-pilates",
   "clinic_id": "rehab-plus-pilates-studio-richmond-hill",
   "clinic_name": "Rehab Plus Pilates Studio",
   "treatment": "Clinical Pilates",
   "billed_as": "Pilates (physio-led)",
+  "practitioners": [
+   {
+    "id": "rehab-plus-pilates-studio-richmond-hill--elli-luy-natalie-ore-hei-yuet-tse-marcus-wong-wong",
+    "name": "Elli Luy, Natalie Ore, Hei Yuet Tse, Marcus Wong Wong",
+    "as_recorded": "Elli Luy, Natalie Ore, Hei Yuet (Chapman) Tse, Marcus Wong Wong"
+   }
+  ],
   "practitioner": "Elli Luy, Natalie Ore, Hei Yuet (Chapman) Tse, Marcus Wong Wong",
   "price": "$150 initial · $120 follow-up",
   "price_source": "Jane App booking page HTML: 'Initial Clinical Pilates Assessment + Treatment (50min)' $150; 'Subsequent Clinical Pilates Session (Returning Clients) (45min)' $120",
@@ -91,10 +146,12 @@
   "batch": "batch-001"
  },
  {
+  "id": "neurocore-physiotherapy-and-pilates-centre-richmond-hill--clinical-pilates",
   "clinic_id": "neurocore-physiotherapy-and-pilates-centre-richmond-hill",
   "clinic_name": "Neurocore Physiotherapy and Pilates Centre",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [],
   "practitioner": null,
   "price": null,
   "price_source": null,
@@ -104,10 +161,28 @@
   "batch": "batch-001"
  },
  {
+  "id": "rae-physiotherapy-and-pilates-vancouver--clinical-pilates",
   "clinic_id": "rae-physiotherapy-and-pilates-vancouver",
   "clinic_name": "Rae Physiotherapy and Pilates",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "rae-physiotherapy-and-pilates-vancouver--kimberly-vu",
+    "name": "Kimberly Vu",
+    "as_recorded": "Kimberly Vu, Emma Gerrard, Mahan Shahrooie"
+   },
+   {
+    "id": "rae-physiotherapy-and-pilates-vancouver--emma-gerrard",
+    "name": "Emma Gerrard",
+    "as_recorded": "Kimberly Vu, Emma Gerrard, Mahan Shahrooie"
+   },
+   {
+    "id": "rae-physiotherapy-and-pilates-vancouver--mahan-shahrooie",
+    "name": "Mahan Shahrooie",
+    "as_recorded": "Kimberly Vu, Emma Gerrard, Mahan Shahrooie"
+   }
+  ],
   "practitioner": "Kimberly Vu, Emma Gerrard, Mahan Shahrooie",
   "price": "$195 initial · $160 follow-up",
   "price_source": "Jane booking page (Initial Clinical Pilates Physiotherapy 55 min $195; Clinical Pilates Physiotherapy 40 min $160)",
@@ -117,10 +192,28 @@
   "batch": "batch-001"
  },
  {
+  "id": "pulse-physiotherapy-calgary--clinical-pilates",
   "clinic_id": "pulse-physiotherapy-calgary",
   "clinic_name": "Pulse Physiotherapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "pulse-physiotherapy-calgary--stephanie-henderson",
+    "name": "Stephanie Henderson",
+    "as_recorded": "Stephanie Henderson, Terra Plum, Brittney Winnitoy"
+   },
+   {
+    "id": "pulse-physiotherapy-calgary--terra-plum",
+    "name": "Terra Plum",
+    "as_recorded": "Stephanie Henderson, Terra Plum, Brittney Winnitoy"
+   },
+   {
+    "id": "pulse-physiotherapy-calgary--brittney-winnitoy",
+    "name": "Brittney Winnitoy",
+    "as_recorded": "Stephanie Henderson, Terra Plum, Brittney Winnitoy"
+   }
+  ],
   "practitioner": "Stephanie Henderson, Terra Plum, Brittney Winnitoy",
   "price": "$160 initial · $140 follow-up",
   "price_source": "Jane booking page (Clinical Pilates Assessment 60 min $160; Clinical Pilates Session 40 min $140)",
@@ -130,10 +223,28 @@
   "batch": "batch-001"
  },
  {
+  "id": "focus-physio-wellness-vancouver--clinical-pilates",
   "clinic_id": "focus-physio-wellness-vancouver",
   "clinic_name": "Focus Physio + Wellness",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "focus-physio-wellness-vancouver--catherine-vani",
+    "name": "Catherine Vani",
+    "as_recorded": "Catherine Vani, Sarah Jane Walker, Lian Finch"
+   },
+   {
+    "id": "focus-physio-wellness-vancouver--sarah-jane-walker",
+    "name": "Sarah Jane Walker",
+    "as_recorded": "Catherine Vani, Sarah Jane Walker, Lian Finch"
+   },
+   {
+    "id": "focus-physio-wellness-vancouver--lian-finch",
+    "name": "Lian Finch",
+    "as_recorded": "Catherine Vani, Sarah Jane Walker, Lian Finch"
+   }
+  ],
   "practitioner": "Catherine Vani, Sarah Jane Walker, Lian Finch",
   "price": "$170 initial · $135 follow-up",
   "price_source": "Jane booking page (Initial Assessment and Treatment - Clinical Pilates 60 min $170; Subsequent Visit - Clinical Pilates 45 min $135)",
@@ -143,10 +254,28 @@
   "batch": "batch-001"
  },
  {
+  "id": "treloar-physiotherapy-cambie-vancouver--clinical-pilates",
   "clinic_id": "treloar-physiotherapy-cambie-vancouver",
   "clinic_name": "Treloar Physiotherapy — Cambie",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "treloar-physiotherapy-cambie-vancouver--melissa-pham",
+    "name": "Melissa Pham",
+    "as_recorded": "Multiple physiotherapists incl. Melissa Pham, Renee Houle, Talia Berson"
+   },
+   {
+    "id": "treloar-physiotherapy-cambie-vancouver--renee-houle",
+    "name": "Renee Houle",
+    "as_recorded": "Multiple physiotherapists incl. Melissa Pham, Renee Houle, Talia Berson"
+   },
+   {
+    "id": "treloar-physiotherapy-cambie-vancouver--talia-berson",
+    "name": "Talia Berson",
+    "as_recorded": "Multiple physiotherapists incl. Melissa Pham, Renee Houle, Talia Berson"
+   }
+  ],
   "practitioner": "Multiple physiotherapists incl. Melissa Pham, Renee Houle, Talia Berson",
   "price": "$105 initial · $105 follow-up",
   "price_source": "Jane booking page (Initial Pilates Physiotherapy 25 min $105; Subsequent Pilates Physiotherapy 25 min $105); also confirmed on clinic Cambie Rates page",
@@ -156,10 +285,28 @@
   "batch": "batch-001"
  },
  {
+  "id": "revival-physio-toronto--clinical-pilates",
   "clinic_id": "revival-physio-toronto",
   "clinic_name": "Revival Physio",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "revival-physio-toronto--ellie",
+    "name": "Ellie",
+    "as_recorded": "Ellie, Chelsea, Vanessa"
+   },
+   {
+    "id": "revival-physio-toronto--chelsea",
+    "name": "Chelsea",
+    "as_recorded": "Ellie, Chelsea, Vanessa"
+   },
+   {
+    "id": "revival-physio-toronto--vanessa",
+    "name": "Vanessa",
+    "as_recorded": "Ellie, Chelsea, Vanessa"
+   }
+  ],
   "practitioner": "Ellie, Chelsea, Vanessa",
   "price": "$140 initial · $125 follow-up",
   "price_source": "Clinic's own site homepage FAQ (revivalphysio.ca): '30 minute assessments for $140'; '30 minute follow-ups for $125' (1-hour options $250 assessment / $200 follow-up also listed). Jane App booking page text fetch returned no treatment prices (JS-rendered treatment list).",
@@ -169,10 +316,23 @@
   "batch": "batch-002"
  },
  {
+  "id": "personal-best-physiotherapy-pilates-rehabilitation-toronto--clinical-pilates",
   "clinic_id": "personal-best-physiotherapy-pilates-rehabilitation-toronto",
   "clinic_name": "Personal Best Physiotherapy, Pilates, Rehabilitation",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "personal-best-physiotherapy-pilates-rehabilitation-toronto--joan-p-baker",
+    "name": "Joan P. Baker",
+    "as_recorded": "Joan P. Baker, Riandre Flores"
+   },
+   {
+    "id": "personal-best-physiotherapy-pilates-rehabilitation-toronto--riandre-flores",
+    "name": "Riandre Flores",
+    "as_recorded": "Joan P. Baker, Riandre Flores"
+   }
+  ],
   "practitioner": "Joan P. Baker, Riandre Flores",
   "price": "$105 per 60-min Pilates session",
   "price_source": "Jane App booking page, live browser read 2026-11-01: '60 Minute Pilates' $105 and '60 Minute Virtual Pilates' $105 under physiotherapist Deidre Pretlove; no assessment/follow-up price split exists",
@@ -182,10 +342,23 @@
   "batch": "batch-002"
  },
  {
+  "id": "fairlawn-physiotherapy-rehabilitation-centre-toronto--clinical-pilates",
   "clinic_id": "fairlawn-physiotherapy-rehabilitation-centre-toronto",
   "clinic_name": "Fairlawn Physiotherapy & Rehabilitation Centre",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "fairlawn-physiotherapy-rehabilitation-centre-toronto--stephanie-watson",
+    "name": "Stephanie Watson",
+    "as_recorded": "Stephanie Watson, Gina Pasold"
+   },
+   {
+    "id": "fairlawn-physiotherapy-rehabilitation-centre-toronto--gina-pasold",
+    "name": "Gina Pasold",
+    "as_recorded": "Stephanie Watson, Gina Pasold"
+   }
+  ],
   "practitioner": "Stephanie Watson, Gina Pasold",
   "price": null,
   "price_source": "No price found: the clinic has no Jane App / self-serve online booking page with prices — its own site's Services page says 'Please call, e-mail or drop by' to book, its 'Make An Appointment' link goes to the contact form page, and its Pilates service page publishes no fees.",
@@ -195,10 +368,38 @@
   "batch": "batch-002"
  },
  {
+  "id": "kinective-health-performance-toronto--clinical-pilates",
   "clinic_id": "kinective-health-performance-toronto",
   "clinic_name": "Kinective Health & Performance",
   "treatment": "Clinical Pilates",
   "billed_as": "Physio / Chiro",
+  "practitioners": [
+   {
+    "id": "kinective-health-performance-toronto--dr-maya-froman",
+    "name": "Dr. Maya Froman",
+    "as_recorded": "Dr. Maya Froman, Kathryn Zbarsky, Melanie Cundari, Sophie Koladich, Dr. Monika Reinstein"
+   },
+   {
+    "id": "kinective-health-performance-toronto--kathryn-zbarsky",
+    "name": "Kathryn Zbarsky",
+    "as_recorded": "Dr. Maya Froman, Kathryn Zbarsky, Melanie Cundari, Sophie Koladich, Dr. Monika Reinstein"
+   },
+   {
+    "id": "kinective-health-performance-toronto--melanie-cundari",
+    "name": "Melanie Cundari",
+    "as_recorded": "Dr. Maya Froman, Kathryn Zbarsky, Melanie Cundari, Sophie Koladich, Dr. Monika Reinstein"
+   },
+   {
+    "id": "kinective-health-performance-toronto--sophie-koladich",
+    "name": "Sophie Koladich",
+    "as_recorded": "Dr. Maya Froman, Kathryn Zbarsky, Melanie Cundari, Sophie Koladich, Dr. Monika Reinstein"
+   },
+   {
+    "id": "kinective-health-performance-toronto--dr-monika-reinstein",
+    "name": "Dr. Monika Reinstein",
+    "as_recorded": "Dr. Maya Froman, Kathryn Zbarsky, Melanie Cundari, Sophie Koladich, Dr. Monika Reinstein"
+   }
+  ],
   "practitioner": "Dr. Maya Froman, Kathryn Zbarsky, Melanie Cundari, Sophie Koladich, Dr. Monika Reinstein",
   "price": "$200 initial · $100-$200 follow-up (physio rates)",
   "price_source": "Jane App booking page, live browser read 2026-11-01: clinic states 'Clinical Pilates is included as part of our Physiotherapy and Chiropractic sessions, so you can book it as you would a regular treatment.' Physio rates under Clinical Pilates practitioner Melanie Cundari: Initial Physiotherapy Assessment 60min $200; Follow up 60min $200 / 45min $150 / 30min $100. Priced per Leon's rule (2026-11-01): Pilates included with no separate pricing -> use physio pricing.",
@@ -208,10 +409,38 @@
   "batch": "batch-002"
  },
  {
+  "id": "kaizen-physiotherapy-group-kaizen-pilates-etobicoke--clinical-pilates",
   "clinic_id": "kaizen-physiotherapy-group-kaizen-pilates-etobicoke",
   "clinic_name": "Kaizen Physiotherapy Group / Kaizen Pilates",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "kaizen-physiotherapy-group-kaizen-pilates-etobicoke--erika-suarez",
+    "name": "Erika Suarez",
+    "as_recorded": "Erika Suarez, Wendy Young, Sooji Park, May Lively, Cassie Kirkos"
+   },
+   {
+    "id": "kaizen-physiotherapy-group-kaizen-pilates-etobicoke--wendy-young",
+    "name": "Wendy Young",
+    "as_recorded": "Erika Suarez, Wendy Young, Sooji Park, May Lively, Cassie Kirkos"
+   },
+   {
+    "id": "kaizen-physiotherapy-group-kaizen-pilates-etobicoke--sooji-park",
+    "name": "Sooji Park",
+    "as_recorded": "Erika Suarez, Wendy Young, Sooji Park, May Lively, Cassie Kirkos"
+   },
+   {
+    "id": "kaizen-physiotherapy-group-kaizen-pilates-etobicoke--may-lively",
+    "name": "May Lively",
+    "as_recorded": "Erika Suarez, Wendy Young, Sooji Park, May Lively, Cassie Kirkos"
+   },
+   {
+    "id": "kaizen-physiotherapy-group-kaizen-pilates-etobicoke--cassie-kirkos",
+    "name": "Cassie Kirkos",
+    "as_recorded": "Erika Suarez, Wendy Young, Sooji Park, May Lively, Cassie Kirkos"
+   }
+  ],
   "practitioner": "Erika Suarez, Wendy Young, Sooji Park, May Lively, Cassie Kirkos",
   "price": "$120 private (1-person) Pilates session · $48 single Reformer group class",
   "price_source": "Clinic's own Pilates page rates table (https://kaizenphysiotherapygroup.ca/pilates/): '1 Single Session (1p)' $120.00; Reformer group '1 Single Class' $48.00. No online booking portal publishes a Clinical Pilates price (see gaps).",
@@ -221,10 +450,18 @@
   "batch": "batch-002"
  },
  {
+  "id": "pilates4physio-toronto--clinical-pilates",
   "clinic_id": "pilates4physio-toronto",
   "clinic_name": "Pilates4Physio",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "pilates4physio-toronto--damian-wyard",
+    "name": "Damian Wyard",
+    "as_recorded": "Damian Wyard"
+   }
+  ],
   "practitioner": "Damian Wyard",
   "price": "$150 initial · $130 follow-up",
   "price_source": "Jane App booking page (https://pilates4physioappointments.janeapp.com/locations/pilates-4-physio/book): '60 min assessment and treatment $150', '45 min treatment $130', '30 min treatment $100'; matches clinic's own fees table at pilates4physio.ca",
@@ -234,10 +471,38 @@
   "batch": "batch-002"
  },
  {
+  "id": "toronto-physiotherapy-danforth-chester-toronto--clinical-pilates",
   "clinic_id": "toronto-physiotherapy-danforth-chester-toronto",
   "clinic_name": "Toronto Physiotherapy (Danforth & Chester)",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "toronto-physiotherapy-danforth-chester-toronto--meredith-clinton",
+    "name": "Meredith Clinton",
+    "as_recorded": "Meredith Clinton, Ana Groppler, Josephine Cuthill, Mayana Clugston, Jenna Murji"
+   },
+   {
+    "id": "toronto-physiotherapy-danforth-chester-toronto--ana-groppler",
+    "name": "Ana Groppler",
+    "as_recorded": "Meredith Clinton, Ana Groppler, Josephine Cuthill, Mayana Clugston, Jenna Murji"
+   },
+   {
+    "id": "toronto-physiotherapy-danforth-chester-toronto--josephine-cuthill",
+    "name": "Josephine Cuthill",
+    "as_recorded": "Meredith Clinton, Ana Groppler, Josephine Cuthill, Mayana Clugston, Jenna Murji"
+   },
+   {
+    "id": "toronto-physiotherapy-danforth-chester-toronto--mayana-clugston",
+    "name": "Mayana Clugston",
+    "as_recorded": "Meredith Clinton, Ana Groppler, Josephine Cuthill, Mayana Clugston, Jenna Murji"
+   },
+   {
+    "id": "toronto-physiotherapy-danforth-chester-toronto--jenna-murji",
+    "name": "Jenna Murji",
+    "as_recorded": "Meredith Clinton, Ana Groppler, Josephine Cuthill, Mayana Clugston, Jenna Murji"
+   }
+  ],
   "practitioner": "Meredith Clinton, Ana Groppler, Josephine Cuthill, Mayana Clugston, Jenna Murji",
   "price": "$120/hr Physio Pilates · $100/hr private Pilates (without physio assessment)",
   "price_source": "Clinic's own Physio Pilates service page and Fees page (https://torontophysiotherapy.ca/services/physio-pilates/ and https://torontophysiotherapy.ca/fees/pricing-list/): 'Private 1-on-1 Pilates guided by a Physiotherapist, delivered by a Pilates Instructor/Physiotherapist Assistant: $120/hr (tax-free)'; 'Private Pilates provided by a Pilates Instructor (without Physiotherapy assessment): $100/hr (+ HST)'. No online booking portal exists to take the price from (see gaps).",
@@ -247,10 +512,18 @@
   "batch": "batch-002"
  },
  {
+  "id": "beachealth-toronto--clinical-pilates",
   "clinic_id": "beachealth-toronto",
   "clinic_name": "Beachealth",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "beachealth-toronto--adriana-lis-pereira",
+    "name": "Adriana Lis Pereira",
+    "as_recorded": "Adriana Lis Pereira"
+   }
+  ],
   "practitioner": "Adriana Lis Pereira",
   "price": "$135 assessment · $105-$200 follow-up (30-60 min)",
   "price_source": "Jane App booking page (beachclinic.janeapp.com), live browser read 2026-11-01: INSURANCE - 1st Session Physiotherapy Assessment 60' $135; INSURANCE - Clinical Pilates Physiotherapy-Based 30' $105 / 45' $160 / 60' $200 (Adriana Lis Pereira)",
@@ -260,10 +533,23 @@
   "batch": "batch-002"
  },
  {
+  "id": "myo-myodetox-leslieville-toronto--clinical-pilates",
   "clinic_id": "myo-myodetox-leslieville-toronto",
   "clinic_name": "Myo (Myodetox) — Leslieville",
   "treatment": "Clinical Pilates",
   "billed_as": "Physio / Chiro / Massage",
+  "practitioners": [
+   {
+    "id": "myo-myodetox-leslieville-toronto--dr-brynne-billings",
+    "name": "Dr. Brynne Billings",
+    "as_recorded": "Dr. Brynne Billings, Farhanna Hassanali"
+   },
+   {
+    "id": "myo-myodetox-leslieville-toronto--farhanna-hassanali",
+    "name": "Farhanna Hassanali",
+    "as_recorded": "Dr. Brynne Billings, Farhanna Hassanali"
+   }
+  ],
   "practitioner": "Dr. Brynne Billings, Farhanna Hassanali",
   "price": "$180",
   "price_source": "Myo Leslieville location page (https://www.myodetox.com/locations/leslieville): 'Clinical Reformer Pilates, 60 Mins, $180'; Jane booking search snippet confirms a Clinical Pilates (Physiotherapy/Chiropractic) service at Leslieville. Jane App booking page text fetch did not expose service prices (JS-rendered treatment list); price confirmed on Myo's own location page, which is the pricing source linked from the booking flow.",
@@ -273,10 +559,23 @@
   "batch": "batch-002"
  },
  {
+  "id": "myo-myodetox-yorkville-toronto--clinical-pilates",
   "clinic_id": "myo-myodetox-yorkville-toronto",
   "clinic_name": "Myo (Myodetox) — Yorkville",
   "treatment": "Clinical Pilates",
   "billed_as": "Physio / Chiro / Massage",
+  "practitioners": [
+   {
+    "id": "myo-myodetox-yorkville-toronto--kaila-lunny",
+    "name": "Kaila Lunny",
+    "as_recorded": "Kaila Lunny, Dr. Monika Reinstein"
+   },
+   {
+    "id": "myo-myodetox-yorkville-toronto--dr-monika-reinstein",
+    "name": "Dr. Monika Reinstein",
+    "as_recorded": "Kaila Lunny, Dr. Monika Reinstein"
+   }
+  ],
   "practitioner": "Kaila Lunny, Dr. Monika Reinstein",
   "price": "$180",
   "price_source": "Myo Yorkville location page (https://www.myodetox.com/locations/yorkville): 'Clinical Pilates, 60 Mins, $180'. Jane App booking page text fetch did not expose service prices (JS-rendered treatment list); price confirmed on Myo's own location page, which is the pricing source linked from the booking flow.",
@@ -286,10 +585,12 @@
   "batch": "batch-002"
  },
  {
+  "id": "myo-myodetox-cityplace-toronto--clinical-pilates",
   "clinic_id": "myo-myodetox-cityplace-toronto",
   "clinic_name": "Myo (Myodetox) — CityPlace",
   "treatment": "Clinical Pilates",
   "billed_as": "Physio / Chiro / Massage",
+  "practitioners": [],
   "practitioner": null,
   "price": null,
   "price_source": "Practitioner audit 2026-11-01 (rule v2): FAIL — the location's own Treatments list has no Pilates service at all. The recorded $160/$185 were general physio (Myo Session) prices. Price struck; no Pilates price exists to record for this location.",
@@ -299,10 +600,18 @@
   "batch": "batch-002"
  },
  {
+  "id": "myo-myodetox-liberty-village-toronto--clinical-pilates",
   "clinic_id": "myo-myodetox-liberty-village-toronto",
   "clinic_name": "Myo (Myodetox) — Liberty Village",
   "treatment": "Clinical Pilates",
   "billed_as": "Physio / Chiro / Massage",
+  "practitioners": [
+   {
+    "id": "myo-myodetox-liberty-village-toronto--dr-erin-caplice",
+    "name": "Dr. Erin Caplice",
+    "as_recorded": "Dr. Erin Caplice"
+   }
+  ],
   "practitioner": "Dr. Erin Caplice",
   "price": "$185",
   "price_source": "Myo Liberty Village location page (https://www.myodetox.com/locations/liberty-village): 'Clinical Mat Pilates, 60 Mins, $185'. Jane App booking page text fetch did not expose service prices (JS-rendered treatment list); price confirmed on Myo's own location page, which is the pricing source linked from the booking flow.",
@@ -312,10 +621,12 @@
   "batch": "batch-002"
  },
  {
+  "id": "myo-myodetox-path-exchange-tower-toronto--clinical-pilates",
   "clinic_id": "myo-myodetox-path-exchange-tower-toronto",
   "clinic_name": "Myo (Myodetox) — PATH Exchange Tower",
   "treatment": "Clinical Pilates",
   "billed_as": "Physio / Chiro / Massage",
+  "practitioners": [],
   "practitioner": null,
   "price": null,
   "price_source": "Practitioner audit 2026-11-01 (rule v2): FAIL — no Pilates service at this location ('Pilates' appears only in a practitioner's Special Interests list). The recorded $160/$185 were physio prices. Price struck.",
@@ -325,10 +636,18 @@
   "batch": "batch-002"
  },
  {
+  "id": "myo-myodetox-richmond-hill-richmond-hill--clinical-pilates",
   "clinic_id": "myo-myodetox-richmond-hill-richmond-hill",
   "clinic_name": "Myo (Myodetox) — Richmond Hill",
   "treatment": "Clinical Pilates",
   "billed_as": "Physio / Chiro / Massage",
+  "practitioners": [
+   {
+    "id": "myo-myodetox-richmond-hill-richmond-hill--verena-siu",
+    "name": "Verena Siu",
+    "as_recorded": "Verena Siu"
+   }
+  ],
   "practitioner": "Verena Siu",
   "price": "$150",
   "price_source": "Myo Richmond Hill location page (https://www.myodetox.com/locations/richmond-hill): 'Clinical Pilates, 60 Mins, $150'. Jane App booking page text fetch did not expose service prices (JS-rendered treatment list); price confirmed on Myo's own location page, which is the pricing source linked from the booking flow.",
@@ -338,10 +657,12 @@
   "batch": "batch-002"
  },
  {
+  "id": "myo-myodetox-markham-markham--clinical-pilates",
   "clinic_id": "myo-myodetox-markham-markham",
   "clinic_name": "Myo (Myodetox) — Markham",
   "treatment": "Clinical Pilates",
   "billed_as": "Physio / Chiro / Massage",
+  "practitioners": [],
   "practitioner": null,
   "price": null,
   "price_source": "Practitioner audit 2026-11-01 (rule v2): FAIL — no Pilates service at this location, and the recorded practitioner (Audrey Ho) is a Registered Massage Therapist, not a physiotherapist. The recorded $150/$170 were physio prices. Price and practitioner struck.",
@@ -351,10 +672,23 @@
   "batch": "batch-002"
  },
  {
+  "id": "resilience-physiotherapy-toronto-annex-toronto--clinical-pilates",
   "clinic_id": "resilience-physiotherapy-toronto-annex-toronto",
   "clinic_name": "Resilience Physiotherapy — Toronto Annex",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "resilience-physiotherapy-toronto-annex-toronto--audrey-cullis",
+    "name": "Audrey Cullis",
+    "as_recorded": "Audrey Cullis; Angela Lo"
+   },
+   {
+    "id": "resilience-physiotherapy-toronto-annex-toronto--angela-lo",
+    "name": "Angela Lo",
+    "as_recorded": "Audrey Cullis; Angela Lo"
+   }
+  ],
   "practitioner": "Audrey Cullis; Angela Lo",
   "price": "$170 initial · $105-$185 follow-up",
   "price_source": "Jane App booking page (https://resiliencephysiotherapy.janeapp.com) fee notice effective September 1, 2026: Initial Appointments $170, 60 Minute Follow-Ups $185, 45 Minute Follow-Ups $150, 30 Minute Follow-Ups $105. Clinical Pilates is included in physiotherapy with no separate Pilates pricing: clinic's Clinical Pilates page states 'Clinical Pilates is priced the same as physiotherapy: $170 for a 60-minute initial assessment, then $105 for 30 minutes, $150 for 45 minutes or $185 for 60 minutes.'",
@@ -364,10 +698,38 @@
   "batch": "batch-003"
  },
  {
+  "id": "new-life-rehab-clinic-scarborough--clinical-pilates",
   "clinic_id": "new-life-rehab-clinic-scarborough",
   "clinic_name": "New Life Rehab Clinic",
   "treatment": "Clinical Pilates",
   "billed_as": "Physio / Chiro",
+  "practitioners": [
+   {
+    "id": "new-life-rehab-clinic-scarborough--cindy",
+    "name": "Cindy",
+    "as_recorded": "Cindy; Fahreen; Jenny; Kata; Ruba"
+   },
+   {
+    "id": "new-life-rehab-clinic-scarborough--fahreen",
+    "name": "Fahreen",
+    "as_recorded": "Cindy; Fahreen; Jenny; Kata; Ruba"
+   },
+   {
+    "id": "new-life-rehab-clinic-scarborough--jenny",
+    "name": "Jenny",
+    "as_recorded": "Cindy; Fahreen; Jenny; Kata; Ruba"
+   },
+   {
+    "id": "new-life-rehab-clinic-scarborough--kata",
+    "name": "Kata",
+    "as_recorded": "Cindy; Fahreen; Jenny; Kata; Ruba"
+   },
+   {
+    "id": "new-life-rehab-clinic-scarborough--ruba",
+    "name": "Ruba",
+    "as_recorded": "Cindy; Fahreen; Jenny; Kata; Ruba"
+   }
+  ],
   "practitioner": "Cindy; Fahreen; Jenny; Kata; Ruba",
   "price": null,
   "price_source": null,
@@ -377,10 +739,43 @@
   "batch": "batch-003"
  },
  {
+  "id": "jda-physio-rehabilitation-centre-richmond-hill--clinical-pilates",
   "clinic_id": "jda-physio-rehabilitation-centre-richmond-hill",
   "clinic_name": "JDA Physio & Rehabilitation Centre",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy / Chiropractic",
+  "practitioners": [
+   {
+    "id": "jda-physio-rehabilitation-centre-richmond-hill--janet-yang",
+    "name": "Janet Yang",
+    "as_recorded": "Janet Yang; Carrie Chou; Dr. Sze Yu (Carol) Wong; Zoey Wu; Nathania Chan; Dr. Kelly Duan"
+   },
+   {
+    "id": "jda-physio-rehabilitation-centre-richmond-hill--carrie-chou",
+    "name": "Carrie Chou",
+    "as_recorded": "Janet Yang; Carrie Chou; Dr. Sze Yu (Carol) Wong; Zoey Wu; Nathania Chan; Dr. Kelly Duan"
+   },
+   {
+    "id": "jda-physio-rehabilitation-centre-richmond-hill--dr-sze-yu-wong",
+    "name": "Dr. Sze Yu Wong",
+    "as_recorded": "Janet Yang; Carrie Chou; Dr. Sze Yu (Carol) Wong; Zoey Wu; Nathania Chan; Dr. Kelly Duan"
+   },
+   {
+    "id": "jda-physio-rehabilitation-centre-richmond-hill--zoey-wu",
+    "name": "Zoey Wu",
+    "as_recorded": "Janet Yang; Carrie Chou; Dr. Sze Yu (Carol) Wong; Zoey Wu; Nathania Chan; Dr. Kelly Duan"
+   },
+   {
+    "id": "jda-physio-rehabilitation-centre-richmond-hill--nathania-chan",
+    "name": "Nathania Chan",
+    "as_recorded": "Janet Yang; Carrie Chou; Dr. Sze Yu (Carol) Wong; Zoey Wu; Nathania Chan; Dr. Kelly Duan"
+   },
+   {
+    "id": "jda-physio-rehabilitation-centre-richmond-hill--dr-kelly-duan",
+    "name": "Dr. Kelly Duan",
+    "as_recorded": "Janet Yang; Carrie Chou; Dr. Sze Yu (Carol) Wong; Zoey Wu; Nathania Chan; Dr. Kelly Duan"
+   }
+  ],
   "practitioner": "Janet Yang; Carrie Chou; Dr. Sze Yu (Carol) Wong; Zoey Wu; Nathania Chan; Dr. Kelly Duan",
   "price": "$110 initial · $60-$110 follow-up",
   "price_source": "Jane App booking page, live browser read 2026-11-01: Clinical Reformer Pilates Physiotherapy — Initial Assessment 60min $110; Follow-Up 60min $110 / 30min $60. Prenatal and chiropractic Clinical Pilates variants priced identically.",
@@ -390,10 +785,18 @@
   "batch": "batch-003"
  },
  {
+  "id": "apple-creek-sports-medicine-centre-markham--clinical-pilates",
   "clinic_id": "apple-creek-sports-medicine-centre-markham",
   "clinic_name": "Apple Creek Sports Medicine Centre",
   "treatment": "Clinical Pilates",
   "billed_as": "Physio / Chiro / Osteopathy",
+  "practitioners": [
+   {
+    "id": "apple-creek-sports-medicine-centre-markham--faiza",
+    "name": "Faiza",
+    "as_recorded": "Faiza"
+   }
+  ],
   "practitioner": "Faiza",
   "price": null,
   "price_source": null,
@@ -403,10 +806,23 @@
   "batch": "batch-003"
  },
  {
+  "id": "my-physio-pilates-fabia-gouvea-studio-toronto--clinical-pilates",
   "clinic_id": "my-physio-pilates-fabia-gouvea-studio-toronto",
   "clinic_name": "My Physio Pilates (Fabia Gouvea Studio)",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "my-physio-pilates-fabia-gouvea-studio-toronto--luciano-gouvea",
+    "name": "Luciano Gouvea",
+    "as_recorded": "Luciano Gouvea; Fábia Gouvea"
+   },
+   {
+    "id": "my-physio-pilates-fabia-gouvea-studio-toronto--fabia-gouvea",
+    "name": "Fábia Gouvea",
+    "as_recorded": "Luciano Gouvea; Fábia Gouvea"
+   }
+  ],
   "practitioner": "Luciano Gouvea; Fábia Gouvea",
   "price": null,
   "price_source": null,
@@ -416,10 +832,18 @@
   "batch": "batch-003"
  },
  {
+  "id": "yohu-wellness-clinic-dr-xuanli-monica-wang-markham--clinical-pilates",
   "clinic_id": "yohu-wellness-clinic-dr-xuanli-monica-wang-markham",
   "clinic_name": "YOHU Wellness Clinic (Dr. Xuanli Monica Wang)",
   "treatment": "Clinical Pilates",
   "billed_as": "Chiropractic",
+  "practitioners": [
+   {
+    "id": "yohu-wellness-clinic-dr-xuanli-monica-wang-markham--dr-xuanli-monica-wang",
+    "name": "Dr. Xuanli Monica Wang",
+    "as_recorded": "Dr. Xuanli Monica Wang"
+   }
+  ],
   "practitioner": "Dr. Xuanli Monica Wang",
   "price": null,
   "price_source": null,
@@ -429,10 +853,18 @@
   "batch": "batch-003"
  },
  {
+  "id": "alliance-physio-kareem-hassanein-rpt-mississauga--clinical-pilates",
   "clinic_id": "alliance-physio-kareem-hassanein-rpt-mississauga",
   "clinic_name": "Alliance Physio (Kareem Hassanein, RPT)",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "alliance-physio-kareem-hassanein-rpt-mississauga--lisa",
+    "name": "Lisa",
+    "as_recorded": "Lisa (Clinic Director; surname not shown on the Jane booking page or clinic site — certified clinical Pilates instructor)"
+   }
+  ],
   "practitioner": "Lisa (Clinic Director; surname not shown on the Jane booking page or clinic site — certified clinical Pilates instructor)",
   "price": "$120 initial · $80-$90 follow-up",
   "price_source": "Jane App booking page, live browser read 2026-11-01: Clinical Pilates — Initial Assessment 60min $120; Subsequent $90; Follow-Up 30min $80 (practitioners Sarah, Rachel, Jessica, Amanda).",
@@ -442,10 +874,18 @@
   "batch": "batch-003"
  },
  {
+  "id": "trafalgar-physiotherapy-pt-health-oakville--clinical-pilates",
   "clinic_id": "trafalgar-physiotherapy-pt-health-oakville",
   "clinic_name": "Trafalgar Physiotherapy — pt Health",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "trafalgar-physiotherapy-pt-health-oakville--jolanta-szturycz",
+    "name": "Jolanta Szturycz",
+    "as_recorded": "Jolanta Szturycz"
+   }
+  ],
   "practitioner": "Jolanta Szturycz",
   "price": null,
   "price_source": null,
@@ -455,10 +895,23 @@
   "batch": "batch-003"
  },
  {
+  "id": "physiolab-olympic-village-vancouver--clinical-pilates",
   "clinic_id": "physiolab-olympic-village-vancouver",
   "clinic_name": "Physiolab — Olympic Village",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "physiolab-olympic-village-vancouver--courtney-chan",
+    "name": "Courtney Chan",
+    "as_recorded": "Courtney Chan; Alexia Lee"
+   },
+   {
+    "id": "physiolab-olympic-village-vancouver--alexia-lee",
+    "name": "Alexia Lee",
+    "as_recorded": "Courtney Chan; Alexia Lee"
+   }
+  ],
   "practitioner": "Courtney Chan; Alexia Lee",
   "price": "$165 initial · $100-$165 follow-up",
   "price_source": "Jane App booking page, live browser read 2026-11-01: Clinical Pilates — Initial Assessment 60min $165; Subsequent 60min $165 / 45min $140 / 30min $100 (banner: pricing effective Sep 1, 2025).",
@@ -468,10 +921,23 @@
   "batch": "batch-003"
  },
  {
+  "id": "physiolab-hastings-vancouver--clinical-pilates",
   "clinic_id": "physiolab-hastings-vancouver",
   "clinic_name": "Physiolab — Hastings",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "physiolab-hastings-vancouver--grace-huang",
+    "name": "Grace Huang",
+    "as_recorded": "Grace Huang; Michelle Ta"
+   },
+   {
+    "id": "physiolab-hastings-vancouver--michelle-ta",
+    "name": "Michelle Ta",
+    "as_recorded": "Grace Huang; Michelle Ta"
+   }
+  ],
   "practitioner": "Grace Huang; Michelle Ta",
   "price": "$165 initial · $100-$165 follow-up",
   "price_source": "Jane App booking page, live browser read 2026-11-01: Clinical Pilates — Initial/Subsequent 60min $165; 45min $140; 30min $100.",
@@ -481,10 +947,18 @@
   "batch": "batch-003"
  },
  {
+  "id": "treloar-physiotherapy-kerrisdale-vancouver--clinical-pilates",
   "clinic_id": "treloar-physiotherapy-kerrisdale-vancouver",
   "clinic_name": "Treloar Physiotherapy — Kerrisdale",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "treloar-physiotherapy-kerrisdale-vancouver--yvonne-lynch",
+    "name": "Yvonne Lynch",
+    "as_recorded": "Yvonne Lynch"
+   }
+  ],
   "practitioner": "Yvonne Lynch",
   "price": "$150 initial (45 min) · $105-$195 follow-up",
   "price_source": "Clinic's own Jane App booking page https://treloarphysio.janeapp.com/locations/treloar-physiotherapy-kerrisdale/book — Clinical Pilates discipline: Clinical Pilates Initial Assessment (45 min) $150, Clinical Pilates Initial Assessment (60 min) $195, Clinical Pilates Follow-Up (30 min) $105, Clinical Pilates Follow-Up (45 min) $150, Clinical Pilates Follow-Up (60 min) $195. Note clinic's own rates page lists slightly different Pilates Physiotherapy prices, Jane booking prices were used per instructions.",
@@ -494,10 +968,23 @@
   "batch": "batch-003"
  },
  {
+  "id": "envision-physiotherapy-south-granville-vancouver--clinical-pilates",
   "clinic_id": "envision-physiotherapy-south-granville-vancouver",
   "clinic_name": "Envision Physiotherapy — South Granville",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "envision-physiotherapy-south-granville-vancouver--marlis-vos",
+    "name": "Marlis Vos",
+    "as_recorded": "Marlis Vos, Allison Evers"
+   },
+   {
+    "id": "envision-physiotherapy-south-granville-vancouver--allison-evers",
+    "name": "Allison Evers",
+    "as_recorded": "Marlis Vos, Allison Evers"
+   }
+  ],
   "practitioner": "Marlis Vos, Allison Evers",
   "price": "$150 initial (45 min) · $105-$200 follow-up",
   "price_source": "Clinic's own Jane App booking page https://envisionphysio.janeapp.com/locations/south-granville/book — Physio Pilates discipline: Initial Physio Pilates (45 minutes) $150, Initial Physio Pilates (60 minutes) $200, Physio Pilates (30 minutes) $105, Physio Pilates (45 minutes) $150, Physio Pilates (60 minutes) $200. Separate non-physio 'Pilates with a Pilates Instructor' $157.50 also listed and not used for this price.",
@@ -507,10 +994,18 @@
   "batch": "batch-003"
  },
  {
+  "id": "envision-physiotherapy-false-creek-vancouver--clinical-pilates",
   "clinic_id": "envision-physiotherapy-false-creek-vancouver",
   "clinic_name": "Envision Physiotherapy — False Creek",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "envision-physiotherapy-false-creek-vancouver--allison-evers",
+    "name": "Allison Evers",
+    "as_recorded": "Allison Evers"
+   }
+  ],
   "practitioner": "Allison Evers",
   "price": "$150 initial (45 min) · $105-$200 follow-up",
   "price_source": "Clinic's own Jane App booking page https://envisionphysio.janeapp.com/locations/false-creek/book — Physio Pilates discipline: Initial Physio Pilates (45 minutes) $150, Initial Physio Pilates (60 minutes) $200, Physio Pilates (30 minutes) $105, Physio Pilates (45 minutes) $150, Physio Pilates (60 minutes) $200",
@@ -520,10 +1015,12 @@
   "batch": "batch-003"
  },
  {
+  "id": "haven-wellness-collective-vancouver--clinical-pilates",
   "clinic_id": "haven-wellness-collective-vancouver",
   "clinic_name": "Haven Wellness Collective",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [],
   "practitioner": null,
   "price": null,
   "price_source": null,
@@ -533,10 +1030,18 @@
   "batch": "batch-003"
  },
  {
+  "id": "seven-summits-rehab-and-health-vancouver--clinical-pilates",
   "clinic_id": "seven-summits-rehab-and-health-vancouver",
   "clinic_name": "Seven Summits Rehab and Health",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "seven-summits-rehab-and-health-vancouver--james-mcdermott",
+    "name": "James McDermott",
+    "as_recorded": "James McDermott"
+   }
+  ],
   "practitioner": "James McDermott",
   "price": "$185 initial · $105-$180 follow-up",
   "price_source": "Clinic's own Jane App booking page https://sevensummitsrehab.janeapp.com/ — Clinical Pilates Reformer discipline: Clinical Pilates Reformer Initial Assessment (60 mins) $185 (also listed as New Patient - Clinical Pilates Reformer Initial Assessment (60 mins) $185), Clinical Pilates Reformer Follow-up Long Session (60 mins) $180, Clinical Pilates Reformer Follow-up Session (30 mins) $105",
@@ -546,10 +1051,23 @@
   "batch": "batch-003"
  },
  {
+  "id": "launch-rehab-north-burnaby-burnaby--clinical-pilates",
   "clinic_id": "launch-rehab-north-burnaby-burnaby",
   "clinic_name": "Launch Rehab — North Burnaby",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "launch-rehab-north-burnaby-burnaby--lauren",
+    "name": "Lauren",
+    "as_recorded": "Lauren; Wen Yu"
+   },
+   {
+    "id": "launch-rehab-north-burnaby-burnaby--wen-yu",
+    "name": "Wen Yu",
+    "as_recorded": "Lauren; Wen Yu"
+   }
+  ],
   "practitioner": "Lauren; Wen Yu",
   "price": "$195 initial (60 min) · $105 follow-up (30 min) · $195 follow-up (60 min)",
   "price_source": "Jane App booking page text fetch (https://launch.janeapp.com/locations/launch-rehab-north-burnaby/book) rendered staff bios only, no treatment prices; pricing therefore taken from the clinic's own rates page https://launchrehab.ca/rates/ — Clinical Pilates section, 'Available at Lougheed, Coquitlam, and North Burnaby', effective April 1, 2026: Initial Assessment (60 min) $195, Subsequent (30 min) $105, Subsequent (60 min) $195",
@@ -559,10 +1077,12 @@
   "batch": "batch-004"
  },
  {
+  "id": "pivotal-physiotherapy-edmonton--clinical-pilates",
   "clinic_id": "pivotal-physiotherapy-edmonton",
   "clinic_name": "Pivotal Physiotherapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [],
   "practitioner": null,
   "price": "$165 assessment and 1-hour treatment follow-up · $100 30-minute follow-up",
   "price_source": "Clinic's own Pilates-Based Physiotherapy service page (https://pivotalphysio.com/services/pilates-based-physiotherapy/ — 'Fee: $165 Assessment and 1-hour treatment follow up, $100 30-minute follow up | Locations: High Performance Centre'); Pivotal has no Jane App or equivalent self-serve online booking page where prices could be taken from, so the clinic's own service page is the price source",
@@ -572,10 +1092,18 @@
   "batch": "batch-004"
  },
  {
+  "id": "nxt-generation-physio-homa-montreal--clinical-pilates",
   "clinic_id": "nxt-generation-physio-homa-montreal",
   "clinic_name": "Nxt Generation PHYSIO — Homa",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "nxt-generation-physio-homa-montreal--thalie-forest",
+    "name": "Thalie Forest",
+    "as_recorded": "Thalie Forest"
+   }
+  ],
   "practitioner": "Thalie Forest",
   "price": null,
   "price_source": null,
@@ -585,10 +1113,18 @@
   "batch": "batch-004"
  },
  {
+  "id": "physio-motiva-montreal--clinical-pilates",
   "clinic_id": "physio-motiva-montreal",
   "clinic_name": "Physio Motiva",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "physio-motiva-montreal--leah-glassman",
+    "name": "Leah Glassman",
+    "as_recorded": "Leah Glassman"
+   }
+  ],
   "practitioner": "Leah Glassman",
   "price": null,
   "price_source": null,
@@ -598,10 +1134,28 @@
   "batch": "batch-004"
  },
  {
+  "id": "physio-solution-active-montreal--clinical-pilates",
   "clinic_id": "physio-solution-active-montreal",
   "clinic_name": "Physio Solution Active",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "physio-solution-active-montreal--jo-annie",
+    "name": "Jo-Annie",
+    "as_recorded": "Jo-Annie; Jessica; Cassandra"
+   },
+   {
+    "id": "physio-solution-active-montreal--jessica",
+    "name": "Jessica",
+    "as_recorded": "Jo-Annie; Jessica; Cassandra"
+   },
+   {
+    "id": "physio-solution-active-montreal--cassandra",
+    "name": "Cassandra",
+    "as_recorded": "Jo-Annie; Jessica; Cassandra"
+   }
+  ],
   "practitioner": "Jo-Annie; Jessica; Cassandra",
   "price": "$24 + taxes individual class · $110 + taxes 5-class pack ($22 + taxes per class) · $200 + taxes 10-class pack ($20 + taxes per class)",
   "price_source": "Clinic's own Pilates service page (https://physiosa.ca/en/pilates/), 'Prices' section — this clinic has no online booking platform (no Jane App/GoRendezVous) on which prices could be checked; Pilates registration is via a form on that page, so the website service-page prices are used as the fallback. The page lists these as group Pilates class prices (private sessions also offered, price on request by phone).",
@@ -611,10 +1165,28 @@
   "batch": "batch-004"
  },
  {
+  "id": "tuxedo-physiotherapy-winnipeg--clinical-pilates",
   "clinic_id": "tuxedo-physiotherapy-winnipeg",
   "clinic_name": "Tuxedo Physiotherapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "tuxedo-physiotherapy-winnipeg--anna-dimarco",
+    "name": "Anna DiMarco",
+    "as_recorded": "Anna DiMarco; Lisa Mills-Hutton; Jana Loney"
+   },
+   {
+    "id": "tuxedo-physiotherapy-winnipeg--lisa-mills-hutton",
+    "name": "Lisa Mills-Hutton",
+    "as_recorded": "Anna DiMarco; Lisa Mills-Hutton; Jana Loney"
+   },
+   {
+    "id": "tuxedo-physiotherapy-winnipeg--jana-loney",
+    "name": "Jana Loney",
+    "as_recorded": "Anna DiMarco; Lisa Mills-Hutton; Jana Loney"
+   }
+  ],
   "practitioner": "Anna DiMarco; Lisa Mills-Hutton; Jana Loney",
   "price": "$80 initial (45-min virtual physiotherapy assessment) · $60 follow-up (30-min virtual physiotherapy treatment)",
   "price_source": "Booking page (PracticePerfect) renders no prices, so pricing falls back to the clinic's own website: Clinical Pilates has no separate pricing — the clinic's Clinical Pilates handout (own-site PDF, treatment_link) states Clinical Pilates 'is used in conjunction with traditional physiotherapy treatment' and 'is covered by most extended medical plans under physiotherapy' — so PHYSIOTHERAPY pricing is recorded per the pricing rule, taken from the clinic's own 'Physio by Video' handout (https://e88c4c5f-e44f-4334-b470-4936a6f63fdf.filesusr.com/ugd/b64acc_f59db7a2c20f4c73a37bae4bbde4665c.pdf): '$80 for 45 Minute Virtual Physiotherapy Assessment' and '$60 for 30 Minute Virtual Physiotherapy Treatment'. Caveat: these are the only prices published on the clinic's own site and are for virtual physiotherapy; no in-person fee schedule was found.",
@@ -624,10 +1196,48 @@
   "batch": "batch-004"
  },
  {
+  "id": "synergy-physiotherapy-and-pilates-halifax--clinical-pilates",
   "clinic_id": "synergy-physiotherapy-and-pilates-halifax",
   "clinic_name": "Synergy Physiotherapy and Pilates",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "synergy-physiotherapy-and-pilates-halifax--martha-purdy",
+    "name": "Martha Purdy",
+    "as_recorded": "Martha Purdy; Francesca; Jenna; Jalisa den Hartog; Victoria; Ulla; Amy Prescott"
+   },
+   {
+    "id": "synergy-physiotherapy-and-pilates-halifax--francesca",
+    "name": "Francesca",
+    "as_recorded": "Martha Purdy; Francesca; Jenna; Jalisa den Hartog; Victoria; Ulla; Amy Prescott"
+   },
+   {
+    "id": "synergy-physiotherapy-and-pilates-halifax--jenna",
+    "name": "Jenna",
+    "as_recorded": "Martha Purdy; Francesca; Jenna; Jalisa den Hartog; Victoria; Ulla; Amy Prescott"
+   },
+   {
+    "id": "synergy-physiotherapy-and-pilates-halifax--jalisa-den-hartog",
+    "name": "Jalisa den Hartog",
+    "as_recorded": "Martha Purdy; Francesca; Jenna; Jalisa den Hartog; Victoria; Ulla; Amy Prescott"
+   },
+   {
+    "id": "synergy-physiotherapy-and-pilates-halifax--victoria",
+    "name": "Victoria",
+    "as_recorded": "Martha Purdy; Francesca; Jenna; Jalisa den Hartog; Victoria; Ulla; Amy Prescott"
+   },
+   {
+    "id": "synergy-physiotherapy-and-pilates-halifax--ulla",
+    "name": "Ulla",
+    "as_recorded": "Martha Purdy; Francesca; Jenna; Jalisa den Hartog; Victoria; Ulla; Amy Prescott"
+   },
+   {
+    "id": "synergy-physiotherapy-and-pilates-halifax--amy-prescott",
+    "name": "Amy Prescott",
+    "as_recorded": "Martha Purdy; Francesca; Jenna; Jalisa den Hartog; Victoria; Ulla; Amy Prescott"
+   }
+  ],
   "practitioner": "Martha Purdy; Francesca; Jenna; Jalisa den Hartog; Victoria; Ulla; Amy Prescott",
   "price": "$300-$330 / 10-11 wk Mat PhysioPilates classes",
   "price_source": "Clinic's own Jane App booking page text (https://synergystudio.janeapp.com/) rendered practitioner bios only, no prices; fallback to clinic's own current Term 1 class schedule PDF on synergyphysiopilates.ca (https://www.synergyphysiopilates.ca/_files/ugd/0288c2_644ef8f993f24a6db2eb1f3b8c4f5faf.pdf) listing 'Mat Classes $300/330: 10-11 wks' — PhysioPilates is billed as Group Physiotherapy (clinic's Fee Schedule lists it as 'Group Physiotherapy Class (PhysioPilates)'), so group physiotherapy class pricing is recorded",
@@ -637,10 +1247,23 @@
   "batch": "batch-004"
  },
  {
+  "id": "cru-physiotherapy-and-pilates-edmonton--clinical-pilates",
   "clinic_id": "cr-physiotherapy-and-pilates-edmonton",
   "clinic_name": "Crû Physiotherapy and Pilates",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "cru-physiotherapy-and-pilates-edmonton--kim-gibas",
+    "name": "Kim Gibas",
+    "as_recorded": "Kim Gibas; Abbey Oke"
+   },
+   {
+    "id": "cru-physiotherapy-and-pilates-edmonton--abbey-oke",
+    "name": "Abbey Oke",
+    "as_recorded": "Kim Gibas; Abbey Oke"
+   }
+  ],
   "practitioner": "Kim Gibas; Abbey Oke",
   "price": "$180 assessment · $110-$180 follow-up",
   "price_source": "Jane App booking page, live browser read 2026-11-01: Clinical Pilates — Assessment 60min $180; Treatment 60min $180 / 30min $110; duo/trio/small-group and kinesiologist-led options also listed at lower rates.",
@@ -650,10 +1273,18 @@
   "batch": "batch-004"
  },
  {
+  "id": "lakeview-physiotherapy-calgary--clinical-pilates",
   "clinic_id": "lakeview-physiotherapy-calgary",
   "clinic_name": "Lakeview Physiotherapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "lakeview-physiotherapy-calgary--leah-milne",
+    "name": "Leah Milne",
+    "as_recorded": "Leah Milne"
+   }
+  ],
   "practitioner": "Leah Milne",
   "price": "$150 initial · $110-$150 follow-up",
   "price_source": "Jane App booking page, live browser read 2026-11-01 (Lakeview Movement Studio location): Physio Pilates with Leah Milne — Initial Assessment 60min $150; Follow Up 60min $150 / 30min $110; duet and group options also listed.",
@@ -663,10 +1294,12 @@
   "batch": "batch-004"
  },
  {
+  "id": "cochrane-sport-physio-cochrane--clinical-pilates",
   "clinic_id": "cochrane-sport-physio-cochrane",
   "clinic_name": "Cochrane Sport Physio",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [],
   "practitioner": null,
   "price": null,
   "price_source": null,
@@ -676,10 +1309,12 @@
   "batch": "batch-004"
  },
  {
+  "id": "kachan-roy-physiotherapy-halifax--clinical-pilates",
   "clinic_id": "kachan-roy-physiotherapy-halifax",
   "clinic_name": "Kachan Roy Physiotherapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [],
   "practitioner": null,
   "price": "$125 one-on-one · $140 per 5-session program",
   "price_source": "Clinic's own Rates page (via kachanroyphysio.ca), read 2026-11-01: Pilates one-on-one 60min $125; Foundations/Intermediate/Advanced 5-session programs $140 each.",
@@ -689,10 +1324,38 @@
   "batch": "batch-004"
  },
  {
+  "id": "zenith-physio-pilates-mahone-bay--clinical-pilates",
   "clinic_id": "zenith-physio-pilates-mahone-bay",
   "clinic_name": "Zenith Physio Pilates",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "zenith-physio-pilates-mahone-bay--kathleen-chance",
+    "name": "Kathleen Chance",
+    "as_recorded": "Kathleen Chance; Amelia Bishop; Emma Quigley; Jalisa den Hartog; Rebecca Libby"
+   },
+   {
+    "id": "zenith-physio-pilates-mahone-bay--amelia-bishop",
+    "name": "Amelia Bishop",
+    "as_recorded": "Kathleen Chance; Amelia Bishop; Emma Quigley; Jalisa den Hartog; Rebecca Libby"
+   },
+   {
+    "id": "zenith-physio-pilates-mahone-bay--emma-quigley",
+    "name": "Emma Quigley",
+    "as_recorded": "Kathleen Chance; Amelia Bishop; Emma Quigley; Jalisa den Hartog; Rebecca Libby"
+   },
+   {
+    "id": "zenith-physio-pilates-mahone-bay--jalisa-den-hartog",
+    "name": "Jalisa den Hartog",
+    "as_recorded": "Kathleen Chance; Amelia Bishop; Emma Quigley; Jalisa den Hartog; Rebecca Libby"
+   },
+   {
+    "id": "zenith-physio-pilates-mahone-bay--rebecca-libby",
+    "name": "Rebecca Libby",
+    "as_recorded": "Kathleen Chance; Amelia Bishop; Emma Quigley; Jalisa den Hartog; Rebecca Libby"
+   }
+  ],
   "practitioner": "Kathleen Chance; Amelia Bishop; Emma Quigley; Jalisa den Hartog; Rebecca Libby",
   "price": null,
   "price_source": null,
@@ -702,10 +1365,18 @@
   "batch": "batch-004"
  },
  {
+  "id": "embodied-physiotherapy-and-pilates-vancouver--clinical-pilates",
   "clinic_id": "embodied-physiotherapy-and-pilates-vancouver",
   "clinic_name": "Embodied Physiotherapy and Pilates",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "embodied-physiotherapy-and-pilates-vancouver--catherine-murray",
+    "name": "Catherine Murray",
+    "as_recorded": "Catherine Murray"
+   }
+  ],
   "practitioner": "Catherine Murray",
   "price": "$135 per session (private pay)",
   "price_source": "Jane App booking page, live browser read 2026-11-01: Catherine Murray — 'Private pay Clinical Pilates session' 55min $135, explicitly noted on the booking page as NOT billable for extended medical; collaborative-care session with a Pilates instructor $145. Recorded for completeness; this clinic's Pilates is not an insurance-billable service per its own booking page.",
@@ -715,10 +1386,18 @@
   "batch": "batch-004"
  },
  {
+  "id": "cadence-physiotherapy-rehab-vancouver--clinical-pilates",
   "clinic_id": "cadence-physiotherapy-rehab-vancouver",
   "clinic_name": "Cadence Physiotherapy & Rehab",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "cadence-physiotherapy-rehab-vancouver--medis-shojaei",
+    "name": "Medis Shojaei",
+    "as_recorded": "Medis Shojaei"
+   }
+  ],
   "practitioner": "Medis Shojaei",
   "price": "$175 assessment · $150 follow-up",
   "price_source": "Jane App booking page, live browser read 2026-11-01: Clinical Pilates Physiotherapy — Assessment 60min $175; 1:1 Follow Up 60min $150; duet assessment $110 / follow-up $90.",
@@ -728,10 +1407,18 @@
   "batch": "batch-004"
  },
  {
+  "id": "pre-therapy-burnaby--clinical-pilates",
   "clinic_id": "pre-therapy-burnaby",
   "clinic_name": "PRE Therapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "pre-therapy-burnaby--michelle-ta",
+    "name": "Michelle Ta",
+    "as_recorded": "Michelle Ta"
+   }
+  ],
   "practitioner": "Michelle Ta",
   "price": "$120 initial (30 min) · $120 follow-up (30 min) · $165 (45 min) · $195 follow-up (60 min)",
   "price_source": "Jane App booking page text fetch (https://pretherapy.janeapp.com/locations/pre-therapy-laurel/book) rendered staff bios only, no treatment prices; pricing therefore taken from the clinic's own Clinical Reformer Pilates page https://www.pretherapy.ca/clinical-reformer-pilates — Pricing section, 'Offered at Laurel & South Surrey': Initial · 30 min $120, Subsequent · 30 min $120, 45 min $165, Subsequent · 60 min $195, 'Prices are in CAD and current as of 2026'. The page states Reformer Pilates sessions are part of a clinical treatment plan and may be covered under physiotherapy benefits. The 45-minute line is labelled only '45 min' on the page (not marked initial/subsequent).",
@@ -741,10 +1428,28 @@
   "batch": "batch-004"
  },
  {
+  "id": "be-yoga-wellness-burlington--clinical-pilates",
   "clinic_id": "be-yoga-wellness-burlington",
   "clinic_name": "Be Yoga & Wellness",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "be-yoga-wellness-burlington--ava-f",
+    "name": "Ava F",
+    "as_recorded": "Ava F (Registered Physiotherapist — virtual assessment/prescription only); Pilates sessions delivered by Physiotherapy Assistants Katerina P and Sheena Poitevin"
+   },
+   {
+    "id": "be-yoga-wellness-burlington--katerina-p",
+    "name": "Katerina P",
+    "as_recorded": "Ava F (Registered Physiotherapist — virtual assessment/prescription only); Pilates sessions delivered by Physiotherapy Assistants Katerina P and Sheena Poitevin"
+   },
+   {
+    "id": "be-yoga-wellness-burlington--sheena-poitevin",
+    "name": "Sheena Poitevin",
+    "as_recorded": "Ava F (Registered Physiotherapist — virtual assessment/prescription only); Pilates sessions delivered by Physiotherapy Assistants Katerina P and Sheena Poitevin"
+   }
+  ],
   "practitioner": "Ava F (Registered Physiotherapist — virtual assessment/prescription only); Pilates sessions delivered by Physiotherapy Assistants Katerina P and Sheena Poitevin",
   "price": null,
   "price_source": "Practitioner audit 2026-11-01 (rule v2): FAIL — same pattern as JC Clinic. The only PT (Ava F) does virtual assessments and prescribes; the in-studio Clinical Pilates/Reformer sessions are carried out by Physiotherapy Assistants Katerina P and Sheena Poitevin. The recorded physio price ($145/$130) therefore does NOT price the delivered Pilates sessions. Price struck until the assistants' actual session price is published.",
@@ -754,10 +1459,12 @@
   "batch": "batch-005"
  },
  {
+  "id": "fitness-physiotherapy-winnipeg--clinical-pilates",
   "clinic_id": "fitness-physiotherapy-winnipeg",
   "clinic_name": "Fitness Physiotherapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [],
   "practitioner": null,
   "price": null,
   "price_source": null,
@@ -767,10 +1474,23 @@
   "batch": "batch-005"
  },
  {
+  "id": "clinique-inspiration-laval--clinical-pilates",
   "clinic_id": "clinique-inspiration-laval",
   "clinic_name": "Clinique Inspiration",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "clinique-inspiration-laval--edith-noel",
+    "name": "Edith Noel",
+    "as_recorded": "Edith Noel; Pascale Dupont"
+   },
+   {
+    "id": "clinique-inspiration-laval--pascale-dupont",
+    "name": "Pascale Dupont",
+    "as_recorded": "Edith Noel; Pascale Dupont"
+   }
+  ],
   "practitioner": "Edith Noel; Pascale Dupont",
   "price": null,
   "price_source": null,
@@ -780,10 +1500,12 @@
   "batch": "batch-005"
  },
  {
+  "id": "clinique-physiotherapie-universelle-vaudreuil--clinical-pilates",
   "clinic_id": "clinique-physioth-rapie-universelle-vaudreuil",
   "clinic_name": "Clinique Physiothérapie Universelle",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [],
   "practitioner": null,
   "price": null,
   "price_source": null,
@@ -793,10 +1515,18 @@
   "batch": "batch-005"
  },
  {
+  "id": "northwood-pelvic-health-and-wellness-clinic-nanaimo--clinical-pilates",
   "clinic_id": "northwood-pelvic-health-and-wellness-clinic-nanaimo",
   "clinic_name": "Northwood Pelvic Health and Wellness Clinic",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "northwood-pelvic-health-and-wellness-clinic-nanaimo--janice",
+    "name": "Janice",
+    "as_recorded": "Janice"
+   }
+  ],
   "practitioner": "Janice",
   "price": null,
   "price_source": null,
@@ -806,10 +1536,12 @@
   "batch": "batch-005"
  },
  {
+  "id": "progression-clinic-physiotherapy-vancouver-massage-therapy-clinic-vancouver--clinical-pilates",
   "clinic_id": "progression-clinic-physiotherapy-vancouver-massage-therapy-clinic-vancouver",
   "clinic_name": "Progression Clinic | Physiotherapy Vancouver & Massage Therapy Clinic",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [],
   "practitioner": null,
   "price": null,
   "price_source": null,
@@ -819,10 +1551,18 @@
   "batch": "batch-005"
  },
  {
+  "id": "chris-tierney-physiotherapy-vancouver--clinical-pilates",
   "clinic_id": "chris-tierney-physiotherapy-vancouver",
   "clinic_name": "Chris Tierney PHYSIOTHERAPY",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "chris-tierney-physiotherapy-vancouver--chris-tierney",
+    "name": "Chris Tierney",
+    "as_recorded": "Chris Tierney"
+   }
+  ],
   "practitioner": "Chris Tierney",
   "price": null,
   "price_source": null,
@@ -832,10 +1572,23 @@
   "batch": "batch-005"
  },
  {
+  "id": "metrotown-orthopedic-sports-physiotherapy-burnaby--clinical-pilates",
   "clinic_id": "metrotown-orthopedic-sports-physiotherapy-burnaby",
   "clinic_name": "Metrotown Orthopedic & Sports Physiotherapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "metrotown-orthopedic-sports-physiotherapy-burnaby--diane-rizzardo",
+    "name": "Diane Rizzardo",
+    "as_recorded": "Diane Rizzardo; Mckenzie Summers"
+   },
+   {
+    "id": "metrotown-orthopedic-sports-physiotherapy-burnaby--mckenzie-summers",
+    "name": "Mckenzie Summers",
+    "as_recorded": "Diane Rizzardo; Mckenzie Summers"
+   }
+  ],
   "practitioner": "Diane Rizzardo; Mckenzie Summers",
   "price": null,
   "price_source": null,
@@ -845,10 +1598,23 @@
   "batch": "batch-005"
  },
  {
+  "id": "moves-you-physiotherapy-coquitlam--clinical-pilates",
   "clinic_id": "moves-you-physiotherapy-coquitlam",
   "clinic_name": "Moves You Physiotherapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "moves-you-physiotherapy-coquitlam--michelle-gibson",
+    "name": "Michelle Gibson",
+    "as_recorded": "Michelle Gibson; Puloma Kaushal"
+   },
+   {
+    "id": "moves-you-physiotherapy-coquitlam--puloma-kaushal",
+    "name": "Puloma Kaushal",
+    "as_recorded": "Michelle Gibson; Puloma Kaushal"
+   }
+  ],
   "practitioner": "Michelle Gibson; Puloma Kaushal",
   "price": null,
   "price_source": null,
@@ -858,10 +1624,23 @@
   "batch": "batch-005"
  },
  {
+  "id": "shelbourne-physiotherapy-victoria--clinical-pilates",
   "clinic_id": "shelbourne-physiotherapy-victoria",
   "clinic_name": "Shelbourne Physiotherapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "shelbourne-physiotherapy-victoria--penny-salmas",
+    "name": "Penny Salmas",
+    "as_recorded": "Penny Salmas; Kathy Murdoch"
+   },
+   {
+    "id": "shelbourne-physiotherapy-victoria--kathy-murdoch",
+    "name": "Kathy Murdoch",
+    "as_recorded": "Penny Salmas; Kathy Murdoch"
+   }
+  ],
   "practitioner": "Penny Salmas; Kathy Murdoch",
   "price": "$28 + tax / class Foundations · $210 + tax Welcome Package (3 private sessions) · $70 + tax 1-hour private intro session",
   "price_source": "Clinic's own Jane App booking page rendered staff bios only with no Pilates prices; pricing therefore taken from the clinic's own Pilates site — Pilates Victoria (pilatesvictoriabc.ca), linked from shelbournephysio.ca as its Pilates website — FAQ page https://pilatesvictoriabc.ca/frequently-asked-questions/ : Foundations classes 'Price – $28 + tax / class', Welcome Package (3 private Pilates sessions, recommended for injuries/rehabilitative focus) 'Price – $210 + tax / 3 sessions', and a one-hour private session for experienced clients 'Price – $70 + tax / 1 hour session'. No separate Clinical Pilates fee schedule is published; that FAQ states Clinical Pilates sessions recommended by a Physiotherapist as part of a treatment plan may be covered under extended health benefits or an ICBC claim",
@@ -871,10 +1650,12 @@
   "batch": "batch-005"
  },
  {
+  "id": "concept-physiotherapy-vernon--clinical-pilates",
   "clinic_id": "concept-physiotherapy-vernon",
   "clinic_name": "Concept Physiotherapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [],
   "practitioner": null,
   "price": null,
   "price_source": null,
@@ -884,10 +1665,18 @@
   "batch": "batch-005"
  },
  {
+  "id": "adventure-physiotherapy-downtown-grande-prairie--clinical-pilates",
   "clinic_id": "adventure-physiotherapy-downtown-grande-prairie",
   "clinic_name": "Adventure Physiotherapy - Downtown",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "adventure-physiotherapy-downtown-grande-prairie--tori-smith",
+    "name": "Tori Smith",
+    "as_recorded": "Tori Smith"
+   }
+  ],
   "practitioner": "Tori Smith",
   "price": null,
   "price_source": null,
@@ -897,10 +1686,18 @@
   "batch": "batch-005"
  },
  {
+  "id": "adventure-physiotherapy-grande-prairie--clinical-pilates",
   "clinic_id": "adventure-physiotherapy-grande-prairie",
   "clinic_name": "Adventure Physiotherapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "adventure-physiotherapy-grande-prairie--tori-smith",
+    "name": "Tori Smith",
+    "as_recorded": "Tori Smith"
+   }
+  ],
   "practitioner": "Tori Smith",
   "price": null,
   "price_source": null,
@@ -910,10 +1707,18 @@
   "batch": "batch-005"
  },
  {
+  "id": "cathy-watson-physiotherapy-vernon--clinical-pilates",
   "clinic_id": "cathy-watson-physiotherapy-vernon",
   "clinic_name": "Cathy Watson Physiotherapy",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "cathy-watson-physiotherapy-vernon--cathy-watson",
+    "name": "Cathy Watson",
+    "as_recorded": "Cathy Watson"
+   }
+  ],
   "practitioner": "Cathy Watson",
   "price": null,
   "price_source": null,
@@ -923,10 +1728,23 @@
   "batch": "batch-005"
  },
  {
+  "id": "my-physio-pilates-ltd-toronto--clinical-pilates",
   "clinic_id": "my-physio-pilates-ltd-toronto",
   "clinic_name": "My Physio Pilates LTD",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "my-physio-pilates-ltd-toronto--luciano-gouvea",
+    "name": "Luciano Gouvea",
+    "as_recorded": "Luciano Gouvea; Fábia Gouvea"
+   },
+   {
+    "id": "my-physio-pilates-ltd-toronto--fabia-gouvea",
+    "name": "Fábia Gouvea",
+    "as_recorded": "Luciano Gouvea; Fábia Gouvea"
+   }
+  ],
   "practitioner": "Luciano Gouvea; Fábia Gouvea",
   "price": null,
   "price_source": null,
@@ -936,10 +1754,23 @@
   "batch": "batch-005"
  },
  {
+  "id": "revive-physiotherapy-performance-hamilton--clinical-pilates",
   "clinic_id": "revive-physiotherapy-performance-hamilton",
   "clinic_name": "Revive Physiotherapy & Performance",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
+  "practitioners": [
+   {
+    "id": "revive-physiotherapy-performance-hamilton--shawna-stewart",
+    "name": "Shawna Stewart",
+    "as_recorded": "Shawna Stewart and Debra Vanderaar (STOTT Pilates Certified Instructors) deliver the Pilates sessions; physiotherapists handle assessment"
+   },
+   {
+    "id": "revive-physiotherapy-performance-hamilton--debra-vanderaar",
+    "name": "Debra Vanderaar",
+    "as_recorded": "Shawna Stewart and Debra Vanderaar (STOTT Pilates Certified Instructors) deliver the Pilates sessions; physiotherapists handle assessment"
+   }
+  ],
   "practitioner": "Shawna Stewart and Debra Vanderaar (STOTT Pilates Certified Instructors) deliver the Pilates sessions; physiotherapists handle assessment",
   "price": null,
   "price_source": "Jane App (rendered, read 2026-11-01): 'Rehabilitative Pilates' is listed for STOTT instructors Shawna Stewart and Debra Vanderaar with NO price and no duration. Their priced Pilates services (One-on-One $100/50 min, Small Group $55) are instructor-led Pilates, not physiotherapy-billed, so no price is recorded for the physio-billed treatment (rule v2).",
@@ -949,10 +1780,18 @@
   "batch": "batch-006"
  },
  {
+  "id": "jm-nutrition-toronto--sports-nutrition",
   "clinic_id": "jm-nutrition-toronto",
   "clinic_name": "JM Nutrition",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "jm-nutrition-toronto--pamela-mitri",
+    "name": "Pamela Mitri",
+    "as_recorded": "Pamela Mitri, MSc, RD"
+   }
+  ],
   "practitioner": "Pamela Mitri, MSc, RD",
   "price": "$145 initial (1 hr) · $80 follow-up (30 min)",
   "price_source": "The clinic's own Toronto location page at https://www.julienutrition.com/locations/nutritionists-dietitians-toronto/ states 'An initial appointment with a nutritionist and dietitian in Toronto costs $145 per hour' and 'A follow-up appointment with a nutritionist and dietitian in Toronto costs $80 for 30-minutes'; JM Nutrition has no Jane App / online booking page with separate service pricing, so this own-site fees statement is used, and no separate Sports Nutrition price is published - the standard dietitian counselling fees apply.",
@@ -962,10 +1801,23 @@
   "batch": "batch-006"
  },
  {
+  "id": "studio-athletica-toronto--sports-nutrition",
   "clinic_id": "studio-athletica-toronto",
   "clinic_name": "Studio Athletica",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "studio-athletica-toronto--stephanie-small",
+    "name": "Stephanie Small",
+    "as_recorded": "Stephanie Small, Registered Dietitian; Olivia Cupido"
+   },
+   {
+    "id": "studio-athletica-toronto--olivia-cupido",
+    "name": "Olivia Cupido",
+    "as_recorded": "Stephanie Small, Registered Dietitian; Olivia Cupido"
+   }
+  ],
   "practitioner": "Stephanie Small, Registered Dietitian; Olivia Cupido",
   "price": "$295 initial program · $195 monthly follow-up",
   "price_source": "The clinic's own Performance Nutrition page at https://www.studioathletica.com/recovery/nutrition/customized/ lists 'Initial Program Fee = $295' and 'Monthly Follow-Up Consultations = $195' for the Performance Nutrition & Lifestyle Program, and notes 'The Performance Nutrition & Lifestyle Program may be eligible for coverage under extended healthcare benefits for a Registered Dietitian'; the clinic has no online booking page, and no separate price for a standalone Registered Dietitian / Sports Nutrition Counselling consultation is published on its own site, so this own-site program pricing is the closest published Sports Nutrition price.",
@@ -975,10 +1827,18 @@
   "batch": "batch-006"
  },
  {
+  "id": "ascend-rehabilitation-mississauga--sports-nutrition",
   "clinic_id": "ascend-rehabilitation-mississauga",
   "clinic_name": "ASCEND Rehabilitation",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "ascend-rehabilitation-mississauga--ben-sit",
+    "name": "Ben Sit",
+    "as_recorded": "Ben Sit, Registered Dietitian and Sports Dietitian"
+   }
+  ],
   "practitioner": "Ben Sit, Registered Dietitian and Sports Dietitian",
   "price": "$150 initial assessment (60 min) · $75 follow-up (30 min)",
   "price_source": "Jane App booking page (rendered, read 2026-11-01): all dietetics services with Ben Sit, RD — 'Initial Assessment - Dietetics' $150, 'Follow Up Dietetics Session' $75. No separate sports nutrition service; sports work is delivered inside these dietitian consults by the same practitioner.",
@@ -988,10 +1848,18 @@
   "batch": "batch-006"
  },
  {
+  "id": "capital-nutrition-group-ottawa--sports-nutrition",
   "clinic_id": "capital-nutrition-group-ottawa",
   "clinic_name": "Capital Nutrition Group",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "capital-nutrition-group-ottawa--elise-tremblay",
+    "name": "Élise Tremblay",
+    "as_recorded": "Dr. Élise Tremblay, RD, CDE (Clinical Director & Founder)"
+   }
+  ],
   "practitioner": "Dr. Élise Tremblay, RD, CDE (Clinical Director & Founder)",
   "price": "$150 - $220 initial · $90 - $150 follow-up",
   "price_source": "No separate online booking platform (Jane App or equivalent) was found; prices are from the clinic's own homepage (https://www.nutritionistottawa.com/), services section 'Sports & Performance Nutrition', which states '$150 – $220 initial · $90 – $150 follow-up'. The same page's Transparent Pricing section lists a separate Sports Periodization Package at $450 – $1,800, not used here as it is a package rather than the per-session sports nutrition service.",
@@ -1001,10 +1869,18 @@
   "batch": "batch-006"
  },
  {
+  "id": "sport-nutrition-north-ottawa--sports-nutrition",
   "clinic_id": "sport-nutrition-north-ottawa",
   "clinic_name": "Sport Nutrition North",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "sport-nutrition-north-ottawa--veronique-seguin",
+    "name": "Véronique Séguin",
+    "as_recorded": "Véronique Séguin, MSc, RD"
+   }
+  ],
   "practitioner": "Véronique Séguin, MSc, RD",
   "price": "$140 initial · $100 follow-up",
   "price_source": "The clinic has no online booking page; prices are from the clinic's own homepage (https://www.sportnutritionnorth.ca/), 'SINGLE SESSIONS' section, which states 'Initial Consultation (60 minutes) $140' and 'Follow-up Sessions (45 minutes) $100'. Packages on the same page (Sport Nutrition Foundations $320, Fuel for Performance $500, Race Day Package $400) are bundles built on those sessions.",
@@ -1014,10 +1890,28 @@
   "batch": "batch-006"
  },
  {
+  "id": "drrd-nutrition-ottawa--sports-nutrition",
   "clinic_id": "drrd-nutrition-ottawa",
   "clinic_name": "DRRD Nutrition",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "drrd-nutrition-ottawa--maram-saeed",
+    "name": "Maram Saeed",
+    "as_recorded": "Maram Saeed, Natalia Deek, Rana Daoud (Registered Dietitians listed on the sports nutrition page; Rana Daoud is Clinical Dietitian & Founder)"
+   },
+   {
+    "id": "drrd-nutrition-ottawa--natalia-deek",
+    "name": "Natalia Deek",
+    "as_recorded": "Maram Saeed, Natalia Deek, Rana Daoud (Registered Dietitians listed on the sports nutrition page; Rana Daoud is Clinical Dietitian & Founder)"
+   },
+   {
+    "id": "drrd-nutrition-ottawa--rana-daoud",
+    "name": "Rana Daoud",
+    "as_recorded": "Maram Saeed, Natalia Deek, Rana Daoud (Registered Dietitians listed on the sports nutrition page; Rana Daoud is Clinical Dietitian & Founder)"
+   }
+  ],
   "practitioner": "Maram Saeed, Natalia Deek, Rana Daoud (Registered Dietitians listed on the sports nutrition page; Rana Daoud is Clinical Dietitian & Founder)",
   "price": "$135 initial evaluation · $150 nutrition plan · $80 follow-up",
   "price_source": "The clinic's own Dietitian Consultations page (https://www.drrdnutrition.com/services/individual-consultation) lists Nutrition Evaluation $135/50 min, Nutrition Plan $150/50 min and Follow-Up Session $80/20 min; sports nutrition has no separate price and is delivered inside these general Registered Dietitian consultations (the sports nutrition page describes performance work as part of dietitian consultations and links to the same booking portal), so the general dietitian consultation pricing is recorded.",
@@ -1027,10 +1921,23 @@
   "batch": "batch-006"
  },
  {
+  "id": "nepean-sports-medicine-physiotherapy-centre-nepean--sports-nutrition",
   "clinic_id": "nepean-sports-medicine-physiotherapy-centre-nepean",
   "clinic_name": "Nepean Sports Medicine & Physiotherapy Centre",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "nepean-sports-medicine-physiotherapy-centre-nepean--kelly-sant",
+    "name": "Kelly Sant",
+    "as_recorded": "Kelly Sant, RD; Krista Wadden, RD (Registered Dietitian Nutritionists on the clinic's current team page)"
+   },
+   {
+    "id": "nepean-sports-medicine-physiotherapy-centre-nepean--krista-wadden",
+    "name": "Krista Wadden",
+    "as_recorded": "Kelly Sant, RD; Krista Wadden, RD (Registered Dietitian Nutritionists on the clinic's current team page)"
+   }
+  ],
   "practitioner": "Kelly Sant, RD; Krista Wadden, RD (Registered Dietitian Nutritionists on the clinic's current team page)",
   "price": null,
   "price_source": "Jane-pass equivalent check 2026-11-01: no dietitian price published anywhere — the clinic's Book Appointment link leads to a contact page (call 613-727-5755); no online booking price list exists.",
@@ -1040,10 +1947,18 @@
   "batch": "batch-006"
  },
  {
+  "id": "peak-nutrition-toronto--sports-nutrition",
   "clinic_id": "peak-nutrition-toronto",
   "clinic_name": "Peak Nutrition",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "peak-nutrition-toronto--terence-boateng",
+    "name": "Terence Boateng",
+    "as_recorded": "Terence Boateng, MHSc, RD, CSEP-CE (Registered Dietitian and Certified Exercise Physiologist; the clinic's own homepage confirms the RD, Certified Exercise Physiologist and Master's of Health Science credentials)"
+   }
+  ],
   "practitioner": "Terence Boateng, MHSc, RD, CSEP-CE (Registered Dietitian and Certified Exercise Physiologist; the clinic's own homepage confirms the RD, Certified Exercise Physiologist and Master's of Health Science credentials)",
   "price": "$150 one-time session · $350 meal plan package · $500 four-session package",
   "price_source": "No online booking page exists, so prices come from the clinic's own services page: the Health & Performance page (https://peaknutrition.ca/health-and-performance/) includes a sports nutrition section ('Optimized Nutrition for Peak Performance — sports nutrition designed to fuel your body, enhance recovery, and improve endurance') and lists One-Time Session $150.00 (60-minute initial assessment), Meal Plan Package $350.00 and Four Session Package $500.00 on that same page.",
@@ -1053,10 +1968,18 @@
   "batch": "batch-006"
  },
  {
+  "id": "the-spot-rehab-performance-recovery-markham--sports-nutrition",
   "clinic_id": "the-spot-rehab-performance-recovery-markham",
   "clinic_name": "The Spot Rehab Performance & Recovery",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "the-spot-rehab-performance-recovery-markham--erica-kao",
+    "name": "Erica Kao",
+    "as_recorded": "Erica Kao, Registered Dietitian"
+   }
+  ],
   "practitioner": "Erica Kao, Registered Dietitian",
   "price": "$180 initial nutrition assessment (60 min) · $90 follow-up (30 min) / $180 (60 min)",
   "price_source": "Jane App booking page (rendered, read 2026-11-01): all nutrition services with Erica Kao, RD (bio notes sports nutrition focus). Sports nutrition has no separate price — it is delivered inside her dietitian consults, so her consult prices apply (same-practitioner rule satisfied).",
@@ -1066,10 +1989,18 @@
   "batch": "batch-006"
  },
  {
+  "id": "the-longevity-lab-calgary--sports-nutrition",
   "clinic_id": "the-longevity-lab-calgary",
   "clinic_name": "The Longevity Lab",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "the-longevity-lab-calgary--rachelle-duckworth",
+    "name": "Rachelle Duckworth",
+    "as_recorded": "Rachelle Duckworth, Registered Sports Dietitian (BSc, RD), IOC Sports Nutrition Diploma"
+   }
+  ],
   "practitioner": "Rachelle Duckworth, Registered Sports Dietitian (BSc, RD), IOC Sports Nutrition Diploma",
   "price": "$190 new patient visit (60 min) · $140 follow-up (45 min) / $180 (60 min)",
   "price_source": "Jane App booking page (rendered, read 2026-11-01): Nutrition Counselling with Rachelle Duckworth, RD: New Patient Visit $190; Follow Up $140 (45 min) / $180 (60 min); telehealth same prices.",
@@ -1079,10 +2010,18 @@
   "batch": "batch-006"
  },
  {
+  "id": "taylor-nutrition-edmonton--sports-nutrition",
   "clinic_id": "taylor-nutrition-edmonton",
   "clinic_name": "Taylor Nutrition",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "taylor-nutrition-edmonton--lalitha-taylor",
+    "name": "Lalitha Taylor",
+    "as_recorded": "Lalitha Taylor, Registered Dietitian (founder)"
+   }
+  ],
   "practitioner": "Lalitha Taylor, Registered Dietitian (founder)",
   "price": "$265 initial (90 min) · $160 follow-up (60 min) · $80 follow-up (30 min)",
   "price_source": "The clinic's own Sports Nutrition Private Practice page at https://www.taylornutrition.ca/sports-nutrition-private-practice lists '$265' for the 90-Minute Initial Nutrition & Performance Assessment, '$160' for the 60-Minute Nutrition Session (Follow-Up or Initial Light Assessment), and '$80' for the 30-Minute Follow-Up Nutrition Session; no separate online booking page was found, so the clinic's own services/fees page was used as the price source.",
@@ -1092,10 +2031,23 @@
   "batch": "batch-006"
  },
  {
+  "id": "ignite-nutrition-wellness-grande-prairie--sports-nutrition",
   "clinic_id": "ignite-nutrition-wellness-grande-prairie",
   "clinic_name": "Ignite Nutrition & Wellness",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "ignite-nutrition-wellness-grande-prairie--letisha-hodges",
+    "name": "Letisha Hodges",
+    "as_recorded": "Letisha Hodges, RD (Grande Prairie); dietitian team also includes Morgan (sports nutrition specialty)"
+   },
+   {
+    "id": "ignite-nutrition-wellness-grande-prairie--morgan",
+    "name": "Morgan",
+    "as_recorded": "Letisha Hodges, RD (Grande Prairie); dietitian team also includes Morgan (sports nutrition specialty)"
+   }
+  ],
   "practitioner": "Letisha Hodges, RD (Grande Prairie); dietitian team also includes Morgan (sports nutrition specialty)",
   "price": "$200 single appointment · $115 follow-up (30 min)",
   "price_source": "The clinic's own Grande Prairie page (https://ignitenutrition.ca/services/grande-prairie-dietitian/) showed a $760 package (1-hour initial assessment plus three follow-ups), a la carte pricing at $200 per appointment, or package pricing of $190 per appointment; its own Nutrition Counselling page (https://ignitenutrition.ca/nutrition-counselling-services/) showed single appointments at $200/session and 30-minute follow-up sessions at $115 each. Sports nutrition / nutrition for active lifestyles is delivered inside these Registered Dietitian counselling sessions with no separate sports-nutrition price. The Jane App booking page (https://ignitenutrition.janeapp.com/) lists Dietetics services and confirms sports nutrition as a practice focus but did not show prices in the text fetched.",
@@ -1105,10 +2057,18 @@
   "batch": "batch-006"
  },
  {
+  "id": "kelly-anne-erdman-calgary--sports-nutrition",
   "clinic_id": "kelly-anne-erdman-calgary",
   "clinic_name": "Kelly Anne Erdman",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "kelly-anne-erdman-calgary--kelly-anne-erdman",
+    "name": "Kelly Anne Erdman",
+    "as_recorded": "Kelly Anne Erdman, MSc, RD, OLY"
+   }
+  ],
   "practitioner": "Kelly Anne Erdman, MSc, RD, OLY",
   "price": "$175 initial visit (60 min, telehealth) · $100-$160 follow-up",
   "price_source": "Jane App booking page (rendered, read 2026-11-01): Elite Dietitians Jane, sessions listed under Kelly Anne Erdman (AB residents): Initial $175, Re-assessment $150, Follow-ups $160 (60 min) / $125 (40 min) / $100 (30 min). In-person sessions on that Jane belong to a different practitioner and are excluded.",
@@ -1118,10 +2078,28 @@
   "batch": "batch-006"
  },
  {
+  "id": "health-stand-nutrition-calgary--sports-nutrition",
   "clinic_id": "health-stand-nutrition-calgary",
   "clinic_name": "Health Stand Nutrition",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "health-stand-nutrition-calgary--jana-spindler",
+    "name": "Jana Spindler",
+    "as_recorded": "Jana Spindler, BSc, CCC, RD (Sports Nutrition specialty, currently on leave); also Paige Thomsen, BSc, RD and Erin Hamilton, BSc, RD (Sports Nutrition specialties)"
+   },
+   {
+    "id": "health-stand-nutrition-calgary--paige-thomsen",
+    "name": "Paige Thomsen",
+    "as_recorded": "Jana Spindler, BSc, CCC, RD (Sports Nutrition specialty, currently on leave); also Paige Thomsen, BSc, RD and Erin Hamilton, BSc, RD (Sports Nutrition specialties)"
+   },
+   {
+    "id": "health-stand-nutrition-calgary--erin-hamilton",
+    "name": "Erin Hamilton",
+    "as_recorded": "Jana Spindler, BSc, CCC, RD (Sports Nutrition specialty, currently on leave); also Paige Thomsen, BSc, RD and Erin Hamilton, BSc, RD (Sports Nutrition specialties)"
+   }
+  ],
   "practitioner": "Jana Spindler, BSc, CCC, RD (Sports Nutrition specialty, currently on leave); also Paige Thomsen, BSc, RD and Erin Hamilton, BSc, RD (Sports Nutrition specialties)",
   "price": null,
   "price_source": null,
@@ -1131,10 +2109,18 @@
   "batch": "batch-006"
  },
  {
+  "id": "action-sport-physio-santiago-rosin-nutritionniste-dietetiste-montreal--sports-nutrition",
   "clinic_id": "action-sport-physio-santiago-rosin-nutritionniste-di-t-tiste-montreal",
   "clinic_name": "Action Sport Physio — Santiago Rosin (nutritionniste-diététiste)",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "action-sport-physio-santiago-rosin-nutritionniste-dietetiste-montreal--santiago-rosin",
+    "name": "Santiago Rosin",
+    "as_recorded": "Santiago Rosin, nutritionniste-diététiste (ODNQ), MSc Sports Nutrition (Universidad Europea, Madrid)"
+   }
+  ],
   "practitioner": "Santiago Rosin, nutritionniste-diététiste (ODNQ), MSc Sports Nutrition (Universidad Europea, Madrid)",
   "price": null,
   "price_source": null,
@@ -1144,10 +2130,12 @@
   "batch": "batch-007"
  },
  {
+  "id": "nutrisimple-montreal--sports-nutrition",
   "clinic_id": "nutrisimple-montreal",
   "clinic_name": "NutriSimple",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [],
   "practitioner": null,
   "price": "$145 initial evaluation",
   "price_source": "NutriSimple's own Sports Nutrition consultation page (https://www.nutrisimple.com/fr/consultations/nutrition-gens-actifs-sportive/) states 'Tarif: La première évaluation est à 145 $' (the first evaluation is $145) for a consultation with a diététiste-nutritionniste; no follow-up price is published on that page, and sports nutrition is delivered inside these dietitian consultations (the page's sports-nutrition specialist, Anaïs Scovronec, holds the IOC sports nutrition diploma).",
@@ -1157,10 +2145,23 @@
   "batch": "batch-007"
  },
  {
+  "id": "equipenutrition-andrea-maksimovic-saguenay--sports-nutrition",
   "clinic_id": "quipenutrition-andrea-maksimovic-saguenay",
   "clinic_name": "ÉquipeNutrition — Andrea Maksimovic",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "equipenutrition-andrea-maksimovic-saguenay--andrea-maksimovic",
+    "name": "Andrea Maksimovic",
+    "as_recorded": "Andrea Maksimovic, nutritionniste-diététiste (ODNQ; Université Laval)"
+   },
+   {
+    "id": "equipenutrition-andrea-maksimovic-saguenay--universite-laval",
+    "name": "Université Laval)",
+    "as_recorded": "Andrea Maksimovic, nutritionniste-diététiste (ODNQ; Université Laval)"
+   }
+  ],
   "practitioner": "Andrea Maksimovic, nutritionniste-diététiste (ODNQ; Université Laval)",
   "price": null,
   "price_source": null,
@@ -1170,10 +2171,23 @@
   "batch": "batch-007"
  },
  {
+  "id": "action-sport-physio-laval-eleanne-langlois-laval--sports-nutrition",
   "clinic_id": "action-sport-physio-laval-l-anne-langlois-laval",
   "clinic_name": "Action Sport Physio — Laval (Éléanne Langlois)",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "action-sport-physio-laval-eleanne-langlois-laval--eleanne-langlois",
+    "name": "Éléanne Langlois",
+    "as_recorded": "Éléanne Langlois, Registered Dietitian Nutritionist (ODNQ; McGill University)"
+   },
+   {
+    "id": "action-sport-physio-laval-eleanne-langlois-laval--mcgill-university",
+    "name": "McGill University)",
+    "as_recorded": "Éléanne Langlois, Registered Dietitian Nutritionist (ODNQ; McGill University)"
+   }
+  ],
   "practitioner": "Éléanne Langlois, Registered Dietitian Nutritionist (ODNQ; McGill University)",
   "price": null,
   "price_source": null,
@@ -1183,10 +2197,18 @@
   "batch": "batch-007"
  },
  {
+  "id": "excellence-sportive-quebec-levis-levis--sports-nutrition",
   "clinic_id": "excellence-sportive-qu-bec-l-vis-l-vis",
   "clinic_name": "Excellence Sportive Québec-Lévis",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "excellence-sportive-quebec-levis-levis--isabelle-morin",
+    "name": "Isabelle Morin",
+    "as_recorded": "Identified sports-nutrition intervenants roster on ESQL's own page, incl. Isabelle Morin (MSc, IOC Sports Nutrition Diploma, OPDQ) and Nicolas Proulx-Bégin and Vicky Drapeau (named with 'Contacter' links at the foot of the page)"
+   }
+  ],
   "practitioner": "Identified sports-nutrition intervenants roster on ESQL's own page, incl. Isabelle Morin (MSc, IOC Sports Nutrition Diploma, OPDQ) and Nicolas Proulx-Bégin and Vicky Drapeau (named with 'Contacter' links at the foot of the page)",
   "price": null,
   "price_source": null,
@@ -1196,10 +2218,12 @@
   "batch": "batch-007"
  },
  {
+  "id": "nutrisimple-sherbrooke--sports-nutrition",
   "clinic_id": "nutrisimple-sherbrooke",
   "clinic_name": "NutriSimple",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [],
   "practitioner": null,
   "price": "$145 initial evaluation",
   "price_source": "NutriSimple's own Sports Nutrition consultation page (https://www.nutrisimple.com/fr/consultations/nutrition-gens-actifs-sportive/) states 'Tarif: La première évaluation est à 145 $' for a consultation with a diététiste-nutritionniste; this is NutriSimple's chain-wide published evaluation fee and sports nutrition is delivered inside these dietitian consultations; no follow-up price is published on that page.",
@@ -1209,10 +2233,12 @@
   "batch": "batch-007"
  },
  {
+  "id": "equipenutrition-hull-gatineau-gatineau--sports-nutrition",
   "clinic_id": "quipenutrition-hull-gatineau-gatineau",
   "clinic_name": "ÉquipeNutrition — Hull/Gatineau",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [],
   "practitioner": null,
   "price": null,
   "price_source": null,
@@ -1222,10 +2248,23 @@
   "batch": "batch-007"
  },
  {
+  "id": "nutrisimple-quebec-city--sports-nutrition",
   "clinic_id": "nutrisimple-quebec-city",
   "clinic_name": "NutriSimple",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "nutrisimple-quebec-city--anais-scovronec-dt-p-listed-for-quebec-on-her-nutrisimple-profile",
+    "name": "Anaïs Scovronec, Dt.P. (listed for Québec on her NutriSimple profile",
+    "as_recorded": "Anaïs Scovronec, Dt.P. (listed for Québec on her NutriSimple profile; covers several cities in the Capitale-Nationale region)"
+   },
+   {
+    "id": "nutrisimple-quebec-city--covers-several-cities-in-the-capitale-nationale-region",
+    "name": "covers several cities in the Capitale-Nationale region)",
+    "as_recorded": "Anaïs Scovronec, Dt.P. (listed for Québec on her NutriSimple profile; covers several cities in the Capitale-Nationale region)"
+   }
+  ],
   "practitioner": "Anaïs Scovronec, Dt.P. (listed for Québec on her NutriSimple profile; covers several cities in the Capitale-Nationale region)",
   "price": "$145 initial evaluation",
   "price_source": "NutriSimple's own Sports Nutrition consultation page (https://www.nutrisimple.com/fr/consultations/nutrition-gens-actifs-sportive/) states 'Tarif: La première évaluation est à 145 $' for a consultation with a diététiste-nutritionniste; this is the chain's published evaluation fee and sports nutrition is delivered inside these dietitian consultations; no follow-up price is published on that page.",
@@ -1235,10 +2274,18 @@
   "batch": "batch-007"
  },
  {
+  "id": "debora-sloan-healthy-solutions-ottawa--sports-nutrition",
   "clinic_id": "debora-sloan-healthy-solutions-ottawa",
   "clinic_name": "Debora Sloan Healthy Solutions",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "debora-sloan-healthy-solutions-ottawa--debora-sloan",
+    "name": "Debora Sloan",
+    "as_recorded": "Debora Sloan, BA, BSc, RD, CPT (Registered Dietitian & Certified Sports Nutritionist)"
+   }
+  ],
   "practitioner": "Debora Sloan, BA, BSc, RD, CPT (Registered Dietitian & Certified Sports Nutritionist)",
   "price": null,
   "price_source": null,
@@ -1248,10 +2295,18 @@
   "batch": "batch-007"
  },
  {
+  "id": "tenille-sonnichsen-nutrition-winnipeg--sports-nutrition",
   "clinic_id": "tenille-sonnichsen-nutrition-winnipeg",
   "clinic_name": "Tenille Sonnichsen Nutrition",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "tenille-sonnichsen-nutrition-winnipeg--tenille-sonnichsen",
+    "name": "Tenille Sonnichsen",
+    "as_recorded": "Tenille Sonnichsen, RD, BSc (Registered Dietitian)"
+   }
+  ],
   "practitioner": "Tenille Sonnichsen, RD, BSc (Registered Dietitian)",
   "price": null,
   "price_source": null,
@@ -1261,10 +2316,23 @@
   "batch": "batch-007"
  },
  {
+  "id": "craven-sport-services-saskatoon--sports-nutrition",
   "clinic_id": "craven-sport-services-saskatoon",
   "clinic_name": "Craven SPORT Services",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "craven-sport-services-saskatoon--courtney-berg",
+    "name": "Courtney Berg",
+    "as_recorded": "Courtney Berg (Santoro), RD; Darian Kotchorek, RD (Vitality Nutrition Registered Dietitians partnering at Craven; both list sports nutrition as a focus)"
+   },
+   {
+    "id": "craven-sport-services-saskatoon--darian-kotchorek",
+    "name": "Darian Kotchorek",
+    "as_recorded": "Courtney Berg (Santoro), RD; Darian Kotchorek, RD (Vitality Nutrition Registered Dietitians partnering at Craven; both list sports nutrition as a focus)"
+   }
+  ],
   "practitioner": "Courtney Berg (Santoro), RD; Darian Kotchorek, RD (Vitality Nutrition Registered Dietitians partnering at Craven; both list sports nutrition as a focus)",
   "price": "$200 initial (90 min) · $130 follow-up (60 min) · $70 follow-up (30 min)",
   "price_source": "Craven SPORT Services' own dietitian services page (https://cravensportservices.ca/wellness/dietitian-services-saskatoon/), 'Individualized Nutrition Support' section, lists 'Initial consult (90 minutes): $200.00', 'Follow-up appointments (60 minutes): $130.00' and '(30 minutes): $70.00'. Sports nutrition has no separate price: the same page lists 'Sports nutrition: Optimizing training and competition diet for sport' as an area of expertise of the same Registered Dietitians (Courtney Berg — 'Sports nutrition and performance'; Darian Kotchorek — 'Sports nutrition'), so the general dietitian consultation pricing is recorded under the inclusion rule. The page also lists separate Family Nutrition pricing ($300 initial / $200 / $100) and a Comprehensive Nutrition Coaching program ($70/week, 12 weeks), not used here.",
@@ -1274,10 +2342,18 @@
   "batch": "batch-007"
  },
  {
+  "id": "julie-nutrition-saskatoon--sports-nutrition",
   "clinic_id": "julie-nutrition-saskatoon",
   "clinic_name": "Julie Nutrition",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "julie-nutrition-saskatoon--alana-haggerty",
+    "name": "Alana Haggerty",
+    "as_recorded": "Alana Haggerty, RD (Registered Dietitian and Sports Nutritionist for Saskatoon)"
+   }
+  ],
   "practitioner": "Alana Haggerty, RD (Registered Dietitian and Sports Nutritionist for Saskatoon)",
   "price": "$145 initial (1 hr) · $80 follow-up (30 min)",
   "price_source": "JM Nutrition's own Packages & Pricing page (https://www.julienutrition.com/packages-and-pricing/) lists a 'Single Session, No Meal Plan' at $145 for an up-to-1-hour nutritional counselling session and follow-up sessions (up to 30 minutes) at $80 for a single follow-up; these are the chain's published fees and no separate Sports Nutrition price is published — sports nutrition is delivered inside these general Registered Dietitian consultations, including by the Saskatoon sports nutritionist Alana Haggerty, RD.",
@@ -1287,10 +2363,18 @@
   "batch": "batch-007"
  },
  {
+  "id": "stephanie-hnatiuk-performance-nutrition-winnipeg--sports-nutrition",
   "clinic_id": "stephanie-hnatiuk-performance-nutrition-winnipeg",
   "clinic_name": "Stephanie Hnatiuk Performance Nutrition",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "stephanie-hnatiuk-performance-nutrition-winnipeg--stephanie-hnatiuk",
+    "name": "Stephanie Hnatiuk",
+    "as_recorded": "Stephanie Hnatiuk, RD, PTS, UESCA Run Coach (Registered Dietitian)"
+   }
+  ],
   "practitioner": "Stephanie Hnatiuk, RD, PTS, UESCA Run Coach (Registered Dietitian)",
   "price": null,
   "price_source": null,
@@ -1300,10 +2384,12 @@
   "batch": "batch-007"
  },
  {
+  "id": "attain-physiotherapy-sport-performance-centre-st-john-s--sports-nutrition",
   "clinic_id": "attain-physiotherapy-sport-performance-centre-st-john-s",
   "clinic_name": "Attain Physiotherapy & Sport Performance Centre",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [],
   "practitioner": null,
   "price": null,
   "price_source": null,
@@ -1313,10 +2399,18 @@
   "batch": "batch-007"
  },
  {
+  "id": "vanguard-performance-vancouver--sports-nutrition",
   "clinic_id": "vanguard-performance-vancouver",
   "clinic_name": "Vanguard Performance",
   "treatment": "Sports Nutrition",
   "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "vanguard-performance-vancouver--jennifer-graham",
+    "name": "Jennifer Graham",
+    "as_recorded": "Jennifer Graham, RD, BSc Dietetics, IOC Sports Nutrition Diploma, NASM CPT"
+   }
+  ],
   "practitioner": "Jennifer Graham, RD, BSc Dietetics, IOC Sports Nutrition Diploma, NASM CPT",
   "price": null,
   "price_source": null,
@@ -1324,5 +2418,311 @@
   "status": "draft",
   "last_verified": "2026-11-01",
   "batch": "batch-007"
+ },
+ {
+  "id": "health-and-performance-nutrition-inc-calgary--sports-nutrition",
+  "clinic_id": "health-and-performance-nutrition-inc-calgary",
+  "clinic_name": "Health and Performance Nutrition Inc",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "health-and-performance-nutrition-inc-calgary--kelly-anne-erdman",
+    "name": "Kelly Anne Erdman",
+    "as_recorded": "Kelly Anne Erdman, MSc, RD, OLY"
+   }
+  ],
+  "practitioner": "Kelly Anne Erdman, MSc, RD, OLY",
+  "price": "$175 initial visit (60 min, telehealth) · $100-$160 follow-up",
+  "price_source": "Jane App booking page (rendered, read 2026-11-01 in batch-006): Elite Dietitians Jane, sessions listed under Kelly Anne Erdman (AB residents): Initial $175, Re-assessment $150, Follow-ups $160 (60 min) / $125 (40 min) / $100 (30 min). In-person sessions on that Jane belong to a different practitioner and are excluded. The clinic's own Individual Sport Nutrition Counselling page (re-fetched 2026-11-01 for this batch) confirms Kelly Anne Erdman delivers this sports nutrition service and links booking to elitedietitian.janeapp.com; no prices are published on the clinic's own website itself.",
+  "treatment_link": "https://healthandperformancenutritioninc.com/service/individual-sport-nutrition-counselling/",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "leverage-nutrition-edmonton--sports-nutrition",
+  "clinic_id": "leverage-nutrition-edmonton",
+  "clinic_name": "Leverage Nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "leverage-nutrition-edmonton--mike-fouts",
+    "name": "Mike Fouts",
+    "as_recorded": "Mike Fouts, RD (Michael Fouts, Registered Dietitian, Certified Personal Trainer; Sport Nutrition Network)"
+   },
+   {
+    "id": "leverage-nutrition-edmonton--sport-nutrition-network",
+    "name": "Sport Nutrition Network)",
+    "as_recorded": "Mike Fouts, RD (Michael Fouts, Registered Dietitian, Certified Personal Trainer; Sport Nutrition Network)"
+   }
+  ],
+  "practitioner": "Mike Fouts, RD (Michael Fouts, Registered Dietitian, Certified Personal Trainer; Sport Nutrition Network)",
+  "price": "$250 initial (45-60 min) · $125 follow-up (25-30 min)",
+  "price_source": "Leverage Nutrition's own Plans & Investment page (https://leveragenutrition.ca/leverage-nutrition-plans.html): 'Everything starts with an Initial Consultation — 45 to 60 minutes, $250. Follow-up appointments are 25 to 30 minutes, $125 each.' Sports nutrition has no separate price: the clinic's own Nutrition Services page lists 'Sports Nutrition' as one of its three focus areas delivered by its Registered Dietitians, and the homepage names Mike Fouts, RD (Sport Nutrition Network) for sports performance work, so the general dietitian session pricing is recorded under the same-practitioner inclusion rule. Optional Nutrition Coaching adds a separate $149 + GST/month between-session support fee (not insurance-eligible), not included in the session price above.",
+  "treatment_link": "https://leveragenutrition.ca/nutrition-services.html",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "pine-integrated-health-centre-edmonton--sports-nutrition",
+  "clinic_id": "pine-integrated-health-centre-edmonton",
+  "clinic_name": "Pine Integrated Health Centre",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [],
+  "practitioner": null,
+  "price": null,
+  "price_source": null,
+  "treatment_link": "https://pinehealth.ca/registered-dietician-edmonton/",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "tenille-sonnichsen-winnipeg--sports-nutrition",
+  "clinic_id": "tenille-sonnichsen-winnipeg",
+  "clinic_name": "Tenille Sonnichsen",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "tenille-sonnichsen-winnipeg--tenille-sonnichsen",
+    "name": "Tenille Sonnichsen",
+    "as_recorded": "Tenille Sonnichsen, RD, BSc (Registered Dietitian)"
+   }
+  ],
+  "practitioner": "Tenille Sonnichsen, RD, BSc (Registered Dietitian)",
+  "price": null,
+  "price_source": null,
+  "treatment_link": "https://www.tenillesnutrition.com/consultations",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "nutriskulpt-montreal--sports-nutrition",
+  "clinic_id": "nutriskulpt-montreal",
+  "clinic_name": "NutriSkulpt",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "nutriskulpt-montreal--nadine-moukheiber",
+    "name": "Nadine Moukheiber",
+    "as_recorded": "Nadine Moukheiber, Registered Dietitian, B.Sc. (diététiste-nutritionniste, ODNQ; founder of NutriSkulpt)"
+   },
+   {
+    "id": "nutriskulpt-montreal--founder-of-nutriskulpt",
+    "name": "founder of NutriSkulpt)",
+    "as_recorded": "Nadine Moukheiber, Registered Dietitian, B.Sc. (diététiste-nutritionniste, ODNQ; founder of NutriSkulpt)"
+   }
+  ],
+  "practitioner": "Nadine Moukheiber, Registered Dietitian, B.Sc. (diététiste-nutritionniste, ODNQ; founder of NutriSkulpt)",
+  "price": null,
+  "price_source": null,
+  "treatment_link": "https://www.nutriskulpt.com/services-2/",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "acacia-health-victoria--sports-nutrition",
+  "clinic_id": "acacia-health-victoria",
+  "clinic_name": "Acacia Health",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [],
+  "practitioner": null,
+  "price": null,
+  "price_source": null,
+  "treatment_link": "https://acaciahealth.ca/therapies/registered-dietitian/",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "nutriprocan-dietitians-london--sports-nutrition",
+  "clinic_id": "nutriprocan-dietitians-london",
+  "clinic_name": "NutriProCan Dietitians",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "nutriprocan-dietitians-london--valentina-ramirez",
+    "name": "Valentina Ramirez",
+    "as_recorded": "Valentina Ramirez, Registered Dietitian (named as 'Valentina' for Ontario on the clinic's own Sports & Fitness Nutrition page under 'Book A Free Consult With A Sports & Fitness Dietitian: Ontario: Leanne or Valentina'; full name from her own NutriProCan dietitian profile page)"
+   },
+   {
+    "id": "nutriprocan-dietitians-london--full-name-from-her-own-nutriprocan-dietitian-profile-page",
+    "name": "full name from her own NutriProCan dietitian profile page)",
+    "as_recorded": "Valentina Ramirez, Registered Dietitian (named as 'Valentina' for Ontario on the clinic's own Sports & Fitness Nutrition page under 'Book A Free Consult With A Sports & Fitness Dietitian: Ontario: Leanne or Valentina'; full name from her own NutriProCan dietitian profile page)"
+   }
+  ],
+  "practitioner": "Valentina Ramirez, Registered Dietitian (named as 'Valentina' for Ontario on the clinic's own Sports & Fitness Nutrition page under 'Book A Free Consult With A Sports & Fitness Dietitian: Ontario: Leanne or Valentina'; full name from her own NutriProCan dietitian profile page)",
+  "price": "$145 initial assessment (60 min) · $99 meal plan session · $85 check-in session; sports packages: Kick-Start $495 (6 sessions), Complete $889 (11 sessions)",
+  "price_source": "NutriProCan's own Pricing page (https://nutriprocan.ca/pricing/) lists pay-per-session dietitian counselling: $145 CAD Initial Assessment (60-minute), $99 CAD meal-plan session, $85 CAD check-in sessions. Its own Sports & Fitness Nutrition page (https://nutriprocan.ca/sports-nutrition/) has no separate per-session sports price but lists under 'Suggested Dietitian Packages For Sports Nutrition' the Kick-Start Nutrition Package and the Complete Nutrition Package, priced on the Pricing/deals pages at $495 CAD (6 sessions) and $889 CAD (11 sessions); sports nutrition is delivered by the same Registered Dietitians in the same counselling sessions, so the general dietitian pricing is recorded under the inclusion rule.",
+  "treatment_link": "https://nutriprocan.ca/sports-nutrition/",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "donaldson-nutrition-hamilton--sports-nutrition",
+  "clinic_id": "donaldson-nutrition-hamilton",
+  "clinic_name": "Donaldson Nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "donaldson-nutrition-hamilton--hannah-donaldson",
+    "name": "Hannah Donaldson",
+    "as_recorded": "Hannah Donaldson, Registered Dietitian & Sports Nutritionist"
+   }
+  ],
+  "practitioner": "Hannah Donaldson, Registered Dietitian & Sports Nutritionist",
+  "price": null,
+  "price_source": null,
+  "treatment_link": "https://donaldsonnutrition.com/",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "carespace-health-wellness-waterloo--sports-nutrition",
+  "clinic_id": "carespace-health-wellness-waterloo",
+  "clinic_name": "CARESPACE Health+Wellness",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "carespace-health-wellness-waterloo--christina-wood",
+    "name": "Christina Wood",
+    "as_recorded": "Christina Wood, BSc, MAN, RD (Registered Dietitian, CARESPACE Weber North)"
+   }
+  ],
+  "practitioner": "Christina Wood, BSc, MAN, RD (Registered Dietitian, CARESPACE Weber North)",
+  "price": null,
+  "price_source": null,
+  "treatment_link": "https://carespace.health/nutrition/waterloo/",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "rory-hornstein-rd-calgary--sports-nutrition",
+  "clinic_id": "rory-hornstein-rd-calgary",
+  "clinic_name": "Rory Hornstein RD",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "rory-hornstein-rd-calgary--rory-hornstein",
+    "name": "Rory Hornstein",
+    "as_recorded": "Rory Hornstein, RD (Registered Dietitian)"
+   }
+  ],
+  "practitioner": "Rory Hornstein, RD (Registered Dietitian)",
+  "price": null,
+  "price_source": null,
+  "treatment_link": "https://www.roryrd.com/dietary-issues/sports-nutrition/",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "philosophy-wellness-inc-sherwood-park--sports-nutrition",
+  "clinic_id": "philosophy-wellness-inc-sherwood-park",
+  "clinic_name": "Philosophy Wellness Inc",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "philosophy-wellness-inc-sherwood-park--jessica-hess",
+    "name": "Jessica Hess",
+    "as_recorded": "Jessica Hess, Registered Dietitian"
+   }
+  ],
+  "practitioner": "Jessica Hess, Registered Dietitian",
+  "price": null,
+  "price_source": null,
+  "treatment_link": "https://www.philosophywellness.ca/pages/registered-dietitian",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "launch-nutrition-edmonton--sports-nutrition",
+  "clinic_id": "launch-nutrition-edmonton",
+  "clinic_name": "Launch Nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "launch-nutrition-edmonton--chelsea-verbeek",
+    "name": "Chelsea Verbeek",
+    "as_recorded": "Chelsea Verbeek, BSc, Registered Dietitian"
+   }
+  ],
+  "practitioner": "Chelsea Verbeek, BSc, Registered Dietitian",
+  "price": "$551 Grow package (3 months, 3 sessions) · $729 Energize package (5 months, 5 sessions) · $999 Thrive package (8 months, 8 sessions) · $300 Re-Vitalize follow-up package (3 x 30-min follow-ups, returning clients)",
+  "price_source": "https://launchnutrition.ca/nutritioncounseling — the clinic's own Nutrition Counseling page, headed 'Sports dietitian serving Alberta', lists Packages: Grow 3-month program $551 (was $580), 3 sessions with 30-min follow-ups and 3-month meal plan; Energize 5-month program $729 (was $810), 5 sessions; Thrive 8-month program $999 (was $1155), 8 sessions; Re-Vitalize follow-up package 3 x 30-min follow-ups for $300. These are the sports-nutrition counselling packages themselves (the page's stated specialty is sports nutrition), not a general-session fallback.",
+  "treatment_link": "https://launchnutrition.ca/nutritioncounseling",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "teamnutrition-burnaby--sports-nutrition",
+  "clinic_id": "teamnutrition-burnaby",
+  "clinic_name": "TeamNutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [],
+  "practitioner": null,
+  "price": null,
+  "price_source": null,
+  "treatment_link": "https://teamnutrition.ca/nutritionist-dietitian/sports-nutrition",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "vancouver-dietitians-vancouver--sports-nutrition",
+  "clinic_id": "vancouver-dietitians-vancouver",
+  "clinic_name": "Vancouver Dietitians",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [],
+  "practitioner": null,
+  "price": null,
+  "price_source": null,
+  "treatment_link": "https://vancouverdietitians.ca/sports-nutrition/",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
+ },
+ {
+  "id": "strength-conditioning-nutrition-toronto--sports-nutrition",
+  "clinic_id": "strength-conditioning-nutrition-toronto",
+  "clinic_name": "Strength Conditioning Nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioners": [
+   {
+    "id": "strength-conditioning-nutrition-toronto--alfredo-angione",
+    "name": "Alfredo Angione",
+    "as_recorded": "Alfredo Angione, RD, CSSD, CSCS"
+   }
+  ],
+  "practitioner": "Alfredo Angione, RD, CSSD, CSCS",
+  "price": null,
+  "price_source": null,
+  "treatment_link": "https://scn2xl.com/",
+  "status": "draft",
+  "last_verified": "2026-11-01",
+  "batch": "batch-008"
  }
 ]
