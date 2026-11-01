@@ -109,7 +109,7 @@
   "status": "draft",
   "last_verified": "2026-11-01",
   "batch": "batch-001",
-  "gaps": "No standalone Clinical Pilates treatment exists on the Jane booking page — Clinical Pilates is delivered within physiotherapy by Forum Gandhi (Jane bio: training in clinical Pilates for rehabilitation), so price is the physiotherapy initial/follow-up. Postal conflict: current clinic site footer and Jane header show L3Y 4W4 (used here), while Places and older site pages show L3Y 3E4. Own site footer lists shorter hours (Mon-Fri 9 AM-5 PM, Sat 9 AM-2 PM) than Places. Places rating was null/empty and own site has no numeric Google badge, so rating unverified."
+  "gaps": "No standalone Clinical Pilates treatment exists on the Jane booking page — Clinical Pilates is delivered within physiotherapy by Forum Gandhi (Jane bio: training in clinical Pilates for rehabilitation), so price is the physiotherapy initial/follow-up. Postal conflict: current clinic site footer and Jane header show L3Y 4W4 (used here), while Places and older site pages show L3Y 3E4. Own site footer lists shorter hours (Mon-Fri 9 AM-5 PM, Sat 9 AM-2 PM) than Places. Places rating was null/empty and own site has no numeric Google badge, so rating unverified. Practitioner audit 2026-11-01 (rule v2): FAIL — rendered Jane check confirms NO Pilates service exists anywhere in Reconnect's booking flow (no Pilates category; Forum Gandhi's 25 bookable services are Physiotherapy, Pelvic Health and Lymphatic Drainage only; no other practitioner lists Pilates either). The recorded $130/$113 were general physiotherapy prices. Price and CP practitioner struck."
  },
  {
   "id": "bijoy-s-physio-pilates-aurora",
