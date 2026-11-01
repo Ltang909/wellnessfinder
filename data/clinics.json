@@ -3277,7 +3277,7 @@
  },
  {
   "name": "Équipe Nutrition",
-  "clinic_id": null,
+  "clinic_id": "equipe-nutrition-montreal",
   "address": "4553 Av. Pierre-De Coubertin",
   "city": "Montreal",
   "prov": "QC",
@@ -3305,7 +3305,7 @@
  },
  {
   "name": "Sport Manitoba Clinic",
-  "clinic_id": null,
+  "clinic_id": "sport-manitoba-clinic-winnipeg",
   "address": "145 Pacific Ave #200",
   "city": "Winnipeg",
   "prov": "MB",
@@ -3333,7 +3333,7 @@
  },
  {
   "name": "East Coast Performance Nutrition",
-  "clinic_id": null,
+  "clinic_id": "east-coast-performance-nutrition-antigonish",
   "address": "65 Beech Hill Rd Ste 118",
   "city": "Antigonish",
   "prov": "NS",
@@ -3361,7 +3361,7 @@
  },
  {
   "name": "OverHaul Fitness",
-  "clinic_id": null,
+  "clinic_id": "overhaul-fitness-edmonton",
   "address": null,
   "city": "Edmonton",
   "prov": "AB",
@@ -3389,7 +3389,7 @@
  },
  {
   "name": "Health & Performance Centre",
-  "clinic_id": null,
+  "clinic_id": "health-performance-centre-guelph",
   "address": "John T. Powell Building, 168 Reynolds Walk, 2nd Floor, University of Guelph",
   "city": "Guelph",
   "prov": "ON",
@@ -3417,7 +3417,7 @@
  },
  {
   "name": "Dietitians of London",
-  "clinic_id": null,
+  "clinic_id": "dietitians-of-london-london",
   "address": "110 Riverside Dr #203b",
   "city": "London",
   "prov": "ON",
@@ -3445,7 +3445,7 @@
  },
  {
   "name": "Vitality Nutrition",
-  "clinic_id": null,
+  "clinic_id": "vitality-nutrition-saskatoon",
   "address": "224 Pacific Ave Ste 205",
   "city": "Saskatoon",
   "prov": "SK",
@@ -3473,7 +3473,7 @@
  },
  {
   "name": "Stadium PhysiOsteo",
-  "clinic_id": null,
+  "clinic_id": "stadium-physiosteo-montreal",
   "address": "4553 Pierre-de Coubertin Ave",
   "city": "Montreal",
   "prov": "QC",
@@ -3501,7 +3501,7 @@
  },
  {
   "name": "ÉquipeNutrition",
-  "clinic_id": null,
+  "clinic_id": "equipenutrition-sherbrooke",
   "address": "350 Rue Terrill Local 173",
   "city": "Sherbrooke",
   "prov": "QC",
@@ -3529,7 +3529,7 @@
  },
  {
   "name": "Nutrition Assessment Clinic",
-  "clinic_id": null,
+  "clinic_id": "nutrition-assessment-clinic-kingston",
   "address": "916 Princess Street",
   "city": "Kingston",
   "prov": "ON",
@@ -3557,7 +3557,7 @@
  },
  {
   "name": "Fiona Aris",
-  "clinic_id": null,
+  "clinic_id": "fiona-aris-kingston",
   "address": null,
   "city": "Kingston",
   "prov": "ON",
@@ -3585,7 +3585,7 @@
  },
  {
   "name": "ACE Nutrition and Diet Consulting",
-  "clinic_id": null,
+  "clinic_id": "ace-nutrition-and-diet-consulting-kingston",
   "address": "837 Princess St #211",
   "city": "Kingston",
   "prov": "ON",
@@ -3613,7 +3613,7 @@
  },
  {
   "name": "Jean LaMantia, RD",
-  "clinic_id": null,
+  "clinic_id": "jean-lamantia-rd-toronto",
   "address": "21 Nassau St",
   "city": "Toronto",
   "prov": "ON",
@@ -3641,7 +3641,7 @@
  },
  {
   "name": "Renita Lam",
-  "clinic_id": null,
+  "clinic_id": "renita-lam-toronto",
   "address": null,
   "city": "Toronto",
   "prov": "ON",
@@ -3669,7 +3669,7 @@
  },
  {
   "name": "Leslie Beck RD",
-  "clinic_id": null,
+  "clinic_id": "leslie-beck-rd-toronto",
   "address": "150 York Street, Suite 1500 (Medcan)",
   "city": "Toronto",
   "prov": "ON",
