@@ -396,6 +396,7 @@
         ? `<p class="fc-stars"><span class="fc-star-glyphs">${"\u2605".repeat(Math.round(media.rating[0]))}${"\u2606".repeat(5 - Math.round(media.rating[0]))}</span> ${media.rating[0].toFixed(1)} <span class="fc-rcount">(${media.rating[1]} Google reviews)</span></p>` : "";
       const pract = media.practitioner ? `<p class="fc-line">${esc(media.practitioner)}</p>` : "";
       const price = media.price ? `<p class="fc-line">${esc(media.price)}</p>` : "";
+      const db = media.db === "yes" ? `<p class="fc-db">Direct billing available</p>` : "";
       const btn = k === 0
         ? `<a class="fc-btn" href="${esc(media.link || c.book || c.web || "#")}" target="_blank" rel="noopener">View clinic</a>`
         : `<span class="fc-btn">View clinic</span>`;
@@ -404,7 +405,7 @@
             <p class="fc-city">${esc(c.city || "")}${c.prov ? `, ${esc(c.prov)}` : ""}</p>
             <img src="${esc(media.img || img)}" alt="${esc(c.name)}">
             <p class="fc-desc">${esc(desc)}</p>
-            ${stars}${pract}${price}
+            ${stars}${pract}${price}${db}
             ${btn}
           </article>`;
     };
