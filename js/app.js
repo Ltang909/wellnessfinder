@@ -207,19 +207,32 @@
 
   /* Card accent colour = the hero fund category the treatment belongs to
      (same highlighter shades as the rotating hero words). */
-  const FUND_HL = {
-    "Golf Swing Assessment": "#FF9E2C", "Singing Voice Therapy": "#FF9E2C", "Bike Fitting": "#FF9E2C",
-    "Cosmetic Acupuncture": "#FF6FAE", "Facial Gua Sha": "#FF6FAE", "Microneedling": "#FF6FAE",
-    "Medical Botox": "#FF6FAE", "Facial Manual Therapy": "#FF6FAE",
-    "Head Spa": "#9D6BFF", "IM Vitamin Therapy": "#9D6BFF", "IV Vitamin Therapy": "#9D6BFF",
-    "Red Light Therapy": "#9D6BFF", "Fertility Consultation": "#9D6BFF", "Fertility Acupuncture": "#9D6BFF",
-    "Clinical Pilates": "#3FA7F5", "Running Gait Analysis": "#3FA7F5", "Sports Nutrition": "#3FA7F5",
-    "Pelvic Floor Physiotherapy": "#3FA7F5",
-    "Couples Therapy": "#2EC4B6", "Neurofeedback": "#2EC4B6", "Sleep Coaching": "#2EC4B6",
-    "Lymphatic Drainage": "#FF6B6B", "Shockwave Therapy": "#FF6B6B", "TMJ Massage": "#FF6B6B",
-    "Cryotherapy": "#FF6B6B", "Myofunctional Therapy": "#FF6B6B",
-    "Interview Preparation": "#FFCE45", "Accent Modification": "#FFCE45", "Mental Performance Coaching": "#FFCE45"
+
+  /* Which hero fund category each treatment belongs to (Leon's mapping,
+     2026-10-31); drives both the card accent colour and the fund filters. */
+  const FUND_CATS = [
+    ["Hobbies", "#FF9E2C"], ["Skincare", "#FF6FAE"], ["Self-care", "#9D6BFF"],
+    ["Fitness", "#3FA7F5"], ["Mental wellness", "#2EC4B6"], ["Recovery", "#FF6B6B"],
+    ["Personal growth", "#FFCE45"]
+  ];
+  const FUND_CAT = {
+    "Golf Swing Assessment": "Hobbies", "Singing Voice Therapy": "Hobbies", "Bike Fitting": "Hobbies",
+    "Cosmetic Acupuncture": "Skincare", "Facial Gua Sha": "Skincare", "Microneedling": "Skincare",
+    "Medical Botox": "Skincare", "Facial Manual Therapy": "Skincare",
+    "Head Spa": "Self-care", "IM Vitamin Therapy": "Self-care", "IV Vitamin Therapy": "Self-care",
+    "Red Light Therapy": "Self-care", "Fertility Consultation": "Self-care", "Fertility Acupuncture": "Self-care",
+    "Clinical Pilates": "Fitness", "Running Gait Analysis": "Fitness", "Sports Nutrition": "Fitness",
+    "Pelvic Floor Physiotherapy": "Fitness",
+    "Couples Therapy": "Mental wellness", "Neurofeedback": "Mental wellness", "Sleep Coaching": "Mental wellness",
+    "Lymphatic Drainage": "Recovery", "Shockwave Therapy": "Recovery", "TMJ Massage": "Recovery",
+    "Cryotherapy": "Recovery", "Myofunctional Therapy": "Recovery",
+    "Interview Preparation": "Personal growth", "Accent Modification": "Personal growth",
+    "Mental Performance Coaching": "Personal growth"
   };
+  const FUND_COLOR = {};
+  FUND_CATS.forEach(([w, c]) => { FUND_COLOR[w] = c; });
+  const FUND_HL = {};
+  Object.keys(FUND_CAT).forEach((n) => { FUND_HL[n] = FUND_COLOR[FUND_CAT[n]]; });
 
   function treatmentCardHTML(t) {
     const saved = getFavs().includes(t.name);
@@ -245,50 +258,34 @@
       </article>`;
   }
 
-  /* Directory filter state: billing tab + goal pill + search combine. */
-  const dirState = { tab: "All", goal: null, query: "" };
+  /* Directory filter state: fund category chip + search combine. */
+  const dirState = { fund: null, query: "" };
 
   function applyDirectoryFilter() {
     const wrap = $("#directoryGroups"); if (!wrap || typeof TREATMENTS === "undefined") return;
-    const goalCats = (dirState.goal && typeof GOAL_MAP !== "undefined") ? GOAL_MAP[dirState.goal] : null;
-    let visible = 0;
     $$(".treatment-card", wrap).forEach((card) => {
-      const cats = card.dataset.cats.split(",");
-      const tabOk = dirState.tab === "All" || cats.includes(dirState.tab);
-      const goalOk = !goalCats || cats.some((c) => goalCats.includes(c));
+      const fundOk = !dirState.fund || FUND_CAT[card.dataset.name] === dirState.fund;
       const qOk = !dirState.query || card.dataset.name.toLowerCase().includes(dirState.query);
-      const show = tabOk && goalOk && qOk;
-      card.classList.toggle("hidden", !show);
-      if (show) visible++;
+      card.classList.toggle("hidden", !(fundOk && qOk));
     });
-    const total = TREATMENTS.length;
-    const bits = [];
-    if (dirState.tab !== "All") bits.push(dirState.tab);
-    if (dirState.goal) bits.push(dirState.goal);
-    if (dirState.query) bits.push(`"${dirState.query}"`);
-    const dc = $("#dirCount");
-    if (dc) dc.textContent = bits.length
-      ? `Showing ${visible} of ${total} · ${bits.join(" + ")}`
-      : `${total} treatments logged`;
   }
 
-  /* Public hook used by the "Popular categories" goal pills. */
+  /* Public hook: set or clear the fund filter from elsewhere. */
   window.wfDirectory = {
-    setGoal(goal) {
-      dirState.goal = (dirState.goal === goal) ? null : goal;
-      $$(".cat-item, .goal-chip").forEach((p) => {
-        const on = p.dataset.goal === dirState.goal;
+    setFund(fund) {
+      dirState.fund = (dirState.fund === fund) ? null : fund;
+      $$(".fund-chip").forEach((p) => {
+        const on = p.dataset.fund === dirState.fund;
         p.classList.toggle("active", on);
         p.setAttribute("aria-pressed", on ? "true" : "false");
       });
       applyDirectoryFilter();
-      return dirState.goal;
+      return dirState.fund;
     },
     clearFilters() {
-      dirState.tab = "All"; dirState.goal = null;
-      const tabsEl = $("#filterTabs");
-      if (tabsEl) $$(".filter-tab", tabsEl).forEach((t) => t.classList.remove("active"));
-      $$(".cat-item, .goal-chip").forEach((p) => { p.classList.remove("active"); p.setAttribute("aria-pressed", "false"); });
+      dirState.fund = null; dirState.query = "";
+      const s = $("#dirSearch"); if (s) s.value = "";
+      $$(".fund-chip").forEach((p) => { p.classList.remove("active"); p.setAttribute("aria-pressed", "false"); });
       applyDirectoryFilter();
     },
   };
@@ -301,12 +298,12 @@
 
   function renderDirectory() {
     const wrap = $("#directoryGroups"); if (!wrap || typeof TREATMENTS === "undefined") return;
-    // tabs
-    const tabsEl = $("#filterTabs");
-    tabsEl.innerHTML = TREATMENT_TABS.filter((t) => t !== "All").map((t) =>
-      `<button class="filter-tab" data-tab="${esc(t)}">${esc(t)}</button>`
+    // fund category chips (the hero words)
+    const chipsEl = $("#fundChips");
+    if (chipsEl) chipsEl.innerHTML = FUND_CATS.map(([w, c]) =>
+      `<button type="button" class="fund-chip" data-fund="${esc(w)}" aria-pressed="false" style="--fc:${c}"><span class="fund-dot" aria-hidden="true"></span>${esc(w)}</button>`
     ).join("");
-    // groups: by benefit group (default) or by primary modality
+    // one flat grid of cards
     wrap.innerHTML = dirGroupsHTML();
 
     // interactions
@@ -327,13 +324,13 @@
       applyDirectoryFilter();
     });
 
-    // tab filtering
-    tabsEl.addEventListener("click", (e) => {
-      const tab = e.target.closest(".filter-tab"); if (!tab) return;
-      const wasActive = tab.classList.contains("active");
-      $$(".filter-tab", tabsEl).forEach((t) => t.classList.remove("active"));
-      if (wasActive) { dirState.tab = "All"; }
-      else { tab.classList.add("active"); dirState.tab = tab.dataset.tab; }
+    // fund chip filtering (click again to clear)
+    if (chipsEl) chipsEl.addEventListener("click", (e) => {
+      const chip = e.target.closest(".fund-chip"); if (!chip) return;
+      const wasActive = chip.classList.contains("active");
+      $$(".fund-chip", chipsEl).forEach((c) => { c.classList.remove("active"); c.setAttribute("aria-pressed", "false"); });
+      if (wasActive) { dirState.fund = null; }
+      else { chip.classList.add("active"); chip.setAttribute("aria-pressed", "true"); dirState.fund = chip.dataset.fund; }
       applyDirectoryFilter();
     });
     applyDirectoryFilter();

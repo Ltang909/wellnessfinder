@@ -891,3 +891,10 @@ body { font-size: 16px; }
 /* Directory header: centred title, search right under it, centred */
 .dir-head--center { flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 14px; }
 .dir-head--center .dir-search { max-width: 440px; width: 100%; margin: 0 auto; text-align: center; }
+
+/* Fund category filter chips */
+.fund-chips { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin: 4px 0 24px; }
+.fund-chip { display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; border: 1.5px solid #E3E3E3; border-radius: 999px; background: #fff; font: 600 .88rem Inter, system-ui, sans-serif; color: #191919; cursor: pointer; }
+.fund-chip .fund-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--fc); flex: none; }
+.fund-chip:hover { border-color: #191919; }
+.fund-chip.active { background: var(--fc); border-color: transparent; }
