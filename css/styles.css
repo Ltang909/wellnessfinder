@@ -902,3 +902,16 @@ body { font-size: 16px; }
 .mod-chip { padding: 6px 13px; border: 1.5px solid #E3E3E3; border-radius: 999px; background: #fff; font: 500 .8rem Inter, system-ui, sans-serif; color: #55534E; cursor: pointer; }
 .mod-chip:hover { border-color: #191919; color: #191919; }
 .mod-chip.active { background: #191919; border-color: #191919; color: #fff; font-weight: 700; }
+
+/* Link from the homepage resource list to the blog index */
+.resource-all { margin-top: 1.1rem; font-weight: 600; }
+.resource-all a { color: var(--ink); text-decoration: none; }
+.resource-all a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* One-line headings (Leon's space-saving pass, 2026-11-01) */
+.newsletter h2 { max-width: none; }
+@media (min-width: 900px) {
+  .newsletter h2 { white-space: nowrap; font-size: clamp(1.6rem, 2.45vw, 2.15rem); }
+  .clinic-cta { grid-template-columns: 1fr auto; }
+  .clinic-cta p { white-space: nowrap; }
+}
