@@ -3023,198 +3023,6 @@
  },
  {
   "clinic": null,
-  "treatment_id": "the-nutrition-advantage-toronto--sports-nutrition",
-  "treatment": "Sports Nutrition",
-  "billed_as": "Dietitian",
-  "practitioner": "Catherine O'Halloran",
-  "practitioners": [
-   {
-    "as_recorded": "Catherine O'Halloran RD",
-    "id": "the-nutrition-advantage-toronto--catherine-ohalloran",
-    "name": "Catherine O'Halloran"
-   }
-  ],
-  "price_text": null,
-  "price_source": null,
-  "treatment_link": "https://www.the-nutrition-advantage.com/about.html",
-  "status": null,
-  "last_verified": null,
-  "gaps": "Sports nutrition verified on the clinic's own site: the About page states the firm 'specializes in health promotion, disease prevention, sports nutrition, and corporate nutrition programs' and that Catherine O'Halloran developed the Sports Nutrition Program for Canada's Men's National Basketball Team; she is a Registered Dietitian and member of the College of Dietitians of Ontario, so billed_as=Dietitian. price_text=null: no fees/prices are published anywhere on the clinic's own website (home, About and Testimonials pages checked). address/postal/phone=null: the clinic's own website publishes no street address, postal code or phone number; it says individual counselling is available virtually or in-person at Athlete's Care or at the client's home or office. A Google Places listing surfaced in search results shows 65 Beveridge Dr, Toronto and phone +1 416-441-1647, and a Sun Life Lumino (aggregator) listing shows the same address with postal M3A 1P1, but neither is the clinic's own site so they were not used as sources per the sourcing rule. hours all null: own site publishes no hours and the Google Places details surfaced in search results contained no hours. google_rating/google_reviews=null: the Google Places details surfaced in search results contained no rating or review count, and the own site has no Google rating badge/widget; the 4.9-star/48-rating figure seen in search results is a Sun Life Lumino aggregator rating, not Google, so it was not used. direct_billing=unverifiable: no insurance or direct-billing information found on the clinic's own website. booking_page=null: no online booking page found; the own site says group/team seminars 'can also be booked' but provides no booking URL.",
-  "clinic_id": "the-nutrition-advantage-toronto"
- },
- {
-  "clinic": null,
-  "treatment_id": "ideal-nutrition-care-toronto--sports-nutrition",
-  "treatment": "Sports Nutrition",
-  "billed_as": null,
-  "practitioner": "Omid Rezazadeh",
-  "practitioners": [
-   {
-    "as_recorded": "Dr. Omid Rezazadeh, Professional Nutritionist, Sports Nutritionist (Canada), Registered holistic nutritionist (RHN)",
-    "id": "ideal-nutrition-care-toronto--omid-rezazadeh",
-    "name": "Omid Rezazadeh"
-   }
-  ],
-  "price_text": null,
-  "price_source": null,
-  "treatment_link": "https://www.idealnutritioncare.com/",
-  "status": null,
-  "last_verified": null,
-  "gaps": "Sports Nutrition is a listed service on the clinic's own homepage (dedicated 'SPORTS NUTRITION' service section), and the homepage header identifies Dr. Omid Rezazadeh as the clinic's 'Sports nutrition consultant'; his own-site credential PDF lists 'Sports Nutritionist (Canada)'. billed_as=null: on the clinic's own site Rezazadeh is credentialed as a Registered Holistic Nutritionist (RHN) and an international medical graduate (Iran), NOT as a Registered Dietitian (RD), so the Dietitian billing label cannot be verified despite the site's general 'Toronto's Top Dietitians' marketing language. Name discrepancy on the clinic's own site: homepage uses 'Dr. Omid Rezazadeh' while his own-site credential PDF is titled 'Dr. Omid R. Bahadoran' (email omidrb@idealnutritioncare.com); recorded under the homepage name. price_text=null: no prices/fees are published on the clinic's own website and no priced booking page was found. booking_page=null: the own homepage has a 'BOOK ONLINE' button / request form, but no distinct online booking URL (e.g. Jane) could be verified from the site's public pages. direct_billing=unverifiable: the own homepage says 'All insurance coverages for nutrition, dietitian, and health services are accepted', which states coverage is accepted but does not explicitly confirm direct billing to insurers. google_rating/google_reviews=null: the Google Places details surfaced in search results contained no rating or review count; the own site links to Google reviews ('See our Google reviews') but displays no rating badge/widget with a score. Address/phone are for Branch 1 (Sheppard) as published on the own site, which also lists a second phone, +1 (647) 947-6373, and a Branch 2 at 7777 Kipling Ave, Woodbridge, ON L4L 2Z3 (outside Toronto). Hours are Places-sourced and partial: Places listed only Mon, Tue, Thu and Sat; Wed, Fri and Sun had no data (null), not confirmed closed. Another team member, Mobina Ghorban Nejad ('Background in Nutritional Sciences (dietitian)'), is listed for general nutrition counselling but is not tied to sports nutrition on the own site and has no verifiable RD credential shown, so she was not recorded for this treatment.",
-  "clinic_id": "ideal-nutrition-care-toronto"
- },
- {
-  "clinic": null,
-  "treatment_id": "stella-paterakis-rd-toronto--sports-nutrition",
-  "treatment": "Sports Nutrition",
-  "billed_as": null,
-  "practitioner": null,
-  "practitioners": [],
-  "price_text": null,
-  "price_source": null,
-  "treatment_link": "https://www.stellapaterakis.ca/booking-calendar/initial-nutrition-assessment",
-  "status": null,
-  "last_verified": null,
-  "gaps": "DIRECTORY PREMISE NOT VERIFIED: sports nutrition is not evidenced anywhere on the clinic's own website. The own site presents Stella Paterakis, RD, CDE (Registration No. 15480) offering general 'Dietitian Counseling' (diabetes education, culinary/clinical nutrition, positive relationship with food); no sports nutrition service, page or practitioner specialty is listed. Per Pricing + Practitioner Rule v2, price_text=null (the general dietitian prices on the own site - Initial Nutrition Assessment 1 hr 15 min, 180 Canadian dollars, and follow-up packages of 3/$250, 5/$395, 7/$520 - were NOT recorded as a Sports Nutrition price), practitioner=null/practitioners=[] for this treatment, and billed_as=null because sports nutrition is not actually offered, even though Paterakis is verifiably a Registered Dietitian for her general practice. direct_billing=unverifiable: no insurance/direct-billing information found on the own site. google_rating/google_reviews=null: the Google Places details surfaced in search results contained no rating or review count, and the own site has no Google rating badge/widget. Hours are Places-sourced and partial: Places listed only Sun, Mon and Sat 9:00 AM - 5:00 PM; Tue-Fri had no data (null), not confirmed closed. Address discrepancy: own-site footer gives '2967 Dundas Street West, Toronto, ON M6P 1Z2' (used here), while the Places listing shows the same street address with a '#473D' unit suffix and no postal code.",
-  "clinic_id": "stella-paterakis-rd-toronto"
- },
- {
-  "clinic": null,
-  "treatment_id": "hc-nutrition-ottawa--sports-nutrition",
-  "treatment": "Sports Nutrition",
-  "billed_as": null,
-  "practitioner": null,
-  "practitioners": [],
-  "price_text": null,
-  "price_source": null,
-  "treatment_link": "https://hcnutrition.com/services/coaching-counselling/",
-  "status": null,
-  "last_verified": null,
-  "gaps": "DIRECTORY PREMISE NOT VERIFIED: sports nutrition is not evidenced anywhere on the clinic's own website. The own site's Coaching & Counselling page lists Hélène Charlebois's (Registered Dietitian) expertise as weight loss, cholesterol, blood pressure, diabetes, metabolic syndrome and women's health/hormones/PCOS; no sports nutrition service or specialty is listed on any own-site page checked (home, Coaching & Counselling, Nutrition Presentations, Workshops, Nutrigenomix). Per Pricing + Practitioner Rule v2, price_text=null (the general coaching prices on the own site - 1 person 60 minutes $135, 30 minutes $65; couples 75 minutes $160, 45 minutes $95 - were NOT recorded as a Sports Nutrition price), practitioner=null/practitioners=[] for this treatment, and billed_as=null because sports nutrition is not actually offered, even though Charlebois is verifiably a Registered Dietitian for her general practice. postal=null: the own site gives the address as '#101 -267 O'Connor Street, Inside the PhysioPro Office, Ottawa, ON' with no postal code; the K2P 1V3 postal code seen in search results comes from an aggregator (findhealthclinics.com), not the own site, so it was not used. phone: 613-234-9970 is the own site's 'Book an appointment' number (PhysioPro office, capitolsport@prophysiotherapy.com); the own site also lists a direct number for Hélène, 613-302-6798, for workshops/media/partnerships. booking_page=null: appointments are by phone only; no online booking page found. direct_billing=unverifiable: the own site's FAQ discusses insurance coverage/reimbursement for Registered Dietitian services ('Most health plans cover services for Registered Dietitians with a referral from a doctor... You may require a doctor's referral note for reimbursement') but does not explicitly confirm direct billing, nor explicitly state receipts-only. google_rating/google_reviews=null: the Google Places details surfaced in search results contained no rating or review count, and the own site has no Google rating badge/widget; the 4.8-star/29-rating figure in search results is a Sun Life Lumino aggregator rating, not Google, so it was not used. Hours are Places-sourced and partial: Places listed only Tue and Thu; all other days had no data (null), not confirmed closed.",
-  "clinic_id": "hc-nutrition-ottawa"
- },
- {
-  "clinic": null,
-  "treatment_id": "nutritional-dietitian-counselling-services-ottawa--sports-nutrition",
-  "treatment": "Sports Nutrition",
-  "billed_as": null,
-  "practitioner": null,
-  "practitioners": [],
-  "price_text": null,
-  "price_source": null,
-  "treatment_link": "http://connietuttlerd.com/",
-  "status": null,
-  "last_verified": null,
-  "gaps": "DIRECTORY PREMISE NOT VERIFIED: sports nutrition is not evidenced anywhere on the clinic's own website. The own site lists Connie Tuttle, RD, CDE's specializations as digestive disorders (celiac, IBS/FODMAP, IBD), allergies/intolerances, liver disease, diabetes, cholesterol/blood pressure and cardiovascular disease; no sports nutrition service or specialty is listed. Per Pricing + Practitioner Rule v2, price_text=null (no prices of any kind are published on the own site in any case), practitioner=null/practitioners=[] for this treatment, and billed_as=null because sports nutrition is not actually offered, even though Tuttle is verifiably a Registered Dietitian (RD, CDE) for her general practice. address/postal/phone=null: the clinic's own website (home and About pages checked) publishes no street address, postal code or phone number. Third-party listings conflict and were not used per the sourcing rule: Google Places details surfaced in search results show 1554 Carling Ave #514, Ottawa and phone +1 613-863-1449, while a Sun Life Lumino aggregator listing shows a different address, 501-2039 Robertson Rd, Ottawa, ON K2H 8R2, with the same phone. booking_page=null: no online booking page found on the own site. direct_billing=unverifiable: the own site states 'I am registered as a Blue Cross provider and can take blue cross insurance benefits', which indicates she can accept Blue Cross benefits as a registered provider but does not explicitly confirm direct billing to insurers. google_rating/google_reviews=null: the Google Places details surfaced in search results contained no rating or review count, and the own site has no Google rating badge/widget; the 4.9-star/18-rating figure in search results is a Sun Life Lumino aggregator rating, not Google, so it was not used. Hours are Places-sourced: Places listed Mon-Fri only; Sat and Sun had no data (null), not confirmed closed.",
-  "clinic_id": "nutritional-dietitian-counselling-services-ottawa"
- },
- {
-  "clinic": null,
-  "treatment_id": "project-nutrition-ottawa--sports-nutrition",
-  "treatment": "Sports Nutrition",
-  "billed_as": "Dietitian",
-  "practitioner": "Jennifer Neale, MSc, RD",
-  "practitioners": [
-   {
-    "id": "project-nutrition-ottawa--jennifer-neale",
-    "name": "Jennifer Neale",
-    "as_recorded": "Jennifer Neale, MSc, RD — Registered Dietitian and Certified Intuitive Eating Counsellor, owner of Nutrition IQ (clinic's own About page)"
-   }
-  ],
-  "price_text": null,
-  "price_source": "The clinic's own Work With Nutrition IQ page publishes general one-on-one fees (initial consults $180 for 90 minutes, follow-up consults $120 for 60 minutes), but sports nutrition is not listed among Jennifer Neale's specialties on that page, so under Pricing + Practitioner Rule v2 the general fee is not recorded as the Sports Nutrition price.",
-  "treatment_link": "https://shop.nutritioniq.ca/pages/nutrition-iq-at-home",
-  "status": null,
-  "last_verified": null,
-  "gaps": "DIRECTORY NAME NOTE: the directory name 'Project Nutrition' is the old Google Places listing name for this practice; the business operates on its own website as Nutrition IQ / Nutrition IQ Inc. (Jennifer Neale, RD). DIRECTORY PREMISE FLAG: sports nutrition is NOT evidenced on the clinic's own website — its Work With page lists her specialties as women's health, healthy eating, improving your relationship with food, emotional eating, PCOS management, diabetes management and lowering blood pressure and cholesterol, and its homepage frames PCOS, emotional eating, high cholesterol and diabetes; 'Sports Nutrition' appears only in a third-party Dietitian Directory profile, which is not an allowed source, so price_text is null and the listing is unsupported by the own site. VIRTUAL-ONLY PRACTICE: the own site's FAQ states all appointments are currently virtual, and the own site publishes no street address, phone or hours, so address and phone are from the Google Places listing for 'Project Nutrition' (224 Hunt Club Rd, 613-248-1010, no postal code shown) and may be stale; hours are null. GOOGLE RATING UNVERIFIABLE: the Places listing showed address, phone and website but no rating or review count, and the own site carries no Google badge/widget (its FAQ notes Ontario dietitians cannot solicit testimonials). DIRECT BILLING UNVERIFIABLE: the own site says employee benefits may cover Registered Dietitian appointments and (for a group program) 'we don't take insurance, you may be able to get your money reimbursed', but makes no explicit direct-billing statement for one-on-one dietitian services. No online booking page was found — booking starts with a free discovery call arranged through the own site, so booking_page is null.",
-  "clinic_id": "project-nutrition-ottawa"
- },
- {
-  "clinic": null,
-  "treatment_id": "jane-graham-ottawa--sports-nutrition",
-  "treatment": "Sports Nutrition",
-  "billed_as": "Dietitian",
-  "practitioner": "Jane Graham, RD",
-  "practitioners": [
-   {
-    "id": "jane-graham-ottawa--jane-graham",
-    "name": "Jane Graham",
-    "as_recorded": "Jane Graham, Registered Dietitian — BSc in Dietetics and Human Nutrition (McGill University), Master's in Health Administration (University of Ottawa), 30 years clinical experience, member of the College of Dietitians of Ontario (clinic's own About page)"
-   }
-  ],
-  "price_text": null,
-  "price_source": "The clinic's own Rates & Location page publishes general dietitian rates (initial consultation, 90 minutes: $180 individual / $225 family; follow-up, 45 minutes: $120 individual / $125 family), but sports nutrition is not among the services listed anywhere on the clinic's own site, so under Pricing + Practitioner Rule v2 the general fee is not recorded as the Sports Nutrition price.",
-  "treatment_link": "http://janegraham.ca/",
-  "status": null,
-  "last_verified": null,
-  "gaps": "DIRECTORY PREMISE FLAG: sports nutrition is NOT offered or mentioned on the clinic's own website — her three service pages are Medical Nutrition Therapy (GI disorders, cardiovascular disease, diabetes, eating disorders, cancer, kidney/liver/pancreatic disease, chronic inflammation, bone health), Wellness and Prevention (lifecycle nutrition, weight, vitamins/minerals, plant-based diets, Nutrigenomix) and Rebuild Food Tolerance, and her About page describes medical nutrition therapy for chronic illness and digestive disorders plus a non-diet approach to weight management, so this Sports Nutrition listing is unsupported and price_text is null. HOURS CONFLICT: the own site's in-office hours (Mon-Thu 4:00 PM - 7:00 PM, recorded) differ from Google Places (Mon-Thu 5:00 PM - 7:00 PM); Saturday 9:00 AM - 12:00 PM agrees; no Friday/Sunday in-office hours are published (virtual sessions are offered outside clinic hours 7 days a week). GOOGLE RATING UNVERIFIABLE: the Places listing showed address, phone, website and hours but no rating or review count, and the own site has no Google badge/widget. No online booking page exists — contact is by phone or the site's contact form, so booking_page is null.",
-  "clinic_id": "jane-graham-ottawa"
- },
- {
-  "clinic": null,
-  "treatment_id": "genevieve-marleau-ottawa--sports-nutrition",
-  "treatment": "Sports Nutrition",
-  "billed_as": "Dietitian",
-  "practitioner": "Genevieve Marleau, RD",
-  "practitioners": [
-   {
-    "id": "genevieve-marleau-ottawa--genevieve-marleau",
-    "name": "Genevieve Marleau",
-    "as_recorded": "Genevieve Marleau, RD, B.Sc (Nutrition) — Registered Dietitian with the College of Dietitians of Ontario and member of Dietitians of Canada, practising at Motion Works Physiotherapy Orleans (host clinic's own team page)"
-   }
-  ],
-  "price_text": null,
-  "price_source": "No dietitian fees are published on the host clinic's own website (dietitian services page, team page and FAQs checked), so the Sports Nutrition price is left null. A third-party profile (HealthLocal) lists $150 for a 60-minute initial nutrition consultation and $80 for a 30-minute follow-up, but that is not the clinic's own site/booking page and is not recorded.",
-  "treatment_link": "https://www.mwphysioorleans.com/site/dietitian-services-ottawa",
-  "status": null,
-  "last_verified": null,
-  "gaps": "DIRECTORY PREMISE FLAG: sports nutrition is NOT among the dietitian services listed on the host clinic's own dietitian services page for Genevieve Marleau — the page lists Healthy Eating, Weight Management, Chronic Disease Management (diabetes, heart health, cancer), Gastrointestinal Health, Gestational (Pregnancy) Diabetes and Meal Planning/Preparation; a 'Dietary Supplements – Sports Supplement' course in her bio is training, not a sports-nutrition service offering, so price_text is null and the Sports Nutrition premise is unsupported on the clinic's own site. HOST-CLINIC RECORD: this entry is a dietitian practising inside Motion Works Physiotherapy Orleans, so address, phone and hours are the host clinic's, per the task instruction; her own separate Google Places listing (Genevieve Marleau) shows only Tuesday 4:00 PM - 8:00 PM, which likely reflects her personal dietitian availability and conflicts with the host clinic hours recorded here. DIRECT BILLING: classified 'no' on the host clinic's own FAQ wording for extended health benefits, with a narrow Medavie Blue Cross (RCMP / Veterans Affairs / National Defence) exception quoted; the FAQ is clinic-wide and physio-framed, not dietitian-specific. GOOGLE RATING UNVERIFIABLE: neither her personal Places listing nor the host clinic's Places listing showed a rating in search results (aggregator figures for the host clinic, e.g. HealthHives 4.8/198 and Medimap 5/714, were excluded under the own-site/Places-only rating rule). She also appears under a separate independent practice (a Wix site and a Lumino listing at a Terrapin Terrace address in Orleans), which is not the practice verified here. No online booking portal was found on the host clinic's site (appointments by phone / request-an-appointment), so booking_page is null.",
-  "clinic_id": "genevieve-marleau-ottawa"
- },
- {
-  "clinic": null,
-  "treatment_id": "rebekah-de-couvreur-dietitian-ottawa--sports-nutrition",
-  "treatment": "Sports Nutrition",
-  "billed_as": "Dietitian",
-  "practitioner": "Rebekah De Couvreur, BSc, RD",
-  "practitioners": [
-   {
-    "id": "rebekah-de-couvreur-dietitian-ottawa--rebekah-de-couvreur",
-    "name": "Rebekah De Couvreur",
-    "as_recorded": "Rebekah De Couvreur, BSc, RD — IOC Diploma in Sport Nutrition, Certified Intuitive Eating Counselor, Certified Diabetes Educator; registered dietitian specializing in sport nutrition (clinic's own About page)"
-   }
-  ],
-  "price_text": null,
-  "price_source": "No session fees are published on the clinic's own website or its own Book Online page (the homepage lists Webinar, Community Membership and 1:1 Support without prices, and the Book Online page covers insurance/receipts only in the text fetched), so the Sports Nutrition price is left null.",
-  "treatment_link": "https://www.rdcdietitian.com/",
-  "status": null,
-  "last_verified": null,
-  "gaps": "SPORTS NUTRITION CONFIRMED, SCOPE NOTE: her own site confirms sports nutrition directly ('a registered dietitian specializing in sport nutrition'; the homepage says the practice 'helps you bridge the gap between sports nutrition and maternal care'), but the current homepage focus is narrower than a general Sports Nutrition listing — sports nutrition for active mothers through pregnancy, postpartum and return to training. VIRTUAL PRACTICE NOTE: her own blog describes the practice as 'a virtual private practice', yet the own site footer and Google Places both give the street address recorded here (1632 Varennes Boulevard, Ottawa, ON K4A 3Z8) and the phone 343-204-2159. GOOGLE RATING UNVERIFIABLE: the Places listing showed address, phone, website and hours but no rating or review count, and the own site has no Google badge/widget; the 5.0/1 figure on her Lumino Health profile is not a Google rating and was excluded. No price was found (see price_source).",
-  "clinic_id": "rebekah-de-couvreur-dietitian-ottawa"
- },
- {
-  "clinic": null,
-  "treatment_id": "dietitian-4-health-hamilton--sports-nutrition",
-  "treatment": "Sports Nutrition",
-  "billed_as": "Dietitian",
-  "practitioner": "Rachel Freeman, RD",
-  "practitioners": [
-   {
-    "id": "dietitian-4-health-hamilton--rachel-freeman",
-    "name": "Rachel Freeman",
-    "as_recorded": "Rachel Freeman — Registered Dietitian working in pediatrics for the past 24 years; happy to see all children from the ages of 0-18, virtual appointments only (clinic's own homepage)"
-   }
-  ],
-  "price_text": null,
-  "price_source": "The clinic's own Services & Fees page publishes pediatric fees only (Initial Assessment, Pediatrics, currently virtual: $150.00 for 60 mins; Follow-Up Assessment, Pediatrics: $125.00 for 30-45 mins; Computerized Diet Analysis: $175.00), and sports nutrition is not offered on the own site, so under Pricing + Practitioner Rule v2 no Sports Nutrition price is recorded.",
-  "treatment_link": "https://www.dietitian4health.com/services-and-fees",
-  "status": null,
-  "last_verified": null,
-  "gaps": "DIRECTORY PREMISE FLAG: this is a PEDIATRIC dietitian practice — the own homepage presents 'Rachel - Dietitian for Children' (children ages 0-18, virtual appointments only) and its Services & Fees page labels every service 'Pediatrics'; sports nutrition is not offered or mentioned anywhere on the own site, so this Sports Nutrition listing is unsupported and price_text is null. CITY / LOCATION CONFLICT (possible directory error): the directory lists Hamilton, and one Google Places listing gives 43 Barnabas St, Hamilton (phone 905-741-4893, Wednesday-only hours 6:00 AM - 8:00 PM), but a second Places listing for the same website says 'Virtual visits only, Burlington, ON' (phone 905-315-0362, no hours) and YellowPages lists the practice at 11-3455 Harvester Rd, Burlington, ON L7N 3P2 with phones 905-315-0362 / 289-975-4211; the own site itself is virtual-only and publishes no street address, phone or hours, so address, postal, phone and hours are all left null rather than choosing between the conflicting listings. GOOGLE RATING UNVERIFIABLE: neither Places listing showed a rating or review count, and the own site has no Google badge/widget. DIRECT BILLING UNVERIFIABLE: the own homepage says only that 'Dietitian services are covered by some insurance plans and workplace benefits' and may be tax deductible — no direct-billing statement. No online booking page was found on the own site, so booking_page is null.",
-  "clinic_id": "dietitian-4-health-hamilton"
- },
- {
-  "clinic": null,
   "treatment_id": "the-cohen-clinic-toronto--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
@@ -3500,6 +3308,364 @@
  },
  {
   "clinic": null,
+  "treatment_id": "it-takes-practice-red-deer--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Amber Chamberlain, MACP, Registered Provisional Psychologist",
+  "practitioners": [
+   {
+    "as_recorded": "Amber Chamberlain, MACP is a Registered Provisional Psychologist at It Takes Practice in Red Deer. She specializes in working with couples, adults, and adolescents (14+)",
+    "id": "it-takes-practice-red-deer--amber-chamberlain",
+    "name": "Amber Chamberlain"
+   }
+  ],
+  "price_text": "$215 to $235 per hour",
+  "price_source": "Clinic's own FAQ (https://www.ittakespractice.ca/faq): 'Current session fees range from $215 to $235 per hour, with longer or shorter sessions pro-rated.' This is the clinic-wide counselling fee range by therapist credential, not a couples-specific posted price; the couples page (https://www.ittakespractice.ca/couples-counselling) states couples sessions are usually 90 minutes.",
+  "treatment_link": "https://www.ittakespractice.ca/couples-counselling",
+  "status": null,
+  "last_verified": null,
+  "gaps": "No Google rating/review count could be sourced from Google Places details in search results or the clinic's own site (only a Birdeye aggregator rating was found, which is excluded), so google_rating/google_reviews are null. Hours conflict: Google Places hours used above differ from an older own-site crawl showing Mon 09:30-19:00, Tue 09:00-19:00, Wed/Thu 09:00-21:00, Fri 09:00-16:00, Sat 10:00-18:00; Sunday hours unverifiable. Booking: the FAQ says clients can book through an online/OWL portal ('Book Here'), but the actual portal URL could not be captured from the site text, so booking_page is null. Practitioner credential inconsistency on the own site: one blog header calls Amber Chamberlain a 'Registered Psychologist' while her author bios call her a 'Registered Provisional Psychologist'; the provisional wording was recorded. The recorded fee is a general range; Amber Chamberlain's exact fee within the $215-$235 range is not posted. Clinic also has an Edmonton location; the Red Deer address above is the location in scope.",
+  "clinic_id": "it-takes-practice-red-deer"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "bear-creek-counselling-psychology-grande-prairie--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Annette Sawatzky, Registered Provisional Psychologist",
+  "practitioners": [
+   {
+    "as_recorded": "Annette is a Registered Provisional Psychologist with a Masters of Science in Clinical Psychology from Capella University. She works with children age 10+, individuals, and couples. One hour session: $200",
+    "id": "bear-creek-counselling-psychology-grande-prairie--annette-sawatzky",
+    "name": "Annette Sawatzky"
+   }
+  ],
+  "price_text": "$200 for a one hour session",
+  "price_source": "Clinic's own therapists page (https://bearcreekcounselling.ca/), under Annette Sawatzky: 'One hour session: $200'. This is her general one-hour session price; she is the practitioner the same page lists as working with couples, satisfying Pricing Rule v2. No couples-specific price is posted.",
+  "treatment_link": "https://bearcreekcounselling.ca/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "No Google rating/review count could be sourced from Google Places details in search results or the clinic's own site, so google_rating/google_reviews are null. Direct billing unverifiable: the own site makes no general direct-billing statement (only that director Beth Bellamy 'is able to bill NIHB'; Bellamy is not recorded here as a couples practitioner), so direct_billing is null. No online booking page and no dedicated couples-therapy service page were found on the own site, so booking_page is null and treatment_link falls back to the website, whose therapists page lists couples work for Annette Sawatzky. Note: a third-party Lumino profile labels Annette Sawatzky a Registered Social Worker; that conflicts with the clinic's own site ('Registered Provisional Psychologist'), and only the own-site credential was recorded.",
+  "clinic_id": "bear-creek-counselling-psychology-grande-prairie"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "josh-dyck-psychology-lethbridge--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Josh Dyck, Registered Psychologist #4117",
+  "practitioners": [
+   {
+    "as_recorded": "Josh Dyck, Registered Psychologist #4117 — Services page: 'Josh provides support and guidance in a variety of areas, including... Couples counselling (communication, infidelity, intimacy, conflict, etc.)'",
+    "id": "josh-dyck-psychology-lethbridge--josh-dyck",
+    "name": "Josh Dyck"
+   }
+  ],
+  "price_text": "$220 CAD per 50-minute session",
+  "price_source": "Clinic's own Services page (https://www.joshdyckpsychology.com/services): 'Fee: $220 CAD per 50-minute session'. This is the sole practitioner's general session fee and the same page lists couples counselling among his services, satisfying Pricing Rule v2. Note an older FAQ version of the site quoted $200 per 50 minute session; the current Services page price was recorded.",
+  "treatment_link": "https://www.joshdyckpsychology.com/how-i-help/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "No Google rating/review count could be sourced from Google Places details in search results or the clinic's own site (a Birdeye aggregator page and a Lumino rating exist but are excluded sources), so google_rating/google_reviews are null. Hours are incomplete: the own site's Hours field is blank and Google Places listed only Thu/Fri/Sat, so Mon/Tue/Wed/Sun are null. No online booking page was found on the own site, so booking_page is null. Price changed over time on the own site ($200 on an older FAQ vs $220 on the current Services page).",
+  "clinic_id": "josh-dyck-psychology-lethbridge"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "shelley-hanna-psychology-okotoks--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Liza Eldysheva, MACP, Registered Provisional Psychologist",
+  "practitioners": [
+   {
+    "as_recorded": "Liza Eldysheva MA — Jane booking heading 'MACP R. Prov Psychologist'; 'I am a Registered Provisional Psychologist and I hold a Master of Arts in Counselling Psychology from Yorkville University. My clinical work includes supporting youth, adults, couples, families, neurodivergent clients, and newcomers adjusting to life in Canada.'",
+    "id": "shelley-hanna-psychology-okotoks--liza-eldysheva",
+    "name": "Liza Eldysheva"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "http://www.shelleyhannapsychology.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Price null: the clinic's own Jane booking page (Okotoks location) lists practitioners but no treatment/session prices in its fetched text, and the own website posts no fees, so no price could be verified from an allowed source (a Lumino 'more than $220 per visit' figure is a third-party source and was not used). Postal code null: the own site and Jane page give '102 Elma St W, Okotoks' with no postal code; third-party sources conflict (T1S 1J9 vs T1S 1J7 for this address), so none was recorded. No Google rating/review count could be sourced from Google Places details in search results or the clinic's own site, so google_rating/google_reviews are null. Hours conflict: own site says Mon-Sat 9am-8pm, while Google Places lists shorter Mon/Tue and Saturday hours; own-site hours were recorded and Sunday is unverifiable. The own homepage says its practitioners collectively provide couples counselling but does not name Shelley Hanna herself for couples; the only practitioner individually listed for couples on the own booking page is Liza Eldysheva, so only she was recorded. Clinic also has a Calgary location (#205-259 Midpark Way SE); the Okotoks address in scope is recorded. No dedicated couples-therapy service page was found, so treatment_link falls back to the website.",
+  "clinic_id": "shelley-hanna-psychology-okotoks"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "clinique-de-psychologie-du-couple-quebec-city--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Sara-Ève Nadeau, D.Psy, psychologue clinicienne",
+  "practitioners": [
+   {
+    "as_recorded": "Sara-Ève Nadeau — Clientèle: Adolescents, Couples, Adultes; 'Je suis psychologue clinicienne détentrice d’un doctorat en psychologie clinique de l’Université Laval (D. Psy)'",
+    "id": "clinique-de-psychologie-du-couple-quebec-city--sara-eve-nadeau",
+    "name": "Sara-Ève Nadeau"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://cliniquepsychologiecouple.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Price null: no tariffs/fees are posted on the clinic's own website or any own booking page found, so no couples-therapy price could be verified. Direct billing null: the own site makes no direct-billing or receipts-only statement that could be found. No Google rating/review count could be sourced from Google Places details in search results or the clinic's own site, so google_rating/google_reviews are null. Postal code null: the own site's fetched pages do not display the clinic address or postal code; Google Places gave '444 Boulevard René-Lévesque O, Québec, QC' and the clinic phone 581-681-8686 without a postal code (the G1S 1S3 postal code seen for this address comes only from third-party directories such as YellowPages and was not recorded under the own-source rule). Address/phone/hours above are therefore from Google Places details surfaced in search results, not the own site. No online booking page was found, so booking_page is null. The clinic is a multi-practitioner couple-psychology clinic; only Sara-Ève Nadeau's own profile page was verified in this scan as listing 'Couples' in her clientèle, so she is the only practitioner recorded — other team members may also see couples but were not individually verified here. No separate couples-therapy service page exists apart from the clinic homepage, so treatment_link is the website.",
+  "clinic_id": "clinique-de-psychologie-du-couple-quebec-city"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "centre-de-therapie-pour-couples-et-familles-de-loutaouais-gatineau--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Julie J. Brousseau, THÉRAPEUTE CONJUGALE ET FAMILIALE - PSYCHOTHÉRAPEUTE - SUPERVISEURE CLINIQUE - FONDATRICE ET DIRECTRICE DU CTCFO",
+  "practitioners": [
+   {
+    "as_recorded": "Julie J. Brousseau, THÉRAPEUTE CONJUGALE ET FAMILIALE - PSYCHOTHÉRAPEUTE - SUPERVISEURE CLINIQUE - FONDATRICE ET DIRECTRICE DU CTCFO",
+    "id": "centre-de-therapie-pour-couples-et-familles-de-loutaouais-gatineau--julie-j-brousseau",
+    "name": "Julie J. Brousseau"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "http://ctcfo.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "No fee/price published on own site (walk-in page says only 'tarifs compétitifs'), so price_text null. Online booking exists for a first assessment/orientation appointment ('plateforme en ligne' on homepage and sans-rdv page) but the booking platform URL could not be captured (browser.open was rate-limited, 429), so booking_page null. Own site lists TWO Gatineau locations: 116 rue Lois bureau 201 J8Y 3R7 (recorded; matches Google Places) and 444 boul. de l'Hôpital 2e étage J8T 7X6. Team is ~30 professionals with mixed credentials; only the founder is explicitly titled as a couple/family therapist on the professionals page checked, so only she is recorded. Direct billing unverifiable (receipts model described, no explicit direct-billing statement).",
+  "clinic_id": "centre-de-therapie-pour-couples-et-familles-de-loutaouais-gatineau"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "linterphase-clinique-de-psychologie-neuropsychologie-montreal--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Marine Roussel, Psychologue & Neuropsychologue, Membre de l'OPQ et de l'AQNP — Thérapie de couple",
+  "practitioners": [
+   {
+    "as_recorded": "Marine Roussel, Psychologue & Neuropsychologue, Membre de l'OPQ et de l'AQNP — listed for Thérapie de couple on the team page",
+    "id": "linterphase-clinique-de-psychologie-neuropsychologie-montreal--marine-roussel",
+    "name": "Marine Roussel"
+   },
+   {
+    "as_recorded": "Amélie Kijek, Psychologue & Neuropsychologue, Membre de l'OPQ — listed for Thérapie de couple on the team page",
+    "id": "linterphase-clinique-de-psychologie-neuropsychologie-montreal--amelie-kijek",
+    "name": "Amélie Kijek"
+   },
+   {
+    "as_recorded": "Myriem Merabet, Psychologue, Membre de l'OPQ — listed for Thérapie de couple and Thérapie familiale on the team page",
+    "id": "linterphase-clinique-de-psychologie-neuropsychologie-montreal--myriem-merabet",
+    "name": "Myriem Merabet"
+   }
+  ],
+  "price_text": "$180 – $200 per session (Les tarifs varient entre 180 $ et 200 $ par séance, selon le professionnel)",
+  "price_source": "Couples therapy page FAQ on own site: https://www.linterphasepsychologie.com/nos-services/therapie-de-couple-montreal",
+  "treatment_link": "https://www.linterphasepsychologie.com/nos-services/therapie-de-couple-montreal",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Google rating null: the Google Places block surfaced in search for this clinic contained no rating/review count; a 5.0/15 figure appears only on Birdeye (aggregator, excluded by sourcing rules). Online booking is via Go Rendez-vous per own site ('directement en ligne via Go Rendez-vous'), but no direct booking URL was captured, so booking_page null. Address suite discrepancy: own site footer and Places say Suite 124, while the clinic's own Places description text says Suite 108 — recorded Suite 124 per current site footer. Hours conflict between clinic description (Mon–Fri to 6 PM, Sat to 3 PM) and Places hours block (Mon–Sat 9–5) — flagged for re-verification. Couples page also lists a sexologue on the specialised team without a name/credential detail sufficient to record.",
+  "clinic_id": "linterphase-clinique-de-psychologie-neuropsychologie-montreal"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "le-groupe-therapie-the-therapy-group-montreal--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Social Work",
+  "practitioner": "Jélénia Cyrise, Social Worker, Couple and Family Therapist & Psychotherapist",
+  "practitioners": [
+   {
+    "as_recorded": "Jélénia Cyrise, Social Worker, Couple and Family Therapist & Psychotherapist (Jane booking bio: 'Clientele: Individuals, families and couples')",
+    "id": "le-groupe-therapie-the-therapy-group-montreal--jelenia-cyrise",
+    "name": "Jélénia Cyrise"
+   },
+   {
+    "as_recorded": "Kylie Goldman, registered social worker (own-site profile: 'I'm a registered social worker... I have over 10 years of experience providing support to children, adults, couples and families'; in process of obtaining psychotherapy permit)",
+    "id": "le-groupe-therapie-the-therapy-group-montreal--kylie-goldman",
+    "name": "Kylie Goldman"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.thetherapygroup.ca/fr/copy-of-couples-therapy-2",
+  "status": null,
+  "last_verified": null,
+  "gaps": "DIRECTORY/CITY NOTE: listing says Montreal, but the clinic's physical location is in Pointe-Claire (West Island of Montreal), 277 Lakeshore Dr — city recorded as Pointe-Claire. Address discrepancy on own site: the French couples page footer gives '277, Bord du Lac (bureau 8a), Pointe-Claire, QC H9S 4R2' while current English pages and Google Places give '277 Lakeshore Dr Suite 8, H9S 4L2' (recorded). A second location (clinical supervision only) is listed in Laval. Price null: own FAQ says 'Prices range depending on the service needed. Feel free to reach out to us at info@thetherapygroup.ca' — no couples fee published on site or on the Jane booking page as surfaced in search. Google rating null: the Google Places block for the .ca clinic contained no rating/review count (a 5.0/9 figure appears only on aggregator top-rated.online, excluded). Team is mixed-credential (mostly Registered Social Workers, plus psychotherapists/counsellors); billed_as recorded as Social Work based on the named couples practitioners, but individual clinicians vary — verify per clinician.",
+  "clinic_id": "le-groupe-therapie-the-therapy-group-montreal"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "ocfi-ottawa-couple-and-family-institute-ottawa--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://ocfi.ca/couple-therapy-2/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Price null: no fee published on own site; third-party sources state each therapist has individual billing rates/fees, and no couples-specific price could be verified on ocfi.ca or a booking page (no online booking page found; intake is via contact/free 20-minute consultation form). Practitioner/billed_as null per PRICING+PRACTITIONER RULE v2: the homepage names the directors (Dr. Orly Rumstein McKean, Psychologist; Dr. Normand Gingras, Psychologist) and the site states its ~29 clinicians provide couple/family/individual EFT, but no page checked explicitly lists a named clinician as a couples-therapy practitioner, so none is recorded. Postal code null: own site footer gives the street address without a postal code (K2A 1E6 appears in directories only, excluded by own-site sourcing rule). Google rating null: no rating/review count in a Google Places block or on the own site was surfaced (a 5/5 figure appears only on YellowPages, an aggregator, excluded).",
+  "clinic_id": "ocfi-ottawa-couple-and-family-institute-ottawa"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "evolve-therapy-and-counselling-kingston--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Sarah Ryce, RN, Psychotherapist, BScN, PMH-C",
+  "practitioners": [
+   {
+    "as_recorded": "Sarah Ryce, RN, Psychotherapist, BScN, PMH-C (own site: 'I'm Sarah. A mom, wife and Registered Nurse, Psychotherapist... I also work with Couples who are interested in improving their communication patterns... Couples Counselling Level 1&2 (Gottman Institute)')",
+    "id": "evolve-therapy-and-counselling-kingston--sarah-ryce",
+    "name": "Sarah Ryce"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.evolvetherapykingston.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Solo-practitioner practice (Sarah Ryce, nurse psychotherapist) operating inside Wellness Within Therapy and Counselling at 1111 Princess St #3, Kingston; postal code K7L 2T1 is taken from the host clinic Wellness Within's own site for that exact address (Evolve's own site omits the postal code). Price null: no session fee published on Evolve's own site, and no couples price for Sarah Ryce could be verified on the Wellness Within Jane booking page via search — do not use fees from similarly named 'Evolve Therapy' practices in other cities. Phone null: no phone number published on own site (contact is by email, Sarah@evolvetherapykingston.com, or contact form). Hours null: none published on own site or in the Google Places block surfaced in search. Google rating null: the Places block for this clinic contained no rating/review count. Booking page is the host clinic's Jane App (linked from Evolve's own site); sliding-scale spots are mentioned but unpriced. Billed as Psychotherapy (nurse psychotherapy under CNO); some insurers do not yet cover nurse psychotherapy per the site's own FAQ.",
+  "clinic_id": "evolve-therapy-and-counselling-kingston"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "crossroads-therapeutic-solutions-saskatoon--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Maureen Walker, M. Ed., Registered Psychologist #788 Registered Psychologist   Individual, Couples, Families, Children & Adolescents",
+  "practitioners": [
+   {
+    "as_recorded": "Maureen Walker, M. Ed., Registered Psychologist #788 Registered Psychologist   Individual, Couples, Families, Children & Adolescents",
+    "id": "crossroads-therapeutic-solutions-saskatoon--maureen-walker",
+    "name": "Maureen Walker"
+   },
+   {
+    "as_recorded": "Jai Richards, MA, Registered Psychologist #917 Adult Individuals, Couples and Groups",
+    "id": "crossroads-therapeutic-solutions-saskatoon--jai-richards",
+    "name": "Jai Richards"
+   },
+   {
+    "as_recorded": "Julie Hershey, MA, MFCC #0718 Marriage, Family, and Child Counsellor   Individuals, Couples, Parents, Families, Youth, Children",
+    "id": "crossroads-therapeutic-solutions-saskatoon--julie-hershey",
+    "name": "Julie Hershey"
+   },
+   {
+    "as_recorded": "Kimberly Forsyth, MC, CCC #2562 Certified Canadian Counsellor   Individuals, Children 12+, Couples, Families, Groups",
+    "id": "crossroads-therapeutic-solutions-saskatoon--kimberly-forsyth",
+    "name": "Kimberly Forsyth"
+   },
+   {
+    "as_recorded": "Bev Digout, MSW, RSW(SK) #3091 Registered Social Worker   Individuals, Couples, Families, Adolescents",
+    "id": "crossroads-therapeutic-solutions-saskatoon--bev-digout",
+    "name": "Bev Digout"
+   },
+   {
+    "as_recorded": "Crystal Skjerven, BSW, RSW #2196 Registered Social Worker   Individuals, Adults, Couples",
+    "id": "crossroads-therapeutic-solutions-saskatoon--crystal-skjerven",
+    "name": "Crystal Skjerven"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://crossroadstherapy.ca/practice-areas/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Price: no fee found on clinic's own website; its Jane booking page (linked as 'Online Booking' from its own site) returned only a Jane cookie page in text fetch, so no couples price could be verified — price_text null, not estimated. Direct billing: own site says therapists are approved providers for EFAP / Health Canada and 'most health benefit plans' but does not explicitly say it direct-bills insurers, so direct_billing null/unverifiable. Hours Sat/Sun not listed in Google Places details. Billed_as is Psychology for the first-listed couples practitioners (Registered Psychologists Maureen Walker and Jai Richards); the couples team is mixed — other couples practitioners on the same team page are a Registered Social Worker (Social Work) and Certified Canadian Counsellors, so billing varies by practitioner.",
+  "clinic_id": "crossroads-therapeutic-solutions-saskatoon"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "gateways-counselling-regina--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Judy Wright (she/her) is a M. Ed. Registered Psychologist",
+  "practitioners": [
+   {
+    "as_recorded": "Judy Wright (she/her) is a M. Ed. Registered Psychologist",
+    "id": "gateways-counselling-regina--judy-wright",
+    "name": "Judy Wright"
+   },
+   {
+    "as_recorded": "Ramona P. Wijesinghe, BA.,BSW.,RSW",
+    "id": "gateways-counselling-regina--ramona-p-wijesinghe",
+    "name": "Ramona P. Wijesinghe"
+   },
+   {
+    "as_recorded": "Nina is a registered clinical social worker, at the masters level, in both Saskatchewan and Nova Scotia.",
+    "id": "gateways-counselling-regina--nina",
+    "name": "Nina"
+   }
+  ],
+  "price_text": "Couples Counselling: $220/50 minute session (Judy); $200/50 minute session (Ramona or Nina)",
+  "price_source": "Clinic's own Services & Programs page, Pricing section: 'Couples Counselling: $220/50 minute session (Judy); 200/50 minute session (Ramona or Nina)' — https://www.gatewayscounselling.com/services-and-programs",
+  "treatment_link": "https://www.gatewayscounselling.com/services-and-programs",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Rating: no Google rating/reviews in Google Places details as surfaced in search results; the only rating found was on Birdeye (aggregator, 3.9 / 9), which is not an allowed source, so google_rating/google_reviews null. Postal code conflict: clinic's own homepage footer gives S4S 3R6 (used here, own-site source), while 211 Saskatchewan and other listings give S4S 6B6 for 209-4401 Albert St. Practitioner 'Nina' — surname is not given anywhere on the clinic's own site/booking page (first name only), so recorded as Nina only. Hours Sun not listed in Places details. Billed_as is Psychology for Judy Wright (Registered Psychologist, first in the couples pricing list); Ramona Wijesinghe (RSW) and Nina (clinical social worker) would bill as Social Work, so billing varies by practitioner. No dedicated couples-therapy page — Services & Programs page is the own-site couples source (sessions for individuals, couples and families; couples pricing listed there).",
+  "clinic_id": "gateways-counselling-regina"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dr-paula-battle-winnipeg--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Paula Battle — I am a Registered Clinical Psychologist with a Ph.D. and MA from the University of Manitoba",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Paula Battle — I am a Registered Clinical Psychologist with a Ph.D. and MA from the University of Manitoba, a Master of Social Work from the University of Windsor",
+    "id": "dr-paula-battle-winnipeg--paula-battle",
+    "name": "Paula Battle"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.drbattle.ca/couples-therapy",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Price: clinic's own FAQ gives no numeric fee — only that 'Psychologist fees follow guidelines set by the Manitoba Psychological Society' and are paid directly by clients — so price_text null (a $180-$235 figure on Lumino/Sun Life is a third-party source and was not used). Rating: no rating in Google Places details as surfaced in search results; a 4.8 / 6 figure appears only on TrustAnalytica (aggregator, not allowed), so google_rating/google_reviews null. Booking: no online booking page — appointments are made by phone per the FAQ, so booking_page null. Hours Sat/Sun not listed in Places details. A second phone number, 204-488-0402, is also listed on the clinic's own site.",
+  "clinic_id": "dr-paula-battle-winnipeg"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "green-leaf-psychological-services-halifax--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$230 per clinical hour (couples counselling)",
+  "price_source": "Clinic's own Fees page, Couples Counselling section: 'The fee for couples counselling is $230 per clinical hour.' — http://www.greenleafpsychological.com/fees-psychologists-nova-scotia.html",
+  "treatment_link": "https://www.greenleafpsychological.com/couples-counselling-halifax.html",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Practitioner/billed_as: the clinic's own couples page names no individual couples practitioner — intake reviews each request and matches couples with a therapist — so practitioner null and practitioners empty per the recording rule. Because no couples practitioner's credential is verifiable, billed_as is null: the clinic's team includes Psychologists, Registered Counselling Therapists and Clinical Social Workers (its Fees page prices those credentials differently for individual therapy), so couples billing depends on the matched therapist. Rating: no rating in Google Places details as surfaced in search results, and the homepage's client-ratings screenshot contains no extractable numeric rating in text, so google_rating/google_reviews null. Booking: no Jane/OWL-style online booking page found — appointments are requested via the contact/intake form on the clinic's own site, so booking_page null. Direct billing note: Fees page qualifies it as 'we may be able to offer direct billing to your insurance company' for therapy/assessments, while the couples page and homepage state 'We can direct bill many insurance plans/policies' (quoted).",
+  "clinic_id": "green-leaf-psychological-services-halifax"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "blake-psychology-montreal--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Dr Suzanne Melanson-Ouimet, Psy.D., Psychologist",
+  "practitioners": [
+   {
+    "as_recorded": "Dr Suzanne Melanson-Ouimet, Psy.D., Psychologist",
+    "id": "blake-psychology-montreal--suzanne-melanson-ouimet",
+    "name": "Suzanne Melanson-Ouimet"
+   },
+   {
+    "as_recorded": "Mr Ivan Rubio, MA, Psychotherapist",
+    "id": "blake-psychology-montreal--ivan-rubio",
+    "name": "Ivan Rubio"
+   }
+  ],
+  "price_text": "Starting at $180 (online therapy for individuals, couples, and families)",
+  "price_source": "Clinic's own Locations page, Blake Psychology Online section: 'We Offer Online Therapy for Individuals, Couples, and Families — Starting at $180, you can receive counselling or psychotherapy from the comfort of your own home or office.' — https://www.blakepsychology.com/locations/",
+  "treatment_link": "https://www.blakepsychology.com/campaigns/couples-therapy/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Multi-location clinic (6+ locations in Montreal/West Island/Laval/Vaudreuil): address, phone and hours recorded are for the first-listed Montreal location, Montréal McGill Metro (2001 Blvd Robert-Bourassa, Suite 1700, H3A 2A6, 514-312-1744), from the clinic's own site / its Places details. Price: no couples-specific session fee is published on the clinic's own site; the only own-site price is the 'starting at $180' online-therapy figure, which the Locations page explicitly applies to individuals, couples, and families — recorded as a starting price, not a confirmed couples session fee. Rating: no rating in Google Places details as surfaced in search results; ratings found were only on aggregators (e.g. Birdeye 4.3 / 13 for a different location), which are not allowed sources, so google_rating/google_reviews null. Billed_as is Psychology for Dr Suzanne Melanson-Ouimet (Psy.D., Psychologist, first-listed on the couples page); the second couples therapist listed, Ivan Rubio (MA, Psychotherapist), would bill as Psychotherapy, so billing varies by practitioner. Booking portal URL is from the clinic's own FAQ ('self-service portal https://portal.blakepsychology.ca').",
+  "clinic_id": "blake-psychology-montreal"
+ },
+ {
+  "clinic": null,
   "treatment_id": "proactive-pelvic-health-centre-toronto--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": "Physiotherapy",
@@ -3584,6 +3750,131 @@
   "last_verified": null,
   "gaps": "PRACTITIONER: the clinic's own site announcement of its pelvic floor service states 'Pelvic Floor Physiotherapy is now available at our clinic for women, and we're proud to offer this essential service under Ulia's expert care' and that Ulia Shakeel, Registered Physiotherapist MScPT, has 'achieved Level 3 certification in Pelvic Floor Physiotherapy' — she is recorded on that own-site basis; no booking page listing was found. PRICE UNVERIFIABLE: no physiotherapy fees are published on the clinic's own website in the pages fetched, and no online booking page with prices was exposed (its blog posts refer to an 'online booking system' but no booking URL was found in the pages fetched), so price and booking_page are null and treatment_link is the own site's pelvic floor physiotherapy category page. POSTAL CODE NOTE: the clinic's own contact page gives '2525 Old Bronte Road in Suite 240, Oakville, Ontario, L6M 4J2' (recorded); one aggregator listing gave L6M 4J3 for the same address and was not used. CLINIC NAME NOTE: the clinic now also styles itself 'Palermo Plus Physio and Wellness Centre' on its own contact page; the directory name was kept as given. SUNDAY HOURS: Places listed no Sunday hours, so Sunday is null rather than assumed closed.",
   "clinic_id": "palermo-physiotherapy-wellness-centre-oakville"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "athletes-care-sports-medicine-centres-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Hannah Giffune, DPT, BHSc, Registered Physiotherapist, Pelvic Health Physiotherapy; Natalie McKellar, MScPT, BScKin(Hons), Registered Physiotherapist, Pelvic Health Physiotherapy (both at Athlete's Care in the Beach)",
+  "practitioners": [
+   {
+    "as_recorded": "HANNAH GIFFUNE, DPT, BHSc, Registered Physiotherapist, Pelvic Health Physiotherapy (Athlete's Care in the Beach, per the clinic's own Beach location page and its own pelvic health page provider list)",
+    "id": "athletes-care-sports-medicine-centres-toronto--hannah-giffune",
+    "name": "Hannah Giffune"
+   },
+   {
+    "as_recorded": "NATALIE MCKELLAR, MScPT, BSCKIN(HONS), Registered Physiotherapist, Pelvic Health Physiotherapy (Athlete's Care in the Beach, per the clinic's own Beach location page and its own pelvic health page provider list)",
+    "id": "athletes-care-sports-medicine-centres-toronto--natalie-mckellar",
+    "name": "Natalie McKellar"
+   }
+  ],
+  "price_text": "$159 pelvic floor consultation & treatment · $109 pelvic floor follow-up treatment",
+  "price_source": "Clinic's own Pelvic Health Physiotherapy page (http://www.athletescare.com/sports-medicine-services/pelvic-health-physiotherapy~3~324.html), Fees section: 'Pelvic Floor Consultation & Treatment: $159.00' and 'Pelvic Floor Follow-Up Treatment: $109.00'. These are pelvic-floor-specific prices published by the clinic itself, not a general-physio fallback.",
+  "treatment_link": "http://www.athletescare.com/sports-medicine-services/pelvic-health-physiotherapy~3~324.html",
+  "status": null,
+  "last_verified": null,
+  "gaps": "CHAIN — MANY LOCATIONS, DIRECTORY ENTRY IS GENERIC 'TORONTO': Athlete's Care is a large multidisciplinary chain. Its own pelvic health page lists pelvic health physiotherapy at these Toronto locations: in the Beach (Hannah Giffune, Natalie McKellar), Etobicoke, Liberty Village, Yonge & St. Clair, York Mills & Leslie, Yorkville and Queen & Dufferin at The Running Physio, and its own location pages also show pelvic health practitioners at Adelaide & York (Samantha Magee), King & Yonge (Samantha Magee) and Leaside (Keren Ramonov); further locations in Markham, Mississauga, Scarborough, Vaughan and Whitby also offer it. This record uses Athlete's Care in the Beach (1971 Queen Street East, Suite 106) because it is the FIRST Toronto location/provider listed on the clinic's own pelvic health page; the directory's single Toronto entry cannot represent all locations, and each pelvic location arguably needs its own record. BILLED AS PHYSIOTHERAPY CONFIRMED on the clinic's own pelvic page: 'Sessions are billed under physiotherapy and are typically covered by extended health insurance plans... Direct billing is available for many insurance providers.' RATING COUNT CONFLICT: the Google Places details retrieved show 4.9 based on only 7 reviews, while aggregators for the same place_id show far larger counts at the same 4.9 (Birdeye 370 reviews, BestProsInTown 164, Medimap 409) — aggregator figures were NOT used per the allowed-sources rule, so the Places figure was recorded, but the review count should be treated as low-confidence. BOOKING: the pelvic page directs patients to book into a pelvic health physiotherapist's schedule via the chain's Jane App (athletescare.janeapp.com); no Beach-specific Jane URL was exposed in the pages fetched, so the Jane root is recorded.",
+  "clinic_id": "athletes-care-sports-medicine-centres-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "physiozen-physiotherapy-clinic-scarborough--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Juhi Sinha, PT (She/Hers)",
+  "practitioners": [
+   {
+    "as_recorded": "Juhi Sinha, PT (She/Hers) — clinic's own About page; her practice highlights pelvic health physiotherapy and pregnancy/postpartum rehabilitation, and the clinic's own FAQ states 'Your care is provided by a knowledgeable female clinician, Juhi Sinha, PT, with advanced training in pelvic floor and women's health physiotherapy.'",
+    "id": "physiozen-physiotherapy-clinic-scarborough--juhi-sinha",
+    "name": "Juhi Sinha"
+   }
+  ],
+  "price_text": "$110 initial assessment (50 min) · $80-$120 follow-up sessions",
+  "price_source": "Clinic's own FAQ page (https://physiozen.ca/faq-1): 'General initial physiotherapy assessment is $110 for 50 mins and follow up sessions range $80-$120 (depending on time and your condition).' Pelvic floor physiotherapy has no separate price on the own site; the general physiotherapy price is recorded under Pricing Rule v2(b) because the SAME practitioner delivers both: the FAQ states care is provided by Juhi Sinha, PT, 'with advanced training in pelvic floor and women's health physiotherapy', the About page lists pelvic health physiotherapy among her practice highlights, and the FAQ explicitly invites questions 'around multiple joints, pelvic and vestibular physiotherapy sessions' in the same pricing answer.",
+  "treatment_link": "http://physiozen.ca/pelvic-physiotherapy",
+  "status": null,
+  "last_verified": null,
+  "gaps": "GOOGLE RATING UNVERIFIABLE under allowed sources: the Google Places details retrieved for PhysioZen showed address, phone and hours but no rating or review count, and the clinic's own site carries no numeric Google badge/widget (its About page title claims '5-Star Reviews' without a count). An aggregator figure (BestProsInTown: 5.0, 32 reviews) was NOT used per the rules. NO ONLINE BOOKING PAGE: the clinic's own contact page states 'Please call or email to book your appointment', and no Jane or other online booking page was found on its own site, so booking_page is null and treatment_link is the own pelvic physiotherapy page. LOCATION NOTE: the clinic is inside Lawrence Warden Medical Centre at Lawrence Ave E & Warden Ave; Google Places renders the city as Toronto for this address, but the directory city Scarborough matches the clinic's own site ('2050 Lawrence Avenue East, Unit A, Lawrence Warden Medical Centre, Scarborough, On M1R 2Z5'), so Scarborough was kept. Solo-practitioner clinic: Juhi Sinha is the only physiotherapist named on the own site.",
+  "clinic_id": "physiozen-physiotherapy-clinic-scarborough"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "axis-therapy-and-performance-mississauga--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Allison Valladolid; Angad Dhooria, Registered Physiotherapist",
+  "practitioners": [
+   {
+    "as_recorded": "Allison Valladolid — Axis Mississauga Jane booking page bio: 'I specialize in orthopaedic and pelvic health physiotherapy'; the same Jane location's treatment list describes her pelvic offer as 'Pelvic physiotherapy for pregnancy and postpartum recovery, diastasis recti, vaginismus, dyspareunia or painful intercourse, pelvic organ prolapse, incontinence and constipation in adults and children' under 'New Patient Pelvic'",
+    "id": "axis-therapy-and-performance-mississauga--allison-valladolid",
+    "name": "Allison Valladolid"
+   },
+   {
+    "as_recorded": "Angad Dhooria, Registered Physiotherapist — Axis Mississauga Jane booking page bio: 'Angad is a Registered Physiotherapist with a special interest in pelvic health, pediatric pelvic floor therapy, and vestibular rehabilitation, along with general orthopedic care'; areas of focus include 'Pelvic health (for all genders): pelvic pain, bladder and bowel concerns, pain with intercourse, pre- and postnatal care, prostate-related concerns, and post-surgical recovery' and 'Pediatric pelvic floor: bedwetting, daytime accidents, and constipation'",
+    "id": "axis-therapy-and-performance-mississauga--angad-dhooria",
+    "name": "Angad Dhooria"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://axistherapy.com/pelvic-floor-physiotherapy-mississauga/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PRICE UNVERIFIABLE from allowed sources: the Mississauga Jane booking page text fetch rendered practitioner bios but no treatment list or prices, and the clinic's current own site (axistherapy.com) publishes per-location physiotherapy prices for other locations (e.g. Downtown Toronto, Markham) but no Mississauga price was found on it. A legacy own-domain page (axistoronto.com/locations/mississauga, crawled ~480 days ago) listed general physiotherapy 'First Session $145 / Follow-up $95' with Pelvic Floor Therapy as an additional service, but that page is stale and predates the current site, so its prices were NOT recorded. GOOGLE RATING UNVERIFIABLE: the Google Places details retrieved for the Mississauga listing showed address, phone and hours but no rating or review count, and no Google badge/widget was found on the own site; the chain's 'over 5000 5-star Google reviews' claim and a 5.0/695 figure for the DOWNTOWN TORONTO location are chain/other-location figures and were not applied to Mississauga. PHONE NOTE: the Mississauga-specific number 905-501-8883 (Jane Mississauga page and Places) was recorded; Jane mirrors also show a chain-wide 647-350-2766. CHAIN: Axis has seven GTA locations (Riverdale, Scarborough, Downtown/Mercer, Mimico, Mississauga, Markham, Wellington); this record is the Mississauga (Bristol Rd & Hurontario) location only. BILLED AS PHYSIOTHERAPY CONFIRMED on the clinic's own pelvic floor service page (https://axistherapy.com/our-services/pelvic-floor-therapy/): 'Pelvic floor physiotherapy is billed the same way as standard physiotherapy, which means it's often covered by extended health insurance plans... Our front desk team can also provide receipts and direct billing where available.'",
+  "clinic_id": "axis-therapy-and-performance-mississauga"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "physiodna-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Irene Chau, Physiotherapist; Salma, Registered Physiotherapist",
+  "practitioners": [
+   {
+    "as_recorded": "Irene Chau, Physiotherapist — surname from the byline of the clinic's own pelvic floor blog post ('By: Irene Chau, Physiotherapist'); her PhysioDNA Toronto (Spadina) Jane booking page bio states 'Irene is also a pelvic floor physiotherapist, who has an interest and has done further education in pre and post-natal pelvic floor physiotherapy and rehab' and that she is a registered physiotherapist (MSc Physical Therapy, Queen's University)",
+    "id": "physiodna-toronto--irene-chau",
+    "name": "Irene Chau"
+   },
+   {
+    "as_recorded": "Salma, Registered Physiotherapist — first name only as published on the PhysioDNA Toronto (Spadina) Jane booking page (no surname shown there or found on the clinic's own site): 'Salma is a Registered Physiotherapist who completed her Master of Science in Physiotherapy at McMaster University... She has pursued additional training in manual therapy, pelvic health, and acupuncture. She has a particular interest in pelvic pain...'",
+    "id": "physiodna-toronto--salma",
+    "name": "Salma"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://physiodna.com/pelvic-health-physiotherapy/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "SITE SECURITY/HIJACK FLAG: a direct text fetch of the clinic's own pelvic health page (https://physiodna.com/pelvic-health-physiotherapy/) on 2026-11-01 returned an unrelated spam/gambling page ('AGUSTOTO'), while the search-index copy of the same URL (crawled days earlier) shows the genuine PhysioDNA pelvic health content and other physiodna.com pages fetch normally — the pelvic content, locations and practitioners in this record are therefore grounded in the search-index copy of the clinic's own pages plus its own Jane booking pages, and the live page should be re-checked by a human. MULTI-LOCATION: PhysioDNA has two Toronto clinics plus Oakville — downtown Toronto at 116 Spadina Avenue, Unit 201 (recorded here; its own Toronto clinic page lists Pelvic Health Physiotherapy among services and its Jane page lists pelvic practitioners Irene and Salma) and Bloor West Village at 2360 Bloor St W, Toronto, ON M6S 1P3 (its own pelvic page has a dedicated 'Bloor West Village Pelvic Health' section and its Jane page lists a 'New Patient Pelvic' treatment); the directory's single Toronto entry cannot distinguish them. PRICE UNVERIFIABLE: no fees are published on the clinic's own website, and the Jane booking pages fetched rendered practitioner bios but no treatment prices, so price is null. GOOGLE RATING UNVERIFIABLE under allowed sources: the Google Places details retrieved gave no rating/count for the Spadina clinic, aggregator figures (Birdeye 5.0/261 for Spadina) were excluded per the rules, and the clinic's own site footer shows an unattributed 'Rating: 5 (172 reviews)' line whose source (Google vs other) is not labelled, so it was not recorded as a Google rating. DIRECT BILLING SOURCE NOTE: the quoted direct-billing banner appears on the chain's Jane booking pages (fetched via the Oakville location page; the same Jane header states PhysioDNA has 3 locations — Downtown Toronto, Bloor West Village, Downtown Oakville — and applies chain-wide).",
+  "clinic_id": "physiodna-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "delta-physiotherapy-rehab-mississauga--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Ajuni Jot Kaur, Registered Physiotherapist; Ashaben Jiyani, Registered Physiotherapist",
+  "practitioners": [
+   {
+    "as_recorded": "Ajuni Jot Kaur, Registered Physiotherapist — clinic's own team page: 'She has completed Pelvic Floor Rehabilitation Level 1 training, with a focus on pelvic organ prolapse, urinary incontinence, pelvic pain, and pelvic floor muscle weakness or tightness. Her pelvic health services include both external and internal pelvic floor assessment, individualized treatment planning, education, and exercise-based interventions...'",
+    "id": "delta-physiotherapy-rehab-mississauga--ajuni-jot-kaur",
+    "name": "Ajuni Jot Kaur"
+   },
+   {
+    "as_recorded": "Ashaben Jiyani, Registered Physiotherapist — clinic's own team page: she 'has also completed Pelvic Health Solutions Pelvic Floor Levels 1 and 2, expanding her knowledge and skills in pelvic health assessment and rehabilitation' and 'has a strong interest in pelvic health physiotherapy and incorporates individualized assessment, education, therapeutic exercise, and rehabilitation strategies to support patients with pelvic health concerns' (team page refers to her as 'Asha')",
+    "id": "delta-physiotherapy-rehab-mississauga--ashaben-jiyani",
+    "name": "Ashaben Jiyani"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.deltaphysiotherapy.ca/pelvic-physio-service",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PREMISE CHECK — PASSES, HINT URL IS MIS-SLUGGED: the directory hint (https://www.deltaphysiotherapy.ca/pregnancy-chiropractic-care) has a chiropractic slug, but the page it actually serves is the clinic's 'Pelvic Floor Physiotherapy' page, and the clinic's own site has a dedicated pelvic floor service page (https://www.deltaphysiotherapy.ca/pelvic-physio-service) plus a 'What Is Pelvic Health Physiotherapy?' page. Pelvic floor PHYSIOTHERAPY is genuinely offered — the own site states 'Our physiotherapists with advanced training and extensive experience in pelvic health ensure high-quality care' and 'Being registered and rostered professionals, Our Pelvic Health Physiotherapists are committed...' — so billed_as = Physiotherapy stands (it is NOT only a chiropractic service). LOCATION LIMIT: the own pelvic page states 'Erin Mills Location Only' — pelvic floor physiotherapy is offered at the Erin Mills clinic recorded here (2400 Dundas St W, Unit 16), NOT at Delta's second Mississauga location, Central Parkway (325 Central Parkway W, Unit 38, Mississauga, ON L5B 3X9, phone 905-270-3086), even though a free-consultation line on the same page mentions both locations. PRACTITIONER LOCATION NOTE: the clinic's own Mississauga team page lists Ajuni Jot Kaur and Ashaben Jiyani with explicit pelvic floor training/services, but does not split team members by the Erin Mills vs Central Parkway locations. PRICE UNVERIFIABLE: no physiotherapy or pelvic floor fees are published on the clinic's own website, and its Walnut EMR booking pages were not readable for prices in the text fetch, so price is null. BOOKING: appointments are booked via the Walnut EMR portal linked from the clinic's own pelvic page ('Book an Appointment' for Erin Mills and Central Parkway); only the portal root URL was exposed, so booking_page is that root.",
+  "clinic_id": "delta-physiotherapy-rehab-mississauga"
  },
  {
   "clinic": null,
@@ -3975,5 +4266,684 @@
   "last_verified": null,
   "gaps": "PELVIC FLOOR CONFIRMED: the clinic's own pelvic-floor page offers private one-on-one pelvic floor physiotherapy for women and men (pelvic pain, bladder/bowel concerns, pregnancy/postpartum, prolapse, post-prostatectomy and related conditions), with 60-minute initial assessments, and states 'Direct billing available for most extended health plans' (its own insurance page adds that it offers 'courtesy direct billing to a wide range of insurance providers' and lists Beneva, BPA, Canada Life, Desjardins and the PSHCP among them; OHIP and WSIB are not accepted). PRICE UNVERIFIABLE IN THIS SCAN: no fees are published on the clinic's own website pages fetched, and the Jane booking page linked from the clinic's own site (theratouchphysio.janeapp.com, recorded as booking_page) could not be fetched — the fetch was rate-limited (HTTP 429) — so no booking-page prices could be verified and price is null; a re-scan of the Jane page is recommended. PRACTITIONER NOT RECORDED (rule v2): Laudina Ahiable, MScPT, Registered Physiotherapist, is documented as this clinic's pelvic-floor-trained physiotherapist on Sun Life's Lumino directory and is registered as Active at this clinic address in the College of Physiotherapists of Ontario register, but she is not named for pelvic floor on the clinic's own website pages fetched and the Jane roster could not be verified (see above), so practitioner is null rather than importing third-party listings. GOOGLE RATING UNVERIFIABLE under allowed sources: the Google Places details retrieved showed address, phone and hours but no rating or review count, and no Google badge/widget was found on the clinic's own site; a 5/5 from 75 reviews figure appears only on an aggregator (HealthHives) and was excluded. POSTAL CODE: the clinic's own pelvic page gives the street address without a postal code; K2B 7E9 is the code shown for 201-2249 Carling Ave in the College of Physiotherapists of Ontario register listing for this clinic.",
   "clinic_id": "theratouch-physiotherapy-ottawa"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "rosedale-wellness-centre-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.rosedalewellness.com/shockwave",
+  "status": null,
+  "last_verified": null,
+  "gaps": "SHOCKWAVE DELIVERY: the clinic's own Shockwave page frames the service as delivered by its physiotherapists ('Physiotherapists use shockwave therapy to accelerate the healing process...'), so billed_as is Physiotherapy; no individual practitioner is named for shockwave on the page (it links to a general team page), so practitioner is null per rule v2. PRICE UNVERIFIABLE: no shockwave or physiotherapy prices are published on the clinic's own site in the pages fetched (an aggregator review snippet mentioning '$50 for a 15-minute treatment' was not used). DIRECT BILLING UNVERIFIABLE: no direct-billing statement was found on the clinic's own site. HOURS CONFLICT ON THE CLINIC'S OWN PAGE: a structured hours line on the same page says Mon-Fri 08:00-19:30 and Sat/Sun 08:00-17:00, conflicting with the displayed Business Hours; the displayed hours were recorded because Google Places details agree with them. RATING CONFLICT: aggregator sites (Birdeye 4.8/870, HealthHives 4.8/674, Medimap 4.7/397+, BestProsInTown 4.7/223) show much higher review counts than the Places details figure (4.5/45) recorded here; aggregator figures were excluded per the allowed-sources rule, but the size of the discrepancy is flagged for human review.",
+  "clinic_id": "rosedale-wellness-centre-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "core-wellness-centre-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": "Dr. Kris Dorken, Chiropractor",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Kris Dorken, Chiropractor — named on the clinic's own Shockwave Therapy page: 'You will be assessed at your first visit by the Physiotherapist or Chiropractor Dr. Kris, to confirm that you are an appropriate candidate for Physiotherapy, Shockwave Therapy or Cold Laser Therapy.'",
+    "id": "core-wellness-centre-toronto--kris-dorken",
+    "name": "Kris Dorken"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://corewellnesscentre.ca/shockwave-therapy-toronto",
+  "status": null,
+  "last_verified": null,
+  "gaps": "BILLED_AS UNVERIFIABLE: the clinic markets shockwave under physiotherapy on its own page ('If you have extended health benefits that include shock wave physiotherapy you may have a portion (or all) of your treatment covered', and links the service to its physiotherapy pages), but the clinician the page names for shockwave assessment is its chiropractor, Dr. Kris Dorken, and the page never states which discipline a shockwave visit is billed under — so billed_as is null rather than guessed. PRACTITIONER: Dr. Kris Dorken is recorded because the clinic's own Shockwave page names him as the clinician who assesses candidacy for Shockwave Therapy; no booking-page (Booksy) service listing tying him to a priced shockwave service could be read. PRICE UNVERIFIABLE: the Shockwave page publishes no price and says only that the clinic offers 'transparent pricing' set at assessment; a Booksy '$80.00' price-range figure relates to the clinic's services generally, not shockwave, and was not used. DIRECT BILLING UNVERIFIABLE for extended health benefits: the clinic's own car-accident page advertises direct billing for motor vehicle accident claims, but no direct-billing offer for shockwave/extended health plans was found. RATING CONFLICT: aggregator figures (Birdeye 4.9/319-320) and an unlabelled 'Rating: 4.9 (287 reviews)' line in the clinic's own site footer conflict with the Places details figure (4.9/17) recorded here; the unlabelled own-site figure was excluded per the source rules. ADDRESS NOTE: the clinic's own pages variously give the city as Toronto and as York (same address, 726 St Clair Ave W, M6C 1B3); the directory city Toronto was kept.",
+  "clinic_id": "core-wellness-centre-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "integra-health-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Sarah Hill, Physiotherapist; Sukh Manku, Physiotherapist; Cory Schneider, Physiotherapist",
+  "practitioners": [
+   {
+    "as_recorded": "Sarah Hill, Physiotherapist (listed under 'Our Practitioners' on the clinic's own Shockwave Therapy page, Exchange Tower location)",
+    "id": "integra-health-toronto--sarah-hill",
+    "name": "Sarah Hill"
+   },
+   {
+    "as_recorded": "Sukh Manku, Physiotherapist (listed under 'Our Practitioners' on the clinic's own Shockwave Therapy page, Exchange Tower location)",
+    "id": "integra-health-toronto--sukh-manku",
+    "name": "Sukh Manku"
+   },
+   {
+    "as_recorded": "Cory Schneider, Physiotherapist (listed under 'Our Practitioners' on the clinic's own Shockwave Therapy page, Exchange Tower location)",
+    "id": "integra-health-toronto--cory-schneider",
+    "name": "Cory Schneider"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.integrahealth.ca/shockwave-therapy",
+  "status": null,
+  "last_verified": null,
+  "gaps": "DIRECT BILLING CONTRADICTION ON THE CLINIC'S OWN PAGE: the Shockwave page carries a section heading 'We Offer Direct Billing to Insurance', but its Benefit Plan section states explicitly 'Please note that we don't do direct billing.' Direct billing is recorded as 'no' on the specific Benefit Plan text (the more detailed statement), with the contradictory heading flagged here. PRACTITIONERS: the Shockwave page's 'Common Conditions treated by Physiotherapists' framing supports billed_as Physiotherapy, and its practitioner section lists the three physiotherapists recorded here for the Exchange Tower location; the same page also shows three chiropractors (Dr. Shannon Dales, Dr. Isabella Socci, Dr. Avin Ghafari) without tying them to shockwave, so they are not recorded for this treatment. This is a service-page listing, not a booking-page treatment listing, and is flagged as such. PRICE UNVERIFIABLE: no shockwave or physiotherapy prices are published on the clinic's own site in the pages fetched (the page shows only a '$$' price range). ADDRESS CONFLICT: the page's Contact block and Places give the Exchange Tower location as Suite 3600, 36th floor (recorded), while the same site's practitioner section gives '13th Floor Suite #1320' for the same address. SECOND LOCATION: Integra Health Centre - Commerce Court, 199 Bay St, Suite C126, Toronto, ON M5L 1E8 (same phone), appears on the clinic's own page; this record is the Exchange Tower location. RATING CONFLICT: aggregator/editorial sites report 4.2 stars from roughly 700-824 Google reviews for this listing, sharply conflicting with the Places details figure (4.9/64) recorded here; aggregator figures were excluded per the rules and the discrepancy is flagged for human review.",
+  "clinic_id": "integra-health-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "yorkville-sports-medicine-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy or Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$105 initial visit (30 min) · $105 follow-up visit (30 min), no tax",
+  "price_source": "Clinic's own Shockwave Therapy page, Pricing section: '30 Min Initial Visit - $105 no tax; 30 Min Follow-Up Visit - $105 no tax.' The same page states 'Shockwave therapy will be billed under your choice of chiropractic or physiotherapy care' and that the clinic's in-house physiotherapists and chiropractors both use it, so these are the shockwave visit prices under either discipline.",
+  "treatment_link": "https://www.yorkvillesportsmed.com/shockwave-therapy-toronto",
+  "status": null,
+  "last_verified": null,
+  "gaps": "BILLED_AS IS PATIENT'S CHOICE: the clinic's own page states verbatim 'Shockwave therapy will be billed under your choice of chiropractic or physiotherapy care', so billed_as records both disciplines rather than one. PRACTITIONER: no individual clinician is named for shockwave on the clinic's own page (assessment is by 'a physiotherapist and chiropractor'), so practitioner is null per rule v2. GOOGLE RATING UNVERIFIABLE under allowed sources: the Places details retrieved showed hours but no rating; the clinic's own site claims 'Over 750+ 5-star Google Reviews' (a count of 5-star reviews, not a stated average, so no rating was derived from it); aggregator figures (Birdeye 4.9/853, HealthHives 4.9/669) were excluded per the rules. HOURS CONFLICT: the clinic's own page structured line lists weekdays only to 8:30 PM with no Saturday, while Places adds Saturday 9:00 AM - 5:00 PM and some aggregators show Sunday hours; recorded hours follow Places. POSTAL CONFLICT: aggregators variously give M5R 2E2 and M5R 2G3 for this address; the clinic's own site gives M5R 3L2, which was recorded. BOOKING: no distinct online booking page was exposed on the clinic's own site (contact form / phone), so booking_page is null.",
+  "clinic_id": "yorkville-sports-medicine-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "athletes-care-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.athletescare.com/content/index.php?pid=15&id=297",
+  "status": null,
+  "last_verified": null,
+  "gaps": "MULTI-LOCATION CHAIN — NO SINGLE LOCATION VERIFIABLE FOR THIS DIRECTORY ENTRY: Athlete's Care operates 25+ clinics across the GTA and Ottawa, and the clinic's own Shockwave Therapy page (the directory's link) is a chain-level page about its downtown Toronto locations collectively; it publishes no single address, phone, hours or price, so address/postal/phone/hours/rating are all null rather than picking one location arbitrarily. Downtown Toronto locations named in search results include King & Yonge (11 King St W, Unit C-120, M5H 4C7), Adelaide & York (130 Adelaide St W, ground floor, M5H 3P5) and Liberty Village (1209 King St W, Unit 4, M6K 1G2); per-location Google ratings exist but none can be tied to this generic directory entry, so no rating is recorded (aggregator figures such as Birdeye's were excluded in any case). BILLED_AS UNVERIFIABLE AS A SINGLE DISCIPLINE: the clinic's own page states shockwave is 'administered by registered physiotherapists and chiropractors at our Toronto clinics' and 'may be offered as part of your overall treatment plan in concert with other therapies such as physiotherapy, chiropractic or massage therapies' — billing follows the treating practitioner, so no single billed_as is recorded. DIRECT BILLING UNVERIFIABLE: the page says only that shockwave 'is covered by many private extended healthcare plans in Ontario' and advises consulting the insurer; no direct-billing offer was found. PRICE UNVERIFIABLE: no prices are published on the clinic's own site in the pages fetched.",
+  "clinic_id": "athletes-care-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "leaside-sports-medicine-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": "Dr. Joseph Kottoor, Chiropractor (Owner and Clinic Director)",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Joseph Kottoor, Chiropractor, Owner and Clinic Director — shown performing shockwave therapy in the clinic's own Shockwave Therapy page photo captioned 'Dr. Joseph Kottoor performing shockwave therapy on patient with tennis elbow'",
+    "id": "leaside-sports-medicine-toronto--joseph-kottoor",
+    "name": "Joseph Kottoor"
+   }
+  ],
+  "price_text": "$60-$100 per shockwave treatment (clinic's published range; exact cost confirmed at initial assessment)",
+  "price_source": "Clinic's own Shockwave Therapy page FAQ: 'Costs generally range from $60-$100 per shockwave treatment. Our Toronto clinic will be able to walk you through a variety of cost options during your initial assessment.' This is a published range rather than a fixed fee schedule, and is recorded as such.",
+  "treatment_link": "https://www.leasidesportsmedicine.com/services/shockwave-therapy/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "BILLED_AS BASIS: the only practitioner the clinic's own Shockwave page evidences delivering shockwave is its owner/clinic director Dr. Joseph Kottoor, a chiropractor (photo caption shows him performing shockwave therapy), so billed_as is Chiropractic. The clinic also employs physiotherapists and its FAQ notes shockwave may be combined with physiotherapy, but no physiotherapist is listed for shockwave on the clinic's own pages fetched, so none is recorded (rule v2). PRICE IS A RANGE: the clinic publishes only a $60-$100 range in its FAQ, not a per-service fee; no firmer price was found on its own site or booking flow. GOOGLE REVIEWS COUNT: the clinic's own site states '100+ Google Reviews' without an exact count, so google_reviews is null; aggregator figures (Birdeye 4.9/157, PainHero 5.0/170) were excluded per the rules. BOOKING: no distinct online booking URL was exposed in the fetched pages, so booking_page is null.",
+  "clinic_id": "leaside-sports-medicine-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "toronto-chiropractic-services-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": "Dr. Adrian Cohen, Chiropractor",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Adrian Cohen, Chiropractor — 'Radial Shockwave Therapy' is listed among the chiropractic services on his clinic's own Services page; the practice is his chiropractic practice, booking 'Chiropractic or RMT' appointments through its Square booking site",
+    "id": "toronto-chiropractic-services-toronto--adrian-cohen",
+    "name": "Adrian Cohen"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://torontochiropracticservices.com/services/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "SHOCKWAVE CONFIRMED as 'Radial Shockwave Therapy' in the services list on the clinic's own Services page, within a solo chiropractic practice (Dr. Adrian Cohen), supporting billed_as Chiropractic and the recorded practitioner; the page gives no shockwave-specific detail, conditions list or fee. PRICE UNVERIFIABLE: no prices are published on the clinic's own website, and its Square booking site did not render any extractable content in the text fetch, so no booking-page price could be verified. HOURS UNVERIFIABLE: the clinic's own site publishes no opening hours in the pages fetched — its Services page banner says 'Now open on Saturdays!' while aggregator listings variously show Saturday closed and conflicting weekday start times (9:00 vs 10:30 AM alternating days) — so all hours are null rather than sourced from aggregators. GOOGLE RATING UNVERIFIABLE under allowed sources: no Places details rating and no own-site Google badge/widget were retrieved; aggregator figures (Birdeye 4.9/148 under the co-brand 'CURE Clinic & Toronto Chiropractic Services', Medimap 4.9/88, HealthHives 4.9/127) conflict and were excluded. DIRECT BILLING UNVERIFIABLE: no direct-billing statement was found on the clinic's own site (the Services page notes only that motor vehicle accident claims are accepted). DIRECTORY NOTE: the practice now also brands as 'CURE Clinic & Toronto Chiropractic Services' in review listings; the clinic's own site address is given as 'Rear-206 Dupont St.', recorded as 206 Dupont St (Rear).",
+  "clinic_id": "toronto-chiropractic-services-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "kent-chiro-med-wellness-clinic-ottawa--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy or Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$30 shockwave add-on per treatment area — visit total with one area: physiotherapy $165 initial / $135 follow-up; chiropractic $160 initial / $125 follow-up",
+  "price_source": "Clinic's own Shockwave Therapy page fee table: shockwave is a $30 add-on per treatment area on top of the appointment fee — Initial physiotherapy assessment (60 min) $135 base / $165 with shockwave; Physiotherapy follow-up (30 min) $105 / $135; Initial chiropractic assessment (60 min) $130 / $160; Chiropractic follow-up (30 min) $95 / $125. 'Each additional area adds $30.' Shockwave is delivered inside both physiotherapy and chiropractic visits at this clinic (its FAQ: 'Your physiotherapist or chiropractor will assess whether shockwave is suitable'), so the same-practitioner inclusion condition is met for both disciplines.",
+  "treatment_link": "https://www.kentchiromed.com/shockwave-therapy-ottawa/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "BILLED_AS: shockwave is an add-on to either a physiotherapy or a chiropractic visit at this clinic, with published fees for both, so billed_as records both disciplines. PRACTITIONER: none is recorded — the page's video features Dr. Abed Hamidi discussing combining chiropractic care with shockwave, but no practitioner is listed for shockwave in a service or booking listing (rule v2). DIRECT BILLING UNVERIFIABLE: the clinic's own page tells patients to check their plan and says its team 'can explain payment and receipt arrangements'; no direct-billing offer was found. RATING CAVEAT: the 818 count and 5-star figure come from the clinic's own site's Google Reviews element, but the accompanying text blends sources ('5-star rating across Google and Facebook', '818 Verified Patient Reviews'), so the count may not be Google-only; flagged for human review. BOOKING: appointments are requested through the clinic's own site form (confirmed by the clinic afterwards) or by phone; no distinct booking-platform URL was exposed, so booking_page is null.",
+  "clinic_id": "kent-chiro-med-wellness-clinic-ottawa"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dynamic-physiotherapy-mississauga--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.dynamicphysiotherapy.ca/services",
+  "status": null,
+  "last_verified": null,
+  "gaps": "FETCH NOTE: a direct fetch of the clinic's homepage failed during this pass (browser service rate limit), so this record is built from extracts of the clinic's own website returned in search results plus Google Places details; fields not evidenced there are null. SHOCKWAVE CONFIRMED on the clinic's own Services page ('Shockwave Therapy Mississauga — a non-invasive treatment that may be considered for selected musculoskeletal conditions following an assessment') within a physiotherapy clinic whose physiotherapists deliver its treatments, supporting billed_as Physiotherapy; no practitioner is named for shockwave, so practitioner is null. FULL CLINIC NAME: the practice's full name is 'Dynamic Physiotherapy & Sports Injury Clinic Inc.'; the directory's shorter name was kept. PRICE UNVERIFIABLE: no fees are published on the clinic's own site in the extracts retrieved. DIRECT BILLING UNVERIFIABLE: no direct-billing statement was found. BOOKING: appointments are by phone/email ('Call/Email for Appointment'); no online booking page was found, so booking_page is null. HOURS CONFLICT between the clinic's own published working hours (recorded) and Places (Mon-Fri 11-7, no Saturday) is flagged.",
+  "clinic_id": "dynamic-physiotherapy-mississauga"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "pro-active-physiotherapy-clinic-mississauga--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.proactiveclinic.ca/shockwave-therapy/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "FETCH NOTE: a direct fetch of the clinic's Shockwave page failed during this pass (browser service rate limit), so this record is built from extracts of the clinic's own website returned in search results plus Google Places details; fields not evidenced there are null. SHOCKWAVE CONFIRMED on the clinic's own site (dedicated Shockwave Therapy pages; its Places business description, written by the clinic, also lists 'Shock-Wave Therapy'); the service sits inside its physiotherapy offering ('your physiotherapist should assess whether it is suitable for you'), supporting billed_as Physiotherapy. No practitioner is named for shockwave, so practitioner is null. PRICE UNVERIFIABLE: no shockwave or physiotherapy fees are published on the clinic's own site in the extracts retrieved. DIRECT BILLING UNVERIFIABLE: the clinic's own shockwave content says only that coverage 'depends on your individual insurance plan and how your provider classifies the treatment'; no direct-billing offer was found. GOOGLE RATING UNVERIFIABLE under allowed sources: the Places details retrieved showed no rating, and the 'Rating: 4.9/5 (409 reviews)' line repeated in the clinic's own site data is not labelled as a Google figure (the site does embed Google reviews via Trustindex, but the aggregate line itself is unlabelled, so it was excluded following the pipeline's treatment of unlabelled own-site rating lines); the aggregator figure (HealthHives 4.9/323) was also excluded. BOOKING: the clinic's pages link a 'Book a shockwave therapy appointment' action but its target URL was not exposed in the extracts, so booking_page is null.",
+  "clinic_id": "pro-active-physiotherapy-clinic-mississauga"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "delta-physiotherapy-and-rehab-mississauga--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.deltaphysiotherapy.ca/shockwave-therapy",
+  "status": null,
+  "last_verified": null,
+  "gaps": "FETCH NOTE: a direct fetch of the clinic's Shockwave page failed during this pass (browser service rate limit), so this record is built from extracts of the clinic's own website returned in search results plus Google Places details; fields not evidenced there are null. TWO LOCATIONS: this record is the Erin Mills location (2400 Dundas St W, Unit 16), which the clinic's own site uses as its primary business block; the clinic's own Shockwave page says appointments are offered at both its Central Parkway and Erin Mills locations — Central Parkway is 325 Central Parkway W, Unit 38, Mississauga, ON L5B 3X9, phone (905) 270-3086, with different hours (Places: Mon 9-6, Tue-Thu 9-8, Fri 9-8, Sat 9-3). SHOCKWAVE DELIVERY: the clinic's own content states 'Shockwave therapy can be performed by a physiotherapist right in the clinic', supporting billed_as Physiotherapy; no practitioner is named for shockwave, so practitioner is null. PRICE UNVERIFIABLE: no fees are published on the clinic's own site in the extracts retrieved. DIRECT BILLING UNVERIFIABLE: no direct-billing statement was found. GOOGLE RATING UNVERIFIABLE under allowed sources: the Places details retrieved showed no rating, and the 'Rating: 4.9 (341 reviews)' line in the clinic's own site data is unlabelled, so it was excluded per the source rules (aggregator HealthHives shows 4.9/111 for this location, also excluded).",
+  "clinic_id": "delta-physiotherapy-and-rehab-mississauga"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "hamilton-physio-and-rehab-hamilton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.hamiltonphysiorehab.ca/Services/Shockwave-Therapy",
+  "status": null,
+  "last_verified": null,
+  "gaps": "FETCH NOTE: a direct fetch of the clinic's Shockwave page failed during this pass (browser service rate limit), so this record is built from extracts of the clinic's own website returned in search results plus Google Places details; fields not evidenced there are null. CLINIC MODEL: the clinic describes itself as physiotherapist-owned, supporting billed_as Physiotherapy for its shockwave service; no practitioner is named for shockwave, so practitioner is null. DIRECT BILLING BASIS: the quote is from the 'Insurance & Billing for Shockwave Therapy' section of the clinic's own Shockwave page; the named examples (Allstate, Morneau) are insurers/benefits administrators and the page does not enumerate extended-health plans, so the scope of the direct-claims offer is not fully detailed — flagged for human review. PRICE UNVERIFIABLE: no fees are published on the clinic's own site in the extracts retrieved. RATING LOW COUNT: the Places rating rests on only 8 reviews. BOOKING: appointments are by phone or the site's request form; no booking-platform URL was found, so booking_page is null.",
+  "clinic_id": "hamilton-physio-and-rehab-hamilton"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "proremedy-physiotherapy-mississauga--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://proremedyphysio.com/shockwave-therapy/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "TWO LOCATIONS: this record is the Square One location (190 Robert Speck Pkwy, Suite 200), listed first on the clinic's own contact page; the second location is Streetsville, 63 Queen Street South, Unit 10, Mississauga, ON L5M 3S9, phone 647-614-4648 — the clinic's Shockwave page copy addresses both (it has a Streetsville-focused section) and its Jane booking covers the practice. HOURS CONFLICT on the clinic's own site (see hours_source) leaves Saturday/Sunday unverified. PRICE UNVERIFIABLE: no fees are published on the clinic's own website, and the Jane booking page's treatment/price list was not read in this pass, so price is null. GOOGLE RATING UNVERIFIABLE under allowed sources: the 'Rating: 4.9/5 (151 ratings)' line repeated in the clinic's own site data is unlabelled and was excluded per the source rules, no Places details rating was retrieved, and aggregator figures (BestProsInTown 4.9/94, Medimap 4.9/120) conflict and were excluded. PRACTITIONER: the clinic is owner-operated by registered physiotherapist Arpan Hundal, but she is not listed for shockwave on the clinic's own Shockwave page, so practitioner is null per rule v2.",
+  "clinic_id": "proremedy-physiotherapy-mississauga"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "activa-physiotherapy-ottawa--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://activa.com/services/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "SHOCKWAVE CONFIRMED on the clinic's own Services page, where Shockwave Therapy sits under 'Modern Electrotherapy and Modalities' in a physiotherapy clinic (the page also lists it as 'Covered by most insurance providers'), supporting billed_as Physiotherapy; the treatment has no dedicated page, so treatment_link is the Services page. DIRECT BILLING SOURCE CAVEAT: the direct-billing statement comes from the clinic's own business description in its Google Places listing, not from its website — the website's Services page says only that shockwave is covered by most insurance providers — so the 'yes' rests on the business's own listing text and is flagged for human review. HOURS CONFLICT: Places hours (recorded) omit Wednesday entirely and close earlier than the Monday-Friday 7:00 AM - 5:00 PM shown by directory listings; neither could be confirmed on the clinic's own site, which publishes no hours in the pages fetched. PRICE UNVERIFIABLE: no fees are published on the clinic's own site. PRACTITIONER: the clinic is owned by Barbara Stefanska, RPT, but she is not listed for shockwave specifically, so practitioner is null per rule v2. BOOKING: appointments are by phone (a Fresha listing exists for its massage services only); no physiotherapy booking page was found, so booking_page is null. POSTAL CODE: K1M 0Z3 is consistent across the Places-linked listings (Fresha, Medimap, YellowPages); the Places details block itself did not print a postal code.",
+  "clinic_id": "activa-physiotherapy-ottawa"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "arbutus-physiotherapy-victoria--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$360 for a 3-treatment course (initial assessment + 2 follow-up shockwave sessions)",
+  "price_source": "Clinic's own Shockwave Therapy page: 'The total cost is $360 – this includes an initial assessment with the healthcare practitioner and two additional return appointments for a total of 3 treatments with shockwave. Other treatments will be provided during these sessions including soft tissue release, joint mobilizations, and exercise prescription.' The service sits inside the clinic's physiotherapy offering, so the package price is the shockwave course price.",
+  "treatment_link": "https://www.arbutusphysiotherapy.ca/shockwave-therapy/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "SECOND LOCATION: the clinic's own homepage announces a new Colwood location (598 Heatherly Road, off Sooke Road); this record is the original Victoria location at 1928 Oak Bay Ave named in the directory. GOOGLE RATING UNVERIFIABLE under allowed sources: the Places details retrieved showed hours and phone but no rating, and aggregator figures conflict widely (HealthHives 5/555, CanadaReviewers 4.9/127, DataGemba 4.8/63) and were excluded per the rules. DIRECT BILLING UNVERIFIABLE: no clinic statement was found — a patient testimonial quoted on the clinic's own homepage mentions 'direct billing' among things the reviewer liked, but a testimonial is not a clinic offer, so it was not recorded as such. PRACTITIONER: no practitioner is named for shockwave on the clinic's own Shockwave page (physiotherapist Sandy Wilson is named elsewhere on the site for other care), so practitioner is null per rule v2. POSTAL CONFLICT: most listings give V8R 1C9 (recorded); one aggregator (HealthHives) shows V8R 4Z6, which was not used. BOOKING: the clinic takes appointments online via its website per its testimonials, but no distinct booking-platform URL was exposed in the fetched pages, so booking_page is null.",
+  "clinic_id": "arbutus-physiotherapy-victoria"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "well-bynd-toronto--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Erica Arcuri, Founder & Naturopathic Doctor; Dr. Emily Cianciolo, Naturopathic Doctor; Dr. Caroline Lewis, Director of IV Therapy; Dr. Caroline Farrow, Naturopathic Doctor",
+  "practitioners": [
+   {
+    "id": "well-bynd-toronto--erica-arcuri",
+    "name": "Erica Arcuri",
+    "as_recorded": "Dr. Erica Arcuri, Founder & Naturopathic Doctor"
+   },
+   {
+    "id": "well-bynd-toronto--emily-cianciolo",
+    "name": "Emily Cianciolo",
+    "as_recorded": "Dr. Emily Cianciolo, Naturopathic Doctor"
+   },
+   {
+    "id": "well-bynd-toronto--caroline-lewis",
+    "name": "Caroline Lewis",
+    "as_recorded": "Dr. Caroline Lewis, Director of IV Therapy (own team page); Jane booking bio: 'Hi, I'm Dr. Lewis, a Naturopathic Doctor and Functional Medicine Practitioner'"
+   },
+   {
+    "id": "well-bynd-toronto--caroline-farrow",
+    "name": "Caroline Farrow",
+    "as_recorded": "Dr. Caroline Farrow, Naturopathic Doctor"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic consult price published on the clinic's own website (home, Services https://www.wellbynd.com/wellness-clinic-services and Team pages checked) or on its own Jane booking page https://wellbynd.janeapp.com/locations/well-bynd/book (booking-page search crawl lists Naturopath 'New Patient General' treatments with descriptions and no prices), checked 2026-11-01",
+  "treatment_link": "https://www.wellbynd.com/wellness-clinic-services",
+  "status": null,
+  "last_verified": null,
+  "gaps": "price_text=null: no initial naturopathic consult price published anywhere on the clinic's own site or Jane booking page (see price_source). google_rating/google_reviews=null: the Google Places details surfaced in search results for Well Bynd contained no rating or review count and the own site has no Google rating badge/widget; the 4.8-star/187-review figure on Wanderlog and the 4.8-star/206-review figure on Birdeye are aggregator reproductions, not Google Places details or an own-site badge, so they were not used. hours are Places-sourced and conflict with some secondary listings (e.g. Wanderlog/Birdeye list Sat 9:00 AM - 5:00 PM and Sun Closed). direct_billing=yes on a clinic-level own-site statement, but the quoted wording appears on the clinic's Registered Massage Therapy page, not on a naturopathy-specific page; no naturopathy-specific direct-billing statement was found. Address/phone/postal are from the clinic's own site footer (460 Richmond Street West, Toronto, ON M5V 1Y1, 416-504-2269).",
+  "clinic_id": "well-bynd-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dr-jen-newell-nd-toronto--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Jen Newell, ND",
+  "practitioners": [
+   {
+    "id": "dr-jen-newell-nd-toronto--jen-newell",
+    "name": "Jen Newell",
+    "as_recorded": "Dr. Jen Newell, ND"
+   },
+   {
+    "id": "dr-jen-newell-nd-toronto--brennan-dedecker",
+    "name": "Brennan Dedecker",
+    "as_recorded": "Dr. Brennan Dedecker ND (Associate Naturopathic Doctor, Connected Health & Skin Jane booking page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic consult price published on the practitioner's own website https://newellnd.ca (home page checked) or on the clinic's own Jane booking page https://connected.janeapp.com (booking page lists 'Naturopathic Medicine Appointments with Dr. Jen Newell' and associate ND appointments with no prices in its text), checked 2026-11-01",
+  "treatment_link": "https://connected.janeapp.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": "This directory entry is the solo practitioner Dr. Jen Newell, ND; she practises at Connected Health & Skin, 331 Queen St E, Toronto, and newellnd.ca links to that clinic's Jane booking page (connected.janeapp.com), which is the booking_page/treatment_link used here. Address and phone are from that own booking page ('Located at: 331 Queen St E, Toronto'; 'Need Help? 416-477-7546'). postal=null: no postal code is published on newellnd.ca or the Jane booking page; aggregator listings conflict (Fresha M5A 1S9, Cylex/findhealthclinics M5A 2P7), so none was used. price_text=null: see price_source. google_rating/google_reviews=null: the Google Places details surfaced in search results for both 'Dr. Jen Newell ND' and 'Connected Health & Skin' contained no rating or review count, and neither own site displays a Google rating badge/widget; the 5-star/323-rating figure in search results is a Sun Life Lumino aggregator rating, not Google, so it was not used. hours are Places-sourced and partial (Tue and Sun had no data, not confirmed closed); the separate Connected Health & Skin Places listing differs slightly (Tue 12:00 PM - 5:00 PM, Fri 12:00 PM - 5:00 PM, no Monday). direct_billing=unverifiable: Connected Health & Skin's own Clinic Policies page discusses insurance eligibility for naturopathic consultations and receipts, but does not explicitly confirm direct billing and does not explicitly state receipts-only/pay-upfront. An associate ND, Dr. Brennan Dedecker ND, is also listed for naturopathic appointments on the Jane booking page and is recorded in practitioners.",
+  "clinic_id": "dr-jen-newell-nd-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dr-matthew-pace-nd-toronto--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Matthew Pace, ND",
+  "practitioners": [
+   {
+    "id": "dr-matthew-pace-nd-toronto--matthew-pace",
+    "name": "Matthew Pace",
+    "as_recorded": "Dr. Matthew Pace, ND"
+   }
+  ],
+  "price_text": "$200 initial consult (75-90 min) · $103-$156 follow-up (30-60 min)",
+  "price_source": "Clinic's own website Services page https://matthewpacend.com/nd-services lists under Naturopathic Medicine: 'Initial Intake $200' (initial consult 75-90 minutes) and 'Follow Up $103-156' (follow-up consults 30-60 minutes), checked 2026-11-01",
+  "treatment_link": "https://matthewpacend.com/nd-services",
+  "status": null,
+  "last_verified": null,
+  "gaps": "postal=null: no postal code is published on the clinic's own site or its Jane booking page; an aggregator (findhealthclinics.com) lists M4K 1N8 for 202A/320 Danforth Avenue, which was not used as a source. Address is from the clinic's own Jane booking page ('Located at: 320 Danforth Ave, 202A, Toronto'). Phone discrepancy: the Jane booking page lists 4164538425 (recorded here as 416-453-8425), while Google Places and the Beach Integrated Health Clinic site (where Dr. Pace also appears as a practitioner, 350 Beech Ave, Toronto) list (416) 546-4887 — a second practice location/phone cannot be ruled out. hours are Places-sourced and partial (Sun had no data, not confirmed closed; Sat 12:00 PM - 10:00 PM is as listed in Places). google_rating is based on only 1 review. direct_billing=unverifiable: no insurance or direct-billing information found on the clinic's own website or Jane booking page.",
+  "clinic_id": "dr-matthew-pace-nd-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dr-saiyemah-khalil-nd-toronto--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Saiyemah Khalil, ND",
+  "practitioners": [
+   {
+    "id": "dr-saiyemah-khalil-nd-toronto--saiyemah-khalil",
+    "name": "Saiyemah Khalil",
+    "as_recorded": "Dr. Saiyemah Khalil - Licensed Naturopathic Doctor in Toronto; 'Saiyemah Khalil is a licensed Naturopathic Doctor in Ontario in good standing with the College of Naturopaths of Ontario'"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic consult price published on the practitioner's own website https://www.drkhalilnd.com (home/services, Functional Labs and program pages checked; the site lists an 'Initial visit: Functional Assessment and protocol 1 hour including 30 minute follow up' with no fee) and no priced online booking page was found, checked 2026-11-01",
+  "treatment_link": "https://www.drkhalilnd.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": "address/postal=null: the practitioner's own website publishes no street address or postal code (it publishes only phone 416-837-0935 and email drkhalilnd@gmail.com). DIRECTORY LOCATION AMBIGUITY: Google Places details surfaced in search results list 2477 Bloor St W, Toronto (no postal code, no phone), which matches West End Women's Health at 2477 Bloor St W, 2nd Floor, Toronto, ON M6S 1P7, while other listings associate her with a private/virtual practice and Beauty Room at 17 Atlantic Ave unit 2, Toronto, ON M6K 3E7 — no single address could be verified from her own site, so none was recorded. booking_page=null: the own site has 'Book a Free 15-Min Discovery Call' buttons but no distinct online booking URL (e.g. Jane/Calendly) could be verified from its public pages. price_text=null: see price_source. google_rating/google_reviews=null: the Google Places details surfaced in search results contained no rating or review count and the own site has no Google rating badge/widget. hours are Places-sourced and partial: Places listed only Wed and Sat; all other days had no data (null), not confirmed closed. direct_billing=unverifiable: no direct-billing statement on the own site; its facial-aesthetics page says treatments are 'Covered by ND visits'/'Covered under naturopathic consults', which does not confirm direct billing.",
+  "clinic_id": "dr-saiyemah-khalil-nd-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "integra-health-centre-toronto--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Candice Todd; Dr. Shannon Ruse",
+  "practitioners": [
+   {
+    "id": "integra-health-centre-toronto--candice-todd",
+    "name": "Candice Todd",
+    "as_recorded": "Dr. Candice Todd (Integra Health team page: pursued a career in naturopathic medicine, graduate of the Canadian College of Naturopathic Medicine, utilises evidence-based naturopathic medical care)"
+   },
+   {
+    "id": "integra-health-centre-toronto--shannon-ruse",
+    "name": "Shannon Ruse",
+    "as_recorded": "Dr. Shannon Ruse is a licensed Naturopathic Doctor (Integra Health / Integra SkinLab team page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic consult price published on the clinic's own website (Naturopathic Medicine page https://www.integrahealth.ca/naturopathic-medicine and Services page checked) or on its own Jane booking pages (integrahealth.janeapp.com / integrahealthcentre.janeapp.com — fetched booking text lists locations and practitioners including Dr. Todd, with no naturopathic treatment prices), checked 2026-11-01. Prices for 'Integra Naturopathics' (integranaturopathics.com, a different clinic) were NOT used.",
+  "treatment_link": "https://www.integrahealth.ca/naturopathic-medicine",
+  "status": null,
+  "last_verified": null,
+  "gaps": "price_text=null: see price_source. DIRECT BILLING CONFLICT ON THE CLINIC'S OWN SITE: the homepage (quoted here) and several service pages say the clinic offers direct billing for Rehabilitation and select Wellness services, while the Services page and other pages carry the contradictory boilerplate 'Please note that we don't do direct billing.' — recorded as yes on the homepage's explicit current statement, with the conflict flagged for human QA. Address is the Exchange Tower location from the own-site footer (130 King St W, 13th Floor Suite #1320, Toronto, ON M5X 1C8); the clinic also lists a second own-site location, Commerce Court, 199 Bay St. Suite C126, Toronto, ON M5L 1E8. SUITE DISCREPANCY: the Jane booking page states the Exchange Tower location 'has moved to suite 3600 as of October 20th, 2025' and some own-site pages give '130 King St. West, Suite 3600', while the own-site footer still shows Suite #1320 — directory should confirm/update the suite. hours are Places-sourced and partial (Sun had no data, not confirmed closed). Dr. Shannon Ruse's own-site profile sits under Integra SkinLab; she is also listed as a Naturopath at Integra Health on the clinic's booking/listing pages.",
+  "clinic_id": "integra-health-centre-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dr-pamela-frank-nd-toronto--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Pamela Frank, BSc(Hons), ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Pamela Frank, BSc(Hons), ND",
+    "id": "dr-pamela-frank-nd-toronto--pamela-frank",
+    "name": "Pamela Frank"
+   }
+  ],
+  "price_text": "$260 initial consult (up to 75 min) · $160 second visit (up to 45 min) · $100 follow-up (30 min)",
+  "price_source": "Clinic's own fee schedule at https://www.naturopathtoronto.ca/hours-fees/ (checked 2026-11-01): 'New fees as of January 1, 2023' — Initial (in-person, phone, or video) up to 75 minutes $260.00 adult ($210 child/student/senior); Second up to 45 minutes $160.00; Follow up up to 30 minutes $100.00; Follow up up to 15 minutes $60.00. Corroborated by the clinic's own New Patient Guide 2026 PDF on the same domain listing Initial Visit (75 minutes): $260.",
+  "treatment_link": "https://www.naturopathtoronto.ca/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Google rating/reviews unverifiable per sourcing rules: Google Places details in search results for this listing showed no rating/review count, and the clinic's own site carries no Google rating badge/widget; ratings found only on aggregators (Birdeye 5.0/20 for 'Forces of Nature', Lumino) were excluded. Direct billing unverifiable: own site (hours-fees page) says only 'Your health benefits plans or private health insurance usually cover naturopathic doctor fees for visits' — no statement that the clinic direct-bills insurers and no receipts-only statement. Hours discrepancy: Google Places in search results listed Mon/Tue/Fri 11:00 AM-7:00 PM, while the clinic's own site lists a 12:00 PM start; own-site hours were used. Practice also operates as Forces of Nature Wellness, in-person Saturdays at Health Haven Clinic near Bathurst and St. Clair; other days are virtual.",
+  "clinic_id": "dr-pamela-frank-nd-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "annex-naturopathic-clinic-toronto--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Tanya Lee, ND; Dr. Marnie Luck, ND; Dr. Erin Lush",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Tanya Lee, ND",
+    "id": "annex-naturopathic-clinic-toronto--tanya-lee",
+    "name": "Tanya Lee"
+   },
+   {
+    "as_recorded": "Dr. Marnie Luck, ND",
+    "id": "annex-naturopathic-clinic-toronto--marnie-luck",
+    "name": "Marnie Luck"
+   },
+   {
+    "as_recorded": "Dr. Erin Lush",
+    "id": "annex-naturopathic-clinic-toronto--erin-lush",
+    "name": "Erin Lush"
+   }
+  ],
+  "price_text": "$295-$350 initial consult (60-90 min) · $210-$250 follow-up (60 min)",
+  "price_source": "Clinic's own fee page https://citynaturopathic.ca/fees/ (checked 2026-11-01): Initial Naturopathic Consultation, 60-90 Mins, $295 - $350; Child Initial Naturopathic Consultation (12 years and under), 60-90 Mins, $295 - $350; Follow Up Naturopathic Appointment 60 Mins $210 - $250; 45 Mins $175 - $195; 30 Mins $120 - $135; Acute Naturopathic Appointment 15 Mins $75. Range reflects per-practitioner variation on the clinic's own published list. Reduced-rate student-intern initial is $72 (excluded from anchor price).",
+  "treatment_link": "https://citynaturopathic.ca/fees/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Hours conflict on the clinic's own site: the location page (https://citynaturopathic.ca/800-bathurst-st-suite-301/) lists office hours Mon-Thu 10:00 AM-6:00 PM, Fri 10:00 AM-4:00 PM, while the practitioners page and homepage reception hours list Mon-Fri 9:30am-5pm (reception noted as Tues-Fri 9:30am-5pm on the homepage, 'No reception on Mon, Sat and evenings (by appointment only)'); the practitioners-page hours were recorded. Practitioner roster inconsistency on own site: the current practitioners page (checked 2026-11-01) lists only Dr. Tanya Lee, ND under 'Our Naturopathic Doctors' (noted as on maternity leave until January 18, 2027), while the clinic's own location page lists Dr. Marnie Luck, Dr. Tanya Lee and Dr. Erin Lush as its naturopathic doctors and individual ND profile pages exist for Dr. Marnie Luck, ND and Dr. Tanya Lee, ND; all three own-site-evidenced NDs were recorded. Google review count (17) is as displayed on the clinic's own site and may be stale relative to live Google Places. No directory error on city/address: 800 Bathurst St Suite 301, Toronto M5R 3M8 confirmed on own site (older directory listings showing 572 Bloor St W are outdated).",
+  "clinic_id": "annex-naturopathic-clinic-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "advanced-womens-health-toronto-west-toronto--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Sasha Monteiro, ND; Dr. Karina Samji, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Sasha Monteiro, ND",
+    "id": "advanced-womens-health-toronto-west-toronto--sasha-monteiro",
+    "name": "Sasha Monteiro"
+   },
+   {
+    "as_recorded": "Dr. Karina Samji, ND",
+    "id": "advanced-womens-health-toronto-west-toronto--karina-samji",
+    "name": "Karina Samji"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic initial consult price published on the clinic's own Toronto West page or its own Jane App booking page for the Toronto West location (both checked 2026-11-01): the Jane booking page text lists practitioners and notes 'As of May 15th, 2026 Pricing adjustments will be in place. Please see the website for more information' and directs new patients to a Patient Onboarding Call where staff 'explain our services and fees', and the clinic's own site FAQ states 'Appointment costs vary by practitioner and service type'. A $240 initial visit figure appears only in a 2024 Mailchimp workshop page for a different location/practitioner (Ancaster, Dr. Michele Webb) and was NOT used. No aggregator/directory prices were used.",
+  "treatment_link": "https://www.advancedwomenshealth.ca/toronto-west-clinic",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Price unverifiable (see price_source). Google rating/reviews unverifiable per sourcing rules: Google Places details in search results for the Toronto West listing (832 College St Ste 500) showed no rating/review count, and the clinic's own site carries no Google rating badge for this location; no aggregator ratings were used. Direct billing unverifiable for the Toronto West location specifically: the clinic's own site references a network 'insurance and direct billing page' and its Squamish (BC) page states 'Direct billing and insurance receipts continue to be offered' for that location, but no Toronto West-specific direct-billing statement was found on the own site or its Jane booking page. Practitioners recorded are the two NDs listed on the clinic's own Jane App booking page for the Toronto West location; the Toronto West website page shows three practice-focus profiles (the third corresponds to an acupuncture provider, not an ND, and was excluded under Practitioner Rule v2). Directory note: a separate Advanced Women's Health listing at 235 Danforth Ave #405, Toronto is shown in Google Places as Permanently Closed — that is a different (former Danforth) location, not Toronto West; Toronto West at 832 College St is Active.",
+  "clinic_id": "advanced-womens-health-toronto-west-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "timeless-health-clinic-toronto--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Yelena Deshko, ND; Dr. Janice Chan, ND; Dr. Tatsiana Vovk, ND MD (Belarus); Dr. Aida Khazai, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Yelena Deshko, ND",
+    "id": "timeless-health-clinic-toronto--yelena-deshko",
+    "name": "Yelena Deshko"
+   },
+   {
+    "as_recorded": "Dr. Janice Chan, ND",
+    "id": "timeless-health-clinic-toronto--janice-chan",
+    "name": "Janice Chan"
+   },
+   {
+    "as_recorded": "Dr. Tatsiana Vovk, ND MD (Belarus)",
+    "id": "timeless-health-clinic-toronto--tatsiana-vovk",
+    "name": "Tatsiana Vovk"
+   },
+   {
+    "as_recorded": "Dr. Aida Khazai, ND",
+    "id": "timeless-health-clinic-toronto--aida-khazai",
+    "name": "Aida Khazai"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic initial consult price published on the clinic's own website (naturopathic medicine page, about page, health & wellness menu and IV/weight-loss pages all checked 2026-11-01; the own site publishes prices for aesthetic/IV services only and states for IV assessment 'Standard consult fees apply' without a figure) and no price was extractable from its own Mindbody online booking link. No aggregator/directory prices were used.",
+  "treatment_link": "https://www.timelesshealthclinic.com/naturopathic-medicine",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Identity confirmed: this is Lumèr – Timeless Health Clinic, Downtown Toronto, 25 Wood St Unit #1 — the clinic's own site (timelesshealthclinic.com) states Dr. Yelena Deshko founded Timeless Health Clinic in downtown Toronto in 2012, the own-site naturopathic medicine page lists the Toronto address/phone matching Google Places for 'Timeless Health Clinic' (25 Wood St #1, Toronto, 416-966-4106, place_id 478216554123725), and a second Mississauga location (71 King St W Unit 400) opened in 2024 — this record is the Toronto location only. Hours inconsistency on own site: the textual location block lists Tue/Wed as Closed and Fri open, while a structured hours line on the same pages lists Tue/Wed 12:00-20:00 and Fri Closed; the textual block was used because it matches Google Places hours in search results (Thu 12-8, Fri/Sat/Sun 10-6). Rating discrepancy: Google Places details in search results showed 4.9 based on 26 reviews (older listing data), while the clinic's own site currently displays 5.0 (171 reviews); the own-site figure was recorded per sourcing rules, and an aggregator figure (Birdeye 4.7/681) was excluded. Direct billing unverifiable: own-site FAQ says naturopathic medicine is not covered by OHIP, many extended health plans offer reimbursement, and 'Our team can provide receipts and documentation to assist with claims' — no explicit statement that the clinic direct-bills insurers, and no explicit receipts-only policy, so neither 'yes' nor 'no' is evidenced. Practitioner note: the own-site ND list covers both Toronto and Mississauga locations without a per-location split; all four NDs were recorded as listed under 'Our Naturopathic Doctors' on the naturopathic medicine page, with Dr. Yelena Deshko, ND identified on the about page as founder of the Toronto clinic. Booking page is the clinic's own 'BOOK ONLINE' Mindbody link (clients.mindbodyonline.com) as linked from timelesshealthclinic.com; a location-specific deep link was not extractable by text fetch. Secondary phone +1-416-366-1718 also appears on the own site.",
+  "clinic_id": "timeless-health-clinic-toronto"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dr-denise-cheung-nd-markham-markham--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Denise Cheung, ND, R.Ac.",
+  "practitioners": [
+   {
+    "as_recorded": "Markham - Dr. Denise Cheung, ND, R.Ac.",
+    "id": "dr-denise-cheung-nd-markham-markham--denise-cheung",
+    "name": "Denise Cheung"
+   }
+  ],
+  "price_text": "$165 initial consult (60-75 min) · $150 follow-up (60 min)",
+  "price_source": "Clinic's own fee schedule at https://www.drdenisecheung.com/fees.html (checked 2026-11-01), 'Scarborough & Markham Location' column: Naturopathic visit — Initial visit - Standard (60-75 min) $165.00; Initial visit - Complex (>75 min) to be determined; Follow-up visit (60 min) $150.00; (45 min) $120.00; (30 min) $95.00; (20 min) $75.00.",
+  "treatment_link": "https://www.drdenisecheung.com/fees.html",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Markham street address: the practitioner's own main site does NOT publish a Markham street address — it gives only 'Major intersection is Highway 7 / 9th line, Postal Code: L6B 0R9, 3 min drive away from Markham Stouffville Hospital'. The street address 335 William Forster Rd was verified from her own online booking page (EK Foot & Naturopathic Clinic Jane App, Markham location: 'Markham - Dr. Denise Cheung, ND, R.Ac. Located at: 335 William Forster Rd, Markham') and matches Google Places for the Markham listing. Hours discrepancy: Google Places for the Markham listing shows different hours (e.g. Sun 9:00 AM-9:00 PM, Wed 4:30 PM-9:00 PM, Thu 9:00 AM-12:00 PM, Sat 6:00 PM-9:00 PM); the clinic's own site Markham hours were used. Google rating/reviews unverifiable per sourcing rules: Google Places details in search results for the Markham listing showed no rating/review count, and the own site carries no Google rating badge; ratings found only on aggregators/directories (Lumino, Birdeye — the latter for other locations) were excluded. Direct billing unverifiable: no direct-billing or receipts-only statement was found on the clinic's own site or fee schedule. This record is the MARKHAM location only; the same practitioner also practises in Scarborough (108-2425 Eglinton Ave East) and Uxbridge (101-2 Campbell Dr), which are separate locations with different hours/fees columns where applicable.",
+  "clinic_id": "dr-denise-cheung-nd-markham-markham"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dr-denise-cheung-nd-scarborough-scarborough--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Denise Cheung, Naturopathic Doctor & Acupuncturist",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Denise Cheung, Naturopathic Doctor & Acupuncturist — Jane booking bio: 'Dr. Denise Cheung obtained her Doctor of Naturopathy (N.D.) degree from the Canadian College of Naturopathic Medicine (CCNM). She is a licensed naturopathic doctor and a registered acupuncturist in Ontario.'",
+    "id": "dr-denise-cheung-nd-scarborough-scarborough--denise-cheung",
+    "name": "Denise Cheung"
+   }
+  ],
+  "price_text": "$165 initial consult (60-75 min) · $150 follow-up (60 min)",
+  "price_source": "Clinic's own fee schedule at https://www.drdenisecheung.com/fees.html (Scarborough & Markham column), checked 2026-11-01: Naturopathic visit — Initial visit - Standard (60-75 min) $165.00; Initial visit - Complex (>75 min) price to be determined; Follow-up visit (60 min) $150.00, (45 min) $120.00, (30 min) $95.00, (20 min) $75.00. Jane booking page text lists no prices.",
+  "treatment_link": "https://www.drdenisecheung.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Google rating/reviews unverifiable under sourcing rules: no Google rating badge/widget on the clinic's own site and the Google Places details visible in search results for this listing showed hours/address but no rating or review count; the 5.0/31 figure appears only on Birdeye, an aggregator, so it was excluded. Direct billing unverifiable: the own-site naturopathic informed-consent form says fees are paid at the time of the visit but adds the conditional 'If direct billing is allowed', so neither an explicit yes nor an explicit receipts-only policy is stated. Hours conflict on the own site: the homepage lists Scarborough Thursdays as 'Every other Thursdays 4:00 pm to 6:30 pm' (recorded here) while the own contact page lists Thursdays 2:00 pm to 6:30 pm. Same practitioner also practises at Markham and Uxbridge locations listed on the same site; this record is for the Scarborough (EK Foot & Naturopathic Clinic, #108 - 2425 Eglinton Ave East) location only, per the task note — the Markham entry is scanned separately. Initial Complex (>75 min) price is 'to be determined' on the fee schedule.",
+  "clinic_id": "dr-denise-cheung-nd-scarborough-scarborough"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "danesh-aesthetics-richmond-hill--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. M. Danesh ND & Aesthetic Clinician",
+  "practitioners": [
+   {
+    "as_recorded": "Danesh Aesthetics Dr.M.Danesh Naturopathic Doctor (Dermatology-Focused) Registration:3113 — About page: 'In Canada, I started practicing with other physicians in 2006 and become a Naturopath doctor in 2015.' Booking page: 'Dr. M. Danesh, ND is a naturopathic doctor specializing in integrative aesthetics and dermatological care.'",
+    "id": "danesh-aesthetics-richmond-hill--m-danesh",
+    "name": "M. Danesh"
+   }
+  ],
+  "price_text": "$210 naturopathic visit (60 min) · $160 naturopathic visit (45 min) · $100 naturopathic visit (30 min)",
+  "price_source": "Clinic's own online booking page https://www.daneshaesthetics.com/book-online, checked 2026-11-01: timed Naturopathic visits listed at 60 min 'From 210 Canadian dollars', 50 min 180, 45 min 160, 40 min 140, 30 min 100, 20 min 75, 15 min 50; a Free 15 minute consultation (In-person) is also offered. No visit on the booking page is labelled 'initial consult', so the price_text records the timed naturopathic visit menu rather than a labelled initial price.",
+  "treatment_link": "https://www.daneshaesthetics.com/book-online",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Naturopath premise CHECKED AND PASSES (contrary to the aesthetics-only suspicion in the task note): the clinic's own site identifies its founder as a naturopathic doctor ('Dr.M.Danesh Naturopathic Doctor (Dermatology-Focused) Registration:3113'; About page says he became a Naturopath doctor in 2015), has an 'Integrative & Naturopathic Dermatology' service section, and its own booking page sells timed Naturopathic visits — so billed_as remains Naturopathy. The clinic is nevertheless aesthetics/dermatology-led in positioning. No price is labelled 'initial consult' (timed menu only). Google rating/reviews unverifiable under sourcing rules: no Google badge on the own site and the Google Places details in search results showed no rating/count; the 4.8/147 figure appears only on Birdeye and top-rated.online, aggregators, so it was excluded. Direct billing unverifiable: the own site mentions 'Extended Health benefits (work/student insurance) for Skin and Hair concerns' but nowhere explicitly says it direct-bills insurers or is receipts-only. Postal code conflict on the own site itself: the written address shows L4S 1H5 (recorded here) while the Google map embed line in the same footer shows L4S 1K9, which is also the postal code in the Google Places listing. Hours are not published on the own site and were taken from Google Places details in search results as permitted.",
+  "clinic_id": "danesh-aesthetics-richmond-hill"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "natcan-integrative-medical-wellness-centre-vaughan--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Sylvia Santos, MBS, ND; Dr. Sabrina Perfetto, ND; Dr. Amita Sachdev, (RN), ND; Dr. Stefania Iovine, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Sylvia Santos, MBS, ND — Naturopathic Doctor · Owner & Founder of NatCan Clinics (Vaughan & Woodbridge)",
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--sylvia-santos",
+    "name": "Sylvia Santos"
+   },
+   {
+    "as_recorded": "Dr. Sabrina Perfetto, ND — Naturopathic Doctor · NatCan Vaughan & Woodbridge",
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--sabrina-perfetto",
+    "name": "Sabrina Perfetto"
+   },
+   {
+    "as_recorded": "Dr. Amita Sachdev, (RN), ND — Naturopathic Doctor · IVIT Certified · NatCan Vaughan & Woodbridge",
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--amita-sachdev",
+    "name": "Amita Sachdev"
+   },
+   {
+    "as_recorded": "Dr. Stefania Iovine, ND — Naturopathic Doctor · NatCan Vaughan (Vaughan only)",
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--stefania-iovine",
+    "name": "Stefania Iovine"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic price is published on the clinic's own site or booking page, checked 2026-11-01: the own naturopathic page (https://natcanintegrative.com/pages/naturopathic-medicine) lists 'Naturopathic Initial Intake — 90 minutes · In-Person or Virtual · Contact us for pricing' and follow-ups likewise as 'Contact us for pricing', and the Jane booking page for this location (natcanintegrative.janeapp.com) shows no naturopathic price in its text. A free initial consultation is offered. No aggregator/directory prices were used.",
+  "treatment_link": "https://natcanintegrative.com/pages/naturopathic-medicine",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Price not published anywhere on the own site/booking page ('Contact us for pricing'), so price_text is null. Google review count unverifiable: the own site shows a 5.0 Google rating for this centre but no count, and the Google Places details in search results showed no rating/count, so google_reviews is null. Direct billing unverifiable: the own site says receipts are always provided for insurance purposes and to check your plan, but does not explicitly say it direct-bills or that it is receipts-only. Hours have alternating-week variants on the own site — Tuesday is 'Alternating - 10am–8pm AND 11am–8pm' and Saturday 'Alternating 10am–4pm AND 10am–2pm'; the wider ranges are recorded here. Own-site Friday close (6:30 PM) differs from the Google Places hours in search results (7:00 PM); the own site was used. ND headcount is inconsistent on the own site: the naturopathic page header says '4 Licensed Naturopathic Doctors (NDs)' while its stats block says '5 Licensed NDs On Staff' — the fifth, Dr. Natalie Stalteri, ND, is listed as Woodbridge only and is therefore not recorded for Vaughan. Related entry: this is one of two NatCan Clinics locations sharing one website and phone number; the Woodbridge location is a separate record (natcan-weight-loss-skin-clinic-woodbridge).",
+  "clinic_id": "natcan-integrative-medical-wellness-centre-vaughan"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "natcan-weight-loss-skin-clinic-woodbridge--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Sylvia Santos, MBS, ND; Dr. Sabrina Perfetto, ND; Dr. Amita Sachdev, (RN), ND; Dr. Natalie Stalteri, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Sylvia Santos, MBS, ND — Naturopathic Doctor · Owner & Founder of NatCan Clinics (Vaughan & Woodbridge)",
+    "id": "natcan-weight-loss-skin-clinic-woodbridge--sylvia-santos",
+    "name": "Sylvia Santos"
+   },
+   {
+    "as_recorded": "Dr. Sabrina Perfetto, ND — Naturopathic Doctor · NatCan Vaughan & Woodbridge",
+    "id": "natcan-weight-loss-skin-clinic-woodbridge--sabrina-perfetto",
+    "name": "Sabrina Perfetto"
+   },
+   {
+    "as_recorded": "Dr. Amita Sachdev, (RN), ND — Naturopathic Doctor · IVIT Certified · NatCan Vaughan & Woodbridge",
+    "id": "natcan-weight-loss-skin-clinic-woodbridge--amita-sachdev",
+    "name": "Amita Sachdev"
+   },
+   {
+    "as_recorded": "Dr. Natalie Stalteri, ND — Naturopathic Doctor · NatCan Woodbridge (listed on the own naturopathic page as 'Woodbridge Only')",
+    "id": "natcan-weight-loss-skin-clinic-woodbridge--natalie-stalteri",
+    "name": "Natalie Stalteri"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic price is published on the clinic's own site or booking page, checked 2026-11-01: the shared own naturopathic page (https://natcanintegrative.com/pages/naturopathic-medicine), which covers both NatCan locations, lists the 90-minute Naturopathic Initial Intake and follow-ups as 'Contact us for pricing', and the Jane booking pages for the NatCan clinics show no naturopathic price in their text. A free initial consultation is offered. No aggregator/directory prices were used.",
+  "treatment_link": "https://natcanintegrative.com/pages/naturopathic-medicine",
+  "status": null,
+  "last_verified": null,
+  "gaps": "RELATED ENTRY / shared parent: this is the second NatCan Clinics location, sharing the same website (natcanintegrative.com) and phone number (416-400-6280, Ext. 2 here vs Ext. 1 for Vaughan) as NatCan Integrative Medical & Wellness Centre, Vaughan — a distinct location and directory entry, not a duplicate. Naturopathy at this location is real but secondary: the own two-locations page steers naturopathic/wellness bookings primarily to the Vaughan clinic while stating naturopathic services are 'also offered' at Woodbridge, and the shared naturopathic page lists NDs as available at Woodbridge. Practitioner-list inconsistency on the own site: Dr. Natalie Stalteri, ND is carded as 'Woodbridge Only' on the naturopathic page (and appears in this location's Jane staff), but the same page's availability summary says Woodbridge has only Dr. Santos, Dr. Perfetto and Dr. Sachdev; all four are recorded here with that caveat. Hours: Tuesday alternates between 10am–4pm and 12:30pm–5:30pm and Friday is open alternating Fridays only (12:30pm–7:00pm, closed the opposite Friday) on the own site, so tue/fri are recorded as null rather than a single range; the own contact page also notes Monday appointments are available by appointment only for select skin/aesthetic services, though Monday is not in the published hours (recorded Closed). Price not published ('Contact us for pricing'), so price_text is null. Google rating/reviews unverifiable for this location specifically: the own site's 5.0 Google stat is chain-wide / labelled for the Vaughan centre, and the Google Places details in search results for this location showed no rating or count, so both are null rather than borrowing the Vaughan figure. Direct billing unverifiable: own site says receipts are always provided for insurance purposes but does not explicitly claim direct billing or a receipts-only policy. City note: the own site labels this location Woodbridge, ON (as does the directory); Google Places lists the same address with city as Vaughan (Woodbridge is a district within the City of Vaughan).",
+  "clinic_id": "natcan-weight-loss-skin-clinic-woodbridge"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "purebalance-wellness-mississauga--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "DR. ELIAS MARKOU, ND; DR. HELYA BAHMANPOUR, ND; DR. SOPHIA CHACHULA, ND; DR. CELINA RODRIGUEZ, ND; DR. FRANK SILVA, ND",
+  "practitioners": [
+   {
+    "as_recorded": "DR. ELIAS MARKOU, ND — Clinic Director, Naturopathic Doctor, Registered Acupuncturist & Reiki Master",
+    "id": "purebalance-wellness-mississauga--elias-markou",
+    "name": "Elias Markou"
+   },
+   {
+    "as_recorded": "DR. HELYA BAHMANPOUR, ND — Naturopathic Doctor",
+    "id": "purebalance-wellness-mississauga--helya-bahmanpour",
+    "name": "Helya Bahmanpour"
+   },
+   {
+    "as_recorded": "DR. SOPHIA CHACHULA, ND — Naturopathic Doctor",
+    "id": "purebalance-wellness-mississauga--sophia-chachula",
+    "name": "Sophia Chachula"
+   },
+   {
+    "as_recorded": "DR. CELINA RODRIGUEZ, ND — Naturopathic Doctor",
+    "id": "purebalance-wellness-mississauga--celina-rodriguez",
+    "name": "Celina Rodriguez"
+   },
+   {
+    "as_recorded": "DR. FRANK SILVA, ND — Naturopathic Doctor",
+    "id": "purebalance-wellness-mississauga--frank-silva",
+    "name": "Frank Silva"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic fee is published on the clinic's own site, checked 2026-11-01: checked the own Naturopathic Medicine page (https://www.mypurebalance.ca/naturopathic-medicine), Clinic Information page (payments section lists payment methods only, no amounts), New Patients page, and the Our Team page whose per-practitioner booking links go to OutSmart EMR / SmartND — no initial consult or follow-up price was published in any of them. A free 15-minute consult is offered. No aggregator/directory prices were used.",
+  "treatment_link": "https://www.mypurebalance.ca/naturopathic-medicine",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Price not published anywhere on the own site or its linked booking pages, so price_text is null. Booking is decentralised: there is no single central booking page — the own New Patients page (recorded as booking_page) directs patients to book an initial appointment online, and the Our Team page carries separate per-practitioner booking links to OutSmart EMR (app.outsmartemr.com) and SmartND (smartnd.ca). Direct billing recorded as 'no' on the basis of the own site's explicit pay-at-treatment wording ('All accounts are due at time of treatment'); the site does not mention direct billing insurers. No directory errors found: address, city, phone and hours on the own site match the directory entry, and five NDs are evidenced on the own team page under 'NATUROPATHIC DOCTORS'.",
+  "clinic_id": "purebalance-wellness-mississauga"
  }
 ]
