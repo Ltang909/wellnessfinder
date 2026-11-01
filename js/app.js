@@ -242,18 +242,14 @@
     const wrap = $("#directoryGroups"); if (!wrap || typeof TREATMENTS === "undefined") return;
     const goalCats = (dirState.goal && typeof GOAL_MAP !== "undefined") ? GOAL_MAP[dirState.goal] : null;
     let visible = 0;
-    $$(".dir-group", wrap).forEach((group) => {
-      let gVisible = 0;
-      $$(".treatment-card", group).forEach((card) => {
-        const cats = card.dataset.cats.split(",");
-        const tabOk = dirState.tab === "All" || cats.includes(dirState.tab);
-        const goalOk = !goalCats || cats.some((c) => goalCats.includes(c));
-        const qOk = !dirState.query || card.dataset.name.toLowerCase().includes(dirState.query);
-        const show = tabOk && goalOk && qOk;
-        card.classList.toggle("hidden", !show);
-        if (show) { visible++; gVisible++; }
-      });
-      group.classList.toggle("hidden", gVisible === 0);
+    $$(".treatment-card", wrap).forEach((card) => {
+      const cats = card.dataset.cats.split(",");
+      const tabOk = dirState.tab === "All" || cats.includes(dirState.tab);
+      const goalOk = !goalCats || cats.some((c) => goalCats.includes(c));
+      const qOk = !dirState.query || card.dataset.name.toLowerCase().includes(dirState.query);
+      const show = tabOk && goalOk && qOk;
+      card.classList.toggle("hidden", !show);
+      if (show) visible++;
     });
     const total = TREATMENTS.length;
     const bits = [];
@@ -287,43 +283,10 @@
     },
   };
 
-  /* Directory grouping: benefits (the big benefit groups) or modalities
-     (each treatment under its primary billing modality). */
-  let dirGroupMode = "benefits";
+  /* Directory: one flat grid, no group headers. Filtering (goal chips,
+     modality tabs, search) just shows and hides cards. */
   function dirGroupsHTML() {
-    const groupBlock = (label, list) =>
-      `<div class="dir-group" data-group="${esc(label)}">
-         <h3>${esc(label)}</h3>
-         <div class="card-grid">${list.map(treatmentCardHTML).join("")}</div>
-       </div>`;
-    if (dirGroupMode === "modalities") {
-      const tabOrder = TREATMENT_TABS.filter((x) => x !== "All");
-      const primaries = [];
-      TREATMENTS.forEach((t) => {
-        const c = (t.categories || [])[0];
-        if (c && !primaries.includes(c)) primaries.push(c);
-      });
-      primaries.sort((x, y) => {
-        const ix = tabOrder.indexOf(x), iy = tabOrder.indexOf(y);
-        return (ix < 0 ? 99 : ix) - (iy < 0 ? 99 : iy);
-      });
-      return primaries.map((c) =>
-        groupBlock(c, TREATMENTS.filter((t) => (t.categories || [])[0] === c))).join("");
-    }
-    return TREATMENT_GROUPS.map((g) =>
-      groupBlock(g, TREATMENTS.filter((t) => t.group === g))).join("");
-  }
-  function initGroupToggle() {
-    const bar = document.querySelector(".group-toggle");
-    if (!bar || bar.dataset.wired) return;
-    bar.dataset.wired = "1";
-    bar.addEventListener("click", (e) => {
-      const btn = e.target.closest("[data-groupmode]"); if (!btn) return;
-      dirGroupMode = btn.dataset.groupmode;
-      $$(".gt-btn", bar).forEach((b) => b.classList.toggle("active", b === btn));
-      const wrap = $("#directoryGroups");
-      if (wrap) { wrap.innerHTML = dirGroupsHTML(); applyDirectoryFilter(); }
-    });
+    return `<div class="card-grid">${TREATMENTS.map(treatmentCardHTML).join("")}</div>`;
   }
 
   function renderDirectory() {
@@ -337,7 +300,6 @@
     wrap.innerHTML = dirGroupsHTML();
     $("#dirCount").textContent = `${TREATMENTS.length} treatments logged`;
 
-    initGroupToggle();
     // interactions
     wrap.addEventListener("click", (e) => {
       const more = e.target.closest(".tc-more");
