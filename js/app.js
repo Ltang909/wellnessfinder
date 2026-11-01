@@ -356,8 +356,20 @@
   let fcTreatment = "Clinical Pilates";
   let fcIndex = 0;
 
+  /* Curated featured sets (2026-11-01): only clinics with BOTH a price
+     verified on their own booking page AND a verified Google rating
+     (Places or the clinic's own Google badge/widget). Treatments
+     without a curated set fall back to the notes-first selection. */
+  const FC_SETS = {
+    "Clinical Pilates": ["Revival Physio", "Pulse Physiotherapy", "JC Clinic", "Focus Physio + Wellness", "Treloar Physiotherapy \u2014 Cambie", "Synergy Physiotherapy and Pilates", "Pilates4Physio"],
+  };
   function fcFeatured(name) {
     const all = (gtaDataFor(name) || { clinics: [] }).clinics;
+    const curated = FC_SETS[name];
+    if (curated) {
+      const picked = curated.map((n) => all.find((c) => c.name === n)).filter(Boolean);
+      if (picked.length) return { featured: picked, total: all.length };
+    }
     const noted = all.filter((c) => (c.note || "").trim().length > 30);
     const rest = all.filter((c) => (c.note || "").trim().length <= 30);
     return { featured: [...noted, ...rest].slice(0, 7), total: all.length };
