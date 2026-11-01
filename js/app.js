@@ -258,99 +258,91 @@
       </article>`;
   }
 
-  /* Directory filter state: fund category chip + search combine. */
-  const dirState = { fund: null, modality: null, query: "" };
+  /* Directory: Four Seasons-style presentation (Leon's pick, 2026-11-01).
+     A tab bar switches between All and the seven fund categories. Each
+     view: title + count, featured cards, then modality accordions with
+     treatments duplicated across every modality they bill through. */
+  const FS_FEATURED_ALL = ["Microneedling", "Clinical Pilates", "Golf Swing Assessment", "Head Spa"];
+  const FS_MOD_ORDER = ["Physiotherapy", "Naturopathy", "Chiropractic", "Speech Therapy", "Acupuncture", "Massage Therapy", "Psychology", "Psychotherapy", "Osteopathy", "Dental", "Dietitian"];
+  let fsView = "All";
 
-  function applyDirectoryFilter() {
-    const wrap = $("#directoryGroups"); if (!wrap || typeof TREATMENTS === "undefined") return;
-    $$(".treatment-card", wrap).forEach((card) => {
-      const fundOk = !dirState.fund || FUND_CAT[card.dataset.name] === dirState.fund;
-      const modOk = !dirState.modality || card.dataset.cats.split(",").includes(dirState.modality);
-      const qOk = !dirState.query || card.dataset.name.toLowerCase().includes(dirState.query);
-      card.classList.toggle("hidden", !(fundOk && modOk && qOk));
-    });
+  const fsImg = (t) => ((typeof TREATMENT_IMAGES !== "undefined" && TREATMENT_IMAGES[t.name]) || {}).src || `/assets/treatments/${treatmentSlug(t.name)}.jpg`;
+  const fsDesc = (t) => (t.desc || "").replace(/\s*\*Coverage varies by provider\.?/g, "").trim();
+  const fsBilled = (t) => (t.billed || "").replace(/\*+$/, "");
+  const fsClinics = (t) => (gtaDataFor(t.name) || { clinics: [] }).clinics.length;
+  const fsClinicsLink = (t) => `<a class="fs-clinics" href="/clinics-${treatmentSlug(t.name)}">${fsClinics(t)} clinic${fsClinics(t) === 1 ? "" : "s"} \u2192</a>`;
+
+  function fsCardHTML(t) {
+    return `<article class="fs-card">
+      <img src="${esc(fsImg(t))}" alt="${esc(t.name)}" loading="lazy">
+      <h3>${esc(t.name)} <span class="fs-arr">\u2192</span></h3>
+      <p class="fs-desc">${esc(fsDesc(t))}</p>
+      <p class="fs-meta">Billed as ${esc(fsBilled(t))}</p>
+      ${fsClinicsLink(t)}
+    </article>`;
+  }
+  function fsMiniHTML(t) {
+    return `<article class="fs-mini">
+      <img src="${esc(fsImg(t))}" alt="${esc(t.name)}" loading="lazy">
+      <h4>${esc(t.name)} <span class="fs-arr">\u2192</span></h4>
+      ${fsClinicsLink(t)}
+    </article>`;
+  }
+  function fsViewTreatments() {
+    if (fsView === "All" || typeof FUND_CAT === "undefined") return TREATMENTS;
+    return TREATMENTS.filter((t) => FUND_CAT[t.name] === fsView);
+  }
+  function renderDirectory() {
+    const root = $("#fsRoot"); if (!root || typeof TREATMENTS === "undefined") return;
+    const inView = fsViewTreatments();
+    const featured = fsView === "All"
+      ? FS_FEATURED_ALL.map((n) => TREATMENTS.find((t) => t.name === n)).filter(Boolean)
+      : inView;
+    const mods = FS_MOD_ORDER
+      .map((m) => ({ m, list: inView.filter((t) => (t.categories || []).includes(m)) }))
+      .filter((g) => g.list.length);
+    root.innerHTML = `
+      <div class="fs-tabbar"><span class="fs-chev">\u2039</span>
+        ${["All", ...FUND_CATS.map(([w]) => w)].map((w) =>
+          `<button type="button" class="fs-tab ${w === fsView ? "active" : ""}" data-fsview="${esc(w)}">${esc(w)}</button>`).join("")}
+        <span class="fs-chev">\u203a</span></div>
+      <div class="fs-stem"></div>
+      <h2 class="fs-title">${esc(fsView === "All" ? "All treatments" : fsView)}</h2>
+      <p class="fs-count">${inView.length} treatment${inView.length === 1 ? "" : "s"}</p>
+      <div class="fs-rule"><span>Featured treatments</span></div>
+      <div class="fs-grid">${featured.map(fsCardHTML).join("")}</div>
+      ${mods.map((g, i) => `
+      <div class="fs-sect ${i === 0 ? "open" : ""}">
+        <button type="button" class="fs-sect-head" aria-expanded="${i === 0 ? "true" : "false"}"><b>${esc(g.m)}</b><span>${g.list.length} treatment${g.list.length === 1 ? "" : "s"} \u00b7 <em>${i === 0 ? "Hide \u25b4" : "Show \u25be"}</em></span></button>
+        <div class="fs-minigrid">${g.list.map(fsMiniHTML).join("")}</div>
+      </div>`).join("")}`;
+    if (!root.dataset.wired) {
+      root.dataset.wired = "1";
+      root.addEventListener("click", (e) => {
+        const tab = e.target.closest(".fs-tab");
+        if (tab) { fsView = tab.dataset.fsview; renderDirectory(); return; }
+        const head = e.target.closest(".fs-sect-head");
+        if (head) {
+          const sect = head.closest(".fs-sect");
+          const open = sect.classList.toggle("open");
+          head.setAttribute("aria-expanded", open ? "true" : "false");
+          const em = head.querySelector("em");
+          if (em) em.textContent = open ? "Hide \u25b4" : "Show \u25be";
+        }
+      });
+    }
   }
 
-  /* Public hook: set or clear the fund filter from elsewhere. */
+  /* Public hook kept for compatibility with older in-page callers. */
   window.wfDirectory = {
     setFund(fund) {
-      dirState.fund = (dirState.fund === fund) ? null : fund;
-      $$(".fund-chip").forEach((p) => {
-        const on = p.dataset.fund === dirState.fund;
-        p.classList.toggle("active", on);
-        p.setAttribute("aria-pressed", on ? "true" : "false");
-      });
-      applyDirectoryFilter();
-      return dirState.fund;
+      fsView = FUND_CATS.some(([w]) => w === fund) ? fund : "All";
+      renderDirectory();
+      return fsView;
     },
-    clearFilters() {
-      dirState.fund = null; dirState.modality = null; dirState.query = "";
-      $$(".mod-chip").forEach((p) => { p.classList.remove("active"); p.setAttribute("aria-pressed", "false"); });
-      const s = $("#dirSearch"); if (s) s.value = "";
-      $$(".fund-chip").forEach((p) => { p.classList.remove("active"); p.setAttribute("aria-pressed", "false"); });
-      applyDirectoryFilter();
-    },
+    setGoal() { return null; },
+    clearFilters() { fsView = "All"; renderDirectory(); },
   };
-
-  /* Directory: one flat grid, no group headers. Filtering (goal chips,
-     modality tabs, search) just shows and hides cards. */
-  function dirGroupsHTML() {
-    return `<div class="card-grid">${TREATMENTS.map(treatmentCardHTML).join("")}</div>`;
-  }
-
-  function renderDirectory() {
-    const wrap = $("#directoryGroups"); if (!wrap || typeof TREATMENTS === "undefined") return;
-    // fund category chips (the hero words)
-    const chipsEl = $("#fundChips");
-    if (chipsEl) chipsEl.innerHTML = FUND_CATS.map(([w, c]) =>
-      `<button type="button" class="fund-chip" data-fund="${esc(w)}" aria-pressed="false" style="--fc:${c}"><span class="fund-dot" aria-hidden="true"></span>${esc(w)}</button>`
-    ).join("");
-    // modality chips (billing categories), second filter row
-    const modEl = $("#modChips");
-    if (modEl && typeof TREATMENT_TABS !== "undefined") modEl.innerHTML = TREATMENT_TABS.filter((t) => t !== "All").map((t) =>
-      `<button type="button" class="mod-chip" data-mod="${esc(t)}" aria-pressed="false">${esc(t)}</button>`
-    ).join("");
-    // one flat grid of cards
-    wrap.innerHTML = dirGroupsHTML();
-
-    // interactions
-    wrap.addEventListener("click", (e) => {
-      const more = e.target.closest(".tc-more");
-      if (more) {
-        const detail = more.nextElementSibling;
-        const open = detail.classList.toggle("open");
-        more.setAttribute("aria-expanded", open ? "true" : "false");
-        more.textContent = open ? "Less details ↑" : "More details →";
-      }
-    });
-
-    // search filtering
-    const searchEl = $("#dirSearch");
-    if (searchEl) searchEl.addEventListener("input", () => {
-      dirState.query = searchEl.value.trim().toLowerCase();
-      applyDirectoryFilter();
-    });
-
-    // fund chip filtering (click again to clear)
-    if (chipsEl) chipsEl.addEventListener("click", (e) => {
-      const chip = e.target.closest(".fund-chip"); if (!chip) return;
-      const wasActive = chip.classList.contains("active");
-      $$(".fund-chip", chipsEl).forEach((c) => { c.classList.remove("active"); c.setAttribute("aria-pressed", "false"); });
-      if (wasActive) { dirState.fund = null; }
-      else { chip.classList.add("active"); chip.setAttribute("aria-pressed", "true"); dirState.fund = chip.dataset.fund; }
-      applyDirectoryFilter();
-    });
-    // modality chip filtering (click again to clear; combines with fund + search)
-    if (modEl) modEl.addEventListener("click", (e) => {
-      const chip = e.target.closest(".mod-chip"); if (!chip) return;
-      const wasActive = chip.classList.contains("active");
-      $$(".mod-chip", modEl).forEach((c) => { c.classList.remove("active"); c.setAttribute("aria-pressed", "false"); });
-      if (wasActive) { dirState.modality = null; }
-      else { chip.classList.add("active"); chip.setAttribute("aria-pressed", "true"); dirState.modality = chip.dataset.mod; }
-      applyDirectoryFilter();
-    });
-    applyDirectoryFilter();
-  }
 
   function renderCategories() {
     const grid = $("#catGrid"); if (!grid || typeof GOAL_CATEGORIES === "undefined") return;

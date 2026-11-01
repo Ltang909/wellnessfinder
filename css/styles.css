@@ -915,3 +915,36 @@ body { font-size: 16px; }
   .clinic-cta { grid-template-columns: 1fr auto; }
   .clinic-cta p { white-space: nowrap; }
 }
+
+/* Directory: Four Seasons-style presentation (2026-11-01) */
+#directory { background: #EDE8DA; }
+.fs-panel { background: #fff; padding: 6px 44px 50px; }
+.fs-tabbar { display: flex; align-items: stretch; height: 110px; border-bottom: 1px solid #DCD6C6; }
+.fs-chev { align-self: center; color: #6E8F7A; font-size: 1.1rem; padding: 0 4px; }
+.fs-tab { flex: 1; background: none; border: 0; font: 500 .6rem Inter, system-ui, sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #6E8F7A; cursor: pointer; display: flex; align-items: flex-end; justify-content: center; padding: 0 4px 18px; text-align: center; }
+.fs-tab.active { background: #0F2D2B; color: #fff; font-weight: 600; margin-bottom: -24px; padding-top: 16px; z-index: 2; }
+.fs-stem { width: 1px; height: 32px; background: #0F2D2B; margin: 24px auto 0; }
+.fs-title { font-family: "Playfair Display", serif; font-weight: 400; font-size: clamp(1.9rem, 4vw, 2.9rem); letter-spacing: .14em; text-align: center; text-transform: uppercase; color: #0F2D2B; margin-top: 8px; }
+.fs-count { text-align: center; font-size: .66rem; letter-spacing: .3em; text-transform: uppercase; color: #6E8F7A; margin-top: 12px; }
+.fs-rule { display: flex; align-items: center; gap: 22px; margin: 46px 0 28px; }
+.fs-rule::before, .fs-rule::after { content: ""; flex: 1; border-top: 1px solid #A7BFAE; }
+.fs-rule span { font-family: "Playfair Display", serif; font-style: italic; font-size: 1.05rem; color: #0F2D2B; }
+.fs-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 26px; }
+.fs-card img { width: 100%; aspect-ratio: 1 / 1.06; object-fit: cover; display: block; }
+.fs-card h3 { font-family: Inter, system-ui, sans-serif; font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; margin: 16px 0 9px; color: #0F2D2B; }
+.fs-arr { color: #6E8F7A; font-weight: 400; }
+.fs-desc { font-family: "Playfair Display", serif; font-size: .94rem; line-height: 1.55; color: #3E3B36; }
+.fs-meta { font-size: .62rem; letter-spacing: .2em; text-transform: uppercase; color: #6E8F7A; margin-top: 11px; }
+a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; text-transform: uppercase; font-weight: 600; color: #0F2D2B; text-decoration: none; margin-top: 8px; border-bottom: 1px solid #A7BFAE; padding-bottom: 2px; }
+.fs-sect { border-top: 1px solid #E3DED0; margin-top: 28px; padding-top: 18px; }
+.fs-sect-head { width: 100%; background: none; border: 0; display: flex; justify-content: space-between; align-items: center; cursor: pointer; padding: 0; font-family: Inter, system-ui, sans-serif; }
+.fs-sect-head b { font-size: .8rem; letter-spacing: .22em; text-transform: uppercase; color: #0F2D2B; }
+.fs-sect-head span { font-size: .62rem; letter-spacing: .2em; text-transform: uppercase; color: #6E8F7A; }
+.fs-sect-head em { font-style: normal; }
+.fs-minigrid { display: none; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 18px; }
+.fs-sect.open .fs-minigrid { display: grid; }
+.fs-mini img { width: 100%; aspect-ratio: 1 / .82; object-fit: cover; display: block; }
+.fs-mini h4 { font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; margin-top: 11px; color: #0F2D2B; }
+.fs-mini a.fs-clinics { font-size: .6rem; margin-top: 5px; }
+@media (max-width: 900px) { .fs-grid, .fs-minigrid { grid-template-columns: repeat(2, 1fr); } .fs-panel { padding: 6px 22px 40px; } .fs-tab { letter-spacing: .08em; } }
+@media (max-width: 560px) { .fs-tabbar { height: 92px; } .fs-tab { font-size: .52rem; } }
