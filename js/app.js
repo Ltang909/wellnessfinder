@@ -259,14 +259,15 @@
   }
 
   /* Directory filter state: fund category chip + search combine. */
-  const dirState = { fund: null, query: "" };
+  const dirState = { fund: null, modality: null, query: "" };
 
   function applyDirectoryFilter() {
     const wrap = $("#directoryGroups"); if (!wrap || typeof TREATMENTS === "undefined") return;
     $$(".treatment-card", wrap).forEach((card) => {
       const fundOk = !dirState.fund || FUND_CAT[card.dataset.name] === dirState.fund;
+      const modOk = !dirState.modality || card.dataset.cats.split(",").includes(dirState.modality);
       const qOk = !dirState.query || card.dataset.name.toLowerCase().includes(dirState.query);
-      card.classList.toggle("hidden", !(fundOk && qOk));
+      card.classList.toggle("hidden", !(fundOk && modOk && qOk));
     });
   }
 
@@ -283,7 +284,8 @@
       return dirState.fund;
     },
     clearFilters() {
-      dirState.fund = null; dirState.query = "";
+      dirState.fund = null; dirState.modality = null; dirState.query = "";
+      $$(".mod-chip").forEach((p) => { p.classList.remove("active"); p.setAttribute("aria-pressed", "false"); });
       const s = $("#dirSearch"); if (s) s.value = "";
       $$(".fund-chip").forEach((p) => { p.classList.remove("active"); p.setAttribute("aria-pressed", "false"); });
       applyDirectoryFilter();
@@ -302,6 +304,11 @@
     const chipsEl = $("#fundChips");
     if (chipsEl) chipsEl.innerHTML = FUND_CATS.map(([w, c]) =>
       `<button type="button" class="fund-chip" data-fund="${esc(w)}" aria-pressed="false" style="--fc:${c}"><span class="fund-dot" aria-hidden="true"></span>${esc(w)}</button>`
+    ).join("");
+    // modality chips (billing categories), second filter row
+    const modEl = $("#modChips");
+    if (modEl && typeof TREATMENT_TABS !== "undefined") modEl.innerHTML = TREATMENT_TABS.filter((t) => t !== "All").map((t) =>
+      `<button type="button" class="mod-chip" data-mod="${esc(t)}" aria-pressed="false">${esc(t)}</button>`
     ).join("");
     // one flat grid of cards
     wrap.innerHTML = dirGroupsHTML();
@@ -331,6 +338,15 @@
       $$(".fund-chip", chipsEl).forEach((c) => { c.classList.remove("active"); c.setAttribute("aria-pressed", "false"); });
       if (wasActive) { dirState.fund = null; }
       else { chip.classList.add("active"); chip.setAttribute("aria-pressed", "true"); dirState.fund = chip.dataset.fund; }
+      applyDirectoryFilter();
+    });
+    // modality chip filtering (click again to clear; combines with fund + search)
+    if (modEl) modEl.addEventListener("click", (e) => {
+      const chip = e.target.closest(".mod-chip"); if (!chip) return;
+      const wasActive = chip.classList.contains("active");
+      $$(".mod-chip", modEl).forEach((c) => { c.classList.remove("active"); c.setAttribute("aria-pressed", "false"); });
+      if (wasActive) { dirState.modality = null; }
+      else { chip.classList.add("active"); chip.setAttribute("aria-pressed", "true"); dirState.modality = chip.dataset.mod; }
       applyDirectoryFilter();
     });
     applyDirectoryFilter();

@@ -898,3 +898,9 @@ body { font-size: 16px; }
 .fund-chip .fund-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--fc); flex: none; }
 .fund-chip:hover { border-color: #191919; }
 .fund-chip.active { background: var(--fc); border-color: transparent; }
+
+/* Modality filter chips (second row, quieter than the fund chips) */
+.mod-chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: -12px 0 24px; }
+.mod-chip { padding: 6px 13px; border: 1.5px solid #E3E3E3; border-radius: 999px; background: #fff; font: 500 .8rem Inter, system-ui, sans-serif; color: #55534E; cursor: pointer; }
+.mod-chip:hover { border-color: #191919; color: #191919; }
+.mod-chip.active { background: #191919; border-color: #191919; color: #fff; font-weight: 700; }
