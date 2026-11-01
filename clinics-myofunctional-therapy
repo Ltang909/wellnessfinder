@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=39" />
+  <link rel="stylesheet" href="css/styles.css?v=40" />
 </head>
 <body data-treatment="Myofunctional Therapy">
   <header class="site-header compact-header">
@@ -23,7 +23,6 @@
     <div class="wrap tp-wrap">
       <div id="tpHead"></div>
       <div id="tpList" class="tp-list"></div>
-      <p class="gta-note">Listings are for informational purposes only. Coverage varies by insurer, plan, and provider. Always confirm with your insurer and the clinic before booking.</p>
     </div>
   </main>
   <footer class="site-footer">
