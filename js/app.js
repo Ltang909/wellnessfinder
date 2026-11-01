@@ -379,6 +379,12 @@
     const desc = note
       ? note.charAt(0).toUpperCase() + note.slice(1) + (note.endsWith(".") ? "" : ".")
       : `${active.name} offers ${fcTreatment.toLowerCase()} in ${active.city || "Canada"}.`;
+    const media = (typeof CLINIC_MEDIA !== "undefined" && CLINIC_MEDIA[active.name]) || {};
+    const cardImg = media.img || img;
+    const stars = Array.isArray(media.rating)
+      ? `<p class="fc-stars"><span class="fc-star-glyphs">${"\u2605".repeat(Math.round(media.rating[0]))}${"\u2606".repeat(5 - Math.round(media.rating[0]))}</span> ${media.rating[0].toFixed(1)} <span class="fc-rcount">(${media.rating[1]} Google reviews)</span></p>` : "";
+    const pract = media.practitioner ? `<p class="fc-line">${esc(media.practitioner)}</p>` : "";
+    const price = media.price ? `<p class="fc-line">${esc(media.price)}</p>` : "";
     root.innerHTML = `
     <div class="fc-stage">
       <div class="fc-bg" style="background-image:url('${esc(img)}')"></div>
@@ -394,8 +400,9 @@
           <article class="fc-card">
             <h3>${esc(active.name)}</h3>
             <p class="fc-city">${esc(active.city || "")}${active.prov ? `, ${esc(active.prov)}` : ""}</p>
-            <img src="${esc(img)}" alt="${esc(fcTreatment)}">
+            <img src="${esc(cardImg)}" alt="${esc(active.name)}">
             <p class="fc-desc">${esc(desc)}</p>
+            ${stars}${pract}${price}
             <a class="fc-btn" href="${esc(active.web || "#")}" target="_blank" rel="noopener">View clinic</a>
           </article>
           ${[1, 2, 3].map((k) => panel(at(k), k)).join("")}

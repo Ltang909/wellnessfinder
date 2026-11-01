@@ -982,3 +982,10 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 /* Featured clinic side panels are clickable (jump to that clinic) */
 .fc-panel { cursor: pointer; background: none; font: inherit; text-align: left; }
 .fc-panel:hover, .fc-panel:focus-visible { border-color: #fff; }
+
+/* Featured clinic card info lines */
+.fc-stars { margin-top: 16px; font-size: .8rem; color: #0F2D2B; font-weight: 600; }
+.fc-star-glyphs { color: #E8A33D; letter-spacing: 2px; }
+.fc-rcount { color: #77736A; font-weight: 400; font-size: .72rem; }
+.fc-line { margin-top: 10px; font-size: .62rem; letter-spacing: .22em; text-transform: uppercase; color: #6E8F7A; font-weight: 600; }
+.fc-line + .fc-line { margin-top: 6px; }

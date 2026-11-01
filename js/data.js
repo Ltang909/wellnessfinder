@@ -1699,6 +1699,34 @@ const GOAL_MAP = {
 };
 
 /* ---------- Resources ---------- */
+
+/* Featured-clinic media + card info (photos pulled from each clinic's
+   own website, 2026-11-01; practitioner/price from the directory notes).
+   rating is [average, review count] from Google, added when verified. */
+const CLINIC_MEDIA = {
+  "Rae Physiotherapy and Pilates": {"img": "/assets/clinics/rae-physiotherapy-and-pilates.jpg"},
+  "Pulse Physiotherapy": {"img": "/assets/clinics/pulse-physiotherapy.jpg"},
+  "Pivotal Physiotherapy": {"img": "/assets/clinics/pivotal-physiotherapy.jpg", "price": "$165 assessment · $100 / 30-min follow-up"},
+  "Nxt Generation PHYSIO \u2014 Homa": {"img": "/assets/clinics/nxt-generation-physio-homa.jpg", "practitioner": "Thalie Forest"},
+  "Physio Motiva": {"img": "/assets/clinics/physio-motiva.jpg", "rating": [5.0, 2]},
+  "Physio Solution Active": {"img": "/assets/clinics/physio-solution-active.jpg", "rating": [5.0, 7]},
+  "Tuxedo Physiotherapy": {"img": "/assets/clinics/tuxedo-physiotherapy.jpg"},
+  "HealthyToDos \u2014 Markham Health & Rehab": {"img": "/assets/clinics/healthytodos-markham-health-rehab.jpg", "practitioner": "Dr. Andrew Li"},
+  "Sheddon Physiotherapy \u2014 Oakville": {"img": "/assets/clinics/sheddon-physiotherapy-oakville.jpg", "practitioner": "Erin Shapcott", "rating": [4.9, 52]},
+  "Sheddon Physiotherapy \u2014 Burlington": {"img": "/assets/clinics/sheddon-physiotherapy-burlington.jpg", "practitioner": "Erin Shapcott & Liam Munshi"},
+  "PhysioLinks Rehab Clinic": {"img": "/assets/clinics/physiolinks-rehab-clinic.jpg", "practitioner": "Mandeep Virk", "rating": [5.0, 24]},
+  "SHAPE Toronto Health & Wellness": {"img": "/assets/clinics/shape-toronto-health-wellness.jpg", "practitioner": "Dr. Sender Deutsch"},
+  "Swing Lab \u2013 Performance & Therapy": {"img": "/assets/clinics/swing-lab-performance-therapy.jpg"},
+  "Arbutus Physiotherapy": {"img": "/assets/clinics/arbutus-physiotherapy.jpg"},
+  "Integrative Naturopathic Medical Centre": {"img": "/assets/clinics/integrative-naturopathic-medical-centre.jpg", "practitioner": "Dr. Chenoa Liu, ND", "rating": [4.7, 28]},
+  "Dr. Lauren Cottom": {"img": "/assets/clinics/dr-lauren-cottom.jpg", "practitioner": "Dr. Lauren Cottom, ND"},
+  "Dr. Ben Connolly ND": {"img": "/assets/clinics/dr-ben-connolly-nd.jpg", "practitioner": "Dr. Ben Connolly, ND", "rating": [5.0, 9]},
+  "Inbloom Health": {"img": "/assets/clinics/inbloom-health.jpg", "practitioner": "Dr. Leduc & Dr. Myers, NDs"},
+  "Bay Wellness Centre": {"img": "/assets/clinics/bay-wellness-centre.jpg", "rating": [5.0, 21]},
+  "P\u00fcr GL\u014d Natural Skin Rejuvenation Centre": {"img": "/assets/clinics/p-r-gl-natural-skin-rejuvenation-centre.jpg", "price": "$275"},
+  "Dr. Caitlin Batting": {"img": "/assets/clinics/dr-caitlin-batting.jpg", "practitioner": "Dr. Caitlin Batting, ND"},
+};
+
 const RESOURCES = [
   { tag: "Treatment guide", title: "What is Clinical Pilates?", desc: "How it differs from a studio Pilates class, and why it's billed through physiotherapy.", url: "/blog-clinical-pilates" },
   { tag: "Treatment guide", title: "Clinical Pilates vs Group Pilates: Which Do You Need?", desc: "The differences, who each is for, how benefits may apply, and how to combine both in your week.", url: "/blog-clinical-vs-group-pilates" },
