@@ -569,16 +569,31 @@
     header.insertAdjacentElement("afterend", bar);
     const formHTML = (val) =>
       `<form class="loc-form" data-loc-form><input name="postal" placeholder="Postal code" autocomplete="postal-code" aria-label="Postal code" value="${esc(val || "")}"><button class="btn btn--primary btn--sm" type="submit">Set location</button></form>`;
+    /* Three states: no postal code -> full bottom banner with the
+       form; postal saved -> collapsed to a floating pill in the
+       bottom-right corner; editing (pill tapped) -> banner reopens
+       with the form so the code can be changed. */
+    let editing = false;
     const render = () => {
       const p = wfLoc.get();
-      bar.innerHTML = p
-        ? `<div class="wrap loc-bar-in"><span>📍 Clinics near <b>${esc(p.toUpperCase())}</b></span><button type="button" class="loc-change" data-loc-edit>Change</button></div>`
-        : `<div class="wrap loc-bar-in"><span>📍 See clinics near you</span>${formHTML("")}</div>`;
+      bar.classList.remove("loc-away");
+      if (p && !editing) {
+        bar.classList.add("is-pill");
+        document.body.classList.remove("has-loc-banner");
+        bar.innerHTML = `<button type="button" class="loc-pill" data-loc-edit aria-label="Your postal code is ${esc(p.toUpperCase())}. Tap to change it">📍 ${esc(p.toUpperCase())}</button>`;
+      } else {
+        bar.classList.remove("is-pill");
+        document.body.classList.add("has-loc-banner");
+        bar.innerHTML = editing
+          ? `<div class="wrap loc-bar-in"><span>📍 Your location</span>${formHTML(p)}<button type="button" class="loc-cancel" data-loc-cancel aria-label="Cancel">✕</button></div>`
+          : `<div class="wrap loc-bar-in"><span>📍 See clinics near you</span>${formHTML("")}</div>`;
+      }
     };
     render();
     bar.addEventListener("click", (e) => {
+      if (e.target.closest("[data-loc-cancel]")) { editing = false; render(); return; }
       if (!e.target.closest("[data-loc-edit]")) return;
-      bar.innerHTML = `<div class="wrap loc-bar-in"><span>📍 Your location</span>${formHTML(wfLoc.get())}</div>`;
+      editing = true; render();
       const inp = bar.querySelector("input");
       if (inp) { inp.focus(); inp.select(); }
     });
@@ -588,10 +603,20 @@
       const input = form.querySelector("input[name=postal]");
       const v = (input.value || "").trim().toUpperCase();
       if (!wfLoc.valid(v)) { input.focus(); return; }
-      wfLoc.set(v); wfLoc.reset(); render();
+      wfLoc.set(v); wfLoc.reset(); editing = false; render();
       window.dispatchEvent(new CustomEvent("wf:location"));
     });
     window.addEventListener("wf:location", render);
+    /* The banner slides away while the page is scrolling and comes
+       back once scrolling stops. Never hide it mid-edit or while it
+       has keyboard focus. */
+    let scrollTimer = null;
+    window.addEventListener("scroll", () => {
+      if (editing || bar.contains(document.activeElement)) return;
+      bar.classList.add("loc-away");
+      clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(() => bar.classList.remove("loc-away"), 650);
+    }, { passive: true });
   }
 
   /* Clinics per treatment with distances from the saved postal code.
