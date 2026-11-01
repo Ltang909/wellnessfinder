@@ -227,7 +227,10 @@
     "Lymphatic Drainage": "Recovery", "Shockwave Therapy": "Recovery", "TMJ Massage": "Recovery",
     "Cryotherapy": "Recovery", "Myofunctional Therapy": "Recovery",
     "Interview Preparation": "Personal growth", "Accent Modification": "Personal growth",
-    "Mental Performance Coaching": "Personal growth"
+    "Mental Performance Coaching": "Personal growth",
+    "Performing Arts Physiotherapy": "Hobbies",
+    "Psychoeducational Assessments": "Personal growth", "Stuttering Therapy": "Personal growth",
+    "Vestibular Rehabilitation": "Recovery"
   };
   const FUND_COLOR = {};
   FUND_CATS.forEach(([w, c]) => { FUND_COLOR[w] = c; });
@@ -544,6 +547,10 @@
       "Sports Nutrition": { clinics: (typeof NUTRITION_CLINICS !== "undefined" ? NUTRITION_CLINICS : []).filter(inDirectory) },
       "Fertility Acupuncture": { clinics: (typeof FERTACU_CLINICS !== "undefined" ? FERTACU_CLINICS : []) },
       "Fertility Consultation": { clinics: (typeof FERTNAT_CLINICS !== "undefined" ? FERTNAT_CLINICS : []) },
+      "Performing Arts Physiotherapy": { clinics: (typeof PERFORMINGARTS_CLINICS !== "undefined" ? PERFORMINGARTS_CLINICS : []).filter(inDirectory) },
+      "Psychoeducational Assessments": { clinics: (typeof PSYCHASSESS_CLINICS !== "undefined" ? PSYCHASSESS_CLINICS : []).filter(inDirectory) },
+      "Vestibular Rehabilitation": { clinics: (typeof VESTIBULAR_CLINICS !== "undefined" ? VESTIBULAR_CLINICS : []).filter(inDirectory) },
+      "Stuttering Therapy": { clinics: (typeof STUTTER_CLINICS !== "undefined" ? STUTTER_CLINICS : []).filter(inDirectory) },
     };
     const entry = map[name] || { clinics: [] };
     const t = TREATMENTS.find((x) => x.name === name) || {};
@@ -902,6 +909,10 @@
     push(typeof NUTRITION_CLINICS !== "undefined" ? NUTRITION_CLINICS : [], "Sports Nutrition");
     push(typeof FERTACU_CLINICS !== "undefined" ? FERTACU_CLINICS : [], "Fertility Acupuncture");
     push(typeof FERTNAT_CLINICS !== "undefined" ? FERTNAT_CLINICS : [], "Fertility Consultation");
+    push(typeof PERFORMINGARTS_CLINICS !== "undefined" ? PERFORMINGARTS_CLINICS : [], "Performing Arts Physiotherapy");
+    push(typeof PSYCHASSESS_CLINICS !== "undefined" ? PSYCHASSESS_CLINICS : [], "Psychoeducational Assessments");
+    push(typeof VESTIBULAR_CLINICS !== "undefined" ? VESTIBULAR_CLINICS : [], "Vestibular Rehabilitation");
+    push(typeof STUTTER_CLINICS !== "undefined" ? STUTTER_CLINICS : [], "Stuttering Therapy");
     return out;
   }
   window.wfAllClinics = allClinicsWithTreatment;

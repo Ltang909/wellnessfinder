@@ -151,6 +151,26 @@ const TREATMENTS = [
     categories: ["Naturopathy"], link: null,
     desc: "Naturopathic fertility care for both partners: hormone testing, cycle support, sperm health, and preconception planning.",
     detail: "Naturopathic doctors can order labs and build fertility plans for both male and female partners. Visits bill as naturopathy under most extended plans." },
+
+  { group: "Move Better", name: "Performing Arts Physiotherapy", billed: "Physiotherapy",
+    categories: ["Physiotherapy"], link: "/clinics-performing-arts-physiotherapy",
+    desc: "Physiotherapy built for dancers and performing artists: injury treatment, technique-safe strength work, and pre-pointe assessments that check whether a young dancer's feet, ankles and core are ready for pointe work.",
+    detail: "Delivered by a registered physiotherapist, so sessions bill as physiotherapy rather than as dance training \u2014 which is why they often land inside your extended health benefits." },
+
+  { group: "Brain & Mind", name: "Psychoeducational Assessments", billed: "Psychology",
+    categories: ["Psychology"], link: "/clinics-psychoeducational-assessments",
+    desc: "Formal testing by a registered psychologist that identifies learning disabilities, ADHD, autism and giftedness \u2014 for kids who are struggling at school and adults who have always wondered. The report unlocks school supports, workplace accommodations and exam adjustments.",
+    detail: "A full assessment runs $2,500 to $3,500 out of pocket, and because a registered psychologist performs it, many plans cover a meaningful share under the psychology benefit. Confirm your plan's per-assessment and hourly caps first." },
+
+  { group: "Move Better", name: "Vestibular Rehabilitation", billed: "Physiotherapy",
+    categories: ["Physiotherapy"], link: "/clinics-vestibular-rehabilitation",
+    desc: "Physiotherapy for vertigo, dizziness and balance problems \u2014 BPPV, Meniere's, post-concussion dizziness. A vestibular-trained physio finds which part of the balance system is misfiring and retrains it, often in a handful of sessions.",
+    detail: "Delivered by a registered physiotherapist, so it bills as physiotherapy and often lands inside your extended health benefits." },
+
+  { group: "Perform Better", name: "Stuttering Therapy", billed: "Speech Therapy",
+    categories: ["Speech Therapy"], link: "/clinics-stuttering-therapy",
+    desc: "Speech therapy for adults and teens who stutter \u2014 fluency shaping, stuttering modification and confidence for presentations, interviews and everyday conversation, in person or by telepractice.",
+    detail: "Delivered by a registered speech-language pathologist, so it bills as speech therapy and often lands inside your extended health benefits." }
 ];
 
 
@@ -1649,6 +1669,9 @@ const FERTNAT_CLINICS = [
 
 /* ---------- Per-treatment provider photos (with credit) ---------- */
 const TREATMENT_IMAGES = {
+  "Performing Arts Physiotherapy": { src: "/assets/treatments/performing-arts-physiotherapy.jpg", credit: "Holland Landing Health Centre, Holland Landing", url: "http://hlhc.ca/blog/pre-pointe-assessment-dance-injury-management" },
+  "Vestibular Rehabilitation": { src: "/assets/treatments/vestibular-rehabilitation.jpg", credit: "Leaside Sports Medicine, Toronto", url: "https://www.leasidesportsmedicine.com/programs-of-care/vestibular-physiotherapy/" },
+  "Stuttering Therapy": { src: "/assets/treatments/stuttering-therapy.jpg", credit: "SpeechAim, Toronto", url: "https://www.speechaim.com/adult-speech-therapy" },
   "Clinical Pilates": { src: "/assets/treatments/clinical-pilates.jpg", credit: "Mindful Movement Centre, Toronto", url: "http://www.mindfulmovementcentre.com/" },
   "Facial Manual Therapy": { src: "/assets/treatments/facial-manual-therapy.jpg", credit: "Coast Therapy, Vancouver", url: "https://coasttherapy.ca/physiotherapy/tmj-tmd-treatment/" },
   "Golf Swing Assessment": { src: "/assets/treatments/golf-swing-assessment.jpg", credit: "Seven Summits Rehab and Health, Vancouver", url: "https://sevensummitsrehab.ca/services-booking/tpi-golf-assessment/" },
@@ -2494,3 +2517,57 @@ const GOLF_CLINICS = [
 ];
 
 const GOLF_REGIONS = ["York", "Peel", "Halton", "Hamilton", "Toronto", "Scarborough", "Durham"];
+
+
+/* ---------- New categories (Nov 1, 2026): lesser-known billable treatments ---------- */
+const PERFORMINGARTS_CLINICS = [
+  { name: "Holland Landing Health Centre", city: "Holland Landing", web: "http://hlhc.ca/blog/pre-pointe-assessment-dance-injury-management", billed: "Physiotherapy", note: "'Pre-Pointe Assessment & Dance Injury Management' by Jamie Conrick, registered Physiotherapy resident, assessing\u2026", prov: "ON" },
+  { name: "Versa Movement Collective", city: "Calgary", web: "https://versamc.com/services/pre-pointe-physiotherapy-assessments", billed: "Physiotherapy", note: "'Pre-Pointe Physiotherapy Assessments' \u2014 physiotherapists assess ankle strength, core stability and technique to\u2026", prov: "AB" },
+  { name: "Genevi\u00e8ve Renaud Physio + Performance", city: "Ottawa", web: "https://genrenaudphysio.ca/physiotherapy", billed: "Physiotherapy", note: "billed as 'Dance & Sports Physiotherapy' in Ottawa lists Dance & Sport Injury Rehabilitation, Pre-Pointe Assessments\u2026", prov: "ON" },
+  { name: "Grindstone Physiotherapy", city: "Waterdown", web: "http://grindstonephysio.janeapp.com/locations/grindstone-physiotherapy/book", billed: "Physiotherapy", note: "JaneApp booking page lists 'Dance Focused Physiotherapy: Initial Assessment' and 'Pre-Pointe Screening (60 mins) -\u2026", prov: "ON" },
+  { name: "Pulse Physiotherapy", city: "Calgary", web: "https://www.pulsephysioyyc.com/services/dance-physiotherapy/", billed: "Physiotherapy", note: "'Dance Physiotherapy in Calgary' delivered by a physiotherapist who is a dancer herself, including Dancer Screening\u2026", prov: "AB" },
+  { name: "Cedar Chiropractic & Physiotherapy", city: "Burnaby", web: "https://www.cedarhealth.ca/burnaby-physiotherapy/dance-physiotherapy/", billed: "Physiotherapy", note: "'Dance Physiotherapy \u2014 Physiotherapy experts for performing artists, dancers, figure skaters and gymnasts' in\u2026", prov: "BC" },
+  { name: "Physio by Steph", city: "Toronto", web: "https://www.physiobysteph.com/physiotherapy", billed: "Physiotherapy", note: "lists under physiotherapy conditions treated: 'dance physiotherapy: pointe readiness assessment, dance-specific\u2026", prov: "ON" },
+  { name: "Foundation Physiotherapy", city: "Toronto", web: "https://foundationphysio.com/services/specialized-program-based-services/dance-physio/", billed: "Physiotherapy", note: "'Dancer & Performance Artist Physiotherapy' / Dance Physiotherapy Programs in Toronto, with dance physiotherapists\u2026", prov: "ON" },
+  { name: "Allegro Performance + Wellness", city: "North Vancouver", web: "http://www.allegroperformance.com/team", billed: "Physiotherapy", note: "team page: owner Erika Mayall, Physiotherapist (MPT, FCAMPT), focus on 'dance and performing arts related injuries'\u2026", prov: "BC" },
+  { name: "Ascend Physiotherapy", city: "North Vancouver", web: "https://www.ascendphysio.ca/dance-physiotherapy", billed: "Physiotherapy", note: "'Dance Physiotherapy \u2014 Physiotherapy for Dancers' in North Vancouver; Kristen Harris is trained in dance\u2026", prov: "BC" }
+];
+
+const PSYCHASSESS_CLINICS = [
+  { name: "Cogent Clinic", city: "Guelph", web: "https://cogentclinic.ca/services/psychoeducational-assessment/", billed: "Psychology", note: "psychoeducational assessments in Guelph 'conducted by a registered psychologist who can identify\u2026 learning\u2026", prov: "ON" },
+  { name: "ADHD and PsychoEd Clinic", city: "Toronto", web: "https://www.psychoedclinic.com/", billed: "Psychology", note: "/ CADDAC listing for psychoedclinic.com: interdisciplinary team including psychologists providing Adult ADHD\u2026", prov: "ON" },
+  { name: "Bluebird Psychology", city: "Calgary", web: "https://www.bluebirdpsychology.ca/psychoeducational-assessment-calgary", billed: "Psychology", note: "'Psychoeducational Assessments in Calgary \u2014 for Children, Teens & Adults' by its psychologists; separate Adult ADHD\u2026", prov: "AB" },
+  { name: "Calgary Psychological Services", city: "Calgary", web: "https://cascarapsychology.janeapp.com/locations/calgary-psychological-services-655c4063-4fa9-45c8-847f-0355c477d199/book", billed: "Psychology", note: "JaneApp booking page: 'Adult Psychoeducational Assessments are offered by Sheri Kalke (Registered Psychologist)'\u2026", prov: "AB" },
+  { name: "Lighthouse Psychology Services", city: "Calgary", web: "http://lighthousecalgary.ca/assessment.html", billed: "Psychology", note: "lists under Psychological Assessment Services: 'Psychoeducational Assessment, Learning Disability Assessment, ADHD\u2026", prov: "AB" },
+  { name: "Possibilities Clinic", city: "Toronto", web: "https://possibilitiesclinic.com/signature-psychoeducational-adhd-mental-health-assessment-signature-psychoeducational-assessment/", billed: "Psychology", note: "'Signature Psychoeducational, ADHD & Mental Health Assessment' for children, teens and adults; states\u2026", prov: "ON" },
+  { name: "BeWell Clinics", city: "Toronto", web: "https://bewellclinics.ca/services/adhd-integrative-program/", billed: "Psychology", note: "ADHD Integrative Program in Toronto/Mississauga/Hamilton \u2014 clients are matched with a Psychologist for psychological\u2026", prov: "ON" },
+  { name: "Pacific Maple Psych Centre", city: "Vancouver", web: "https://pacificmaplepsych.com/services/psychological-assessment.html", billed: "Psychology", note: "'Every assessment is led by a registered psychologist' in Vancouver; lists Psychoeducational assessment and Adult\u2026", prov: "BC" },
+  { name: "Parallel Wellness", city: "Vancouver", web: "https://parallelwellness.ca/psychoeducational-assessment", billed: "Psychology", note: "'Psychoeducational Assessment in Vancouver & Burnaby, BC' for children, teens and adults, provided under a\u2026", prov: "BC" },
+  { name: "All Brains Clinic", city: "Vancouver", web: "https://www.allbrainsclinic.com/about-us/", billed: "Psychology", note: "Vancouver multidisciplinary clinic providing 'autism, ADHD and psychoeducational assessments for children, teens and\u2026", prov: "BC" }
+];
+
+const VESTIBULAR_CLINICS = [
+  { name: "Leaside Sports Medicine", city: "Toronto", web: "https://www.leasidesportsmedicine.com/programs-of-care/vestibular-physiotherapy/", billed: "Physiotherapy", note: "Dedicated 'Vestibular Physiotherapy in Toronto' page: vestibular rehabilitation programs by its physiotherapists for\u2026", prov: "ON" },
+  { name: "Cornerstone Physiotherapy", city: "Toronto", web: "https://cornerstonephysio.com/locations/downtown-toronto/", billed: "Physiotherapy", note: "Downtown Toronto clinic description on its site lists 'vestibular rehabilitation for dizziness and concussion' among\u2026", prov: "ON" },
+  { name: "Backs in Action", city: "Vancouver", web: "https://backsinaction.ca/vestibular-rehabilitation-therapy-vrt-for-dizziness/", billed: "Physiotherapy", note: "Dedicated 'Vestibular Rehabilitation Therapy' page for its Vancouver clinic, describing physiotherapy-led VRT for\u2026", prov: "BC" },
+  { name: "Chartier Physioth\u00e9rapie", city: "Ottawa", web: "https://chartierphysio.ca/services/vestibular-rehabilitation", billed: "Physiotherapy", note: "Dedicated 'Vestibular Rehabilitation Ottawa | Dizziness Treatment' page: specialized Vestibular Rehabilitation\u2026", prov: "ON" },
+  { name: "Amped Physiotherapy", city: "Ottawa", web: "https://ampedphysiotherapy.com/specialty-services/vestibular-physiotherapy-ottawa/", billed: "Physiotherapy", note: "'Vestibular Physiotherapy Ottawa' specialty page: vestibular rehabilitation physiotherapists assess/treat BPPV,\u2026", prov: "ON" },
+  { name: "Nolan Hill Physiotherapy & Massage", city: "Calgary", web: "https://nolanhillphysiotherapy.ca/services", billed: "Physiotherapy", note: "Services page lists 'Vertigo & Vestibular Rehab' as a vestibular-trained physiotherapy service; team are Registered\u2026", prov: "AB" },
+  { name: "CY Physiotherapy and Vestibular Rehabilitation", city: "Calgary", web: "https://cyphysiotherapy.janeapp.com/locations/cy-physiotherapy-and-vestibular-rehabilitation/book", billed: "Physiotherapy", note: "Booking page for a clinic named for vestibular rehabilitation in Calgary: specialized exercise therapy to reduce\u2026", prov: "AB" },
+  { name: "VCC Health Centre", city: "Halifax", web: "https://www.vcchealth.ca/services", billed: "Physiotherapy", note: "Halifax physiotherapy clinic (Vertigo and Comprehensive Care) lists 'Vertigo and Vestibular Rehabilitation' with\u2026", prov: "NS" },
+  { name: "Clearwater Physical Therapy", city: "Fort McMurray", web: "https://www.clearwaterphysio.com/", billed: "Physiotherapy", note: "has a 'Vertigo and Vestibular Treatment' section stating its physiotherapists are trained to assess and treat\u2026", prov: "AB" },
+  { name: "Lift Physiotherapy", city: "Winnipeg", web: "https://liftwinnipeg.ca/", billed: "Physiotherapy", note: "Winnipeg clinic site lists 'Vertigo/Balance Issues (Vestibular Physiotherapy)' among conditions treated by its\u2026", prov: "MB" }
+];
+
+const STUTTER_CLINICS = [
+  { name: "The Speech and Stuttering Institute", city: "Toronto", web: "https://speechandstuttering.com/services/stuttering/adultandteen/", billed: "Speech Therapy", note: "offers individual, weekly and intensive group therapy for adults and teens who stutter, using its Fluency Plus\u2026", prov: "ON" },
+  { name: "SpeechAim", city: "Toronto", web: "https://www.speechaim.com/adult-speech-therapy", billed: "Speech Therapy", note: "adult speech therapy page: licensed S-LPs work with adults who would like to improve stuttering, and offer\u2026", prov: "ON" },
+  { name: "Orthophonie VoxLingue", city: "Montreal", web: "https://www.voxlingue.com/", billed: "Speech Therapy", note: "as VoxLingue: speech-language pathologists assess and treat fluency, with stuttering and cluttering therapy for\u2026", prov: "QC" },
+  { name: "Andalusia Speech Therapy", city: "Kanata", web: "https://www.andalusiaspeech.com/kanata/", billed: "Speech Therapy", note: "Kanata page: registered Speech-Language Pathologists help adults navigating stuttering challenges; team bios name\u2026", prov: "ON" },
+  { name: "My Virtual SLP", city: "Vancouver", web: "https://www.myvirtualslp.com/about-me", billed: "Speech Therapy", note: "about page: Sasha Wade, M.Sc., RSLP, Vancouver-based registered SLP whose adult practice focuses on fluency and\u2026", prov: "BC" },
+  { name: "Arbutus Speech Therapy", city: "Vancouver", web: "https://arbutusspeechtherapy.com", billed: "Speech Therapy", note: "Adult Speech Therapy for adults wanting support with stuttering, listing adult stuttering and fluency, delivered by\u2026", prov: "BC" },
+  { name: "Mercury Speech & Language", city: "Vancouver", web: "https://www.mercuryslp.com/", billed: "Speech Therapy", note: "(Vancouver & Burnaby): stuttering services support all ages, and fluency therapy aims to reduce stuttering or other\u2026", prov: "BC" },
+  { name: "Speech Therapists of Calgary", city: "Calgary", web: "http://www.speechtherapycalgary.ca/stuttering.html", billed: "Speech Therapy", note: "stuttering page: therapy for stuttering in Calgary; for older children, teens and adults an SLP focuses on\u2026", prov: "AB" },
+  { name: "Winnipeg Speech Therapy Clinic", city: "Winnipeg", web: "https://winnipegspeechtherapyclinic.com/", billed: "Speech Therapy", note: "registered SLP Carla Bonar provides fluency and stuttering support for all ages and, for adults, targeted support\u2026", prov: "MB" },
+  { name: "Tall Tree Health", city: "Victoria", web: "http://www.talltreehealth.ca/services/speech-therapy", billed: "Speech Therapy", note: "speech therapy page: registered SLPs work with children and adults, speech therapy can help adults with stuttering,\u2026", prov: "BC" }
+];
