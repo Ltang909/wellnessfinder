@@ -373,18 +373,29 @@
     const at = (k) => featured[((fcIndex + k) % n + n) % n];
     const img = t ? fsImg(t) : "";
     const slug = treatmentSlug(fcTreatment);
-    const panel = (c, k) => `<button type="button" class="fc-panel" data-fc-jump="${k}" aria-label="Show ${esc(c.name)}"><span>${esc(c.name)} \u2014 ${esc(c.city || "")}</span></button>`;
+    const cardHTML = (c, k) => {
+      const note = (c.note || "").trim();
+      const desc = note
+        ? note.charAt(0).toUpperCase() + note.slice(1) + (note.endsWith(".") ? "" : ".")
+        : `${c.name} offers ${fcTreatment.toLowerCase()} in ${c.city || "Canada"}.`;
+      const media = (typeof CLINIC_MEDIA !== "undefined" && CLINIC_MEDIA[c.name]) || {};
+      const stars = Array.isArray(media.rating)
+        ? `<p class="fc-stars"><span class="fc-star-glyphs">${"\u2605".repeat(Math.round(media.rating[0]))}${"\u2606".repeat(5 - Math.round(media.rating[0]))}</span> ${media.rating[0].toFixed(1)} <span class="fc-rcount">(${media.rating[1]} Google reviews)</span></p>` : "";
+      const pract = media.practitioner ? `<p class="fc-line">${esc(media.practitioner)}</p>` : "";
+      const price = media.price ? `<p class="fc-line">${esc(media.price)}</p>` : "";
+      const btn = k === 0
+        ? `<a class="fc-btn" href="${esc(c.web || "#")}" target="_blank" rel="noopener">View clinic</a>`
+        : `<span class="fc-btn">View clinic</span>`;
+      return `<article class="fc-card ${k === 0 ? "fc-card--active" : "fc-card--side"}" ${k === 0 ? "" : `data-fc-jump="${k}" role="button" tabindex="0" aria-label="Show ${esc(c.name)}"`}>
+            <h3>${esc(c.name)}</h3>
+            <p class="fc-city">${esc(c.city || "")}${c.prov ? `, ${esc(c.prov)}` : ""}</p>
+            <img src="${esc(media.img || img)}" alt="${esc(c.name)}">
+            <p class="fc-desc">${esc(desc)}</p>
+            ${stars}${pract}${price}
+            ${btn}
+          </article>`;
+    };
     const active = at(0);
-    const note = (active.note || "").trim();
-    const desc = note
-      ? note.charAt(0).toUpperCase() + note.slice(1) + (note.endsWith(".") ? "" : ".")
-      : `${active.name} offers ${fcTreatment.toLowerCase()} in ${active.city || "Canada"}.`;
-    const media = (typeof CLINIC_MEDIA !== "undefined" && CLINIC_MEDIA[active.name]) || {};
-    const cardImg = media.img || img;
-    const stars = Array.isArray(media.rating)
-      ? `<p class="fc-stars"><span class="fc-star-glyphs">${"\u2605".repeat(Math.round(media.rating[0]))}${"\u2606".repeat(5 - Math.round(media.rating[0]))}</span> ${media.rating[0].toFixed(1)} <span class="fc-rcount">(${media.rating[1]} Google reviews)</span></p>` : "";
-    const pract = media.practitioner ? `<p class="fc-line">${esc(media.practitioner)}</p>` : "";
-    const price = media.price ? `<p class="fc-line">${esc(media.price)}</p>` : "";
     root.innerHTML = `
     <div class="fc-stage">
       <div class="fc-bg" style="background-image:url('${esc(img)}')"></div>
@@ -396,16 +407,7 @@
         <p class="fc-sub">${esc(cfg.sub)}</p>
         <p class="fc-viewall"><a href="/clinics-${slug}">View all ${total} ${esc(cfg.label)} clinics \u2192</a></p>
         <div class="fc-rail">
-          ${[-3, -2, -1].map((k) => panel(at(k), k)).join("")}
-          <article class="fc-card">
-            <h3>${esc(active.name)}</h3>
-            <p class="fc-city">${esc(active.city || "")}${active.prov ? `, ${esc(active.prov)}` : ""}</p>
-            <img src="${esc(cardImg)}" alt="${esc(active.name)}">
-            <p class="fc-desc">${esc(desc)}</p>
-            ${stars}${pract}${price}
-            <a class="fc-btn" href="${esc(active.web || "#")}" target="_blank" rel="noopener">View clinic</a>
-          </article>
-          ${[1, 2, 3].map((k) => panel(at(k), k)).join("")}
+          ${[-3, -2, -1, 0, 1, 2, 3].map((k) => cardHTML(at(k), k)).join("")}
         </div>
         <p class="fc-pager"><button type="button" data-fc-nav="-1" aria-label="Previous clinic">\u2039</button><b>${fcIndex + 1} / ${n}</b><button type="button" data-fc-nav="1" aria-label="Next clinic">\u203a</button></p>
       </div>

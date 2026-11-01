@@ -964,8 +964,8 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .fc-viewall a { font-size: .64rem; letter-spacing: .26em; text-transform: uppercase; color: #fff; text-decoration: none; }
 .fc-viewall a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .fc-rail { display: flex; justify-content: center; align-items: stretch; gap: 22px; margin-top: 44px; padding: 0 10px; }
-.fc-panel { width: 290px; flex: none; border: 1px solid rgba(255,255,255,.55); padding: 26px 20px; min-height: 480px; }
-.fc-panel span { font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: #fff; font-weight: 600; line-height: 1.7; display: block; }
+.fc-card--side { filter: grayscale(1); opacity: .5; transform: scale(.94); box-shadow: none; margin-top: 0; margin-bottom: 0; cursor: pointer; }
+.fc-card--side:hover, .fc-card--side:focus-visible { opacity: .78; }
 .fc-card { width: 350px; flex: none; background: #fff; padding: 30px 0 34px; text-align: center; box-shadow: 0 24px 60px rgba(0,0,0,.45); margin-top: -14px; margin-bottom: -14px; }
 .fc-card h3 { font-family: Inter, system-ui, sans-serif; font-size: .82rem; letter-spacing: .18em; text-transform: uppercase; color: #0F2D2B; padding: 0 26px; line-height: 1.8; }
 .fc-city { font-size: .6rem; letter-spacing: .3em; text-transform: uppercase; color: #6E8F7A; margin-top: 8px; }
@@ -975,13 +975,9 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .fc-pager { display: flex; justify-content: center; align-items: center; gap: 18px; color: #fff; margin-top: 38px; font-size: .78rem; letter-spacing: .3em; }
 .fc-pager b { font-weight: 500; }
 .fc-pager button { background: none; border: 0; color: #fff; font-size: 1.05rem; cursor: pointer; padding: 4px 8px; }
-@media (max-width: 1500px) { .fc-panel:nth-child(1), .fc-panel:nth-child(7) { display: none; } }
-@media (max-width: 1150px) { .fc-panel:nth-child(2), .fc-panel:nth-child(6) { display: none; } }
-@media (max-width: 820px) { .fc-panel { display: none; } .fc-card { width: min(350px, 92vw); } .fc-switcher { gap: 14px; flex-wrap: wrap; } }
-
-/* Featured clinic side panels are clickable (jump to that clinic) */
-.fc-panel { cursor: pointer; background: none; font: inherit; text-align: left; }
-.fc-panel:hover, .fc-panel:focus-visible { border-color: #fff; }
+@media (max-width: 1500px) { .fc-rail > :nth-child(1), .fc-rail > :nth-child(7) { display: none; } }
+@media (max-width: 1150px) { .fc-rail > :nth-child(2), .fc-rail > :nth-child(6) { display: none; } }
+@media (max-width: 820px) { .fc-card--side { display: none; } .fc-card { width: min(350px, 92vw); } .fc-switcher { gap: 14px; flex-wrap: wrap; } }
 
 /* Featured clinic card info lines */
 .fc-stars { margin-top: 16px; font-size: .8rem; color: #0F2D2B; font-weight: 600; }
