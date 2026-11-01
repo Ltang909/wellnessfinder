@@ -362,6 +362,7 @@
      without a curated set fall back to the notes-first selection. */
   const FC_SETS = {
     "Clinical Pilates": ["Revival Physio", "Pulse Physiotherapy", "JC Clinic", "Focus Physio + Wellness", "Treloar Physiotherapy \u2014 Cambie", "Synergy Physiotherapy and Pilates", "Pilates4Physio"],
+    "Microneedling": ["Essence Wellness Clinic (Marda Loop)", "Qi Integrated Health"],
   };
   function fcFeatured(name) {
     const all = (gtaDataFor(name) || { clinics: [] }).clinics;
