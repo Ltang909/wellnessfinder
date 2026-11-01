@@ -11,7 +11,7 @@
   --forest-300: #6E8F7A;
   --mist:       #E8EFE9;
   --mist-deep:  #A7BFAE;
-  --paper:      #F4F6F3;
+  --paper:      #FFFFFF;
   --paper-warm: #EDE8DA;
   --card:       #ffffff;
   --honey:      #6E8F7A;
@@ -165,8 +165,8 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .hero {
   position: relative; overflow: hidden;
   background:
-    radial-gradient(120% 90% at 88% -10%, rgba(110,143,122,.16), transparent 55%),
-    linear-gradient(180deg, var(--mist) 0%, var(--paper) 78%);
+    radial-gradient(120% 90% at 88% -10%, rgba(237,232,218,.55), transparent 55%),
+    linear-gradient(180deg, #ffffff 0%, #ffffff 78%);
 }
 .hero-grid {
   display: grid; grid-template-columns: 1fr; gap: 0; align-items: center;
@@ -389,7 +389,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 /* ============================================================
    Newsletter / clinic CTA
    ============================================================ */
-.band { background: var(--mist); }
+.band { background: #ffffff; border-top: 1px solid var(--line-soft); }
 .newsletter { text-align: center; }
 .newsletter h2 { font-size: clamp(1.7rem, 3.2vw, 2.3rem); max-width: 20ch; margin: 0 auto; }
 .newsletter form { display: flex; gap: 10px; max-width: 440px; margin: 24px auto 0; }
