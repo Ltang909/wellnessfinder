@@ -4945,5 +4945,2058 @@
   "last_verified": null,
   "gaps": "Price not published anywhere on the own site or its linked booking pages, so price_text is null. Booking is decentralised: there is no single central booking page — the own New Patients page (recorded as booking_page) directs patients to book an initial appointment online, and the Our Team page carries separate per-practitioner booking links to OutSmart EMR (app.outsmartemr.com) and SmartND (smartnd.ca). Direct billing recorded as 'no' on the basis of the own site's explicit pay-at-treatment wording ('All accounts are due at time of treatment'); the site does not mention direct billing insurers. No directory errors found: address, city, phone and hours on the own site match the directory entry, and five NDs are evidenced on the own team page under 'NATUROPATHIC DOCTORS'.",
   "clinic_id": "purebalance-wellness-mississauga"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "aurora-massage-chiropractic-wellness-centre-aurora--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "http://www.auroramassageandchiropractic.ca",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "Naturopathy is confirmed as an offered service: the clinic's own site lists 'Naturopathic' among its therapeutic services and its Places description states naturopathic services are provided, but no naturopathic doctor is named anywhere on the own website pages reviewed, so no practitioner is recorded (rule v2).",
+   "No naturopathic consult fee is published on the clinic's own site; price not recorded.",
+   "Direct billing could not be verified from the clinic's own site; only generic insurance-coverage language without a direct-billing statement was found."
+  ],
+  "clinic_id": "aurora-massage-chiropractic-wellness-centre-aurora"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "newmarket-naturopathic-clinic-dr-michael-morsillo-newmarket--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Michael Morsillo, B.Sc., N.D. (Naturopathic Doctor, clinic owner; stated on the clinic's own site)",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Michael Morsillo, B.Sc., N.D.",
+    "id": "newmarket-naturopathic-clinic-dr-michael-morsillo-newmarket--michael-morsillo",
+    "name": "Michael Morsillo"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://drmorsillo.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "Postal code not shown in the clinic's Places details or on its own site; not recorded.",
+   "No naturopathic consult fee is published on the clinic's own site; price not recorded.",
+   "Direct billing could not be verified from the clinic's own site; only generic extended-benefits coverage language was found, with no direct-billing statement."
+  ],
+  "clinic_id": "newmarket-naturopathic-clinic-dr-michael-morsillo-newmarket"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "newm-clinic-newmarket-newmarket--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://newmclinic.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "PREMISE FAILURE / directory error: this location does not offer naturopathic consultations. The clinic's own website (fetched in full) offers only skin lesion removal, IV therapy & IM shots, and medical cosmetology; IV therapies are administered by its nursing/medical team ('No Referral or OHIP Required') and no naturopathic doctor or naturopathic consult service appears anywhere on the site. billed_as set to null.",
+   "IV therapy prices exist on the own site (e.g. glutathione shot from $150, NAD drip from $2,500) but they are not naturopathic consults and are not recorded as the naturopathy price.",
+   "No Google rating was shown in this listing's Places details; rating not recorded."
+  ],
+  "clinic_id": "newm-clinic-newmarket-newmarket"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "newm-clinic-brampton-brampton--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://newmclinic.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "PREMISE FAILURE / directory error: same chain as the Newmarket location — the clinic's own website offers only skin lesion removal, IV therapy & IM shots, and medical cosmetology, with no naturopathic doctor or naturopathic consultation service evidenced. billed_as set to null.",
+   "Postal code not shown in this listing's Places details; not recorded.",
+   "No Google rating was shown in this listing's Places details; rating not recorded."
+  ],
+  "clinic_id": "newm-clinic-brampton-brampton"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "newm-clinic-scarborough-scarborough--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://newmclinic.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "PREMISE FAILURE / directory error: same chain as the Newmarket and Brampton locations — the clinic's own website offers only skin lesion removal, IV therapy & IM shots, and medical cosmetology, with no naturopathic doctor or naturopathic consultation service evidenced. billed_as set to null.",
+   "Directory city kept as Scarborough per the directory, but this listing's Places details show the city as Toronto.",
+   "Postal code not shown in this listing's Places details; not recorded.",
+   "No Google rating was shown in this listing's Places details; rating not recorded."
+  ],
+  "clinic_id": "newm-clinic-scarborough-scarborough"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "oakville-naturopathic-wellness-centre-oakville--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://onwc.ca",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "ADDRESS UNCERTAIN / directory error risk: Places still lists 467 Speers Rd, Oakville with status 'Possibly Temporarily Closed', but the clinic's own site announces a partnership with DeerFields Clinic 'at our New Location' without stating the new address on the homepage; the partner clinic (DeerFields Clinic) is at 111 The West Mall, Etobicoke. Current operating address could not be confirmed.",
+   "No practitioner recorded (rule v2): Dr. Danielle O'Connor, ND is described in her own bio as practising at ONWC and appears as an ND on the partner DeerFields Clinic team, but ONWC's own booking roster (OutSmart EMR, linked from onwc.ca) could not be verified, so she is not recorded.",
+   "Postal code not shown in Places details and not found on the own site; not recorded.",
+   "No Google rating was shown in this listing's Places details; rating not recorded.",
+   "No naturopathic consult fee is published on the clinic's own site; price not recorded.",
+   "Direct billing could not be verified from the clinic's own site."
+  ],
+  "clinic_id": "oakville-naturopathic-wellness-centre-oakville"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "oakville-naturopathic-doctor-oakville--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Shelly Verma, ND (licensed Naturopathic Doctor, registered with the College of Naturopaths of Ontario); Dr. Nazila Yal, ND (Naturopathic Doctor, CCNM graduate, member of the College of Naturopaths of Ontario) — both listed on the clinic's own Jane booking page",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Shelly Verma, ND",
+    "id": "oakville-naturopathic-doctor-oakville--shelly-verma",
+    "name": "Shelly Verma"
+   },
+   {
+    "as_recorded": "Dr. Nazila Yal, ND",
+    "id": "oakville-naturopathic-doctor-oakville--nazila-yal",
+    "name": "Nazila Yal"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://nhchalton.janeapp.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "This directory entry is the Natural Health Clinic of Halton (own site and Jane booking page operate under that name).",
+   "No naturopathic initial-consult fee could be verified: the Jane booking page's treatment/price list did not render, and the own site's generic 'Price Range: 150-300' is not a consult fee; price not recorded.",
+   "Phone conflict: the own site and Places show (647) 490-1959, while the clinic's Jane booking page shows (905) 582-2360; the own-site/Places number is recorded.",
+   "No Google rating was shown in this listing's Places details; rating not recorded."
+  ],
+  "clinic_id": "oakville-naturopathic-doctor-oakville"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "sage-naturopathic-clinic-oakville-oakville--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Mary Galic, ND; Dr. Rahima Hirji, ND (clinic founder); Ann Nakajima, ND; Dr. Jodie Peacock, ND; Annika Vels, ND (registered with the College of Naturopaths of Ontario); Dr. Marc, ND — all listed for the Oakville location on the clinic's own Jane booking page",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Mary Galic, ND",
+    "id": "sage-naturopathic-clinic-oakville-oakville--mary-galic",
+    "name": "Mary Galic"
+   },
+   {
+    "as_recorded": "Dr. Rahima Hirji, ND",
+    "id": "sage-naturopathic-clinic-oakville-oakville--rahima-hirji",
+    "name": "Rahima Hirji"
+   },
+   {
+    "as_recorded": "Ann Nakajima, ND",
+    "id": "sage-naturopathic-clinic-oakville-oakville--ann-nakajima",
+    "name": "Ann Nakajima"
+   },
+   {
+    "as_recorded": "Dr. Jodie Peacock, ND",
+    "id": "sage-naturopathic-clinic-oakville-oakville--jodie-peacock",
+    "name": "Jodie Peacock"
+   },
+   {
+    "as_recorded": "Annika Vels, ND",
+    "id": "sage-naturopathic-clinic-oakville-oakville--annika-vels",
+    "name": "Annika Vels"
+   },
+   {
+    "as_recorded": "Dr. Marc, ND (surname not shown in his booking-page bio extract)",
+    "id": "sage-naturopathic-clinic-oakville-oakville--marc",
+    "name": "Marc"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://thesageclinic.janeapp.com/locations/sage-oakville/book",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "No naturopathic initial-consult fee could be verified: no fee schedule is published on the clinic's own site and the Jane booking page's prices did not render; price not recorded.",
+   "No Google rating was shown in the Oakville listing's Places details; rating not recorded. (A 5.0/13 figure seen in search results belonged to a different, Kitchener listing and was not used.)",
+   "Phone note: the own site lists the Oakville line as 866-846-7776 ext. 3; the Oakville Jane page's help line is 905-845-7668."
+  ],
+  "clinic_id": "sage-naturopathic-clinic-oakville-oakville"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "mint-integrative-health-vancouver--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Bobby Parmar, ND, RAc; Dr. Alana Shaw, ND, RAc; Dr. Alaina Overton, ND; Dr. Shadi Saffari, ND; Dr. Kyla Buten, ND; Dr. Krista Moyer, ND; Dr. Caroline Coombs, ND; Dr. Alex Dragan, ND; Dr. Charlotte Rose, ND; Dr. Tia Patychuk, ND; Dr. Alexandra Sisam, ND; Dr. Angela Farry, ND; Dr. Jocelyn Land-Murphy, ND — all listed on the clinic's own team page",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Bobby Parmar, ND, RAc",
+    "id": "mint-integrative-health-vancouver--bobby-parmar",
+    "name": "Bobby Parmar"
+   },
+   {
+    "as_recorded": "Dr. Alana Shaw, ND, RAc",
+    "id": "mint-integrative-health-vancouver--alana-shaw",
+    "name": "Alana Shaw"
+   },
+   {
+    "as_recorded": "Dr. Alaina Overton, ND",
+    "id": "mint-integrative-health-vancouver--alaina-overton",
+    "name": "Alaina Overton"
+   },
+   {
+    "as_recorded": "Dr. Shadi Saffari, ND",
+    "id": "mint-integrative-health-vancouver--shadi-saffari",
+    "name": "Shadi Saffari"
+   },
+   {
+    "as_recorded": "Dr. Kyla Buten, ND",
+    "id": "mint-integrative-health-vancouver--kyla-buten",
+    "name": "Kyla Buten"
+   },
+   {
+    "as_recorded": "Dr. Krista Moyer, ND",
+    "id": "mint-integrative-health-vancouver--krista-moyer",
+    "name": "Krista Moyer"
+   },
+   {
+    "as_recorded": "Dr. Caroline Coombs, ND",
+    "id": "mint-integrative-health-vancouver--caroline-coombs",
+    "name": "Caroline Coombs"
+   },
+   {
+    "as_recorded": "Dr. Alex Dragan, ND",
+    "id": "mint-integrative-health-vancouver--alex-dragan",
+    "name": "Alex Dragan"
+   },
+   {
+    "as_recorded": "Dr. Charlotte Rose, ND",
+    "id": "mint-integrative-health-vancouver--charlotte-rose",
+    "name": "Charlotte Rose"
+   },
+   {
+    "as_recorded": "Dr. Tia Patychuk, ND",
+    "id": "mint-integrative-health-vancouver--tia-patychuk",
+    "name": "Tia Patychuk"
+   },
+   {
+    "as_recorded": "Dr. Alexandra Sisam, ND",
+    "id": "mint-integrative-health-vancouver--alexandra-sisam",
+    "name": "Alexandra Sisam"
+   },
+   {
+    "as_recorded": "Dr. Angela Farry, ND",
+    "id": "mint-integrative-health-vancouver--angela-farry",
+    "name": "Angela Farry"
+   },
+   {
+    "as_recorded": "Dr. Jocelyn Land-Murphy, ND",
+    "id": "mint-integrative-health-vancouver--jocelyn-land-murphy",
+    "name": "Jocelyn Land-Murphy"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://mintintegrative.com/naturopathic-medicine/",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "No naturopathic initial-consult fee is published on the clinic's own site or booking page extracts reviewed; price not recorded.",
+   "Direct billing could not be verified from the clinic's own site; no direct-billing statement was found.",
+   "No Google rating was shown in this listing's Places details; rating not recorded."
+  ],
+  "clinic_id": "mint-integrative-health-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "edgemont-naturopathic-clinic-north-vancouver--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Cathryn Coe, ND (clinic owner; licensed Naturopathic Physician, per the clinic's own team page)",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Cathryn Coe, ND",
+    "id": "edgemont-naturopathic-clinic-north-vancouver--cathryn-coe",
+    "name": "Cathryn Coe"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.edgemontnaturopathic.com/naturopathic-medicine",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "Page-fetch rate limit (HTTP 429) hit on the clinic's team page; per task rules it was not retried. The own-site FAQ states the clinic has four naturopathic doctors and the team page notes naturopathic services are provided by 'Dr. Sanjay Mohan Ram, N.D. Inc.', and the BC naturopathic association directory lists a Dr. Amanda George, ND at this address — but only Dr. Cathryn Coe, ND could be evidenced from the clinic's own pages this session, so only she is recorded (rule v2).",
+   "No naturopathic consult fee amounts are published: the own site notes naturopathic fees increase 10% effective October 1, 2026 but publishes no amounts; price not recorded.",
+   "Booking page URL not verified this session; not recorded."
+  ],
+  "clinic_id": "edgemont-naturopathic-clinic-north-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "vancouver-integrated-health-centre-vancouver--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "http://drmehran.ca",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "IDENTITY/CITY MISMATCH / directory error: the Places listing under this exact name resolves to the website drmehran.ca at 3008 Burfield Pl, West Vancouver — not Vancouver. The directory's hint domain (vancouverintegratedhealthcentre.com) could not be verified this session (page fetch rate-limited), so the Places-paired site is recorded and the directory city 'Vancouver' is kept as given, but the business appears to operate in West Vancouver.",
+   "Naturopathic premise unverified: no naturopathic doctor or naturopathic consult service could be evidenced from the clinic's own pages this session (Places category is Medical Center); billed_as set to null. A practitioner named 'Dr. Mehran' is implied by the site domain but full name and credentials were not verified from own pages.",
+   "Postal code not shown in Places details; not recorded.",
+   "No Google rating was shown in this listing's Places details; rating not recorded.",
+   "No naturopathic consult fee found; price not recorded. Direct billing could not be verified."
+  ],
+  "clinic_id": "vancouver-integrated-health-centre-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "yaletown-integrative-clinic-vancouver--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.yaletownintegrative.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "PERMANENTLY CLOSED / major directory error: Google Places lists Yaletown Integrative Clinic as 'Permanently Closed'. The clinic's website is still live and the phone number matches between Places and the own site, but the business should not be presented as bookable.",
+   "Postal code V6B 2G2 is from the BC naturopathic association directory listing for this clinic (Places details did not show a postal code).",
+   "No practitioners recorded: the BC naturopathic association directory lists Emma Lee, ND and Simone Baum, ND at this address, but the clinic is closed and no booking page exists to verify them against (rule v2).",
+   "No hours, rating, consult price, or direct-billing information could be verified for a closed business."
+  ],
+  "clinic_id": "yaletown-integrative-clinic-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "qi-integrated-health-vancouver--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Samantha Petrin, ND; Dr. Julie Cahill, ND; Dr. Shauna Fraser, ND — all listed on the clinic's own team page",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Samantha Petrin, ND",
+    "id": "qi-integrated-health-vancouver--samantha-petrin",
+    "name": "Samantha Petrin"
+   },
+   {
+    "as_recorded": "Dr. Julie Cahill, ND",
+    "id": "qi-integrated-health-vancouver--julie-cahill",
+    "name": "Julie Cahill"
+   },
+   {
+    "as_recorded": "Dr. Shauna Fraser, ND",
+    "id": "qi-integrated-health-vancouver--shauna-fraser",
+    "name": "Shauna Fraser"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.qiintegratedhealth.com/services/",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "Direct-billing quote/source carried from the project's own Nov 1, 2026 direct-billing check of the clinic's site (direct-billing-check-2026-11-01.json), which lists Naturopathic Medicine as direct-billing eligible.",
+   "No naturopathic initial-consult fee is published on the clinic's own site; price not recorded. (The $248-$375/session figure verified earlier for this clinic was for microneedling, a different treatment, and is not used here.)",
+   "Booking page URL not verified this session; not recorded."
+  ],
+  "clinic_id": "qi-integrated-health-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "everwell-nd-vancouver--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://everwellnd.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "This record is the Kitsilano (Vancouver) location; the clinic also has a Brentwood location at 4472 Dawson St, Burnaby, BC V5C 0J9.",
+   "No practitioner recorded (rule v2): ND names for naturopathic consults could not be verified from the clinic's own booking page this session; names seen in third-party review content relate to injectable/aesthetic services and were not used.",
+   "No naturopathic initial-consult fee is published on the clinic's own site; price not recorded. (The $695/session figure verified earlier for this clinic was for microneedling with PRP, a different treatment, and is not used here.)",
+   "Direct billing could not be verified from the clinic's own site.",
+   "No Google rating was shown in this location's Places details; rating not recorded."
+  ],
+  "clinic_id": "everwell-nd-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "panda-clinic-vancouver--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Sarah Sosnowski, ND; Dr. Pezhman Azad, ND — listed for Naturopathic Medicine on the chain's own Jane booking site (Panda Revival Lab)",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Sarah Sosnowski, ND",
+    "id": "panda-clinic-vancouver--sarah-sosnowski",
+    "name": "Sarah Sosnowski"
+   },
+   {
+    "as_recorded": "Dr. PJ Pezhman Azad, ND",
+    "id": "panda-clinic-vancouver--pezhman-azad",
+    "name": "Pezhman Azad"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://pandarevival.janeapp.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": [
+   "NO VANCOUVER LOCATION / major directory error: Panda Clinic has no Vancouver location. Its own site lists four locations — Metrotown, Burnaby (301 & 510-4885 Kingsway), Guildford, Surrey (10-15300 105 Ave), Queensborough, New Westminster (1024 Ewen Ave), and South Surrey/White Rock (110-1688 152 St). This record uses the Queensborough location's address/hours; the directory city 'Vancouver' is kept as given but is wrong.",
+   "The Panda Revival Lab booking page does not state which physical location the naturopathic doctors practise at, so the two NDs cannot be tied to a specific location.",
+   "No naturopathic initial-consult fee is published on the chain's own site or booking page extracts reviewed; price not recorded.",
+   "No Google rating was shown in the Places details reviewed; rating not recorded."
+  ],
+  "clinic_id": "panda-clinic-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "local-health-integrative-clinic-vancouver--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Erik Boudreau, ND; Dr. Shireen Grewal, ND; Dr. Robyn Land, ND; Dr. Madison Liscio, ND; Dr. Ava Maleki, ND",
+  "practitioners": [
+   {
+    "id": "local-health-integrative-clinic-vancouver--erik-boudreau",
+    "name": "Erik Boudreau",
+    "as_recorded": "Dr. Erik Boudreau — Naturopathic doctor (clinic's own Naturopathic Medicine page)"
+   },
+   {
+    "id": "local-health-integrative-clinic-vancouver--shireen-grewal",
+    "name": "Shireen Grewal",
+    "as_recorded": "Dr. Shireen Grewal — Naturopathic doctor (clinic's own Naturopathic Medicine page)"
+   },
+   {
+    "id": "local-health-integrative-clinic-vancouver--robyn-land",
+    "name": "Robyn Land",
+    "as_recorded": "Dr. Robyn Land — Naturopathic Doctor (clinic's own Naturopathic Medicine page)"
+   },
+   {
+    "id": "local-health-integrative-clinic-vancouver--madison-liscio",
+    "name": "Madison Liscio",
+    "as_recorded": "Dr. Madison Liscio — Naturopathic Doctor (clinic's own Naturopathic Medicine page)"
+   },
+   {
+    "id": "local-health-integrative-clinic-vancouver--ava-maleki",
+    "name": "Ava Maleki",
+    "as_recorded": "Dr. Ava Maleki — Naturopathic Doctor (clinic's own Naturopathic Medicine page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://localhealthclinic.ca/naturopathicmedicine",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PRICE UNVERIFIABLE: no naturopathic fees are published on the clinic's own website, and its Jane booking page text fetch exposes practitioner bios only (no treatment prices), so price is null pending a rendered Jane pass. DIRECT BILLING: the clinic's own site carries a 'Direct Billing available' link in its footer, but the fetched pages do not enumerate which insurers or services it covers. HOURS CONFLICT: hours recorded are the clinic's own published front-desk hours; Google Places details differ slightly (Friday 8:30 AM - 6:00 PM, Saturday 9:00 AM - 4:00 PM). Sunday is listed on the clinic's own site only as 'no admin hours', recorded as null. GOOGLE RATING NOTE: the Places listing behind the search extract is thin (3 reviews) for a clinic of this size; treat the 5.0/3 as the current Places details value, flagged for re-check.",
+  "clinic_id": "local-health-integrative-clinic-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "essence-wellness-clinic-marda-loop-calgary--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Andrea Clarke, ND",
+  "practitioners": [
+   {
+    "id": "essence-wellness-clinic-marda-loop-calgary--andrea-clarke",
+    "name": "Andrea Clarke",
+    "as_recorded": "Dr. Andrea Clarke ND — Essence Wellness Clinic Calgary Marda Loop (clinic's own bio page essencewellness.ca/andrea-clarke: CCNM graduate 2011; member of the College of Naturopathic Doctors of Alberta)"
+   }
+  ],
+  "price_text": "$240 initial naturopathic visit (60 min)",
+  "price_source": "Essence Wellness Clinic's own IV Therapy page (https://www.essencewellness.ca/iv-therapy-calgary): 'Initial Naturopathic Visit — 60 minutes $240.00 (There is a mandatory Naturopathic assessment for all patients new to the clinic)'. The fee is published chain-wide on the shared site; no separate naturopathic follow-up fee was published on the pages fetched.",
+  "treatment_link": "https://www.essencewellness.ca/iv-therapy-calgary",
+  "status": null,
+  "last_verified": null,
+  "gaps": "BOOKING: the chain is mid-migration — location pages link Genbook booking while the team page also says 'Click HERE to book with Jane after March 23' (essencewellness.janeapp.com), so no single booking_page was recorded. Postal code and address are from the clinic's own site footer. Aggregator postal T2T 6S8 seen on one directory mirror was NOT used (own site says T3R 0S4). A price increase for Naturopathic services effective Oct 1, 2025 is referenced in the clinic's own posts; the $240 initial visit fee is the figure on the clinic's current IV Therapy page.",
+  "clinic_id": "essence-wellness-clinic-marda-loop-calgary"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "essence-wellness-clinic-sage-hill-calgary--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$240 initial naturopathic visit (60 min)",
+  "price_source": "Essence Wellness Clinic's own IV Therapy page (https://www.essencewellness.ca/iv-therapy-calgary): 'Initial Naturopathic Visit — 60 minutes $240.00 (There is a mandatory Naturopathic assessment for all patients new to the clinic)'. The fee is published chain-wide on the shared site; no separate naturopathic follow-up fee was published on the pages fetched.",
+  "treatment_link": "https://www.essencewellness.ca/iv-therapy-calgary",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PRACTITIONER UNVERIFIED FOR THIS LOCATION: no naturopathic doctor is individually listed for Sage Hill on the pages fetched (one directory mirror describes naturopathic medicine as offered at the group's 'other sites'), so practitioner is null even though the chain offers Naturopathy. GOOGLE RATING UNVERIFIABLE: the Places details extract for this location (place_id 806866187337547) showed no rating or review count. POSTAL CODE: T3R 0S4 comes from the Medimap listing mirroring this location's Places record, not from the clinic's own site (which publishes the street address without a postal code). Chain-wide price, hours and direct billing from essencewellness.ca apply.",
+  "clinic_id": "essence-wellness-clinic-sage-hill-calgary"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "essence-wellness-clinic-willow-park-calgary--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Riley Anderson, ND",
+  "practitioners": [
+   {
+    "id": "essence-wellness-clinic-willow-park-calgary--riley-anderson",
+    "name": "Riley Anderson",
+    "as_recorded": "Dr. Riley Anderson, ND — practises at Essence Wellness Clinic in Willow Park and Mahogany (his own site, naturopathyyc.ca FAQ: 'Come see me at Essence Wellness Clinic in Willow Park or Mahogany where I provide all services including IV therapy, lab testing, and naturopathic consultations')"
+   }
+  ],
+  "price_text": "$240 initial naturopathic visit (60 min)",
+  "price_source": "Essence Wellness Clinic's own IV Therapy page (https://www.essencewellness.ca/iv-therapy-calgary): 'Initial Naturopathic Visit — 60 minutes $240.00 (There is a mandatory Naturopathic assessment for all patients new to the clinic)'. The fee is published chain-wide on the shared site; no separate naturopathic follow-up fee was published on the pages fetched.",
+  "treatment_link": "https://www.essencewellness.ca/iv-therapy-calgary",
+  "status": null,
+  "last_verified": null,
+  "gaps": "POSTAL CODE UNVERIFIABLE: the clinic's own site and the Places details extract give the street address without a postal code. GOOGLE RATING UNVERIFIABLE: the Places details extract for this location (place_id 832897608395937) showed no rating or review count. Chain-wide price, hours and direct billing from essencewellness.ca apply.",
+  "clinic_id": "essence-wellness-clinic-willow-park-calgary"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "essence-wellness-clinic-mahogany-calgary--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Riley Anderson, ND",
+  "practitioners": [
+   {
+    "id": "essence-wellness-clinic-mahogany-calgary--riley-anderson",
+    "name": "Riley Anderson",
+    "as_recorded": "Dr. Riley Anderson, ND — practises at Essence Wellness Clinic in Willow Park and Mahogany (his own site, naturopathyyc.ca FAQ)"
+   }
+  ],
+  "price_text": "$240 initial naturopathic visit (60 min)",
+  "price_source": "Essence Wellness Clinic's own IV Therapy page (https://www.essencewellness.ca/iv-therapy-calgary): 'Initial Naturopathic Visit — 60 minutes $240.00 (There is a mandatory Naturopathic assessment for all patients new to the clinic)'. The fee is published chain-wide on the shared site; no separate naturopathic follow-up fee was published on the pages fetched.",
+  "treatment_link": "https://www.essencewellness.ca/iv-therapy-calgary",
+  "status": null,
+  "last_verified": null,
+  "gaps": "POSTAL CODE UNVERIFIABLE: the clinic's own site publishes the street address without a postal code and no Places details extract with a postal code was found. GOOGLE RATING UNVERIFIABLE: no rating/count appeared in the Places results searched for this location. Booking link is the location's own Genbook page linked from the clinic's team page (the chain is also migrating to Jane). Chain-wide price, hours and direct billing from essencewellness.ca apply.",
+  "clinic_id": "essence-wellness-clinic-mahogany-calgary"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "wellness-on-1st-calgary--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.wellnesson1st.com/naturopathy-calgary.html",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PRICE UNVERIFIABLE: no naturopathic consultation fee is published on the clinic's own website pages fetched. PRACTITIONER: the clinic's own naturopathy page does not name its ND; its own testimonials page quotes a patient praising 'Dr. Shreya' for naturopathic care (first name only), which is not enough to record a practitioner under rule v2, so practitioner is null. GOOGLE RATING UNVERIFIABLE: the Places details extract for this listing (place_id 616753653216624) showed no rating; the 5/5 from 142 reviews shown by HealthHives is an aggregator figure and was excluded per the rating-source rule. HOURS CONFLICT: hours recorded are from Places details; a Places-mirroring directory (HealthHives) shows Tuesday as Closed against Places' Tuesday 9 AM - 9 PM. Address and postal code are confirmed on the clinic's own Direct Billing page footer ('1802 1st Street NW, Unit 201, Calgary, Alberta T2M 2T2').",
+  "clinic_id": "wellness-on-1st-calgary"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "grassroots-naturopathic-medicine-calgary--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Brandon Testa, ND",
+  "practitioners": [
+   {
+    "id": "grassroots-naturopathic-medicine-calgary--brandon-testa",
+    "name": "Brandon Testa",
+    "as_recorded": "Dr. Brandon Testa, ND — Grassroots Naturopathic Clinic, 22 Richard Way SW, Calgary (his own website drbrandontesta.com)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://grassrootsnaturopathic.com/our-answers/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "DIRECTORY ERROR — WEBSITE HIJACKED: as of this scan (2026-11-01) grassrootsnaturopathic.com serves a Turkish betting site ('Parmabet'), not the clinic. Clinic details here come from Google Places details and search-index extracts of the clinic's own pages (its FAQ confirms all its NDs are regulated by the College of Naturopathic Doctors of Alberta and that a first naturopathic appointment runs 60-75 minutes). PRICE UNVERIFIABLE: no consultation fee is published in the clinic's indexed pages. GOOGLE RATING UNVERIFIABLE: the Places details extract showed no rating or review count. PRACTITIONER: Dr. Brandon Testa's own website (drbrandontesta.com) states he practises at this clinic at this address; Dr. Karlee Tario, ND and clinic founder Dr. Beverly are also associated with the clinic on third-party pages but were not verified on a reachable clinic page this pass. Places lists no Saturday/Sunday hours (recorded null).",
+  "clinic_id": "grassroots-naturopathic-medicine-calgary"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "calgarymicroneedling-com-dr-trudy-strasser-nd-rac-calgary--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Trudy Strasser, ND, RAc",
+  "practitioners": [
+   {
+    "id": "calgarymicroneedling-com-dr-trudy-strasser-nd-rac-calgary--trudy-strasser",
+    "name": "Trudy Strasser",
+    "as_recorded": "Dr. Trudy Strasser ND RAc (as named in the WellFinder directory entry; her own site could not be fetched this pass)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "http://calgarymicroneedling.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": "MINIMAL RECORD — PAGE FETCH RATE-LIMITED: fetching calgarymicroneedling.com hit the page-fetch service's HTTP 429 rate limit (2026-11-01) and per protocol was not retried; no Google Places details listing for this practice surfaced in search extracts either, so address, phone, hours, price, rating and direct billing are all unverifiable this pass. The practitioner is taken from the WellFinder directory entry name itself ('Dr. Trudy Strasser ND RAc'). NOTE: patient reviews mirrored on an aggregator (nutrifinder) describe Dr. Trudy Strasser providing naturopathic treatment at Essence Wellness Clinic — Marda Loop, suggesting she may now practise there and the standalone calgarymicroneedling.com site may be stale; verify before featuring or linking.",
+  "clinic_id": "calgarymicroneedling-com-dr-trudy-strasser-nd-rac-calgary"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "wholesome-well-dr-julia-gill-nd-calgary--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Julia Gill, BSc (Hon), ND",
+  "practitioners": [
+   {
+    "id": "wholesome-well-dr-julia-gill-nd-calgary--julia-gill",
+    "name": "Julia Gill",
+    "as_recorded": "Dr. Julia Sung Gill, Bsc. (Hon), ND — Wholesome Wellness Naturopathics (clinic's own direct-billing consent form)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.wholesomewell.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "TWO PLACES LISTINGS: 'Wholesome Wellness' appears at #302, 609 14 St NW (place_id 848135134651089, no phone shown) and at 7979 Wentworth Dr SW (place_id 1007107435341137, phone 403-615-8275); both point to wholesomewell.com. The Kensington (14 St NW) address is recorded and the phone is taken from the Wentworth listing; which location is current could not be confirmed from the clinic's own pages this pass. The direct-billing evidence is the clinic's own patient consent form hosted on its website's file server (form headed 'Wholesome Wellness Naturopathics — Direct Billing to Insurance'). PRICE, HOURS, POSTAL CODE AND GOOGLE RATING UNVERIFIABLE: none appeared on the clinic's own pages or in the Places details extracts.",
+  "clinic_id": "wholesome-well-dr-julia-gill-nd-calgary"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "sage-naturopathic-clinic-kitchener-kitchener--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Deanna Walker, ND; Dr. Kaitlyn Zorn, BSc (Hons), ND",
+  "practitioners": [
+   {
+    "id": "sage-naturopathic-clinic-kitchener-kitchener--deanna-walker",
+    "name": "Deanna Walker",
+    "as_recorded": "Dr. Deanna Walker, ND — licensed and registered Naturopathic Doctor and Co-owner at Sage Naturopathic Clinic (clinic's own Jane booking page; full name from the clinic's own blog byline)"
+   },
+   {
+    "id": "sage-naturopathic-clinic-kitchener-kitchener--kaitlyn-zorn",
+    "name": "Kaitlyn Zorn",
+    "as_recorded": "Dr. Kaitlyn Zorn, BSc (Hons), ND — Sage Naturopathic Clinic in Kitchener and Cambridge (clinic's own Jane booking page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.thesageclinic.com/book-now/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "STALE SECOND LISTING: a Places listing for 'Sage Naturopathic Clinic' at 585 Queen St S #101, Kitchener is marked Permanently Closed — its 5.0 rating from 13 reviews belongs to that closed location and was NOT used; no rating was shown for the current River Rd listing, so rating is null. HOURS: recorded hours are the Kitchener reception hours published in the clinic's own site footer; Places details differ (Tue/Wed until 8:00 PM, Thu 8:00 AM - 8:00 PM). PHONE: the clinic's own site lists (519) 573-6700 for Kitchener; Places lists a toll-free 1-866-846-7776. PRICE UNVERIFIABLE: no fee schedule for this clinic was found on its own site (fees seen for the similarly named US 'Sage Naturopathic Medicine' were excluded). DIRECT BILLING: no statement found on the clinic's own pages fetched. The clinic also operates a Cambridge location (separate directory entry). Clinic founder is Rahima Hirji, ND (per the clinic's own blog bylines/description).",
+  "clinic_id": "sage-naturopathic-clinic-kitchener-kitchener"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "wellness-place-newmarket--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "http://wellnessplace.ca/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "IDENTIFIED VIA PLACES ONLY: the directory entry carried no website hint; the matching Google Places listing ('Wellness Place', place_id 2060367274295180, website wellnessplace.ca) describes the clinic in its own words as providing 'physiotherapy, naturopathic, chiropractic, massage therapy, acupuncture and manual osteopathy', confirming the naturopathy premise. POSTAL CODE, GOOGLE RATING, PRACTITIONER, PRICE AND DIRECT BILLING UNVERIFIABLE: none appeared in the Places details extract or other fetched pages this pass. Places lists no Sunday hours (recorded null).",
+  "clinic_id": "wellness-place-newmarket"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "bayview-village-wellness-centre-north-york--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.bayviewwellness.com/how-naturopathic-medicine-works/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PRACTITIONER AND PRICE UNVERIFIABLE: the clinic's own site confirms naturopathy is offered (its Places description and its own 'How Naturopathic Medicine Works' page) but the fetched pages do not name its naturopathic doctor or publish naturopathic fees. DIRECT BILLING: no statement found on the pages fetched. PHONE CONFLICT: the clinic's own site lists (416) 221-7724 (recorded); Google Places lists 437-476-2963. CITY: Places lists the city as Toronto; the directory city (North York) is retained. Address, postal code and hours are from the clinic's own site and agree with Places.",
+  "clinic_id": "bayview-village-wellness-centre-north-york"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "motion-care-clinic-north-york--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.motioncareclinic.com/naturopathy/iv-vitamin-drip/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "TWO LOCATIONS: Motion Care operates Yonge & Sheppard and Yonge & Finch clinics; this record uses the Yonge & Sheppard address (52 Sheppard Ave West) published in the clinic's own site footer. HOURS UNVERIFIABLE: the clinic's own pages show per-location hours headings but no times appeared in the fetched extracts, and no Places hours were captured. PRACTITIONER AND PRICE UNVERIFIABLE: the clinic's own FAQ confirms a Naturopathy service ('Most extended health care benefits cover Naturopathy') but does not name its ND, and the only prices published on fetched pages are massage rates — no naturopathic consultation fee. DIRECT BILLING: coverage is mentioned but no direct-billing statement was found, so it is unverifiable rather than yes. GOOGLE RATING UNVERIFIABLE: no rating appeared in the Places results searched.",
+  "clinic_id": "motion-care-clinic-north-york"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dr-vishaala-singh-nd-brampton--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Vishaala Singh, ND",
+  "practitioners": [
+   {
+    "id": "dr-vishaala-singh-nd-brampton--vishaala-singh",
+    "name": "Vishaala Singh",
+    "as_recorded": "Dr. Vishaala Singh, ND — Licensed Naturopathic Doctor in Mississauga and Brampton (her own site, vsinghnd.com)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "http://vsinghnd.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "POSTAL CODE: L6Y 2A4 is the published postal code for the same premises (Synergistix Health & Wellness, 10 Henderson Avenue, Brampton, per the co-located clinic's own site); Dr. Singh's own Places listing extract showed the street address without a postal code. Her own site describes her as a licensed naturopathic doctor practising in Mississauga and Brampton — this record is the Brampton location in the directory. PRICE, GOOGLE RATING AND DIRECT BILLING UNVERIFIABLE: none published on her own site's fetched pages or in the Places details extract (which showed hours for Tue/Wed/Thu/Sat only; Mon/Fri/Sun recorded null).",
+  "clinic_id": "dr-vishaala-singh-nd-brampton"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "etobicoke-naturopath-osteopath-clinic-etobicoke--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Aishah Brown, ND",
+  "practitioners": [
+   {
+    "id": "etobicoke-naturopath-osteopath-clinic-etobicoke--aishah-brown",
+    "name": "Aishah Brown",
+    "as_recorded": "Dr. Aishah Brown, ND — Etobicoke Naturopathic Doctor (clinic's own Etobicoke sitemap/team extract, naturopathosteopathclinic.com/etobicoke/)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://naturopathosteopathclinic.com/etobicoke/naturopath/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "ADDRESS CONFLICT / POSSIBLE DIRECTORY ERROR: this is a templated multi-city site (Mississauga, Brampton, Toronto, Etobicoke). The clinic's own Etobicoke pages carry a business block giving the address as 1834 Lakeshore Rd W unit 6, Mississauga, ON L5J 1J7 and phone (647) 691-6492 — i.e., the 'Etobicoke' location's own published address is in Mississauga (Lakeshore Rd W at Southdown Rd, by the Etobicoke border); no distinct Etobicoke street address could be verified, and the hours recorded are from that same business block. GOOGLE RATING: the 5.0 rating from 2 reviews in Places belongs to a different business, 'Etobicoke Naturopathic Clinic' at 2906 Bloor St W, Toronto — a possible conflation in the directory — and was NOT used. PRICE AND DIRECT BILLING UNVERIFIABLE on the pages fetched. The Etobicoke team page also lists an osteopath (Jasmina Stepanovic, DOMP), who is not recorded here as she does not deliver naturopathy.",
+  "clinic_id": "etobicoke-naturopath-osteopath-clinic-etobicoke"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "sage-naturopathic-clinic-etobicoke-etobicoke--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Emile Sabga, ND; Dr. Rooya Nikfar, ND; Dr. Sonya Arrigo, ND; Dr. Mary Galic, ND; Dr. Marc Conteduca, ND; Dr. Hyun Jung (Katie) Oh, ND; Dr. Monica Velletri, ND",
+  "practitioners": [
+   {
+    "id": "sage-naturopathic-clinic-etobicoke-etobicoke--emile-sabga",
+    "name": "Emile Sabga",
+    "as_recorded": "Dr. Emile Sabga, BSC (Hon), ND"
+   },
+   {
+    "id": "sage-naturopathic-clinic-etobicoke-etobicoke--rooya-nikfar",
+    "name": "Rooya Nikfar",
+    "as_recorded": "Dr. Rooya Nikfar, ND"
+   },
+   {
+    "id": "sage-naturopathic-clinic-etobicoke-etobicoke--sonya-arrigo",
+    "name": "Sonya Arrigo",
+    "as_recorded": "Dr. Sonya Arrigo, BSC (Hon), ND"
+   },
+   {
+    "id": "sage-naturopathic-clinic-etobicoke-etobicoke--mary-galic",
+    "name": "Mary Galic",
+    "as_recorded": "Dr. Mary Galic, ND"
+   },
+   {
+    "id": "sage-naturopathic-clinic-etobicoke-etobicoke--marc-conteduca",
+    "name": "Marc Conteduca",
+    "as_recorded": "Dr. Marc Conteduca, ND"
+   },
+   {
+    "id": "sage-naturopathic-clinic-etobicoke-etobicoke--hyun-jung-katie-oh",
+    "name": "Hyun Jung (Katie) Oh",
+    "as_recorded": "Dr. Hyun Jung (Katie) Oh, ND"
+   },
+   {
+    "id": "sage-naturopathic-clinic-etobicoke-etobicoke--monica-velletri",
+    "name": "Monica Velletri",
+    "as_recorded": "Dr. Monica Velletri, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic fee schedule is published on the clinic's own website, and the Etobicoke Jane booking page's treatment list/prices did not render in the text fetch (practitioner bios only) — a rendered-browser pass would be needed to capture Jane prices.",
+  "treatment_link": "https://www.thesageclinic.com/naturopath-toronto-etobicoke/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Multi-location practice (Cambridge is the main clinic; Etobicoke is a satellite). All seven NDs above are listed for the Etobicoke location on both the clinic's own Etobicoke team page and its Etobicoke Jane booking page (fetched 2026-11-01); the chain-wide Jane welcome text also names Cambridge-based NDs who are NOT recorded here. PHONE: the clinic's own site lists 866-846-7776 ext. 4 for Etobicoke; the Jane location page shows a (416) 207-0207 help line — the own-site number was recorded. GOOGLE RATING UNVERIFIABLE: Places details for the Etobicoke listing did not surface in search results; a 5.0/13 figure in results belongs to the chain's permanently closed Kitchener location and was not used. DIRECT BILLING: the site says only that many extended health plans cover naturopathic visits and to check your policy — no direct-billing statement, so unverifiable. Hours recorded are published reception hours, not full appointment hours.",
+  "clinic_id": "sage-naturopathic-clinic-etobicoke-etobicoke"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "natural-health-clinic-of-halton-brampton-brampton--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Nazila Yal, ND; Dr. Shelly Verma, ND",
+  "practitioners": [
+   {
+    "id": "natural-health-clinic-of-halton-brampton-brampton--nazila-yal",
+    "name": "Nazila Yal",
+    "as_recorded": "Dr. Nazila Yal, ND"
+   },
+   {
+    "id": "natural-health-clinic-of-halton-brampton-brampton--shelly-verma",
+    "name": "Shelly Verma",
+    "as_recorded": "Dr. Shelly Verma, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee schedule is published on nhchalton.com, and the Jane booking page's treatment prices did not render in the text fetch (welcome text and practitioner bios only) — a rendered-browser pass would be needed to capture Jane prices.",
+  "treatment_link": "https://www.nhchalton.com/brampton/naturopath/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "DIRECTORY ERROR — NO PHYSICAL BRAMPTON LOCATION: nhchalton.com runs per-city SEO landing pages (Brampton, Mississauga, Toronto, Milton, Hamilton, Waterdown, Georgetown, Burlington, Flamborough) that all carry the same single address, 243 North Service Rd W #106, Oakville, and its Jane booking has exactly one location. The 'Brampton' naturopath page text even locates the practice 'near QEW and Dorval Drive' (Oakville). Address, hours, phone and rating recorded here are therefore the Oakville clinic's, which is the business this directory entry actually points to. Both NDs are listed on the practice's Jane booking page (fetched 2026-11-01). Same practice as the batch's 'Natural Health Clinic of Halton (Mississauga)' entry.",
+  "clinic_id": "natural-health-clinic-of-halton-brampton-brampton"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "brampton-naturopath-osteopath-clinic-brampton--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Mariam Nokerah, BHSc (Hons), ND; Dr. Aishah Brown, ND",
+  "practitioners": [
+   {
+    "id": "brampton-naturopath-osteopath-clinic-brampton--mariam-nokerah",
+    "name": "Mariam Nokerah",
+    "as_recorded": "Dr. Mariam Nokerah, BHSc (Hons), ND"
+   },
+   {
+    "id": "brampton-naturopath-osteopath-clinic-brampton--aishah-brown",
+    "name": "Aishah Brown",
+    "as_recorded": "Dr. Aishah Brown, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, and its Jane booking page's treatment prices did not render in the text fetch (practitioner bios only).",
+  "treatment_link": "https://naturopathosteopathclinic.com/brampton/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "DIRECTORY ERROR — NO PHYSICAL BRAMPTON LOCATION: the /brampton/ page itself describes the clinic as 'located at Southdown Rd and Lakeshore Rd W, near Hwy QEW' and every address block on the site is the single physical clinic at 1834 Lakeshore Rd W Unit 6, Mississauga (Port Credit/Clarkson). The Brampton page is an SEO landing page; this is the SAME practice as the batch's 'Mississauga Naturopath Osteopath Clinic' entry, with the same two NDs on its Jane booking page (fetched 2026-11-01). GOOGLE RATING UNVERIFIABLE: the clinic's own pages embed a 'Rating: 5/5' widget whose review count conflicts across pages (193, 217, 394, 479, 491 on pages crawled the same week), so it cannot be trusted as a Google figure, and the Places details extract showed hours/address but no rating. No direct-billing statement found on the own site.",
+  "clinic_id": "brampton-naturopath-osteopath-clinic-brampton"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "naturopathic-essentials-health-centre-mississauga--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Ian Koo, ND, R.Ac",
+  "practitioners": [
+   {
+    "id": "naturopathic-essentials-health-centre-mississauga--ian-koo",
+    "name": "Ian Koo",
+    "as_recorded": "Dr. Ian Koo, ND, R.Ac"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (fetched 2026-11-01) and no online booking platform with prices exists; booking is by phone.",
+  "treatment_link": "https://www.naturopathicessentials.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Solo practice of Dr. Ian Koo, ND, R.Ac at Kingsbury Centre, 1891 Rathburn Road East (full address incl. postal L4W 3Z3 confirmed on the clinic's own homepage). The own site is a legacy static site whose homepage fetch returned only header/footer content; no fee schedule, online booking or direct-billing statement is published on it.",
+  "clinic_id": "naturopathic-essentials-health-centre-mississauga"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dr-natalie-cheng-kai-on-nd-maple--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Natalie Cheng-Kai-On, ND, R.Ac",
+  "practitioners": [
+   {
+    "id": "dr-natalie-cheng-kai-on-nd-maple--natalie-cheng-kai-on",
+    "name": "Natalie Cheng-Kai-On",
+    "as_recorded": "Dr. Natalie Cheng-Kai-On, ND, R.Ac"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the practitioner's own website (natdoctor.com, fetched 2026-11-01) and no online booking platform is linked from it.",
+  "treatment_link": "http://www.natdoctor.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "LOCATION FLAG: the directory lists this entry under Maple and the practitioner's own site brands the practice 'Maple & Markham', but the only address published anywhere (Google Places) is the in-person Markham clinic at 3621 Hwy 7 Ste 307, Markham; the own site says in-person treatments are at 'my Markham clinic' with telemedicine across Ontario. No Maple street address could be verified. POSTAL CODE UNVERIFIABLE (Places gave none; own site publishes no address block). GOOGLE RATING UNVERIFIABLE: the Places listing showed address, phone and part-time hours but no rating or review count. Part-time practice (3 short days/week per Places).",
+  "clinic_id": "dr-natalie-cheng-kai-on-nd-maple"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "be-well-medical-clinic-thornhill--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Not captured: the clinic's own website could not be fetched for this batch (see gaps) and no fee schedule appears in search extracts of its pages.",
+  "treatment_link": "https://www.bewellmedicalclinic.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": "FETCH RATE LIMIT: the direct fetch of bewelledicalclinic.com returned HTTP 429; per protocol it was not retried, so this record is built from Google Places details in search extracts only. PRACTITIONER UNVERIFIED: no naturopathic doctor for this clinic is named in the extracts (BeWell Clinics / bewellclinics.ca is a DIFFERENT company and its NDs were not used). POSTAL CODE UNVERIFIABLE from extracts. Places lists the address in Vaughan — Bathurst St at this number is the Thornhill (Vaughan) side, consistent with the directory's Thornhill entry. Fees, booking route and direct billing need a follow-up fetch of the own site.",
+  "clinic_id": "be-well-medical-clinic-thornhill"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "metalab-markham--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Vivian Kwan, ND",
+  "practitioners": [
+   {
+    "id": "metalab-markham--vivian-kwan",
+    "name": "Vivian Kwan",
+    "as_recorded": "Dr. Vivian Kwan, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No general naturopathic initial-consult fee is published on the clinic's own website or visible on its Jane page in search extracts. Fees the own site does publish are service-specific and are NOT the ND consult anchor: Initial IV consult $169 (required for all new IV patients, metatherapylab.com/nad-drips) and a Hormone Transformation Program initial fee of $200 including blood panel requisition and NP consultation (metatherapylab.com/hormone-therapy).",
+  "treatment_link": "https://www.metatherapylab.com/naturopath-markham",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PRACTITIONER PARTIAL: Dr. Vivian Kwan, ND is the only ND named on the clinic's own site (functional medicine page: 'Dr. Vivian Kwan, ND is certified in functional medicine'); its Jane page lists 'Naturopathic Medicine' and 'Naturopathic Medicine - Senior Associate' booking categories, so more NDs practise here, but their names did not appear in the text extracts and are not recorded. GOOGLE RATING UNVERIFIABLE: the Places details extract showed address, phone and hours but no rating/review count, and no Google badge figure appears on the own site (testimonials only). Address confirmed on the own site: 201-50 McIntosh Dr, Markham, ON L3R 9T3.",
+  "clinic_id": "metalab-markham"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "richmond-hill-naturopathic-clinic-rhnc-richmond-hill--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$245 initial consultation (90 min) · $165 second visit (60 min)",
+  "price_source": "The clinic's own Naturopathic Services page (richmondhillclinic.com/naturopathic-services), via search extract read 2026-11-01: fees follow the CAND recommended schedule — first appointment 90 minutes $245.00, second appointment 60 minutes $165.00, laboratory tests at extra cost. (A direct fetch of the page was rate-limited with HTTP 429 and, per protocol, not retried; the figures come from the search extract of the clinic's own page.)",
+  "treatment_link": "https://www.richmondhillclinic.com/naturopathic-services",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PRACTITIONER UNVERIFIED: no ND is named in the fetched extracts of the clinic's own site (other Richmond Hill NDs found in results, e.g. Dr. Misa Kawasaki, practise at different clinics and were not attributed). POSTAL CODE UNVERIFIABLE (Places gave none). GOOGLE RATING UNVERIFIABLE: the Places extract showed address, phone and hours but no rating. No direct-billing statement and no online booking platform found on the own site.",
+  "clinic_id": "richmond-hill-naturopathic-clinic-rhnc-richmond-hill"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dr-brian-yeung-nd-markham--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": null,
+  "practitioner": "Dr. Brian Yeung, ND",
+  "practitioners": [
+   {
+    "id": "dr-brian-yeung-nd-markham--brian-yeung",
+    "name": "Brian Yeung",
+    "as_recorded": "Dr. Brian Yeung, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on brianyeungnd.com, which now operates as a supplement-review content site rather than a practice site, and no booking platform exists.",
+  "treatment_link": "https://brianyeungnd.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PREMISE FAILS — PRACTITIONER INACTIVE + WRONG CITY: (1) The current medical disclaimer on Dr. Yeung's own content (2025-2026 videos/site) reads 'Dr. Brian Yeung, ND (Inactive), earned his Doctor of Naturopathic Medicine degree from the Canadian College of Naturopathic Medicine and practiced for over 10 years but is not currently practicing.' Older pages carry the opposite disclaimer ('currently a practicing Naturopathic Doctor'); the current Inactive wording was taken as authoritative, so billed_as is null and no bookable naturopathy service exists. (2) No Markham location exists: his Google Places listing is 890A Yonge St, Toronto, ON M4W 3P4 (midtown Toronto), phone 416-962-4444. The directory's Markham entry appears stale on both counts and is a removal candidate.",
+  "clinic_id": "dr-brian-yeung-nd-markham"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "health-globe-wellness-clinic-mississauga--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Mojan Zehtabchi, ND; Dr. Shabnam Rahdar, ND",
+  "practitioners": [
+   {
+    "id": "health-globe-wellness-clinic-mississauga--mojan-zehtabchi",
+    "name": "Mojan Zehtabchi",
+    "as_recorded": "Dr. Mojan Zehtabchi, ND"
+   },
+   {
+    "id": "health-globe-wellness-clinic-mississauga--shabnam-rahdar",
+    "name": "Shabnam Rahdar",
+    "as_recorded": "Dr. Shabnam Rahdar, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic consult fee is published on healthglobe.ca, and the clinic's Jane page prices did not appear in search extracts. (The $200/session figure verified for this clinic in an earlier batch is its MICRONEEDLING price — a different treatment — and was not carried into this naturopathy record.)",
+  "treatment_link": "https://healthglobe.janeapp.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Both NDs are listed on the clinic's Jane booking page (search extract read 2026-11-01); a note on that page states Dr. Mojan (Zehtabchi) is not accepting new patients at this time, directing new patients to the clinic's other naturopaths. POSTAL L5M 2S4 and coordinates were verified for this clinic in this project's earlier featured-clinic geo pass (the Places coordinates in this scan, 43.537668/-79.726779, match that verified listing). The own site also displays a second phone number (905-330-6171); the Places/Jane number 905-820-8200 was recorded. GOOGLE RATING UNVERIFIABLE from the sources read (consistent with the earlier microneedling pass, where this clinic qualified on the pricing rule only). No direct-billing statement found.",
+  "clinic_id": "health-globe-wellness-clinic-mississauga"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "mississauga-naturopathic-clinic-mississauga--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Lore Sbeit, ND",
+  "practitioners": [
+   {
+    "id": "mississauga-naturopathic-clinic-mississauga--lore-sbeit",
+    "name": "Lore Sbeit",
+    "as_recorded": "Dr. Lore Sbeit, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own site (doctorlore.com) links a 'List of services and fees' page from its Naturopathic Consultations section, but the fee figures were not in the search extracts and a direct fetch of the site was rate-limited (HTTP 429) and, per protocol, not retried — the amounts need a follow-up fetch.",
+  "treatment_link": "https://doctorlore.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Solo practice of Dr. Lore Sbeit, ND (CCNM Doctor of Naturopathy; CAND/OAND/CONO member per her own site). Booking is by inquiry form/introductory call only — no online booking platform; the phone line is voicemail-only per the site. POSTAL CODE and GOOGLE RATING UNVERIFIABLE from extracts (Places showed address, phone and hours only). NAME COLLISION: this clinic is NOT 'Mississauga Naturopathic Doctor & Clinic' (mississauganaturopathicdoctor.ca) at 1834 Lakeshore Rd W, a different business whose listing also appears in results.",
+  "clinic_id": "mississauga-naturopathic-clinic-mississauga"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "mississauga-naturopath-osteopath-clinic-mississauga--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Mariam Nokerah, BHSc (Hons), ND; Dr. Aishah Brown, ND",
+  "practitioners": [
+   {
+    "id": "mississauga-naturopath-osteopath-clinic-mississauga--mariam-nokerah",
+    "name": "Mariam Nokerah",
+    "as_recorded": "Dr. Mariam Nokerah, BHSc (Hons), ND"
+   },
+   {
+    "id": "mississauga-naturopath-osteopath-clinic-mississauga--aishah-brown",
+    "name": "Aishah Brown",
+    "as_recorded": "Dr. Aishah Brown, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, and its Jane booking page's treatment prices did not render in the text fetch (practitioner bios only).",
+  "treatment_link": "https://naturopathosteopathclinic.com/mississauga/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "This is the physical clinic (Port Credit/Clarkson, Mississauga) behind the batch's 'Brampton Naturopath Osteopath Clinic' entry — the same practice, address, phone, Jane booking page and two NDs (Jane page fetched 2026-11-01); the directory carries it twice under two city names. GOOGLE RATING UNVERIFIABLE: own-site pages embed a 'Rating: 5/5' widget with mutually conflicting review counts (193-491 across pages crawled the same week), not trusted as a Google figure; the Places details extract showed no rating. No direct-billing statement found on the own site.",
+  "clinic_id": "mississauga-naturopath-osteopath-clinic-mississauga"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "natural-health-clinic-of-halton-mississauga-mississauga--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Nazila Yal, ND; Dr. Shelly Verma, ND",
+  "practitioners": [
+   {
+    "id": "natural-health-clinic-of-halton-mississauga-mississauga--nazila-yal",
+    "name": "Nazila Yal",
+    "as_recorded": "Dr. Nazila Yal, ND"
+   },
+   {
+    "id": "natural-health-clinic-of-halton-mississauga-mississauga--shelly-verma",
+    "name": "Shelly Verma",
+    "as_recorded": "Dr. Shelly Verma, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee schedule is published on nhchalton.com, and the Jane booking page's treatment prices did not render in the text fetch (welcome text and practitioner bios only) — a rendered-browser pass would be needed to capture Jane prices.",
+  "treatment_link": "https://nhchalton.janeapp.com/locations/natural-health-clinic-of-halton/book",
+  "status": null,
+  "last_verified": null,
+  "gaps": "DIRECTORY ERROR — NO PHYSICAL MISSISSAUGA LOCATION: as with the Brampton entry, nhchalton.com's Mississauga pages are SEO landing pages for the single Oakville clinic at 243 North Service Rd W #106 (all Mississauga service pages carry the Oakville address and 905-582-2360 phone), and Jane booking has one location only. Address, hours, phone and rating recorded here are the Oakville clinic's. Same practice and same two NDs (Jane, fetched 2026-11-01) as the batch's 'Natural Health Clinic of Halton (Brampton)' entry.",
+  "clinic_id": "natural-health-clinic-of-halton-mississauga-mississauga"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "healthier-living-clinic-mississauga--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Liudmyla Gerus, ND",
+  "practitioners": [
+   {
+    "id": "healthier-living-clinic-mississauga--liudmyla-gerus",
+    "name": "Liudmyla Gerus",
+    "as_recorded": "Dr. Liudmyla Gerus (Naturopathic Doctor, Acupuncture)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic fee schedule is published on the clinic's own website (hl3.ca) in the pages read; the clinic markets free discovery sessions but no consult prices.",
+  "treatment_link": "http://www.hl3.ca/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Multidisciplinary clinic (Places primary category is Osteopathic Doctor; the team spans osteopathy, physiotherapy, naturopathy, TCM, psychotherapy). Dr. Liudmyla Gerus is named as the clinic's Naturopathic Doctor on the clinic's own event/workshop pages (hl3.ca, e.g. its anxiety/depression community class at this address); a Jane-style booking roster for naturopathy was not found, so she is recorded on own-site evidence only. Full address incl. postal L5B 1J2 appears on the clinic's own workshop page. GOOGLE RATING UNVERIFIABLE: the Places extract showed address, phone and hours but no rating. No online booking platform or direct-billing statement found.",
+  "clinic_id": "healthier-living-clinic-mississauga"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "richmond-hill-health-wellness-richmond-hill--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Marina Guz, ND",
+  "practitioners": [
+   {
+    "id": "richmond-hill-health-wellness-richmond-hill--marina-guz",
+    "name": "Marina Guz",
+    "as_recorded": "Dr. Marina Guz, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic fee schedule is published on the clinic's own website in the pages read.",
+  "treatment_link": "https://richmondhillhealth.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Dr. Marina Guz is named as the clinic's naturopathic doctor on the clinic's website (per its clinic profile summary); the team also includes chiropractors, a physiotherapist and massage therapists. POSTAL CODE L4C 6Z7 is taken from the clinic's HealthHives profile rather than its own site or Places (neither showed one) — flagged for confirmation on a future own-site fetch. The clinic offers online booking through its own portal per its profile, but the booking URL was not verified, so booking_page is null. No direct-billing statement found.",
+  "clinic_id": "richmond-hill-health-wellness-richmond-hill"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "firestone-cbt-clinic-ottawa--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Emily Massey, clinical psychologist",
+  "practitioners": [
+   {
+    "id": "firestone-cbt-clinic-ottawa--emily-massey",
+    "name": "Emily Massey",
+    "as_recorded": "Dr. Emily Massey - 'Our clinical psychologist, Dr. Emily Massey... She is a highly sought-after couples therapist in Ottawa and across Ontario... Dr. Massey is the only psychologist in Ottawa with Level 3 training in Gottman Method Couples Therapy' (clinic's own couples therapy page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website or any booking page (own site checked 2026-11-01). A third-party roundup (bestinottawa.com) lists '$200 - $240 per session' for the clinic's founder, but aggregator pricing is excluded per sourcing rules, so price is null.",
+  "treatment_link": "https://firestoneclinic.com/couples-therapy-gottman-method/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "POSTAL CODE CONFLICT ON THE CLINIC'S OWN SITE: the footer contact block (homepage and couples page) gives 'Ottawa, ON K1Y 2N5' while the footer Location block on the same pages gives 'Ottawa, Ontario K1Y 4N7'; K1Y 2N5 recorded (it appears in the main contact block), K1Y 4N7 unverified. HOURS CONFLICT: own site says Mon-Fri 9:00 AM - 4:00 PM; Google Places says Mon-Thu 8:30 AM - 4:30 PM and Fri 8:30 AM - 4:00 PM. GOOGLE RATING UNVERIFIABLE: the Places details extract showed no rating or review count, and no Google badge/widget was seen on the clinic's own site. BOOKING: the site has a 'Book an Appointment' link but its target was not exposed in the fetched pages, so no booking platform URL could be verified. DIRECT BILLING: no statement about insurance or direct billing found on the clinic's own site.",
+  "clinic_id": "firestone-cbt-clinic-ottawa"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "vancouver-couple-family-institute-vancouver--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website pages checked (homepage, Services for Couples page, 2026-11-01), and intake is by phone / online intake form rather than a priced booking page, so price is null.",
+  "treatment_link": "https://vcfi.ca/couples/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "POSTAL CODE UNVERIFIABLE: neither the clinic's own site (footer gives only '828 West 8th Ave, Suites 270 & 101') nor the Places details extract publishes a postal code. NO NAMED COUPLES PRACTITIONER: the site describes its team generically ('Our counsellors and psychologists') and names no individual for couples therapy on the pages checked, so practitioner and billed_as are null. GOOGLE RATING UNVERIFIABLE: the Places details extract showed no rating/reviews (an aggregator shows 0.0/0, which is a placeholder, not a Google rating). DIRECT BILLING: no statement found on the clinic's own site. The institute is an ICEEFT-designated EFT training centre; couples work is Emotionally Focused Therapy.",
+  "clinic_id": "vancouver-couple-family-institute-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "emotions-therapy-calgary-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Alya Serghanuk, MSc, Registered Provisional Psychologist",
+  "practitioners": [
+   {
+    "id": "emotions-therapy-calgary-calgary--alya-serghanuk",
+    "name": "Alya Serghanuk",
+    "as_recorded": "Alya Serghanuk, MSc | Registered Provisional Psychologist - 'I work with both individuals and couples' (her profile page on the clinic's own website)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own website publishes only generic Calgary market ranges (its therapists/services pages say registered psychologists in Calgary 'typically charge $200-$250 per session'), not this clinic's own fee schedule, and no priced booking page was found - the FAQ says payment runs through Jane App but exposes no Jane booking URL or prices. Price is therefore null.",
+  "treatment_link": "https://www.emotionstherapycalgary.ca/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "ADDRESS CONFLICT: the clinic's own current website (footer on every page) gives 909 17 Ave SW Suite 400, Calgary, AB T2T 0A4, but the clinic's own October 2025 press release (EIN Presswire) describes the clinic as 'located at 2145 17 St SW Calgary, AB T2T 4M5'; the website address was recorded. SECOND COUPLES PROVIDER NOT RECORDED: the same press release says Yuchen Zhong, MC, Registered Provisional Psychologist 'provides EMDR therapy..., EFT for couples, and Gottman Method couples counselling', but she is not listed for couples work on the clinic's own website pages checked, so per rule v2 she is not recorded as a practitioner. The clinic homepage says couples counselling is delivered by 'our Registered Psychologists and Canadian Certified Counsellors' using Gottman Method and EFT. GOOGLE RATING UNVERIFIABLE: no rating/reviews in the Places details extract and no Google badge on the own site (a clinic press release calls it 'top-rated' without numbers). DIRECT BILLING UNVERIFIABLE: the FAQ says 'If you have insurance that covers therapy, we can help you with the required paperwork', which is not a direct-billing statement.",
+  "clinic_id": "emotions-therapy-calgary-calgary"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "hann-psychological-svc-halifax--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$225 per therapy hour (50-minute session)",
+  "price_source": "Clinic's own 'What To Expect' page (hannpsychologicalservices.com/areas-of-expertise): 'Our rate for Therapy and Consultation is $225 per therapy hour (50-minute session) plus applicable credit card surcharge.' The clinic's couples therapy page publishes no separate couples fee; couples therapy (EFT) is delivered by the practice's psychologists at this clinic-wide therapy rate.",
+  "treatment_link": "https://www.hannpsychologicalservices.com/couples-therapy-halifax",
+  "status": null,
+  "last_verified": null,
+  "gaps": "NO NAMED COUPLES PRACTITIONER: the couples therapy page credits 'our psychologists' collectively and the site's contact block names only Dr. S. Gerald Hann (practice owner); no individual is listed as delivering couples therapy, so practitioner and billed_as are null per the task rule. The same fees page notes 'Dr. S. Gerald Hann's rate for Therapy and Consultation may be higher depending on the expertise required', so $225 is the standard rate, not a ceiling. Clients must pay and submit claims themselves ('required to pay and then submit claims through their private health insurance').",
+  "clinic_id": "hann-psychological-svc-halifax"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "winnipeg-couples-clinic-winnipeg--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published in the search extracts of the clinic's own website, and no priced booking page was found, so price is null. (Full page fetch was rate-limited - HTTP 429 - during this batch; see gaps.)",
+  "treatment_link": "https://www.winnipegcouplesclinic.ca/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "TWO LOCATIONS: the clinic's own site lists a second location, St. Anne's: 125 St. Anne's Rd, Winnipeg, MB R2M 2Z1; this record uses the Pembina location, which the site lists first. RATE LIMIT: the page-fetch service returned HTTP 429 for this clinic, so per protocol the record was built from search extracts of the clinic's own pages plus Google Places details; fees, team credentials, direct-billing policy and any Google rating could not be verified from those extracts (Places extracts for both listings showed no rating/reviews, and the site's own text names no individual therapists).",
+  "clinic_id": "winnipeg-couples-clinic-winnipeg"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "supporting-wellness-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$235 per 50-minute session (psychologist) - $220 (Canadian Certified Counsellor); couples sessions cost the same",
+  "price_source": "Clinic's own website (fee text carried on its service pages, e.g. supportingwellness.com/specialized/brainspotting-therapy/): 'A 50-minute session is $235 with a psychologist and $220 with a Canadian Certified Counsellor. Fees are the same at our Calgary, Red Deer and Cold Lake clinics, and couples sessions cost the same as a regular 50-minute session.' The clinic also offers reduced-rate counselling at $100 per 50 minutes with a newly graduated Master's-level therapist (own affordable-counselling page).",
+  "treatment_link": "https://supportingwellness.com/psychology/counselling-calgary/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "FULL NAME: the practice trades as 'Supporting Wellness Psychological and Family Services'; the directory name 'Supporting Wellness' was kept. MULTI-LOCATION: the chain also has Red Deer and Cold Lake clinics at the same fees; this record is the Calgary clinic. POSTAL CODE: T2H 0M2 comes from a directory listing (thebestcalgary.com); the clinic's own site and the Places extract confirm 8989 Macleod Trail SW Suite 408 but publish no postal code in the extracts checked. NO NAMED COUPLES PRACTITIONER: fees are published by clinician designation (psychologist vs CCC) but no individual is listed for couples therapy in the extracts checked, so practitioner and billed_as are null. GOOGLE RATING UNVERIFIABLE: no rating/reviews in the Places details extract.",
+  "clinic_id": "supporting-wellness-calgary"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "crossroads-psychological-wellness-edmonton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee schedule is published in the search extracts of the clinic's own website (homepage, couples therapy, Gottman and EFT pages), and no priced booking page was found, so price is null.",
+  "treatment_link": "https://www.crossroadspsychological.ca/specialties/couples-therapy",
+  "status": null,
+  "last_verified": null,
+  "gaps": "NAME COLLISION: this Edmonton practice (Crossroads Psychological & Wellness Inc., crossroadspsychological.ca) is a different business from Crossroads Counselling & Psychological Services in Hammonds Plains, NS (crossroadscpc.ca, also in this batch) - the NS clinic's published fees ($245/hr psychologist couples rate) must NOT be applied here. TEAM: the clinic's homepage names clinicians including Esther Leung and Janet Chan, but the extracts show no credentials and do not assign either to couples therapy, so no practitioner is recorded. Record built from search extracts after the page-fetch service hit its HTTP 429 rate limit earlier in this batch; hours, rating and direct-billing policy unverifiable from extracts.",
+  "clinic_id": "crossroads-psychological-wellness-edmonton"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "wjw-counselling-mediation-st-albert--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$235 per 50-min session (Registered Psychologist) - $225 (Registered Social Worker) - $190 (Canadian Certified Counsellor)",
+  "price_source": "Clinic's own Jane booking page (wjwcounselling.janeapp.com) '2026 Fees' schedule, per 50 min session: RPsych $235, RSW $225, CCC $190, Clinical Specialty Rate $245, Family Session $250. No separate couples fee is published; couples counselling is a counselling session billed at the treating clinician's rate, and the clinic's own cost guide notes couples therapy may use 75 or 80-minute sessions priced proportionally.",
+  "treatment_link": "https://wjwcounselling.janeapp.com/locations/402-1-tache-street-in-person-or-virtual-sessions/book",
+  "status": null,
+  "last_verified": null,
+  "gaps": "TWO CITY LISTINGS: Google Places carries this chain at both 1 Tache St Unit 402, St. Albert (this record; the Jane booking location is '402 - 1 Tache Street') and 14127 23 Ave NW #332, Edmonton; the practice also serves Peace River. The only Places rating found (5.0, 1 review) belongs to the EDMONTON listing, so no rating is recorded for St. Albert. POSTAL CODE UNVERIFIABLE: not published in the Places extract or on the Jane booking page checked. NO NAMED COUPLES PRACTITIONER: Sonia Khandelwal (Registered Provisional Psychologist) appears on the Jane page in a separation/divorce context only; the practice runs a 'WJW Resilient Couples' program but names no couples clinician in the extracts checked, so practitioner and billed_as are null.",
+  "clinic_id": "wjw-counselling-mediation-st-albert"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "refocus-you-st-albert--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$235 per 50-minute session",
+  "price_source": "Clinic's own website: its services listings (homepage and couples therapy page, refocusyou.ca/couplestherapy) show 'Couples Therapy - 50 mins | $235', the clinic's standard rate across services. The site also notes lower-cost options: sessions with student therapists are $60, plus pay-what-you-can and pro bono options.",
+  "treatment_link": "https://www.refocusyou.ca/couplestherapy",
+  "status": null,
+  "last_verified": null,
+  "gaps": "MULTI-LOCATION: ReFocus You runs four clinics (three in Edmonton, one in St. Albert); this record is the St. Albert (Erin Ridge Pointe) clinic, whose address the clinic's own site gives as '#170, 75 Neil Ross Rd, St. Albert, AB T8N 7W1'. NO NAMED COUPLES PRACTITIONER: the St. Albert page names roster therapists (Loredana Potestio, Melissa Potestio, Paitan Molde) but the extracts show no credentials and do not assign any of them to couples therapy, so practitioner and billed_as are null. GOOGLE RATING UNVERIFIABLE: no rating/reviews in the Places details extracts for any of the chain's listings.",
+  "clinic_id": "refocus-you-st-albert"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "kalm-psychology-edmonton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Zahra Domingo, Registered Psychologist",
+  "practitioners": [
+   {
+    "id": "kalm-psychology-edmonton--zahra-domingo",
+    "name": "Zahra Domingo",
+    "as_recorded": "Zahra Domingo, Registered Psychologist, Supervisor and Founder of KALM Psychology - 'Specializing in emotion regulation, DBT, Couples and Family therapy. 20+ years clinical practice' (clinic's own Google Places description); About page lists her as 'Registered Psychologist & Founder' and states the practice offers therapy to 'teens, adults, and couples'; College of Alberta Psychologists #3278 (clinic's About page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee schedule is published in the search extracts of the clinic's own website (homepage, About page), and no priced booking page was found, so price is null.",
+  "treatment_link": "https://www.kalmpsychology.ca/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PRACTITIONER EVIDENCE NOTE: Zahra Domingo's couples/family specialization comes from the clinic's own Google Places business description and its About page (which names her as the practice's psychologist and says the practice treats couples), not from a per-treatment booking-page listing - page fetch was rate-limited (HTTP 429) during this batch, so the booking flow could not be checked. GOOGLE RATING UNVERIFIABLE: no rating/reviews in the Places details extract. DIRECT BILLING: no statement found on the clinic's own site extracts.",
+  "clinic_id": "kalm-psychology-edmonton"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "cirrus-psychology-red-deer--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Marc Roy, Registered Psychologist; Linda Caponpon, Registered Psychologist",
+  "practitioners": [
+   {
+    "id": "cirrus-psychology-red-deer--marc-roy",
+    "name": "Marc Roy",
+    "as_recorded": "Marc Roy - team page heading 'Adults, Couples'; 'a licensed psychologist with over 17 years of experience... specializing in counselling adults, couples, men, and first responders' (clinic's own team page)"
+   },
+   {
+    "id": "cirrus-psychology-red-deer--linda-caponpon",
+    "name": "Linda Caponpon",
+    "as_recorded": "Linda Caponpon - team page heading 'Teens (16+), Adults, Couples'; 'I am a Registered Psychologist. I hold a Master's degree in Counselling Psychology' (clinic's own team page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published in the search extracts of the clinic's own website (couples counselling page, team page, about page), and no priced booking page was found, so price is null.",
+  "treatment_link": "https://www.cirruspsychology.com/couples-counselling-red-deer/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "CITY LABEL CONFLICT: Google Places labels the address '228 Spruce St #102, Red Deer County, AB' while the clinic's own site footer gives '228 Spruce St, Red Deer, Alberta, T4E 1B4' and the directory lists Red Deer; the own-site city and postal were recorded, with the suite (#102) taken from Places. The practice also serves Lacombe and Blackfalds. A practicum student on the team page (Lacey Paulsen) mentions 'expanding into... couples therapy' but is not yet a couples provider and is not recorded. GOOGLE RATING UNVERIFIABLE: no rating/reviews in the Places details extract.",
+  "clinic_id": "cirrus-psychology-red-deer"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "cant-we-just-get-along-counselling-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Melody Evans, M.A., Registered Psychologist & Marriage and Family Therapist",
+  "practitioners": [
+   {
+    "id": "cant-we-just-get-along-counselling-calgary--melody-evans",
+    "name": "Melody Evans",
+    "as_recorded": "Melody Evans, M.A., Registered Psychologist & Marriage and Family Therapist, founder of Can't We Just Get Along Counselling - 'She specializes in EMDR trauma therapy and Gottman Method couples counselling' (clinic's own website); the clinic's Places description adds 'Melody Evans and her associates are clinical psychologists and provisional psychologists who specialize in Gottman couples therapy and EMDR Trauma therapy'"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own couples page states 'Our rates are based on the recommended fee schedule of the Psychologists Association of Alberta' but publishes no dollar figure in the extracts checked, and no priced booking page was found, so price is null.",
+  "treatment_link": "https://www.cantwejustgetalongcounselling.com/calgary-marriage-therapist/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "POSTAL CODE UNVERIFIABLE: the Places details extract gives '2424 4 St SW, Calgary, AB' with no postal code, and none appears in the clinic's own site extracts. DIRECT BILLING IS PARTIAL: only some providers direct bill, per the clinic's own couples page (quote above), so clients must confirm with their counsellor. Payment is required at the time services are provided (own site).",
+  "clinic_id": "cant-we-just-get-along-counselling-calgary"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "maritime-psychology-clinic-moncton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published in the search extracts of the clinic's own website, and no booking page was found, so price is null.",
+  "treatment_link": "http://maritimepsychologyclinic.ca/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "POSTAL CODE UNVERIFIABLE: neither the Places details extract nor the clinic's own site extracts publish one for 353 St. George Street, Suite 200. TEAM NOT TIED TO COUPLES: the clinic's Places self-description names a team ('Dr. Ken Ekstrand, Dr. Melissa Burgess Moser, Dr. ...', truncated), and the closing Clinic of Applied Psychology's site (cpamoncton.ca) notes Dr Caissie Bourque and Caleb Young now practise at Maritime Psychology Clinic, but no source checked assigns any individual to couples therapy, so practitioner and billed_as are null. The practice describes itself as a bilingual (English/French) therapy and assessment practice for children, adolescents and adults. GOOGLE RATING UNVERIFIABLE: no rating/reviews in the Places details extract.",
+  "clinic_id": "maritime-psychology-clinic-moncton"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "crossroads-counselling-psychological-services-hammonds-plains--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Amy Wiens, M.A., Registered Psychologist (Principal)",
+  "practitioners": [
+   {
+    "id": "crossroads-counselling-psychological-services-hammonds-plains--amy-wiens",
+    "name": "Amy Wiens",
+    "as_recorded": "Amy Wiens, M.A. - 'Principal - Registered Psychologist - Couples, families and individual therapy' (clinic's own team listing); she founded the practice in 2018"
+   }
+  ],
+  "price_text": "$245 per hour (Registered Psychologist) - $190 per hour (counselling therapist) for couples or family sessions",
+  "price_source": "Clinic's own fees page (crossroadscpc.ca/fees): 'All rates are per hour' - Psychologist (Registered Psychologist): $225 individual / $245 couples or family; Therapist (Counselling therapist): $175 individual / $190 couples or family; Practicum student: $25 individual / $50 couples or family.",
+  "treatment_link": "https://crossroadscpc.ca/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "SECOND COUPLES PROVIDER NOT RECORDED: Sydney Walker, M.A., Registered Counselling Therapist - Candidate (RCT-C), is listed on the clinic's site with 'a focus on relationships (EFT and Gottman training)' but appears under the individual-therapists list rather than as a couples provider, so only Amy Wiens (explicitly listed for 'Couples, families and individual therapy') is recorded. The clinic has been actively recruiting an associate psychologist focused on couples counselling (own job posts, Aug 2025 - Feb 2026) and reports an active couples waiting list, so its couples roster is in transition. GOOGLE RATING UNVERIFIABLE: the Places details extract showed the address but no rating/reviews. Booking is via a short contact form (no priced online booking page).",
+  "clinic_id": "crossroads-counselling-psychological-services-hammonds-plains"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "fenwick-psychology-wellness-associates-halifax--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published in the search extracts of the clinic's own website, and no priced booking page was found, so price is null.",
+  "treatment_link": "https://fenwickwellness.ca/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "ADDRESS DETAIL: the Places listing gives '5595 Fenwick St, Halifax, NS' with no suite or postal; Suite 314 and postal B3H 4M2 come from the clinic's own site contact block (e.g. its blog bylines: '5595 Fenwick St. Suite 314, Halifax, NS B3H 4M2'). NO COUPLES PRACTITIONER VERIFIED: the site names clinicians (e.g. Lori Parker, Registered Psychologist, a blog author) but no source checked assigns an individual to couples therapy, so practitioner and billed_as are null. GOOGLE RATING UNVERIFIABLE: no rating/reviews in the Places details extract. Record built from search extracts after the page-fetch service hit its HTTP 429 rate limit earlier in this batch.",
+  "clinic_id": "fenwick-psychology-wellness-associates-halifax"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dr-paul-s-james-vancouver--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Paul S. James, Ed.D., Registered Psychologist (CPBC #00975)",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Paul S. James, Ed.D., Registered Psychologist",
+    "id": "dr-paul-s-james-vancouver--paul-s-james",
+    "name": "Paul S. James"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No couples session fee is published on the clinic's own site. The site's structured data carries a generic 'Price Range: 190.00' that cannot be tied to couples therapy specifically, so no price was recorded.",
+  "treatment_link": "https://www.pauljames.ca/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "SECOND ADDRESS IN OWN-SITE DATA: the clinic's own site schema also lists 836 West 27th Avenue, Vancouver, BC V5Z 2G7 (Wednesday-Saturday); the contact-block address 3708 Windsor St, V5V 4N7 was recorded. PRICE UNVERIFIED: see price_source. GOOGLE RATING UNVERIFIABLE: no rating or review count appeared in the Places details extracts and the own site shows no Google badge/widget. DIRECT BILLING UNVERIFIABLE: the own site makes no direct-billing statement; booking is by phone/email only, so booking_page is null.",
+  "clinic_id": "dr-paul-s-james-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "clearheart-counselling-coquitlam--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Dan Monument, M.A., RCC; David Wang, M.C., RCC",
+  "practitioners": [
+   {
+    "as_recorded": "Dan Monument, M.A., RCC",
+    "id": "clearheart-counselling-coquitlam--dan-monument",
+    "name": "Dan Monument"
+   },
+   {
+    "as_recorded": "David Wang, M.C., RCC",
+    "id": "clearheart-counselling-coquitlam--david-wang",
+    "name": "David Wang"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own site schema gives a clinic-wide priceRange of '$175 - $280' that is not specific to couples sessions, and the clinic's rates page could not be fetched (page-fetch rate limit, HTTP 429, not retried per scan rules), so no couples price was recorded.",
+  "treatment_link": "https://www.clearheartcounselling.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "COUPLES PRACTITIONERS: the clinic's own Coquitlam couples counselling page names Dan Monument, M.A., RCC and David Wang, M.C., RCC (Wang specializes in Gottman Method Couples Counselling, confirmed in his Jane App bio). Both are BC Registered Clinical Counsellors, so couples sessions bill as Psychotherapy. PRICE: see price_source — the $175-$280 range is site-wide, not couples-specific. GOOGLE RATING UNVERIFIABLE: no rating appeared in Places details extracts for the Coquitlam listing (aggregator figures seen were for the Vancouver location and were excluded). DIRECT BILLING UNVERIFIABLE: no direct-billing statement found on the clinic's own site.",
+  "clinic_id": "clearheart-counselling-coquitlam"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "psychology-and-neurofeedback-white-rock--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No session fees are published on the clinic's own website.",
+  "treatment_link": "https://psychologyandneurofeedback.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "DIRECTORY ERROR — CITY: the directory lists this clinic in White Rock, but its address (Google Places: 2190 165 St) is physically in Surrey, BC; the directory city was kept in the city field and the Surrey street address recorded as found. DIRECTORY ERROR — NO PSYCHOLOGIST ON STAFF: despite the clinic name, the clinic's own website (fetched 2026-11-01) shows both clinicians are Registered Clinical Counsellors — Nataliya Chorna, MACP, RCC, MEd (lead) and Anita Sharma, MACP, RCC — with no registered psychologist. The site lists Gottman Family Therapy and the Places description reads 'Counseling for Individuals Couples and Kids', but no individual is named for couples sessions and there is no booking page, so no practitioner or billed_as was recorded (Practitioner Rule v2); couples work delivered by these RCCs would bill as Psychotherapy. POSTAL CODE UNVERIFIABLE: not shown in Places details or on the own site. GOOGLE RATING UNVERIFIABLE: no rating or review count in the Places details extracts. DIRECT BILLING UNVERIFIABLE: no statement on the own site.",
+  "clinic_id": "psychology-and-neurofeedback-white-rock"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "hann-psychological-services-halifax--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. S. Gerald Hann, Registered Psychologist",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. S. Gerald Hann, Registered Psychologist",
+    "id": "hann-psychological-services-halifax--s-gerald-hann",
+    "name": "S. Gerald Hann"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own site has a 'Rates: Therapy and Consultation' section but no dollar figure could be read from it in this scan; the Association of Psychologists of Nova Scotia recommended fee ($225/hr) is not the clinic's own price and was not recorded.",
+  "treatment_link": "https://www.hannpsychologicalservices.com/couples-therapy-halifax",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PRICE UNVERIFIED: see price_source. The clinic's own team page states Dr. S. Gerald Hann specializes in treatment of 'children, adolescents, adults, and couples' and the clinic's couples therapy page confirms EFT couples therapy delivered by the practice's psychologists, so billed_as is Psychology. Booking is by phone/contact form only, so booking_page is null.",
+  "clinic_id": "hann-psychological-services-halifax"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "genest-macgillivray-psychologists-halifax--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No session fees are published on the clinic's own website.",
+  "treatment_link": "http://www.halifaxpsychologists.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "NO NAMED COUPLES PRACTITIONER: the clinic's own website states all of its psychologists are doctoral-level and licensed and that its clients include couples, but no individual psychologist is named for couples therapy on the site, so no practitioner or billed_as was recorded (Practitioner Rule v2); couples work at this clinic would bill as Psychology. GOOGLE RATING UNVERIFIABLE: no rating in Places details extracts (a 5.0/2 figure on aggregator TrustAnalytica was excluded). DIRECT BILLING UNVERIFIABLE: no statement on the own site.",
+  "clinic_id": "genest-macgillivray-psychologists-halifax"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "gilmour-psychological-services-ottawa--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Deanna Drahovzal, C.Psych.; Dr. Lucas Walters (Supervised Practice); Dr. Emma Dargie, C.Psych.; Dr. Brittany Mutsaers, C.Psych.",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Deanna Drahovzal, C.Psych.",
+    "id": "gilmour-psychological-services-ottawa--deanna-drahovzal",
+    "name": "Deanna Drahovzal"
+   },
+   {
+    "as_recorded": "Dr. Lucas Walters (Supervised Practice)",
+    "id": "gilmour-psychological-services-ottawa--lucas-walters",
+    "name": "Lucas Walters"
+   },
+   {
+    "as_recorded": "Dr. Emma Dargie, C.Psych.",
+    "id": "gilmour-psychological-services-ottawa--emma-dargie",
+    "name": "Emma Dargie"
+   },
+   {
+    "as_recorded": "Dr. Brittany Mutsaers, C.Psych.",
+    "id": "gilmour-psychological-services-ottawa--brittany-mutsaers",
+    "name": "Brittany Mutsaers"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No session fees are published on the clinic's own website; fees are by inquiry to the individual psychologist.",
+  "treatment_link": "https://www.ottawa-psychologists.com/emotionally-focused-therapy",
+  "status": null,
+  "last_verified": null,
+  "gaps": "ADDRESS CONFLICTS / TWO LOCATIONS: Google Places carries two listings for this practice — 421 Gilmour St (recorded) and 1173 Cyrville Rd Ste 210 — while aggregators list yet other Gilmour St numbers (Medimap: 430 Gilmour St, K2P 0R8; Birdeye: 437 Gilmour St, K2P 0R5). POSTAL CODE UNVERIFIABLE: because the street number itself is in conflict, no postal code was recorded. COUPLES PRACTITIONERS: the clinic's own Emotionally Focused Therapy page (fetched 2026-11-01) names four psychologists with couples expertise: Dr. Drahovzal 'provides psychotherapy and assessment services to children, adults, couples, and families', Dr. Walters 'focuses on couples therapy here at GPS' (supervised practice, supervised by Dr. Drahovzal, so his couples work bills under Psychology), Dr. Dargie offers 'individual and couple therapy', and Dr. Mutsaers offers 'individual and couple psychotherapy'. GOOGLE RATING UNVERIFIABLE: no rating in the Places details extracts (Birdeye's 3.5 stars / 30 reviews is an aggregator figure and was excluded). DIRECT BILLING UNVERIFIABLE: the own site frames extended health coverage as reimbursement ('all Extended Health Care Plans provide some reimbursement for psychological service fees') with no direct-billing statement.",
+  "clinic_id": "gilmour-psychological-services-ottawa"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "rivers-edge-counselling-centre-st-albert--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Christine Crocker, Registered Psychologist (College of Alberta Psychologists Reg# 3311), MSc in Marital and Family Therapy",
+  "practitioners": [
+   {
+    "as_recorded": "Christine Crocker, Registered Psychologist, MSc in Marital and Family Therapy",
+    "id": "rivers-edge-counselling-centre-st-albert--christine-crocker",
+    "name": "Christine Crocker"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own services pages state rates vary by therapist and designation and are quoted before booking; no dollar figure is published on the clinic's own site.",
+  "treatment_link": "https://www.riversedgecounselling.com/therapists/christine-crocker/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "ADDRESS CONFLICT: the clinic's own website footer (multiple pages, read 2026-11-01) gives 14 Mission Ave, St Albert, AB T8N 1H5, which was recorded; Google Places instead lists 1 Tache St Ste 310 (postal T8N 1B4 per an aggregator) — the practice may have moved and the Places listing appears stale. WEEKEND HOURS CONFLICT: Places lists Saturday-Sunday 9:00 AM - 6:00 PM; the clinic's own family page says 9:00 AM - 5:00 PM. COUPLES PRACTITIONER: Christine Crocker's own profile states she has provided services 'to families, couples and individuals' since 2007 and holds an MSc in Marital and Family Therapy; the team page also lists her for couples work, so billed_as is Psychology.",
+  "clinic_id": "rivers-edge-counselling-centre-st-albert"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dr-mark-weinberg-vancouver--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Mark Weinberg, PhD, Registered Psychologist (CPBC #2041)",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Mark Weinberg, PhD, Registered Psychologist",
+    "id": "dr-mark-weinberg-vancouver--mark-weinberg",
+    "name": "Mark Weinberg"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The prices on the clinic's own homepage are for assessment services only (screening $450, ADHD assessment $1,500, comprehensive assessment $2,400); no couples therapy fee is published, so no price was recorded.",
+  "treatment_link": "https://www.drmarkweinberg.ca/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "DIRECTORY ERROR — NOT ACCEPTING NEW COUPLES CLIENTS: the clinic's own homepage (fetched 2026-11-01) states 'Couples therapy is available to existing couples only' and 'I am not currently accepting new couples or new FND clients', so a directory listing implying open couples intake is misleading. GOOGLE RATING UNVERIFIABLE: no rating or review count in the Places details extracts. DIRECT BILLING UNVERIFIABLE: no statement on the own site.",
+  "clinic_id": "dr-mark-weinberg-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "clinic-dr-bita-montreal--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No session fees are published on the clinic's own website.",
+  "treatment_link": "https://www.clinicdrbita.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "LOCATION NOTE: the directory lists this clinic in Montreal; the recorded office (1255 Avenue Greene, Suite #410) is in Westmount, and the clinic's own site lists four locations (Westmount, Pointe-Claire, Brossard, Laval). NO NAMED COUPLES PRACTITIONER: Couples Therapy is a named service on the clinic's own services page and founder Dr. Bita Sharifzadeh is a psychologist and psychopharmacologist (OPQ), but no individual clinician is tied to the couples service in the clinic's own pages read for this scan, so no practitioner or billed_as was recorded (Practitioner Rule v2). GOOGLE RATING UNVERIFIABLE: only marketing claims, no Places rating in extracts. DIRECT BILLING UNVERIFIABLE: a receipts mention appeared only on an aggregator (Theravive), not the clinic's own site.",
+  "clinic_id": "clinic-dr-bita-montreal"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "open-circle-psychology-winnipeg--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No session fees are published on the clinic's own website. The Manitoba Psychological Society recommended fee ($240 per 50 minutes for 2026) is not this clinic's price and was not recorded.",
+  "treatment_link": "https://www.opencirclepsychology.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "NO NAMED COUPLES PRACTITIONER: 'Couples Treatment' (emotionally focused couple therapy) is a named service on the clinic's own site and the homepage states 'We welcome 2SLGBTQI+ couples', but the team page lists roles (Clinical Psychologist, Psychological Associate Candidate — supervised, Psychometrist, CCC) without attaching a clinician's name to couples work; Ms. Lisa Van Damme, the only person named in the contact/team extracts, is the Administrative Assistant, not a clinician. No practitioner or billed_as was recorded (Practitioner Rule v2). POSTAL CODE CONFLICT ON OWN SITE: the contact block gives R3L 2T9 (recorded) while the site footer gives R3L 2T3 for the same address. PHONE UNVERIFIABLE: no phone number appears on the clinic's own site or in the Places details extract. GOOGLE RATING UNVERIFIABLE: no rating in the Places details extract.",
+  "clinic_id": "open-circle-psychology-winnipeg"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "bridge-counseling-saskatoon--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Susan Derry, Master Therapeutic Counsellor",
+  "practitioners": [
+   {
+    "as_recorded": "Susan Derry, Master Therapeutic Counsellor",
+    "id": "bridge-counseling-saskatoon--susan-derry",
+    "name": "Susan Derry"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own FAQ states fees vary by therapist and points to a Counselling Fees page; that page could not be read in this scan (page-fetch rate limit, HTTP 429, not retried per scan rules), so no figure was recorded.",
+  "treatment_link": "https://www.bridgecounseling.net/couples-counselling",
+  "status": null,
+  "last_verified": null,
+  "gaps": "COUPLES PRACTITIONER: the clinic's own marriage preparation page calls Susan Derry 'a relationship expert and master therapeutic counsellor' who offers private marriage preparation sessions, so she was recorded for couples work with billed_as Psychotherapy. The clinic has a mixed team of about 19 therapists (psychologists, registered social workers, CCCs and RTCs — Arynne Spencer, RTC, also lists Relationship & Family Issues), so a client seeing a different clinician could bill under a different credential. POSTAL CODE UNVERIFIABLE: S7K 2A9 appears only on an aggregator (VerView) and was not recorded. GOOGLE RATING UNVERIFIABLE: VerView's '3.0 Google Review' figure has no review count and is an aggregator, so it was excluded.",
+  "clinic_id": "bridge-counseling-saskatoon"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "dr-betty-st-johns--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Beatriz R. Rodriguez Rubio, PhD, R. Psych.",
+  "practitioners": [
+   {
+    "as_recorded": "Beatriz R. Rodriguez Rubio, PhD, R. Psych. (Registered Psychologist)",
+    "id": "dr-betty-st-johns--beatriz-r-rodriguez-rubio",
+    "name": "Beatriz R. Rodriguez Rubio"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (a minimal one-page site).",
+  "treatment_link": "http://www.drbetty.ca/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "The clinic's own website (fetched 2026-11-01) identifies 'Dr. Betty' as Beatriz R. Rodriguez Rubio, PhD, R. Psych., a registered psychologist, but is a minimal one-pager with no fees or services detail; couples work is confirmed by the Google Places listing name 'Dr. Betty Individual and Couples Therapy'. POSTAL CODE UNVERIFIABLE: not shown in Places details or on the own site. GOOGLE RATING UNVERIFIABLE: no rating or review count in the Places details extracts. DIRECT BILLING UNVERIFIABLE: no statement on the own site.",
+  "clinic_id": "dr-betty-st-johns"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "bayridge-counselling-centres-kitchener--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Dennis Curley, Registered Psychotherapist (RP)",
+  "practitioners": [
+   {
+    "as_recorded": "Dennis Curley, Registered Psychotherapist (RTA, ThM, RP)",
+    "id": "bayridge-counselling-centres-kitchener--dennis-curley",
+    "name": "Dennis Curley"
+   }
+  ],
+  "price_text": "Sessions from $150 (varies by therapist)",
+  "price_source": "Clinic's own Kitchener-Waterloo couples therapy page (read 2026-11-01): 'Sessions typically start at $150 and vary by therapist.'",
+  "treatment_link": "https://bayridgecounsellingcentres.ca/counselling-clinic-kitchener-waterloo/couples-marriage-therapy/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "HOURS CONFLICT: Google Places lists full-week hours for the Kitchener-Waterloo office, but the clinic's own Kitchener-Waterloo page lists office hours of Tuesday 11:30 AM - 6:30 PM only, suggesting limited in-person office hours at this location with most care delivered online; the Places hours were recorded and the conflict flagged. COUPLES PRACTITIONER: the clinic's own directory lists Dennis Curley, Registered Psychotherapist, for 'Couples, Individuals' and the Kitchener-Waterloo couples page names him among 'Therapists who work with couples', so billed_as is Psychotherapy. This is one of several Bayridge locations; the recorded phone (519-914-5026) is the Kitchener-Waterloo office line (head office: 905-319-1488). GOOGLE RATING UNVERIFIABLE: no rating in Places details extracts for this location.",
+  "clinic_id": "bayridge-counselling-centres-kitchener"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "homesafe-psychology-ottawa--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Alyna Reesor, MSc, CPsych, CCFT",
+  "practitioners": [
+   {
+    "as_recorded": "Alyna Reesor, MSc, CPsych, CCFT (Registered Psychologist, CPO Licence #5021)",
+    "id": "homesafe-psychology-ottawa--alyna-reesor",
+    "name": "Alyna Reesor"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Fees are not published on the clinic's own website (the site shows only a '$$' price indicator).",
+  "treatment_link": "https://homesafepsychology.ca/services/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "COUPLES PRACTITIONER: the practice is led by Alyna Reesor, MSc, CPsych, CCFT — a registered psychologist (College of Psychologists of Ontario Licence #5021) and Certified Couple and Family Therapist — and couples therapy is a core service listed on the clinic's own services page, so she was recorded with billed_as Psychology. FEES UNPUBLISHED: see price_source. GOOGLE RATING UNVERIFIABLE: no rating in Places details extracts. DIRECT BILLING UNVERIFIABLE: no statement on the own site.",
+  "clinic_id": "homesafe-psychology-ottawa"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "clinique-de-psychologie-berri-montreal--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Dr François Bilodeau, PhD, Psychologue (OPQ)",
+  "practitioners": [
+   {
+    "as_recorded": "Dr François Bilodeau, PhD, Psychologue (OPQ)",
+    "id": "clinique-de-psychologie-berri-montreal--francois-bilodeau",
+    "name": "François Bilodeau"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Fees are not published on the clinic's own website.",
+  "treatment_link": "https://psyberri.com/psychologue-de-la-clinique-de-psychologie-berri/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "COUPLES PRACTITIONER: the clinic's own team page states clinic director Dr François Bilodeau, PhD, Psychologue (OPQ), 'offre des services d'évaluation et de psychothérapie aux adultes couples' (offers assessment and psychotherapy services to adults and couples), so he was recorded with billed_as Psychology; the clinic has 30+ professionals and couples are among its listed clienteles. POSTAL CODE UNVERIFIABLE: only the H2L district appears via an aggregator (Medimap), so no full postal code was recorded. GOOGLE RATING UNVERIFIABLE: Medimap's 4.2 figure is an aggregator rating and was excluded; no rating appeared in Places details extracts. DIRECT BILLING UNVERIFIABLE: no statement on the own site.",
+  "clinic_id": "clinique-de-psychologie-berri-montreal"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "coreology-physiotherapy-ottawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Niamh Aisling Lawlor , PT",
+  "practitioners": [
+   {
+    "as_recorded": "Niamh Aisling Lawlor , PT",
+    "id": "coreology-physiotherapy-ottawa--niamh-aisling-lawlor",
+    "name": "Niamh Aisling Lawlor"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.coreologyphysiotherapy.ca",
+  "status": null,
+  "last_verified": null,
+  "gaps": "No price found: the clinic's own site publishes no fee/booking price in the pages or search extracts reviewed, and no booking page was found, so price_text and booking_page are null. Direct billing unverifiable: the own-site FAQ only says pelvic floor/prenatal physiotherapy is covered if the patient's plan includes physiotherapy, which is not a direct-billing statement. No Google rating: Places details returned rating null. Pelvic floor premise verified on the own site: the practitioner profile states advanced postgraduate training in pelvic floor physiotherapy and the FAQ addresses pelvic floor physiotherapy sessions and states it is covered under physiotherapy benefits.",
+  "clinic_id": "coreology-physiotherapy-ottawa"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "kingston-pelvic-health-kingston--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Kara Messenger, Pelvic Health Physiotherapist; Brittany Church, Pelvic Health Physiotherapist; Maura Leslie, Pelvic Health Physiotherapist; Elianna Hanna, Pelvic Health Physiotherapist; Cindy Auchincloss, Affiliate Pelvic Health Physiotherapist",
+  "practitioners": [
+   {
+    "as_recorded": "Kara Messenger, Pelvic Health Physiotherapist",
+    "id": "kingston-pelvic-health-kingston--kara-messenger",
+    "name": "Kara Messenger"
+   },
+   {
+    "as_recorded": "Brittany Church, Pelvic Health Physiotherapist",
+    "id": "kingston-pelvic-health-kingston--brittany-church",
+    "name": "Brittany Church"
+   },
+   {
+    "as_recorded": "Maura Leslie, Pelvic Health Physiotherapist",
+    "id": "kingston-pelvic-health-kingston--maura-leslie",
+    "name": "Maura Leslie"
+   },
+   {
+    "as_recorded": "Elianna Hanna, Pelvic Health Physiotherapist",
+    "id": "kingston-pelvic-health-kingston--elianna-hanna",
+    "name": "Elianna Hanna"
+   },
+   {
+    "as_recorded": "Cindy Auchincloss, Affiliate Pelvic Health Physiotherapist",
+    "id": "kingston-pelvic-health-kingston--cindy-auchincloss",
+    "name": "Cindy Auchincloss"
+   }
+  ],
+  "price_text": "$170 initial · $120 follow-up · $150 extended follow-up",
+  "price_source": "Pelvic-floor-specific prices on the clinic's own Services page (https://www.kingstonpelvichealth.com/services): Pelvic Health Initial Assessment 80 minutes $170, Pelvic Health Follow-up 40 minutes $120, Extended Pelvic Follow-up 60 minutes $150.",
+  "treatment_link": "https://www.kingstonpelvichealth.com/services",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Direct billing unverifiable: no direct-billing statement was found on the clinic's own site in the pages/search extracts reviewed. No Google rating: Places details returned rating null. No separate booking URL was extracted (the Services page says online bookings are for follow-up appointments only and directs initial assessments to contact the clinic), so booking_page is null. Team member Sarah Wattam is listed only as 'Physiotherapist' on the team page and was not recorded, as an individual pelvic-floor listing for her was not verified in the extracts obtained before the page-fetch service returned HTTP 429; the five recorded practitioners each have an explicit 'Pelvic Health Physiotherapist' profile on the own site.",
+  "clinic_id": "kingston-pelvic-health-kingston"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "women-s-wellness-physiotherapy-saskatoon--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "http://wwphysiotherapy.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PREMISE FLAG / billed_as null: pelvic floor physiotherapy by a physiotherapist could not be verified from the clinic's own website. The page-fetch service returned HTTP 429 before this site could be opened, and search extracts of wwphysiotherapy.com returned only the Places listing (categories Physical Therapist / Women's Health Clinic / Wellness Center) with no own-site service, practitioner, price or booking content, so no practitioner, price or pelvic-floor treatment link is recorded and treatment_link is the clinic homepage only. Direct billing unverifiable for the same reason. No Google rating: Places details returned rating null. Note: a separate listing, YXE Women's Health, shares this address and phone number in Places with slightly different hours (8:30 AM-4:30 PM); the hours recorded here are the ones Places attaches to Women's Wellness Physiotherapy itself.",
+  "clinic_id": "women-s-wellness-physiotherapy-saskatoon"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "donald-physiotherapy-saskatoon--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Michelle Donald, Pelvic Health Physiotherapist",
+  "practitioners": [
+   {
+    "as_recorded": "Michelle Donald | BScPT, BSc(Hons), CAFCI, CGTTP, Pelvic Health Physiotherapist",
+    "id": "donald-physiotherapy-saskatoon--michelle-donald",
+    "name": "Michelle Donald"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.donaldphysiotherapy.com/physiotherapy.html",
+  "status": null,
+  "last_verified": null,
+  "gaps": "No price found: no fee schedule for physiotherapy or pelvic floor physiotherapy was found on the clinic's own site in the pages/search extracts reviewed, and no booking page was found, so price_text and booking_page are null. Direct-billing statement is qualified ('most of the time') and appears in an own-site blog explainer about physiotherapy rather than on a fees/billing page. Pelvic floor premise verified on the own site: the Physiotherapy Services page lists 'PELVIC FLOOR PHYSIOTHERAPY' as a specialized assessment and treatment service, and Michelle Donald's own-site profile is titled Pelvic Health Physiotherapist with pelvic floor coursework and Pelvic Floor Physiotherapy among her services. Record built partly from search extracts of the clinic's own pages after the page-fetch service returned HTTP 429.",
+  "clinic_id": "donald-physiotherapy-saskatoon"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "the-wellness-clinic-brandon-brandon--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://wellnessclinicbrandon.janeapp.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PREMISE FLAG / billed_as null and DIRECTORY ERROR: no pelvic floor physiotherapy, and no physiotherapy service at all, could be verified for this clinic from its own website or Jane booking page. The page-fetch service returned HTTP 429 before either could be opened, and search extracts returned only the Places listing, whose categories are Wellness Center / Medical Clinic / Health & Medical / Alternative & Holistic Health Service (no Physical Therapist category) and whose description describes doctors, nurses, therapists and health professionals providing whole-person care. No practitioner, price or direct-billing statement is recorded. Directory error: the directory's website hint for this clinic is its Jane booking URL (wellnessclinicbrandon.janeapp.com), not its website; Places gives the actual website as thewellnessclinicbrandoninc.ca. No Google rating: Places details returned rating null.",
+  "clinic_id": "the-wellness-clinic-brandon-brandon"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "elite-sports-injury-winnipeg--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Lee Macauley and Leah Dlot",
+  "practitioners": [
+   {
+    "as_recorded": "Lee Macauley is accepting new pelvic health patients at our Bridgwater location.",
+    "id": "elite-sports-injury-winnipeg--lee-macauley",
+    "name": "Lee Macauley"
+   },
+   {
+    "as_recorded": "certified pelvic health physiotherapists Lee Macauley and Leah Dlot",
+    "id": "elite-sports-injury-winnipeg--leah-dlot",
+    "name": "Leah Dlot"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://physiowinnipeg.com/pelvic-floor-physiotherapy/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Multi-location clinic (five Winnipeg locations): pelvic floor physiotherapy is offered only at the Bridgwater location per the clinic's own pelvic floor page, so this record uses Bridgwater's address, phone and Places hours; the directory entry does not specify a location. No pelvic-floor or general physiotherapy price was found on the clinic's own site or booking flow (the only price on the own site was a $250/$150 running assessment, a different service, so it was not used); price_text is null. No separate Jane/booking-platform URL was verified — the own site says to book online at physiowinnipeg.com or call the Bridgwater clinic — so booking_page is null. Phone conflict on the pelvic floor page itself: the Lee Macauley FAQ and Places give Bridgwater (204) 926-2218, while a second FAQ block on the same page says call 204-926-2219; the Bridgwater-specific 2218 number was recorded. Google Places details for Bridgwater returned no rating (rating null), so google_rating/google_reviews are null.",
+  "clinic_id": "elite-sports-injury-winnipeg"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "urospot-regina-regina--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://urospot.com/regina/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "PREMISE FLAG — billed_as set to null: UROSPOT is a franchise built around a HIFEM/Emsella-style chair treatment (30-minute, fully clothed sessions; the own site's header promises only 'Partial benefit coverage'). The Regina page claims 'pelvic health physiotherapy' and says 'UROSPOT Physiotherapy Services are eligible for extended health benefit coverage', but it also says 'our Nurse will determine the right course of therapy with the technology and our physiotherapist will develop an individualized care plan for you' — i.e. the technology treatment itself is nurse-determined, no physiotherapist is named for the Regina location anywhere on the own site, and there is no booking page listing a physiotherapist for pelvic floor sessions. Who delivers the chair sessions and whether those sessions bill as physiotherapy could not be verified, so no practitioner and no price are recorded and billed_as is null. No price is published on the own site; price_text is null. Booking is a complimentary consult / call-to-book from the own site, with no separate booking-platform URL verified, so booking_page is null. Google Places details for UROSPOT Regina (place_id 985587094438737) returned no rating (rating null), so google_rating/google_reviews are null.",
+  "clinic_id": "urospot-regina-regina"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "holistic-physiotherapy-wellness-saskatoon--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Kim Deschamps and Tashelle Peigan",
+  "practitioners": [
+   {
+    "as_recorded": "Clinic Owner & CEO, Physiotherapist, Pelvic and Women's Health Therapist, Yoga Therapist",
+    "id": "holistic-physiotherapy-wellness-saskatoon--kim-deschamps",
+    "name": "Kim Deschamps"
+   },
+   {
+    "as_recorded": "Physiotherapist, Pelvic and Women's Health Clinical Specialist",
+    "id": "holistic-physiotherapy-wellness-saskatoon--tashelle-peigan",
+    "name": "Tashelle Peigan"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.holisticphysiowellness.ca/pelvic-floor-physiotherapy",
+  "status": null,
+  "last_verified": null,
+  "gaps": "No price could be verified: the Jane booking page's treatment/price list was not in the fetched portion, a follow-up fetch hit the page-fetch rate limit (HTTP 429) and was not retried per scan rules, and pricing on the own site's pelvic floor page appears only in an image ('Price Change.png') that could not be read as text; price_text is null. Hours conflict: the own site's footer on the pelvic floor page lists Mo 07:00-18:00, Tu 07:00-16:00, We 07:00-18:00, Th 07:00-18:00, Fr 07:00-16:00 with no weekend hours shown, while Google Places lists longer hours including Sat 10:00 AM-2:00 PM and Sun 10:00 AM-1:00 PM; the Places set was recorded and the conflict is flagged here. Direct billing is unverifiable from the clinic's own site: a site search for 'direct billing' on holisticphysiowellness.ca returned no statement (a direct-billing claim appears only on the HealthHives aggregator, which was not used per sourcing rules), so direct_billing is 'unverifiable' with no quote. Practitioner note: the Jane booking page states Kim Deschamps is not accepting new clients and that all pelvic floor physiotherapy assessments are to be booked with Tashelle Peigan, who is accepting new clients; both are listed as pelvic health physiotherapists on the clinic's own pelvic floor page, so both are recorded as published.",
+  "clinic_id": "holistic-physiotherapy-wellness-saskatoon"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "pelvico-health-centre-halifax--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://www.pelvico.ca/physiotherapy",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Directory/location issue: the directory lists the clinic as Halifax and links the physiotherapy page, but that page's address is the Bedford location, 36 Duke Street (Suite 3), Bedford, NS B4A 2Z5; the clinic's second location is the actual Halifax one at 114 Chain Lake Drive (Suite 5), Halifax, NS B3S 1B1. This record uses the Bedford address matching the linked physiotherapy page and the first Places record, with city kept as Halifax per the directory/clinic_id scheme. The booking_page recorded is the verified Jane page for the Bayer's Lake (Halifax) location; a separate Bedford Jane location page was not verified in this scan. Hours conflict: Google Places details for 36 Duke St give Friday 8:00 AM-3:00 PM, while the clinic's own site footer gives Friday 08:00-14:00; the own-site hours were recorded. No price was found on the own site or in the Jane booking extract (the Jane treatment/price list sidebar was not in the fetched text), so price_text is null. No practitioner is recorded: the Jane page lists physiotherapists under a combined 'Physiotherapy (pelvic & ortho)' heading without a pelvic-floor-specific roster in the fetched text — a physiotherapist whose bio centres on pelvic health appears only as 'Molly' with no surname in the extract, and Paige Larkin is described only as having been 'interested in pelvic health' — so no fully named practitioner could be tied to pelvic floor physiotherapy specifically per the recording rule. Direct billing is unverifiable from the clinic's own site: a site search for direct billing/insurance on pelvico.ca returned no statement (a direct-billing claim about Pelvico appears on a partner gym's site, Kaos CrossFit, which is not the clinic's own site and was not used), so direct_billing is 'unverifiable' with no quote. Google Places details returned no rating (rating null) for either location, even though the Places description text claims '100+ 5 star reviews'; no numeric rating/count could be verified, so google_rating/google_reviews are null.",
+  "clinic_id": "pelvico-health-centre-halifax"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "cn-physiotherapy-ottawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Mary Bishai",
+  "practitioners": [
+   {
+    "as_recorded": "What to Expect in Your First Pelvic Floor Assessment with Mary Bishai",
+    "id": "cn-physiotherapy-ottawa--mary-bishai",
+    "name": "Mary Bishai"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "treatment_link": "https://cnphysiotherapy.ca/pt-center-services/pelvic-health/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Multi-location clinic: the own site lists three Ottawa/Orléans locations (Carling, Fallingbrook, Orleanswood) and the directory entry does not specify one; this record uses Carling (3029 Carling Ave Unit G4), the primary Google Places record and the location shown on the Jane booking page footer. Practitioner location note: the clinic's own site ties Mary Bishai specifically to pelvic floor assessments ('Mary Bishai and the team at CN Physiotherapy provide compassionate, professional pelvic floor physiotherapy at our clinics in Ottawa and Orléans'), but she does not appear in the Carling Jane booking roster extract, so which location(s) she practises at could not be pinned down; no credential for her is stated on the own site and none is implied. The own site notes an Emsella chair may be included in a pelvic floor plan after assessment; the assessment itself is physiotherapist-delivered, so billed_as remains Physiotherapy. No price was found on the clinic's own site or in the Jane booking extract (the Jane treatment/price list sidebar was not in the fetched text), so price_text is null. Google Places details for the Carling location returned no rating values (avg_rating/num_rating null), so google_rating/google_reviews are null.",
+  "clinic_id": "cn-physiotherapy-ottawa"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "rae-physiotherapy-pilates-vancouver--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Kim Rae Jackson, Registered Physiotherapist, Pelvic Floor Rehabilitation (Jane booking page); Mahan, Registered Physiotherapist, advanced training in Pelvic Floor (own team page; surname not published); Kimberly, Registered Physiotherapist, specialized training in pelvic health physiotherapy including certification in internal pelvic examinations (own team page; surname not published); Emma, Registered Physiotherapist, advanced training in Pelvic Floor, provides pelvic health physiotherapy (own team page; surname not published)",
+  "practitioners": [
+   {
+    "id": "rae-physiotherapy-pilates-vancouver--kim-rae-jackson",
+    "name": "Kim Rae Jackson",
+    "as_recorded": "Kim Rae Jackson is a Registered Physiotherapist; certifications include Pelvic Floor Rehabilitation (Jane booking page https://raephysiotherapy.janeapp.com)"
+   },
+   {
+    "id": "rae-physiotherapy-pilates-vancouver--mahan",
+    "name": "Mahan",
+    "as_recorded": "Mahan — EDUCATION: Registered Physiotherapist, advanced training in Pelvic Floor, pregnancy + postpartum support, Clinical Pilates, Hypermobility Solutions Course; Pelvic Floor Physiotherapy training through Pelvic Health Solutions (own team page https://www.raephysiotherapy.com/team; surname not published)"
+   },
+   {
+    "id": "rae-physiotherapy-pilates-vancouver--kimberly",
+    "name": "Kimberly",
+    "as_recorded": "Kimberly — EDUCATION: Registered Physiotherapist, Advanced training in Pelvic Floor, pregnancy & postpartum support, Clinical Pilates and IMS; specialized training in pelvic health physiotherapy, including certification in internal pelvic examinations (own team page https://www.raephysiotherapy.com/team; surname not published)"
+   },
+   {
+    "id": "rae-physiotherapy-pilates-vancouver--emma",
+    "name": "Emma",
+    "as_recorded": "Emma — EDUCATION: Registered Physiotherapist, advanced training in Pelvic Floor, pregnancy + postpartum support, Clinical Pilates, Hypermobility Solutions Course; provides pelvic health physiotherapy (own team page https://www.raephysiotherapy.com/team; surname not published)"
+   }
+  ],
+  "price_text": "$215 70-min initial · $195 55-min follow-up · $160 40-min follow-up",
+  "price_source": "Pelvic-floor-specific price on the clinic's own Jane booking page https://raephysiotherapy.janeapp.com: under the single heading 'Standard Physiotherapy / Clinical Pilates / Pelvic Floor Physiotherapy' (Fee Update – Effective October 1, 2026) it lists 55-min initial $195, 55-min follow-up $195, 40-min follow-up $160 and 70-min initial/extended $215, so Pelvic Floor Physiotherapy is explicitly priced on that heading rather than inferred from a general-physio price. The clinic FAQ https://www.raephysiotherapy.com/faqs states pelvic floor initial visits are always 70 minutes, so the $215 70-min initial is recorded as the pelvic initial. Appointments with Kim Rae Jackson are priced separately on the same page ($315 90-min initial assessment, $210 55-min follow-up).",
+  "treatment_link": "https://raephysiotherapy.janeapp.com",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Google rating/reviews unverifiable per sourcing rules: the Google Places details surfaced in search results for this listing showed address, phone and hours but no rating or review count, and the clinic's own site carries no Google rating badge/widget; no aggregator figures were used. Hours conflict: a footer widget on the clinic's own team page shows Mon-Fri 7:00 AM-7:00 PM and Sat 9:00 AM-5:00 PM, which conflicts with the Places hours recorded here; Sunday hours are listed in neither source used. Practitioner surnames for Mahan, Kimberly and Emma are not published on the clinic's own team page or Jane booking page (first names only), so they are recorded as published. Kim Rae Jackson's in-person waitlist is closed and she is not accepting new physiotherapy patients, per the Jane booking page. Directory name uses '+' ('Rae Physiotherapy + Pilates') while the clinic's own site/Jane use '&' ('Rae Physiotherapy & Pilates'); same clinic, no directory error on identity, address or phone.",
+  "clinic_id": "rae-physiotherapy-pilates-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "acumamas-wellness-vancouver--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Jessie, registered physiotherapist, pelvic health focus (Jane booking page; surname not published); Maria Tyumkin, Master of Physical Therapy, Pelvic Health Solutions Level 1 pelvic health training and advanced pelvic health training (Jane booking page)",
+  "practitioners": [
+   {
+    "id": "acumamas-wellness-vancouver--jessie",
+    "name": "Jessie",
+    "as_recorded": "Jessie is a registered physiotherapist who completed her Master of Physical Therapy at the University of British Columbia in 2022; she works with clients on pelvic health, bladder or bowel concerns, pain, pregnancy and postpartum recovery (Jane booking page https://acumamas.janeapp.com/locations/acumamas-wellness/book; surname not published)"
+   },
+   {
+    "id": "acumamas-wellness-vancouver--maria-tyumkin",
+    "name": "Maria Tyumkin",
+    "as_recorded": "Maria Tyumkin completed her Master of Physical Therapy at Queen's University in 2019; Advanced Certifications include Pelvic Health Solutions: Level 1 – The Physical Therapy Approach to Female and Male Urinary Incontinence, and advanced training in pre-post natal care, birth preparation, incontinence, prolapse, bowel/bladder health and persistent pelvic pain (Jane booking page https://acumamas.janeapp.com/locations/acumamas-wellness/book)"
+   }
+  ],
+  "price_text": "$195 initial · $180 60-min follow-up · $150 45-min follow-up · $120 30-min follow-up",
+  "price_source": "Pelvic-floor-specific price on the clinic's own site https://acumamas.com/pregnancy/ under 'Treatments & fees': 'Prenatal Pelvic Floor Physiotherapy $195 — Subsequent sessions cost $180 (60 min); $150 (45 min); $120 (30 min).' The price is published for the prenatal pelvic floor physiotherapy service delivered by the clinic's physiotherapists; the general pelvic floor page https://acumamas.com/pelvic-floor-physiotherapy/ publishes no separate fee and the Jane booking page lists no prices in its text.",
+  "treatment_link": "https://acumamas.com/pelvic-floor-physiotherapy/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Premise CHECKED AND PASSES (contrary to the acupuncture-only suspicion in the task note): although Acumamas is a multidisciplinary, acupuncture-led clinic, its own site has a dedicated pelvic floor physiotherapy page ('Our pelvic floor physiotherapists are trained in trauma-informed, perinatal-focused care'), its pregnancy page lists Pelvic Floor Physiotherapy among its modalities, and its Jane booking page lists two registered physiotherapists with pelvic health training (Jessie and Maria Tyumkin) — so billed_as remains Physiotherapy. Direct billing unverifiable: no statement that the clinic direct-bills insurers (or is receipts-only) was found on the clinic's own site or Jane booking page; an FAQ answer about using extended health benefits appears only on HealthHives, an aggregator, and was excluded. Hours conflict: Google Places details showed Mon-Fri 9:00 AM-7:00 PM and Sat 8:00 AM-6:00 PM for the main listing (and 9:00 AM-8:00 PM daily for a 'Pelvic Floor Physio at Acumamas Wellness' sub-listing), conflicting with the own-site footer hours recorded here; a widget line on the own site also shows different hours (Mo-Fr 09:00-19:00, Sa 12:00-18:00). Price gap: the only pelvic floor fee published is for the prenatal service; no separate non-prenatal pelvic floor fee is published. Jessie's surname is not published on the own site/booking page. The Places rating count (15) is low and may be stale relative to live Google.",
+  "clinic_id": "acumamas-wellness-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "bloom-physiotherapy-pelvic-health-vancouver--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Aimee, registered physiotherapist, Level 1 and 2 pelvic health courses (Jane booking page; surname not published); Natasha, certified in pelvic health physiotherapy Levels I, II and III (Jane; surname not published); Carmen, pelvic health and orthopaedic physiotherapist, Pelvic Health Solutions training (Jane; surname not published; on maternity leave as of August 17, 2026); Nazly, certified Pelvic Health physiotherapist (Jane; surname not published); Cassandra, fully certified in Pelvic Health physiotherapy Level I, II and III (Jane; surname not published); Angie, Pelvic Floor Training PHS Levels 1-3 (Jane; surname not published)",
+  "practitioners": [
+   {
+    "id": "bloom-physiotherapy-pelvic-health-vancouver--aimee",
+    "name": "Aimee",
+    "as_recorded": "Aimee is a registered physiotherapist; advanced training in pelvic health, completing Level 1 and 2 pelvic health courses, along with specialized education in pregnancy and pelvic girdle pain (Jane booking page https://bloom-physiotherapy.janeapp.com/locations/bloom/book; surname not published)"
+   },
+   {
+    "id": "bloom-physiotherapy-pelvic-health-vancouver--natasha",
+    "name": "Natasha",
+    "as_recorded": "Natasha became certified in pelvic health physiotherapy, successfully completing all levels (I, II, and III); her practice focuses on pelvic pain, incontinence, and prenatal or postpartum concerns (Jane booking page; surname not published)"
+   },
+   {
+    "id": "bloom-physiotherapy-pelvic-health-vancouver--carmen",
+    "name": "Carmen",
+    "as_recorded": "Carmen is a pelvic health and orthopaedic physiotherapist; additional training through Pelvic Health Solutions in incontinence, pelvic pain, the biopsychosocial model, and pregnancy-related pelvic girdle pain; on maternity leave as of August 17, 2026 (Jane booking page; surname not published)"
+   },
+   {
+    "id": "bloom-physiotherapy-pelvic-health-vancouver--nazly",
+    "name": "Nazly",
+    "as_recorded": "Nazly became certified as a Pelvic Health physiotherapist, helping individuals with pelvic pain, incontinence, and perinatal care/post-natal recovery (Jane booking page; surname not published)"
+   },
+   {
+    "id": "bloom-physiotherapy-pelvic-health-vancouver--cassandra",
+    "name": "Cassandra",
+    "as_recorded": "Cassandra became fully certified in Pelvic Health physiotherapy (Level I, II and III), treating prolapse, incontinence and pelvic girdle pain and supporting pregnancy journeys (Jane booking page; surname not published)"
+   },
+   {
+    "id": "bloom-physiotherapy-pelvic-health-vancouver--angie",
+    "name": "Angie",
+    "as_recorded": "Angie completed her Pelvic Floor Training (PHS Levels 1-3) focusing on urinary incontinence, pelvic pain through a trauma informed lens, and a biopsychosocial treatment approach, plus pelvic health courses in Pregnancy, Caesarean Birth, Pelvic Girdle Pain and the Pelvic Floor (Jane booking page; surname not published)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor or general physiotherapy price is published on the clinic's own site http://bloomphysiotherapy.ca/ (home page checked; it lists services and opening hours with no fees) or on its own Jane booking page https://bloom-physiotherapy.janeapp.com/locations/bloom/book (booking page text lists practitioner bios and appointment-length guidance for pelvic/perinatal clients with no prices), checked 2026-11-01.",
+  "treatment_link": "https://bloom-physiotherapy.janeapp.com/locations/bloom/book",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Postal code unverifiable per sourcing rules: neither the clinic's own site/Jane page (which give '943 W Broadway, Suite #140, Vancouver') nor the Google Places details surfaced in search results publish a postal code; a V5Z 4E1 code appears only in a third-party business-licence listing and was not used. Google rating/reviews unverifiable per sourcing rules: the Places details for this listing showed no rating or review count and the own site carries no Google badge; a 5.0/95 figure appears only on PainHero, an aggregator, and was excluded. Direct billing unverifiable: no direct-billing statement was found on the clinic's own site or Jane booking page. Hours conflict: Google Places listed Wednesday as 8:00 AM-7:00 PM while the clinic's own site says Mon-Thu 7am-7pm; own-site hours were recorded. Practitioner surnames are not published on the own site or Jane booking page (first names only) and are recorded as published; Dahra (Clinical Pilates/DPT on the own site) was NOT recorded because her published bio does not evidence pelvic floor physiotherapy specifically. Name variant: Google Places calls the clinic 'Bloom Physiotherapy & Pelvic Floor Health' while the clinic's own site/Jane use the directory name 'Bloom Physiotherapy & Pelvic Health'; same clinic, address and phone. Carmen is on maternity leave as of August 17, 2026 per the Jane page.",
+  "clinic_id": "bloom-physiotherapy-pelvic-health-vancouver"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "calgary-pelvic-floor-physiotherapy-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor or general physiotherapy price is published on the clinic's own site https://www.pelvicfloorcalgary.com/ (the pelvic floor service page checked 2026-11-01 describes the therapy, offers a complimentary 15-minute virtual consultation with a physio, and gives phone booking numbers, with no fees and no online booking page found).",
+  "treatment_link": "https://www.pelvicfloorcalgary.com/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Directory/location ambiguity: the clinic's own site gives no street address and lists two phone numbers, '(South) 403-455-8029' and '(North) 403-984-3970', suggesting two locations; the record uses the North number because the Google Places listing whose website is pelvicfloorcalgary.com ('Pelvic Floor Physio Calgary', 45 Greenbriar Dr NW #213, phone 403-984-3970) matches that number. A separate Places listing actually named 'Calgary Pelvic Floor Physiotherapy' exists at 1922 9 Ave SE #4 with a different website (kaaiaa.co) and phone (587-997-4253) — a possible directory conflation; it was NOT used because it does not match the directory website hint. Postal code unverifiable: neither the own site nor the Places details publish one for the Greenbriar address. No practitioner is named anywhere on the clinic's own site (it refers only to 'Our Physios'), so no practitioner could be recorded per the practitioner rule. No online booking page was found (phone booking only), so booking_page is null. Direct billing unverifiable: no direct-billing statement on the own site. Google rating/reviews unverifiable: the Places details for the pelvicfloorcalgary.com listing showed no rating or review count, and the own site carries no Google badge. The own site's FAQ link points to a staging host (annz5.sg-host.com), suggesting the site is partly migrated/unfinished.",
+  "clinic_id": "calgary-pelvic-floor-physiotherapy-calgary"
+ },
+ {
+  "clinic": null,
+  "treatment_id": "fit4life-physiotherapy-winnipeg--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "DANIELLE FRASER, BMR (PT), PHYSIOTHERAPIST — ACUPUNCTURE, CUSTOM FOOT ORTHOTICS, PELVIC FLOOR PHYSIOTHERAPY; certification in Pelvic Floor Physiotherapy through Pelvic Health Solutions (Jane booking page); TORI SLOANE (PODAIMA), BMR (PT), PHYSIOTHERAPIST — PELVIC FLOOR PHYSIOTHERAPY, PEDIATRIC PHYSIOTHERAPY, MASTITIS TREATMENT, ACUPUNCTURE, DRY NEEDLING, CUSTOM FOOT ORTHOTICS, GRASTON MYOFASCIAL TECHNIQUE; certification in Pelvic Floor Physiotherapy in 2017 (Jane booking page)",
+  "practitioners": [
+   {
+    "id": "fit4life-physiotherapy-winnipeg--danielle-fraser",
+    "name": "Danielle Fraser",
+    "as_recorded": "DANIELLE FRASER, BMR (PT), PHYSIOTHERAPIST — ACUPUNCTURE, CUSTOM FOOT ORTHOTICS, PELVIC FLOOR PHYSIOTHERAPY; she pursued and obtained her certification in Pelvic Floor Physiotherapy through Pelvic Health Solutions (Jane booking page https://fit4lifephysio.janeapp.com/locations/fit-4-life-physiotherapy/book)"
+   },
+   {
+    "id": "fit4life-physiotherapy-winnipeg--tori-sloane",
+    "name": "Tori Sloane",
+    "as_recorded": "TORI SLOANE (PODAIMA), BMR (PT), PHYSIOTHERAPIST — PELVIC FLOOR PHYSIOTHERAPY, PEDIATRIC PHYSIOTHERAPY, MASTITIS TREATMENT, ACUPUNCTURE, DRY NEEDLING, CUSTOM FOOT ORTHOTICS, GRASTON MYOFASCIAL TECHNIQUE; in 2017 Tori achieved her certification in Pelvic Floor Physiotherapy (Jane booking page https://fit4lifephysio.janeapp.com/locations/fit-4-life-physiotherapy/book)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor or general physiotherapy price is published on the clinic's own site https://fit4lifephysio.com (home, treatments and pelvic floor pages checked via search extracts) or on its own Jane booking page https://fit4lifephysio.janeapp.com/locations/fit-4-life-physiotherapy/book, whose text lists 'Pelvic Floor Physiotherapy- Adult Female/ Person With Female Anatomy' and 'Pelvic Floor Physiotherapy- Adult Male/ Person With Male Anatomy' with no prices and notes only that clinic fees would be adjusted effective January 12, 2026, checked 2026-11-01.",
+  "treatment_link": "https://fit4lifephysio.com/treatments/physiotherapy/pelvic-floor/",
+  "status": null,
+  "last_verified": null,
+  "gaps": "Rate-limit limitation: a page fetch of the clinic's own about page (fit4lifephysio.com/about-us/) returned HTTP 429 from the fetch service and was not retried per scan rules; this record was built from search-result extracts of the clinic's own pages, its Jane booking page, and Google Places details. City nuance: the Jane booking page locates the clinic at '3-2665 Henderson Highway, East St Paul' and the own site describes it as in East St. Paul (immediately northeast of Winnipeg); city is recorded as Winnipeg per the directory, and the own site itself markets the clinic as a Winnipeg clinic. Hours conflict: a widget line on the clinic's own site shows 'Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00', conflicting with the Places hours recorded here and with the own site's statement that Sundays are closed. Google review count (1) in the Places details is implausibly low for an established clinic and may be stale; it is recorded as shown in Places. No price could be verified (see price_source).",
+  "clinic_id": "fit4life-physiotherapy-winnipeg"
  }
 ]
