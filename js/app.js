@@ -164,11 +164,10 @@
     ];
     const card = (c) =>
       `<div class="claim-card">
-         <div class="claim-top"><span class="claim-name">${esc(c.name)}</span>${c.covered ? `<span class="claim-covered">${esc(c.covered)}</span>` : ""}</div>
+         <div class="claim-top"><span class="claim-name">${esc(c.name)}</span><span class="claim-side">${c.covered ? `<span class="claim-covered">${esc(c.covered)}</span>` : ""}<img class="claim-logo" src="assets/logos/manulife.svg" alt="Manulife"></span></div>
          <p class="claim-what">${esc(c.treatment)}</p>
          <p class="claim-billed">Billed as ${esc(c.billed)}</p>
          ${c.price ? `<p class="claim-price">${esc(c.price)}</p>` : ""}
-         <p class="claim-insurer"><img src="assets/logos/manulife.svg" alt="Manulife logo"><span>Claimed through Manulife</span></p>
        </div>`;
     const half = claims.map(card).join("");
     grid.innerHTML = `<div class="why-track">${half}${half}</div>`;
