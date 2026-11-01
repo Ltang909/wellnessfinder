@@ -887,3 +887,7 @@ body { font-size: 16px; }
 .tc-billed { background: var(--hl, #FFCE45); color: #191919; font-weight: 700; }
 .tc-more { color: #191919; font-weight: 700; }
 .tc-all { color: #191919; font-weight: 600; }
+
+/* Directory header: centred title, search right under it, centred */
+.dir-head--center { flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 14px; }
+.dir-head--center .dir-search { max-width: 440px; width: 100%; margin: 0 auto; text-align: center; }
