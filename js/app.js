@@ -205,15 +205,25 @@
       <a class="tc-all" href="/clinics-${slug}">See all ${total} clinics →</a>`;
   }
 
-  const MODALITY_HL = {
-    "Physiotherapy": "#3FA7F5", "Chiropractic": "#FF9E2C", "Osteopathy": "#9D6BFF",
-    "Massage Therapy": "#4ADE80", "Naturopathy": "#2EC4B6", "Acupuncture": "#FF6FAE",
-    "Speech Therapy": "#FFCE45", "Psychotherapy": "#FF6B6B"
+  /* Card accent colour = the hero fund category the treatment belongs to
+     (same highlighter shades as the rotating hero words). */
+  const FUND_HL = {
+    "Golf Swing Assessment": "#FF9E2C", "Singing Voice Therapy": "#FF9E2C", "Bike Fitting": "#FF9E2C",
+    "Cosmetic Acupuncture": "#FF6FAE", "Facial Gua Sha": "#FF6FAE", "Microneedling": "#FF6FAE",
+    "Medical Botox": "#FF6FAE", "Facial Manual Therapy": "#FF6FAE",
+    "Head Spa": "#9D6BFF", "IM Vitamin Therapy": "#9D6BFF", "IV Vitamin Therapy": "#9D6BFF",
+    "Red Light Therapy": "#9D6BFF", "Fertility Consultation": "#9D6BFF", "Fertility Acupuncture": "#9D6BFF",
+    "Clinical Pilates": "#3FA7F5", "Running Gait Analysis": "#3FA7F5", "Sports Nutrition": "#3FA7F5",
+    "Pelvic Floor Physiotherapy": "#3FA7F5",
+    "Couples Therapy": "#2EC4B6", "Neurofeedback": "#2EC4B6", "Sleep Coaching": "#2EC4B6",
+    "Lymphatic Drainage": "#FF6B6B", "Shockwave Therapy": "#FF6B6B", "TMJ Massage": "#FF6B6B",
+    "Cryotherapy": "#FF6B6B", "Myofunctional Therapy": "#FF6B6B",
+    "Interview Preparation": "#FFCE45", "Accent Modification": "#FFCE45", "Mental Performance Coaching": "#FFCE45"
   };
 
   function treatmentCardHTML(t) {
     const saved = getFavs().includes(t.name);
-    const hl = MODALITY_HL[t.categories[0]] || "#FFCE45";
+    const hl = FUND_HL[t.name] || "#FFCE45";
     const cats = t.categories.join(",");
     const img = (typeof TREATMENT_IMAGES !== "undefined" && TREATMENT_IMAGES[t.name]) || null;
     const art = img ? img.src : ((typeof TREATMENT_ART !== "undefined" && TREATMENT_ART[t.group]) || "");
