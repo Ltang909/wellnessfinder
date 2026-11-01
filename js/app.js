@@ -297,7 +297,7 @@
     const inView = fsViewTreatments();
     const featured = fsView === "All"
       ? FS_FEATURED_ALL.map((n) => TREATMENTS.find((t) => t.name === n)).filter(Boolean)
-      : inView;
+      : [...inView].sort((a, b) => fsClinics(b) - fsClinics(a)).slice(0, 4);
     const mods = FS_MOD_ORDER
       .map((m) => ({ m, list: inView.filter((t) => (t.categories || []).includes(m)) }))
       .filter((g) => g.list.length);
@@ -343,6 +343,76 @@
     setGoal() { return null; },
     clearFilters() { fsView = "All"; renderDirectory(); },
   };
+
+  /* Featured clinics stage (Four Seasons-style carousel, 2026-11-01).
+     Sits below the claims section. The switcher picks a treatment; the
+     rail rotates through up to seven of its clinics (ones with notes
+     first), the active clinic on the white centre card. */
+  const FC_TREATMENTS = [
+    { name: "Golf Swing Assessment", label: "Golf Swing", sub: "TPI movement screens from certified clinicians, billed as physiotherapy or chiropractic." },
+    { name: "Clinical Pilates", label: "Clinical Pilates", sub: "One-on-one reformer care from registered physiotherapists, billed through your extended health benefits." },
+    { name: "Microneedling", label: "Microneedling", sub: "Collagen-focused skin treatments paired with naturopathic care, billed as naturopathy." },
+  ];
+  let fcTreatment = "Clinical Pilates";
+  let fcIndex = 0;
+
+  function fcFeatured(name) {
+    const all = (gtaDataFor(name) || { clinics: [] }).clinics;
+    const noted = all.filter((c) => (c.note || "").trim().length > 30);
+    const rest = all.filter((c) => (c.note || "").trim().length <= 30);
+    return { featured: [...noted, ...rest].slice(0, 7), total: all.length };
+  }
+  function renderFeaturedClinics() {
+    const root = $("#fcRoot"); if (!root || typeof TREATMENTS === "undefined") return;
+    const cfg = FC_TREATMENTS.find((x) => x.name === fcTreatment) || FC_TREATMENTS[1];
+    const t = TREATMENTS.find((x) => x.name === fcTreatment);
+    const { featured, total } = fcFeatured(fcTreatment);
+    if (!featured.length) { root.innerHTML = ""; return; }
+    fcIndex = ((fcIndex % featured.length) + featured.length) % featured.length;
+    const n = featured.length;
+    const at = (k) => featured[((fcIndex + k) % n + n) % n];
+    const img = t ? fsImg(t) : "";
+    const slug = treatmentSlug(fcTreatment);
+    const panel = (c) => `<div class="fc-panel"><span>${esc(c.name)} \u2014 ${esc(c.city || "")}</span></div>`;
+    const active = at(0);
+    const note = (active.note || "").trim();
+    const desc = note
+      ? note.charAt(0).toUpperCase() + note.slice(1) + (note.endsWith(".") ? "" : ".")
+      : `${active.name} offers ${fcTreatment.toLowerCase()} in ${active.city || "Canada"}.`;
+    root.innerHTML = `
+    <div class="fc-stage">
+      <div class="fc-bg" style="background-image:url('${esc(img)}')"></div>
+      <div class="fc-shade"></div>
+      <div class="fc-inner">
+        <p class="fc-label">Featured Clinics</p>
+        <div class="fc-switcher">${FC_TREATMENTS.map((x) =>
+          `<button type="button" class="fc-switch ${x.name === fcTreatment ? "active" : ""}" data-fc-treat="${esc(x.name)}">${esc(x.label)}</button>${x !== FC_TREATMENTS[FC_TREATMENTS.length - 1] ? '<span class="fc-dot">\u2022</span>' : ""}`).join("")}</div>
+        <p class="fc-sub">${esc(cfg.sub)}</p>
+        <p class="fc-viewall"><a href="/clinics-${slug}">View all ${total} ${esc(cfg.label)} clinics \u2192</a></p>
+        <div class="fc-rail">
+          ${[-3, -2, -1].map((k) => panel(at(k))).join("")}
+          <article class="fc-card">
+            <h3>${esc(active.name)}</h3>
+            <p class="fc-city">${esc(active.city || "")}${active.prov ? `, ${esc(active.prov)}` : ""}</p>
+            <img src="${esc(img)}" alt="${esc(fcTreatment)}">
+            <p class="fc-desc">${esc(desc)}</p>
+            <a class="fc-btn" href="${esc(active.web || "#")}" target="_blank" rel="noopener">View clinic</a>
+          </article>
+          ${[1, 2, 3].map((k) => panel(at(k))).join("")}
+        </div>
+        <p class="fc-pager"><button type="button" data-fc-nav="-1" aria-label="Previous clinic">\u2039</button><b>${fcIndex + 1} / ${n}</b><button type="button" data-fc-nav="1" aria-label="Next clinic">\u203a</button></p>
+      </div>
+    </div>`;
+    if (!root.dataset.wired) {
+      root.dataset.wired = "1";
+      root.addEventListener("click", (e) => {
+        const sw = e.target.closest("[data-fc-treat]");
+        if (sw) { fcTreatment = sw.dataset.fcTreat; fcIndex = 0; renderFeaturedClinics(); return; }
+        const nav = e.target.closest("[data-fc-nav]");
+        if (nav) { fcIndex += parseInt(nav.dataset.fcNav, 10); renderFeaturedClinics(); }
+      });
+    }
+  }
 
   function renderCategories() {
     const grid = $("#catGrid"); if (!grid || typeof GOAL_CATEGORIES === "undefined") return;
@@ -945,6 +1015,7 @@
     initLocationBar();
     renderInsurers();
     renderWhy();
+    renderFeaturedClinics();
     renderDirectory();
     renderGoalChips();
     renderRecommendations();
