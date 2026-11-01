@@ -376,18 +376,46 @@
     const rest = all.filter((c) => (c.note || "").trim().length <= 30);
     return { featured: [...noted, ...rest].slice(0, 7), total: all.length };
   }
+  let fcUserPt = null;
   function renderFeaturedClinics() {
     const root = $("#fcRoot"); if (!root || typeof TREATMENTS === "undefined") return;
     const cfg = FC_TREATMENTS.find((x) => x.name === fcTreatment) || FC_TREATMENTS[1];
     const t = TREATMENTS.find((x) => x.name === fcTreatment);
     const { featured, total } = fcFeatured(fcTreatment);
     if (!featured.length) { root.innerHTML = ""; return; }
-    fcIndex = ((fcIndex % featured.length) + featured.length) % featured.length;
-    const n = featured.length;
-    const at = (k) => featured[((fcIndex + k) % n + n) % n];
+    /* Geo filter: province the user picked + 25 km around their postal
+       code. Fall back to the whole province, then to the full set. */
+    const prov = window.wfProv ? wfProv.get() : "";
+    const postal = wfLoc.get();
+    const pt = fcUserPt;
+    const ann = featured.map((c) => {
+      const geo = (typeof FC_GEO !== "undefined" && FC_GEO[c.name]) || null;
+      const d = pt && geo && geo.lat != null ? haversineKm(pt, [geo.lat, geo.lng]) : null;
+      return { c, geo, d };
+    });
+    let vis = ann, geoNote = "";
+    if (pt) {
+      const near = ann.filter((a) => a.d !== null && a.d <= 25).sort((a, b) => a.d - b.d);
+      if (near.length) { vis = near; geoNote = `Within 25 km of ${esc(postal.toUpperCase())}`; }
+    }
+    if (vis === ann && prov) {
+      const inProv = ann.filter((a) => a.geo && a.geo.prov === prov)
+        .sort((a, b) => (a.d === null ? Infinity : a.d) - (b.d === null ? Infinity : b.d));
+      if (inProv.length) {
+        vis = inProv;
+        geoNote = pt ? `In ${esc(provName(prov))} — none within 25 km of ${esc(postal.toUpperCase())} yet` : `Featured in ${esc(provName(prov))}`;
+      }
+    }
+    if (vis === ann && (prov || pt)) {
+      geoNote = `No featured ${esc(cfg.label)} clinics ${prov ? `in ${esc(provName(prov))}` : "near you"} yet — showing all`;
+    }
+    fcIndex = ((fcIndex % vis.length) + vis.length) % vis.length;
+    const n = vis.length;
+    const at = (k) => vis[((fcIndex + k) % n + n) % n];
     const img = t ? fsImg(t) : "";
     const slug = treatmentSlug(fcTreatment);
-    const cardHTML = (c, k) => {
+    const cardHTML = (annItem, k) => {
+      const c = annItem.c;
       const note = (c.note || "").trim();
       const desc = note
         ? note.charAt(0).toUpperCase() + note.slice(1) + (note.endsWith(".") ? "" : ".")
@@ -404,6 +432,7 @@
       return `<article class="fc-card ${k === 0 ? "fc-card--active" : "fc-card--side"}" ${k === 0 ? "" : `data-fc-jump="${k}" role="button" tabindex="0" aria-label="Show ${esc(c.name)}"`}>
             <h3>${esc(c.name)}</h3>
             <p class="fc-city">${esc(c.city || "")}${c.prov ? `, ${esc(c.prov)}` : ""}</p>
+            ${annItem.d !== null && annItem.d !== undefined ? `<p class="fc-dist">📍 ${annItem.d < 1 ? "<1" : Math.round(annItem.d)} km away</p>` : ""}
             <img src="${esc(media.img || img)}" alt="${esc(c.name)}">
             <p class="fc-desc">${esc(desc)}</p>
             ${stars}${pract}${price}${db}
@@ -421,6 +450,7 @@
           `<button type="button" class="fc-switch ${x.name === fcTreatment ? "active" : ""}" data-fc-treat="${esc(x.name)}">${esc(x.label)}</button>${x !== FC_TREATMENTS[FC_TREATMENTS.length - 1] ? '<span class="fc-dot">\u2022</span>' : ""}`).join("")}</div>
         <p class="fc-sub">${esc(cfg.sub)}</p>
         <p class="fc-viewall"><a href="/clinics-${slug}">View all ${total} ${esc(cfg.label)} clinics \u2192</a></p>
+        ${geoNote ? `<p class="fc-geo">${geoNote}</p>` : ""}
         <div class="fc-rail">
           ${(() => { const lo = -Math.floor((n - 1) / 2), hi = Math.ceil((n - 1) / 2); const ks = []; for (let k = lo; k <= hi; k++) ks.push(k); return ks.map((k) => cardHTML(at(k), k)).join(""); })()}
         </div>
@@ -605,13 +635,19 @@
       Math.sin(dLon / 2) * Math.sin(dLon / 2);
     return 2 * R * Math.asin(Math.sqrt(s));
   }
+  let _fsaTable = null;
+  function fsaCoords(fsa) {
+    if (!_fsaTable) {
+      _fsaTable = fetch("/js/fsa-data.json")
+        .then((r) => { if (!r.ok) throw new Error("fsa"); return r.json(); })
+        .catch(() => ({}));
+    }
+    return _fsaTable.then((t) => t[fsa] || null);
+  }
   function getUserCoords(postal) {
     const cleaned = String(postal || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
     const fsa = cleaned.slice(0, 3);
-    return fetch("https://api.zippopotam.us/ca/" + fsa)
-      .then((r) => { if (!r.ok) throw new Error("geo"); return r.json(); })
-      .then((j) => [parseFloat(j.places[0].latitude), parseFloat(j.places[0].longitude)])
-      .catch(() => POSTAL_REGION[cleaned[0]] || CITY_COORDS["Toronto"]);
+    return fsaCoords(fsa).then((pt) => pt || POSTAL_REGION[cleaned[0]] || CITY_COORDS["Toronto"]);
   }
   function clinicCoords(c) {
     if (c && c.lat != null && c.lng != null) return [parseFloat(c.lat), parseFloat(c.lng)];
@@ -639,6 +675,20 @@
   };
   window.wfLoc = wfLoc;
 
+  /* ---------- province: user-picked, site-wide ---------- */
+  const PROV_KEY = "wf_province";
+  const PROVINCES = [["ON", "Ontario"], ["QC", "Quebec"], ["BC", "British Columbia"], ["AB", "Alberta"], ["MB", "Manitoba"], ["SK", "Saskatchewan"], ["NS", "Nova Scotia"], ["NB", "New Brunswick"], ["NL", "Newfoundland and Labrador"], ["PE", "Prince Edward Island"], ["YT", "Yukon"], ["NT", "Northwest Territories"], ["NU", "Nunavut"]];
+  const FSA_PROV = { A: "NL", B: "NS", C: "PE", E: "NB", G: "QC", H: "QC", J: "QC", K: "ON", L: "ON", M: "ON", N: "ON", P: "ON", R: "MB", S: "SK", T: "AB", V: "BC", X: "NT", Y: "YT" };
+  const provName = (code) => (PROVINCES.find((p) => p[0] === code) || [code, code])[1];
+  const wfProv = {
+    get() { try { return localStorage.getItem(PROV_KEY) || ""; } catch { return ""; } },
+    set(v) {
+      if (window.wfStoreSet) window.wfStoreSet(PROV_KEY, v);
+      else { try { localStorage.setItem(PROV_KEY, v); } catch {} }
+    },
+  };
+  window.wfProv = wfProv;
+
   function initLocationBar() {
     if (document.getElementById("locBar")) return;
     const header = document.querySelector(".site-header");
@@ -647,8 +697,8 @@
     bar.id = "locBar";
     bar.className = "loc-bar";
     header.insertAdjacentElement("afterend", bar);
-    const formHTML = (val) =>
-      `<form class="loc-form" data-loc-form><input name="postal" placeholder="Postal code" autocomplete="postal-code" aria-label="Postal code" value="${esc(val || "")}"><button class="btn btn--primary btn--sm" type="submit">Set location</button></form>`;
+    const formHTML = (val, prov) =>
+      `<form class="loc-form" data-loc-form><select name="province" aria-label="Province"><option value="">Province</option>${PROVINCES.map(([code, nm]) => `<option value="${code}"${code === prov ? " selected" : ""}>${nm}</option>`).join("")}</select><input name="postal" placeholder="Postal code" autocomplete="postal-code" aria-label="Postal code" value="${esc(val || "")}"><button class="btn btn--primary btn--sm" type="submit">Set location</button></form>`;
     /* Three states: no postal code -> full bottom banner with the
        form; postal saved -> collapsed to a floating pill in the
        bottom-right corner; editing (pill tapped) -> banner reopens
@@ -656,17 +706,19 @@
     let editing = false;
     const render = () => {
       const p = wfLoc.get();
+      const prov = wfProv.get();
       bar.classList.remove("loc-away");
-      if (p && !editing) {
+      if ((p || prov) && !editing) {
         bar.classList.add("is-pill");
         document.body.classList.remove("has-loc-banner");
-        bar.innerHTML = `<button type="button" class="loc-pill" data-loc-edit aria-label="Your postal code is ${esc(p.toUpperCase())}. Tap to change it">📍 ${esc(p.toUpperCase())}</button>`;
+        const label = [prov, p ? p.toUpperCase() : ""].filter(Boolean).join(" · ");
+        bar.innerHTML = `<button type="button" class="loc-pill" data-loc-edit aria-label="Your location is ${esc(label)}. Tap to change it">📍 ${esc(label)}</button>`;
       } else {
         bar.classList.remove("is-pill");
         document.body.classList.add("has-loc-banner");
         bar.innerHTML = editing
-          ? `<div class="wrap loc-bar-in"><span>📍 Your location</span>${formHTML(p)}<button type="button" class="loc-cancel" data-loc-cancel aria-label="Cancel">✕</button></div>`
-          : `<div class="wrap loc-bar-in"><span>📍 See clinics near you</span>${formHTML("")}</div>`;
+          ? `<div class="wrap loc-bar-in"><span>📍 Your location</span>${formHTML(p, prov)}<button type="button" class="loc-cancel" data-loc-cancel aria-label="Cancel">✕</button></div>`
+          : `<div class="wrap loc-bar-in"><span>📍 See clinics near you</span>${formHTML("", "")}</div>`;
       }
     };
     render();
@@ -681,9 +733,17 @@
       const form = e.target.closest("[data-loc-form]"); if (!form) return;
       e.preventDefault();
       const input = form.querySelector("input[name=postal]");
+      const sel = form.querySelector("select[name=province]");
       const v = (input.value || "").trim().toUpperCase();
-      if (!wfLoc.valid(v)) { input.focus(); return; }
-      wfLoc.set(v); wfLoc.reset(); editing = false; render();
+      let prov = sel ? sel.value : "";
+      if (v && !wfLoc.valid(v)) { input.focus(); return; }
+      if (!v && !prov) { if (sel) sel.focus(); return; }
+      if (v) {
+        wfLoc.set(v); wfLoc.reset();
+        if (!prov) prov = FSA_PROV[v[0]] || "";
+      }
+      if (prov) wfProv.set(prov);
+      editing = false; render();
       window.dispatchEvent(new CustomEvent("wf:location"));
     });
     window.addEventListener("wf:location", render);
@@ -1042,6 +1102,12 @@
     renderInsurers();
     renderWhy();
     renderFeaturedClinics();
+    if (wfLoc.get()) wfLoc.coords().then((pt) => { if (pt) { fcUserPt = pt; renderFeaturedClinics(); } });
+    window.addEventListener("wf:location", () => {
+      fcUserPt = null;
+      if (wfLoc.get()) wfLoc.coords().then((pt) => { fcUserPt = pt; renderFeaturedClinics(); });
+      else renderFeaturedClinics();
+    });
     renderDirectory();
     renderGoalChips();
     renderRecommendations();

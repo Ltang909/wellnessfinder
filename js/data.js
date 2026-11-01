@@ -1744,6 +1744,138 @@ const CLINIC_MEDIA = {
   "Dr. Caitlin Batting": {"img": "/assets/clinics/dr-caitlin-batting.jpg", "practitioner": "Dr. Caitlin Batting, ND", "price": "$280 per session"},
 };
 
+/* Geo tags for featured clinics: province, postal code, coordinates.
+   Powers the featured section's province + 25 km filtering. */
+const FC_GEO = {
+ "Revival Physio": {
+  "prov": "ON",
+  "postal": "M4G 1Y9",
+  "lat": 43.70843,
+  "lng": -79.35923
+ },
+ "Pulse Physiotherapy": {
+  "prov": "AB",
+  "postal": "T2M 0L6",
+  "lat": 51.06731,
+  "lng": -114.09923
+ },
+ "Toronto Physiotherapy (Danforth & Chester)": {
+  "prov": "ON",
+  "postal": "M4K 1P4",
+  "lat": 43.67794,
+  "lng": -79.35062
+ },
+ "Focus Physio + Wellness": {
+  "prov": "BC",
+  "postal": "V5Y 1B8",
+  "lat": 49.2694,
+  "lng": -123.10864
+ },
+ "Treloar Physiotherapy — Cambie": {
+  "prov": "BC",
+  "postal": "V5Z 0C4",
+  "lat": 49.26435,
+  "lng": -123.11732
+ },
+ "Synergy Physiotherapy and Pilates": {
+  "prov": "NS",
+  "postal": "B3K 0L2",
+  "lat": 44.6558,
+  "lng": -63.59883
+ },
+ "Pilates4Physio": {
+  "prov": "ON",
+  "postal": "M5E 1A6",
+  "lat": 43.64714,
+  "lng": -79.37409
+ },
+ "PhysioLinks Rehab Clinic": {
+  "prov": "ON",
+  "postal": "L7M 0H6",
+  "lat": 43.37915,
+  "lng": -79.80448
+ },
+ "MOTI Physiotherapy": {
+  "prov": "ON",
+  "postal": "L3Y 9A2",
+  "lat": 44.05261,
+  "lng": -79.42637
+ },
+ "Anchor Health and Performance Clinic": {
+  "prov": "ON",
+  "postal": "L4W 4W7",
+  "lat": 43.63949,
+  "lng": -79.6507
+ },
+ "OAK Physio & Wellness": {
+  "prov": "ON",
+  "postal": "L6H 6Z3",
+  "lat": 43.48551,
+  "lng": -79.71799
+ },
+ "VF Mobility Labs": {
+  "prov": "ON",
+  "postal": "M4S 2Y9",
+  "lat": 43.69845,
+  "lng": -79.39484
+ },
+ "Ohana Wellness Clinic": {
+  "prov": "ON",
+  "postal": "M6S 1P1",
+  "lat": 43.65026,
+  "lng": -79.47978
+ },
+ "Arbutus Physiotherapy": {
+  "prov": "BC",
+  "postal": "V8R 1C9",
+  "lat": 48.42656,
+  "lng": -123.32473
+ },
+ "Essence Wellness Clinic (Marda Loop)": {
+  "prov": "AB",
+  "postal": "T3R 0S4",
+  "lat": 51.02346,
+  "lng": -114.1146
+ },
+ "Qi Integrated Health": {
+  "prov": "BC",
+  "postal": "V6J 5A3",
+  "lat": 49.26539,
+  "lng": -123.1448
+ },
+ "Dr. Caitlin Batting": {
+  "prov": "AB",
+  "postal": "T2E 2Z6",
+  "lat": 51.09538,
+  "lng": -114.06269
+ },
+ "Dr. Lauren Cottom": {
+  "prov": "MB",
+  "postal": "R3N 0J3",
+  "lat": 49.86321,
+  "lng": -97.18513
+ },
+ "Well BYND": {
+  "prov": "ON",
+  "postal": "M5V 1Y1",
+  "lat": 43.64772,
+  "lng": -79.39771
+ },
+ "Health Globe Wellness Clinic": {
+  "prov": "ON",
+  "postal": "L5M 2S4",
+  "lat": 43.53767,
+  "lng": -79.72678
+ },
+ "Everwell ND": {
+  "prov": "BC",
+  "postal": "V6J 1G5",
+  "lat": 49.2704,
+  "lng": -123.14656
+ }
+};
+
+
 const RESOURCES = [
   { tag: "Treatment guide", title: "What is Clinical Pilates?", desc: "How it differs from a studio Pilates class, and why it's billed through physiotherapy.", url: "/blog-clinical-pilates" },
   { tag: "Treatment guide", title: "Clinical Pilates vs Group Pilates: Which Do You Need?", desc: "The differences, who each is for, how benefits may apply, and how to combine both in your week.", url: "/blog-clinical-vs-group-pilates" },
