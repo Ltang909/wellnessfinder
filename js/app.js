@@ -361,7 +361,7 @@
      (Places or the clinic's own Google badge/widget). Treatments
      without a curated set fall back to the notes-first selection. */
   const FC_SETS = {
-    "Clinical Pilates": ["Revival Physio", "Pulse Physiotherapy", "JC Clinic", "Focus Physio + Wellness", "Treloar Physiotherapy \u2014 Cambie", "Synergy Physiotherapy and Pilates", "Pilates4Physio"],
+    "Clinical Pilates": ["Revival Physio", "Pulse Physiotherapy", "Toronto Physiotherapy (Danforth & Chester)", "Focus Physio + Wellness", "Treloar Physiotherapy \u2014 Cambie", "Synergy Physiotherapy and Pilates", "Pilates4Physio"],
     "Microneedling": ["Essence Wellness Clinic (Marda Loop)", "Qi Integrated Health", "Dr. Caitlin Batting", "Dr. Lauren Cottom", "Well BYND", "Health Globe Wellness Clinic", "Everwell ND"],
     "Golf Swing Assessment": ["PhysioLinks Rehab Clinic", "MOTI Physio", "Anchor Health and Performance Clinic", "OAK Physio & Wellness", "VF Mobility Labs", "Ohana Wellness Clinic", "Arbutus Physiotherapy"],
   };
