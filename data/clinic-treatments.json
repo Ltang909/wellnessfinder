@@ -260,10 +260,10 @@
   "batch": "batch-002"
  },
  {
-  "clinic_id": "myodetox-leslieville-toronto",
-  "clinic_name": "Myodetox — Leslieville",
+  "clinic_id": "myo-myodetox-leslieville-toronto",
+  "clinic_name": "Myo (Myodetox) — Leslieville",
   "treatment": "Clinical Pilates",
-  "billed_as": "",
+  "billed_as": "Physio / Chiro / Massage",
   "practitioner": "Dr. Brynne Billings, Farhanna Hassanali",
   "price": "$180",
   "price_source": "Myo Leslieville location page (https://www.myodetox.com/locations/leslieville): 'Clinical Reformer Pilates, 60 Mins, $180'; Jane booking search snippet confirms a Clinical Pilates (Physiotherapy/Chiropractic) service at Leslieville. Jane App booking page text fetch did not expose service prices (JS-rendered treatment list); price confirmed on Myo's own location page, which is the pricing source linked from the booking flow.",
@@ -273,10 +273,10 @@
   "batch": "batch-002"
  },
  {
-  "clinic_id": "myodetox-yorkville-toronto",
-  "clinic_name": "Myodetox — Yorkville",
+  "clinic_id": "myo-myodetox-yorkville-toronto",
+  "clinic_name": "Myo (Myodetox) — Yorkville",
   "treatment": "Clinical Pilates",
-  "billed_as": "",
+  "billed_as": "Physio / Chiro / Massage",
   "practitioner": "Kaila Lunny, Dr. Monika Reinstein",
   "price": "$180",
   "price_source": "Myo Yorkville location page (https://www.myodetox.com/locations/yorkville): 'Clinical Pilates, 60 Mins, $180'. Jane App booking page text fetch did not expose service prices (JS-rendered treatment list); price confirmed on Myo's own location page, which is the pricing source linked from the booking flow.",
@@ -286,10 +286,10 @@
   "batch": "batch-002"
  },
  {
-  "clinic_id": "myodetox-cityplace-toronto",
-  "clinic_name": "Myodetox — CityPlace",
+  "clinic_id": "myo-myodetox-cityplace-toronto",
+  "clinic_name": "Myo (Myodetox) — CityPlace",
   "treatment": "Clinical Pilates",
-  "billed_as": "",
+  "billed_as": "Physio / Chiro / Massage",
   "practitioner": null,
   "price": "$185 follow-up (60 min) · $160 initial",
   "price_source": "No Clinical Pilates price at this location: Myo CityPlace location page (https://www.myodetox.com/locations/cityplace) specialty list is TPI Golf, Run Assessment and Pelvic Health only, with no Pilates service. Physiotherapy/Myo Session prices on same page used instead: 'Your First Myo Session 60 Mins $160'; 'Myo Session 60 Mins $185'. Jane App booking page text fetch did not expose service prices (JS-rendered treatment list); price confirmed on Myo's own location page, which is the pricing source linked from the booking flow.",
@@ -299,10 +299,10 @@
   "batch": "batch-002"
  },
  {
-  "clinic_id": "myodetox-liberty-village-toronto",
-  "clinic_name": "Myodetox — Liberty Village",
+  "clinic_id": "myo-myodetox-liberty-village-toronto",
+  "clinic_name": "Myo (Myodetox) — Liberty Village",
   "treatment": "Clinical Pilates",
-  "billed_as": "",
+  "billed_as": "Physio / Chiro / Massage",
   "practitioner": "Dr. Erin Caplice",
   "price": "$185",
   "price_source": "Myo Liberty Village location page (https://www.myodetox.com/locations/liberty-village): 'Clinical Mat Pilates, 60 Mins, $185'. Jane App booking page text fetch did not expose service prices (JS-rendered treatment list); price confirmed on Myo's own location page, which is the pricing source linked from the booking flow.",
@@ -312,10 +312,10 @@
   "batch": "batch-002"
  },
  {
-  "clinic_id": "myodetox-path-exchange-tower-toronto",
-  "clinic_name": "Myodetox — PATH Exchange Tower",
+  "clinic_id": "myo-myodetox-path-exchange-tower-toronto",
+  "clinic_name": "Myo (Myodetox) — PATH Exchange Tower",
   "treatment": "Clinical Pilates",
-  "billed_as": "",
+  "billed_as": "Physio / Chiro / Massage",
   "practitioner": "Kate Carter",
   "price": "$185 follow-up (60 min) · $160 initial",
   "price_source": "No Clinical Pilates price at this location: Myo PATH Exchange Tower location page (https://www.myodetox.com/locations/path-exchange-tower) specialty list is Athletic Therapy, Fascial Stretch, Run Assessment and Pelvic Health only, with no Pilates service. Physiotherapy/Myo Session prices on same page used instead: 'Your First Myo Session 60 Mins $160'; 'Myo Session 60 Mins $185'. Jane App booking page text fetch did not expose service prices (JS-rendered treatment list); price confirmed on Myo's own location page, which is the pricing source linked from the booking flow.",
@@ -325,10 +325,10 @@
   "batch": "batch-002"
  },
  {
-  "clinic_id": "myodetox-richmond-hill-richmond-hill",
-  "clinic_name": "Myodetox — Richmond Hill",
+  "clinic_id": "myo-myodetox-richmond-hill-richmond-hill",
+  "clinic_name": "Myo (Myodetox) — Richmond Hill",
   "treatment": "Clinical Pilates",
-  "billed_as": "",
+  "billed_as": "Physio / Chiro / Massage",
   "practitioner": "Verena Siu",
   "price": "$150",
   "price_source": "Myo Richmond Hill location page (https://www.myodetox.com/locations/richmond-hill): 'Clinical Pilates, 60 Mins, $150'. Jane App booking page text fetch did not expose service prices (JS-rendered treatment list); price confirmed on Myo's own location page, which is the pricing source linked from the booking flow.",
@@ -338,10 +338,10 @@
   "batch": "batch-002"
  },
  {
-  "clinic_id": "myodetox-markham-markham",
-  "clinic_name": "Myodetox — Markham",
+  "clinic_id": "myo-myodetox-markham-markham",
+  "clinic_name": "Myo (Myodetox) — Markham",
   "treatment": "Clinical Pilates",
-  "billed_as": "",
+  "billed_as": "Physio / Chiro / Massage",
   "practitioner": "Audrey Ho",
   "price": "$170 follow-up (60 min) · $150 initial",
   "price_source": "No Clinical Pilates price at this location: Myo Markham location page (https://www.myodetox.com/locations/markham) specialty list is Fascial Stretch Therapy and Pelvic Health only, with no Pilates service. Physiotherapy/Myo Session prices on same page used instead: 'Your First Myo Session 60 Mins $150'; 'Myo Session 60 Mins $170'. Jane App booking page text fetch did not expose service prices (JS-rendered treatment list); price confirmed on Myo's own location page, which is the pricing source linked from the booking flow.",

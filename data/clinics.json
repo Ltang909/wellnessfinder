@@ -540,8 +540,8 @@
   "gaps": "PRICE UNVERIFIABLE: Beachealth's Jane App treatment list (including 'Physiotherapy Pilates' and 'Physio-Guided Scientific Pilates & Movement') only renders via JavaScript and the text fetch returned no prices; beachealth.com publishes no fees page, so price_text is null rather than guessed. Practitioner: current Jane App Pilates offering is 'Pilates & Movement Sessions' / 'Physio-Guided Scientific Pilates & Movement' with Adriana Lis Pereira (Pilates and Movement Professional; PT/MSc/PhD from Brazil — note she is not listed as an Ontario-registered physiotherapist). CAUTION on the clinic's historic Clinical Pilates physiotherapist: Marlene Holder's profile page is still live on beachealth.com describing her 1-on-1 Clinical Pilates practice, but the College of Physiotherapists of Ontario public register shows her employment at Beachealth ended 2026-09-25, so she was NOT listed as a current practitioner. Two Jane domains are live for this clinic (beachclinic.janeapp.com, crawled 2 days ago, used here; and the older beachealth.janeapp.com) with near-identical content. Google rating unavailable from Places (null) or the clinic's own site; aggregator figures were NOT used per source discipline. Clinic's own site spells the street '350 Beech Avenue'; Places/directories use '350 Beech Ave' — same address, postal M4E 3T8 confirmed by both. Price closed by live-browser Jane pass 2026-11-01 (text fetch could not render Jane prices)."
  },
  {
-  "id": "myodetox-leslieville-toronto",
-  "name": "Myodetox — Leslieville",
+  "id": "myo-myodetox-leslieville-toronto",
+  "name": "Myo (Myodetox) — Leslieville",
   "address": "1147 Queen Street East",
   "city": "Toronto",
   "prov": "ON",
@@ -567,8 +567,8 @@
   "gaps": "Phone is location-specific (page footer and Google Places agree). Pilates practitioners from location page team list: Dr. Brynne Billings (Clinical Pilates interest, Foundational Reformer for Clinicians cert) and Farhanna Hassanali (Pilates special interest). CONFLICT: some Myo directory listings give postal as M4M 1L1; location page and Google Places details both give M4M 1L3, used here. No per-location Google rating available from Places details."
  },
  {
-  "id": "myodetox-yorkville-toronto",
-  "name": "Myodetox — Yorkville",
+  "id": "myo-myodetox-yorkville-toronto",
+  "name": "Myo (Myodetox) — Yorkville",
   "address": "55 Avenue Road, Unit 209",
   "city": "Toronto",
   "prov": "ON",
@@ -594,8 +594,8 @@
   "gaps": "Phone is location-specific (page footer and Google Places agree). Pilates practitioners from location page: Kaila Lunny (Stott Pilates Trained) and Dr. Monika Reinstein (Pilates special interest). HOURS CONFLICT: Google Places details gives Saturday 9:30 AM - 4:30 PM, location page gives Saturday 9:00 AM - 4:00 PM; location-page hours used per instructions. No per-location Google rating available from Places details."
  },
  {
-  "id": "myodetox-cityplace-toronto",
-  "name": "Myodetox — CityPlace",
+  "id": "myo-myodetox-cityplace-toronto",
+  "name": "Myo (Myodetox) — CityPlace",
   "address": "22 Capreol Court",
   "city": "Toronto",
   "prov": "ON",
@@ -621,8 +621,8 @@
   "gaps": "NO SEPARATE CLINICAL PILATES SERVICE/PRICE FOUND at CityPlace: location page does not list Pilates among its specialty sessions, so the physiotherapy (Myo Session) price is used explicitly as instructed, and no Pilates-specific practitioner is named on the location page (practitioner null). Phone is location-specific. CONFLICT: Jane App / some listings give postal as M5V 4A3; location page and Google Places details both give M5V 4A9, used here."
  },
  {
-  "id": "myodetox-liberty-village-toronto",
-  "name": "Myodetox — Liberty Village",
+  "id": "myo-myodetox-liberty-village-toronto",
+  "name": "Myo (Myodetox) — Liberty Village",
   "address": "99 Atlantic Avenue, Unit 102",
   "city": "Toronto",
   "prov": "ON",
@@ -648,8 +648,8 @@
   "gaps": "Phone is location-specific (page footer and Google Places agree). Pilates practitioner from location page: Dr. Erin Caplice, Chiropractor, Certified Mat Pilates Instructor. CONFLICT: some Myo listings give postal as M6K 3E7; location page footer and Google Places details both give M6K 3J8, used here. No per-location Google rating available from Places details."
  },
  {
-  "id": "myodetox-path-exchange-tower-toronto",
-  "name": "Myodetox — PATH Exchange Tower",
+  "id": "myo-myodetox-path-exchange-tower-toronto",
+  "name": "Myo (Myodetox) — PATH Exchange Tower",
   "address": "130 King Street West, CL02",
   "city": "Toronto",
   "prov": "ON",
@@ -675,8 +675,8 @@
   "gaps": "NO SEPARATE CLINICAL PILATES SERVICE/PRICE FOUND at PATH Exchange Tower: location page does not list Pilates among its specialty sessions, so the physiotherapy (Myo Session) price is used explicitly as instructed. Kate Carter (Physiotherapist) lists Pilates as a special interest on the location page, but no Pilates service is priced for this location. Phone is location-specific. CONFLICT: some Myo listings give postal as M5X 1A9; location page footer, Contact page and Google Places details all give M5X 2A2, used here. No per-location Google rating available from Places details."
  },
  {
-  "id": "myodetox-richmond-hill-richmond-hill",
-  "name": "Myodetox — Richmond Hill",
+  "id": "myo-myodetox-richmond-hill-richmond-hill",
+  "name": "Myo (Myodetox) — Richmond Hill",
   "address": "10785 Leslie Street, Unit 303",
   "city": "Richmond Hill",
   "prov": "ON",
@@ -702,8 +702,8 @@
   "gaps": "Phone is location-specific (page footer and Google Places agree). Pilates practitioner from location page: Verena Siu, Physiotherapist, Clinical Pilates certification. HOURS CONFLICT: Google Places details gives Sunday 9:00 AM - 4:00 PM, location page gives Sunday 9:00 AM - 5:00 PM; location-page hours used. Note Richmond Hill First/Myo Session prices are lower than Toronto locations ($150/$170). No per-location Google rating available from Places details."
  },
  {
-  "id": "myodetox-markham-markham",
-  "name": "Myodetox — Markham",
+  "id": "myo-myodetox-markham-markham",
+  "name": "Myo (Myodetox) — Markham",
   "address": "8228 Birchmount Rd B",
   "city": "Markham",
   "prov": "ON",
