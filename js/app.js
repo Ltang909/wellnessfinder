@@ -373,7 +373,7 @@
     const at = (k) => featured[((fcIndex + k) % n + n) % n];
     const img = t ? fsImg(t) : "";
     const slug = treatmentSlug(fcTreatment);
-    const panel = (c) => `<div class="fc-panel"><span>${esc(c.name)} \u2014 ${esc(c.city || "")}</span></div>`;
+    const panel = (c, k) => `<button type="button" class="fc-panel" data-fc-jump="${k}" aria-label="Show ${esc(c.name)}"><span>${esc(c.name)} \u2014 ${esc(c.city || "")}</span></button>`;
     const active = at(0);
     const note = (active.note || "").trim();
     const desc = note
@@ -390,7 +390,7 @@
         <p class="fc-sub">${esc(cfg.sub)}</p>
         <p class="fc-viewall"><a href="/clinics-${slug}">View all ${total} ${esc(cfg.label)} clinics \u2192</a></p>
         <div class="fc-rail">
-          ${[-3, -2, -1].map((k) => panel(at(k))).join("")}
+          ${[-3, -2, -1].map((k) => panel(at(k), k)).join("")}
           <article class="fc-card">
             <h3>${esc(active.name)}</h3>
             <p class="fc-city">${esc(active.city || "")}${active.prov ? `, ${esc(active.prov)}` : ""}</p>
@@ -398,7 +398,7 @@
             <p class="fc-desc">${esc(desc)}</p>
             <a class="fc-btn" href="${esc(active.web || "#")}" target="_blank" rel="noopener">View clinic</a>
           </article>
-          ${[1, 2, 3].map((k) => panel(at(k))).join("")}
+          ${[1, 2, 3].map((k) => panel(at(k), k)).join("")}
         </div>
         <p class="fc-pager"><button type="button" data-fc-nav="-1" aria-label="Previous clinic">\u2039</button><b>${fcIndex + 1} / ${n}</b><button type="button" data-fc-nav="1" aria-label="Next clinic">\u203a</button></p>
       </div>
@@ -409,7 +409,9 @@
         const sw = e.target.closest("[data-fc-treat]");
         if (sw) { fcTreatment = sw.dataset.fcTreat; fcIndex = 0; renderFeaturedClinics(); return; }
         const nav = e.target.closest("[data-fc-nav]");
-        if (nav) { fcIndex += parseInt(nav.dataset.fcNav, 10); renderFeaturedClinics(); }
+        if (nav) { fcIndex += parseInt(nav.dataset.fcNav, 10); renderFeaturedClinics(); return; }
+        const jump = e.target.closest("[data-fc-jump]");
+        if (jump) { fcIndex += parseInt(jump.dataset.fcJump, 10); renderFeaturedClinics(); }
       });
     }
   }
