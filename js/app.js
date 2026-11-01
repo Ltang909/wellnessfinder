@@ -167,7 +167,7 @@
          <div class="claim-top"><span class="claim-name">${esc(c.name)}</span><span class="claim-side">${c.covered ? `<span class="claim-covered">${esc(c.covered)}</span>` : ""}<img class="claim-logo" src="assets/logos/manulife.svg" alt="Manulife"></span></div>
          <p class="claim-what">${esc(c.treatment)}</p>
          <p class="claim-billed">Billed as ${esc(c.billed)}</p>
-         ${c.sharing ? `<p class="claim-sharing">&ldquo;${esc(c.sharing)}&rdquo;</p>` : `<p class="claim-sharing claim-sharing--empty">[ Sharing to be added ]</p>`}
+         ${c.sharing ? `<p class="claim-sharing">&ldquo;${esc(c.sharing)}&rdquo;</p>` : ""}
          ${c.price ? `<p class="claim-price">${esc(c.price)}</p>` : ""}
        </div>`;
     const half = claims.map(card).join("");
