@@ -189,7 +189,7 @@
       : '<p class="saved-none">No saved treatments yet. <a href="/#directory">Browse treatments</a></p>';
     clinicWrap.innerHTML = clinics.length
       ? clinics.map(clinicCard).join("")
-      : '<p class="saved-none">No saved clinics yet. <a href="/#gta">Browse clinics across Canada</a></p>';
+      : '<p class="saved-none">No saved clinics yet. <a href="/#featured-clinics">Browse clinics across Canada</a></p>';
     renderForYou();
   }
 

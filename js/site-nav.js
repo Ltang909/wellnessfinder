@@ -59,7 +59,7 @@
   // The universal nav items: label + target.
   var NAV_LINKS = [
     { label: "Treatments", href: "/#directory" },
-    { label: "Clinics",    href: "/#gta" },
+    { label: "Clinics",    href: "/#featured-clinics" },
     { label: "Resources",  href: "/#resources" },
     { label: "About",      href: "/about" }
   ];

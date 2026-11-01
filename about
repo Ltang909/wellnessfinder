@@ -119,7 +119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="footer-col"><h5>Browse</h5>
           <a href="/#directory">Treatments</a>
-          <a href="/#gta">Clinics</a>
+          <a href="/#featured-clinics">Clinics</a>
         </div>
         <div class="footer-col"><h5>Resources</h5>
           <a href="/#resources">Guides</a>
@@ -134,7 +134,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </footer>
 
   <script src="js/data.js?v=25"></script>
-  <script src="js/site-nav.js?v=5"></script>
+  <script src="js/site-nav.js?v=6"></script>
   <script src="js/app.js?v=43"></script>
 </body>
 </html>
