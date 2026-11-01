@@ -877,3 +877,13 @@ body { font-size: 16px; }
 /* Claim sharing slot: sits between Billed as and the price */
 .claim-sharing { font-style: italic; color: var(--ink-soft); border-left: 3px solid #FFCE45; padding-left: 10px; margin: 4px 0 2px; }
 .claim-sharing--empty { color: #B9B4A8; border-left-color: #E7E2D6; }
+
+/* ---------- Notion directory pass (Oct 31, 2026) ----------
+   Option C: yellow owns the titles (same highlighter as the hero word),
+   the card's top edge and Billed-as pill carry the modality colour. */
+.treatment-card { border-top: 6px solid var(--hl, #FFCE45); }
+.treatment-card h4 { display: inline; padding: 0 .14em; background-repeat: no-repeat; -webkit-box-decoration-break: clone; box-decoration-break: clone;
+  background-image: linear-gradient(180deg, transparent 8%, #FFCE45 8%, #FFCE45 92%, transparent 92%); }
+.tc-billed { background: var(--hl, #FFCE45); color: #191919; font-weight: 700; }
+.tc-more { color: #191919; font-weight: 700; }
+.tc-all { color: #191919; font-weight: 600; }

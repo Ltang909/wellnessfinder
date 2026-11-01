@@ -205,8 +205,15 @@
       <a class="tc-all" href="/clinics-${slug}">See all ${total} clinics →</a>`;
   }
 
+  const MODALITY_HL = {
+    "Physiotherapy": "#3FA7F5", "Chiropractic": "#FF9E2C", "Osteopathy": "#9D6BFF",
+    "Massage Therapy": "#4ADE80", "Naturopathy": "#2EC4B6", "Acupuncture": "#FF6FAE",
+    "Speech Therapy": "#FFCE45", "Psychotherapy": "#FF6B6B"
+  };
+
   function treatmentCardHTML(t) {
     const saved = getFavs().includes(t.name);
+    const hl = MODALITY_HL[t.categories[0]] || "#FFCE45";
     const cats = t.categories.join(",");
     const img = (typeof TREATMENT_IMAGES !== "undefined" && TREATMENT_IMAGES[t.name]) || null;
     const art = img ? img.src : ((typeof TREATMENT_ART !== "undefined" && TREATMENT_ART[t.group]) || "");
@@ -215,7 +222,7 @@
     const clinics = g ? g.clinics : [];
     const firstFew = clinics.slice(0, 4).map((c) => ({ c, d: null }));
     return `
-      <article class="treatment-card" data-cats="${esc(cats)}" data-name="${esc(t.name)}">
+      <article class="treatment-card" style="--hl:${hl}" data-cats="${esc(cats)}" data-name="${esc(t.name)}">
         ${art ? `<div class="tc-art" aria-hidden="true"><img src="${esc(art)}" alt="" loading="lazy"></div>${credit}` : ""}
         <button class="fav-btn ${saved ? "saved" : ""}" data-fav="${esc(t.name)}"
           aria-label="Save ${esc(t.name)}" aria-pressed="${saved}">${HEART}</button>
