@@ -164,6 +164,8 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
    ============================================================ */
 .hero {
   position: relative; overflow: hidden;
+  display: flex; align-items: center;
+  min-height: calc(100svh - 76px);
   background:
     radial-gradient(120% 90% at 88% -10%, rgba(237,232,218,.55), transparent 55%),
     linear-gradient(180deg, #ffffff 0%, #ffffff 78%);
@@ -171,7 +173,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .hero-grid {
   display: grid; grid-template-columns: 1fr; gap: 0; align-items: center;
   max-width: 1160px; margin: 0 auto; text-align: center;
-  padding: 84px 0 92px;
+  padding: 48px 0;
 }
 .hero-copy { position: relative; }
 .hero h1 {
@@ -186,7 +188,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .check { color: var(--forest); font-weight: 700; }
 
 @media (max-width: 900px) {
-  .hero-grid { grid-template-columns: 1fr; gap: 0; padding: 60px 0 68px; }
+  .hero-grid { grid-template-columns: 1fr; gap: 0; padding: 44px 0; }
 }
 
 /* ============================================================
@@ -720,7 +722,7 @@ body { font-size: 16px; }
 .section-head { margin-bottom: 26px; }
 .section-head h2 { font-size: clamp(1.55rem, 3vw, 2.1rem); }
 .section-head p { font-size: .98rem; margin-top: 10px; }
-.hero-grid { padding: 52px 0 60px; }
+.hero-grid { padding: 44px 0; }
 .hero h1 { font-size: clamp(2.2rem, 4.6vw, 3.3rem); }
 .hero .lede { margin: 16px 0 22px; }
 .dir-group { margin-bottom: 26px; }
@@ -854,10 +856,6 @@ body { font-size: 16px; }
 
 /* Pet Pet in the hero: yellow sun disc, sitting on the hero's bottom edge
    (hero has overflow:hidden, so she stays fully inside the section) */
-.hero-petpet { position: absolute; right: 4%; bottom: 10px; width: 118px; z-index: 3; pointer-events: none; }
-.hero-petpet::before { content: ""; position: absolute; left: 50%; top: 56%; transform: translate(-50%, -50%); width: 96%; aspect-ratio: 1/1; border-radius: 50%; background: #FFCE45; }
-.hero-petpet img { position: relative; display: block; width: 100%; }
-@media (max-width: 640px) { .hero-petpet { width: 84px; right: 2%; bottom: 6px; } }
 
 /* ---------- Notion claims pass (Oct 31, 2026) ---------- */
 .marker-yellow { box-shadow: inset 0 -0.34em 0 #FFCE45; padding: 0 .04em; }
