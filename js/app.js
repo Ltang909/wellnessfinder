@@ -287,7 +287,7 @@
     clearFilters() {
       dirState.tab = "All"; dirState.goal = null;
       const tabsEl = $("#filterTabs");
-      if (tabsEl) $$(".filter-tab", tabsEl).forEach((t, i) => t.classList.toggle("active", i === 0));
+      if (tabsEl) $$(".filter-tab", tabsEl).forEach((t) => t.classList.remove("active"));
       $$(".cat-item, .goal-chip").forEach((p) => { p.classList.remove("active"); p.setAttribute("aria-pressed", "false"); });
       applyDirectoryFilter();
     },
@@ -303,12 +303,11 @@
     const wrap = $("#directoryGroups"); if (!wrap || typeof TREATMENTS === "undefined") return;
     // tabs
     const tabsEl = $("#filterTabs");
-    tabsEl.innerHTML = TREATMENT_TABS.map((t, i) =>
-      `<button class="filter-tab ${i === 0 ? "active" : ""}" data-tab="${esc(t)}">${esc(t)}</button>`
+    tabsEl.innerHTML = TREATMENT_TABS.filter((t) => t !== "All").map((t) =>
+      `<button class="filter-tab" data-tab="${esc(t)}">${esc(t)}</button>`
     ).join("");
     // groups: by benefit group (default) or by primary modality
     wrap.innerHTML = dirGroupsHTML();
-    $("#dirCount").textContent = `${TREATMENTS.length} treatments logged`;
 
     // interactions
     wrap.addEventListener("click", (e) => {
@@ -331,9 +330,10 @@
     // tab filtering
     tabsEl.addEventListener("click", (e) => {
       const tab = e.target.closest(".filter-tab"); if (!tab) return;
+      const wasActive = tab.classList.contains("active");
       $$(".filter-tab", tabsEl).forEach((t) => t.classList.remove("active"));
-      tab.classList.add("active");
-      dirState.tab = tab.dataset.tab;
+      if (wasActive) { dirState.tab = "All"; }
+      else { tab.classList.add("active"); dirState.tab = tab.dataset.tab; }
       applyDirectoryFilter();
     });
     applyDirectoryFilter();
