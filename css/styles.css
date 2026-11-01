@@ -834,7 +834,7 @@ body { font-size: 16px; }
    insurer logo chain, then CTAs. Placed last so it wins over the
    compact pass and phone blocks above. */
 .hero h1 { font-size: clamp(1.05rem, 4.05vw, 3.3rem); line-height: 1.1; white-space: nowrap; }
-.hero .lede { text-align: justify; text-align-last: left; }
+.hero .lede { text-align: center; text-align-last: center; }
 .hero .lede--catch { margin-top: -8px; }
 .hero-logos { margin: 28px auto 30px; }
 @media (max-width: 640px) {
@@ -842,3 +842,14 @@ body { font-size: 16px; }
      shrinking it to fit one line (Leon's call, Oct 31). */
   .hero h1 { font-size: clamp(1.9rem, 8.6vw, 2.4rem); line-height: 1.08; white-space: normal; }
 }
+
+/* ---------- Notion hero pass (Oct 31, 2026) ----------
+   Hero only, ahead of the section-by-section redesign: white base,
+   black text, action-yellow CTA, grayscale insurer logos, and the
+   rotating word on a full highlighter stroke (colour set in app.js). */
+.hero h1 { color: #191919; }
+.hero .btn--primary { background: #FFCE45; color: #161616; }
+.hero .btn--primary:hover { background: #FFD35C; }
+.hero .btn--ghost { border-color: #161616; color: #161616; }
+.insurer-logo img { filter: grayscale(1) contrast(1.08); opacity: .88; }
+.rotator-word { background-repeat: no-repeat; padding: 0 .12em; }
