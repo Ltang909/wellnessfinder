@@ -1705,11 +1705,11 @@ const GOAL_MAP = {
    rating is [average, review count] from Google, added when verified. */
 const CLINIC_MEDIA = {
   "Rae Physiotherapy and Pilates": {"img": "/assets/clinics/rae-physiotherapy-and-pilates.jpg", "price": "$195 initial · $160 follow-up"},
-  "Pulse Physiotherapy": {"img": "/assets/clinics/pulse-physiotherapy.jpg", "price": "$160 initial · $140 follow-up", "rating": [5.0, 166]},
+  "Pulse Physiotherapy": {"img": "/assets/clinics/pulse-physiotherapy.jpg", "link": "https://www.pulsephysioyyc.com/clinical-pilates", "price": "$160 initial · $140 follow-up", "rating": [5.0, 166]},
   "Revival Physio": {"img": "/assets/clinics/revival-physio.jpg", "price": "$140 initial · $125 follow-up", "rating": [5.0, 208]},
-  "JC Clinic": {"img": "/assets/clinics/jc-clinic.jpg", "practitioner": "Yoon A Kim", "price": "$140 intro (2 private sessions) · $80 follow-up", "rating": [5.0, 163]},
-  "Focus Physio + Wellness": {"img": "/assets/clinics/focus-physio-wellness.jpg", "practitioner": "Catherine Vani", "price": "$170 initial · $135 follow-up", "rating": [5.0, 29]},
-  "Treloar Physiotherapy \u2014 Cambie": {"img": "/assets/clinics/treloar-physiotherapy-cambie.jpg", "price": "$105 initial · $105 follow-up", "rating": [4.5, 28]},
+  "JC Clinic": {"img": "/assets/clinics/jc-clinic.jpg", "link": "https://jcclinic.janeapp.com/#/pilates-ballet", "practitioner": "Yoon A Kim", "price": "$140 intro (2 private sessions) · $80 follow-up", "rating": [5.0, 163]},
+  "Focus Physio + Wellness": {"img": "/assets/clinics/focus-physio-wellness.jpg", "link": "https://focusphysio.ca/clinical-pilates-vancouver/", "practitioner": "Catherine Vani", "price": "$170 initial · $135 follow-up", "rating": [5.0, 29]},
+  "Treloar Physiotherapy \u2014 Cambie": {"img": "/assets/clinics/treloar-physiotherapy-cambie.jpg", "link": "https://www.treloarphysio.com/clinical-pilates-vancouver/", "price": "$105 initial · $105 follow-up", "rating": [4.5, 28]},
   "Synergy Physiotherapy and Pilates": {"img": "/assets/clinics/synergy-physiotherapy-and-pilates.jpg", "price": "$125 initial · $115 follow-up", "rating": [5.0, 11]},
   "Pilates4Physio": {"img": "/assets/clinics/pilates4physio.jpg", "price": "$150 initial · $130 follow-up", "rating": [4.3, 6]},
   "Pivotal Physiotherapy": {"img": "/assets/clinics/pivotal-physiotherapy.jpg", "price": "$165 assessment · $100 / 30-min follow-up"},

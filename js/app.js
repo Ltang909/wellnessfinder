@@ -396,7 +396,7 @@
       const pract = media.practitioner ? `<p class="fc-line">${esc(media.practitioner)}</p>` : "";
       const price = media.price ? `<p class="fc-line">${esc(media.price)}</p>` : "";
       const btn = k === 0
-        ? `<a class="fc-btn" href="${esc(c.web || "#")}" target="_blank" rel="noopener">View clinic</a>`
+        ? `<a class="fc-btn" href="${esc(media.link || c.book || c.web || "#")}" target="_blank" rel="noopener">View clinic</a>`
         : `<span class="fc-btn">View clinic</span>`;
       return `<article class="fc-card ${k === 0 ? "fc-card--active" : "fc-card--side"}" ${k === 0 ? "" : `data-fc-jump="${k}" role="button" tabindex="0" aria-label="Show ${esc(c.name)}"`}>
             <h3>${esc(c.name)}</h3>
