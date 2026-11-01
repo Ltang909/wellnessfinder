@@ -156,17 +156,18 @@
   function renderWhy() {
     const grid = $("#whyGrid"); if (!grid) return;
     const claims = [
-      { name: "Chi", treatment: "Clinical Pilates", billed: "Physiotherapy", covered: "100% covered", price: "$100 per 45 min session" },
-      { name: "Leon", treatment: "Facial massage", billed: "Osteopathy", covered: "100% covered", price: "$120 per session" },
-      { name: "Celine", treatment: "IM vitamin therapy", billed: "Naturopath", covered: "100% covered", price: "$50-80 per session" },
-      { name: "Chun Ho", treatment: "Neurofeedback", billed: "Psychology", covered: "100% covered", price: "$180 per session" },
-      { name: "Daniel", treatment: "Singing voice therapy", billed: "Speech therapy", covered: "100% covered", price: "$160 per 45 min session" },
+      { name: "Chi", treatment: "Clinical Pilates", sharing: "", billed: "Physiotherapy", covered: "100% covered", price: "$100 per 45 min session" },
+      { name: "Leon", treatment: "Facial massage", sharing: "", billed: "Osteopathy", covered: "100% covered", price: "$120 per session" },
+      { name: "Celine", treatment: "IM vitamin therapy", sharing: "", billed: "Naturopath", covered: "100% covered", price: "$50-80 per session" },
+      { name: "Chun Ho", treatment: "Neurofeedback", sharing: "", billed: "Psychology", covered: "100% covered", price: "$180 per session" },
+      { name: "Daniel", treatment: "Singing voice therapy", sharing: "", billed: "Speech therapy", covered: "100% covered", price: "$160 per 45 min session" },
     ];
     const card = (c) =>
       `<div class="claim-card">
          <div class="claim-top"><span class="claim-name">${esc(c.name)}</span><span class="claim-side">${c.covered ? `<span class="claim-covered">${esc(c.covered)}</span>` : ""}<img class="claim-logo" src="assets/logos/manulife.svg" alt="Manulife"></span></div>
          <p class="claim-what">${esc(c.treatment)}</p>
          <p class="claim-billed">Billed as ${esc(c.billed)}</p>
+         ${c.sharing ? `<p class="claim-sharing">&ldquo;${esc(c.sharing)}&rdquo;</p>` : `<p class="claim-sharing claim-sharing--empty">[ Sharing to be added ]</p>`}
          ${c.price ? `<p class="claim-price">${esc(c.price)}</p>` : ""}
        </div>`;
     const half = claims.map(card).join("");
