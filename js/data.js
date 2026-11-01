@@ -1710,7 +1710,7 @@ const CLINIC_MEDIA = {
   "JC Clinic": {"img": "/assets/clinics/jc-clinic.jpg", "link": "https://jcclinic.janeapp.com/#/pilates-ballet", "practitioner": "Yoon A Kim", "price": "$140 intro (2 private sessions) · $80 follow-up", "rating": [5.0, 163]},
   "Focus Physio + Wellness": {"img": "/assets/clinics/focus-physio-wellness.jpg", "link": "https://focusphysio.ca/clinical-pilates-vancouver/", "practitioner": "Catherine Vani", "price": "$170 initial · $135 follow-up", "rating": [5.0, 29]},
   "Treloar Physiotherapy \u2014 Cambie": {"img": "/assets/clinics/treloar-physiotherapy-cambie.jpg", "link": "https://www.treloarphysio.com/clinical-pilates-vancouver/", "price": "$105 initial · $105 follow-up", "rating": [4.5, 28]},
-  "Synergy Physiotherapy and Pilates": {"img": "/assets/clinics/synergy-physiotherapy-and-pilates.jpg", "price": "$125 initial · $115 follow-up", "rating": [5.0, 11]},
+  "Synergy Physiotherapy and Pilates": {"img": "/assets/clinics/synergy-physiotherapy-and-pilates.jpg" "link": "https://synergystudio.janeapp.com/",, "price": "$125 initial · $115 follow-up", "rating": [5.0, 11]},
   "Pilates4Physio": {"img": "/assets/clinics/pilates4physio.jpg" "link": "https://pilates4physioappointments.janeapp.com/locations/pilates-4-physio/book",, "price": "$150 initial · $130 follow-up", "rating": [4.3, 6]},
   "Essence Wellness Clinic (Marda Loop)": {"img": "/assets/clinics/essence-wellness-clinic-marda-loop.jpg", "link": "https://essencewellness.janeapp.com/", "price": "$295 per session", "rating": [4.8, 32]},
   "Qi Integrated Health": {"img": "/assets/clinics/qi-integrated-health.jpg", "link": "https://qiintegratedhealth.janeapp.com/", "price": "$248\u2013$375 per session", "rating": [4.8, 37]},
