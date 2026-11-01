@@ -150,7 +150,7 @@
       `<span class="insurer-logo"><img src="${esc(i.logo)}" alt="${esc(i.name)}"></span>`
     ).join("");
     // duplicate the track so the scroll loops seamlessly
-    row.innerHTML = `<div class="insurer-track">${items}${items}</div>`;
+    row.innerHTML = `<div class="insurer-track">${items}</div>`;
   }
 
   function renderWhy() {
