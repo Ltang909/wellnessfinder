@@ -1170,7 +1170,7 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .tp-list .nc-name { height: auto; -webkit-line-clamp: 1; font-size: 1.08rem; flex: 1; min-width: 0; }
 .tp-list .nc-rating { height: auto; line-height: 1.2; margin-top: 0; white-space: nowrap; }
 .tp-list .nc-addr { flex: 1 1 100%; height: auto; }
-.tp-list .nc-desc { flex: 1 1 100%; height: 21px; -webkit-line-clamp: 1; font-size: .92rem; line-height: 1.42; }
+.tp-list .nc-desc { flex: 1 1 100%; height: 42px; -webkit-line-clamp: 2; font-size: .92rem; line-height: 1.42; }
 .tp-list .nc-price { flex: 0 0 auto; }
 .tp-list .nc-note { flex: 0 0 auto; height: 22px; }
 .tp-list .nc-dbrow { flex: 0 0 auto; height: auto; margin-left: auto; }
