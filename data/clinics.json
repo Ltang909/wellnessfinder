@@ -22877,6 +22877,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "NDcare Naturopathic Clinics",
+  "clinic_id": "ndcare-naturopathic-clinics-toronto",
+  "address": "54 Wellington St East",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5E 1C7",
+  "phone": "647-330-1551",
+  "website": "https://ndcare.ca/",
+  "booking_page": "https://www.ndcare.ca/appointments",
+  "hours": {
+   "mon": "9:30 AM \u2013 4:30 PM",
+   "tue": "9:30 AM \u2013 5:30 PM",
+   "wed": "9:30 AM \u2013 6:00 PM",
+   "thu": "9:30 AM \u2013 6:30 PM",
+   "fri": "8:15 AM \u2013 3:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "NEX Wellness & IV Therapy Clinic",
   "clinic_id": "nex-wellness-iv-therapy-clinic-burlington",
   "address": "672 Brant Street, Suite 301",
@@ -23577,6 +23602,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Neuropotential Clinics",
+  "clinic_id": "neuropotential-clinics-toronto",
+  "address": "20 De Boers Dr Unit 230",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M3J 0H1",
+  "phone": "416-398-9991",
+  "website": "https://neuropotentialclinics.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM \u2013 7:00 PM",
+   "tue": "10:00 AM \u2013 7:00 PM",
+   "wed": "10:00 AM \u2013 7:00 PM",
+   "thu": "10:00 AM \u2013 7:00 PM",
+   "fri": "10:00 AM \u2013 7:00 PM",
+   "sat": "10:00 AM \u2013 5:00 PM",
+   "sun": "10:00 AM \u2013 5:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 124,
+  "rating_source": "Clinic's own website displays 'Rating: 4.9/5 (124 reviews)' in its site footer/details block and describes itself as the highest-rated neurofeedback clinic according to Google Reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Neurvana Naturopathic Medicine",
   "clinic_id": "neurvana-naturopathic-medicine-calgary",
   "address": "2020 4 St SW #330",
@@ -23717,6 +23767,31 @@
    "wed": "11:00 AM - 6:00 PM",
    "thu": "11:00 AM - 6:00 PM",
    "fri": "11:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "New Pathways Therapy Center",
+  "clinic_id": "new-pathways-therapy-center-toronto",
+  "address": "720 Spadina Avenue, Suite 306",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5S 2T9",
+  "phone": "416-722-2071",
+  "website": "https://www.newpathwaystherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 8:00 PM",
+   "tue": "9:00 AM \u2013 8:00 PM",
+   "wed": "9:00 AM \u2013 8:00 PM",
+   "thu": "9:00 AM \u2013 8:00 PM",
+   "fri": "9:00 AM \u2013 8:00 PM",
    "sat": null,
    "sun": null
   },
@@ -23873,6 +23948,31 @@
   "google_rating": 4.8,
   "google_reviews": 6,
   "rating_source": "Google Places details shown in search results for this listing (4.8 stars, 6 reviews).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Newpath Psychotherapy",
+  "clinic_id": "newpath-psychotherapy-toronto",
+  "address": "1920 Ellesmere Rd Suite 208",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M1H 2V6",
+  "phone": "416-454-6654",
+  "website": "http://newpathpsychotherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM \u2013 7:00 PM",
+   "tue": "10:00 AM \u2013 7:00 PM",
+   "wed": "10:00 AM \u2013 7:00 PM",
+   "thu": "10:00 AM \u2013 7:00 PM",
+   "fri": "10:00 AM \u2013 7:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -24552,6 +24652,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Now + Next Psychotherapy & Neurofeedback",
+  "clinic_id": "now-next-psychotherapy-and-neurofeedback-toronto",
+  "address": "488 Wellington St W Unit 501",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5V 1E9",
+  "phone": "647-222-9844",
+  "website": "https://nowandnextpsychotherapy.ca/",
+  "booking_page": "https://sarausmanitherapy.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM \u2013 8:00 PM",
+   "tue": "8:00 AM \u2013 8:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM",
+   "thu": "8:00 AM \u2013 8:00 PM",
+   "fri": "8:00 AM \u2013 8:00 PM",
+   "sat": "10:00 AM \u2013 6:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "NuVista Mental Health",
   "clinic_id": "nuvista-mental-health-fredericton",
   "address": "1015 Regent St, Suite 504",
@@ -24725,6 +24850,31 @@
   "rating_source": "Google Places details in search results for NutriSkulpt: 'Rating: five stars (5.0) Based on 15 reviews'.",
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Nutrismart Eating",
+  "clinic_id": "nutrismart-eating-toronto",
+  "address": "105 Harrison Garden Blvd Ste 702",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M2N 7G3",
+  "phone": "416-763-7555",
+  "website": "http://www.nutrismarteating.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "11:00 AM \u2013 7:00 PM",
+   "tue": "11:00 AM \u2013 7:00 PM",
+   "wed": "11:00 AM \u2013 7:00 PM",
+   "thu": "11:00 AM \u2013 7:00 PM",
+   "fri": "11:00 AM \u2013 6:00 PM",
+   "sat": "11:00 AM \u2013 6:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Nutrition Assessment Clinic",
@@ -25224,6 +25374,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Ohana Wellness Clinic",
+  "clinic_id": "ohana-wellness-clinic-toronto",
+  "address": "2315 Bloor St W",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M6S 1P1",
+  "phone": "416-820-8588",
+  "website": "https://www.ohanawellnessclinic.com/",
+  "booking_page": "https://ohanawellness.janeapp.com/locations/ohana-wellness-clinic",
+  "hours": {
+   "mon": "8:00 AM \u2013 8:00 PM",
+   "tue": "7:30 AM \u2013 8:00 PM",
+   "wed": "7:30 AM \u2013 8:00 PM",
+   "thu": "8:00 AM \u2013 8:00 PM",
+   "fri": "8:00 AM \u2013 8:00 PM",
+   "sat": "8:00 AM \u2013 3:00 PM",
+   "sun": "10:00 AM \u2013 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 12,
+  "rating_source": "Google Places details in search results for Ohana Wellness Clinic: 5.0 stars based on 12 reviews.",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -26477,6 +26652,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Performance Recovery Therapy",
+  "clinic_id": "performance-recovery-therapy-toronto",
+  "address": "1400 O'Connor Drive, Suite 14",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M4B 2T8",
+  "phone": "416-288-0875",
+  "website": "https://prtherapyinc.com/",
+  "booking_page": "https://prtherapy.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM \u2013 7:00 PM",
+   "tue": "8:00 AM \u2013 7:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM",
+   "thu": "8:00 AM \u2013 7:00 PM",
+   "fri": "8:00 AM \u2013 7:00 PM",
+   "sat": "9:00 AM \u2013 3:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Personal Best Physiotherapy, Pilates, Rehabilitation",
   "clinic_id": "personal-best-physiotherapy-pilates-rehabilitation-toronto",
   "address": "124 Merton St, Suite 304",
@@ -26498,8 +26698,8 @@
   "google_rating": 5.0,
   "google_reviews": 1,
   "rating_source": "Google Places details (avg_rating 5, num_rating 1)",
-  "direct_billing": null,
-  "last_verified": null
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Peterborough Centre of Naturopathic Medicine",
@@ -26752,6 +26952,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Physio by Steph",
+  "clinic_id": "physio-by-steph-toronto",
+  "address": "17 Totteridge Road",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M9A 1Y9",
+  "phone": "416-953-2259",
+  "website": "https://www.physiobysteph.com/",
+  "booking_page": "https://physiobysteph.janeapp.com/locations/physio-by-steph/book",
+  "hours": {
+   "mon": "9:00 AM \u2013 4:00 PM",
+   "tue": "9:00 AM \u2013 4:00 PM",
+   "wed": "9:00 AM \u2013 4:00 PM",
+   "thu": "9:00 AM \u2013 4:00 PM",
+   "fri": "9:00 AM \u2013 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Physio-Masso MP",
   "clinic_id": "physio-masso-mp-saint-jerome",
   "address": "2412 Boul. Cur\u00e9-Labelle",
@@ -26902,6 +27127,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "PhysioPlus Health Group",
+  "clinic_id": "physioplus-health-group-toronto",
+  "address": "2489 Bloor Street West Suite 102",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M6S 1R6",
+  "phone": "416-760-8280",
+  "website": "https://physioplushealth.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM \u2013 8:30 PM",
+   "tue": "8:00 AM \u2013 8:30 PM",
+   "wed": "8:00 AM \u2013 8:30 PM",
+   "thu": "8:00 AM \u2013 8:30 PM",
+   "fri": "8:00 AM \u2013 7:00 PM",
+   "sat": "8:00 AM \u2013 3:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "PhysioVelo \u2014 Clinique Physiov\u00e9lo",
   "clinic_id": "physiovelo-clinique-physiovelo-longueuil",
   "address": "2455 Rue Saint-Georges",
@@ -26924,6 +27174,31 @@
   "google_reviews": 103,
   "rating_source": "Google Places details",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "PhysioZen",
+  "clinic_id": "physiozen-toronto",
+  "address": "2050 Lawrence Ave E Unit A",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M1R 2Z5",
+  "phone": "647-594-4855",
+  "website": "https://physiozen.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 7:00 PM",
+   "tue": "9:00 AM \u2013 7:00 PM",
+   "wed": "9:00 AM \u2013 7:00 PM",
+   "thu": "9:00 AM \u2013 7:00 PM",
+   "fri": "9:00 AM \u2013 7:00 PM",
+   "sat": "9:00 AM \u2013 1:30 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -27077,6 +27352,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Physiomed \u2014 Danforth",
+  "clinic_id": "physiomed-danforth-toronto",
+  "address": "3331 Danforth Ave Units C & D",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M1L 1C5",
+  "phone": "416-698-1441",
+  "website": "http://www.physiomed.ca/find-a-clinic/toronto-danforth/overview/",
+  "booking_page": "https://myclinic.physiomed.ca/",
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.7,
+  "google_reviews": 257,
+  "rating_source": "Clinic's own location page (physiomed.ca Toronto - Danforth overview) displays a Google rating badge of 4.7 stars based on 257 reviews at the top of the page.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Physiomed \u2014 Kennedy",
   "clinic_id": "physiomed-kennedy-scarborough",
   "address": "1399 Kennedy Rd, Unit 11A",
@@ -27102,6 +27402,81 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Physiomed \u2014 Leaside",
+  "clinic_id": "physiomed-leaside-toronto",
+  "address": "86 Laird Dr",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M4G 3V1",
+  "phone": "416-422-5353",
+  "website": "http://www.physiomed.ca/find-a-clinic/toronto-leaside/overview/",
+  "booking_page": "https://myclinic.physiomed.ca/",
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 1:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.6,
+  "google_reviews": 103,
+  "rating_source": "Clinic's own location page (physiomed.ca Toronto - Leaside overview) displays a Google rating badge of 4.6 stars based on 103 reviews at the top of the page.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Physiomed \u2014 Rogers Road",
+  "clinic_id": "physiomed-rogers-road-toronto",
+  "address": "321 Rogers Rd",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": null,
+  "phone": "647-352-6157",
+  "website": "https://www.physiomed.ca/find-a-clinic/toronto-rogers-road/overview/",
+  "booking_page": "https://myclinic.physiomed.ca/",
+  "hours": {
+   "mon": "11:00 AM - 8:00 PM",
+   "tue": "11:00 AM - 8:00 PM",
+   "wed": "11:00 AM - 8:00 PM",
+   "thu": "10:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 335,
+  "rating_source": "Clinic's own location page (physiomed.ca Toronto - Rogers Road overview) displays a Google rating badge of 4.9 stars based on 335 reviews at the top of the page.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Physiomed \u2014 St. Clair",
+  "clinic_id": "physiomed-st-clair-toronto",
+  "address": "1176 St Clair Ave W",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M6E 1B4",
+  "phone": "416-901-1417",
+  "website": "http://www.blueskypharmacy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 6:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "10:00 AM - 6:00 PM",
+   "thu": "10:00 AM - 6:00 PM",
+   "fri": "10:00 AM - 6:00 PM",
+   "sat": "10:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Physiomed \u2014 Thornhill",
   "clinic_id": "physiomed-thornhill",
   "address": "130 Racco Pkwy",
@@ -27123,6 +27498,31 @@
   "google_rating": 4.7,
   "google_reviews": 239,
   "rating_source": "Clinic's own website (Physiomed Thornhill overview page) displays a Google rating badge of 4.7 based on 239 reviews at the top of the page.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Physiomed \u2014 Yonge & Bloor",
+  "clinic_id": "physiomed-yonge-bloor-toronto",
+  "address": "7 Isabella St",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M4Y 1M7",
+  "phone": "416-642-2266",
+  "website": "https://www.physiomed.ca/find-a-clinic/toronto-yonge-bloor/overview/",
+  "booking_page": "https://myclinic.physiomed.ca/",
+  "hours": {
+   "mon": "10:00 AM - 7:00 PM",
+   "tue": "10:00 AM - 7:00 PM",
+   "wed": "10:00 AM - 7:00 PM",
+   "thu": "10:00 AM - 7:00 PM",
+   "fri": "10:00 AM - 6:00 PM",
+   "sat": "10:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.4,
+  "google_reviews": 71,
+  "rating_source": "Clinic's own location page (physiomed.ca Toronto - Yonge Bloor overview) displays a Google rating badge of 4.4 stars based on 71 reviews at the top of the page.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -27198,8 +27598,8 @@
   "google_rating": 4.3,
   "google_reviews": 6,
   "rating_source": "Google Places details (avg_rating 4.333, num_rating 6)",
-  "direct_billing": null,
-  "last_verified": null
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Pillars of Wellness",
@@ -27224,6 +27624,31 @@
   "google_reviews": 492,
   "rating_source": "Clinic's own website header badge displayed sitewide on pillarsofwellness.ca (fetched 2026-11-01): '4.9 Rated Excellent based on +492 Reviews'; the same figure appears for its Google listing as mirrored by PainHero (4.9, 493 reviews). A conflicting aggregator figure (HealthHives 4.9/356) was not used.",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Pilowsky Psychology Professional Corporation",
+  "clinic_id": "pilowsky-psychology-professional-corporation-toronto",
+  "address": "4905 Dundas St W",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M9A 1B2",
+  "phone": "416-239-9042",
+  "website": "http://www.pilowsky.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -27927,6 +28352,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Psychological Recovery Clinic",
+  "clinic_id": "psychological-recovery-clinic-toronto",
+  "address": "18 Wynford Dr Ste 714",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M3C 3S2",
+  "phone": "416-939-4290",
+  "website": "https://www.psychologicalrecovery.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 4:30 PM",
+   "mon": "8:30 AM - 4:30 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:30 AM - 4:30 PM",
+   "tue": "8:30 AM - 4:30 PM",
+   "wed": "8:30 AM - 4:30 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 6,
+  "rating_source": "Google Places details in search results for Psychological Recovery Clinic: 4.8 stars based on 6 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Psychology Education Assessment Centre",
   "clinic_id": "psychology-education-assessment-centre-mississauga",
   "address": "4310 Sherwoodtowne Blvd Unit 115",
@@ -28252,6 +28702,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Rachael Frankford Psychotherapy and Neurofeedback",
+  "clinic_id": "rachael-frankford-psychotherapy-and-neurofeedback-toronto",
+  "address": "720 Spadina Ave. #306",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5S 2T9",
+  "phone": "647-699-8212",
+  "website": "http://www.rachaelfrankford.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 8:00 PM",
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Rachel Langill, RMT",
   "clinic_id": "rachel-langill-rmt-moncton",
   "address": "1633 Mountain Road, Unit 6",
@@ -28450,6 +28925,31 @@
   "rating_source": "Clinic's own website homepage (https://reactiveclinic.com/) reviews widget: '5.0 Based on 71 reviews' displayed above its Google patient reviews.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Ready Room Health",
+  "clinic_id": "ready-room-health-toronto",
+  "address": "40 Carl Hall Rd Unit 49",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M3K 2C1",
+  "phone": "647-313-8996",
+  "website": "https://www.readyroomhealth.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 4,
+  "rating_source": "Google Places details for Ready Room Health + Performance (the clinic's former 25 Scarsdale Rd #3 listing, now marked permanently closed): avg_rating 5.0, num_rating 4.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Real Life Counselling",
@@ -28827,6 +29327,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Rejuvenus Clinic",
+  "clinic_id": "rejuvenus-clinic-toronto",
+  "address": "3130 Bathurst St",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M6A 1A1",
+  "phone": "647-615-0223",
+  "website": "https://www.rejuvenusclinic.ca/",
+  "booking_page": "https://www.rejuvenusclinic.ca/service-page/botox-for-bruxism-teeth-grinding",
+  "hours": {
+   "fri": "10:00 AM - 7:00 PM",
+   "mon": "10:00 AM - 7:00 PM",
+   "sat": "10:00 AM - 7:00 PM",
+   "sun": "Closed",
+   "thu": "10:00 AM - 7:00 PM",
+   "tue": "10:00 AM - 7:00 PM",
+   "wed": "10:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Rekindle Health",
   "clinic_id": "rekindle-health-yellowknife",
   "address": "5122 48 St",
@@ -29024,7 +29549,7 @@
   "google_reviews": 1,
   "rating_source": "Google Places details (place_id 3259034457699504)",
   "direct_billing": "no",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Resolution Physiotherapy & IMS Clinic",
@@ -29074,6 +29599,56 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Resolution Psychology Clinic",
+  "clinic_id": "resolution-psychology-clinic-toronto",
+  "address": "18 King Street East",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5C 1C4",
+  "phone": "647-947-5922",
+  "website": "https://www.resolutionpsychologyclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "fri": "9:00 AM - 9:00 PM",
+   "sat": "9:00 AM - 9:00 PM",
+   "sun": "9:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Restoracare Health",
+  "clinic_id": "restoracare-health-toronto",
+  "address": "130 Queens Quay East Suite 1003",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5A 0P6",
+  "phone": "416-304-9888",
+  "website": "https://restoracarehealth.com/",
+  "booking_page": "https://restoracarehealth.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 7:00 PM",
+   "wed": "8:00 AM - 7:00 PM",
+   "thu": "8:00 AM - 7:00 PM",
+   "fri": "10:00 AM - 7:00 PM",
+   "sat": "8:00 AM - 3:00 PM",
+   "sun": "9:00 AM - 3:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": 527,
+  "rating_source": "Clinic's own website Google (Trustindex) widget on its homepage and buccal massage page: '527 Google reviews' under a five-star display; no numeric aggregate rating value was rendered in text fetch and the Google Places extract showed no rating, so google_rating is null and only the widget's review count is recorded.",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -29502,6 +30077,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Ritual Beauty & Wellness",
+  "clinic_id": "ritual-beauty-wellness-toronto",
+  "address": "571 Wellington St W",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5V 1G3",
+  "phone": "416-306-0040",
+  "website": "https://ritual.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Rituels Atelier",
   "clinic_id": "rituels-atelier-saint-hippolyte",
   "address": "2241 Chemin des Hauteurs #203",
@@ -29669,6 +30269,31 @@
    "fri": null,
    "sat": null,
    "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Roncesvalles Osteopathy & Wellness",
+  "clinic_id": "roncesvalles-osteopathy-wellness-toronto",
+  "address": "92 Roncesvalles Ave",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M6R 2K8",
+  "phone": "416-535-2205",
+  "website": "https://www.roncyosteo.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 7:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 6:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -29894,6 +30519,31 @@
    "fri": null,
    "sat": null,
    "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "SHAPE Toronto Health & Wellness",
+  "clinic_id": "shape-toronto-health-wellness-toronto",
+  "address": "35 Coldwater Rd",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M3B 1Y8",
+  "phone": "416-929-8444",
+  "website": "https://shapetoronto.com/",
+  "booking_page": "https://shapetoronto.janeapp.com/",
+  "hours": {
+   "fri": "6:00 AM - 6:00 PM",
+   "mon": "6:00 AM - 9:00 PM",
+   "sat": "8:00 AM - 6:00 PM",
+   "sun": "9:00 AM - 4:00 PM",
+   "thu": "6:00 AM - 9:00 PM",
+   "tue": "6:00 AM - 9:00 PM",
+   "wed": "6:00 AM - 9:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -30152,6 +30802,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Sana Motlekar",
+  "clinic_id": "sana-motlekar-toronto",
+  "address": "130 King St W",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-460-6003",
+  "website": "https://www.pcosweightlossdietitian.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 7:30 PM",
+   "mon": "8:00 AM - 7:30 PM",
+   "sat": "9:00 AM - 12:00 PM",
+   "sun": null,
+   "thu": "8:00 AM - 7:30 PM",
+   "tue": "8:00 AM - 7:30 PM",
+   "wed": "8:00 AM - 7:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Sandra Edwards",
   "clinic_id": "sandra-edwards-markham",
   "address": "66 Couperthwaite Crescent",
@@ -30402,6 +31077,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Say Word Osteopathy",
+  "clinic_id": "say-word-osteopathy-toronto",
+  "address": "269 Richmond St W Unit 100",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5V 1X1",
+  "phone": "519-282-6446",
+  "website": "https://www.saywordosteopathy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "10:00 AM - 6:30 PM",
+   "wed": "10:00 AM - 6:30 PM",
+   "thu": "10:00 AM - 6:30 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Scarborough Psychology Clinic",
   "clinic_id": "scarborough-psychology-clinic-toronto",
   "address": "1920 Ellesmere Road Suite 208",
@@ -30600,6 +31300,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Shanti Psychotherapy",
+  "clinic_id": "shanti-psychotherapy-toronto",
+  "address": "745 Danforth Ave Ste 202",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M4J 1L4",
+  "phone": "437-747-0692",
+  "website": "https://www.shantipsychotherapy.ca/",
+  "booking_page": "https://shantipsychotherapy.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "9:00 AM - 4:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Sheddon Physiotherapy \u2014 Burlington",
@@ -31227,6 +31952,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Source Acupuncture",
+  "clinic_id": "source-acupuncture-toronto",
+  "address": "588 Bloor St West, 2nd Floor",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M6G 1K4",
+  "phone": "437-782-8428",
+  "website": "https://sourceacupuncture.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:30 AM - 6:30 PM",
+   "tue": "10:30 AM - 6:30 PM",
+   "wed": "10:30 AM - 6:30 PM",
+   "thu": "10:30 AM - 6:30 PM",
+   "fri": "10:30 AM - 6:30 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "South Edmonton Massage Therapy",
   "clinic_id": "south-edmonton-massage-therapy-edmonton",
   "address": "9940 67 Ave NW",
@@ -31366,6 +32116,56 @@
   "google_reviews": 26,
   "rating_source": "Google Places",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Speak Fluent",
+  "clinic_id": "speak-fluent-toronto",
+  "address": "390 Cherry St",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5A 0E2",
+  "phone": "647-371-0880",
+  "website": "https://www.speakfluent.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.8,
+  "google_reviews": 67,
+  "rating_source": "Clinic's own website (speakfluent.ca) footer/Places extract on its own pages: Rating 4.8/5 (67 reviews).",
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Speak Fluent Speech Services",
+  "clinic_id": "speak-fluent-speech-services-toronto",
+  "address": "390 Cherry St",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5A 0E2",
+  "phone": "647-371-0880",
+  "website": "http://www.speakfluent.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.8,
+  "google_reviews": 67,
+  "rating_source": "Clinic's own website (speakfluent.ca) footer/Places extract on its own pages: Rating 4.8/5 (67 reviews).",
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -31594,6 +32394,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "SpeechAppeal",
+  "clinic_id": "speechappeal-toronto",
+  "address": "2300 Yonge Street Suite 1600",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M4P 1E4",
+  "phone": "416-549-1641",
+  "website": "https://www.speechappeal.ca/",
+  "booking_page": "https://speechappeal.janeapp.com/",
+  "hours": {
+   "mon": "10:00 AM - 6:00 PM",
+   "tue": "10:00 AM - 8:30 PM",
+   "wed": "10:00 AM - 8:30 PM",
+   "thu": "9:00 AM - 4:30 PM",
+   "fri": "10:00 AM - 3:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 33,
+  "rating_source": "Clinic's own website (speechappeal.ca) footer/Places extract on its homepage: Rating 5.0/5 (33 reviews).",
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "SpeechScience",
+  "clinic_id": "speechscience-toronto",
+  "address": "First Canadian Place, 100 King Street West, Suite 5600, Floor 56",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5X 1C9",
+  "phone": "416-662-7304",
+  "website": "https://speechscience.com/",
+  "booking_page": "https://speechscience.com/free-consult/",
+  "hours": {
+   "fri": "8:00 AM - 5:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "9:00 AM - 5:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": 3.5,
+  "google_reviews": 2,
+  "rating_source": "Google Places details in search results for SpeechScience Speech Therapy - Toronto: rating 3.5 based on 2 reviews. The clinic's own marketing claim of 'consistent 5-star ratings' was NOT used as a rating source.",
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "SpeechScience Speech Therapy - Toronto",
   "clinic_id": "speechscience-speech-therapy-toronto-toronto",
   "address": "First Canadian Place, 100 King Street West, Suite 5600, Floor 56",
@@ -31761,6 +32611,31 @@
    "fri": null,
    "sat": null,
    "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "St. Michael's Hospital Outpatient Voice and Swallowing Clinic",
+  "clinic_id": "st-michaels-hospital-outpatient-voice-and-swallowing-clinic-toronto",
+  "address": "30 Bond St, Suite 8-163 CC North",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5B 1W8",
+  "phone": "416-864-5282",
+  "website": "https://unityhealth.to/areas-of-care/programs-and-clinics/ear-nose-throat-and-voice-department-of-otolaryngology-head-and-neck-surgery/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
   },
   "google_rating": null,
   "google_reviews": null,
@@ -32069,6 +32944,31 @@
   "last_verified": null
  },
  {
+  "name": "Studio Athletica / Push Pounds Sports Medicine",
+  "clinic_id": "studio-athletica-push-pounds-sports-medicine-toronto",
+  "address": "55 University Ave, Mezzanine Floor, Suite M002",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5J 2H7",
+  "phone": "416-722-3393",
+  "website": "https://www.studioathletica.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 8:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 8:00 PM",
+   "sun": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 13,
+  "rating_source": "Google Places details in search results for Push Pounds Sports Medicine - Physiotherapy Toronto, Nstride, PRP and DEXA scan (55 University Ave, place_id 1227044534794500): rating 5.0 based on 13 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "St\u00e9phanie Gilbert Acupuncture",
   "clinic_id": "stephanie-gilbert-acupuncture-montreal",
   "address": "1217 Avenue Bernard, Ste 102",
@@ -32344,6 +33244,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Sutherland-Chan Clinic",
+  "clinic_id": "sutherland-chan-clinic-toronto",
+  "address": "77 King Street W, Concourse Level",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5K 2A1",
+  "phone": "416-214-9668",
+  "website": "https://sc-clinic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 7:00 PM",
+   "tue": "8:30 AM - 7:00 PM",
+   "wed": "8:30 AM - 7:00 PM",
+   "thu": "8:30 AM - 7:00 PM",
+   "fri": "8:30 AM - 7:00 PM",
+   "sat": "10:00 AM - 4:30 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places details in search results for Sutherland-Chan Clinic (77 King St W / King-Bay listing): 5.0 stars based on 2 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Suzanne Roy",
   "clinic_id": "suzanne-roy-sherbrooke",
   "address": "GMF Belved\u00e8re, 2235 Rue Galt O, 2e \u00e9tage",
@@ -32390,6 +33315,31 @@
   "google_rating": 5.0,
   "google_reviews": 8,
   "rating_source": "Google Places details in search results for the Paradis Naturopathic Health Clinic and Fertility Care listing at 17 Summit Crescent, Guelph (the same practice, named for its ND): 5.0 stars based on 8 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Swing Lab \u2013 Performance & Therapy",
+  "clinic_id": "swing-lab-performance-and-therapy-toronto",
+  "address": "245 West Beaver Creek Road, Unit 9",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "L4B 1L1",
+  "phone": "416-824-2980",
+  "website": "https://www.swinglabtheory.com/",
+  "booking_page": "https://swinglab.janeapp.com/",
+  "hours": {
+   "mon": "10:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": "8:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -32465,6 +33415,31 @@
   "google_rating": 4.3,
   "google_reviews": 16,
   "rating_source": "Google Places details in search results for TAC Physiotherapy Clinic Inc: rating 4.3 based on 16 reviews (the extract's star wording reads 'four and a half stars (4.3)'; the numeric 4.3 was recorded).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "TMJ Osteopathy and Concussion Care",
+  "clinic_id": "tmj-osteopathy-and-concussion-care-toronto",
+  "address": "2221 Yonge St",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": null,
+  "phone": "437-349-5419",
+  "website": "https://www.tmjosteopathy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 6:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "10:00 AM - 1:00 PM",
+   "thu": "10:00 AM - 6:00 PM",
+   "fri": "10:00 AM - 4:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -32566,6 +33541,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Tasneem Patla PT",
+  "clinic_id": "tasneem-patla-pt-toronto",
+  "address": "70 University Ave #120",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5J 2M4",
+  "phone": "416-977-7474",
+  "website": "https://emkiro.ca/",
+  "booking_page": "https://emkiro.juvonno.com/",
+  "hours": {
+   "mon": "8:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 7:00 PM",
+   "wed": "8:00 AM - 7:00 PM",
+   "thu": "8:00 AM - 7:00 PM",
+   "fri": "8:00 AM - 6:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 4.5,
+  "google_reviews": 28,
+  "rating_source": "Google Places details in search results for Emkiro Health Services, Toronto: 4.5 stars based on 28 reviews. (An aggregator figure of 4.6 / 335 seen on bestinhood.com was rejected per the rating rule.)",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -32769,6 +33769,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "The Acupuncture Oasis",
+  "clinic_id": "the-acupuncture-oasis-toronto",
+  "address": "20 Maud St",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5V 2M5",
+  "phone": "647-607-3388",
+  "website": "http://theacuoasis.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:30 AM - 6:00 PM",
+   "tue": "9:30 AM - 8:30 PM",
+   "wed": "9:30 AM - 8:30 PM",
+   "thu": "9:30 AM - 8:30 PM",
+   "fri": "9:30 AM - 8:30 PM",
+   "sat": "9:30 AM - 8:30 PM",
+   "sun": "11:00 AM - 8:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "The Acupuncture and Health Centre",
   "clinic_id": "the-acupuncture-and-health-centre-calgary",
   "address": "#202, 12427 Bonaventure Drive SE",
@@ -32842,6 +33867,56 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "The Counselling Centre",
+  "clinic_id": "the-counselling-centre-toronto",
+  "address": "692 Euclid Avenue",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M6G 2T9",
+  "phone": "647-812-0462",
+  "website": "https://thecounsellingcentre.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "6:00 AM - 9:00 PM",
+   "tue": "6:00 AM - 9:00 PM",
+   "wed": "6:00 AM - 9:00 PM",
+   "thu": "6:00 AM - 9:00 PM",
+   "fri": "6:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": "6:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Counselling Clinic",
+  "clinic_id": "the-counselling-clinic-toronto",
+  "address": "250 Sheppard Ave E Suite 207",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M2N 6M9",
+  "phone": "416-303-0027",
+  "website": "https://thecounsellingclinic.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 6:00 PM",
+   "sun": "9:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "The Downtown Psychology Clinic",
@@ -32941,6 +34016,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Holistic Move",
+  "clinic_id": "the-holistic-move-toronto",
+  "address": "11 Irwin Ave 2nd Floor",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M4Y 1L1",
+  "phone": "647-955-6336",
+  "website": "https://theholisticmove.com/",
+  "booking_page": "https://rechargewellness.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "10:00 AM - 1:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -33085,6 +34185,31 @@
    "thu": "7:00 AM - 4:00 PM",
    "fri": "7:00 AM - 4:00 PM",
    "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Mental Game Clinic",
+  "clinic_id": "the-mental-game-clinic-toronto",
+  "address": "1150 Yonge Street",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M4W 2L9",
+  "phone": "437-826-9365",
+  "website": "https://www.thementalgame.me/",
+  "booking_page": "https://thementalgame.janeapp.com/locations/the-mental-game-clinic/book",
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 4:00 PM",
+   "sat": "9:00 AM - 12:00 PM",
    "sun": null
   },
   "google_rating": null,
@@ -33319,6 +34444,31 @@
   "last_verified": null
  },
  {
+  "name": "The Possibilities Clinic",
+  "clinic_id": "the-possibilities-clinic-toronto",
+  "address": "1910 Yonge Street, Suite 115",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M4S 3B2",
+  "phone": "1-833-482-5558",
+  "website": "https://possibilitiesclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 1.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details in search results for The Possibilities Clinic, Toronto: 1.0 stars based on 1 review.",
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "The Proactive Athlete",
   "clinic_id": "the-proactive-athlete-burlington",
   "address": "3018 New Street",
@@ -33340,6 +34490,31 @@
   "google_rating": 4.9,
   "google_reviews": 9,
   "rating_source": "Google Places details in search results for The Proactive Athlete: 'Rating: five stars (4.9), Based on 9 reviews' (fetched 2026-11-01). The clinic's own site displays a 5-star graphic ('Your 5-Star Burlington Physiotherapy Clinic') with no review count.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Rehab Grid \u2014 North York",
+  "clinic_id": "the-rehab-grid-north-york-toronto",
+  "address": "1865 Leslie Street, Unit 101",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M3B 2M5",
+  "phone": "647-955-6223",
+  "website": "https://www.therehabgrid.com/north-york-toronto",
+  "booking_page": "https://rehab-grid-physiotherapy-and-sports-performance.janeapp.com/",
+  "hours": {
+   "mon": "7:30 AM - 7:30 PM",
+   "tue": "7:30 AM - 7:30 PM",
+   "wed": "7:30 AM - 7:30 PM",
+   "thu": "7:30 AM - 7:30 PM",
+   "fri": "7:00 AM - 5:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 135,
+  "rating_source": "Clinic's own website (North York pages) displays 'Rating: 5.0 (135 reviews)' - the clinic's own Google rating badge/widget on therehabgrid.com.",
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
@@ -33392,6 +34567,56 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "The Runner's Academy",
+  "clinic_id": "the-runners-academy-toronto",
+  "address": "918 St Clair Ave W",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M6C 1C6",
+  "phone": "437-889-5440",
+  "website": "https://www.therunnersacademy.com/",
+  "booking_page": "https://therunnersacademy.janeapp.com/",
+  "hours": {
+   "mon": "7:30 AM - 6:30 PM",
+   "tue": "7:30 AM - 6:30 PM",
+   "wed": "7:30 AM - 6:30 PM",
+   "thu": "7:30 AM - 6:30 PM",
+   "fri": "7:30 AM - 6:30 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 23,
+  "rating_source": "Google Places details in search results for The Runner's Academy, Toronto (St Clair West): 5.0 stars based on 23 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Running Physio",
+  "clinic_id": "the-running-physio-toronto",
+  "address": "8 Gladstone Ave Unit 2",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M6J 0B3",
+  "phone": "416-530-0555",
+  "website": "https://therunningphysio.ca/",
+  "booking_page": "https://athletescare.janeapp.com/locations/queen-st-west-the-running-physio/book",
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 4:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 17,
+  "rating_source": "Google Places details in search results for The Running Physio: 5.0 stars based on 17 reviews. (An aggregator ranking page showing a different review count was not used, per the rating rule.)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "The Self Centre",
@@ -33516,6 +34741,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Speech and Stuttering Institute",
+  "clinic_id": "the-speech-and-stuttering-institute-toronto",
+  "address": "95 Barber Greene Rd Suite 308",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M3C 3E9",
+  "phone": "416-491-7771",
+  "website": "https://www.speechandstuttering.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 7:00 PM",
+   "wed": "8:00 AM - 7:00 PM",
+   "thu": "8:00 AM - 7:00 PM",
+   "fri": "8:00 AM - 7:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 12,
+  "rating_source": "Google Places details in search results for The Speech and Stuttering Institute: 4.9 stars based on 12 reviews.",
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -33686,6 +34936,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "The Voice Clinic",
+  "clinic_id": "the-voice-clinic-toronto",
+  "address": "180 Dundas St W Suite 2003",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5G 1Z8",
+  "phone": "647-361-8182",
+  "website": "http://www.thevoiceclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 5:00 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "8:00 AM - 5:00 PM",
+   "thu": "8:00 AM - 5:00 PM",
+   "fri": "8:00 AM - 1:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "The Voice Source",
   "clinic_id": "the-voice-source-hamilton",
   "address": "51 Barons Avenue North",
@@ -33761,6 +35036,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "The Wise Self Psychotherapy Clinic",
+  "clinic_id": "the-wise-self-psychotherapy-clinic-toronto",
+  "address": "4891 Dundas St W Unit 3",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M9A 1B2",
+  "phone": "289-778-5429",
+  "website": "https://www.thewiseself.ca/",
+  "booking_page": "https://thewiseself.janeapp.com/",
+  "hours": {
+   "mon": "10:00 AM - 7:00 PM",
+   "tue": "10:00 AM - 7:00 PM",
+   "wed": "10:00 AM - 7:00 PM",
+   "thu": "10:00 AM - 7:00 PM",
+   "fri": "10:00 AM - 7:00 PM",
+   "sat": "10:00 AM - 7:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.8,
+  "google_reviews": null,
+  "rating_source": "Clinic's own website homepage displays '4.8 Stars on Google'; no Google review count is published on the site and the Google Places extract showed no rating/count, so google_reviews is left null.",
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "TheraTouch Physiotherapy",
   "clinic_id": "theratouch-physiotherapy-ottawa",
   "address": "2249 Carling Ave, Suite 201",
@@ -33833,6 +35133,31 @@
   "google_reviews": null,
   "rating_source": "Google badge on the clinic's own Hurontario page (therapic.ca/physiotherapy-in-hurontario) displays '5.0 Google Rating'; no review count is shown with the badge.",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Therapy Spot",
+  "clinic_id": "therapy-spot-toronto",
+  "address": "1232 Dufferin St",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M6H 4C3",
+  "phone": "416-546-3044",
+  "website": "https://therapyspot.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 6:00 PM",
+   "sat": "8:30 AM - 5:30 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -34086,6 +35411,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Toronto Adult Speech Clinic",
+  "clinic_id": "toronto-adult-speech-clinic-toronto",
+  "address": "89 Sherbourne St",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M5A 2P9",
+  "phone": "647-633-3325",
+  "website": "http://www.torontoadultspeechclinic.com/",
+  "booking_page": "https://tasc.janeapp.com",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Toronto Chiropractic Services",
   "clinic_id": "toronto-chiropractic-services-toronto",
   "address": "206 Dupont St (Rear)",
@@ -34136,6 +35486,56 @@
   "last_verified": null
  },
  {
+  "name": "Toronto Naturopath Osteopath Clinic",
+  "clinic_id": "toronto-naturopath-osteopath-clinic-toronto",
+  "address": "1834 Lakeshore Rd W unit 6",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "L5J 1J7",
+  "phone": "647-691-6492",
+  "website": "https://naturopathosteopathclinic.com/",
+  "booking_page": "https://mississauganaturopathosteopathclinic.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Toronto Neurofeedback and Psychotherapy Centre",
+  "clinic_id": "toronto-neurofeedback-and-psychotherapy-centre-toronto",
+  "address": "56 Aberfoyle Crescent Suite 730",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M8X 2W4",
+  "phone": "416-619-0238",
+  "website": "https://nuvistamentalhealth.com/locations/toronto/",
+  "booking_page": "https://torontoneurofeedback.janeapp.com/locations/toronto/book",
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 4:00 PM",
+   "sun": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Toronto Osteopathy & Wellness",
   "clinic_id": "toronto-osteopathy-wellness-north-york",
   "address": "335 Sheppard Avenue East",
@@ -34184,6 +35584,31 @@
   "rating_source": "Clinic's own Danforth location page Google rating badge: 'Rating: 4.9/5 (135 ratings)' (Google Places details returned rating: null)",
   "direct_billing": null,
   "last_verified": null
+ },
+ {
+  "name": "Toronto Physiotherapy (Danforth & Chester)",
+  "clinic_id": "toronto-physiotherapy-danforth-and-chester-toronto",
+  "address": "442 Danforth Ave",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M4K 1P4",
+  "phone": "416-792-5115",
+  "website": "https://torontophysiotherapy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "11:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 6:00 PM",
+   "wed": "11:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 4:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 271,
+  "rating_source": "Clinic's own website business block on its service pages (torontophysiotherapy.ca): Rating 4.9/5 (271 ratings), consistent across the pages read in this pass.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Toronto Psychology Clinic",

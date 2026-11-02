@@ -28674,6 +28674,44 @@
   "last_verified": null
  },
  {
+  "clinic_id": "ndcare-naturopathic-clinics-toronto",
+  "treatment_id": "ndcare-naturopathic-clinics-toronto--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Tara Andresen",
+  "practitioners": [
+   {
+    "id": "ndcare-naturopathic-clinics-toronto--tara-andresen",
+    "name": "Tara Andresen",
+    "as_recorded": "Dr. Tara Andresen, N.D. - licensed Toronto naturopathic doctor, founder of NDcare Naturopathic Clinics, registered in good standing with the College of Naturopaths of Ontario (per the clinic's own site)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee list is published on ndcare.ca pages read in this pass (the site invites patients to ask about fees in a free 15-minute info session); no booking-platform fee list could be fetched, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://ndcare.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ndcare-naturopathic-clinics-toronto",
+  "treatment_id": "ndcare-naturopathic-clinics-toronto--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Tara Andresen",
+  "practitioners": [
+   {
+    "id": "ndcare-naturopathic-clinics-toronto--tara-andresen",
+    "name": "Tara Andresen",
+    "as_recorded": "Dr. Tara Andresen, N.D. - licensed Toronto naturopathic doctor, founder of NDcare Naturopathic Clinics, registered in good standing with the College of Naturopaths of Ontario (per the clinic's own site)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee list is published on ndcare.ca pages read in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://ndcare.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "neil-clinic-acupuncture-saskatoon",
   "treatment_id": "neil-clinic-acupuncture-saskatoon--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -28892,6 +28930,57 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "neuropotential-clinics-toronto",
+  "treatment_id": "neuropotential-clinics-toronto--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Arnold Muller",
+  "practitioners": [
+   {
+    "id": "neuropotential-clinics-toronto--arnold-muller",
+    "name": "Arnold Muller",
+    "as_recorded": "Dr. Arnold Muller - clinical psychologist at Neuropotential Clinics, 31 years of experience as a licensed psychologist, experienced in psychological assessment, diagnosis and treatment plan preparation; serves individuals of all ages, couples, small groups and families (per the clinic's own site)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No psychotherapy fee is published on the clinic's site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://neuropotentialclinics.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "neuropotential-clinics-toronto",
+  "treatment_id": "neuropotential-clinics-toronto--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No neurofeedback fee is published on neuropotentialclinics.com pages read in this pass (the site lists only a '$$' price range), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://neuropotentialclinics.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "neuropotential-clinics-toronto",
+  "treatment_id": "neuropotential-clinics-toronto--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": "Arnold Muller",
+  "practitioners": [
+   {
+    "id": "neuropotential-clinics-toronto--arnold-muller",
+    "name": "Arnold Muller",
+    "as_recorded": "Dr. Arnold Muller - clinical psychologist at Neuropotential Clinics, 31 years of experience as a licensed psychologist, experienced in psychological assessment, diagnosis and treatment plan preparation; serves individuals of all ages, couples, small groups and families (per the clinic's own site)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No assessment fee is published on the clinic's site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://neuropotentialclinics.com/neurofeedback/learning-disabilities/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "neurvana-naturopathic-medicine-calgary",
   "treatment_id": "neurvana-naturopathic-medicine-calgary--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -29038,6 +29127,48 @@
   "price_source": "No fees are published on newlifetherapy.ca (homepage reviewed); the site offers a free 15-minute consultation but no session rates, so price is null.",
   "price_tier": null,
   "treatment_link": "https://newlifetherapy.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "new-pathways-therapy-center-toronto",
+  "treatment_id": "new-pathways-therapy-center-toronto--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No couples therapy fee is published on the clinic's site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.newpathwaystherapy.com/all-services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "new-pathways-therapy-center-toronto",
+  "treatment_id": "new-pathways-therapy-center-toronto--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Social Work",
+  "practitioner": "Rachael Frankford, Lynn Hill, Savannah Jack",
+  "practitioners": [
+   {
+    "id": "new-pathways-therapy-center-toronto--rachael-frankford",
+    "name": "Rachael Frankford",
+    "as_recorded": "Rachael Frankford MSW, RSW - Registered Social Worker/Psychotherapist, Neurofeedback Therapist; Founder of New Pathways Therapy Centre (per the clinic's own site)"
+   },
+   {
+    "id": "new-pathways-therapy-center-toronto--lynn-hill",
+    "name": "Lynn Hill",
+    "as_recorded": "Lynn Hill RSW - Registered Social Worker and Neurofeedback Practitioner (per the clinic's own site)"
+   },
+   {
+    "id": "new-pathways-therapy-center-toronto--savannah-jack",
+    "name": "Savannah Jack",
+    "as_recorded": "Savannah Jack, BSW, RSW - Registered Social Worker and neurofeedback technician (per the clinic's own team page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No neurofeedback fee is published on newpathwaystherapy.com pages read in this pass (services pages and team profiles list no session price), so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.newpathwaystherapy.com/neurofeedback-therapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -29212,6 +29343,19 @@
   "price_tier": null,
   "treatment_link": "https://drmorsillo.com",
   "last_verified": null
+ },
+ {
+  "clinic_id": "newpath-psychotherapy-toronto",
+  "treatment_id": "newpath-psychotherapy-toronto--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (homepage or blog pages read in this pass) and no booking-page fee list exists, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://newpathpsychotherapy.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "nex-wellness-iv-therapy-clinic-burlington",
@@ -30040,6 +30184,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "now-next-psychotherapy-and-neurofeedback-toronto",
+  "treatment_id": "now-next-psychotherapy-and-neurofeedback-toronto--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page (sarausmanitherapy.janeapp.com) rendered practitioner names only in text fetch - its treatment/fee list did not render - and no standalone neurofeedback fee is published on nowandnextpsychotherapy.ca (its FAQ gives individual therapy at $185-$200 and LENS free for in-person individual therapy clients only), so price is null and the clinic is queued for a Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://nowandnextpsychotherapy.ca/neurofeedback-services-toronto/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "nt-nutrition-saguenay",
   "treatment_id": "nt-nutrition-saguenay--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -30168,6 +30325,19 @@
   "price_tier": null,
   "treatment_link": "https://www.nutriskulpt.com/services-2/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "nutrismart-eating-toronto",
+  "treatment_id": "nutrismart-eating-toronto--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No sports nutrition service exists on the clinic's site and no fee list is published on the site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.nutrismarteating.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "nutrition-assessment-clinic-kingston",
@@ -30663,6 +30833,76 @@
   "price_tier": null,
   "treatment_link": "https://ocfi.ca/couple-therapy-2/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "ohana-wellness-clinic-toronto",
+  "treatment_id": "ohana-wellness-clinic-toronto--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fertility acupuncture fee is published on the clinic's own acupuncture page, and its Jane booking page rendered no fee list in search extracts, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://ohanawellnessclinic.com/acupuncture/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ohana-wellness-clinic-toronto",
+  "treatment_id": "ohana-wellness-clinic-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Chiropractic",
+  "practitioner": "Julian Colantonio",
+  "practitioners": [
+   {
+    "id": "ohana-wellness-clinic-toronto--julian-colantonio",
+    "name": "Julian Colantonio",
+    "as_recorded": "Dr. Julian Colantonio, Chiropractor - TPI Certified Provider for Golf, per the clinic's Golf Swing Assessment page and chiropractic page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No Golf Swing Assessment fee is published on the clinic's Golf Swing Assessment page, and its Jane booking page (ohanawellness.janeapp.com) rendered no fee list in search extracts, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://ohanawellnessclinic.com/golf-swing-assessment/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ohana-wellness-clinic-toronto",
+  "treatment_id": "ohana-wellness-clinic-toronto--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Rylee MacGregor",
+  "practitioners": [
+   {
+    "id": "ohana-wellness-clinic-toronto--rylee-macgregor",
+    "name": "Rylee MacGregor",
+    "as_recorded": "Dr. Rylee MacGregor, ND - registered naturopathic doctor, per the clinic's Jane booking page bio"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathy fee is published on the clinic's own website, and its Jane booking page rendered no fee list in search extracts, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://www.ohanawellnessclinic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ohana-wellness-clinic-toronto",
+  "treatment_id": "ohana-wellness-clinic-toronto--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Claire McGlynn",
+  "practitioners": [
+   {
+    "id": "ohana-wellness-clinic-toronto--claire-mcglynn",
+    "name": "Claire McGlynn",
+    "as_recorded": "Claire McGlynn, Physiotherapist - additional training in Vestibular Rehabilitation (vertigo, dizziness and balance issues), per the clinic's Jane booking page bio and physiotherapy page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation or physiotherapy fee list is published on the clinic's own website, and its Jane booking page rendered no fee list in search extracts, so price is null and the clinic is queued for a rendered-browser Jane price re-scan. The physiotherapy price fallback (rule v2) could not be applied because no physiotherapy price was verified either.",
+  "price_tier": null,
+  "treatment_link": "https://ohanawellnessclinic.com/physiotherapy/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "oliver-chiropractic-wellness-clinic-edmonton",
@@ -32087,6 +32327,51 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "performance-recovery-therapy-toronto",
+  "treatment_id": "performance-recovery-therapy-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Sydney Hubbard",
+  "practitioners": [
+   {
+    "id": "performance-recovery-therapy-toronto--sydney-hubbard",
+    "name": "Sydney Hubbard",
+    "as_recorded": "Sydney Hubbard, Registered Physiotherapist - Pelvic Health, East York & Scarborough, per the clinic's Our Team page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee is published on the clinic's own website, and its Jane booking page (prtherapy.janeapp.com) rendered no fee list in search extracts, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://prtherapyinc.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "performance-recovery-therapy-toronto",
+  "treatment_id": "performance-recovery-therapy-toronto--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$15 single session \u00b7 $40/month Basic \u00b7 $50/month Elevated",
+  "price_source": "Clinic's own website Recovery Room page (https://prtherapyinc.com/services/recovery-room.html): Single Session $15 per session drop-in (includes red light, sauna, or Stretch Zone at East York); Basic Recovery Club $40/month for compression boots and red light therapy in a shared space; Elevated Recovery Club $50/month for sauna and red light therapy in a private room at East York.",
+  "price_tier": "website",
+  "treatment_link": "https://prtherapyinc.com/services/recovery-room.html",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "performance-recovery-therapy-toronto",
+  "treatment_id": "performance-recovery-therapy-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave therapy fee is published on the clinic's own website, and its Jane booking page rendered no fee list in search extracts, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://prtherapyinc.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "personal-best-physiotherapy-pilates-rehabilitation-toronto",
   "treatment_id": "personal-best-physiotherapy-pilates-rehabilitation-toronto--clinical-pilates",
   "treatment": null,
@@ -32228,6 +32513,44 @@
   "price_source": "Physio Bike Fitter's own site names its fit tiers (Pre-Purchase Fit, Beginner Fit, Professional Fit) but no prices were captured from the clinic's own pages; the only prices found were on a third-party roundup (myvelofit.com, page data roughly two years old), which fails the one-year price rule, so price is null.",
   "price_tier": null,
   "treatment_link": "http://physiobikefitter.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physio-by-steph-toronto",
+  "treatment_id": "physio-by-steph-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Stephanie",
+  "practitioners": [
+   {
+    "id": "physio-by-steph-toronto--stephanie",
+    "name": "Stephanie",
+    "as_recorded": "Stephanie \u2014 sole physiotherapist at Physio by Steph; first-person bio on the clinic's Jane booking page (trained at the National Ballet School of Canada, faculty expert in the Pivot Dancer program, qualified as a pelvic health physiotherapist); contact stephanie@physiobysteph.com. No surname is published on any clinic-owned channel, so recorded first-name-only."
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic-specific fee is published on the clinic's own website; the physiotherapy page lists general physiotherapy rates only and the Jane fee list did not render in text fetch, so price is null. Jane re-scan queue.",
+  "price_tier": null,
+  "treatment_link": "https://physiobysteph.janeapp.com/locations/physio-by-steph/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physio-by-steph-toronto",
+  "treatment_id": "physio-by-steph-toronto--performing-arts-physiotherapy",
+  "treatment": "Performing Arts Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Stephanie",
+  "practitioners": [
+   {
+    "id": "physio-by-steph-toronto--stephanie",
+    "name": "Stephanie",
+    "as_recorded": "Stephanie \u2014 sole physiotherapist at Physio by Steph; first-person bio on the clinic's Jane booking page (trained at the National Ballet School of Canada, faculty expert in the Pivot Dancer program, qualified as a pelvic health physiotherapist); contact stephanie@physiobysteph.com. No surname is published on any clinic-owned channel, so recorded first-name-only."
+   }
+  ],
+  "price_text": "$165 initial (1-hour assessment) \u00b7 $135 follow-up (45 min) \u00b7 $105 follow-up (30 min)",
+  "price_source": "Rates published on the clinic's own physiotherapy page (physiobysteph.com/physiotherapy): '$165 1-hour assessment', '$135 45-minute follow up', '$105 30-minute follow up'. Dance physiotherapy is listed on that same page under conditions treated, and the same sole practitioner delivers both, so the physiotherapy rates stand in for this treatment.",
+  "price_tier": "website",
+  "treatment_link": "https://www.physiobysteph.com/physiotherapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -32783,6 +33106,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "physiomed-danforth-toronto",
+  "treatment_id": "physiomed-danforth-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No golf assessment price is published for this location: the chain golf-physiotherapy page lists no fees and the location page / myclinic.physiomed.ca booking portal tie no price to golf at Danforth, and no same-practitioner physio-price fallback is evidenced for golf, so price is null (Practitioner Rule v2).",
+  "price_tier": null,
+  "treatment_link": "https://www.physiomed.ca/golf-physiotherapy-improve-swing/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "physiomed-kennedy-scarborough",
   "treatment_id": "physiomed-kennedy-scarborough--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -32791,6 +33127,45 @@
   "practitioners": [],
   "price_text": null,
   "price_source": "No golf physiotherapy / golf assessment price is published on Physiomed's own golf page, on the Kennedy location page, or in a Kennedy booking listing found in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.physiomed.ca/golf-physiotherapy-improve-swing/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physiomed-leaside-toronto",
+  "treatment_id": "physiomed-leaside-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No golf assessment price is published for this location: the chain golf-physiotherapy page lists no fees and the location page / myclinic.physiomed.ca booking portal tie no price to golf at Leaside, and no same-practitioner physio-price fallback is evidenced for golf, so price is null (Practitioner Rule v2).",
+  "price_tier": null,
+  "treatment_link": "https://www.physiomed.ca/golf-physiotherapy-improve-swing/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physiomed-rogers-road-toronto",
+  "treatment_id": "physiomed-rogers-road-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No golf assessment price is published for this location: the chain golf-physiotherapy page lists no fees and the location page / myclinic.physiomed.ca booking portal tie no price to golf at Rogers Road, and no same-practitioner physio-price fallback is evidenced for golf, so price is null (Practitioner Rule v2).",
+  "price_tier": null,
+  "treatment_link": "https://www.physiomed.ca/golf-physiotherapy-improve-swing/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physiomed-st-clair-toronto",
+  "treatment_id": "physiomed-st-clair-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No golf assessment price is published for this location: the chain golf-physiotherapy page lists no fees, physiomed.ca publishes no St. Clair location page or booking listing, and no same-practitioner physio-price fallback is evidenced for golf at this location, so price is null (Practitioner Rule v2).",
   "price_tier": null,
   "treatment_link": "https://www.physiomed.ca/golf-physiotherapy-improve-swing/",
   "last_verified": "2026-11-01"
@@ -32848,6 +33223,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "physiomed-yonge-bloor-toronto",
+  "treatment_id": "physiomed-yonge-bloor-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No golf assessment price is published for this location: the chain golf-physiotherapy page lists no fees and the location page / myclinic.physiomed.ca booking portal tie no price to golf at Yonge & Bloor, and no same-practitioner physio-price fallback is evidenced for golf, so price is null (Practitioner Rule v2).",
+  "price_tier": null,
+  "treatment_link": "https://www.physiomed.ca/golf-physiotherapy-improve-swing/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "physionow-mississauga",
   "treatment_id": "physionow-mississauga--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -32884,6 +33272,88 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.physionow.ca/services/vestibular-rehabilitation-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physioplus-health-group-toronto",
+  "treatment_id": "physioplus-health-group-toronto--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and no online booking page with a fee list was found (the site takes appointment requests by phone/form only), so price is null. Aggregator price ranges were not used.",
+  "price_tier": null,
+  "treatment_link": "https://info.physioplushealth.com/physio",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physioplus-health-group-toronto",
+  "treatment_id": "physioplus-health-group-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Michelle DeMarchi",
+  "practitioners": [
+   {
+    "id": "physioplus-health-group-toronto--michelle-demarchi",
+    "name": "Michelle DeMarchi",
+    "as_recorded": "Michelle DeMarchi, BSc PT, DOMP \u2014 Physiotherapist, Pelvic Health Physiotherapist, Bracing Specialist (byline on the clinic's pelvic physiotherapy page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and no online booking page with a fee list was found (the site takes appointment requests by phone/form only), so price is null. Aggregator price ranges were not used.",
+  "price_tier": null,
+  "treatment_link": "https://physioplushealth.com/discover-the-benefits-of-pelvic-physiotherapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physioplus-health-group-toronto",
+  "treatment_id": "physioplus-health-group-toronto--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Lauren Kanko, Brandon Maggen",
+  "practitioners": [
+   {
+    "id": "physioplus-health-group-toronto--lauren-kanko",
+    "name": "Lauren Kanko",
+    "as_recorded": "Lauren Kanko \u2014 'brings a wealth of experience to our team as a Physiotherapist and as a Running Expert' (clinic's Running Assessment page, 'MEET OUR RUNNING EXPERTS')"
+   },
+   {
+    "id": "physioplus-health-group-toronto--brandon-maggen",
+    "name": "Brandon Maggen",
+    "as_recorded": "Brandon Maggen \u2014 chiropodist/podiatric medicine, named under 'MEET OUR RUNNING EXPERTS' on the clinic's Running Assessment page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and no online booking page with a fee list was found (the site takes appointment requests by phone/form only), so price is null. Aggregator price ranges were not used.",
+  "price_tier": null,
+  "treatment_link": "https://physioplushealth.com/orthotics/running-assessment/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physioplus-health-group-toronto",
+  "treatment_id": "physioplus-health-group-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and no online booking page with a fee list was found (the site takes appointment requests by phone/form only), so price is null. Aggregator price ranges were not used.",
+  "price_tier": null,
+  "treatment_link": "https://physioplushealth.com/physiotherapy-center/bloor-west-village-and-the-kingsway-in-toronto/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physioplus-health-group-toronto",
+  "treatment_id": "physioplus-health-group-toronto--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and no online booking page with a fee list was found (the site takes appointment requests by phone/form only), so price is null. Aggregator price ranges were not used.",
+  "price_tier": null,
+  "treatment_link": "https://physioplushealth.com/more-physiotherapy-treatments/dizziness-clinic/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32990,6 +33460,44 @@
   "last_verified": null
  },
  {
+  "clinic_id": "physiozen-toronto",
+  "treatment_id": "physiozen-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Juhi Sinha",
+  "practitioners": [
+   {
+    "id": "physiozen-toronto--juhi-sinha",
+    "name": "Juhi Sinha",
+    "as_recorded": "Juhi Sinha, PT (She/Hers) \u2014 'Juhi Sinha, PT' on the clinic's About Us page; 'Your care is provided by a knowledgeable female clinician, Juhi Sinha, PT, with advanced training in pelvic floor and women's health physiotherapy' (clinic FAQ)"
+   }
+  ],
+  "price_text": "$110 initial assessment (50 min) \u00b7 $80\u2013$120 follow-up",
+  "price_source": "Fees published on the clinic's own FAQ page (physiozen.ca/faq-1): 'General initial physiotherapy assessment is $110 for 50 mins and follow up sessions range $80-$120 (depending on time and your condition)'. No pelvic-specific fee is published; the FAQ states care is provided by Juhi Sinha, PT, with advanced training in pelvic floor physiotherapy, and she is the clinic's sole named physiotherapist delivering both general and pelvic sessions, so the general physiotherapy fee stands in per the same-practitioner rule.",
+  "price_tier": "website",
+  "treatment_link": "https://physiozen.ca/pelvic-physiotherapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physiozen-toronto",
+  "treatment_id": "physiozen-toronto--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Juhi Sinha",
+  "practitioners": [
+   {
+    "id": "physiozen-toronto--juhi-sinha",
+    "name": "Juhi Sinha",
+    "as_recorded": "Juhi Sinha, PT (She/Hers) \u2014 'Juhi Sinha, PT' on the clinic's About Us page; 'Your care is provided by a knowledgeable female clinician, Juhi Sinha, PT, with advanced training in pelvic floor and women's health physiotherapy' (clinic FAQ)"
+   }
+  ],
+  "price_text": "$110 initial assessment (50 min) \u00b7 $80\u2013$120 follow-up",
+  "price_source": "Fees published on the clinic's own FAQ page (physiozen.ca/faq-1): 'General initial physiotherapy assessment is $110 for 50 mins and follow up sessions range $80-$120'. No vestibular-specific fee is published; the same sole physiotherapist (Juhi Sinha, PT) delivers both general and vestibular sessions per the clinic's About page, so the general physiotherapy fee stands in per the same-practitioner rule.",
+  "price_tier": "website",
+  "treatment_link": "https://physiozen.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "pilates4physio-toronto",
   "treatment_id": "pilates4physio-toronto--clinical-pilates",
   "treatment": null,
@@ -33064,6 +33572,19 @@
   "price_source": "No vestibular or physiotherapy price is published on the clinic's own website.",
   "price_tier": null,
   "treatment_link": "https://pillarsofwellness.ca/service/physiotherapy-in-burlington/conditions-we-treat/vestibular-rehabilitation/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pilowsky-psychology-professional-corporation-toronto",
+  "treatment_id": "pilowsky-psychology-professional-corporation-toronto--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No couples therapy service or fee list is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.pilowsky.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -33914,6 +34435,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "psychological-recovery-clinic-toronto",
+  "treatment_id": "psychological-recovery-clinic-toronto--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (a single-page site with no fee schedule) and there is no booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.psychologicalrecovery.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "psychology-and-neurofeedback-white-rock",
   "treatment_id": "psychology-and-neurofeedback-white-rock--couples-therapy",
   "treatment": "Couples Therapy",
@@ -34481,6 +35015,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "rachael-frankford-psychotherapy-and-neurofeedback-toronto",
+  "treatment_id": "rachael-frankford-psychotherapy-and-neurofeedback-toronto--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Social Work",
+  "practitioner": "Rachael Frankford",
+  "practitioners": [
+   {
+    "as_recorded": "Rachael Frankford MSW, RSW - Registered Social Worker/Psychotherapist, Neurofeedback Therapist, per her profile on newpathwaystherapy.com (founder and clinical director of New Pathways Therapy Centre)",
+    "id": "rachael-frankford-psychotherapy-and-neurofeedback-toronto--rachael-frankford",
+    "name": "Rachael Frankford"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No neurofeedback fee is published on rachaelfrankford.com or on the New Pathways Therapy Centre neurofeedback page, and there is no booking page with fees, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.newpathwaystherapy.com/neurofeedback-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "rachel-langill-rmt-moncton",
   "treatment_id": "rachel-langill-rmt-moncton--facial-gua-sha",
   "treatment": "Facial Gua Sha",
@@ -34723,6 +35276,19 @@
   "price_tier": null,
   "treatment_link": "https://reactiveclinic.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "ready-room-health-toronto",
+  "treatment_id": "ready-room-health-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Titleist Performance Institute (TPI) Golf Screen",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price for the TPI Golf Screen (or any service) is published anywhere on the clinic's own website; the TPI article invites readers to call 647-313-8996 or submit the contact form for information, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.readyroomhealth.com/blog/article/TPI-golf-screen",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "real-life-counselling-mississauga",
@@ -35358,6 +35924,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "rejuvenus-clinic-toronto",
+  "treatment_id": "rejuvenus-clinic-toronto--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Botox for Bruxism, Teeth Grinding & Facial Slimming",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$11/unit (Botox Cosmetic); bruxism total varies by dosage",
+  "price_source": "The clinic's own Botox/Dysport booking service page (https://www.rejuvenusclinic.ca/service-page/botox-dysport-anti-wrinkle-treatment) publishes per-unit pricing: 'Botox Cosmetic\u00ae: $11/unit; Dysport\u00ae, Xeomin\u00ae, Nuceiva\u00ae: $10/unit'. The bruxism service page itself states pricing is personalized (facial anatomy, masseter size, dosage) and shows 'From 50 Canadian dollars', which its text clarifies is a $50 + HST non-refundable booking deposit applied toward the total cost.",
+  "price_tier": "website",
+  "treatment_link": "https://www.rejuvenusclinic.ca/service-page/botox-for-bruxism-teeth-grinding",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "rekindle-health-yellowknife",
   "treatment_id": "rekindle-health-yellowknife--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -35680,6 +36259,68 @@
   "price_source": "No couples therapy fee is published on the clinic's own website and no booking page was found in this pass, so price is null.",
   "price_tier": null,
   "treatment_link": "https://www.resolutionpsychologyclinic.com/copy-of-depression",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "resolution-psychology-clinic-toronto",
+  "treatment_id": "resolution-psychology-clinic-toronto--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Amy Shannon",
+  "practitioners": [
+   {
+    "id": "resolution-psychology-clinic-toronto--amy-shannon",
+    "name": "Amy Shannon",
+    "as_recorded": "Dr. Amy Shannon, PhD, CPsych - Clinical Psychologist & Clinic Director; per the clinic's own team page she provides assessment and treatment for adults and couples and uses Gottman Couples Therapy"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No couples therapy (or any session) fee amount is published on the clinic's own website; its FAQ states only that the session fee varies based on the clinician's credentials and level of experience, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.resolutionpsychologyclinic.com/copy-of-depression",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "restoracare-health-toronto",
+  "treatment_id": "restoracare-health-toronto--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Michelle",
+  "practitioners": [
+   {
+    "id": "restoracare-health-toronto--michelle",
+    "name": "Michelle",
+    "as_recorded": "Michelle - Registered Massage Therapist; per her Jane booking page bio her expertise and certification in lymphatic drainage and buccal facial massage allows her to offer targeted treatments (surname not published in the extract read)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No lymphatic drainage fee is published on the clinic's own website, and the Jane booking page's treatment/fee list could not be read in this pass (HTTP 429 on direct fetch, not retried), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://restoracarehealth.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "restoracare-health-toronto",
+  "treatment_id": "restoracare-health-toronto--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Malena; Michelle",
+  "practitioners": [
+   {
+    "id": "restoracare-health-toronto--malena",
+    "name": "Malena",
+    "as_recorded": "Malena - Registered Massage Therapist with the College of Massage Therapists of Ontario, graduate of the Sutherland-Chan School of Massage Therapy; per her Jane booking page bio she specializes in treating musculoskeletal impairments, sports-related injuries, headaches/migraines, and TMJ disorders (surname not published in the extract read)"
+   },
+   {
+    "id": "restoracare-health-toronto--michelle",
+    "name": "Michelle",
+    "as_recorded": "Michelle - Registered Massage Therapist; per her Jane booking page bio her expertise and certification in lymphatic drainage and buccal facial massage allows her to offer targeted treatments (surname not published in the extract read)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No massage therapy or buccal/TMJ fee is published on the clinic's own website (its buccal page states only that each session lasts 60 minutes), and the Jane booking page's treatment/fee list could not be read in this pass (HTTP 429 on direct fetch, not retried), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://restoracarehealth.com/buccal-massage-toronto",
   "last_verified": "2026-11-01"
  },
  {
@@ -36290,6 +36931,64 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "ritual-beauty-wellness-toronto",
+  "treatment_id": "ritual-beauty-wellness-toronto--head-spa",
+  "treatment": "Head Spa",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Fred",
+  "practitioners": [
+   {
+    "id": "ritual-beauty-wellness-toronto--fred",
+    "name": "Fred",
+    "as_recorded": "Fred - Registered Massage Therapist; per the clinic's own RMT page Wu's Head Massage is performed by 'our Registered Massage Therapist Fred' (surname not published on ritual.ca)"
+   }
+  ],
+  "price_text": "$120 (45 min Wu's Head Massage, RMT)",
+  "price_source": "Price published on the clinic's own website RMT page (ritual.ca/rmt-massage): Wu's Head Massage 45 minutes | $120 (the price link points to Fresha booking, but the price itself is published on ritual.ca, so tier is website).",
+  "price_tier": "website",
+  "treatment_link": "https://ritual.ca/rmt-massage",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ritual-beauty-wellness-toronto",
+  "treatment_id": "ritual-beauty-wellness-toronto--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$225 (60 min, RMT Brazilian Lymphatic Drainage Ritual)",
+  "price_source": "Price published on the clinic's own website RMT page (ritual.ca/rmt-massage): Brazilian Lymphatic Drainage Ritual (RMT) 60 minutes | $225 (a non-RMT body-ritual version is listed at $180 on ritual.ca/body-rituals).",
+  "price_tier": "website",
+  "treatment_link": "https://ritual.ca/rmt-massage",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ritual-beauty-wellness-toronto",
+  "treatment_id": "ritual-beauty-wellness-toronto--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$350 (85 min Microneedling Ritual)",
+  "price_source": "Price published on the clinic's own website Face Rituals page (ritual.ca/face-rituals): Microneedling Ritual 85 minutes | $350.",
+  "price_tier": "website",
+  "treatment_link": "https://ritual.ca/face-rituals",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ritual-beauty-wellness-toronto",
+  "treatment_id": "ritual-beauty-wellness-toronto--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$200 (60 min Buccal Ritual Facial, RMT)",
+  "price_source": "Price published on the clinic's own website RMT page (ritual.ca/rmt-massage): Buccal Ritual Facial (RMT) 60 minutes | $200.",
+  "price_tier": "website",
+  "treatment_link": "https://ritual.ca/rmt-massage",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "rituels-atelier-saint-hippolyte",
   "treatment_id": "rituels-atelier-saint-hippolyte--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
@@ -36507,6 +37206,19 @@
   "price_source": "No fee schedule is published on the clinic's own website (fees by inquiry per its What to Expect page).",
   "price_tier": null,
   "treatment_link": "https://coppacare.ca/what-to-expect",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "roncesvalles-osteopathy-wellness-toronto",
+  "treatment_id": "roncesvalles-osteopathy-wellness-toronto--facial-manual-therapy",
+  "treatment": "Facial Manual Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Facial Manual Therapy service or fee exists on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.roncyosteo.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -37093,6 +37805,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "sana-motlekar-toronto",
+  "treatment_id": "sana-motlekar-toronto--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Sports Nutrition service or fee exists on the clinic's own site - its homepage directs visitors to 'Book a FREE consultation to see if we're a good fit and learn more about packages, pricing, and what\u2019s included' for its PCOS/weight-loss coaching programs and publishes no fee list - so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pcosweightlossdietitian.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "sandra-edwards-markham",
   "treatment_id": "sandra-edwards-markham--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -37279,6 +38004,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "say-word-osteopathy-toronto",
+  "treatment_id": "say-word-osteopathy-toronto--facial-manual-therapy",
+  "treatment": "Facial Manual Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and no booking page was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.saywordosteopathy.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "scarborough-psychology-clinic-toronto",
   "treatment_id": "scarborough-psychology-clinic-toronto--couples-therapy",
   "treatment": "Couples Therapy",
@@ -37432,6 +38170,82 @@
   "price_tier": "booking",
   "treatment_link": "https://sevensummitsrehab.ca/services-booking/clinical-pilates-reformer/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "shanti-psychotherapy-toronto",
+  "treatment_id": "shanti-psychotherapy-toronto--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Cathy Ding",
+  "practitioners": [
+   {
+    "id": "shanti-psychotherapy-toronto--cathy-ding",
+    "name": "Cathy Ding",
+    "as_recorded": "Cathy Ding, MSW, RSW - works with couples, in person at Pape & Danforth, per the clinic's own site; named on its Couples & Discernment Counselling page for couples counselling support"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No couples therapy fee is published on the clinic's own website, and its Jane booking page returned HTTP 429 in text fetch (not retried), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.shantipsychotherapy.ca/psychotherapy-services/couples-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "shape-toronto-health-wellness-toronto",
+  "treatment_id": "shape-toronto-health-wellness-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Chiropractic",
+  "practitioner": "Sender Deutsch",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Sender Deutsch DC, Medical Acupuncture, CSCS, ART\u00ae, CGFI - Clinic Director - Chiropractor, Certified Golf Fitness Instructor (Titleist Performance Institute), per the clinic's Jane booking page; the Golf PARformance page states golfers will be assessed by clinic director Dr. Sender Deutsch, who performs the TPI screening process",
+    "id": "shape-toronto-health-wellness-toronto--sender-deutsch",
+    "name": "Sender Deutsch"
+   }
+  ],
+  "price_text": "$271.20 (TPI Golf Fitness Screening = 2 treatment units at $135.60/unit regular fee; $230 / $220 / $215 at package unit rates)",
+  "price_source": "Clinic's own website: the Golf PARformance page (shapetoronto.com/training/302-golf-parformance-fitness-program) states 'The TPI physical screening cost is two treatment units', and the clinic's Rates page (shapetoronto.com/rates) prices a treatment unit at a $135.60 regular fee (discounted package fees $115 / $110 / $107.50 per unit), so two units = $271.20 at the regular rate.",
+  "price_tier": "website",
+  "treatment_link": "https://www.shapetoronto.com/training/302-golf-parformance-fitness-program",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "shape-toronto-health-wellness-toronto",
+  "treatment_id": "shape-toronto-health-wellness-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Valerie Hawke",
+  "practitioners": [
+   {
+    "as_recorded": "Valerie Hawke - physiotherapist (18+ years' experience) whose Jane booking page bio lists Pilates (matwork), pelvic health and vestibular training among her knowledge areas, per the clinic's Jane booking page",
+    "id": "shape-toronto-health-wellness-toronto--valerie-hawke",
+    "name": "Valerie Hawke"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee is published on the clinic's own site or Jane booking page (only general physiotherapy rates), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://shapetoronto.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "shape-toronto-health-wellness-toronto",
+  "treatment_id": "shape-toronto-health-wellness-toronto--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Valerie Hawke",
+  "practitioners": [
+   {
+    "as_recorded": "Valerie Hawke - physiotherapist (18+ years' experience) whose Jane booking page bio lists Pilates (matwork), pelvic health and vestibular training among her knowledge areas, per the clinic's Jane booking page",
+    "id": "shape-toronto-health-wellness-toronto--valerie-hawke",
+    "name": "Valerie Hawke"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's own site or Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://shapetoronto.janeapp.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "sheddon-physiotherapy-burlington-burlington",
@@ -38234,6 +39048,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "source-acupuncture-toronto",
+  "treatment_id": "source-acupuncture-toronto--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Leisha Correa",
+  "practitioners": [
+   {
+    "id": "source-acupuncture-toronto--leisha-correa",
+    "name": "Leisha Correa",
+    "as_recorded": "Leisha Correa, R.Ac - Founder & Lead Acupuncturist, Registered Acupuncturist, CTCMPAO member, per the clinic's own fertility page"
+   }
+  ],
+  "price_text": "$97 Initial Fertility Visit (new patient special, valued at $250)",
+  "price_source": "Clinic's own fertility acupuncture page (https://sourceacupuncture.ca/acupuncture-fertility): 'New patient special: $97 Initial Fertility Visit (valued at $250)'.",
+  "price_tier": "website",
+  "treatment_link": "https://sourceacupuncture.ca/acupuncture-fertility",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "south-edmonton-massage-therapy-edmonton",
   "treatment_id": "south-edmonton-massage-therapy-edmonton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
@@ -38353,6 +39186,58 @@
   "price_source": "No massage therapy or MLD fees are published on the clinic's own website and no public booking price list was found, so no price could be verified.",
   "price_tier": null,
   "treatment_link": "https://sparxwellness.ca/about/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speak-fluent-speech-services-toronto",
+  "treatment_id": "speak-fluent-speech-services-toronto--accent-modification",
+  "treatment": "Accent Modification",
+  "billed_as": "Speech Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$260 (standard 1-hour assessment); training sessions start at $92.50 for a 25-minute session",
+  "price_source": "Clinic's own website FAQ (speakfluent.ca/faq): 'The standard one-hour assessment is $260. Training sessions start at $92.5 for a 25 minute session.' These are the clinic's general speech-therapy/coaching rates, which apply to its accent modification work (all sessions delivered by registered speech therapists).",
+  "price_tier": "website",
+  "treatment_link": "https://www.speakfluent.ca/about/services/accent-modification",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speak-fluent-speech-services-toronto",
+  "treatment_id": "speak-fluent-speech-services-toronto--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$260 (standard 1-hour assessment); training sessions start at $92.50 for a 25-minute session",
+  "price_source": "Clinic's own website FAQ (speakfluent.ca/faq) general rates: 'The standard one-hour assessment is $260. Training sessions start at $92.5 for a 25 minute session.' - the clinic's general speech-therapy rates, applied to its speech therapy service under which stuttering is listed.",
+  "price_tier": "website",
+  "treatment_link": "https://www.speakfluent.ca/about/services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speak-fluent-toronto",
+  "treatment_id": "speak-fluent-toronto--accent-modification",
+  "treatment": "Accent Modification",
+  "billed_as": "Speech Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$260 (standard 1-hour assessment); training sessions start at $92.50 for a 25-minute session",
+  "price_source": "Clinic's own website FAQ (speakfluent.ca/faq): 'The standard one-hour assessment is $260. Training sessions start at $92.5 for a 25 minute session.' These are the clinic's general speech-therapy/coaching rates, which apply to its accent modification work (all sessions delivered by registered speech therapists).",
+  "price_tier": "website",
+  "treatment_link": "https://www.speakfluent.ca/about/services/accent-modification",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speak-fluent-toronto",
+  "treatment_id": "speak-fluent-toronto--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$260 (standard 1-hour assessment); training sessions start at $92.50 for a 25-minute session",
+  "price_source": "Clinic's own website FAQ (speakfluent.ca/faq) general rates: 'The standard one-hour assessment is $260. Training sessions start at $92.5 for a 25 minute session.' - the clinic's general speech-therapy rates, applied to its speech therapy service under which stuttering is listed.",
+  "price_tier": "website",
+  "treatment_link": "https://www.speakfluent.ca/about/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -38742,6 +39627,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "speechappeal-toronto",
+  "treatment_id": "speechappeal-toronto--accent-modification",
+  "treatment": "Accent Modification",
+  "billed_as": "Speech Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No accent fee is published on the clinic's own website; its Accent Modification page states 'Session rates vary by service type. All rates are available on our online booking calendar', and its Jane booking page rendered no fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.speechappeal.ca/accent-modification",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speechappeal-toronto",
+  "treatment_id": "speechappeal-toronto--singing-voice-therapy",
+  "treatment": "Singing Voice Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Alyssa McCarthy; Scott Tobin",
+  "practitioners": [
+   {
+    "id": "speechappeal-toronto--alyssa-mccarthy",
+    "name": "Alyssa McCarthy",
+    "as_recorded": "Alyssa McCarthy (she/her), BA Mus, MSc SLP, SLP(C), Reg. CASLPO - Speech-Language Pathologist, Voice Therapist, Singing Voice Specialist; listed under 'Our Singing Voice Therapists' on the clinic's own Singing Voice Therapy page"
+   },
+   {
+    "id": "speechappeal-toronto--scott-tobin",
+    "name": "Scott Tobin",
+    "as_recorded": "Scott Tobin (he/they), BA, BEd, MHSc SLP, Reg. CASLPO - Speech-Language Pathologist & SVI-Trained Vocologist; listed under 'Our Singing Voice Therapists' on the clinic's own Singing Voice Therapy page, with a special focus on the developing and emerging singing voice"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No singing voice therapy fee is published on the clinic's own website; its Accent page states 'Session rates vary by service type. All rates are available on our online booking calendar', and its Jane booking page (speechappeal.janeapp.com) rendered practitioner bios only in text fetch with no fee list, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.speechappeal.ca/singing-voice-therapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speechappeal-toronto",
+  "treatment_id": "speechappeal-toronto--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No stuttering fee is published on the clinic's own website, and its Jane booking page rendered no fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.speechappeal.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "speechscience-speech-therapy-toronto-toronto",
   "treatment_id": "speechscience-speech-therapy-toronto-toronto--accent-modification",
   "treatment": "Accent Modification",
@@ -38794,6 +39729,44 @@
   ],
   "price_text": null,
   "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://speechscience.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speechscience-toronto",
+  "treatment_id": "speechscience-toronto--accent-modification",
+  "treatment": "Accent Modification",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Bonnie Gross",
+  "practitioners": [
+   {
+    "as_recorded": "Bonnie Gross, Registered SLP & President of SpeechScience (BA, DSPA, SLP, reg. CASLPO)",
+    "id": "speechscience-toronto--bonnie-gross",
+    "name": "Bonnie Gross"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price published on the clinic's own website or any booking page found; the Accent Modification page and Free Consultation page publish no session fees, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://speechscience.com/accent-modification/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speechscience-toronto",
+  "treatment_id": "speechscience-toronto--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Bonnie Gross",
+  "practitioners": [
+   {
+    "as_recorded": "Bonnie Gross, Registered SLP & President of SpeechScience (BA, DSPA, SLP, reg. CASLPO)",
+    "id": "speechscience-toronto--bonnie-gross",
+    "name": "Bonnie Gross"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price published on the clinic's own website for stuttering therapy or any speech therapy session, so price is null.",
   "price_tier": null,
   "treatment_link": "https://speechscience.com/",
   "last_verified": "2026-11-01"
@@ -38958,6 +39931,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.sproutingpediatrics.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "st-michaels-hospital-outpatient-voice-and-swallowing-clinic-toronto",
+  "treatment_id": "st-michaels-hospital-outpatient-voice-and-swallowing-clinic-toronto--singing-voice-therapy",
+  "treatment": "Singing Voice Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price published: this is a publicly funded hospital outpatient clinic accessed by physician referral; no fee appears on Unity Health Toronto's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://unityhealth.to/areas-of-care/programs-and-clinics/ear-nose-throat-and-voice-department-of-otolaryngology-head-and-neck-surgery/",
   "last_verified": "2026-11-01"
  },
  {
@@ -39400,6 +40386,45 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "studio-athletica-push-pounds-sports-medicine-toronto",
+  "treatment_id": "studio-athletica-push-pounds-sports-medicine-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$135 initial 1-hour TPI golf screen \u00b7 $95 follow-up 30 min \u00b7 $125 follow-up 60 min",
+  "price_source": "Clinic's own website, TPI page (studioathletica.com/titleist-performance-institute-tpi/): 'The price of the initial one-hour TPI golf screen is $135.00. Follow-up screenings/treatments are $95.00 for 30 mins, or $125.00 for 60 min' - website tier (not a booking page).",
+  "price_tier": "website",
+  "treatment_link": "https://www.studioathletica.com/titleist-performance-institute-tpi/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "studio-athletica-push-pounds-sports-medicine-toronto",
+  "treatment_id": "studio-athletica-push-pounds-sports-medicine-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee published on the clinic's own website or any booking page found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.studioathletica.com/pelvic-floor-dysfunction-physiotherapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "studio-athletica-push-pounds-sports-medicine-toronto",
+  "treatment_id": "studio-athletica-push-pounds-sports-medicine-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy or Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee published on the clinic's own website or any booking page found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.studioathletica.com/chiropractor-toronto/shockwave/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "studio-athletica-toronto",
   "treatment_id": "studio-athletica-toronto--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -39812,6 +40837,38 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "sutherland-chan-clinic-toronto",
+  "treatment_id": "sutherland-chan-clinic-toronto--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Wicko Cheung",
+  "practitioners": [
+   {
+    "id": "sutherland-chan-clinic-toronto--wicko-cheung",
+    "name": "Wicko Cheung",
+    "as_recorded": "Wicko Cheung, Massage Therapist - Sutherland-Chan School and Teaching Clinic \u2013 2007; Contemporary Medical Acupuncture, Craniosacral Therapy, Lymphatic Drainage, Reflexology (King/Bay location team listing, sc-clinic.com)"
+   }
+  ],
+  "price_text": "$81 (30 min) \u00b7 $103 (45 min) \u00b7 $130 (60 min) \u00b7 $153 (75 min) \u00b7 $180 (90 min) \u00b7 $247 (120 min) - massage therapy",
+  "price_source": "Clinic's own website, King/Bay location page 'Location Pricing' - the location's Massage Therapy fee list; lymphatic drainage is delivered within massage therapy sessions by the location's RMT Wicko Cheung (same practitioner delivers both, per Pricing + Practitioner Rule v2), so the massage therapy price stands in, stated explicitly here.",
+  "price_tier": "website",
+  "treatment_link": "https://sc-clinic.com/locations/king-bay/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sutherland-chan-clinic-toronto",
+  "treatment_id": "sutherland-chan-clinic-toronto--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$81 (30 min) \u00b7 $103 (45 min) \u00b7 $130 (60 min) \u00b7 $153 (75 min) \u00b7 $180 (90 min) \u00b7 $247 (120 min) - massage therapy",
+  "price_source": "Clinic's own website, King/Bay location page 'Location Pricing' - the location's Massage Therapy fee list; TMJ treatment is delivered within therapeutic massage sessions at this location (the services page says additional modalities are incorporated as part of a comprehensive massage treatment), so the massage therapy price applies, stated explicitly here.",
+  "price_tier": "website",
+  "treatment_link": "https://sc-clinic.com/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "suzanne-roy-sherbrooke",
   "treatment_id": "suzanne-roy-sherbrooke--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -39866,6 +40923,25 @@
   "price_source": "Clinic's own website (sweetpeafertility.ca/fertilityinsight): the Fertility InSight Program is priced at $235. That is a self-paced online program, not a 1:1 consultation fee; no per-visit consultation fees are published on the site.",
   "price_tier": "website",
   "treatment_link": "http://www.guelphfertility.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "swing-lab-performance-and-therapy-toronto",
+  "treatment_id": "swing-lab-performance-and-therapy-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Athletic Therapy",
+  "practitioner": "Michele Liew",
+  "practitioners": [
+   {
+    "id": "swing-lab-performance-and-therapy-toronto--michele-liew",
+    "name": "Michele Liew",
+    "as_recorded": "Michele Liew, MS, CAT(C), ATC - Founder & Owner, golf biomechanics and injury specialist; TPI Medical Level 3 Certified; uses 3D motion capture to analyze the body-swing relationship (clinic's own team page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No golf assessment fee is published on the clinic's own website, and its Jane booking page returned HTTP 403 in text fetch (not retried per instructions), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.swinglabtheory.com/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -40117,6 +41193,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "tasneem-patla-pt-toronto",
+  "treatment_id": "tasneem-patla-pt-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Tasneem Patla",
+  "practitioners": [
+   {
+    "id": "tasneem-patla-pt-toronto--tasneem-patla",
+    "name": "Tasneem Patla",
+    "as_recorded": "Tasneem Patla, Physiotherapist, M.Sc. PT - Acupuncture Provider; lists '*NEW* Shockwave Therapy' on her Emkiro profile"
+   }
+  ],
+  "price_text": "$95 (shock wave treatment only) \u00b7 $155 (shock wave + physiotherapy treatment)",
+  "price_source": "Fee list on the clinic's own website physiotherapy page (emkiro.ca/toronto-physiotherapy/): Shock Wave Treatment Only $95; Shock Wave + Physiotherapy Treatment $155 (physiotherapy initial $155, follow-up $105 on the same list).",
+  "price_tier": "website",
+  "treatment_link": "https://emkiro.ca/tasneem-patla/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "taylor-nutrition-edmonton",
   "treatment_id": "taylor-nutrition-edmonton--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -40327,6 +41422,71 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "the-acupuncture-oasis-toronto",
+  "treatment_id": "the-acupuncture-oasis-toronto--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No cosmetic acupuncture (facial rejuvenation) fee is published on the clinic's own homepage or in search extracts of its pages, so price is null. (An undated third-party fee PDF found in search was not clinic-published and was not used.)",
+  "price_tier": null,
+  "treatment_link": "http://theacuoasis.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-acupuncture-oasis-toronto",
+  "treatment_id": "the-acupuncture-oasis-toronto--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fertility acupuncture fee is published on the clinic's own homepage or in search extracts of its pages, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://theacuoasis.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-acupuncture-oasis-toronto",
+  "treatment_id": "the-acupuncture-oasis-toronto--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fertility consultation fee is published on the clinic's own homepage or in search extracts of its pages, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://theacuoasis.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-acupuncture-oasis-toronto",
+  "treatment_id": "the-acupuncture-oasis-toronto--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No lymphatic drainage fee is published on the clinic's own homepage or in search extracts of its pages, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://theacuoasis.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-acupuncture-oasis-toronto",
+  "treatment_id": "the-acupuncture-oasis-toronto--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No red light therapy fee is published on the clinic's own homepage or in search extracts of its pages, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://theacuoasis.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "the-add-centre-the-biofeedback-institute-of-toronto-mississauga",
   "treatment_id": "the-add-centre-the-biofeedback-institute-of-toronto-mississauga--neurofeedback",
   "treatment": "Neurofeedback",
@@ -40406,6 +41566,62 @@
   "price_tier": null,
   "treatment_link": "https://thecohenclinic.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "the-counselling-centre-toronto",
+  "treatment_id": "the-counselling-centre-toronto--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No couples therapy fee is published on the clinic's own site in the pages/extracts read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.thecounsellingcentre.ca/our-services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-counselling-centre-toronto",
+  "treatment_id": "the-counselling-centre-toronto--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": "Cheryl Ackerman",
+  "practitioners": [
+   {
+    "id": "the-counselling-centre-toronto--cheryl-ackerman",
+    "name": "Cheryl Ackerman",
+    "as_recorded": "Dr. Cheryl Ackerman, clinical psychologist specializing in administering and supervising psychological, psycho-educational and ADHD assessments for children and adults, per the clinic's own team page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No psychoeducational assessment fee is published on the clinic's own site in the pages/extracts read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.thecounsellingcentre.ca/assessments",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-counselling-clinic-toronto",
+  "treatment_id": "the-counselling-clinic-toronto--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Social Work",
+  "practitioner": "Tarryn Chatz, Margie Bader",
+  "practitioners": [
+   {
+    "id": "the-counselling-clinic-toronto--tarryn-chatz",
+    "name": "Tarryn Chatz",
+    "as_recorded": "Tarryn Chatz - BSW (Dalhousie), MSW (University of Toronto); founder of TCC & Associates; 'Tarryn works with children, adolescents and adults, couples and families' (clinic About Us page)"
+   },
+   {
+    "id": "the-counselling-clinic-toronto--margie-bader",
+    "name": "Margie Bader",
+    "as_recorded": "Margie Bader - BSW (Hons), MSW (Bryn Mawr); 'extensive experience working with individuals, couples and families' (clinic About Us page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (homepage, About Us and Privacy Policy pages checked) and the clinic has no online booking page; a third-party therapist roundup (KMA Therapy blog) likewise lists its pricing as 'Book your appointment to inquire about pricing', so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://thecounsellingclinic.ca/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "the-downtown-psychology-clinic-toronto",
@@ -40513,6 +41729,25 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://gutlovingdietitian.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-holistic-move-toronto",
+  "treatment_id": "the-holistic-move-toronto--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Tim Wong",
+  "practitioners": [
+   {
+    "id": "the-holistic-move-toronto--tim-wong",
+    "name": "Tim Wong",
+    "as_recorded": "Tim Wong, RMT - Registered Massage Therapist, Movement Coach and Personal Trainer; 'Certified and Licensed by the College of Massage Therapists of Ontario' (clinic TMJ page); listed as a practitioner on the clinic's Jane booking page (Recharge Wellness Clinic)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own website publishes no prices and defers them to its booking site ('Prices for RMT Fascial Stretch Therapy Toronto at The Holistic Move can be found at our Massage Online Booking Site'); the Jane booking page (rechargewellness.janeapp.com) rendered staff bios only in text fetch - its treatment/price list did not render - so no price could be verified and price is null.",
+  "price_tier": null,
+  "treatment_link": "https://theholisticmove.com/tmj-massage-toronto/",
   "last_verified": "2026-11-01"
  },
  {
@@ -40647,6 +41882,53 @@
   "price_source": "No coaching fees are published on the clinic's own website (fetched 2026-11-01).",
   "price_tier": null,
   "treatment_link": "http://www.tmgcareercoaching.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-mental-game-clinic-toronto",
+  "treatment_id": "the-mental-game-clinic-toronto--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, and its Jane booking page (thementalgame.janeapp.com) rendered staff bios only in text fetch - the session/price list did not render - so no price could be verified and price is null.",
+  "price_tier": null,
+  "treatment_link": "https://thementalgame.me/services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-mental-game-clinic-toronto",
+  "treatment_id": "the-mental-game-clinic-toronto--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Psychology / Psychotherapy",
+  "practitioner": "Kim Foster Yardley, Theo Chu, Sonely Bulchandani, Simon Taylor",
+  "practitioners": [
+   {
+    "id": "the-mental-game-clinic-toronto--kim-foster-yardley",
+    "name": "Kim Foster Yardley",
+    "as_recorded": "Kim Foster Yardley, M.A. C.Psych. (#6680), PG Dip - Registered Clinical Psychologist & Certified Mental Performance Consultant; founder and head of The Mental Game Clinic (clinic Meet Our Team page)"
+   },
+   {
+    "id": "the-mental-game-clinic-toronto--theo-chu",
+    "name": "Theo Chu",
+    "as_recorded": "Theo Chu, MKin, MC, RP (#15421), RCC (#21008) - Registered Psychotherapist & Clinical Counsellor, Certified Mental Performance Consultant (clinic Meet Our Team page)"
+   },
+   {
+    "id": "the-mental-game-clinic-toronto--sonely-bulchandani",
+    "name": "Sonely Bulchandani",
+    "as_recorded": "Sonely Bulchandani, M.A. RP (#12531) - Registered Psychotherapist & Certified Mental Performance Consultant (Supervised Practice) (clinic Meet Our Team page)"
+   },
+   {
+    "id": "the-mental-game-clinic-toronto--simon-taylor",
+    "name": "Simon Taylor",
+    "as_recorded": "Simon Taylor, MSc. Performance Psychology - Student Mental Performance Consultant (Supervised) | Associate Golf Teaching Professional (CGTF) (clinic Meet Our Team page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, and its Jane booking page (thementalgame.janeapp.com) rendered staff bios only in text fetch - the session/price list did not render - so no price could be verified and price is null.",
+  "price_tier": null,
+  "treatment_link": "https://thementalgame.me/sport-psychology",
   "last_verified": "2026-11-01"
  },
  {
@@ -40919,6 +42201,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "the-possibilities-clinic-toronto",
+  "treatment_id": "the-possibilities-clinic-toronto--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$4,850 (Signature Psychoeducational, ADHD & Mental Health Assessment)",
+  "price_source": "Clinic's own website, Signature Psychoeducational, ADHD & Mental Health Assessment page: 'The cost for the Signature Psychoeducational, ADHD & Mental Health Assessment is $4850.' (additional fee for French testing; physician component OHIP-covered).",
+  "price_tier": "website",
+  "treatment_link": "https://possibilitiesclinic.com/signature-psychoeducational-adhd-mental-health-assessment-signature-psychoeducational-assessment/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-possibilities-clinic-toronto",
+  "treatment_id": "the-possibilities-clinic-toronto--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": "Nurse Practitioner / Registered Psychotherapist (CBT-I)",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$700 (total service fee, ADHD Sleep Optimization Service; MD sleep consultations OHIP-covered)",
+  "price_source": "Clinic's own website, ADHD Sleep Optimization Service page (possibilitiesclinic.com/sleep-optimization-service/): 'Total Service Fee $700*' with the component table (NP intake 50 min, RP/CBT-I intake 50 min, MD consultation 50 min, MD treatment planning 45 min, CBT-I treatment session 50 min, NP treatment support 30 min); MD consultations OHIP-covered, NP and CBT-I components delivered privately.",
+  "price_tier": "website",
+  "treatment_link": "https://possibilitiesclinic.com/sleep-optimization-service/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "the-proactive-athlete-burlington",
   "treatment_id": "the-proactive-athlete-burlington--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -40929,6 +42237,19 @@
   "price_source": "No shockwave or physiotherapy price is published on the clinic's own website, and its Jane booking page (theproactiveathlete.janeapp.com) text extract shows practitioner bios only - no service prices - so price is null pending a rendered Jane pass.",
   "price_tier": null,
   "treatment_link": "https://www.theproactiveathlete.ca/physiotherapy-services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-rehab-grid-north-york-toronto",
+  "treatment_id": "the-rehab-grid-north-york-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No golf assessment or physiotherapy fee is published on the clinic's own website, and the Jane booking page (rehab-grid-physiotherapy-and-sports-performance.janeapp.com) returned HTTP 429 and was not retried, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.therehabgrid.com/north-york-toronto/golf-physiotherapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -40979,6 +42300,107 @@
   "last_verified": null
  },
  {
+  "clinic_id": "the-runners-academy-toronto",
+  "treatment_id": "the-runners-academy-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor / pelvic health physiotherapy fee is published on the clinic's own website, and its Jane booking page rendered no fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://therunnersacademy.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-runners-academy-toronto",
+  "treatment_id": "the-runners-academy-toronto--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy / Chiropractic",
+  "practitioner": "Kris Sheppard, Brittany Moran, Bojan Hasanagic, Chantelle Maryuen, Roman Izquierdo, Robert Lawand, Steph Saunders",
+  "practitioners": [
+   {
+    "id": "the-runners-academy-toronto--kris-sheppard",
+    "name": "Kris Sheppard",
+    "as_recorded": "Dr. Kris Sheppard, Chiropractor (B.A Hons Kin, CSCS) - Toronto & Hamilton, listed on the clinic's Running Gait Analysis page"
+   },
+   {
+    "id": "the-runners-academy-toronto--brittany-moran",
+    "name": "Brittany Moran",
+    "as_recorded": "Dr. Brittany Moran, Chiropractor (B.KH, CSCS) - Toronto, listed on the clinic's Running Gait Analysis page"
+   },
+   {
+    "id": "the-runners-academy-toronto--bojan-hasanagic",
+    "name": "Bojan Hasanagic",
+    "as_recorded": "Bojan Hasanagic, Registered Physiotherapist (B.Kin, DPT) - Toronto, listed on the clinic's Running Gait Analysis page"
+   },
+   {
+    "id": "the-runners-academy-toronto--chantelle-maryuen",
+    "name": "Chantelle Maryuen",
+    "as_recorded": "Dr. Chantelle Maryuen, Chiropractor (DC) - Toronto, listed on the clinic's Running Gait Analysis page"
+   },
+   {
+    "id": "the-runners-academy-toronto--roman-izquierdo",
+    "name": "Roman Izquierdo",
+    "as_recorded": "Roman Izquierdo, Registered Physiotherapist (MScPT) - Toronto, listed on the clinic's Running Gait Analysis page"
+   },
+   {
+    "id": "the-runners-academy-toronto--robert-lawand",
+    "name": "Robert Lawand",
+    "as_recorded": "Dr. Robert Lawand, Chiropractor (BKin) - Toronto, listed on the clinic's Running Gait Analysis page"
+   },
+   {
+    "id": "the-runners-academy-toronto--steph-saunders",
+    "name": "Steph Saunders",
+    "as_recorded": "Steph Saunders, Registered Physiotherapist (MScPT, MA Human Kinetics, PhD Candidate) - Toronto, listed on the clinic's Running Gait Analysis page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No running gait analysis fee is published on the clinic's own website, and its Jane booking page (therunnersacademy.janeapp.com) rendered practitioner bios only in text fetch with no treatment/fee list, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.therunnersacademy.com/running-gait-analysis-1",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-running-physio-toronto",
+  "treatment_id": "the-running-physio-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://therunningphysio.ca/physical-therapy-services/pelvic-pain/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-running-physio-toronto",
+  "treatment_id": "the-running-physio-toronto--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No running gait analysis or physiotherapy fee is published on the clinic's own website (therunningphysio.ca), and its Jane booking page could not be text-fetched in this pass (HTTP 429, not retried), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://therunningphysio.ca/physical-therapy-treatments/running-assessments/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-running-physio-toronto",
+  "treatment_id": "the-running-physio-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave therapy fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://therunningphysio.ca/physical-therapy-treatments/shockwave-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "the-self-centre-edmonton",
   "treatment_id": "the-self-centre-edmonton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
@@ -41002,6 +42424,25 @@
   "price_source": "No separate Lymphatic Drainage price is published. Manual Lymphatic Drainage is offered as a massage therapy service delivered by the clinic's Registered Massage Therapists, and the clinic's own website publishes a single massage therapy pricing schedule (30 min $65, 45 min $85, 60 min $105, 75 min $125, 90 min $150, incl. GST) \u2014 that schedule is recorded here as the treatment price under Pricing Rule v2 / the inclusion rule, since the same RMTs deliver both general massage and MLD.",
   "price_tier": "website",
   "treatment_link": "https://theselfcentre.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-speech-and-stuttering-institute-toronto",
+  "treatment_id": "the-speech-and-stuttering-institute-toronto--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Marni Kinder",
+  "practitioners": [
+   {
+    "id": "the-speech-and-stuttering-institute-toronto--marni-kinder",
+    "name": "Marni Kinder",
+    "as_recorded": "Marni Kinder, M.H.Sc., Reg. CASLPO, S-LP (C) - Speech-Language Pathologist & Stuttering Program Team Leader, per the clinic's own Fluency Plus page; adult/teen stuttering referrals are directed to Marni Kinder, Speech-Language Pathologist, on the clinic's Adult & Teen Stuttering Therapy page"
+   }
+  ],
+  "price_text": "$197.50 initial evaluation (ages 6+, 60 min); treatment $127.50/30 min, $167.50/45 min, $197.50/60 min; group treatment (60-90 min) $137.50",
+  "price_source": "Clinic's own fees page (speechandstuttering.com/services/fees/), Stuttering Programs schedule beginning June 1, 2026: Initial Evaluation ages 6+ (60 min) $197.50; treatment sessions $127.50/30 min, $167.50/45 min, $197.50/60 min; group treatment $137.50.",
+  "price_tier": "website",
+  "treatment_link": "https://speechandstuttering.com/services/stuttering/adultandteen/",
   "last_verified": "2026-11-01"
  },
  {
@@ -41463,6 +42904,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "the-voice-clinic-toronto",
+  "treatment_id": "the-voice-clinic-toronto--singing-voice-therapy",
+  "treatment": "Singing Voice Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Aaron Low",
+  "practitioners": [
+   {
+    "id": "the-voice-clinic-toronto--aaron-low",
+    "name": "Aaron Low",
+    "as_recorded": "Aaron Low, SLP - founder and president of The Voice Clinic, Licensed Speech-Voice Pathologist and Professional Speech and Singing Voice Consultant, per the clinic's profile text; the clinic's own Exclusive Packages (Singer Package) page names Aaron as the delivering clinician"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No singing voice therapy or Singer Package fee is published on the clinic's own website (thevoiceclinic.com), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://thevoiceclinic.com/exclusive-packages/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "the-voice-source-hamilton",
   "treatment_id": "the-voice-source-hamilton--singing-voice-therapy",
   "treatment": "Singing Voice Therapy",
@@ -41514,6 +42974,62 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "the-wise-self-psychotherapy-clinic-toronto",
+  "treatment_id": "the-wise-self-psychotherapy-clinic-toronto--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No couples therapy fee is published on the clinic's own website, and its Jane booking page list did not render fees in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.thewiseself.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-wise-self-psychotherapy-clinic-toronto",
+  "treatment_id": "the-wise-self-psychotherapy-clinic-toronto--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Milly Feliz, Jennifer Truong",
+  "practitioners": [
+   {
+    "id": "the-wise-self-psychotherapy-clinic-toronto--milly-feliz",
+    "name": "Milly Feliz",
+    "as_recorded": "Milly Feliz (Registered Psychotherapist) - specialized in LENS Neurofeedback per the clinic's Neurofeedback Therapy page; also shown as 'Med. R.P, Approved Clinical Supervisor & LENS Practioner'"
+   },
+   {
+    "id": "the-wise-self-psychotherapy-clinic-toronto--jennifer-truong",
+    "name": "Jennifer Truong",
+    "as_recorded": "Jennifer Truong (Registered Psychotherapist Qualifying) - specialized in LENS Neurofeedback per the clinic's Neurofeedback Therapy page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No neurofeedback or LENS fee is published on the clinic's own website, and its Jane booking page list did not render treatment fees in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.thewiseself.ca/neurofeedback-therapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-wise-self-psychotherapy-clinic-toronto",
+  "treatment_id": "the-wise-self-psychotherapy-clinic-toronto--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": "Jade Di Iorio",
+  "practitioners": [
+   {
+    "id": "the-wise-self-psychotherapy-clinic-toronto--jade-di-iorio",
+    "name": "Jade Di Iorio",
+    "as_recorded": "Jade Di Iorio, Clinical and School Psychologist - 'brings a warm, collaborative approach to psychoeducational assessments for children and teens' per the clinic's Assessments page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No psychoeducational assessment fee is published on the clinic's own Assessments page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.thewiseself.ca/assessments",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "therapeutic-solutions-massage-therapy-fort-saskatchewan",
   "treatment_id": "therapeutic-solutions-massage-therapy-fort-saskatchewan--tmj-massage",
   "treatment": "TMJ Massage",
@@ -41543,6 +43059,25 @@
   "price_source": "No shockwave or physiotherapy fee list is published on the clinic's own Hurontario page, so price is null.",
   "price_tier": null,
   "treatment_link": "https://www.therapic.ca/physiotherapy-in-hurontario",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "therapy-spot-toronto",
+  "treatment_id": "therapy-spot-toronto--myofunctional-therapy",
+  "treatment": "Myofunctional Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Simone Friedman",
+  "practitioners": [
+   {
+    "id": "therapy-spot-toronto--simone-friedman",
+    "name": "Simone Friedman",
+    "as_recorded": "Simone Friedman, CEO - took a 5-day intensive accreditation course specifically in Oral Myofunctional Disorders and brought the OMD knowledge and programming back to Toronto, per the clinic's own Oral Myofunctional Disorders & Swallowing Handbook (therapyspot.ca PDF); she has since trained all her staff in this program"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No current myofunctional fee is published on the clinic's current website; the only price found is in the clinic's 2018/2019 Oral Myofunctional Disorders & Swallowing Handbook PDF on its own site ($147.00/hour program rate), which is stale and was not recorded, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://therapyspot.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -41829,6 +43364,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "tmj-osteopathy-and-concussion-care-toronto",
+  "treatment_id": "tmj-osteopathy-and-concussion-care-toronto--facial-manual-therapy",
+  "treatment": "Facial Manual Therapy",
+  "billed_as": "Osteopathy",
+  "practitioner": "Mugi",
+  "practitioners": [
+   {
+    "id": "tmj-osteopathy-and-concussion-care-toronto--mugi",
+    "name": "Mugi",
+    "as_recorded": "Mugi - 'Hello, my name is Mugi. I am a Manual Osteopathic Practitioner for TMJD with 15 years of clinical experience' (clinic's own website; surname not published on the site)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and the practice has no online booking page (appointments by email), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.tmjosteopathy.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "tonic-physiotherapy-and-rehabilitation-centre-milton",
   "treatment_id": "tonic-physiotherapy-and-rehabilitation-centre-milton--head-spa",
   "treatment": "Head Spa",
@@ -41918,6 +43472,54 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "toronto-adult-speech-clinic-toronto",
+  "treatment_id": "toronto-adult-speech-clinic-toronto--singing-voice-therapy",
+  "treatment": "Singing Voice Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Jordan Scholl",
+  "practitioners": [
+   {
+    "id": "toronto-adult-speech-clinic-toronto--jordan-scholl",
+    "name": "Jordan Scholl",
+    "as_recorded": "Jordan Scholl, Owner, Speech-Language Pathologist, Voice Therapist - 'has a passion for working with adults in areas of voice and singing voice therapy' per his bio on the clinic's Jane booking page (tasc.janeapp.com)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No singing voice therapy fee is published on the clinic's own website (its FAQ fees section is marked 'Coming Soon') and its Jane booking page did not render a treatment/fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://torontoadultspeechclinic.com/voice-therapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "toronto-adult-speech-clinic-toronto",
+  "treatment_id": "toronto-adult-speech-clinic-toronto--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Jordan Scholl, Courtney Cain-Porter, Andrea Thornhill",
+  "practitioners": [
+   {
+    "id": "toronto-adult-speech-clinic-toronto--jordan-scholl",
+    "name": "Jordan Scholl",
+    "as_recorded": "Jordan Scholl, Owner, Speech-Language Pathologist, Voice Therapist - 'has a passion for working with adults in areas of... stuttering and fluency therapy' per his bio on the clinic's Jane booking page"
+   },
+   {
+    "id": "toronto-adult-speech-clinic-toronto--courtney-cain-porter",
+    "name": "Courtney Cain-Porter",
+    "as_recorded": "Courtney Cain-Porter, Speech-Language Pathologist - 'has provided support for stuttering, motor speech and articulation, dysphagia, aphasia, and social communication' per her bio on the clinic's Jane booking page"
+   },
+   {
+    "id": "toronto-adult-speech-clinic-toronto--andrea-thornhill",
+    "name": "Andrea Thornhill",
+    "as_recorded": "Andrea Thornhill, Speech-Language Pathologist - 'has sought experience in cognitive communication, dysfluency (stammer), oral motor disorders, dysphagia, aphasia and articulation' per her bio on the clinic's Jane booking page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No stuttering therapy fee is published on the clinic's own website and its Jane booking page did not render a treatment/fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://tasc.janeapp.com",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "toronto-chiropractic-services-toronto",
   "treatment_id": "toronto-chiropractic-services-toronto--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -41950,6 +43552,90 @@
   "last_verified": null
  },
  {
+  "clinic_id": "toronto-naturopath-osteopath-clinic-toronto",
+  "treatment_id": "toronto-naturopath-osteopath-clinic-toronto--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No cosmetic acupuncture fee is published on the clinic's own site or captured from its Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://naturopathosteopathclinic.com/acupuncture/cosmetic-acupuncture/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "toronto-naturopath-osteopath-clinic-toronto",
+  "treatment_id": "toronto-naturopath-osteopath-clinic-toronto--facial-manual-therapy",
+  "treatment": "Facial Manual Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Facial Manual Therapy service or fee exists on the clinic's own site or its Jane booking page (the Jane page rendered practitioner bios only, with no service/fee list), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://naturopathosteopathclinic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "toronto-naturopath-osteopath-clinic-toronto",
+  "treatment_id": "toronto-naturopath-osteopath-clinic-toronto--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fertility acupuncture fee is published on the clinic's own site or captured from its Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://naturopathosteopathclinic.com/acupuncture/infertility/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "toronto-neurofeedback-and-psychotherapy-centre-toronto",
+  "treatment_id": "toronto-neurofeedback-and-psychotherapy-centre-toronto--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No couples therapy fee is published on the clinic's own site or in extracts of its Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://torontoneurofeedback.janeapp.com/locations/toronto/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "toronto-neurofeedback-and-psychotherapy-centre-toronto",
+  "treatment_id": "toronto-neurofeedback-and-psychotherapy-centre-toronto--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Isidora Campos",
+  "practitioners": [
+   {
+    "id": "toronto-neurofeedback-and-psychotherapy-centre-toronto--isidora-campos",
+    "name": "Isidora Campos",
+    "as_recorded": "Isidora Campos - Registered Psychotherapist with a Masters in Applied Positive Psychology, Board Certified in Neurofeedback (BCN) by the BCIA since 2019, per her bio on the clinic's Jane booking page; the clinic's own clinician page (Isidora Campos, NuVista Mental Health) lists Neurofeedback among her integrated approaches"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No neurofeedback session price is published on the clinic's own site or in extracts of its Jane booking page (which lists a Free 15 Minute Intake Call for neurofeedback but no session fee), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://torontoneurofeedback.janeapp.com/locations/toronto/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "toronto-neurofeedback-and-psychotherapy-centre-toronto",
+  "treatment_id": "toronto-neurofeedback-and-psychotherapy-centre-toronto--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No psychoeducational assessment fee is published on the clinic's own site or in extracts of its Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://nuvistamentalhealth.com/back-to-school-guide-psychoeducational-assessments-for-children-in-canada/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "toronto-osteopathy-wellness-north-york",
   "treatment_id": "toronto-osteopathy-wellness-north-york--facial-manual-therapy",
   "treatment": "Facial Manual Therapy",
@@ -41960,6 +43646,84 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://osteowellto.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "toronto-physiotherapy-danforth-and-chester-toronto",
+  "treatment_id": "toronto-physiotherapy-danforth-and-chester-toronto--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": null,
+  "practitioner": "Meredith Clinton, Ana Groppler, Josephine Cuthill, Mayana Clugston, Jenna Murji",
+  "practitioners": [
+   {
+    "id": "toronto-physiotherapy-danforth-and-chester-toronto--meredith-clinton",
+    "name": "Meredith Clinton",
+    "as_recorded": "Meredith Clinton, a Certified Pilates Instructor and Physiotherapy Assistant (clinic's own Physio Pilates page, 'Taught by' list)"
+   },
+   {
+    "id": "toronto-physiotherapy-danforth-and-chester-toronto--ana-groppler",
+    "name": "Ana Groppler",
+    "as_recorded": "Ana Groppler, a Certified Pilates Instructor and Physiotherapy Assistant (clinic's own Physio Pilates page, 'Taught by' list)"
+   },
+   {
+    "id": "toronto-physiotherapy-danforth-and-chester-toronto--josephine-cuthill",
+    "name": "Josephine Cuthill",
+    "as_recorded": "Josephine Cuthill, a Certified Pilates Instructor and Physiotherapy Assistant (clinic's own Physio Pilates page, 'Taught by' list)"
+   },
+   {
+    "id": "toronto-physiotherapy-danforth-and-chester-toronto--mayana-clugston",
+    "name": "Mayana Clugston",
+    "as_recorded": "Mayana Clugston, a Certified Pilates Instructor and Physiotherapy Assistant (clinic's own Physio Pilates page, 'Taught by' list)"
+   },
+   {
+    "id": "toronto-physiotherapy-danforth-and-chester-toronto--jenna-murji",
+    "name": "Jenna Murji",
+    "as_recorded": "Jenna Murji, a Certified Pilates Instructor and Physiotherapist Assistant (clinic's own Physio Pilates page, 'Taught by' list; site spelling)"
+   }
+  ],
+  "price_text": "$120/hr (Physio Pilates, tax-free, after a physiotherapy assessment); $100/hr + HST (Pilates without a physiotherapy assessment)",
+  "price_source": "Clinic's own website: its Physio Pilates service page states private Physio Pilates at Danforth and Chester is '$120/ hr (tax-free)' provided by a Certified Pilates Instructor/Physiotherapy Assistant after a physiotherapist assessment, and Pilates without a physiotherapy assessment is '$100/hr (+ HST)'; its fees page repeats 'Private 1-on-1 Pilates guided by a Physiotherapist, delivered by a Pilates Instructor/Physiotherapist Assistant: $120/hr (tax-free)' and '$100/hr' without an assessment. This is the treatment's own published price, not a physiotherapy stand-in price.",
+  "price_tier": "website",
+  "treatment_link": "https://torontophysiotherapy.ca/services/physio-pilates/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "toronto-physiotherapy-danforth-and-chester-toronto",
+  "treatment_id": "toronto-physiotherapy-danforth-and-chester-toronto--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No standalone lymphatic drainage fee is published on the clinic's own site (its fees page prices a Cancer/Lymphedema initial visit at $165 within physiotherapy, which was not used as a stand-in for lymphatic drainage under rule v2), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://torontophysiotherapy.ca/services/lymphedema-treatment/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "toronto-physiotherapy-danforth-and-chester-toronto",
+  "treatment_id": "toronto-physiotherapy-danforth-and-chester-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$165 initial assessment (60 min); $112/30 min \u00b7 $129/40 min \u00b7 $165/60 min",
+  "price_source": "Clinic's own website fees page (torontophysiotherapy.ca/fees/pricing-list/): Pelvic Floor Physiotherapy - Initial Assessment $165 (60 min, includes treatment), 30 minutes $112, 40 minutes $129, 60 minutes $165.",
+  "price_tier": "website",
+  "treatment_link": "https://torontophysiotherapy.ca/fees/pricing-list/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "toronto-physiotherapy-danforth-and-chester-toronto",
+  "treatment_id": "toronto-physiotherapy-danforth-and-chester-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$40 added to physiotherapy follow-up visit rates (no additional charge if provided as part of an initial assessment)",
+  "price_source": "Clinic's own website fees page (torontophysiotherapy.ca/fees/pricing-list/): 'Shockwave - $40 fee added to all follow-up visit rates (no additional charge, if provided as part of an Initial Assessment booking)', in the physiotherapy price list.",
+  "price_tier": "website",
+  "treatment_link": "https://torontophysiotherapy.ca/fees/pricing-list/",
   "last_verified": "2026-11-01"
  },
  {
@@ -43828,10 +45592,10 @@
     "as_recorded": "Liliya Bluvshtein"
    }
   ],
-  "price_text": null,
-  "price_source": null,
-  "price_tier": null,
-  "treatment_link": "https://www.instagram.com/p/DfII-z1vrIO/",
+  "price_text": "$75 / 30 min \u00b7 $160 / 90 min",
+  "price_source": "Jane booking (wellnessplace.janeapp.com/#/manual-osteopathy): 'Lymphatic Osteopathic Treatment 30 minutes' $75 \u2014 description 'Pressotherapy Lymphatic Machine'; 'Lymphatic Osteopathic Treatment 90 minutes' $160 \u2014 description 'includes 30 min Pressotherapy Lymphatic machine + 45 min Manual Osteopathic Lymphatic Drainage.' Both with Liliya Bluvshtein only. Verified on the live Jane page 2026-11-01 (rendered-browser check, after Leon flagged the price was on Jane).",
+  "price_tier": "booking",
+  "treatment_link": "https://wellnessplace.janeapp.com/#/manual-osteopathy",
   "last_verified": "2026-11-01"
  },
  {
