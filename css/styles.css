@@ -1208,3 +1208,9 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 @media (max-width: 1080px) {
   .tp-list .nc-meta { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
 }
+
+/* Jane pilot: next-available slot line under the row meta (pilot clinics only) */
+.nc-slots { flex: 1 1 100%; margin: 2px 0 0; padding-top: 7px; border-top: 1px dashed #dfe7df; font-size: .8rem; line-height: 1.4; color: #44604d; }
+.nc-slots b { color: #0F2D2B; font-weight: 700; white-space: nowrap; }
+.nc-slots-label { display: inline-block; background: #0F2D2B; color: #fff; font-size: .62rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 2px 6px; border-radius: 99px; margin-right: 6px; vertical-align: 1px; }
+.nc-slots-chk { color: #82937f; }

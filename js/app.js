@@ -1240,6 +1240,23 @@
     const key = (c.name + "|" + c.city).toLowerCase();
     const X = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.x[key]) || null;
     const pair = X && X.pairs ? X.pairs[T] : null;
+    const slot = (typeof CLINIC_SLOTS !== "undefined" && CLINIC_SLOTS[key] && CLINIC_SLOTS[key][T]) || null;
+    let slotsHTML = "";
+    if (slot) {
+      const parts = [];
+      if (slot.a) parts.push(`Next available <b>${slot.a.d} &middot; ${slot.a.t}</b>`);
+      else {
+        if (slot.i) parts.push(`Next initial <b>${slot.i.d} &middot; ${slot.i.t}</b>`);
+        if (slot.f) parts.push(`Next follow-up <b>${slot.f.d} &middot; ${slot.f.t}</b>`);
+      }
+      if (parts.length) {
+        let chk = "";
+        if (typeof CLINIC_SLOTS_CHECKED !== "undefined" && CLINIC_SLOTS_CHECKED) {
+          try { chk = " &middot; checked " + new Date(CLINIC_SLOTS_CHECKED).toLocaleDateString("en-CA", { timeZone: "America/Toronto", weekday: "short", month: "short", day: "numeric" }); } catch (e) {}
+        }
+        slotsHTML = `<p class="nc-slots"><span class="nc-slots-label">Live openings</span> ${parts.join(' <span class="nc-slots-sep">&middot;</span> ')}<span class="nc-slots-chk">${chk}</span></p>`;
+      }
+    }
     const media = (typeof CLINIC_MEDIA !== "undefined" && CLINIC_MEDIA[c.name]) || {};
     const saved = window.wfFavs && window.wfFavs.has(c.name);
     const fav = `<button class="fav-btn nc-fav ${saved ? "saved" : ""}" data-fav="${esc(c.name)}" aria-label="Save ${esc(c.name)}" aria-pressed="${saved}">${HEART}</button>`;
@@ -1329,6 +1346,7 @@
         <p class="nc-addr"><svg width="12" height="12" viewBox="0 0 24 24" fill="#6E8F7A" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg><span>${esc(addr)}</span></p>
         <p class="nc-desc">${esc(desc)}</p>
         <div class="nc-meta"><div class="nc-pricecell">${priceHTML}<p class="nc-note">${noteHTML}</p></div><div class="nc-dbrow">${dbPill}</div>${todayHTML}${actions}</div>
+        ${slotsHTML}
         ${weekHTML}
       </div>
     </article>`;
