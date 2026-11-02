@@ -1,5 +1,31 @@
 [
  {
+  "clinic_id": "360-wellness-spruce-grove",
+  "treatment_id": "360-wellness-spruce-grove--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "707-laser-and-esthetics-niagara-falls",
+  "treatment_id": "707-laser-and-esthetics-niagara-falls--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "8-west-clinic-north-vancouver",
   "treatment_id": "8-west-clinic-north-vancouver--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -87,6 +113,32 @@
   "price_source": "No shockwave therapy price is published on the clinic's own website, so price is null.",
   "price_tier": null,
   "treatment_link": "https://www.8west.ca/health-optimization-services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "a-better-love-counselling-white-rock",
+  "treatment_id": "a-better-love-counselling-white-rock--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "a-step-above-wellness-centre-windsor",
+  "treatment_id": "a-step-above-wellness-centre-windsor--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -2566,6 +2618,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "acupuncture-fanie-tremblay-cousineau-chirovie-saguenay",
+  "treatment_id": "acupuncture-fanie-tremblay-cousineau-chirovie-saguenay--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "acupuncture-healing-centre-cambridge",
   "treatment_id": "acupuncture-healing-centre-cambridge--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -2919,6 +2984,45 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "advanced-health-and-sports-clinic-parksville",
+  "treatment_id": "advanced-health-and-sports-clinic-parksville--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "advanced-health-and-sports-clinic-parksville",
+  "treatment_id": "advanced-health-and-sports-clinic-parksville--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "advanced-health-and-sports-clinic-parksville",
+  "treatment_id": "advanced-health-and-sports-clinic-parksville--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "advanced-pelvic-physiotherapy-centre-toronto",
   "treatment_id": "advanced-pelvic-physiotherapy-centre-toronto--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -2929,6 +3033,32 @@
   "price_source": "No physiotherapy fee list is published on the clinic's own website (advancedpelvic.ca) pages/extracts read and the clinic has no booking page with fees, so price is null.",
   "price_tier": null,
   "treatment_link": "https://www.advancedpelvic.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "advanced-womens-health-squamish",
+  "treatment_id": "advanced-womens-health-squamish--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "advanced-womens-health-squamish",
+  "treatment_id": "advanced-womens-health-squamish--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -3488,6 +3618,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "all-brains-clinic-vancouver",
+  "treatment_id": "all-brains-clinic-vancouver--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "all-things-pelvic-physiotherapy-and-pessary-clinic-kitchener",
   "treatment_id": "all-things-pelvic-physiotherapy-and-pessary-clinic-kitchener--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -3638,6 +3781,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "allied-physiotherapy-white-rock-white-rock",
+  "treatment_id": "allied-physiotherapy-white-rock-white-rock--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "allied-physiotherapy-white-rock-white-rock",
+  "treatment_id": "allied-physiotherapy-white-rock-white-rock--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "alpine-naturopathic-wellness-abbotsford",
   "treatment_id": "alpine-naturopathic-wellness-abbotsford--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -3767,6 +3936,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "alycol-integrative-health-services-spruce-grove",
+  "treatment_id": "alycol-integrative-health-services-spruce-grove--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "amanda-tobe-and-associates-toronto",
   "treatment_id": "amanda-tobe-and-associates-toronto--accent-modification",
   "treatment": "Accent Modification",
@@ -3854,6 +4036,19 @@
   "price_source": "No fee amounts are published in the clinic's own pages read in this pass: its FAQ answers the cost question only with 'Click here to see our current clinic fees' (the linked fees page's amounts did not render in text fetch or search extracts), and no booking-page fee list exists, so price is null.",
   "price_tier": null,
   "treatment_link": "https://ampedphysiotherapy.com/specialty-services/vestibular-physiotherapy-ottawa/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "amy-riddick-physiotherapy-niagara-falls",
+  "treatment_id": "amy-riddick-physiotherapy-niagara-falls--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -4028,6 +4223,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.andalusiaspeech.com/kanata/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "andalusia-speech-therapy-toronto",
+  "treatment_id": "andalusia-speech-therapy-toronto--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -5041,6 +5249,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "athletic-edge-sports-medicine-toronto",
+  "treatment_id": "athletic-edge-sports-medicine-toronto--performing-arts-physiotherapy",
+  "treatment": "Performing Arts Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "athletify-newmarket",
   "treatment_id": "athletify-newmarket--clinical-pilates",
   "treatment": "Clinical Pilates",
@@ -5199,6 +5420,19 @@
   "price_source": "No session fees are published on the clinic's own website (only a '$$' price range in its listing data) and no booking price list rendered, so no price could be verified.",
   "price_tier": null,
   "treatment_link": "https://auraphysiotherapy.ca/services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "aurora-chiropractic-massage-therapy-and-health-centre-prince-albert",
+  "treatment_id": "aurora-chiropractic-massage-therapy-and-health-centre-prince-albert--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -5413,6 +5647,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "avenue-med-spa-whitby",
+  "treatment_id": "avenue-med-spa-whitby--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "avenue-physio-calgary",
   "treatment_id": "avenue-physio-calgary--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -5530,6 +5777,32 @@
   "price_tier": null,
   "treatment_link": "https://axistherapy.com/pelvic-floor-physiotherapy-mississauga/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "b-at-the-top-medical-aesthetics-windsor",
+  "treatment_id": "b-at-the-top-medical-aesthetics-windsor--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "b-at-the-top-medical-aesthetics-windsor",
+  "treatment_id": "b-at-the-top-medical-aesthetics-windsor--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "b-ryan-speech-language-pathology-pickering",
@@ -5938,6 +6211,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "back-on-track-physiotherapy-windsor",
+  "treatment_id": "back-on-track-physiotherapy-windsor--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "back-on-track-physiotherapy-windsor",
+  "treatment_id": "back-on-track-physiotherapy-windsor--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "back-to-your-roots-orofacial-myofunctional-therapy-cambridge",
   "treatment_id": "back-to-your-roots-orofacial-myofunctional-therapy-cambridge--myofunctional-therapy",
   "treatment": "Myofunctional Therapy",
@@ -6294,6 +6593,19 @@
   "price_tier": "website",
   "treatment_link": "https://bayridgecounsellingcentres.ca/counselling-clinic-kitchener-waterloo/couples-marriage-therapy/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "bayshore-physical-therapy-owen-sound",
+  "treatment_id": "bayshore-physical-therapy-owen-sound--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "bayview-village-wellness-centre-north-york",
@@ -6660,6 +6972,19 @@
   "clinic_id": "belmont-physiotherapy-and-health-clinic-langley",
   "treatment_id": "belmont-physiotherapy-and-health-clinic-langley--shockwave-therapy",
   "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "berton-physiotherapy-windsor",
+  "treatment_id": "berton-physiotherapy-windsor--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -7617,6 +7942,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "body-mechanics-salon-and-medi-spa-prince-albert",
+  "treatment_id": "body-mechanics-salon-and-medi-spa-prince-albert--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "body-mind-osteopathic-clinic-toronto",
   "treatment_id": "body-mind-osteopathic-clinic-toronto--facial-manual-therapy",
   "treatment": "Facial Manual Therapy",
@@ -7822,6 +8160,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "boho-hair-boutique-and-head-spa-calgary",
+  "treatment_id": "boho-hair-boutique-and-head-spa-calgary--head-spa",
+  "treatment": "Head Spa",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "boost-psychology-edmonton",
   "treatment_id": "boost-psychology-edmonton--couples-therapy",
   "treatment": "Couples Therapy",
@@ -7838,6 +8189,19 @@
   "price_source": "Clinic's own FAQ page (boostpsych.com/about/faq): 'Sessions are 50 minutes long and are billed at $235... Boost Psychology follows the recommended fee schedule established by the Psychologists Association of Alberta.' This is the clinic's standard session fee; no couples-specific fee is published.",
   "price_tier": "website",
   "treatment_link": "https://www.boostpsych.com/couples-therapy-edmonton",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "boreal-therapy-collective-fort-mcmurray",
+  "treatment_id": "boreal-therapy-collective-fort-mcmurray--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -8152,6 +8516,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "breakthrough-adhd-center-vancouver",
+  "treatment_id": "breakthrough-adhd-center-vancouver--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "breanne-hopkins-north-cochrane",
   "treatment_id": "breanne-hopkins-north-cochrane--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -8422,6 +8799,19 @@
   "price_source": "No vestibular rehabilitation fee is published on the clinic's own website; its Jane booking page rendered practitioner bios only with no fee list, so price is null.",
   "price_tier": null,
   "treatment_link": "https://www.broadmeadphysiotherapy.com/vertigo/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "bronze-baxx-luxury-tanning-and-wellness-calgary",
+  "treatment_id": "bronze-baxx-luxury-tanning-and-wellness-calgary--cryotherapy",
+  "treatment": "Cryotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -9033,6 +9423,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "calvert-russell-therapie-conjugale-sherbrooke",
+  "treatment_id": "calvert-russell-therapie-conjugale-sherbrooke--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "cambie-counseling-richmond",
   "treatment_id": "cambie-counseling-richmond--couples-therapy",
   "treatment": "Couples Therapy",
@@ -9167,6 +9570,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "careco-physiotherapy-and-massage-maple-ridge",
+  "treatment_id": "careco-physiotherapy-and-massage-maple-ridge--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "career-compass-canada-toronto",
   "treatment_id": "career-compass-canada-toronto--interview-preparation",
   "treatment": "Interview Preparation",
@@ -9241,6 +9657,19 @@
   "price_source": "Packages & Pricing section of the firm's own interview coaching page (careersbydesign.ca/services/interview-coaching/): Interview Ready $444 + applicable sales tax; Interview Mastery $888 + applicable sales tax.",
   "price_tier": "website",
   "treatment_link": "https://www.careersbydesign.ca/services/interview-coaching/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "careers-by-design-toronto",
+  "treatment_id": "careers-by-design-toronto--interview-preparation",
+  "treatment": "Interview Preparation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -9493,6 +9922,19 @@
   "price_source": "No fees are published on the clinic's own website (services and programs are listed without prices on the Get Started page), and the tasked treatment is not offered, so price is null.",
   "price_tier": null,
   "treatment_link": "http://www.catherinesemenick.com/get-started",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "catholic-family-services-of-prince-albert-prince-albert",
+  "treatment_id": "catholic-family-services-of-prince-albert-prince-albert--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -11429,6 +11871,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "centre-desthetique-diane-babin-trois-rivieres",
+  "treatment_id": "centre-desthetique-diane-babin-trois-rivieres--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "centre-for-interpersonal-relationships-toronto",
   "treatment_id": "centre-for-interpersonal-relationships-toronto--neurofeedback",
   "treatment": "Neurofeedback",
@@ -11599,6 +12054,19 @@
   "clinic_id": "chez-coco-esthetique-montreal",
   "treatment_id": "chez-coco-esthetique-montreal--microneedling",
   "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "chez-foufounes-trois-rivieres",
+  "treatment_id": "chez-foufounes-trois-rivieres--couples-therapy",
+  "treatment": "Couples Therapy",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -11813,6 +12281,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "chrystalina-beauty-st-albert",
+  "treatment_id": "chrystalina-beauty-st-albert--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "cigonia-granby-granby",
+  "treatment_id": "cigonia-granby-granby--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "cigonia-sherbrooke",
   "treatment_id": "cigonia-sherbrooke--couples-therapy",
   "treatment": "Couples Therapy",
@@ -11891,6 +12385,19 @@
   "price_source": "No general fee for perineal physiotherapy is published on the clinic's own website or an extractable booking page; the Cigonia FAQ says callers are informed about rates by phone (819-821-3434). The only amounts on the clinic's own site are SAAQ payer amounts on its Paying Agents page, which are not a general published price, so price is null.",
   "price_tier": null,
   "treatment_link": "https://cigonia.com/en/the-issues/women-pain-incontinence-descent-organ/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "cigonia-sherbrooke-sherbrooke",
+  "treatment_id": "cigonia-sherbrooke-sherbrooke--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -11973,6 +12480,32 @@
   "clinic_id": "city-speech-centre-vancouver",
   "treatment_id": "city-speech-centre-vancouver--myofunctional-therapy",
   "treatment": "Myofunctional Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "claire-mcdonald-physiotherapy-squamish",
+  "treatment_id": "claire-mcdonald-physiotherapy-squamish--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clarity-laser-aesthetics-yorkton",
+  "treatment_id": "clarity-laser-aesthetics-yorkton--microneedling",
+  "treatment": "Microneedling",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -12365,6 +12898,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "clinique-catherine-saguenay",
+  "treatment_id": "clinique-catherine-saguenay--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "clinique-cb-laval",
   "treatment_id": "clinique-cb-laval--pressotherapy",
   "treatment": "Pressotherapy",
@@ -12574,6 +13120,19 @@
   "clinic_id": "clinique-dc-laval",
   "treatment_id": "clinique-dc-laval--microneedling",
   "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-de-drainage-lymphatique-nathalie-bourbon-saguenay",
+  "treatment_id": "clinique-de-drainage-lymphatique-nathalie-bourbon-saguenay--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -12803,6 +13362,45 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "clinique-equilib-saguenay",
+  "treatment_id": "clinique-equilib-saguenay--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-equilib-saguenay",
+  "treatment_id": "clinique-equilib-saguenay--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-euphoros-montreal",
+  "treatment_id": "clinique-euphoros-montreal--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "clinique-infinium-gatineau",
   "treatment_id": "clinique-infinium-gatineau--microneedling",
   "treatment": "Microneedling",
@@ -12887,6 +13485,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "clinique-lambert-physio-saguenay",
+  "treatment_id": "clinique-lambert-physio-saguenay--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "clinique-medicale-gynesys-montreal",
   "treatment_id": "clinique-medicale-gynesys-montreal--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -12955,6 +13566,19 @@
   "price_source": "No red light therapy or massage fee is published on the clinic's own website, so price is null.",
   "price_tier": null,
   "treatment_link": "http://natturra.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-neuro-saint-jean-sur-richelieu",
+  "treatment_id": "clinique-neuro-saint-jean-sur-richelieu--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -13357,6 +13981,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "coast-performance-rehab-squamish",
+  "treatment_id": "coast-performance-rehab-squamish--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "coast-therapy-coquitlam",
   "treatment_id": "coast-therapy-coquitlam--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -13754,6 +14391,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "community-chiropractic-center-windsor",
+  "treatment_id": "community-chiropractic-center-windsor--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "comox-valley-counselling-courtenay",
   "treatment_id": "comox-valley-counselling-courtenay--couples-therapy",
   "treatment": "Couples Therapy",
@@ -13996,6 +14646,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "conceive-health-whitby",
+  "treatment_id": "conceive-health-whitby--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "conceive-health-whitby",
+  "treatment_id": "conceive-health-whitby--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "concentric-therapy-burnaby",
   "treatment_id": "concentric-therapy-burnaby--couples-therapy",
   "treatment": "Couples Therapy",
@@ -14122,6 +14798,19 @@
   "price_source": "Clinic's own physiotherapy page (connectpt.ca/physiotherapy), Pelvic health physiotherapy pricing block.",
   "price_tier": "website",
   "treatment_link": "https://www.connectpt.ca/physiotherapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "connect-rehab-owen-sound",
+  "treatment_id": "connect-rehab-owen-sound--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -14446,6 +15135,19 @@
   "price_source": "Clinic's own Therapy Fees & Insurance page (corepsychology.com/fees, read via search extract 2026-11-01): Practicum Therapists $125/50 min ($187.50/80 min), Canadian Certified Counsellors $235/50 min ($352.50/80 min), Associate Psychologists $235/50 min, Senior Psychologists $250/50 min ($375/80 min); rates align with the Psychologists' Association of Alberta recommended fee schedule. No separate rate is published for this treatment, so the clinic-wide session scale is recorded.",
   "price_tier": "booking",
   "treatment_link": "https://www.corepsychology.com/mindset-mastery-for-youth-athletes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "core-restore-physiotherapy-and-pelvic-health-orangeville",
+  "treatment_id": "core-restore-physiotherapy-and-pelvic-health-orangeville--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -15028,6 +15730,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "cp-health-the-centre-for-physical-health-ajax",
+  "treatment_id": "cp-health-the-centre-for-physical-health-ajax--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "craven-sport-services-saskatoon",
   "treatment_id": "craven-sport-services-saskatoon--bike-fitting",
   "treatment": "Bike Fitting",
@@ -15443,6 +16158,32 @@
   "price_source": "Clinic's own Payment Information page (https://cruxpsychology.ca/payment-details/): 'For Adults (19 years of age or older): ... Psychoeducational: $3,400' and 'For Children (5 to 18 years of age): ... Psychoeducational: $3,700'.",
   "price_tier": "website",
   "treatment_link": "https://cruxpsychology.ca/services/assessment/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "cryomend-toronto",
+  "treatment_id": "cryomend-toronto--cryotherapy",
+  "treatment": "Cryotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "cryotherapy-toronto-toronto",
+  "treatment_id": "cryotherapy-toronto-toronto--cryotherapy",
+  "treatment": "Cryotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -16173,8 +16914,34 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dermapure-sherbrooke-sherbrooke",
+  "treatment_id": "dermapure-sherbrooke-sherbrooke--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dermatouch-richmond-hill",
   "treatment_id": "dermatouch-richmond-hill--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dermavital-clinique-medico-esthetique-sherbrooke",
+  "treatment_id": "dermavital-clinique-medico-esthetique-sherbrooke--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
   "practitioner": null,
@@ -18375,6 +19142,45 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-gina-neonakis-nd-white-rock",
+  "treatment_id": "dr-gina-neonakis-nd-white-rock--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-gina-neonakis-nd-white-rock",
+  "treatment_id": "dr-gina-neonakis-nd-white-rock--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-gina-neonakis-nd-white-rock",
+  "treatment_id": "dr-gina-neonakis-nd-white-rock--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-gregory-knoll-brantford",
   "treatment_id": "dr-gregory-knoll-brantford--mental-performance-coaching",
   "treatment": "Mental Performance Coaching",
@@ -18765,6 +19571,32 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://evolvechiro1.janeapp.com/locations/evolve-8th-avenue/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-jeannie-doig-nd-port-alberni",
+  "treatment_id": "dr-jeannie-doig-nd-port-alberni--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-jeannie-doig-nd-port-alberni",
+  "treatment_id": "dr-jeannie-doig-nd-port-alberni--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -20177,6 +21009,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "dr-nathan-jeffery-nd-duncan",
+  "treatment_id": "dr-nathan-jeffery-nd-duncan--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-nicola-kempinska-nd-burlington",
   "treatment_id": "dr-nicola-kempinska-nd-burlington--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -21360,6 +22205,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "drip-in-luxe-medical-spa-oshawa",
+  "treatment_id": "drip-in-luxe-medical-spa-oshawa--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "drip-in-luxe-medical-spa-oshawa",
+  "treatment_id": "drip-in-luxe-medical-spa-oshawa--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "drrd-nutrition-ottawa",
   "treatment_id": "drrd-nutrition-ottawa--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -21434,6 +22305,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "durham-couples-clinic-whitby",
+  "treatment_id": "durham-couples-clinic-whitby--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dynamic-approach-massage-therapy-kitchener",
   "treatment_id": "dynamic-approach-massage-therapy-kitchener--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
@@ -21444,6 +22328,19 @@
   "price_source": "No fee schedule is published on the clinic's own website pages read in this pass.",
   "price_tier": null,
   "treatment_link": "http://www.dynamic-approach.com/massage-therapy-services.html",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dynamic-balance-physiotherapy-and-sports-injuries-centre-oshawa",
+  "treatment_id": "dynamic-balance-physiotherapy-and-sports-injuries-centre-oshawa--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -22014,6 +22911,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "effective-solutions-counselling-and-consulting-airdrie",
+  "treatment_id": "effective-solutions-counselling-and-consulting-airdrie--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "eglinton-physiotherapy-toronto",
+  "treatment_id": "eglinton-physiotherapy-toronto--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "elaine-zhang-burnaby",
   "treatment_id": "elaine-zhang-burnaby--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -22030,6 +22953,32 @@
   "price_source": "Clinic's own services page (elainezhangdietitian.com/services-vancouvernutritioncounselling, fetched via search extract 2026-11-01): Initial appointment 40 minutes $150, in-person $180; Follow-up 30 minutes $120, in-person $150; a 6-session Structured Nutrition Support package is $750. Sports nutrition is a named service area on the clinic's own site ('Sports nutrition dietitian services focuses on optimizing the performance, muscle building, fueling for training, recovery... of athletes and active individuals').",
   "price_tier": "website",
   "treatment_link": "https://www.elainezhangdietitian.com/services-vancouvernutritioncounselling",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "elegancy-beauty-bar-ajax",
+  "treatment_id": "elegancy-beauty-bar-ajax--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "elegancy-beauty-bar-ajax",
+  "treatment_id": "elegancy-beauty-bar-ajax--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -22133,6 +23082,19 @@
   "price_tier": null,
   "treatment_link": "https://physiowinnipeg.com/pelvic-floor-physiotherapy/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "elizabeth-shoiry-psychologist-montreal",
+  "treatment_id": "elizabeth-shoiry-psychologist-montreal--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "elle-medi-spa-charlottetown",
@@ -22463,6 +23425,32 @@
   "price_source": "The clinic's Jane booking page (resolvehealth.janeapp.com, read via search extract 2026-11-01) rendered practitioner bios and booking instructions only - no treatment list or fees - and no physiotherapy fee is published on the clinic's own website; candidate for the Jane re-scan queue.",
   "price_tier": null,
   "treatment_link": "https://resolvehealth.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "enhance-vitamins-st-catharines",
+  "treatment_id": "enhance-vitamins-st-catharines--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "enhanced-medical-aesthetics-st-albert",
+  "treatment_id": "enhanced-medical-aesthetics-st-albert--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -22836,6 +23824,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "erika-botha-marriage-counselling-sarnia",
+  "treatment_id": "erika-botha-marriage-counselling-sarnia--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "espace-hera-laval",
   "treatment_id": "espace-hera-laval--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -23100,6 +24101,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "essential-balance-toronto",
+  "treatment_id": "essential-balance-toronto--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "essential-balance-vaughan",
   "treatment_id": "essential-balance-vaughan--facial-gua-sha",
   "treatment": "Facial Gua Sha",
@@ -23116,6 +24130,32 @@
   "clinic_id": "essential-physiotherapy-brantford",
   "treatment_id": "essential-physiotherapy-brantford--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "essentials-medi-spa-medicine-hat",
+  "treatment_id": "essentials-medi-spa-medicine-hat--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "esthetique-aisance-beaute-sherbrooke",
+  "treatment_id": "esthetique-aisance-beaute-sherbrooke--microneedling",
+  "treatment": "Microneedling",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -23408,6 +24448,19 @@
   "price_tier": null,
   "treatment_link": "https://www.evolvetherapykingston.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "excel-physio-st-albert",
+  "treatment_id": "excel-physio-st-albert--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "excel-physiotherapy-and-massage-therapy-coquitlam",
@@ -24880,6 +25933,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "foundation-rehab-campbell-river",
+  "treatment_id": "foundation-rehab-campbell-river--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "four-seasons-naturopathic-wellness-richmond-hill",
   "treatment_id": "four-seasons-naturopathic-wellness-richmond-hill--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -25351,6 +26417,32 @@
  {
   "clinic_id": "gaia-healthcare-calgary",
   "treatment_id": "gaia-healthcare-calgary--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "garibaldi-health-clinic-squamish",
+  "treatment_id": "garibaldi-health-clinic-squamish--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "garibaldi-health-clinic-squamish",
+  "treatment_id": "garibaldi-health-clinic-squamish--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
   "practitioner": null,
@@ -25908,6 +27000,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "great-lakes-wellness-co-sarnia",
+  "treatment_id": "great-lakes-wellness-co-sarnia--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "green-harmony-healing-centre-ottawa",
   "treatment_id": "green-harmony-healing-centre-ottawa--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -26063,6 +27168,19 @@
   "price_source": "No fees are published on the clinic's own website, so price is null.",
   "price_tier": null,
   "treatment_link": "http://www.groupeancora.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "groupe-ancora-rimouski",
+  "treatment_id": "groupe-ancora-rimouski--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -26248,6 +27366,19 @@
   "clinic_id": "halifax-osteopathic-health-centre-halifax",
   "treatment_id": "halifax-osteopathic-health-centre-halifax--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "halo-brows-and-skin-airdrie",
+  "treatment_id": "halo-brows-and-skin-airdrie--microneedling",
+  "treatment": "Microneedling",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -26804,6 +27935,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "haney-physiotherapy-maple-ridge",
+  "treatment_id": "haney-physiotherapy-maple-ridge--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "haney-physiotherapy-maple-ridge",
+  "treatment_id": "haney-physiotherapy-maple-ridge--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "hann-psychological-services-halifax",
   "treatment_id": "hann-psychological-services-halifax--couples-therapy",
   "treatment": "Couples Therapy",
@@ -26871,6 +28028,32 @@
   "clinic_id": "hart-bespoke-salon-and-spa-edmonton",
   "treatment_id": "hart-bespoke-salon-and-spa-edmonton--head-spa",
   "treatment": "Head Spa",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "harvest-moon-counselling-and-therapy-prince-albert",
+  "treatment_id": "harvest-moon-counselling-and-therapy-prince-albert--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "haus-of-body-medicine-hat",
+  "treatment_id": "haus-of-body-medicine-hat--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -27308,6 +28491,19 @@
   "price_tier": null,
   "treatment_link": "https://healthglobe.janeapp.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "health-hut-toronto",
+  "treatment_id": "health-hut-toronto--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "health-kneads-massage-therapy-toronto",
@@ -27934,6 +29130,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "hive-hair-spa-vancouver",
+  "treatment_id": "hive-hair-spa-vancouver--head-spa",
+  "treatment": "Head Spa",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "hiz-and-herz-marriage-counselling-lethbridge",
   "treatment_id": "hiz-and-herz-marriage-counselling-lethbridge--couples-therapy",
   "treatment": "Couples Therapy",
@@ -27983,6 +29192,19 @@
   "price_source": "No lymphatic drainage fee is published on the clinic's own site, and its Jane booking page rendered only a location-selection/browser-warning page in text fetch (no treatment or fee list), so price is null.",
   "price_tier": null,
   "treatment_link": "https://holisticconnection.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "holistic-fertility-group-st-albert",
+  "treatment_id": "holistic-fertility-group-st-albert--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -28189,6 +29411,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "hope-family-counselling-whitby",
+  "treatment_id": "hope-family-counselling-whitby--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "horizon-family-naturopathic-clinic-peterborough",
   "treatment_id": "horizon-family-naturopathic-clinic-peterborough--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
@@ -28213,6 +29448,19 @@
   "price_tier": null,
   "treatment_link": "http://www.horizontherapy.ca/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "house-of-yoko-north-vancouver",
+  "treatment_id": "house-of-yoko-north-vancouver--head-spa",
+  "treatment": "Head Spa",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "huatuo-clinic-calgary",
@@ -28856,6 +30104,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "ink-and-skin-studio-maple-ridge",
+  "treatment_id": "ink-and-skin-studio-maple-ridge--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "inner-harmony-registered-acupuncture-nanaimo",
   "treatment_id": "inner-harmony-registered-acupuncture-nanaimo--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -28911,6 +30172,19 @@
   "clinic_id": "innercore-health-london",
   "treatment_id": "innercore-health-london--shockwave-therapy",
   "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "innerscape-psychotherapy-counselling-and-emdr-services-yorkton",
+  "treatment_id": "innerscape-psychotherapy-counselling-and-emdr-services-yorkton--couples-therapy",
+  "treatment": "Couples Therapy",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -29173,6 +30447,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "institut-de-beaute-isis-saint-jean-sur-richelieu",
+  "treatment_id": "institut-de-beaute-isis-saint-jean-sur-richelieu--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "institut-proderma-laval",
   "treatment_id": "institut-proderma-laval--microneedling",
   "treatment": "Microneedling",
@@ -29310,6 +30597,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "integral-iv-duncan",
+  "treatment_id": "integral-iv-duncan--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "integral-physiotherapy-sports-clinic-edmonton",
   "treatment_id": "integral-physiotherapy-sports-clinic-edmonton--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -29413,6 +30713,19 @@
   "price_source": "No fee is published on the clinic's own sports nutrition page (intuitiondietitianco.ca/sports-nutrition, fetched 2026-11-01) - its 4-month 'FUEL with Confidence' 1:1 sport nutrition program and team presentations are described without prices.",
   "price_tier": null,
   "treatment_link": "https://intuitiondietitianco.ca/sports-nutrition",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "inviting-conversations-counselling-medicine-hat",
+  "treatment_id": "inviting-conversations-counselling-medicine-hat--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -29624,6 +30937,19 @@
   "price_source": "No shockwave therapy fee is published on the clinic's own site, so price is null.",
   "price_tier": null,
   "treatment_link": "https://www.bayviewnorth.com/chiropractic",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "jannalee-physiotherapy-yorkton",
+  "treatment_id": "jannalee-physiotherapy-yorkton--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -30166,6 +31492,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "jrad-skin-calgary",
+  "treatment_id": "jrad-skin-calgary--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "judith-cox-counseling-kingston",
   "treatment_id": "judith-cox-counseling-kingston--couples-therapy",
   "treatment": "Couples Therapy",
@@ -30603,6 +31942,19 @@
   "clinic_id": "kalm-wellness-therapy-north-york",
   "treatment_id": "kalm-wellness-therapy-north-york--neurofeedback",
   "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "kalon-skin-lab-whitby",
+  "treatment_id": "kalon-skin-lab-whitby--microneedling",
+  "treatment": "Microneedling",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -35214,6 +36566,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "koonar-physiotherapy-windsor",
+  "treatment_id": "koonar-physiotherapy-windsor--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "krell-wellness-center-prince-george",
   "treatment_id": "krell-wellness-center-prince-george--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -35230,6 +36595,19 @@
   "clinic_id": "krell-wellness-center-prince-george",
   "treatment_id": "krell-wellness-center-prince-george--microneedling",
   "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "kt-massotherapie-sherbrooke",
+  "treatment_id": "kt-massotherapie-sherbrooke--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -35410,6 +36788,19 @@
  {
   "clinic_id": "laird-counselling-services-guelph",
   "treatment_id": "laird-counselling-services-guelph--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "lajoie-counselling-medicine-hat",
+  "treatment_id": "lajoie-counselling-medicine-hat--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
   "practitioner": null,
@@ -35823,6 +37214,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "leanie-sexologue-drummondville",
+  "treatment_id": "leanie-sexologue-drummondville--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "leaside-sports-medicine-toronto",
   "treatment_id": "leaside-sports-medicine-toronto--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -36041,6 +37445,32 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://legendphysioabbotsford.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "les-cliniques-st-sylvain-trudel-rimouski",
+  "treatment_id": "les-cliniques-st-sylvain-trudel-rimouski--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "les-voisines-drummondville",
+  "treatment_id": "les-voisines-drummondville--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -37951,6 +39381,45 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "livwell-integrated-health-squamish",
+  "treatment_id": "livwell-integrated-health-squamish--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "livwell-integrated-health-squamish",
+  "treatment_id": "livwell-integrated-health-squamish--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "livwell-integrated-health-squamish",
+  "treatment_id": "livwell-integrated-health-squamish--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "liz-higgins-rd-nutrition-therapy-goderich",
   "treatment_id": "liz-higgins-rd-nutrition-therapy-goderich--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -38414,6 +39883,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "lynx-beauty-lounge-fort-mcmurray",
+  "treatment_id": "lynx-beauty-lounge-fort-mcmurray--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "lyrette-physiotherapy-timmins",
   "treatment_id": "lyrette-physiotherapy-timmins--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -38667,6 +40149,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "maloney-elkassem-wellness-st-albert",
+  "treatment_id": "maloney-elkassem-wellness-st-albert--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "mama-wellness-co-halifax",
   "treatment_id": "mama-wellness-co-halifax--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -38683,6 +40178,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://mamawellnessco.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "mamacitas-permanent-makeup-esthetics-and-eyelash-extensions-campbell-river",
+  "treatment_id": "mamacitas-permanent-makeup-esthetics-and-eyelash-extensions-campbell-river--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -38780,6 +40288,19 @@
   "clinic_id": "manotick-physioworks-ottawa",
   "treatment_id": "manotick-physioworks-ottawa--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "maple-ridge-physiotherapy-and-pain-clinic-maple-ridge",
+  "treatment_id": "maple-ridge-physiotherapy-and-pain-clinic-maple-ridge--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -42963,6 +44484,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "md-treatment-lounge-niagara-falls",
+  "treatment_id": "md-treatment-lounge-niagara-falls--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "meadowlife-chiropractic-wellness-pitt-meadows",
   "treatment_id": "meadowlife-chiropractic-wellness-pitt-meadows--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -43170,6 +44704,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "mend-bodyworks-physiotherapy-campbell-river",
+  "treatment_id": "mend-bodyworks-physiotherapy-campbell-river--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "mend-rx-halifax",
   "treatment_id": "mend-rx-halifax--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -43194,6 +44741,19 @@
   "price_tier": null,
   "treatment_link": "https://www.menspelvicfloorphysiotherapy.ca/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "mercury-speech-and-language-burnaby",
+  "treatment_id": "mercury-speech-and-language-burnaby--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "metalab-iv-therapy-and-regenerative-medicine-markham",
@@ -43951,6 +45511,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "mindbodybeauty-aesthetics-ajax",
+  "treatment_id": "mindbodybeauty-aesthetics-ajax--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "mindbuffs-edmonton",
   "treatment_id": "mindbuffs-edmonton--mental-performance-coaching",
   "treatment": "Mental Performance Coaching",
@@ -44101,6 +45674,19 @@
   "price_source": "No price is published on the clinic's own site: its homepage FAQ states that after the complimentary 15-minute intro call the client receives 'a personalized plan career counselling program and pricing breakdown' by email, and the Toronto page states pricing is presented after the intro call ('Step 2: Receive Your Plan & Pricing'), so price is null.",
   "price_tier": null,
   "treatment_link": "http://Mindfulcareer.ca/job-search-accelerator",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "mindscape-psychology-medicine-hat",
+  "treatment_id": "mindscape-psychology-medicine-hat--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -44521,6 +46107,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "mn-physiotherapy-clinic-oshawa",
+  "treatment_id": "mn-physiotherapy-clinic-oshawa--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "mobilita-function-and-performance-london",
   "treatment_id": "mobilita-function-and-performance-london--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -44807,6 +46406,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "moose-jaw-naturopathic-clinic-moose-jaw",
+  "treatment_id": "moose-jaw-naturopathic-clinic-moose-jaw--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "moov-physiotherapy-and-wellness-ottawa",
   "treatment_id": "moov-physiotherapy-and-wellness-ottawa--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
@@ -44823,6 +46435,19 @@
   "clinic_id": "more-than-training-calgary",
   "treatment_id": "more-than-training-calgary--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "morgan-roy-hair-toronto",
+  "treatment_id": "morgan-roy-hair-toronto--head-spa",
+  "treatment": "Head Spa",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -45149,6 +46774,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.mountainhp.ca/services/shockwave-therapy-north-vancouver",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "mountain-ridge-wellness-maple-ridge",
+  "treatment_id": "mountain-ridge-wellness-maple-ridge--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -46641,6 +48279,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "myobalance-vancouver",
+  "treatment_id": "myobalance-vancouver--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "myocare-rmt-wellness-toronto",
   "treatment_id": "myocare-rmt-wellness-toronto--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -46926,6 +48577,32 @@
   "clinic_id": "nathalie-lalumiere-rmt-belleville",
   "treatment_id": "nathalie-lalumiere-rmt-belleville--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "natural-beauty-clinic-white-rock",
+  "treatment_id": "natural-beauty-clinic-white-rock--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "natural-beauty-clinic-white-rock",
+  "treatment_id": "natural-beauty-clinic-white-rock--microneedling",
+  "treatment": "Microneedling",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -47511,6 +49188,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "naturopathic-fundamentals-wellness-clinic-airdrie",
+  "treatment_id": "naturopathic-fundamentals-wellness-clinic-airdrie--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "naturopathic-fundamentals-wellness-clinic-airdrie",
+  "treatment_id": "naturopathic-fundamentals-wellness-clinic-airdrie--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "nc-salon-markham",
   "treatment_id": "nc-salon-markham--head-spa",
   "treatment": "Head Spa",
@@ -47559,6 +49262,32 @@
   "price_source": "No fee list is published on ndcare.ca pages read in this pass, so price is null.",
   "price_tier": null,
   "treatment_link": "https://ndcare.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "nectar-iv-hydration-and-wellness-st-albert",
+  "treatment_id": "nectar-iv-hydration-and-wellness-st-albert--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "nectar-iv-hydration-and-wellness-st-albert",
+  "treatment_id": "nectar-iv-hydration-and-wellness-st-albert--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -47728,6 +49457,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "neuroorchestra-north-vancouver",
+  "treatment_id": "neuroorchestra-north-vancouver--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "neuroperforma-dollard-des-ormeaux",
   "treatment_id": "neuroperforma-dollard-des-ormeaux--neurofeedback",
   "treatment": "Neurofeedback",
@@ -47842,6 +49584,19 @@
   "price_source": "Clinic's own Neurofeedback page (neuroperforma.com/le-neurofeedback/) 'Tarifs et valeur ajout\u00e9e' section: 'Protocole sur mesure 170 $ par s\u00e9ance, bas\u00e9 sur un minimum de 12 s\u00e9ances'",
   "price_tier": "website",
   "treatment_link": "http://neuroperforma.com/le-neurofeedback/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "neuroperforma-trois-rivieres-trois-rivieres",
+  "treatment_id": "neuroperforma-trois-rivieres-trois-rivieres--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -47984,6 +49739,19 @@
   "price_source": "No fee schedule is published on the clinic's own website (homepage/FAQ fetched 2026-11-01); initial assessments are described as 45-90 minutes without prices.",
   "price_tier": null,
   "treatment_link": "https://www.newleafphysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "new-leaf-therapy-kate-paul-moose-jaw",
+  "treatment_id": "new-leaf-therapy-kate-paul-moose-jaw--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -48403,6 +50171,71 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "nexus-therapy-surrey",
+  "treatment_id": "nexus-therapy-surrey--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "niagara-health-and-rehab-centre-st-catharines",
+  "treatment_id": "niagara-health-and-rehab-centre-st-catharines--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "niagara-health-and-rehab-centre-st-catharines",
+  "treatment_id": "niagara-health-and-rehab-centre-st-catharines--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "niagara-medical-esthetics-niagara-falls",
+  "treatment_id": "niagara-medical-esthetics-niagara-falls--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "niagara-medical-esthetics-niagara-falls",
+  "treatment_id": "niagara-medical-esthetics-niagara-falls--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "nicole-ballantine-kincardine",
   "treatment_id": "nicole-ballantine-kincardine--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -48757,6 +50590,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "north-country-massage-and-medi-spa-prince-albert",
+  "treatment_id": "north-country-massage-and-medi-spa-prince-albert--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "north-country-massage-and-medi-spa-prince-albert",
+  "treatment_id": "north-country-massage-and-medi-spa-prince-albert--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "north-kamloops-physiotherapy-kamloops",
   "treatment_id": "north-kamloops-physiotherapy-kamloops--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -48773,6 +50632,19 @@
   "clinic_id": "north-okanagan-skin-and-laser-vernon",
   "treatment_id": "north-okanagan-skin-and-laser-vernon--microneedling",
   "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "north-shore-cbt-centre-north-vancouver",
+  "treatment_id": "north-shore-cbt-centre-north-vancouver--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -49479,6 +51351,19 @@
   "clinic_id": "nurture-and-flo-victoria",
   "treatment_id": "nurture-and-flo-victoria--microneedling",
   "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "nurture-me-counselling-maple-ridge",
+  "treatment_id": "nurture-me-counselling-maple-ridge--couples-therapy",
+  "treatment": "Couples Therapy",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -50674,6 +52559,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "orthophonie-begaiement-montreal",
+  "treatment_id": "orthophonie-begaiement-montreal--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "orthophonie-vocalis-magog",
   "treatment_id": "orthophonie-vocalis-magog--myofunctional-therapy",
   "treatment": "Myofunctional Therapy",
@@ -50765,6 +52663,19 @@
   "price_source": "No fees are published on the clinic's own website, so price is null.",
   "price_tier": null,
   "treatment_link": "https://www.voxlingue.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "oshawa-chiropractic-and-physiotherapy-wellness-centre-oshawa",
+  "treatment_id": "oshawa-chiropractic-and-physiotherapy-wellness-centre-oshawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -51204,6 +53115,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "pacific-maple-psych-centre-vancouver",
+  "treatment_id": "pacific-maple-psych-centre-vancouver--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "pacific-physiotherapy-guelph",
   "treatment_id": "pacific-physiotherapy-guelph--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -51525,6 +53449,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "parallel-wellness-vancouver",
+  "treatment_id": "parallel-wellness-vancouver--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "paris-cosmetology-winnipeg",
   "treatment_id": "paris-cosmetology-winnipeg--microneedling",
   "treatment": "Microneedling",
@@ -51615,6 +53552,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "parksville-wellness-collective-parksville",
+  "treatment_id": "parksville-wellness-collective-parksville--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "patchouli7drops-richmond-hill",
   "treatment_id": "patchouli7drops-richmond-hill--facial-manual-therapy",
   "treatment": "Facial Manual Therapy",
@@ -51683,6 +53633,19 @@
   "price_source": "No price found: the clinic's own homepage publishes no fees and no fee page or online booking page for the clinic was found in search; no price quoted in a review within the last 12 months was found",
   "price_tier": null,
   "treatment_link": "https://peacefulmindpsychology.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "peach-physiotherapy-and-wellness-centre-chatham-kent",
+  "treatment_id": "peach-physiotherapy-and-wellness-centre-chatham-kent--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -52158,6 +54121,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "perineo-saguenay",
+  "treatment_id": "perineo-saguenay--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "personal-best-physiotherapy-pilates-rehabilitation-toronto",
   "treatment_id": "personal-best-physiotherapy-pilates-rehabilitation-toronto--clinical-pilates",
   "treatment": null,
@@ -52353,6 +54329,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "physio-care-owen-sound-owen-sound",
+  "treatment_id": "physio-care-owen-sound-owen-sound--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physio-care-owen-sound-owen-sound",
+  "treatment_id": "physio-care-owen-sound-owen-sound--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "physio-clinic-moncton-moncton",
   "treatment_id": "physio-clinic-moncton-moncton--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -52381,6 +54383,19 @@
  {
   "clinic_id": "physio-cottage-scarborough",
   "treatment_id": "physio-cottage-scarborough--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physio-fit-therapy-and-fitness-prince-albert",
+  "treatment_id": "physio-fit-therapy-and-fitness-prince-albert--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
   "practitioner": null,
@@ -56948,6 +58963,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "physiomobility-toronto",
+  "treatment_id": "physiomobility-toronto--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "physionow-mississauga",
   "treatment_id": "physionow-mississauga--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -57095,9 +59123,61 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "physiotherapie-marie-eve-bergeron-trois-rivieres",
+  "treatment_id": "physiotherapie-marie-eve-bergeron-trois-rivieres--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "physiotherapie-nomade-quebec-city",
   "treatment_id": "physiotherapie-nomade-quebec-city--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physiotherapie-saint-francois-drummondville",
+  "treatment_id": "physiotherapie-saint-francois-drummondville--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physiotherapie-sn-drummondville",
+  "treatment_id": "physiotherapie-sn-drummondville--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physiotherapie-universelle-st-francois-sherbrooke",
+  "treatment_id": "physiotherapie-universelle-st-francois-sherbrooke--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -57487,6 +59567,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "pivot-physiotherapy-port-alberni",
+  "treatment_id": "pivot-physiotherapy-port-alberni--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "pivotal-physiotherapy-edmonton",
   "treatment_id": "pivotal-physiotherapy-edmonton--clinical-pilates",
   "treatment": null,
@@ -57671,6 +59764,19 @@
   "clinic_id": "polaris-counselling-mississauga",
   "treatment_id": "polaris-counselling-mississauga--neurofeedback",
   "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "polyclinique-centre-ville-montreal",
+  "treatment_id": "polyclinique-centre-ville-montreal--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -57878,6 +59984,19 @@
   "price_source": "No neurofeedback service or fee exists on the clinic's own site, so price is null.",
   "price_tier": null,
   "treatment_link": "https://prairiepsychology.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "prairie-view-physiotherapy-yorkton",
+  "treatment_id": "prairie-view-physiotherapy-yorkton--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -59356,6 +61475,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "providence-therapy-and-neurofeedback-vancouver",
+  "treatment_id": "providence-therapy-and-neurofeedback-vancouver--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "psych-ed-assessment-services-toronto",
+  "treatment_id": "psych-ed-assessment-services-toronto--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "psychological-recovery-clinic-toronto",
   "treatment_id": "psychological-recovery-clinic-toronto--couples-therapy",
   "treatment": "Couples Therapy",
@@ -59499,6 +61644,32 @@
   "price_source": "No price found on the clinic's own CBT-I page or on Joanna Zieminski's own profile page; the clinic's Jane App booking page fetch returned HTTP 429 so it could not be checked directly for prices, and no fee page was found on the clinic's own site",
   "price_tier": null,
   "treatment_link": "https://psychsolutions.ca/insomnia-sleep-difficulties-edmonton/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "psyeval-clinic-montreal",
+  "treatment_id": "psyeval-clinic-montreal--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "psynergy-centre-medicine-hat",
+  "treatment_id": "psynergy-centre-medicine-hat--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -59920,6 +62091,19 @@
   "clinic_id": "purely-lymphatic-windsor",
   "treatment_id": "purely-lymphatic-windsor--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "purely-wellness-duncan",
+  "treatment_id": "purely-wellness-duncan--couples-therapy",
+  "treatment": "Couples Therapy",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -61158,6 +63342,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "regis-parcel-psychologue-sherbrooke",
+  "treatment_id": "regis-parcel-psychologue-sherbrooke--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "registered-dietitian-eve-laws-barrie",
   "treatment_id": "registered-dietitian-eve-laws-barrie--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -61791,6 +63988,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "restorative-wellness-massage-and-shockwave-therapy-airdrie",
+  "treatment_id": "restorative-wellness-massage-and-shockwave-therapy-airdrie--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "restorative-whole-health-okotoks",
   "treatment_id": "restorative-whole-health-okotoks--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -61927,6 +64137,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "revery-medical-aesthetics-windsor",
+  "treatment_id": "revery-medical-aesthetics-windsor--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "revery-medical-aesthetics-windsor",
+  "treatment_id": "revery-medical-aesthetics-windsor--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "revital-wellness-halifax",
   "treatment_id": "revital-wellness-halifax--tmj-massage",
   "treatment": "TMJ Massage",
@@ -62025,9 +64261,35 @@
   "last_verified": null
  },
  {
+  "clinic_id": "revive-and-align-therapy-clinic-mission",
+  "treatment_id": "revive-and-align-therapy-clinic-mission--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "revive-beauty-solutions-laser-and-aesthetics-london",
   "treatment_id": "revive-beauty-solutions-laser-and-aesthetics-london--microneedling",
   "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "revive-counselling-and-neurofeedback-maple-ridge",
+  "treatment_id": "revive-counselling-and-neurofeedback-maple-ridge--neurofeedback",
+  "treatment": "Neurofeedback",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -62273,6 +64535,19 @@
   "price_source": "No IV therapy price or fee list is published on the clinic's own website pages read (IV Therapy / Vitamin Lounge page, New to IV Therapy page, Services page, homepage) or on its Optimantra booking portal entry, so price is null.",
   "price_tier": null,
   "treatment_link": "https://revivelifeclinic.com/services-we-offer/iv-therapy-in-ottawa/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "revolution-physiotherapy-and-massage-spruce-grove",
+  "treatment_id": "revolution-physiotherapy-and-massage-spruce-grove--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -62795,6 +65070,19 @@
   "price_source": "No fees are published on the clinic's own website (homepage or About Us page read in full) and the clinic has no online booking page, so price is null.",
   "price_tier": null,
   "treatment_link": "https://acupunctureottawa.com/about-us",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "rl-beaute-trois-rivieres",
+  "treatment_id": "rl-beaute-trois-rivieres--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -63711,6 +65999,32 @@
   "price_source": "No shockwave or physiotherapy fee list is published on the clinic's own website, so price is null.",
   "price_tier": null,
   "treatment_link": "http://sjsportsmedclinic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "salon-haze-vancouver",
+  "treatment_id": "salon-haze-vancouver--head-spa",
+  "treatment": "Head Spa",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "salon-signe-a-saint-jean-sur-richelieu",
+  "treatment_id": "salon-signe-a-saint-jean-sur-richelieu--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -64752,6 +67066,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "silva-physiotherapy-and-wellness-mission",
+  "treatment_id": "silva-physiotherapy-and-wellness-mission--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "silva-physiotherapy-and-wellness-mission",
+  "treatment_id": "silva-physiotherapy-and-wellness-mission--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "silver-lining-brampton",
   "treatment_id": "silver-lining-brampton--couples-therapy",
   "treatment": "Couples Therapy",
@@ -64827,6 +67167,32 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://silverliningpsychotherapy.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "simo-scalp-and-skin-studio-calgary",
+  "treatment_id": "simo-scalp-and-skin-studio-calgary--head-spa",
+  "treatment": "Head Spa",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "simone-merkl-marriage-counselling-port-alberni",
+  "treatment_id": "simone-merkl-marriage-counselling-port-alberni--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -64949,6 +67315,32 @@
   "clinic_id": "sk-physiotherapy-and-sports-injury-clinic-cambridge",
   "treatment_id": "sk-physiotherapy-and-sports-injury-clinic-cambridge--shockwave-therapy",
   "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "skin-lab-aesthetics-yorkton",
+  "treatment_id": "skin-lab-aesthetics-yorkton--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "skin-md-niagara-falls",
+  "treatment_id": "skin-md-niagara-falls--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -65166,6 +67558,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "solluna-collective-fort-mcmurray",
+  "treatment_id": "solluna-collective-fort-mcmurray--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "solution-focused-psychology-medicine-hat",
   "treatment_id": "solution-focused-psychology-medicine-hat--couples-therapy",
   "treatment": "Couples Therapy",
@@ -65215,6 +67620,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.somersetdental.ca/botox/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "somerset-family-chiropractic-and-wellness-centre-ajax",
+  "treatment_id": "somerset-family-chiropractic-and-wellness-centre-ajax--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -65686,6 +68104,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "speech-hub-toronto",
+  "treatment_id": "speech-hub-toronto--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "speech-language-network-saskatoon",
   "treatment_id": "speech-language-network-saskatoon--accent-modification",
   "treatment": "Accent Modification",
@@ -65910,6 +68341,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://speechtherapytoronto.com/contact/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speech-vancouver-vancouver",
+  "treatment_id": "speech-vancouver-vancouver--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -66324,6 +68768,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "stabilitylab-vancouver",
+  "treatment_id": "stabilitylab-vancouver--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "stadium-physiosteo-montreal",
   "treatment_id": "stadium-physiosteo-montreal--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -66411,6 +68868,32 @@
   "price_source": "No vestibular fee is published on the clinic's own website, so price is null.",
   "price_tier": null,
   "treatment_link": "https://www.stadiumphysiosteo.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "start-line-health-and-wellness-duncan",
+  "treatment_id": "start-line-health-and-wellness-duncan--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "start-line-health-and-wellness-duncan",
+  "treatment_id": "start-line-health-and-wellness-duncan--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -67274,6 +69757,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "sunrise-physical-therapy-spruce-grove",
+  "treatment_id": "sunrise-physical-therapy-spruce-grove--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "superbloom-wellness-saskatoon",
   "treatment_id": "superbloom-wellness-saskatoon--couples-therapy",
   "treatment": "Couples Therapy",
@@ -67374,6 +69870,19 @@
   "price_source": "No psychoeducational assessment fee amount is published on the clinic's own site - its Red Deer page states assessments are priced separately and to contact the clinic for a quote - so price is null.",
   "price_tier": null,
   "treatment_link": "https://supportingwellness.com/assessment/psychoeducational-assessments-calgary/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "supporting-wellness-psychological-services-calgary",
+  "treatment_id": "supporting-wellness-psychological-services-calgary--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -67747,6 +70256,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "tall-tree-health-vancouver",
+  "treatment_id": "tall-tree-health-vancouver--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "tall-tree-health-victoria",
   "treatment_id": "tall-tree-health-victoria--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -67847,6 +70369,19 @@
   "price_source": "No fees are published on the clinic's own website (ottawaspeechtherapy.com) and no booking page was found, so price is null.",
   "price_tier": null,
   "treatment_link": "https://ottawaspeechtherapy.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "tandem-clinic-vancouver",
+  "treatment_id": "tandem-clinic-vancouver--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -68231,6 +70766,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "the-add-centre-toronto",
+  "treatment_id": "the-add-centre-toronto--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "the-aesthetic-studio-sault-ste-marie",
   "treatment_id": "the-aesthetic-studio-sault-ste-marie--microneedling",
   "treatment": "Microneedling",
@@ -68387,6 +70935,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "the-centre-for-fitness-health-and-performance-toronto",
+  "treatment_id": "the-centre-for-fitness-health-and-performance-toronto--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "the-clara-clinic-toronto",
   "treatment_id": "the-clara-clinic-toronto--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
@@ -68495,9 +71056,61 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "the-couples-clinic-sarnia",
+  "treatment_id": "the-couples-clinic-sarnia--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "the-couples-corner-counselling-moncton",
   "treatment_id": "the-couples-corner-counselling-moncton--couples-therapy",
   "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-derma-suite-chatham-kent",
+  "treatment_id": "the-derma-suite-chatham-kent--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-derma-suite-chatham-kent",
+  "treatment_id": "the-derma-suite-chatham-kent--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-derma-suite-chatham-kent",
+  "treatment_id": "the-derma-suite-chatham-kent--microneedling",
+  "treatment": "Microneedling",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -68642,6 +71255,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "the-grove-health-and-beauty-st-albert",
+  "treatment_id": "the-grove-health-and-beauty-st-albert--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "the-gut-loving-dietitian-kelowna",
   "treatment_id": "the-gut-loving-dietitian-kelowna--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -68710,6 +71336,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://theinnerwellness.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-insight-clinic-whitby",
+  "treatment_id": "the-insight-clinic-whitby--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -69202,6 +71841,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "the-pilates-spot-brooklin-whitby",
+  "treatment_id": "the-pilates-spot-brooklin-whitby--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "the-possibilities-clinic-toronto",
   "treatment_id": "the-possibilities-clinic-toronto--psychoeducational-assessments",
   "treatment": "Psychoeducational Assessments",
@@ -69264,6 +71916,19 @@
   "price_source": "No fee is published on the clinic's Golf Physiotherapy page, and its Jane booking page for the Stouffville location rendered staff bios only in text fetch (the treatment/fee list did not render), so price is null.",
   "price_tier": null,
   "treatment_link": "https://www.therehabgrid.com/north-york-toronto/golf-physiotherapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-relationship-agency-oshawa",
+  "treatment_id": "the-relationship-agency-oshawa--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -69477,6 +72142,32 @@
   "price_source": "No separate Lymphatic Drainage price is published. Manual Lymphatic Drainage is offered as a massage therapy service delivered by the clinic's Registered Massage Therapists, and the clinic's own website publishes a single massage therapy pricing schedule (30 min $65, 45 min $85, 60 min $105, 75 min $125, 90 min $150, incl. GST) \u2014 that schedule is recorded here as the treatment price under Pricing Rule v2 / the inclusion rule, since the same RMTs deliver both general massage and MLD.",
   "price_tier": "website",
   "treatment_link": "https://theselfcentre.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-skin-clinic-chatham-kent",
+  "treatment_id": "the-skin-clinic-chatham-kent--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-skin-renewal-clinic-sarnia",
+  "treatment_id": "the-skin-renewal-clinic-sarnia--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -70050,6 +72741,71 @@
   "price_source": "https://www.thewellnessdietitian.ca/kelowna-dietitian-services",
   "price_tier": "website",
   "treatment_link": "https://www.thewellnessdietitian.ca/kelowna-dietitian-services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-wellness-lab-orangeville",
+  "treatment_id": "the-wellness-lab-orangeville--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-wellness-lab-orangeville",
+  "treatment_id": "the-wellness-lab-orangeville--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-wellness-lab-orangeville",
+  "treatment_id": "the-wellness-lab-orangeville--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-wellness-lab-orangeville",
+  "treatment_id": "the-wellness-lab-orangeville--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-wellness-lab-orangeville",
+  "treatment_id": "the-wellness-lab-orangeville--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -71558,6 +74314,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "trillium-medical-centre-windsor",
+  "treatment_id": "trillium-medical-centre-windsor--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "trinity-naturopathic-clinic-fort-mcmurray",
+  "treatment_id": "trinity-naturopathic-clinic-fort-mcmurray--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "trish-scott-rmt-london",
   "treatment_id": "trish-scott-rmt-london--tmj-massage",
   "treatment": "TMJ Massage",
@@ -72038,6 +74820,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "urgence-physio-montreal-montreal",
+  "treatment_id": "urgence-physio-montreal-montreal--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "urospot-ancaster-hamilton-hamilton",
   "treatment_id": "urospot-ancaster-hamilton-hamilton--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -72402,6 +75197,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "valerie-major-sexologue-saint-jean-sur-richelieu",
+  "treatment_id": "valerie-major-sexologue-saint-jean-sur-richelieu--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "valley-counselling-and-psychotherapy-cornwall",
   "treatment_id": "valley-counselling-and-psychotherapy-cornwall--couples-therapy",
   "treatment": "Couples Therapy",
@@ -72426,6 +75234,19 @@
   "price_tier": null,
   "treatment_link": "https://vcfi.ca/couples/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "vancouver-cryotherapy-vancouver",
+  "treatment_id": "vancouver-cryotherapy-vancouver--cryotherapy",
+  "treatment": "Cryotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "vancouver-dietitians-vancouver",
@@ -72502,6 +75323,19 @@
   "clinic_id": "vancouver-neurotherapy-health-services-vancouver",
   "treatment_id": "vancouver-neurotherapy-health-services-vancouver--neurofeedback",
   "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vancouver-psychology-centre-vancouver",
+  "treatment_id": "vancouver-psychology-centre-vancouver--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -73051,9 +75885,61 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "vita-sana-naturopathic-wellness-clinic-spruce-grove",
+  "treatment_id": "vita-sana-naturopathic-wellness-clinic-spruce-grove--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vita-sana-naturopathic-wellness-clinic-spruce-grove",
+  "treatment_id": "vita-sana-naturopathic-wellness-clinic-spruce-grove--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "vitacare-natural-health-clinic-nanaimo",
   "treatment_id": "vitacare-natural-health-clinic-nanaimo--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vital-cryotherapy-vancouver-vancouver",
+  "treatment_id": "vital-cryotherapy-vancouver-vancouver--cryotherapy",
+  "treatment": "Cryotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vital-cryotherapy-vancouver-vancouver",
+  "treatment_id": "vital-cryotherapy-vancouver-vancouver--red-light-therapy",
+  "treatment": "Red Light Therapy",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -73211,6 +76097,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "voxlingue-montreal",
+  "treatment_id": "voxlingue-montreal--accent-modification",
+  "treatment": "Accent Modification",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "voxlingue-montreal",
+  "treatment_id": "voxlingue-montreal--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "vp-health-lethbridge",
   "treatment_id": "vp-health-lethbridge--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -73311,6 +76223,19 @@
   "clinic_id": "waso-physiotherapy-lethbridge",
   "treatment_id": "waso-physiotherapy-lethbridge--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "wave-physiotherapy-toronto",
+  "treatment_id": "wave-physiotherapy-toronto--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
@@ -73450,6 +76375,19 @@
   "price_tier": null,
   "treatment_link": "https://www.wellbynd.com/wellness-clinic-services",
   "last_verified": null
+ },
+ {
+  "clinic_id": "well-said-toronto-speech-therapy-toronto",
+  "treatment_id": "well-said-toronto-speech-therapy-toronto--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "wellness-and-greatness-calgary",
@@ -73814,6 +76752,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "wellness-within-st-albert",
+  "treatment_id": "wellness-within-st-albert--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "wellness-within-st-albert",
+  "treatment_id": "wellness-within-st-albert--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "wephysio-performance-and-wellness-edmonton",
   "treatment_id": "wephysio-performance-and-wellness-edmonton--bike-fitting",
   "treatment": "Bike Fitting",
@@ -73850,6 +76814,19 @@
   "price_source": "The clinic's own TMJ Massage page lists session lengths (45 min | 60 min) but no fees, and its HiveManager booking page did not expose a price list in text fetch; price left null.",
   "price_tier": null,
   "treatment_link": "https://athleteschoicemassage.ca/locations/edmonton/tmj-massage/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "west-end-wellness-vancouver",
+  "treatment_id": "west-end-wellness-vancouver--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -73946,6 +76923,32 @@
   "price_source": "No vestibular physiotherapy fee was listed on the clinic's own services page or in the Woodlawn Jane App booking page text fetched.",
   "price_tier": null,
   "treatment_link": "https://www.westwoodphysiotherapy.ca/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "whistler-medical-aesthetics-whistler",
+  "treatment_id": "whistler-medical-aesthetics-whistler--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "whitby-physiotherapy-and-sports-rehab-whitby",
+  "treatment_id": "whitby-physiotherapy-and-sports-rehab-whitby--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -74167,6 +77170,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "win-health-niagara-falls",
+  "treatment_id": "win-health-niagara-falls--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "winnipeg-couples-clinic-winnipeg",
   "treatment_id": "winnipeg-couples-clinic-winnipeg--couples-therapy",
   "treatment": "Couples Therapy",
@@ -74283,6 +77299,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "womens-health-physiotherapy-centre-ajax",
+  "treatment_id": "womens-health-physiotherapy-centre-ajax--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "yaletown-integrative-clinic-vancouver",
   "treatment_id": "yaletown-integrative-clinic-vancouver--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -74364,6 +77393,32 @@
   "price_source": "Clinic's own pricing page (https://www.beautifulmindd.ca/pages/pricing), Assessment Fees: Adult \u2014 Psychoeducational Assessment $3570, Comprehensive Psychoeducational Assessment with ADHD Component $4,500; Child (ages 6-17) \u2014 Comprehensive Psychoeducational Assessment with ADHD Component $4200 - $4500; ADHD Assessment $2040 and Neuropsychological Assessment 'call to inquire' also listed.",
   "price_tier": "booking",
   "treatment_link": "https://www.beautifulmindd.ca/pages/services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ymm-collaborative-practice-fort-mcmurray",
+  "treatment_id": "ymm-collaborative-practice-fort-mcmurray--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ymm-muscle-mechanic-fort-mcmurray",
+  "treatment_id": "ymm-muscle-mechanic-fort-mcmurray--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": null,
   "last_verified": "2026-11-01"
  },
  {
