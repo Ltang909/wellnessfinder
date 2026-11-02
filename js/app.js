@@ -1121,6 +1121,190 @@
   }
   window.wfClinicCardsHTML = clinicCardsHTML;
 
+  /* ---------- Unified clinic card (v4 design) for treatment +
+     featured minipages. Data: data.js clinic objects + CLINIC_MEDIA,
+     enriched by js/clinic-extra.js (verified database export) when
+     present. The legacy clinicCardsHTML above stays for /saved. */
+  const NC_TZ = { BC: "America/Vancouver", AB: "America/Edmonton", SK: "America/Regina", MB: "America/Winnipeg", ON: "America/Toronto", QC: "America/Toronto", NB: "America/Moncton", NS: "America/Halifax", PE: "America/Halifax", NL: "America/St_Johns", YT: "America/Whitehorse", NT: "America/Yellowknife", NU: "America/Iqaluit" };
+  const NC_DAYKEYS = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+  const NC_DAYLBL = { mon: "Mon", tue: "Tue", wed: "Wed", thu: "Thu", fri: "Fri", sat: "Sat", sun: "Sun" };
+  const NC_WEEK = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+
+  function ncParseRanges(str) {
+    if (!str) return null;
+    const out = [];
+    const parts = String(str).split(",");
+    for (const part of parts) {
+      const m = part.match(/(\d{1,2})(?::(\d{2}))?\s*(AM|PM)\s*[-–—]\s*(\d{1,2})(?::(\d{2}))?\s*(AM|PM)/i);
+      if (!m) return null;
+      const toMin = (h, mi, ap) => { let hh = parseInt(h, 10) % 12; if (/pm/i.test(ap)) hh += 12; return hh * 60 + parseInt(mi || "0", 10); };
+      out.push([toMin(m[1], m[2], m[3]), toMin(m[4], m[5], m[6])]);
+    }
+    return out.length ? out : null;
+  }
+
+  function ncTodayState(hours, prov) {
+    if (!hours) return null;
+    const tz = NC_TZ[prov || "ON"] || "America/Toronto";
+    let now;
+    try { now = new Date(new Date().toLocaleString("en-US", { timeZone: tz })); }
+    catch (e) { now = new Date(); }
+    const key = NC_DAYKEYS[now.getDay()];
+    const todayStr = hours[key] || null;
+    const ranges = ncParseRanges(todayStr);
+    let open = null;
+    if (ranges) {
+      const mins = now.getHours() * 60 + now.getMinutes();
+      open = ranges.some((r) => mins >= r[0] && mins < r[1]);
+    } else if (todayStr) { open = null; }
+    return { key, label: todayStr, open, closed: !todayStr };
+  }
+
+  function ncFmtHours(str) {
+    return String(str).replace(/\s*-\s*/g, " – ").replace(/(\d)(AM|PM)/gi, "$1 $2");
+  }
+
+  function ncCardHTML(c, g) {
+    const T = g.name;
+    const prov = c.prov || "ON";
+    const key = (c.name + "|" + c.city).toLowerCase();
+    const X = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.x[key]) || null;
+    const pair = X && X.pairs ? X.pairs[T] : null;
+    const media = (typeof CLINIC_MEDIA !== "undefined" && CLINIC_MEDIA[c.name]) || {};
+    const saved = window.wfFavs && window.wfFavs.has(c.name);
+    const fav = `<button class="fav-btn nc-fav ${saved ? "saved" : ""}" data-fav="${esc(c.name)}" aria-label="Save ${esc(c.name)}" aria-pressed="${saved}">${HEART}</button>`;
+
+    /* gallery */
+    const galSet = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.gal[c.name]) || null;
+    const photos = galSet || (media.img ? [media.img] : []);
+    let gallery;
+    if (photos.length) {
+      const dots = photos.length > 1 ? `<div class="nc-dots">${photos.map((_, i) => `<i class="${i === 0 ? "on" : ""}"></i>`).join("")}</div>` : "";
+      const arrows = photos.length > 1 ? `<button type="button" class="nc-arrow prev" aria-label="Previous photo">‹</button><button type="button" class="nc-arrow next" aria-label="Next photo">›</button>` : "";
+      gallery = `<div class="nc-gallery" data-gal data-idx="0"><div class="nc-track">${photos.map((p) => `<img src="${esc(p)}" alt="${esc(c.name)}" loading="lazy">`).join("")}</div>${arrows}${dots}${fav}</div>`;
+    } else {
+      gallery = `<div class="nc-gallery"><div class="nc-tile"><span>${esc((c.name || "W").trim().charAt(0).toUpperCase())}</span></div>${fav}</div>`;
+    }
+
+    /* rating */
+    let rating = "";
+    if (media.rating && media.rating[0]) rating = `<span class="nc-rating"><span class="nc-star">★</span> ${Number(media.rating[0]).toFixed(1)} <span class="nc-cnt">(${media.rating[1]})</span></span>`;
+    else if (X && X.r) rating = `<span class="nc-rating"><span class="nc-star">★</span> ${Number(X.r).toFixed(1)} <span class="nc-cnt">(${X.n || 0})</span></span>`;
+    else rating = `<span class="nc-rating"></span>`;
+
+    /* address (+ distance when sorted by it) */
+    let addr = "";
+    if (X && X.a) addr = `${X.a}, ${c.city}, ${prov}${X.po ? " " + X.po : ""}`;
+    else if (c.loc) addr = c.loc;
+    else addr = `${c.city}, ${prov}`;
+    if (c.distKm != null && isFinite(c.distKm)) addr += ` · ≈ ${Math.round(c.distKm)} km away`;
+
+    /* description: treatment + billed-as lead, then the hook */
+    const billed = (pair && pair.ba) || g.billed || "";
+    const hook = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.lead[c.name] && CLINIC_EXTRA.lead[c.name][T]) || "";
+    let desc;
+    if (hook && billed) desc = `${T} billed as ${billed} — ${hook}`;
+    else if (hook) desc = `${T} — ${hook}`;
+    else if (billed) desc = `${T} billed as ${billed}${pair && pair.pr ? ` with ${pair.pr}` : ""} in ${c.city}.`;
+    else desc = `${T} in ${c.city}, ${prov}.`;
+
+    /* price + tier note */
+    let price = "";
+    if (media.priceByTreatment && media.priceByTreatment[T]) price = media.priceByTreatment[T];
+    else if (pair && pair.p) price = pair.p;
+    else if (media.price) price = media.price;
+    else if (c.price && c.price.indexOf("$") > -1) price = c.price;
+    let priceHTML, noteHTML = "";
+    if (price) {
+      priceHTML = `<p class="nc-price">${esc(price)}</p>`;
+      if (pair && pair.t === "booking") noteHTML = `<span class="nc-verified"><i>✓</i> Verified on booking page</span>`;
+      else if (pair && pair.t === "website") noteHTML = `<span class="nc-price-note">Price from clinic website</span>`;
+      else if (pair && pair.t === "review") noteHTML = `<span class="nc-price-note">Price from a recent review</span>`;
+    } else {
+      priceHTML = `<p class="nc-price"><span class="nc-noprice">Price on request</span></p>`;
+    }
+
+    /* direct billing: featured curation wins, else the verified record */
+    const dbv = media.db || (X && X.db) || "";
+    const dbPill = dbv === "yes"
+      ? `<span class="nc-db nc-db-yes">✓ Direct billing available</span>`
+      : dbv === "no"
+        ? `<span class="nc-db nc-db-no">No direct billing — pay &amp; claim with receipt</span>`
+        : `<span class="nc-db nc-db-unk">Direct billing not confirmed — ask the clinic</span>`;
+
+    /* hours: today line + expandable week */
+    let todayHTML, weekHTML = "";
+    if (X && X.h) {
+      const st = ncTodayState(X.h, prov);
+      const openBit = st.closed ? `<span class="nc-closed-txt">Closed today</span>`
+        : st.open === true ? `<span class="nc-open-dot"></span><span class="nc-open-txt">Open now</span> · Today <b>${esc(ncFmtHours(st.label))}</b>`
+        : st.open === false ? `<span class="nc-closed-dot"></span><span class="nc-closed-txt">Closed now</span> · Today <b>${esc(ncFmtHours(st.label))}</b>`
+        : `Today <b>${esc(ncFmtHours(st.label))}</b>`;
+      todayHTML = `<p class="nc-today">${openBit}<button type="button" class="nc-more" data-nc-hours>See all hours ▾</button></p>`;
+      weekHTML = `<div class="nc-week" hidden>${NC_WEEK.map((d) => {
+        const v = X.h[d];
+        return `<div class="nc-hrow${st.key === d ? " today" : ""}"><span>${NC_DAYLBL[d]}</span><span>${v ? esc(ncFmtHours(v)) : '<span class="nc-closed">Closed</span>'}</span></div>`;
+      }).join("")}</div>`;
+    } else {
+      todayHTML = `<p class="nc-today"><span class="nc-hours-na">Hours not listed — check the clinic’s website</span></p>`;
+    }
+
+    /* actions */
+    const book = media.link || c.book || (X && X.b) || (pair && pair.l) || "";
+    const web = c.web || (X && X.w) || "";
+    const actions = `<div class="nc-actions">${book ? `<a class="nc-btn nc-btn-book" href="${esc(book)}" target="_blank" rel="noopener">Book appointment</a>` : ""}${web ? `<a class="nc-btn nc-btn-web" href="${esc(web)}" target="_blank" rel="noopener">Website ↗</a>` : ""}</div>`;
+
+    return `<article class="nc-card">
+      ${gallery}
+      <div class="nc-main">
+        <div class="nc-head"><h4 class="nc-name">${esc(c.name)}</h4>${rating}</div>
+        <p class="nc-addr"><svg width="12" height="12" viewBox="0 0 24 24" fill="#6E8F7A" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg><span>${esc(addr)}</span></p>
+        <p class="nc-desc">${esc(desc)}</p>
+        ${priceHTML}
+        <p class="nc-note">${noteHTML}</p>
+        <div class="nc-dbrow">${dbPill}</div>
+        ${todayHTML}
+        ${weekHTML}
+        ${actions}
+      </div>
+    </article>`;
+  }
+
+  function ncCardsHTML(clinics, g, wrap) {
+    if (!clinics.length) return `<p class="gta-empty">No clinics listed yet. <a href="/submit">Suggest a clinic</a></p>`;
+    const cards = clinics.map((c) => ncCardHTML(c, g)).join("");
+    return wrap === false ? cards : `<div class="nc-grid">${cards}</div>`;
+  }
+
+  /* Gallery arrows + hours expander for the unified cards (delegated). */
+  function initNcCards() {
+    document.addEventListener("click", (e) => {
+      const arrow = e.target.closest(".nc-arrow");
+      if (arrow) {
+        const gal = arrow.closest("[data-gal]");
+        if (!gal) return;
+        const track = gal.querySelector(".nc-track");
+        const dots = [...gal.querySelectorAll(".nc-dots i")];
+        const n = dots.length || track.children.length;
+        let idx = parseInt(gal.dataset.idx || "0", 10);
+        idx = (((idx + (arrow.classList.contains("next") ? 1 : -1)) % n) + n) % n;
+        gal.dataset.idx = idx;
+        track.style.transform = `translateX(${-idx * 100}%)`;
+        dots.forEach((el, i) => el.classList.toggle("on", i === idx));
+        return;
+      }
+      const more = e.target.closest("[data-nc-hours]");
+      if (more) {
+        const main = more.closest(".nc-main");
+        const week = main && main.querySelector(".nc-week");
+        if (!week) return;
+        const open = week.hasAttribute("hidden");
+        if (open) { week.removeAttribute("hidden"); more.textContent = "Hide hours ▴"; }
+        else { week.setAttribute("hidden", ""); more.textContent = "See all hours ▾"; }
+      }
+    });
+  }
+
   function renderGtaDirectory() {
     const grid = $("#gtaGrid"); if (!grid || typeof TREATMENTS === "undefined") return;
     const names = TREATMENTS.map((t) => t.name);
@@ -1205,8 +1389,8 @@
         const first = cs.slice(0, PAGE_SIZE);
         const rest = cs.slice(PAGE_SIZE);
         list.innerHTML = `<div class="tp-list-head"><h2>${cs.length} clinic${cs.length === 1 ? "" : "s"} ${where}${sortedNote}</h2>${filter}</div>`
-          + clinicCardsHTML(first, g.name)
-          + (rest.length ? `<div class="clinic-grid see-more-body" hidden>${clinicCardsHTML(rest, g.name, false)}</div><button type="button" class="btn btn--ghost see-more-btn" data-see-more>See all ${cs.length} clinics</button>` : "");
+          + ncCardsHTML(first, g)
+          + (rest.length ? `<div class="nc-grid see-more-body" hidden>${ncCardsHTML(rest, g, false)}</div><button type="button" class="btn btn--ghost see-more-btn" data-see-more>See all ${cs.length} clinics</button>` : "");
         const sel = document.getElementById("provSelect");
         if (sel) { sel.value = scope; sel.addEventListener("change", () => { userPicked = true; renderList(sel.value); }); }
         const moreBtn = list.querySelector("[data-see-more]");
@@ -1271,6 +1455,7 @@
     renderGtaDirectory();
     renderTreatmentPage();
     initGlobalFavs();
+    initNcCards();
     window.addEventListener("wf:location", () => {
         renderRecommendations();
       if (typeof TREATMENTS !== "undefined") {
