@@ -2657,7 +2657,7 @@ const STUTTER_CLINICS = [
   { name: "Tall Tree Health", city: "Victoria", web: "http://www.talltreehealth.ca/services/speech-therapy", billed: "Speech Therapy", note: "speech therapy page: registered SLPs work with children and adults, speech therapy can help adults with stuttering,\u2026", prov: "BC" }
 ];
 const PRESSOTHERAPY_CLINICS = [
-  { name: "Wellness Place", city: "Newmarket", web: "https://www.wellnessplace.ca", billed: "Osteopathy", note: "Pressotherapy machine for osteopathic lymphatic drainage, delivered under manual osteopath Liliya Bluvshtein; added October 2026", prov: "ON" },
+  { name: "Wellness Place", city: "Newmarket", web: "https://www.wellnessplace.ca", billed: "Osteopathy", note: "Pressotherapy machine for osteopathic lymphatic drainage, delivered under manual osteopath Liliya Bluvshtein; $75 / 30 min, $160 / 90 min", prov: "ON" },
   { name: "Massage Health Services Inc.", city: "Niagara Falls", web: "https://massagehealthservicesontario.ca", billed: "Massage Therapy", note: "BTL Lymphastim pressotherapy booked with registered massage therapist Anthony Nguyen; 24-chamber compression for lymphatic drainage", prov: "ON" },
   { name: "Club Hippocrate", city: "Montreal", web: "https://clubhippocrate.ca", billed: "Massage Therapy", note: "Pressotherapy inside the clinic's massotherapie service line, delivered by its massage therapy team; $60 / 30 min, $80 / 45 min", prov: "QC" },
   { name: "Clinique CB", city: "Laval", web: "https://www.cliniquecb.com", billed: "Massage Therapy", note: "Pressotherapy on the treatment menu of a massage-therapy-led clinic; $60 / 30 min, $50 added to a massage", prov: "QC" },
