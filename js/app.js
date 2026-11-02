@@ -298,6 +298,13 @@
     }
     return null;
   }
+  const fsClinicsShown = (t) => {
+    if (wfLoc.get() || (window.wfProv && wfProv.get())) {
+      const loc = localClinicsFor(t.name);
+      if (loc) return loc.n;
+    }
+    return fsClinics(t);
+  };
   const fsClinicsLink = (t) => {
     const loc = (wfLoc.get() || (window.wfProv && wfProv.get())) ? localClinicsFor(t.name) : null;
     if (loc) return `<a class="fs-clinics" href="/clinics-${treatmentSlug(t.name)}">${loc.n} clinic${loc.n === 1 ? "" : "s"} ${esc(loc.label)} \u2192</a>`;
@@ -337,6 +344,7 @@
     const mods = FS_MOD_ORDER
       .map((m) => ({ m, list: inView.filter((t) => (t.categories || []).includes(m)) }))
       .filter((g) => g.list.length);
+    const viewClinics = inView.reduce((sum, t) => sum + fsClinicsShown(t), 0);
     const actIdx = Math.max(0, FS_TABS.indexOf(fsView));
     const rotated = FS_TABS.map((_, k) => FS_TABS[(actIdx - 4 + k + FS_TABS.length) % FS_TABS.length]);
     /* Slot flex-grows: the four slots left of centre sum to the same
@@ -348,12 +356,12 @@
         ${rotated.map((w, k) =>
           `<button type="button" class="fs-tab ${w === "All" ? "tab-all" : ""} ${w === fsView ? "active" : ""} d${Math.abs(k - 4)}" style="--fg:${SLOT_GROW[k]}${w === "All" ? "" : `;--fc:${FUND_COLOR[w] || "#0F2D2B"}`}" data-fsview="${esc(w)}">${esc(w)}</button>`).join("")}
         <button type="button" class="fs-chev" data-fsnav="1" aria-label="Next category">\u203a</button></div>
-      <p class="fs-count">${inView.length} treatment${inView.length === 1 ? "" : "s"}</p>
+      <p class="fs-count">${inView.length} treatment${inView.length === 1 ? "" : "s"} \u00b7 ${viewClinics.toLocaleString("en-CA")} clinic${viewClinics === 1 ? "" : "s"}${(wfLoc.get() || (window.wfProv && wfProv.get())) ? (wfLoc.get() ? " near you" : ` in ${esc(provName(wfProv.get()))}`) : ""}</p>
       <div class="fs-rule"><span>Featured treatments</span></div>
       <div class="fs-grid">${featured.map(fsCardHTML).join("")}</div>
       ${mods.map((g) => `
       <div class="fs-sect">
-        <button type="button" class="fs-sect-head" aria-expanded="false"><b>${esc(g.m)}</b><span>${g.list.length} treatment${g.list.length === 1 ? "" : "s"} \u00b7 <em>Show \u25be</em></span></button>
+        <button type="button" class="fs-sect-head" aria-expanded="false"><b>${esc(g.m)}</b><span>${g.list.length} treatment${g.list.length === 1 ? "" : "s"} \u00b7 ${(function () { const n = g.list.reduce((sum, t) => sum + fsClinicsShown(t), 0); return `${n.toLocaleString("en-CA")} clinic${n === 1 ? "" : "s"}`; })()} \u00b7 <em>Show \u25be</em></span></button>
         <div class="fs-minigrid">${g.list.map(fsMiniHTML).join("")}</div>
       </div>`).join("")}`;
     if (!root.dataset.wired) {
@@ -637,13 +645,23 @@
     };
     const entry = map[name] || { clinics: [] };
     const t = TREATMENTS.find((x) => x.name === name) || {};
+    /* Cleaned at the source (Leon, 2026-11-01 rescan): raw arrays carry
+       holes and the odd duplicate, which inflated every displayed
+       count. All consumers get real, unique clinics. */
+    const seenKeys = new Set();
+    const cleanClinics = (entry.clinics || []).filter(Boolean).filter((c) => {
+      const k = `${(c.name || "").toLowerCase()}|${(c.city || "").toLowerCase()}`;
+      if (seenKeys.has(k)) return false;
+      seenKeys.add(k);
+      return true;
+    });
     return {
       name: entry.display || name,
       billed: entry.billed || t.billed || "",
       desc: t.desc || "",
       detail: t.detail || "",
       image: (typeof TREATMENT_IMAGES !== "undefined" && TREATMENT_IMAGES[name]) || null,
-      clinics: entry.clinics,
+      clinics: cleanClinics,
     };
   }
 
@@ -1127,29 +1145,52 @@
     }
     if (list) {
       const provs = [...new Set(g.clinics.map((c) => c.prov || "ON"))].sort();
+      const provCount = (p) => g.clinics.filter((c) => (c.prov || "ON") === p).length;
       const PAGE_SIZE = 12;
       let userPt = null;
-      let currentProv = "";
-      const renderList = (prov) => {
-        currentProv = prov || "";
-        let cs = prov ? g.clinics.filter((c) => (c.prov || "ON") === prov) : g.clinics.slice();
+      let nearSet = null;
+      let scope = "";
+      let userPicked = false;
+      const computeNear = () => {
+        if (!userPt) { nearSet = null; return; }
+        nearSet = g.clinics.filter((c) => {
+          const cc = clinicCoords(c);
+          return cc && haversineKm(userPt, cc) <= 50;
+        });
+      };
+      const defaultScope = () => {
+        if (wfLoc.get() && nearSet && nearSet.length) return "near";
+        const pv = window.wfProv ? wfProv.get() : "";
+        if (pv && provCount(pv)) return pv;
+        return "";
+      };
+      const renderList = (sc) => {
+        scope = sc || "";
+        if (scope === "near" && !nearSet) scope = "";
+        let cs;
+        let where;
+        if (scope === "near" && nearSet) { cs = nearSet.slice(); where = `near ${esc((wfLoc.get() || "").toUpperCase())}`; }
+        else if (scope) { cs = g.clinics.filter((c) => (c.prov || "ON") === scope); where = `in ${esc(PROV_NAMES[scope] || scope)}`; }
+        else { cs = g.clinics.slice(); where = "across Canada"; }
         if (userPt) {
           cs = cs.map((c) => {
             const cc2 = clinicCoords(c);
             return Object.assign({}, c, { distKm: cc2 ? haversineKm(userPt, cc2) : Infinity });
           }).sort((a, b) => a.distKm - b.distKm);
         }
-        const filter = provs.length > 1
-          ? `<label class="prov-filter">Province <select id="provSelect"><option value="">All of Canada (${g.clinics.length})</option>${provs.map((p) => `<option value="${p}">${PROV_NAMES[p] || p}</option>`).join("")}</select></label>`
+        const nearOpt = (wfLoc.get() && nearSet && nearSet.length)
+          ? `<option value="near">Near ${esc(wfLoc.get().toUpperCase())} (${nearSet.length})</option>` : "";
+        const filter = (provs.length > 1 || nearOpt)
+          ? `<label class="prov-filter">Show <select id="provSelect">${nearOpt}<option value="">All of Canada (${g.clinics.length})</option>${provs.map((p) => `<option value="${p}">${PROV_NAMES[p] || p} (${provCount(p)})</option>`).join("")}</select></label>`
           : "";
-        const sortedNote = userPt ? ` <span class="tp-sorted">Sorted by distance from ${esc(wfLoc.get().toUpperCase())} · approximate</span>` : "";
+        const sortedNote = (userPt && scope !== "near") ? ` <span class="tp-sorted">Sorted by distance from ${esc(wfLoc.get().toUpperCase())} \u00b7 approximate</span>` : "";
         const first = cs.slice(0, PAGE_SIZE);
         const rest = cs.slice(PAGE_SIZE);
-        list.innerHTML = `<div class="tp-list-head"><h2>${cs.length} clinic${cs.length === 1 ? "" : "s"}${prov ? " in " + esc(PROV_NAMES[prov] || prov) : " across Canada"}${sortedNote}</h2>${filter}</div>`
+        list.innerHTML = `<div class="tp-list-head"><h2>${cs.length} clinic${cs.length === 1 ? "" : "s"} ${where}${sortedNote}</h2>${filter}</div>`
           + clinicCardsHTML(first, g.name)
           + (rest.length ? `<div class="clinic-grid see-more-body" hidden>${clinicCardsHTML(rest, g.name, false)}</div><button type="button" class="btn btn--ghost see-more-btn" data-see-more>See all ${cs.length} clinics</button>` : "");
         const sel = document.getElementById("provSelect");
-        if (sel) { sel.value = prov || ""; sel.addEventListener("change", () => renderList(sel.value)); }
+        if (sel) { sel.value = scope; sel.addEventListener("change", () => { userPicked = true; renderList(sel.value); }); }
         const moreBtn = list.querySelector("[data-see-more]");
         if (moreBtn) moreBtn.addEventListener("click", () => {
           const body = list.querySelector(".see-more-body");
@@ -1158,15 +1199,15 @@
           moreBtn.textContent = open ? "Show less" : `See all ${cs.length} clinics`;
         });
       };
-      renderList("");
-      if (wfLoc.get()) {
-        wfLoc.coords().then((pt) => { if (pt) { userPt = pt; renderList(currentProv); } });
-        window.addEventListener("wf:location", () => {
-          userPt = null;
-          if (wfLoc.get()) wfLoc.coords().then((pt) => { if (pt) { userPt = pt; renderList(currentProv); } });
-          else renderList(currentProv);
+      renderList(defaultScope());
+      const applyGeo = () => {
+        if (!wfLoc.get()) { userPt = null; nearSet = null; if (!userPicked) renderList(defaultScope()); else renderList(scope); return; }
+        wfLoc.coords().then((pt) => {
+          if (pt) { userPt = pt; computeNear(); if (!userPicked) renderList(defaultScope()); else renderList(scope); }
         });
-      }
+      };
+      applyGeo();
+      window.addEventListener("wf:location", () => { userPicked = false; applyGeo(); });
     }
   }
 
