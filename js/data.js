@@ -111,6 +111,11 @@ const TREATMENTS = [
     categories: ["Massage Therapy"], link: null,
     desc: "Gentle, rhythmic lymphatic massage by a registered massage therapist, supporting surgical recovery and easing swelling.",
     detail: "When performed by an RMT as part of recovery care, it bills as massage therapy." },
+  { group: "Move Better", name: "Pressotherapy", billed: "Massage Therapy / Osteopathy",
+    categories: ["Massage Therapy", "Osteopathy"], link: null,
+    desc: "Compression-suit pressotherapy with a massage therapist or osteopath, for lymph flow, swelling and heavy legs.",
+    detail: "A pneumatic compression suit rhythmically squeezes the legs, arms and torso to move lymph and fluid. When the session is delivered by a registered massage therapist or an osteopath as part of lymphatic care, it is receipted under that discipline rather than as a standalone machine session." },
+
 
   { group: "Brain & Mind", name: "Couples Therapy", billed: "Psychology",
     categories: ["Psychology", "Psychotherapy"], link: null,
@@ -612,6 +617,7 @@ const LYMPH_CLINICS = [
 ];
 
 const PELVIC_CLINICS = [
+  { name: "Bijoy's Physio & Pilates", city: "Aurora", web: "https://www.bijoysphysioandpilates.com", billed: "Physiotherapy", note: "Pre and post-natal pelvic floor physiotherapy with registered physiotherapist Amira Kanianthra", prov: "ON" },
   { name: "Proactive Pelvic Health Centre", city: "Toronto", web: "https://www.proactiveph.com/contact-toronto-west", billed: "Physiotherapy", note: "Little Italy clinic; one-on-one private treatment rooms", prov: "ON" },
   { name: "Maja Degen Physiotherapy & Pelvic Floor Physiotherapy", city: "Toronto", web: "https://www.majadegenphysiotherapist.com/", billed: "Physiotherapy", note: "Beaches; orthopaedic and pelvic health physiotherapist", prov: "ON" },
   { name: "Men's Pelvic Floor Physiotherapy Clinic", city: "Vaughan", web: "https://www.menspelvicfloorphysiotherapy.ca/", billed: "Physiotherapy", note: "Male pelvic floor specialist PT; free phone consultation", prov: "ON" },
@@ -1670,6 +1676,7 @@ const FERTNAT_CLINICS = [
 /* ---------- Per-treatment provider photos (with credit) ---------- */
 const TREATMENT_IMAGES = {
   "Performing Arts Physiotherapy": { src: "/assets/treatments/performing-arts-physiotherapy.jpg", credit: "Holland Landing Health Centre, Holland Landing", url: "http://hlhc.ca/blog/pre-pointe-assessment-dance-injury-management" },
+  "Pressotherapy": { src: "/assets/treatments/pressotherapy.jpg", credit: "Wellness Place, Newmarket", url: "https://www.wellnessplace.ca" },
   "Vestibular Rehabilitation": { src: "/assets/treatments/vestibular-rehabilitation.jpg", credit: "Leaside Sports Medicine, Toronto", url: "https://www.leasidesportsmedicine.com/programs-of-care/vestibular-physiotherapy/" },
   "Stuttering Therapy": { src: "/assets/treatments/stuttering-therapy.jpg", credit: "SpeechAim, Toronto", url: "https://www.speechaim.com/adult-speech-therapy" },
   "Clinical Pilates": { src: "/assets/treatments/clinical-pilates.jpg", credit: "Mindful Movement Centre, Toronto", url: "http://www.mindfulmovementcentre.com/" },
@@ -1728,6 +1735,36 @@ const GOAL_MAP = {
    rating is [average, review count] from Google, added when verified. */
 const CLINIC_MEDIA = {
   "Rae Physiotherapy and Pilates": {"img": "/assets/clinics/rae-physiotherapy-and-pilates.jpg", "price": "$195 initial · $160 follow-up"},
+  "Timeless Health Clinic": {
+  "prov": "ON",
+  "postal": "M4Y 2P9",
+  "lat": 43.6656,
+  "lng": -79.383
+ },
+ "The Vitamin Clinic": {
+  "prov": "ON",
+  "postal": "M2R 3W4",
+  "lat": 43.7786,
+  "lng": -79.445
+ },
+ "TruMed": {
+  "prov": "AB",
+  "postal": "T5G 2X7",
+  "lat": 53.5705,
+  "lng": -113.5051
+ },
+ "Sage Naturopathic Clinic (Kitchener)": {
+  "prov": "ON",
+  "postal": "N2A 3Y4",
+  "lat": 43.4413,
+  "lng": -80.4246
+ },
+ "Bijoy's Physio & Pilates": {"img": "/assets/clinics/bijoys-physio-and-pilates.jpg", "practitioner": "Amira Kanianthra, PT", "price": "$120 initial \u00b7 $100 / 45 min"},
+  "Timeless Health Clinic": {"img": "/assets/clinics/timeless-health-clinic.jpg", "practitioner": "Dr. Yelena Deshko, ND", "price": "$239.50 signature drips", "rating": [4.7, 560]},
+  "The Vitamin Clinic": {"img": "/assets/clinics/the-vitamin-clinic.jpg", "practitioner": "Dr. Giyeon Park, ND", "price": "Drips from $100", "rating": [5.0, 56]},
+  "TruMed": {"img": "/assets/clinics/trumed.jpg", "practitioner": "Dr. Eric Muradov, ND", "price": "$140\u2013$250 per IV", "db": "yes"},
+  "Sage Naturopathic Clinic (Kitchener)": {"img": "/assets/clinics/sage-naturopathic-clinic-kitchener.jpg", "practitioner": "Dr. Rahima Hirji, ND", "price": "$150 average (consult + IV)"},
+  "Wellness Place": {"img": "/assets/clinics/wellness-place-treatment-room.jpg", "practitioner": "Dr. Tatsiana Vovk, ND", "price": "$250 / 95-min session", "rating": [5.0, 119], "db": "yes"},
   "Pulse Physiotherapy": {"img": "/assets/clinics/pulse-physiotherapy.jpg", "link": "https://www.pulsephysioyyc.com/clinical-pilates", "price": "$160 initial · $140 follow-up", "rating": [5.0, 166], "db": "yes"},
   "Revival Physio": {"img": "/assets/clinics/revival-physio-v2.jpg", "link": "https://revivalphysio.squarespace.com/physio-pilates", "price": "$140 initial · $125 follow-up", "rating": [5.0, 208]},
   "JC Clinic": {"img": "/assets/clinics/jc-clinic.jpg", "link": "https://jcclinic.janeapp.com/#/pilates-ballet", "practitioner": "Yoon A Kim", "price": "$140 intro (2 private sessions) · $80 follow-up", "rating": [5.0, 163]},
@@ -1736,7 +1773,7 @@ const CLINIC_MEDIA = {
   "Treloar Physiotherapy \u2014 Cambie": {"img": "/assets/clinics/treloar-physiotherapy-cambie.jpg", "link": "https://www.treloarphysio.com/clinical-pilates-vancouver/", "price": "$105 initial · $105 follow-up", "rating": [4.5, 28], "db": "yes"},
   "Synergy Physiotherapy and Pilates": {"img": "/assets/clinics/synergy-physiotherapy-and-pilates-v2.jpg", "link": "https://synergystudio.janeapp.com/", "price": "$125 initial · $115 follow-up", "rating": [5.0, 11]},
   "Pilates4Physio": {"img": "/assets/clinics/pilates4physio.jpg", "link": "https://pilates4physioappointments.janeapp.com/locations/pilates-4-physio/book", "price": "$150 initial · $130 follow-up", "rating": [4.3, 6]},
-  "Essence Wellness Clinic (Marda Loop)": {"img": "/assets/clinics/essence-wellness-clinic-marda-loop.jpg", "link": "https://essencewellness.janeapp.com/", "price": "$295 per session", "rating": [4.8, 32], "db": "yes"},
+  "Essence Wellness Clinic (Marda Loop)": {"img": "/assets/clinics/essence-wellness-clinic-marda-loop.jpg", "link": "https://essencewellness.janeapp.com/", "price": "$295 per session", "rating": [4.8, 32], "db": "yes", "priceByTreatment": {"IV Vitamin Therapy": "$160 Myer's \u00b7 IVs $130\u2013$365"}},
   "Qi Integrated Health": {"img": "/assets/clinics/qi-integrated-health.jpg", "link": "https://qiintegratedhealth.janeapp.com/", "price": "$248\u2013$375 per session", "rating": [4.8, 37], "db": "yes"},
   "Well BYND": {"img": "/assets/clinics/well-bynd-v2.jpg", "price": "$450 per session"},
   "Health Globe Wellness Clinic": {"img": "/assets/clinics/health-globe-wellness-clinic-v2.jpg", "db": "yes"},
@@ -1773,6 +1810,13 @@ const CLINIC_MEDIA = {
    who delivers it, and its key intro, pulled from the clinic's own website.
    No coverage/billing language. Renderer prefers these over the raw note. */
 const FC_DESC = {
+  "Timeless Health Clinic": "Downtown Toronto's naturopathic IV clinic, founded by Dr. Yelena Deshko, ND, known for custom drips and glutathione IV.",
+  "The Vitamin Clinic": "Licensed naturopathic IV clinic led by Dr. Giyeon Park, ND, with custom drips like the Glow and Pure Gluta IV.",
+  "Essence Wellness Clinic (Marda Loop)": "Naturopathic clinic offering IV therapy, microneedling and cosmetic acupuncture from its Calgary ND team.",
+  "TruMed": "Edmonton IV therapy with Dr. Eric Muradov and Dr. Kirti Deol, from Myer's cocktails to custom nutrient drips.",
+  "Sage Naturopathic Clinic (Kitchener)": "Naturopathic IV therapy with Dr. Rahima Hirji, Dr. Deanna Walker and Dr. Sanam Arora, drips tailored to you.",
+  "Bijoy's Physio & Pilates": "Assessment-first Clinical Pilates prescribed by registered physiotherapist Amira Kanianthra, with a plan built around you.",
+  "Wellness Place": "Microneedling and naturopathic skin care by Dr. Tatsiana Vovk, ND, in a 95-minute session built around your skin.",
   "Revival Physio": "Physio Reformer Pilates blends physio with strength and mobility training, led one-on-one by trained clinical instructors.",
   "Pulse Physiotherapy": "Hands-on Clinical Pilates led one-on-one by a licensed physiotherapist, assessment-first and tailored to your recovery.",
   "Toronto Physiotherapy (Danforth & Chester)": "One-on-one Physio Pilates on the reformer, after a physiotherapist assessment, guided by certified Pilates instructors.",
@@ -1796,6 +1840,18 @@ const FC_DESC = {
 };
 
 const FC_GEO = {
+ "Wellness Place": {
+  "prov": "ON",
+  "postal": "L3Y 7R6",
+  "lat": 44.0565,
+  "lng": -79.4555
+ },
+ "Bijoy's Physio & Pilates": {
+  "prov": "ON",
+  "postal": "L4G 2P7",
+  "lat": 44.0001,
+  "lng": -79.4663
+ },
  "Revival Physio": {
   "prov": "ON",
   "postal": "M4G 1Y9",
@@ -2145,7 +2201,7 @@ const PILATES_CLINICS = [
   { name: "BODY MAISON", city: "Toronto", loc: "Toronto, ON (Yonge & Bloor)", prov: "ON", directBill: false, modalities: "Reformer, Clinical / Rehab", billed: "Physiotherapy", price: "$125-150", db: "No", web: "https://bodymaison.com",about:"BODY MAISON, located at Yonge and Bloor, is a physiotherapy clinic treating neck and shoulder pain, chronic back pain, scoliosis, and rehabilitation. We offer Shockwave Therapy, Pilates, and movement", lat: 43.674033, lng: -79.389085, postal: "M4W 3C7" },
   { name: "JC Clinic", city: "North York", loc: "North York, ON", prov: "ON", directBill: false, modalities: "Clinical / Rehab", billed: "Physio / Chiro / Naturo", price: "Confirm with clinic", db: "Confirm with clinic", web: "https://jcclinic.ca", email: "jcclinicto@gmail.com", lat: 43.726382, lng: -79.312737, postal: "M4A 1J8" , note: "Clinical Pilates and Pilates/ballet training with instructor Yoon A Kim"},
   { name: "Reconnect Wellness", city: "Newmarket", loc: "Newmarket, ON", prov: "ON", directBill: true, modalities: "Clinical / Rehab", billed: "Physiotherapy", price: "Confirm with clinic", db: "Yes", web: "https://reconphysio.ca", email: "forum@reconphysio.ca",about:"Choose physiotherapy in Newmarket for injury recovery, pain relief, and improved mobility with personalized treatment at Reconnect Physiotherapy.", lat: 44.0708080, lng: -79.4380412 },
-  { name: "Bijoy's Physio & Pilates", city: "Aurora", loc: "Aurora, ON", prov: "ON", directBill: false, modalities: "Reformer, Clinical / Rehab", billed: "Physiotherapy", price: "Confirm with clinic", db: "Confirm with clinic", web: "https://www.bijoysphysioandpilates.com",about:"Personalized physiotherapy and Pilates services in Aurora, ON. Improve mobility, recover from injury, and promote long-term health with expert-led programs."},
+  { name: "Bijoy's Physio & Pilates", city: "Aurora", loc: "Aurora, ON", prov: "ON", directBill: false, modalities: "Reformer, Clinical / Rehab", billed: "Physiotherapy", price: "$120 initial · $100 / 45-min session", db: "Confirm with clinic", web: "https://www.bijoysphysioandpilates.com",about:"Personalized physiotherapy and Pilates services in Aurora, ON. Improve mobility, recover from injury, and promote long-term health with expert-led programs."},
   { name: "MVMT Physiotherapy", city: "Vaughan", loc: "Vaughan, ON (Maple)", prov: "ON", directBill: false, modalities: "Reformer, Clinical / Rehab", billed: "Physiotherapy", price: "Confirm with clinic", db: "No", web: "https://mvmtphysio.com", email: "feelbetter@mvmtphysio.com",about:"We help you prioritize your health, master your movement, and eliminate pain so you can live your best life."},
   { name: "Rehab Plus Pilates Studio", city: "Richmond Hill", loc: "Richmond Hill, ON", prov: "ON", directBill: false, modalities: "Reformer, Mat, Clinical / Rehab, Prenatal, Group", billed: "Pilates (physio-led)", price: "From $85 (private)", db: "Confirm with clinic", web: "https://www.rehabpluspilates.com", email: "info@rehabpluspilates.com",about:"Pilates studio in Richmond Hill offering clinical, group, private, and semi-private sessions. Build strength, mobility, and mind-body awareness through expert-guided movement.", lat: 43.841725, lng: -79.398398, postal: "L4B 3N2" },
   { name: "Neurocore Physiotherapy & Pilates Centre", city: "Richmond Hill", loc: "Richmond Hill, ON", prov: "ON", directBill: false, modalities: "Reformer, Clinical / Rehab, Group", billed: "Physiotherapy", price: "Confirm with clinic", db: "Confirm with clinic", web: "https://neurocore.ca", email: "info@neurocore.ca",about:"Encompassing & Compassionate One-to-One Care Neuro Physiotherapy Chiropractic Concussion Rehab Schroth Scoliosis Fascial Stretch Therapy Ortho Physiotherapy Massage Therapy Pilates Rehab Vestibular Re", lat: 43.857320, lng: -79.386308, postal: "L4B 3J9" },
@@ -2234,7 +2290,8 @@ const NATURO_CLINICS = [
   { name: "Dr. Pamela Frank ND", city: "Toronto", loc: "Toronto — 568 St Clair Ave W, M6C 1A5 (Health Haven Clinic)", prov: "ON", db: "Confirm w/ clinic", modalities: "Naturopathic Medicine", billed: "Naturopathy", price: "Confirm with clinic", web: "https://www.naturopathtoronto.ca", email: "PFrankND@ForcesofNature.ca", tags: ["naturopathic-medicine"],about:"Toronto Naturopath Dr. Pamela invites you to resolve IBS, balance hormones, fix hair loss, heal acne, conceive etc with root-cause natural medicine."},
   { name: "Annex Naturopathic Clinic", city: "Toronto", loc: "Toronto — 301-800 Bathurst St, M5R 3M8", prov: "ON", db: "Confirm w/ clinic", modalities: "Vitamin Injections", billed: "Naturopathy", price: "Confirm with clinic", web: "https://citynaturopathic.ca", email: "info@annexnaturopathic.com", tags: ["vitamin-injections"],about:"Consult experienced naturopathic doctors (naturopaths) and improve your health safely and effectively. 5-star rated clinic. Request a free consultation.", lat: 43.665080, lng: -79.412013, postal: "M6G 1K1" },
   { name: "Advanced Women's Health (Toronto West)", city: "Toronto", loc: "Toronto — 832 College St", prov: "ON", db: "Confirm w/ clinic", modalities: "Cosmetic Acupuncture, Vitamin Injections", billed: "Naturopathy", price: "$225 initial / $185 follow-up", web: "https://www.advancedwomenshealth.ca", tags: ["cosmetic-acupuncture","vitamin-injections"], lat: 43.665999, lng: -79.458067 },
-  { name: "Timeless Health Clinic", city: "Toronto", loc: "Toronto, ON", prov: "ON", db: "Confirm w/ clinic", modalities: "IV Vitamin Therapy", billed: "Naturopathy", price: "Confirm with clinic", tags: ["iv-therapy"] },
+  { name: "The Vitamin Clinic", city: "North York", loc: "North York — 200 Finch Ave W, Unit 109, Toronto, M2R 3W4", prov: "ON", db: "Confirm w/ clinic", modalities: "IV Vitamin Therapy, Vitamin Injections", billed: "Naturopathy", price: "IV drips from $100", web: "https://www.thevitaminclinic.ca", tags: ["iv-therapy","vitamin-injections"], about: "A licensed naturopathic IV clinic in North York led by Dr. Giyeon Park, ND, with a named menu of custom drips and IMini vitamin shots.", note: "IV therapy and IM shots by Dr. Giyeon (Gi) Park, ND; naturopathic consult required before IV" },
+    { name: "Timeless Health Clinic", city: "Toronto", loc: "Toronto — 25 Wood St, Unit 1, M4Y 2P9", prov: "ON", db: "Confirm w/ clinic", modalities: "IV Vitamin Therapy, Vitamin Injections", billed: "Naturopathy", price: "$239.50 signature IV drips", web: "https://www.timelesshealthclinic.com", tags: ["iv-therapy","vitamin-injections"], about: "Downtown Toronto naturopathic IV clinic (now Lum\u00e8r – Timeless Health Clinic) known for custom drips and glutathione IV.", note: "Custom IV drips and IM shots by founder Dr. Yelena Deshko, ND and the naturopathic team" },
   { name: "Dr. Denise Cheung ND (Markham)", city: "Markham", loc: "Markham, ON", prov: "ON", db: "Confirm w/ clinic", modalities: "Microneedling, Cosmetic Acupuncture", billed: "Naturopathy", price: "Confirm with clinic", web: "https://www.drdenisecheung.com", tags: ["microneedling","cosmetic-acupuncture"],about:"Dr. Denise Cheung is a Naturopathic Doctor who focuses on men's and women's health, skin issues, fertility, diabetes and pain management through acupuncture, nutritional supplementation, botanical..."},
   { name: "Dr. Denise Cheung ND (Scarborough)", city: "Scarborough", loc: "Scarborough — 2425 Eglinton Ave E #11, M1K 5G8", prov: "ON", db: "Confirm w/ clinic", modalities: "Microneedling, Cosmetic Acupuncture", billed: "Naturopathy", price: "Confirm with clinic", web: "https://www.drdenisecheung.com", tags: ["microneedling","cosmetic-acupuncture"],about:"Dr. Denise Cheung is a Naturopathic Doctor who focuses on men's and women's health, skin issues, fertility, diabetes and pain management through acupuncture, nutritional supplementation, botanical..."},
   { name: "Danesh Aesthetics", city: "Richmond Hill", loc: "Richmond Hill — 11160 Yonge St Unit 7, L4S 1K9", prov: "ON", db: "Confirm w/ clinic", modalities: "Microneedling", billed: "Naturopathy / Dermatology", price: "Confirm with clinic", web: "https://www.daneshaesthetics.com", tags: ["microneedling"],about:"At Daneshaesthetics.com we use our 23 years of experience in medicine to help you achieve the best results for your Aesthetic concerns, Skincare, Skin rejuvenation, Skin tightening, Dermatology, Sk..."},
@@ -2266,7 +2323,7 @@ const NATURO_CLINICS = [
   { name: "calgarymicroneedling.com (Dr. Trudy Strasser ND RAc)", city: "Calgary", loc: "Calgary, AB", prov: "AB", db: "Yes", modalities: "Microneedling, Cosmetic Acupuncture, IV Therapy", billed: "Naturopathy / Acupuncture", price: "Confirm with clinic", web: "http://calgarymicroneedling.com", tags: ["microneedling","cosmetic-acupuncture","iv-therapy"] },
   { name: "Wholesome Well (Dr. Julia Gill ND)", city: "Calgary", loc: "Calgary, AB", prov: "AB", db: "Yes", modalities: "Naturopathic Medicine", billed: "Naturopathy", price: "Confirm with clinic", web: "https://www.wholesomewell.com", tags: ["naturopathic-medicine"] },
   { name: "Sage Naturopathic Clinic (Kitchener)", city: "Kitchener", loc: "Kitchener, ON", prov: "ON", db: "Confirm w/ clinic", modalities: "Microneedling, Cosmetic Acupuncture, IV Therapy", billed: "Naturopathy", price: "Confirm with clinic", web: "https://thesageclinic.com", tags: ["microneedling","cosmetic-acupuncture","iv-therapy"],about:"Providing healthcare from two convenient locations or from the comfort of your home!", lat: 43.4430544, lng: -80.4955037, postal: "N2G 4S4" },
-  { name: "Wellness Place", city: "Newmarket", loc: "Newmarket, ON", prov: "ON", db: "Confirm w/ clinic", modalities: "Microneedling, Cosmetic Acupuncture, Vitamin Injections, Glutathione Injections", billed: "Naturopathy", price: "Confirm with clinic", tags: ["microneedling","cosmetic-acupuncture","vitamin-injections"] },
+  { name: "Wellness Place", city: "Newmarket", loc: "Newmarket — 25 Millard Ave W, L3Y 7R6", prov: "ON", db: "yes", modalities: "Microneedling, Cosmetic Acupuncture, Vitamin Injections, Glutathione Injections, Pressotherapy", billed: "Naturopathy", price: "Microneedling $250", web: "https://www.wellnessplace.ca", tags: ["microneedling","cosmetic-acupuncture","vitamin-injections"], about: "A multidisciplinary Newmarket clinic offering naturopathic skin care with Dr. Tatsiana Vovk, ND, plus pelvic health, shockwave and osteopathic lymphatic care.", note: "Microneedling and naturopathic skin care by Dr. Tatsiana Vovk, ND; pressotherapy under its osteopath" },
   { name: "Bayview Village Wellness Centre", city: "North York", loc: "North York, ON", prov: "ON", db: "Confirm w/ clinic", modalities: "Naturopathic Medicine", billed: "Naturopathy", price: "Confirm with clinic", web: "https://www.bayviewwellness.com", tags: ["naturopathic-medicine"],about:"Bayview Village Wellness Centre offers chiropractic, physiotherapy, massage therapy, acupuncture, and personalized wellness care in North York. Book today!", postal: "M2K 1E6" },
   { name: "Motion Care Clinic", city: "North York", loc: "North York, ON", prov: "ON", db: "Confirm w/ clinic", modalities: "Cosmetic Acupuncture", billed: "Naturopathy / Physiotherapy Clinic", price: "Confirm with clinic", web: "https://www.motioncareclinic.com", tags: ["cosmetic-acupuncture"],about:"Open 7 days. Massage Therapy, Physio, Chiropractic, Acupuncture & Naturopathy services. Custom-Made Orthotics. Direct billing. Near Yonge/Sheppard station. Book Now!"},
   { name: "Dr. Vishaala Singh ND", city: "Brampton", loc: "Brampton, ON", prov: "ON", db: "Confirm w/ clinic", modalities: "Cosmetic Acupuncture", billed: "Naturopathy", price: "Confirm with clinic", web: "https://www.vsinghnd.com", tags: ["cosmetic-acupuncture"],about:"Focusing on women's health, hormone health, acne, prenatal and postpartum care, fertility, digestive health and autoimmune conditions."},
@@ -2293,7 +2350,7 @@ const NATURO_CLINICS = [
   { name: "POKE Acupuncture and Skincare", city: "Calgary", prov: "AB", web: "https://pokeacupunctureandskin.com/", billed: "Acupuncture", note: "Dr. Amy Nykoluk, Doctor of TCM, Licensed Professional Acupuncturist", tags: ["cosmetic-acupuncture"] },
   { name: "Root & Renewal Collective", city: "Calgary", prov: "AB", web: "https://www.rootandrenewal.ca/", billed: "Acupuncture", note: "Brittany Bouma, Doctor of Acupuncture; facial acupuncture from $150", tags: ["cosmetic-acupuncture"] },
   { name: "Gaia", city: "Calgary", prov: "AB", web: "https://gaiahealthcare.com/", billed: "Naturopathy", note: "Led by Dr. Marnie Wachtler ND; Eau Claire Athletic Club downtown", tags: ["iv-therapy"], lat: 44.561338, lng: -80.453621, postal: "N0H 2P0" },
-  { name: "TruMed", city: "Edmonton", prov: "AB", web: "https://www.trumed.ca/", billed: "Naturopathy", note: "Dr. Eric Muradov ND; NAD+ IV therapy, vitamin drips, iron infusions", tags: ["iv-therapy"] },
+  { name: "TruMed", city: "Edmonton", prov: "AB", web: "https://www.trumed.ca/", billed: "Naturopathy", note: "Dr. Eric Muradov ND; NAD+ IV therapy, vitamin drips, iron infusions", tags: ["iv-therapy"] , price: "$140\u2013$250 per IV" },
   { name: "Ramsay Acupuncture & Wellness", city: "Calgary", prov: "AB", web: "https://www.ramsayacupuncture.ca/", billed: "Acupuncture", note: "Cosmetic rejuvenation incl. facial acupuncture; Ramsay neighbourhood", tags: ["cosmetic-acupuncture"] },
   { name: "Park Integrative Health", city: "Sherwood Park", prov: "AB", web: "https://www.pihealth.ca/infusion-therapy", billed: "Naturopathy", note: "IV vitamin therapy via Naturopathic Doctor consult ($150)", tags: ["iv-therapy"], lat: 53.5555622, lng: -113.2943474, postal: "T8H 0Z9" },
   { name: "Wellness Within", city: "Red Deer", prov: "AB", web: "https://michael-riske-74hs.squarespace.com/iv-therapy", billed: "Naturopathy", note: "Naturopathic Doctor; vitamin B12 + lipotropic injections by ND/RN", tags: ["vitamin-injections"], postal: "T4N 3A8" },
@@ -2599,6 +2656,16 @@ const STUTTER_CLINICS = [
   { name: "Winnipeg Speech Therapy Clinic", city: "Winnipeg", web: "https://winnipegspeechtherapyclinic.com/", billed: "Speech Therapy", note: "registered SLP Carla Bonar provides fluency and stuttering support for all ages and, for adults, targeted support\u2026", prov: "MB" },
   { name: "Tall Tree Health", city: "Victoria", web: "http://www.talltreehealth.ca/services/speech-therapy", billed: "Speech Therapy", note: "speech therapy page: registered SLPs work with children and adults, speech therapy can help adults with stuttering,\u2026", prov: "BC" }
 ];
+const PRESSOTHERAPY_CLINICS = [
+  { name: "Wellness Place", city: "Newmarket", web: "https://www.wellnessplace.ca", billed: "Osteopathy", note: "Pressotherapy machine for osteopathic lymphatic drainage, delivered under manual osteopath Liliya Bluvshtein; added October 2026", prov: "ON" },
+  { name: "Massage Health Services Inc.", city: "Niagara Falls", web: "https://massagehealthservicesontario.ca", billed: "Massage Therapy", note: "BTL Lymphastim pressotherapy booked with registered massage therapist Anthony Nguyen; 24-chamber compression for lymphatic drainage", prov: "ON" },
+  { name: "Club Hippocrate", city: "Montreal", web: "https://clubhippocrate.ca", billed: "Massage Therapy", note: "Pressotherapy inside the clinic's massotherapie service line, delivered by its massage therapy team; $60 / 30 min, $80 / 45 min", prov: "QC" },
+  { name: "Clinique CB", city: "Laval", web: "https://www.cliniquecb.com", billed: "Massage Therapy", note: "Pressotherapy on the treatment menu of a massage-therapy-led clinic; $60 / 30 min, $50 added to a massage", prov: "QC" },
+  { name: "Master-Kiné", city: "Terrebonne", web: "https://master-kine.ca", billed: "Massage Therapy", note: "Pressotherapy included in massage therapist relaxation packages (30 min of pressotherapie in packages from $120)", prov: "QC" },
+  { name: "Clinique PSB", city: "Sainte-Julie", web: "https://www.cliniquepsb.com", billed: "Massage Therapy", note: "Pressotherapy on the massage therapy menu; certified massotherapeutes supervised by chiropractors, insurance receipts for massotherapie", prov: "QC" },
+  { name: "Spa Ovarium", city: "Montreal", web: "https://www.spaovarium.com", billed: "Massage Therapy", note: "Pressotherapy devices combined with a massage therapist's lymphatic drainage treatment", prov: "QC" }
+];
+
 
 /* Real-claims section: stat strip + Google review quotes.
    Quotes are verbatim excerpts from public Google reviews of directory

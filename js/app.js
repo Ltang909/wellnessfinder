@@ -239,7 +239,7 @@
     "Mental Performance Coaching": "Personal growth",
     "Performing Arts Physiotherapy": "Hobbies",
     "Psychoeducational Assessments": "Personal growth", "Stuttering Therapy": "Personal growth",
-    "Vestibular Rehabilitation": "Recovery"
+    "Vestibular Rehabilitation": "Recovery", "Pressotherapy": "Recovery"
   };
   const FUND_COLOR = {};
   FUND_CATS.forEach(([w, c]) => { FUND_COLOR[w] = c; });
@@ -382,7 +382,8 @@
   const FC_TREATMENTS = [
     { name: "Golf Swing Assessment", label: "Golf Swing", sub: "TPI movement screens from certified clinicians, billed as physiotherapy or chiropractic." },
     { name: "Clinical Pilates", label: "Clinical Pilates", sub: "One-on-one reformer care from registered physiotherapists, billed through your extended health benefits." },
-    { name: "Microneedling", label: "Microneedling", sub: "Collagen-focused skin treatments paired with naturopathic care, billed as naturopathy." },
+    { name: "Microneedling", label: "Microneedling", sub: "Collagen-focused skin treatments paired with naturopathic care, billed as naturopathy." }
+    ,{ name: "IV Vitamin Therapy", label: "IV Therapy", sub: "Naturopath-led vitamin infusions mixed after an assessment, billed as naturopathy." },
   ];
   let fcTreatment = "Clinical Pilates";
   let fcIndex = 0;
@@ -392,8 +393,9 @@
      (Places or the clinic's own Google badge/widget). Treatments
      without a curated set fall back to the notes-first selection. */
   const FC_SETS = {
-    "Clinical Pilates": ["Revival Physio", "Pulse Physiotherapy", "Toronto Physiotherapy (Danforth & Chester)", "Focus Physio + Wellness", "Treloar Physiotherapy \u2014 Cambie", "Synergy Physiotherapy and Pilates", "Pilates4Physio"],
-    "Microneedling": ["Qi Integrated Health", "Dr. Caitlin Batting", "Dr. Lauren Cottom", "Well BYND", "Health Globe Wellness Clinic", "Everwell ND"],
+    "Clinical Pilates": ["Revival Physio", "Pulse Physiotherapy", "Toronto Physiotherapy (Danforth & Chester)", "Focus Physio + Wellness", "Treloar Physiotherapy \u2014 Cambie", "Synergy Physiotherapy and Pilates", "Pilates4Physio", "Bijoy's Physio & Pilates"],
+    "Microneedling": ["Qi Integrated Health", "Dr. Caitlin Batting", "Dr. Lauren Cottom", "Well BYND", "Health Globe Wellness Clinic", "Everwell ND", "Wellness Place"],
+    "IV Vitamin Therapy": ["Timeless Health Clinic", "The Vitamin Clinic", "Essence Wellness Clinic (Marda Loop)", "TruMed", "Sage Naturopathic Clinic (Kitchener)"],
     "Golf Swing Assessment": ["PhysioLinks Rehab Clinic", "MOTI Physio", "Anchor Health and Performance Clinic", "OAK Physio & Wellness", "VF Mobility Labs", "Ohana Wellness Clinic", "Arbutus Physiotherapy"],
   };
   function fcFeatured(name) {
@@ -482,7 +484,8 @@
       const stars = Array.isArray(media.rating)
         ? `<p class="fc-stars"><span class="fc-star-glyphs">${"\u2605".repeat(Math.round(media.rating[0]))}${"\u2606".repeat(5 - Math.round(media.rating[0]))}</span> ${media.rating[0].toFixed(1)} <span class="fc-rcount">(${media.rating[1]} Google reviews)</span></p>` : "";
       const pract = media.practitioner ? `<p class="fc-line">${esc(media.practitioner)}</p>` : "";
-      const price = media.price ? `<p class="fc-line">${esc(media.price)}</p>` : "";
+      const _fp = (media.priceByTreatment && media.priceByTreatment[fcTreatment]) || media.price;
+      const price = _fp ? `<p class="fc-line">${esc(_fp)}</p>` : "";
       const db = media.db === "yes" ? `<p class="fc-db">Direct billing available</p>` : "";
       const btn = k === 0
         ? `<a class="fc-btn" href="${esc(media.link || c.book || c.web || "#")}" target="_blank" rel="noopener">View clinic</a>`
@@ -611,6 +614,7 @@
       "Performing Arts Physiotherapy": { clinics: (typeof PERFORMINGARTS_CLINICS !== "undefined" ? PERFORMINGARTS_CLINICS : []).filter(inDirectory) },
       "Psychoeducational Assessments": { clinics: (typeof PSYCHASSESS_CLINICS !== "undefined" ? PSYCHASSESS_CLINICS : []).filter(inDirectory) },
       "Vestibular Rehabilitation": { clinics: (typeof VESTIBULAR_CLINICS !== "undefined" ? VESTIBULAR_CLINICS : []).filter(inDirectory) },
+      "Pressotherapy": { clinics: (typeof PRESSOTHERAPY_CLINICS !== "undefined" ? PRESSOTHERAPY_CLINICS : []).filter(inDirectory) },
       "Stuttering Therapy": { clinics: (typeof STUTTER_CLINICS !== "undefined" ? STUTTER_CLINICS : []).filter(inDirectory) },
     };
     const entry = map[name] || { clinics: [] };
@@ -973,6 +977,7 @@
     push(typeof PERFORMINGARTS_CLINICS !== "undefined" ? PERFORMINGARTS_CLINICS : [], "Performing Arts Physiotherapy");
     push(typeof PSYCHASSESS_CLINICS !== "undefined" ? PSYCHASSESS_CLINICS : [], "Psychoeducational Assessments");
     push(typeof VESTIBULAR_CLINICS !== "undefined" ? VESTIBULAR_CLINICS : [], "Vestibular Rehabilitation");
+    push(typeof PRESSOTHERAPY_CLINICS !== "undefined" ? PRESSOTHERAPY_CLINICS : [], "Pressotherapy");
     push(typeof STUTTER_CLINICS !== "undefined" ? STUTTER_CLINICS : [], "Stuttering Therapy");
     return out;
   }
