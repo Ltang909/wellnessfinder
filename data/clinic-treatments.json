@@ -435,6 +435,62 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "activ-physio-ottawa",
+  "treatment_id": "activ-physio-ottawa--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No lymphatic drainage fee is published on the clinic's own site, and its Jane treatment/fee list did not render in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://activphysio.ca/faq/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "activ-physio-ottawa",
+  "treatment_id": "activ-physio-ottawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Marie-Jos\u00e9e Forget; Sophie",
+  "practitioners": [
+   {
+    "as_recorded": "Marie-Josee (MJ) Forget - Jane booking page bio: 'With 27 years of advanced clinical experience devoted exclusively to pelvic health physiotherapy, Marie-Josee (MJ) Forget provides evidence-based care for pelvic floor dysfunctions in a gender-inclusive, supportive environment'; also listed as a Pelvic Health Solutions instructor",
+    "id": "activ-physio-ottawa--marie-jos-e-forget",
+    "name": "Marie-Jos\u00e9e Forget"
+   },
+   {
+    "as_recorded": "Sophie - Jane booking page bio: University of Ottawa Master of Health Science in Physiotherapy, practising with a focus on orthopedics and pelvic health and passionate about pelvic health - surname not published in the Jane bio as rendered",
+    "id": "activ-physio-ottawa--sophie",
+    "name": "Sophie"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch - the treatment/fee list did not render ('Select a treatment from the list on the left') - and no fees are published on activphysio.ca pages read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://activphysio.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "activ-physio-ottawa",
+  "treatment_id": "activ-physio-ottawa--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Eric",
+  "practitioners": [
+   {
+    "as_recorded": "Eric - Jane booking page bio: expertise in Dizziness (Vestibular) Rehab, Dry Needling, Orthopaedics (FCAMPT), Cranial Mobilization and Concussion Rehab; Certification in Vestibular Rehabilitation from Emory University - surname not published in the Jane bio as rendered",
+    "id": "activ-physio-ottawa--eric",
+    "name": "Eric"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's own site, and its Jane treatment/fee list did not render in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://activphysio.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "activa-physiotherapy-ottawa",
   "treatment_id": "activa-physiotherapy-ottawa--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -498,6 +554,38 @@
   "price_tier": null,
   "treatment_link": "https://activeapproach.ca/chiropractic/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "active-health-institute-ottawa",
+  "treatment_id": "active-health-institute-ottawa--bike-fitting",
+  "treatment": "Bike Fitting",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Alyssa",
+  "practitioners": [
+   {
+    "as_recorded": "Alyssa - Jane booking page bio: physiotherapist and bike fitter with a master's degree in Physiotherapy from the University of Ottawa; certified in functional dry needling, with additional training in concussion management, the McKenzie method, cycling injury management and prevention, and multiple bike fitting courses in Canada and Spain; over 1,500 bike fits completed - surname not published in the Jane bio as rendered",
+    "id": "active-health-institute-ottawa--alyssa",
+    "name": "Alyssa"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch and a continuation fetch hit HTTP 429 (not retried), so no Jane fee list was captured; no bike fit price is published on the Hintonburg site pages read, and third-party roundup prices were not used, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://activehealthinstitute.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "active-health-institute-ottawa",
+  "treatment_id": "active-health-institute-ottawa--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No running assessment fee is published on the clinic's own site or rendered on its Jane page in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://activehealthinstitute.janeapp.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "active-physio-works-st-albert",
@@ -1663,6 +1751,105 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "amped-physiotherapy-ottawa",
+  "treatment_id": "amped-physiotherapy-ottawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Stephanie Burans",
+  "practitioners": [
+   {
+    "as_recorded": "Stephanie Burans - 'Our pelvic health physiotherapist, Stephanie Burans' per the clinic's own Pelvic Floor Physiotherapy Ottawa page; the page states the pelvic health physiotherapist is rostered (registered) to provide pelvic health care",
+    "id": "amped-physiotherapy-ottawa--stephanie-burans",
+    "name": "Stephanie Burans"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee amounts are published in the clinic's own pages read in this pass: its FAQ answers the cost question only with 'Click here to see our current clinic fees' (the linked fees page's amounts did not render in text fetch or search extracts), and no booking-page fee list exists, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://ampedphysiotherapy.com/specialty-services/pelvic-floor-physiotherapy-ottawa/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "amped-physiotherapy-ottawa",
+  "treatment_id": "amped-physiotherapy-ottawa--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee amounts are published in the clinic's own pages read in this pass: its FAQ answers the cost question only with 'Click here to see our current clinic fees' (the linked fees page's amounts did not render in text fetch or search extracts), and no booking-page fee list exists, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://ampedphysiotherapy.com/specialty-services/vestibular-physiotherapy-ottawa/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "anatomy-physiotherapy-ottawa",
+  "treatment_id": "anatomy-physiotherapy-ottawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Tanya",
+  "practitioners": [
+   {
+    "as_recorded": "Tanya - physiotherapist (Master of Physical Therapy, University of British Columbia, 2018) who 'has completed additional training in ... non-internal pelvic floor rehabilitation', per her bio on the clinic's Jane booking page (surname not published there)",
+    "id": "anatomy-physiotherapy-ottawa--tanya",
+    "name": "Tanya"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch - the treatment/fee list did not render - and no pelvic floor fee is published on anatomyphysioclinic.com pages read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://anatomyphysioclinic.com/conditions/pelvic-health-physiotherapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "anatomy-physiotherapy-ottawa",
+  "treatment_id": "anatomy-physiotherapy-ottawa--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Jean-Luc; Vanessa",
+  "practitioners": [
+   {
+    "as_recorded": "Jean-Luc - Registered Physiotherapist (Master of Physical Therapy, Western University) with 'additional training and experience in the assessment and treatment of TMJ and jaw-related conditions', per his bio on the clinic's Jane booking page (surname not published there)",
+    "id": "anatomy-physiotherapy-ottawa--jean-luc",
+    "name": "Jean-Luc"
+   },
+   {
+    "as_recorded": "Vanessa - Osteopath (physiotherapy degree plus Master's degree in Osteopathy, Saint Joseph University of Beirut) who 'has developed particular expertise in the management of ... temporomandibular joint (TMJ) disorders', per her bio on the clinic's Jane booking page (surname not published there)",
+    "id": "anatomy-physiotherapy-ottawa--vanessa",
+    "name": "Vanessa"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page (anatomystlaurent.janeapp.com) rendered practitioner bios and the TMJ Physiotherapy description in text fetch, but the treatment/fee list did not render, and no TMJ or physiotherapy fees are published on anatomyphysioclinic.com pages read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://anatomystlaurent.janeapp.com/locations/anatomy-physiotherapy-clinic-st-laurent/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "anatomy-physiotherapy-ottawa",
+  "treatment_id": "anatomy-physiotherapy-ottawa--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Andrew Dings; Tanya",
+  "practitioners": [
+   {
+    "as_recorded": "Andrew Dings - Registered Physiotherapist since 2011 (Masters of Physiotherapy, University of Ottawa; MClSc Manipulative Therapy, FCAMPT); the clinic's Jane booking page banner states he 'is currently only accepting new patients for Vestibular Physiotherapy' and his bio records Vestibular Rehabilitation courses from Emory University",
+    "id": "anatomy-physiotherapy-ottawa--andrew-dings",
+    "name": "Andrew Dings"
+   },
+   {
+    "as_recorded": "Tanya - physiotherapist (Master of Physical Therapy, University of British Columbia, 2018) with 'certification in advanced vestibular rehabilitation to treat a wide array of vestibular issues such as BPPV, vestibular neuritis, labyrinthitis, vestibular migraines, Meniere's, and persistent postural-perceptual dizziness', per her bio on the clinic's Jane booking page (surname not published there)",
+    "id": "anatomy-physiotherapy-ottawa--tanya",
+    "name": "Tanya"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch - the treatment/fee list did not render - and no vestibular fee is published on anatomyphysioclinic.com pages read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://anatomystlaurent.janeapp.com/locations/anatomy-physiotherapy-clinic-st-laurent/book",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "anchor-health-and-performance-clinic-mississauga",
   "treatment_id": "anchor-health-and-performance-clinic-mississauga--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -2277,6 +2464,56 @@
   "price_tier": null,
   "treatment_link": "https://www.ateasenutrition.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "athletes-care-ottawa-ottawa",
+  "treatment_id": "athletes-care-ottawa-ottawa--bike-fitting",
+  "treatment": "Bike Fitting",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No bike fitting fee is published on the clinic's own site or in the rendered portion of its Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.athletescareottawa.ca/physiotherapy-services/video-analysis-ottawa.html",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "athletes-care-ottawa-ottawa",
+  "treatment_id": "athletes-care-ottawa-ottawa--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No golf swing assessment fee is published on the clinic's own site or in the rendered portion of its Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.athletescareottawa.ca/physiotherapy-services/video-analysis-ottawa.html",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "athletes-care-ottawa-ottawa",
+  "treatment_id": "athletes-care-ottawa-ottawa--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Aastha; Olivia Garay",
+  "practitioners": [
+   {
+    "as_recorded": "Aastha - Registered Physiotherapist and Certified Ergonomic Assessor (Bachelor of Physiotherapy, 2015), 'one of our Senior Associate therapists ... also a certified provider of our Runner's Program', per her bio on the clinic's Jane booking page, Ottawa - Merivale location (surname not published there)",
+    "id": "athletes-care-ottawa-ottawa--aastha",
+    "name": "Aastha"
+   },
+   {
+    "as_recorded": "Olivia Garay - physiotherapist (Masters in Physiotherapy, University of Ottawa, 2016), Senior Associate therapist, 'a certified provider of our Runner's Program', per her bio on the clinic's Jane booking page, Ottawa - Merivale location",
+    "id": "athletes-care-ottawa-ottawa--olivia-garay",
+    "name": "Olivia Garay"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page (athletescare.janeapp.com, Ottawa - Merivale location) rendered the Running Analysis treatment descriptions and practitioner bios in text fetch, but no treatment prices, and no running analysis fee is published on athletescareottawa.ca pages read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.athletescareottawa.ca/physiotherapy-services/video-analysis-ottawa.html",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "athletes-care-sports-medicine-centres-toronto",
@@ -3132,6 +3369,58 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "bellefleur-physiotherapy-ottawa",
+  "treatment_id": "bellefleur-physiotherapy-ottawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee (or physiotherapy fee list) is published on the clinic's own website, and no booking-page fee list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://bellefleurphysio.com/?p=4718",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "bellefleur-physiotherapy-ottawa",
+  "treatment_id": "bellefleur-physiotherapy-ottawa--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No running assessment fee (or physiotherapy fee list) is published on the clinic's own website, and no booking-page fee list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://bellefleurphysio.com/running-assessment-ottawa/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "bellefleur-physiotherapy-ottawa",
+  "treatment_id": "bellefleur-physiotherapy-ottawa--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No TMJ fee (or physiotherapy fee list) is published on the clinic's own website, and no booking-page fee list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.bellefleurphysio.com/about-us/beechwood-physiotherapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "bellefleur-physiotherapy-ottawa",
+  "treatment_id": "bellefleur-physiotherapy-ottawa--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee (or physiotherapy fee list) is published on the clinic's own website, and no booking-page fee list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.bellefleurphysio.com/about-us/beechwood-physiotherapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "berwick-chiropractic-berwick",
   "treatment_id": "berwick-chiropractic-berwick--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
@@ -3353,6 +3642,87 @@
   "price_source": "No sports nutrition service exists on the clinic's own site, so no sports price can stand; the site's FAQ states dietitian cost depends on appointment type/length and refers readers to its service options and fees or a free 15-minute call, but no fee figures were published on the pages read, so price is null.",
   "price_tier": null,
   "treatment_link": "https://www.biteritenutrition.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "blaise-t-ryan-acupuncture-and-tcm-ottawa",
+  "treatment_id": "blaise-t-ryan-acupuncture-and-tcm-ottawa--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Facial Rejuvenation Acupuncture",
+  "practitioner": "Jean-Pierre (J.P.) Brunelle, Arlene Cybulskie, Christine Breuninger, Blaise T. Ryan",
+  "practitioners": [
+   {
+    "id": "blaise-t-ryan-acupuncture-and-tcm-ottawa--jean-pierre-j-p-brunelle",
+    "name": "Jean-Pierre (J.P.) Brunelle",
+    "as_recorded": "Jean-Pierre (J.P.) Brunelle, Registered Acupuncturist (R.Ac)"
+   },
+   {
+    "id": "blaise-t-ryan-acupuncture-and-tcm-ottawa--arlene-cybulskie",
+    "name": "Arlene Cybulskie",
+    "as_recorded": "Arlene Cybulskie, Registered Acupuncturist (R.Ac) & Registered Massage Therapist (RMT)"
+   },
+   {
+    "id": "blaise-t-ryan-acupuncture-and-tcm-ottawa--christine-breuninger",
+    "name": "Christine Breuninger",
+    "as_recorded": "Christine Breuninger, Registered Acupuncturist (R.Ac) & Registered Holistic Nutritionist (R.H.N.)"
+   },
+   {
+    "id": "blaise-t-ryan-acupuncture-and-tcm-ottawa--blaise-t-ryan",
+    "name": "Blaise T. Ryan",
+    "as_recorded": "Blaise T. Ryan, Registered Acupuncturist (R.Ac) & Registered Traditional Chinese Medicine Practitioner (R.TCMP)"
+   }
+  ],
+  "price_text": "$225\u2013$235 first visit \u00b7 $160\u2013$170 return visit",
+  "price_source": "Clinic's own website services page https://blaiseryan.com/services/ (Facial Rejuvenation Acupuncture: $225-$235 First Visit / $160-$170 Return Visit); return price corroborated on Jane booking page https://blaiseryan.janeapp.com/",
+  "price_tier": "website",
+  "treatment_link": "https://blaiseryan.com/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "blaise-t-ryan-acupuncture-and-tcm-ottawa",
+  "treatment_id": "blaise-t-ryan-acupuncture-and-tcm-ottawa--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Jean-Pierre (J.P.) Brunelle, Arlene Cybulskie, Christine Breuninger, Blaise T. Ryan",
+  "practitioners": [
+   {
+    "id": "blaise-t-ryan-acupuncture-and-tcm-ottawa--jean-pierre-j-p-brunelle",
+    "name": "Jean-Pierre (J.P.) Brunelle",
+    "as_recorded": "Jean-Pierre (J.P.) Brunelle, Registered Acupuncturist (R.Ac)"
+   },
+   {
+    "id": "blaise-t-ryan-acupuncture-and-tcm-ottawa--arlene-cybulskie",
+    "name": "Arlene Cybulskie",
+    "as_recorded": "Arlene Cybulskie, Registered Acupuncturist (R.Ac) & Registered Massage Therapist (RMT)"
+   },
+   {
+    "id": "blaise-t-ryan-acupuncture-and-tcm-ottawa--christine-breuninger",
+    "name": "Christine Breuninger",
+    "as_recorded": "Christine Breuninger, Registered Acupuncturist (R.Ac) & Registered Holistic Nutritionist (R.H.N.)"
+   },
+   {
+    "id": "blaise-t-ryan-acupuncture-and-tcm-ottawa--blaise-t-ryan",
+    "name": "Blaise T. Ryan",
+    "as_recorded": "Blaise T. Ryan, Registered Acupuncturist (R.Ac) & Registered Traditional Chinese Medicine Practitioner (R.TCMP)"
+   }
+  ],
+  "price_text": "$175\u2013$185 first visit \u00b7 $110\u2013$120 return visit",
+  "price_source": "Clinic's own website services page https://blaiseryan.com/services/ (Acupuncture: $175-$185 First Visit / $110-$120 Return Visit; fertility conditions listed under 'We Treat - Fertility & Hormonal Health' with no separate price)",
+  "price_tier": "website",
+  "treatment_link": "https://blaiseryan.com/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "blaise-t-ryan-acupuncture-and-tcm-ottawa",
+  "treatment_id": "blaise-t-ryan-acupuncture-and-tcm-ottawa--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Red Light Therapy Add-On",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$20 for 10 mins \u00b7 $25 for 15 mins \u00b7 $30 for 20 mins",
+  "price_source": "Clinic's own website services page https://blaiseryan.com/services/ (Red Light Therapy Add-On)",
+  "price_tier": "website",
+  "treatment_link": "https://blaiseryan.com/services/",
   "last_verified": "2026-11-01"
  },
  {
@@ -3875,6 +4245,82 @@
   "price_source": "Clinic's own Services page (https://brantnutrition.com/services), Individual Counseling: 'General Initial Assessment - 75 minutes $175', 'Follow up - 50 minutes $150', 'Follow up - 25 minutes $75', with 'All sessions are eligible for private insurance coverage.' RULE v2: Sports Nutrition has no separate price on the own site or Jane page; it is delivered inside the same Registered Dietitians' individual nutrition counseling \u2014 the own homepage labels Kim Doyle, RD and Emily Arthur, RD as the clinic's Sports nutrition experts \u2014 so the dietitian individual-counseling pricing above is recorded for this treatment. The own Services page also states Kim and Emily 'share their personal stories with nutrition and sport to motivate athletes to appropriately fuel for their sport' in presentations.",
   "price_tier": "booking",
   "treatment_link": "https://brantnutrition.com/services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "bravella-health-ottawa",
+  "treatment_id": "bravella-health-ottawa--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": "Clinical Pilates",
+  "practitioner": "Sophia Park McKenna",
+  "practitioners": [
+   {
+    "id": "bravella-health-ottawa--sophia-park-mckenna",
+    "name": "Sophia Park McKenna",
+    "as_recorded": "Sophia, Registered Physiotherapist with a Clinical Pilates Certification"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://femade.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "bravella-health-ottawa",
+  "treatment_id": "bravella-health-ottawa--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Lymphatic drainage",
+  "practitioner": "Abby Delarge",
+  "practitioners": [
+   {
+    "id": "bravella-health-ottawa--abby-delarge",
+    "name": "Abby Delarge",
+    "as_recorded": "Abby Delarge, Registered Massage Therapist (RMT)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://ottawa.bravellahealth.com/massage-therapy-ottawa/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "bravella-health-ottawa",
+  "treatment_id": "bravella-health-ottawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Pelvic Health Physiotherapy",
+  "practitioner": "Roma Patel",
+  "practitioners": [
+   {
+    "id": "bravella-health-ottawa--roma-patel",
+    "name": "Roma Patel",
+    "as_recorded": "Roma Patel, PT"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://femade.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "bravella-health-ottawa",
+  "treatment_id": "bravella-health-ottawa--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "TMJ treatment",
+  "practitioner": "Abby Delarge",
+  "practitioners": [
+   {
+    "id": "bravella-health-ottawa--abby-delarge",
+    "name": "Abby Delarge",
+    "as_recorded": "Abby Delarge, Registered Massage Therapist (RMT)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://ottawa.bravellahealth.com/massage-therapy-ottawa/",
   "last_verified": "2026-11-01"
  },
  {
@@ -4529,6 +4975,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "camille-physiotherapy-ottawa",
+  "treatment_id": "camille-physiotherapy-ottawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Pelvic Health Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.camillephysiotherapy.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "cant-we-just-get-along-counselling-calgary",
   "treatment_id": "cant-we-just-get-along-counselling-calgary--couples-therapy",
   "treatment": "Couples Therapy",
@@ -5035,6 +5494,57 @@
   "last_verified": null
  },
  {
+  "clinic_id": "chartier-physiotherapie-ottawa",
+  "treatment_id": "chartier-physiotherapie-ottawa--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Lymphedema Treatment (manual lymphatic drainage)",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "Physiotherapy Assessment / Evaluation $165.00 (as of June 1st, $170); 60-minute follow-up $165.00 ($170); 45-minute follow-up $135.00 ($140); 30-minute follow-up $100.00 ($105)",
+  "price_source": "Clinic's own website fee page https://chartierphysio.ca/ottawa-service-fees (Physiotherapy fees). Price fallback: the clinic's own service page states this treatment is a branch of physiotherapy / billed as physiotherapy and it is delivered by the clinic's physiotherapists, so the physiotherapy session price stands in for the treatment price. The clinic's own lymphedema FAQ states the treatment 'is performed by a registered physiotherapist' and is covered if the plan covers physiotherapy.",
+  "price_tier": "website",
+  "treatment_link": "https://chartierphysio.ca/services/lymphedema-treatment",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "chartier-physiotherapie-ottawa",
+  "treatment_id": "chartier-physiotherapie-ottawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Pelvic Floor Physiotherapy",
+  "practitioner": "Aishwarya Vikrant Pote Patil",
+  "practitioners": [
+   {
+    "id": "chartier-physiotherapie-ottawa--aishwarya-vikrant-pote-patil",
+    "name": "Aishwarya Vikrant Pote Patil",
+    "as_recorded": "Aishwarya Vikrant Pote Patil, PT, BPT \u2014 Pelvic Health Physiotherapist"
+   }
+  ],
+  "price_text": "Physiotherapy Assessment / Evaluation $165.00 (as of June 1st, $170); 60-minute follow-up $165.00 ($170); 45-minute follow-up $135.00 ($140); 30-minute follow-up $100.00 ($105)",
+  "price_source": "Clinic's own website fee page https://chartierphysio.ca/ottawa-service-fees (Physiotherapy fees). Price fallback: the clinic's own service page states this treatment is a branch of physiotherapy / billed as physiotherapy and it is delivered by the clinic's physiotherapists, so the physiotherapy session price stands in for the treatment price. The clinic's own pelvic floor FAQ states: 'It is billed as physiotherapy, so most extended health plans cover it.'",
+  "price_tier": "website",
+  "treatment_link": "https://chartierphysio.ca/services/pelvic-floor-physiotherapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "chartier-physiotherapie-ottawa",
+  "treatment_id": "chartier-physiotherapie-ottawa--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Vestibular Rehabilitation Therapy (VRT)",
+  "practitioner": "Somnath Shinde",
+  "practitioners": [
+   {
+    "id": "chartier-physiotherapie-ottawa--somnath-shinde",
+    "name": "Somnath Shinde",
+    "as_recorded": "Somnath Shinde, Physiotherapist"
+   }
+  ],
+  "price_text": "Physiotherapy Assessment / Evaluation $165.00 (as of June 1st, $170); 60-minute follow-up $165.00 ($170); 45-minute follow-up $135.00 ($140); 30-minute follow-up $100.00 ($105)",
+  "price_source": "Clinic's own website fee page https://chartierphysio.ca/ottawa-service-fees (Physiotherapy fees). Price fallback: the clinic's own service page states this treatment is a branch of physiotherapy / billed as physiotherapy and it is delivered by the clinic's physiotherapists, so the physiotherapy session price stands in for the treatment price.",
+  "price_tier": "website",
+  "treatment_link": "https://chartierphysio.ca/services/vestibular-rehabilitation",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "chinese-acupuncture-clinic-moncton",
   "treatment_id": "chinese-acupuncture-clinic-moncton--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
@@ -5051,6 +5561,19 @@
   "price_source": "No fees are published on the clinic's own website (homepage and infertility page extracts) and the clinic has no online booking page, so price is null.",
   "price_tier": null,
   "treatment_link": "https://acupuncturehui.com/infertility.php",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "chiropractic-wellness-and-rehabilitation-oshawa",
+  "treatment_id": "chiropractic-wellness-and-rehabilitation-oshawa--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.oshawachiropractor.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -5121,6 +5644,25 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "http://christierneyphysio.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "christina-najjar-acupuncture-ottawa",
+  "treatment_id": "christina-najjar-acupuncture-ottawa--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Fertility Acupuncture",
+  "practitioner": "Christina Najjar",
+  "practitioners": [
+   {
+    "id": "christina-najjar-acupuncture-ottawa--christina-najjar",
+    "name": "Christina Najjar",
+    "as_recorded": "Christina Najjar (she/her) is a Registered Acupuncturist (R.Ac.) in good standing with the CTCMPAO and a Nutritionist (R.H.N)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://christinanajjar.com/acupuncture/fertility/",
   "last_verified": "2026-11-01"
  },
  {
@@ -6358,6 +6900,87 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "complete-health-chiropractic-massage-okotoks",
+  "treatment_id": "complete-health-chiropractic-massage-okotoks--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy (Manual Lymph Drainage)",
+  "practitioner": "Denise",
+  "practitioners": [
+   {
+    "id": "complete-health-chiropractic-massage-okotoks--denise",
+    "name": "Denise",
+    "as_recorded": "Denise is a Certified Lymphatic Therapist who is passionate about providing the best possible care for her clients. While studying to become an RMT, she quickly recognized the importance of the lymphatic system and went on to train in both Vodder and Chikly Manual Lymph Drainage (MLD) techniques."
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://completehealthcenterokotoks.janeapp.com/locations/complete-health-chiropractic-massage/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "complete-health-chiropractic-massage-okotoks",
+  "treatment_id": "complete-health-chiropractic-massage-okotoks--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Matthew",
+  "practitioners": [
+   {
+    "id": "complete-health-chiropractic-massage-okotoks--matthew",
+    "name": "Matthew",
+    "as_recorded": "Matthew is a dedicated and passionate Physiotherapist. In October of 2023, he completed Level 1 - Introduction to Women's Pelvic Health at the University of Alberta, gaining further knowledge about treating patients suffering from incontinence and pelvic floor dysfunction."
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://completehealthcenterokotoks.janeapp.com/locations/complete-health-chiropractic-massage/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "complete-health-chiropractic-massage-okotoks",
+  "treatment_id": "complete-health-chiropractic-massage-okotoks--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Registered Massage Therapy",
+  "practitioner": "Malissa Sargent and Jordan",
+  "practitioners": [
+   {
+    "id": "complete-health-chiropractic-massage-okotoks--malissa-sargent",
+    "name": "Malissa Sargent",
+    "as_recorded": "Malissa Sargent is a member of the MTAA (Massage Therapy Association of Alberta) and received her education here in Calgary at MH Vicars School of Massage Therapy. Malissa specializes in TMJ treatment and rehab"
+   },
+   {
+    "id": "complete-health-chiropractic-massage-okotoks--jordan",
+    "name": "Jordan",
+    "as_recorded": "Jordan graduated from the 3000-hour Registered Massage Therapy program at Vancouver Career College in 2019. Jordan has a particular interest in treating head, neck, and back conditions, including headaches, TMJ discomfort"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://completehealthcenterokotoks.janeapp.com/locations/complete-health-chiropractic-massage/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "complete-health-chiropractic-massage-okotoks",
+  "treatment_id": "complete-health-chiropractic-massage-okotoks--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Matthew",
+  "practitioners": [
+   {
+    "id": "complete-health-chiropractic-massage-okotoks--matthew",
+    "name": "Matthew",
+    "as_recorded": "Matthew is a dedicated and passionate Physiotherapist. Lastly, in April of 2025, Matthew received his Level 1 and 2 Intermediate and Advanced Vestibular Rehabilitation training to help vertigo and dizziness clients."
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://completehealthcenterokotoks.janeapp.com/locations/complete-health-chiropractic-massage/book",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "conceive-health-toronto",
   "treatment_id": "conceive-health-toronto--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
@@ -6679,6 +7302,19 @@
   "price_source": "No fee for this treatment or for a general acupuncture session was available from the clinic's own site in the search extracts fetched (direct site fetch returned HTTP 429 and was not retried), so no fallback price could be applied.",
   "price_tier": null,
   "treatment_link": "https://conway-acupuncture.com/acupuncture",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "core-elements-massage-therapy-ottawa",
+  "treatment_id": "core-elements-massage-therapy-ottawa--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "LYMPHATIC DRAINAGE MASSAGE",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://orleanscoreelements.com/our-therapies/",
   "last_verified": "2026-11-01"
  },
  {
@@ -7041,6 +7677,19 @@
   "price_source": "Fees published on the clinic's own website Services + Fees page (cristinasutter.ca/our-services): Initial Consultation $175 for 60 minutes, Individual Follow Up $125 for 40 minutes. There is no separate sports-nutrition fee; the same dietitians deliver sport nutrition as the practice's core specialty (About page: all team members hold sport dietitian training), so the standard dietitian fees stand in under Pricing + Practitioner Rule v2.",
   "price_tier": "website",
   "treatment_link": "https://cristinasutter.ca/our-services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "critical-trauma-therapy-oakville",
+  "treatment_id": "critical-trauma-therapy-oakville--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No neurofeedback fee is published on the clinic's own website pages read in this pass (homepage and TMS & Neurofeedback page), and the clinic takes bookings by phone/referral rather than a public booking page with fees, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://criticaltraumatherapy.com/specialized-services/",
   "last_verified": "2026-11-01"
  },
  {
@@ -7471,6 +8120,38 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dalton-associates-orillia",
+  "treatment_id": "dalton-associates-orillia--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Marriage & Couples Counselling",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$100-$225 per hour (general fee range)",
+  "price_source": "Clinic Fees & Insurance page (daltonassociates.ca/fees-insurance/): 'our fee schedule ranges from $100 to $225 per hour, depending on the time and nature of the service provided, plus the training and experience of the therapist'; no couples-specific rate published",
+  "price_tier": "website",
+  "treatment_link": "https://www.daltonassociates.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dalton-associates-orillia",
+  "treatment_id": "dalton-associates-orillia--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psycho-educational Assessments",
+  "practitioner": "Natalie Frost",
+  "practitioners": [
+   {
+    "id": "dalton-associates-orillia--natalie-frost",
+    "name": "Natalie Frost",
+    "as_recorded": "Natalie Frost, Director of Clinical Mental Health Services, Ph.D., C.Psych."
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.daltonassociates.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "danesh-aesthetics-richmond-hill",
   "treatment_id": "danesh-aesthetics-richmond-hill--naturopathy",
   "treatment": "Naturopathy",
@@ -7488,6 +8169,25 @@
   "price_tier": "booking",
   "treatment_link": "https://www.daneshaesthetics.com/book-online",
   "last_verified": null
+ },
+ {
+  "clinic_id": "dawdy-naturopathic-clinic-ottawa",
+  "treatment_id": "dawdy-naturopathic-clinic-ottawa--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Infertility",
+  "practitioner": "Kimberly Dawdy",
+  "practitioners": [
+   {
+    "id": "dawdy-naturopathic-clinic-ottawa--kimberly-dawdy",
+    "name": "Kimberly Dawdy",
+    "as_recorded": "Dr. Kimberly Dawdy, B.A. Kin (Hons) ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://dawdynaturopathicclinic.com/solutions/infertility/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "dawson-dental-kingston-kingston",
@@ -7665,6 +8365,19 @@
   "price_source": "No Botox fee is published on the clinic's own website.",
   "price_tier": null,
   "treatment_link": "https://dentistryatcornwall.ca/dental-services/other-dental-services/botox-treatment",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dentistry-on-bank-ottawa",
+  "treatment_id": "dentistry-on-bank-ottawa--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Botulinum Toxin (Botox\u00ae)",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.dentistryonbank.com/site/botox-ottawa",
   "last_verified": "2026-11-01"
  },
  {
@@ -8653,6 +9366,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-caitlyn-keates-nd-ottawa",
+  "treatment_id": "dr-caitlyn-keates-nd-ottawa--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Fertility and Women's Health",
+  "practitioner": "Caitlyn Keates",
+  "practitioners": [
+   {
+    "id": "dr-caitlyn-keates-nd-ottawa--caitlyn-keates",
+    "name": "Caitlyn Keates",
+    "as_recorded": "Dr. Caitlyn Keates, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://drcaitlynkeatesnd.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-celeste-quan-calgary",
   "treatment_id": "dr-celeste-quan-calgary--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -9298,6 +10030,63 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-erica-costabile-nd-naturopathic-doctor-oakville",
+  "treatment_id": "dr-erica-costabile-nd-naturopathic-doctor-oakville--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Naturopathy",
+  "practitioner": "Erica Costabile",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Erica Costabile, ND, Naturopathic Doctor - Certified in Cosmetic Acupuncture and Facial Rejuvenation, per her Jane booking page",
+    "id": "dr-erica-costabile-nd-naturopathic-doctor-oakville--erica-costabile",
+    "name": "Erica Costabile"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No cosmetic acupuncture fee is published on the Jane booking page (treatment list did not render in text fetch), so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://ericacostabilend.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-erica-costabile-nd-naturopathic-doctor-oakville",
+  "treatment_id": "dr-erica-costabile-nd-naturopathic-doctor-oakville--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Erica Costabile",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Erica Costabile, ND, Naturopathic Doctor - Doctor of Naturopathic Medicine, Canadian College of Naturopathic Medicine, per her Jane booking page bio",
+    "id": "dr-erica-costabile-nd-naturopathic-doctor-oakville--erica-costabile",
+    "name": "Erica Costabile"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The Jane booking page (ericacostabilend.janeapp.com) rendered the practitioner bio only in text fetch - the treatment/fee list did not render - and no fertility or naturopathic fee list is published anywhere else on her pages, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://ericacostabilend.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-erica-costabile-nd-naturopathic-doctor-oakville",
+  "treatment_id": "dr-erica-costabile-nd-naturopathic-doctor-oakville--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Erica Costabile",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Erica Costabile, ND, Naturopathic Doctor - Certified in Vitamin Injections, per her Jane booking page",
+    "id": "dr-erica-costabile-nd-naturopathic-doctor-oakville--erica-costabile",
+    "name": "Erica Costabile"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No IM vitamin therapy fee is published on the Jane booking page (treatment list did not render in text fetch), so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://ericacostabilend.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-gerann-murphy-kingston",
   "treatment_id": "dr-gerann-murphy-kingston--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -9880,6 +10669,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-justine-doczy-naturopathic-doctor-oshawa",
+  "treatment_id": "dr-justine-doczy-naturopathic-doctor-oshawa--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Justine Doczy",
+  "practitioners": [
+   {
+    "id": "dr-justine-doczy-naturopathic-doctor-oshawa--justine-doczy",
+    "name": "Justine Doczy",
+    "as_recorded": "Dr. Justine Doczy, Naturopathic Doctor - certified Naturopathic Doctor in Oshawa, in good standing with the College of Naturopaths of Ontario, per her own website"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (drjustinedoczynd.com pages read); the site mentions only a free 15-minute phone consultation, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.drjustinedoczynd.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-kaitlyn-zorn-nd-guelph",
   "treatment_id": "dr-kaitlyn-zorn-nd-guelph--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -10210,6 +11018,44 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-maggie-ackert-naturopathic-doctor-orillia",
+  "treatment_id": "dr-maggie-ackert-naturopathic-doctor-orillia--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Maggie Ackert",
+  "practitioners": [
+   {
+    "id": "dr-maggie-ackert-naturopathic-doctor-orillia--maggie-ackert",
+    "name": "Maggie Ackert",
+    "as_recorded": "Dr. Maggie Ackert, Naturopathic Doctor"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.drmaggieackertnd.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-maggie-ackert-naturopathic-doctor-orillia",
+  "treatment_id": "dr-maggie-ackert-naturopathic-doctor-orillia--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Maggie Ackert",
+  "practitioners": [
+   {
+    "id": "dr-maggie-ackert-naturopathic-doctor-orillia--maggie-ackert",
+    "name": "Maggie Ackert",
+    "as_recorded": "Dr. Maggie Ackert, Naturopathic Doctor"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.drmaggieackertnd.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-mandy-milliquet-naturopathic-doctor-calgary",
   "treatment_id": "dr-mandy-milliquet-naturopathic-doctor-calgary--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
@@ -10245,6 +11091,19 @@
   "price_source": "Clinic's own website, IV & Nutrient Therapy page (https://www.elevatefunctionalhealth.ca/iv-nutrient-therapy), 'IV Vitamin Therapy' section, Cost line: '$160-$310 depending on the formulation prescribed.'",
   "price_tier": "website",
   "treatment_link": "https://www.elevatefunctionalhealth.ca/iv-nutrient-therapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-marianne-trevorrow-ottawa",
+  "treatment_id": "dr-marianne-trevorrow-ottawa--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee for a fertility consultation (or any appointment type) is published on the clinic's own website; the What to Expect page states 'Fees for every appointment type are shown in the booking system', but the Jane booking page text fetched (mariannetrevorrow.janeapp.com) does not expose treatment prices, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.drmarianne.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -10951,6 +11810,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "dr-rhiannon-burkitt-naturopathic-doctor-oshawa",
+  "treatment_id": "dr-rhiannon-burkitt-naturopathic-doctor-oshawa--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Rhiannon Burkitt",
+  "practitioners": [
+   {
+    "id": "dr-rhiannon-burkitt-naturopathic-doctor-oshawa--rhiannon-burkitt",
+    "name": "Rhiannon Burkitt",
+    "as_recorded": "Dr. Rhiannon Burkitt, Oshawa Naturopathic Doctor, per her own website drburkittnd.com, which lists Fertility among the conditions naturopathic medicine provides treatment options for"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (drburkittnd.com) and no booking page with a fee list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://drburkittnd.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-robert-e-pearman-nd-edmonton",
   "treatment_id": "dr-robert-e-pearman-nd-edmonton--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -11480,6 +12358,32 @@
   "price_tier": null,
   "treatment_link": "http://www.dynamichealthclinic.ca/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "dynamic-health-performance-oakville",
+  "treatment_id": "dynamic-health-performance-oakville--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No golf/TPI assessment fee (or any service fee list) is published on the clinic's own website, and no online booking page with fees was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.dynamichealthandperformance.ca/site/golf-teams",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dynamic-health-performance-oakville",
+  "treatment_id": "dynamic-health-performance-oakville--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No gait analysis fee (or any service fee list) is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.dynamichealthandperformance.ca/site/other-services",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "dynamic-physiotherapy-and-sports-injury-clinic-brandon",
@@ -13467,6 +14371,89 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "flowstate-therapy-ottawa",
+  "treatment_id": "flowstate-therapy-ottawa--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No couples-therapy price is published on the clinic's own website; its Therapy page FAQ prices only individual therapy ('Individual therapy sessions cost $170 per session'), and that individual price is not used for couples therapy because the clinic's own pages do not show the same session/price applying to couples work, so price is null (price-fallback rule).",
+  "price_tier": null,
+  "treatment_link": "https://www.flowstatetherapy.ca/therapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "flowstate-therapy-ottawa",
+  "treatment_id": "flowstate-therapy-ottawa--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$150/session (therapy-led) \u00b7 $95\u2013105/session (nurse-led)",
+  "price_source": "Clinic's own website Neurofeedback page (flowstatetherapy.ca/neurofeedback), 'Pricing & Session Options' section: 'Therapy-Led Neurofeedback \u2014 $150/session' and 'Nurse-Led Neurofeedback \u2014 $95-105/session'. Tier 'website' (own-site fee listing, not a booking page).",
+  "price_tier": "website",
+  "treatment_link": "https://www.flowstatetherapy.ca/neurofeedback",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "flutterby-psychology-okotoks",
+  "treatment_id": "flutterby-psychology-okotoks--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Counselling",
+  "practitioner": "Carissa Cochrane",
+  "practitioners": [
+   {
+    "id": "flutterby-psychology-okotoks--carissa-cochrane",
+    "name": "Carissa Cochrane",
+    "as_recorded": "Carissa Cochrane, CCC, offers couples counselling using the Gottman Method and Gottman-informed techniques."
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://flutterbypsychology.com/couples-counselling",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "flutterby-psychology-okotoks",
+  "treatment_id": "flutterby-psychology-okotoks--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Psychology (sport psychology)",
+  "practitioner": "Jennie Johnson",
+  "practitioners": [
+   {
+    "id": "flutterby-psychology-okotoks--jennie-johnson",
+    "name": "Jennie Johnson",
+    "as_recorded": "Dr. Jennie Johnson, PhD, Registered Psychologist and Apprentice Mental Performance Consultant, offers sport psychology support drawing on her dual training in clinical child and teen psychology and sport performance psychology."
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://flutterbypsychology.com/sport-psychology",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "flutterby-psychology-okotoks",
+  "treatment_id": "flutterby-psychology-okotoks--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": "Psychology (CBT-I for insomnia)",
+  "practitioner": "Jos\u00e9e Kykkanen",
+  "practitioners": [
+   {
+    "id": "flutterby-psychology-okotoks--josee-kykkanen",
+    "name": "Jos\u00e9e Kykkanen",
+    "as_recorded": "Jos\u00e9e Kykkanen, MC - Registered Psychologist, Registered with the College of Alberta Psychologists; tags include 'Insomnia & sleep (CBT-i)'; 'I've completed training in EMDR therapy, CBT-I for insomnia and sleep'"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://flutterbypsychology.com/about",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "focus-inspired-markham",
   "treatment_id": "focus-inspired-markham--interview-preparation",
   "treatment": "Interview Preparation",
@@ -13646,6 +14633,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "function-and-fulfillment-psychotherapy-oshawa",
+  "treatment_id": "function-and-fulfillment-psychotherapy-oshawa--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No couples therapy fee could be verified: the clinic's dedicated couples-therapy page could not be fetched (HTTP 429, not retried) and no fee is published on the homepage or in search extracts of the clinic's own pages, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://functionandfulfillmentpsychotherapy.ca/couples-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "gaia-calgary",
   "treatment_id": "gaia-calgary--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
@@ -13788,6 +14788,25 @@
   "price_tier": null,
   "treatment_link": "https://www.mwphysioorleans.com/site/dietitian-services-ottawa",
   "last_verified": null
+ },
+ {
+  "clinic_id": "genevieve-renaud-physio-performance-ottawa",
+  "treatment_id": "genevieve-renaud-physio-performance-ottawa--performing-arts-physiotherapy",
+  "treatment": "Performing Arts Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Genevi\u00e8ve Renaud",
+  "practitioners": [
+   {
+    "id": "genevieve-renaud-physio-performance-ottawa--genevieve-renaud",
+    "name": "Genevi\u00e8ve Renaud",
+    "as_recorded": "Genevi\u00e8ve Renaud, PT \u2014 BSc(PT), MClSc (Manip. Ther), Diploma Sport PT, RISPT, FCAMPT \u2014 Registered Sport and Orthopaedic Physiotherapist (clinic's own Meet Genevi\u00e8ve page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No physiotherapy fee is published on the clinic's own website (no fee page; the Physiotherapy page gives session structure only \u2014 60-minute initial assessment, 30\u201360-minute follow-ups) and the Jane booking page text fetched (genrenaudphysio.janeapp.com) does not expose treatment prices, so price is null. The Strong Dancer program prices on the site ($300 CDN per 6-week group session series; $150 CDN custom session) are conditioning-program prices, not physiotherapy prices, and are not used.",
+  "price_tier": null,
+  "treatment_link": "https://genrenaudphysio.ca/physiotherapy",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "gillian-pappas-physiotherapy-brandon",
@@ -14111,6 +15130,25 @@
   "price_tier": null,
   "treatment_link": "https://grassrootsnaturopathic.com/our-answers/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "green-harmony-healing-centre-ottawa",
+  "treatment_id": "green-harmony-healing-centre-ottawa--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Jianmin Xing (Wendy)",
+  "practitioners": [
+   {
+    "as_recorded": "Jianmin Xing (Wendy), Registered Acupuncturist (R.Ac) and Registered Traditional Chinese Medicine Practitioner (R.TCMP)",
+    "id": "green-harmony-healing-centre-ottawa--jianmin-xing",
+    "name": "Jianmin Xing"
+   }
+  ],
+  "price_text": "$120 initial \u00b7 $100 follow-up",
+  "price_source": "Clinic's own website price list (greenharmonyhealingcentre.com): 'Initial Assessment in Acupuncture $120 (50min)', 'Follow-up in Acupuncture $100 (30min)', tax included - general acupuncture fees; no cosmetic-specific fee is published, and the same sole named R.Ac. delivers the clinic's acupuncture services, so the delivering-service price stands in per Pricing + Practitioner Rule v2 (flagged in gaps)",
+  "price_tier": "website",
+  "treatment_link": "https://greenharmonyhealingcentre.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "green-leaf-psychological-services-halifax",
@@ -14457,6 +15495,56 @@
   "price_tier": null,
   "treatment_link": "http://hcnutrition.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "healing-house-ottawa",
+  "treatment_id": "healing-house-ottawa--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fertility acupuncture fee is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://healinghouse.ca/natural-fertility-ottawa-naturopath",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "healing-house-ottawa",
+  "treatment_id": "healing-house-ottawa--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fertility consultation fee is published on the clinic's own website or booking channel, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://healinghouse.ca/natural-fertility-ottawa-naturopath",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "healing-house-ottawa",
+  "treatment_id": "healing-house-ottawa--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Jada MacLeod; Dr. Polina Mak",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Jada MacLeod, Naturopathic Doctor - Ontario-registered ND with a clinical focus on women's health, hormonal and metabolic health, per the clinic's own homepage team section",
+    "id": "healing-house-ottawa--jada-macleod",
+    "name": "Jada MacLeod"
+   },
+   {
+    "as_recorded": "Dr. Polina Mak, Naturopathic Doctor - Ontario-registered ND providing virtual naturopathic care with a focus on hormonal health and digestive concerns including SIBO, per the clinic's own homepage team section",
+    "id": "healing-house-ottawa--polina-mak",
+    "name": "Polina Mak"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic medicine fees are published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://healinghouse.ca/naturopathic-medicine-ottawa-naturopath",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "health-and-performance-nutrition-inc-calgary",
@@ -15085,6 +16173,57 @@
   "last_verified": null
  },
  {
+  "clinic_id": "hong-s-health-care-ottawa",
+  "treatment_id": "hong-s-health-care-ottawa--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Registered Massage Therapy",
+  "practitioner": "Megan Kerik",
+  "practitioners": [
+   {
+    "as_recorded": "Megan Kerik, RMT (Registered Massage Therapist) - 15+ years of experience; her clinic Jane bio lists lymphatic drainage among her massage techniques",
+    "id": "hong-s-health-care-ottawa--megan-kerik",
+    "name": "Megan Kerik"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No lymphatic drainage fee was visible on the clinic's own site or in the Jane booking page text fetch (treatment/fee list did not render), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://helixphysicaltherapyandmassage.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "hong-s-health-care-ottawa",
+  "treatment_id": "hong-s-health-care-ottawa--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Shockwave Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own website, and the Jane booking page's treatment/fee list did not render in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://helixphysicaltherapyandmassage.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "hong-s-health-care-ottawa",
+  "treatment_id": "hong-s-health-care-ottawa--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Registered Massage Therapy",
+  "practitioner": "Natalia Gonzalez",
+  "practitioners": [
+   {
+    "as_recorded": "Natalia Gonzalez, RMT (Registered Massage Therapist) - CMTO-registered since 2021; her clinic Jane bio lists TMJ among her therapeutic treatment focuses",
+    "id": "hong-s-health-care-ottawa--natalia-gonzalez",
+    "name": "Natalia Gonzalez"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No TMJ massage fee was visible on the clinic's own site or in the Jane booking page text fetch (treatment/fee list did not render), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://helixphysicaltherapyandmassage.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "horizon-therapy-toronto",
   "treatment_id": "horizon-therapy-toronto--couples-therapy",
   "treatment": "Couples Therapy",
@@ -15096,6 +16235,64 @@
   "price_tier": null,
   "treatment_link": "http://www.horizontherapy.ca/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "hw-physio-sport-science-rehab-performance-east-ottawa",
+  "treatment_id": "hw-physio-sport-science-rehab-performance-east-ottawa--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": "Clinical Reformer Pilates",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Clinical Pilates / Reformer Pilates price is published on hwhealth.com or hwphysio.ca pages read, and the Jane treatment list did not render, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.hwhealth.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "hw-physio-sport-science-rehab-performance-east-ottawa",
+  "treatment_id": "hw-physio-sport-science-rehab-performance-east-ottawa--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Lymphedema Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No lymphedema therapy fee is published on hwphysio.ca or hwhealth.com pages read, and the Jane treatment list did not render, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.hwphysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "hw-physio-sport-science-rehab-performance-east-ottawa",
+  "treatment_id": "hw-physio-sport-science-rehab-performance-east-ottawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Sophie",
+  "practitioners": [
+   {
+    "id": "hw-physio-sport-science-rehab-performance-east-ottawa--sophie",
+    "name": "Sophie",
+    "as_recorded": "Sophie - physiotherapist listed on the East (Place d'Orl\u00e9ans) Jane booking page; bio: graduated University of Ottawa Master of Health Science in Physiotherapy, practice focus on orthopedics and pelvic health, bilingual (surname not published in the booking-page extract)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The East location's Jane booking page rendered practitioner bios only in text fetch (treatment/fee list did not render) and no fees are published on hwphysio.ca or hwhealth.com pages read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.hwphysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ibs-nutrition-audrey-inouye-dietitian-oak-bay",
+  "treatment_id": "ibs-nutrition-audrey-inouye-dietitian-oak-bay--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No sports nutrition service or fee exists on the clinic's own site (ibsnutrition.com); its only published fees are for digestive-care dietitian appointments, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://ibsnutrition.com/services/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "icryo-centre-de-bien-etre-brossard",
@@ -15478,6 +16675,44 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.inbloomhealth.ca/services/all-services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "inertia-physio-ottawa",
+  "treatment_id": "inertia-physio-ottawa--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Manual Lymphatic Drainage (Certified Lymphedema Therapy)",
+  "practitioner": "Alisha Oliver",
+  "practitioners": [
+   {
+    "id": "inertia-physio-ottawa--alisha-oliver",
+    "name": "Alisha Oliver",
+    "as_recorded": "Alisha Oliver - CLT, MScPT, BHSc - Certified Lymphedema Therapist providing manual lymphatic drainage, per the clinic's own pelvic floor physiotherapy page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No lymphatic drainage / lymphedema therapy fee is published on inertiaphysio.ca pages read and the Jane booking pages did not render treatment prices, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://inertiaphysio.ca/services/pelvic-floor-physiotherapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "inertia-physio-ottawa",
+  "treatment_id": "inertia-physio-ottawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Alisha Oliver",
+  "practitioners": [
+   {
+    "id": "inertia-physio-ottawa--alisha-oliver",
+    "name": "Alisha Oliver",
+    "as_recorded": "Alisha Oliver - CLT, MScPT, BHSc - 'Meet Our Pelvic Health Physiotherapist' on the clinic's pelvic floor physiotherapy page (Honours Bachelor of Health Sciences, Western University; Masters of Science in Physical Therapy, Queen's University; Pelvic Floor Levels 1-3; Certified Lymphedema Therapist)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee is published on inertiaphysio.ca pages read and the clinic's Jane booking pages did not render treatment prices in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://inertiaphysio.ca/services/pelvic-floor-physiotherapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -15868,6 +17103,44 @@
   "price_tier": null,
   "treatment_link": "http://janegraham.ca/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "janet-penny-rmt-ottawa",
+  "treatment_id": "janet-penny-rmt-ottawa--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Registered Massage Therapy \u2013 Lymphatic Drainage Therapy",
+  "practitioner": "Janet Penny, RMT",
+  "practitioners": [
+   {
+    "id": "janet-penny-rmt-ottawa--janet-penny",
+    "name": "Janet Penny",
+    "as_recorded": "Janet Penny, RMT - solo registered massage therapist; Lymphatic Drainage Therapy is a listed treatment type on her own site"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No lymphatic drainage fee is published on janetpennyrmt.ca pages read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.janetpennyrmt.ca/treatments",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "janet-penny-rmt-ottawa",
+  "treatment_id": "janet-penny-rmt-ottawa--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Registered Massage Therapy",
+  "practitioner": "Janet Penny, RMT",
+  "practitioners": [
+   {
+    "id": "janet-penny-rmt-ottawa--janet-penny",
+    "name": "Janet Penny",
+    "as_recorded": "Janet Penny, RMT - solo registered massage therapist; site written in first person, TMJ dysfunction and jaw pain listed among conditions her massage therapy addresses"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No massage therapy fee list is published on janetpennyrmt.ca pages read (booking is via the Book Now form page / Square last-minute-openings calendar), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.janetpennyrmt.ca/massage-therapy",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "jc-clinic-north-york",
@@ -16622,6 +17895,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "kanata-women-s-massage-ottawa",
+  "treatment_id": "kanata-women-s-massage-ottawa--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Registered Massage Therapy \u2013 Manual Lymphatic Drainage (Vodder)",
+  "practitioner": "Fatma Elhelaly, RMT",
+  "practitioners": [
+   {
+    "as_recorded": "Fatma Elhelaly, RMT - Registered Massage Therapist; postgraduate training in Facial Lymphatics, Oncology Massage, Rapid Neurofascial Reset (RNR), Visceral Manipulation, and Vodder Manual Lymphatic Drainage, per the clinic's own site and Jane bio",
+    "id": "kanata-women-s-massage-ottawa--fatma-elhelaly",
+    "name": "Fatma Elhelaly"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, and its Jane booking page (kanatawomensmassage.janeapp.com) rendered only the practitioner bio in text fetch - the treatment/fee list did not render - so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://kanatawomensmassage.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "kare-physiotherapy-kelowna",
   "treatment_id": "kare-physiotherapy-kelowna--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -16914,6 +18206,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "kindle-psychotherapy-oshawa",
+  "treatment_id": "kindle-psychotherapy-oshawa--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$170/60 min",
+  "price_source": "Clinic's own website FAQ page (kindlepsychotherapy.com/faqs/): 'Couples Therapy - $170/60 min', with the fee block stating Couples Therapy is covered under 'Registered Psychotherapist' and provided by a 'Registered Psychotherapist (Qualifying)', under supervision by RP. (Jane booking page fetch returned HTTP 429 and was not retried, so this is a website-tier price.)",
+  "price_tier": "website",
+  "treatment_link": "https://kindlepsychotherapy.com/faqs/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "kinective-health-performance-toronto",
   "treatment_id": "kinective-health-performance-toronto--clinical-pilates",
   "treatment": null,
@@ -17172,6 +18477,89 @@
   "price_tier": null,
   "treatment_link": "https://laphysio.ca/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "labyrinth-holistic-healthcare-oshawa",
+  "treatment_id": "labyrinth-holistic-healthcare-oshawa--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Lisa-Ann Bilinsky",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Lisa-Ann Bilinsky, ND - naturopathic doctor registered under the College of Naturopaths of Ontario; trained ND Doula with a special interest in perinatal and pediatric care, reproductive health, mental health, and environmental medicine, per the clinic's own site and Jane booking page bio",
+    "id": "labyrinth-holistic-healthcare-oshawa--lisa-ann-bilinsky",
+    "name": "Lisa-Ann Bilinsky"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, and its Jane booking page (drlabnd.janeapp.com) rendered the practitioner bio only in text fetch - the service/fee list did not render - so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://drlabnd.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "lakeside-health-and-sport-oakville",
+  "treatment_id": "lakeside-health-and-sport-oakville--cryotherapy",
+  "treatment": "Cryotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No cryotherapy service or fee exists on the clinic's site or Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://lakesidehealthandsport.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "lakeside-health-and-sport-oakville",
+  "treatment_id": "lakeside-health-and-sport-oakville--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Alla Lghazawi",
+  "practitioners": [
+   {
+    "as_recorded": "Alla Lghazawi, RMT - per her bio on the clinic's Jane booking page: 'I offer relaxation massage, trigger point therapy, lymphatic drainage and assisted stretching'",
+    "id": "lakeside-health-and-sport-oakville--alla-lghazawi",
+    "name": "Alla Lghazawi"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No lymphatic drainage fee is published on the clinic's own website, and the clinic's Jane booking page rendered no treatment price list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://lakesidehealthandsport.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "lakeside-health-and-sport-oakville",
+  "treatment_id": "lakeside-health-and-sport-oakville--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Jane So",
+  "practitioners": [
+   {
+    "as_recorded": "Jane So - Registered Physiotherapist; the clinic's own Running Clinic page states 'Our specialized running clinic with Jane So' and offers booking a consultation with her for gait analysis / running training",
+    "id": "lakeside-health-and-sport-oakville--jane-so",
+    "name": "Jane So"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No running gait analysis fee is published on the clinic's own website, and the clinic's Jane booking page rendered no treatment price list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://lakesidehealthandsport.com/running-clinic-oakville/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "lakeside-health-and-sport-oakville",
+  "treatment_id": "lakeside-health-and-sport-oakville--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave therapy fee is published on the clinic's own website, and the clinic's Jane booking page rendered no treatment price list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://lakesidehealthandsport.com/shockwave-therapy-oakville/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "lakeside-pelvic-health-north-bay",
@@ -17563,6 +18951,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "lifeberry-oakville",
+  "treatment_id": "lifeberry-oakville--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No sports nutrition service or fee is published on the clinic's own website and no booking page was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.lifeberry.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "lifecare-acupuncture-natural-medicine-clinic-halifax",
   "treatment_id": "lifecare-acupuncture-natural-medicine-clinic-halifax--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
@@ -17868,6 +19269,25 @@
   "price_source": "No fertility acupuncture prices are published on the clinic's own website (longevityfertility.com, fetched 2026-11-01) and no online booking page with prices was found.",
   "price_tier": null,
   "treatment_link": "https://longevityfertility.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "lorena-ruci-phd-ottawa",
+  "treatment_id": "lorena-ruci-phd-ottawa--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Psychology (Sport Psychology / Sport Performance)",
+  "practitioner": "Lorena Ruci MA, C. Psych, PhD",
+  "practitioners": [
+   {
+    "as_recorded": "LORENA RUCI MA, C. Psych, PhD - Psychologist registered in Ontario and Alberta; Adjunct Professor, Carleton University; Teaching Professor, University of Ottawa, per her own site",
+    "id": "lorena-ruci-phd-ottawa--lorena-ruci",
+    "name": "Lorena Ruci"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the practitioner's own website (lorenaruci.com), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.lorenaruci.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -18238,6 +19658,44 @@
   "last_verified": null
  },
  {
+  "clinic_id": "marconi-acupuncture-herbs-clinic-oakville",
+  "treatment_id": "marconi-acupuncture-herbs-clinic-oakville--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Lana Marconi",
+  "practitioners": [
+   {
+    "id": "marconi-acupuncture-herbs-clinic-oakville--lana-marconi",
+    "name": "Lana Marconi",
+    "as_recorded": "Lana Marconi, R.Ac. - the clinic's acupuncturist, per the clinic's own homepage (homepage videos caption her demonstrating treatments and name her 'Lana Marconi, R.Ac.')"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No cosmetic acupuncture fee is published on the clinic's own site, and its online booking page could not be opened in this pass (HTTP 429, not retried), so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://marconiacupuncture.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "marconi-acupuncture-herbs-clinic-oakville",
+  "treatment_id": "marconi-acupuncture-herbs-clinic-oakville--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Lana Marconi",
+  "practitioners": [
+   {
+    "id": "marconi-acupuncture-herbs-clinic-oakville--lana-marconi",
+    "name": "Lana Marconi",
+    "as_recorded": "Lana Marconi, R.Ac. - the clinic's acupuncturist, per the clinic's own homepage (homepage videos caption her demonstrating treatments and name her 'Lana Marconi, R.Ac.')"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own homepage or fertility page, and its online booking page could not be opened in this pass (HTTP 429, not retried), so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://marconiacupuncture.com/2016/04/25/acupuncture-for-fertility/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "marda-loop-physiotherapy-calgary",
   "treatment_id": "marda-loop-physiotherapy-calgary--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -18286,6 +19744,25 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://mardaloop.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "marie-josee-f-forget-pt-ottawa",
+  "treatment_id": "marie-josee-f-forget-pt-ottawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Marie-Jos\u00e9e F. Forget PT",
+  "practitioners": [
+   {
+    "id": "marie-josee-f-forget-pt-ottawa--marie-josee-f-forget",
+    "name": "Marie-Jos\u00e9e F. Forget",
+    "as_recorded": "Marie-Josee F. Forget PT (She/her/elle) - bilingual physiotherapist with 25 years of experience in pelvic health, per the clinic's own website; graduate of the University of Ottawa's Bachelor of Science in Physiotherapy program (1995), per her Pelvic Health Solutions instructor profile"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (mjforgetpt.ca) and no online booking/fee list was found for this solo practice, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.mjforgetpt.ca/take-action-bedford",
   "last_verified": "2026-11-01"
  },
  {
@@ -19041,6 +20518,44 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "metcalfe-massage-therapy-clinic-ottawa",
+  "treatment_id": "metcalfe-massage-therapy-clinic-ottawa--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Registered Massage Therapy",
+  "practitioner": "Nadine Larouche, R.M.T.",
+  "practitioners": [
+   {
+    "id": "metcalfe-massage-therapy-clinic-ottawa--nadine-larouche",
+    "name": "Nadine Larouche",
+    "as_recorded": "Nadine Larouche, R.M.T. - 'Other modalities used: Cupping Massage and Radial Shockwave therapy', per the clinic's own team page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own site or in ClinicSense booking extracts, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.metcalfemassage.com/team",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "metcalfe-massage-therapy-clinic-ottawa",
+  "treatment_id": "metcalfe-massage-therapy-clinic-ottawa--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Registered Massage Therapy",
+  "practitioner": "Nadine Larouche, R.M.T.",
+  "practitioners": [
+   {
+    "id": "metcalfe-massage-therapy-clinic-ottawa--nadine-larouche",
+    "name": "Nadine Larouche",
+    "as_recorded": "Nadine Larouche, R.M.T. - 'has also taken advanced training in TMJ work, ART, Rapid Reset and Cupping massage', per the clinic's own team page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No TMJ-specific or Nadine Larouche fee is published on the clinic's own site; the Treatments page fees belong to a different practitioner (Dr. Breanne Gates) and were not applied under Practitioner Rule v2, and the ClinicSense booking page rendered no fees in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.metcalfemassage.com/team",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "metrotown-naturopathic-and-acupuncture-burnaby",
   "treatment_id": "metrotown-naturopathic-and-acupuncture-burnaby--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
@@ -19186,6 +20701,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "mhc-counselling-therapy-ottawa",
+  "treatment_id": "mhc-counselling-therapy-ottawa--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Sukanya Mukherjee",
+  "practitioners": [
+   {
+    "as_recorded": "Sukanya Mukherjee - therapist behind MHC Counselling Therapy (Mental Health Colour) per the clinic's own site ('Letters to a Therapist by Canadian Therapist Sukanya Mukherjee'; blog authored by Sukanya Mukherjee); no credential published on the site pages read",
+    "id": "mhc-counselling-therapy-ottawa--sukanya-mukherjee",
+    "name": "Sukanya Mukherjee"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website or its online booking-form page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.mhcsukanya.com/online-therapy-appointment",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "mhp-therapy-london",
   "treatment_id": "mhp-therapy-london--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
@@ -19318,6 +20852,35 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "mind-matters-psychotherapy-oshawa",
+  "treatment_id": "mind-matters-psychotherapy-oshawa--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Leigh Jasmine; Sarah Ologun; Juliana Gomes",
+  "practitioners": [
+   {
+    "as_recorded": "Leigh Jasmine, Intern, Registered Psychotherapist (Qualifying) - Jane booking page bio states she works with youth and teens (12+), adults, and couples",
+    "id": "mind-matters-psychotherapy-oshawa--leigh-jasmine",
+    "name": "Leigh Jasmine"
+   },
+   {
+    "as_recorded": "Sarah Ologun, Registered Psychotherapist (Qualifying) - Jane booking page bio states she is dedicated to supporting children, adults, and couples navigating anxiety, trauma, life transitions, and relationship challenges",
+    "id": "mind-matters-psychotherapy-oshawa--sarah-ologun",
+    "name": "Sarah Ologun"
+   },
+   {
+    "as_recorded": "Juliana Gomes, Registered Psychotherapist (Qualifying), LFMT - Oshawa team page lists Family/Marriage Counselling among her areas; Jane bio notes a Master's degree in Marriage and Family Therapy",
+    "id": "mind-matters-psychotherapy-oshawa--juliana-gomes",
+    "name": "Juliana Gomes"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, and its Jane booking page (Oshawa location) rendered practitioner bios only in text fetch - the treatment/fee list did not render - so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://mindmatterspsychotherapy.janeapp.com/locations/mind-matters-psychotherapy-creative-education-oshawa/book",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "mind-revive-psychotherapy-counselling-calgary",
   "treatment_id": "mind-revive-psychotherapy-counselling-calgary--neurofeedback",
   "treatment": "Neurofeedback",
@@ -19356,6 +20919,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "mindful-acupuncture-health-clinic-oakville",
+  "treatment_id": "mindful-acupuncture-health-clinic-oakville--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Ketty Hongyan Pan",
+  "practitioners": [
+   {
+    "id": "mindful-acupuncture-health-clinic-oakville--ketty-hongyan-pan",
+    "name": "Ketty Hongyan Pan",
+    "as_recorded": "Ketty Hongyan Pan R.Ac & R.TCMP, Wet Cupping Specialist - named at the head of the clinic's own homepage"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own homepage, and no booking page with fees could be captured in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://mindfulacupuncture.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "mindful-feedback-london",
   "treatment_id": "mindful-feedback-london--neurofeedback",
   "treatment": "Neurofeedback",
@@ -19379,6 +20961,43 @@
   "price_source": "No fees or rates are published on the clinic's own website in the pages fetched (homepage, services, about), and its Owl Practice booking portal returned no extractable fee list, so price is null.",
   "price_tier": null,
   "treatment_link": "https://mindfulmilestonespsychotherapy.com/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "mindful-with-you-psychotherapy-counselling-ontario",
+  "treatment_id": "mindful-with-you-psychotherapy-counselling-ontario--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Couples Therapy",
+  "practitioner": "Lyne El-Husseini",
+  "practitioners": [
+   {
+    "id": "mindful-with-you-psychotherapy-counselling-ontario--lyne-el-husseini",
+    "name": "Lyne El-Husseini",
+    "as_recorded": "Lyne El-Husseini (RP)"
+   },
+   {
+    "id": "mindful-with-you-psychotherapy-counselling-ontario--ashley-chiappetta",
+    "name": "Ashley Chiappetta",
+    "as_recorded": "Ashley Chiappetta, BA, MACP, RP"
+   }
+  ],
+  "price_text": "$180 couples session (50 min)",
+  "price_source": "Clinic homepage 'Therapy Booking Options': Couples Session, 50 minutes, Rate: $180, Format: Video or phone (website fee listing, not a booking platform)",
+  "price_tier": "website",
+  "treatment_link": "https://www.mindfulwithyou.com/services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "mindful-with-you-psychotherapy-counselling-ontario",
+  "treatment_id": "mindful-with-you-psychotherapy-counselling-ontario--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Sports Performance",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.mindfulwithyou.com/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -21046,6 +22665,63 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "natural-fertility-ottawa-ottawa",
+  "treatment_id": "natural-fertility-ottawa-ottawa--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Harsimranjeet Singh Bhatia, ND",
+  "practitioners": [
+   {
+    "id": "natural-fertility-ottawa-ottawa--harsimranjeet-singh-bhatia",
+    "name": "Harsimranjeet Singh Bhatia",
+    "as_recorded": "Dr. Harsimranjeet Singh Bhatia, ND - licensed Naturopathic Doctor in Ontario, graduate of the Canadian College of Naturopathic Medicine (CCNM), per the clinic's own website"
+   }
+  ],
+  "price_text": "$125 per 30-minute appointment",
+  "price_source": "Clinic's own Fertility Acupuncture page (infertilitynaturopath.com/fertility-acupuncture-for-ivf-icsi), 'Duration & Fees' section: 'Needle acupuncture appointments are 30 mins and $125 each'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.infertilitynaturopath.com/fertility-acupuncture-for-ivf-icsi",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "natural-fertility-ottawa-ottawa",
+  "treatment_id": "natural-fertility-ottawa-ottawa--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Harsimranjeet Singh Bhatia, ND",
+  "practitioners": [
+   {
+    "id": "natural-fertility-ottawa-ottawa--harsimranjeet-singh-bhatia",
+    "name": "Harsimranjeet Singh Bhatia",
+    "as_recorded": "Dr. Harsimranjeet Singh Bhatia, ND - licensed Naturopathic Doctor in Ontario, graduate of the Canadian College of Naturopathic Medicine (CCNM), per the clinic's own website"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own website (recurrent-miscarriage page) states current fees are shown only when choosing a time on its online booking page; that booking page rendered no fee list in text fetch and no consultation fee is published elsewhere on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.infertilitynaturopath.com/book-an-appointment",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "natural-fertility-ottawa-ottawa",
+  "treatment_id": "natural-fertility-ottawa-ottawa--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Harsimranjeet Singh Bhatia, ND",
+  "practitioners": [
+   {
+    "id": "natural-fertility-ottawa-ottawa--harsimranjeet-singh-bhatia",
+    "name": "Harsimranjeet Singh Bhatia",
+    "as_recorded": "Dr. Harsimranjeet Singh Bhatia, ND - licensed Naturopathic Doctor in Ontario, graduate of the Canadian College of Naturopathic Medicine (CCNM), per the clinic's own website"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No general naturopathic consultation fee is published on the clinic's own website pages read; fees are shown only when choosing a time on its online booking page, which rendered no fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.infertilitynaturopath.com/naturopathic-medicine-ottawa",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "natural-health-clinic-of-halton-brampton-brampton",
   "treatment_id": "natural-health-clinic-of-halton-brampton-brampton--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -21211,6 +22887,107 @@
   "price_source": "No sports/athletic nutrition fee is published on the clinic's own website, and its Jane booking page rendered practitioner bios only in text fetch, so price is null.",
   "price_tier": null,
   "treatment_link": "https://nhchalton.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "natural-health-clinic-of-halton-oakville",
+  "treatment_id": "natural-health-clinic-of-halton-oakville--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Shelly Verma",
+  "practitioners": [
+   {
+    "id": "natural-health-clinic-of-halton-oakville--shelly-verma",
+    "name": "Shelly Verma",
+    "as_recorded": "Dr. Verma, ND (Dr. Shelly Verma) - licensed Naturopathic Doctor and Certified Facial Rejuvenation Acupuncturist, per the clinic's Jane booking page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch - its treatment/fee list did not render (no prices anywhere in the fetched page) - and no fee list is published on nhchalton.com pages read, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://nhchalton.janeapp.com/locations/natural-health-clinic-of-halton/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "natural-health-clinic-of-halton-oakville",
+  "treatment_id": "natural-health-clinic-of-halton-oakville--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Shiwan Ibrahim; Ebtehal Taqi",
+  "practitioners": [
+   {
+    "id": "natural-health-clinic-of-halton-oakville--shiwan-ibrahim",
+    "name": "Shiwan Ibrahim",
+    "as_recorded": "Shiwan Ibrahim, registered psychotherapist (RP) with the CRPO - 'Marriage and Couples Counselling: Using Gottman-informed techniques...' per his bio on the clinic's Jane booking page"
+   },
+   {
+    "id": "natural-health-clinic-of-halton-oakville--ebtehal-taqi",
+    "name": "Ebtehal Taqi",
+    "as_recorded": "Ebtehal (Ebby) Taqi, Registered Psychotherapist (Qualifying) - provides care for 'individuals, couples, marriages, and families' including 'Couples and marriage counselling', per her bio on the clinic's Jane booking page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch - its treatment/fee list did not render (no prices anywhere in the fetched page) - and no fee list is published on nhchalton.com pages read, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://nhchalton.janeapp.com/locations/natural-health-clinic-of-halton/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "natural-health-clinic-of-halton-oakville",
+  "treatment_id": "natural-health-clinic-of-halton-oakville--facial-manual-therapy",
+  "treatment": "Facial Manual Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Facial Manual Therapy service or fee exists on the clinic's site or Jane page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.nhchalton.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "natural-health-clinic-of-halton-oakville",
+  "treatment_id": "natural-health-clinic-of-halton-oakville--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch - its treatment/fee list did not render (no prices anywhere in the fetched page) - and no fee list is published on nhchalton.com pages read, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://www.nhchalton.com/stoney-creek/naturopath/infertility-treatment/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "natural-health-clinic-of-halton-oakville",
+  "treatment_id": "natural-health-clinic-of-halton-oakville--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Osteopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch - its treatment/fee list did not render (no prices anywhere in the fetched page) - and no fee list is published on nhchalton.com pages read, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://www.nhchalton.com/toronto/osteopathy/lymphatic-drainage-massage/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "natural-health-clinic-of-halton-oakville",
+  "treatment_id": "natural-health-clinic-of-halton-oakville--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Naturopathy",
+  "practitioner": "Nazila Yal",
+  "practitioners": [
+   {
+    "id": "natural-health-clinic-of-halton-oakville--nazila-yal",
+    "name": "Nazila Yal",
+    "as_recorded": "Dr. Nazila Yal, ND - 'Athletic nutrition is another area where Dr. Yal, ND, excels. She works with athletes of all levels to optimize performance, enhance recovery, and prevent injuries. Through tailored nutrition plans and supplementation...' per her bio on the clinic's Jane booking page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch - its treatment/fee list did not render (no prices anywhere in the fetched page) - and no fee list is published on nhchalton.com pages read, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://nhchalton.janeapp.com/locations/natural-health-clinic-of-halton/book",
   "last_verified": "2026-11-01"
  },
  {
@@ -22676,6 +24453,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "nutrition-pathway-oakville",
+  "treatment_id": "nutrition-pathway-oakville--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": "Cheryl Corry",
+  "practitioners": [
+   {
+    "as_recorded": "Cheryl Corry, Registered Dietitian - sole practitioner pictured and profiled on the clinic's own site, whose Individual Counselling list includes Sport Nutrition",
+    "id": "nutrition-pathway-oakville--cheryl-corry",
+    "name": "Cheryl Corry"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and no online booking page with a fee list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.nutritionpathway.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "nutrition-with-hope-brampton",
   "treatment_id": "nutrition-with-hope-brampton--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -23019,6 +24815,19 @@
  },
  {
   "clinic_id": "oakville-naturopathic-wellness-centre-oakville",
+  "treatment_id": "oakville-naturopathic-wellness-centre-oakville--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No IV price list is published on the clinic's own website, and no ONWC-specific fee list could be verified on its OutSmart booking portal in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://onwc.ca",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "oakville-naturopathic-wellness-centre-oakville",
   "treatment_id": "oakville-naturopathic-wellness-centre-oakville--naturopathy",
   "treatment": "Naturopathy",
   "billed_as": "Naturopathy",
@@ -23315,6 +25124,19 @@
   "price_source": "Clinic's own Botox page: 'Dr. Dennis is certified in Level 2 Basic Neuromodulators: Upper Face and Bruxism Treatment and can administer Botox for both aesthetic and therapeutic uses. The cost per botox unit is $8.00.' The same page offers a complimentary/free Botox consultation. No booking page with pricing exists, so the website price is used.",
   "price_tier": "website",
   "treatment_link": "https://www.orchardsdental.ca/services/botox/20528",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "orilla-smile-center-orillia",
+  "treatment_id": "orilla-smile-center-orillia--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.orilliasmilecentre.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -27041,6 +28863,32 @@
  },
  {
   "clinic_id": "restorative-whole-health-okotoks",
+  "treatment_id": "restorative-whole-health-okotoks--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Pelvic Floor Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://restorativesportstherapy.janeapp.com/locations/restorative-sports-therapy-okotoks-location/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "restorative-whole-health-okotoks",
+  "treatment_id": "restorative-whole-health-okotoks--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Gait & Running Analysis",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://restorativesportstherapy.janeapp.com/locations/restorative-sports-therapy-okotoks-location/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "restorative-whole-health-okotoks",
   "treatment_id": "restorative-whole-health-okotoks--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
@@ -28366,6 +30214,132 @@
   "price_source": "No shockwave or physiotherapy price is published on the clinic's own Burlington website.",
   "price_tier": null,
   "treatment_link": "https://www.sheddonphysio-burlington.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sheddon-physiotherapy-oakville",
+  "treatment_id": "sheddon-physiotherapy-oakville--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Erin Shapcott; Liam Munshi",
+  "practitioners": [
+   {
+    "as_recorded": "Erin Shapcott, TPI-certified physiotherapist - performs the TPI Golf Assessment per the clinic's own Fit Fore Golf page; registered physiotherapist working in Orthopaedics since 2009 per the clinic's site",
+    "id": "sheddon-physiotherapy-oakville--erin-shapcott",
+    "name": "Erin Shapcott"
+   },
+   {
+    "as_recorded": "Liam Munshi, TPI-certified physiotherapist - performs the TPI Golf Assessment per the clinic's own Fit Fore Golf page",
+    "id": "sheddon-physiotherapy-oakville--liam-munshi",
+    "name": "Liam Munshi"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No golf assessment fee (or service fee list) is published on the clinic's own site - its pages direct patients to contact the clinic directly for specific pricing information - so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.sheddonphysio.com/fit-fore-golf/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sheddon-physiotherapy-oakville",
+  "treatment_id": "sheddon-physiotherapy-oakville--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.sheddonphysio.com/womens-health/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sheddon-physiotherapy-oakville",
+  "treatment_id": "sheddon-physiotherapy-oakville--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No running gait analysis fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.sheddonphysio.com/gait-analysis-for-runners-in-oakville-prevent-injuries-and-improve-your-stride/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sheddon-physiotherapy-oakville",
+  "treatment_id": "sheddon-physiotherapy-oakville--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.sheddonphysio.com/vestibular-rehabilitation/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sheddon-sports-clinic-oakville",
+  "treatment_id": "sheddon-sports-clinic-oakville--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Erin Shapcott, Liam Munshi",
+  "practitioners": [
+   {
+    "as_recorded": "Erin Shapcott - TPI-certified physiotherapist, Sheddon Physiotherapy and Sports Clinic; the clinic's Fit Fore Golf page states 'Our TPI-certified physiotherapists, Erin Shapcott and Liam Munshi, perform the assessment' (TPI Level 1 completed, Level 2 in progress per the clinic's golf pages)",
+    "id": "sheddon-sports-clinic-oakville--erin-shapcott",
+    "name": "Erin Shapcott"
+   },
+   {
+    "as_recorded": "Liam Munshi - Registered Physiotherapist listed on the OAA Oakville location team page; TPI-certified per the clinic's Fit Fore Golf page",
+    "id": "sheddon-sports-clinic-oakville--liam-munshi",
+    "name": "Liam Munshi"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees published on the clinic's own website; the clinic's Juvonno booking portal (sheddonsports.juvonno.com) rendered no service or fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.sheddonphysio.com/fit-fore-golf/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sheddon-sports-clinic-oakville",
+  "treatment_id": "sheddon-sports-clinic-oakville--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees published on the clinic's own website; the clinic's Juvonno booking portal rendered no service or fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.sheddonphysio.com/womens-health/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sheddon-sports-clinic-oakville",
+  "treatment_id": "sheddon-sports-clinic-oakville--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees published on the clinic's own website; the clinic's Juvonno booking portal rendered no service or fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.sheddonphysio.com/shockwave-therapy-for-pain-relief/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sheddon-sports-clinic-oakville",
+  "treatment_id": "sheddon-sports-clinic-oakville--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees published on the clinic's own website; the clinic's Juvonno booking portal rendered no service or fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.sheddonphysio.com/fall-prevention-month-in-canada-how-sheddon-physiotherapy-sports-clinic-helps-keep-you-safe-and-strong/",
   "last_verified": "2026-11-01"
  },
  {
@@ -31996,6 +33970,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "town-psychological-services-oakville",
+  "treatment_id": "town-psychological-services-oakville--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's own FAQ states therapy fees in Ontario vary depending on the type of service and therapist and invites readers to contact the clinic directly for pricing; no fee is published, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://townpsychology.ca/couples-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "trafalgar-physiotherapy-pt-health-oakville",
   "treatment_id": "trafalgar-physiotherapy-pt-health-oakville--clinical-pilates",
   "treatment": null,
@@ -32013,6 +34000,49 @@
   "price_tier": null,
   "treatment_link": "https://www.pthealth.ca/clinic/trafalgar-physiotherapy-pt-health/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "trafalgar-physiotherapy-pt-health-oakville",
+  "treatment_id": "trafalgar-physiotherapy-pt-health-oakville--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Jessica Ly, Mariam Guirguis",
+  "practitioners": [
+   {
+    "as_recorded": "Jessica Ly - Physiotherapist (MSc Physiotherapy, McMaster University); rostered pelvic physiotherapist treating incontinence, prolapse, pelvic girdle pain and pregnancy/post-natal dysfunction, per the clinic's own pt Health page",
+    "id": "trafalgar-physiotherapy-pt-health-oakville--jessica-ly",
+    "name": "Jessica Ly"
+   },
+   {
+    "as_recorded": "Mariam Guirguis - Physiotherapist (bachelor's in physiotherapy, Cairo University 2006) specializing in pelvic health therapy, with specialized training in assessing and treating pelvic floor issues, per the clinic's own pt Health page",
+    "id": "trafalgar-physiotherapy-pt-health-oakville--mariam-guirguis",
+    "name": "Mariam Guirguis"
+   }
+  ],
+  "price_text": null,
+  "price_source": "pt Health publishes no fee list for this clinic on its clinic page or booking portal extracts, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/trafalgar-physiotherapy-pt-health/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "trafalgar-physiotherapy-pt-health-oakville",
+  "treatment_id": "trafalgar-physiotherapy-pt-health-oakville--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Alex Singh",
+  "practitioners": [
+   {
+    "as_recorded": "Alex Singh - Physiotherapist (MScPT, University of Toronto 2010); certified in vestibular rehabilitation, having completed Vestibular Rehabilitation: A Competency Based Course at Emory University, per the clinic's own pt Health page",
+    "id": "trafalgar-physiotherapy-pt-health-oakville--alex-singh",
+    "name": "Alex Singh"
+   }
+  ],
+  "price_text": null,
+  "price_source": "pt Health publishes no fee list for this clinic on its clinic page or booking portal extracts, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/trafalgar-physiotherapy-pt-health/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "treloar-physiotherapy-cambie-vancouver",
@@ -32459,6 +34489,19 @@
   "price_source": "https://urbanretreat.ca/services/ \u2014 'Lymphatic Flow with Therapeutic Massage' is listed under Enhanced Treatments (+$25 over base massage): 60 min $174, 75 min $199, 90 min $224, before HST. The Lymphatic Flow page confirms it is 'Available as a 60, 75, or 90-minute enhanced treatment.'",
   "price_tier": "booking",
   "treatment_link": "https://urbanretreat.ca/lymphatic-flow-massage/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "urospot-oakville",
+  "treatment_id": "urospot-oakville--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://urospot.com/oakville/",
   "last_verified": "2026-11-01"
  },
  {
