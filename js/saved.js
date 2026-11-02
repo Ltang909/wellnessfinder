@@ -28,6 +28,21 @@
     else { try { localStorage.setItem(k, v); } catch (_) {} }
   }
 
+  /* ---------- per-clinic management meta (status + private note) ---------- */
+  var META_KEY = "wf_saved_meta";
+  function metaAll() {
+    try { return JSON.parse(localStorage.getItem(META_KEY)) || {}; } catch (_) { return {}; }
+  }
+  function metaFor(name) { return metaAll()[name] || {}; }
+  function setMeta(name, patch) {
+    var m = metaAll();
+    var cur = m[name] || {};
+    for (var k in patch) cur[k] = patch[k];
+    m[name] = cur;
+    storeSet(META_KEY, JSON.stringify(m));
+  }
+  var STATUSES = ["Shortlisted", "Contacted", "Booked", "Done"];
+
   /* ---------- helpers ---------- */
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
@@ -87,12 +102,35 @@
 
   function clinicCard(item) {
     var c = item.clinic;
-    return '<article class="saved-card">'
+    var meta = metaFor(c.name);
+    var media = (typeof CLINIC_MEDIA !== "undefined" && CLINIC_MEDIA[c.name]) || {};
+    var photo = media.img
+      ? '<div class="saved-card-photo"><img src="' + esc(media.img) + '" alt="" loading="lazy"></div>' : "";
+    var book = c.book || media.link || "";
+    var maps = "https://www.google.com/maps/search/?api=1&query="
+      + encodeURIComponent(c.name + " " + (c.loc || c.city || ""));
+    var msg = "Hi " + c.name + ", I found your clinic on WellFinder. I'm interested in "
+      + item.treatment + (c.billed ? " (billed as " + c.billed + ")" : "")
+      + ". Could you confirm whether you direct-bill insurance for it, and what a first session costs? Thanks!";
+    var status = meta.status || "Shortlisted";
+    var opts = STATUSES.map(function (st) {
+      return '<option value="' + st + '"' + (st === status ? " selected" : "") + ">" + st + "</option>";
+    }).join("");
+    return '<article class="saved-card">' + photo
       + '<div class="saved-card-body"><p class="eyebrow">' + esc(item.treatment) + "</p><h2>" + esc(c.name) + "</h2>"
-      + "<p>" + esc(c.city || "") + "</p>"
+      + '<p class="saved-meta">' + esc(c.loc || c.city || "") + "</p>"
       + (c.note ? '<div class="saved-coverage">' + esc(c.note) + "</div>" : "")
-      + '<div class="saved-card-actions">'
+      + '<div class="saved-contact">'
+      + (book ? '<a href="' + esc(book) + '" target="_blank" rel="noopener">Book</a>' : "")
       + (c.web ? '<a href="' + esc(c.web) + '" target="_blank" rel="noopener">Website</a>' : "")
+      + '<a href="' + maps + '" target="_blank" rel="noopener">Directions</a>'
+      + '<button type="button" data-copy-msg="' + esc(msg) + '">Copy message</button></div>'
+      + '<div class="saved-manage"><label>Status <select data-status-for="' + esc(c.name)
+      + '" aria-label="Status for ' + esc(c.name) + '">' + opts + "</select></label>"
+      + '<textarea class="saved-note" data-note-for="' + esc(c.name)
+      + '" placeholder="Private note — calls, prices quoted, who you spoke to" aria-label="Note for '
+      + esc(c.name) + '">' + esc(meta.note || "") + "</textarea></div>"
+      + '<div class="saved-card-actions">'
       + '<button type="button" data-unsave="' + esc(c.name) + '">Remove</button></div>'
       + "</div></article>";
   }
@@ -204,6 +242,31 @@
     }
     render();
   });
+  document.addEventListener("click", function (e) {
+    var cp = e.target.closest("[data-copy-msg]");
+    if (!cp) return;
+    var text = cp.getAttribute("data-copy-msg");
+    function done() {
+      cp.textContent = "Copied \u2713";
+      cp.classList.add("copied");
+      setTimeout(function () { cp.textContent = "Copy message"; cp.classList.remove("copied"); }, 1800);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, done);
+    } else {
+      var ta = document.createElement("textarea");
+      ta.value = text; document.body.appendChild(ta); ta.select();
+      try { document.execCommand("copy"); } catch (_) {}
+      ta.remove(); done();
+    }
+  });
+  document.addEventListener("change", function (e) {
+    var sel = e.target.closest("[data-status-for]");
+    if (sel) { setMeta(sel.getAttribute("data-status-for"), { status: sel.value }); return; }
+    var ta = e.target.closest("[data-note-for]");
+    if (ta) setMeta(ta.getAttribute("data-note-for"), { note: ta.value });
+  });
+
   if (clear) clear.addEventListener("click", function () {
     storeSet(FAV_KEY, "[]");
     render();

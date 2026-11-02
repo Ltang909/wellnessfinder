@@ -304,7 +304,9 @@
   };
 
   function fsCardHTML(t) {
+    const fsSaved = getFavs().includes(t.name);
     return `<article class="fs-card">
+      <button class="fav-btn ${fsSaved ? "saved" : ""}" data-fav="${esc(t.name)}" aria-label="Save ${esc(t.name)}" aria-pressed="${fsSaved}">${HEART}</button>
       <img src="${esc(fsImg(t))}" alt="${esc(t.name)}" loading="lazy">
       <h3>${esc(t.name)} <span class="fs-arr">\u2192</span></h3>
       <p class="fs-desc">${esc(fsDesc(t))}</p>
@@ -491,7 +493,9 @@
         ? `<a class="fc-btn" href="${esc(media.link || c.book || c.web || "#")}" target="_blank" rel="noopener">View clinic</a>`
         : `<span class="fc-btn">View clinic</span>`;
       const photo = media.img ? `<img src="${esc(media.img)}" alt="${esc(c.name)}">` : "";
+      const fcSaved = getFavs().includes(c.name);
       return `<article class="fc-card ${k === 0 ? "fc-card--active" : "fc-card--side"}${media.img ? "" : " fc-card--text"}" ${k === 0 ? "" : `data-fc-jump="${k}" role="button" tabindex="0" aria-label="Show ${esc(c.name)}"`}>
+            <button class="fav-btn ${fcSaved ? "saved" : ""}" data-fav="${esc(c.name)}" aria-label="Save ${esc(c.name)}" aria-pressed="${fcSaved}">${HEART}</button>
             <h3>${esc(c.name)}</h3>
             <p class="fc-city">${esc(c.city || "")}${c.prov ? `, ${esc(c.prov)}` : ""}</p>
             ${annItem.d !== null && annItem.d !== undefined ? `<p class="fc-dist">📍 ${annItem.d < 1 ? "<1" : Math.round(annItem.d)} km away</p>` : ""}
@@ -522,6 +526,7 @@
     if (!root.dataset.wired) {
       root.dataset.wired = "1";
       root.addEventListener("click", (e) => {
+        if (e.target.closest(".fav-btn")) { setTimeout(() => renderFeaturedClinics(), 0); return; }
         const sw = e.target.closest("[data-fc-treat]");
         if (sw) { fcTreatment = sw.dataset.fcTreat; fcIndex = 0; renderFeaturedClinics(); return; }
         const nav = e.target.closest("[data-fc-nav]");
