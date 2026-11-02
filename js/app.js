@@ -787,7 +787,7 @@
   const PROV_KEY = "wf_province";
   const PROVINCES = [["ON", "Ontario"], ["QC", "Quebec"], ["BC", "British Columbia"], ["AB", "Alberta"], ["MB", "Manitoba"], ["SK", "Saskatchewan"], ["NS", "Nova Scotia"], ["NB", "New Brunswick"], ["NL", "Newfoundland and Labrador"], ["PE", "Prince Edward Island"], ["YT", "Yukon"], ["NT", "Northwest Territories"], ["NU", "Nunavut"]];
   const FSA_PROV = { A: "NL", B: "NS", C: "PE", E: "NB", G: "QC", H: "QC", J: "QC", K: "ON", L: "ON", M: "ON", N: "ON", P: "ON", R: "MB", S: "SK", T: "AB", V: "BC", X: "NT", Y: "YT" };
-  const provName = (code) => (PROVINCES.find((p) => p[0] === code) || [code, code])[1];
+  const provName = (code) => (code === "CA" ? "Canada" : (PROVINCES.find((p) => p[0] === code) || [code, code])[1]);
   const wfProv = {
     get() { try { return localStorage.getItem(PROV_KEY) || ""; } catch { return ""; } },
     set(v) {
@@ -806,7 +806,7 @@
     bar.className = "loc-bar";
     header.insertAdjacentElement("afterend", bar);
     const formHTML = (val, prov) =>
-      `<form class="loc-form" data-loc-form><select name="province" aria-label="Province"><option value="">Province</option>${PROVINCES.map(([code, nm]) => `<option value="${code}"${code === prov ? " selected" : ""}>${nm}</option>`).join("")}</select><input name="postal" placeholder="Postal code" autocomplete="postal-code" aria-label="Postal code" value="${esc(val || "")}"><button class="btn btn--primary btn--sm" type="submit">Set location</button></form>`;
+      `<form class="loc-form" data-loc-form><select name="province" aria-label="Province"><option value="">Province</option><option value="CA"${prov === "CA" ? " selected" : ""}>Canada</option>${PROVINCES.map(([code, nm]) => `<option value="${code}"${code === prov ? " selected" : ""}>${nm}</option>`).join("")}</select><input name="postal" placeholder="Postal code" autocomplete="postal-code" aria-label="Postal code" value="${esc(val || "")}"><button class="btn btn--primary btn--sm" type="submit">Set location</button></form>`;
     /* Three states: no postal code -> full bottom banner with the
        form; postal saved -> collapsed to a floating pill in the
        bottom-right corner; editing (pill tapped) -> banner reopens
@@ -819,7 +819,7 @@
       if ((p || prov) && !editing) {
         bar.classList.add("is-pill");
         document.body.classList.remove("has-loc-banner");
-        const label = [prov, p ? p.toUpperCase() : ""].filter(Boolean).join(" · ");
+        const label = prov === "CA" && !p ? "Canada" : [prov === "CA" ? "" : prov, p ? p.toUpperCase() : ""].filter(Boolean).join(" · ");
         bar.innerHTML = `<button type="button" class="loc-pill" data-loc-edit aria-label="Your location is ${esc(label)}. Tap to change it">📍 ${esc(label)}</button>`;
       } else {
         bar.classList.remove("is-pill");
@@ -846,6 +846,13 @@
       let prov = sel ? sel.value : "";
       if (v && !wfLoc.valid(v)) { input.focus(); return; }
       if (!v && !prov) { if (sel) sel.focus(); return; }
+      if (prov === "CA" && !v) {
+        wfLoc.set(""); wfLoc.reset(); wfProv.set("CA");
+        editing = false; render();
+        window.dispatchEvent(new CustomEvent("wf:location"));
+        return;
+      }
+      if (prov === "CA") prov = "";
       if (v) {
         wfLoc.set(v); wfLoc.reset();
         if (!prov) prov = FSA_PROV[v[0]] || "";
