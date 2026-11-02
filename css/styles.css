@@ -1251,8 +1251,10 @@ a.nc-slot-chip:hover { border-color: #0F2D2B; background: #F4F6F3; }
    the Book button steps back to a plain outline on directory rows. */
 .tp-list .nc-btn-book { background: #fff; border: 1.5px solid #c4ccc5; color: #161616; }
 .tp-list .nc-btn-book:hover { border-color: #0F2D2B; }
-.nc-slot-chip { background: #FFCE45; border-color: #FFCE45; }
-a.nc-slot-chip:hover { background: #F2C230; border-color: #F2C230; }
-.nc-slot-opt .nc-slot-mail { opacity: .9; display: inline-flex; align-items: center; }
-.nc-slot-opt .nc-slot-mail:hover { opacity: 1; }
-.nc-slot-mail svg { display: block; }
+.nc-slot-chip { background: #fff; border: 2px solid #FFCE45; }
+a.nc-slot-chip:hover { background: #FFF6D8; border-color: #FFCE45; }
+.nc-btn-gmail { background: #fff; border: 1.5px solid #c4ccc5; display: inline-flex; align-items: center; justify-content: center; }
+.nc-btn-gmail:hover { border-color: #0F2D2B; }
+.nc-btn-gmail svg { display: block; }
+.tp-list .nc-card { align-items: flex-start; }
+.nc-slot-t .nc-verified { margin-left: 2px; }

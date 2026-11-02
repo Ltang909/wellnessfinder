@@ -183,6 +183,7 @@
   }
 
   const HEART = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.5 1-1a5.5 5.5 0 0 0 0-7.9Z"/></svg>`;
+  const GMAIL_ICON = `<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M2 8.2v11.3A1.5 1.5 0 0 0 3.5 21h3V10.6z" fill="#4285F4"/><path d="M6.5 10.6L12 15.6l5.5-5V6.1L12 11.1 6.5 6.1z" fill="#EA4335"/><path d="M17.5 10.6V21h3a1.5 1.5 0 0 0 1.5-1.5V8.2z" fill="#FBBC04"/></svg>`;
 
   /* Useful facts for the More details panel: typical cost range and,
      where the data knows it, how many listed clinics direct bill. */
@@ -1286,7 +1287,8 @@
     else if (media.price) price = media.price;
     else if (c.price && c.price.indexOf("$") > -1) price = c.price;
     let priceHTML = "", noteHTML = "";
-    if (price) {
+    const hasSlots = !!(slot && (slot.a || slot.i || slot.f));
+    if (price && !hasSlots) {
       priceHTML = `<p class="nc-price">${esc(price)}</p>`;
       if (pair && pair.t === "booking") noteHTML = `<span class="nc-verified"><i>✓</i> Verified on booking page</span>`;
       else if (pair && pair.t === "website") noteHTML = `<span class="nc-price-note">Price from clinic website</span>`;
@@ -1321,7 +1323,8 @@
     /* actions */
     const book = media.link || c.book || (X && X.b) || (pair && pair.l) || "";
     const web = c.web || (X && X.w) || "";
-    const actions = `<div class="nc-actions">${book ? `<a class="nc-btn nc-btn-book" href="${esc(book)}" target="_blank" rel="noopener">Book appointment</a>` : ""}${web ? `<a class="nc-btn nc-btn-web" href="${esc(web)}" target="_blank" rel="noopener">Website ↗</a>` : ""}</div>`;
+    let gmailBtn = "";
+    let actions = "";
 
     /* live openings, ClassPass-style: one line per slot — service title +
        that slot's price, then the date and time. The line links to the
@@ -1346,13 +1349,14 @@
         if (t.length > 36) t = t.slice(0, 33).replace(/\s+\S*$/, "") + "\u2026";
         return t;
       };
-      const GMAIL_ICON = `<svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M2 8.2v11.3A1.5 1.5 0 0 0 3.5 21h3V10.6z" fill="#4285F4"/><path d="M6.5 10.6L12 15.6l5.5-5V6.1L12 11.1 6.5 6.1z" fill="#EA4335"/><path d="M17.5 10.6V21h3a1.5 1.5 0 0 0 1.5-1.5V8.2z" fill="#FBBC04"/></svg>`;
-      const mailFor = (s, title, pricePart) => {
-        if (!em) return "";
-        const subj = `${title} — ${s.d} at ${s.t} (${c.name})`;
-        const body = `Hi ${c.name} team,\n\nI found your clinic on WellFinder.ca and saw an opening for ${title}${title !== T ? ` (${T})` : ""}${billed ? `, billed as ${billed}` : ""}, on ${s.d} at ${s.t}${pricePart ? `, listed at ${pricePart}` : ""}.\n\nIs this time still available? I would like to ask for more information before booking.\n\nThank you`;
-        return `<a class="nc-slot-mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(em)}&su=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}" target="_blank" rel="noopener" aria-label="Email ${esc(c.name)} via Gmail about this slot" title="Email the clinic via Gmail about this slot">${GMAIL_ICON}</a>`;
-      };
+if (em) {
+        const nk = slot.a ? "a" : slot.i ? "i" : "f";
+        const nslot = (slot[nk].list && slot[nk].list[0]) || slot[nk];
+        const ntitle = titleFor(slot[nk], nk);
+        const gsubj = `${T} at ${c.name} \u2014 asking about your next opening`;
+        const gbody = `Hi ${c.name} team,\n\nI found your clinic on WellFinder.ca while looking for ${T}${billed ? `, billed as ${billed}` : ""}, in ${c.city}.\n\nYour next opening showing on WellFinder is ${ntitle} on ${nslot.d} at ${nslot.t}. Is that time still available? I would like to ask for more information before booking.\n\nThank you`;
+        gmailBtn = `<a class="nc-btn nc-btn-gmail" href="https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(em)}&su=${encodeURIComponent(gsubj)}&body=${encodeURIComponent(gbody)}" target="_blank" rel="noopener" aria-label="Email ${esc(c.name)} via Gmail" title="Email the clinic via Gmail">${GMAIL_ICON}</a>`;
+      }
       const blockFor = (s, kind) => {
         const title = titleFor(s, kind);
         const pricePart = priceFor(kind);
@@ -1361,9 +1365,10 @@
         const chips = rawChips.filter((ch) => { const k = ch.d + "|" + ch.t; if (seenChips.has(k)) return false; seenChips.add(k); return true; }).slice(0, 8);
         const opts = chips.map((ch) => {
           const chip = book ? `<a class="nc-slot-chip" href="${esc(book)}" target="_blank" rel="noopener" title="Book this slot on the clinic's booking page">${ch.d} &middot; ${ch.t}</a>` : `<span class="nc-slot-chip">${ch.d} &middot; ${ch.t}</span>`;
-          return `<span class="nc-slot-opt">${chip}${mailFor(ch, title, pricePart)}</span>`;
+          return `<span class="nc-slot-opt">${chip}</span>`;
         }).join("");
-        return `<div class="nc-slot"><p class="nc-slot-t"><span class="nc-slot-title">${esc(title)}</span>${pricePart ? `<span class="nc-slot-price">${esc(pricePart)}</span>` : ""}</p><p class="nc-slot-c">${opts}</p></div>`;
+        const linePrice = pricePart ? `<span class="nc-slot-price">${esc(pricePart)}</span>${pair && pair.t === "booking" ? `<span class="nc-verified"><i>\u2713</i> Verified on booking page</span>` : ""}` : "";
+        return `<div class="nc-slot"><p class="nc-slot-t"><span class="nc-slot-title">${esc(title)}</span>${linePrice}</p><p class="nc-slot-c">${opts}</p></div>`;
       };
       const rows = [];
       if (slot.a) rows.push(blockFor(slot.a, "a"));
@@ -1380,6 +1385,7 @@
       }
     }
 
+    actions = `<div class="nc-actions">${book ? `<a class="nc-btn nc-btn-book" href="${esc(book)}" target="_blank" rel="noopener">Book appointment</a>` : ""}${web ? `<a class="nc-btn nc-btn-web" href="${esc(web)}" target="_blank" rel="noopener">Website \u2197</a>` : ""}${gmailBtn}</div>`;
     return `<article class="nc-card">
       ${gallery}
       <div class="nc-main">
