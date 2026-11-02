@@ -1153,3 +1153,32 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .fc-btn-book { background: #FFCE45; color: #161616; }
 .fc-btn-web { background: #fff; border: 1.5px solid #0F2D2B; color: #0F2D2B; padding: 9.5px 16px; }
 .fc-card--side .fc-btns .fc-btn { filter: grayscale(1); }
+
+/* Minipage clinic lists: long horizontal rows (Leon's direction) —
+   small photo on the left, all the info on the right, ~5 per view. */
+.tp-list .nc-grid { display: flex; flex-direction: column; gap: 12px; }
+.tp-list .nc-card { flex-direction: row; }
+.tp-list .nc-gallery { width: 184px; aspect-ratio: auto; }
+.tp-list .nc-tile span { font-size: 3.2rem; }
+.tp-list .nc-main { display: flex; flex-flow: row wrap; align-content: flex-start; align-items: center; column-gap: 10px; row-gap: 4px; padding: 10px 16px 11px; }
+.tp-list .nc-head { flex: 1 1 100%; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; min-width: 0; }
+.tp-list .nc-name { height: auto; -webkit-line-clamp: 1; font-size: 1.08rem; flex: 1; min-width: 0; }
+.tp-list .nc-rating { height: auto; line-height: 1.2; margin-top: 0; white-space: nowrap; }
+.tp-list .nc-addr { flex: 1 1 100%; height: auto; }
+.tp-list .nc-desc { flex: 1 1 100%; height: 21px; -webkit-line-clamp: 1; font-size: .92rem; line-height: 1.42; }
+.tp-list .nc-price { flex: 0 0 auto; }
+.tp-list .nc-note { flex: 0 0 auto; height: 22px; }
+.tp-list .nc-dbrow { flex: 0 0 auto; height: auto; margin-left: auto; }
+.tp-list .nc-today { flex: 0 0 auto; height: auto; }
+.tp-list .nc-more { margin-left: 10px; }
+.tp-list .nc-week { flex: 1 1 100%; }
+.tp-list .nc-actions { flex: 0 0 auto; margin-left: auto; margin-top: 0; padding-top: 0; }
+.tp-list .nc-btn { padding: 8px 13px; }
+.tp-list .nc-btn-book { flex: 0 0 auto; }
+@media (max-width: 640px) {
+  .tp-list .nc-card { flex-direction: column; }
+  .tp-list .nc-gallery { width: 100%; aspect-ratio: 4 / 2.1; }
+  .tp-list .nc-desc { height: auto; -webkit-line-clamp: 2; }
+  .tp-list .nc-dbrow { margin-left: 0; }
+  .tp-list .nc-actions { margin-left: 0; }
+}
