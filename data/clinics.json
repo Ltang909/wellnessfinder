@@ -1225,6 +1225,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Ashley Abbs",
+  "clinic_id": "ashley-abbs-calgary",
+  "address": "522 30 Avenue Northeast",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2E 2E3",
+  "phone": null,
+  "website": "https://www.ashleyabbs.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "At Ease Nutrition",
   "clinic_id": "at-ease-nutrition-toronto",
   "address": "18 King St W",
@@ -1875,6 +1900,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Best Choice Counselling",
+  "clinic_id": "best-choice-counselling-calgary",
+  "address": "#300, 4838 Richard Rd SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T3E 6L1",
+  "phone": "(403) 333-0092",
+  "website": "https://bestchoicecounselling.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 8:00 PM",
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Better Bodies by Massage",
   "clinic_id": "better-bodies-by-massage-antigonish",
   "address": "59 Beech Hill Rd #4",
@@ -2050,6 +2100,31 @@
   "last_verified": null
  },
  {
+  "name": "Bluebird Psychology",
+  "clinic_id": "bluebird-psychology-calgary",
+  "address": "Suite 277, 200 Rivercrest Drive SE",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2C 2X5",
+  "phone": "(587) 288-6884",
+  "website": "https://www.bluebirdpsychology.ca/",
+  "booking_page": "https://bluebirdpsychology.janeapp.com",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Body & Mind Osteopathic Clinic",
   "clinic_id": "body-mind-osteopathic-clinic-toronto",
   "address": "217 Finch Ave W, Unit B",
@@ -2072,6 +2147,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Body and Soul Massage Therapy",
+  "clinic_id": "body-and-soul-massage-therapy-calgary",
+  "address": "813 4 Ave SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2P 0K5",
+  "phone": "587-912-2126",
+  "website": "https://www.bnsmassage.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM - 8:00 PM",
+   "mon": "10:00 AM - 8:00 PM",
+   "sat": "10:00 AM - 8:00 PM",
+   "sun": "10:00 AM - 5:00 PM",
+   "thu": "10:00 AM - 8:00 PM",
+   "tue": "10:00 AM - 8:00 PM",
+   "wed": "10:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -2223,6 +2323,56 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Bridgeland Acupuncture and Wellness",
+  "clinic_id": "bridgeland-acupuncture-and-wellness-calgary",
+  "address": "#205, 736 1 Ave NE",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "(587) 437-4427",
+  "website": "http://www.bridgelandacupunctureandwellness.com/",
+  "booking_page": "https://bridgelandacupunctureandwellness.janeapp.com",
+  "hours": {
+   "fri": "9:00 AM - 2:00 PM",
+   "mon": "10:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "10:00 AM - 6:00 PM",
+   "tue": "11:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Bridgeland Dental Care",
+  "clinic_id": "bridgeland-dental-care-calgary",
+  "address": "939 General Ave NE",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2E 9E1",
+  "phone": "403-262-1581",
+  "website": "https://bridgelanddentalcare.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "7:00 AM - 3:00 PM",
+   "mon": "7:00 AM - 3:00 PM",
+   "sat": "8:00 AM - 4:00 PM",
+   "sun": "Closed",
+   "thu": "7:00 AM - 3:00 PM",
+   "tue": "11:00 AM - 7:00 PM",
+   "wed": "11:00 AM - 7:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 31,
+  "rating_source": "Google Places details in search results (2026-11-01): rating 4.9 based on 31 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Brittany Wade Physiotherapy",
@@ -2475,6 +2625,31 @@
   "last_verified": null
  },
  {
+  "name": "CY Physiotherapy and Vestibular Rehabilitation",
+  "clinic_id": "cy-physiotherapy-and-vestibular-rehabilitation-calgary",
+  "address": "#150, 6700 Macleod Trail SE (inside the Chinook ENT Surgeons office)",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-539-3762",
+  "website": "https://cyphysiotherapy.com/",
+  "booking_page": "https://cyphysiotherapy.janeapp.com/locations/cy-physiotherapy-and-vestibular-rehabilitation/book",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Cabinet Holistique",
   "clinic_id": "cabinet-holistique-montreal",
   "address": "530 Rue Beaubien E",
@@ -2550,6 +2725,81 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Calgary Core Physiotherapy",
+  "clinic_id": "calgary-core-physiotherapy-calgary",
+  "address": "605 8 Ave SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2P 0A4",
+  "phone": "(403) 455-4010",
+  "website": "https://www.calgarycorephysio.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "6:15 AM - 5:00 PM",
+   "mon": "6:15 AM - 7:00 PM",
+   "sat": "8:00 AM - 12:00 PM",
+   "sun": "Closed",
+   "thu": "6:15 AM - 7:00 PM",
+   "tue": "6:15 AM - 7:00 PM",
+   "wed": "6:15 AM - 7:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 633,
+  "rating_source": "Clinic's own website FAQ page displays a Google reviews summary ('5.0 / 5 \u2014 633 Reviews') beside an 'Open in Google Maps' link (read 2026-11-01).",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Calgary Mind & Wellness Clinic",
+  "clinic_id": "calgary-mind-wellness-clinic-calgary",
+  "address": "301 14 Street NW, Suite 302A",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2N 1Z7",
+  "phone": "780-978-9010",
+  "website": "https://calgarymindclinic.ca/",
+  "booking_page": "https://calgarymindclinic.janeapp.com",
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Calgary Mind Clinic",
+  "clinic_id": "calgary-mind-clinic-calgary",
+  "address": "301 14 Street NW, Suite 302A",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2N 1Z7",
+  "phone": "780-978-9010",
+  "website": "https://calgarymindclinic.ca/",
+  "booking_page": "https://calgarymindclinic.janeapp.com",
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Calgary Pelvic Floor Physiotherapy",
   "clinic_id": "calgary-pelvic-floor-physiotherapy-calgary",
   "address": "45 Greenbriar Dr NW #213",
@@ -2573,6 +2823,56 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Calgary Psychological Services",
+  "clinic_id": "calgary-psychological-services-calgary",
+  "address": "#277, 200 Rivercrest Dr SE",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2C 2X5",
+  "phone": "587-880-1345",
+  "website": "http://www.calgarypsychservices.com/",
+  "booking_page": "https://cascarapsychology.janeapp.com/locations/calgary-psychological-services-655c4063-4fa9-45c8-847f-0355c477d199/book",
+  "hours": {
+   "fri": "9:00 AM - 6:00 PM",
+   "mon": "9:00 AM - 6:00 PM",
+   "sat": "10:00 AM - 4:00 PM",
+   "sun": "10:00 AM - 4:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Calgary West SLP Team",
+  "clinic_id": "calgary-west-slp-team-calgary",
+  "address": "#1, 51 W Coach Manor SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "(587) 543-0434",
+  "website": "https://www.calgarywestslp.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:30 AM - 5:00 PM",
+   "mon": "8:30 AM - 5:00 PM",
+   "sat": "10:00 AM - 3:00 PM",
+   "sun": null,
+   "thu": "8:30 AM - 7:00 PM",
+   "tue": "8:30 AM - 7:00 PM",
+   "wed": "8:30 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Can't We Just Get Along Counselling",
@@ -2623,6 +2923,31 @@
   "rating_source": "Clinic's own homepage (https://www.nutritionistottawa.com/), Aggregate Reviews section: 'Google Reviews 4.9\u2605\u2605\u2605\u2605\u2605 \u00b7 220+ reviews' under the heading '4.9 across Google, RateMDs, and Facebook'; recorded as 4.9 with 220 reviews (site states 220+). The site's header banner separately claims 4.9/5 from 350+ Ottawa clients across platforms, which was not used as the Google count.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Caring Hands Physiotherapy",
+  "clinic_id": "caring-hands-physiotherapy-calgary",
+  "address": "55 Castleridge Blvd NE #164",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T3J 3J8",
+  "phone": "403-455-9696",
+  "website": "https://www.caringhandsphysio.com/",
+  "booking_page": "https://www.caringhandsphysio.com/physiotherapy-in-falconridge/",
+  "hours": {
+   "fri": "8:30 AM \u2013 8:00 PM",
+   "mon": "8:30 AM \u2013 8:00 PM",
+   "sat": "9:00 AM \u2013 2:00 PM",
+   "sun": "Closed",
+   "thu": "8:30 AM \u2013 8:00 PM",
+   "tue": "8:30 AM \u2013 8:00 PM",
+   "wed": "8:30 AM \u2013 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Carly Piercy RMT",
@@ -3473,6 +3798,31 @@
   "rating_source": "Google Places details (place_id 426078909554896)",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Connecta Health",
+  "clinic_id": "connecta-health-calgary",
+  "address": "5920 1A St SW, Unit 602",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2H 0G3",
+  "phone": "403-453-1990",
+  "website": "https://www.connectahealth.ca/",
+  "booking_page": "https://connectahealth.janeapp.com/",
+  "hours": {
+   "fri": "9:00 AM \u2013 7:00 PM",
+   "mon": "9:30 AM \u2013 3:00 PM",
+   "sat": "9:00 AM \u2013 2:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM \u2013 7:00 PM",
+   "tue": "9:00 AM \u2013 7:00 PM",
+   "wed": "9:00 AM \u2013 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Continuum Wellness",
@@ -4500,6 +4850,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Caitlin Batting",
+  "clinic_id": "dr-caitlin-batting-calgary",
+  "address": "4813 Centre Street North",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2E 2Z6",
+  "phone": "403-277-2330",
+  "website": "http://drcaitlinbatting.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM \u2013 4:00 PM",
+   "mon": "Closed",
+   "sat": "11:00 AM \u2013 3:00 PM",
+   "sun": "Closed",
+   "thu": "Closed",
+   "tue": "Closed",
+   "wed": "11:00 AM \u2013 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Celeste Quan",
+  "clinic_id": "dr-celeste-quan-calgary",
+  "address": "7171 80 Ave NE #337",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T3M 0P6",
+  "phone": "587-288-7547",
+  "website": "http://drcelestequan.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "2:00 PM \u2013 5:00 PM",
+   "mon": "2:00 PM \u2013 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": "2:00 PM \u2013 5:00 PM",
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Charlotte Rose",
   "clinic_id": "dr-charlotte-rose-vancouver",
   "address": "#618 - 808 Nelson Street",
@@ -4521,6 +4921,31 @@
   "google_rating": 5.0,
   "google_reviews": 27,
   "rating_source": "Google Places details in search results for Acupoint Wellness Centre (rating 5.0, based on 27 reviews) - the clinic where Dr. Rose practises; no separate Places listing for her personal practice was shown, flagged in gaps.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Christa Angell",
+  "clinic_id": "dr-christa-angell-calgary",
+  "address": "7722 Elbow Dr SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-243-8118",
+  "website": "http://christaangell.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -4925,6 +5350,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Julie Clark Naturopathic Doctor",
+  "clinic_id": "dr-julie-clark-naturopathic-doctor-calgary",
+  "address": "611 2 Ave SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2P 1N9",
+  "phone": "587-353-5933",
+  "website": "https://theclinicyyc.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 4:00 PM",
+   "mon": "9:00 AM \u2013 6:00 PM",
+   "sat": "By Appointment",
+   "sun": "Closed",
+   "thu": "8:00 AM \u2013 6:00 PM",
+   "tue": "8:00 AM \u2013 6:00 PM",
+   "wed": "8:00 AM \u2013 6:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 55,
+  "rating_source": "Clinic's own website homepage (https://theclinicyyc.ca/, fetched 2026-11-01) displays 'Rating: 5/5 (55 ratings)' in its contact/business block; the fetched text does not explicitly label this badge as Google \u2014 see gaps.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Karen Ghelani",
   "clinic_id": "dr-karen-ghelani-markham",
   "address": "3621 Highway 7 East Suite 408",
@@ -4950,6 +5400,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Keltie Pratt",
+  "clinic_id": "dr-keltie-pratt-calgary",
+  "address": null,
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": null,
+  "website": "https://drkp.ca/",
+  "booking_page": "https://drkp.ca/self-referral/",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Lisa Knapper ND Naturopath Acupuncture",
   "clinic_id": "dr-lisa-knapper-nd-naturopath-acupuncture-burlington",
   "address": "920 Brant St #5",
@@ -4967,6 +5442,31 @@
    "fri": "11:00 AM - 2:00 PM",
    "sat": null,
    "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Mandy Milliquet Naturopathic Doctor",
+  "clinic_id": "dr-mandy-milliquet-naturopathic-doctor-calgary",
+  "address": "640 42 Ave NE #1",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-860-3444",
+  "website": "http://elevatefunctionalhealth.ca/",
+  "booking_page": "https://elevatefunctionalhealth.janeapp.com/locations/elevate-functional-health/book",
+  "hours": {
+   "fri": "8:00 AM \u2013 5:00 PM",
+   "mon": "8:00 AM \u2013 5:00 PM",
+   "sat": "9:00 AM \u2013 3:00 PM",
+   "sun": "9:00 AM \u2013 3:00 PM",
+   "thu": "8:00 AM \u2013 5:00 PM",
+   "tue": "8:00 AM \u2013 7:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -5350,6 +5850,31 @@
   "last_verified": null
  },
  {
+  "name": "Dr. Shannon Ferguson",
+  "clinic_id": "dr-shannon-ferguson-calgary",
+  "address": "5149 Country Hills Blvd NW #336",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-547-2243",
+  "website": "http://www.calgarynaturopathiccare.com/",
+  "booking_page": "https://countryhillsmassage.janeapp.com/",
+  "hours": {
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": "3:00 PM \u2013 9:00 PM",
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Simona Scurtu",
   "clinic_id": "dr-simona-scurtu-ajax",
   "address": "300 Rossland Rd E Ste 202",
@@ -5417,6 +5942,31 @@
    "fri": null,
    "sat": "10:00 AM - 3:00 PM",
    "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr.Janelle Albas",
+  "clinic_id": "dr-janelle-albas-calgary",
+  "address": "Suite #110 Main Floor, Watermark Tower, 530 8th Avenue SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2P 3S8",
+  "phone": "(403) 474-7792",
+  "website": "http://www.evolvechiro.ca/8th-ave-team/dr-janelle-albas/",
+  "booking_page": "https://evolvechiro1.janeapp.com/locations/evolve-8th-avenue/book",
+  "hours": {
+   "fri": "6:00 AM \u2013 6:00 PM",
+   "mon": "6:00 AM \u2013 6:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "6:00 AM \u2013 6:00 PM",
+   "tue": "6:00 AM \u2013 6:00 PM",
+   "wed": "6:00 AM \u2013 6:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -5897,6 +6447,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Enhanced Motion Inc.",
+  "clinic_id": "enhanced-motion-inc-calgary",
+  "address": "2204 2 St SW #120M",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2S 3C2",
+  "phone": "(403) 689-9660",
+  "website": "https://enhancedmotion.ca/osteopathy-calgary/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -6533,7 +7108,7 @@
   "postal": "T2P 4G6",
   "phone": "403-475-2120",
   "website": "https://gaiahealthcare.com/",
-  "booking_page": null,
+  "booking_page": "https://gaiahealthcare.com/appointment/",
   "hours": {
    "fri": "10:00 AM - 4:00 PM",
    "mon": "10:00 AM - 4:00 PM",
@@ -6547,7 +7122,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Gateways Counselling",
@@ -6573,6 +7148,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Genesis Physiotherapy",
+  "clinic_id": "genesis-physiotherapy-calgary",
+  "address": "7555 Falconridge Blvd NE #23",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T3J 0C9",
+  "phone": "403-453-2420",
+  "website": "https://www.genesisphysio.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 7:00 PM",
+   "mon": "9:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": 373,
+  "rating_source": "The clinic's own website carries a Trustindex Google reviews widget showing 373 reviews; the widget text captured did not expose a numeric average, so no average is recorded rather than substituting an aggregator figure.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Genest MacGillivray Psychologists",
@@ -6797,6 +7397,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Group23 Sports Medicine",
+  "clinic_id": "group23-sports-medicine-calgary",
+  "address": "130-147 Canada Olympic Road SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T3B 6B7",
+  "phone": "403-284-4040",
+  "website": "https://www.group23.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "7:00 AM - 7:00 PM",
+   "mon": "7:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "Closed",
+   "thu": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM"
+  },
+  "google_rating": 4.6,
+  "google_reviews": 32,
+  "rating_source": "Google Places listing for Group23 Sports Medicine (Winsport, place_id 3314539435533662) via search results, read 2026-11-01: 4.6 stars, 32 reviews.",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -7125,6 +7750,31 @@
   "last_verified": null
  },
  {
+  "name": "Healthflow Naturopathic Clinic",
+  "clinic_id": "healthflow-naturopathic-clinic-calgary",
+  "address": "2204 2 Street SW Unit 120M",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2S 3C2",
+  "phone": "403-313-4354",
+  "website": "https://www.healthflow.ca/",
+  "booking_page": "https://healthflow.janeapp.com/",
+  "hours": {
+   "fri": "10:00 AM - 6:00 PM",
+   "mon": "10:00 AM - 6:00 PM",
+   "sat": "By appointment only",
+   "sun": "Closed",
+   "thu": "10:00 AM - 6:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "10:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Healthier Living Clinic",
   "clinic_id": "healthier-living-clinic-mississauga",
   "address": "250 Dundas St W Unit 405",
@@ -7197,6 +7847,31 @@
   "google_reviews": 28,
   "rating_source": "Google Places details in search results (rating 4.8 based on 28 reviews). A Medimap aggregator figure (4.9/5) was NOT used.",
   "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Holistic Institute of Health & Fertility",
+  "clinic_id": "holistic-institute-of-health-fertility-calgary",
+  "address": "45 Greenbriar Dr NW #213",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-984-3970",
+  "website": "https://www.fertilecalgary.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 9:00 PM",
+   "mon": "9:00 AM - 9:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": "9:00 AM - 4:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -7371,6 +8046,31 @@
   "google_rating": 5.0,
   "google_reviews": 13,
   "rating_source": "Google Places details in search results for Impact Healthcare (411 Huronia Rd Unit 4, Barrie): 'Rating: five stars (5.0) Based on 13 reviews'.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "In Good Nutrition",
+  "clinic_id": "in-good-nutrition-calgary",
+  "address": "Suite 900, 903 8th Ave SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2P 0P7",
+  "phone": "825-474-6633",
+  "website": "https://www.ingoodnutrition.com/",
+  "booking_page": "https://ingoodnutrition.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 5:00 PM",
+   "mon": "8:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
@@ -7598,6 +8298,31 @@
   "rating_source": "Google Places details in search results for Integrative Naturopathic Medical Centre: 'Rating: four and a half stars (4.7) Based on 28 reviews'.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Intrinsi",
+  "clinic_id": "intrinsi-calgary",
+  "address": "3519 18 Street SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2T 4T9",
+  "phone": "403-229-9214",
+  "website": "https://intrinsi.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "7:15 AM - 5:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "8:30 AM - 4:00 PM",
+   "sun": "9:00 AM - 4:00 PM",
+   "thu": "7:15 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 26,
+  "rating_source": "Google Places listing for Intrinsi via search results, read 2026-11-01: 4.8 stars, 26 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "It Takes Practice",
@@ -8325,6 +9050,31 @@
   "last_verified": null
  },
  {
+  "name": "La Palma Spa",
+  "clinic_id": "la-palma-spa-calgary",
+  "address": "2039 26 Avenue Southwest",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2T 1E5",
+  "phone": "587-327-9070",
+  "website": "https://www.lapalmaspa.com/",
+  "booking_page": "https://lapalmaspa.janeapp.com/",
+  "hours": {
+   "fri": "10:00 AM - 9:00 PM",
+   "mon": "10:00 AM - 7:00 PM",
+   "sat": "10:00 AM - 6:00 PM",
+   "sun": "11:00 AM - 5:00 PM",
+   "thu": "10:00 AM - 9:00 PM",
+   "tue": "11:00 AM - 7:00 PM",
+   "wed": "1:00 PM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "La Physio \u2014 Tamami Ayoub",
   "clinic_id": "la-physio-tamami-ayoub-montreal",
   "address": "1516 Rue Notre Dame O",
@@ -8372,7 +9122,7 @@
   "google_reviews": 10,
   "rating_source": "Google Places details (place_id 838503490463915)",
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Launch Nutrition",
@@ -8475,6 +9225,31 @@
   "last_verified": null
  },
  {
+  "name": "Leela Eco Spa",
+  "clinic_id": "leela-eco-spa-calgary",
+  "address": "849 1 Ave NE",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2E 0C3",
+  "phone": "403-258-3268",
+  "website": "https://leelaecospa.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 9:00 PM",
+   "mon": "9:00 AM - 9:00 PM",
+   "sat": "9:00 AM - 9:00 PM",
+   "sun": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Legend Physiotherapy",
   "clinic_id": "legend-physiotherapy-abbotsford",
   "address": "32526 George Ferguson Way #210",
@@ -8575,6 +9350,31 @@
   "last_verified": null
  },
  {
+  "name": "Lighthouse Psychology Services",
+  "clinic_id": "lighthouse-psychology-services-calgary",
+  "address": "1725 10 Ave SW #300",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-286-5411",
+  "website": "https://www.lighthousecalgary.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:30 AM - 5:30 PM",
+   "mon": "8:30 AM - 5:30 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "8:30 AM - 5:30 PM",
+   "tue": "8:30 AM - 5:30 PM",
+   "wed": "8:30 AM - 5:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Limelight Physiotherapy Clinic",
   "clinic_id": "limelight-physiotherapy-clinic-vancouver",
   "address": "488 Drake St",
@@ -8622,6 +9422,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Loam & Moss",
+  "clinic_id": "loam-moss-calgary",
+  "address": "Suite 300-14, 1918 Kensington Road NW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2N 3R5",
+  "phone": "587-329-1987",
+  "website": "https://loamandmoss.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:30 AM - 3:45 PM",
+   "mon": "9:30 AM - 3:45 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:30 AM - 3:45 PM",
+   "tue": "9:30 AM - 3:45 PM",
+   "wed": "9:30 AM - 3:45 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -8673,6 +9498,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Longevity Fertility Centre",
+  "clinic_id": "longevity-fertility-centre-calgary",
+  "address": "Suite 900, 903 8th Ave SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2P 0P7",
+  "phone": "403-671-4723",
+  "website": "https://longevityfertility.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "11:00 AM - 5:00 PM",
+   "mon": "Closed",
+   "sat": "11:00 AM - 5:00 PM",
+   "sun": "11:00 AM - 5:00 PM",
+   "thu": "11:00 AM - 5:00 PM",
+   "tue": "Closed",
+   "wed": "11:00 AM - 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 23,
+  "rating_source": "Google Places listing for Longevity Fertility Centre (Calgary) via search results, read 2026-11-01: 5.0 stars, 23 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Lotus Wellness Psychology Clinic",
@@ -8923,6 +9773,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": null
+ },
+ {
+  "name": "Marda Loop Physiotherapy",
+  "clinic_id": "marda-loop-physiotherapy-calgary",
+  "address": "1517 34 Ave SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-243-5004",
+  "website": "https://mardaloopphysio.com/",
+  "booking_page": "https://mardaloop.janeapp.com/",
+  "hours": {
+   "mon": "7:00 AM \u2013 7:00 PM",
+   "tue": "7:00 AM \u2013 7:00 PM",
+   "wed": "7:00 AM \u2013 7:00 PM",
+   "thu": "7:00 AM \u2013 7:00 PM",
+   "fri": "7:00 AM \u2013 7:00 PM",
+   "sat": "9:00 AM \u2013 1:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 24,
+  "rating_source": "Google Places details",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Marie Julie Dessaivre Acupuncture",
@@ -9325,6 +10200,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Mind Revive Psychotherapy & Counselling",
+  "clinic_id": "mind-revive-psychotherapy-counselling-calgary",
+  "address": "5940 Macleod Trail SW #500",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2H 2G4",
+  "phone": "403-321-5566",
+  "website": "https://mindrevive.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 6:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 5:00 PM",
+   "thu": "9:00 AM \u2013 5:00 PM",
+   "fri": "9:00 AM \u2013 6:00 PM",
+   "sat": "10:00 AM \u2013 5:00 PM",
+   "sun": "10:00 AM \u2013 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Mindful Milestones Psychotherapy",
   "clinic_id": "mindful-milestones-psychotherapy-brandon",
   "address": "740 Rosser Ave",
@@ -9367,6 +10267,31 @@
    "thu": "8:00 AM - 8:00 PM",
    "tue": "8:00 AM - 8:00 PM",
    "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Mission Chiropractic Clinic",
+  "clinic_id": "mission-chiropractic-clinic-calgary",
+  "address": "2303 4 St SW #110",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2S 2S7",
+  "phone": "403-229-4040",
+  "website": "http://missionhealth.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 9:00 PM",
+   "tue": "9:00 AM \u2013 8:00 PM",
+   "wed": "9:00 AM \u2013 9:00 PM",
+   "thu": "9:00 AM \u2013 8:00 PM",
+   "fri": "9:00 AM \u2013 8:00 PM",
+   "sat": "9:00 AM \u2013 12:00 PM",
+   "sun": "Closed"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -9423,6 +10348,56 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Monarch Psychology",
+  "clinic_id": "monarch-psychology-calgary",
+  "address": "1725 10 Ave SW, Unit 303",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T3C 0K1",
+  "phone": "403-454-4988",
+  "website": "https://monarchpsychology.com/",
+  "booking_page": "https://monarchpsychology.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM \u2013 8:00 PM",
+   "tue": "9:00 AM \u2013 8:00 PM",
+   "wed": "9:00 AM \u2013 8:00 PM",
+   "thu": "9:00 AM \u2013 8:00 PM",
+   "fri": "9:00 AM \u2013 6:00 PM",
+   "sat": "9:00 AM \u2013 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Moss Postpartum House",
+  "clinic_id": "moss-postpartum-house-calgary",
+  "address": "1614 8 Ave NW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2N 1C2",
+  "phone": "587-327-3980",
+  "website": "https://mosspostpartum.ca/",
+  "booking_page": "https://mosspostpartum.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "tue": "9:00 AM \u2013 8:00 PM",
+   "wed": "9:00 AM \u2013 8:00 PM",
+   "thu": "9:00 AM \u2013 8:00 PM",
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "sat": "9:00 AM \u2013 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Motion Care Clinic",
@@ -10025,6 +11000,31 @@
   "last_verified": null
  },
  {
+  "name": "Neurvana Naturopathic Medicine",
+  "clinic_id": "neurvana-naturopathic-medicine-calgary",
+  "address": "2020 4 St SW #330",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2S 1W3",
+  "phone": "587-997-4649",
+  "website": "https://neurvanahealth.com/",
+  "booking_page": "https://neurvanahealth.com/book-consult/",
+  "hours": {
+   "mon": "7:00 AM \u2013 6:00 PM",
+   "tue": "7:00 AM \u2013 6:00 PM",
+   "wed": "7:00 AM \u2013 6:00 PM",
+   "thu": "7:00 AM \u2013 6:00 PM",
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "sat": "10:00 AM \u2013 4:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 6,
+  "rating_source": "Google Places details",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "New Life Rehab Clinic",
   "clinic_id": "new-life-rehab-clinic-scarborough",
   "address": "1645 Warden Ave #102",
@@ -10300,6 +11300,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Northmount Dental Care",
+  "clinic_id": "northmount-dental-care-calgary",
+  "address": "4600 Crowchild Trail NW #102",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T3A 2L6",
+  "phone": "403-286-2601",
+  "website": "https://northmountdental.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Northwood Pelvic Health and Wellness Clinic",
   "clinic_id": "northwood-pelvic-health-and-wellness-clinic-nanaimo",
   "address": "103-125 Wallace St",
@@ -10322,6 +11347,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Norum Psych Services",
+  "clinic_id": "norum-psych-services-calgary",
+  "address": "280 Midpark Way SE",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "587-392-1777",
+  "website": "https://norumpsychservices.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 7:00 PM",
+   "tue": "9:00 AM \u2013 7:00 PM",
+   "wed": "9:00 AM \u2013 7:00 PM",
+   "thu": "9:00 AM \u2013 7:00 PM",
+   "fri": "9:00 AM \u2013 7:00 PM",
+   "sat": "9:00 AM \u2013 5:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -10793,11 +11843,36 @@
    "tue": "8:00 AM - 4:30 PM",
    "wed": "8:00 AM - 4:30 PM"
   },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Optimum Wellness Centres Trans-Canada",
+  "clinic_id": "optimum-wellness-centres-trans-canada-calgary",
+  "address": "1440 52 St NE #182",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-272-3000",
+  "website": "https://optimumwellnesscentres.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM \u2013 8:00 PM",
+   "tue": "10:00 AM \u2013 7:00 PM",
+   "wed": "8:30 AM \u2013 8:00 PM",
+   "thu": "9:00 AM \u2013 7:00 PM",
+   "fri": "8:30 AM \u2013 8:00 PM",
+   "sat": "9:00 AM \u2013 2:00 PM",
+   "sun": "Closed"
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Orca Physiotherapy",
@@ -10847,6 +11922,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Osteo Health",
+  "clinic_id": "osteo-health-calgary",
+  "address": "290 Midpark Way SE Unit 125",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-814-0404",
+  "website": "https://osteohealthcalgary.com/",
+  "booking_page": "https://osteohealthcalgary.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM \u2013 8:00 PM",
+   "tue": "9:00 AM \u2013 8:00 PM",
+   "wed": "9:00 AM \u2013 8:00 PM",
+   "thu": "9:00 AM \u2013 8:00 PM",
+   "fri": "9:00 AM \u2013 8:00 PM",
+   "sat": "9:00 AM \u2013 8:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -10975,6 +12075,31 @@
   "last_verified": null
  },
  {
+  "name": "PEAK Health Calgary",
+  "clinic_id": "peak-health-calgary-calgary",
+  "address": "5004 Elbow Drive SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2S 2L5",
+  "phone": "403-287-7325",
+  "website": "https://peakhealthcalgary.com/",
+  "booking_page": "https://peakhealth.cliniko.com/bookings",
+  "hours": {
+   "mon": "7:00 AM \u2013 8:00 PM",
+   "tue": "7:00 AM \u2013 8:00 PM",
+   "wed": "7:00 AM \u2013 8:00 PM",
+   "thu": "7:00 AM \u2013 8:00 PM",
+   "fri": "7:00 AM \u2013 6:00 PM",
+   "sat": "9:00 AM \u2013 4:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "POKE Acupuncture and Skincare",
   "clinic_id": "poke-acupuncture-and-skincare-calgary",
   "address": "121B 14 St NW #201",
@@ -10997,7 +12122,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "PRE Therapy",
@@ -11298,6 +12423,31 @@
   "rating_source": "Google Places details in search results for Philosophy Wellness: 'Rating: five stars (4.8) Based on 9 reviews'.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Phoenix Massage & Wellness",
+  "clinic_id": "phoenix-massage-wellness-calgary",
+  "address": "Unit 213, 160 96 Ave NE",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T3K 6G4",
+  "phone": "403-454-5374",
+  "website": "https://phoenixmassageyyc.ca/",
+  "booking_page": "https://phoenixwellnessyyc.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "fri": "9:00 AM - 9:00 PM",
+   "sat": "10:00 AM - 6:00 PM",
+   "sun": "10:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Physio + Hamel",
@@ -11800,6 +12950,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Pro Motion Calgary",
+  "clinic_id": "pro-motion-calgary-calgary",
+  "address": "403 - 11012 Macleod Trail SE",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2J 6A5",
+  "phone": "403-452-5450",
+  "website": "https://www.promotioncalgary.com/",
+  "booking_page": "https://promotioncalgary.janeapp.com/",
+  "hours": {
+   "mon": "7:30 AM - 8:00 PM",
+   "tue": "7:30 AM - 8:00 PM",
+   "wed": "7:30 AM - 8:00 PM",
+   "thu": "7:30 AM - 8:00 PM",
+   "fri": "7:30 AM - 7:00 PM",
+   "sat": "9:00 AM - 3:15 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Pro Motion Clinic",
   "clinic_id": "pro-motion-clinic-kelowna",
   "address": "#202-3030 Pandosy St, Kelowna, BC V1Y 0C4",
@@ -11948,6 +13123,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Prompt Physiotherapy and Massage",
+  "clinic_id": "prompt-physiotherapy-and-massage-calgary",
+  "address": "Suite 212, 1610 37 St SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T3C 3P1",
+  "phone": "403-686-1135",
+  "website": "https://promptphysio.com/",
+  "booking_page": "https://promptphysiotherapyclinic.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "10:00 AM - 4:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 5,
+  "rating_source": "Google Places details (listing extract in search results)",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Proremedy Physiotherapy",
@@ -12255,7 +13455,7 @@
   "address": "1230 20 Ave SE",
   "city": "Calgary",
   "prov": "AB",
-  "postal": null,
+  "postal": "T2G 1M6",
   "phone": "587-735-1729",
   "website": "https://www.ramsayacupuncture.ca/",
   "booking_page": null,
@@ -12272,7 +13472,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Rania Psychotherapy",
@@ -12650,6 +13850,56 @@
   "last_verified": null
  },
  {
+  "name": "Renu Health & Wellness",
+  "clinic_id": "renu-health-wellness-calgary",
+  "address": "200, 209 19 St NW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2N 2H9",
+  "phone": "403-270-2111",
+  "website": "https://renuyourhealth.ca/",
+  "booking_page": "https://renu.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM - 8:30 PM",
+   "tue": "8:00 AM - 8:30 PM",
+   "wed": "8:00 AM - 8:30 PM",
+   "thu": "8:00 AM - 8:30 PM",
+   "fri": "8:00 AM - 8:30 PM",
+   "sat": "10:00 AM - 5:00 PM",
+   "sun": "10:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Resilience Pelvic Health",
+  "clinic_id": "resilience-pelvic-health-calgary",
+  "address": "7007 14 Street SW, Suite #6601",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2V 1P9",
+  "phone": "403-943-8900",
+  "website": "https://www.resiliencepelvichealth.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 5:00 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "8:00 AM - 5:00 PM",
+   "thu": "8:00 AM - 5:00 PM",
+   "fri": "8:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Resilience Physiotherapy \u2014 Toronto Annex",
   "clinic_id": "resilience-physiotherapy-toronto-annex-toronto",
   "address": "738 Spadina Ave, Suite 200",
@@ -12825,6 +14075,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Rewind Massage Therapy",
+  "clinic_id": "rewind-massage-therapy-calgary",
+  "address": "Suite 26, 805 5th Avenue SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2P 3G3",
+  "phone": "403-333-5870",
+  "website": "https://www.rewindmassagetherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "fri": "9:00 AM - 9:00 PM",
+   "sat": "9:00 AM - 9:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Richmond Hill Health & Wellness",
   "clinic_id": "richmond-hill-health-wellness-richmond-hill",
   "address": "8950 Yonge St #6",
@@ -12875,6 +14150,31 @@
   "last_verified": null
  },
  {
+  "name": "Richmond Physiotherapy & Massage",
+  "clinic_id": "richmond-physiotherapy-massage-calgary",
+  "address": "3715 51 St SW #210",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-242-1111",
+  "website": "https://www.richmondphysiotherapy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 7:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 4,
+  "rating_source": "Google Places details (listing extract in search results)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Rivers Edge Counselling Centre",
   "clinic_id": "rivers-edge-counselling-centre-st-albert",
   "address": "14 Mission Ave",
@@ -12898,6 +14198,31 @@
   "rating_source": "Google Places details in search results for Rivers Edge Counselling Centre, St. Albert showed 4.3 stars from 6 reviews.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Rocky Mountain Psychological Services",
+  "clinic_id": "rocky-mountain-psychological-services-calgary",
+  "address": "Clennan Square, Suite 212, 110 - 11 Ave SW",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2R 0B8",
+  "phone": "403-245-5981",
+  "website": "https://rmpsychservices.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Romina Coppa Psychology",
@@ -13175,6 +14500,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Sanford Psychological Services",
+  "clinic_id": "sanford-psychological-services-calgary",
+  "address": "One Executive Place, 1816 Crowchild Trail NW #711",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "587-830-0165",
+  "website": "http://www.sanfordpsychological.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 7:00 PM",
+   "wed": "8:00 AM - 7:00 PM",
+   "thu": "8:00 AM - 7:00 PM",
+   "fri": "8:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Sano State Psychology",
   "clinic_id": "sano-state-psychology-airdrie",
   "address": "120 - 2797 Main St South (part of re-HUB Health Collective)",
@@ -13422,6 +14772,31 @@
   "google_reviews": 143,
   "rating_source": "Clinic's own website Google review widget (Trustindex): 'EXCELLENT', based on 143 reviews; no numeric star score was displayed in the fetched widget text, so google_rating left null",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "ShiftGrit Psychology & Counselling",
+  "clinic_id": "shiftgrit-psychology-counselling-calgary",
+  "address": "815 17 Avenue SW #210",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2T 0A1",
+  "phone": "587-352-6463",
+  "website": "https://shiftgrit.com/",
+  "booking_page": "https://shiftgrit.com/therapists/baldwin-asala/",
+  "hours": {
+   "mon": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {

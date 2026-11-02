@@ -1391,6 +1391,82 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "ashley-abbs-calgary",
+  "treatment_id": "ashley-abbs-calgary--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Ashley Abbs",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Ashley Abbs \u2014 Registered Doctor of Acupuncture (College of Acupuncturists of Alberta), 20+ years of practice",
+    "id": "ashley-abbs-calgary--ashley-abbs",
+    "name": "Ashley Abbs"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No prices are published on the clinic's own website (ashleyabbs.com, read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.ashleyabbs.com/cosmetic-acupuncture",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ashley-abbs-calgary",
+  "treatment_id": "ashley-abbs-calgary--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Ashley Abbs",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Ashley Abbs \u2014 Registered Doctor of Acupuncture (College of Acupuncturists of Alberta) with 20+ years of practice; her Cosmetic Acupuncture page states all cosmetic facial acupuncture treatments are followed by Gua Sha or facial cupping",
+    "id": "ashley-abbs-calgary--ashley-abbs",
+    "name": "Ashley Abbs"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No prices are published on the clinic's own website (ashleyabbs.com, including the Cosmetic Acupuncture & Microneedling page, read 2026-11-01); no public booking page with prices was found.",
+  "price_tier": null,
+  "treatment_link": "https://www.ashleyabbs.com/cosmetic-acupuncture",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ashley-abbs-calgary",
+  "treatment_id": "ashley-abbs-calgary--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Ashley Abbs",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Ashley Abbs \u2014 Registered Doctor of Acupuncture (College of Acupuncturists of Alberta); fertility-focused acupuncture is the core of her practice (also operates TerraSana Health)",
+    "id": "ashley-abbs-calgary--ashley-abbs",
+    "name": "Ashley Abbs"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No prices are published on the clinic's own website (ashleyabbs.com, read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.ashleyabbs.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ashley-abbs-calgary",
+  "treatment_id": "ashley-abbs-calgary--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Ashley Abbs",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Ashley Abbs \u2014 Registered Doctor of Acupuncture (College of Acupuncturists of Alberta), 20+ years of practice",
+    "id": "ashley-abbs-calgary--ashley-abbs",
+    "name": "Ashley Abbs"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No prices are published on the clinic's own website (ashleyabbs.com, read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.ashleyabbs.com/cosmetic-acupuncture",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "at-ease-nutrition-toronto",
   "treatment_id": "at-ease-nutrition-toronto--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -2047,6 +2123,38 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "best-choice-counselling-calgary",
+  "treatment_id": "best-choice-counselling-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Andrea Krygier",
+  "practitioners": [
+   {
+    "as_recorded": "Andrea Krygier, Registered Psychologist \u2014 the clinic homepage states she specializes in working with couples, helping them navigate communication challenges, trust issues and emotional disconnection; 30+ years of experience",
+    "id": "best-choice-counselling-calgary--andrea-krygier",
+    "name": "Andrea Krygier"
+   }
+  ],
+  "price_text": "$235 per 50-min session with a psychologist \u00b7 $200 per 50-min session with a counsellor",
+  "price_source": "Clinic's own pricing page (https://bestchoicecounselling.com/calgary-counselling-and-assessment-pricing/) charges the same rate for individual, couples and family counselling by clinician type: $235.00 / 50-min session with a psychologist, $200.00 / 50-min session with a counsellor (read 2026-11-01).",
+  "price_tier": "website",
+  "treatment_link": "https://bestchoicecounselling.com/calgary-counselling-and-assessment-pricing/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "best-choice-counselling-calgary",
+  "treatment_id": "best-choice-counselling-calgary--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$2,800 (guideline; assessments billed on actual psychologist hours)",
+  "price_source": "Clinic's own pricing page (https://bestchoicecounselling.com/calgary-counselling-and-assessment-pricing/) lists 'Psycho-Educational Assessment $2800.00' as a guideline price, noting assessments are charged on actual psychologist hours (read 2026-11-01).",
+  "price_tier": "website",
+  "treatment_link": "https://bestchoicecounselling.com/calgary-counselling-and-assessment-pricing/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "better-bodies-by-massage-antigonish",
   "treatment_id": "better-bodies-by-massage-antigonish--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
@@ -2203,6 +2311,78 @@
   "price_tier": null,
   "treatment_link": "https://bloom-physiotherapy.janeapp.com/locations/bloom/book",
   "last_verified": null
+ },
+ {
+  "clinic_id": "bluebird-psychology-calgary",
+  "treatment_id": "bluebird-psychology-calgary--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": "Melanie Bastien; Kassandra Burke; Amy Dykstra; Kayla Foley",
+  "practitioners": [
+   {
+    "as_recorded": "Melanie Bastien, Registered Provisional Psychologist \u2014 her clinic bio lists psychoeducational assessments among her services",
+    "id": "bluebird-psychology-calgary--melanie-bastien",
+    "name": "Melanie Bastien"
+   },
+   {
+    "as_recorded": "Kassandra Burke, Registered Psychologist \u2014 her clinic bio lists psychoeducational assessments among her services",
+    "id": "bluebird-psychology-calgary--kassandra-burke",
+    "name": "Kassandra Burke"
+   },
+   {
+    "as_recorded": "Amy Dykstra, Registered Psychologist \u2014 clinic owner/director; her clinic bio lists psychoeducational assessments among her services",
+    "id": "bluebird-psychology-calgary--amy-dykstra",
+    "name": "Amy Dykstra"
+   },
+   {
+    "as_recorded": "Kayla Foley, Registered Provisional Psychologist \u2014 her clinic bio lists psychoeducational assessments among her services",
+    "id": "bluebird-psychology-calgary--kayla-foley",
+    "name": "Kayla Foley"
+   }
+  ],
+  "price_text": "$3,000 flat fee",
+  "price_source": "Clinic's own psychoeducational assessment page states a flat fee of $3,000 for a psychoeducational assessment (https://www.bluebirdpsychology.ca/psychoeducational-assessment-calgary, read 2026-11-01).",
+  "price_tier": "website",
+  "treatment_link": "https://www.bluebirdpsychology.ca/psychoeducational-assessment-calgary",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "body-and-soul-massage-therapy-calgary",
+  "treatment_id": "body-and-soul-massage-therapy-calgary--head-spa",
+  "treatment": "Head Spa",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Ivy Elaine Dela Cruz, RMT",
+  "practitioners": [
+   {
+    "as_recorded": "Ivy Elaine Dela Cruz, Registered Massage Therapist \u2014 founder and sole proprietor of the clinic; delivers its Japanese Head Spa service",
+    "id": "body-and-soul-massage-therapy-calgary--ivy-elaine-dela-cruz",
+    "name": "Ivy Elaine Dela Cruz"
+   }
+  ],
+  "price_text": "Japanese Head Spa \u2014 Lite $85 \u00b7 Classic $135 \u00b7 Anti Hair Loss/Balancing $175 \u00b7 Bond Repair $175",
+  "price_source": "Clinic's own Japanese Head Spa service page (https://www.bnsmassage.com/services/japanese-head-spa) lists four priced tiers: Lite $85, Classic $135, Anti Hair Loss/Balancing $175, Bond Repair $175 (read 2026-11-01).",
+  "price_tier": "website",
+  "treatment_link": "https://www.bnsmassage.com/services/japanese-head-spa",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "body-and-soul-massage-therapy-calgary",
+  "treatment_id": "body-and-soul-massage-therapy-calgary--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Ivy Elaine Dela Cruz, RMT",
+  "practitioners": [
+   {
+    "as_recorded": "Ivy Elaine Dela Cruz, Registered Massage Therapist \u2014 founder and sole proprietor; the clinic's services page lists lymphatic drainage among her treatments",
+    "id": "body-and-soul-massage-therapy-calgary--ivy-elaine-dela-cruz",
+    "name": "Ivy Elaine Dela Cruz"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No lymphatic-drainage price is published on the clinic's own website (bnsmassage.com services pages, read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.bnsmassage.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "body-maison-toronto",
@@ -2456,6 +2636,44 @@
   "price_tier": null,
   "treatment_link": "https://www.bridgecounseling.net/couples-counselling",
   "last_verified": null
+ },
+ {
+  "clinic_id": "bridgeland-acupuncture-and-wellness-calgary",
+  "treatment_id": "bridgeland-acupuncture-and-wellness-calgary--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Robin Wittner, RAc, DTCM",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Robin Wittner, RAc, DTCM \u2014 clinic owner; the clinic's own site presents fertility support as a core focus of her acupuncture practice",
+    "id": "bridgeland-acupuncture-and-wellness-calgary--robin-wittner",
+    "name": "Robin Wittner"
+   }
+  ],
+  "price_text": "Initial assessment (60 min) $155 \u00b7 Follow-up (45 min) $120 \u00b7 Mobile initial/follow-up $195",
+  "price_source": "Clinic's own website fee schedule (bridgelandacupunctureandwellness.com, read 2026-11-01): in-clinic assessment (60 min) $155, follow-up (45 min) $120; mobile initial/follow-up $195. These are the clinic's general acupuncture fees; fertility acupuncture is delivered within its acupuncture sessions by the same practitioner (Dr. Robin Wittner).",
+  "price_tier": "website",
+  "treatment_link": "https://bridgelandacupunctureandwellness.janeapp.com",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "bridgeland-dental-care-calgary",
+  "treatment_id": "bridgeland-dental-care-calgary--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dental",
+  "practitioner": "Dr. Leila Akbarihamed",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Leila Akbarihamed, dentist \u2014 the clinic's About page states she offers Botox among her services, and the homepage states she offers therapeutic neuromodulator injections to treat TMJ disorder",
+    "id": "bridgeland-dental-care-calgary--leila-akbarihamed",
+    "name": "Leila Akbarihamed"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price for TMJ neuromodulator (Botox) injections is published on the clinic's own website (bridgelanddentalcare.com, including the TMJ and Injectables page, read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://bridgelanddentalcare.com/service/tmj-injectables/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "brittany-wade-physiotherapy-okotoks",
@@ -2719,6 +2937,125 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "calgary-core-physiotherapy-calgary",
+  "treatment_id": "calgary-core-physiotherapy-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic health physiotherapy price is published on the clinic's own website (read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.calgarycorephysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "calgary-core-physiotherapy-calgary",
+  "treatment_id": "calgary-core-physiotherapy-calgary--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No running-gait or physiotherapy fee schedule is published on the clinic's own website (calgarycorephysio.ca services and FAQ pages, read 2026-11-01), and the platform behind its online booking was not identified.",
+  "price_tier": null,
+  "treatment_link": "https://www.calgarycorephysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "calgary-core-physiotherapy-calgary",
+  "treatment_id": "calgary-core-physiotherapy-calgary--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave therapy price is published on the clinic's own website (read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.calgarycorephysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "calgary-mind-clinic-calgary",
+  "treatment_id": "calgary-mind-clinic-calgary--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Courtney Dookie",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Courtney Dookie, PsyD \u2014 Clinical Neuropsychologist and Registered Psychologist with declared competence in Clinical Psychology and Neuropsychology; oversees the clinic's qEEG and neurofeedback program",
+    "id": "calgary-mind-clinic-calgary--courtney-dookie",
+    "name": "Courtney Dookie"
+   },
+   {
+    "as_recorded": "Rebeccah Alai \u2014 Neurofeedback Technician delivering neurofeedback sessions within the clinic's psychological services",
+    "id": "calgary-mind-clinic-calgary--rebeccah-alai",
+    "name": "Rebeccah Alai"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's website shows a clinic-wide session price range of $200\u2013$220 that is not specific to neurofeedback, so no neurofeedback price is recorded; session prices did not render in the text fetch of the clinic's Jane page (calgarymindclinic.janeapp.com, read 2026-11-01) \u2014 flagged for the rendered-browser Jane mop-up pass.",
+  "price_tier": null,
+  "treatment_link": "https://calgarymindclinic.ca/neurofeedback-calgary/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "calgary-mind-wellness-clinic-calgary",
+  "treatment_id": "calgary-mind-wellness-clinic-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No couples-therapy price is published on the clinic's own website (read 2026-11-01); the site's $200\u2013$220 figure is a clinic-wide session range, not a couples rate.",
+  "price_tier": null,
+  "treatment_link": "https://calgarymindclinic.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "calgary-mind-wellness-clinic-calgary",
+  "treatment_id": "calgary-mind-wellness-clinic-calgary--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Courtney Dookie",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Courtney Dookie, PsyD \u2014 Clinical Neuropsychologist and Registered Psychologist with declared competence in Clinical Psychology and Neuropsychology; oversees the clinic's qEEG and neurofeedback program",
+    "id": "calgary-mind-wellness-clinic-calgary--courtney-dookie",
+    "name": "Courtney Dookie"
+   },
+   {
+    "as_recorded": "Rebeccah Alai \u2014 Neurofeedback Technician delivering neurofeedback sessions within the clinic's psychological services",
+    "id": "calgary-mind-wellness-clinic-calgary--rebeccah-alai",
+    "name": "Rebeccah Alai"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's website shows a clinic-wide session price range of $200\u2013$220 that is not specific to neurofeedback, so no neurofeedback price is recorded; session prices did not render in the text fetch of the clinic's Jane page (calgarymindclinic.janeapp.com, read 2026-11-01) \u2014 flagged for the rendered-browser Jane mop-up pass.",
+  "price_tier": null,
+  "treatment_link": "https://calgarymindclinic.ca/neurofeedback-calgary/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "calgary-mind-wellness-clinic-calgary",
+  "treatment_id": "calgary-mind-wellness-clinic-calgary--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Courtney Dookie",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Courtney Dookie, PsyD \u2014 Clinical Neuropsychologist and Registered Psychologist; leads the clinic's assessment services",
+    "id": "calgary-mind-wellness-clinic-calgary--courtney-dookie",
+    "name": "Courtney Dookie"
+   }
+  ],
+  "price_text": "$3,100",
+  "price_source": "Clinic's own website assessment-fee list on calgarymindclinic.ca states 'Psychoeducational: $3,100' among its transparent assessment fees (read 2026-11-01).",
+  "price_tier": "website",
+  "treatment_link": "https://calgarymindclinic.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "calgary-pelvic-floor-physiotherapy-calgary",
   "treatment_id": "calgary-pelvic-floor-physiotherapy-calgary--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -2730,6 +3067,54 @@
   "price_tier": null,
   "treatment_link": "https://www.pelvicfloorcalgary.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "calgary-psychological-services-calgary",
+  "treatment_id": "calgary-psychological-services-calgary--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": "Michelle Tocher; Jorden; Harkish",
+  "practitioners": [
+   {
+    "as_recorded": "Michelle Tocher, Registered Psychologist \u2014 her Jane bio lists ASD and psychoeducational assessments",
+    "id": "calgary-psychological-services-calgary--michelle-tocher",
+    "name": "Michelle Tocher"
+   },
+   {
+    "as_recorded": "Jorden (listed by first name only on the clinic's Jane page) \u2014 psychoeducational assessments; former school psychologist",
+    "id": "calgary-psychological-services-calgary--jorden",
+    "name": "Jorden"
+   },
+   {
+    "as_recorded": "Harkish (listed by first name only on the clinic's Jane page), Registered Provisional Psychologist \u2014 psychoeducational assessments",
+    "id": "calgary-psychological-services-calgary--harkish",
+    "name": "Harkish"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Assessment prices did not render in the text fetch of the clinic's Jane booking page (cascarapsychology.janeapp.com, read 2026-11-01) \u2014 flagged for the rendered-browser Jane mop-up pass. No assessment fee is published on the clinic's own website extracts.",
+  "price_tier": null,
+  "treatment_link": "https://cascarapsychology.janeapp.com/locations/calgary-psychological-services-655c4063-4fa9-45c8-847f-0355c477d199/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "calgary-west-slp-team-calgary",
+  "treatment_id": "calgary-west-slp-team-calgary--myofunctional-therapy",
+  "treatment": "Myofunctional Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Kate Dole, SLP",
+  "practitioners": [
+   {
+    "as_recorded": "Kate Dole, Speech-Language Pathologist \u2014 the clinic's team page states she completed the myofunctional training course and offers myofunctional assessments and treatments",
+    "id": "calgary-west-slp-team-calgary--kate-dole",
+    "name": "Kate Dole"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee schedule is published on the clinic's own website (calgarywestslp.com, read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.calgarywestslp.com/team/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "calgarymicroneedling-com-dr-trudy-strasser-nd-rac-calgary",
@@ -2845,6 +3230,58 @@
   "price_tier": null,
   "treatment_link": "https://carespace.health/nutrition/waterloo/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "caring-hands-physiotherapy-calgary",
+  "treatment_id": "caring-hands-physiotherapy-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "Pelvic Floor Physio Assessment + Treatment $150; Pelvic Floor Physio Treatment $125",
+  "price_source": "Clinic's own Falconridge location page pricing table: 'Pelvic Floor Physio Assessment + Treatment | $150' and 'Pelvic Floor Physio Treatment | $125' (https://www.caringhandsphysio.com/physiotherapy-in-falconridge/). CONFLICT: the clinic's 2026 pricing-guide blog lists different chain-wide pelvic floor fees (Assessment & Treatment $120, Follow-up $90); the location-page price for the recorded Falconridge address was used and the conflict is documented in gaps.",
+  "price_tier": "website",
+  "treatment_link": "https://www.caringhandsphysio.com/pelvic/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "caring-hands-physiotherapy-calgary",
+  "treatment_id": "caring-hands-physiotherapy-calgary--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price for Red Light Therapy exists because the treatment itself was not found; checked the clinic's own homepage services list, its Cold Laser Therapy page, and its 2026 pricing guide (https://www.caringhandsphysio.com/blog/physiotherapy-cost-in-calgary/), which prices Cold Laser Therapy at $90 but never mentions red light therapy.",
+  "price_tier": null,
+  "treatment_link": "https://www.caringhandsphysio.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "caring-hands-physiotherapy-calgary",
+  "treatment_id": "caring-hands-physiotherapy-calgary--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "Shockwave Session (Private-Self paid or Pvt Insurance) $105",
+  "price_source": "Clinic's own Falconridge location page pricing table: 'Shockwave Session (Private-Self paid or Pvt Insurance) | $105' (https://www.caringhandsphysio.com/physiotherapy-in-falconridge/). CONFLICT: the clinic's 2026 pricing-guide blog lists Shockwave Therapy at $100 chain-wide; the location-page price for the recorded Falconridge address was used and the conflict is documented in gaps.",
+  "price_tier": "website",
+  "treatment_link": "https://www.caringhandsphysio.com/shockwave-therapy-calgary/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "caring-hands-physiotherapy-calgary",
+  "treatment_id": "caring-hands-physiotherapy-calgary--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular-specific price found: checked the clinic's own 2026 pricing guide (https://www.caringhandsphysio.com/blog/physiotherapy-cost-in-calgary/), which lists general, pelvic floor, shockwave and cold laser fees but no vestibular fee, and the Falconridge location pricing table, which also lists no vestibular fee.",
+  "price_tier": null,
+  "treatment_link": "https://www.caringhandsphysio.com/blog/physiotherapy-cost-in-calgary/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "carly-piercy-rmt-airdrie",
@@ -3921,6 +4358,49 @@
   "last_verified": null
  },
  {
+  "clinic_id": "connecta-health-calgary",
+  "treatment_id": "connecta-health-calgary--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Elizabeth Koleyak",
+  "practitioners": [
+   {
+    "as_recorded": "Elizabeth Koleyak, Physio",
+    "id": "connecta-health-calgary--elizabeth-koleyak",
+    "name": "Elizabeth Koleyak"
+   },
+   {
+    "as_recorded": "Andrea Delannoy, RMT",
+    "id": "connecta-health-calgary--andrea-delannoy",
+    "name": "Andrea Delannoy"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price found: the clinic's own lymphatic massage page (https://www.connectahealth.ca/lymphatic-massage) lists no fees, and the fetched text of its Jane booking page (https://connectahealth.janeapp.com/) surfaced practitioner bios and the direct-billing banner but no treatment price list (the Jane treatment menu/prices in the booking sidebar were not present in the fetched text). No review-sourced price was used.",
+  "price_tier": null,
+  "treatment_link": "https://www.connectahealth.ca/lymphatic-massage",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "connecta-health-calgary",
+  "treatment_id": "connecta-health-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Elizabeth Koleyak",
+  "practitioners": [
+   {
+    "as_recorded": "Elizabeth Koleyak, Physio",
+    "id": "connecta-health-calgary--elizabeth-koleyak",
+    "name": "Elizabeth Koleyak"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy price found: the clinic's own website has no dedicated pelvic floor page or fee list, and the fetched text of its Jane booking page (https://connectahealth.janeapp.com/) surfaced practitioner bios but no treatment price list.",
+  "price_tier": null,
+  "treatment_link": "https://connectahealth.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "continuum-wellness-toronto",
   "treatment_id": "continuum-wellness-toronto--clinical-pilates",
   "treatment": "Clinical Pilates",
@@ -4547,6 +5027,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "cy-physiotherapy-and-vestibular-rehabilitation-calgary",
+  "treatment_id": "cy-physiotherapy-and-vestibular-rehabilitation-calgary--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Cristiane",
+  "practitioners": [
+   {
+    "as_recorded": "Cristiane (surname not published; listed by first name only on the clinic's Jane page) \u2014 Bachelor's degree in Physiotherapy (Brazil), doctorate from Japan, post-doctoral studies in Canada; completed the Duke University / APTA Vestibular Competency Course; certified MDT McKenzie therapist and Gunn IMS practitioner; also practises at the Neurovestibular (Vertigo) Clinic at South Health Campus since 2018",
+    "id": "cy-physiotherapy-and-vestibular-rehabilitation-calgary--cristiane",
+    "name": "Cristiane"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Treatment prices did not render in the text fetch of the clinic's Jane booking page (read 2026-11-01), and no fee schedule appears in the clinic's own website extracts \u2014 flagged for the rendered-browser Jane mop-up pass.",
+  "price_tier": null,
+  "treatment_link": "https://cyphysiotherapy.janeapp.com/locations/cy-physiotherapy-and-vestibular-rehabilitation/book",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dalton-associates-brant",
   "treatment_id": "dalton-associates-brant--couples-therapy",
   "treatment": "Couples Therapy",
@@ -5124,6 +5623,82 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-caitlin-batting-calgary",
+  "treatment_id": "dr-caitlin-batting-calgary--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Caitlin Batting",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Caitlin Batting, ND",
+    "id": "dr-caitlin-batting-calgary--caitlin-batting",
+    "name": "Dr. Caitlin Batting"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price found: Dr. Batting's own website lists IM vitamin therapy among her modalities but publishes no fees, and no booking page with prices was found on her own site.",
+  "price_tier": null,
+  "treatment_link": "http://drcaitlinbatting.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-caitlin-batting-calgary",
+  "treatment_id": "dr-caitlin-batting-calgary--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Caitlin Batting",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Caitlin Batting, ND",
+    "id": "dr-caitlin-batting-calgary--caitlin-batting",
+    "name": "Dr. Caitlin Batting"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price found: Dr. Batting's own website lists IV vitamin therapy among her modalities but publishes no fees, and no booking page with prices was found on her own site.",
+  "price_tier": null,
+  "treatment_link": "http://drcaitlinbatting.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-caitlin-batting-calgary",
+  "treatment_id": "dr-caitlin-batting-calgary--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Caitlin Batting",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Caitlin Batting, ND",
+    "id": "dr-caitlin-batting-calgary--caitlin-batting",
+    "name": "Dr. Caitlin Batting"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price found: Dr. Batting's own website (http://drcaitlinbatting.com/) lists microneedling among her services but publishes no fees, and no booking page with prices was found on her own site; she practises out of host clinics (Longevity Lab and Naturally Balanced per her own site) whose pricing was not used because it is not her own site/booking flow.",
+  "price_tier": null,
+  "treatment_link": "http://drcaitlinbatting.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-celeste-quan-calgary",
+  "treatment_id": "dr-celeste-quan-calgary--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Celeste Quan, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Celeste Quan, ND (own site title 'Home | Dr. Celeste Quan, ND Northeast Calgary'; homepage describes her accredited naturopathic medicine training and lists 'INTRAVENOUS & INJECTION THERAPY \u2014 Give your body the nutrients it needs' among her SERVICES)",
+    "id": "dr-celeste-quan-calgary--celeste-quan",
+    "name": "Dr. Celeste Quan"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price is published on the clinic's own website (homepage fetched 2026-11-01 lists services with no fees) and no booking page with extractable fees could be verified \u2014 the homepage says 'Book Now Through Online Booking!' but the booking URL was not extractable from the fetched text, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://drcelestequan.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-charlotte-rose-vancouver",
   "treatment_id": "dr-charlotte-rose-vancouver--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -5197,6 +5772,63 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://acupoint.ca/iv-vitamin-therapy-vancouver",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-christa-angell-calgary",
+  "treatment_id": "dr-christa-angell-calgary--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Christa Angell, TCM D.Ac, R.Ac",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Christa Angell TCM D.Ac, R.Ac (own site title 'Dr. Christa Angell TCM D.AC, R.Ac | Acupuncture, TCM, Scalp Acupuncture | Calgary, Alberta'; the Facial Rejuvenation page is her own service page)",
+    "id": "dr-christa-angell-calgary--christa-angell",
+    "name": "Dr. Christa Angell"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee is published on the clinic's own Facial Rejuvenation page (fetched 2026-11-01) or elsewhere on the own site in the pages/search extracts checked, and no booking page with fees could be verified, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://christaangell.com/page/facial-rejuvenation/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-christa-angell-calgary",
+  "treatment_id": "dr-christa-angell-calgary--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Christa Angell, TCM D.Ac, R.Ac",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Christa Angell TCM D.Ac, R.Ac (own Facial Rejuvenation page gives Facial Gua Sha its own Treatment Modalities section within her facial rejuvenation treatments; her own Other Therapies page also has a standalone 'Gua Sha' section)",
+    "id": "dr-christa-angell-calgary--christa-angell",
+    "name": "Dr. Christa Angell"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Facial Gua Sha has no separate price on the clinic's own site: it is delivered inside Facial Rejuvenation Acupuncture by the same practitioner (Dr. Christa Angell) per the own Facial Rejuvenation page, and that parent service itself publishes no fee on the own site, so there is no same-practitioner service price to carry over and price is null.",
+  "price_tier": null,
+  "treatment_link": "https://christaangell.com/page/facial-rejuvenation/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-christa-angell-calgary",
+  "treatment_id": "dr-christa-angell-calgary--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Christa Angell, TCM D.Ac, R.Ac",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Christa Angell TCM D.Ac, R.Ac (own Facial Rejuvenation page lists 'Dermal Micro-Needling (Derma Rolling)' under its Treatment Modalities, delivered within her facial rejuvenation acupuncture treatments)",
+    "id": "dr-christa-angell-calgary--christa-angell",
+    "name": "Dr. Christa Angell"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Microneedling has no separate price on the clinic's own site: it is delivered inside Facial Rejuvenation Acupuncture by the same practitioner (Dr. Christa Angell) per the own Facial Rejuvenation page, and that parent service itself publishes no fee on the own site, so there is no same-practitioner service price to carry over and price is null.",
+  "price_tier": null,
+  "treatment_link": "https://christaangell.com/page/facial-rejuvenation/",
   "last_verified": "2026-11-01"
  },
  {
@@ -5732,6 +6364,44 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-janelle-albas-calgary",
+  "treatment_id": "dr-janelle-albas-calgary--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Janelle Albas",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Janelle Albas, BSc, ND",
+    "id": "dr-janelle-albas-calgary--janelle-albas",
+    "name": "Dr. Janelle Albas"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee found on her own Evolve bio page (http://www.evolvechiro.ca/8th-ave-team/dr-janelle-albas/) or in the full text extract of the Evolve 8th Avenue Jane booking page, which lists practitioner bios but no treatment prices in the fetched text.",
+  "price_tier": null,
+  "treatment_link": "http://www.evolvechiro.ca/8th-ave-team/dr-janelle-albas/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-janelle-albas-calgary",
+  "treatment_id": "dr-janelle-albas-calgary--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Janelle Albas",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Janelle Albas, BSc, ND",
+    "id": "dr-janelle-albas-calgary--janelle-albas",
+    "name": "Dr. Janelle Albas"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee found on her own Evolve bio page (http://www.evolvechiro.ca/8th-ave-team/dr-janelle-albas/) or in the full text extract of the Evolve 8th Avenue Jane booking page (https://evolvechiro1.janeapp.com/locations/evolve-8th-avenue/book), which lists practitioner bios but no treatment prices in the fetched text.",
+  "price_tier": null,
+  "treatment_link": "http://www.evolvechiro.ca/8th-ave-team/dr-janelle-albas/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-janine-buisman-wilcox-nd-guelph",
   "treatment_id": "dr-janine-buisman-wilcox-nd-guelph--naturopathy",
   "treatment": "Naturopathy",
@@ -5934,6 +6604,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-julie-clark-naturopathic-doctor-calgary",
+  "treatment_id": "dr-julie-clark-naturopathic-doctor-calgary--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Julie Clark, Naturopathic Doctor (on maternity leave per the clinic's team page)",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Julie Clark (On Maternity Leave) \u2014 'Naturopathic Doctor, Acupuncture Provider, IV and Injection therapy certified' (The Clinic YYC Our Team page, via search extract; a direct fetch of that page returned HTTP 429 and was not retried, per sourcing rules)",
+    "id": "dr-julie-clark-naturopathic-doctor-calgary--julie-clark",
+    "name": "Dr. Julie Clark"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No IV or naturopathic fee is published on The Clinic YYC's own website in the pages fetched/extracted (homepage and Our Team page), and no booking page with extractable fees could be verified, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://theclinicyyc.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-karen-ghelani-markham",
   "treatment_id": "dr-karen-ghelani-markham--couples-therapy",
   "treatment": "Couples Therapy",
@@ -5979,6 +6668,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-keltie-pratt-calgary",
+  "treatment_id": "dr-keltie-pratt-calgary--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Keltie Pratt",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Keltie Pratt, Psy. D., M.A., Registered Clinical Psychologist",
+    "id": "dr-keltie-pratt-calgary--dr-keltie-pratt",
+    "name": "Dr. Keltie Pratt"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price found: checked the clinic's own sleep-therapy page, homepage, self-referral page, and its CBT-I patient info sheet PDF (drkp.ca/forms/DRKP-Dr-Pratt-CBTI-Patient-Info-Sheet.pdf); none publish a fee for CBT-I / sleep therapy.",
+  "price_tier": null,
+  "treatment_link": "https://drkp.ca/sleep-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-lisa-knapper-nd-naturopath-acupuncture-burlington",
   "treatment_id": "dr-lisa-knapper-nd-naturopath-acupuncture-burlington--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -5995,6 +6703,44 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.drlisaknappernd.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-mandy-milliquet-naturopathic-doctor-calgary",
+  "treatment_id": "dr-mandy-milliquet-naturopathic-doctor-calgary--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Mandy Milliquet",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Mandy Milliquet, Naturopathic Doctor",
+    "id": "dr-mandy-milliquet-naturopathic-doctor-calgary--dr-mandy-milliquet",
+    "name": "Dr. Mandy Milliquet"
+   }
+  ],
+  "price_text": "$45",
+  "price_source": "Clinic's own website, IV & Nutrient Therapy page (https://www.elevatefunctionalhealth.ca/iv-nutrient-therapy), 'Vitamin Injection Therapy' section, Cost line: '$45'. The section describes injection 'either into the arm or the buttocks' (intramuscular), and the page FAQ distinguishes IM injections (max 3mL) from IVs.",
+  "price_tier": "website",
+  "treatment_link": "https://www.elevatefunctionalhealth.ca/iv-nutrient-therapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-mandy-milliquet-naturopathic-doctor-calgary",
+  "treatment_id": "dr-mandy-milliquet-naturopathic-doctor-calgary--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Mandy Milliquet",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Mandy Milliquet, Naturopathic Doctor",
+    "id": "dr-mandy-milliquet-naturopathic-doctor-calgary--dr-mandy-milliquet",
+    "name": "Dr. Mandy Milliquet"
+   }
+  ],
+  "price_text": "$160-$310 depending on the formulation prescribed",
+  "price_source": "Clinic's own website, IV & Nutrient Therapy page (https://www.elevatefunctionalhealth.ca/iv-nutrient-therapy), 'IV Vitamin Therapy' section, Cost line: '$160-$310 depending on the formulation prescribed.'",
+  "price_tier": "website",
+  "treatment_link": "https://www.elevatefunctionalhealth.ca/iv-nutrient-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -6364,6 +7110,44 @@
   "price_tier": null,
   "treatment_link": "https://www.doctormomnd.com/fertility-pregnancy-toronto",
   "last_verified": null
+ },
+ {
+  "clinic_id": "dr-shannon-ferguson-calgary",
+  "treatment_id": "dr-shannon-ferguson-calgary--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Shannon Ferguson",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Shannon Ferguson, ND",
+    "id": "dr-shannon-ferguson-calgary--dr-shannon-ferguson",
+    "name": "Dr. Shannon Ferguson"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price found: checked the clinic's own website (calgarynaturopathiccare.com homepage, which lists her services and treated conditions but no fees) and the Country Hills Massage Therapy Jane booking page where she is a listed practitioner (no naturopathic visit prices were displayed in the booking extraction).",
+  "price_tier": null,
+  "treatment_link": "http://www.calgarynaturopathiccare.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-shannon-ferguson-calgary",
+  "treatment_id": "dr-shannon-ferguson-calgary--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Shannon Ferguson",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Shannon Ferguson, ND",
+    "id": "dr-shannon-ferguson-calgary--dr-shannon-ferguson",
+    "name": "Dr. Shannon Ferguson"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price found: her own website's 'Vitamin Injections' section (calgarynaturopathiccare.com homepage) describes the service with no fee, and no injection price was displayed on the Country Hills Massage Therapy Jane booking page extraction.",
+  "price_tier": null,
+  "treatment_link": "http://www.calgarynaturopathiccare.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "dr-simona-scurtu-ajax",
@@ -6948,6 +7732,25 @@
   "price_source": "No fees are published on Enhanced Motion's own website; booking is by phone/email.",
   "price_tier": null,
   "treatment_link": "https://enhancedmotion.ca/airdrie-osteopath/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "enhanced-motion-inc-calgary",
+  "treatment_id": "enhanced-motion-inc-calgary--facial-manual-therapy",
+  "treatment": "Facial Manual Therapy",
+  "billed_as": "Osteopathy",
+  "practitioner": "Amy",
+  "practitioners": [
+   {
+    "as_recorded": "Amy",
+    "id": "enhanced-motion-inc-calgary--amy",
+    "name": "Amy"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee found on the clinic's own osteopathy page (https://enhancedmotion.ca/osteopathy-calgary/); no booking page with prices was surfaced from the clinic's own site in search extracts, so no price could be sourced under the own-site/booking-only rule.",
+  "price_tier": null,
+  "treatment_link": "https://enhancedmotion.ca/osteopathy-calgary/",
   "last_verified": "2026-11-01"
  },
  {
@@ -7765,6 +8568,44 @@
  },
  {
   "clinic_id": "gaia-calgary",
+  "treatment_id": "gaia-calgary--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Marnie Wachtler",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Marnie Wachtler, ND",
+    "id": "gaia-calgary--marnie-wachtler",
+    "name": "Dr. Marnie Wachtler"
+   }
+  ],
+  "price_text": "Memberships Starting in January 2026 at $99/month includes: 1 Monthly Vitamin Infusion & 1 Single Vitamin IM injection. (NAD+ excluded) ($145 value)",
+  "price_source": "https://gaiahealthcare.com/appointment/",
+  "price_tier": "website",
+  "treatment_link": "https://gaiahealthcare.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "gaia-calgary",
+  "treatment_id": "gaia-calgary--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Marnie Wachtler",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Marnie Wachtler, ND",
+    "id": "gaia-calgary--marnie-wachtler",
+    "name": "Dr. Marnie Wachtler"
+   }
+  ],
+  "price_text": "Memberships Starting in January 2026 at $99/month includes: 1 Monthly Vitamin Infusion & 1 Single Vitamin IM injection. (NAD+ excluded) ($145 value)",
+  "price_source": "https://gaiahealthcare.com/appointment/",
+  "price_tier": "website",
+  "treatment_link": "https://gaiahealthcare.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "gaia-calgary",
   "treatment_id": "gaia-calgary--naturopathy",
   "treatment": "Naturopathy",
   "billed_as": "Naturopathy",
@@ -7810,6 +8651,32 @@
   "price_tier": "booking",
   "treatment_link": "https://www.gatewayscounselling.com/services-and-programs",
   "last_verified": null
+ },
+ {
+  "clinic_id": "genesis-physiotherapy-calgary",
+  "treatment_id": "genesis-physiotherapy-calgary--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No gait analysis price is published on the clinic's own website; the site states pricing is provided on request (call for pricing). No Jane/online booking price list exists for this clinic.",
+  "price_tier": null,
+  "treatment_link": "https://www.genesisphysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "genesis-physiotherapy-calgary",
+  "treatment_id": "genesis-physiotherapy-calgary--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation price is published on the clinic's own website (call for pricing).",
+  "price_tier": null,
+  "treatment_link": "https://www.genesisphysio.ca/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "genest-macgillivray-psychologists-halifax",
@@ -8035,6 +8902,25 @@
   "price_source": "Clinic's own therapist listings (service pages on gritpsychology.com, e.g. /depression/ and /first-responders-counselling/): Joel Zimmerman, Registered Psychologist, $220 per hour, '***Direct billing Available***... plus couples & families on communication.' Team rates for other psychologists range $150-$260 per hour.",
   "price_tier": "website",
   "treatment_link": "http://www.gritpsychology.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "group23-sports-medicine-calgary",
+  "treatment_id": "group23-sports-medicine-calgary--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Amy",
+  "practitioners": [
+   {
+    "as_recorded": "Amy \u2014 Level 1 TPI Certified Professional and Registered Physiotherapist, per the clinic's own golf page; her surname is not published on the golf page or anywhere else found, so the ID is built from the first name only",
+    "id": "group23-sports-medicine-calgary--amy",
+    "name": "Amy"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No dollar price for the TPI Golf Assessment is published on the clinic's own website or golf page; the page notes only that physiotherapy is not covered by Alberta Health Care and may be covered by extended health plans.",
+  "price_tier": null,
+  "treatment_link": "https://group23.ca/golf-programs-resources/",
   "last_verified": "2026-11-01"
  },
  {
@@ -8388,6 +9274,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "healthflow-naturopathic-clinic-calgary",
+  "treatment_id": "healthflow-naturopathic-clinic-calgary--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Walter Ferneyhough, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Walter Ferneyhough, ND \u2014 surname spelled 'Ferneyhough' on the clinic's own IV therapy page; his Jane bio spells it 'Fernyhough'",
+    "id": "healthflow-naturopathic-clinic-calgary--walter-ferneyhough",
+    "name": "Walter Ferneyhough"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No IV therapy prices are published on the clinic's own website or on its Jane booking page (healthflow.janeapp.com, read 2026-11-01); the Jane page lists practitioners and bios without public treatment prices.",
+  "price_tier": null,
+  "treatment_link": "https://healthflow.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "healthier-living-clinic-mississauga",
   "treatment_id": "healthier-living-clinic-mississauga--naturopathy",
   "treatment": "Naturopathy",
@@ -8480,6 +9385,32 @@
   "price_source": "No IV therapy prices are published on the clinic's own website; the clinic's own 'What Treatments do NDs use?' document describes Intravenous Therapy without fees.",
   "price_tier": null,
   "treatment_link": "https://ndoc.ca/wp-content/uploads/2023/06/What-Treatments-do-NDs-use.pdf",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "holistic-institute-of-health-fertility-calgary",
+  "treatment_id": "holistic-institute-of-health-fertility-calgary--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No acupuncture prices are published on the clinic's own website (fertilecalgary.com, read 2026-11-01) and no booking page with public prices was found.",
+  "price_tier": null,
+  "treatment_link": "https://fertilecalgary.com/fertility/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "holistic-institute-of-health-fertility-calgary",
+  "treatment_id": "holistic-institute-of-health-fertility-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy prices are published on the clinic's own website and no booking page with public prices was found.",
+  "price_tier": null,
+  "treatment_link": "https://www.fertilecalgary.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -8631,6 +9562,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://impact-healthcare.au1.cliniko.com",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "in-good-nutrition-calgary",
+  "treatment_id": "in-good-nutrition-calgary--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No sports nutrition prices are published on the clinic's own website or on its Jane booking page (ingoodnutrition.janeapp.com, read 2026-11-01); the Jane page lists practitioner bios without public treatment prices.",
+  "price_tier": null,
+  "treatment_link": "https://www.ingoodnutrition.com/dietitian-nutritionist/sports-nutrition/",
   "last_verified": "2026-11-01"
  },
  {
@@ -8927,6 +9871,48 @@
   "price_tier": null,
   "treatment_link": "https://integrative.ca/practitioners/naturopathic-doctors/dr-lawren-chan",
   "last_verified": null
+ },
+ {
+  "clinic_id": "intrinsi-calgary",
+  "treatment_id": "intrinsi-calgary--bike-fitting",
+  "treatment": "Bike Fitting",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Spencer Pootz; Jon Gabbai; Mark Van Thournout",
+  "practitioners": [
+   {
+    "as_recorded": "Spencer Pootz, physiotherapist \u2014 named on the clinic's own bike fitting page as a bike fit practitioner",
+    "id": "intrinsi-calgary--spencer-pootz",
+    "name": "Spencer Pootz"
+   },
+   {
+    "as_recorded": "Jon Gabbai, physiotherapist \u2014 named on the clinic's own bike fitting page as a bike fit practitioner",
+    "id": "intrinsi-calgary--jon-gabbai",
+    "name": "Jon Gabbai"
+   },
+   {
+    "as_recorded": "Mark Van Thournout, physiotherapist \u2014 named on the clinic's own bike fitting page as a bike fit practitioner",
+    "id": "intrinsi-calgary--mark-van-thournout",
+    "name": "Mark Van Thournout"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No bike fit price is published on the clinic's own website. The only figures found are from a third-party listicle (MyVeloFit, 'Top 5 Bike Fitters in Calgary', prices as of May 24, 2024: Complete $430 / Basic $260 / Frame Sizing $250 / Follow-Up $175) \u2014 older than 1 year, not the clinic's own site or booking page, and not a patient review, so it is NOT usable as a price under the tier rules.",
+  "price_tier": null,
+  "treatment_link": "https://intrinsi.ca/bike-fitting/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "intrinsi-calgary",
+  "treatment_id": "intrinsi-calgary--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No running assessment price is published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "https://intrinsi.ca/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "it-takes-practice-red-deer",
@@ -9867,6 +10853,45 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "la-palma-spa-calgary",
+  "treatment_id": "la-palma-spa-calgary--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$205 initial (90 min) \u00b7 $165-$185 follow-up (60-90 min)",
+  "price_source": "Clinic's own acupuncture page (https://www.lapalmaspa.com/acupuncture, fetched 2026-11-01): facial acupuncture \u2014 Initial 90 min $205; Follow Up 60 min $165 / 75 min $175 / 90 min $185.",
+  "price_tier": "website",
+  "treatment_link": "https://www.lapalmaspa.com/acupuncture",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "la-palma-spa-calgary",
+  "treatment_id": "la-palma-spa-calgary--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$150 initial (60 min) \u00b7 $135 follow-up (60 min)",
+  "price_source": "Clinic's own acupuncture page (https://www.lapalmaspa.com/acupuncture, fetched 2026-11-01): Gua Sha \u2014 Initial 60 min $150; Follow-Up 60 min $135.",
+  "price_tier": "website",
+  "treatment_link": "https://www.lapalmaspa.com/acupuncture",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "la-palma-spa-calgary",
+  "treatment_id": "la-palma-spa-calgary--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$175 initial (90 min) \u00b7 $135-$165 follow-up (60-90 min)",
+  "price_source": "Clinic's own acupuncture page (https://www.lapalmaspa.com/acupuncture, fetched 2026-11-01): fertility acupuncture \u2014 Initial 90 min $175; Follow Up 60 min $135 / 75 min $150 / 90 min $165.",
+  "price_tier": "website",
+  "treatment_link": "https://www.lapalmaspa.com/acupuncture",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "la-physio-tamami-ayoub-montreal",
   "treatment_id": "la-physio-tamami-ayoub-montreal--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -9903,6 +10928,32 @@
   "price_tier": "booking",
   "treatment_link": "https://lakeviewphysio.ca/services/movement-therapy-classes",
   "last_verified": null
+ },
+ {
+  "clinic_id": "lakeview-physiotherapy-calgary",
+  "treatment_id": "lakeview-physiotherapy-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic health physiotherapy prices are published on the clinic's own website; booking is via Jane, whose public text does not list prices.",
+  "price_tier": null,
+  "treatment_link": "https://lakeviewphysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "lakeview-physiotherapy-calgary",
+  "treatment_id": "lakeview-physiotherapy-calgary--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation prices are published on the clinic's own website; booking is via Jane, whose public text does not list prices.",
+  "price_tier": null,
+  "treatment_link": "https://lakeviewphysio.ca/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "launch-nutrition-edmonton",
@@ -10004,6 +11055,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "leela-eco-spa-calgary",
+  "treatment_id": "leela-eco-spa-calgary--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No lymphatic drainage price is published on the clinic's own massage page; only a chain-wide price range is shown.",
+  "price_tier": null,
+  "treatment_link": "https://leelaecospa.ca/treatments/massage",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "leela-eco-spa-calgary",
+  "treatment_id": "leela-eco-spa-calgary--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No TMJ-specific price is published on the clinic's own massage page (leelaecospa.ca/treatments/massage, fetched 2026-11-01); the page shows only a chain-wide price range (CAD $72.50-$317.50), which is not a TMJ price.",
+  "price_tier": null,
+  "treatment_link": "https://leelaecospa.ca/treatments/massage",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "legend-physiotherapy-abbotsford",
   "treatment_id": "legend-physiotherapy-abbotsford--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -10098,6 +11175,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "lighthouse-psychology-services-calgary",
+  "treatment_id": "lighthouse-psychology-services-calgary--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No dollar fee is published: the clinic's own fees page (lighthousecalgary.ca/fees.html, fetched 2026-11-01) publishes typical assessment hours only (Psychoeducational Assessment 10-12 hours; complex 12-15 hours) with no hourly rate, so no price can be stated.",
+  "price_tier": null,
+  "treatment_link": "http://lighthousecalgary.ca/assessment.html",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "limelight-physiotherapy-clinic-vancouver",
   "treatment_id": "limelight-physiotherapy-clinic-vancouver--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -10172,6 +11262,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "loam-moss-calgary",
+  "treatment_id": "loam-moss-calgary--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Raegan Brumer",
+  "practitioners": [
+   {
+    "as_recorded": "Raegan Brumer \u2014 Registered Massage Therapist, Licensed Practical Nurse, Post-Operative Recovery Specialist and Certified Lymphedema Therapist (Vodder and Chikly methods), per the clinic's own site",
+    "id": "loam-moss-calgary--raegan-brumer",
+    "name": "Raegan Brumer"
+   }
+  ],
+  "price_text": "$125 (60 min) \u00b7 $170 (90 min)",
+  "price_source": "Clinic's own Manual Lymphatic Drainage page (https://loamandmoss.ca/services/manual-lymphatic-drainage/, fetched 2026-11-01) fee table: 60 minutes $125; 90 minutes $170 (before tax).",
+  "price_tier": "website",
+  "treatment_link": "https://loamandmoss.ca/services/manual-lymphatic-drainage/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "local-health-integrative-clinic-vancouver",
   "treatment_id": "local-health-integrative-clinic-vancouver--naturopathy",
   "treatment": "Naturopathy",
@@ -10228,6 +11337,25 @@
   "price_tier": null,
   "treatment_link": "https://www.localpsychotherapy.ca/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "longevity-fertility-centre-calgary",
+  "treatment_id": "longevity-fertility-centre-calgary--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Charlie Wang",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Charlie Wang, R.Ac., TCMD \u2014 the clinic's own homepage states the practice is 'Led by Dr. Charlie Wang'; no per-service booking roster is published, so he is recorded as the lead practitioner of its fertility acupuncture program",
+    "id": "longevity-fertility-centre-calgary--charlie-wang",
+    "name": "Charlie Wang"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fertility acupuncture prices are published on the clinic's own website (longevityfertility.com, fetched 2026-11-01) and no online booking page with prices was found.",
+  "price_tier": null,
+  "treatment_link": "https://longevityfertility.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "lotus-wellness-psychology-clinic-richmond-hill",
@@ -10374,6 +11502,57 @@
   "price_tier": null,
   "treatment_link": "https://marathonchiropractic.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "marda-loop-physiotherapy-calgary",
+  "treatment_id": "marda-loop-physiotherapy-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Nicole Hunter",
+  "practitioners": [
+   {
+    "id": "marda-loop-physiotherapy-calgary--nicole-hunter",
+    "name": "Nicole Hunter",
+    "as_recorded": "Nicole Hunter"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://mardaloop.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "marda-loop-physiotherapy-calgary",
+  "treatment_id": "marda-loop-physiotherapy-calgary--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://mardaloopphysio.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "marda-loop-physiotherapy-calgary",
+  "treatment_id": "marda-loop-physiotherapy-calgary--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Nicole Hunter",
+  "practitioners": [
+   {
+    "id": "marda-loop-physiotherapy-calgary--nicole-hunter",
+    "name": "Nicole Hunter",
+    "as_recorded": "Nicole Hunter"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://mardaloop.janeapp.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "marie-julie-dessaivre-acupuncture-montreal",
@@ -10914,6 +12093,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "mind-revive-psychotherapy-counselling-calgary",
+  "treatment_id": "mind-revive-psychotherapy-counselling-calgary--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Effat Daftarchi",
+  "practitioners": [
+   {
+    "id": "mind-revive-psychotherapy-counselling-calgary--dr-effat-daftarchi",
+    "name": "Dr. Effat Daftarchi",
+    "as_recorded": "Dr. Effat Daftarchi"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://mindrevive.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "mindful-milestones-psychotherapy-brandon",
   "treatment_id": "mindful-milestones-psychotherapy-brandon--couples-therapy",
   "treatment": "Couples Therapy",
@@ -11076,6 +12274,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "mission-chiropractic-clinic-calgary",
+  "treatment_id": "mission-chiropractic-clinic-calgary--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": "Dr. Jason Fox",
+  "practitioners": [
+   {
+    "id": "mission-chiropractic-clinic-calgary--dr-jason-fox",
+    "name": "Dr. Jason Fox",
+    "as_recorded": "Dr. Jason Fox"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://missionhealth.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "mississauga-naturopath-osteopath-clinic-mississauga",
   "treatment_id": "mississauga-naturopath-osteopath-clinic-mississauga--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -11188,6 +12405,164 @@
   "price_tier": null,
   "treatment_link": "https://doctorlore.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "monarch-psychology-calgary",
+  "treatment_id": "monarch-psychology-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Lori",
+  "practitioners": [
+   {
+    "id": "monarch-psychology-calgary--lori",
+    "name": "Lori",
+    "as_recorded": "Lori"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://monarchpsychology.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "moss-postpartum-house-calgary",
+  "treatment_id": "moss-postpartum-house-calgary--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Mariah Da Silveira",
+  "practitioners": [
+   {
+    "id": "moss-postpartum-house-calgary--dr-mariah-da-silveira",
+    "name": "Dr. Mariah Da Silveira",
+    "as_recorded": "Dr. Mariah Da Silveira"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://mosspostpartum.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "moss-postpartum-house-calgary",
+  "treatment_id": "moss-postpartum-house-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Gisele Trottier",
+  "practitioners": [
+   {
+    "id": "moss-postpartum-house-calgary--gisele-trottier",
+    "name": "Gisele Trottier",
+    "as_recorded": "Gisele Trottier"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://mosspostpartum.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "moss-postpartum-house-calgary",
+  "treatment_id": "moss-postpartum-house-calgary--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Mariah Da Silveira",
+  "practitioners": [
+   {
+    "id": "moss-postpartum-house-calgary--dr-mariah-da-silveira",
+    "name": "Dr. Mariah Da Silveira",
+    "as_recorded": "Dr. Mariah Da Silveira"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://mosspostpartum.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "moss-postpartum-house-calgary",
+  "treatment_id": "moss-postpartum-house-calgary--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Christa Marx, Dr. Mariah Da Silveira",
+  "practitioners": [
+   {
+    "id": "moss-postpartum-house-calgary--dr-christa-marx",
+    "name": "Dr. Christa Marx",
+    "as_recorded": "Dr. Christa Marx"
+   },
+   {
+    "id": "moss-postpartum-house-calgary--dr-mariah-da-silveira",
+    "name": "Dr. Mariah Da Silveira",
+    "as_recorded": "Dr. Mariah Da Silveira"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://mosspostpartum.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "moss-postpartum-house-calgary",
+  "treatment_id": "moss-postpartum-house-calgary--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Carrie Stiles, Dr. Carleigh Sturge",
+  "practitioners": [
+   {
+    "id": "moss-postpartum-house-calgary--dr-carrie-stiles",
+    "name": "Dr. Carrie Stiles",
+    "as_recorded": "Dr. Carrie Stiles"
+   },
+   {
+    "id": "moss-postpartum-house-calgary--dr-carleigh-sturge",
+    "name": "Dr. Carleigh Sturge",
+    "as_recorded": "Dr. Carleigh Sturge"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://mosspostpartum.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "moss-postpartum-house-calgary",
+  "treatment_id": "moss-postpartum-house-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Devin Grant, Renae Hunter, Alisha Pulimalayil, Madison Grande",
+  "practitioners": [
+   {
+    "id": "moss-postpartum-house-calgary--devin-grant",
+    "name": "Devin Grant",
+    "as_recorded": "Devin Grant"
+   },
+   {
+    "id": "moss-postpartum-house-calgary--renae-hunter",
+    "name": "Renae Hunter",
+    "as_recorded": "Renae Hunter"
+   },
+   {
+    "id": "moss-postpartum-house-calgary--alisha-pulimalayil",
+    "name": "Alisha Pulimalayil",
+    "as_recorded": "Alisha Pulimalayil"
+   },
+   {
+    "id": "moss-postpartum-house-calgary--madison-grande",
+    "name": "Madison Grande",
+    "as_recorded": "Madison Grande"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://mosspostpartum.janeapp.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "motion-care-clinic-north-york",
@@ -11901,6 +13276,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "neurvana-naturopathic-medicine-calgary",
+  "treatment_id": "neurvana-naturopathic-medicine-calgary--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://neurvanahealth.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "neurvana-naturopathic-medicine-calgary",
+  "treatment_id": "neurvana-naturopathic-medicine-calgary--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://neurvanahealth.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "new-life-rehab-clinic-scarborough",
   "treatment_id": "new-life-rehab-clinic-scarborough--clinical-pilates",
   "treatment": null,
@@ -12178,6 +13579,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "northmount-dental-care-calgary",
+  "treatment_id": "northmount-dental-care-calgary--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dental",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://northmountdental.com/post/botox-for-tmj-and-migraines",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "northwood-pelvic-health-and-wellness-clinic-nanaimo",
   "treatment_id": "northwood-pelvic-health-and-wellness-clinic-nanaimo--clinical-pilates",
   "treatment": null,
@@ -12261,6 +13675,45 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://northwoodpelvichealth.janeapp.com/locations/northwood-pelvic-health-and-wellness-clinic/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "norum-psych-services-calgary",
+  "treatment_id": "norum-psych-services-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://norumpsychservices.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "norum-psych-services-calgary",
+  "treatment_id": "norum-psych-services-calgary--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "LENS neurofeedback session (30 min): $150; EEGer neurofeedback session (30 min): $150",
+  "price_source": "https://www.norumpsychservices.com/services/neurofeedback",
+  "price_tier": "website",
+  "treatment_link": "https://www.norumpsychservices.com/services/neurofeedback",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "norum-psych-services-calgary",
+  "treatment_id": "norum-psych-services-calgary--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.norumpsychservices.com/services/assessments",
   "last_verified": "2026-11-01"
  },
  {
@@ -12638,6 +14091,19 @@
  },
  {
   "clinic_id": "optimum-wellness-centres-calgary",
+  "treatment_id": "optimum-wellness-centres-calgary--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://optimumwellnesscentres.com/services/iv-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "optimum-wellness-centres-calgary",
   "treatment_id": "optimum-wellness-centres-calgary--naturopathy",
   "treatment": "Naturopathy",
   "billed_as": "Naturopathy",
@@ -12648,6 +14114,19 @@
   "price_tier": null,
   "treatment_link": "http://optimumwellnesscentres.com/services/iv-therapy/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "optimum-wellness-centres-trans-canada-calgary",
+  "treatment_id": "optimum-wellness-centres-trans-canada-calgary--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://optimumwellnesscentres.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "orca-physiotherapy-victoria",
@@ -12772,6 +14251,63 @@
   "price_source": "No fees are published on the clinic's own website, so price is null.",
   "price_tier": null,
   "treatment_link": "https://www.voxlingue.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "osteo-health-calgary",
+  "treatment_id": "osteo-health-calgary--facial-manual-therapy",
+  "treatment": "Facial Manual Therapy",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Aizhan Sydygalieva",
+  "practitioners": [
+   {
+    "id": "osteo-health-calgary--aizhan-sydygalieva",
+    "name": "Aizhan Sydygalieva",
+    "as_recorded": "Aizhan Sydygalieva"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://osteohealthcalgary.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "osteo-health-calgary",
+  "treatment_id": "osteo-health-calgary--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Aizhan Sydygalieva",
+  "practitioners": [
+   {
+    "id": "osteo-health-calgary--aizhan-sydygalieva",
+    "name": "Aizhan Sydygalieva",
+    "as_recorded": "Aizhan Sydygalieva"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://osteohealthcalgary.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "osteo-health-calgary",
+  "treatment_id": "osteo-health-calgary--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Osteopathy",
+  "practitioner": "Simon Jolicoeur-Forrester",
+  "practitioners": [
+   {
+    "id": "osteo-health-calgary--simon-jolicoeur-forrester",
+    "name": "Simon Jolicoeur-Forrester",
+    "as_recorded": "Simon Jolicoeur-Forrester"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://osteohealthcalgary.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -13110,6 +14646,63 @@
   "last_verified": null
  },
  {
+  "clinic_id": "peak-health-calgary-calgary",
+  "treatment_id": "peak-health-calgary-calgary--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Vanessa McCrae",
+  "practitioners": [
+   {
+    "id": "peak-health-calgary-calgary--vanessa-mccrae",
+    "name": "Vanessa McCrae",
+    "as_recorded": "Vanessa McCrae"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://peakhealthcalgary.com/golf-movement-assessment-calgary-south/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "peak-health-calgary-calgary",
+  "treatment_id": "peak-health-calgary-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Madison DeCorby",
+  "practitioners": [
+   {
+    "id": "peak-health-calgary-calgary--madison-decorby",
+    "name": "Madison DeCorby",
+    "as_recorded": "Madison DeCorby"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://peakhealth.cliniko.com/bookings",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "peak-health-calgary-calgary",
+  "treatment_id": "peak-health-calgary-calgary--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Lindsay Benoit",
+  "practitioners": [
+   {
+    "id": "peak-health-calgary-calgary--lindsay-benoit",
+    "name": "Lindsay Benoit",
+    "as_recorded": "Lindsay Benoit"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://peakhealth.cliniko.com/bookings",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "peak-nutrition-toronto",
   "treatment_id": "peak-nutrition-toronto--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -13215,6 +14808,30 @@
   "price_tier": null,
   "treatment_link": "https://www.philosophywellness.ca/pages/registered-dietitian",
   "last_verified": null
+ },
+ {
+  "clinic_id": "phoenix-massage-wellness-calgary",
+  "treatment_id": "phoenix-massage-wellness-calgary--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Aristotle Germar; Wan Juan (Yvonne) Kuang",
+  "practitioners": [
+   {
+    "id": "phoenix-massage-wellness-calgary--aristotle-germar",
+    "name": "Aristotle Germar",
+    "as_recorded": "Aristotle Germar \u2014 RMT named on the clinic's own lymphatic drainage page as trained in manual lymphatic drainage"
+   },
+   {
+    "id": "phoenix-massage-wellness-calgary--wan-juan-yvonne-kuang",
+    "name": "Wan Juan (Yvonne) Kuang",
+    "as_recorded": "Wan Juan (Yvonne) Kuang \u2014 RMT named on the clinic's own lymphatic drainage page as trained in manual lymphatic drainage"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No lymphatic drainage price is published on the clinic's own pricing page (phoenixmassageyyc.ca/pages/packages-and-memberships, read 2026-11-01) and Jane prices are not exposed in text fetch.",
+  "price_tier": null,
+  "treatment_link": "https://phoenixwellnessyyc.janeapp.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "physio-hamel-gatineau",
@@ -13680,6 +15297,25 @@
  },
  {
   "clinic_id": "poke-acupuncture-and-skincare-calgary",
+  "treatment_id": "poke-acupuncture-and-skincare-calgary--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Amy Nykoluk",
+  "practitioners": [
+   {
+    "id": "poke-acupuncture-and-skincare-calgary--amy-nykoluk",
+    "name": "Amy Nykoluk",
+    "as_recorded": "Dr. Amy Nykoluk \u2014 Doctor of TCM and government-registered acupuncturist; her Jane bio states she specializes in skin conditions and cosmetic acupuncture work"
+   }
+  ],
+  "price_text": "Signature Rejuvenating Facial Acupuncture $200 (75 min); Mini Facial Acupuncture $140 (60 min); Initial Assessment $60 (required for first-time patients)",
+  "price_source": "https://pokeacupunctureandskin.com/services",
+  "price_tier": "website",
+  "treatment_link": "https://pokeacupunctureandskin.com/services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "poke-acupuncture-and-skincare-calgary",
   "treatment_id": "poke-acupuncture-and-skincare-calgary--naturopathy",
   "treatment": "Naturopathy",
   "billed_as": null,
@@ -13872,6 +15508,68 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "pro-motion-calgary-calgary",
+  "treatment_id": "pro-motion-calgary-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Merle Morton; Lydia",
+  "practitioners": [
+   {
+    "id": "pro-motion-calgary-calgary--merle-morton",
+    "name": "Merle Morton",
+    "as_recorded": "Merle Morton \u2014 Pelvic Health Physiotherapist (Canadian Continence Clinic) practising at this clinic's address/phone, listed with the clinic's own domain promotioncalgary.com"
+   },
+   {
+    "id": "pro-motion-calgary-calgary--lydia",
+    "name": "Lydia",
+    "as_recorded": "Lydia \u2014 physiotherapist (Jane bio) who states she is a certified pelvic floor physiotherapist; surname not published in the Jane bio extract"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy prices are published on the clinic's own website or exposed on its Jane booking page in text fetch.",
+  "price_tier": null,
+  "treatment_link": "https://www.promotioncalgary.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pro-motion-calgary-calgary",
+  "treatment_id": "pro-motion-calgary-calgary--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Lydia",
+  "practitioners": [
+   {
+    "id": "pro-motion-calgary-calgary--lydia",
+    "name": "Lydia",
+    "as_recorded": "Lydia \u2014 physiotherapist (Jane bio); her bio lists shockwave therapy among the treatments she provides; surname is not published in the Jane bio extract"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No shockwave or physiotherapy prices are published on the clinic's own website or exposed on its Jane booking page in text fetch.",
+  "price_tier": null,
+  "treatment_link": "https://www.promotioncalgary.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pro-motion-calgary-calgary",
+  "treatment_id": "pro-motion-calgary-calgary--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Alexis",
+  "practitioners": [
+   {
+    "id": "pro-motion-calgary-calgary--alexis",
+    "name": "Alexis",
+    "as_recorded": "Alexis \u2014 physiotherapist and vestibular rehabilitation specialist (Jane bio/team page); surname not published in the fetched extracts"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation prices are published on the clinic's own website or exposed on its Jane booking page in text fetch.",
+  "price_tier": null,
+  "treatment_link": "https://www.promotioncalgary.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "pro-motion-clinic-kelowna",
   "treatment_id": "pro-motion-clinic-kelowna--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -14024,6 +15722,32 @@
   "price_tier": null,
   "treatment_link": "http://www.nutritioniq.ca",
   "last_verified": null
+ },
+ {
+  "clinic_id": "prompt-physiotherapy-and-massage-calgary",
+  "treatment_id": "prompt-physiotherapy-and-massage-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy price is published on the clinic's own website; its Jane page returns only a location-select page in text fetch.",
+  "price_tier": null,
+  "treatment_link": "https://promptphysio.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "prompt-physiotherapy-and-massage-calgary",
+  "treatment_id": "prompt-physiotherapy-and-massage-calgary--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave therapy price is published on the clinic's own website; its Jane page returns only a location-select page in text fetch.",
+  "price_tier": null,
+  "treatment_link": "https://promptphysio.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "proremedy-physiotherapy-mississauga",
@@ -14547,6 +16271,38 @@
  },
  {
   "clinic_id": "ramsay-acupuncture-wellness-calgary",
+  "treatment_id": "ramsay-acupuncture-wellness-calgary--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Pearle Law",
+  "practitioners": [
+   {
+    "id": "ramsay-acupuncture-wellness-calgary--pearle-law",
+    "name": "Pearle Law",
+    "as_recorded": "Pearle Law, R.Ac \u2014 founder and Doctor of Acupuncture; the clinic's own testimonials credit her with cosmetic acupuncture and facial rejuvenation treatments"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No cosmetic acupuncture price is published on the clinic's own website (ramsayacupuncture.ca, read 2026-11-01) and no priced booking page was identified.",
+  "price_tier": null,
+  "treatment_link": "https://www.ramsayacupuncture.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ramsay-acupuncture-wellness-calgary",
+  "treatment_id": "ramsay-acupuncture-wellness-calgary--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fertility acupuncture price is published on the clinic's own website and no priced booking page was identified.",
+  "price_tier": null,
+  "treatment_link": "https://www.ramsayacupuncture.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ramsay-acupuncture-wellness-calgary",
   "treatment_id": "ramsay-acupuncture-wellness-calgary--naturopathy",
   "treatment": "Naturopathy",
   "billed_as": null,
@@ -15034,6 +16790,44 @@
   "last_verified": null
  },
  {
+  "clinic_id": "renu-health-wellness-calgary",
+  "treatment_id": "renu-health-wellness-calgary--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Meeghan Mackenzie",
+  "practitioners": [
+   {
+    "id": "renu-health-wellness-calgary--meeghan-mackenzie",
+    "name": "Meeghan Mackenzie",
+    "as_recorded": "Meeghan Mackenzie \u2014 founder, RMT and Certified Lymphedema Therapist (Academy of Lymphatic Studies), also a Certified Compression Fitter; the clinic's lymphatic drainage page states MLD is delivered by its Registered Massage Therapists and its Certified Lymphedema Therapist using the Vodder and Chikly methods"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No lymphatic drainage price is published on the clinic's own website (renuyourhealth.ca/lymphatic-drainage-massage, read 2026-11-01) and Jane prices are not exposed in text fetch.",
+  "price_tier": null,
+  "treatment_link": "https://renuyourhealth.ca/lymphatic-drainage-massage/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "resilience-pelvic-health-calgary",
+  "treatment_id": "resilience-pelvic-health-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Rumi Krzywicki",
+  "practitioners": [
+   {
+    "id": "resilience-pelvic-health-calgary--rumi-krzywicki",
+    "name": "Rumi Krzywicki",
+    "as_recorded": "Rumi Krzywicki \u2014 pelvic floor physiotherapist; patient testimonials on the clinic's own site recommend 'Rumi Krzywicki for pelvic floor Physiotherapy' and describe her assessments and treatment plans"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No physiotherapy fees are published on the clinic's own website (resiliencepelvichealth.com, including its FAQ page, read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.resiliencepelvichealth.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "resilience-physiotherapy-toronto-annex-toronto",
   "treatment_id": "resilience-physiotherapy-toronto-annex-toronto--clinical-pilates",
   "treatment": null,
@@ -15319,6 +17113,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "rewind-massage-therapy-calgary",
+  "treatment_id": "rewind-massage-therapy-calgary--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Tanya Rycroft",
+  "practitioners": [
+   {
+    "id": "rewind-massage-therapy-calgary--tanya-rycroft",
+    "name": "Tanya Rycroft",
+    "as_recorded": "Tanya Rycroft \u2014 RMT and co-owner; former dental assistant who, per her own-site bio, 'has taken a specialized course in treating TMJ (the jaw) and facial massage'; the clinic's services description lists TMJ and facial massage among its offerings"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No TMJ massage price is published on the clinic's own website (rewindmassagetherapy.com services list, read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.rewindmassagetherapy.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "richmond-hill-health-wellness-richmond-hill",
   "treatment_id": "richmond-hill-health-wellness-richmond-hill--naturopathy",
   "treatment": "Naturopathy",
@@ -15349,6 +17162,25 @@
   "price_tier": "booking",
   "treatment_link": "https://www.richmondhillclinic.com/naturopathic-services",
   "last_verified": null
+ },
+ {
+  "clinic_id": "richmond-physiotherapy-massage-calgary",
+  "treatment_id": "richmond-physiotherapy-massage-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Aly MacLean",
+  "practitioners": [
+   {
+    "id": "richmond-physiotherapy-massage-calgary--aly-maclean",
+    "name": "Aly MacLean",
+    "as_recorded": "Aly MacLean \u2014 pelvic health physiotherapist; the clinic's pelvic floor page states she is specially trained to perform internal exams as part of pelvic floor assessment and treatment"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy price is published on the clinic's own website (richmondphysiotherapy.ca/pelvic-floor and /physiotherapy, read 2026-11-01); the site directs patients to its online booking site for prices.",
+  "price_tier": null,
+  "treatment_link": "https://www.richmondphysiotherapy.ca/pelvic-floor",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "rivers-edge-counselling-centre-st-albert",
@@ -15404,6 +17236,49 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.rmtmovement.ca/med-spa-brampton/red-light-therapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "rocky-mountain-psychological-services-calgary",
+  "treatment_id": "rocky-mountain-psychological-services-calgary--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": "Cassandra Hillman White; Kellie",
+  "practitioners": [
+   {
+    "id": "rocky-mountain-psychological-services-calgary--cassandra-hillman-white",
+    "name": "Cassandra Hillman White",
+    "as_recorded": "Cassandra Hillman White, MSc, R.Psych \u2014 owner and Clinical Director; her team bio lists Neurofeedback among her clinical approaches and the neurofeedback program's initial consultation is held with the clinic director"
+   },
+   {
+    "id": "rocky-mountain-psychological-services-calgary--kellie",
+    "name": "Kellie",
+    "as_recorded": "Kellie \u2014 clinician on the clinic's team page who provides neurofeedback therapy and is working toward BCIA certification; surname not published in the fetched team page extract"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No neurofeedback price is published on the clinic's own website (rmpsychservices.com/faq-about-neurofeedback states sessions are charged at the regular hourly rate for psychology services and directs readers to contact the clinic for its current fee schedule).",
+  "price_tier": null,
+  "treatment_link": "https://rmpsychservices.com/faq-about-neurofeedback/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "rocky-mountain-psychological-services-calgary",
+  "treatment_id": "rocky-mountain-psychological-services-calgary--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": "Cassandra Hillman White",
+  "practitioners": [
+   {
+    "id": "rocky-mountain-psychological-services-calgary--cassandra-hillman-white",
+    "name": "Cassandra Hillman White",
+    "as_recorded": "Cassandra Hillman White, MSc, R.Psych \u2014 owner and Clinical Director overseeing the clinic's assessment services"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No assessment prices are published on the clinic's own website (rmpsychservices.com, read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://rmpsychservices.com/meet-the-team/",
   "last_verified": "2026-11-01"
  },
  {
@@ -15886,6 +17761,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "sanford-psychological-services-calgary",
+  "treatment_id": "sanford-psychological-services-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No couples therapy price is published on the clinic's own website (sanfordpsychological.com, read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "http://www.sanfordpsychological.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "sano-state-psychology-airdrie",
   "treatment_id": "sano-state-psychology-airdrie--neurofeedback",
   "treatment": "Neurofeedback",
@@ -16234,6 +18122,38 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.sheppardclinic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "shiftgrit-psychology-counselling-calgary",
+  "treatment_id": "shiftgrit-psychology-counselling-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No couples therapy rate is published on the clinic's own website pages fetched (shiftgrit.com, read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://shiftgrit.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "shiftgrit-psychology-counselling-calgary",
+  "treatment_id": "shiftgrit-psychology-counselling-calgary--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Psychology",
+  "practitioner": "Baldwin Asala",
+  "practitioners": [
+   {
+    "id": "shiftgrit-psychology-counselling-calgary--baldwin-asala",
+    "name": "Baldwin Asala",
+    "as_recorded": "Baldwin Asala \u2014 Registered Provisional Psychologist (AB), supervised by a Registered Psychologist; named as the clinic's sports psychologist on its Calgary sports psychology page (former University of Calgary Dinos wrestler and national-level wrestling coach)"
+   }
+  ],
+  "price_text": "Individual Therapy (50 min) $229 (Baldwin Asala, Registered Provisional Psychologist); clinic-wide price range $150-$240",
+  "price_source": "https://shiftgrit.com/therapists/baldwin-asala/",
+  "price_tier": "website",
+  "treatment_link": "https://shiftgrit.com/calgary/sports-psychology",
   "last_verified": "2026-11-01"
  },
  {
