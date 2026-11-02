@@ -3975,6 +3975,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Attollo Mental Health + Performance",
+  "clinic_id": "attollo-mental-health-performance-winnipeg",
+  "address": "315 Chancellor Matheson Rd #224",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3T 1Z2",
+  "phone": "(204) 560-8484",
+  "website": "https://attollomentalhealth.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Aura Physiotherapy",
   "clinic_id": "aura-physiotherapy-edmonton",
   "address": "11520 100 Ave NW, Suite 207",
@@ -5445,6 +5470,31 @@
   "last_verified": "2026-11-02"
  },
  {
+  "name": "Berton Physiotherapy & Chiropractic",
+  "clinic_id": "berton-physiotherapy-and-chiropractic-windsor",
+  "address": "555 Tecumseh Rd E",
+  "city": "Windsor",
+  "prov": "ON",
+  "postal": "N8X 2S1",
+  "phone": "(519) 966-8200",
+  "website": "http://bertonphysiotherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 3:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 17,
+  "rating_source": "Google Places details in search results for Berton Physiotherapy & Chiropractic: five stars (5.0) based on 17 reviews (conflict with aggregator counts flagged in gaps).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Berwick Chiropractic",
   "clinic_id": "berwick-chiropractic-berwick",
   "address": "188 Commercial St",
@@ -5702,6 +5752,56 @@
   "google_reviews": 170,
   "rating_source": "Clinic's own website Google badge claim (better-care.ca homepage): 'rated 5.0 in Vaughan' with '170+ 5-star Google reviews'.",
   "direct_billing": "yes",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "name": "Beyond Birthing",
+  "clinic_id": "beyond-birthing-whitehorse",
+  "address": "303A Hawkins St",
+  "city": "Whitehorse",
+  "prov": "YT",
+  "postal": "Y1A 1X5",
+  "phone": null,
+  "website": "https://beyond-birthing.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "10:00 AM \u2013 3:00 PM",
+   "wed": "10:00 AM \u2013 3:00 PM",
+   "thu": "10:00 AM \u2013 3:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "name": "Beyond Words Speech-Language Pathology",
+  "clinic_id": "beyond-words-speech-language-pathology-whitby",
+  "address": "74 Grath Crescent",
+  "city": "Whitby",
+  "prov": "ON",
+  "postal": "L1N 6N8",
+  "phone": "905-723-3061",
+  "website": "http://www.beyondslp.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM \u2013 5:00 PM",
+   "mon": "9:00 AM \u2013 6:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM \u2013 6:00 PM",
+   "tue": "9:00 AM \u2013 6:00 PM",
+   "wed": "9:00 AM \u2013 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-02"
  },
  {
@@ -5981,6 +6081,31 @@
   "last_verified": null
  },
  {
+  "name": "BlossomCo Wellness Clinic Windsor",
+  "clinic_id": "blossomco-wellness-clinic-windsor",
+  "address": "2557 Dougall Ave Suite 227",
+  "city": "Windsor",
+  "prov": "ON",
+  "postal": null,
+  "phone": null,
+  "website": "https://www.blossomcowellness.com/",
+  "booking_page": "https://blossomcowellness.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "12:00 PM - 8:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Blue Leaf Counselling",
   "clinic_id": "blue-leaf-counselling-lethbridge",
   "address": "#225, 200 4 Avenue South",
@@ -6122,6 +6247,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Blueprint Nutrition",
+  "clinic_id": "blueprint-nutrition-waterloo",
+  "address": "22 King St S Ste 300",
+  "city": "Waterloo",
+  "prov": "ON",
+  "postal": null,
+  "phone": "226-887-1499",
+  "website": "http://www.blueprintnutrition.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 3:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 3:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 6,
+  "rating_source": "Google Places details in search results",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Body & Mind Osteopathic Clinic",
@@ -6375,6 +6525,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Bodyworks Massage Therapy",
+  "clinic_id": "bodyworks-massage-therapy-winnipeg",
+  "address": "102-1277 Henderson Hwy",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R2G 1M3",
+  "phone": "(204) 615-5563",
+  "website": "https://bodyworksmassagetherapy.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 9:00 PM",
+   "mon": "9:00 AM \u2013 9:00 PM",
+   "sat": "9:00 AM \u2013 3:00 PM",
+   "sun": "10:00 AM \u2013 4:00 PM",
+   "thu": "9:00 AM \u2013 9:00 PM",
+   "tue": "9:00 AM \u2013 9:00 PM",
+   "wed": "9:00 AM \u2013 9:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 12,
+  "rating_source": "Google Places details (search result for bodyworksmassagetherapy.ca)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Boho Hair Boutique & Head Spa",
   "clinic_id": "boho-hair-boutique-and-head-spa-calgary",
   "address": null,
@@ -6390,6 +6565,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Boost Acupuncture and Eastern Medicine",
+  "clinic_id": "boost-acupuncture-and-eastern-medicine-whitehorse",
+  "address": "403 Lowe St",
+  "city": "Whitehorse",
+  "prov": "YT",
+  "postal": "Y1A 1W7",
+  "phone": "867-332-6054",
+  "website": "http://www.acupunctureyukon.com/",
+  "booking_page": "https://boostacupuncture.janeapp.com/locations/boost-acupuncture-and-eastern-medicine/book",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Boost Psychology",
@@ -9884,6 +10084,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Centre for Natural Medicine of Manitoba",
+  "clinic_id": "centre-for-natural-medicine-of-manitoba-winnipeg",
+  "address": "1218 Lorette Ave",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3M 1W5",
+  "phone": "(204) 488-6528",
+  "website": "http://www.naturalmedicine.mb.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "sat": null,
+   "sun": "Closed",
+   "thu": "9:00 AM \u2013 5:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 5:00 PM"
+  },
+  "google_rating": 4.3,
+  "google_reviews": 6,
+  "rating_source": "Google Places details (search result)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Centre for Therapeutic Massage",
   "clinic_id": "centre-for-therapeutic-massage-richmond-hill",
   "address": "339 Taylor Mills Drive North",
@@ -12343,18 +12568,26 @@
  {
   "name": "Community Chiropractic Center",
   "clinic_id": "community-chiropractic-center-windsor",
-  "address": null,
+  "address": "11811 Tecumseh Rd E #116",
   "city": "Windsor",
   "prov": "ON",
-  "postal": null,
-  "phone": null,
+  "postal": "N8N 4M7",
+  "phone": "(519) 735-7555",
   "website": "https://communitychiropractic.ca",
   "booking_page": null,
-  "hours": null,
-  "google_rating": null,
-  "google_reviews": null,
-  "rating_source": null,
-  "direct_billing": null,
+  "hours": {
+   "mon": "8:00 AM - 12:00 PM, 1:00 PM - 6:00 PM",
+   "tue": "8:00 AM - 12:00 PM, 1:00 PM - 6:00 PM",
+   "wed": "8:00 AM - 12:00 PM, 1:00 PM - 6:00 PM",
+   "thu": "8:00 AM - 12:00 PM, 1:00 PM - 6:00 PM",
+   "fri": "8:00 AM - 2:00 PM",
+   "sat": "9:00 AM - 12:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 547,
+  "rating_source": "The clinic's own website carries a Google reviews badge ('4.9 Based on 547 reviews, powered by Google') on its FAQ page.",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -12543,7 +12776,7 @@
   "postal": "V1T 4Y4",
   "phone": "250-260-1550",
   "website": "http://www.conceptphysiotherapy.com/",
-  "booking_page": null,
+  "booking_page": "http://www.conceptphysiotherapy.com/",
   "hours": {
    "mon": "7:00 AM - 7:00 PM",
    "tue": "7:00 AM - 7:00 PM",
@@ -12609,6 +12842,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Concourse Physio",
+  "clinic_id": "concourse-physio-winnipeg",
+  "address": "201 Portage Ave",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3B 3K6",
+  "phone": "(204) 943-8411",
+  "website": "http://yourphysio.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "8:45 AM \u2013 5:30 PM",
+   "tue": "8:45 AM \u2013 5:30 PM",
+   "wed": "8:45 AM \u2013 5:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Confederation Chiropractic Clinic",
@@ -12734,6 +12992,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Copeland MD",
+  "clinic_id": "copeland-md-whitby",
+  "address": "728 Anderson Street",
+  "city": "Whitby",
+  "prov": "ON",
+  "postal": "L1N 3V6",
+  "phone": "905-666-5117",
+  "website": "https://mdaesthetics.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "sat": "9:00 AM \u2013 2:00 PM",
+   "sun": null,
+   "thu": "9:00 AM \u2013 8:00 PM",
+   "tue": "9:00 AM \u2013 8:00 PM",
+   "wed": "9:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 15,
+  "rating_source": "Google Places details appearing in search results (rating 4.9 based on 15 reviews)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Coquitlam Wellness Centre",
@@ -13457,6 +13740,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Creative Works Psychological Services",
+  "clinic_id": "creative-works-psychological-services-whitehorse",
+  "address": "102-402 Baxter St",
+  "city": "Whitehorse",
+  "prov": "YT",
+  "postal": "Y1A 2T5",
+  "phone": "867-633-2074",
+  "website": "http://www.creativeworkspsy.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM \u2013 5:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Crescendo \u2014 Orthophonie de la voix",
@@ -15542,6 +15850,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Annie Coughlin",
+  "clinic_id": "dr-annie-coughlin-winnipeg",
+  "address": "250 Lilac St (Wellnest)",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3M 2T3",
+  "phone": "(204) 813-6073",
+  "website": "https://www.drcoughlin.com/",
+  "booking_page": "https://collaborativehealthclinic.janeapp.com/",
+  "hours": {
+   "fri": null,
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "sat": "9:00 AM \u2013 6:00 PM",
+   "sun": null,
+   "thu": "12:00 PM \u2013 4:00 PM",
+   "tue": null,
+   "wed": "9:00 AM \u2013 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Dr. Annie Coughlin ND",
   "clinic_id": "dr-annie-coughlin-nd-winnipeg",
   "address": "823 Corydon Ave Unit 8",
@@ -15983,6 +16316,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Cecilia",
+  "clinic_id": "dr-cecilia-waterloo",
+  "address": "96 Roger St",
+  "city": "Waterloo",
+  "prov": "ON",
+  "postal": "N2J 1A5",
+  "phone": "519-804-6949",
+  "website": "http://drcecilia.ca/",
+  "booking_page": "https://willowwellnessclinic.janeapp.com/",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Dr. Celeste Quan",
@@ -16995,6 +17353,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Jennifer Strong Naturopath",
+  "clinic_id": "dr-jennifer-strong-naturopath-windsor",
+  "address": "8100 Twin Oaks Drive",
+  "city": "Windsor",
+  "prov": "ON",
+  "postal": "N8N 5C2",
+  "phone": "(519) 944-6400",
+  "website": "https://www.windsornaturopath.com/",
+  "booking_page": "https://drstrongnd.janeapp.com",
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 22,
+  "rating_source": "Google Places details in search results for Dr. Jennifer Strong (her Lakeshore listing): five stars (4.9) based on 22 reviews; the Windsor listing's extract showed no rating (flagged in gaps).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Dr. Joanne Menard",
   "clinic_id": "dr-joanne-menard-chilliwack",
   "address": "101 - 7056 Vedder Rd",
@@ -17329,6 +17712,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Lauren Cottom",
+  "clinic_id": "dr-lauren-cottom-winnipeg",
+  "address": "1438 & 1444 Corydon Ave",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3N 0J3",
+  "phone": "(204) 306-8502",
+  "website": "https://drcottom.com/",
+  "booking_page": "https://myuzartistry.janeapp.com/",
+  "hours": {
+   "fri": "9:00 AM \u2013 4:00 PM",
+   "mon": null,
+   "sat": "9:00 AM \u2013 3:00 PM",
+   "sun": null,
+   "thu": "10:00 AM \u2013 6:00 PM",
+   "tue": "10:00 AM \u2013 8:00 PM",
+   "wed": "9:00 AM \u2013 4:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Dr. Lawrence Brkich Naturopathic Physician Inc.",
   "clinic_id": "dr-lawrence-brkich-naturopathic-physician-inc-prince-george",
   "address": null,
@@ -17344,6 +17752,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Leizl Yance ND",
+  "clinic_id": "dr-leizl-yance-nd-waterloo",
+  "address": "109 Erb St W",
+  "city": "Waterloo",
+  "prov": "ON",
+  "postal": "N2L 1T4",
+  "phone": "519-745-1600",
+  "website": "https://www.drleizlyancend.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": "9:00 AM - 12:30 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 12:30 PM",
+   "tue": null,
+   "wed": "1:00 PM - 6:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 4,
+  "rating_source": "Google Places details in search results",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Dr. Leticia Spinelli / Rio Skin Clinic",
@@ -17378,6 +17811,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Lindsay Self Naturopathic Doctor",
+  "clinic_id": "dr-lindsay-self-naturopathic-doctor-whitby",
+  "address": "53 Baldwin St N",
+  "city": "Whitby",
+  "prov": "ON",
+  "postal": "L1M 1A2",
+  "phone": "905-655-3153",
+  "website": "http://www.lindsayselfnd.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "9:00 AM \u2013 3:00 PM",
+   "wed": "10:00 AM \u2013 6:00 PM",
+   "thu": "10:00 AM \u2013 6:00 PM",
+   "fri": null,
+   "sat": "9:00 AM \u2013 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 5,
+  "rating_source": "Google Places details appearing in search results for Dr. Lindsay Self, Naturopathic Doctor (rating 5.0 based on 5 reviews)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Dr. Lisa Destun & Associates",
@@ -19016,6 +19474,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Vincenza Rotulo",
+  "clinic_id": "dr-vincenza-rotulo-windsor",
+  "address": "1540 McDougall St Unit 6",
+  "city": "Windsor",
+  "prov": "ON",
+  "postal": "N8X 3N2",
+  "phone": "(519) 567-2888",
+  "website": "http://drvincenza.ca/",
+  "booking_page": "https://movementhealth.janeapp.com",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": "10:00 AM - 7:00 PM",
+   "thu": null,
+   "fri": "12:00 PM - 3:00 PM",
+   "sat": "10:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Dr. Vishaala Singh ND",
   "clinic_id": "dr-vishaala-singh-nd-brampton",
   "address": "10 Henderson Ave",
@@ -20148,11 +20631,11 @@
    "tue": "7:00 AM \u2013 7:30 PM",
    "wed": "7:00 AM \u2013 7:00 PM"
   },
-  "google_rating": null,
-  "google_reviews": null,
-  "rating_source": null,
+  "google_rating": 4.5,
+  "google_reviews": 34,
+  "rating_source": "Google Places details (search result)",
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Elite Sports Injury Physiotherapy Clinics",
@@ -20363,6 +20846,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Embody Health Centre",
+  "clinic_id": "embody-health-centre-waterloo",
+  "address": "354 King St N, Unit 1C",
+  "city": "Waterloo",
+  "prov": "ON",
+  "postal": "N2J 2Z2",
+  "phone": "519-208-0333",
+  "website": "https://www.embodycentre.com/",
+  "booking_page": "https://embody.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 3:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "6:30 AM - 8:00 PM",
+   "tue": "6:30 AM - 8:00 PM",
+   "wed": "7:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Embrace Couples Wellness",
@@ -21263,6 +21771,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Evergreen Dental Centre",
+  "clinic_id": "evergreen-dental-centre-winnipeg",
+  "address": "Unit 200 \u2013 1215 Henderson Hwy",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R2G 1L8",
+  "phone": "(204) 339-0050",
+  "website": "https://winnipegdentistry.com/services/botox/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM \u2013 4:00 PM",
+   "mon": "8:00 AM \u2013 8:00 PM",
+   "sat": "9:00 AM \u2013 4:00 PM",
+   "sun": "Closed",
+   "thu": "8:00 AM \u2013 8:00 PM",
+   "tue": "8:00 AM \u2013 8:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 1054,
+  "rating_source": "Google Business Profile page for Evergreen Dental Centre (business.google.com)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Everwell ND",
   "clinic_id": "everwell-nd-vancouver",
   "address": "1842 W 1st Ave",
@@ -22158,7 +22691,7 @@
   "address": "135 Roslyn Road",
   "city": "Winnipeg",
   "prov": "MB",
-  "postal": null,
+  "postal": "R3L 0G7",
   "phone": "982-9600",
   "website": "http://www.fitphysio.com/",
   "booking_page": null,
@@ -22175,7 +22708,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Fix Healthcare",
@@ -22544,7 +23077,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "no",
-  "last_verified": null
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Foundation Health",
@@ -23152,6 +23685,31 @@
   "last_verified": null
  },
  {
+  "name": "Geller Andrysiak Psychology",
+  "clinic_id": "geller-andrysiak-psychology-winnipeg",
+  "address": "165 Stafford Street, Suite 218",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3M 2W9",
+  "phone": "431-202-1166",
+  "website": "http://www.gellerandrysiak.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM \u2013 5:00 PM",
+   "mon": "10:00 AM \u2013 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "10:00 AM \u2013 5:00 PM",
+   "tue": "10:00 AM \u2013 5:00 PM",
+   "wed": "10:00 AM \u2013 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Genesis Physiotherapy",
   "clinic_id": "genesis-physiotherapy-calgary",
   "address": "7555 Falconridge Blvd NE #23",
@@ -23422,18 +23980,26 @@
  {
   "name": "Glow Integrative Clinic",
   "clinic_id": "glow-integrative-clinic-victoria",
-  "address": null,
+  "address": "2280 Cadboro Bay Road",
   "city": "Victoria",
   "prov": "BC",
-  "postal": null,
-  "phone": null,
+  "postal": "V8R 5G9",
+  "phone": "250-706-6633",
   "website": "https://www.glowintegrative.com",
-  "booking_page": null,
-  "hours": null,
+  "booking_page": "https://glowintegrative.janeapp.com",
+  "hours": {
+   "mon": "8:00 AM - 4:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 4:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -23764,6 +24330,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Greenwoods Dental & Surgical Centre",
+  "clinic_id": "greenwoods-dental-and-surgical-centre-winnipeg",
+  "address": "693 McPhillips St",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R2X 2H6",
+  "phone": "(204) 774-7774",
+  "website": "https://greenwoodsdental.com/service/botox/",
+  "booking_page": "https://greenwoodsdental.com/winnipeg/mcphillips/",
+  "hours": {
+   "fri": "8:00 AM \u2013 7:00 PM",
+   "mon": "8:00 AM \u2013 8:00 PM",
+   "sat": "8:00 AM \u2013 5:00 PM",
+   "sun": "9:30 AM \u2013 4:00 PM",
+   "thu": "8:00 AM \u2013 8:00 PM",
+   "tue": "8:00 AM \u2013 8:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": 4.6,
+  "google_reviews": 101,
+  "rating_source": "Google Places details (McPhillips listing, search result)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Grey Bruce Chiropractic",
   "clinic_id": "grey-bruce-chiropractic-owen-sound",
   "address": "345 8th Street East Suite 203",
@@ -23787,6 +24378,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Grindstone Physiotherapy",
+  "clinic_id": "grindstone-physiotherapy-waterdown",
+  "address": "20 Clappison Ave Unit 5",
+  "city": "Waterdown",
+  "prov": "ON",
+  "postal": "L8B 0Y2",
+  "phone": "905-690-9655",
+  "website": "https://www.grindstonephysio.ca/",
+  "booking_page": "http://grindstonephysio.janeapp.com/locations/grindstone-physiotherapy/book",
+  "hours": {
+   "fri": "8:00 AM - 1:00 PM",
+   "mon": "8:00 AM - 7:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Grit Psychology & Counselling",
@@ -24970,6 +25586,31 @@
   "rating_source": "Google Places details in search results for Hann Psychological Svc: 'Rating: three stars (3.0), Based on 2 reviews'.",
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Harbourview Therapy",
+  "clinic_id": "harbourview-therapy-winnipeg",
+  "address": "1320 Concordia Ave E Unit 8",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3W 0G6",
+  "phone": "(204) 615-2888",
+  "website": "https://www.harbourviewtherapy.com/cooling-units/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 6:00 PM",
+   "mon": "9:00 AM \u2013 6:00 PM",
+   "sat": "9:00 AM \u2013 5:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM \u2013 6:00 PM",
+   "tue": "9:00 AM \u2013 6:00 PM",
+   "wed": "9:00 AM \u2013 6:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 157,
+  "rating_source": "Clinic's own cooling-units page Google-listing block (harbourviewtherapy.com)",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Harmonia Counselling & Psychotherapy",
@@ -28178,6 +28819,31 @@
   "last_verified": null
  },
  {
+  "name": "Josh Song Psychotherapy and Counselling",
+  "clinic_id": "josh-song-psychotherapy-and-counselling-windsor",
+  "address": "870A Ottawa St Suite 4",
+  "city": "Windsor",
+  "prov": "ON",
+  "postal": "N8X 2C8",
+  "phone": "437-747-8879",
+  "website": "http://joshsongcounselling.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Josiane Arsenault, RMT (Clinique Natturra)",
   "clinic_id": "josiane-arsenault-rmt-clinique-natturra-moncton",
   "address": "171 Lutz St Ste 103",
@@ -28548,18 +29214,26 @@
  {
   "name": "KW Pelvic Health",
   "clinic_id": "kw-pelvic-health-waterloo",
-  "address": null,
+  "address": "48 Laurel St",
   "city": "Waterloo",
   "prov": "ON",
   "postal": null,
-  "phone": null,
+  "phone": "226-212-5010",
   "website": "https://kwpelvichealth.com/",
-  "booking_page": null,
-  "hours": null,
+  "booking_page": "https://kwpelvichealth.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 5:00 PM",
+   "mon": "8:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "7:00 AM - 8:00 PM",
+   "wed": "7:00 AM - 6:00 PM"
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -31055,6 +31729,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Kristen Yarker Dietitians",
+  "clinic_id": "kristen-yarker-dietitians-victoria",
+  "address": "1825 Fort Street",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": "V8R 1J6",
+  "phone": "250-532-0609",
+  "website": "https://www.kristenyarker.com/",
+  "booking_page": "https://www.kristenyarker.com/",
+  "hours": {
+   "mon": "9:00 AM - 9:00 PM",
+   "tue": "5:00 PM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM",
+   "thu": "5:00 PM - 9:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 25,
+  "rating_source": "Google Places details (place_id-keyed extract): 5.0 stars from 25 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "K\u016bRated Care Collaborative",
@@ -33913,6 +34612,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": null,
+  "last_verified": "2026-11-02"
+ },
+ {
+  "name": "LymphaticRMT",
+  "clinic_id": "lymphaticrmt-waterdown",
+  "address": null,
+  "city": "Waterdown",
+  "prov": "ON",
+  "postal": null,
+  "phone": null,
+  "website": "https://www.lymphaticrmt.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-02"
  },
  {
@@ -43971,6 +44695,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Oliver RMT",
+  "clinic_id": "oliver-rmt-waterloo",
+  "address": "25 Dupont St E",
+  "city": "Waterloo",
+  "prov": "ON",
+  "postal": null,
+  "phone": "519-500-0512",
+  "website": "https://www.oliver-rmt.com/",
+  "booking_page": "https://fearlessheart.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 7:00 PM",
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": "10:00 AM - 9:00 PM",
+   "tue": null,
+   "wed": "10:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "One Wellness",
   "clinic_id": "one-wellness-canmore",
   "address": null,
@@ -45170,6 +45919,31 @@
   "last_verified": null
  },
  {
+  "name": "Palmeri Nutrition Consulting",
+  "clinic_id": "palmeri-nutrition-consulting-whitby",
+  "address": "105 Consumers Drive, Unit 2",
+  "city": "Whitby",
+  "prov": "ON",
+  "postal": "L1N 1C4",
+  "phone": "416-721-1608",
+  "website": "http://palmerinutrition.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "5:00 PM \u2013 8:30 PM",
+   "wed": null,
+   "thu": "5:00 PM \u2013 8:30 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.5,
+  "google_reviews": 8,
+  "rating_source": "Google Places details appearing in search results for Palmeri Nutrition Consulting (rating 4.5 based on 8 reviews)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Panacea Massage Therapy",
   "clinic_id": "panacea-massage-therapy-toronto",
   "address": "385 Jane Street",
@@ -46246,18 +47020,26 @@
  {
   "name": "Physio Plus",
   "clinic_id": "physio-plus-whitehorse",
-  "address": null,
+  "address": "201-301 Lambert St",
   "city": "Whitehorse",
   "prov": "YT",
-  "postal": null,
-  "phone": null,
+  "postal": "Y1A 1Z5",
+  "phone": "867-668-4886",
   "website": "http://www.physiopluswhitehorse.com/",
-  "booking_page": null,
-  "hours": null,
-  "google_rating": null,
-  "google_reviews": null,
-  "rating_source": null,
-  "direct_billing": null,
+  "booking_page": "https://physiopluswhitehorse.janeapp.com",
+  "hours": {
+   "fri": "8:00 AM \u2013 6:00 PM",
+   "mon": "7:00 AM \u2013 7:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "7:00 AM \u2013 7:00 PM",
+   "tue": "7:00 AM \u2013 7:00 PM",
+   "wed": "7:00 AM \u2013 7:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 18,
+  "rating_source": "Google Places details in search results for Physio Plus (Rating: 4.9, based on 18 reviews).",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -47242,6 +48024,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "PhysioPlus",
+  "clinic_id": "physioplus-whitehorse",
+  "address": "301 Lambert St Unit 201",
+  "city": "Whitehorse",
+  "prov": "YT",
+  "postal": "Y1A 1Z5",
+  "phone": "(867) 668-4886",
+  "website": "https://physiopluswhitehorse.com/",
+  "booking_page": "https://physiopluswhitehorse.janeapp.com/",
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "8:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 18,
+  "rating_source": "Google Places details in search results for PhysioPlus (301 Lambert St, Whitehorse): five stars (4.9) based on 18 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "PhysioPlus Health Group",
   "clinic_id": "physioplus-health-group-toronto",
   "address": "2489 Bloor Street West Suite 102",
@@ -47849,7 +48656,7 @@
   "postal": "L4L 8E4",
   "phone": "905-265-9899",
   "website": "http://www.physiomed.ca/find-a-clinic/vaughan/overview/",
-  "booking_page": null,
+  "booking_page": "https://www.physiomed.ca/find-a-clinic/vaughan/overview/",
   "hours": {
    "mon": "10:00 AM - 8:00 PM",
    "tue": "10:00 AM - 8:00 PM",
@@ -47859,9 +48666,9 @@
    "sat": "10:00 AM - 3:00 PM",
    "sun": "Closed"
   },
-  "google_rating": null,
-  "google_reviews": null,
-  "rating_source": null,
+  "google_rating": 5.0,
+  "google_reviews": 13,
+  "rating_source": "Google Places details extract for the Vaughan location. (Birdeye shows 4.9/166 for this clinic but is an aggregator, not a sanctioned rating source, and was not used; an earlier unverified wave left the rating null over that conflict.)",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -47885,18 +48692,26 @@
  {
   "name": "Physiomed Whitby - Thickson",
   "clinic_id": "physiomed-whitby-thickson-whitby",
-  "address": null,
+  "address": "1614 Dundas St E, Unit 110",
   "city": "Whitby",
   "prov": "ON",
-  "postal": null,
-  "phone": null,
+  "postal": "L1N 8Y8",
+  "phone": "905-432-9009",
   "website": "https://www.physiomed.ca/clinic/physiomed-whitby-thickson/",
   "booking_page": null,
-  "hours": null,
-  "google_rating": null,
-  "google_reviews": null,
-  "rating_source": null,
-  "direct_billing": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 8:00 PM",
+   "tue": "9:00 AM \u2013 8:00 PM",
+   "wed": "9:00 AM \u2013 8:00 PM",
+   "thu": "9:00 AM \u2013 8:00 PM",
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 92,
+  "rating_source": "Google rating badge displayed on the clinic's own Physiomed Whitby-Thickson page (4.9 with 92 reviews shown)",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -49524,6 +50339,31 @@
   "last_verified": null
  },
  {
+  "name": "ProActive Physiotherapy",
+  "clinic_id": "proactive-physiotherapy-west-kelowna",
+  "address": "525 Highway 97 S, Unit 628",
+  "city": "West Kelowna",
+  "prov": "BC",
+  "postal": "V1Z 4C9",
+  "phone": "778-755-6688",
+  "website": "http://www.proactivephysiotherapy.ca/",
+  "booking_page": "https://proactivephysiotherapy.janeapp.com/locations/west-kelowna/book",
+  "hours": {
+   "fri": "8:30 AM \u2013 4:30 PM",
+   "mon": "8:30 AM \u2013 7:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "8:30 AM \u2013 7:00 PM",
+   "tue": "8:30 AM \u2013 7:00 PM",
+   "wed": "8:30 AM \u2013 7:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 7,
+  "rating_source": "Google Places details appearing in search results (rating 5.0 based on 7 reviews for the West Kelowna place_id)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Proactive Health",
   "clinic_id": "proactive-health-richmond",
   "address": "13351 Commerce Pkwy Unit 1128",
@@ -49965,7 +50805,7 @@
   "address": "2190 165 St",
   "city": "White Rock",
   "prov": "BC",
-  "postal": null,
+  "postal": "V4B 3V2",
   "phone": "604-446-1747",
   "website": "https://psychologyandneurofeedback.com/",
   "booking_page": null,
@@ -49982,7 +50822,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Psychotherapy for You",
@@ -52336,6 +53176,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Rewilding Wellness",
+  "clinic_id": "rewilding-wellness-whitehorse",
+  "address": "110 Titanium Way",
+  "city": "Whitehorse",
+  "prov": "YT",
+  "postal": null,
+  "phone": "867-689-2355",
+  "website": "https://rewildingwellness.janeapp.com/",
+  "booking_page": "https://rewildingwellness.janeapp.com/",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Rewind Massage Therapy",
   "clinic_id": "rewind-massage-therapy-calgary",
   "address": "Suite 26, 805 5th Avenue SW",
@@ -52522,18 +53387,26 @@
  {
   "name": "Right Fit Clinic",
   "clinic_id": "right-fit-clinic-victoria",
-  "address": null,
+  "address": "2840 Peatt Rd Unit 323, 3rd Floor",
   "city": "Victoria",
   "prov": "BC",
-  "postal": null,
-  "phone": null,
+  "postal": "V9B 3V4",
+  "phone": "778-654-0241",
   "website": "https://rightfitclinic.ca",
-  "booking_page": null,
-  "hours": null,
+  "booking_page": "https://rightfitclinic.janeapp.com",
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:30 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 2:00 PM",
+   "sun": "10:00 AM - 3:00 PM"
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-02"
  },
  {
@@ -54875,6 +55748,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Simone Galna Physiotherapy",
+  "clinic_id": "simone-galna-physiotherapy-victoria",
+  "address": "1410 Quadra St Unit A",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": null,
+  "phone": "778-401-4460",
+  "website": "https://apolloperformancetherapy.janeapp.com/#/staff_member/12",
+  "booking_page": "https://apolloperformancetherapy.janeapp.com/#/staff_member/12",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": "9:30 AM - 4:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Simone Merkl Marriage Counselling",
   "clinic_id": "simone-merkl-marriage-counselling-port-alberni",
   "address": null,
@@ -56651,6 +57549,31 @@
   "last_verified": null
  },
  {
+  "name": "Stride Sports & Rehabilitation",
+  "clinic_id": "stride-sports-and-rehabilitation-waterloo",
+  "address": "600 Laurelwood Drive, Unit 310",
+  "city": "Waterloo",
+  "prov": "ON",
+  "postal": "N2V 2S7",
+  "phone": "519-880-8222",
+  "website": "https://stridesr.ca/",
+  "booking_page": "https://ssr.janeapp.com/",
+  "hours": {
+   "fri": "7:00 AM - 8:00 PM",
+   "mon": "7:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 6:00 PM",
+   "sun": "Closed",
+   "thu": "7:00 AM - 8:00 PM",
+   "tue": "7:00 AM - 8:00 PM",
+   "wed": "7:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Strive Fitness and Therapy",
   "clinic_id": "strive-fitness-and-therapy-winnipeg",
   "address": null,
@@ -57416,6 +58339,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Swelling Solutions Lymphatic Health Centre",
+  "clinic_id": "swelling-solutions-lymphatic-health-centre-waterloo",
+  "address": "370 University Ave E, Unit 105, Suite H",
+  "city": "Waterloo",
+  "prov": "ON",
+  "postal": "N2K 3N2",
+  "phone": "519-749-0102",
+  "website": "https://www.lymphkr.com/",
+  "booking_page": "https://swellingsolutions.janeapp.com/",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Swing Lab \u2013 Performance & Therapy",
   "clinic_id": "swing-lab-performance-and-therapy-toronto",
   "address": "245 West Beaver Creek Road, Unit 9",
@@ -57983,6 +58931,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Terra Life Naturopathic Clinic",
+  "clinic_id": "terra-life-naturopathic-clinic-whitehorse",
+  "address": "303-A Hawkins St",
+  "city": "Whitehorse",
+  "prov": "YT",
+  "postal": "Y1A 1X5",
+  "phone": "(867) 689-8528",
+  "website": "http://www.terralife.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 3:00 PM",
+   "tue": "9:00 AM - 3:00 PM",
+   "wed": "9:00 AM - 3:00 PM",
+   "thu": "9:00 AM - 3:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "TerraSana Health",
@@ -58694,18 +59667,26 @@
  {
   "name": "The Insight Clinic",
   "clinic_id": "the-insight-clinic-whitby",
-  "address": null,
+  "address": "12 Stanley Ct Unit 3",
   "city": "Whitby",
   "prov": "ON",
-  "postal": null,
-  "phone": null,
+  "postal": "L1N 8P9",
+  "phone": "289-483-0133",
   "website": "https://theinsightclinic.ca",
-  "booking_page": null,
-  "hours": null,
+  "booking_page": "https://insightclinic.janeapp.com/book",
+  "hours": {
+   "mon": "8:30 AM \u2013 4:30 PM",
+   "tue": "8:30 AM \u2013 4:30 PM",
+   "wed": "8:30 AM \u2013 4:30 PM",
+   "thu": "8:30 AM \u2013 4:30 PM",
+   "fri": "8:30 AM \u2013 4:30 PM",
+   "sat": null,
+   "sun": null
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -60082,6 +61063,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Therapy Loft",
+  "clinic_id": "therapy-loft-windsor",
+  "address": "175 Giles Blvd W",
+  "city": "Windsor",
+  "prov": "ON",
+  "postal": null,
+  "phone": null,
+  "website": "https://www.therapyloft.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Therapy Spot",
   "clinic_id": "therapy-spot-toronto",
   "address": "1232 Dufferin St",
@@ -60937,6 +61943,23 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Tranquility Health Massage Therapy",
+  "clinic_id": "tranquility-health-massage-therapy-victoria",
+  "address": "200-4500 West Saanich Road",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": "V8Z 3G2",
+  "phone": "250-885-0869",
+  "website": "https://tranquilhealth.ca",
+  "booking_page": "https://tranquilhealth.ca",
+  "hours": null,
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Transforme Orthodontie",
   "clinic_id": "transforme-orthodontie-montreal",
   "address": null,
@@ -61179,6 +62202,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Trillium Dental Centre",
+  "clinic_id": "trillium-dental-centre-waterloo",
+  "address": "550 King St N, Conestoga Mall",
+  "city": "Waterloo",
+  "prov": "ON",
+  "postal": "N2L 5W6",
+  "phone": "519-746-4000",
+  "website": "https://www.trilliumdentalcentre.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 605,
+  "rating_source": "Google rating displayed on the clinic's own website (trilliumdentalcentre.com business block)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Trillium Medical Centre",
@@ -62061,19 +63109,52 @@
  {
   "name": "Uplift Pelvic Floor Physiotherapy",
   "clinic_id": "uplift-pelvic-floor-physiotherapy-victoria",
-  "address": null,
+  "address": "1080 Meares St",
   "city": "Victoria",
   "prov": "BC",
   "postal": null,
   "phone": null,
   "website": "http://upliftphysio.com/",
-  "booking_page": null,
-  "hours": null,
+  "booking_page": "http://upliftphysio.com/",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Uplift Physio",
+  "clinic_id": "uplift-physio-victoria",
+  "address": "1080 Meares St",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": null,
+  "phone": null,
+  "website": "http://upliftphysio.com/",
+  "booking_page": "http://upliftphysio.com/",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Uprise Psychology & Wellness",
@@ -62890,6 +63971,23 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Victoria Pelvic Physiotherapy",
+  "clinic_id": "victoria-pelvic-physiotherapy-victoria",
+  "address": "1284 Gladstone Ave E2",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": "V8T 1G6",
+  "phone": "778-858-4188",
+  "website": "http://victoriapelvicphysio.ca/",
+  "booking_page": "http://victoriapelvicphysio.ca/",
+  "hours": null,
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Victoria RD",
   "clinic_id": "victoria-rd-markham",
   "address": null,
@@ -62913,6 +64011,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Victoria Speech and Language Centre",
+  "clinic_id": "victoria-speech-and-language-centre-victoria",
+  "address": "4243 Glanford Ave #200",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": null,
+  "phone": "250-590-7841",
+  "website": "http://www.victoriaspeechlanguage.ca/",
+  "booking_page": "http://www.victoriaspeechlanguage.ca/",
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 37,
+  "rating_source": "Clinic's own website Google reviews widget (Trustindex) displays 37 Google reviews with a 5-star aggregate graphic.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Victoriaville Physiotherapy Centre",
@@ -63176,6 +64299,23 @@
   "last_verified": null
  },
  {
+  "name": "Vitality Treatment Centre",
+  "clinic_id": "vitality-treatment-centre-victoria",
+  "address": "302-1842 Oak Bay Ave",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": "V8R 1C2",
+  "phone": "250-370-1020",
+  "website": "https://vitalitytreatment.ca",
+  "booking_page": "https://vitalitytreatment.janeapp.com",
+  "hours": null,
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Vivo Naturopathic and Wellness Centre",
   "clinic_id": "vivo-naturopathic-and-wellness-centre-cambridge",
   "address": "28 George Street N",
@@ -63359,6 +64499,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Waterloo CBT Clinic",
+  "clinic_id": "waterloo-cbt-clinic-waterloo",
+  "address": "570 University Avenue East, Unit 903",
+  "city": "Waterloo",
+  "prov": "ON",
+  "postal": "N2K 4P2",
+  "phone": "226-686-0848",
+  "website": "https://waterloocbt.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Wave Physiotherapy",
@@ -63973,18 +65138,26 @@
  {
   "name": "Whitehorse Physiotherapy",
   "clinic_id": "whitehorse-physiotherapy-whitehorse",
-  "address": null,
+  "address": "2-208B Strickland Street",
   "city": "Whitehorse",
   "prov": "YT",
-  "postal": null,
-  "phone": null,
+  "postal": "Y1A 2B9",
+  "phone": "(867) 667-2138",
   "website": "https://whitehorsephysio.com/",
   "booking_page": null,
-  "hours": null,
-  "google_rating": null,
-  "google_reviews": null,
-  "rating_source": null,
-  "direct_billing": null,
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 14,
+  "rating_source": "Google Places details in search results for Whitehorse Physiotherapy: five stars (5.0) based on 14 reviews.",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
