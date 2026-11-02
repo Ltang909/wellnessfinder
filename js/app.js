@@ -273,7 +273,26 @@
   const fsDesc = (t) => (t.desc || "").replace(/\s*\*Coverage varies by provider\.?/g, "").trim();
   const fsBilled = (t) => (t.billed || "").replace(/\*+$/, "");
   const fsClinics = (t) => (gtaDataFor(t.name) || { clinics: [] }).clinics.length;
-  const fsClinicsLink = (t) => `<a class="fs-clinics" href="/clinics-${treatmentSlug(t.name)}">${fsClinics(t)} clinic${fsClinics(t) === 1 ? "" : "s"} \u2192</a>`;
+  function localClinicsFor(name) {
+    const all = (gtaDataFor(name) || { clinics: [] }).clinics.filter(Boolean);
+    const prov = window.wfProv ? wfProv.get() : "";
+    const pt = (typeof fcUserPt !== "undefined") ? fcUserPt : null;
+    if (pt) {
+      const withD = all.map((c) => { const cc = clinicCoords(c); return { d: cc ? haversineKm(pt, cc) : null }; });
+      const n50 = withD.filter((x) => x.d !== null && x.d <= 50).length;
+      if (n50) return { n: n50, label: `near ${(wfLoc.get() || "").toUpperCase()}` };
+    }
+    if (prov) {
+      const ip = all.filter((c) => (c.prov || "") === prov).length;
+      if (ip) return { n: ip, label: `in ${provName(prov)}` };
+    }
+    return null;
+  }
+  const fsClinicsLink = (t) => {
+    const loc = (wfLoc.get() || (window.wfProv && wfProv.get())) ? localClinicsFor(t.name) : null;
+    if (loc) return `<a class="fs-clinics" href="/clinics-${treatmentSlug(t.name)}">${loc.n} clinic${loc.n === 1 ? "" : "s"} ${esc(loc.label)} \u2192</a>`;
+    return `<a class="fs-clinics" href="/clinics-${treatmentSlug(t.name)}">${fsClinics(t)} clinic${fsClinics(t) === 1 ? "" : "s"} \u2192</a>`;
+  };
 
   function fsCardHTML(t) {
     return `<article class="fs-card">
@@ -391,26 +410,52 @@
     const prov = window.wfProv ? wfProv.get() : "";
     const postal = wfLoc.get();
     const pt = fcUserPt;
-    const ann = featured.map((c) => {
+    /* Pool: the curated featured set first, then every directory clinic
+       for this treatment. With a location set, the bar always shows
+       5-8 clinics: nearest first, widening 25 -> 50 -> 100 km, then
+       province, then nearest overall. */
+    const allDir = (gtaDataFor(fcTreatment) || { clinics: [] }).clinics.filter(Boolean);
+    const featNames = new Set(featured.map((c) => c.name));
+    const pool = [
+      ...featured.map((c) => ({ c, feat: true })),
+      ...allDir.filter((c) => !featNames.has(c.name)).map((c) => ({ c, feat: false })),
+    ];
+    const ann = pool.map(({ c, feat }) => {
       const geo = (typeof FC_GEO !== "undefined" && FC_GEO[c.name]) || null;
-      const d = pt && geo && geo.lat != null ? haversineKm(pt, [geo.lat, geo.lng]) : null;
-      return { c, geo, d };
+      const cc = geo && geo.lat != null ? [geo.lat, geo.lng] : clinicCoords(c);
+      const d = pt && cc ? haversineKm(pt, cc) : null;
+      return { c, feat, geo, d, provC: (geo && geo.prov) || c.prov || "" };
     });
-    let vis = ann, geoNote = "";
+    const featOnly = ann.filter((a) => a.feat);
+    let vis = featOnly, geoNote = "";
     if (pt) {
-      const near = ann.filter((a) => a.d !== null && a.d <= 25).sort((a, b) => a.d - b.d);
-      if (near.length) { vis = near; geoNote = `Within 25 km of ${esc(postal.toUpperCase())}`; }
-    }
-    if (vis === ann && prov) {
-      const inProv = ann.filter((a) => a.geo && a.geo.prov === prov)
-        .sort((a, b) => (a.d === null ? Infinity : a.d) - (b.d === null ? Infinity : b.d));
-      if (inProv.length) {
-        vis = inProv;
-        geoNote = pt ? `In ${esc(provName(prov))} — none within 25 km of ${esc(postal.toUpperCase())} yet` : `Featured in ${esc(provName(prov))}`;
+      const sorted = [...ann].sort((a, b) => ((a.d === null ? Infinity : a.d) - (b.d === null ? Infinity : b.d)) || ((b.feat ? 1 : 0) - (a.feat ? 1 : 0)));
+      const within = (km) => sorted.filter((a) => a.d !== null && a.d <= km);
+      let band = 0;
+      for (const km of [25, 50, 100]) { if (within(km).length >= 5) { band = km; break; } }
+      if (band) {
+        vis = within(band).slice(0, 8);
+        geoNote = `Within ${band} km of ${esc(postal.toUpperCase())}`;
+      } else {
+        let fill = within(100);
+        if (fill.length < 5 && prov) fill = [...fill, ...sorted.filter((a) => a.provC === prov && !fill.includes(a))];
+        if (fill.length < 5) fill = [...fill, ...sorted.filter((a) => !fill.includes(a))];
+        vis = fill.slice(0, 8);
+        geoNote = fill.length ? `Nearest to ${esc(postal.toUpperCase())}` : "";
       }
-    }
-    if (vis === ann && (prov || pt)) {
-      geoNote = `No featured ${esc(cfg.label)} clinics ${prov ? `in ${esc(provName(prov))}` : "near you"} yet — showing all`;
+    } else if (prov) {
+      const inProv = ann.filter((a) => a.provC === prov)
+        .sort((a, b) => ((b.feat ? 1 : 0) - (a.feat ? 1 : 0)) || a.c.name.localeCompare(b.c.name));
+      if (inProv.length >= 5) {
+        vis = inProv.slice(0, 8);
+        geoNote = `Featured in ${esc(provName(prov))}`;
+      } else if (inProv.length) {
+        const rest = ann.filter((a) => a.provC !== prov).sort((a, b) => (b.feat ? 1 : 0) - (a.feat ? 1 : 0));
+        vis = [...inProv, ...rest].slice(0, Math.max(5, inProv.length));
+        geoNote = `Featured in ${esc(provName(prov))} + top picks`;
+      } else {
+        geoNote = `No featured ${esc(cfg.label)} clinics in ${esc(provName(prov))} yet — showing all`;
+      }
     }
     fcIndex = ((fcIndex % vis.length) + vis.length) % vis.length;
     const n = vis.length;
@@ -432,11 +477,12 @@
       const btn = k === 0
         ? `<a class="fc-btn" href="${esc(media.link || c.book || c.web || "#")}" target="_blank" rel="noopener">View clinic</a>`
         : `<span class="fc-btn">View clinic</span>`;
-      return `<article class="fc-card ${k === 0 ? "fc-card--active" : "fc-card--side"}" ${k === 0 ? "" : `data-fc-jump="${k}" role="button" tabindex="0" aria-label="Show ${esc(c.name)}"`}>
+      const photo = media.img ? `<img src="${esc(media.img)}" alt="${esc(c.name)}">` : "";
+      return `<article class="fc-card ${k === 0 ? "fc-card--active" : "fc-card--side"}${media.img ? "" : " fc-card--text"}" ${k === 0 ? "" : `data-fc-jump="${k}" role="button" tabindex="0" aria-label="Show ${esc(c.name)}"`}>
             <h3>${esc(c.name)}</h3>
             <p class="fc-city">${esc(c.city || "")}${c.prov ? `, ${esc(c.prov)}` : ""}</p>
             ${annItem.d !== null && annItem.d !== undefined ? `<p class="fc-dist">📍 ${annItem.d < 1 ? "<1" : Math.round(annItem.d)} km away</p>` : ""}
-            <img src="${esc(media.img || img)}" alt="${esc(c.name)}">
+            ${photo}
             <p class="fc-desc">${esc(desc)}</p>
             ${stars}${pract}${price}${db}
             ${btn}
@@ -1113,11 +1159,11 @@
     renderInsurers();
     renderWhy();
     renderFeaturedClinics();
-    if (wfLoc.get()) wfLoc.coords().then((pt) => { if (pt) { fcUserPt = pt; renderFeaturedClinics(); } });
+    if (wfLoc.get()) wfLoc.coords().then((pt) => { if (pt) { fcUserPt = pt; renderFeaturedClinics(); renderDirectory(); } });
     window.addEventListener("wf:location", () => {
       fcUserPt = null;
-      if (wfLoc.get()) wfLoc.coords().then((pt) => { fcUserPt = pt; renderFeaturedClinics(); });
-      else renderFeaturedClinics();
+      if (wfLoc.get()) wfLoc.coords().then((pt) => { fcUserPt = pt; renderFeaturedClinics(); renderDirectory(); });
+      else { renderFeaturedClinics(); renderDirectory(); }
     });
     renderDirectory();
     renderGoalChips();

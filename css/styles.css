@@ -973,6 +973,8 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .fc-dist { font-size: .78rem; font-weight: 600; color: #FFCE45; margin-top: 4px; }
 .fc-geo { text-align: center; margin-top: 10px; font-size: .8rem; color: #A7BFAE; }
 .fc-card img { width: 100%; height: clamp(130px, 20vh, 185px); object-fit: cover; display: block; margin-top: 14px; }
+.fc-card--text { background: #F4F6F3; }
+.fc-card--text .fc-desc { -webkit-line-clamp: 6; margin-top: 16px; }
 .fc-desc { font-family: "Playfair Display", serif; font-size: .93rem; line-height: 1.55; color: #33302B; padding: 14px 32px 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .fc-btn { display: inline-block; background: #0F2D2B; color: #fff; font-size: .62rem; letter-spacing: .26em; text-transform: uppercase; font-weight: 600; padding: 12px 26px; margin-top: 18px; text-decoration: none; }
 .fc-pager { display: flex; justify-content: center; align-items: center; gap: 18px; color: #fff; margin-top: 20px; font-size: .78rem; letter-spacing: .3em; }
