@@ -1229,11 +1229,11 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .nc-slot-row .nc-slot-mail { margin-left: auto; }
 
 /* ClassPass-style slot blocks: title + price line, time chip underneath */
-.nc-slot { margin-top: 9px; }
-.nc-slot-t { display: flex; align-items: baseline; gap: 8px; margin: 0; font-size: .93rem; }
+.nc-slot { margin-top: 11px; }
+.nc-slot-t { display: flex; align-items: baseline; gap: 10px; margin: 0; font-size: .98rem; }
 .nc-slot-title { font-weight: 700; color: #161616; }
 .nc-slot-price { color: #5c6b5e; font-size: .88rem; }
 .nc-slot-t .nc-slot-mail { margin-left: auto; }
-.nc-slot-c { margin: 6px 0 0; }
-.nc-slot-chip { display: inline-block; padding: 8px 18px; border: 1.5px solid #c4ccc5; border-radius: 12px; background: #fff; color: #161616; font-weight: 600; font-size: .92rem; text-decoration: none; }
+.nc-slot-c { margin: 7px 0 0; }
+.nc-slot-chip { display: inline-block; padding: 10px 22px; border: 1.5px solid #ccd3cd; border-radius: 12px; background: #fff; color: #161616; font-weight: 700; font-size: .95rem; text-decoration: none; transition: border-color .15s ease, background .15s ease; }
 a.nc-slot-chip:hover { border-color: #0F2D2B; background: #F4F6F3; }
