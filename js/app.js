@@ -394,9 +394,9 @@
      without a curated set fall back to the notes-first selection. */
   const FC_SETS = {
     "Clinical Pilates": ["Revival Physio", "Pulse Physiotherapy", "Toronto Physiotherapy (Danforth & Chester)", "Focus Physio + Wellness", "Treloar Physiotherapy \u2014 Cambie", "Synergy Physiotherapy and Pilates", "Pilates4Physio", "Bijoy's Physio & Pilates"],
-    "Microneedling": ["Qi Integrated Health", "Dr. Caitlin Batting", "Dr. Lauren Cottom", "Well BYND", "Health Globe Wellness Clinic", "Everwell ND", "Wellness Place"],
+    "Microneedling": ["Qi Integrated Health", "Dr. Lauren Cottom", "Well BYND", "Health Globe Wellness Clinic", "Everwell ND", "Wellness Place"],
     "IV Vitamin Therapy": ["Timeless Health Clinic", "The Vitamin Clinic", "Essence Wellness Clinic (Marda Loop)", "TruMed", "Sage Naturopathic Clinic (Kitchener)"],
-    "Golf Swing Assessment": ["PhysioLinks Rehab Clinic", "MOTI Physio", "Anchor Health and Performance Clinic", "OAK Physio & Wellness", "VF Mobility Labs", "Ohana Wellness Clinic", "Arbutus Physiotherapy"],
+    "Golf Swing Assessment": ["MOTI Physio", "Anchor Health and Performance Clinic", "OAK Physio & Wellness", "Arbutus Physiotherapy"],
   };
   function fcFeatured(name) {
     const all = (gtaDataFor(name) || { clinics: [] }).clinics.filter(Boolean);
@@ -425,12 +425,12 @@
        for this treatment. With a location set, the bar always shows
        5-8 clinics: nearest first, widening 25 -> 50 -> 100 km, then
        province, then nearest overall. */
-    const allDir = (gtaDataFor(fcTreatment) || { clinics: [] }).clinics.filter(Boolean);
-    const featNames = new Set(featured.map((c) => c.name));
-    const pool = [
-      ...featured.map((c) => ({ c, feat: true })),
-      ...allDir.filter((c) => !featNames.has(c.name)).map((c) => ({ c, feat: false })),
-    ];
+    /* Photos-only rule (Leon, 2026-11-01): the featured bar only shows
+       clinics with a treatment/clinic photo on file (CLINIC_MEDIA img).
+       No text-card top-ups from the wider directory pool. */
+    const pool = featured
+      .filter((c) => typeof CLINIC_MEDIA !== "undefined" && CLINIC_MEDIA[c.name] && CLINIC_MEDIA[c.name].img)
+      .map((c) => ({ c, feat: true }));
     const ann = pool.map(({ c, feat }) => {
       const geo = (typeof FC_GEO !== "undefined" && FC_GEO[c.name]) || null;
       const cc = geo && geo.lat != null ? [geo.lat, geo.lng] : clinicCoords(c);
