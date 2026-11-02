@@ -968,6 +968,7 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .fs-sect-head em { font-style: normal; }
 .fs-minigrid { display: none; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 18px; }
 .fs-sect.open .fs-minigrid { display: grid; }
+.fs-mini { position: relative; }
 .fs-mini img { width: 100%; aspect-ratio: 1 / .82; object-fit: cover; display: block; }
 .fs-mini h4 { font-size: .68rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 600; margin-top: 11px; color: #0F2D2B; }
 .fs-mini a.fs-clinics { font-size: .6rem; margin-top: 5px; }
