@@ -1,5 +1,30 @@
 [
  {
+  "name": "8 West Clinic",
+  "clinic_id": "8-west-clinic-north-vancouver",
+  "address": "221 Esplanade W #300",
+  "city": "North Vancouver",
+  "prov": "BC",
+  "postal": "V7M 3J3",
+  "phone": "604-733-1669",
+  "website": "https://www.8west.ca/",
+  "booking_page": "https://www.8west.ca/contact",
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.8,
+  "google_reviews": 70,
+  "rating_source": "Clinic's own website Google badge (health optimization / skin pages): 'Google, 8 West Clinic North Van 4.8 \u00b7 70 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "ACE Nutrition and Diet Consulting",
   "clinic_id": "ace-nutrition-and-diet-consulting-kingston",
   "address": "837 Princess St #211",
@@ -591,6 +616,31 @@
    "thu": "8:30 AM - 6:30 PM",
    "fri": "8:30 AM - 6:30 PM",
    "sat": "8:30 AM - 4:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "AcuNiagara",
+  "clinic_id": "acuniagara-niagara-falls",
+  "address": "6453 Morrison St Ste 307",
+  "city": "Niagara Falls",
+  "prov": "ON",
+  "postal": "L2E 7H1",
+  "phone": "289-271-0711",
+  "website": "https://www.acuniagara.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "11:30 AM - 7:00 PM",
+   "tue": "9:30 AM - 7:00 PM",
+   "wed": null,
+   "thu": "11:30 AM - 7:00 PM",
+   "fri": "9:00 AM - 2:00 PM",
+   "sat": null,
    "sun": null
   },
   "google_rating": null,
@@ -1225,6 +1275,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Allegro Performance + Wellness",
+  "clinic_id": "allegro-performance-wellness-north-vancouver",
+  "address": "1200 Lonsdale Ave #303",
+  "city": "North Vancouver",
+  "prov": "BC",
+  "postal": "V7M 3H6",
+  "phone": "604-782-4338",
+  "website": "https://www.allegroperformance.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 5:00 PM",
+   "tue": null,
+   "wed": "12:00 PM - 7:00 PM",
+   "thu": null,
+   "fri": "12:00 PM - 5:00 PM",
+   "sat": "9:00 AM - 1:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Alliance Physio",
   "clinic_id": "alliance-physio-mississauga",
   "address": "107-6750 Winston Churchill Blvd.",
@@ -1575,6 +1650,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Arbour Wellness Centre",
+  "clinic_id": "arbour-wellness-centre-nanaimo",
+  "address": "3955 Victoria Ave",
+  "city": "Nanaimo",
+  "prov": "BC",
+  "postal": null,
+  "phone": "250-729-4969",
+  "website": "https://arbourcentre.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 1:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 13,
+  "rating_source": "Google Places details in search results for Arbour Wellness Centre: 4.9 stars based on 13 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Arbutus Physiotherapy",
   "clinic_id": "arbutus-physiotherapy-victoria",
   "address": "1928 Oak Bay Ave",
@@ -1673,6 +1773,31 @@
   "rating_source": "Google Places details in search results for Arora Family Chiropractic: 'Rating: five stars (4.9) Based on 7 reviews'.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Ascend Physiotherapy",
+  "clinic_id": "ascend-physiotherapy-north-vancouver",
+  "address": "3053 Edgemont Blvd #202",
+  "city": "North Vancouver",
+  "prov": "BC",
+  "postal": "V7R 2N5",
+  "phone": "604-770-2463",
+  "website": "http://www.ascendphysio.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Ascent Clinical Services",
@@ -1846,6 +1971,31 @@
   "google_rating": 4.8,
   "google_reviews": 154,
   "rating_source": "Clinic's own Downtown Edmonton location page displays 'Rating: 4.8/5 (154 reviews)'.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Athletify",
+  "clinic_id": "athletify-newmarket",
+  "address": "16600 Bayview Ave Unit B3",
+  "city": "Newmarket",
+  "prov": "ON",
+  "postal": "L3X 1Z9",
+  "phone": "905-953-9499",
+  "website": "https://athletify.ca/",
+  "booking_page": "https://athletify.janeapp.com/",
+  "hours": {
+   "mon": "7:00 AM - 9:30 PM",
+   "tue": "7:00 AM - 9:30 PM",
+   "wed": "7:00 AM - 9:30 PM",
+   "thu": "7:00 AM - 9:30 PM",
+   "fri": "7:00 AM - 9:30 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 96,
+  "rating_source": "The clinic's own website displays a Google rating of 5.0 (96 reviews) in its location block.",
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
@@ -2892,6 +3042,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Blue Sky Physiotherapy & Wellness Centre",
+  "clinic_id": "blue-sky-physiotherapy-wellness-centre-north-vancouver",
+  "address": "120 - 700 Marine Drive",
+  "city": "North Vancouver",
+  "prov": "BC",
+  "postal": "V7M 1H3",
+  "phone": "604-988-7761",
+  "website": "http://www.blueskyphysio.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 7:30 PM",
+   "tue": "8:00 AM - 7:30 PM",
+   "wed": "8:00 AM - 7:30 PM",
+   "thu": "8:00 AM - 7:30 PM",
+   "fri": "8:00 AM - 7:30 PM",
+   "sat": "8:00 AM - 4:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 4,
+  "rating_source": "Google Places details in search results for Blue Sky Physiotherapy & Wellness Centre: 5.0 stars based on 4 reviews (see gaps for the own-site widget discrepancy).",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Bluebird Psychology",
   "clinic_id": "bluebird-psychology-calgary",
   "address": "Suite 277, 200 Rivercrest Drive SE",
@@ -3117,6 +3292,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Breanne Hopkins",
+  "clinic_id": "breanne-hopkins-north-cochrane",
+  "address": null,
+  "city": "North Cochrane",
+  "prov": "ON",
+  "postal": null,
+  "phone": "902-222-8158",
+  "website": "https://www.bhopkinsrd.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Brentwood Physio",
   "clinic_id": "brentwood-physio-calgary",
   "address": "789 Northmount Dr NW",
@@ -3140,6 +3340,31 @@
   "rating_source": "Google Places details in search results for Brentwood Physio: 'Rating: five stars (5.0) Based on 9 reviews'.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Brickyard Physiotherapy",
+  "clinic_id": "brickyard-physiotherapy-nanaimo",
+  "address": "6010 Brickyard Rd, Unit 103",
+  "city": "Nanaimo",
+  "prov": "BC",
+  "postal": "V9V 1S5",
+  "phone": "250-729-7956",
+  "website": "https://brickyardphysio.com/",
+  "booking_page": "https://brickyardphysio.janeapp.com/",
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 4.7,
+  "google_reviews": 18,
+  "rating_source": "Google Places details in search results for Brickyard Physiotherapy (rating 4.7 based on 18 reviews).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Bridge Counseling",
@@ -5168,6 +5393,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Coastal Integrative Health and Wellness",
+  "clinic_id": "coastal-integrative-health-and-wellness-nanaimo",
+  "address": "70 Church St Unit 2",
+  "city": "Nanaimo",
+  "prov": "BC",
+  "postal": "V9R 5H4",
+  "phone": "250-616-3010",
+  "website": "https://www.coastalintegrativehealth.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Coastal Psychology",
   "clinic_id": "coastal-psychology-halifax",
   "address": "5991 Spring Garden Road, Suite 900",
@@ -5668,6 +5918,31 @@
   "last_verified": null
  },
  {
+  "name": "Corinne Eisler Dietitian",
+  "clinic_id": "corinne-eisler-dietitian-north-vancouver",
+  "address": "1940 Lonsdale Ave",
+  "city": "North Vancouver",
+  "prov": "BC",
+  "postal": "V7M 2K1",
+  "phone": "604-317-9838",
+  "website": "https://www.eislerforkids.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:30 AM - 7:00 PM",
+   "tue": "9:30 AM - 7:00 PM",
+   "wed": "9:30 AM - 7:00 PM",
+   "thu": "9:30 AM - 7:00 PM",
+   "fri": "9:30 AM - 4:00 PM",
+   "sat": "10:00 AM - 4:00 PM",
+   "sun": "10:00 AM - 3:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Cornerstone Family Counselling",
   "clinic_id": "cornerstone-family-counselling-mississauga",
   "address": "6341 Mississauga Road (Canadian Coptic Centre II)",
@@ -5815,6 +6090,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Cristina Sutter",
+  "clinic_id": "cristina-sutter-north-vancouver",
+  "address": "870 Baycrest Dr",
+  "city": "North Vancouver",
+  "prov": "BC",
+  "postal": "V7H 0B5",
+  "phone": "604-987-4060",
+  "website": "http://cristinasutter.ca/",
+  "booking_page": "https://elitedietitian.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 12:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -6490,6 +6790,31 @@
   "google_reviews": 40,
   "rating_source": "Google Places details",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dialogues",
+  "clinic_id": "dialogues-niagara-falls",
+  "address": "5400 Portage Rd",
+  "city": "Niagara Falls",
+  "prov": "ON",
+  "postal": "L2G 5X7",
+  "phone": "905-371-0572",
+  "website": "http://dialogues.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 7:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -8193,6 +8518,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Kelly Wallace ND",
+  "clinic_id": "dr-kelly-wallace-nd-north-bay",
+  "address": "139 Worthington St E",
+  "city": "North Bay",
+  "prov": "ON",
+  "postal": null,
+  "phone": "705-474-2727",
+  "website": "http://www.wallacehealth.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "12:00 PM - 6:00 PM",
+   "tue": "1:00 PM - 6:00 PM",
+   "wed": "12:00 PM - 5:00 PM",
+   "thu": "9:00 AM - 1:00 PM",
+   "fri": "9:00 AM - 12:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 8,
+  "rating_source": "Google Places details in search results for Wallace Integrated Health Centre, North Bay: 4.9 stars based on 8 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Keltie Pratt",
   "clinic_id": "dr-keltie-pratt-calgary",
   "address": null,
@@ -9293,6 +9643,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Tonia Winchester",
+  "clinic_id": "dr-tonia-winchester-nanaimo",
+  "address": "975 Terminal Ave N",
+  "city": "Nanaimo",
+  "prov": "BC",
+  "postal": "V9S 4K3",
+  "phone": "250-753-6322",
+  "website": "https://nanaimoivtherapy.com/",
+  "booking_page": "https://kneadtherapy.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 12:30 PM",
+   "tue": "9:30 AM - 5:30 PM",
+   "wed": "9:30 AM - 5:00 PM",
+   "thu": null,
+   "fri": "9:00 AM - 12:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Viktoriya Zabigaylo",
   "clinic_id": "dr-viktoriya-zabigaylo-mississauga",
   "address": "250 Dundas St W Unit 204",
@@ -9593,6 +9968,31 @@
   "last_verified": null
  },
  {
+  "name": "EC Physiotherapy",
+  "clinic_id": "ec-physiotherapy-new-westminster",
+  "address": "722 2nd St",
+  "city": "New Westminster",
+  "prov": "BC",
+  "postal": null,
+  "phone": "778-980-9298",
+  "website": "http://www.ernestchaophysio.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 4:00 PM",
+   "tue": "9:00 AM - 4:00 PM",
+   "wed": "9:00 AM - 4:00 PM",
+   "thu": "9:00 AM - 4:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "ECR Nutritionniste",
   "clinic_id": "ecr-nutritionniste-gatineau",
   "address": "430 Boulevard de l'H\u00f4pital, Suite 104",
@@ -9790,7 +10190,7 @@
   "google_reviews": 5,
   "rating_source": "Google Places details shown in search results for this listing (4.6 stars, 5 reviews).",
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Elaine Zhang",
@@ -10493,6 +10893,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Every Eater Nutrition and Feeding Therapy",
+  "clinic_id": "every-eater-nutrition-and-feeding-therapy-north-vancouver",
+  "address": "1233 Lynn Valley Rd #149",
+  "city": "North Vancouver",
+  "prov": "BC",
+  "postal": "V7J 0A1",
+  "phone": "(604) 866-5751",
+  "website": "http://www.everyeater.com/",
+  "booking_page": "https://everyeater.com/services/",
+  "hours": {
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 5:00 PM",
+   "thu": "9:00 AM \u2013 5:00 PM",
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Evolve Therapy and Counselling",
   "clinic_id": "evolve-therapy-and-counselling-kingston",
   "address": "1111 Princess St #3",
@@ -10718,6 +11143,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Family Speech Clinic",
+  "clinic_id": "family-speech-clinic-newmarket",
+  "address": "16945 Leslie St Unit 4",
+  "city": "Newmarket",
+  "prov": "ON",
+  "postal": "L3Y 9A2",
+  "phone": "905-954-1312",
+  "website": "https://familyspeechclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 5:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Family-Physio",
   "clinic_id": "family-physio-edmonton",
   "address": "7408 139 Ave NW G104",
@@ -10840,6 +11290,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Fertility Plus Niagara",
+  "clinic_id": "fertility-plus-niagara-niagara-falls",
+  "address": "8040 Lundy's Ln",
+  "city": "Niagara Falls",
+  "prov": "ON",
+  "postal": null,
+  "phone": "905-358-0202",
+  "website": "http://fertilityplusniagara.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -11758,6 +12233,31 @@
    "wed": "12:00 PM \u2013 8:00 PM",
    "thu": "10:00 AM \u2013 4:00 PM",
    "fri": "11:00 AM \u2013 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Hair & Holistics",
+  "clinic_id": "hair-holistics-morinville",
+  "address": "9921 101 St",
+  "city": "Morinville",
+  "prov": "AB",
+  "postal": "T8R 1G2",
+  "phone": "780-572-2639",
+  "website": "https://hairandholistics.ca/",
+  "booking_page": "https://hairandholistics.ca/services",
+  "hours": {
+   "mon": "12:00 PM - 8:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "12:00 PM - 8:00 PM",
+   "thu": "10:00 AM - 4:00 PM",
+   "fri": "11:00 AM - 4:00 PM",
    "sat": null,
    "sun": null
   },
@@ -13089,8 +13589,8 @@
   "google_rating": 5.0,
   "google_reviews": 163,
   "rating_source": "Clinic site Google Maps embed (rendered page, verified by live browser pass 2026-11-01)",
-  "direct_billing": null,
-  "last_verified": null
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "JDA Physio & Rehabilitation Centre",
@@ -13568,6 +14068,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "K'yaa Therapy",
+  "clinic_id": "k-yaa-therapy-north-york",
+  "address": "63 Dunblaine Ave",
+  "city": "North York",
+  "prov": "ON",
+  "postal": "M5M 2S2",
+  "phone": "437-780-8766",
+  "website": "https://www.kyaatherapy.ca/",
+  "booking_page": "http://mkangpsychotherapy.janeapp.com",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "KAAIAA: Calgary Pelvic Floor Physiotherapy",
   "clinic_id": "kaaiaa-calgary-pelvic-floor-physiotherapy-calgary",
   "address": "1402 8 Ave NW #140",
@@ -13766,6 +14291,31 @@
   "rating_source": "Google Places details in search results for Kare Physiotherapy: 'Rating: five stars (5.0) Based on 5 reviews'.",
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Katie Bartel Registered Dietitian",
+  "clinic_id": "katie-bartel-registered-dietitian-new-westminster",
+  "address": "10 Renaissance Square",
+  "city": "New Westminster",
+  "prov": "BC",
+  "postal": null,
+  "phone": "604-614-9054",
+  "website": "http://www.katiebartel.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "6:00 PM - 8:00 PM",
+   "wed": "6:00 PM - 8:00 PM",
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Kelly Anne Erdman",
@@ -14118,6 +14668,31 @@
   "last_verified": null
  },
  {
+  "name": "Lakeside Pelvic Health",
+  "clinic_id": "lakeside-pelvic-health-north-bay",
+  "address": "1145 Cassells St",
+  "city": "North Bay",
+  "prov": "ON",
+  "postal": "P1B 4B4",
+  "phone": "705-845-0278",
+  "website": "https://www.lakesidepelvichealth.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:30 AM - 6:00 PM",
+   "tue": "8:30 AM - 3:30 PM",
+   "wed": "10:30 AM - 6:00 PM",
+   "thu": "8:30 AM - 3:30 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Lakeview Physiotherapy",
   "clinic_id": "lakeview-physiotherapy-calgary",
   "address": "#11, 6449 Crowchild Tr SW",
@@ -14240,6 +14815,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Le Psy Sportif \u2014 Dr Jean-Michel Pelletier",
+  "clinic_id": "le-psy-sportif-dr-jean-michel-pelletier-montreal",
+  "address": "2365 Rue Saint-Patrick A2",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H3K 1B3",
+  "phone": "514-903-9840",
+  "website": "http://www.psysportif.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "11:00 AM - 8:00 PM",
+   "tue": "11:00 AM - 8:00 PM",
+   "wed": "11:00 AM - 8:00 PM",
+   "thu": "11:00 AM - 8:00 PM",
+   "fri": "11:00 AM - 12:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -14868,6 +15468,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "M Nutrition Clinics",
+  "clinic_id": "m-nutrition-clinics-montreal",
+  "address": "450 Rue Saint-Antoine E #102",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H2Y 1A5",
+  "phone": "514-990-7128",
+  "website": "http://www.mnutrition.ca/",
+  "booking_page": "https://www.nutrisimple.com/fr/prenez-rendez-vous-en-ligne-avec-nutritionniste",
+  "hours": {
+   "mon": "8:00 AM - 9:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 9:00 PM",
+   "thu": "8:00 AM - 9:00 PM",
+   "fri": "8:00 AM - 9:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "METALAB",
   "clinic_id": "metalab-markham",
   "address": "50 McIntosh Dr #201",
@@ -14940,6 +15565,31 @@
   "google_reviews": 13,
   "rating_source": "Google Places details in search results for Modern Health & Performance, 123 St George St #101, London (place_id 1251939968912202): Rating: five stars (5.0), based on 13 reviews.",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "MOTI Physio",
+  "clinic_id": "moti-physio-newmarket",
+  "address": "16945 Leslie St Unit 20A",
+  "city": "Newmarket",
+  "prov": "ON",
+  "postal": "L3Y 9A2",
+  "phone": "905-830-5054",
+  "website": "https://www.motiphysio.ca/",
+  "booking_page": "https://motiphysio.janeapp.com/locations/moti-physiotherapy-sports-rehab/book",
+  "hours": {
+   "mon": "8:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "8:00 AM - 7:00 PM",
+   "thu": "8:00 AM - 5:00 PM",
+   "fri": "8:00 AM - 7:00 PM",
+   "sat": "8:00 AM - 12:00 PM",
+   "sun": "9:00 AM - 1:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -15084,6 +15734,56 @@
    "thu": "10:00 AM - 7:00 PM",
    "fri": "10:00 AM - 7:00 PM",
    "sat": "10:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Main Street Naturopathic Clinic",
+  "clinic_id": "main-street-naturopathic-clinic-moose-jaw",
+  "address": "616 Main St N",
+  "city": "Moose Jaw",
+  "prov": "SK",
+  "postal": "S6H 3K4",
+  "phone": "306-692-6160",
+  "website": "https://www.mainstreetnaturopathicclinic.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:30 AM - 2:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 5,
+  "rating_source": "Google Places details in search results for Main Street Naturopathic Clinic: 5.0 stars based on 5 reviews.",
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Maison Flore",
+  "clinic_id": "maison-flore-montreal",
+  "address": "4083 Rue Berri",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H2L 4H4",
+  "phone": "514-943-3075",
+  "website": "https://maison-flore-drainage-montreal.squarespace.com/",
+  "booking_page": "https://www.gorendezvous.com/maisonfloremassotherapiemontreal",
+  "hours": {
+   "mon": "8:00 AM - 5:00 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "8:00 AM - 5:00 PM",
+   "thu": "8:00 AM - 5:00 PM",
+   "fri": "8:00 AM - 5:00 PM",
+   "sat": null,
    "sun": null
   },
   "google_rating": null,
@@ -15624,6 +16324,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Medstar Sport Physio & Health",
+  "clinic_id": "medstar-sport-physio-health-north-vancouver",
+  "address": "1325 Marine Drive",
+  "city": "North Vancouver",
+  "prov": "BC",
+  "postal": "V7P 3E5",
+  "phone": "(604) 988-5411",
+  "website": "https://www.medstarsportphysio.ca/",
+  "booking_page": "https://medstar.janeapp.com/locations/medstar-sport-physio-health/book",
+  "hours": {
+   "mon": "9:00 AM \u2013 7:30 PM",
+   "tue": "9:00 AM \u2013 7:30 PM",
+   "wed": "9:00 AM \u2013 7:30 PM",
+   "thu": "9:00 AM \u2013 7:30 PM",
+   "fri": "9:00 AM \u2013 7:30 PM",
+   "sat": "8:30 AM \u2013 4:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 205,
+  "rating_source": "Clinic's own website Google badge: '5.0 \u00b7 205+ Google reviews' (also 'Rating: 5/5 (205 reviews)' on its laser page)",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -16360,7 +17085,7 @@
   "postal": "M2N 1M2",
   "phone": "647-508-1888",
   "website": "https://www.motioncareclinic.com",
-  "booking_page": null,
+  "booking_page": "https://www.motioncareclinic.com",
   "hours": {
    "mon": null,
    "tue": null,
@@ -16374,7 +17099,32 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Mountain Health and Performance",
+  "clinic_id": "mountain-health-and-performance-north-vancouver",
+  "address": "100-223 Mountain Highway",
+  "city": "North Vancouver",
+  "prov": "BC",
+  "postal": "V7J 3V3",
+  "phone": "(604) 984-0014",
+  "website": "https://www.mountainhp.ca/",
+  "booking_page": "https://mountainhp.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM \u2013 6:00 PM",
+   "tue": "9:00 AM \u2013 6:30 PM",
+   "wed": "9:00 AM \u2013 6:30 PM",
+   "thu": "9:00 AM \u2013 6:30 PM",
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "sat": "9:00 AM \u2013 4:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 3,
+  "rating_source": "Google Places details via web search extract: 'Rating: five stars (5.0), Based on 3 reviews'",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Moves You Physiotherapy",
@@ -17252,6 +18002,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Neuroperforma \u2014 Montr\u00e9al",
+  "clinic_id": "neuroperforma-montreal",
+  "address": "1134 Ste-Catherine Ouest, 5e \u00e9tage, bureau 502",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H3B 1H4",
+  "phone": "450-445-1010",
+  "website": "https://neuroperforma.com",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 9:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 9:00 PM",
+   "thu": "8:00 AM - 9:00 PM",
+   "fri": "8:00 AM - 9:00 PM",
+   "sat": "8:30 AM - 5:00 PM",
+   "sun": "8:00 AM - 4:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Neuroperforma \u2014 Saint-Hubert",
   "clinic_id": "neuroperforma-saint-hubert",
   "address": "7750 Boul. Cousineau, suite 301",
@@ -17352,6 +18127,31 @@
   "last_verified": null
  },
  {
+  "name": "New Life Rehab Clinic",
+  "clinic_id": "new-life-rehab-clinic-north-york",
+  "address": "1645 Warden Ave, Unit 102",
+  "city": "North York",
+  "prov": "ON",
+  "postal": "M1R 5B3",
+  "phone": "647-224-5433",
+  "website": "https://newlifeclinicandpilates.com/",
+  "booking_page": "https://newlifeclinicandpilates.com/",
+  "hours": {
+   "mon": "7:00 AM \u2013 10:00 PM",
+   "tue": "7:00 AM \u2013 10:00 PM",
+   "wed": "7:00 AM \u2013 10:00 PM",
+   "thu": "7:00 AM \u2013 10:00 PM",
+   "fri": "7:00 AM \u2013 10:00 PM",
+   "sat": "7:00 AM \u2013 10:00 PM",
+   "sun": "7:00 AM \u2013 10:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "NewCare Counselling",
   "clinic_id": "newcare-counselling-brantford",
   "address": "330 West St",
@@ -17424,7 +18224,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "NewM Clinic (Scarborough)",
@@ -17499,7 +18299,7 @@
   "google_reviews": 6,
   "rating_source": "Google Places details shown in search results for this listing (4.8 stars, 6 reviews).",
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Next Gen Psychology",
@@ -17752,6 +18552,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "North Bay Naturopathic Clinic",
+  "clinic_id": "north-bay-naturopathic-clinic-north-bay",
+  "address": "343 Airport Rd",
+  "city": "North Bay",
+  "prov": "ON",
+  "postal": null,
+  "phone": "705-472-7007",
+  "website": "http://northbaynaturopath.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "1:00 PM - 6:00 PM",
+   "wed": "9:00 AM - 1:00 PM",
+   "thu": "1:00 PM - 6:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "North Kamloops Physiotherapy",
   "clinic_id": "north-kamloops-physiotherapy-kamloops",
   "address": "550 Tranquille Rd",
@@ -17774,6 +18599,31 @@
   "google_reviews": 8,
   "rating_source": "Google Places details in search results for North Kamloops Physiotherapy: 'Rating: four and a half stars (4.5) Based on 8 reviews'.",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "North Shore Stress & Anxiety Clinic",
+  "clinic_id": "north-shore-stress-anxiety-clinic-north-vancouver",
+  "address": "145 Chadwick Court, Suite 330",
+  "city": "North Vancouver",
+  "prov": "BC",
+  "postal": "V7M 3K1",
+  "phone": "604.985.3939",
+  "website": "http://www.nssac.ca/",
+  "booking_page": "https://nssac.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 5:00 PM",
+   "thu": "9:00 AM \u2013 5:00 PM",
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -17827,6 +18677,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Northshore ND",
+  "clinic_id": "northshore-nd-new-glasgow",
+  "address": "106 Stellarton Road",
+  "city": "New Glasgow",
+  "prov": "NS",
+  "postal": "B2H 1L8",
+  "phone": "902-755-1210",
+  "website": "https://www.northshorendclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.0,
+  "google_reviews": 5,
+  "rating_source": "Google Places details in search results for Northshore ND show a rating of 4.0 based on 5 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Northstone Chiropractic",
   "clinic_id": "northstone-chiropractic-greater-sudbury",
   "address": "1500 Paris Street",
@@ -17849,6 +18724,56 @@
   "google_reviews": 36,
   "rating_source": "Google Places details in search results for Northstone Chiropractic (place_id 803689334141823): 'Rating: five stars (5.0), Based on 36 reviews'.",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Northview Massage Therapy",
+  "clinic_id": "northview-massage-therapy-north-vancouver",
+  "address": "Suite 300 - 1124 Lonsdale Avenue",
+  "city": "North Vancouver",
+  "prov": "BC",
+  "postal": "V7M 2H1",
+  "phone": "604.986.3771",
+  "website": "https://www.northviewmassage.com/",
+  "booking_page": "https://northviewhealth.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM \u2013 8:00 PM",
+   "tue": "8:00 AM \u2013 8:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM",
+   "thu": "8:00 AM \u2013 8:00 PM",
+   "fri": "8:00 AM \u2013 8:00 PM",
+   "sat": "8:00 AM \u2013 5:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.8,
+  "google_reviews": 5,
+  "rating_source": "Google Places details via web search extract for Northview Health and Wellness Centre (same address 1124 Lonsdale Ave #300 and phone +16049863771; clinic's current name - formerly Northview Massage Therapy Clinic): Rating 4.8 based on 5 reviews",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Northwood Pelvic Health & Wellness",
+  "clinic_id": "northwood-pelvic-health-wellness-nanaimo",
+  "address": "103-125 Wallace St",
+  "city": "Nanaimo",
+  "prov": "BC",
+  "postal": "V9R 5B2",
+  "phone": "250-714-1464",
+  "website": "https://northwoodpelvichealth.com/",
+  "booking_page": "https://northwoodpelvichealth.janeapp.com/",
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 5:00 PM",
+   "sat": "9:00 AM - 1:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -18323,6 +19248,31 @@
   "google_rating": 5.0,
   "google_reviews": 1,
   "rating_source": "Google Places details in search results for Nutrivive Consulting Ltd (website https://nutrivive.ca/): 'Rating: five stars (5.0), Based on 1 reviews'. No Google badge/widget was found on the clinic's own site.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Nxt Generation PHYSIO",
+  "clinic_id": "nxt-generation-physio-montreal",
+  "address": "4800 Rue Saint-Ambroise Suite 100",
+  "city": "Montr\u00e9al",
+  "prov": "QC",
+  "postal": "H4C 3N8",
+  "phone": "1-833-474-9746",
+  "website": "https://nxtgphysio.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 9:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 9:00 PM",
+   "thu": "8:00 AM - 9:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 8:00 PM",
+   "sun": "8:00 AM - 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 47,
+  "rating_source": "Google Places details in search results for Nxt Generation PHYSIO (4800 Rue St-Ambroise, Montr\u00e9al): 5.0 stars based on 47 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -19674,7 +20624,7 @@
   "google_reviews": 2,
   "rating_source": "Google Places details (place_id 549458660309211)",
   "direct_billing": "no",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Physio Rehab Clinic",
@@ -19724,7 +20674,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "PhysioDNA",
@@ -19898,8 +20848,8 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
-  "last_verified": null
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Physiolab \u2014 Hastings",
@@ -19974,6 +20924,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Physioversal",
+  "clinic_id": "physioversal-montreal",
+  "address": "6830, avenue du Parc, suites 100 et 103",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H3N 1W7",
+  "phone": "514-531-9049",
+  "website": "https://www.physioversal.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 7:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 5:00 PM",
+   "thu": "9:00 AM \u2013 5:00 PM",
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "sat": "9:00 AM \u2013 5:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -20099,6 +21074,31 @@
   "google_reviews": 2,
   "rating_source": "Google Places listing for Pink Lotus Acupuncture and Wellness Centre: 5.0 based on 2 reviews.",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Pinpoint Physiotherapy & Health",
+  "clinic_id": "pinpoint-physiotherapy-health-nanaimo",
+  "address": "161 Selby Street",
+  "city": "Nanaimo",
+  "prov": "BC",
+  "postal": "V9R 2R1",
+  "phone": "250-591-3730",
+  "website": "https://pinpointphysio.ca/",
+  "booking_page": "https://pinpointphysio.janeapp.com/",
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 7:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 20,
+  "rating_source": "Google Places details in search results for Pinpoint Physiotherapy & Health (rating 5.0 based on 20 reviews).",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -20600,6 +21600,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Psychotherapy for You",
+  "clinic_id": "psychotherapy-for-you-niagara-falls",
+  "address": "4279 Simcoe St",
+  "city": "Niagara Falls",
+  "prov": "ON",
+  "postal": "L2E 1T5",
+  "phone": "289-205-3505",
+  "website": "https://www.psychotherapyforyou.ca/",
+  "booking_page": "https://niagarapsychotherapyservices.janeapp.com/locations/ontario-canada/book",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Pulse Physiotherapy",
@@ -21148,8 +22173,8 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
-  "last_verified": null
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Red Leaf Wellness",
@@ -22077,6 +23102,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "SOSCuisine",
+  "clinic_id": "soscuisine-montreal",
+  "address": "1470 Rue Peel Bur 810",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H3A 1T1",
+  "phone": "514-564-0971",
+  "website": "https://www.soscuisine.com/",
+  "booking_page": "https://www.soscuisine.com/vip-dietitian/",
+  "hours": {
+   "mon": "9:00 AM \u2013 6:00 PM",
+   "tue": "9:00 AM \u2013 6:00 PM",
+   "wed": "9:00 AM \u2013 6:00 PM",
+   "thu": "9:00 AM \u2013 6:00 PM",
+   "fri": "9:00 AM \u2013 6:00 PM",
+   "sat": "9:00 AM \u2013 6:00 PM",
+   "sun": "9:00 AM \u2013 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "SPOT Speech & OMT",
+  "clinic_id": "spot-speech-omt-northwestern-ontario-virtual",
+  "address": null,
+  "city": "Northwestern Ontario (virtual)",
+  "prov": "ON",
+  "postal": null,
+  "phone": null,
+  "website": "https://spotspeech.com/",
+  "booking_page": "https://spotspeech.com/",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Sage Elements Naturopathic Clinic",
   "clinic_id": "sage-elements-naturopathic-clinic-halifax",
   "address": "5991 Spring Garden Rd Unit 465",
@@ -22399,6 +23474,31 @@
   "google_reviews": null,
   "rating_source": "No Google rating/reviews shown in Google Places search extract and no Google rating badge found on the clinic's own site",
   "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Seaside Smile Clinic",
+  "clinic_id": "seaside-smile-clinic-nanaimo",
+  "address": "105 Richards St",
+  "city": "Nanaimo",
+  "prov": "BC",
+  "postal": "V9R 2S7",
+  "phone": "250-753-6512",
+  "website": "https://www.seasidesmileclinic.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 4:30 PM",
+   "tue": "8:30 AM - 4:30 PM",
+   "wed": "8:30 AM - 4:30 PM",
+   "thu": "8:30 AM - 4:30 PM",
+   "fri": "8:30 AM - 4:30 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -23119,6 +24219,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Speech Therapy Toronto",
+  "clinic_id": "speech-therapy-toronto-north-york",
+  "address": null,
+  "city": "North York",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-490-1720",
+  "website": "https://speechtherapytoronto.com/",
+  "booking_page": "https://speechtherapytoronto.com/contact/",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "SpeechAim",
   "clinic_id": "speechaim-toronto",
   "address": "5734 Yonge Street, Suite 300",
@@ -23541,7 +24666,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Sudbury Health Collective",
@@ -23867,6 +24992,31 @@
   "rating_source": null,
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Team Nutrition",
+  "clinic_id": "team-nutrition-montreal",
+  "address": "4150 Sainte-Catherine St. West",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H3Z 2Y5",
+  "phone": "514-943-6896",
+  "website": "https://teamnutrition.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 7:00 PM",
+   "tue": "8:30 AM - 7:00 PM",
+   "wed": "8:30 AM - 7:00 PM",
+   "thu": "8:30 AM - 7:00 PM",
+   "fri": "8:30 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "TeamNutrition",
@@ -24736,6 +25886,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "The Voice Box",
+  "clinic_id": "the-voice-box-montreal",
+  "address": "1290 Av. Van Horne Ste 404",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": null,
+  "phone": "514-737-4949",
+  "website": "https://orthophoniemontreal.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "11:00 AM - 8:00 PM",
+   "tue": "11:00 AM - 8:00 PM",
+   "wed": "11:00 AM - 8:00 PM",
+   "thu": "11:00 AM - 8:00 PM",
+   "fri": "12:00 AM - 2:00 PM",
+   "sat": null,
+   "sun": "11:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Voice Box (Orthophonie Montreal)",
+  "clinic_id": "the-voice-box-orthophonie-montreal-montreal",
+  "address": "1290 Av. Van Horne Ste 404",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": null,
+  "phone": "514-737-4949",
+  "website": "https://orthophoniemontreal.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "11:00 AM - 8:00 PM",
+   "tue": "11:00 AM - 8:00 PM",
+   "wed": "11:00 AM - 8:00 PM",
+   "thu": "11:00 AM - 8:00 PM",
+   "fri": "12:00 AM - 2:00 PM",
+   "sat": null,
+   "sun": "11:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "The Voice Source",
   "clinic_id": "the-voice-source-hamilton",
   "address": "51 Barons Avenue North",
@@ -25109,6 +26309,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Toronto Osteopathy & Wellness",
+  "clinic_id": "toronto-osteopathy-wellness-north-york",
+  "address": "335 Sheppard Avenue East",
+  "city": "North York",
+  "prov": "ON",
+  "postal": "M2N 3B3",
+  "phone": "647-559-9716",
+  "website": "https://osteowellto.com/",
+  "booking_page": "https://osteowellto.com/",
+  "hours": {
+   "mon": null,
+   "tue": "11:00 AM \u2013 7:00 PM",
+   "wed": "11:00 AM \u2013 7:00 PM",
+   "thu": "11:00 AM \u2013 7:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": "10:00 AM \u2013 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 4,
+  "rating_source": "Google Places details for 'Alok Kumar' listing (335 Sheppard Ave E, Toronto; phone +16475599716; website osteowellto.com) found via web search",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Toronto Physiotherapy (Danforth & Chester)",
@@ -26307,6 +27532,31 @@
   "google_rating": 5.0,
   "google_reviews": 376,
   "rating_source": "Google rating widget on the clinic's own homepage (wellnessprive.ca, Trustindex-verified Google reviews block): 'Google rating score: 5.0 of 5, based on 376 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Wellness Priv\u00e9 \u2014 Clinique de Massoth\u00e9rapie de la M\u00e2choire",
+  "clinic_id": "wellness-prive-clinique-de-massotherapie-de-la-machoire-montreal",
+  "address": "5475 Pare St #107",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H4P 1P7",
+  "phone": "514-400-2847",
+  "website": "https://wellnessprive.ca/fr/machoire/",
+  "booking_page": "https://www.fresha.com/a/wellness-prive-massotherapie-bien-etre-clinique-de-massotherapie-de-la-machoire-de-montreal-montreal-5475-pare-dxchbuuf/booking?menu=true&share=true&offerItems=sv:13125659&pId=883580&dppub=true&employeeId=2332560",
+  "hours": {
+   "mon": "10:00 AM - 6:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "10:00 AM - 6:00 PM",
+   "thu": "10:00 AM - 6:00 PM",
+   "fri": "10:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
