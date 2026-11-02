@@ -25,6 +25,31 @@
   "last_verified": null
  },
  {
+  "name": "AHC Wellness Clinic",
+  "clinic_id": "ahc-wellness-clinic-mississauga",
+  "address": "2318 Dunwin Dr #11",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5L 1C7",
+  "phone": "905-569-8885",
+  "website": "https://www.ahcwellnessclinic.com/",
+  "booking_page": "https://ahcwellnessclinic.janeapp.com/",
+  "hours": {
+   "fri": "10:00 AM - 10:00 PM",
+   "mon": "10:00 AM - 10:00 PM",
+   "sat": "10:00 AM - 10:00 PM",
+   "sun": "10:00 AM - 10:00 PM",
+   "thu": "10:00 AM - 10:00 PM",
+   "tue": "10:00 AM - 10:00 PM",
+   "wed": "10:00 AM - 10:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "ASCEND Rehabilitation",
   "clinic_id": "ascend-rehabilitation-mississauga",
   "address": "3611 Mavis Road, Unit 12",
@@ -48,6 +73,31 @@
   "rating_source": "Clinic's own homepage (ascendrehabilitation.ca) carries a Trustindex Google reviews widget showing 5-star icons and '250 Google reviews' and states 'Trustindex verifies that the original source of the review is Google'; no numeric aggregate rating appeared in the fetched text, so google_rating is null while the review count of 250 is recorded.",
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "ATRIUM Acupuncture",
+  "clinic_id": "atrium-acupuncture-moncton",
+  "address": "126 Halifax St",
+  "city": "Moncton",
+  "prov": "NB",
+  "postal": "E1C 0N4",
+  "phone": "506-863-9312",
+  "website": "https://atriumacupuncture.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Abbotsford Sports & Orthopaedic Physiotherapy",
@@ -223,6 +273,31 @@
   "rating_source": "Google Places details in search results for Acti-Sport (285 Bd Saint-Luc Ste 120, Saint-Jean-sur-Richelieu): 'Rating: four and a half stars (4.6) Based on 19 reviews'.",
   "direct_billing": null,
   "last_verified": null
+ },
+ {
+  "name": "Action Sport Physio",
+  "clinic_id": "action-sport-physio-montreal",
+  "address": "4150 Rue Sainte-Catherine Ouest, Local 400",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H3Z 2Y5",
+  "phone": "514-939-1444",
+  "website": "https://actionsportphysio.com/fr/clinique-physiotherapie-montreal-centre-ville",
+  "booking_page": null,
+  "hours": {
+   "mon": "6:30 AM - 7:00 PM",
+   "tue": "6:30 AM - 7:00 PM",
+   "wed": "6:30 AM - 7:00 PM",
+   "thu": "6:30 AM - 7:00 PM",
+   "fri": "6:30 AM - 7:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 3,
+  "rating_source": "Google Places details in search results for Action Sport Physio Centre-Ville: 5.0 stars based on 3 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Action Sport Physio \u2014 Laval (\u00c9l\u00e9anne Langlois)",
@@ -500,6 +575,31 @@
   "last_verified": null
  },
  {
+  "name": "AcuMedicina Clinic",
+  "clinic_id": "acumedicina-clinic-montreal",
+  "address": "416 Rue Cherrier",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": null,
+  "phone": "438-934-6520",
+  "website": "https://www.acumedicina.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 6:30 PM",
+   "tue": "8:30 AM - 6:30 PM",
+   "wed": "8:30 AM - 6:30 PM",
+   "thu": "8:30 AM - 6:30 PM",
+   "fri": "8:30 AM - 6:30 PM",
+   "sat": "8:30 AM - 4:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Acumamas Wellness",
   "clinic_id": "acumamas-wellness-vancouver",
   "address": "301 W 2nd Ave",
@@ -621,6 +721,31 @@
   "google_rating": 5.0,
   "google_reviews": 1,
   "rating_source": "Google Places details in search results for Acupuncture Healing Centre: 'Rating: five stars (5.0) Based on 1 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Acupuncture Heals (inside Dixie Dundas Chiropractic)",
+  "clinic_id": "acupuncture-heals-inside-dixie-dundas-chiropractic-mississauga",
+  "address": "3197 Dixie Road",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L4Y 2A7",
+  "phone": "905-624-4123",
+  "website": "https://acupunctureheals.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 12:00 PM, 3:00 PM - 7:00 PM",
+   "tue": null,
+   "wed": "8:00 AM - 12:00 PM, 3:00 PM - 7:00 PM",
+   "thu": null,
+   "fri": null,
+   "sat": "8:30 AM - 11:30 AM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -1147,7 +1272,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Alpine Naturopathic & Wellness",
@@ -1192,6 +1317,31 @@
    "thu": "7:00 AM - 9:00 PM",
    "tue": "7:00 AM - 9:00 PM",
    "wed": "7:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Anchor Health and Performance Clinic",
+  "clinic_id": "anchor-health-and-performance-clinic-mississauga",
+  "address": "5770 Timberlea Blvd Unit 107",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L4W 4W7",
+  "phone": "905-625-8733",
+  "website": "https://www.anchorhp.ca/",
+  "booking_page": "https://anchorhp.janeapp.com/",
+  "hours": {
+   "mon": "Closed",
+   "tue": "8:00 AM - 7:00 PM",
+   "wed": "10:00 AM - 7:00 PM",
+   "thu": "10:00 AM - 7:00 PM",
+   "fri": "8:00 AM - 4:00 PM",
+   "sat": "8:00 AM - 1:00 PM",
+   "sun": "Closed"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -1290,6 +1440,56 @@
    "wed": "9:30 AM - 7:00 PM",
    "thu": "8:00 AM - 7:00 PM",
    "fri": "9:00 AM - 4:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Anisha Gupta",
+  "clinic_id": "anisha-gupta-mississauga",
+  "address": "6033 Shawson Dr #8",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": null,
+  "phone": "647-408-6474",
+  "website": "https://www.hellonutrition.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 11,
+  "rating_source": "Google Places details in search results for Anisha Gupta: 5.0 stars based on 11 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Anjali Dua's Nourish with Nutrients",
+  "clinic_id": "anjali-duas-nourish-with-nutrients-mississauga",
+  "address": "6700 Century Ave 3rd Floor",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5N 6A4",
+  "phone": "905-781-6668",
+  "website": "http://www.nourishwithnutrients.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 8:30 PM",
+   "tue": "10:00 AM - 8:30 PM",
+   "wed": "10:00 AM - 8:30 PM",
+   "thu": "10:00 AM - 8:30 PM",
+   "fri": "10:00 AM - 8:30 PM",
    "sat": null,
    "sun": null
   },
@@ -2542,6 +2742,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Bite Rite Nutrition",
+  "clinic_id": "bite-rite-nutrition-mississauga",
+  "address": "1454 Dundas St E #125",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L4X 1L4",
+  "phone": "416-889-4237",
+  "website": "https://www.biteritenutrition.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 7:00 PM",
+   "tue": "10:00 AM - 7:00 PM",
+   "wed": "10:00 AM - 7:00 PM",
+   "thu": "10:00 AM - 7:00 PM",
+   "fri": "10:00 AM - 7:00 PM",
+   "sat": "12:00 PM - 6:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 16,
+  "rating_source": "Google Places details in search results for Bite Rite Nutrition: 5.0 stars based on 16 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Blaise T. Ryan Acupuncture & TCM",
   "clinic_id": "blaise-t-ryan-acupuncture-tcm-ottawa",
   "address": "383 Parkdale Ave #106",
@@ -2589,7 +2814,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "no",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Blockline Physiotherapy & Wellness",
@@ -3642,6 +3867,56 @@
   "last_verified": null
  },
  {
+  "name": "Career Success Now",
+  "clinic_id": "career-success-now-mississauga",
+  "address": "2353 Marpole Ave",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": null,
+  "phone": "236-885-6719",
+  "website": "https://careersuccessnow.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 8:00 PM",
+   "sun": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Careers by Design",
+  "clinic_id": "careers-by-design-mississauga",
+  "address": "65 Lillian St",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "M4S 0A1",
+  "phone": "416-519-8408",
+  "website": "https://www.careersbydesign.ca/",
+  "booking_page": "https://www.careersbydesign.ca/availability/",
+  "hours": {
+   "mon": "8:00 AM - 9:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 9:00 PM",
+   "thu": "8:00 AM - 9:00 PM",
+   "fri": "8:00 AM - 9:00 PM",
+   "sat": "8:00 AM - 9:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": null,
+  "rating_source": "Clinic's own website Google badge on its Mississauga page (careersbydesign.ca/services/career-counselling-mississauga/): '4.9/5 on Google Reviews' / '4.9 / 5 Google Reviews Rating'; no exact review count is shown with the badge, so google_reviews is null (see gaps for the 4.8 badge shown on some other own-site pages).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Caring Hands Physiotherapy",
   "clinic_id": "caring-hands-physiotherapy-calgary",
   "address": "55 Castleridge Blvd NE #164",
@@ -4017,6 +4292,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Chinese Acupuncture Clinic",
+  "clinic_id": "chinese-acupuncture-clinic-moncton",
+  "address": "1269 Mountain Road",
+  "city": "Moncton",
+  "prov": "NB",
+  "postal": "E1C 2T9",
+  "phone": "506-382-1288",
+  "website": "http://www.acupuncturehui.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Chow Down Nutrition",
   "clinic_id": "chow-down-nutrition-langley",
   "address": "8661 201 St, 2nd Floor",
@@ -4192,6 +4492,56 @@
   "last_verified": null
  },
  {
+  "name": "Clinic acuenergie",
+  "clinic_id": "clinic-acuenergie-montreal",
+  "address": "1538 Rue Sherbrooke O Suite 210",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": null,
+  "phone": "514-838-2436",
+  "website": "https://www.acuenergie.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "9:00 AM - 4:00 PM",
+   "wed": null,
+   "thu": "9:00 AM - 4:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 3,
+  "rating_source": "Google Places details in search results for Acuenergie clinic report a rating of 5.0 based on 3 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Clinique Altermed",
+  "clinic_id": "clinique-altermed-montreal",
+  "address": "400 Boulevard Saint-Joseph E",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H2J 1J5",
+  "phone": "514-287-3289",
+  "website": "https://cliniquealtermed.com/",
+  "booking_page": "https://altermed.janeapp.com/",
+  "hours": {
+   "mon": "7:00 AM - 9:00 PM",
+   "tue": "7:00 AM - 9:00 PM",
+   "wed": "7:00 AM - 9:00 PM",
+   "thu": "7:00 AM - 9:00 PM",
+   "fri": "7:00 AM - 9:00 PM",
+   "sat": "7:00 AM - 6:00 PM",
+   "sun": "7:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Clinique CB",
   "clinic_id": "clinique-cb-laval",
   "address": null,
@@ -4231,6 +4581,31 @@
   "google_reviews": 16,
   "rating_source": "Google Places details in search results for Clinique Camirand Muzzi: 'Rating: five stars (4.8) Based on 16 reviews'.",
   "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Clinique Dentaire Fullum",
+  "clinic_id": "clinique-dentaire-fullum-montreal",
+  "address": "2200 Rue Fullum",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": null,
+  "phone": "514-522-3233",
+  "website": "https://cliniquedentairefullum.com/",
+  "booking_page": "https://www.docclik.com/fr/clinic/12283/booking",
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "10:00 AM - 3:30 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 7,
+  "rating_source": "Google Places details in search results for Clinique Dentaire Fullum report a rating of 5.0 based on 7 reviews.",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -4309,6 +4684,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Clinique JeM",
+  "clinic_id": "clinique-jem-montreal",
+  "address": "15844 Rue Notre-Dame E",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H1A 1X6",
+  "phone": "450-390-6001",
+  "website": "https://www.cliniquejem.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 9:00 PM",
+   "tue": "8:30 AM - 9:30 PM",
+   "wed": "8:30 AM - 9:00 PM",
+   "thu": "8:30 AM - 9:00 PM",
+   "fri": "9:00 AM - 9:30 PM",
+   "sat": "9:00 AM - 9:00 PM",
+   "sun": "9:00 AM - 9:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 11,
+  "rating_source": "Google Places details in search results for Clinique JeM report a rating of 5.0 based on 11 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Clinique Mots et Gestes",
   "clinic_id": "clinique-mots-et-gestes-gatineau",
   "address": "500 Boulevard Gr\u00e9ber, Bureau 301",
@@ -4330,6 +4730,31 @@
   "google_rating": 4.4,
   "google_reviews": null,
   "rating_source": "Clinic's own website Google Reviews badge (cliniquemeg.com), which displays 4.4/5; the review count shown only by aggregators was not used",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Clinique Natturra",
+  "clinic_id": "clinique-natturra-moncton",
+  "address": "171 Lutz St Ste 103",
+  "city": "Moncton",
+  "prov": "NB",
+  "postal": null,
+  "phone": "506-382-1560",
+  "website": "http://natturra.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 6,
+  "rating_source": "Google Places details in search results for Clinique Natturra, Moncton: 5.0 stars based on 6 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -4568,6 +4993,31 @@
    "thu": "8:00 AM \u2013 8:00 PM",
    "tue": "8:00 AM \u2013 8:00 PM",
    "wed": "8:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Clinique d'orthophonie Laurier",
+  "clinic_id": "clinique-d-orthophonie-laurier-montreal",
+  "address": "5130 Rue St-Hubert Bureau 216",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": null,
+  "phone": "514-528-3514",
+  "website": "http://www.cliniqueorthophonielaurier.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
   },
   "google_rating": null,
   "google_reviews": null,
@@ -5568,6 +6018,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dahlia Nutrition",
+  "clinic_id": "dahlia-nutrition-mississauga",
+  "address": "77 City Centre Dr Ste 501",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5B 1M5",
+  "phone": null,
+  "website": "https://www.dahlianutrition.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "5:30 PM - 9:00 PM",
+   "mon": "Closed",
+   "sat": "9:00 AM - 6:00 PM",
+   "sun": "9:00 AM - 6:00 PM",
+   "thu": "Closed",
+   "tue": "Closed",
+   "wed": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dalhousie Accent Clinic",
   "clinic_id": "dalhousie-accent-clinic-halifax",
   "address": "5850 College Street (School of Communication Sciences and Disorders, 2nd Floor, Sir Charles Tupper Medical Building)",
@@ -5916,6 +6391,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Delta Physiotherapy and Rehab Mississauga - Central Parkway",
+  "clinic_id": "delta-physiotherapy-and-rehab-mississauga-central-parkway-mississauga",
+  "address": "325 Central Pkwy W Unit 38",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5B 3X9",
+  "phone": "905-270-3086",
+  "website": "https://www.deltaphysiotherapy.ca/",
+  "booking_page": "https://patient.walnutemr.app/book?clinic=ce7d83ef-59cb-462f-a3d7-9213ab2295a3",
+  "hours": {
+   "fri": "9:00 AM - 8:00 PM",
+   "mon": "9:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Dental Care Kingston",
@@ -6290,6 +6790,31 @@
   "google_reviews": 154,
   "rating_source": "Clinic's own downtown location page prints 'Rating: 4.8/5 (154 reviews)' (athleteschoicemassage.ca/locations/downtown-edmonton/ business block). Aggregator ratings (TrustAnalytica 4.9/50) were NOT used.",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Adriane Alexander ND",
+  "clinic_id": "dr-adriane-alexander-nd-mississauga",
+  "address": "6155 Tomken Road, Unit 19",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5T 1X5",
+  "phone": "289-906-2471",
+  "website": "https://www.dradrianend.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": "11:00 AM - 7:00 PM",
+   "sat": null,
+   "sun": "11:00 AM - 4:00 PM",
+   "thu": "11:00 AM - 7:00 PM",
+   "tue": null,
+   "wed": "6:00 PM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -7743,6 +8268,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Lisa E. Adams",
+  "clinic_id": "dr-lisa-e-adams-mississauga",
+  "address": "3885 Duke of York Blvd c211",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-569-0196",
+  "website": "https://lisaadamsnd.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "12:00 PM - 5:00 PM",
+   "tue": null,
+   "wed": "10:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 3:00 PM",
+   "fri": "9:00 AM - 3:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Lisa Kachaniwsky",
   "clinic_id": "dr-lisa-kachaniwsky-cambridge",
   "address": "1150 Franklin Blvd #103",
@@ -8157,6 +8707,31 @@
    "tue": null,
    "wed": null,
    "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Nicole Hwang",
+  "clinic_id": "dr-nicole-hwang-mississauga",
+  "address": "120 Traders Blvd E Unit 117",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L4Z 3K7",
+  "phone": "905-281-9885",
+  "website": "http://nicolehwang.com/",
+  "booking_page": "https://treatmentswellness.janeapp.com/",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": "5:00 PM - 8:00 PM",
    "fri": null,
    "sat": null,
    "sun": null
@@ -8718,6 +9293,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Viktoriya Zabigaylo",
+  "clinic_id": "dr-viktoriya-zabigaylo-mississauga",
+  "address": "250 Dundas St W Unit 204",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": null,
+  "phone": "647-202-2446",
+  "website": "http://drviktoriya.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "12:00 PM - 6:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "10:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Vishaala Singh ND",
   "clinic_id": "dr-vishaala-singh-nd-brampton",
   "address": "10 Henderson Ave",
@@ -8760,6 +9360,31 @@
    "thu": "6:00 AM \u2013 6:00 PM",
    "tue": "6:00 AM \u2013 6:00 PM",
    "wed": "6:00 AM \u2013 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Drainage Lymphatique Montr\u00e9al",
+  "clinic_id": "drainage-lymphatique-montreal-montreal",
+  "address": "5886 Rue Saint-Hubert",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H2S 2L7",
+  "phone": "514-272-7696",
+  "website": "https://www.drainagelymphatiquemontreal.ca/",
+  "booking_page": "https://www.gorendezvous.com/Sandrine",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
   },
   "google_rating": null,
   "google_reviews": null,
@@ -8841,6 +9466,31 @@
   "rating_source": "Google Places details in search results for Dynamic Physiotherapy & Sports Injury Clinic: 'Rating: four and a half stars (4.5) Based on 59 reviews'.",
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Dynamic Physiotherapy & Sports Injury Clinic",
+  "clinic_id": "dynamic-physiotherapy-sports-injury-clinic-mississauga",
+  "address": "89 Queensway West Suite 100",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5B 2V2",
+  "phone": "905-273-5433",
+  "website": "https://dynamicphysiotherapy.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "11:00 AM - 7:00 PM",
+   "mon": "11:00 AM - 7:00 PM",
+   "sat": "10:00 AM - 2:00 PM",
+   "sun": "Closed",
+   "thu": "11:00 AM - 7:00 PM",
+   "tue": "11:00 AM - 7:00 PM",
+   "wed": "11:00 AM - 7:00 PM"
+  },
+  "google_rating": 4.5,
+  "google_reviews": 59,
+  "rating_source": "Google Places details in search results for Dynamic Physiotherapy & Sports Injury Clinic, Mississauga: 4.5 stars based on 59 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Dynamic Physiotherapy and Sports Injury Clinic",
@@ -9266,6 +9916,31 @@
   "rating_source": "Google Places details in search results for Elle Physiotherapy and Pelvic Health: 'Rating: five stars (5.0) Based on 18 reviews'.",
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Elmcreek Dental",
+  "clinic_id": "elmcreek-dental-mississauga",
+  "address": "3052 Elmcreek Rd Unit 104",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5B 0B6",
+  "phone": "289-670-5165",
+  "website": "https://elmcreekdentalcare.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM - 3:30 PM",
+   "mon": "9:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": "Closed",
+   "thu": "10:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Embodied Physiotherapy and Pilates",
@@ -9943,6 +10618,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Face and Body Harmony Massage Therapy",
+  "clinic_id": "face-and-body-harmony-massage-therapy-mississauga",
+  "address": "601 Shoreline Drive, Unit 17",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5B 4K6",
+  "phone": "416-825-0894",
+  "website": "https://www.facebodyharmony.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 9:00 PM",
+   "mon": "9:00 AM - 9:00 PM",
+   "sat": "9:00 AM - 7:00 PM",
+   "sun": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Fairlawn Physiotherapy & Rehabilitation Centre",
   "clinic_id": "fairlawn-physiotherapy-rehabilitation-centre-toronto",
   "address": "3317 Yonge St",
@@ -10040,6 +10740,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Fannie Beaulieu",
+  "clinic_id": "fannie-beaulieu-montreal",
+  "address": "3925 Rue Ontario E",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H1W 1S8",
+  "phone": null,
+  "website": "https://fanniebeaulieu.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -10643,6 +11368,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Golf Rehabilitation & Physiotherapy",
+  "clinic_id": "golf-rehabilitation-physiotherapy-moncton",
+  "address": "29 Mountain Rd",
+  "city": "Moncton",
+  "prov": "NB",
+  "postal": "E1C 2J9",
+  "phone": "506-852-3900",
+  "website": "https://www.golfrehabphysiotherapy.com/",
+  "booking_page": "https://physio-clinic-moncton.ca1.cliniko.com/bookings",
+  "hours": {
+   "fri": "8:00 AM - 4:00 PM",
+   "mon": "8:00 AM - 7:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "8:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 7:00 PM",
+   "wed": "8:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Got Knots",
   "clinic_id": "got-knots-edmonton",
   "address": "13220 St Albert Trail NW #104",
@@ -10890,6 +11640,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "HALEO Clinique",
+  "clinic_id": "haleo-clinique-montreal",
+  "address": "400-3 Place Ville-Marie",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H3B 2E3",
+  "phone": "1-855-216-3590",
+  "website": "https://www.haleoclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -11315,7 +12090,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Healthmax Physiotherapy - Scarborough",
@@ -12068,6 +12843,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Institut Therape\u00eda",
+  "clinic_id": "institut-therape-a-montreal",
+  "address": "12340 Rue Olivier",
+  "city": "Montreal",
+  "prov": "QC",
+  "postal": "H4K 1V4",
+  "phone": "514-583-0405",
+  "website": "https://instituttherapeia.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 11,
+  "rating_source": "A business block on the clinic's own website displays 'Rating: 5 (11 reviews)'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Integra Health",
   "clinic_id": "integra-health-toronto",
   "address": "130 King St W, Suite 3600",
@@ -12541,6 +13341,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Josiane Arsenault, RMT (Clinique Natturra)",
+  "clinic_id": "josiane-arsenault-rmt-clinique-natturra-moncton",
+  "address": "171 Lutz St Ste 103",
+  "city": "Moncton",
+  "prov": "NB",
+  "postal": null,
+  "phone": "506-382-1560",
+  "website": "https://www.natturra.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 4:00 PM",
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 4:00 PM",
+   "tue": "9:00 AM - 4:00 PM",
+   "wed": "9:00 AM - 4:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Judith Cox Counseling",
@@ -13118,6 +13943,31 @@
   "last_verified": null
  },
  {
+  "name": "Kinetic Solutions Physio",
+  "clinic_id": "kinetic-solutions-physio-moncton",
+  "address": "2729 Fredericton Rd #2",
+  "city": "Moncton",
+  "prov": "NB",
+  "postal": "E4J 0E2",
+  "phone": "506-215-2225",
+  "website": "https://kineticsolutionsphysio.ca/",
+  "booking_page": "https://kineticsolutionsphysio.janeapp.com/",
+  "hours": {
+   "fri": "9:00 AM - 2:00 PM",
+   "mon": "12:00 PM - 8:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "12:00 PM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Kingston Integrated Healthcare (KIHC)",
   "clinic_id": "kingston-integrated-healthcare-kihc-kingston",
   "address": "541 Palace Road",
@@ -13390,7 +14240,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "no",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Leaside Sports Medicine",
@@ -14293,6 +15143,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Mancuso Clinic",
+  "clinic_id": "mancuso-clinic-moncton",
+  "address": "33 Foundry St #110",
+  "city": "Moncton",
+  "prov": "NB",
+  "postal": "E1C 0W9",
+  "phone": "506-805-3645",
+  "website": "https://mancusoclinic.com/",
+  "booking_page": "https://mancusoosteopathy.janeapp.com/",
+  "hours": {
+   "fri": "9:00 AM - 6:00 PM",
+   "mon": "9:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 1:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Marathon Chiropractic Clinic",
   "clinic_id": "marathon-chiropractic-clinic-lethbridge",
   "address": null,
@@ -15177,6 +16052,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Mission Legend Physiotherapy And Health Clinic Ltd",
+  "clinic_id": "mission-legend-physiotherapy-and-health-clinic-ltd-mission",
+  "address": "31895 Lougheed Hwy unit 8",
+  "city": "Mission",
+  "prov": "BC",
+  "postal": "V2V 0K8",
+  "phone": "778-298-0111",
+  "website": "https://legendphysiomission.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 6:00 PM",
+   "mon": "9:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 6:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Mississauga Naturopath Osteopath Clinic",
   "clinic_id": "mississauga-naturopath-osteopath-clinic-mississauga",
   "address": "1834 Lakeshore Rd W Unit 6",
@@ -15207,7 +16107,7 @@
   "address": "4287 Village Centre Ct #305",
   "city": "Mississauga",
   "prov": "ON",
-  "postal": null,
+  "postal": "L4Z 1S2",
   "phone": "905-302-7777",
   "website": "https://doctorlore.com/",
   "booking_page": null,
@@ -15224,7 +16124,32 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Mistry Dental",
+  "clinic_id": "mistry-dental-mississauga",
+  "address": "4646 Heritage Hills Blvd #5",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5R 1Y3",
+  "phone": "905-890-0200",
+  "website": "http://www.mistrydental.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "8:00 AM - 6:00 PM",
+   "thu": "8:00 AM - 7:00 PM",
+   "fri": "8:00 AM - 2:00 PM",
+   "sat": "8:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 16,
+  "rating_source": "Google Places details in search results for Mistry Dental: 4.9 stars based on 16 reviews. (The clinic's own site structured data shows 4.9 with a different review count; the Places value was used per the rating rule.)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Mo'ssage Mind and Body",
@@ -16024,7 +16949,7 @@
   "google_reviews": 6,
   "rating_source": "Google Places details in search results for Natural Health Clinic of Halton (Oakville address, website nhchalton.com) \u2014 Rating 5.0 based on 6 reviews. This is the practice's only Places listing; the directory's Mississauga entry resolves to this same physical clinic (see gaps).",
   "direct_billing": "no",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Natural Route Health",
@@ -16149,7 +17074,7 @@
   "google_reviews": 8,
   "rating_source": "Google Places details in search results for Naturopathic Essentials Health Centre \u2014 Rating 5.0 based on 8 reviews.",
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Nepean Sports Medicine & Physiotherapy Centre",
@@ -16852,6 +17777,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "North Star Dentistry",
+  "clinic_id": "north-star-dentistry-mississauga",
+  "address": "714 Lakeshore Rd E Unit 5",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5G 1J6",
+  "phone": "905-274-0442",
+  "website": "https://northstardentistry.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 6:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "10:00 AM - 6:00 PM",
+   "thu": "10:00 AM - 6:00 PM",
+   "fri": "10:00 AM - 3:00 PM",
+   "sat": "10:00 AM - 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Northmount Dental Care",
   "clinic_id": "northmount-dental-care-calgary",
   "address": "4600 Crowchild Trail NW #102",
@@ -17227,6 +18177,31 @@
   "last_verified": null
  },
  {
+  "name": "Nutrition Bee consulting",
+  "clinic_id": "nutrition-bee-consulting-mississauga",
+  "address": "4188 Living Arts Dr",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": null,
+  "phone": "1-855-819-3438",
+  "website": "https://thenutritionbee.com/",
+  "booking_page": "https://thenutritionbee.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Nutrition with Hope",
   "clinic_id": "nutrition-with-hope-brampton",
   "address": "12 Woodside Court",
@@ -17374,6 +18349,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "OAK Physio & Wellness",
+  "clinic_id": "oak-physio-wellness-mississauga",
+  "address": "1 City Centre Dr, Suite 120",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5B 1M2",
+  "phone": "905-247-5758",
+  "website": "https://oakphysiowellness.ca/mississauga/",
+  "booking_page": "https://oakphysiowellness.janeapp.com/locations/oak-physio-and-wellness-mississauga/book",
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 5:00 PM",
+   "sat": "8:00 AM - 5:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -18252,6 +19252,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Parkside Therapy",
+  "clinic_id": "parkside-therapy-mississauga",
+  "address": "520 Curran Place",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5B 0J4",
+  "phone": "289-521-0052",
+  "website": "http://parksidetherapy.ca/",
+  "booking_page": "https://parksidetherapy.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Peaceful Mind Psychology",
   "clinic_id": "peaceful-mind-psychology-edmonton",
   "address": "9415 20 Ave NW Ste 200",
@@ -18652,6 +19677,31 @@
   "last_verified": null
  },
  {
+  "name": "Physio Rehab Clinic",
+  "clinic_id": "physio-rehab-clinic-mississauga",
+  "address": "6005 Erin Mills Pkwy Suite 105",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": null,
+  "phone": "905-826-8776",
+  "website": "http://www.physiorehabclinic.ca/",
+  "booking_page": "https://physiorehabclinic.clinicmaster.com/",
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Physio Solution Active",
   "clinic_id": "physio-solution-active-montreal",
   "address": "6255 Monk Boulevard",
@@ -18902,6 +19952,31 @@
   "last_verified": null
  },
  {
+  "name": "Physiotherapy On Wheels",
+  "clinic_id": "physiotherapy-on-wheels-mississauga",
+  "address": "6295 Mississauga Road, Suite 130",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5N 1A5",
+  "phone": "905-826-3030",
+  "website": "http://www.physiotherapyonwheels.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "12:00 PM - 6:00 PM",
+   "wed": "8:00 AM - 4:00 PM",
+   "thu": "12:00 PM - 6:00 PM",
+   "fri": "8:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Pilates4Physio",
   "clinic_id": "pilates4physio-toronto",
   "address": "56 The Esplanade Ste 307",
@@ -19094,6 +20169,31 @@
    "thu": "9:00 AM - 5:00 PM",
    "tue": null,
    "wed": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Port Credit Therapeutic Massage Clinic",
+  "clinic_id": "port-credit-therapeutic-massage-clinic-mississauga",
+  "address": "121 Lakeshore Road East, Suite #201",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L5G 1E5",
+  "phone": "905-271-8331",
+  "website": "https://portcreditmassage.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM - 8:00 PM",
+   "mon": "Closed",
+   "sat": "8:30 AM - 4:00 PM",
+   "sun": "Closed",
+   "thu": "10:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -19424,6 +20524,31 @@
   "google_reviews": null,
   "rating_source": "No Google rating in Google Places details surfaced in search results for this clinic and no Google rating badge/widget found on the clinic's own site",
   "direct_billing": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Psychology Education Assessment Centre",
+  "clinic_id": "psychology-education-assessment-centre-mississauga",
+  "address": "4310 Sherwoodtowne Blvd Unit 115",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L4Z 4C4",
+  "phone": "416-560-6910",
+  "website": "http://peakminds.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 9:00 PM",
+   "mon": "9:00 AM - 9:00 PM",
+   "sat": "9:00 AM - 9:00 PM",
+   "sun": "9:00 AM - 9:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -19773,6 +20898,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "ReConnect Health Centre",
+  "clinic_id": "reconnect-health-centre-moncton",
+  "address": "25 Gorge Rd, Suite 101",
+  "city": "Moncton",
+  "prov": "NB",
+  "postal": "E1G 1B1",
+  "phone": "506-386-3650",
+  "website": "https://reconnecthealth.ca/",
+  "booking_page": "https://reconnecthealth.janeapp.com/locations/reconnect-health-center/book",
+  "hours": {
+   "mon": "8:00 AM - 9:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 9:00 PM",
+   "thu": "8:00 AM - 9:00 PM",
+   "fri": "8:00 AM - 4:00 PM",
+   "sat": "8:00 AM - 12:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 221,
+  "rating_source": "Google Places / Google business page extract in search results for Reconnect Health Centre & Physiotherapy, Moncton: 5 out of 5 based on 221 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -21919,6 +23069,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Speech Associates",
+  "clinic_id": "speech-associates-mississauga",
+  "address": "2 Robert Speck Pkwy",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L4Z 1H8",
+  "phone": "289-805-0048",
+  "website": "http://www.speechassociates.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 7:30 PM",
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 6:00 PM",
+   "sun": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Speech Therapists of Calgary",
   "clinic_id": "speech-therapists-of-calgary-calgary",
   "address": "5940 Macleod Trail SW Suite 500",
@@ -22569,6 +23744,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "TAC Physiotherapy Clinic Inc",
+  "clinic_id": "tac-physiotherapy-clinic-inc-mississauga",
+  "address": "Rockwood Mall, 4141 Dixie Rd",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L4W 1V5",
+  "phone": "905-272-8372",
+  "website": "https://www.tacphysio.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 6:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": "8:00 AM - 12:00 PM",
+   "sun": null,
+   "thu": "11:00 AM - 7:00 PM",
+   "tue": "11:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": 4.3,
+  "google_reviews": 16,
+  "rating_source": "Google Places details in search results for TAC Physiotherapy Clinic Inc: rating 4.3 based on 16 reviews (the extract's star wording reads 'four and a half stars (4.3)'; the numeric 4.3 was recorded).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "TalkInc Speech Language and Voice Therapy",
   "clinic_id": "talkinc-speech-language-and-voice-therapy-whitby",
   "address": null,
@@ -22765,6 +23965,31 @@
   "google_rating": 5.0,
   "google_reviews": 5,
   "rating_source": "Google Places details in search results for TerraSana Health: 'Rating: five stars (5.0) Based on 5 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The ADD Centre & The Biofeedback Institute of Toronto",
+  "clinic_id": "the-add-centre-the-biofeedback-institute-of-toronto-mississauga",
+  "address": "50 Village Centre Place Suite 200",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L4Z 1V9",
+  "phone": "905-803-8066",
+  "website": "https://www.addcentre.com",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM - 8:00 PM",
+   "mon": "10:00 AM - 8:00 PM",
+   "sat": "10:00 AM - 5:00 PM",
+   "sun": "10:00 AM - 5:00 PM",
+   "thu": "10:00 AM - 8:00 PM",
+   "tue": "10:00 AM - 8:00 PM",
+   "wed": "10:00 AM - 8:00 PM"
+  },
+  "google_rating": 4.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places details in search results for The ADD Centre & The Biofeedback Institute of Toronto, Mississauga: 4.0 stars based on 2 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -23469,6 +24694,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "The Therapy Collective",
+  "clinic_id": "the-therapy-collective-milton",
+  "address": "205 Main St E Ste 301",
+  "city": "Milton",
+  "prov": "ON",
+  "postal": "L9T 1N7",
+  "phone": "289-878-3503",
+  "website": "https://thetherapycollective.ca/",
+  "booking_page": "https://thetherapycollective.janeapp.com/",
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": null,
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "The Vitamin Clinic",
   "clinic_id": "the-vitamin-clinic-north-york",
   "address": "200 Finch Ave W, Unit 109",
@@ -23608,6 +24858,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Therapic Physiotherapy Clinic - Hurontario",
+  "clinic_id": "therapic-physiotherapy-clinic-hurontario-mississauga",
+  "address": "4033 Hurontario St #1",
+  "city": "Mississauga",
+  "prov": "ON",
+  "postal": "L4Z 0B8",
+  "phone": "416-606-2937",
+  "website": "https://www.therapic.ca/physiotherapy-in-hurontario",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 7:00 PM",
+   "mon": "9:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": null,
+  "rating_source": "Google badge on the clinic's own Hurontario page (therapic.ca/physiotherapy-in-hurontario) displays '5.0 Google Rating'; no review count is shown with the badge.",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -23758,6 +25033,31 @@
   "google_reviews": 171,
   "rating_source": "Clinic's own website https://www.timelesshealthclinic.com/naturopathic-medicine displays 'Rating: 5.0 (171 reviews)' in its business/location block",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Tonic Physiotherapy & Rehabilitation Centre",
+  "clinic_id": "tonic-physiotherapy-and-rehabilitation-centre-milton",
+  "address": "100 Nipissing Rd #5",
+  "city": "Milton",
+  "prov": "ON",
+  "postal": "L9T 5B2",
+  "phone": "905-878-7775",
+  "website": "https://tonicphysio.com/",
+  "booking_page": "https://tonicphysio.janeapp.com/",
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "10:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": null,
+   "thu": "9:30 AM - 8:00 PM",
+   "tue": "9:30 AM - 7:00 PM",
+   "wed": "10:00 AM - 7:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 148,
+  "rating_source": "Clinic's own website Google badge/widget on its service pages (tonicphysio.com): '4.8 from 148 Google reviews'.",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -24982,6 +26282,31 @@
   "google_rating": 5.0,
   "google_reviews": 119,
   "rating_source": "Google Maps listing (checked 2026-11-01)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Wellness Priv\u00e9",
+  "clinic_id": "wellness-prive-mont-royal",
+  "address": "5475 Rue Par\u00e9 #107",
+  "city": "Mont-Royal",
+  "prov": "QC",
+  "postal": "H4P 1P7",
+  "phone": "514-400-2847",
+  "website": "https://wellnessprive.ca/",
+  "booking_page": "https://www.fresha.com/a/wellness-prive-massotherapie-bien-etre-clinique-de-massotherapie-de-la-machoire-de-montreal-montreal-5475-pare-dxchbuuf/booking?menu=true&share=true&offerItems=sv:13125659&pId=883580&dppub=true&employeeId=2332560",
+  "hours": {
+   "mon": "10:00 AM - 8:00 PM",
+   "tue": "10:00 AM - 8:00 PM",
+   "wed": "10:00 AM - 8:00 PM",
+   "thu": "10:00 AM - 8:00 PM",
+   "fri": "10:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": "10:00 AM - 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 376,
+  "rating_source": "Google rating widget on the clinic's own homepage (wellnessprive.ca, Trustindex-verified Google reviews block): 'Google rating score: 5.0 of 5, based on 376 reviews'.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
