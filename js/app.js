@@ -1241,22 +1241,6 @@
     const X = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.x[key]) || null;
     const pair = X && X.pairs ? X.pairs[T] : null;
     const slot = (typeof CLINIC_SLOTS !== "undefined" && CLINIC_SLOTS[key] && CLINIC_SLOTS[key][T]) || null;
-    let slotsHTML = "";
-    if (slot) {
-      const parts = [];
-      if (slot.a) parts.push(`Next available <b>${slot.a.d} &middot; ${slot.a.t}</b>`);
-      else {
-        if (slot.i) parts.push(`Next initial <b>${slot.i.d} &middot; ${slot.i.t}</b>`);
-        if (slot.f) parts.push(`Next follow-up <b>${slot.f.d} &middot; ${slot.f.t}</b>`);
-      }
-      if (parts.length) {
-        let chk = "";
-        if (typeof CLINIC_SLOTS_CHECKED !== "undefined" && CLINIC_SLOTS_CHECKED) {
-          try { chk = " &middot; checked " + new Date(CLINIC_SLOTS_CHECKED).toLocaleDateString("en-CA", { timeZone: "America/Toronto", weekday: "short", month: "short", day: "numeric" }); } catch (e) {}
-        }
-        slotsHTML = `<p class="nc-slots"><span class="nc-slots-label">Live openings</span> ${parts.join(' <span class="nc-slots-sep">&middot;</span> ')}<span class="nc-slots-chk">${chk}</span></p>`;
-      }
-    }
     const media = (typeof CLINIC_MEDIA !== "undefined" && CLINIC_MEDIA[c.name]) || {};
     const saved = window.wfFavs && window.wfFavs.has(c.name);
     const fav = `<button class="fav-btn nc-fav ${saved ? "saved" : ""}" data-fav="${esc(c.name)}" aria-label="Save ${esc(c.name)}" aria-pressed="${saved}">${HEART}</button>`;
@@ -1338,6 +1322,57 @@
     const book = media.link || c.book || (X && X.b) || (pair && pair.l) || "";
     const web = c.web || (X && X.w) || "";
     const actions = `<div class="nc-actions">${book ? `<a class="nc-btn nc-btn-book" href="${esc(book)}" target="_blank" rel="noopener">Book appointment</a>` : ""}${web ? `<a class="nc-btn nc-btn-web" href="${esc(web)}" target="_blank" rel="noopener">Website ↗</a>` : ""}</div>`;
+
+    /* live openings, ClassPass-style: one line per slot — service title +
+       that slot's price, then the date and time. The line links to the
+       clinic's booking page; the envelope opens a prefilled email naming
+       that exact slot, its price, and the WellFinder referral. */
+    let slotsHTML = "";
+    if (slot) {
+      const em = (CLINIC_SLOTS[key] && CLINIC_SLOTS[key]._em) || "";
+      const fc = price ? fcPriceLine(price) : "";
+      const fcSplit = fc.match(/^\$([\d,]+) assessment \/ \$([\d,]+) follow up$/);
+      const priceFor = (kind) => {
+        if (!fc) return "";
+        if (kind === "i" && fcSplit) return "$" + fcSplit[1];
+        if (kind === "f" && fcSplit) return "$" + fcSplit[2];
+        return fc;
+      };
+      const cleanSvc = (s) => (s || "").replace(/^\d+\s*mins?\s*[-\u2013\u2014]\s*/i, "").replace(/\s*[-\u2013\u2014]\s*\d+\s*mins?$/i, "").replace(/\s*\(\d+\s*mins?\)/gi, "").replace(/\s+/g, " ").trim();
+      const titleFor = (s, kind) => {
+        if (kind === "f" && s.dur) return `${s.dur} min follow-up`;
+        let t = cleanSvc(s.svc);
+        if (!t) t = kind === "i" ? "Initial assessment" : kind === "f" ? "Follow-up" : T;
+        if (t.length > 36) t = t.slice(0, 33).replace(/\s+\S*$/, "") + "\u2026";
+        return t;
+      };
+      const mailFor = (s, title, pricePart) => {
+        if (!em) return "";
+        const subj = `${title} — ${s.d} at ${s.t} (${c.name})`;
+        const body = `Hi ${c.name} team,\n\nI found your clinic on WellFinder.ca and saw an opening for ${title}${title !== T ? ` (${T})` : ""}${billed ? `, billed as ${billed}` : ""}, on ${s.d} at ${s.t}${pricePart ? `, listed at ${pricePart}` : ""}.\n\nIs this time still available? I would like to ask a few questions before booking.\n\nThank you`;
+        return `<a class="nc-slot-mail" href="mailto:${em}?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}" aria-label="Email ${esc(c.name)} about this slot" title="Email the clinic about this slot">✉</a>`;
+      };
+      const rowFor = (s, kind) => {
+        const title = titleFor(s, kind);
+        const pricePart = priceFor(kind);
+        const inner = `<span class="nc-slot-title">${esc(title)}</span>${pricePart ? `<span class="nc-slot-price">${esc(pricePart)}</span>` : ""}<span class="nc-slot-when">${s.d} &middot; ${s.t}</span>`;
+        const linked = book ? `<a class="nc-slot-book" href="${esc(book)}" target="_blank" rel="noopener" title="Book this slot on the clinic's booking page">${inner}</a>` : `<span class="nc-slot-book">${inner}</span>`;
+        return `<p class="nc-slot-row">${linked}${mailFor(s, title, pricePart)}</p>`;
+      };
+      const rows = [];
+      if (slot.a) rows.push(rowFor(slot.a, "a"));
+      else {
+        if (slot.i) rows.push(rowFor(slot.i, "i"));
+        if (slot.f) rows.push(rowFor(slot.f, "f"));
+      }
+      if (rows.length) {
+        let chk = "";
+        if (typeof CLINIC_SLOTS_CHECKED !== "undefined" && CLINIC_SLOTS_CHECKED) {
+          try { chk = "checked " + new Date(CLINIC_SLOTS_CHECKED).toLocaleDateString("en-CA", { timeZone: "America/Toronto", weekday: "short", month: "short", day: "numeric" }); } catch (e) {}
+        }
+        slotsHTML = `<div class="nc-slots"><p class="nc-slots-head"><span class="nc-slots-label">Live openings</span>${chk ? `<span class="nc-slots-chk">${chk}</span>` : ""}</p>${rows.join("")}</div>`;
+      }
+    }
 
     return `<article class="nc-card">
       ${gallery}

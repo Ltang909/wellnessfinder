@@ -1214,3 +1214,16 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .nc-slots b { color: #0F2D2B; font-weight: 700; white-space: nowrap; }
 .nc-slots-label { display: inline-block; background: #0F2D2B; color: #fff; font-size: .62rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 2px 6px; border-radius: 99px; margin-right: 6px; vertical-align: 1px; }
 .nc-slots-chk { color: #82937f; }
+.nc-slot-book { color: inherit; text-decoration: none; border-bottom: 1px dotted #8fae9b; }
+.nc-slot-book:hover { color: #0F2D2B; border-bottom: 1px solid #0F2D2B; }
+.nc-slot-mail { margin-left: 3px; text-decoration: none; font-size: .8rem; }
+.nc-slots-price { font-weight: 600; color: #33503f; white-space: nowrap; }
+
+/* ClassPass-style slot rows: title + price, then date/time; envelope right */
+.nc-slots-head { display: flex; align-items: center; gap: 8px; margin: 0 0 2px; }
+.nc-slot-row { display: flex; align-items: baseline; gap: 6px; margin: 4px 0 0; font-size: .85rem; }
+.nc-slot-book { display: inline-flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.nc-slot-title { font-weight: 600; color: #0F2D2B; }
+.nc-slot-price { color: #44604d; }
+.nc-slot-when { font-weight: 700; color: #161616; white-space: nowrap; }
+.nc-slot-row .nc-slot-mail { margin-left: auto; }
