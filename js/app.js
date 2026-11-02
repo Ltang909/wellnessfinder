@@ -1296,7 +1296,7 @@
     /* direct billing: featured curation wins, else the verified record */
     const dbv = media.db || (X && X.db) || "";
     const dbPill = dbv === "yes"
-      ? `<span class="nc-db nc-db-yes">✓ Direct billing available</span>`
+      ? `<span class="nc-db nc-db-yes" title="Direct billing available" aria-label="Direct billing available">✓</span>`
       : dbv === "no"
         ? `<span class="nc-db nc-db-no">No direct billing — pay &amp; claim with receipt</span>`
         : `<span class="nc-db nc-db-unk">Direct billing not confirmed — ask the clinic</span>`;

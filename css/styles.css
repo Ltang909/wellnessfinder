@@ -1116,7 +1116,7 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .nc-price-note { font-size: .74rem; color: #8a938a; font-weight: 500; }
 .nc-dbrow { height: 31px; display: flex; align-items: center; }
 .nc-db { display: inline-flex; align-items: center; gap: 6px; font-size: .78rem; font-weight: 600; padding: 6px 11px; border-radius: 999px; white-space: nowrap; }
-.nc-db-yes { background: #FFCE45; color: #161616; }
+.nc-db-yes { background: #E8EBE9; color: #0F2D2B; border: 1px solid #d8ddd9; }
 .nc-db-no { background: #fff; border: 1px solid #c9cfc9; color: #47635B; }
 .nc-db-unk { background: #F4F6F3; border: 1px dashed #b9c2b9; color: #77817a; font-weight: 500; }
 .nc-today { font-size: .8rem; color: #47635B; display: flex; align-items: center; gap: 7px; flex-wrap: nowrap; height: 20px; white-space: nowrap; margin: 0; overflow: hidden; }
