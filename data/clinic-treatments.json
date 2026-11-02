@@ -9773,12 +9773,12 @@
   "treatment_id": "cabot-physiotherapy-sydney--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Alana Coady, Melissa McDonough-Howley",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cabotphysio.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -9791,8 +9791,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cabotphysio.ca",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "cabot-physiotherapy-sydney",
+  "treatment_id": "cabot-physiotherapy-sydney--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (cabotphysio.ca) and the clinic has no online booking page with a fee list, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://cabotphysio.ca",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "cabot-physiotherapy-sydney-river",
@@ -11618,7 +11631,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/island",
   "last_verified": "2026-11-01"
  },
  {
@@ -11631,7 +11644,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/island",
   "last_verified": "2026-11-01"
  },
  {
@@ -11644,7 +11657,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/kitchener-greenbrook",
   "last_verified": "2026-11-01"
  },
  {
@@ -11657,7 +11670,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/kitchener-greenbrook",
   "last_verified": "2026-11-01"
  },
  {
@@ -11670,7 +11683,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/kitchener-victoria",
   "last_verified": "2026-11-01"
  },
  {
@@ -11683,7 +11696,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/kitchener-victoria",
   "last_verified": "2026-11-01"
  },
  {
@@ -11696,7 +11709,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/lloydminster",
   "last_verified": "2026-11-01"
  },
  {
@@ -11709,7 +11722,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/lloydminster",
   "last_verified": "2026-11-01"
  },
  {
@@ -11722,7 +11735,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/london-adelaide",
   "last_verified": "2026-11-01"
  },
  {
@@ -11735,7 +11748,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/london-adelaide",
   "last_verified": "2026-11-01"
  },
  {
@@ -11748,7 +11761,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/london-boler",
   "last_verified": "2026-11-01"
  },
  {
@@ -11761,7 +11774,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/london-boler",
   "last_verified": "2026-11-01"
  },
  {
@@ -11774,7 +11787,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/london-fanshawe",
   "last_verified": "2026-11-01"
  },
  {
@@ -11787,7 +11800,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/london-fanshawe",
   "last_verified": "2026-11-01"
  },
  {
@@ -11800,7 +11813,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/markham-copper-creek",
   "last_verified": "2026-11-01"
  },
  {
@@ -11813,7 +11826,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/markham-copper-creek",
   "last_verified": "2026-11-01"
  },
  {
@@ -11826,7 +11839,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/milton-holly",
   "last_verified": "2026-11-01"
  },
  {
@@ -11839,7 +11852,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/milton-holly",
   "last_verified": "2026-11-01"
  },
  {
@@ -11852,7 +11865,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/mississauga-eglinton",
   "last_verified": "2026-11-01"
  },
  {
@@ -11865,7 +11878,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/mississauga-eglinton",
   "last_verified": "2026-11-01"
  },
  {
@@ -11878,7 +11891,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/moncton-driscoll",
   "last_verified": "2026-11-01"
  },
  {
@@ -11891,7 +11904,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/moncton-driscoll",
   "last_verified": "2026-11-01"
  },
  {
@@ -11904,7 +11917,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/moncton",
   "last_verified": "2026-11-01"
  },
  {
@@ -11917,7 +11930,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/moncton",
   "last_verified": "2026-11-01"
  },
  {
@@ -11930,7 +11943,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/nepean-greenbank",
   "last_verified": "2026-11-01"
  },
  {
@@ -11943,7 +11956,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/nepean-greenbank",
   "last_verified": "2026-11-01"
  },
  {
@@ -11956,7 +11969,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/new-minas",
   "last_verified": "2026-11-01"
  },
  {
@@ -11969,7 +11982,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/new-minas",
   "last_verified": "2026-11-01"
  },
  {
@@ -11982,7 +11995,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/pelvic-health",
   "last_verified": "2026-11-01"
  },
  {
@@ -11995,7 +12008,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/vestibular-rehabilitation",
   "last_verified": "2026-11-01"
  },
  {
@@ -12008,7 +12021,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/ottawa-hospital-civic",
   "last_verified": "2026-11-01"
  },
  {
@@ -12021,7 +12034,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/ottawa-hospital-civic",
   "last_verified": "2026-11-01"
  },
  {
@@ -12034,7 +12047,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/ottawa-hospital",
   "last_verified": "2026-11-01"
  },
  {
@@ -12047,7 +12060,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/vestibular-rehabilitation",
   "last_verified": "2026-11-01"
  },
  {
@@ -12060,7 +12073,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/peterborough-lansdowne",
   "last_verified": "2026-11-01"
  },
  {
@@ -12073,7 +12086,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/peterborough-lansdowne",
   "last_verified": "2026-11-01"
  },
  {
@@ -12086,7 +12099,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/port-coquitlam",
   "last_verified": "2026-11-01"
  },
  {
@@ -12099,7 +12112,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/port-coquitlam",
   "last_verified": "2026-11-01"
  },
  {
@@ -12112,7 +12125,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/prince-albert",
   "last_verified": "2026-11-01"
  },
  {
@@ -12125,7 +12138,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/prince-albert",
   "last_verified": "2026-11-01"
  },
  {
@@ -12138,7 +12151,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/red-deer",
   "last_verified": "2026-11-01"
  },
  {
@@ -12151,7 +12164,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/red-deer",
   "last_verified": "2026-11-01"
  },
  {
@@ -12164,7 +12177,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/richmond-hill-bayview",
   "last_verified": "2026-11-01"
  },
  {
@@ -12177,7 +12190,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/richmond-hill-bayview",
   "last_verified": "2026-11-01"
  },
  {
@@ -12190,7 +12203,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/saskatoon-erindale",
   "last_verified": "2026-11-01"
  },
  {
@@ -12203,7 +12216,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/saskatoon-erindale",
   "last_verified": "2026-11-01"
  },
  {
@@ -12216,7 +12229,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/saskatoon-laurier",
   "last_verified": "2026-11-01"
  },
  {
@@ -12229,7 +12242,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/saskatoon-laurier",
   "last_verified": "2026-11-01"
  },
  {
@@ -12242,7 +12255,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/saskatoon-preston-centre",
   "last_verified": "2026-11-01"
  },
  {
@@ -12255,7 +12268,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/saskatoon-preston-centre",
   "last_verified": "2026-11-01"
  },
  {
@@ -12268,7 +12281,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/scarborough-mccowan",
   "last_verified": "2026-11-01"
  },
  {
@@ -12281,7 +12294,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/scarborough-mccowan",
   "last_verified": "2026-11-01"
  },
  {
@@ -12294,7 +12307,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/sunridge",
   "last_verified": "2026-11-01"
  },
  {
@@ -12307,7 +12320,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/sunridge",
   "last_verified": "2026-11-01"
  },
  {
@@ -12320,7 +12333,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/toronto-danforth",
   "last_verified": "2026-11-01"
  },
  {
@@ -12333,7 +12346,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/toronto-danforth",
   "last_verified": "2026-11-01"
  },
  {
@@ -12346,7 +12359,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/toronto-eglinton",
   "last_verified": "2026-11-01"
  },
  {
@@ -12359,7 +12372,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/toronto-eglinton",
   "last_verified": "2026-11-01"
  },
  {
@@ -12372,7 +12385,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/pelvic-health",
   "last_verified": "2026-11-01"
  },
  {
@@ -12385,7 +12398,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/toronto-islington",
   "last_verified": "2026-11-01"
  },
  {
@@ -12398,7 +12411,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/toronto-old-town",
   "last_verified": "2026-11-01"
  },
  {
@@ -12411,7 +12424,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/toronto-old-town",
   "last_verified": "2026-11-01"
  },
  {
@@ -12424,7 +12437,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/whitby-thickson",
   "last_verified": "2026-11-01"
  },
  {
@@ -12437,7 +12450,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/whitby-thickson",
   "last_verified": "2026-11-01"
  },
  {
@@ -12450,7 +12463,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/pelvic-health",
   "last_verified": "2026-11-01"
  },
  {
@@ -12463,7 +12476,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/windsor-tecumseh",
   "last_verified": "2026-11-01"
  },
  {
@@ -13402,7 +13415,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cityspeechcentre.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -13415,7 +13428,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cityspeechcentre.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14078,10 +14091,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "\u00c9valuation initiale (60 min) 125 $ \u00b7 Traitement (45 min) 98 $",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cegepsherbrooke.qc.ca/centre-de-lactivite-physique/physiotherapie/services-de-la-clinique-de-physiotherapie/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14091,11 +14104,37 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "\u00c9valuation initiale (60 min) 125 $ \u00b7 Traitement (45 min) 98 $",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cegepsherbrooke.qc.ca/centre-de-lactivite-physique/physiotherapie/services-de-la-clinique-de-physiotherapie/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-de-physiotherapie-du-cegep-de-sherbrooke-sherbrooke",
+  "treatment_id": "clinique-de-physiotherapie-du-cegep-de-sherbrooke-sherbrooke--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "\u00c9valuation initiale (60 min) 125 $ \u00b7 Traitement (45 min) 98 $",
+  "price_source": "Clinic's own Tarifs et horaires page (cegepsherbrooke.qc.ca): initial physiotherapy evaluation (60 min) 125 $, treatment (45 min) 98 $. No separate fee is published for TMJ Massage; it is delivered within physiotherapy sessions by the clinic's physiotherapists, so the published physiotherapy rates are recorded (Pricing Rule v2 same-practitioner basis). Lower clinic-\u00e9cole rates (120 $ evaluation; 20 $ student-supervised treatment) are also published but the professional rates are recorded.",
+  "price_tier": "website",
+  "treatment_link": "https://cegepsherbrooke.qc.ca/centre-de-lactivite-physique/physiotherapie/services-de-la-clinique-de-physiotherapie/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "clinique-de-physiotherapie-du-cegep-de-sherbrooke-sherbrooke",
+  "treatment_id": "clinique-de-physiotherapie-du-cegep-de-sherbrooke-sherbrooke--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "\u00c9valuation initiale (60 min) 125 $ \u00b7 Traitement (45 min) 98 $",
+  "price_source": "Clinic's own Tarifs et horaires page (cegepsherbrooke.qc.ca): initial physiotherapy evaluation (60 min) 125 $, treatment (45 min) 98 $. No separate fee is published for Vestibular Rehabilitation; it is delivered within physiotherapy sessions by the clinic's physiotherapists, so the published physiotherapy rates are recorded (Pricing Rule v2 same-practitioner basis). Lower clinic-\u00e9cole rates (120 $ evaluation; 20 $ student-supervised treatment) are also published but the professional rates are recorded.",
+  "price_tier": "website",
+  "treatment_link": "https://cegepsherbrooke.qc.ca/centre-de-lactivite-physique/physiotherapie/services-de-la-clinique-de-physiotherapie/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "clinique-de-psychologie-berri-montreal",
@@ -14300,7 +14339,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.equilib.ca/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -14313,7 +14352,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.equilib.ca/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -14661,7 +14700,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pelvisante.com/services/acupuncture/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14674,7 +14713,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pelvisante.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -15483,12 +15522,12 @@
   "treatment_id": "conceive-health-barrie--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Melissa Lee, Erica Nikiforuk",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://conceive.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -15501,7 +15540,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://conceive.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -15592,12 +15631,12 @@
   "treatment_id": "conceive-health-waterloo--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Melissa Lee, Erica Nikiforuk",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://conceive.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -15610,7 +15649,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://conceive.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -15618,12 +15657,12 @@
   "treatment_id": "conceive-health-whitby--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Melissa Lee, Erica Nikiforuk",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://conceive.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -15636,7 +15675,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://conceive.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -16110,12 +16149,12 @@
   "treatment_id": "core-kinesis-physiotherapy-coquitlam--clinical-pilates",
   "treatment": "Clinical Pilates",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nicole Yeats, Heather Baker, Christina Brownlow, Sarah",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://corekinesisphysiotherapy.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -16123,13 +16162,26 @@
   "treatment_id": "core-kinesis-physiotherapy-coquitlam--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nicole Yeats, Heather Baker, Sarah, Meagan",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://corekinesisphysiotherapy.janeapp.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "core-kinesis-physiotherapy-coquitlam",
+  "treatment_id": "core-kinesis-physiotherapy-coquitlam--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Jane fee list did not render in text fetch, so price is null - queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://corekinesisphysiotherapy.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "core-psychology-calgary",
@@ -16458,13 +16510,32 @@
   "treatment_id": "cotton-mill-rehab-cornwall--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sarah Despatie",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cottonmillrehab.janeapp.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "cotton-mill-rehab-cornwall",
+  "treatment_id": "cotton-mill-rehab-cornwall--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Sarah Despatie",
+  "practitioners": [
+   {
+    "id": "cotton-mill-rehab-cornwall--sarah-despatie",
+    "name": "Sarah Despatie",
+    "as_recorded": "Sarah Despatie (nee Bray), PT, MSc Applied Physical Therapy (McGill, 2014) - clinic owner (bio on the clinic's own Jane booking page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane fee list did not render in text fetch, so price is null - queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://cottonmillrehab.janeapp.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "cotton-mill-rehab-cornwall",
@@ -16476,7 +16547,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cottonmillrehab.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -18098,25 +18169,44 @@
   "treatment_id": "diamond-physiotherapy-belleville--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nicola Robertson, Julie Mainprize, Nilam Gill",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://diamondphysiotherapy.janeapp.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "diamond-physiotherapy-belleville",
+  "treatment_id": "diamond-physiotherapy-belleville--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Nilam Gill",
+  "practitioners": [
+   {
+    "id": "diamond-physiotherapy-belleville--nilam-gill",
+    "name": "Nilam Gill",
+    "as_recorded": "Nilam Gill, Registered Physiotherapist - 'certified in TMJ rehabilitation' (clinic's own Jane booking page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane fee list did not render in text fetch, so price is null - queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://diamondphysiotherapy.janeapp.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "diamond-physiotherapy-belleville",
   "treatment_id": "diamond-physiotherapy-belleville--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nicola Robertson, Brandon McMechan",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://diamondphysiotherapy.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -18430,15 +18520,34 @@
  },
  {
   "clinic_id": "dovira-care-integrative-health-clinic-and-iv-lounge-coquitlam",
+  "treatment_id": "dovira-care-integrative-health-clinic-and-iv-lounge-coquitlam--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Iryna",
+  "practitioners": [
+   {
+    "id": "dovira-care-integrative-health-clinic-and-iv-lounge-coquitlam--iryna",
+    "name": "Iryna",
+    "as_recorded": "Iryna, Registered Clinical Counsellor (RCC #28365, BCACC) - 'With couples, she draws on the Gottman Method' (her bio on the clinic's own Jane booking page); surname not published in the fetched text"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane fee list did not render in text fetch, so price is null - queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://dovira.janeapp.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "dovira-care-integrative-health-clinic-and-iv-lounge-coquitlam",
   "treatment_id": "dovira-care-integrative-health-clinic-and-iv-lounge-coquitlam--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Daria Kovnierista",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://dovira.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -18446,12 +18555,12 @@
   "treatment_id": "dovira-care-integrative-health-clinic-and-iv-lounge-coquitlam--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Daria Kovnierista",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://dovira.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -18568,12 +18677,12 @@
   "treatment_id": "dr-abrar-negahban-nd-halifax--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Abrar Negahban",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://drabrar.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -18581,12 +18690,12 @@
   "treatment_id": "dr-abrar-negahban-nd-halifax--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Abrar Negahban",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://drabrar.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -19026,12 +19135,12 @@
   "treatment_id": "dr-ashley-abbs-calgary--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ashley Abbs",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.ashleyabbs.com/cosmetic-acupuncture",
   "last_verified": "2026-11-01"
  },
  {
@@ -19039,12 +19148,12 @@
   "treatment_id": "dr-ashley-abbs-calgary--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ashley Abbs",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.ashleyabbs.com/cosmetic-acupuncture",
   "last_verified": "2026-11-01"
  },
  {
@@ -19414,12 +19523,12 @@
   "treatment_id": "dr-brynn-alexander-courtenay--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Brynn Alexander",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.drbrynnalexander.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -19427,12 +19536,12 @@
   "treatment_id": "dr-brynn-alexander-courtenay--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Brynn Alexander",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.drbrynnalexander.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -20955,12 +21064,12 @@
   "treatment_id": "dr-jeannie-doig-nd-port-alberni--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jeannie Doig",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://drjeanniedoig.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -20968,12 +21077,12 @@
   "treatment_id": "dr-jeannie-doig-nd-port-alberni--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jeannie Doig",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://drjeanniedoig.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -21607,7 +21716,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.drkristygottselig.com/service",
   "last_verified": "2026-11-01"
  },
  {
@@ -21615,12 +21724,12 @@
   "treatment_id": "dr-kristy-gottselig-nd-st-johns--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Kristy Gottselig",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.drkristygottselig.com/service",
   "last_verified": "2026-11-01"
  },
  {
@@ -21736,12 +21845,12 @@
   "treatment_id": "dr-leticia-spinelli-naturopathic-medicine-surrey--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Leticia Spinelli",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rioskin.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -21749,13 +21858,32 @@
   "treatment_id": "dr-leticia-spinelli-naturopathic-medicine-surrey--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Leticia Spinelli",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rioskin.janeapp.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-leticia-spinelli-naturopathic-medicine-surrey",
+  "treatment_id": "dr-leticia-spinelli-naturopathic-medicine-surrey--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Naturopathy",
+  "practitioner": "Leticia Spinelli",
+  "practitioners": [
+   {
+    "id": "dr-leticia-spinelli-naturopathic-medicine-surrey--leticia-spinelli",
+    "name": "Leticia Spinelli",
+    "as_recorded": "Dr. Leticia Spinelli, MD(BR), ND \u2014 licensed Naturopathic Doctor and dermatologist; sole practitioner at Rio Skin Clinic (own website)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website or in the fetched Jane booking pages (fetched 2026-11-02).",
+  "price_tier": null,
+  "treatment_link": "https://rioskin.janeapp.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "dr-leticia-spinelli-rio-skin-clinic-surrey",
@@ -22459,12 +22587,12 @@
   "treatment_id": "dr-michelle-hislop-calgary--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Michelle Hislop",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.drmichellehislop.com/cosmeticfacialacupuncture",
   "last_verified": "2026-11-01"
  },
  {
@@ -22472,12 +22600,12 @@
   "treatment_id": "dr-michelle-hislop-calgary--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Michelle Hislop",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.drmichellehislop.com/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -23886,10 +24014,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$65 (Meta-Boost IM injection); $65 (CoQ10+ IM injection)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://dripclub.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -23899,10 +24027,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$250 (Essentials IV)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://dripclub.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -23910,12 +24038,12 @@
   "treatment_id": "drip-in-luxe-medical-spa-oshawa--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Lydia",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://dripinluxe.com/vitamin-injections/",
   "last_verified": "2026-11-01"
  },
  {
@@ -23923,12 +24051,12 @@
   "treatment_id": "drip-in-luxe-medical-spa-oshawa--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Lydia",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://dripinluxe.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -23984,12 +24112,12 @@
   "treatment_id": "dunnville-physiotherapy-and-rehabilitation-pt-health-dunnville--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Brett Dykstra",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/dunnville-physiotherapy-and-rehabilitation-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -23997,12 +24125,12 @@
   "treatment_id": "dunnville-physiotherapy-and-rehabilitation-pt-health-dunnville--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Brett Dykstra",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/dunnville-physiotherapy-and-rehabilitation-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -24698,7 +24826,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://elegancybeautybar.com/iv-therapy-ajax/",
   "last_verified": "2026-11-01"
  },
  {
@@ -24711,7 +24839,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://elegancybeautybar.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -24779,15 +24907,28 @@
  },
  {
   "clinic_id": "elev8-aesthetic-medicine-inc-barrie",
+  "treatment_id": "elev8-aesthetic-medicine-inc-barrie--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Nursing",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$50 (vitamin injections)",
+  "price_source": "Clinic's own website treatments page (fetched 2026-11-02): 'Vitamin Injections \u2014 $50' (Vitamin D, B12, Glutathione, NAD).",
+  "price_tier": "website",
+  "treatment_link": "https://elev8aesthetics.janeapp.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "elev8-aesthetic-medicine-inc-barrie",
   "treatment_id": "elev8-aesthetic-medicine-inc-barrie--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Starting at $198",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://elev8aesthetics.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -24800,7 +24941,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://elev8aesthetics.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -25311,7 +25452,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://evitale.ca/cryotherapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -25324,7 +25465,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://evitale.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -25499,15 +25640,28 @@
  },
  {
   "clinic_id": "ep-physiotherapy-pt-health-eastern-passage",
+  "treatment_id": "ep-physiotherapy-pt-health-eastern-passage--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own location page or the pt Health booking portal (fetched 2026-11-02).",
+  "price_tier": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/ep-physiotherapy-pt-health/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "ep-physiotherapy-pt-health-eastern-passage",
   "treatment_id": "ep-physiotherapy-pt-health-eastern-passage--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Alicia Stacey",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/ep-physiotherapy-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -25520,7 +25674,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/ep-physiotherapy-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -26368,15 +26522,66 @@
  },
  {
   "clinic_id": "evolve-health-wellness-hamilton",
+  "treatment_id": "evolve-health-wellness-hamilton--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website. The clinic's Jane booking page renders staff bios but no fee list in text fetch \u2014 prices left null and queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://evolve-massage.ca/contact/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "evolve-health-wellness-hamilton",
+  "treatment_id": "evolve-health-wellness-hamilton--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Samantha Endo",
+  "practitioners": [
+   {
+    "id": "evolve-health-wellness-hamilton--samantha-endo",
+    "name": "Samantha Endo",
+    "as_recorded": "Dr. Samantha Endo, ND, RN \u2014 'IV nutrition therapy'; licensed Naturopathic Doctor and Registered Nurse (clinic's own team page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website. The clinic's Jane booking page renders staff bios but no fee list in text fetch \u2014 prices left null and queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://evolve-massage.janeapp.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "evolve-health-wellness-hamilton",
+  "treatment_id": "evolve-health-wellness-hamilton--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Samantha Endo",
+  "practitioners": [
+   {
+    "id": "evolve-health-wellness-hamilton--samantha-endo",
+    "name": "Samantha Endo",
+    "as_recorded": "Dr. Samantha Endo, ND, RN \u2014 'IV nutrition therapy'; licensed Naturopathic Doctor and Registered Nurse (clinic's own team page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website. The clinic's Jane booking page renders staff bios but no fee list in text fetch \u2014 prices left null and queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://evolve-massage.janeapp.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "evolve-health-wellness-hamilton",
   "treatment_id": "evolve-health-wellness-hamilton--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Rutu Dave, Akanksha Saswadkar, Yagni Patel",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://evolve-massage.ca/pelvic-floor-physiotherapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -26384,12 +26589,12 @@
   "treatment_id": "evolve-health-wellness-hamilton--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Rutu Dave, Akanksha Saswadkar, Ciby Kuriakose",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://evolve-massage.ca/shockwave-therapy/",
   "last_verified": "2026-11-01"
  },
  {
