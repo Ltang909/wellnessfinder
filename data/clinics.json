@@ -1075,6 +1075,31 @@
   "last_verified": null
  },
  {
+  "name": "Ascent Clinical Services",
+  "clinic_id": "ascent-clinical-services-brooklin",
+  "address": "31 Baldwin Street, Unit 7 #211",
+  "city": "Brooklin",
+  "prov": "ON",
+  "postal": null,
+  "phone": "905-431-1839",
+  "website": "https://www.ascentclinicalservices.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "At Ease Nutrition",
   "clinic_id": "at-ease-nutrition-toronto",
   "address": "18 King St W",
@@ -1647,7 +1672,7 @@
   "google_reviews": 80,
   "rating_source": "Google Places details (place_id 1135117014023601) \u2014 'Rating: 4.8, Based on 80 reviews'",
   "direct_billing": "no",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Beachealth",
@@ -2000,6 +2025,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Brant Nutrition",
+  "clinic_id": "brant-nutrition-brantford",
+  "address": "20 Roy Blvd Unit 11-lower",
+  "city": "Brantford",
+  "prov": "ON",
+  "postal": null,
+  "phone": "519-771-1695",
+  "website": "http://www.brantnutrition.com/",
+  "booking_page": "https://brantnutrition.janeapp.com/",
+  "hours": {
+   "fri": "10:00 AM \u2013 2:00 PM",
+   "mon": "12:00 PM \u2013 8:00 PM",
+   "sat": "10:00 AM \u2013 2:00 PM",
+   "sun": null,
+   "thu": "12:00 PM \u2013 7:00 PM",
+   "tue": "9:30 AM \u2013 7:00 PM",
+   "wed": "9:30 AM \u2013 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Brentwood Physio",
   "clinic_id": "brentwood-physio-calgary",
   "address": "789 Northmount Dr NW",
@@ -2075,6 +2125,31 @@
   "last_verified": null
  },
  {
+  "name": "Brooklyn Seal, RD, CDE",
+  "clinic_id": "brooklyn-seal-rd-cde-brantford",
+  "address": "34 Norman St",
+  "city": "Brantford",
+  "prov": "ON",
+  "postal": null,
+  "phone": null,
+  "website": "http://www.brooklynsealrd.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM \u2013 9:00 PM",
+   "mon": "6:00 PM \u2013 9:00 PM",
+   "sat": "8:00 AM \u2013 2:00 PM",
+   "sun": null,
+   "thu": "8:00 AM \u2013 9:00 PM",
+   "tue": "6:00 PM \u2013 9:00 PM",
+   "wed": "6:00 PM \u2013 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Brownstone Health",
   "clinic_id": "brownstone-health-regina",
   "address": "1455 Rose St",
@@ -2096,6 +2171,81 @@
   "google_rating": 4.6,
   "google_reviews": 41,
   "rating_source": "Google Places details via web search extract for Brownstone Health (place_id 5411706475586641): 'Rating: four and a half stars (4.6), Based on 41 reviews'. No aggregator rating was used.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Burlington Sports Therapy",
+  "clinic_id": "burlington-sports-therapy-burlington",
+  "address": "3455 Harvester Rd #35",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": "L7N 3P2",
+  "phone": "905-220-7858",
+  "website": "https://burlingtonsportstherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:45 AM - 8:00 PM",
+   "tue": "7:45 AM - 8:00 PM",
+   "wed": "7:45 AM - 8:00 PM",
+   "thu": "7:45 AM - 8:00 PM",
+   "fri": "7:45 AM - 8:00 PM",
+   "sat": "7:00 AM - 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 175,
+  "rating_source": "Clinic's own website (https://burlingtonsportstherapy.com/) displays 'Rating: 4.9/5 (175 reviews)' alongside its Google listing link. NOTE: a Places extract surfaced in search showed a conflicting 4.5 stars / 2 reviews \u2014 the clinic's own published figure was recorded and the conflict is flagged in gaps.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Burnaby Physiotherapy and Hand Therapy",
+  "clinic_id": "burnaby-physiotherapy-and-hand-therapy-burnaby",
+  "address": "5050 Kingsway, Unit 601",
+  "city": "Burnaby",
+  "prov": "BC",
+  "postal": "V5H 4C2",
+  "phone": "604-430-3513",
+  "website": "https://www.pthealth.ca/clinic/burnaby-physiotherapy-and-hand-therapy-pt-health/",
+  "booking_page": "https://www.pthealth.ca/clinic/burnaby-physiotherapy-and-hand-therapy-pt-health/",
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "7:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "7:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 4.3,
+  "google_reviews": 3,
+  "rating_source": "Google Places details in search results for Burnaby Physiotherapy and Hand Therapy (website pthealth.ca): 'Rating: 4.3, Based on 3 reviews' (fetched 2026-11-01). Small review count - recorded as listed.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Burnaby Vancouver Naturopath",
+  "clinic_id": "burnaby-vancouver-naturopath-burnaby",
+  "address": "3977 Kingsway",
+  "city": "Burnaby",
+  "prov": "BC",
+  "postal": "V5H 1Y7",
+  "phone": "604-439-1230",
+  "website": "https://centralparknaturopathic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:30 PM",
+   "tue": "9:00 AM - 5:30 PM",
+   "wed": null,
+   "thu": "9:00 AM - 5:30 PM",
+   "fri": "9:00 AM - 4:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places details in search results for Dr. Rod Santos ND Inc: 'Rating: five stars (5.0), Based on 2 reviews' (fetched 2026-11-01). Very small review count - recorded as listed.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -2148,6 +2298,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "CMC",
+  "clinic_id": "cmc-burlington",
+  "address": "5353 Lakeshore Road Unit 20 (Lakeside Plaza)",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": "L7L 1C8",
+  "phone": "905-634-2225",
+  "website": "https://mobilitychiro.ca/",
+  "booking_page": "https://mobilitychiro.janeapp.com/",
+  "hours": {
+   "mon": "12:00 PM - 7:00 PM",
+   "tue": "9:30 AM - 5:30 PM",
+   "wed": "1:00 PM - 7:00 PM",
+   "thu": "12:30 PM - 7:00 PM",
+   "fri": "9:30 AM - 6:00 PM",
+   "sat": "10:30 AM - 1:00 PM (biweekly)",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "CN Physiotherapy",
@@ -2350,6 +2525,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Catherine Nutritionniste",
+  "clinic_id": "catherine-nutritionniste-bromont",
+  "address": null,
+  "city": "Bromont",
+  "prov": "QC",
+  "postal": null,
+  "phone": "438-881-9289",
+  "website": "http://catherinepanneton.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Cathy Watson Physiotherapy",
   "clinic_id": "cathy-watson-physiotherapy-vernon",
   "address": "3704 32 St #3",
@@ -2371,6 +2571,31 @@
   "google_rating": 4.7,
   "google_reviews": 3,
   "rating_source": "Google Places details (place_id 637703254449445)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Cedar Chiropractic & Physiotherapy",
+  "clinic_id": "cedar-chiropractic-physiotherapy-burnaby",
+  "address": "#102-4181 Hastings St",
+  "city": "Burnaby",
+  "prov": "BC",
+  "postal": "V5C 2J4",
+  "phone": "604-738-1168",
+  "website": "https://www.cedarhealth.ca/",
+  "booking_page": "https://cedarhealth.janeapp.com",
+  "hours": {
+   "mon": "8:30 AM - 6:00 PM",
+   "tue": "8:30 AM - 6:00 PM",
+   "wed": "8:00 AM - 6:00 PM",
+   "thu": "8:00 AM - 7:00 PM",
+   "fri": "8:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 10,
+  "rating_source": "Google Places details in search results for Cedar Chiropractic & Physiotherapy (website cedarhealth.ca): 'Rating: five stars (5.0), Based on 10 reviews' (fetched 2026-11-01).",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -3300,6 +3525,31 @@
   "last_verified": null
  },
  {
+  "name": "Counselling Solutions For Life",
+  "clinic_id": "counselling-solutions-for-life-brandon",
+  "address": "Suite 28, 144 6th Street",
+  "city": "Brandon",
+  "prov": "MB",
+  "postal": "R7A 3N2",
+  "phone": "204-740-0433",
+  "website": "http://www.counsellingsolutions.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM \u2013 5:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Couples Counselling Centre",
   "clinic_id": "couples-counselling-centre-toronto",
   "address": "100 King St W, Suite 5700",
@@ -3525,6 +3775,31 @@
   "last_verified": null
  },
  {
+  "name": "Dalton Associates",
+  "clinic_id": "dalton-associates-brant",
+  "address": "268 Johnson Rd",
+  "city": "Brant",
+  "prov": "ON",
+  "postal": null,
+  "phone": "1-888-245-5516",
+  "website": "https://www.daltonassociates.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Danesh Aesthetics",
   "clinic_id": "danesh-aesthetics-richmond-hill",
   "address": "11160 Yonge Street, Unit 7",
@@ -3573,6 +3848,31 @@
   "rating_source": "Google Places details in search results for Debora Sloan Healthy Solutions: 'Rating: five stars (5.0) Based on 2 reviews'.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Deep Roots Medicine",
+  "clinic_id": "deep-roots-medicine-brandon",
+  "address": "1250 Richmond Ave",
+  "city": "Brandon",
+  "prov": "MB",
+  "postal": null,
+  "phone": "204-740-0685",
+  "website": "https://deeprootsmedicine.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Delta Physiotherapy & Rehab",
@@ -3648,6 +3948,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Dietitian 4 Health",
+  "clinic_id": "dietitian-4-health-burlington",
+  "address": null,
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": null,
+  "phone": "905-315-0362",
+  "website": "https://dietitian4health.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Dietitians of London",
@@ -3746,6 +4071,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Alfred Hauk ND",
+  "clinic_id": "dr-alfred-hauk-nd-brantford",
+  "address": "274 King George Rd",
+  "city": "Brantford",
+  "prov": "ON",
+  "postal": "N3R 5L6",
+  "phone": "519-751-3488",
+  "website": "https://www.ndoc.ca/",
+  "booking_page": "https://doconkarsinghnd.janeapp.com/",
+  "hours": {
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "mon": "9:00 AM \u2013 7:00 PM",
+   "sat": "9:00 AM \u2013 5:00 PM",
+   "sun": null,
+   "thu": "9:00 AM \u2013 7:00 PM",
+   "tue": "9:00 AM \u2013 7:00 PM",
+   "wed": "9:00 AM \u2013 7:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 28,
+  "rating_source": "Google Places details in search results for Holistic Healing Arts Centre \u2014 the practice that ndoc.ca is the website of, at the same 274 King George Rd, Brantford address, same phone +15197513488 and same website ndoc.ca (place_id 389672749759306): 'Rating: five stars (4.8) Based on 28 reviews'. The practitioner-level Places listing under the name Dr. Alfred Hauk ND showed no rating, so the practice listing's rating is recorded with this attribution.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -4000,6 +4350,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Brooke Fletcher",
+  "clinic_id": "dr-brooke-fletcher-brantford",
+  "address": "80 Lincoln Avenue",
+  "city": "Brantford",
+  "prov": "ON",
+  "postal": "N3T 4S9",
+  "phone": "548-880-3191",
+  "website": "http://www.popple.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "mon": null,
+   "sat": "9:00 AM \u2013 1:00 PM",
+   "sun": null,
+   "thu": "9:00 AM \u2013 8:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Charlotte Rose",
   "clinic_id": "dr-charlotte-rose-vancouver",
   "address": "#618 - 808 Nelson Street",
@@ -4197,6 +4572,31 @@
   "google_reviews": 2,
   "rating_source": "Google Places details in search results (Rating: five stars (5.0), Based on 2 reviews)",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Gregory Knoll",
+  "clinic_id": "dr-gregory-knoll-brantford",
+  "address": "67 King St",
+  "city": "Brantford",
+  "prov": "ON",
+  "postal": "N3T 3C8",
+  "phone": "519-802-7235",
+  "website": "http://brantchildpsych.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -4425,6 +4825,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Lisa Knapper ND Naturopath Acupuncture",
+  "clinic_id": "dr-lisa-knapper-nd-naturopath-acupuncture-burlington",
+  "address": "920 Brant St #5",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": null,
+  "phone": "905-870-8228",
+  "website": "https://www.drlisaknappernd.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "11:30 AM - 2:00 PM",
+   "tue": "12:00 PM - 6:00 PM",
+   "wed": "11:00 AM - 2:00 PM",
+   "thu": "1:00 PM - 5:30 PM",
+   "fri": "11:00 AM - 2:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Mark Weinberg",
   "clinic_id": "dr-mark-weinberg-vancouver",
   "address": "601 West Broadway",
@@ -4523,6 +4948,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Dr. Nicola Kempinska ND",
+  "clinic_id": "dr-nicola-kempinska-nd-burlington",
+  "address": "980 Fraser Drive, Suite 202",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": "L7L 5P5",
+  "phone": "905-635-7463",
+  "website": "https://www.phenomhpm.com/naturopathic-doctors-burlington",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "12:00 PM - 6:30 PM",
+   "wed": "9:00 AM - 12:00 PM",
+   "thu": "12:00 PM - 6:30 PM",
+   "fri": "9:00 AM - 12:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 4,
+  "rating_source": "Google Places details for her personal listing 'Dr. Nicola Kempinska ND' \u2014 'Rating: five stars (5.0), Based on 4 reviews'. The separate Phenom High Performance Medicine Clinic listing (4.8 / 40 reviews) is a different listing and was not used for this practitioner entry.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Dr. Nicole Hwang",
@@ -4648,6 +5098,31 @@
   "rating_source": null,
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Dr. Philip K.L Lee ND",
+  "clinic_id": "dr-philip-k-l-lee-nd-burlington",
+  "address": "920 Brant St Unit 11",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": null,
+  "phone": "905-906-1048",
+  "website": "http://www.seekwholeness.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 8:00 PM",
+   "tue": "10:00 AM - 3:00 PM",
+   "wed": "10:00 AM - 3:00 PM",
+   "thu": "10:00 AM - 8:00 PM",
+   "fri": "10:00 AM - 3:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 8,
+  "rating_source": "Google Places details for Dr. Philip K.L Lee ND \u2014 'Rating: five stars (5.0), Based on 8 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Dr. Rachel Corradetti-Sargeant ND",
@@ -4875,6 +5350,31 @@
   "last_verified": null
  },
  {
+  "name": "Dynamic Physiotherapy and Sports Injury Clinic",
+  "clinic_id": "dynamic-physiotherapy-and-sports-injury-clinic-brandon",
+  "address": "1100 Richmond Ave, Unit 2",
+  "city": "Brandon",
+  "prov": "MB",
+  "postal": "R7A 1M6",
+  "phone": "204-725-2098",
+  "website": "http://dynamicphysio.net/",
+  "booking_page": null,
+  "hours": {
+   "fri": "7:00 AM \u2013 5:00 PM",
+   "mon": "7:00 AM \u2013 8:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "7:00 AM \u2013 8:00 PM",
+   "tue": "7:00 AM \u2013 8:00 PM",
+   "wed": "7:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 16,
+  "rating_source": "Google Places details in search results for Dynamic Physiotherapy and Sports Injury Clinic (1100 Richmond Ave Unit 2, Brandon): 'Rating: five stars (4.8) Based on 16 reviews'.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "EASTND",
   "clinic_id": "eastnd-moncton",
   "address": "110 Victoria Street",
@@ -4998,6 +5498,56 @@
   "rating_source": "Google Places details shown in search results for this listing (4.6 stars, 5 reviews).",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Elaine Zhang",
+  "clinic_id": "elaine-zhang-burnaby",
+  "address": "9304 Salish Court",
+  "city": "Burnaby",
+  "prov": "BC",
+  "postal": "V3J 7C5",
+  "phone": "778-986-6890",
+  "website": "http://www.elainezhangdietitian.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 1:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Element Physiotherapy",
+  "clinic_id": "element-physiotherapy-brandon",
+  "address": "2835 Victoria Ave",
+  "city": "Brandon",
+  "prov": "MB",
+  "postal": null,
+  "phone": "204-728-4466",
+  "website": "http://elementphysio.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "7:00 AM \u2013 2:00 PM",
+   "mon": "8:00 AM \u2013 4:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM \u2013 6:00 PM",
+   "tue": "9:00 AM \u2013 6:00 PM",
+   "wed": "8:00 AM \u2013 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Elite Sports Injury",
@@ -5950,6 +6500,31 @@
   "last_verified": null
  },
  {
+  "name": "Gillian Pappas Physiotherapy",
+  "clinic_id": "gillian-pappas-physiotherapy-brandon",
+  "address": "732 McDiarmid Dr",
+  "city": "Brandon",
+  "prov": "MB",
+  "postal": null,
+  "phone": "204-730-6554",
+  "website": "http://www.gillianphysiotherapy.janeapp.com/",
+  "booking_page": "http://www.gillianphysiotherapy.janeapp.com/",
+  "hours": {
+   "fri": "9:00 AM \u2013 1:00 PM",
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": "8:30 AM \u2013 4:30 PM",
+   "tue": "8:30 AM \u2013 4:30 PM",
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Gilmour Psychological Services",
   "clinic_id": "gilmour-psychological-services-ottawa",
   "address": "421 Gilmour St",
@@ -6472,6 +7047,31 @@
   "google_reviews": 3,
   "rating_source": "Google Places details in search results for Healthmax Physiotherapy - Scarborough (place_id 766531272116849): 'Rating: five stars (5.0), Based on 3 reviews'. The clinic's own page also displays a '4.9 / 631 Reviews' review widget, but the widget provider is not identified as Google in the fetched text, so the Places figure is the one recorded.",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Holistic Healing Arts Centre",
+  "clinic_id": "holistic-healing-arts-centre-brantford",
+  "address": "274 King George Rd, Unit 2",
+  "city": "Brantford",
+  "prov": "ON",
+  "postal": "N3R 5L6",
+  "phone": "519-751-3488",
+  "website": "https://www.ndoc.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": "10:30 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.8,
+  "google_reviews": 28,
+  "rating_source": "Google Places details in search results (rating 4.8 based on 28 reviews). A Medimap aggregator figure (4.9/5) was NOT used.",
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -7073,6 +7673,56 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Judith Perrault Nutritionniste",
+  "clinic_id": "judith-perrault-nutritionniste-bromont",
+  "address": "75 Rue de Verch\u00e8res",
+  "city": "Bromont",
+  "prov": "QC",
+  "postal": "J2L 3E4",
+  "phone": "514-208-1615",
+  "website": "http://www.judithperrault.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 5:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 5:00 PM",
+   "thu": "8:00 AM - 5:00 PM",
+   "fri": "8:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Julia Celestini",
+  "clinic_id": "julia-celestini-burlington",
+  "address": "4631 Palladium Way Unit 6",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": null,
+  "phone": "437-988-2224",
+  "website": "https://www.happybelliesnutrition.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Julie Nutrition",
@@ -7800,6 +8450,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Live Well Physio",
+  "clinic_id": "live-well-physio-bridgewater",
+  "address": "446 York St",
+  "city": "Bridgewater",
+  "prov": "NS",
+  "postal": null,
+  "phone": "902-877-6608",
+  "website": "http://www.livewellphysiotherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 4:30 PM",
+   "tue": "8:30 AM - 4:30 PM",
+   "wed": "8:30 AM - 4:30 PM",
+   "thu": "8:30 AM - 4:30 PM",
+   "fri": "8:30 AM - 4:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Local Health Integrative Clinic",
   "clinic_id": "local-health-integrative-clinic-vancouver",
   "address": "#210 - 2285 Clark Drive",
@@ -8350,6 +9025,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Medical Grade Physiotherapy & Wellness",
+  "clinic_id": "medical-grade-physiotherapy-wellness-burlington",
+  "address": "700 Guelph Line Unit 4",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": null,
+  "phone": "289-337-2288",
+  "website": "https://medicalgradephysio.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 6:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Men's Pelvic Floor Physiotherapy Clinic",
   "clinic_id": "mens-pelvic-floor-physiotherapy-clinic-vaughan",
   "address": "10 Disera Dr",
@@ -8422,6 +9122,31 @@
   "google_reviews": 648,
   "rating_source": "Clinic's own site http://www.metrotownphysio.com/ \u2014 'Rating: 4.9 (648 reviews)'",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Mindful Milestones Psychotherapy",
+  "clinic_id": "mindful-milestones-psychotherapy-brandon",
+  "address": "740 Rosser Ave",
+  "city": "Brandon",
+  "prov": "MB",
+  "postal": "R7A 0K9",
+  "phone": "204-717-7117",
+  "website": "http://www.mindfulmilestonespsychotherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 8:00 PM",
+   "mon": "9:00 AM \u2013 8:00 PM",
+   "sat": "10:00 AM \u2013 1:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM \u2013 8:00 PM",
+   "tue": "9:00 AM \u2013 8:00 PM",
+   "wed": "9:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -8825,6 +9550,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "NEX Wellness & IV Therapy Clinic",
+  "clinic_id": "nex-wellness-iv-therapy-clinic-burlington",
+  "address": "672 Brant Street, Suite 301",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": "L7R 2H3",
+  "phone": "905-634-5000",
+  "website": "http://nexwellness.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 3:00 PM",
+   "tue": "10:00 AM - 3:00 PM",
+   "wed": "10:00 AM - 3:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 1:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details for NEX Wellness & IV Therapy Clinic \u2014 'Rating: four stars (4.0), Based on 1 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "NatCan Integrative Medical & Wellness Centre",
   "clinic_id": "natcan-integrative-medical-wellness-centre-vaughan",
   "address": "3905 Major MacKenzie Dr W, Unit 102",
@@ -9098,6 +9848,31 @@
   "rating_source": "clinic site Google badge (https://newlifeclinicandpilates.com/ \u2014 '5.0 on Google \u00b7 79 reviews')",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "NewCare Counselling",
+  "clinic_id": "newcare-counselling-brantford",
+  "address": "330 West St",
+  "city": "Brantford",
+  "prov": "ON",
+  "postal": null,
+  "phone": "289-205-3920",
+  "website": "https://www.newcarecounselling.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": "9:00 AM - 1:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "NewM Clinic (Brampton)",
@@ -9650,6 +10425,31 @@
   "last_verified": null
  },
  {
+  "name": "OMNI Health and Rehab",
+  "clinic_id": "omni-health-and-rehab-burlington",
+  "address": "960 Cumberland Avenue",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": "L7N 3J6",
+  "phone": "905-635-5711",
+  "website": "https://omniclinic.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 7:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Oakhill Counselling and Mediation Services",
   "clinic_id": "oakhill-counselling-and-mediation-services-abbotsford",
   "address": "300-31935 South Fraser Way",
@@ -9821,6 +10621,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Osteopathy First",
+  "clinic_id": "osteopathy-first-burlington",
+  "address": "666 Appleby Line, Unit C105",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": "L7L 5Y3",
+  "phone": "365-297-7572",
+  "website": "https://www.osteopathyfirst.ca/",
+  "booking_page": "https://opfirst.janeapp.com",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": null,
+  "rating_source": "Clinic's own site network (fixmybackpain.ca, Osteopathy First's own back-pain site, fetched 2026-11-01): 'His clinic at Queen's Medical Center (666 Appleby Line) has earned a perfect 5.0 Google rating with over 100 five-star reviews'; the main site likewise displays '5 Star Ratings on Google'. Exact count not stated on the clinic's own pages, so google_reviews is null.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -10375,6 +11200,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "PhysioLinks Rehab Clinic",
+  "clinic_id": "physiolinks-rehab-clinic-burlington",
+  "address": "1831 Walkers Line #101",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": "L7M 0H6",
+  "phone": "905-335-3500",
+  "website": "https://www.physiolinksrehab.com/",
+  "booking_page": "https://www.physiolinksrehab.com/",
+  "hours": {
+   "mon": "8:30 AM - 7:00 PM",
+   "tue": "8:30 AM - 7:00 PM",
+   "wed": "8:30 AM - 7:00 PM",
+   "thu": "8:30 AM - 7:00 PM",
+   "fri": "8:30 AM - 7:00 PM",
+   "sat": "8:30 AM - 1:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 24,
+  "rating_source": "Google Places details in search results for PhysioLinks Rehab (website physiolinksrehab.com): 'Rating: five stars (5.0), Based on 24 reviews' (fetched 2026-11-01).",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "PhysioNow",
   "clinic_id": "physionow-mississauga",
   "address": "1077 North Service Road, Unit 25",
@@ -10525,6 +11375,31 @@
   "last_verified": null
  },
  {
+  "name": "Pillars of Wellness",
+  "clinic_id": "pillars-of-wellness-burlington",
+  "address": "100 Plains Rd W Unit 16",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": "L7T 0A5",
+  "phone": "905-637-4000",
+  "website": "https://pillarsofwellness.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 7:30 PM",
+   "tue": "9:00 AM - 7:30 PM",
+   "wed": "9:00 AM - 7:30 PM",
+   "thu": "9:00 AM - 7:30 PM",
+   "fri": "9:00 AM - 5:30 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 492,
+  "rating_source": "Clinic's own website header badge displayed sitewide on pillarsofwellness.ca (fetched 2026-11-01): '4.9 Rated Excellent based on +492 Reviews'; the same figure appears for its Google listing as mirrored by PainHero (4.9, 493 reviews). A conflicting aggregator figure (HealthHives 4.9/356) was not used.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Pine Integrated Health Centre",
   "clinic_id": "pine-integrated-health-centre-edmonton",
   "address": "6720 104 St NW Suite 201",
@@ -10646,6 +11521,31 @@
   "google_rating": 1.0,
   "google_reviews": 1,
   "rating_source": "Google Places details (place_id 851522809159917): avg_rating 1, num_rating 1",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Prairie Naturopathic Clinic",
+  "clinic_id": "prairie-naturopathic-clinic-brandon",
+  "address": "301 18th St",
+  "city": "Brandon",
+  "prov": "MB",
+  "postal": "R7A 5A8",
+  "phone": "204-901-0296",
+  "website": "http://www.prairienaturopathicclinic.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": "9:30 AM \u2013 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "10:00 AM \u2013 6:00 PM",
+   "tue": "9:30 AM \u2013 5:00 PM",
+   "wed": "9:30 AM \u2013 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -10848,6 +11748,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Psychology Health Solutions",
+  "clinic_id": "psychology-health-solutions-brantford",
+  "address": "2842 Barton St E",
+  "city": "Brantford",
+  "prov": "ON",
+  "postal": "L8E 2J9",
+  "phone": "905-312-0111",
+  "website": "http://psychealth.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Psychology and Neurofeedback",
@@ -11123,6 +12048,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Rania Psychotherapy",
+  "clinic_id": "rania-psychotherapy-burlington",
+  "address": "534 Brant Street",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": "L7R 2G8",
+  "phone": "905-617-0998",
+  "website": "https://raniapsychotherapy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "ReFocus You",
@@ -11725,6 +12675,56 @@
   "last_verified": null
  },
  {
+  "name": "Romina Coppa Psychology",
+  "clinic_id": "romina-coppa-psychology-brantford",
+  "address": "95 Darling St, Suite 201",
+  "city": "Brantford",
+  "prov": "ON",
+  "postal": "N3T 2K7",
+  "phone": "519-754-0005",
+  "website": "http://www.coppacare.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Root & Bloom Therapy Services",
+  "clinic_id": "root-bloom-therapy-services-brantford",
+  "address": "152 Brant Ave",
+  "city": "Brantford",
+  "prov": "ON",
+  "postal": "N3T 3H7",
+  "phone": "226-400-7430",
+  "website": "https://www.rootandbloomtherapy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": "9:00 AM - 12:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Root & Renewal Collective",
   "clinic_id": "root-and-renewal-collective-calgary",
   "address": "909 5 Ave SW",
@@ -11975,6 +12975,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Sant\u00e9 Dentaire Rive-Sud (Centre Dentaire Cousineau)",
+  "clinic_id": "sante-dentaire-rive-sud-centre-dentaire-cousineau-brossard",
+  "address": "5405 Grande All\u00e9e",
+  "city": "Brossard",
+  "prov": "QC",
+  "postal": "J4Z 3G9",
+  "phone": "450-676-1931",
+  "website": "https://santedentairerivesud.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 4:00 PM",
+   "tue": "8:30 AM - 8:00 PM",
+   "wed": "8:30 AM - 4:00 PM",
+   "thu": "8:30 AM - 7:00 PM",
+   "fri": "8:30 AM - 3:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Sask Naturopath (Dr. Stephanie Stokes ND)",
   "clinic_id": "sask-naturopath-dr-stephanie-stokes-nd-saskatoon",
   "address": "205 Avenue G N",
@@ -12073,6 +13098,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Sheddon Physiotherapy \u2014 Burlington",
+  "clinic_id": "sheddon-physiotherapy-burlington-burlington",
+  "address": "695 Plains Rd East, #3 and #4",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": "L7T 2E8",
+  "phone": "905-332-1070",
+  "website": "https://www.sheddonphysio-burlington.com/",
+  "booking_page": "https://sheddonburl.juvonno.com",
+  "hours": {
+   "mon": "10:00 AM - 7:00 PM",
+   "tue": "6:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "6:00 AM - 7:00 PM",
+   "fri": "10:00 AM - 6:00 PM",
+   "sat": "8:00 AM - 1:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Shelbourne Physiotherapy",
@@ -12246,6 +13296,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "SmileCrafters Dental - Brantford",
+  "clinic_id": "smilecrafters-dental-brantford-brantford",
+  "address": "50 Market Street South, Unit 115",
+  "city": "Brantford",
+  "prov": "ON",
+  "postal": "N3S 2E3",
+  "phone": "519-753-0550",
+  "website": "https://smilecrafters.ca/brantford/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 5:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 270,
+  "rating_source": "The clinic's own Brantford page states 'Brantford patients have rated our care 4.8 stars across more than 270 reviews' and '4.8 Stars From 270+ Brantford Patients', linking to its Google Business Profile; recorded as 4.8 / 270 (the site's own figure is '270+').",
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
@@ -13000,6 +14075,31 @@
   "last_verified": null
  },
  {
+  "name": "The McFadden Group Career Coaching",
+  "clinic_id": "the-mcfadden-group-career-coaching-burlington",
+  "address": "4316 Ingram Common",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": null,
+  "phone": "905-975-9561",
+  "website": "http://www.tmgcareercoaching.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM - 4:00 PM",
+   "tue": "7:00 AM - 4:00 PM",
+   "wed": "7:00 AM - 4:00 PM",
+   "thu": "7:00 AM - 4:00 PM",
+   "fri": "7:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "The Nest Clinic",
   "clinic_id": "the-nest-clinic-vancouver",
   "address": "55 Water St, Suite #300",
@@ -13073,6 +14173,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "The Proactive Athlete",
+  "clinic_id": "the-proactive-athlete-burlington",
+  "address": "3018 New Street",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": "L7N 1M5",
+  "phone": "905-632-2728",
+  "website": "https://www.theproactiveathlete.ca/",
+  "booking_page": "https://theproactiveathlete.janeapp.com",
+  "hours": {
+   "mon": "7:30 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "8:30 AM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 12:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 9,
+  "rating_source": "Google Places details in search results for The Proactive Athlete: 'Rating: five stars (4.9), Based on 9 reviews' (fetched 2026-11-01). The clinic's own site displays a 5-star graphic ('Your 5-Star Burlington Physiotherapy Clinic') with no review count.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "The Root Natural Health Clinic",
@@ -14175,6 +15300,31 @@
   "last_verified": null
  },
  {
+  "name": "Wiley Health",
+  "clinic_id": "wiley-health-burlington",
+  "address": "395 Pearl St",
+  "city": "Burlington",
+  "prov": "ON",
+  "postal": "L7R 0A5",
+  "phone": "647-370-5440",
+  "website": "http://www.wileyhealthclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:30 AM - 5:00 PM",
+   "tue": "10:30 AM - 5:00 PM",
+   "wed": "10:30 AM - 5:00 PM",
+   "thu": "10:30 AM - 5:00 PM",
+   "fri": "Closed",
+   "sat": "10:30 AM - 5:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Winnipeg Couples Clinic",
   "clinic_id": "winnipeg-couples-clinic-winnipeg",
   "address": "200-701 Pembina Hwy",
@@ -14522,7 +15672,7 @@
   "google_reviews": null,
   "rating_source": "Clinic's own website (https://icryocanada.com/perfusion-iv/) displays 'Note de 4,9 sur 5' above IV therapy reviews individually labelled 'via Google Reviews'; no Brossard-specific review count is published (the English page's 'more than 10,000 reviews' is chain-wide), so google_reviews is null. See gaps for the 4.9 vs 4.8 own-site conflict.",
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "painPRO Clinics",
