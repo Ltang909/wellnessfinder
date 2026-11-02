@@ -409,6 +409,7 @@
   ];
   let fcTreatment = "Clinical Pilates";
   let fcIndex = 0;
+  let fcDir = 0;
 
   /* Curated featured sets (2026-11-01): only clinics with BOTH a price
      verified on their own booking page AND a verified Google rating
@@ -512,7 +513,7 @@
         : `<span class="fc-btn">View clinic</span>`;
       const photo = media.img ? `<img src="${esc(media.img)}" alt="${esc(c.name)}">` : "";
       const fcSaved = getFavs().includes(c.name);
-      return `<article class="fc-card ${k === 0 ? "fc-card--active" : "fc-card--side"}${media.img ? "" : " fc-card--text"}" ${k === 0 ? "" : `data-fc-jump="${k}" role="button" tabindex="0" aria-label="Show ${esc(c.name)}"`}>
+      return `<article class="fc-card fc-d${Math.abs(k)} ${k === 0 ? "fc-card--active" : "fc-card--side"}${media.img ? "" : " fc-card--text"}" ${k === 0 ? "" : `data-fc-jump="${k}" role="button" tabindex="0" aria-label="Show ${esc(c.name)}"`}>
             <button class="fav-btn ${fcSaved ? "saved" : ""}" data-fav="${esc(c.name)}" aria-label="Save ${esc(c.name)}" aria-pressed="${fcSaved}">${HEART}</button>
             <h3>${esc(c.name)}</h3>
             <p class="fc-city">${esc(c.city || "")}${c.prov ? `, ${esc(c.prov)}` : ""}</p>
@@ -535,12 +536,13 @@
         <p class="fc-sub">${esc(cfg.sub)}</p>
         <p class="fc-viewall"><a href="/featured-${slug}">View all featured clinics \u2192</a></p>
         ${geoNote ? `<p class="fc-geo">${geoNote}</p>` : ""}
-        <div class="fc-rail">
-          ${(() => { const lo = -Math.floor((n - 1) / 2), hi = Math.ceil((n - 1) / 2); const ks = []; for (let k = lo; k <= hi; k++) ks.push(k); return ks.map((k) => cardHTML(at(k), k)).join(""); })()}
+        <div class="fc-rail${fcDir > 0 ? " fc--fwd" : fcDir < 0 ? " fc--back" : ""}">
+          ${(() => { const w = Math.min(n % 2 === 1 ? n : n - 1, 7); const half = Math.floor(w / 2); const ks = []; for (let k = -half; k <= half; k++) ks.push(k); return ks.map((k) => cardHTML(at(k), k)).join(""); })()}
         </div>
         <p class="fc-pager"><button type="button" data-fc-nav="-1" aria-label="Previous clinic">\u2039</button><b>${fcIndex + 1} / ${n}</b><button type="button" data-fc-nav="1" aria-label="Next clinic">\u203a</button></p>
       </div>
     </div>`;
+    fcDir = 0;
     if (!root.dataset.wired) {
       root.dataset.wired = "1";
       root.addEventListener("click", (e) => {
@@ -548,9 +550,9 @@
         const sw = e.target.closest("[data-fc-treat]");
         if (sw) { fcTreatment = sw.dataset.fcTreat; fcIndex = 0; renderFeaturedClinics(); return; }
         const nav = e.target.closest("[data-fc-nav]");
-        if (nav) { fcIndex += parseInt(nav.dataset.fcNav, 10); renderFeaturedClinics(); return; }
+        if (nav) { fcDir = Math.sign(parseInt(nav.dataset.fcNav, 10)); fcIndex += parseInt(nav.dataset.fcNav, 10); renderFeaturedClinics(); return; }
         const jump = e.target.closest("[data-fc-jump]");
-        if (jump) { fcIndex += parseInt(jump.dataset.fcJump, 10); renderFeaturedClinics(); }
+        if (jump) { fcDir = Math.sign(parseInt(jump.dataset.fcJump, 10)); fcIndex += parseInt(jump.dataset.fcJump, 10); renderFeaturedClinics(); }
       });
     }
   }
