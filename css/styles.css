@@ -942,6 +942,16 @@ body { font-size: 16px; }
 .fs-chev { align-self: center; color: #6E8F7A; font-size: 1.1rem; padding: 0 4px; }
 .fs-tab { flex: 1; background: none; border: 0; font: 500 .6rem Inter, system-ui, sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #6E8F7A; cursor: pointer; display: flex; align-items: flex-end; justify-content: center; padding: 0 4px 12px; text-align: center; }
 .fs-tab.active { background: #0F2D2B; color: #fff; font-weight: 600; margin-bottom: -18px; padding-top: 12px; z-index: 2; }
+/* Tab carousel (Leon, 2026-11-01): the chosen category rotates to the
+   centre slot, enlarged; neighbours shrink and fade with distance. */
+.fs-tab { transition: font-size .18s ease, opacity .18s ease; }
+.fs-tab.d1 { font-size: .68rem; opacity: .88; }
+.fs-tab.d2 { font-size: .62rem; opacity: .66; }
+.fs-tab.d3 { font-size: .58rem; opacity: .48; }
+.fs-tab.d4 { font-size: .56rem; opacity: .4; }
+.fs-tab.active { flex: 1.9; font-size: .82rem; }
+.fs-chev { background: none; border: 0; cursor: pointer; }
+.fs-count { margin-top: 26px; }
 /* Fund tabs carry their hero highlight colour (Leon, 2026-11-01):
    a colour strip under every fund tab, and the active tab fills with
    its word's highlighter colour, black text like the hero words. */

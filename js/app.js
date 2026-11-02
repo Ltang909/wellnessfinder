@@ -275,6 +275,7 @@
      view: title + count, featured cards, then modality accordions with
      treatments duplicated across every modality they bill through. */
   const FS_FEATURED_ALL = ["Microneedling", "Clinical Pilates", "Golf Swing Assessment", "Head Spa"];
+  const FS_TABS = ["All", ...FUND_CATS.map(([w]) => w)];
   const FS_MOD_ORDER = ["Physiotherapy", "Naturopathy", "Chiropractic", "Speech Therapy", "Acupuncture", "Massage Therapy", "Psychology", "Psychotherapy", "Osteopathy", "Dental", "Dietitian"];
   let fsView = "All";
 
@@ -336,13 +337,13 @@
     const mods = FS_MOD_ORDER
       .map((m) => ({ m, list: inView.filter((t) => (t.categories || []).includes(m)) }))
       .filter((g) => g.list.length);
+    const actIdx = Math.max(0, FS_TABS.indexOf(fsView));
+    const rotated = FS_TABS.map((_, k) => FS_TABS[(actIdx - 3 + k + FS_TABS.length) % FS_TABS.length]);
     root.innerHTML = `
-      <div class="fs-tabbar"><span class="fs-chev">\u2039</span>
-        ${["All", ...FUND_CATS.map(([w]) => w)].map((w) =>
-          `<button type="button" class="fs-tab ${w === "All" ? "tab-all" : ""} ${w === fsView ? "active" : ""}" ${w === "All" ? "" : `style="--fc:${FUND_COLOR[w] || "#0F2D2B"}"`} data-fsview="${esc(w)}">${esc(w)}</button>`).join("")}
-        <span class="fs-chev">\u203a</span></div>
-      <div class="fs-stem"></div>
-      <h2 class="fs-title">${esc(fsView === "All" ? "All treatments" : fsView)}</h2>
+      <div class="fs-tabbar"><button type="button" class="fs-chev" data-fsnav="-1" aria-label="Previous category">\u2039</button>
+        ${rotated.map((w, k) =>
+          `<button type="button" class="fs-tab ${w === "All" ? "tab-all" : ""} ${w === fsView ? "active" : ""} d${Math.abs(k - 3)}" ${w === "All" ? "" : `style="--fc:${FUND_COLOR[w] || "#0F2D2B"}"`} data-fsview="${esc(w)}">${esc(w)}</button>`).join("")}
+        <button type="button" class="fs-chev" data-fsnav="1" aria-label="Next category">\u203a</button></div>
       <p class="fs-count">${inView.length} treatment${inView.length === 1 ? "" : "s"}</p>
       <div class="fs-rule"><span>Featured treatments</span></div>
       <div class="fs-grid">${featured.map(fsCardHTML).join("")}</div>
@@ -354,6 +355,12 @@
     if (!root.dataset.wired) {
       root.dataset.wired = "1";
       root.addEventListener("click", (e) => {
+        const navB = e.target.closest("[data-fsnav]");
+        if (navB) {
+          const i = Math.max(0, FS_TABS.indexOf(fsView));
+          fsView = FS_TABS[(i + parseInt(navB.dataset.fsnav, 10) + FS_TABS.length) % FS_TABS.length];
+          renderDirectory(); return;
+        }
         const tab = e.target.closest(".fs-tab");
         if (tab) { fsView = tab.dataset.fsview; renderDirectory(); return; }
         const head = e.target.closest(".fs-sect-head");
