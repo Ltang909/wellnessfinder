@@ -10430,13 +10430,26 @@
   "treatment_id": "cadence-physiotherapy-toronto--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sarah, Co-owner, Registered Physiotherapist, Pelvic Health Provider",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cadencephysiotherapy.janeapp.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "cadence-physiotherapy-toronto",
+  "treatment_id": "cadence-physiotherapy-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own website and the Jane fee list does not render in text fetch; no price recorded rather than guessed.",
+  "price_tier": null,
+  "treatment_link": "https://www.cadencephysiotherapy.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "caldwell-psychology-chatham-kent",
@@ -10497,10 +10510,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "IV therapy $185\u2013$250 depending on type (Myers, Vit C, Mistletoe, Chelation, DMSO, etc.)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.calgaryintegrativemedicine.ca/treatment-calgary/",
   "last_verified": "2026-11-01"
  },
  {
@@ -10707,12 +10720,12 @@
   "treatment_id": "calvert-russell-therapie-conjugale-sherbrooke--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Calvert Russell, Psychologue",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://conjugal.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -10725,7 +10738,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://cambiecounseling.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -10789,7 +10802,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cwtcm.ca/Conditions/fertility-pregnancy.html",
   "last_verified": "2026-11-01"
  },
  {
@@ -10840,7 +10853,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.captivatingyou.ca/treatments/microneedling/",
   "last_verified": "2026-11-01"
  },
  {
@@ -10872,8 +10885,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://carecophysio.com/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "careco-physiotherapy-and-massage-maple-ridge",
+  "treatment_id": "careco-physiotherapy-and-massage-maple-ridge--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular or physiotherapy fee is published on the clinic's own website; no price recorded rather than guessed.",
+  "price_tier": null,
+  "treatment_link": "https://carecophysio.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "career-compass-canada-toronto",
@@ -10957,12 +10983,12 @@
   "treatment_id": "careers-by-design-toronto--interview-preparation",
   "treatment": "Interview Preparation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jeanet Lamoca, Certified Coach",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Interview coaching packages: 2 sessions $444 \u00b7 4 sessions $888 (both include mock interviews and feedback)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.careersbydesign.ca/services/career-coach-toronto/",
   "last_verified": "2026-11-01"
  },
  {
@@ -11123,7 +11149,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.carteblanchesigneechristine.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -11136,7 +11162,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.casaomwellness.com/pages/signature-manual-lymphatic-massage-drainage-at-casa-om-wellness",
   "last_verified": "2026-11-01"
  },
  {
@@ -11157,12 +11183,12 @@
   "treatment_id": "cataraqui-counselling-clinic-kingston--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Brianna Rooks-Collinson, Registered Psychotherapist",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Couples sessions $190\u2013$220",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cataraquiclinic.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -11170,12 +11196,12 @@
   "treatment_id": "catherine-belanger-acupuncteure-laval--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Catherine B\u00e9langer, Acupuncteure",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://catherine-acupuncture.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -11243,10 +11269,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Fees are based on ability to pay (sliding scale); no one is denied service because of their economic situation. Rapid Access Counselling is free.",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.cfspa.ca/counselling",
   "last_verified": "2026-11-01"
  },
  {
@@ -11286,6 +11312,44 @@
   "price_tier": null,
   "treatment_link": "https://cathywatsonphysio.ca/womens-pelvic-health/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "caviar-skin-clinic-vancouver",
+  "treatment_id": "caviar-skin-clinic-vancouver--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Christa Gavril, ND",
+  "practitioners": [
+   {
+    "id": "caviar-skin-clinic-vancouver--christa-gavril",
+    "name": "Dr. Christa Gavril",
+    "as_recorded": "Dr. Christa Gavril, ND \u2014 her staff profile on the clinic's Jane App booking site (Yaletown location) lists 'Vitamin IVs and Wellness Shots' and states she offers IV therapy and IM vitamin injections."
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane App booking pages did not render a treatment fee list in text fetch, and its website publishes no fee for this service; price left null rather than guessed (a rendered-browser Jane re-scan would settle it).",
+  "price_tier": null,
+  "treatment_link": "https://caviarskinclinic.janeapp.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "caviar-skin-clinic-vancouver",
+  "treatment_id": "caviar-skin-clinic-vancouver--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Christa Gavril, ND",
+  "practitioners": [
+   {
+    "id": "caviar-skin-clinic-vancouver--christa-gavril",
+    "name": "Dr. Christa Gavril",
+    "as_recorded": "Dr. Christa Gavril, ND \u2014 her staff profile on the clinic's Jane App booking site (Yaletown location) lists 'Vitamin IVs and Wellness Shots' and states she offers IV therapy and IM vitamin injections."
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane App booking pages did not render a treatment fee list in text fetch, and its website publishes no fee for this service; price left null rather than guessed (a rendered-browser Jane re-scan would settle it).",
+  "price_tier": null,
+  "treatment_link": "https://caviarskinclinic.janeapp.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "caviar-skin-clinic-vancouver",
@@ -13090,12 +13154,12 @@
   "treatment_id": "celine-dorion-quebec-city--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "C\u00e9line Dorion",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://celinedorion.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -13147,8 +13211,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.centralparkpt.com/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "central-park-physiotherapy-and-sports-injury-clinic-burnaby",
+  "treatment_id": "central-park-physiotherapy-and-sports-injury-clinic-burnaby--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's own website publishes no vestibular rehabilitation fee.",
+  "price_tier": null,
+  "treatment_link": "http://www.centralparkpt.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "centre-ancrage-troubles-alimentaires-saint-jerome",
@@ -13213,12 +13290,12 @@
   "treatment_id": "centre-de-massotherapie-liane-dufresne-laval--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Rosemarie",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$145 (90 min, taxes included)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://lianedufresne.com/massotherapie-laval/",
   "last_verified": "2026-11-01"
  },
  {
@@ -13263,7 +13340,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://esthetiquedianebabin.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -13276,7 +13353,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cfir.ca/treatment-for/neuroptimal-therapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -13342,12 +13419,12 @@
   "treatment_id": "centrepoint-psychotherapy-vancouver--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Joelle Lazar, MC, RCC",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.centrepointpsychotherapy.com/what-i-can-offer/",
   "last_verified": "2026-11-01"
  },
  {
@@ -13469,7 +13546,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://chezcocoesthetique.com/microneedling/",
   "last_verified": "2026-11-01"
  },
  {
@@ -13479,10 +13556,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Partner/family follow-up ('Suivi entre partenaires et suivi familiaux'): $85/h at the accessible tier (household income $30,000 or less) \u00b7 $145/h at the regular tier (sliding scale)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://chezfoufounes.com/services-individu-e-s#relation-aide",
   "last_verified": "2026-11-01"
  },
  {
@@ -13600,15 +13677,41 @@
  },
  {
   "clinic_id": "choice-nutrition-saskatoon",
+  "treatment_id": "choice-nutrition-saskatoon--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$130 (60 min)",
+  "price_source": "The clinic's own published price list (April 2026, linked from its FAQ page) lists 'Facial Rejuvenation and Cosmetic Acupuncture (60 min) * $130.00' among its naturopathic services; the * footnote marks the item as available at the Saskatoon location only.",
+  "price_tier": "website",
+  "treatment_link": "https://choicenutrition.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "choice-nutrition-saskatoon",
+  "treatment_id": "choice-nutrition-saskatoon--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$65 per injection (B12/B9)",
+  "price_source": "The clinic's own published price list (April 2026, linked from its FAQ page) lists 'B12B9 Injections * $65.00 per injection' among its naturopathic services; the * footnote marks the item as available at the Saskatoon location only.",
+  "price_tier": "website",
+  "treatment_link": "https://choicenutrition.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "choice-nutrition-saskatoon",
   "treatment_id": "choice-nutrition-saskatoon--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Allison Fillatre, ND",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "IV Therapies: price varies by formula, plus a $75 IV supplies fee (In House Urine Test & IV Supplies)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://choicenutrition.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -13705,12 +13808,12 @@
   "treatment_id": "christina-najjar-ottawa--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Christina Najjar, R.Ac",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://christinanajjar.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -13723,7 +13826,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://mouse-teal-2mz3.squarespace.com/services-4",
   "last_verified": "2026-11-01"
  },
  {
@@ -13731,12 +13834,12 @@
   "treatment_id": "cigonia-granby-granby--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "\u00c9milie-Maude Gravel, Physiotherapist; Marilyn Baker, Physiotherapist; Romy Lambert-Hevey, Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cliniquecigonia.janeapp.com/locations/cigonia-granby/book",
   "last_verified": "2026-11-01"
  },
  {
@@ -13825,12 +13928,12 @@
   "treatment_id": "cigonia-sherbrooke-sherbrooke--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Romy Lambert-Hevey, Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cliniquecigonia.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -13838,13 +13941,39 @@
   "treatment_id": "circle-physiotherapy-brampton--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Divya Sreejith, Registered Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://circlephysiotherapy.ca",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "circle-physiotherapy-brampton",
+  "treatment_id": "circle-physiotherapy-brampton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee list is published on the clinic's website (its FAQ directs callers to phone for the fee list: 'ring (905) 495-5600 and we will read you the fee list'), so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://circlephysiotherapy.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "circle-physiotherapy-brampton",
+  "treatment_id": "circle-physiotherapy-brampton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee list is published on the clinic's website (its FAQ directs callers to phone for the fee list: 'ring (905) 495-5600 and we will read you the fee list'), so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://circlephysiotherapy.ca",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "cirrus-psychology-red-deer",
@@ -13927,12 +14056,12 @@
   "treatment_id": "claire-mcdonald-physiotherapy-squamish--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Claire McDonald, Registered Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.clairemcdonaldphysiotherapy.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -13945,7 +14074,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://claritylaser.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -13990,7 +14119,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.clearskinbarrie.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14066,7 +14195,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://clinic05.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14130,7 +14259,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://acupuncturemaca.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14246,7 +14375,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://cliniqueava.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14340,7 +14469,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cliniquecatherine.com/fr-ca/soins-visage-saguenay",
   "last_verified": "2026-11-01"
  },
  {
@@ -14405,8 +14534,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cliniquecmi.com/cliniques-physiotherapie/longueuil-physio/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-cmi-longueuil",
+  "treatment_id": "clinique-cmi-longueuil--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's own website, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://cliniquecmi.com/cliniques-physiotherapie/longueuil-physio/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "clinique-d-acupuncture-de-quebec-quebec-city",
@@ -14494,7 +14636,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cliniqued.com/dermatologie-esthetique/nos-procedures/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14528,12 +14670,12 @@
   "treatment_id": "clinique-dacupuncture-de-beauport-et-limoilou-quebec-city--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Danika L\u00e9vesque",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://acupuncturebeauportlimoilou.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -14559,7 +14701,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cliniquedc.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14567,12 +14709,12 @@
   "treatment_id": "clinique-de-drainage-lymphatique-nathalie-bourbon-saguenay--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nathalie Bourbon",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://drainagelymphatiquenathaliebourbon.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14746,7 +14888,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.sexologuerivesud.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14853,10 +14995,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "\u00c9valuation 60 min $250 \u00b7 \u00c9valuation pr\u00e9scolaire 90 min $300 \u00b7 Suivi 60 min $130 \u00b7 Suivi 30 min $65",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://clinique-euphoros.ca/begaiement",
   "last_verified": "2026-11-01"
  },
  {
@@ -14869,7 +15011,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cliniqueinfinium.com/microneedling-medical/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14953,20 +15095,65 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cliniquelambertphysio.com/services/physiotherapie-perineale-et-pelvienne",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-lambert-physio-saguenay",
+  "treatment_id": "clinique-lambert-physio-saguenay--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://cliniquelambertphysio.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "clinique-lambert-physio-saguenay",
+  "treatment_id": "clinique-lambert-physio-saguenay--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://cliniquelambertphysio.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "clinique-mb-drummondville",
   "treatment_id": "clinique-mb-drummondville--pressotherapy",
   "treatment": "Pressotherapy",
   "billed_as": "Massage Therapy / Osteopathy",
-  "practitioner": null,
+  "practitioner": "Maggy Boyce",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cliniquemb.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "clinique-mb-drummondville",
+  "treatment_id": "clinique-mb-drummondville--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Maggy Boyce",
+  "practitioners": [
+   {
+    "id": "clinique-mb-drummondville--maggy-boyce",
+    "name": "Maggy Boyce",
+    "as_recorded": "Maggy Boyce, owner, 'naturopathe certifi\u00e9e' (member, Association des naturopathes professionnels du Qu\u00e9bec) per the clinic's own site; she is presented as the practitioner delivering the clinic's treatments."
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://cliniquemb.ca",
   "last_verified": "2026-11-02"
  },
  {
@@ -14979,7 +15166,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.gynesys.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14992,8 +15179,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cliniquephysiosportive.ca",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-medicale-sportive-sud-est-moncton",
+  "treatment_id": "clinique-medicale-sportive-sud-est-moncton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://cliniquephysiosportive.ca",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "clinique-mots-et-gestes-gatineau",
@@ -15010,6 +15210,19 @@
  },
  {
   "clinic_id": "clinique-mt-quebec-city",
+  "treatment_id": "clinique-mt-quebec-city--head-spa",
+  "treatment": "Head Spa",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://cliniquemt.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "clinique-mt-quebec-city",
   "treatment_id": "clinique-mt-quebec-city--pressotherapy",
   "treatment": "Pressotherapy",
   "billed_as": "Massage Therapy / Osteopathy",
@@ -15018,7 +15231,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cliniquemt.ca",
   "last_verified": "2026-11-02"
  },
  {
@@ -15058,12 +15271,12 @@
   "treatment_id": "clinique-neuro-saint-jean-sur-richelieu--neurofeedback",
   "treatment": "Neurofeedback",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Annie Lacoste, Sophie Decelles and Patrice Blanchard, neurofeedback trainers",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cliniqueneuroplus.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -15275,7 +15488,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://signature-mylie.ca/microneedling-quebec/",
   "last_verified": "2026-11-01"
  },
  {
@@ -15353,7 +15566,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cloudnineheadspa.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -15440,10 +15653,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Massoth\u00e9rapie 60 min $105 \u00b7 90 min $155 \u00b7 120 min $205",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cmsequilibre.com/massotherapie",
   "last_verified": "2026-11-01"
  },
  {
@@ -15467,15 +15680,28 @@
  },
  {
   "clinic_id": "coaching-zen-saint-bruno-de-montarville",
+  "treatment_id": "coaching-zen-saint-bruno-de-montarville--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$105 + taxes (massage drainage lymphatique)",
+  "price_source": "Price list published on the operator's clinic website zenashiatsu.com (Clinique Massage Zen Ashiatsu), fetched 2026-11-02: 'massage drainage lymphatique' at $105 + txs.",
+  "price_tier": "website",
+  "treatment_link": "http://www.zenashiatsu.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "coaching-zen-saint-bruno-de-montarville",
   "treatment_id": "coaching-zen-saint-bruno-de-montarville--pressotherapy",
   "treatment": "Pressotherapy",
   "billed_as": "Massage Therapy / Osteopathy",
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$70 + taxes (pressoth\u00e9rapie pneumatique, legs or arms)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.zenashiatsu.com/",
   "last_verified": "2026-11-02"
  },
  {
@@ -15488,21 +15714,59 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://coastperformancerehab.com/pelvic-floor-physiotherapy",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "coast-therapy-coquitlam",
+  "treatment_id": "coast-therapy-coquitlam--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Paige, Registered Massage Therapist",
+  "practitioners": [
+   {
+    "id": "coast-therapy-coquitlam--paige",
+    "name": "Paige",
+    "as_recorded": "Paige (first name only, as published), RMT \u2014 her bio on the clinic's own Jane booking page states she is Vodder-certified in Manual Lymphatic Drainage (all three levels), with availability at the Coquitlam Town Centre location."
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page does not render prices in text fetch; no price is guessed \u2014 flagged for a Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://coasttherapy.janeapp.com/locations/coast-therapy-coquitlam-town-centre/book",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "coast-therapy-coquitlam",
   "treatment_id": "coast-therapy-coquitlam--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Farnaz, Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://coasttherapy.ca/physiotherapy/pelvic-floor-physiotherapy/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "coast-therapy-coquitlam",
+  "treatment_id": "coast-therapy-coquitlam--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Giancarlo, Physiotherapist",
+  "practitioners": [
+   {
+    "id": "coast-therapy-coquitlam--giancarlo",
+    "name": "Giancarlo",
+    "as_recorded": "Giancarlo (first name only, as published), physiotherapist \u2014 his bio on the clinic's own Jane booking page (Coquitlam Town Centre) states he holds certification in vestibular and concussion rehabilitation."
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page does not render prices in text fetch; no price is guessed \u2014 flagged for a Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://coasttherapy.janeapp.com/locations/coast-therapy-coquitlam-town-centre/book",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "coast-therapy-coquitlam-centre-coquitlam",
@@ -15680,8 +15944,37 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://physiotherapyedmonton.com/physiotherapy-edmonton/Shockwave_Therapy_Edmonton.php",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "coeur-physiotherapy-edmonton",
+  "treatment_id": "coeur-physiotherapy-edmonton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Adam Teece, Vi Ngo and Nathan Schmidt, Certified Vestibular Therapists (Physiotherapists)",
+  "practitioners": [
+   {
+    "id": "coeur-physiotherapy-edmonton--adam-teece",
+    "name": "Adam Teece",
+    "as_recorded": "Adam Teece, Physiotherapist \u2014 named on the clinic's own Dizziness and Vertigo (vestibular) page as a Certified Vestibular Therapist."
+   },
+   {
+    "id": "coeur-physiotherapy-edmonton--vi-ngo",
+    "name": "Vi Ngo",
+    "as_recorded": "Vi Ngo, Physiotherapist \u2014 named on the clinic's own Dizziness and Vertigo (vestibular) page as a Certified Vestibular Therapist."
+   },
+   {
+    "id": "coeur-physiotherapy-edmonton--nathan-schmidt",
+    "name": "Nathan Schmidt",
+    "as_recorded": "Nathan Schmidt, Physiotherapist \u2014 named on the clinic's own Dizziness and Vertigo (vestibular) page as a Certified Vestibular Therapist."
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular fees are published on the clinic's own website, so no price is recorded.",
+  "price_tier": null,
+  "treatment_link": "https://physiotherapyedmonton.com/dizziness-and-vertigo-treatment/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "cogent-clinic-guelph",
@@ -15755,6 +16048,30 @@
  },
  {
   "clinic_id": "cole-harbour-integrated-health-services-pt-health-dartmouth",
+  "treatment_id": "cole-harbour-integrated-health-services-pt-health-dartmouth--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Adrienne MacDonald and Sarah Dumont, Registered Massage Therapists",
+  "practitioners": [
+   {
+    "id": "cole-harbour-integrated-health-services-pt-health-dartmouth--adrienne-macdonald",
+    "name": "Adrienne MacDonald",
+    "as_recorded": "Adrienne MacDonald, RMT \u2014 her bio on the clinic's own pt Health location page states she specializes in 'Manuel Lymph Drainage (level one)' (spelling as printed on pt Health's site)."
+   },
+   {
+    "id": "cole-harbour-integrated-health-services-pt-health-dartmouth--sarah-dumont",
+    "name": "Sarah Dumont",
+    "as_recorded": "Sarah Dumont, RMT \u2014 her bio on the clinic's own pt Health location page states she specializes in lymphatic drainage."
+   }
+  ],
+  "price_text": null,
+  "price_source": "pt Health publishes no location-specific fees for this clinic, so no price is recorded.",
+  "price_tier": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/cole-harbour-integrated-health-services-pt-health/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "cole-harbour-integrated-health-services-pt-health-dartmouth",
   "treatment_id": "cole-harbour-integrated-health-services-pt-health-dartmouth--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
@@ -15763,7 +16080,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/cole-harbour-integrated-health-services-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -15911,7 +16228,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://comoxvalleycounselling.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -15924,7 +16241,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://comoxvalleynaturopathic.janeapp.com/locations/comox-valley-naturopathic-medicine/book",
   "last_verified": "2026-11-01"
  },
  {
@@ -16179,8 +16496,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://concentrictherapy.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "concentric-therapy-burnaby",
+  "treatment_id": "concentric-therapy-burnaby--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No sleep coaching fees are published on the clinic's own website, so no price is recorded.",
+  "price_tier": null,
+  "treatment_link": "http://concentrictherapy.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "concept-of-movement-barrie",
