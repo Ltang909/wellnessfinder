@@ -539,12 +539,6 @@
       const pract = (pair && pair.pr) || media.practitioner;
       const practHTML = pract ? `<p class="fc-line">${esc(pract)}</p>` : "";
 
-      /* address */
-      let addr = "";
-      if (X && X.a) addr = `${X.a}, ${c.city}, ${prov}${X.po ? " " + X.po : ""}`;
-      else if (c.loc) addr = c.loc;
-      const addrHTML = addr ? `<p class="fc-addr">${esc(addr)}</p>` : "";
-
       /* price + verification tier, same resolution as the unified card */
       let price = "";
       if (media.priceByTreatment && media.priceByTreatment[fcTreatment]) price = media.priceByTreatment[fcTreatment];
@@ -555,8 +549,6 @@
       if (price) {
         priceHTML = `<p class="fc-price">${esc(fcPriceLine(price))}</p>`;
         if (pair && pair.t === "booking") tierHTML = `<p class="fc-tier"><span class="fc-tier-ok">✓ Verified on booking page</span></p>`;
-        else if (pair && pair.t === "website") tierHTML = `<p class="fc-tier">Price from clinic website</p>`;
-        else if (pair && pair.t === "review") tierHTML = `<p class="fc-tier">Price from a recent review</p>`;
       }
 
       /* direct billing: three honest states */
@@ -592,7 +584,7 @@
             ${annItem.d !== null && annItem.d !== undefined ? `<p class="fc-dist">📍 ${annItem.d < 1 ? "<1" : Math.round(annItem.d)} km away</p>` : ""}
             ${photo}
             <p class="fc-desc">${esc(desc)}</p>
-            ${stars}${practHTML}${addrHTML}${priceHTML}${tierHTML}${db}${hoursHTML}
+            ${stars}${practHTML}${priceHTML}${tierHTML}${db}${hoursHTML}
             ${btns}
           </article>`;
     };
