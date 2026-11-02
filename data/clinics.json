@@ -25,6 +25,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "ACE Clinics",
+  "clinic_id": "ace-clinics-toronto",
+  "address": "148 Finch Ave W",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-222-0004",
+  "website": "https://aceclinics.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "Closed",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "ACE Nutrition and Diet Consulting",
   "clinic_id": "ace-nutrition-and-diet-consulting-kingston",
   "address": "837 Princess St #211",
@@ -48,6 +73,31 @@
   "rating_source": "Google Places details in search results",
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "ADHD and PsychoEd Clinic",
+  "clinic_id": "adhd-and-psychoed-clinic-toronto",
+  "address": "2300 Yonge Street, Suite 1600",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M4P 1E4",
+  "phone": "437-886-6311",
+  "website": "https://www.psychoedclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 6:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "10:00 AM - 6:00 PM",
+   "thu": "10:00 AM - 6:00 PM",
+   "fri": "10:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": "10:00 AM - 5:00 PM"
+  },
+  "google_rating": 4.6,
+  "google_reviews": 72,
+  "rating_source": "Clinic's actual Google listing (business.google.com page for Toronto Psych-Ed & ADHD Clinic): 4.6 out of 5 based on 72 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "AHC Wellness Clinic",
@@ -323,6 +373,31 @@
   "rating_source": "Google Places details in search results for Acti-Sport (285 Bd Saint-Luc Ste 120, Saint-Jean-sur-Richelieu): 'Rating: four and a half stars (4.6) Based on 19 reviews'.",
   "direct_billing": null,
   "last_verified": null
+ },
+ {
+  "name": "Action Physiotherapy",
+  "clinic_id": "action-physiotherapy-st-johns",
+  "address": "279 Portugal Cove Road",
+  "city": "St. John's",
+  "prov": "NL",
+  "postal": "A1B 2N8",
+  "phone": "709-576-7770",
+  "website": "https://www.actionphysio.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM \u2013 8:00 PM",
+   "tue": "8:00 AM \u2013 8:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM",
+   "thu": "8:00 AM \u2013 4:00 PM",
+   "fri": "8:00 AM \u2013 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 5,
+  "rating_source": "Google Places details in search results for Action Physiotherapy: 5.0 stars based on 5 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Action Sport Physio",
@@ -650,6 +725,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Acu Affects Inc.",
+  "clinic_id": "acu-affects-inc-st-johns",
+  "address": "83 Thorburn Rd",
+  "city": "St. John's",
+  "prov": "NL",
+  "postal": "A1B 4R9",
+  "phone": "709-738-3962",
+  "website": "http://acuaffects.ca/",
+  "booking_page": "https://app.practiceperfectemr.com/onlinebooking/550/#/landing/dynamicthr",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Acu with Ashleigh",
   "clinic_id": "acu-with-ashleigh-milton",
   "address": "420 Bronte Street South Suite 105",
@@ -746,6 +846,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "AcuToronto",
+  "clinic_id": "acutoronto-toronto",
+  "address": "2401 Yonge St, Suite 215",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": "M4P 3H1",
+  "phone": "416-486-5222",
+  "website": "https://www.acutoronto.com/",
+  "booking_page": "https://acutoronto.janeapp.com/",
+  "hours": {
+   "mon": "10:00 AM - 6:00 PM",
+   "tue": "12:00 PM - 8:00 PM",
+   "wed": "12:00 PM - 8:00 PM",
+   "thu": "12:00 PM - 8:00 PM",
+   "fri": "12:00 PM - 8:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": "9:00 AM - 2:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 14,
+  "rating_source": "Google Places details in search results for Acutoronto, Toronto: 4.8 stars based on 14 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -1075,6 +1200,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Advanced Pelvic Physiotherapy Centre",
+  "clinic_id": "advanced-pelvic-physiotherapy-centre-toronto",
+  "address": "123 Edward St #1124",
+  "city": "Toronto",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-977-3456",
+  "website": "https://www.advancedpelvic.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 7:30 PM",
+   "tue": "8:00 AM - 7:30 PM",
+   "wed": "8:00 AM - 7:30 PM",
+   "thu": "8:00 AM - 7:30 PM",
+   "fri": "8:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details in search results for Advanced Pelvic Physiotherapy Centre, Toronto: 5.0 stars based on 1 review (very low review count - flagged).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Advanced Women's Health (Toronto West)",
   "clinic_id": "advanced-womens-health-toronto-west-toronto",
   "address": "832 College Street, Suite 500",
@@ -1097,7 +1247,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Adventure Physiotherapy",
@@ -1340,6 +1490,31 @@
    "wed": "8:30 AM - 7:30 PM",
    "thu": "8:30 AM - 3:00 PM",
    "fri": "8:30 AM - 3:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Alison Gigliotti",
+  "clinic_id": "alison-gigliotti-thunder-bay",
+  "address": "1184 Roland St",
+  "city": "Thunder Bay",
+  "prov": "ON",
+  "postal": "P7B 5M4",
+  "phone": "807-621-2419",
+  "website": "https://alisongigliotti.janeapp.com/",
+  "booking_page": "https://alisongigliotti.janeapp.com/",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
    "sat": null,
    "sun": null
   },
@@ -2050,6 +2225,31 @@
   "last_verified": null
  },
  {
+  "name": "Ascend Health",
+  "clinic_id": "ascend-health-st-johns",
+  "address": "516 Topsail Rd Ste 101",
+  "city": "St. John's",
+  "prov": "NL",
+  "postal": "A1E 2C5",
+  "phone": "709-793-6683",
+  "website": "https://ascendhealthnl.com/",
+  "booking_page": "https://ascendhealthnl.janeapp.com/locations/ascend-health-inc/book",
+  "hours": {
+   "mon": "8:00 AM \u2013 8:00 PM",
+   "tue": "8:00 AM \u2013 8:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM",
+   "thu": "8:00 AM \u2013 8:00 PM",
+   "fri": "8:00 AM \u2013 3:00 PM",
+   "sat": "10:00 AM \u2013 2:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Ascend Physiotherapy",
   "clinic_id": "ascend-physiotherapy-north-vancouver",
   "address": "3053 Edgemont Blvd #202",
@@ -2348,6 +2548,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Attain Physiotherapy & Sport Performance Centre",
+  "clinic_id": "attain-physiotherapy-sport-performance-centre-st-johns",
+  "address": "9 Austin Street",
+  "city": "St. John's",
+  "prov": "NL",
+  "postal": "A1B 4C1",
+  "phone": "709-576-2288",
+  "website": "http://attainphysiosport.ca/services",
+  "booking_page": "https://attainphysiosport.janeapp.com/locations/attain-physiotherapy-sport-performance-centre/book",
+  "hours": {
+   "mon": "8:00 AM \u2013 8:00 PM",
+   "tue": "8:00 AM \u2013 8:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM",
+   "thu": "8:00 AM \u2013 8:00 PM",
+   "fri": "8:00 AM \u2013 2:00 PM",
+   "sat": "8:00 AM \u2013 2:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Aura Physiotherapy",
@@ -2675,6 +2900,31 @@
   "last_verified": null
  },
  {
+  "name": "Back & Body Wellness Centre",
+  "clinic_id": "back-body-wellness-centre-surrey",
+  "address": "201-12057 82 Ave",
+  "city": "Surrey",
+  "prov": "BC",
+  "postal": "V3W 3E4",
+  "phone": "604-594-3808",
+  "website": "https://www.backandbody.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 16,
+  "rating_source": "Google Places details surfaced in search results for Back & Body Wellness Centre (place listing showing 'Rating: five stars (5.0) Based on 16 reviews').",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Back Works Physiotherapy",
   "clinic_id": "back-works-physiotherapy-waterloo",
   "address": "2415 University Ave E Suite 101",
@@ -2980,7 +3230,7 @@
   "address": "8700 Bathurst St Unit 7",
   "city": "Thornhill",
   "prov": "ON",
-  "postal": null,
+  "postal": "L4J 9J8",
   "phone": "905-709-7979",
   "website": "https://www.bewellmedicalclinic.com",
   "booking_page": null,
@@ -2997,7 +3247,7 @@
   "google_reviews": 13,
   "rating_source": "Google Places details in search results for Be Well (8700 Bathurst St Unit 7, website bewelledicalclinic.com) \u2014 Rating 5.0 based on 13 reviews.",
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Be Yoga & Wellness",
@@ -3717,6 +3967,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Bodylab Recovery Science",
+  "clinic_id": "bodylab-recovery-science-st-catharines",
+  "address": "52 George Street",
+  "city": "St. Catharines",
+  "prov": "ON",
+  "postal": "L2R 5N6",
+  "phone": "905-228-3130",
+  "website": "https://www.bodylabrecoveryscience.ca/",
+  "booking_page": "https://bodylab.janeapp.com/locations/body-lab-recovery-science/book/",
+  "hours": {
+   "mon": "9:00 AM \u2013 7:00 PM",
+   "tue": "9:00 AM \u2013 6:00 PM",
+   "wed": "9:00 AM \u2013 7:00 PM",
+   "thu": "9:00 AM \u2013 6:00 PM",
+   "fri": "8:00 AM \u2013 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 7,
+  "rating_source": "https://www.bodylabrecoveryscience.ca/",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Bodywise Health & Rehab",
   "clinic_id": "bodywise-health-rehab-ancaster",
   "address": "385 Wilson St E #102",
@@ -3915,6 +4190,31 @@
   "rating_source": "Google Places details in search results for Brentwood Physio: 'Rating: five stars (5.0) Based on 9 reviews'.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Brette Macey",
+  "clinic_id": "brette-macey-surrey",
+  "address": "Suite 110, 2626 Croydon Drive",
+  "city": "Surrey",
+  "prov": "BC",
+  "postal": "V3Z 0S8",
+  "phone": "604-256-4112",
+  "website": "https://www.elysianhealth.ca/dietician",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 4:00 PM",
+   "sat": "8:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Brickyard Physiotherapy",
@@ -5042,6 +5342,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Catherine Paul Dt.P",
+  "clinic_id": "catherine-paul-dtp-sorel-tracy",
+  "address": "600 Rte Marie-Victorin",
+  "city": "Sorel-Tracy",
+  "prov": "QC",
+  "postal": null,
+  "phone": "450-808-3549",
+  "website": "http://www.catherinepaulnutritionniste.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "6:00 AM - 8:00 PM",
+   "tue": "6:00 AM - 8:00 PM",
+   "wed": "6:00 AM - 8:00 PM",
+   "thu": "6:00 AM - 8:00 PM",
+   "fri": "6:00 AM - 8:00 PM",
+   "sat": "6:00 AM - 8:00 PM",
+   "sun": "6:00 AM - 8:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places details in search results for Catherine Paul Dt.P, Sorel-Tracy: 5.0 stars based on 2 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Catherine Semenick Registered Dietitian",
+  "clinic_id": "catherine-semenick-registered-dietitian-thunder-bay",
+  "address": "539 Memorial Ave",
+  "city": "Thunder Bay",
+  "prov": "ON",
+  "postal": null,
+  "phone": "807-475-8523",
+  "website": "https://www.catherinesemenick.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 6:30 PM",
+   "tue": "8:30 AM - 6:30 PM",
+   "wed": "8:30 AM - 6:30 PM",
+   "thu": "8:30 AM - 6:30 PM",
+   "fri": "8:30 AM - 5:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Cathy Watson Physiotherapy",
   "clinic_id": "cathy-watson-physiotherapy-vernon",
   "address": "3704 32 St #3",
@@ -5640,6 +5990,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Clayton Market Dental",
+  "clinic_id": "clayton-market-dental-surrey",
+  "address": "105A-19151 Fraser Hwy",
+  "city": "Surrey",
+  "prov": "BC",
+  "postal": "V3S 7H2",
+  "phone": "604-372-0755",
+  "website": "https://claytonmarketdental.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 3:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 7,
+  "rating_source": "Google Places details surfaced in search results for Clayton Market Dental (place listing showing 'Rating: five stars (5.0) Based on 7 reviews').",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Clear Path Solutions",
@@ -7143,6 +7518,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Cora Loomis, nutritionniste",
+  "clinic_id": "cora-loomis-nutritionniste-sherbrooke",
+  "address": "419 Rue Moore",
+  "city": "Sherbrooke",
+  "prov": "QC",
+  "postal": null,
+  "phone": "819-588-1546",
+  "website": "https://coraloomis.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 2:30 PM",
+   "mon": "9:00 AM - 2:30 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 2:30 PM",
+   "tue": "9:00 AM - 2:30 PM",
+   "wed": "9:00 AM - 2:30 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 7,
+  "rating_source": "Google Places details in search results for Cora Loomis, nutritionniste, Sherbrooke: 5.0 stars based on 7 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Core Elements Massage Therapy",
   "clinic_id": "core-elements-massage-therapy-ottawa",
   "address": "2034 St Joseph Blvd Unit 5",
@@ -8618,6 +9018,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Doctor Kara",
+  "clinic_id": "doctor-kara-st-catharines",
+  "address": "63 Saint Patrick Street",
+  "city": "St. Catharines",
+  "prov": "ON",
+  "postal": "L2R 1K2",
+  "phone": "647-828-8443",
+  "website": "http://doctorkara.ca/",
+  "booking_page": "https://calendly.com/drkarapetrunick/30",
+  "hours": {
+   "mon": "12:00 PM \u2013 2:00 PM",
+   "tue": "10:00 AM \u2013 6:00 PM",
+   "wed": null,
+   "thu": "10:00 AM \u2013 2:00 PM",
+   "fri": "10:00 AM \u2013 3:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Donald Physiotherapy",
   "clinic_id": "donald-physiotherapy-saskatoon",
   "address": "3211 Preston Ave S #80",
@@ -9568,6 +9993,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Danielle Commisso",
+  "clinic_id": "dr-danielle-commisso-st-catharines",
+  "address": "432 Niagara St #3",
+  "city": "St. Catharines",
+  "prov": "ON",
+  "postal": "L2M 4W3",
+  "phone": "289-349-2370",
+  "website": "https://dcommissohealth.com/",
+  "booking_page": "https://drdanicommisso.janeapp.com/",
+  "hours": {
+   "mon": "12:00 PM \u2013 3:00 PM",
+   "tue": "9:00 AM \u2013 3:00 PM",
+   "wed": "2:00 PM \u2013 6:00 PM",
+   "thu": "9:00 AM \u2013 12:00 PM",
+   "fri": "Closed",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Danielle DeBlock",
   "clinic_id": "dr-danielle-deblock-perth-south",
   "address": "263 Huron Rd",
@@ -9964,6 +10414,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Holly Johnston",
+  "clinic_id": "dr-holly-johnston-stratford",
+  "address": "413 Hibernia St",
+  "city": "Stratford",
+  "prov": "ON",
+  "postal": "N5A 5W2",
+  "phone": "519-271-0763",
+  "website": "http://www.drhollynd.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:30 AM - 2:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 6:30 PM",
+   "wed": "8:30 AM - 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places details in search results for Dr. Holly Johnston, Stratford: 5.0 stars based on 2 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -10468,6 +10943,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Kimberly Boileau",
+  "clinic_id": "dr-kimberly-boileau-thunder-bay",
+  "address": "8 Court Street South",
+  "city": "Thunder Bay",
+  "prov": "ON",
+  "postal": "P7B 2W3",
+  "phone": "807-809-8222",
+  "website": "http://drkimberlyboileau.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:30 AM - 3:00 PM",
+   "tue": "9:30 AM - 3:00 PM",
+   "wed": "9:30 AM - 3:00 PM",
+   "thu": "Closed",
+   "fri": "10:00 AM - 2:30 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Kirsten Storoshenko ND",
   "clinic_id": "dr-kirsten-storoshenko-nd-kelowna",
   "address": "202 - 2900 Pandosy Street",
@@ -10940,6 +11440,56 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Midori Barker Naturopathic Doctor",
+  "clinic_id": "dr-midori-barker-naturopathic-doctor-thunder-bay",
+  "address": "Lower Level In Cloud Nine, 1119 Victoria Ave E",
+  "city": "Thunder Bay",
+  "prov": "ON",
+  "postal": null,
+  "phone": "807-697-0465",
+  "website": "https://www.drmidoribarkernd.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "10:00 AM - 4:00 PM",
+   "wed": "10:00 AM - 4:00 PM",
+   "thu": "10:00 AM - 4:00 PM",
+   "fri": "10:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Mohamed",
+  "clinic_id": "dr-mohamed-surrey",
+  "address": "14022 32 Ave Unit 401",
+  "city": "Surrey",
+  "prov": "BC",
+  "postal": "V4P 2J2",
+  "phone": "604-535-3335",
+  "website": "http://www.drmohamednd.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 4:00 PM",
+   "mon": null,
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": null,
+   "thu": "10:00 AM - 6:00 PM",
+   "tue": null,
+   "wed": "10:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -12018,6 +12568,31 @@
   "last_verified": null
  },
  {
+  "name": "Dynamic Physio and Wellness Centre",
+  "clinic_id": "dynamic-physio-and-wellness-centre-st-johns",
+  "address": "35 White Rose Drive",
+  "city": "St. John's",
+  "prov": "NL",
+  "postal": "A1A 5G9",
+  "phone": "709-738-2225",
+  "website": "https://dynamicnl.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "10:00 AM - 7:00 PM",
+   "thu": "8:00 AM - 5:00 PM",
+   "fri": "8:00 AM - 3:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 4.7,
+  "google_reviews": 19,
+  "rating_source": "Google Places details in search results for Dynamic Physio and Wellness, 35 White Rose Drive, St. John's: 4.7 stars based on 19 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dynamic Physiotherapy",
   "clinic_id": "dynamic-physiotherapy-mississauga",
   "address": "89 Queensway West, Suite 100",
@@ -12314,6 +12889,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": "No Google rating visible in Google Places details in search results or on the clinic's own site; aggregator rating excluded",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "East Hamilton Physiotherapy",
+  "clinic_id": "east-hamilton-physiotherapy-stoney-creek",
+  "address": "800 Queenston Rd #12",
+  "city": "Stoney Creek",
+  "prov": "ON",
+  "postal": "L8G 1A7",
+  "phone": "905-594-5000",
+  "website": "https://easthamiltonphysio.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:30 AM - 6:30 PM",
+   "tue": "9:30 AM - 6:30 PM",
+   "wed": "9:30 AM - 6:30 PM",
+   "thu": "9:30 AM - 6:30 PM",
+   "fri": "9:00 AM - 3:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "10:00 AM - 2:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
@@ -12889,6 +13489,31 @@
   "google_rating": 4.3,
   "google_reviews": 6,
   "rating_source": "Google Places details in search results for Equilibrium Chiropractic and Wellness Centre: 'Rating: four and a half stars (4.3) Based on 6 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Equipe Nutrition",
+  "clinic_id": "equipe-nutrition-terrebonne",
+  "address": "1425 Chem. Gascon Suite 200",
+  "city": "Terrebonne",
+  "prov": "QC",
+  "postal": "J6X 4L9",
+  "phone": "450-234-0044",
+  "website": "https://equipenutrition.ca/nutritionniste-dietetiste/bureaux/terrebonne-chemin-gascon",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 7:00 PM",
+   "tue": "8:30 AM - 7:00 PM",
+   "wed": "8:30 AM - 7:00 PM",
+   "thu": "8:30 AM - 7:00 PM",
+   "fri": "8:30 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No Google Places rating/reviews returned in search extracts for the Terrebonne (Chemin Gascon) location; clinic's own site 4.9/5 claim is explicitly based on internal consultation evaluations, not Google",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -16593,6 +17218,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Jevera Ng",
+  "clinic_id": "jevera-ng-st-catharines",
+  "address": "19 Lakeshore Rd",
+  "city": "St. Catharines",
+  "prov": "ON",
+  "postal": null,
+  "phone": "289-686-0831",
+  "website": "https://ngvitalityclinic.janeapp.com/#/list",
+  "booking_page": "https://ngvitalityclinic.janeapp.com/#/list",
+  "hours": {
+   "mon": "9:00 AM \u2013 7:00 PM",
+   "tue": "9:00 AM \u2013 7:00 PM",
+   "wed": "9:00 AM \u2013 7:00 PM",
+   "thu": "9:00 AM \u2013 7:00 PM",
+   "fri": "9:00 AM \u2013 7:00 PM",
+   "sat": "9:00 AM \u2013 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Jillian Martin Psychology",
   "clinic_id": "jillian-martin-psychology-fort-mcmurray",
   "address": "155 - 8324 Franklin Avenue",
@@ -17318,6 +17968,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Kim Ng",
+  "clinic_id": "kim-ng-st-catharines",
+  "address": "19 Lakeshore Rd",
+  "city": "St. Catharines",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-839-4277",
+  "website": "https://kimng.janeapp.com/",
+  "booking_page": "https://kimng.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM \u2013 7:00 PM",
+   "tue": "9:00 AM \u2013 7:00 PM",
+   "wed": "9:00 AM \u2013 7:00 PM",
+   "thu": "9:00 AM \u2013 7:00 PM",
+   "fri": "9:00 AM \u2013 7:00 PM",
+   "sat": "9:00 AM \u2013 5:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Kimberly Dixon, Registered Acupuncturist",
   "clinic_id": "kimberly-dixon-registered-acupuncturist-moncton",
   "address": "110 Victoria Street",
@@ -17908,6 +18583,31 @@
    "wed": "11:00 AM - 8:00 PM",
    "thu": "11:00 AM - 8:00 PM",
    "fri": "11:00 AM - 12:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Leading Edge Physiotherapy",
+  "clinic_id": "leading-edge-physiotherapy-spruce-grove",
+  "address": "20 Westwind Dr #221",
+  "city": "Spruce Grove",
+  "prov": "AB",
+  "postal": null,
+  "phone": "780-948-8118",
+  "website": "https://leadingedgephysio.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM - 8:30 PM",
+   "tue": "7:00 AM - 8:30 PM",
+   "wed": "7:00 AM - 8:30 PM",
+   "thu": "7:00 AM - 8:30 PM",
+   "fri": "7:00 AM - 8:30 PM",
    "sat": null,
    "sun": null
   },
@@ -20652,6 +21352,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Movement Sports Medicine + Physiotherapy",
+  "clinic_id": "movement-sports-medicine-physiotherapy-thornhill",
+  "address": "31 Disera Drive Unit 210",
+  "city": "Thornhill",
+  "prov": "ON",
+  "postal": "L4J 0A7",
+  "phone": "905-882-3070",
+  "website": "https://movementsportsmedicine.com/",
+  "booking_page": "http://movementsportsmedicine.janeapp.com",
+  "hours": {
+   "mon": "7:30 AM - 8:00 PM",
+   "tue": "7:30 AM - 8:00 PM",
+   "wed": "7:30 AM - 8:00 PM",
+   "thu": "7:30 AM - 8:00 PM",
+   "fri": "8:00 AM - 4:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Moves You Physiotherapy",
   "clinic_id": "moves-you-physiotherapy-coquitlam",
   "address": "2992 Glen Dr #500",
@@ -21702,6 +22427,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Neuroperforma \u2014 Sherbrooke",
+  "clinic_id": "neuroperforma-sherbrooke",
+  "address": "3000 Rue King Ouest, suite 110",
+  "city": "Sherbrooke",
+  "prov": "QC",
+  "postal": "J1L 1Y7",
+  "phone": "1-819-742-0809",
+  "website": "https://neuroperforma.com",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 9:00 PM",
+   "mon": "8:00 AM - 9:00 PM",
+   "sat": "8:30 AM - 5:00 PM",
+   "sun": "8:00 AM - 4:30 PM",
+   "thu": "8:00 AM - 9:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Neuroperforma \u2014 Terrebonne",
+  "clinic_id": "neuroperforma-terrebonne",
+  "address": "901 Boul. des Seigneurs, suite 409",
+  "city": "Terrebonne",
+  "prov": "QC",
+  "postal": "J6W 1T8",
+  "phone": "450-445-1010",
+  "website": "https://neuroperforma.com/les-cliniques-neuroperforma/clinique-de-terrebonne/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 9:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 9:00 PM",
+   "thu": "8:00 AM - 9:00 PM",
+   "fri": "8:00 AM - 9:00 PM",
+   "sat": "8:30 AM - 5:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No Google Places rating/reviews returned in search extracts for the Terrebonne location; no Google badge/widget on clinic's own Terrebonne page",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Neurvana Naturopathic Medicine",
   "clinic_id": "neurvana-naturopathic-medicine-calgary",
   "address": "2020 4 St SW #330",
@@ -22073,6 +22848,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "No Fear Counselling",
+  "clinic_id": "no-fear-counselling-surrey",
+  "address": "15300 Croydon Dr Unit 316",
+  "city": "Surrey",
+  "prov": "BC",
+  "postal": "V3Z 0Z5",
+  "phone": "778-288-8361",
+  "website": "https://www.nofearcounselling.com/contact",
+  "booking_page": null,
+  "hours": {
+   "fri": "12:00 AM - 11:59 PM",
+   "mon": "12:00 AM - 11:59 PM",
+   "sat": "12:00 AM - 11:59 PM",
+   "sun": "12:00 AM - 11:59 PM",
+   "thu": "12:00 AM - 11:59 PM",
+   "tue": "12:00 AM - 11:59 PM",
+   "wed": "12:00 AM - 11:59 PM"
+  },
+  "google_rating": 4.7,
+  "google_reviews": 38,
+  "rating_source": "Google Places details surfaced on the clinic's own Surrey location page (nofearcounselling.com/location/counselling-surrey-bc/): Rating: 4.7 (38 reviews).",
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
@@ -22873,6 +23673,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Nutrition Bites - Niagara",
+  "clinic_id": "nutrition-bites-niagara-st-catharines",
+  "address": "363 Vine Street",
+  "city": "St. Catharines",
+  "prov": "ON",
+  "postal": "L2M 4T9",
+  "phone": "226-377-2223",
+  "website": "https://www.nutritionbites.ca/",
+  "booking_page": "https://nutritionbites.practicebetter.io/#/607ddc142a832607dce73849/bookings",
+  "hours": {
+   "mon": "8:00 AM \u2013 8:00 PM",
+   "tue": "8:00 AM \u2013 8:00 PM",
+   "wed": null,
+   "thu": null,
+   "fri": "9:00 AM \u2013 2:00 PM",
+   "sat": "9:00 AM \u2013 12:00 PM",
+   "sun": "9:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places details in search results for Nutrition Bites - Niagara: 5.0 stars based on 2 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -24077,6 +24902,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "PainPro North Surrey",
+  "clinic_id": "painpro-north-surrey-surrey",
+  "address": "13737 96 Ave Suite 507",
+  "city": "Surrey",
+  "prov": "BC",
+  "postal": "V3V 0C6",
+  "phone": "604-800-9656",
+  "website": "https://painproclinics.com/locations/surrey-memorial/",
+  "booking_page": "https://painpro.janeapp.com/",
+  "hours": {
+   "fri": "7:00 AM - 9:00 PM",
+   "mon": "7:00 AM - 9:00 PM",
+   "sat": "10:00 AM - 5:00 PM",
+   "sun": "Closed",
+   "thu": "7:00 AM - 9:00 PM",
+   "tue": "7:00 AM - 9:00 PM",
+   "wed": "7:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Palermo Physiotherapy & Wellness Centre",
   "clinic_id": "palermo-physiotherapy-wellness-centre-oakville",
   "address": "2525 Old Bronte Road, Suite 240",
@@ -24174,7 +25024,7 @@
   "google_reviews": 7,
   "rating_source": "Google Places details in search results for Park Integrative Health: 'Rating: five stars (5.0) Based on 7 reviews'.",
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Parkallen Dental",
@@ -24827,6 +25677,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "PhysioActive",
+  "clinic_id": "physioactive-thornhill",
+  "address": "1450 Clark Avenue West, Unit 22",
+  "city": "Thornhill",
+  "prov": "ON",
+  "postal": "L4J 7R5",
+  "phone": "905-695-0371",
+  "website": "https://www.physioactive.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM - 8:00 PM",
+   "tue": "7:00 AM - 8:00 PM",
+   "wed": "7:00 AM - 8:00 PM",
+   "thu": "7:00 AM - 8:00 PM",
+   "fri": "7:00 AM - 6:00 PM",
+   "sat": "8:00 AM - 4:00 PM",
+   "sun": "9:00 AM - 1:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 334,
+  "rating_source": "Rating displayed on the clinic's own website (business footer on physioactive.ca service pages, fetched 2026-11-01): 'Rating: 4.9 (334 reviews)', shown alongside the clinic's Google-review testimonials with star-rating graphics. A stale Google Places details extract showing 5.0 / 8 reviews for the same address was NOT used.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "PhysioDNA",
   "clinic_id": "physiodna-toronto",
   "address": "116 Spadina Avenue, Unit 201",
@@ -25123,6 +25998,31 @@
   "google_rating": 4.6,
   "google_reviews": 144,
   "rating_source": "Google rating badge displayed on the clinic's own Kennedy location page (physiomed.ca/find-a-clinic/scarborough-kennedy/overview/): 4.6 (144). This is the Kennedy location's own page, not the Bellamy location's rating.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Physiomed \u2014 Thornhill",
+  "clinic_id": "physiomed-thornhill",
+  "address": "130 Racco Pkwy",
+  "city": "Thornhill",
+  "prov": "ON",
+  "postal": "L4J 8X9",
+  "phone": "905-707-9999",
+  "website": "http://www.physiomed.ca/find-a-clinic/thornhill/overview/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": "10:00 AM - 3:00 PM"
+  },
+  "google_rating": 4.7,
+  "google_reviews": 239,
+  "rating_source": "Clinic's own website (Physiomed Thornhill overview page) displays a Google rating badge of 4.7 based on 239 reviews at the top of the page.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -25448,6 +26348,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Posaitive Life Health & Nutrition",
+  "clinic_id": "posaitive-life-health-and-nutrition-surrey",
+  "address": "18855 72 Ave",
+  "city": "Surrey",
+  "prov": "BC",
+  "postal": null,
+  "phone": "778-385-6263",
+  "website": "http://www.posaitive.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "2:00 PM - 8:00 PM",
+   "tue": "2:00 PM - 8:00 PM",
+   "wed": "2:00 PM - 8:00 PM",
+   "thu": "2:00 PM - 8:00 PM",
+   "fri": "2:00 PM - 8:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places details via search extract for Posaitive Life Health & Nutrition: 'Rating: four stars (4.0), Based on 2 reviews'",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -26652,6 +27577,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Redefined Health",
+  "clinic_id": "redefined-health-st-albert",
+  "address": "4-20 Sir Winston Churchill Ave",
+  "city": "St. Albert",
+  "prov": "AB",
+  "postal": "T8N 2W5",
+  "phone": "780-760-1550",
+  "website": "https://www.redefinedhealth.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:30 AM - 5:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "10:00 AM - 6:00 PM",
+   "thu": "10:00 AM - 6:00 PM",
+   "fri": "7:30 AM - 4:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 16,
+  "rating_source": "Google Places details in search results for Redefined Health, St. Albert: 5.0 stars based on 16 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Reframe Psychology and Counselling Clinic",
   "clinic_id": "reframe-psychology-and-counselling-clinic-abbotsford",
   "address": "2955 Gladwin Rd #301b",
@@ -27177,6 +28127,31 @@
   "last_verified": null
  },
  {
+  "name": "Revive Rehab",
+  "clinic_id": "revive-rehab-surrey",
+  "address": "8386 120 St #103",
+  "city": "Surrey",
+  "prov": "BC",
+  "postal": "V3W 3N4",
+  "phone": "604-503-5552",
+  "website": "https://www.reviverehab.ca/",
+  "booking_page": "https://reviverehab.janeapp.com/locations/chimney-hill-revive/book",
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 6:00 PM",
+   "sun": "9:00 AM - 6:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 875,
+  "rating_source": "Clinic's own website (homepage/about): '4.9 Rating, 875+ Google Reviews' - chain-wide claim across Revive Rehab's Fraser Valley locations, not Scott Road-specific; no rating was returned in the Google Places details extract for Scott Road",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "ReviveLife Clinic",
   "clinic_id": "revivelife-clinic-ottawa",
   "address": "69 Kempster Ave",
@@ -27373,6 +28348,56 @@
   "google_rating": 5.0,
   "google_reviews": 4,
   "rating_source": "Google Places details (listing extract in search results)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Ripple Effect Wellness Centre",
+  "clinic_id": "ripple-effect-wellness-centre-st-albert",
+  "address": "161 Liberton Drive, Suite 60B",
+  "city": "St. Albert",
+  "prov": "AB",
+  "postal": "T8N 6A7",
+  "phone": "587-985-4300",
+  "website": "https://www.ripple-effect.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "3:00 PM - 8:00 PM",
+   "tue": "9:30 AM - 2:00 PM",
+   "wed": "1:00 PM - 8:00 PM",
+   "thu": "9:30 AM - 1:00 PM",
+   "fri": "10:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 27,
+  "rating_source": "Google Places details in search results for Ripple Effect Wellness Centre, St. Albert: 5.0 stars based on 27 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Rise Up Center for Emotionally Focused Therapy Coaching and Consulting",
+  "clinic_id": "rise-up-center-for-emotionally-focused-therapy-coaching-and-consulting-st-catharines",
+  "address": "52 Woodburn Avenue",
+  "city": "St. Catharines",
+  "prov": "ON",
+  "postal": null,
+  "phone": "1-855-857-4459",
+  "website": "http://www.riseup-coaching.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 9:30 PM",
+   "tue": "9:00 AM \u2013 9:30 PM",
+   "wed": "9:00 AM \u2013 9:30 PM",
+   "thu": "9:00 AM \u2013 9:30 PM",
+   "fri": "9:00 AM \u2013 9:30 PM",
+   "sat": "12:15 PM \u2013 6:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -27724,6 +28749,31 @@
   "google_reviews": 450,
   "rating_source": "Clinic's own site Google badge text: '4.8\u2605 Google Rating \u2014 450+ Reviews' and '4.8 based on 450+ Google reviews' (count recorded as 450).",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Ruby Speech Therapy",
+  "clinic_id": "ruby-speech-therapy-st-albert",
+  "address": "104 - 7 Saint Anne Street",
+  "city": "St. Albert",
+  "prov": "AB",
+  "postal": "T8N 2X4",
+  "phone": "587-410-9791",
+  "website": "https://www.rubytherapy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 7:00 PM",
+   "wed": "8:00 AM - 7:00 PM",
+   "thu": "8:00 AM - 7:00 PM",
+   "fri": "8:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -28302,6 +29352,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Seasons Care",
+  "clinic_id": "seasons-care-tecumseh",
+  "address": "Suite 226-13300 Tecumseh Rd E",
+  "city": "Tecumseh",
+  "prov": "ON",
+  "postal": "N8N 4R8",
+  "phone": "855-895-5609",
+  "website": "http://seasonscare.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 6:00 PM",
+   "tue": "8:00 AM - 6:00 PM",
+   "wed": "8:00 AM - 6:00 PM",
+   "thu": "8:00 AM - 6:00 PM",
+   "fri": "8:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No Google Places rating/reviews returned in search extracts for this location; no Google badge/widget on clinic's own site",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Second Spring Acupuncture",
   "clinic_id": "second-spring-acupuncture-guelph",
   "address": "221 Woolwich St",
@@ -28673,6 +29748,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Shoal Harbour Family Dental Clinic",
+  "clinic_id": "shoal-harbour-family-dental-clinic-shoal-harbour",
+  "address": "18 Balbo Dr",
+  "city": "Shoal Harbour",
+  "prov": "NL",
+  "postal": null,
+  "phone": "709-433-3113",
+  "website": "https://shoalharbourfamilydental.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 4:00 PM",
+   "mon": "8:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:00 AM - 5:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 39,
+  "rating_source": "Google Places details in search results for Dr. Ballard Shoal Harbour Family Dental Clinic: 5.0 stars based on 39 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -29319,6 +30419,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Speech Therapy NL",
+  "clinic_id": "speech-therapy-nl-st-johns",
+  "address": "44 Torbay Rd Suite 100",
+  "city": "St. John's",
+  "prov": "NL",
+  "postal": "A1A 2G4",
+  "phone": "709-753-7500",
+  "website": "http://speechtherapynl.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 6:00 PM",
+   "tue": "8:30 AM - 6:00 PM",
+   "wed": "8:30 AM - 6:00 PM",
+   "thu": "8:30 AM - 6:00 PM",
+   "fri": "8:30 AM - 6:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Speech Therapy Toronto",
   "clinic_id": "speech-therapy-toronto-north-york",
   "address": null,
@@ -29919,6 +31044,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Summerside Children's and Sport Physiotherapy",
+  "clinic_id": "summerside-childrens-and-sport-physiotherapy-summerside",
+  "address": "1230 91 St SW Ste 103",
+  "city": "Summerside",
+  "prov": "PE",
+  "postal": null,
+  "phone": "780-466-8676",
+  "website": "https://www.summersidephysio.com/",
+  "booking_page": "https://summersidephysio.janeapp.com",
+  "hours": {
+   "fri": "7:00 AM - 6:00 PM",
+   "mon": "7:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Summit Counselling Services",
+  "clinic_id": "summit-counselling-services-st-albert",
+  "address": "1 Tache St #203",
+  "city": "St. Albert",
+  "prov": "AB",
+  "postal": "T8N 1B4",
+  "phone": "780-217-4665",
+  "website": "https://www.summitcs.ca/",
+  "booking_page": "https://summitcounsellingservices.janeapp.com/",
+  "hours": {
+   "mon": "8:30 AM \u2013 9:00 PM",
+   "tue": "8:30 AM \u2013 9:00 PM",
+   "wed": "8:30 AM \u2013 9:00 PM",
+   "thu": "8:30 AM \u2013 9:00 PM",
+   "fri": "8:30 AM \u2013 9:00 PM",
+   "sat": "9:00 AM \u2013 5:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Sun City Physiotherapy",
   "clinic_id": "sun-city-physiotherapy-kelowna",
   "address": "1468 St Paul St, Kelowna, BC V1Y 2E6",
@@ -30041,6 +31216,56 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Surrey Voice Clinic",
+  "clinic_id": "surrey-voice-clinic-surrey",
+  "address": "8644 120 St #101",
+  "city": "Surrey",
+  "prov": "BC",
+  "postal": null,
+  "phone": "604-785-7357",
+  "website": "http://surreyvoiceclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:30 AM - 4:00 PM",
+   "tue": "7:30 AM - 4:00 PM",
+   "wed": "7:30 AM - 4:00 PM",
+   "thu": "7:30 AM - 4:00 PM",
+   "fri": "7:30 AM - 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Suzanne Roy",
+  "clinic_id": "suzanne-roy-sherbrooke",
+  "address": "GMF Belved\u00e8re, 2235 Rue Galt O, 2e \u00e9tage",
+  "city": "Sherbrooke",
+  "prov": "QC",
+  "postal": null,
+  "phone": "819-679-8577",
+  "website": "http://nutritionnistecgran.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 8:30 PM",
+   "mon": "9:00 AM - 8:30 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 8:30 PM",
+   "tue": "9:00 AM - 8:30 PM",
+   "wed": "9:00 AM - 8:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -30367,6 +31592,31 @@
   "rating_source": null,
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Tenneille Slater Registered Massage Therapy",
+  "clinic_id": "tenneille-slater-registered-massage-therapy-spruce-grove",
+  "address": "57 Fairway Drive",
+  "city": "Spruce Grove",
+  "prov": "AB",
+  "postal": null,
+  "phone": "306-533-9148",
+  "website": "https://tmassage.janeapp.com/",
+  "booking_page": "https://tmassage.janeapp.com/",
+  "hours": {
+   "mon": "11:00 AM - 7:00 PM",
+   "tue": "11:00 AM - 7:00 PM",
+   "wed": "11:00 AM - 7:00 PM",
+   "thu": "9:30 AM - 7:00 PM",
+   "fri": "9:00 AM - 1:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "TerraSana Health",
@@ -30990,6 +32240,31 @@
   "google_rating": 4.9,
   "google_reviews": 9,
   "rating_source": "Google Places details in search results for The Proactive Athlete: 'Rating: five stars (4.9), Based on 9 reviews' (fetched 2026-11-01). The clinic's own site displays a 5-star graphic ('Your 5-Star Burlington Physiotherapy Clinic') with no review count.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Rehab Grid \u2014 Stouffville",
+  "clinic_id": "the-rehab-grid-stouffville-stouffville",
+  "address": "37 Sandiford Dr Ste 100",
+  "city": "Stouffville",
+  "prov": "ON",
+  "postal": "L4A 3Z2",
+  "phone": "289-401-5033",
+  "website": "https://www.therehabgrid.com/stouffville",
+  "booking_page": "https://rehab-grid-physiotherapy-and-sports-performance.janeapp.com/locations/rehab-grid-stouffville/book",
+  "hours": {
+   "fri": "7:30 AM - 7:00 PM",
+   "mon": "9:00 AM - 7:30 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "Closed",
+   "thu": "10:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
@@ -31636,6 +32911,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Timmins Chiropractic Clinic",
+  "clinic_id": "timmins-chiropractic-clinic-timmins",
+  "address": "108 Pine St S",
+  "city": "Timmins",
+  "prov": "ON",
+  "postal": null,
+  "phone": "705-268-9099",
+  "website": "http://www.timminschiropractic.com/",
+  "booking_page": "https://tcc.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM - 6:00 PM",
+   "tue": "7:15 AM - 5:00 PM",
+   "wed": "7:15 AM - 6:00 PM",
+   "thu": "7:15 AM - 5:00 PM",
+   "fri": "7:15 AM - 3:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.8,
+  "google_reviews": 22,
+  "rating_source": "Google Places details in search results for Timmins Chiropractic Clinic: 4.8 stars based on 22 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Tip of the Tongue Speech Therapy and Lactation Consulting",
   "clinic_id": "tip-of-the-tongue-speech-therapy-and-lactation-consulting-red-deer",
   "address": "80 Donlevy Ave Unit 300",
@@ -32161,6 +33461,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Turnstone Psychology",
+  "clinic_id": "turnstone-psychology-sydney",
+  "address": "336 Kings Rd, Unit 212",
+  "city": "Sydney",
+  "prov": "NS",
+  "postal": "B1S 1A9",
+  "phone": "902-322-6301",
+  "website": "http://www.turnstonepsychology.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No Google rating verified: the Google Places details retrieved for this clinic showed address, phone, website and hours but no rating or review count, and no Google badge/widget was found on the clinic's own site, so google_rating/google_reviews are null.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Tuxedo Physiotherapy",
   "clinic_id": "tuxedo-physiotherapy-winnipeg",
   "address": "156-2025 Corydon Ave",
@@ -32534,6 +33859,31 @@
   "rating_source": "Clinic's own website homepage (https://www.vanguardperformance.ca/) states '4.9 on Google, 82 reviews' with a linked Google badge ('4.9 across 82 reviews Google'); the clinic page repeats '4.9 stars on Google'.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Vault Psychology",
+  "clinic_id": "vault-psychology-sherwood-park",
+  "address": "9 Chippewa Rd #209",
+  "city": "Sherwood Park",
+  "prov": "AB",
+  "postal": null,
+  "phone": "587-200-9867",
+  "website": "https://www.vaultpsych.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 8:30 PM",
+   "mon": "9:00 AM - 8:30 PM",
+   "sat": "8:00 AM - 3:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 8:30 PM",
+   "tue": "9:00 AM - 8:30 PM",
+   "wed": "9:00 AM - 8:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Vector Wellness London",
@@ -33333,6 +34683,56 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "White Rock Naturopathic Therapy",
+  "clinic_id": "white-rock-naturopathic-therapy-surrey",
+  "address": "1676 Martin Drive, Suite 208",
+  "city": "Surrey",
+  "prov": "BC",
+  "postal": "V4A 6E7",
+  "phone": "604-531-5878",
+  "website": "https://drgrodski.com/",
+  "booking_page": "https://whiterocknaturopathic.janeapp.com/",
+  "hours": {
+   "mon": "10:00 AM - 6:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "10:00 AM - 6:00 PM",
+   "thu": "10:00 AM - 6:00 PM",
+   "fri": "Closed",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places details in search results for White Rock Naturopathic Clinic (1676 Martin Dr #208, Surrey, same phone/website as the clinic's own site): 5.0 stars based on 2 reviews. RateMDs 4.8/23 for Dr. Tom Grodski was NOT used (aggregator, excluded by rule).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "White Rock Orthopaedic & Sports Physiotherapy Clinic",
+  "clinic_id": "white-rock-orthopaedic-and-sports-physiotherapy-clinic-surrey",
+  "address": "80-1959 152nd Street",
+  "city": "Surrey",
+  "prov": "BC",
+  "postal": "V4A 9E3",
+  "phone": "604-535-1412",
+  "website": "http://www.whiterocksportsphysio.ca/",
+  "booking_page": "https://wrsportsphysio.janeapp.com/",
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 7:00 PM",
+   "sat": "8:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No Google rating verified: the Google Places details retrieved for this clinic showed address, phone, website and hours but no rating or review count, and no Google badge/widget was found on the clinic's own site, so google_rating/google_reviews are null.",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
