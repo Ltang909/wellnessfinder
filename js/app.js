@@ -560,7 +560,7 @@
       /* direct billing: three honest states */
       const dbv = media.db || (X && X.db) || "";
       const db = dbv === "yes"
-        ? `<p class="fc-db" title="Direct billing available" aria-label="Direct billing available">✓</p>`
+        ? `<p class="fc-db" title="Direct billing available" aria-label="Direct billing available">✓ Direct billing</p>`
         : dbv === "no"
           ? `<p class="fc-db fc-db-no">No direct billing — pay &amp; claim with receipt</p>`
           : "";
@@ -1296,7 +1296,7 @@
     /* direct billing: featured curation wins, else the verified record */
     const dbv = media.db || (X && X.db) || "";
     const dbPill = dbv === "yes"
-      ? `<span class="nc-db nc-db-yes" title="Direct billing available" aria-label="Direct billing available">✓</span>`
+      ? `<span class="nc-db nc-db-yes" title="Direct billing available" aria-label="Direct billing available">✓ Direct billing</span>`
       : dbv === "no"
         ? `<span class="nc-db nc-db-no">No direct billing — pay &amp; claim with receipt</span>`
         : `<span class="nc-db nc-db-unk">Direct billing not confirmed — ask the clinic</span>`;
@@ -1355,9 +1355,8 @@
       const rowFor = (s, kind) => {
         const title = titleFor(s, kind);
         const pricePart = priceFor(kind);
-        const inner = `<span class="nc-slot-title">${esc(title)}</span>${pricePart ? `<span class="nc-slot-price">${esc(pricePart)}</span>` : ""}<span class="nc-slot-when">${s.d} &middot; ${s.t}</span>`;
-        const linked = book ? `<a class="nc-slot-book" href="${esc(book)}" target="_blank" rel="noopener" title="Book this slot on the clinic's booking page">${inner}</a>` : `<span class="nc-slot-book">${inner}</span>`;
-        return `<p class="nc-slot-row">${linked}${mailFor(s, title, pricePart)}</p>`;
+        const chip = book ? `<a class="nc-slot-chip" href="${esc(book)}" target="_blank" rel="noopener" title="Book this slot on the clinic's booking page">${s.d} &middot; ${s.t}</a>` : `<span class="nc-slot-chip">${s.d} &middot; ${s.t}</span>`;
+        return `<div class="nc-slot"><p class="nc-slot-t"><span class="nc-slot-title">${esc(title)}</span>${pricePart ? `<span class="nc-slot-price">${esc(pricePart)}</span>` : ""}${mailFor(s, title, pricePart)}</p><p class="nc-slot-c">${chip}</p></div>`;
       };
       const rows = [];
       if (slot.a) rows.push(rowFor(slot.a, "a"));
