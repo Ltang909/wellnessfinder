@@ -1158,9 +1158,14 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
    small photo on the left, all the info on the right, ~5 per view. */
 .tp-list .nc-grid { display: flex; flex-direction: column; gap: 12px; }
 .tp-list .nc-card { flex-direction: row; }
-.tp-list .nc-gallery { width: 184px; aspect-ratio: auto; }
-.tp-list .nc-tile span { font-size: 3.2rem; }
-.tp-list .nc-main { display: flex; flex-flow: row wrap; align-content: flex-start; align-items: center; column-gap: 10px; row-gap: 4px; padding: 10px 16px 11px; }
+.tp-list .nc-gallery { width: 132px; aspect-ratio: 1 / 1; align-self: center; margin: 12px 0 12px 12px; border-radius: 12px; flex: none; }
+.tp-list .nc-tile span { font-size: 2.6rem; }
+.tp-list .nc-arrow { width: 26px; height: 26px; font-size: .95rem; }
+.tp-list .nc-arrow.prev { left: 6px; } .tp-list .nc-arrow.next { right: 6px; }
+.tp-list .nc-dots { bottom: 6px; padding: 4px 6px; }
+.tp-list .nc-note .nc-price-note { display: none; }
+.tp-list .nc-db { font-size: .74rem; padding: 5px 9px; }
+.tp-list .nc-main { display: flex; flex-flow: row wrap; align-content: flex-start; align-items: center; column-gap: 8px; row-gap: 4px; padding: 10px 15px 11px; }
 .tp-list .nc-head { flex: 1 1 100%; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; min-width: 0; }
 .tp-list .nc-name { height: auto; -webkit-line-clamp: 1; font-size: 1.08rem; flex: 1; min-width: 0; }
 .tp-list .nc-rating { height: auto; line-height: 1.2; margin-top: 0; white-space: nowrap; }
@@ -1173,11 +1178,11 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .tp-list .nc-more { margin-left: 10px; }
 .tp-list .nc-week { flex: 1 1 100%; }
 .tp-list .nc-actions { flex: 0 0 auto; margin-left: auto; margin-top: 0; padding-top: 0; }
-.tp-list .nc-btn { padding: 8px 13px; }
+.tp-list .nc-btn { padding: 8px 10px; font-size: .82rem; }
 .tp-list .nc-btn-book { flex: 0 0 auto; }
 @media (max-width: 640px) {
   .tp-list .nc-card { flex-direction: column; }
-  .tp-list .nc-gallery { width: 100%; aspect-ratio: 4 / 2.1; }
+  .tp-list .nc-gallery { width: 100%; aspect-ratio: 4 / 2.1; margin: 0; border-radius: 0; align-self: auto; }
   .tp-list .nc-desc { height: auto; -webkit-line-clamp: 2; }
   .tp-list .nc-dbrow { margin-left: 0; }
   .tp-list .nc-actions { margin-left: 0; }
