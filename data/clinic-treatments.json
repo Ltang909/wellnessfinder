@@ -6,10 +6,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$150 per treatment",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.360well.ca/shockwave-therapy-spruce-grove/",
   "last_verified": "2026-11-01"
  },
  {
@@ -22,7 +22,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.707laser.com/microneedling",
   "last_verified": "2026-11-01"
  },
  {
@@ -125,7 +125,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://abetterlovecounselling.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -133,13 +133,26 @@
   "treatment_id": "a-step-above-wellness-centre-windsor--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Grace Sizenando, Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://astepabovewellness.com/services/pelvic-health-pysiotherapy-functional-rehabilitation",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "a-step-above-wellness-centre-windsor",
+  "treatment_id": "a-step-above-wellness-centre-windsor--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No red light therapy fee is published on the clinic's website and its Jane treatment list did not render in text fetch, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://astepabovewellness.com/pages/redlight-near-infrared-therapy",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "a-time-to-heal-psychotherapy-vaughan",
@@ -156,15 +169,39 @@
  },
  {
   "clinic_id": "a-to-z-fertility-toronto",
+  "treatment_id": "a-to-z-fertility-toronto--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Naturopathy",
+  "practitioner": "Alan Vu, ND",
+  "practitioners": [
+   {
+    "id": "a-to-z-fertility-toronto--alan-vu",
+    "name": "Alan Vu",
+    "as_recorded": "Alan Vu, ND - naturopathic doctor; one of the clinic's two practitioners, named in the clinic's own site title and branding."
+   },
+   {
+    "id": "a-to-z-fertility-toronto--zeynep-uraz",
+    "name": "Zeynep Uraz",
+    "as_recorded": "Zeynep Uraz, ND - naturopathic doctor; one of the clinic's two practitioners, named in the clinic's own site title and branding."
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic states acupuncture appointments are 45 minutes and that 'acupuncture rates apply', but publishes no rate on its own site, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.atozfertility.com/our-services",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "a-to-z-fertility-toronto",
   "treatment_id": "a-to-z-fertility-toronto--fertility-consultation",
   "treatment": "Fertility Consultation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Alan Vu, ND",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.atozfertility.com/our-services",
   "last_verified": "2026-11-01"
  },
  {
@@ -323,7 +360,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.aboutmind.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -381,7 +418,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://acceleratedphysio.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -420,8 +457,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.accessphysiotherapy.ca/pelvic-floor-physiotherapy",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "access-physiotherapy-grande-prairie",
+  "treatment_id": "access-physiotherapy-grande-prairie--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular or physiotherapy fee is published on the clinic's own website, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://accessphysiotherapy.ca",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "access-physiotherapy-inc-grande-prairie",
@@ -516,7 +566,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://acephysio.ca/services/shockwave-therapy-downtown-toronto/",
   "last_verified": "2026-11-01"
  },
  {
@@ -524,13 +574,26 @@
   "treatment_id": "achieve-wellness-waterloo--fertility-consultation",
   "treatment": "Fertility Consultation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Shelley Gibbs, ND",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.achievewellness.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "achieve-wellness-waterloo",
+  "treatment_id": "achieve-wellness-waterloo--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No lymphatic drainage fee is published on the clinic's own website, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "http://www.achievewellness.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "act-physiotherapy-and-health-services-milton",
@@ -542,8 +605,34 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://actphysiotherapy.ca/services/pelvic-floor-physiotherapy/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "act-physiotherapy-and-health-services-milton",
+  "treatment_id": "act-physiotherapy-and-health-services-milton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own website; its Google Business profile lists shockwave 'from $75', but a Google profile price is not a tier-eligible source (not the clinic's booking page or own website), so no price is recorded.",
+  "price_tier": null,
+  "treatment_link": "https://actphysiotherapy.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "act-physiotherapy-and-health-services-milton",
+  "treatment_id": "act-physiotherapy-and-health-services-milton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular or physiotherapy fee is published on the clinic's own website, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://actphysiotherapy.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "acti-sport-saint-jean-sur-richelieu",
@@ -67033,12 +67122,12 @@
   "treatment_id": "pro-physio-and-sport-medicine-centres-pro-plus-ottawa--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Andrei Georgescu, Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/ottawa/ppc-pro-plus",
   "last_verified": "2026-11-01"
  },
  {
@@ -67046,12 +67135,12 @@
   "treatment_id": "pro-physio-and-sport-medicine-centres-pro-plus-ottawa--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Andrei Georgescu, Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/ottawa/ppc-pro-plus",
   "last_verified": "2026-11-01"
  },
  {
@@ -67285,7 +67374,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/PPC-Vantage/our-team",
   "last_verified": "2026-11-01"
  },
  {
@@ -67298,7 +67387,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/PPC-Vantage/our-team",
   "last_verified": "2026-11-01"
  },
  {
@@ -67526,6 +67615,19 @@
  },
  {
   "clinic_id": "progressive-physiotherapy-and-wellness-grande-prairie",
+  "treatment_id": "progressive-physiotherapy-and-wellness-grande-prairie--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page did not render its fee list in text fetch, so no price could be verified (Jane re-scan candidate).",
+  "price_tier": null,
+  "treatment_link": "https://progressivephysiotherapy.ca/services",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "progressive-physiotherapy-and-wellness-grande-prairie",
   "treatment_id": "progressive-physiotherapy-and-wellness-grande-prairie--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
@@ -67534,7 +67636,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://progressivephysiotherapy.ca/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -67542,12 +67644,12 @@
   "treatment_id": "progressive-physiotherapy-and-wellness-grande-prairie--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Alysha Hergott, Doctor of Chiropractic",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://progressivephysiotherapy.ca/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -67574,12 +67676,12 @@
   "treatment_id": "promethean-clinic-vancouver--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Parveen Sangha, Nurse Practitioner",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://prometheanclinic.ca/treatments/iv-therapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -67592,7 +67694,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://prometheanclinic.ca/treatments/microneedling-facial-with-dp4-pen/",
   "last_verified": "2026-11-01"
  },
  {
@@ -67631,7 +67733,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://propelphysiotherapy.com/locations/peterborough/",
   "last_verified": "2026-11-01"
  },
  {
@@ -67644,7 +67746,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://propelphysiotherapy.com/locations/peterborough/",
   "last_verified": "2026-11-01"
  },
  {
@@ -67688,6 +67790,19 @@
  },
  {
   "clinic_id": "prota-clinic-winnipeg",
+  "treatment_id": "prota-clinic-winnipeg--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Nursing",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Prota does not publish cosmetic treatment fees on its website, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://protaclinic.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "prota-clinic-winnipeg",
   "treatment_id": "prota-clinic-winnipeg--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
@@ -67696,7 +67811,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://protaclinic.ca/physical-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -67709,7 +67824,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://protaclinic.ca/physical-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -68017,7 +68132,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/pt-health-north-brampton/",
   "last_verified": "2026-11-01"
  },
  {
@@ -68030,7 +68145,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/pt-health-north-brampton/",
   "last_verified": "2026-11-01"
  },
  {
@@ -68403,10 +68518,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "B12 shot $59 (add-on to any IV)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.puretemedspa.ca/iv-therapy-etobicoke/",
   "last_verified": "2026-11-01"
  },
  {
@@ -68414,13 +68529,37 @@
   "treatment_id": "purete-med-spa-etobicoke--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Tatiana, Registered Nurse",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Signature drips $299 + HST (Immunity, Glow, Power, Boost); NAD+ $349; 5-IV Mix & Match $1,299",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.puretemedspa.ca/iv-therapy-etobicoke/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "purete-med-spa-etobicoke",
+  "treatment_id": "purete-med-spa-etobicoke--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Nursing",
+  "practitioner": "Tatiana, Registered Nurse",
+  "practitioners": [
+   {
+    "id": "purete-med-spa-etobicoke--tatiana",
+    "name": "Tatiana",
+    "as_recorded": "Tatiana, Registered Nurse (surname not published on the booking page) - her Jane booking-page bio lists microneedling among the treatments she provides"
+   },
+   {
+    "id": "purete-med-spa-etobicoke--judy",
+    "name": "Judy",
+    "as_recorded": "Judy, Registered Practical Nurse (surname not published on the booking page) - her Jane booking-page bio lists microneedling among her specialties"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No microneedling price is published on the clinic's own site or rendered on its Jane booking page, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.puretemedspa.ca",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "pursuit-physiotherapy-red-deer",
@@ -69066,12 +69205,12 @@
   "treatment_id": "rebalance-london-london--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jennifer Vidmar, ND",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rebalancelondon.com/services/iv-nutrients-b12-injections/",
   "last_verified": "2026-11-01"
  },
  {
@@ -69079,12 +69218,12 @@
   "treatment_id": "rebalance-london-london--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jennifer Vidmar, ND",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rebalancelondon.com/services/iv-nutrients-b12-injections/",
   "last_verified": "2026-11-01"
  },
  {
@@ -69135,7 +69274,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rebalancephysio.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -69143,12 +69282,12 @@
   "treatment_id": "rebalance-physio-and-dizziness-centre-saskatoon--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Rae Ann, Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rebalancephysio.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -69821,7 +69960,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.rehabscience.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -69834,7 +69973,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.rehabscience.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -70130,7 +70269,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://renovomedispa.com/iv-drip-therapy-in-toronto/",
   "last_verified": "2026-11-01"
  },
  {
@@ -70143,7 +70282,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://renovomedispa.com/etobicoke-location/",
   "last_verified": "2026-11-01"
  },
  {
@@ -70560,12 +70699,12 @@
   "treatment_id": "revery-medical-aesthetics-windsor--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Bryce Leontowicz",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$89 per injection (Biotin, Glutathione, NAD, Vitamin D3)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.reverymed.com/treatments/iv-drips/",
   "last_verified": "2026-11-01"
  },
  {
@@ -70573,13 +70712,32 @@
   "treatment_id": "revery-medical-aesthetics-windsor--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Bryce Leontowicz",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$233-$465 per drip (Energize $233, Build & Repair $233, Vitamin C $248, NAD+ $282, Glutathione $292, Repair & Recover $465)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.reverymed.com/treatments/iv-drips/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "revery-medical-aesthetics-windsor",
+  "treatment_id": "revery-medical-aesthetics-windsor--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Medical Aesthetics",
+  "practitioner": "Dr. Bryce Leontowicz",
+  "practitioners": [
+   {
+    "id": "revery-medical-aesthetics-windsor--bryce-leontowicz",
+    "name": "Bryce Leontowicz",
+    "as_recorded": "Dr. Bryce Leontowicz, emergency medicine physician; physician lead of the clinic, whose own chronic-migraine Botox page states treatment is performed by its skilled medical professionals"
+   }
+  ],
+  "price_text": "$1,100 per chronic migraine session (200 units: $200 injection fee + $900 Botox medication)",
+  "price_source": "Clinic's own chronic-migraine Botox page (reverymed.com/treatments/chronic-migraines-botox/): 'Each session typically costs $1100 for 200 units of Botox.' Fetched 2026-11-02.",
+  "price_tier": "website",
+  "treatment_link": "https://www.reverymed.com/treatments/chronic-migraines-botox/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "revibe-centre-gander",
@@ -70886,21 +71044,60 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.reviverehab.ca/locations/abbotsford/clearbrook",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "revive-rehab-clearbrook-abbotsford",
+  "treatment_id": "revive-rehab-clearbrook-abbotsford--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Revive Rehab does not publish treatment fees on its site and its online booking does not expose a fee list in text fetch, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.reviverehab.ca/locations/abbotsford/clearbrook",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "revive-rehab-clearbrook-abbotsford",
   "treatment_id": "revive-rehab-clearbrook-abbotsford--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Rubeka Arora",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.reviverehab.ca/locations/abbotsford/clearbrook",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "revive-rehab-clearbrook-abbotsford",
+  "treatment_id": "revive-rehab-clearbrook-abbotsford--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Revive Rehab does not publish treatment fees on its site and its online booking does not expose a fee list in text fetch, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.reviverehab.ca/locations/abbotsford/clearbrook",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "revive-rehab-clearbrook-abbotsford",
+  "treatment_id": "revive-rehab-clearbrook-abbotsford--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Revive Rehab does not publish treatment fees on its site and its online booking does not expose a fee list in text fetch, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.reviverehab.ca/locations/abbotsford/clearbrook",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "revive-rehab-surrey",
@@ -72914,7 +73111,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.sardisnaturopathic.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -72927,7 +73124,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.sardisnaturopathic.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -72940,7 +73137,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/sarnia-community-care-physiotherapy-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -72953,7 +73150,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/sarnia-community-care-physiotherapy-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -73835,7 +74032,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://silvawellness.ca/pelvic-health",
   "last_verified": "2026-11-01"
  },
  {
@@ -73848,7 +74045,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://silvawellness.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -74147,12 +74344,12 @@
   "treatment_id": "skinnovate-beauty-and-wellness-vancouver--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Vinnie Dhillon",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://skinnovate.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -74165,7 +74362,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://skinnovate.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -74713,7 +74910,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.sparkrehabilitation.ca/physiotherapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -74726,7 +74923,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.sparkrehabilitation.ca/physiotherapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -75866,7 +76063,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.startlinehealth.com/services/physiotherapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -75879,7 +76076,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.startlinehealth.com/services/physiotherapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -76711,7 +76908,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/summit-kingston/coverage-options",
   "last_verified": "2026-11-01"
  },
  {
@@ -76724,7 +76921,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/summit-kingston/coverage-options",
   "last_verified": "2026-11-01"
  },
  {
@@ -76994,7 +77191,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/bay-college/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77007,7 +77204,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/bay-college/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77015,12 +77212,12 @@
   "treatment_id": "sutherland-chan-clinic-bay-and-king-toronto--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Wicko Cheung",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$81 (30 min) - $247 (120 min) Massage Therapy (45 min $103, 60 min $130, 75 min $153, 90 min $180)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/king-bay/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77033,7 +77230,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/king-bay/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77046,7 +77243,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/belleville/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77059,7 +77256,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/belleville/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77072,7 +77269,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/danforth-broadview/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77085,7 +77282,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/danforth-broadview/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77093,12 +77290,12 @@
   "treatment_id": "sutherland-chan-clinic-leslie-and-sheppard-toronto--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Wicko Cheung, RMT; Susan Patterson, RMT; Beverley Tait, RMT",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$81 (30 min) \u00b7 $103 (45 min) \u00b7 $130 (60 min) \u00b7 $153 (75 min) \u00b7 $180 (90 min) \u00b7 $247 (120 min) - massage therapy session rates",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/leslie-sheppard/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77111,7 +77308,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/leslie-sheppard/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77119,12 +77316,12 @@
   "treatment_id": "sutherland-chan-clinic-richmond-hill-richmond-hill--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Qu Ting (Jen) Liu, RMT; Lisa Marie Pinto, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/richmond-hill/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77137,7 +77334,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/richmond-hill/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77145,12 +77342,12 @@
   "treatment_id": "sutherland-chan-clinic-simcoe-and-front-toronto--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sheila Bulman, RMT",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$81 (30 min) \u00b7 $103 (45 min) \u00b7 $130 (60 min) \u00b7 $153 (75 min) \u00b7 $180 (90 min) \u00b7 $247 (120 min) - massage therapy session rates",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/simcoe-front/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77163,7 +77360,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/simcoe-front/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77171,12 +77368,12 @@
   "treatment_id": "sutherland-chan-clinic-spadina-and-bloor-toronto--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sheila Bulman, RMT; Lorella Scarcello, RMT",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$81 (30 min) \u00b7 $103 (45 min) \u00b7 $130 (60 min) \u00b7 $153 (75 min) \u00b7 $180 (90 min) \u00b7 $247 (120 min) - massage therapy session rates",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/spadina-bloor/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77189,7 +77386,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/spadina-bloor/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77229,12 +77426,12 @@
   "treatment_id": "sutherland-chan-clinic-yonge-and-davisville-toronto--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Wicko Cheung, RMT; Jinsheng (JZ) Zhao, RMT",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$90 (30 min) \u00b7 $115 (45 min) \u00b7 $135 (60 min) \u00b7 $165 (75 min) \u00b7 $195 (90 min) \u00b7 $255 (120 min) - massage therapy session rates",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/yonge-davisville/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77242,12 +77439,12 @@
   "treatment_id": "sutherland-chan-clinic-yonge-and-davisville-toronto--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Kelly Bircher, RMT; Svetlana Saenko, RMT",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$90 (30 min) \u00b7 $115 (45 min) \u00b7 $135 (60 min) \u00b7 $165 (75 min) \u00b7 $195 (90 min) \u00b7 $255 (120 min) - massage therapy session rates",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sc-clinic.com/locations/yonge-davisville/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77415,12 +77612,12 @@
   "treatment_id": "symetrics-north-bay--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ali Prevost, Physiotherapist; Nicole Conlin, Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://symetricsonline.com/our-services/physiotherapy/pelvic-health-physiotherapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77433,7 +77630,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://symetricsonline.com/our-services/physiotherapy/vestibular-rehabilitation-dizziness-treatment/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77467,25 +77664,38 @@
   "treatment_id": "synergy-health-centre-victoria--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nicole Maunu, Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://synergyhealthmanagement.com/service/pelvic-floor-physiotherapy/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "synergy-health-centre-victoria",
+  "treatment_id": "synergy-health-centre-victoria--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Lifemark does not publish per-location treatment fees, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/victoria/synergy-health-centre/clinic-information",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "synergy-health-centre-victoria",
   "treatment_id": "synergy-health-centre-victoria--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nicole Maunu, Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/victoria/synergy-health-centre/clinic-information",
   "last_verified": "2026-11-01"
  },
  {
@@ -77557,10 +77767,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "PhysioPilates mat classes $300-$330 per 10-11 week term \u00b7 6-week intro $180 (billed as Group Physiotherapy)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.synergyphysiopilates.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -77570,10 +77780,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Pelvic Health Assessment $160 \u00b7 60 min treatment $150 \u00b7 45 min treatment $130",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.synergyphysiopilates.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -78379,7 +78589,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.naturopathbrantford.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -78392,7 +78602,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.naturopathbrantford.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -78441,10 +78651,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Vitamin D injections $39 \u00b7 Vitamin B12 injections $39 \u00b7 Mistletoe injections $30 + cost of mistletoe",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://theclaraclinic.com/ivs-injections",
   "last_verified": "2026-11-01"
  },
  {
@@ -78454,10 +78664,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "IV formulas $35-$53 +HST plus IV service fee \u00b7 initial IV intake + treatment $150 + bag \u00b7 follow-up IV $105 + bag \u00b7 IV iron infusion $275",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://theclaraclinic.com/ivs-injections",
   "last_verified": "2026-11-01"
  },
  {
@@ -79512,7 +79722,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.theremedyroom.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -79525,7 +79735,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.theremedyroom.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -81114,7 +81324,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://torontofunctionalmedicine.com/services/nutritional-iv-therapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -81127,7 +81337,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://torontofunctionalmedicine.com/services/nutritional-iv-therapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -81514,12 +81724,12 @@
   "treatment_id": "total-wellness-centre-toronto--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jimmy Wang, Registered Acupuncturist, R.TCMP; Jun Li, Registered Acupuncturist, R.TCMP",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://totalwellness.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -81527,12 +81737,12 @@
   "treatment_id": "total-wellness-centre-toronto--fertility-consultation",
   "treatment": "Fertility Consultation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. EeVon Ling, Naturopathic Doctor",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://totalwellness.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -82002,7 +82212,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.trianglephysiotherapy.com/services/physiotherapy/north-york-ontario",
   "last_verified": "2026-11-01"
  },
  {
@@ -82015,8 +82225,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.trianglephysiotherapy.com/services/physiotherapy/north-york-ontario",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "triangle-physiotherapy-north-york",
+  "treatment_id": "triangle-physiotherapy-north-york--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Triangle Physiotherapy does not publish per-location treatment fees on its own site, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.trianglephysiotherapy.com/services/physiotherapy/north-york-ontario",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "trillium-dental-centre-waterloo",
@@ -83296,8 +83519,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.neurofeedbackclinic.ca/services.html",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vancouver-neurotherapy-health-services-vancouver",
+  "treatment_id": "vancouver-neurotherapy-health-services-vancouver--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic does not publish acupuncture fees on its own site, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.neurofeedbackclinic.ca/services.html",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "vancouver-neurotherapy-health-services-vancouver",
@@ -83309,7 +83545,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.neurofeedbackclinic.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -83625,15 +83861,34 @@
  },
  {
   "clinic_id": "veravita-clinic-calgary",
+  "treatment_id": "veravita-clinic-calgary--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Viktoriia Taylor, DTCM, Registered Doctor of Acupuncture & TCM",
+  "practitioners": [
+   {
+    "id": "veravita-clinic-calgary--viktoriia-taylor",
+    "name": "Viktoriia Taylor",
+    "as_recorded": "Dr. Viktoriia Taylor, DTCM - 'Registered Doctor of Acupuncture & TCM... practicing the full spectrum of Traditional Chinese Medicine, including Facial Acupuncture'; the clinic's price table lists 'Acupuncture Facial (Dr. Taylor)' (veravitaclinic.com/cat-acupuncture.html, fetched 2026-11-02)"
+   }
+  ],
+  "price_text": "$135-$160 Acupuncture Facial (60 min, Dr. Taylor)",
+  "price_source": "Price table on the clinic's own Acupuncture page (veravitaclinic.com/cat-acupuncture.html), fetched 2026-11-02: 'Acupuncture Facial (Dr. Taylor) | 60 min | $135.00 - $160.00'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.veravitaclinic.com/cat-acupuncture.html",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "veravita-clinic-calgary",
   "treatment_id": "veravita-clinic-calgary--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Jill Nazar, Naturopathic Doctor",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Vitamin B12 injection $50 \u00b7 Vitamin D3 injection $45 \u00b7 NAD IM injection $65",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.veravitaclinic.com/cat-iv-therapy.html",
   "last_verified": "2026-11-01"
  },
  {
@@ -83641,13 +83896,32 @@
   "treatment_id": "veravita-clinic-calgary--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Jill Nazar, Naturopathic Doctor",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$220 initial IV \u00b7 $250-$260 IV therapy (70-75 min) \u00b7 $210 MultiVitamin + Glutathione IV \u00b7 $140 Glutathione and Vit C IV",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.veravitaclinic.com/cat-iv-therapy.html",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "veravita-clinic-calgary",
+  "treatment_id": "veravita-clinic-calgary--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Jianing Chen, R.Ac, TCMP, Registered Massage Therapist",
+  "practitioners": [
+   {
+    "id": "veravita-clinic-calgary--jianing-chen",
+    "name": "Jianing Chen",
+    "as_recorded": "Jianing Chen, R.Ac, TCMP, Registered Massage Therapist - the clinic's Massage Therapy page states she is 'deeply specialized in Lymphatic Drainage' and its price table lists 'Lymphatic Massage' (veravitaclinic.com/cat-massage-therapy.html, fetched 2026-11-02)"
+   }
+  ],
+  "price_text": "$120-$160 Lymphatic Massage (60-90 min)",
+  "price_source": "Price table on the clinic's own Massage Therapy page (veravitaclinic.com/cat-massage-therapy.html), fetched 2026-11-02: 'Lymphatic Massage | 60-90 min | $120.00 - $160.00'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.veravitaclinic.com/cat-massage-therapy.html",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "verdure-wellness-clinic-waterloo",
@@ -83915,15 +84189,34 @@
  },
  {
   "clinic_id": "vinterra-wellness-vernon",
+  "treatment_id": "vinterra-wellness-vernon--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Joel Brazier, Master Level Professional Counsellor",
+  "practitioners": [
+   {
+    "id": "vinterra-wellness-vernon--joel-brazier",
+    "name": "Joel Brazier",
+    "as_recorded": "Joel Brazier - Master's degree in Psychology; his clinic bio states 'Joel works with youth, young adults, adults, and couples, supporting individuals through concerns such as anxiety, depression, relationship challenges...' and an on-site testimonial is from a couple in marital therapy with him (vinterrawellness.ca, fetched 2026-11-02)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic does not publish counselling prices on its own site, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.vinterrawellness.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "vinterra-wellness-vernon",
   "treatment_id": "vinterra-wellness-vernon--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Graham Sigalet, ND",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.vinterrawellness.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -83931,13 +84224,32 @@
   "treatment_id": "vinterra-wellness-vernon--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Graham Sigalet, ND; Kayla Plett, RN",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.vinterrawellness.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vinterra-wellness-vernon",
+  "treatment_id": "vinterra-wellness-vernon--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Psychology",
+  "practitioner": "Joel Brazier, Master Level Professional Counsellor",
+  "practitioners": [
+   {
+    "id": "vinterra-wellness-vernon--joel-brazier",
+    "name": "Joel Brazier",
+    "as_recorded": "Joel Brazier - 'In addition to clinical counselling, Joel specializes in performance psychology, working with athletes and high-performing individuals to enhance focus, confidence, resilience, stress management, and performance under pressure' (vinterrawellness.ca, fetched 2026-11-02)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic does not publish performance-coaching prices on its own site, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.vinterrawellness.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "virtuous-circle-counselling-calgary",
@@ -83988,7 +84300,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.vitasanaclinic.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -84001,7 +84313,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.vitasanaclinic.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -84024,10 +84336,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$78 drop-in \u00b7 $210 3-pack ($70/session) \u00b7 $325 5-pack ($65/session) \u00b7 $595 10-pack ($59.50/session) \u00b7 memberships from $51/session",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.vitalcryotherapyvancouver.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -84040,7 +84352,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.vitalcryotherapyvancouver.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -84063,10 +84375,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Vitamin B12 Shot $50 \u00b7 MIC Slim Shot $50 \u00b7 Vitamin D Shot $50 \u00b7 NAD+ Shot from $125",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.vitaliftinfusions.ca/services-3",
   "last_verified": "2026-11-01"
  },
  {
@@ -84076,10 +84388,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Drips $75-$220 (Quench $75 \u00b7 Glow $150 \u00b7 Myers Drip $150 \u00b7 Gut Glow $180 \u00b7 Clear Mind $180 \u00b7 Fertility Flow $195 \u00b7 Party Recovery $200 \u00b7 Vitalift Boost $220 \u00b7 Vitalete $220)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.vitaliftinfusions.ca/services-3",
   "last_verified": "2026-11-01"
  },
  {
@@ -84224,20 +84536,33 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.voxlingue.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "voxlingue-montreal",
+  "treatment_id": "voxlingue-montreal--myofunctional-therapy",
+  "treatment": "Myofunctional Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic does not publish fees on its own site, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.voxlingue.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "voxlingue-montreal",
   "treatment_id": "voxlingue-montreal--stuttering-therapy",
   "treatment": "Stuttering Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Renata Masucci, Speech-Language Pathologist; Jordan Milliken, Speech-Language Pathologist; Camille Rose, Speech-Language Pathologist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.voxlingue.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -84941,12 +85266,12 @@
   "treatment_id": "wellness-within-st-albert--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Candace Mazur, MScPT, Physiotherapist",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$115 initial assessment & treatment \u00b7 $100 follow-up",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://michael-riske-74hs.squarespace.com/physiotherapy-st-albert",
   "last_verified": "2026-11-01"
  },
  {
@@ -84959,7 +85284,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://michael-riske-74hs.squarespace.com/physiotherapy-st-albert",
   "last_verified": "2026-11-01"
  },
  {
@@ -85352,12 +85677,12 @@
   "treatment_id": "willow-naturopathic-and-iv-clinic-london--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Ali, Naturopathic Doctor; Dr. Victoria, Naturopathic Doctor",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.willownaturopath.com/services/injections",
   "last_verified": "2026-11-01"
  },
  {
@@ -85365,12 +85690,12 @@
   "treatment_id": "willow-naturopathic-and-iv-clinic-london--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Ali, Naturopathic Doctor; Dr. Victoria, Naturopathic Doctor",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.willownaturopath.com/iv-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -85947,12 +86272,12 @@
   "treatment_id": "zen-physiotherapy-winnipeg--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Rhea Tomlinson, Physiotherapist",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$155 initial (60 min) \u00b7 $128 follow-up (60 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.zenphysiotherapy.com/pelvic-floor-physiotherapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -85960,12 +86285,12 @@
   "treatment_id": "zen-physiotherapy-winnipeg--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Aynsley Fraser Kiernicki, Physiotherapist",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$170 assessment \u00b7 $125 follow-up",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.zenphysiotherapy.com/vestibular-therapy/",
   "last_verified": "2026-11-01"
  },
  {
