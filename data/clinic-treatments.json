@@ -44748,12 +44748,12 @@
   "treatment_id": "massage-addict-belleville-belleville--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Chanelle Rivet, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/belleville/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -44761,12 +44761,12 @@
   "treatment_id": "massage-addict-belleville-belleville--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Alyssa Jacobs, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/belleville/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -44779,7 +44779,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/bolton",
   "last_verified": "2026-11-01"
  },
  {
@@ -44792,8 +44792,27 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/bolton",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "massage-addict-brampton-bovaird-and-worthington-brampton",
+  "treatment_id": "massage-addict-brampton-bovaird-and-worthington-brampton--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Lina Nolan, R. Ac",
+  "practitioners": [
+   {
+    "as_recorded": "Lina Nolan, R. TCMP, R. Ac (also RMT) - skills in herbs, acupuncture, tuina, cupping, guasha, keeping a strong focus on fertility, pain management and stress/anxiety conditions (clinic's practitioners page)",
+    "id": "massage-addict-brampton-bovaird-and-worthington-brampton--lina-nolan",
+    "name": "Lina Nolan"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Massage Addict does not publish per-treatment fees for this location (membership / preferred-pricing model; no fee list on the location page or practitioners page), so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.massageaddict.ca/brampton/our-practitioners",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "massage-addict-brampton-bovaird-and-worthington-brampton",
@@ -44805,7 +44824,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/brampton",
   "last_verified": "2026-11-01"
  },
  {
@@ -44818,7 +44837,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/brampton",
   "last_verified": "2026-11-01"
  },
  {
@@ -44831,7 +44850,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/bramptonbramalea",
   "last_verified": "2026-11-01"
  },
  {
@@ -44839,12 +44858,12 @@
   "treatment_id": "massage-addict-brampton-bramalea-and-sandalwood-brampton--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Urvi, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/bramptonbramalea/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -44857,7 +44876,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/bramptonhwy410",
   "last_verified": "2026-11-01"
  },
  {
@@ -44870,7 +44889,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/bramptonhwy410",
   "last_verified": "2026-11-01"
  },
  {
@@ -44883,7 +44902,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/brantford",
   "last_verified": "2026-11-01"
  },
  {
@@ -44896,7 +44915,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/brantford",
   "last_verified": "2026-11-01"
  },
  {
@@ -44909,7 +44928,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/brantford-westbrant",
   "last_verified": "2026-11-01"
  },
  {
@@ -44922,7 +44941,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/brantford-westbrant",
   "last_verified": "2026-11-01"
  },
  {
@@ -44935,7 +44954,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/burlington",
   "last_verified": "2026-11-01"
  },
  {
@@ -44948,7 +44967,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/burlington",
   "last_verified": "2026-11-01"
  },
  {
@@ -44961,7 +44980,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/burlington-powercentre",
   "last_verified": "2026-11-01"
  },
  {
@@ -44974,7 +44993,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/burlington-powercentre",
   "last_verified": "2026-11-01"
  },
  {
@@ -44982,12 +45001,12 @@
   "treatment_id": "massage-addict-calgary-beltline-calgary--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Eliezer Aday, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-beltline/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45000,7 +45019,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-beltline",
   "last_verified": "2026-11-01"
  },
  {
@@ -45008,12 +45027,12 @@
   "treatment_id": "massage-addict-calgary-braeside-calgary--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sydney Kranjcevic, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-braeside/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45021,12 +45040,12 @@
   "treatment_id": "massage-addict-calgary-braeside-calgary--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sydney Kranjcevic, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-braeside/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45034,12 +45053,12 @@
   "treatment_id": "massage-addict-calgary-brentwood-calgary--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "June Louise Gaerlan, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-brentwood/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45052,7 +45071,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-brentwood",
   "last_verified": "2026-11-01"
  },
  {
@@ -45065,7 +45084,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-chinookplaza/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45078,7 +45097,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-chinookplaza/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45091,7 +45110,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-cityscape/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45104,7 +45123,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-cityscape/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45112,12 +45131,12 @@
   "treatment_id": "massage-addict-calgary-crowfoot-calgary--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Raimi (Leah) Cadre; Muhammad Murad Ehsan",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-crowfoot/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45130,7 +45149,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-crowfoot/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45138,12 +45157,12 @@
   "treatment_id": "massage-addict-calgary-harvest-hills-calgary--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Alisha Patel",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-harvesthills/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45156,7 +45175,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-harvesthills/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45164,12 +45183,12 @@
   "treatment_id": "massage-addict-calgary-legacy-calgary--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Anna Liza Lopez; Michelle Post",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-legacy/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45182,7 +45201,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-legacy/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45190,12 +45209,12 @@
   "treatment_id": "massage-addict-calgary-mahogany-calgary--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Gabby Alfon",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-mahogany/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45208,7 +45227,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-mahogany/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45216,12 +45235,12 @@
   "treatment_id": "massage-addict-calgary-marda-loop-calgary--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ibiyemi Durojaiye",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-mardaloop/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45234,7 +45253,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-mardaloop/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45247,7 +45266,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-sagehillcrossing/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45260,7 +45279,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-sagehillcrossing/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45268,12 +45287,12 @@
   "treatment_id": "massage-addict-calgary-seton-calgary--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Igor Ceban",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-seton/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45286,7 +45305,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-seton/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45299,7 +45318,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-shawnessy/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45307,12 +45326,12 @@
   "treatment_id": "massage-addict-calgary-shawnessy-calgary--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jennifer Genetia; Perla Reyes",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-shawnessy/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45320,12 +45339,12 @@
   "treatment_id": "massage-addict-calgary-sunridge-calgary--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Analiza Atienza; Brianne Wilds",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-sunridge/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45338,7 +45357,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-sunridge/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45346,12 +45365,12 @@
   "treatment_id": "massage-addict-calgary-west-springs-calgary--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Qingying Sun (Sunny)",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-westsprings/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45364,7 +45383,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/calgary-westsprings/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -45377,7 +45396,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/cambridge-south",
   "last_verified": "2026-11-01"
  },
  {
@@ -45390,7 +45409,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/cambridge-south",
   "last_verified": "2026-11-01"
  },
  {
@@ -45411,12 +45430,12 @@
   "treatment_id": "massage-addict-charlottetown-charlottetown--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Kendra Oliver-Dares",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/charlottetown/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45424,12 +45443,12 @@
   "treatment_id": "massage-addict-charlottetown-charlottetown--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Kendra Oliver-Dares",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/charlottetown/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45437,12 +45456,12 @@
   "treatment_id": "massage-addict-chestermere-chestermere--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Emuesiri Okiemute Omoyibo",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/chestermere/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45455,7 +45474,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/chestermere",
   "last_verified": "2026-11-01"
  },
  {
@@ -45463,12 +45482,12 @@
   "treatment_id": "massage-addict-cochrane-cochrane--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Tamara Domeniuk",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/cochrane/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45476,12 +45495,12 @@
   "treatment_id": "massage-addict-cochrane-cochrane--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sungil Lee",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/cochrane/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45494,7 +45513,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/coleharbour/",
   "last_verified": "2026-11-01"
  },
  {
@@ -45507,7 +45526,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/coleharbour/",
   "last_verified": "2026-11-01"
  },
  {
@@ -45515,12 +45534,12 @@
   "treatment_id": "massage-addict-coquitlam-austin-heights-coquitlam--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Joshua",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/coquitlamaustinheights/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45533,7 +45552,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/coquitlamaustinheights",
   "last_verified": "2026-11-01"
  },
  {
@@ -45546,7 +45565,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/courtice",
   "last_verified": "2026-11-01"
  },
  {
@@ -45559,7 +45578,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/courtice",
   "last_verified": "2026-11-01"
  },
  {
@@ -45567,12 +45586,12 @@
   "treatment_id": "massage-addict-dartmouth-dartmouth--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sindi Cranley",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/dartmouth/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45580,12 +45599,12 @@
   "treatment_id": "massage-addict-dartmouth-dartmouth--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sean Irwin",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/dartmouth/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45593,12 +45612,12 @@
   "treatment_id": "massage-addict-dieppe-dieppe--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nicholas Vautour",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/dieppe/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45606,12 +45625,12 @@
   "treatment_id": "massage-addict-dieppe-dieppe--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nicholas Vautour",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/dieppe/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45624,7 +45643,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmonton-callingwood/",
   "last_verified": "2026-11-01"
  },
  {
@@ -45637,7 +45656,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmonton-callingwood/",
   "last_verified": "2026-11-01"
  },
  {
@@ -45645,12 +45664,12 @@
   "treatment_id": "massage-addict-edmonton-capilano-mall-edmonton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jack (Jun) Jiang",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmonton-capilanomall/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45658,12 +45677,12 @@
   "treatment_id": "massage-addict-edmonton-capilano-mall-edmonton--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Victoria Szabo",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmonton-capilanomall/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45676,7 +45695,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmontoncenturypark",
   "last_verified": "2026-11-01"
  },
  {
@@ -45689,7 +45708,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmontoncenturypark",
   "last_verified": "2026-11-01"
  },
  {
@@ -45697,12 +45716,12 @@
   "treatment_id": "massage-addict-edmonton-harvest-hills-edmonton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Hemant Kumar, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmontonharvesthills/rmt-bios",
   "last_verified": "2026-11-01"
  },
  {
@@ -45723,12 +45742,12 @@
   "treatment_id": "massage-addict-edmonton-manning-edmonton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ana B., RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/manning/rmt-bios",
   "last_verified": "2026-11-01"
  },
  {
@@ -45749,12 +45768,12 @@
   "treatment_id": "massage-addict-edmonton-namao-edmonton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Wifek Z., RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmontonnamao/rmt-bios",
   "last_verified": "2026-11-01"
  },
  {
@@ -45775,12 +45794,12 @@
   "treatment_id": "massage-addict-edmonton-northwest-edmonton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Katelyn K., RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmontonnw/rmt-bios",
   "last_verified": "2026-11-01"
  },
  {
@@ -45801,12 +45820,12 @@
   "treatment_id": "massage-addict-edmonton-southgate-edmonton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sumito, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmontonsouthgate/bios",
   "last_verified": "2026-11-01"
  },
  {
@@ -45814,12 +45833,12 @@
   "treatment_id": "massage-addict-edmonton-southgate-edmonton--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Melly, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmontonsouthgate/bios",
   "last_verified": "2026-11-01"
  },
  {
@@ -45827,12 +45846,12 @@
   "treatment_id": "massage-addict-edmonton-unity-square-edmonton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ana B., RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmontonunitysquare/rmt-bios",
   "last_verified": "2026-11-01"
  },
  {
@@ -45840,12 +45859,12 @@
   "treatment_id": "massage-addict-edmonton-unity-square-edmonton--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jade T., RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmontonunitysquare/rmt-bios",
   "last_verified": "2026-11-01"
  },
  {
@@ -45853,12 +45872,12 @@
   "treatment_id": "massage-addict-edmonton-windermere-edmonton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "My Suong T., RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmontonwindermere/rmt-bios",
   "last_verified": "2026-11-01"
  },
  {
@@ -45866,12 +45885,12 @@
   "treatment_id": "massage-addict-edmonton-windermere-edmonton--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Natasha W., RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/edmontonwindermere/rmt-bios",
   "last_verified": "2026-11-01"
  },
  {
@@ -45905,12 +45924,12 @@
   "treatment_id": "massage-addict-fredericton-brookside-drive-fredericton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Emma Humber, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/fredericton/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45918,12 +45937,12 @@
   "treatment_id": "massage-addict-fredericton-brookside-drive-fredericton--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Branden Ryan, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/fredericton/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45931,12 +45950,12 @@
   "treatment_id": "massage-addict-fredericton-prospect-street-fredericton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Emma Humber, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/fredericton/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -45944,12 +45963,12 @@
   "treatment_id": "massage-addict-fredericton-prospect-street-fredericton--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Branden Ryan, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/fredericton/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -46014,7 +46033,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/guelph",
   "last_verified": "2026-11-01"
  },
  {
@@ -46027,7 +46046,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/guelph",
   "last_verified": "2026-11-01"
  },
  {
@@ -46040,7 +46059,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/lacewood/",
   "last_verified": "2026-11-01"
  },
  {
@@ -46048,12 +46067,12 @@
   "treatment_id": "massage-addict-halifax-lacewood-halifax--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Gisella (Nelly G.) Vera S., RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/lacewood/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -46066,7 +46085,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/springgarden/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -46074,12 +46093,12 @@
   "treatment_id": "massage-addict-halifax-spring-garden-halifax--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Robin Harnish-Morrison, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/springgarden/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -46087,12 +46106,12 @@
   "treatment_id": "massage-addict-hamilton-stoney-creek-hwy-8-and-gray-rd-stoney-creek--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Steven Denyer, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/hamiltonstoneycreek-hwy8andgrayrd/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -46100,12 +46119,12 @@
   "treatment_id": "massage-addict-hamilton-stoney-creek-hwy-8-and-gray-rd-stoney-creek--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Heather Dilworth, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/hamiltonstoneycreek-hwy8andgrayrd/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -46118,7 +46137,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/stoneycreek",
   "last_verified": "2026-11-01"
  },
  {
@@ -46131,7 +46150,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/stoneycreek",
   "last_verified": "2026-11-01"
  },
  {
@@ -46144,7 +46163,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/hamiltonmountain",
   "last_verified": "2026-11-01"
  },
  {
@@ -46152,12 +46171,12 @@
   "treatment_id": "massage-addict-hamilton-west-mountain-hamilton--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sarah MacDonald, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/hamiltonmountain/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -46170,7 +46189,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/kingston",
   "last_verified": "2026-11-01"
  },
  {
@@ -46183,7 +46202,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/kingston",
   "last_verified": "2026-11-01"
  },
  {
@@ -46191,12 +46210,12 @@
   "treatment_id": "massage-addict-kitchener-kitchener--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ellen Scott, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/kitchener/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -46204,12 +46223,12 @@
   "treatment_id": "massage-addict-kitchener-kitchener--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nicolette Sahner, RMT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/kitchener/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -46217,12 +46236,12 @@
   "treatment_id": "massage-addict-lethbridge-lethbridge--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ajay Kumar, Licensed Massage Therapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/lethbridge/our-practitioners",
   "last_verified": "2026-11-01"
  },
  {
@@ -46235,7 +46254,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/lethbridge",
   "last_verified": "2026-11-01"
  },
  {
@@ -46248,7 +46267,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/london",
   "last_verified": "2026-11-01"
  },
  {
@@ -46261,7 +46280,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/london",
   "last_verified": "2026-11-01"
  },
  {
@@ -46274,7 +46293,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/london-highbury",
   "last_verified": "2026-11-01"
  },
  {
@@ -46287,7 +46306,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/london-highbury",
   "last_verified": "2026-11-01"
  },
  {
@@ -46300,7 +46319,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/londonoxfordwonderland",
   "last_verified": "2026-11-01"
  },
  {
@@ -46313,7 +46332,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massageaddict.ca/londonoxfordwonderland",
   "last_verified": "2026-11-01"
  },
  {
