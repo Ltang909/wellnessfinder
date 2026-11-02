@@ -180,7 +180,7 @@
     if (radiusLabel) radiusLabel.textContent = "Within " + radiusKm + " km";
 
     var list = clinicsForTreatments(names);
-    var cards = window.wfClinicCardsHTML ? function (l) { return window.wfClinicCardsHTML(l, "", false); } : null;
+    var cards = window.wfNcCardsHTML ? function (l) { grid.className = "nc-grid"; return window.wfNcCardsHTML(l, false); } : (window.wfClinicCardsHTML ? function (l) { return window.wfClinicCardsHTML(l, "", false); } : null);
     if (!window.wfGeo || !postalZone(postal) || !cards) {
       if (sub) sub.textContent = list.length + " clinics for your saved treatments. Add your postal code to sort by distance.";
       if (radiusWrap) radiusWrap.hidden = true;

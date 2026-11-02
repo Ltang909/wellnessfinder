@@ -489,42 +489,10 @@
         geoNote = `Featured in ${esc(provName(prov))} + top picks`;
       }
     }
-    fcIndex = ((fcIndex % vis.length) + vis.length) % vis.length;
-    const n = vis.length;
-    const at = (k) => vis[((fcIndex + k) % n + n) % n];
     const img = t ? fsImg(t) : "";
     const slug = treatmentSlug(fcTreatment);
-    const cardHTML = (annItem, k) => {
-      const c = annItem.c;
-      const note = (c.note || "").trim();
-      const fcDesc = (typeof FC_DESC !== "undefined" && FC_DESC[c.name]) || "";
-      const desc = fcDesc || (note
-        ? note.charAt(0).toUpperCase() + note.slice(1) + (note.endsWith(".") ? "" : ".")
-        : `${c.name} offers ${fcTreatment.toLowerCase()} in ${c.city || "Canada"}.`);
-      const media = (typeof CLINIC_MEDIA !== "undefined" && CLINIC_MEDIA[c.name]) || {};
-      const stars = Array.isArray(media.rating)
-        ? `<p class="fc-stars"><span class="fc-star-glyphs">${"\u2605".repeat(Math.round(media.rating[0]))}${"\u2606".repeat(5 - Math.round(media.rating[0]))}</span> ${media.rating[0].toFixed(1)} <span class="fc-rcount">(${media.rating[1]} Google reviews)</span></p>` : "";
-      const pract = media.practitioner ? `<p class="fc-line">${esc(media.practitioner)}</p>` : "";
-      const _fp = (media.priceByTreatment && media.priceByTreatment[fcTreatment]) || media.price;
-      const price = _fp ? `<p class="fc-line">${esc(_fp)}</p>` : "";
-      const db = media.db === "yes" ? `<p class="fc-db">Direct billing available</p>` : "";
-      const btn = k === 0
-        ? `<a class="fc-btn" href="${esc(media.link || c.book || c.web || "#")}" target="_blank" rel="noopener">View clinic</a>`
-        : `<span class="fc-btn">View clinic</span>`;
-      const photo = media.img ? `<img src="${esc(media.img)}" alt="${esc(c.name)}">` : "";
-      const fcSaved = getFavs().includes(c.name);
-      return `<article class="fc-card fc-d${Math.abs(k)} ${k === 0 ? "fc-card--active" : "fc-card--side"}${media.img ? "" : " fc-card--text"}" ${k === 0 ? "" : `data-fc-jump="${k}" role="button" tabindex="0" aria-label="Show ${esc(c.name)}"`}>
-            <button class="fav-btn ${fcSaved ? "saved" : ""}" data-fav="${esc(c.name)}" aria-label="Save ${esc(c.name)}" aria-pressed="${fcSaved}">${HEART}</button>
-            <h3>${esc(c.name)}</h3>
-            <p class="fc-city">${esc(c.city || "")}${c.prov ? `, ${esc(c.prov)}` : ""}</p>
-            ${annItem.d !== null && annItem.d !== undefined ? `<p class="fc-dist">📍 ${annItem.d < 1 ? "<1" : Math.round(annItem.d)} km away</p>` : ""}
-            ${photo}
-            <p class="fc-desc">${esc(desc)}</p>
-            ${stars}${pract}${price}${db}
-            ${btn}
-          </article>`;
-    };
-    const active = at(0);
+    const gObj = { name: fcTreatment, billed: (gtaDataFor(fcTreatment) || {}).billed || "" };
+    const cards = vis.map((a) => ncCardHTML(a.d != null ? Object.assign({}, a.c, { distKm: a.d }) : a.c, gObj)).join("");
     root.innerHTML = `
     <div class="fc-stage">
       <div class="fc-bg" style="background-image:url('${esc(img)}')"></div>
@@ -536,23 +504,15 @@
         <p class="fc-sub">${esc(cfg.sub)}</p>
         <p class="fc-viewall"><a href="/featured-${slug}">View all featured clinics \u2192</a></p>
         ${geoNote ? `<p class="fc-geo">${geoNote}</p>` : ""}
-        <div class="fc-rail${fcDir > 0 ? " fc--fwd" : fcDir < 0 ? " fc--back" : ""}">
-          ${(() => { const w = Math.min(n % 2 === 1 ? n : n - 1, 7); const half = Math.floor(w / 2); const ks = []; for (let k = -half; k <= half; k++) ks.push(k); return ks.map((k) => cardHTML(at(k), k)).join(""); })()}
-        </div>
-        <p class="fc-pager"><button type="button" data-fc-nav="-1" aria-label="Previous clinic">\u2039</button><b>${fcIndex + 1} / ${n}</b><button type="button" data-fc-nav="1" aria-label="Next clinic">\u203a</button></p>
+        <div class="nc-grid fc-grid">${cards}</div>
       </div>
     </div>`;
-    fcDir = 0;
     if (!root.dataset.wired) {
       root.dataset.wired = "1";
       root.addEventListener("click", (e) => {
         if (e.target.closest(".fav-btn")) { setTimeout(() => renderFeaturedClinics(), 0); return; }
         const sw = e.target.closest("[data-fc-treat]");
-        if (sw) { fcTreatment = sw.dataset.fcTreat; fcIndex = 0; renderFeaturedClinics(); return; }
-        const nav = e.target.closest("[data-fc-nav]");
-        if (nav) { fcDir = Math.sign(parseInt(nav.dataset.fcNav, 10)); fcIndex += parseInt(nav.dataset.fcNav, 10); renderFeaturedClinics(); return; }
-        const jump = e.target.closest("[data-fc-jump]");
-        if (jump) { fcDir = Math.sign(parseInt(jump.dataset.fcJump, 10)); fcIndex += parseInt(jump.dataset.fcJump, 10); renderFeaturedClinics(); }
+        if (sw) { fcTreatment = sw.dataset.fcTreat; renderFeaturedClinics(); }
       });
     }
   }
@@ -1237,8 +1197,8 @@
     if (X && X.h) {
       const st = ncTodayState(X.h, prov);
       const openBit = st.closed ? `<span class="nc-closed-txt">Closed today</span>`
-        : st.open === true ? `<span class="nc-open-dot"></span><span class="nc-open-txt">Open now</span> · Today <b>${esc(ncFmtHours(st.label))}</b>`
-        : st.open === false ? `<span class="nc-closed-dot"></span><span class="nc-closed-txt">Closed now</span> · Today <b>${esc(ncFmtHours(st.label))}</b>`
+        : st.open === true ? `<span class="nc-open-dot"></span><span class="nc-open-txt">Open now</span> · <b>${esc(ncFmtHours(st.label))}</b>`
+        : st.open === false ? `<span class="nc-closed-dot"></span><span class="nc-closed-txt">Closed now</span> · <b>${esc(ncFmtHours(st.label))}</b>`
         : `Today <b>${esc(ncFmtHours(st.label))}</b>`;
       todayHTML = `<p class="nc-today">${openBit}<button type="button" class="nc-more" data-nc-hours>See all hours ▾</button></p>`;
       weekHTML = `<div class="nc-week" hidden>${NC_WEEK.map((d) => {
@@ -1275,6 +1235,17 @@
     const cards = clinics.map((c) => ncCardHTML(c, g)).join("");
     return wrap === false ? cards : `<div class="nc-grid">${cards}</div>`;
   }
+
+  /* Grouped unified cards for /saved's explore list: clinics arrive
+     mixed across treatments, each carrying its own .treatment. */
+  window.wfNcCardsHTML = function (clinics, wrap) {
+    const byT = {};
+    (clinics || []).forEach((c) => { const t = c.treatment || ""; (byT[t] = byT[t] || []).push(c); });
+    const inner = Object.keys(byT).map((t) =>
+      byT[t].map((c) => ncCardHTML(c, { name: t, billed: (gtaDataFor(t) || {}).billed || "" })).join("")
+    ).join("");
+    return wrap === false ? inner : `<div class="nc-grid">${inner}</div>`;
+  };
 
   /* Gallery arrows + hours expander for the unified cards (delegated). */
   function initNcCards() {
