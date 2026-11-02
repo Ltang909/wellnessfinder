@@ -1175,6 +1175,31 @@
   "last_verified": null
  },
  {
+  "name": "Andalusia Speech Therapy",
+  "clinic_id": "andalusia-speech-therapy-kanata",
+  "address": "99 Kakulu Rd, Suite 200",
+  "city": "Kanata",
+  "prov": "ON",
+  "postal": "K2L 3C8",
+  "phone": "613-627-2947",
+  "website": "https://www.andalusiaspeech.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 8:00 PM",
+   "sun": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Anew Chiropractic",
   "clinic_id": "anew-chiropractic-calgary",
   "address": "933 17 Ave SW, Suite 500",
@@ -1192,6 +1217,31 @@
    "thu": "9:00 AM - 5:00 PM",
    "tue": "9:00 AM - 5:00 PM",
    "wed": "9:00 AM - 3:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Angela Citro",
+  "clinic_id": "angela-citro-kawartha-lakes",
+  "address": "26 Peel St",
+  "city": "Kawartha Lakes",
+  "prov": "ON",
+  "postal": null,
+  "phone": "705-324-2556",
+  "website": "http://www.equilibriumchiro.ca",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 6:00 PM",
+   "tue": "8:00 AM - 1:00 PM",
+   "wed": "9:30 AM - 7:00 PM",
+   "thu": "8:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 4:30 PM",
+   "sat": null,
+   "sun": null
   },
   "google_rating": null,
   "google_reviews": null,
@@ -1822,6 +1872,31 @@
   "google_reviews": 21,
   "rating_source": "Google Places details in search results for Backs in Action Rehab and Wellness Centre (rating 5.0, based on 21 reviews)",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Balance Point Acupuncture and Integrative Medicine",
+  "clinic_id": "balance-point-acupuncture-and-integrative-medicine-kelowna",
+  "address": "570 Raymer Ave, Suite 303",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": "V1Y 4Z5",
+  "phone": "778-484-9922",
+  "website": "https://balancepointokanagan.com/",
+  "booking_page": "https://balancepoint.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM - 6:30 PM",
+   "tue": "8:00 AM - 6:30 PM",
+   "wed": "8:00 AM - 6:30 PM",
+   "thu": "8:00 AM - 6:30 PM",
+   "fri": "8:00 AM - 6:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -3400,6 +3475,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Carrefour Sante Nutrition",
+  "clinic_id": "carrefour-sante-nutrition-joliette",
+  "address": "216 Rue Beaudry N",
+  "city": "Joliette",
+  "prov": "QC",
+  "postal": "J6E 6A6",
+  "phone": "450-755-2159",
+  "website": "http://www.carrefoursantenutrition.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "12:00 PM - 8:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 4,
+  "rating_source": "Google Places details in search results for Carrefour Sante Nutrition: 'Rating: five stars (5.0) Based on 4 reviews'.",
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Catherine Nutritionniste",
   "clinic_id": "catherine-nutritionniste-bromont",
   "address": null,
@@ -4750,6 +4850,31 @@
   "last_verified": null
  },
  {
+  "name": "CouplesWork",
+  "clinic_id": "coupleswork-kelowna",
+  "address": "106-347 Leon Ave",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": "V1Y 8C7",
+  "phone": "250-870-6507",
+  "website": "http://www.coupleswork.org/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 8:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Craven SPORT Services",
   "clinic_id": "craven-sport-services-saskatoon",
   "address": "#3-701 2nd Avenue North (Main Clinic)",
@@ -5056,6 +5181,31 @@
   "city": "Cobourg",
   "prov": "ON",
   "postal": null,
+  "phone": "1-888-245-5516",
+  "website": "https://www.daltonassociates.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dalton Associates",
+  "clinic_id": "dalton-associates-hamilton",
+  "address": "279 Locke Street South",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L8P 4C2",
   "phone": "1-888-245-5516",
   "website": "https://www.daltonassociates.ca/",
   "booking_page": null,
@@ -5525,6 +5675,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Alexa Saba",
+  "clinic_id": "dr-alexa-saba-hamilton",
+  "address": "166 Bay St North",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L8R 2P7",
+  "phone": "(905) 529-8800",
+  "website": "http://www.alexasaba.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 5:00 PM",
+   "tue": null,
+   "wed": "10:00 AM - 5:00 PM",
+   "thu": "10:00 AM - 4:00 PM",
+   "fri": "10:00 AM - 5:00 PM",
+   "sat": "10:00 AM - 1:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Alfred Hauk ND",
   "clinic_id": "dr-alfred-hauk-nd-brantford",
   "address": "274 King George Rd",
@@ -5750,6 +5925,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Brent Barlow",
+  "clinic_id": "dr-brent-barlow-kelowna",
+  "address": "1433 St Paul St, #201",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": null,
+  "phone": "250-448-5610",
+  "website": "http://drbrentbarlownd.com/",
+  "booking_page": "https://kelownawellness.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details in search results for Dr. Brent Barlow, Kelowna: 'Rating: five stars (5.0) Based on 1 reviews' (very low review count - flagged).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Brian Yeung ND",
   "clinic_id": "dr-brian-yeung-nd-markham",
   "address": "890A Yonge St",
@@ -5773,6 +5973,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Dr. Brit Watters",
+  "clinic_id": "dr-brit-watters-kelowna",
+  "address": "109 - 2365 Gordon Drive",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": "V1W 3C2",
+  "phone": "236-766-3153",
+  "website": "https://www.drbritwatters.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "11:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 4:00 PM",
+   "wed": "Closed",
+   "thu": "9:00 AM - 4:00 PM",
+   "fri": "9:00 AM - 2:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Dr. Brittany Jeffries",
@@ -6200,6 +6425,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Emily Pratt BSC ND NATUROPATHIC PHYSICIAN",
+  "clinic_id": "dr-emily-pratt-bsc-nd-naturopathic-physician-kelowna",
+  "address": "314 - 3001 Tutt Street",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": null,
+  "phone": "778-478-0048",
+  "website": "http://drpratt.ca/",
+  "booking_page": "https://nourishhealthclinic.janeapp.com/",
+  "hours": {
+   "mon": null,
+   "tue": "9:00 AM - 4:30 PM",
+   "wed": "9:00 AM - 4:30 PM",
+   "thu": "11:30 AM - 6:00 PM",
+   "fri": "9:00 AM - 2:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details in search results for Dr. Emily Pratt BSC ND NATUROPATHIC PHYSICIAN: 'Rating: five stars (5.0) Based on 1 reviews' (her personal listing; the separate Nourish Health clinic listing showed no rating in its Places extract).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Emina Jasarevic",
   "clinic_id": "dr-emina-jasarevic-kelowna",
   "address": "302-1630 Pandosy Street, Kelowna, BC, V1Y 1P7",
@@ -6575,6 +6825,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Kaleb Falk",
+  "clinic_id": "dr-kaleb-falk-kamloops",
+  "address": "735 Victoria St",
+  "city": "Kamloops",
+  "prov": "BC",
+  "postal": "V2C 2B5",
+  "phone": "250-374-9700",
+  "website": "https://www.drkalebfalk.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "12:00 PM - 6:00 PM",
+   "wed": null,
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 11,
+  "rating_source": "Google Places details in search results for Dr. Kaleb Falk: 'Rating: five stars (5.0) Based on 11 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Karen Ghelani",
   "clinic_id": "dr-karen-ghelani-markham",
   "address": "3621 Highway 7 East Suite 408",
@@ -6650,6 +6925,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Kirsten Storoshenko ND",
+  "clinic_id": "dr-kirsten-storoshenko-nd-kelowna",
+  "address": "202 - 2900 Pandosy Street",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": null,
+  "phone": "250-410-4406",
+  "website": "http://drkirstenstoro.com/",
+  "booking_page": "https://okanaganwomensclinic.janeapp.com/",
+  "hours": {
+   "mon": null,
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Lisa Kachaniwsky",
   "clinic_id": "dr-lisa-kachaniwsky-cambridge",
   "address": "1150 Franklin Blvd #103",
@@ -6700,6 +7000,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Lydia Kovacs ND",
+  "clinic_id": "dr-lydia-kovacs-nd-hamilton",
+  "address": "89 King St W #102",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-770-3520",
+  "website": "http://www.drlydiakovacsnd.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 3:00 PM",
+   "mon": "9:00 AM - 4:30 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 4:30 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "2:00 PM - 8:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 3,
+  "rating_source": "Google Places details in search results for Dr. Lydia Kovacs ND (89 King St W #102): 'Rating: five stars (5.0) Based on 3 reviews'.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Mandy Milliquet Naturopathic Doctor",
   "clinic_id": "dr-mandy-milliquet-naturopathic-doctor-calgary",
   "address": "640 42 Ave NE #1",
@@ -6717,6 +7042,56 @@
    "thu": "8:00 AM \u2013 5:00 PM",
    "tue": "8:00 AM \u2013 7:00 PM",
    "wed": "8:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Marissa Gaucher",
+  "clinic_id": "dr-marissa-gaucher-kelowna",
+  "address": "775 Seymour Street",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": "V2C 2H2",
+  "phone": "250-377-7416",
+  "website": "https://drmarissagaucher.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "12:00 PM - 7:00 PM",
+   "tue": null,
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Marissa Gaucher Naturopathic Physician",
+  "clinic_id": "dr-marissa-gaucher-naturopathic-physician-kamloops",
+  "address": "775 Seymour St",
+  "city": "Kamloops",
+  "prov": "BC",
+  "postal": "V2C 2H2",
+  "phone": "250-377-7416",
+  "website": "http://drmarissagaucher.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "12:00 PM - 7:00 PM",
+   "tue": null,
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
   },
   "google_rating": null,
   "google_reviews": null,
@@ -6797,6 +7172,56 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Melissa Bradwell",
+  "clinic_id": "dr-melissa-bradwell-kamloops",
+  "address": "735 Victoria St",
+  "city": "Kamloops",
+  "prov": "BC",
+  "postal": "V2C 2B5",
+  "phone": "250-374-9700",
+  "website": "https://www.totalhealthclinic.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 5:30 PM",
+   "tue": "8:30 AM - 5:30 PM",
+   "wed": "8:30 AM - 5:30 PM",
+   "thu": "8:30 AM - 5:30 PM",
+   "fri": "8:30 AM - 5:30 PM",
+   "sat": "9:00 AM - 12:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 9,
+  "rating_source": "Google Places details in search results for Total Health Clinic, Kamloops: 'Rating: five stars (5.0) Based on 9 reviews'. The rating attaches to the Total Health Clinic listing, the clinic where Dr. Bradwell practises; her own profile page carries no separate rating.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Michael Henry",
+  "clinic_id": "dr-michael-henry-kelowna",
+  "address": "#112 - 810 Clement Avenue",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": "V1Y 7C9",
+  "phone": "778-594-4022",
+  "website": "https://foundationkelowna.com/",
+  "booking_page": "https://foundation.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 7:00 PM",
+   "wed": "8:00 AM - 7:00 PM",
+   "thu": "8:00 AM - 7:00 PM",
+   "fri": "8:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 476,
+  "rating_source": "Clinic's own website homepage Google Reviews widget: 'Google Reviews / 5.0 Stars | 476 Reviews' (foundationkelowna.com, fetched via search extract 2026-11-01). A Places aggregator extract showing '5.0 based on 1 reviews' conflicts and was not used.",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -6942,6 +7367,31 @@
    "fri": "9:00 AM - 6:00 PM",
    "sat": "9:00 AM - 2:30 PM",
    "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Nora Fenton",
+  "clinic_id": "dr-nora-fenton-hamilton",
+  "address": "30 Sousa Mendes St",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": null,
+  "phone": "289-456-9270",
+  "website": "https://norafenton.com/",
+  "booking_page": "https://drnorafenton.janeapp.com/",
+  "hours": {
+   "fri": "10:00 AM - 5:00 PM",
+   "mon": null,
+   "sat": "11:00 AM - 3:00 PM",
+   "sun": null,
+   "thu": "2:00 PM - 8:00 PM",
+   "tue": "10:00 AM - 5:00 PM",
+   "wed": "10:00 AM - 5:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -7275,6 +7725,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Savinda Morais",
+  "clinic_id": "dr-savinda-morais-hamilton",
+  "address": "Unit 13, 640 Mohawk Road W",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L9C 1X6",
+  "phone": "905-318-8111",
+  "website": "http://www.drmoraisnd.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "Closed",
+   "mon": "Closed",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM - 6:00 PM",
+   "tue": "Closed",
+   "wed": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Shannon Ferguson",
   "clinic_id": "dr-shannon-ferguson-calgary",
   "address": "5149 Country Hills Blvd NW #336",
@@ -7372,6 +7847,31 @@
   "google_reviews": 180,
   "rating_source": "Clinic's own homepage https://www.strivespineandsport.com/ states '4.8 from 180+ Google reviews' (own-site Google badge claim; count recorded as 180, site says 180+)",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Susan Frame",
+  "clinic_id": "dr-susan-frame-kelowna",
+  "address": "434 Cedar Avenue",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": null,
+  "phone": "778-775-4595",
+  "website": "http://www.drsusanframe.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "9:00 AM - 1:00 PM",
+   "wed": "8:00 AM - 2:00 PM",
+   "thu": "9:00 AM - 2:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -8050,6 +8550,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Engage Health",
+  "clinic_id": "engage-health-kamloops",
+  "address": "622 St Paul St",
+  "city": "Kamloops",
+  "prov": "BC",
+  "postal": null,
+  "phone": "250-372-1529",
+  "website": "http://www.engagehealthkamloops.com/",
+  "booking_page": "https://resolvehealth.janeapp.com/",
+  "hours": {
+   "mon": "7:30 AM - 3:00 PM",
+   "tue": "7:30 AM - 3:00 PM",
+   "wed": "7:30 AM - 3:00 PM",
+   "thu": "7:30 AM - 3:00 PM",
+   "fri": "7:30 AM - 3:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 3,
+  "rating_source": "Google Places details in search results for Engage Health, Kamloops: 'Rating: five stars (5.0) Based on 3 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Enhanced Motion Inc.",
   "clinic_id": "enhanced-motion-inc-airdrie",
   "address": "520 1 Ave NE (inside At Dawn Wellness)",
@@ -8148,6 +8673,31 @@
   "rating_source": "Google Places details (place_id 414908450469844)",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Equilibrium Chiropractic and Wellness Centre",
+  "clinic_id": "equilibrium-chiropractic-and-wellness-centre-kawartha-lakes",
+  "address": "72 Lindsay St S",
+  "city": "Kawartha Lakes",
+  "prov": "ON",
+  "postal": null,
+  "phone": "705-324-2556",
+  "website": "http://www.equilibriumchiro.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 6:00 PM",
+   "tue": "8:00 AM - 6:00 PM",
+   "wed": "8:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 4:00 PM",
+   "fri": "8:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.3,
+  "google_reviews": 6,
+  "rating_source": "Google Places details in search results for Equilibrium Chiropractic and Wellness Centre: 'Rating: four and a half stars (4.3) Based on 6 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Eramosa Physiotherapy Associates",
@@ -8875,6 +9425,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Fueling With Food INC",
+  "clinic_id": "fueling-with-food-inc-kelowna",
+  "address": "104 - 1708 Dolphin Avenue",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": "V1Y 9S4",
+  "phone": "778-484-3835",
+  "website": "https://fuelingwithfood.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 8:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.6,
+  "google_reviews": 14,
+  "rating_source": "Google Places details in search results for Fueling With Food INC: 'Rating: four and a half stars (4.6) Based on 14 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Gaia",
   "clinic_id": "gaia-calgary",
   "address": "101 3rd Street SW",
@@ -9425,6 +10000,31 @@
   "last_verified": null
  },
  {
+  "name": "Hamilton Psychological Services",
+  "clinic_id": "hamilton-psychological-services-hamilton",
+  "address": "701 Main Street West, Suite 104",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L8S 1A2",
+  "phone": "905-527-5991",
+  "website": "http://www.hamiltonpsych.ca/",
+  "booking_page": "https://hamiltonpsych.clinicmaster.com",
+  "hours": {
+   "fri": "8:30 AM - 4:30 PM",
+   "mon": "8:30 AM - 7:30 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "8:30 AM - 7:30 PM",
+   "tue": "8:30 AM - 7:30 PM",
+   "wed": "8:30 AM - 7:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Hann Psychological Services",
   "clinic_id": "hann-psychological-services-halifax",
   "address": "5991 Spring Garden Road, Suite 585",
@@ -9523,6 +10123,31 @@
   "rating_source": "Google Places details in search results",
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Health First Chiropractic & Massage",
+  "clinic_id": "health-first-chiropractic-massage-halifax",
+  "address": "1894 Barrington St, Suite 156",
+  "city": "Halifax",
+  "prov": "NS",
+  "postal": null,
+  "phone": "902-429-5098",
+  "website": "https://healthfirstchiropractic.squarespace.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:30 AM - 5:00 PM",
+   "tue": "7:30 AM - 5:00 PM",
+   "wed": "7:30 AM - 3:30 PM",
+   "thu": "7:30 AM - 5:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 12,
+  "rating_source": "Google Places details in search results: rating 5.0 based on 12 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Health Globe Wellness Clinic",
@@ -9700,6 +10325,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Heaven on Earth & Integrated Health",
+  "clinic_id": "heaven-on-earth-integrated-health-hamilton",
+  "address": "188 Green Mountain Rd E",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L8J 3A4",
+  "phone": "905-664-9099",
+  "website": "http://www.heaven-onearth.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:30 AM - 8:30 PM",
+   "tue": "6:00 PM - 8:00 PM",
+   "wed": "11:00 AM - 6:30 PM",
+   "thu": "11:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "10:00 AM - 4:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Heidi Smith Nutrition",
   "clinic_id": "heidi-smith-nutrition-guelph",
   "address": "490 York Road",
@@ -9825,6 +10475,31 @@
   "last_verified": null
  },
  {
+  "name": "Holland Landing Health Centre",
+  "clinic_id": "holland-landing-health-centre-holland-landing",
+  "address": "6-19415 Yonge Street",
+  "city": "Holland Landing",
+  "prov": "ON",
+  "postal": "L9N 1L8",
+  "phone": "905-853-7900",
+  "website": "http://www.hlhc.ca/",
+  "booking_page": "https://hlhc.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 37,
+  "rating_source": "Google Places details in search results for Holland Landing Health Centre: 'Rating: five stars (5.0) Based on 37 reviews'.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "HomeSafe Psychology",
   "clinic_id": "homesafe-psychology-ottawa",
   "address": "1900 City Park Dr",
@@ -9873,6 +10548,31 @@
   "rating_source": null,
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Ideal Massage Therapy",
+  "clinic_id": "ideal-massage-therapy-halifax",
+  "address": "2962 Oxford Street, Suite 2",
+  "city": "Halifax",
+  "prov": "NS",
+  "postal": "B3L 2W2",
+  "phone": "902-789-0765",
+  "website": "https://idealmassagetherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "1:30 PM - 7:30 PM",
+   "tue": null,
+   "wed": "1:30 PM - 7:30 PM",
+   "thu": "1:30 PM - 7:30 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 12,
+  "rating_source": "Google Places details in search results: rating 5.0 based on 12 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Ideal Nutrition Care",
@@ -10006,6 +10706,31 @@
   "city": "Edmonton",
   "prov": "AB",
   "postal": "T5J 3S9",
+  "phone": "825-474-6633",
+  "website": "https://www.ingoodnutrition.com/",
+  "booking_page": "https://ingoodnutrition.janeapp.com/",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "In Good Nutrition",
+  "clinic_id": "in-good-nutrition-halifax",
+  "address": null,
+  "city": "Halifax",
+  "prov": "NS",
+  "postal": null,
   "phone": "825-474-6633",
   "website": "https://www.ingoodnutrition.com/",
   "booking_page": "https://ingoodnutrition.janeapp.com/",
@@ -10371,6 +11096,31 @@
   "google_rating": 4.8,
   "google_reviews": 26,
   "rating_source": "Google Places listing for Intrinsi via search results, read 2026-11-01: 4.8 stars, 26 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Intuition Dietitian Corp.",
+  "clinic_id": "intuition-dietitian-corp-kelowna",
+  "address": "104 - 347 Leon Avenue",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": "V1Y 8C7",
+  "phone": "250-862-7778",
+  "website": "http://joellejacobsenrd.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 7:30 PM",
+   "tue": "5:00 PM - 8:00 PM",
+   "wed": "12:30 PM - 7:30 PM",
+   "thu": "7:30 AM - 7:30 PM",
+   "fri": "7:30 AM - 7:00 PM",
+   "sat": "8:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -10897,7 +11647,32 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Kaizen Mental Performance",
+  "clinic_id": "kaizen-mental-performance-kelowna",
+  "address": "720 Valley Road",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": "V1V 0E1",
+  "phone": "205-718-0870",
+  "website": "https://www.kaizenmp.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Kaizen Physiotherapy Group / Kaizen Pilates",
@@ -10922,6 +11697,56 @@
   "google_reviews": null,
   "rating_source": "Google Places details returned rating: null; no Google rating badge/number found on clinic's own site",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Kamloops Physiotherapy",
+  "clinic_id": "kamloops-physiotherapy-kamloops",
+  "address": "683 Seymour St #1",
+  "city": "Kamloops",
+  "prov": "BC",
+  "postal": null,
+  "phone": "250-314-0788",
+  "website": "http://www.kamloopsphysiotherapy.ca/",
+  "booking_page": "https://kamloopsphysiotherapy.janeapp.com/",
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 2:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.6,
+  "google_reviews": 10,
+  "rating_source": "Google Places details in search results for Kamloops Physiotherapy and Sports Injury Centre: 'Rating: four and a half stars (4.6) Based on 10 reviews'.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Kamloops Physiotherapy and Sports Injury Centre",
+  "clinic_id": "kamloops-physiotherapy-and-sports-injury-centre-kamloops",
+  "address": "683 Seymour St #1",
+  "city": "Kamloops",
+  "prov": "BC",
+  "postal": null,
+  "phone": "250-314-0788",
+  "website": "http://www.kamloopsphysiotherapy.ca/",
+  "booking_page": "https://kamloopsphysiotherapy.janeapp.com/",
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 2:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.6,
+  "google_reviews": 10,
+  "rating_source": "Google Places details in search results for Kamloops Physiotherapy and Sports Injury Centre: 'Rating: four and a half stars (4.6) Based on 10 reviews'.",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -10973,6 +11798,31 @@
   "rating_source": null,
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Kelowna Pelvic Health",
+  "clinic_id": "kelowna-pelvic-health-kelowna",
+  "address": "200 - 5309 Main Street",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": "V1W 4S3",
+  "phone": "250-870-5260",
+  "website": "https://www.kelownapelvichealth.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 6:30 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Kent Chiro-Med Wellness Clinic",
@@ -11475,6 +12325,31 @@
   "last_verified": null
  },
  {
+  "name": "LifeCare Acupuncture & Natural Medicine Clinic",
+  "clinic_id": "lifecare-acupuncture-natural-medicine-clinic-halifax",
+  "address": "6066 Quinpool Road",
+  "city": "Halifax",
+  "prov": "NS",
+  "postal": "B3L 1A1",
+  "phone": "902-492-8839",
+  "website": "http://www.acupuncturens.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": null,
+   "thu": null,
+   "fri": "1:30 PM - 6:00 PM",
+   "sat": "1:00 PM - 6:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Lighthouse Psychology Services",
   "clinic_id": "lighthouse-psychology-services-calgary",
   "address": "1725 10 Ave SW #300",
@@ -11522,6 +12397,31 @@
   "google_reviews": 47,
   "rating_source": "Google Places details shown in search results for Limelight Wellness Centre (4.9 stars, 47 reviews). Aggregator figures seen elsewhere (e.g. 4.5/102 on a laser-hair-removal ranking site) were not used.",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Little Garden Clinic Halifax",
+  "clinic_id": "little-garden-clinic-halifax-halifax",
+  "address": "5880 Spring Garden Rd",
+  "city": "Halifax",
+  "prov": "NS",
+  "postal": null,
+  "phone": "902-266-8293",
+  "website": "https://www.littlegardenclinic.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -11650,6 +12550,31 @@
   "last_verified": null
  },
  {
+  "name": "Lococo Wellness Clinic",
+  "clinic_id": "lococo-wellness-clinic-hamilton",
+  "address": "302 Grays Rd",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": null,
+  "phone": "905-664-8500",
+  "website": "https://www.lococowellnessclinic.ca/",
+  "booking_page": "https://lococowellnessclinic.janeapp.com/",
+  "hours": {
+   "mon": "11:00 AM - 8:00 PM",
+   "tue": "11:00 AM - 5:00 PM",
+   "wed": "11:00 AM - 8:00 PM",
+   "thu": "11:00 AM - 5:00 PM",
+   "fri": "11:00 AM - 7:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Longevity Fertility Centre",
   "clinic_id": "longevity-fertility-centre-calgary",
   "address": "Suite 900, 903 8th Ave SW",
@@ -11747,6 +12672,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Luminate Co",
+  "clinic_id": "luminate-co-halifax",
+  "address": "486 Starboard Drive",
+  "city": "Halifax",
+  "prov": "NS",
+  "postal": "B3M 0N6",
+  "phone": "(902) 835-9319",
+  "website": "https://luminateco.ca/",
+  "booking_page": "https://luminateco.janeapp.com/",
+  "hours": {
+   "mon": "8:30 AM - 8:30 PM",
+   "tue": "8:30 AM - 8:30 PM",
+   "wed": "8:30 AM - 8:30 PM",
+   "thu": "8:30 AM - 8:30 PM",
+   "fri": "8:30 AM - 8:30 PM",
+   "sat": "9:00 AM - 6:00 PM",
+   "sun": "9:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -11900,6 +12850,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Madison Wood, RD",
+  "clinic_id": "madison-wood-rd-kelowna",
+  "address": "367 Beach Avenue",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": null,
+  "phone": "236-338-1688",
+  "website": "https://madisonnutrition.janeapp.com/",
+  "booking_page": "https://madisonnutrition.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Mai Acupuncture Barrie",
   "clinic_id": "mai-acupuncture-barrie-barrie",
   "address": "566 Bryne Drive Unit C1",
@@ -11948,6 +12923,31 @@
   "rating_source": null,
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Mama Wellness Co.",
+  "clinic_id": "mama-wellness-co-halifax",
+  "address": "397 Bedford Hwy, Suite 314",
+  "city": "Halifax",
+  "prov": "NS",
+  "postal": "B3M 2L3",
+  "phone": "(902) 329-8699",
+  "website": "https://www.mamawellnessco.ca/",
+  "booking_page": "https://mamawellnessco.janeapp.com/",
+  "hours": {
+   "mon": null,
+   "tue": "8:45 AM - 3:45 PM",
+   "wed": "10:00 AM - 5:00 PM",
+   "thu": "8:45 AM - 2:45 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Marathon Chiropractic Clinic",
@@ -12350,6 +13350,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Mel-Practice Massage Therapy",
+  "clinic_id": "mel-practice-massage-therapy-halifax",
+  "address": "1529 Birmingham St",
+  "city": "Halifax",
+  "prov": "NS",
+  "postal": null,
+  "phone": "902-405-8445",
+  "website": "http://www.mwtherapeutics.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "11:00 AM - 7:00 PM",
+   "wed": "11:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 3:00 PM",
+   "fri": "9:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Men's Pelvic Floor Physiotherapy Clinic",
   "clinic_id": "mens-pelvic-floor-physiotherapy-clinic-vaughan",
   "address": "10 Disera Dr",
@@ -12446,6 +13471,31 @@
   "google_rating": 4.9,
   "google_reviews": 648,
   "rating_source": "Clinic's own site http://www.metrotownphysio.com/ \u2014 'Rating: 4.9 (648 reviews)'",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Mia Pelvic Physio",
+  "clinic_id": "mia-pelvic-physio-hamilton",
+  "address": "409 Charlton Ave W",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L8P 2E6",
+  "phone": "905-745-9343",
+  "website": "http://www.miapelvicphysio.com/",
+  "booking_page": "https://wellmomsandco.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
@@ -12700,6 +13750,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Monarch Psychology",
+  "clinic_id": "monarch-psychology-hamilton",
+  "address": "1063 King St W #115",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L8S 4S3",
+  "phone": "437-747-4639",
+  "website": "http://monarchpsychology.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Monica Patt Acupuncture",
   "clinic_id": "monica-patt-acupuncture-edmonton",
   "address": "10118 124 Street, Suite A (Second Floor)",
@@ -12817,6 +13892,31 @@
    "fri": "9:00 AM - 6:00 PM",
    "sat": "Closed",
    "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Mulberry Wellness",
+  "clinic_id": "mulberry-wellness-hamilton",
+  "address": "166 Bay Street North",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L8R 2P7",
+  "phone": "(905) 529-8800",
+  "website": "https://www.mulberrywellness.ca/",
+  "booking_page": "https://mulberry.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 5:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "10:00 AM - 4:00 PM",
+   "sun": null,
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -13525,6 +14625,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "New Leaf Physiotherapy",
+  "clinic_id": "new-leaf-physiotherapy-kelowna",
+  "address": "1280 Ethel Street",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": null,
+  "phone": "250-826-7300",
+  "website": "https://www.newleafphysio.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 7:00 PM",
+   "sat": "10:00 AM - 2:00 PM",
+   "sun": "10:00 AM - 2:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Clinic's own website homepage business block states 'Rating: 5/5 (1 reviews)'. The Google Places extract in search results showed address, phone and hours but no rating, so the own-site figure is used and the low count is flagged.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "New Life Rehab Clinic",
   "clinic_id": "new-life-rehab-clinic-scarborough",
   "address": "1645 Warden Ave #102",
@@ -13725,6 +14850,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Nikki Acupuncture & Beauty Clinic",
+  "clinic_id": "nikki-acupuncture-beauty-clinic-halifax",
+  "address": "6169 Quinpool Rd, Suite 203",
+  "city": "Halifax",
+  "prov": "NS",
+  "postal": null,
+  "phone": "902-406-0550",
+  "website": "http://www.nikkisuiclinics.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "10:00 AM - 6:30 PM",
+   "wed": "10:00 AM - 6:30 PM",
+   "thu": "10:00 AM - 6:30 PM",
+   "fri": "10:00 AM - 6:30 PM",
+   "sat": "10:00 AM - 6:30 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "No Fear Counselling - Burnaby",
   "clinic_id": "no-fear-counselling-burnaby-burnaby",
   "address": "211 \u2013 7885 6th St",
@@ -13871,6 +15021,31 @@
   "google_rating": 4.9,
   "google_reviews": 18,
   "rating_source": "Google Places details in search results: 4.9 stars based on 18 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "North Kamloops Physiotherapy",
+  "clinic_id": "north-kamloops-physiotherapy-kamloops",
+  "address": "550 Tranquille Rd",
+  "city": "Kamloops",
+  "prov": "BC",
+  "postal": null,
+  "phone": "250-376-1141",
+  "website": "http://www.northkamloopsphysiotherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 4:30 PM",
+   "tue": "8:30 AM - 7:30 PM",
+   "wed": "8:30 AM - 4:30 PM",
+   "thu": "8:30 AM - 7:30 PM",
+   "fri": "8:30 AM - 4:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.5,
+  "google_reviews": 8,
+  "rating_source": "Google Places details in search results for North Kamloops Physiotherapy: 'Rating: four and a half stars (4.5) Based on 8 reviews'.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -17050,6 +18225,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Revive Health",
+  "clinic_id": "revive-health-hamilton",
+  "address": "#2-318 Dundurn St S",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L8P 2M5",
+  "phone": "(289) 887-6196",
+  "website": "https://hamontphysio.ca/",
+  "booking_page": "https://revivephysio.janeapp.com/",
+  "hours": {
+   "fri": "7:00 AM - 3:00 PM",
+   "mon": "7:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "7:00 AM - 8:00 PM",
+   "tue": "7:00 AM - 8:00 PM",
+   "wed": "7:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Revive Physiotherapy & Performance",
   "clinic_id": "revive-physiotherapy-performance-hamilton",
   "address": "#2-318 Dundurn St S",
@@ -18400,6 +19600,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Spinel Dental",
+  "clinic_id": "spinel-dental-hamilton",
+  "address": "93 Sanatorium Rd",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L9C 1Y6",
+  "phone": "(905) 318-6106",
+  "website": "https://www.spinel.dental/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 8:00 PM",
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 2:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 286,
+  "rating_source": "Clinic's own website homepage (spinel.dental, fetched 2026-11-01): Google-reviews widget/footer block showing 'Rating: 4.8 (286 ratings)' with Google review imagery linking to the clinic's Google page (g.page). A Google Places details extract for the same listing showed a conflicting 'Rating: five stars (5.0) Based on 12 reviews' - the conflict is flagged in gaps and the own site's current widget figure was recorded.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Spirit Spa",
+  "clinic_id": "spirit-spa-halifax",
+  "address": "5150 Salter St",
+  "city": "Halifax",
+  "prov": "NS",
+  "postal": null,
+  "phone": "(902) 431-8100",
+  "website": "https://www.spiritspa.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 6:00 PM",
+   "sun": "10:00 AM - 5:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 235,
+  "rating_source": "Google Places details in search results for the Salter St listing: 'Rating: five stars (4.8) Based on 235 reviews'.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Sport Manitoba Clinic",
   "clinic_id": "sport-manitoba-clinic-winnipeg",
   "address": "145 Pacific Ave #200",
@@ -18922,7 +20172,7 @@
   "google_reviews": 11,
   "rating_source": "Google Places details (place_id 533418995206943)",
   "direct_billing": "no",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "TalkInc Speech Language and Voice Therapy",
@@ -19192,6 +20442,31 @@
    "fri": "8:30 AM - 8:00 PM",
    "sat": "10:00 AM - 4:00 PM",
    "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Get Good",
+  "clinic_id": "the-get-good-hamilton",
+  "address": "201 James St S",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L8P 3A8",
+  "phone": "(647) 824-5536",
+  "website": "https://www.thegetgood.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 8:00 PM",
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "9:00 AM - 4:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -19700,6 +20975,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "The Voice Source",
+  "clinic_id": "the-voice-source-hamilton",
+  "address": "51 Barons Avenue North",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L8H 5A3",
+  "phone": "(905) 517-3809",
+  "website": "https://slpvoicesource.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "The Wellness Clinic Brandon",
   "clinic_id": "the-wellness-clinic-brandon-brandon",
   "address": "1711 Kirkcaldy Dr Unit 2",
@@ -19875,6 +21175,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Thrive Physiotherapy",
+  "clinic_id": "thrive-physiotherapy-hamilton",
+  "address": "237 Locke St S",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L8P 4T4",
+  "phone": "(905) 524-0000",
+  "website": "https://www.thrivephysio.com/",
+  "booking_page": "https://hamiltonphysio.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 4:00 PM",
+   "mon": "8:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 12:00 PM",
+   "sun": "Closed",
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 19,
+  "rating_source": "Google Places details in search results for Thrive Physiotherapy: 'Rating: five stars (5.0) Based on 19 reviews'.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Timeless Health Clinic",
   "clinic_id": "timeless-health-clinic-toronto",
   "address": "25 Wood St, Unit #1 (Lower Level)",
@@ -19998,6 +21323,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Total Kneads",
+  "clinic_id": "total-kneads-halifax",
+  "address": "5555 Sullivan Street",
+  "city": "Halifax",
+  "prov": "NS",
+  "postal": "B3K 1X6",
+  "phone": "(902) 422-0254",
+  "website": "http://totalkneads.ca/",
+  "booking_page": "https://totalkneads.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 4,
+  "rating_source": "Google Places details in search results for Total Kneads Massage Therapy: 'Rating: five stars (5.0) Based on 4 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Tower Physio",
@@ -20300,6 +21650,31 @@
   "last_verified": null
  },
  {
+  "name": "Unwind The Mind",
+  "clinic_id": "unwind-the-mind-hamilton",
+  "address": "430 York Blvd",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L8R 3K8",
+  "phone": "289-698-6722",
+  "website": "https://www.unwindthemind.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": "10:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "12:00 PM - 6:00 PM",
+   "tue": "10:00 AM - 8:30 PM",
+   "wed": "10:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Urban Retreat Massage Therapy",
   "clinic_id": "urban-retreat-massage-therapy-halifax",
   "address": "5551 Clyde Street, Halifax, NS, B3J 3T5",
@@ -20321,6 +21696,31 @@
   "google_rating": 5.0,
   "google_reviews": 40,
   "rating_source": "Google Places details in search results (Rating: five stars (5.0), Based on 40 reviews)",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "VCC Health Centre",
+  "clinic_id": "vcc-health-centre-halifax",
+  "address": "Suite 103 - 5991 Spring Garden Rd",
+  "city": "Halifax",
+  "prov": "NS",
+  "postal": "B3H 1Y6",
+  "phone": "902-452-5991",
+  "website": "https://www.vcchealth.ca/services",
+  "booking_page": "https://vcchealth.janeapp.com/",
+  "hours": {
+   "mon": "12:00 PM - 8:00 PM",
+   "tue": "12:00 PM - 8:00 PM",
+   "wed": "12:00 PM - 8:00 PM",
+   "thu": "12:00 PM - 8:00 PM",
+   "fri": "12:00 PM - 8:00 PM",
+   "sat": "12:00 PM - 8:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
@@ -20722,6 +22122,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Webster Massage Therapy",
+  "clinic_id": "webster-massage-therapy-hamilton",
+  "address": "910 Brock Rd",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": null,
+  "phone": "289-309-1095",
+  "website": "https://webstermassagetherapy.ca/",
+  "booking_page": "https://webstermassagetherapy.ca/",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -21447,6 +22872,31 @@
   "google_reviews": null,
   "rating_source": "Clinic's own website (https://icryocanada.com/perfusion-iv/) displays 'Note de 4,9 sur 5' above IV therapy reviews individually labelled 'via Google Reviews'; no Brossard-specific review count is published (the English page's 'more than 10,000 reviews' is chain-wide), so google_reviews is null. See gaps for the 4.9 vs 4.8 own-site conflict.",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "iMove Clinic - York Blvd",
+  "clinic_id": "imove-clinic-york-blvd-hamilton",
+  "address": "340 York Blvd #301",
+  "city": "Hamilton",
+  "prov": "ON",
+  "postal": "L8R 3L2",
+  "phone": "(905) 381-4250",
+  "website": "https://imoveclinic.com/",
+  "booking_page": "https://imoveclinic.janeapp.com/locations/imove-clinic-york-blvd/book",
+  "hours": {
+   "fri": "8:00 AM - 12:00 PM",
+   "mon": "8:00 AM - 5:00 PM",
+   "sat": "8:00 AM - 12:00 PM",
+   "sun": "Closed",
+   "thu": "8:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 7:00 PM",
+   "wed": "8:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
