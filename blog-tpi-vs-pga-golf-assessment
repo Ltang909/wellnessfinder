@@ -18,7 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css?v=67" />
 <link rel="canonical" href="https://wellfinder.ca/blog-tpi-vs-pga-golf-assessment" />
 <script type="application/ld+json">
 {
@@ -85,12 +85,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <section class="subhero">
     <div class="wrap">
+      <div class="article-wrap">
       <a class="back" href="/#resources">← Back to Resources</a>
       <p class="eyebrow">A WellFinder guide</p>
       <h1>TPI vs PGA Golf Assessment: <em>Why You May Want Both</em></h1>
       <p>A PGA professional looks at your swing. A TPI trained practitioner looks at your body. Here is how they differ, and when combining both can make sense.</p>
       <p class="byline">By WellFinder · September 2026 · 5 min read</p>
     </div>
+      </div>
+    
   </section>
 
   <section class="section--tight">
@@ -260,8 +263,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p>Browse golf swing assessment clinics across Canada, including TPI trained physiotherapists and chiropractors, and check direct billing before you book.</p>
           <a class="btn btn--primary" href="/golf">Search golf swing assessment clinics</a>
         </div>
-
-        <p class="disclaimer">Informational only, not medical advice. Confirm coverage with your insurer and the clinic before booking.</p>
       </div>
     </div>
   </section>
@@ -288,7 +289,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
         </div>
       </div>
-      <p class="footer-bottom">Wellness coverage can vary by insurer, plan, and provider. These are personal discoveries and community recommendations — not guarantees of coverage. Always check with your insurer before booking. This directory is for informational purposes only.</p>
+      <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
     </div>
   </footer>
 
