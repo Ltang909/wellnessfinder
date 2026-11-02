@@ -1058,7 +1058,6 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
    (scoped to .article-wrap so clinic subheroes keep their caps) */
 .subhero .article-wrap h1 { max-width: none; }
 .subhero .article-wrap p { max-width: none; }
->>>>>>> article-wide
 
 /* Count sits below the protruding active tab block (stem removed). */
 .fs-panel .fs-count { margin-top: 44px; }

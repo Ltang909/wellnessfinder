@@ -18,7 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=76" />
+  <link rel="stylesheet" href="css/styles.css?v=77" />
 <link rel="canonical" href="https://wellfinder.ca/about" />
 </head>
 <body data-page="about">
@@ -96,13 +96,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <h3>Building WellFinder</h3>
             <p>The personal list became a searchable directory — and now, a platform aiming to help any Canadian understand and use what their plan already covers.</p>
           </div>
-        </div>
-
-        <div class="mission">
-          <p class="eyebrow" style="justify-content:center">The mission</p>
-          <h2>Find the right treatment. Understand your insurance. Connect with the right clinic.</h2>
-          <p>Found a hidden gem or want to compare notes on covered wellness?</p>
-          <p style="margin-top:18px"><a class="btn btn--primary" href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Connect on Instagram →</a></p>
         </div>
       </div>
     </div>
