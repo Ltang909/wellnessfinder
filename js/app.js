@@ -315,7 +315,9 @@
     </article>`;
   }
   function fsMiniHTML(t) {
+    const miniSaved = getFavs().includes(t.name);
     return `<article class="fs-mini">
+      <button class="fav-btn ${miniSaved ? "saved" : ""}" data-fav="${esc(t.name)}" aria-label="Save ${esc(t.name)}" aria-pressed="${miniSaved}">${HEART}</button>
       <img src="${esc(fsImg(t))}" alt="${esc(t.name)}" loading="lazy">
       <h4>${esc(t.name)} <span class="fs-arr">\u2192</span></h4>
       ${fsClinicsLink(t)}
