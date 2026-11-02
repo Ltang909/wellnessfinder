@@ -1046,7 +1046,7 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .fc-rcount { color: #77736A; font-weight: 400; font-size: .72rem; }
 .fc-line { margin-top: 5px; font-size: .62rem; letter-spacing: .22em; text-transform: uppercase; color: #6E8F7A; font-weight: 600; }
 .fc-line + .fc-line { margin-top: 6px; }
-.fc-db { display: inline-block; margin-top: 7px; padding: 5px 12px; border-radius: 999px; background: #FFCE45; color: #0F2D2B; font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; }
+.fc-db { display: inline-block; margin-top: 7px; padding: 4px 10px; border-radius: 999px; background: #E8EBE9; color: #0F2D2B; border: 1px solid #d8ddd9; font-size: .74rem; font-weight: 700; }
 .fc-card--side .fc-db { filter: grayscale(1); opacity: .7; }
 
 /* Real claims: stat strip + scrolling Google review quotes */

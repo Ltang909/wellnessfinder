@@ -560,7 +560,7 @@
       /* direct billing: three honest states */
       const dbv = media.db || (X && X.db) || "";
       const db = dbv === "yes"
-        ? `<p class="fc-db">✓ Direct billing available</p>`
+        ? `<p class="fc-db" title="Direct billing available" aria-label="Direct billing available">✓</p>`
         : dbv === "no"
           ? `<p class="fc-db fc-db-no">No direct billing — pay &amp; claim with receipt</p>`
           : "";
