@@ -9,167 +9,167 @@
 const TREATMENTS = [
   { group: "Move Better", name: "Clinical Pilates", billed: "Physio / Chiro",
     categories: ["Physiotherapy", "Chiropractic"], link: "/pilates",
-    desc: "One-on-one reformer or movement sessions guided by a physiotherapist or rehab professional. A workout experience with a clinical twist — great for posture, strength, mobility, and injury prevention.",
+    desc: "One-on-one reformer Pilates led by a registered physiotherapist, as rehab for posture and strength.",
     detail: "Because the session is delivered by a regulated physiotherapist or chiropractor, it's billed as physiotherapy or chiropractic rather than as a fitness class — which is why it often lands inside your extended health benefits." },
 
   { group: "Move Better", name: "Facial Manual Therapy", billed: "Osteopathy",
     categories: ["Osteopathy"], link: null,
-    desc: "Gentle facial and jaw-focused bodywork using techniques like craniosacral and myofascial release. Facial relaxation meets whole-body alignment — cleanse, massage, and finish with a mask.",
-    detail: "Delivered by an osteopathic practitioner, so it's typically claimed under an osteopathy benefit. Confirm your osteopathy allowance and whether your plan recognizes your provider's designation." },
+    desc: "Gentle facial and jaw bodywork by an osteopathic practitioner, easing tension with craniosacral release.",
+    detail: "Delivered by an osteopathic practitioner, so it's typically claimed under an osteopathy benefit." },
 
   { group: "Move Better", name: "Golf Swing Assessment", billed: "Physio / Chiro",
     categories: ["Physiotherapy", "Chiropractic"], link: "/golf",
-    desc: "A TPI movement screen for golfers — mobility, stability, and rotation — run by a TPI-certified physiotherapist or chiropractor, not a golf pro.",
+    desc: "A TPI movement screen run by a certified physiotherapist or chiropractor, mapping body to swing.",
     detail: "Because it's a physical screen delivered by a physio or chiro, it's billed like any other physio/chiro visit — worth checking your benefits before assuming it's an out-of-pocket golf lesson." },
 
   { group: "Look & Feel Better", name: "Cosmetic Acupuncture", billed: "Acupuncture / Naturo",
     categories: ["Acupuncture", "Naturopathy"], link: "/naturopath",
-    desc: "Fine needle treatments focused on skin tone, circulation, and a natural glow.",
+    desc: "Fine-needle facial treatments by a registered acupuncturist or naturopath, for tone and glow.",
     detail: "Often provided by a naturopathic doctor or registered acupuncturist, so it can be claimed under naturopathy or acupuncture depending on the provider's credentials and your plan." },
 
-  { group: "Look & Feel Better", name: "Microneedling", billed: "Naturopathy*",
+  { group: "Look & Feel Better", name: "Microneedling", billed: "Naturopathy",
     categories: ["Naturopathy"], link: "/naturopath",
-    desc: "Collagen-focused skin treatment often paired with a naturopathic skin consultation. *Coverage varies by provider.",
-    detail: "When performed within a naturopathic visit, part of the appointment may be claimable under naturopathy. Coverage varies widely — always confirm with the clinic and your insurer first." },
+    desc: "Collagen-boosting skin needling by a naturopathic doctor, paired with a naturopathic skin consult.",
+    detail: "When performed within a naturopathic visit, part of the appointment may be claimable under naturopathy." },
 
   { group: "Look & Feel Better", name: "IM Vitamin Therapy", billed: "Naturopathy",
     categories: ["Naturopathy"], link: "/naturopath",
-    desc: "Vitamin B12 and glutathione shots given as quick intramuscular injections, often explored for energy and skin wellness goals.",
+    desc: "Quick B12 and glutathione injections by a naturopathic doctor, for energy, immunity and skin goals.",
     detail: "Administered during a naturopathic appointment and typically billed under naturopathy. Ask whether the injectable itself and the visit are billed separately." },
 
   { group: "Look & Feel Better", name: "IV Vitamin Therapy", billed: "Naturopathy",
     categories: ["Naturopathy"], link: "/naturopath",
-    desc: "Personalized vitamin and hydration infusions administered by qualified practitioners.",
+    desc: "Personalized vitamin and hydration drips administered by a naturopathic doctor, after an assessment.",
     detail: "When supervised by a naturopathic doctor, the consult portion is often claimable under naturopathy even if the infusion itself is out of pocket. Check the split with the clinic." },
 
   { group: "Perform Better", name: "Interview Preparation", billed: "Speech‑Language",
     categories: ["Speech Therapy"], link: null,
-    desc: "Not just for speech challenges — speech therapists can help with communication confidence, presentations, interviews, and vocal skills.",
+    desc: "Communication coaching with a speech-language pathologist, sharpening interview answers and presence.",
     detail: "Delivered by a speech-language pathologist, so it can be claimed under a speech therapy benefit that many people never think to use for communication coaching." },
 
   { group: "Perform Better", name: "Singing Voice Therapy", billed: "Speech‑Language",
     categories: ["Speech Therapy"], link: null,
-    desc: "Voice coaching and therapy techniques to improve vocal control, endurance, and performance. Perfect for anyone who wants to become a better karaoke singer.",
+    desc: "Voice therapy from a speech-language pathologist who works with singers on control and stamina.",
     detail: "Provided by speech-language pathologists who specialize in voice, so it may be covered under your speech-language benefit rather than paid as a private singing lesson." },
 
-  { group: "Brain & Mind", name: "Neurofeedback", billed: "Psychotherapy*",
+  { group: "Brain & Mind", name: "Neurofeedback", billed: "Psychotherapy",
     categories: ["Psychotherapy"], link: null,
-    desc: "Brain-training sessions using real-time feedback to build awareness, focus, and regulation. *Coverage varies by provider.",
-    detail: "When offered by a registered psychotherapist or psychologist, sessions may be claimed under mental-health benefits. Coverage varies by provider designation, so confirm first." },
+    desc: "Brain-training with real-time feedback, guided by a registered psychotherapist or psychologist, to build focus and calm.",
+    detail: "When offered by a registered psychotherapist or psychologist, sessions may be claimed under mental-health benefits." },
 
   { group: "Look & Feel Better", name: "Red Light Therapy", billed: "Physio / Chiro",
     categories: ["Physiotherapy", "Chiropractic"], link: null,
-    desc: "Panels of red and near infrared light aimed at skin health, muscle recovery, and joint comfort. Offered at physio and chiro clinics as part of rehab, and at wellness studios for skin.",
+    desc: "Red and near-infrared light panels used by physiotherapists and chiropractors in rehab plans for skin, recovery and joints.",
     detail: "When delivered as part of a physiotherapy or chiropractic treatment plan, red light sessions are often billed under that visit rather than as a standalone wellness service." },
 
   { group: "Perform Better", name: "Cryotherapy", billed: "Physiotherapy",
     categories: ["Physiotherapy"], link: null,
-    desc: "Brief exposure to extreme cold, through whole body chambers or targeted applicators, used for muscle recovery, inflammation, and soreness after training.",
+    desc: "Brief whole-body or targeted cold therapy from sports physiotherapists, for inflammation and recovery.",
     detail: "Sports physio clinics that offer cryo as part of recovery programming typically bill the visit as physiotherapy. Standalone cryo studios without regulated practitioners usually cannot be claimed." },
 
   { group: "Look & Feel Better", name: "Head Spa", billed: "Massage Therapy",
     categories: ["Massage Therapy"], link: null,
-    desc: "The viral scalp treatment: deep cleanse, exfoliation, massage, and steam. Reimagined as therapy when performed by a registered massage therapist.",
+    desc: "The viral scalp treatment — cleanse, exfoliation, steam and massage — by a registered massage therapist.",
     detail: "A head spa performed by an RMT can be billed as massage therapy. The same treatment at a salon without a registered practitioner cannot be claimed." },
 
   { group: "Look & Feel Better", name: "Medical Botox", billed: "Dental",
     categories: ["Dental"], link: null,
-    desc: "Therapeutic botox for jaw clenching and TMJ pain, performed by a dentist. This is dental treatment, not the cosmetic kind.",
-    detail: "When a dentist prescribes botox for TMJ dysfunction or bruxism, it is a dental treatment rather than a cosmetic one, which changes how it can be claimed. Confirm with your dentist and your plan first." },
+    desc: "Therapeutic Botox by a dentist for jaw clenching, teeth grinding and TMJ pain, treating the muscle behind the pain.",
+    detail: "When a dentist prescribes botox for TMJ dysfunction or bruxism, it is a dental treatment rather than a cosmetic one, which changes how it can be claimed." },
 
   { group: "Brain & Mind", name: "Sleep Coaching", billed: "Psychology",
     categories: ["Psychology"], link: null,
-    desc: "Structured programs for insomnia and poor sleep, often based on CBT for insomnia, delivered by psychologists or sleep therapists.",
+    desc: "Structured CBT-I sleep programs led by a registered psychologist, retraining habits that keep you awake.",
     detail: "CBT for insomnia is an evidence based psychological treatment. When delivered by a registered psychologist, sessions typically fall under psychology benefits." },
 
   { group: "Move Better", name: "Pelvic Floor Physiotherapy", billed: "Physiotherapy",
     categories: ["Physiotherapy"], link: null,
-    desc: "Assessment and treatment of the pelvic floor muscles for incontinence, postpartum recovery, pelvic pain, and core strength.",
+    desc: "Pelvic floor assessment and treatment by a trained physiotherapist, for postpartum recovery, pelvic pain and core strength.",
     detail: "Delivered by physiotherapists with pelvic health training, so it bills as physiotherapy like any other physio visit. Many people pay out of pocket without realizing it is covered." },
 
   { group: "Perform Better", name: "Bike Fitting", billed: "Physiotherapy",
     categories: ["Physiotherapy"], link: null,
-    desc: "A professional bike fit assessing your position, movement, and comfort on the bike, run by a physiotherapist instead of a bike shop.",
+    desc: "A clinical bike fit by a physiotherapist, assessing position, movement and comfort on the bike.",
     detail: "When a physiotherapist performs the fit as a musculoskeletal assessment, it can be billed as physiotherapy. A retail bike shop fit cannot be claimed." },
 
   { group: "Perform Better", name: "Running Gait Analysis", billed: "Physiotherapy",
     categories: ["Physiotherapy"], link: null,
-    desc: "Video and movement analysis of your running form to address pain, improve efficiency, and prevent injury.",
+    desc: "Video gait analysis with a physiotherapist who treats running pain and builds injury-proof form.",
     detail: "Offered at physiotherapy clinics as part of an assessment, so it typically bills as physiotherapy rather than as a coaching service." },
 
   { group: "Move Better", name: "Shockwave Therapy", billed: "Physio / Chiro",
     categories: ["Physiotherapy", "Chiropractic"], link: null,
-    desc: "Acoustic wave treatment for stubborn tendon issues like plantar fasciitis and tennis elbow, offered at physio and chiro clinics.",
+    desc: "Acoustic-wave treatment by a physiotherapist or chiropractor, for tendon pain like plantar fasciitis.",
     detail: "Delivered as part of a physiotherapy or chiropractic treatment plan, so it is usually billed under that visit." },
 
   { group: "Move Better", name: "TMJ Massage", billed: "Massage Therapy",
     categories: ["Massage Therapy"], link: null,
-    desc: "Targeted jaw, neck, and head massage for teeth grinding, clenching, and jaw pain, including intra oral techniques.",
+    desc: "Jaw, neck and head massage by a registered massage therapist, including intra-oral TMJ work.",
     detail: "Performed by a registered massage therapist, it bills as massage therapy. Many people live with jaw pain without knowing this option exists in their benefits." },
 
   { group: "Move Better", name: "Lymphatic Drainage", billed: "Massage Therapy",
     categories: ["Massage Therapy"], link: null,
-    desc: "Gentle rhythmic massage that supports lymph flow, often used after surgery or for swelling and fluid retention.",
+    desc: "Gentle, rhythmic lymphatic massage by a registered massage therapist, supporting surgical recovery and easing swelling.",
     detail: "When performed by an RMT as part of recovery care, it bills as massage therapy." },
 
   { group: "Brain & Mind", name: "Couples Therapy", billed: "Psychology",
     categories: ["Psychology", "Psychotherapy"], link: null,
-    desc: "Structured relationship counselling with a psychologist or registered psychotherapist, including approaches like the Gottman method.",
+    desc: "Relationship counselling with a registered psychologist or psychotherapist, often Gottman-based.",
     detail: "Many people assume couples therapy is never covered, but sessions with a registered provider typically fall under psychology or psychotherapy benefits." },
 
   { group: "Brain & Mind", name: "Mental Performance Coaching", billed: "Psychology",
     categories: ["Psychology"], link: null,
-    desc: "Mindset coaching for athletes, performers, and executives: focus, confidence, and pressure management with a sports psychologist.",
+    desc: "Mindset coaching from a sports psychologist for athletes, performers and executives under pressure.",
     detail: "Delivered by a registered psychologist, performance coaching is a psychological service rather than generic life coaching, which is why it can fall under psychology benefits." },
 
   { group: "Perform Better", name: "Accent Modification", billed: "Speech Therapy",
     categories: ["Speech Therapy"], link: null,
-    desc: "Speech therapy for clearer communication: pronunciation, rhythm, and confidence for professionals speaking English as an additional language.",
+    desc: "Pronunciation coaching with a speech-language pathologist, building clarity in spoken English.",
     detail: "Delivered by a speech language pathologist, so it bills as speech therapy like any other speech service." },
 
   { group: "Perform Better", name: "Myofunctional Therapy", billed: "Speech Therapy",
     categories: ["Speech Therapy"], link: null,
-    desc: "Exercises for tongue posture, breathing, and swallowing patterns, used for mouth breathing, orthodontic relapse, and sleep quality.",
+    desc: "Tongue and breathing exercises with a speech-language pathologist, for mouth breathing and sleep.",
     detail: "Offered by speech language pathologists and some dental clinics, it bills as speech therapy when delivered by a registered provider." },
 
   { group: "Look & Feel Better", name: "Facial Gua Sha", billed: "Acupuncture",
     categories: ["Acupuncture"], link: null,
-    desc: "Traditional Chinese medicine facial technique using smooth stone tools for circulation, tension, and glow, performed at acupuncture clinics.",
+    desc: "Traditional facial gua sha with smooth stone tools, performed by a registered acupuncturist for circulation and glow.",
     detail: "When performed by a registered acupuncturist as part of TCM treatment, it typically bills under acupuncture benefits." },
 
   { group: "Perform Better", name: "Sports Nutrition", billed: "Dietitian",
     categories: ["Dietitian"], link: null,
-    desc: "Meal planning and fueling strategies from a registered dietitian for training, performance, and recovery.",
+    desc: "Meal planning and fueling strategies from a registered dietitian who works with athletes.",
     detail: "Registered dietitian is a covered category in many extended health plans, yet most people never check. Sessions bill as dietitian services." },
 
   { group: "Look & Feel Better", name: "Fertility Acupuncture", billed: "Acupuncture",
     categories: ["Acupuncture"], link: null,
-    desc: "Acupuncture protocols that support fertility for both women and men, often used alongside IVF or IUI or while trying naturally.",
+    desc: "Acupuncture care from a registered acupuncturist, supporting fertility with or without IVF.",
     detail: "Delivered by a registered acupuncturist, sessions typically bill under acupuncture benefits. Many people only discover this coverage after paying out of pocket for months." },
 
   { group: "Look & Feel Better", name: "Fertility Consultation", billed: "Naturopathy",
     categories: ["Naturopathy"], link: null,
-    desc: "Naturopathic fertility care for both partners: hormone testing, cycle support, sperm health, and preconception planning.",
+    desc: "Naturopathic fertility care for both partners: hormone testing, cycle and sperm health support.",
     detail: "Naturopathic doctors can order labs and build fertility plans for both male and female partners. Visits bill as naturopathy under most extended plans." },
 
   { group: "Move Better", name: "Performing Arts Physiotherapy", billed: "Physiotherapy",
     categories: ["Physiotherapy"], link: "/clinics-performing-arts-physiotherapy",
-    desc: "Physiotherapy built for dancers and performing artists: injury treatment, technique-safe strength work, and pre-pointe assessments that check whether a young dancer's feet, ankles and core are ready for pointe work.",
+    desc: "Physiotherapy for dancers and performing artists, from a physiotherapist who knows the stage.",
     detail: "Delivered by a registered physiotherapist, so sessions bill as physiotherapy rather than as dance training \u2014 which is why they often land inside your extended health benefits." },
 
   { group: "Brain & Mind", name: "Psychoeducational Assessments", billed: "Psychology",
     categories: ["Psychology"], link: "/clinics-psychoeducational-assessments",
-    desc: "Formal testing by a registered psychologist that identifies learning disabilities, ADHD, autism and giftedness \u2014 for kids who are struggling at school and adults who have always wondered. The report unlocks school supports, workplace accommodations and exam adjustments.",
-    detail: "A full assessment runs $2,500 to $3,500 out of pocket, and because a registered psychologist performs it, many plans cover a meaningful share under the psychology benefit. Confirm your plan's per-assessment and hourly caps first." },
+    desc: "Formal learning and ADHD assessments by a registered psychologist, producing the report schools and workplaces act on.",
+    detail: "A full assessment runs $2,500 to $3,500 out of pocket, and because a registered psychologist performs it, many plans cover a meaningful share under the psychology benefit." },
 
   { group: "Move Better", name: "Vestibular Rehabilitation", billed: "Physiotherapy",
     categories: ["Physiotherapy"], link: "/clinics-vestibular-rehabilitation",
-    desc: "Physiotherapy for vertigo, dizziness and balance problems \u2014 BPPV, Meniere's, post-concussion dizziness. A vestibular-trained physio finds which part of the balance system is misfiring and retrains it, often in a handful of sessions.",
+    desc: "Vertigo and dizziness treatment by a vestibular-trained physiotherapist who retrains balance.",
     detail: "Delivered by a registered physiotherapist, so it bills as physiotherapy and often lands inside your extended health benefits." },
 
   { group: "Perform Better", name: "Stuttering Therapy", billed: "Speech Therapy",
     categories: ["Speech Therapy"], link: "/clinics-stuttering-therapy",
-    desc: "Speech therapy for adults and teens who stutter \u2014 fluency shaping, stuttering modification and confidence for presentations, interviews and everyday conversation, in person or by telepractice.",
+    desc: "Fluency therapy for teens and adults who stutter, with a speech-language pathologist.",
     detail: "Delivered by a registered speech-language pathologist, so it bills as speech therapy and often lands inside your extended health benefits." }
 ];
 
@@ -1769,6 +1769,32 @@ const CLINIC_MEDIA = {
 
 /* Geo tags for featured clinics: province, postal code, coordinates.
    Powers the featured section's province + 25 km filtering. */
+/* Featured-clinic card descriptions (2026-11-01): each clinic's service,
+   who delivers it, and its key intro, pulled from the clinic's own website.
+   No coverage/billing language. Renderer prefers these over the raw note. */
+const FC_DESC = {
+  "Revival Physio": "Physio Reformer Pilates blends physio with strength and mobility training, led one-on-one by trained clinical instructors.",
+  "Pulse Physiotherapy": "Hands-on Clinical Pilates led one-on-one by a licensed physiotherapist, assessment-first and tailored to your recovery.",
+  "Toronto Physiotherapy (Danforth & Chester)": "One-on-one Physio Pilates on the reformer, after a physiotherapist assessment, guided by certified Pilates instructors.",
+  "Focus Physio + Wellness": "One-on-one Clinical Pilates led by a physiotherapist, on reformer and mat for core strength, posture and rehab control.",
+  "Treloar Physiotherapy — Cambie": "One-on-one Clinical Pilates in a private four-reformer studio, guided by a registered physiotherapist after an assessment.",
+  "Synergy Physiotherapy and Pilates": "PhysioPilates for flexibility, posture and core strength, with one-on-one sessions and group classes in Halifax's North End.",
+  "Pilates4Physio": "One-on-one Pilates-based physiotherapy by Damian Wyard, physiotherapist and Stott rehab instructor, with gradual re-loading.",
+  "PhysioLinks Rehab Clinic": "Golf rehab led by owner-physiotherapist Mandeep Virk, pairing a full movement evaluation with tech-based swing analysis.",
+  "MOTI Physio": "TPI golf rehab with physiotherapist Jonathan Li, a Medical Level 3 clinician, starting with a TPI Movement Screen.",
+  "Anchor Health and Performance Clinic": "Certified TPI golf assessment with chiropractor Dr. Brett Herlehy, built on TPI's 16-part physical screen.",
+  "OAK Physio & Wellness": "Golf-specific assessment and rehab with TPI-certified physiotherapist Adrian Smith, focused on mobility and rotation.",
+  "VF Mobility Labs": "Biomechanical golf swing analysis with founder and TPI-certified physiotherapist Vanessa Foucher, for pain-free play.",
+  "Ohana Wellness Clinic": "TPI-certified golf swing assessment with chiropractor Dr. Julian Colantonio, including a 16-point physical screen.",
+  "Arbutus Physiotherapy": "TPI Physical Screen by a certified physiotherapist: 16 movement mini-tests mapping your Body-Swing Connection.",
+  "Qi Integrated Health": "Microneedling by naturopathic doctor Dr. Julie Cahill, ND, tailored to your skin type for texture, fine lines and acne scars.",
+  "Dr. Caitlin Batting": "Microneedling as collagen induction therapy by Dr. Caitlin Batting, ND, for scars, fine lines and texture.",
+  "Dr. Lauren Cottom": "SkinPen microneedling and PRP by Dr. Lauren Cottom, ND, for skin and hair that glows through every decade.",
+  "Well BYND": "SkinPen microneedling that prompts your own collagen and elastin, easing fine lines, wrinkles, acne scars and sun damage.",
+  "Health Globe Wellness Clinic": "Profound Matrix RF microneedling by Candela sends radiofrequency through ultra-thin needles to firm skin and soften lines.",
+  "Everwell ND": "RF microneedling on a naturopathic foundation, refining texture and tone and supporting collagen that builds over time."
+};
+
 const FC_GEO = {
  "Revival Physio": {
   "prov": "ON",

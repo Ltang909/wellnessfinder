@@ -474,9 +474,10 @@
     const cardHTML = (annItem, k) => {
       const c = annItem.c;
       const note = (c.note || "").trim();
-      const desc = note
+      const fcDesc = (typeof FC_DESC !== "undefined" && FC_DESC[c.name]) || "";
+      const desc = fcDesc || (note
         ? note.charAt(0).toUpperCase() + note.slice(1) + (note.endsWith(".") ? "" : ".")
-        : `${c.name} offers ${fcTreatment.toLowerCase()} in ${c.city || "Canada"}.`;
+        : `${c.name} offers ${fcTreatment.toLowerCase()} in ${c.city || "Canada"}.`);
       const media = (typeof CLINIC_MEDIA !== "undefined" && CLINIC_MEDIA[c.name]) || {};
       const stars = Array.isArray(media.rating)
         ? `<p class="fc-stars"><span class="fc-star-glyphs">${"\u2605".repeat(Math.round(media.rating[0]))}${"\u2606".repeat(5 - Math.round(media.rating[0]))}</span> ${media.rating[0].toFixed(1)} <span class="fc-rcount">(${media.rating[1]} Google reviews)</span></p>` : "";
