@@ -496,21 +496,79 @@
     const at = (k) => vis[((fcIndex + k) % n + n) % n];
     const cardHTML = (annItem, k) => {
       const c = annItem.c;
-      const note = (c.note || "").trim();
-      const fcDesc = (typeof FC_DESC !== "undefined" && FC_DESC[c.name]) || "";
-      const desc = fcDesc || (note
-        ? note.charAt(0).toUpperCase() + note.slice(1) + (note.endsWith(".") ? "" : ".")
-        : `${c.name} offers ${fcTreatment.toLowerCase()} in ${c.city || "Canada"}.`);
       const media = (typeof CLINIC_MEDIA !== "undefined" && CLINIC_MEDIA[c.name]) || {};
-      const stars = Array.isArray(media.rating)
-        ? `<p class="fc-stars"><span class="fc-star-glyphs">${"\u2605".repeat(Math.round(media.rating[0]))}${"\u2606".repeat(5 - Math.round(media.rating[0]))}</span> ${media.rating[0].toFixed(1)} <span class="fc-rcount">(${media.rating[1]} Google reviews)</span></p>` : "";
-      const pract = media.practitioner ? `<p class="fc-line">${esc(media.practitioner)}</p>` : "";
-      const _fp = (media.priceByTreatment && media.priceByTreatment[fcTreatment]) || media.price;
-      const price = _fp ? `<p class="fc-line">${esc(_fp)}</p>` : "";
-      const db = media.db === "yes" ? `<p class="fc-db">Direct billing available</p>` : "";
-      const btn = k === 0
-        ? `<a class="fc-btn" href="${esc(media.link || c.book || c.web || "#")}" target="_blank" rel="noopener">View clinic</a>`
-        : `<span class="fc-btn">View clinic</span>`;
+      const key = (c.name + "|" + c.city).toLowerCase();
+      const X = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.x[key]) || null;
+      const pair = X && X.pairs ? X.pairs[fcTreatment] : null;
+      const prov = c.prov || "ON";
+
+      /* description: same composition as the unified minipage card —
+         treatment + billed-as lead, then the clinic's own hook */
+      const billed = (pair && pair.ba) || (gtaDataFor(fcTreatment) || {}).billed || "";
+      const hook = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.lead[c.name] && CLINIC_EXTRA.lead[c.name][fcTreatment]) || "";
+      let desc;
+      if (hook && billed) desc = `${fcTreatment} billed as ${billed} — ${hook}`;
+      else if (hook) desc = `${fcTreatment} — ${hook}`;
+      else if (billed) desc = `${fcTreatment} billed as ${billed}${pair && pair.pr ? ` with ${pair.pr}` : ""} in ${c.city}.`;
+      else desc = `${fcTreatment} in ${c.city}, ${prov}.`;
+
+      /* rating: curated media first, else the verified record */
+      let stars = "";
+      const rt = Array.isArray(media.rating) ? media.rating : (X && X.r ? [X.r, X.n || 0] : null);
+      if (rt) stars = `<p class="fc-stars"><span class="fc-star-glyphs">${"★".repeat(Math.round(rt[0]))}${"☆".repeat(5 - Math.round(rt[0]))}</span> ${Number(rt[0]).toFixed(1)} <span class="fc-rcount">(${rt[1]} Google reviews)</span></p>`;
+
+      const pract = (pair && pair.pr) || media.practitioner;
+      const practHTML = pract ? `<p class="fc-line">${esc(pract)}</p>` : "";
+
+      /* address */
+      let addr = "";
+      if (X && X.a) addr = `${X.a}, ${c.city}, ${prov}${X.po ? " " + X.po : ""}`;
+      else if (c.loc) addr = c.loc;
+      const addrHTML = addr ? `<p class="fc-addr">${esc(addr)}</p>` : "";
+
+      /* price + verification tier, same resolution as the unified card */
+      let price = "";
+      if (media.priceByTreatment && media.priceByTreatment[fcTreatment]) price = media.priceByTreatment[fcTreatment];
+      else if (pair && pair.p) price = pair.p;
+      else if (media.price) price = media.price;
+      else if (c.price && c.price.indexOf("$") > -1) price = c.price;
+      let priceHTML = "", tierHTML = "";
+      if (price) {
+        priceHTML = `<p class="fc-price">${esc(price)}</p>`;
+        if (pair && pair.t === "booking") tierHTML = `<p class="fc-tier"><span class="fc-tier-ok">✓ Verified on booking page</span></p>`;
+        else if (pair && pair.t === "website") tierHTML = `<p class="fc-tier">Price from clinic website</p>`;
+        else if (pair && pair.t === "review") tierHTML = `<p class="fc-tier">Price from a recent review</p>`;
+      } else {
+        priceHTML = `<p class="fc-price"><span class="fc-noprice">Price on request</span></p>`;
+      }
+
+      /* direct billing: three honest states */
+      const dbv = media.db || (X && X.db) || "";
+      const db = dbv === "yes"
+        ? `<p class="fc-db">✓ Direct billing available</p>`
+        : dbv === "no"
+          ? `<p class="fc-db fc-db-no">No direct billing — pay &amp; claim with receipt</p>`
+          : `<p class="fc-db fc-db-unk">Direct billing not confirmed — ask the clinic</p>`;
+
+      /* today's hours + open/closed state */
+      let hoursHTML = "";
+      if (X && X.h) {
+        const st = ncTodayState(X.h, prov);
+        const bit = st.closed ? `<span class="nc-closed-txt">Closed today</span>`
+          : st.open === true ? `<span class="nc-open-dot"></span><span class="nc-open-txt">Open now</span> · <b>${esc(ncFmtHours(st.label))}</b>`
+          : st.open === false ? `<span class="nc-closed-dot"></span><span class="nc-closed-txt">Closed now</span> · <b>${esc(ncFmtHours(st.label))}</b>`
+          : `Today <b>${esc(ncFmtHours(st.label))}</b>`;
+        hoursHTML = `<p class="fc-hours">${bit}</p>`;
+      } else {
+        hoursHTML = `<p class="fc-hours"><span class="fc-hours-na">Hours not listed</span></p>`;
+      }
+
+      /* actions: real links on the centre card, inert on side cards (they jump) */
+      const book = media.link || c.book || (X && X.b) || (pair && pair.l) || "";
+      const web = c.web || (X && X.w) || "";
+      const btns = k === 0
+        ? `<div class="fc-btns">${book ? `<a class="fc-btn fc-btn-book" href="${esc(book)}" target="_blank" rel="noopener">Book appointment</a>` : ""}${web ? `<a class="fc-btn fc-btn-web" href="${esc(web)}" target="_blank" rel="noopener">Website ↗</a>` : ""}</div>`
+        : `<div class="fc-btns">${book ? `<span class="fc-btn fc-btn-book">Book appointment</span>` : ""}${web ? `<span class="fc-btn fc-btn-web">Website ↗</span>` : ""}</div>`;
       const photo = media.img ? `<img src="${esc(media.img)}" alt="${esc(c.name)}">` : "";
       const fcSaved = getFavs().includes(c.name);
       return `<article class="fc-card fc-d${Math.abs(k)} ${k === 0 ? "fc-card--active" : "fc-card--side"}${media.img ? "" : " fc-card--text"}" ${k === 0 ? "" : `data-fc-jump="${k}" role="button" tabindex="0" aria-label="Show ${esc(c.name)}"`}>
@@ -520,8 +578,8 @@
             ${annItem.d !== null && annItem.d !== undefined ? `<p class="fc-dist">📍 ${annItem.d < 1 ? "<1" : Math.round(annItem.d)} km away</p>` : ""}
             ${photo}
             <p class="fc-desc">${esc(desc)}</p>
-            ${stars}${pract}${price}${db}
-            ${btn}
+            ${stars}${practHTML}${addrHTML}${priceHTML}${tierHTML}${db}${hoursHTML}
+            ${btns}
           </article>`;
     };
     const active = at(0);

@@ -1137,3 +1137,19 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .nc-btn-book { background: #FFCE45; color: #161616; flex: 1; }
 .nc-btn-web { background: #fff; border: 1.5px solid #0F2D2B; color: #0F2D2B; }
 @media (prefers-reduced-motion: reduce) { .nc-track { transition: none; } }
+
+/* Featured carousel cards carry the unified card's information set. */
+.fc-addr { margin-top: 8px; padding: 0 26px; font-size: .74rem; color: #47635B; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fc-price { margin-top: 10px; padding: 0 26px; font-size: .92rem; font-weight: 700; color: #161616; }
+.fc-noprice { font-weight: 500; color: #47635B; }
+.fc-tier { margin-top: 3px; padding: 0 26px; font-size: .7rem; color: #7c8a80; }
+.fc-tier-ok { color: #1d9d62; font-weight: 600; }
+.fc-db-no { background: #fff; border: 1.5px solid #0F2D2B; color: #0F2D2B; letter-spacing: .06em; text-transform: none; font-size: .68rem; padding: 6px 12px; }
+.fc-db-unk { background: #fff; border: 1.5px dashed #9db3a5; color: #47635B; letter-spacing: .06em; text-transform: none; font-size: .68rem; padding: 6px 12px; }
+.fc-hours { margin-top: 10px; padding: 0 26px; font-size: .76rem; color: #33302B; display: flex; align-items: center; justify-content: center; gap: 5px; }
+.fc-hours-na { color: #7c8a80; }
+.fc-btns { display: flex; gap: 8px; justify-content: center; padding: 0 26px; }
+.fc-btns .fc-btn { margin-top: 14px; padding: 11px 16px; letter-spacing: .14em; }
+.fc-btn-book { background: #FFCE45; color: #161616; }
+.fc-btn-web { background: #fff; border: 1.5px solid #0F2D2B; color: #0F2D2B; padding: 9.5px 16px; }
+.fc-card--side .fc-btns .fc-btn { filter: grayscale(1); }
