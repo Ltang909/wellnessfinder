@@ -433,6 +433,25 @@
     return { featured: [...noted, ...rest].slice(0, 7), total: all.length };
   }
   let fcUserPt = null;
+  /* One-line price for the featured carousel: "$140 assessment / $125 follow up". */
+  function fcPriceLine(s) {
+    const str = String(s || "").trim();
+    if (!str) return "";
+    const amounts = [];
+    const re = /\$[\d,]+(?:\.\d+)?/g;
+    let m;
+    while ((m = re.exec(str))) amounts.push({ v: m[0], at: m.index, end: re.lastIndex });
+    const segAfter = (x) => { const n = str.indexOf("$", x.end); return str.slice(x.end, n === -1 ? str.length : n); };
+    if (amounts.length >= 2 && /initial|assessment/i.test(str)) {
+      const a0 = amounts.find((x) => /initial|assessment/i.test(segAfter(x))) || amounts[0];
+      const f0 = amounts.find((x) => x !== a0 && /follow[- ]?up/i.test(str.slice(Math.max(0, x.at - 14), x.at) + segAfter(x))) || amounts.find((x) => x !== a0);
+      if (a0 && f0) return `${a0.v} assessment / ${f0.v} follow up`;
+    }
+    let clean = str.replace(/\s*\([^)]*\)/g, "").replace(/\s*[;\u00b7]\s*$/, "").trim();
+    if (clean.includes(";")) clean = clean.split(";")[0].trim();
+    return clean.length <= 40 ? clean : clean.split(/\s*[;\u00b7]\s*/)[0];
+  }
+
   function renderFeaturedClinics() {
     const root = $("#fcRoot"); if (!root || typeof TREATMENTS === "undefined") return;
     const cfg = FC_TREATMENTS.find((x) => x.name === fcTreatment) || FC_TREATMENTS[1];
@@ -534,12 +553,10 @@
       else if (c.price && c.price.indexOf("$") > -1) price = c.price;
       let priceHTML = "", tierHTML = "";
       if (price) {
-        priceHTML = `<p class="fc-price">${esc(price)}</p>`;
+        priceHTML = `<p class="fc-price">${esc(fcPriceLine(price))}</p>`;
         if (pair && pair.t === "booking") tierHTML = `<p class="fc-tier"><span class="fc-tier-ok">✓ Verified on booking page</span></p>`;
         else if (pair && pair.t === "website") tierHTML = `<p class="fc-tier">Price from clinic website</p>`;
         else if (pair && pair.t === "review") tierHTML = `<p class="fc-tier">Price from a recent review</p>`;
-      } else {
-        priceHTML = `<p class="fc-price"><span class="fc-noprice">Price on request</span></p>`;
       }
 
       /* direct billing: three honest states */
@@ -548,7 +565,7 @@
         ? `<p class="fc-db">✓ Direct billing available</p>`
         : dbv === "no"
           ? `<p class="fc-db fc-db-no">No direct billing — pay &amp; claim with receipt</p>`
-          : `<p class="fc-db fc-db-unk">Direct billing not confirmed — ask the clinic</p>`;
+          : "";
 
       /* today's hours + open/closed state */
       let hoursHTML = "";
@@ -559,8 +576,6 @@
           : st.open === false ? `<span class="nc-closed-dot"></span><span class="nc-closed-txt">Closed now</span> · <b>${esc(ncFmtHours(st.label))}</b>`
           : `Today <b>${esc(ncFmtHours(st.label))}</b>`;
         hoursHTML = `<p class="fc-hours">${bit}</p>`;
-      } else {
-        hoursHTML = `<p class="fc-hours"><span class="fc-hours-na">Hours not listed</span></p>`;
       }
 
       /* actions: real links on the centre card, inert on side cards (they jump) */
@@ -574,7 +589,6 @@
       return `<article class="fc-card fc-d${Math.abs(k)} ${k === 0 ? "fc-card--active" : "fc-card--side"}${media.img ? "" : " fc-card--text"}" ${k === 0 ? "" : `data-fc-jump="${k}" role="button" tabindex="0" aria-label="Show ${esc(c.name)}"`}>
             <button class="fav-btn ${fcSaved ? "saved" : ""}" data-fav="${esc(c.name)}" aria-label="Save ${esc(c.name)}" aria-pressed="${fcSaved}">${HEART}</button>
             <h3>${esc(c.name)}</h3>
-            <p class="fc-city">${esc(c.city || "")}${c.prov ? `, ${esc(c.prov)}` : ""}</p>
             ${annItem.d !== null && annItem.d !== undefined ? `<p class="fc-dist">📍 ${annItem.d < 1 ? "<1" : Math.round(annItem.d)} km away</p>` : ""}
             ${photo}
             <p class="fc-desc">${esc(desc)}</p>

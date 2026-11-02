@@ -1140,7 +1140,7 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 
 /* Featured carousel cards carry the unified card's information set. */
 .fc-addr { margin-top: 8px; padding: 0 26px; font-size: .74rem; color: #47635B; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.fc-price { margin-top: 10px; padding: 0 26px; font-size: .92rem; font-weight: 700; color: #161616; }
+.fc-price { margin-top: 10px; padding: 0 26px; font-size: .92rem; font-weight: 700; color: #161616; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .fc-noprice { font-weight: 500; color: #47635B; }
 .fc-tier { margin-top: 3px; padding: 0 26px; font-size: .7rem; color: #7c8a80; }
 .fc-tier-ok { color: #1d9d62; font-weight: 600; }
