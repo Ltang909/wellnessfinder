@@ -487,8 +487,6 @@
         const rest = ann.filter((a) => a.provC !== prov).sort((a, b) => (b.feat ? 1 : 0) - (a.feat ? 1 : 0));
         vis = [...inProv, ...rest].slice(0, Math.max(5, inProv.length));
         geoNote = `Featured in ${esc(provName(prov))} + top picks`;
-      } else {
-        geoNote = `No featured ${esc(cfg.label)} clinics in ${esc(provName(prov))} yet — showing all`;
       }
     }
     fcIndex = ((fcIndex % vis.length) + vis.length) % vis.length;
@@ -536,7 +534,7 @@
         <div class="fc-switcher">${FC_TREATMENTS.map((x) =>
           `<button type="button" class="fc-switch ${x.name === fcTreatment ? "active" : ""}" data-fc-treat="${esc(x.name)}">${esc(x.label)}</button>${x !== FC_TREATMENTS[FC_TREATMENTS.length - 1] ? '<span class="fc-dot">\u2022</span>' : ""}`).join("")}</div>
         <p class="fc-sub">${esc(cfg.sub)}</p>
-        <p class="fc-viewall"><a href="/clinics-${slug}">View all ${total} ${esc(cfg.label)} clinics \u2192</a></p>
+        <p class="fc-viewall"><a href="/featured-${slug}">View all featured clinics \u2192</a></p>
         ${geoNote ? `<p class="fc-geo">${geoNote}</p>` : ""}
         <div class="fc-rail">
           ${(() => { const lo = -Math.floor((n - 1) / 2), hi = Math.ceil((n - 1) / 2); const ks = []; for (let k = lo; k <= hi; k++) ks.push(k); return ks.map((k) => cardHTML(at(k), k)).join(""); })()}
@@ -1138,17 +1136,29 @@
   function renderTreatmentPage() {
     const name = document.body && document.body.dataset ? document.body.dataset.treatment : "";
     if (!name) return;
-    const g = gtaDataFor(name); if (!g) return;
+    const g0 = gtaDataFor(name); if (!g0) return;
+    /* Featured minipage (body[data-featured]): same shell and location
+       scoping as the treatment page, but the list is the curated featured
+       set for this treatment (photos-only, same pool as the homepage
+       stage) instead of the full directory. */
+    const isFeat = !!(document.body.dataset && document.body.dataset.featured);
+    let g = g0;
+    if (isFeat) {
+      const fc = fcFeatured(name);
+      const withPhoto = fc.featured.filter((c) => typeof CLINIC_MEDIA !== "undefined" && CLINIC_MEDIA[c.name] && CLINIC_MEDIA[c.name].img);
+      g = Object.assign({}, g0, { clinics: withPhoto.length ? withPhoto : fc.featured });
+    }
     const head = $("#tpHead"), list = $("#tpList");
     const PROV_NAMES = { ON: "Ontario", BC: "British Columbia", AB: "Alberta", SK: "Saskatchewan", MB: "Manitoba", QC: "Quebec", NB: "New Brunswick", NS: "Nova Scotia", PE: "Prince Edward Island", NL: "Newfoundland and Labrador", YT: "Yukon", NT: "Northwest Territories", NU: "Nunavut" };
     if (head) {
+      const lede = isFeat ? ((FC_TREATMENTS.find((x) => x.name === name) || {}).sub || g.desc) : g.desc;
       head.innerHTML =
-        `<p class="eyebrow"><a href="/">WellFinder</a> · Canada directory</p>
-         <h1>${esc(g.name)} clinics across Canada</h1>
+        `<p class="eyebrow"><a href="/">WellFinder</a> · ${isFeat ? "Featured clinics" : "Canada directory"}</p>
+         <h1>${isFeat ? `Featured ${esc(g.name)} clinics` : `${esc(g.name)} clinics across Canada`}</h1>
          ${g.billed ? `<p class="tp-billed">Billed as ${esc(g.billed)}</p>` : ""}
-         ${g.desc ? `<p class="lede">${esc(g.desc)}</p>` : ""}
+         ${lede ? `<p class="lede">${esc(lede)}</p>` : ""}
          ${g.image ? `<figure class="tp-fig"><img src="${esc(g.image.src)}" alt="${esc(g.name)}" loading="lazy"><figcaption>Photo: <a href="${esc(g.image.url)}" target="_blank" rel="noopener">${esc(g.image.credit)}</a></figcaption></figure>` : ""}`;
-      document.title = `${g.name} clinics across Canada — WellFinder`;
+      document.title = isFeat ? `Featured ${g.name} clinics — WellFinder` : `${g.name} clinics across Canada — WellFinder`;
     }
     if (list) {
       const provs = [...new Set(g.clinics.map((c) => c.prov || "ON"))].sort();
