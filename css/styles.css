@@ -560,7 +560,8 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
    pages — the subhero shares the story column's edges instead of the
    full 1180px wrap, the H1 fits on one line, and the mission headline
    gets a wider measure so it breaks at its sentences. */
-body[data-page="about"] .subhero .wrap { max-width: 768px; }
+body[data-page="about"] .subhero .wrap { max-width: calc(64rem + 48px); }
+body[data-page="about"] .story { max-width: 64rem; }
 body[data-page="about"] .subhero h1 { max-width: none; }
 body[data-page="about"] .mission h2 { max-width: 30ch; }
 
