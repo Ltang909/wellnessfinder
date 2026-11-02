@@ -1749,7 +1749,7 @@ const CLINIC_MEDIA = {
   "HealthyToDos \u2014 Markham Health & Rehab": {"img": "/assets/clinics/healthytodos-markham-health-rehab.jpg", "practitioner": "Dr. Andrew Li"},
   "Sheddon Physiotherapy \u2014 Oakville": {"img": "/assets/clinics/sheddon-physiotherapy-oakville.jpg", "practitioner": "Erin Shapcott", "rating": [4.9, 52]},
   "Sheddon Physiotherapy \u2014 Burlington": {"img": "/assets/clinics/sheddon-physiotherapy-burlington.jpg", "practitioner": "Erin Shapcott & Liam Munshi"},
-  "PhysioLinks Rehab Clinic": {"img": "/assets/clinics/physiolinks-rehab-clinic.jpg", "practitioner": "Mandeep Virk", "rating": [5.0, 24], "price": "$105 assessment", "db": "yes"},
+  "PhysioLinks Rehab Clinic": {"img": "/assets/clinics/physiolinks-rehab-clinic.jpg", "practitioner": "Mandeep Virk", "rating": [5.0, 24], "db": "yes"},
   "SHAPE Toronto Health & Wellness": {"img": "/assets/clinics/shape-toronto-health-wellness.jpg", "practitioner": "Dr. Sender Deutsch", "price": "$240 assessment"},
   "Swing Lab \u2013 Performance & Therapy": {"img": "/assets/clinics/swing-lab-performance-therapy.jpg", "price": "$265 assessment"},
   "Arbutus Physiotherapy": {"img": "/assets/clinics/arbutus-physiotherapy-v3.jpg", "price": "$250 assessment"},
