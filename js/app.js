@@ -549,8 +549,13 @@
   function renderResources() {
     const grid = $("#resourceGrid"); if (!grid || typeof RESOURCES === "undefined") return;
     grid.outerHTML = `<ul class="resource-list">` + RESOURCES.map((r) => {
-      const title = r.url ? `<a href="${esc(r.url)}">${esc(r.title)}</a>` : esc(r.title);
-      return `<li>${title}</li>`;
+      const inner = `<span class="resource-tag">${esc(r.tag || "Guide")}</span>` +
+        `<span class="resource-main"><span class="resource-title">${esc(r.title)}</span>` +
+        (r.desc ? `<span class="resource-desc">${esc(r.desc)}</span>` : "") + `</span>` +
+        (r.url ? `<span class="resource-arrow" aria-hidden="true">→</span>` : "");
+      return r.url
+        ? `<li><a class="resource-row" href="${esc(r.url)}">${inner}</a></li>`
+        : `<li><div class="resource-row is-static">${inner}</div></li>`;
     }).join("") + `</ul>`;
   }
 
