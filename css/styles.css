@@ -99,6 +99,9 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .btn--primary:hover { background: var(--forest-600); color: #fff; }
 .btn--honey { background: var(--honey); color: #fff; }
 .btn--honey:hover { background: var(--honey-deep); color: #fff; }
+/* Header Join CTA matches the body primary button */
+.site-header .btn--honey { background: #FFCE45; color: #161616; }
+.site-header .btn--honey:hover { background: #f5be2e; color: #161616; }
 .btn--ghost { background: transparent; color: var(--forest); border-color: var(--mist-deep); }
 .btn--ghost:hover { background: var(--mist); color: var(--forest-600); }
 .btn--light { background: #fff; color: var(--forest); border-color: var(--line); box-shadow: var(--shadow-sm); }
@@ -110,7 +113,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
    ============================================================ */
 .site-header {
   position: sticky; top: 0; z-index: 60;
-  background: rgba(250,248,242,.82);
+  background: rgba(255,255,255,.88);
   backdrop-filter: saturate(140%) blur(12px);
   border-bottom: 1px solid var(--line-soft);
 }
@@ -415,12 +418,12 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 30px; }
 .footer-brand .brand { color: #fff; margin-bottom: 14px; }
 .footer-brand .brand:hover { color: #fff; }
-.footer-brand p { font-size: .9rem; color: #9fb2a8; max-width: 34ch; margin: 0 0 14px; }
-.footer-brand a { color: var(--honey); font-size: .9rem; }
-.footer-col h5 { font-family: var(--sans); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #8ba296; margin: 0 0 14px; }
-.footer-col a { display: block; color: #cdd8d1; font-size: .92rem; padding: 5px 0; }
+.footer-brand p { font-size: .9rem; color: #b7c8bc; max-width: none; margin: 0 0 14px; line-height: 1.6; }
+.footer-brand a { color: #FFCE45; font-size: .9rem; }
+.footer-col h5 { font-family: var(--sans); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #A7BFAE; margin: 0 0 14px; }
+.footer-col a { display: block; color: #e9f0ea; font-size: .92rem; padding: 5px 0; }
 .footer-col a:hover { color: #fff; }
-.footer-bottom { border-top: 1px solid rgba(255,255,255,.1); margin-top: 40px; padding-top: 22px; font-size: .82rem; color: #8ba296; max-width: 80ch; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,.1); margin-top: 40px; padding-top: 22px; font-size: .85rem; line-height: 1.65; color: #A7BFAE; max-width: none; }
 @media (max-width: 760px) { .footer-grid { grid-template-columns: 1fr 1fr; } .footer-brand { grid-column: 1 / -1; } }
 
 /* ============================================================
@@ -776,8 +779,8 @@ body { font-size: 16px; }
 /* slimmer monogram banners on directory cards */
 .cc-mono { aspect-ratio: 16 / 6; }
 .cc-mono span { font-size: 2.2rem; width: 60px; height: 60px; }
-/* footer divider spans full width while text keeps a readable measure */
-.footer-bottom { max-width: none; padding-right: max(0px, calc(100% - 80ch)); }
+/* footer text spans the full page width (Leon, 2026-11-01) */
+.footer-bottom { max-width: none; padding-right: 0; }
 
 /* ---------- mobile hero fix (Oct 2026) ---------- */
 /* Grid items must be allowed to shrink below their content width:
