@@ -562,7 +562,7 @@
       const db = dbv === "yes"
         ? `<p class="fc-db" title="Direct billing available" aria-label="Direct billing available">✓ Direct billing</p>`
         : dbv === "no"
-          ? `<p class="fc-db fc-db-no">No direct billing — pay &amp; claim with receipt</p>`
+          ? `<p class="fc-db fc-db-no" title="No direct billing — pay & claim with receipt" aria-label="No direct billing — pay and claim with receipt">✕</p>`
           : "";
 
       /* today's hours + open/closed state */
@@ -1298,8 +1298,8 @@
     const dbPill = dbv === "yes"
       ? `<span class="nc-db nc-db-yes" title="Direct billing available" aria-label="Direct billing available">✓ Direct billing</span>`
       : dbv === "no"
-        ? `<span class="nc-db nc-db-no">No direct billing — pay &amp; claim with receipt</span>`
-        : `<span class="nc-db nc-db-unk">Direct billing not confirmed — ask the clinic</span>`;
+        ? `<span class="nc-db nc-db-no" title="No direct billing — pay & claim with receipt" aria-label="No direct billing — pay and claim with receipt">✕</span>`
+        : `<span class="nc-db nc-db-unk" title="Direct billing not confirmed — ask the clinic" aria-label="Direct billing not confirmed — ask the clinic">?</span>`;
 
     /* hours: today line + expandable week */
     let todayHTML, weekHTML = "";
@@ -1352,17 +1352,23 @@
         const body = `Hi ${c.name} team,\n\nI found your clinic on WellFinder.ca and saw an opening for ${title}${title !== T ? ` (${T})` : ""}${billed ? `, billed as ${billed}` : ""}, on ${s.d} at ${s.t}${pricePart ? `, listed at ${pricePart}` : ""}.\n\nIs this time still available? I would like to ask a few questions before booking.\n\nThank you`;
         return `<a class="nc-slot-mail" href="mailto:${em}?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}" aria-label="Email ${esc(c.name)} about this slot" title="Email the clinic about this slot">✉</a>`;
       };
-      const rowFor = (s, kind) => {
+      const blockFor = (s, kind) => {
         const title = titleFor(s, kind);
         const pricePart = priceFor(kind);
-        const chip = book ? `<a class="nc-slot-chip" href="${esc(book)}" target="_blank" rel="noopener" title="Book this slot on the clinic's booking page">${s.d} &middot; ${s.t}</a>` : `<span class="nc-slot-chip">${s.d} &middot; ${s.t}</span>`;
-        return `<div class="nc-slot"><p class="nc-slot-t"><span class="nc-slot-title">${esc(title)}</span>${pricePart ? `<span class="nc-slot-price">${esc(pricePart)}</span>` : ""}${mailFor(s, title, pricePart)}</p><p class="nc-slot-c">${chip}</p></div>`;
+        const rawChips = (s.list && s.list.length ? s.list : [{ d: s.d, t: s.t, w: s.w }]);
+        const seenChips = new Set();
+        const chips = rawChips.filter((ch) => { const k = ch.d + "|" + ch.t; if (seenChips.has(k)) return false; seenChips.add(k); return true; }).slice(0, 8);
+        const opts = chips.map((ch) => {
+          const chip = book ? `<a class="nc-slot-chip" href="${esc(book)}" target="_blank" rel="noopener" title="Book this slot on the clinic's booking page">${ch.d} &middot; ${ch.t}</a>` : `<span class="nc-slot-chip">${ch.d} &middot; ${ch.t}</span>`;
+          return `<span class="nc-slot-opt">${chip}${mailFor(ch, title, pricePart)}</span>`;
+        }).join("");
+        return `<div class="nc-slot"><p class="nc-slot-t"><span class="nc-slot-title">${esc(title)}</span>${pricePart ? `<span class="nc-slot-price">${esc(pricePart)}</span>` : ""}</p><p class="nc-slot-c">${opts}</p></div>`;
       };
       const rows = [];
-      if (slot.a) rows.push(rowFor(slot.a, "a"));
+      if (slot.a) rows.push(blockFor(slot.a, "a"));
       else {
-        if (slot.i) rows.push(rowFor(slot.i, "i"));
-        if (slot.f) rows.push(rowFor(slot.f, "f"));
+        if (slot.i) rows.push(blockFor(slot.i, "i"));
+        if (slot.f) rows.push(blockFor(slot.f, "f"));
       }
       if (rows.length) {
         let chk = "";
@@ -1495,6 +1501,10 @@
             const cc2 = clinicCoords(c);
             return Object.assign({}, c, { distKm: cc2 ? haversineKm(userPt, cc2) : Infinity });
           }).sort((a, b) => a.distKm - b.distKm);
+        }
+        if (typeof CLINIC_SLOTS !== "undefined") {
+          const hasSlot = (c) => { const k = (c.name + "|" + c.city).toLowerCase(); return !!(CLINIC_SLOTS[k] && CLINIC_SLOTS[k][name]); };
+          cs = cs.map((c, i) => [c, i]).sort((x, y) => (hasSlot(y[0]) - hasSlot(x[0])) || (x[1] - y[1])).map((p) => p[0]);
         }
         const nearOpt = (wfLoc.get() && nearSet && nearSet.length)
           ? `<option value="near">Near ${esc(wfLoc.get().toUpperCase())} (${nearSet.length})</option>` : "";

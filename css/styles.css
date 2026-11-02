@@ -1237,3 +1237,12 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .nc-slot-c { margin: 7px 0 0; }
 .nc-slot-chip { display: inline-block; padding: 10px 22px; border: 1.5px solid #ccd3cd; border-radius: 12px; background: #fff; color: #161616; font-weight: 700; font-size: .95rem; text-decoration: none; transition: border-color .15s ease, background .15s ease; }
 a.nc-slot-chip:hover { border-color: #0F2D2B; background: #F4F6F3; }
+
+/* Multi-chip slot rows: chips wrap, one envelope per chip */
+.tp-list .nc-slot-c { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.nc-slot-opt { display: inline-flex; align-items: center; }
+.nc-slot-opt .nc-slot-mail { margin-left: 0; padding: 4px 2px; }
+.nc-slot-opt .nc-slot-chip { padding: 8px 16px; font-size: .9rem; }
+
+/* Icon-only billing states (Leon's word-saving call): X = no, ? = unconfirmed */
+.nc-db-no, .nc-db-unk, .fc-db-no { font-weight: 700; }
