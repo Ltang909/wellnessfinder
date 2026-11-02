@@ -16810,6 +16810,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Elisha Cook",
+  "clinic_id": "dr-elisha-cook-woodstock",
+  "address": "16 Albert St E",
+  "city": "Woodstock",
+  "prov": "ON",
+  "postal": "N0J 1S0",
+  "phone": "226-232-7665",
+  "website": "https://plattsvilledoctor.ca",
+  "booking_page": null,
+  "hours": {
+   "Fri": "Closed",
+   "Mon": "9:00 AM \u2013 8:00 PM",
+   "Sat": null,
+   "Sun": null,
+   "Thu": "9:00 AM \u2013 8:00 PM",
+   "Tue": "9:00 AM \u2013 6:00 PM",
+   "Wed": "9:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 3,
+  "rating_source": "Google Places details in search results",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Dr. Emily Pratt BSC ND NATUROPATHIC PHYSICIAN",
   "clinic_id": "dr-emily-pratt-bsc-nd-naturopathic-physician-kelowna",
   "address": "314 - 3001 Tutt Street",
@@ -29782,6 +29807,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Kildonan Crossing Dental Centre",
+  "clinic_id": "kildonan-crossing-dental-centre-winnipeg",
+  "address": "780-1615 Regent Avenue West",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R2C 5C6",
+  "phone": "204-663-6868",
+  "website": "https://www.kcdental.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:30 AM - 5:00 PM",
+   "tue": "7:00 AM - 8:00 PM",
+   "wed": "7:00 AM - 8:00 PM",
+   "thu": "7:00 AM - 4:30 PM",
+   "fri": "7:00 AM - 3:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.6,
+  "google_reviews": 13,
+  "rating_source": "Google Places details in search results for Kildonan Crossing Dental Centre: 4.6 stars based on 13 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Kilkenny Wellness",
   "clinic_id": "kilkenny-wellness-red-deer",
   "address": null,
@@ -31653,6 +31703,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Knead to Unwind Massage Therapy",
+  "clinic_id": "knead-to-unwind-massage-therapy-winnipeg",
+  "address": "2091 Portage Avenue",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3J 0L1",
+  "phone": "204-940-4884",
+  "website": "http://www.kneadtounwind.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 9:15 PM",
+   "tue": "9:00 AM - 9:15 PM",
+   "wed": "9:00 AM - 9:15 PM",
+   "thu": "9:00 AM - 9:15 PM",
+   "fri": "9:00 AM - 9:15 PM",
+   "sat": "9:00 AM - 3:30 PM",
+   "sun": "9:00 AM - 3:30 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 44,
+  "rating_source": "Google Places details in search results for Knead To Unwind Massage Therapy, Winnipeg: 4.9 stars based on 44 reviews. (A 2026 Winnipeg massage guide cites 4.9 from 535 Google reviews; it is an aggregator and its total was not used \u2014 see gaps.)",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Knot Just Hands RMT",
@@ -33910,6 +33985,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Lift Physiotherapy",
+  "clinic_id": "lift-physiotherapy-winnipeg",
+  "address": "930 Jefferson Ave #103",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R2P 1W1",
+  "phone": "204-694-0780",
+  "website": "https://liftwinnipeg.ca/",
+  "booking_page": "https://liftwinnipeg.janeapp.com",
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Lighthouse Psychology Services",
   "clinic_id": "lighthouse-psychology-services-calgary",
   "address": "1725 10 Ave SW #300",
@@ -34017,6 +34117,31 @@
   "rating_source": "Google Places details shown in search results for Limelight Wellness Centre (4.9 stars, 47 reviews). Aggregator figures seen elsewhere (e.g. 4.5/102 on a laser-hair-removal ranking site) were not used.",
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Linden Market Dental Centre",
+  "clinic_id": "linden-market-dental-centre-winnipeg",
+  "address": "877 Waverley St #7",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3T 5V3",
+  "phone": "204-487-2226",
+  "website": "https://lindenmarketdental.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 5:00 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "8:00 AM - 5:00 PM",
+   "thu": "8:00 AM - 3:00 PM",
+   "fri": "8:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 7,
+  "rating_source": "Google Places details in search results for Linden Market Dental Centre: 5.0 stars based on 7 reviews. (An aggregator ranking, dentistsranked.com, cites 5.0 from 397 Google reviews; its total was not used \u2014 see gaps.)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Linden Speech Clinic",
@@ -34612,6 +34737,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": null,
+  "last_verified": "2026-11-02"
+ },
+ {
+  "name": "Lymph Therapy MB",
+  "clinic_id": "lymph-therapy-mb-winnipeg",
+  "address": null,
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": null,
+  "phone": null,
+  "website": "https://lymphtherapymb.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-02"
  },
  {
@@ -41285,6 +41435,23 @@
   "last_verified": "2026-11-02"
  },
  {
+  "name": "NatCan Integrative Health and Wellness Centre",
+  "clinic_id": "natcan-integrative-health-and-wellness-centre-woodbridge",
+  "address": null,
+  "city": "Woodbridge",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-400-6280",
+  "website": "https://natcanintegrative.com/pages/our-team",
+  "booking_page": "https://natcanintegrative.janeapp.com/",
+  "hours": null,
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "NatCan Integrative Medical & Wellness Centre",
   "clinic_id": "natcan-integrative-medical-wellness-centre-vaughan",
   "address": "3905 Major MacKenzie Dr W, Unit 102",
@@ -41333,6 +41500,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "NatCan Weight Loss & Skin Clinic",
+  "clinic_id": "natcan-weight-loss-and-skin-clinic-woodbridge",
+  "address": "281 Woodbridge Ave, Suite 22",
+  "city": "Woodbridge",
+  "prov": "ON",
+  "postal": "L4L 0C6",
+  "phone": "416-400-6280 Ext. 2",
+  "website": "https://natcanintegrative.com",
+  "booking_page": "https://natcanintegrative.janeapp.com/locations/natcan-weight-loss-skin-clinic",
+  "hours": {
+   "Fri": "12:30 PM \u2013 7:00 PM",
+   "Mon": "Closed",
+   "Sat": "10:00 AM \u2013 2:00 PM",
+   "Sun": "Closed",
+   "Thu": "10:00 AM \u2013 5:30 PM",
+   "Tue": "10:00 AM \u2013 5:30 PM",
+   "Wed": "2:00 PM \u2013 7:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": null,
+  "rating_source": "Clinic's own site (naturopathic services page) claims a 5.0 Google rating; chain-level claim, no review count published",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Natalie Koleric Therapy",
@@ -43633,18 +43825,26 @@
  {
   "name": "Nova Physiotherapy & Sports Fitness Clinic",
   "clinic_id": "nova-physiotherapy-and-sports-fitness-clinic-winnipeg",
-  "address": null,
+  "address": "101-575 St. Mary's Rd",
   "city": "Winnipeg",
   "prov": "MB",
-  "postal": null,
-  "phone": null,
+  "postal": "R2M 3L6",
+  "phone": "204-982-9176",
   "website": "https://www.nova-physio.com",
   "booking_page": null,
-  "hours": null,
+  "hours": {
+   "mon": "7:00 AM - 6:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 5:30 PM",
+   "thu": "7:00 AM - 4:00 PM",
+   "fri": "7:00 AM - 3:00 PM",
+   "sat": null,
+   "sun": null
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -45940,6 +46140,31 @@
   "google_rating": 4.5,
   "google_reviews": 8,
   "rating_source": "Google Places details appearing in search results for Palmeri Nutrition Consulting (rating 4.5 based on 8 reviews)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "name": "Pamela Thornton-Pow",
+  "clinic_id": "pamela-thornton-pow-woodstock",
+  "address": "209 Main St Unit 3",
+  "city": "Woodstock",
+  "prov": "ON",
+  "postal": "N4S 1T1",
+  "phone": "(519) 539-9944",
+  "website": "https://www.thewombwoodstock.ca/our-team/naturopathic-medicine",
+  "booking_page": "https://wombwoodstock.janeapp.com",
+  "hours": {
+   "Fri": "9:00 AM \u2013 4:00 PM",
+   "Mon": "9:00 AM \u2013 4:00 PM",
+   "Sat": "9:00 AM \u2013 1:00 PM",
+   "Sun": null,
+   "Thu": "9:00 AM \u2013 4:00 PM",
+   "Tue": "9:00 AM \u2013 4:00 PM",
+   "Wed": "9:00 AM \u2013 4:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "unverifiable \u2014 no Google Places rating surfaced in search extracts and no own-site Google badge was found",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-02"
  },
@@ -48974,6 +49199,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Physiotherapy Winnipeg",
+  "clinic_id": "physiotherapy-winnipeg-winnipeg",
+  "address": "TD Centre, P01-201 Portage Ave",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3B 3K6",
+  "phone": "204-943-8411",
+  "website": "https://yourphysio.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "8:45 AM - 5:30 PM",
+   "wed": "8:45 AM - 5:30 PM",
+   "thu": "8:45 AM - 5:30 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Physioth\u00e9rapie Beyond Kegels",
   "clinic_id": "physiotherapie-beyond-kegels-montreal",
   "address": null,
@@ -49646,6 +49896,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Prairie Psychology",
+  "clinic_id": "prairie-psychology-winnipeg",
+  "address": "Unit C - 909 Dorchester Avenue",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3M 0P7",
+  "phone": "204-253-2832",
+  "website": "http://www.prairiepsychology.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Prairie Psychology Svc",
   "clinic_id": "prairie-psychology-svc-regina",
   "address": "2230 Lorne Street",
@@ -49758,18 +50033,26 @@
  {
   "name": "Priscilla Kerr Wellness",
   "clinic_id": "priscilla-kerr-wellness-winnipeg",
-  "address": null,
+  "address": "Unit A - 103 Scurfield Boulevard",
   "city": "Winnipeg",
   "prov": "MB",
-  "postal": null,
-  "phone": null,
+  "postal": "R3Y 1M6",
+  "phone": "204-788-5715",
   "website": "https://kerrwellness.ca",
-  "booking_page": null,
-  "hours": null,
+  "booking_page": "https://kerrwellness.janeapp.com",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -51086,6 +51369,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "P\u00fcr GL\u014d Natural Skin Rejuvenation Centre",
+  "clinic_id": "pur-glo-natural-skin-rejuvenation-centre-winnipeg",
+  "address": "1070 Pembina Hwy",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3T 1Z8",
+  "phone": "204-477-9724",
+  "website": "https://www.purgloskin.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 5:00 PM",
+   "tue": "10:00 AM - 8:00 PM",
+   "wed": "10:00 AM - 8:00 PM",
+   "thu": "10:00 AM - 9:00 PM",
+   "fri": "10:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Q. Osteo-Med Clinic",
   "clinic_id": "q-osteo-med-clinic-richmond-hill",
   "address": "127 Strathearn Ave",
@@ -51520,6 +51828,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Rave Massage Winnipeg",
+  "clinic_id": "rave-massage-winnipeg-winnipeg",
+  "address": "1220 St Mary's Rd",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R2M 3V6",
+  "phone": "204-416-7283",
+  "website": "https://ravemassage.com/services/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 10:00 PM",
+   "tue": "9:00 AM - 10:00 PM",
+   "wed": "9:00 AM - 10:00 PM",
+   "thu": "9:00 AM - 10:00 PM",
+   "fri": "9:00 AM - 10:00 PM",
+   "sat": "9:00 AM - 6:00 PM",
+   "sun": "10:00 AM - 6:00 PM"
+  },
+  "google_rating": 3.6,
+  "google_reviews": 7,
+  "rating_source": "Google Places details in search results for Rave Massage, 1220 St Mary's Rd",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "ReConnect Health Centre",
@@ -54468,6 +54801,23 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "SPOT Speech Pathology & OMT",
+  "clinic_id": "spot-speech-pathology-and-omt-winnipeg",
+  "address": "396 Edison Avenue",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": null,
+  "phone": null,
+  "website": "https://spotspeech.com/",
+  "booking_page": null,
+  "hours": null,
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Sage Elements Naturopathic Clinic",
   "clinic_id": "sage-elements-naturopathic-clinic-halifax",
   "address": "5991 Spring Garden Rd Unit 465",
@@ -57005,6 +57355,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Spire Physiotherapy",
+  "clinic_id": "spire-physiotherapy-winnipeg",
+  "address": "115 Sage Creek Blvd Unit 103",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": null,
+  "phone": "431-317-3500",
+  "website": "http://spirephysiotherapy.com/",
+  "booking_page": "https://spirephysiotherapy.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 5:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Spirit Spa",
   "clinic_id": "spirit-spa-halifax",
   "address": "5150 Salter St",
@@ -57030,6 +57405,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Sport & Spine Physical Therapy Centre",
+  "clinic_id": "sport-and-spine-physical-therapy-centre-winnipeg",
+  "address": "445 Henderson Highway",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R2K 2H5",
+  "phone": "204-669-6620",
+  "website": "http://www.sportandspinephysio.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "6:00 AM - 7:00 PM",
+   "tue": "6:00 AM - 7:00 PM",
+   "wed": "6:00 AM - 7:00 PM",
+   "thu": "6:00 AM - 7:00 PM",
+   "fri": "6:00 AM - 7:00 PM",
+   "sat": "10:00 AM - 4:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Sport Manitoba Clinic",
   "clinic_id": "sport-manitoba-clinic-winnipeg",
   "address": "145 Pacific Ave #200",
@@ -57052,7 +57452,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Sport Medicine Clinic",
@@ -57576,18 +57976,26 @@
  {
   "name": "Strive Fitness and Therapy",
   "clinic_id": "strive-fitness-and-therapy-winnipeg",
-  "address": null,
+  "address": "1140 Waverley St Unit 2",
   "city": "Winnipeg",
   "prov": "MB",
-  "postal": null,
-  "phone": null,
+  "postal": "R3T 0P4",
+  "phone": "204-474-1320",
   "website": "https://strivetraining.ca",
-  "booking_page": null,
-  "hours": null,
+  "booking_page": "https://strivewpg.janeapp.com/",
+  "hours": {
+   "mon": "7:00 AM - 6:00 PM",
+   "tue": "11:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 6:00 PM",
+   "thu": "10:30 AM - 6:00 PM",
+   "fri": "7:00 AM - 3:00 PM",
+   "sat": "8:00 AM - 12:00 PM",
+   "sun": "Closed"
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -59933,6 +60341,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "The Nature Doctors",
+  "clinic_id": "the-nature-doctors-winnipeg",
+  "address": "7-1200 Waverley Street",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3T 0P4",
+  "phone": "204-943-6079",
+  "website": "https://www.thenaturedoctors.ca/home",
+  "booking_page": "https://thenaturedoctors.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 42,
+  "rating_source": "Google Places details in search results for The Nature Doctors, 7-1200 Waverley St",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "The Nest Clinic",
   "clinic_id": "the-nest-clinic-vancouver",
   "address": "55 Water St, Suite #300",
@@ -61851,6 +62284,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Total Rehabilitation and Sports Injuries Clinic",
+  "clinic_id": "total-rehabilitation-and-sports-injuries-clinic-winnipeg",
+  "address": "Unit #100, 301 Nassau Street North",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3L 2J5",
+  "phone": "431-373-2877",
+  "website": "https://www.totalrehabclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 16,
+  "rating_source": "Google Places details in search results for the Nassau St N location (the Provencher location lists 5.0 from 3 reviews)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Total Wellness Centre",
   "clinic_id": "total-wellness-centre-toronto",
   "address": null,
@@ -62503,7 +62961,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "no",
-  "last_verified": null
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Twinflower Therapeutics",
@@ -63247,6 +63705,23 @@
   "rating_source": null,
   "direct_billing": "no",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Ursa Psychology",
+  "clinic_id": "ursa-psychology-winnipeg",
+  "address": "Unit 22, 1700 Corydon Avenue",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R3N 0K1",
+  "phone": "204-977-1552",
+  "website": "https://ursapsychology.ca/",
+  "booking_page": null,
+  "hours": null,
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "VANITY",
@@ -65687,6 +66162,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Yellowknife Physiotherapy Sport & Rehab Clinic",
+  "clinic_id": "yellowknife-physiotherapy-sport-and-rehab-clinic-yellowknife",
+  "address": "4903 47 St",
+  "city": "Yellowknife",
+  "prov": "NT",
+  "postal": "X1A 2P5",
+  "phone": "867-920-4920",
+  "website": "https://www.ykpt.ca",
+  "booking_page": null,
+  "hours": {
+   "Fri": "8:00 AM \u2013 3:30 PM",
+   "Mon": "8:00 AM \u2013 7:00 PM",
+   "Sat": "10:00 AM \u2013 4:00 PM",
+   "Sun": "10:00 AM \u2013 3:00 PM",
+   "Thu": "8:00 AM \u2013 7:00 PM",
+   "Tue": "8:00 AM \u2013 6:00 PM",
+   "Wed": "8:00 AM \u2013 6:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 23,
+  "rating_source": "Google Places details in search results",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Yinstill Reproductive Wellness",

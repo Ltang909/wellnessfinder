@@ -19772,6 +19772,44 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-elisha-cook-woodstock",
+  "treatment_id": "dr-elisha-cook-woodstock--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Elisha Cook, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Elisha Cook, ND",
+    "id": "dr-elisha-cook-woodstock--dr-elisha-cook",
+    "name": "Dr. Elisha Cook"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No current fee is published: the clinic's only published fee table (its 2018 opening post, which listed acupuncture/cupping at $48) is older than the one-year price-freshness limit, so no price is shown.",
+  "price_tier": null,
+  "treatment_link": "https://plattsvilledoctor.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "dr-elisha-cook-woodstock",
+  "treatment_id": "dr-elisha-cook-woodstock--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Elisha Cook, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Elisha Cook, ND",
+    "id": "dr-elisha-cook-woodstock--dr-elisha-cook",
+    "name": "Dr. Elisha Cook"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No current fee is published: the clinic's only published fee table (its 2018 opening post: initial consult $125) is older than the one-year price-freshness limit, so no price is shown.",
+  "price_tier": null,
+  "treatment_link": "https://plattsvilledoctor.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "dr-emily-pratt-bsc-nd-naturopathic-physician-kelowna",
   "treatment_id": "dr-emily-pratt-bsc-nd-naturopathic-physician-kelowna--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
@@ -34410,6 +34448,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "kildonan-crossing-dental-centre-winnipeg",
+  "treatment_id": "kildonan-crossing-dental-centre-winnipeg--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Premise failure (see gaps); no Botox fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.kcdental.ca/services",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "kilkenny-wellness-red-deer",
   "treatment_id": "kilkenny-wellness-red-deer--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
@@ -38627,6 +38678,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "knead-to-unwind-massage-therapy-winnipeg",
+  "treatment_id": "knead-to-unwind-massage-therapy-winnipeg--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee schedule is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://kneadtounwind.com/index.php/services",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "knot-just-hands-rmt-brampton",
   "treatment_id": "knot-just-hands-rmt-brampton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
@@ -41197,6 +41261,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "lift-physiotherapy-winnipeg",
+  "treatment_id": "lift-physiotherapy-winnipeg--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered no treatment fee list in text fetch, and the clinic's own site publishes no fees, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://liftwinnipeg.janeapp.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "lift-physiotherapy-winnipeg",
+  "treatment_id": "lift-physiotherapy-winnipeg--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page (liftwinnipeg.janeapp.com) rendered practitioner bios but no treatment fee list in text fetch, and the clinic's own site publishes no fees, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://liftwinnipeg.janeapp.com",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "lighthouse-psychology-services-calgary",
   "treatment_id": "lighthouse-psychology-services-calgary--psychoeducational-assessments",
   "treatment": "Psychoeducational Assessments",
@@ -41273,6 +41363,19 @@
   "price_tier": null,
   "treatment_link": "https://physiotherapy4vancouver.ca/our-services/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "linden-market-dental-centre-winnipeg",
+  "treatment_id": "linden-market-dental-centre-winnipeg--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dental",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Botox fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://lindenmarketdental.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "linden-speech-clinic-ottawa",
@@ -42055,6 +42158,25 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": null,
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "lymph-therapy-mb-winnipeg",
+  "treatment_id": "lymph-therapy-mb-winnipeg--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Rebecca De-Vehr, RMT, CLT/CDT",
+  "practitioners": [
+   {
+    "id": "lymph-therapy-mb-winnipeg--rebecca-de-vehr",
+    "name": "Rebecca De-Vehr",
+    "as_recorded": "Rebecca De-Vehr, RMT, CLT/CDT"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://lymphtherapymb.ca/about/",
   "last_verified": "2026-11-02"
  },
  {
@@ -50901,6 +51023,59 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "natcan-integrative-health-and-wellness-centre-woodbridge",
+  "treatment_id": "natcan-integrative-health-and-wellness-centre-woodbridge--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Alisa Cesselli",
+  "practitioners": [
+   {
+    "id": "natcan-integrative-health-and-wellness-centre-woodbridge--alisa-cesselli,-r.ac.-\u2014-registered-acupuncturist",
+    "name": "Alisa Cesselli",
+    "as_recorded": "Alisa Cesselli, R.Ac. \u2014 Registered Acupuncturist (CTCMPAO); services listed on the clinic's team page: Acupuncture, Cupping, Facial/Cosmetic Rejuvenation Acupuncture, Gua Sha Lymphatic Drainage Facial, Gua Sha Stone Massage"
+   },
+   {
+    "id": "natcan-integrative-health-and-wellness-centre-woodbridge--dr.-sabrina-perfetto,-nd-\u2014-naturopathic-doctor,-facial/cosmetic-rejuvenation-acupuncture",
+    "name": "Sabrina Perfetto",
+    "as_recorded": "Dr. Sabrina Perfetto, ND \u2014 Naturopathic Doctor, Facial/Cosmetic Rejuvenation Acupuncture (team page)"
+   },
+   {
+    "id": "natcan-integrative-health-and-wellness-centre-woodbridge--dr.-natalie-stalteri,-nd-\u2014-naturopathic-doctor,-facial/cosmetic-rejuvenation-acupuncture;-treats-acne/skin-concerns-and-cosmetic-acupuncture-patients",
+    "name": "Natalie Stalteri",
+    "as_recorded": "Dr. Natalie Stalteri, ND \u2014 Naturopathic Doctor, Facial/Cosmetic Rejuvenation Acupuncture; treats acne/skin concerns and cosmetic acupuncture patients (team page)"
+   },
+   {
+    "id": "natcan-integrative-health-and-wellness-centre-woodbridge--dr.-stefania-iovine,-nd-\u2014-naturopathic-doctor,-facial/cosmetic-rejuvenation-acupuncture",
+    "name": "Stefania Iovine",
+    "as_recorded": "Dr. Stefania Iovine, ND \u2014 Naturopathic Doctor, Facial/Cosmetic Rejuvenation Acupuncture (team page; on maternity leave at time of check)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "NatCan's Jane fee lists did not render prices in text fetch/search extracts, so no price recorded; queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://natcanintegrative.com/pages/our-team",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "natcan-integrative-health-and-wellness-centre-woodbridge",
+  "treatment_id": "natcan-integrative-health-and-wellness-centre-woodbridge--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": "Acupuncture",
+  "practitioner": "Alisa Cesselli",
+  "practitioners": [
+   {
+    "id": "natcan-integrative-health-and-wellness-centre-woodbridge--alisa-cesselli,-r.ac.-\u2014-registered-acupuncturist",
+    "name": "Alisa Cesselli",
+    "as_recorded": "Alisa Cesselli, R.Ac. \u2014 Registered Acupuncturist (CTCMPAO); services listed on the clinic's team page: Acupuncture, Cupping, Facial/Cosmetic Rejuvenation Acupuncture, Gua Sha Lymphatic Drainage Facial, Gua Sha Stone Massage"
+   }
+  ],
+  "price_text": null,
+  "price_source": "NatCan's Jane fee lists did not render prices in text fetch/search extracts (same result as the batch-151 pass over this clinic group), so no price recorded; queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://natcanintegrative.janeapp.com/locations/natcan-integrative-medical-wellness-centre/book#/staff_member/53",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "natcan-integrative-medical-wellness-centre-vaughan",
   "treatment_id": "natcan-integrative-medical-wellness-centre-vaughan--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
@@ -51038,6 +51213,19 @@
   "price_source": "No physiotherapy fees are published on the clinic's website or rendered on its Jane page in text fetch, so price is null.",
   "price_tier": null,
   "treatment_link": "https://natcanintegrative.com/pages/physiotherapy-pelvic-floor-physiotherapy",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "natcan-weight-loss-and-skin-clinic-woodbridge",
+  "treatment_id": "natcan-weight-loss-and-skin-clinic-woodbridge--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Medical Aesthetics",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$400+ per session (Morpheus8 RF microneedling)",
+  "price_source": "Clinic's own Morpheus8 RF microneedling product page ('Single Session Starting at $400'); the eDermaStamp microneedling fee is not published and the Jane fee list did not render in text fetch, so the location is queued for the Jane re-scan.",
+  "price_tier": "website",
+  "treatment_link": "https://natcanintegrative.com/products/morpheus8-rf-microneedling",
   "last_verified": "2026-11-02"
  },
  {
@@ -53806,7 +53994,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://nova-physio.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -56040,6 +56228,25 @@
   "price_source": "No price is recorded because the tasked treatment premise failed (see gaps); no fee schedule was found on palmerinutrition.com in any case.",
   "price_tier": null,
   "treatment_link": "http://palmerinutrition.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "pamela-thornton-pow-woodstock",
+  "treatment_id": "pamela-thornton-pow-woodstock--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Pamela Thornton, B.Sc., ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Pamela Thornton, B.Sc., ND",
+    "id": "pamela-thornton-pow-woodstock--dr-pamela-thornton",
+    "name": "Dr. Pamela Thornton"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Dr. Thornton's naturopathic consultation fees are not published on The WOMB's website, and the Jane booking page renders staff bios only (its fee list did not render in text fetch), so this location is queued for the Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://www.thewombwoodstock.ca/our-team/naturopathic-medicine",
   "last_verified": "2026-11-02"
  },
  {
@@ -62774,6 +62981,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "physiotherapy-winnipeg-winnipeg",
+  "treatment_id": "physiotherapy-winnipeg-winnipeg--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Chris Bisignano, Physiotherapist",
+  "practitioners": [
+   {
+    "id": "physiotherapy-winnipeg-winnipeg--chris-bisignano",
+    "name": "Chris Bisignano",
+    "as_recorded": "Chris Bisignano, Physiotherapist"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No shockwave fee is published in the clinic's brochure or on its site ('reasonable cost' only), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://yourphysio.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "physiovelo-clinique-physiovelo-longueuil",
   "treatment_id": "physiovelo-clinique-physiovelo-longueuil--bike-fitting",
   "treatment": "Bike Fitting",
@@ -63554,6 +63780,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "prairie-psychology-winnipeg",
+  "treatment_id": "prairie-psychology-winnipeg--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Darek Dawda, Registered Clinical Psychologist",
+  "practitioners": [
+   {
+    "id": "prairie-psychology-winnipeg--darek-dawda",
+    "name": "Dr. Darek Dawda",
+    "as_recorded": "Dr. Darek Dawda, Registered Clinical Psychologist"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own site, so price is null. (The Manitoba Psychological Society's recommended psychologist fee is not the clinic's own fee and was not recorded.)",
+  "price_tier": null,
+  "treatment_link": "http://www.prairiepsychology.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "prairie-view-physiotherapy-yorkton",
   "treatment_id": "prairie-view-physiotherapy-yorkton--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -63707,12 +63952,12 @@
   "treatment_id": "priscilla-kerr-wellness-winnipeg--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Priscilla Kerr, Dr.TCM, R.Ac.",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://kerrwellness.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -65538,6 +65783,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "pur-glo-natural-skin-rejuvenation-centre-winnipeg",
+  "treatment_id": "pur-glo-natural-skin-rejuvenation-centre-winnipeg--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Premise failure (see gaps); the published website price ($275 per session) is recorded in gaps only, so price is null per the premise-failure convention.",
+  "price_tier": null,
+  "treatment_link": "https://www.purgloskin.com/microneedling",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "pur-med-spa-regina",
   "treatment_id": "pur-med-spa-regina--microneedling",
   "treatment": "Microneedling",
@@ -66328,6 +66586,19 @@
   "price_tier": null,
   "treatment_link": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "rave-massage-winnipeg-winnipeg",
+  "treatment_id": "rave-massage-winnipeg-winnipeg--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$125 / 1 hour",
+  "price_source": "Clinic's own services page lists Lymphatic Drainage at one hour $125 (introductory rate does not apply): Complete Decongestive Therapy / Manual Lymph Drainage for swelling and lymphedema, performed by a Certified Lymphatic Therapist.",
+  "price_tier": "website",
+  "treatment_link": "https://ravemassage.com/services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "rcp-health-oakville",
@@ -72724,6 +72995,35 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "spire-physiotherapy-winnipeg",
+  "treatment_id": "spire-physiotherapy-winnipeg--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Megan; Jennifer; Alanna (physiotherapists)",
+  "practitioners": [
+   {
+    "id": "spire-physiotherapy-winnipeg--megan-\u2014-physiotherapist;-devotes-a-majority-of-her-practice-hours-to-women's-health-including-pre/postpartum-care,-peri/menopause-and-paediatric-pelvic-floor-physiotherapy",
+    "name": "Megan",
+    "as_recorded": "Megan \u2014 physiotherapist; devotes a majority of her practice hours to Women's Health including pre/postpartum care, peri/menopause and Paediatric Pelvic Floor Physiotherapy"
+   },
+   {
+    "id": "spire-physiotherapy-winnipeg--jennifer-\u2014-physiotherapist",
+    "name": "Jennifer",
+    "as_recorded": "Jennifer \u2014 physiotherapist (MPT 2016); practice mainly focused on women's health and pelvic floor physiotherapy"
+   },
+   {
+    "id": "spire-physiotherapy-winnipeg--alanna-\u2014-physiotherapist;-treats-musculoskeletal-injuries-as-well-as-pelvic-health-physiotherapy,-incl.-postpartum-return-to-higher-load-exercise",
+    "name": "Alanna",
+    "as_recorded": "Alanna \u2014 physiotherapist; treats musculoskeletal injuries as well as pelvic health physiotherapy, incl. postpartum return to higher-load exercise"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Jane booking page (spirephysiotherapy.janeapp.com) did not render fee lists in text fetch/search extracts, so no price recorded; queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://spirephysiotherapy.janeapp.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "spirit-spa-halifax",
   "treatment_id": "spirit-spa-halifax--tmj-massage",
   "treatment": "TMJ Massage",
@@ -72746,6 +73046,38 @@
   "price_tier": null,
   "treatment_link": "https://www.spiritspa.ca/registered-massage-therapists/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sport-and-spine-physical-therapy-centre-winnipeg",
+  "treatment_id": "sport-and-spine-physical-therapy-centre-winnipeg--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Tim Nanassy",
+  "practitioners": [
+   {
+    "id": "sport-and-spine-physical-therapy-centre-winnipeg--tim-nanassy-\u2014-physiotherapist;-patient-testimonials-on-the-clinic's-own-site-describe-him-performing-shockwave-therapy",
+    "name": "Tim Nanassy",
+    "as_recorded": "Tim Nanassy \u2014 physiotherapist; patient testimonials on the clinic's own site describe him performing shockwave therapy (Masterpuls device pictured on site)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No shockwave or physiotherapy fee published on the clinic's own site, so no price recorded.",
+  "price_tier": null,
+  "treatment_link": "http://www.sportandspinephysio.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "sport-manitoba-clinic-winnipeg",
+  "treatment_id": "sport-manitoba-clinic-winnipeg--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Clinic's own Sport Psychology page states the fee varies depending on the experience of the provider; no figure published, so no price recorded.",
+  "price_tier": null,
+  "treatment_link": "https://www.sportmanitoba.ca/clinic/services/sport-psychology",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "sport-manitoba-clinic-winnipeg",
@@ -72884,6 +73216,69 @@
   "price_tier": null,
   "treatment_link": "https://spotspeech.com/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "spot-speech-pathology-and-omt-winnipeg",
+  "treatment_id": "spot-speech-pathology-and-omt-winnipeg--myofunctional-therapy",
+  "treatment": "Myofunctional Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Lindsay Knutson Smith",
+  "practitioners": [
+   {
+    "id": "spot-speech-pathology-and-omt-winnipeg--lindsay-knutson-smith-\u2014-registered-speech-language-pathologist",
+    "name": "Lindsay Knutson Smith",
+    "as_recorded": "Lindsay Knutson Smith \u2014 Registered Speech-Language Pathologist (CASLPM, also CASLPO), trained in Orofacial Myofunctional Therapy; owner/founder of SPOT"
+   },
+   {
+    "id": "spot-speech-pathology-and-omt-winnipeg--brittany-demarcke-\u2014-trained-in-orofacial-myofunctional-therapy-in-2024",
+    "name": "Brittany DeMarcke",
+    "as_recorded": "Brittany DeMarcke \u2014 trained in Orofacial Myofunctional Therapy in 2024 (former Certified Athletic Therapist)"
+   },
+   {
+    "id": "spot-speech-pathology-and-omt-winnipeg--skylar-procillo-\u2014-registered-dental-hygienist-providing-myofunctional-therapy-services-at-spot",
+    "name": "Skylar Procillo",
+    "as_recorded": "Skylar Procillo \u2014 Registered Dental Hygienist providing myofunctional therapy services at SPOT"
+   }
+  ],
+  "price_text": "Initial assessment from $300 \u00b7 ongoing therapy from $175/hour",
+  "price_source": "Clinic's own website costs section: Initial Assessment starting at $300; ongoing therapy starting at $175/hour (45-minute direct sessions billed at an hour including documentation/consultation).",
+  "price_tier": "website",
+  "treatment_link": "https://spotspeech.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "spot-speech-pathology-and-omt-winnipeg",
+  "treatment_id": "spot-speech-pathology-and-omt-winnipeg--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Lindsay Knutson Smith",
+  "practitioners": [
+   {
+    "id": "spot-speech-pathology-and-omt-winnipeg--lindsay-knutson-smith-\u2014-registered-speech-language-pathologist",
+    "name": "Lindsay Knutson Smith",
+    "as_recorded": "Lindsay Knutson Smith \u2014 Registered Speech-Language Pathologist (CASLPM/CASLPO), SPOT owner/founder"
+   },
+   {
+    "id": "spot-speech-pathology-and-omt-winnipeg--tracey-fraser-\u2014-registered-manitoba-speech-language-pathologist,-25+-years,-articulation/phonological-and-motor-speech-disorders",
+    "name": "Tracey Fraser",
+    "as_recorded": "Tracey Fraser \u2014 Registered Manitoba Speech Language Pathologist, 25+ years, articulation/phonological and motor speech disorders"
+   },
+   {
+    "id": "spot-speech-pathology-and-omt-winnipeg--kristina-ostermann-\u2014-registered-speech-language-pathologist",
+    "name": "Kristina Ostermann",
+    "as_recorded": "Kristina Ostermann \u2014 registered Speech-Language Pathologist (CASLPM), 23+ years"
+   },
+   {
+    "id": "spot-speech-pathology-and-omt-winnipeg--carolynne-picht-\u2014-registered-speech-language-pathologist",
+    "name": "Carolynne Picht",
+    "as_recorded": "Carolynne Picht \u2014 registered Speech-Language Pathologist (CASLPM), speech sound and motor speech disorders"
+   }
+  ],
+  "price_text": "Initial assessment from $300 \u00b7 ongoing therapy from $175/hour",
+  "price_source": "Clinic's own website costs section (clinic-wide speech therapy fee schedule): Initial Assessment starting at $300; ongoing therapy starting at $175/hour.",
+  "price_tier": "website",
+  "treatment_link": "https://spotspeech.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "sprouting-pediatrics-calgary",
@@ -73545,7 +73940,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://strivetraining.ca/physiotherapy-treatments/shockwave/",
   "last_verified": "2026-11-01"
  },
  {
@@ -76275,6 +76670,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "the-nature-doctors-winnipeg",
+  "treatment_id": "the-nature-doctors-winnipeg--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No IV price published on the clinic's own site and its Jane fee list did not render in text fetch/search extracts, so no price recorded; an aggregator's 'average IV cost' figure was not used. Queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://www.thenaturedoctors.ca/home",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "the-nest-clinic-vancouver",
   "treatment_id": "the-nest-clinic-vancouver--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
@@ -78591,6 +78999,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "total-rehabilitation-and-sports-injuries-clinic-winnipeg",
+  "treatment_id": "total-rehabilitation-and-sports-injuries-clinic-winnipeg--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.totalrehabclinic.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "total-rehabilitation-and-sports-injuries-clinic-winnipeg",
+  "treatment_id": "total-rehabilitation-and-sports-injuries-clinic-winnipeg--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee published on the clinic's own site, so no price recorded.",
+  "price_tier": null,
+  "treatment_link": "https://www.totalrehabclinic.com/how-radial-shockwave-therapy-treats-chronic-pain-and-speeds-up-healing",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "total-wellness-centre-toronto",
   "treatment_id": "total-wellness-centre-toronto--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
@@ -80122,6 +80556,19 @@
   "price_tier": null,
   "treatment_link": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ursa-psychology-winnipeg",
+  "treatment_id": "ursa-psychology-winnipeg--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$210 per 50-minute couples session (Clinical Psychologist Candidate)",
+  "price_source": "Clinic's own FAQ (ursapsychology.ca/faqs) lists fees at Ursa as $210 per 50-minute individual or couples therapy session with a Clinical Psychologist Candidate, noting that option is slightly lower than sessions with a Registered Psychologist (FAQ points to the Manitoba Psychological Society fee schedule); the Registered Psychologist figure itself was not captured in the fetch extract.",
+  "price_tier": "website",
+  "treatment_link": "https://ursapsychology.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "valeo-health-clinic-kelowna",
@@ -82750,6 +83197,19 @@
   "price_tier": "booking",
   "treatment_link": "https://www.beautifulmindd.ca/pages/services",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "yellowknife-physiotherapy-sport-and-rehab-clinic-yellowknife",
+  "treatment_id": "yellowknife-physiotherapy-sport-and-rehab-clinic-yellowknife--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No physiotherapy fees are published on the clinic's website or on any booking channel found.",
+  "price_tier": null,
+  "treatment_link": "https://www.ykpt.ca/physiotherapy/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "yinstill-reproductive-wellness-vancouver",
