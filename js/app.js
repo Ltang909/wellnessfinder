@@ -1284,14 +1284,12 @@
     else if (pair && pair.p) price = pair.p;
     else if (media.price) price = media.price;
     else if (c.price && c.price.indexOf("$") > -1) price = c.price;
-    let priceHTML, noteHTML = "";
+    let priceHTML = "", noteHTML = "";
     if (price) {
       priceHTML = `<p class="nc-price">${esc(price)}</p>`;
       if (pair && pair.t === "booking") noteHTML = `<span class="nc-verified"><i>✓</i> Verified on booking page</span>`;
       else if (pair && pair.t === "website") noteHTML = `<span class="nc-price-note">Price from clinic website</span>`;
       else if (pair && pair.t === "review") noteHTML = `<span class="nc-price-note">Price from a recent review</span>`;
-    } else {
-      priceHTML = `<p class="nc-price"><span class="nc-noprice">Price on request</span></p>`;
     }
 
     /* direct billing: featured curation wins, else the verified record */
@@ -1307,8 +1305,8 @@
     if (X && X.h) {
       const st = ncTodayState(X.h, prov);
       const openBit = st.closed ? `<span class="nc-closed-txt">Closed today</span>`
-        : st.open === true ? `<span class="nc-open-dot"></span><span class="nc-open-txt">Open now</span> · <b>${esc(ncFmtHours(st.label))}</b>`
-        : st.open === false ? `<span class="nc-closed-dot"></span><span class="nc-closed-txt">Closed now</span> · <b>${esc(ncFmtHours(st.label))}</b>`
+        : st.open === true ? `<span class="nc-open-dot"></span><span class="nc-open-txt">Open now</span> <b>${esc(ncFmtHours(st.label))}</b>`
+        : st.open === false ? `<span class="nc-closed-dot"></span><span class="nc-closed-txt">Closed now</span> <b>${esc(ncFmtHours(st.label))}</b>`
         : `Today <b>${esc(ncFmtHours(st.label))}</b>`;
       todayHTML = `<p class="nc-today">${openBit}<button type="button" class="nc-more" data-nc-hours>See all hours ▾</button></p>`;
       weekHTML = `<div class="nc-week" hidden>${NC_WEEK.map((d) => {
@@ -1316,7 +1314,7 @@
         return `<div class="nc-hrow${st.key === d ? " today" : ""}"><span>${NC_DAYLBL[d]}</span><span>${v ? esc(ncFmtHours(v)) : '<span class="nc-closed">Closed</span>'}</span></div>`;
       }).join("")}</div>`;
     } else {
-      todayHTML = `<p class="nc-today"><span class="nc-hours-na">Hours not listed — check the clinic’s website</span></p>`;
+      todayHTML = `<p class="nc-today"><span class="nc-hours-na">Hours not listed</span></p>`;
     }
 
     /* actions */
@@ -1330,12 +1328,8 @@
         <div class="nc-head"><h4 class="nc-name">${esc(c.name)}</h4>${rating}</div>
         <p class="nc-addr"><svg width="12" height="12" viewBox="0 0 24 24" fill="#6E8F7A" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg><span>${esc(addr)}</span></p>
         <p class="nc-desc">${esc(desc)}</p>
-        ${priceHTML}
-        <p class="nc-note">${noteHTML}</p>
-        <div class="nc-dbrow">${dbPill}</div>
-        ${todayHTML}
+        <div class="nc-meta"><div class="nc-pricecell">${priceHTML}<p class="nc-note">${noteHTML}</p></div><div class="nc-dbrow">${dbPill}</div>${todayHTML}${actions}</div>
         ${weekHTML}
-        ${actions}
       </div>
     </article>`;
   }

@@ -1187,3 +1187,24 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
   .tp-list .nc-dbrow { margin-left: 0; }
   .tp-list .nc-actions { margin-left: 0; }
 }
+
+/* Fixed columns for the row meta line: price slot, billing-pill slot,
+   hours slot, buttons at the right edge — identical x positions on
+   every card so the list scans as clean columns. */
+.nc-meta { display: contents; }
+.tp-list .nc-meta { display: grid; flex: 1 1 100%; grid-template-columns: minmax(0, 178px) minmax(0, 240px) minmax(0, 1fr) auto; align-items: center; gap: 8px; min-width: 0; }
+.tp-list .nc-pricecell { display: flex; align-items: baseline; gap: 7px; min-width: 0; }
+.tp-list .nc-pricecell .nc-price { min-width: 0; }
+.tp-list .nc-pricecell .nc-note { height: auto; flex: none; }
+.tp-list .nc-meta .nc-dbrow { margin-left: 0; }
+.tp-list .nc-meta .nc-db { font-size: .7rem; padding: 5px 8px; }
+.tp-list .nc-meta .nc-today { font-size: .78rem; gap: 5px; }
+.tp-list .nc-meta .nc-more { margin-left: 6px; }
+.tp-list .nc-verified { font-size: 0; }
+.tp-list .nc-meta .nc-today { min-width: 0; overflow: hidden; }
+.tp-list .nc-meta .nc-today b { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tp-list .nc-meta .nc-more { flex: none; }
+.tp-list .nc-meta .nc-actions { margin-left: 0; }
+@media (max-width: 1080px) {
+  .tp-list .nc-meta { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+}
