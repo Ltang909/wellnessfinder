@@ -125,6 +125,31 @@
   "last_verified": null
  },
  {
+  "name": "Accelerate Psychology",
+  "clinic_id": "accelerate-psychology-edmonton",
+  "address": "9426 51 Ave NW, Building 4, Suite 201, Office 205",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6E 5A6",
+  "phone": "780-918-9855",
+  "website": "https://acceleratepsych.ca",
+  "booking_page": "https://acceleratepsych.janeapp.com/",
+  "hours": {
+   "mon": "12:00 PM - 7:00 PM",
+   "tue": "9:00 AM - 2:30 PM",
+   "wed": "9:00 AM - 2:30 PM",
+   "thu": "9:00 AM - 1:30 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Acc\u00e8s Physio",
   "clinic_id": "acces-physio-laval",
   "address": "Place Bell, 1950 Rue Claude-Gagn\u00e9 Unit\u00e9 314, Laval, QC H7N 5H9",
@@ -648,6 +673,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Acupuncture by Amy",
+  "clinic_id": "acupuncture-by-amy-edmonton",
+  "address": "2025 111 St NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6J 4V9",
+  "phone": "780-433-9920",
+  "website": "https://www.acupuncturebyamy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 12:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Acupuncture by Dr. Sabina",
@@ -1300,6 +1350,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Aspire Physiotherapy",
+  "clinic_id": "aspire-physiotherapy-edmonton",
+  "address": "10950 23 Ave NW, Suite 207",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6J 7J9",
+  "phone": "587-773-3738",
+  "website": "https://aspirephysiotherapy.ca",
+  "booking_page": null,
+  "hours": {
+   "mon": "11:00 AM - 8:00 PM",
+   "tue": "11:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "11:00 AM - 7:00 PM",
+   "fri": "11:00 AM - 7:00 PM",
+   "sat": "10:00 AM - 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "At Ease Nutrition",
   "clinic_id": "at-ease-nutrition-toronto",
   "address": "18 King St W",
@@ -1423,6 +1498,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Aura Physiotherapy",
+  "clinic_id": "aura-physiotherapy-edmonton",
+  "address": "11520 100 Ave NW, Suite 207",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5K 0J7",
+  "phone": "587-405-3174",
+  "website": "https://auraphysiotherapy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 7:00 PM",
+   "tue": "8:30 AM - 7:00 PM",
+   "wed": "8:30 AM - 7:00 PM",
+   "thu": "8:30 AM - 7:00 PM",
+   "fri": "8:30 AM - 7:00 PM",
+   "sat": "8:30 AM - 1:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Aurora Chiropractic Prince Albert",
@@ -2297,6 +2397,31 @@
   "google_reviews": 1,
   "rating_source": "Google Places details in search results for Bodywise Health & Rehab (place_id 386177476785010): 'Rating: five stars (5.0), Based on 1 reviews'.",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Boost Psychology",
+  "clinic_id": "boost-psychology-edmonton",
+  "address": "2307 - 90B Street SW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6X 0P4",
+  "phone": "780-628-5446",
+  "website": "https://www.boostpsych.com/",
+  "booking_page": "https://aws-portal.owlpractice.ca/",
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -3500,6 +3625,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Clinique Dentaire GEM",
+  "clinic_id": "clinique-dentaire-gem-drummondville",
+  "address": "1290 Bd Saint-Joseph",
+  "city": "Drummondville",
+  "prov": "QC",
+  "postal": "J2C 2E3",
+  "phone": "819-474-3222",
+  "website": "https://gemdentaire.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 6:00 PM",
+   "tue": "8:30 AM - 6:00 PM",
+   "wed": "8:30 AM - 6:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 4:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Clinique Inspiration",
   "clinic_id": "clinique-inspiration-laval",
   "address": "1800 Boul. le Corbusier #101",
@@ -4025,6 +4175,31 @@
   "last_verified": null
  },
  {
+  "name": "Connect Physiotherapy & Exercise",
+  "clinic_id": "connect-physiotherapy-and-exercise-edmonton",
+  "address": "6316 106 Street",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": null,
+  "phone": "587-416-3332",
+  "website": "https://connectpt.ca/",
+  "booking_page": "https://connectpt.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Connecta Health",
   "clinic_id": "connecta-health-calgary",
   "address": "5920 1A St SW, Unit 602",
@@ -4223,6 +4398,31 @@
   "rating_source": null,
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Corona Station Physical Therapy",
+  "clinic_id": "corona-station-physical-therapy-edmonton",
+  "address": "#110, 10709 Jasper Avenue",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5J 3N3",
+  "phone": "(780) 424-4804",
+  "website": "http://www.coronaphysio.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM \u2013 7:00 PM",
+   "tue": "7:00 AM \u2013 7:00 PM",
+   "wed": "7:00 AM \u2013 7:00 PM",
+   "thu": "7:00 AM \u2013 7:00 PM",
+   "fri": "7:00 AM \u2013 7:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 6,
+  "rating_source": "Google Places details via search (Rating: 5.0, based on 6 reviews); no Google badge/widget found on the clinic's own site; aggregator ratings excluded",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Counselling Solutions For Life",
@@ -4447,7 +4647,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "DRRD Nutrition",
@@ -4925,6 +5125,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Downtown Dental",
+  "clinic_id": "downtown-dental-edmonton",
+  "address": "#704, 10080 Jasper Ave",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5J 0T4",
+  "phone": "(780) 424-7475",
+  "website": "http://www.downtown-dental.net/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM \u2013 2:30 PM",
+   "tue": "7:00 AM \u2013 2:30 PM",
+   "wed": "7:00 AM \u2013 2:30 PM",
+   "thu": "7:00 AM \u2013 2:30 PM",
+   "fri": "7:00 AM \u2013 2:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 5,
+  "rating_source": "Google Places details via search (Rating: 5.0, based on 5 reviews); no Google badge/widget found on the clinic's own site; aggregator ratings (e.g. Birdeye listings for other same-name clinics) excluded",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Downtown Edmonton Massage Therapy",
+  "clinic_id": "downtown-edmonton-massage-therapy-edmonton",
+  "address": "10068 108 St NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5J 5G8",
+  "phone": "780-433-0550",
+  "website": "https://athleteschoicemassage.ca/locations/downtown-edmonton/",
+  "booking_page": "https://athleteschoicemassage.hivemanager.io/book?category=Mh3KjJu8yr",
+  "hours": {
+   "fri": "8:00 AM \u2013 8:00 PM",
+   "mon": "8:00 AM \u2013 8:00 PM",
+   "sat": "8:00 AM \u2013 8:00 PM",
+   "sun": "8:00 AM \u2013 8:00 PM",
+   "thu": "8:00 AM \u2013 8:00 PM",
+   "tue": "8:00 AM \u2013 8:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 154,
+  "rating_source": "Clinic's own downtown location page prints 'Rating: 4.8/5 (154 reviews)' (athleteschoicemassage.ca/locations/downtown-edmonton/ business block). Aggregator ratings (TrustAnalytica 4.9/50) were NOT used.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Alex Dragan",
   "clinic_id": "dr-alex-dragan-coquitlam",
   "address": "205-2922 Glen Dr, Coquitlam, BC",
@@ -4992,6 +5242,31 @@
    "fri": null,
    "sat": "10:00 AM \u2013 1:00 PM",
    "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Allison Moses Naturopathic Doctor",
+  "clinic_id": "dr-allison-moses-naturopathic-doctor-edmonton",
+  "address": "11230 110 St NW #101",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5G 3H7",
+  "phone": "587-442-3111",
+  "website": "https://www.allisonmosesnd.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
   },
   "google_rating": null,
   "google_reviews": null,
@@ -5500,6 +5775,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Dhillon",
+  "clinic_id": "dr-dhillon-delta",
+  "address": "8425 120 St, Suite 305",
+  "city": "Delta",
+  "prov": "BC",
+  "postal": null,
+  "phone": "778-607-2300",
+  "website": "https://surreynaturopath.com/",
+  "booking_page": "https://surreynaturopath.janeapp.com/",
+  "hours": {
+   "mon": null,
+   "tue": "Open (times not published)",
+   "wed": null,
+   "thu": "Open (times not published)",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Dianne Marasigan ND- Abbotsford",
   "clinic_id": "dr-dianne-marasigan-nd-abbotsford-abbotsford",
   "address": "2061 Sumas Way Unit 130",
@@ -5550,6 +5850,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Dylan Sulz",
+  "clinic_id": "dr-dylan-sulz-edmonton",
+  "address": "10118 158 Street NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5P 2X8",
+  "phone": "780-443-0300",
+  "website": "https://www.strivespineandsport.com/",
+  "booking_page": "https://qstYS.healthquest.ca:3000/onlinebooking",
+  "hours": {
+   "fri": "8:30 AM \u2013 6:00 PM",
+   "mon": "8:30 AM \u2013 6:00 PM",
+   "sat": "9:00 AM \u2013 12:00 PM",
+   "sun": "Closed",
+   "thu": "8:30 AM \u2013 5:00 PM",
+   "tue": "8:30 AM \u2013 5:00 PM",
+   "wed": "8:30 AM \u2013 6:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 180,
+  "rating_source": "Clinic's own website homepage (strivespineandsport.com) prints '4.8 from 180+ Google reviews' \u2014 count recorded as 180, the floor of the site's own '180+' figure.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Emina Jasarevic",
   "clinic_id": "dr-emina-jasarevic-kelowna",
   "address": "302-1630 Pandosy Street, Kelowna, BC, V1Y 1P7",
@@ -5572,6 +5897,31 @@
   "google_reviews": 2,
   "rating_source": "Google Places details in search results (Rating: five stars (5.0), Based on 2 reviews)",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Eric Muradov ND - Naturopath",
+  "clinic_id": "dr-eric-muradov-nd-naturopath-edmonton",
+  "address": "11630 119 Street, Unit #4",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5G 2X7",
+  "phone": "780-757-8378",
+  "website": "https://www.drericmuradov.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM \u2013 4:30 PM",
+   "mon": "10:00 AM \u2013 5:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "10:00 AM \u2013 5:00 PM",
+   "tue": "10:00 AM \u2013 5:00 PM",
+   "wed": "10:00 AM \u2013 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "https://www.trumed.ca/ (Google Places details surfaced via search for TruMed, 11630 119 St NW: 'Rating: five stars (5.0) Based on 2 reviews')",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -5875,6 +6225,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Keith Zukiwski",
+  "clinic_id": "dr-keith-zukiwski-edmonton",
+  "address": "10621 100 Ave NW #120",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": null,
+  "phone": "780-982-6856",
+  "website": "http://www.drzukiwski.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:30 AM \u2013 6:00 PM",
+   "mon": "8:30 AM \u2013 6:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:30 AM \u2013 6:00 PM",
+   "tue": "8:30 AM \u2013 6:00 PM",
+   "wed": "8:30 AM \u2013 6:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "http://www.drzukiwski.com/ (Google Places details surfaced via search for 'Zukiwski Keith Dr': 'Rating: five stars (5.0) Based on 2 reviews')",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Keltie Pratt",
   "clinic_id": "dr-keltie-pratt-calgary",
   "address": null,
@@ -6047,6 +6422,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Monique Savoie",
+  "clinic_id": "dr-monique-savoie-dieppe",
+  "address": "760 Champlain St",
+  "city": "Dieppe",
+  "prov": "NB",
+  "postal": null,
+  "phone": "506-871-6243",
+  "website": "http://www.drmoniquesavoie.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -6275,6 +6675,31 @@
   "last_verified": null
  },
  {
+  "name": "Dr. Robert E. Pearman ND",
+  "clinic_id": "dr-robert-e-pearman-nd-edmonton",
+  "address": "8135 102 St NW, Unit 201",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6E 4A4",
+  "phone": "780-414-1466",
+  "website": "http://www.solmed.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 6:00 PM",
+   "mon": "9:00 AM \u2013 6:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM \u2013 6:00 PM",
+   "tue": "9:00 AM \u2013 6:00 PM",
+   "wed": "9:00 AM \u2013 6:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 6,
+  "rating_source": "http://www.solmed.ca/ (Google Places details surfaced via search for the clinic's listing 'Le Soleil Health and Wholeness', same address/phone: 'Rating: five stars (5.0) Based on 6 reviews'; the separate 'Dr. Robert E. Pearman ND' Places listing surfaced no rating)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Ryan Lewis ND",
   "clinic_id": "dr-ryan-lewis-nd-chilliwack",
   "address": "45966 Yale Rd #17",
@@ -6472,6 +6897,31 @@
   "google_reviews": null,
   "rating_source": "The clinic's own website (drsongsac.com) Patient Reviews section states 'Rated 5 stars by patients in St. John's, Newfoundland and Labrador' and links to its Google listing ('Read Google Reviews'); the Google Places extract showed no rating or review count, so the average is taken from the clinic's own Google-linked reviews statement and the count is left null.",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Stephen Goodwin",
+  "clinic_id": "dr-stephen-goodwin-edmonton",
+  "address": "10118 158 Street NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5P 2X8",
+  "phone": "(780) 443-0300",
+  "website": "https://www.strivespineandsport.com/",
+  "booking_page": "https://www.strivespineandsport.com/contact",
+  "hours": {
+   "mon": "8:30 AM \u2013 6:00 PM",
+   "tue": "8:30 AM \u2013 5:00 PM",
+   "wed": "8:30 AM \u2013 6:00 PM",
+   "thu": "8:30 AM \u2013 5:00 PM",
+   "fri": "8:30 AM \u2013 6:00 PM",
+   "sat": "9:00 AM \u2013 12:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 180,
+  "rating_source": "Clinic's own homepage https://www.strivespineandsport.com/ states '4.8 from 180+ Google reviews' (own-site Google badge claim; count recorded as 180, site says 180+)",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -6723,6 +7173,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Eastgate Physiotherapy",
+  "clinic_id": "eastgate-physiotherapy-edmonton",
+  "address": "937 Fir Street #100, Sherwood Park",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T8A 4N6",
+  "phone": "(780) 467-3848",
+  "website": "http://www.eastgatephysiotherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 7:00 PM",
+   "tue": "9:00 AM \u2013 7:00 PM",
+   "wed": "9:00 AM \u2013 7:00 PM",
+   "thu": "9:00 AM \u2013 7:00 PM",
+   "fri": "9:00 AM \u2013 7:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Eau Therapy",
@@ -7475,6 +7950,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Family-Physio",
+  "clinic_id": "family-physio-edmonton",
+  "address": "7408 139 Ave NW G104",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5C 3H7",
+  "phone": "(825) 601-5787",
+  "website": "https://physio.family/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 7:00 PM",
+   "tue": "9:00 AM \u2013 7:00 PM",
+   "wed": "9:00 AM \u2013 7:00 PM",
+   "thu": "9:00 AM \u2013 7:00 PM",
+   "fri": "9:00 AM \u2013 7:00 PM",
+   "sat": "9:00 AM \u2013 12:30 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Fenwick Psychology & Wellness Associates",
   "clinic_id": "fenwick-psychology-wellness-associates-halifax",
   "address": "5595 Fenwick St, Suite 314",
@@ -7925,6 +8425,56 @@
   "last_verified": null
  },
  {
+  "name": "Glen Sather Sports Medicine Clinic",
+  "clinic_id": "glen-sather-sports-medicine-clinic-edmonton",
+  "address": "11400 University Avenue, Kaye Edmonton Clinic, Level 2",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6G 1Z1",
+  "phone": "780-407-5160",
+  "website": "https://www.ualberta.ca/glen-sather-clinic/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.3,
+  "google_reviews": 17,
+  "rating_source": "Google Places",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Got Knots",
+  "clinic_id": "got-knots-edmonton",
+  "address": "13220 St Albert Trail NW #104",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5L 4W1",
+  "phone": "780-455-7160",
+  "website": "https://www.gotknots.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:30 AM - 2:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "10:00 AM - 6:00 PM",
+   "thu": "10:00 AM - 6:00 PM",
+   "fri": "10:00 AM - 4:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 235,
+  "rating_source": "Clinic's own website Google badge (gotknots.ca)",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Granville Physiotherapy",
   "clinic_id": "granville-physiotherapy-edmonton",
   "address": "3010 Granville Drive NW",
@@ -7947,7 +8497,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Grassroots Naturopathic Medicine",
@@ -8750,6 +9300,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "In Good Nutrition",
+  "clinic_id": "in-good-nutrition-edmonton",
+  "address": "10665 Jasper Ave, Suite 1400",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5J 3S9",
+  "phone": "825-474-6633",
+  "website": "https://www.ingoodnutrition.com/",
+  "booking_page": "https://ingoodnutrition.janeapp.com/",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "In Step Physical Therapy",
   "clinic_id": "in-step-physical-therapy-edmonton",
   "address": "10667 113 St NW",
@@ -8825,6 +9400,31 @@
   "last_verified": null
  },
  {
+  "name": "Inner Peace Psychology Clinic",
+  "clinic_id": "inner-peace-psychology-clinic-edmonton",
+  "address": "9622 42 Avenue NW, Unit 214",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6E 5Y4",
+  "phone": "825-975-0766",
+  "website": "https://innerpeacepsychology.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:30 AM - 3:30 PM",
+   "tue": "9:30 AM - 3:30 PM",
+   "wed": "9:30 AM - 3:30 PM",
+   "thu": "9:30 AM - 3:30 PM",
+   "fri": "9:30 AM - 3:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Innova Physio & Sports Rehab",
   "clinic_id": "innova-physio-sports-rehab-hamilton",
   "address": "920 Upper Wentworth St #9",
@@ -8848,6 +9448,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": null
+ },
+ {
+  "name": "Insight Psychological",
+  "clinic_id": "insight-psychological-edmonton",
+  "address": "2508 Ellwood Drive SW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6X 0A9",
+  "phone": "780-461-1717",
+  "website": "https://www.insightpsychological.ca/",
+  "booking_page": "https://insightpsychological.janeapp.com/locations/south-edmonton-2/book",
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 9:00 PM",
+   "thu": "8:00 AM - 9:00 PM",
+   "fri": "8:00 AM - 9:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": 4.6,
+  "google_reviews": 10,
+  "rating_source": "Google Places",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Insight Psychology on Norfolk",
@@ -9021,6 +9646,31 @@
   "google_rating": 4.8,
   "google_reviews": 26,
   "rating_source": "Google Places listing for Intrinsi via search results, read 2026-11-01: 4.8 stars, 26 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Iron Psychology Services",
+  "clinic_id": "iron-psychology-services-edmonton",
+  "address": "1910 102 St NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6N 1N3",
+  "phone": "780-800-4435",
+  "website": "https://www.ironpsychology.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "3:00 PM - 9:00 PM",
+   "wed": "9:00 AM - 4:00 PM",
+   "thu": "5:00 PM - 10:00 PM",
+   "fri": "9:00 AM - 3:00 PM",
+   "sat": "8:00 AM - 3:00 PM",
+   "sun": "8:00 AM - 11:00 AM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -10250,6 +10900,31 @@
   "last_verified": null
  },
  {
+  "name": "Loving Choices Psychology",
+  "clinic_id": "loving-choices-psychology-edmonton",
+  "address": "9148 23 Ave NW #203",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": null,
+  "phone": "587-498-9750",
+  "website": "https://www.lovingchoicespsychology.ca/",
+  "booking_page": "https://lovingchoices.janeapp.com/locations/loving-choices-psychology/book",
+  "hours": {
+   "mon": "8:30 AM - 8:00 PM",
+   "tue": "8:30 AM - 8:00 PM",
+   "wed": "8:30 AM - 4:30 PM",
+   "thu": "8:30 AM - 9:00 PM",
+   "fri": "8:30 AM - 4:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Lumen Psychology",
   "clinic_id": "lumen-psychology-regina",
   "address": "210-2631 28 Avenue",
@@ -10267,6 +10942,31 @@
    "thu": "9:00 AM \u2013 5:00 PM",
    "tue": "9:00 AM \u2013 6:00 PM",
    "wed": "9:00 AM \u2013 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Luminis Clinical Psychology",
+  "clinic_id": "luminis-clinical-psychology-edmonton",
+  "address": "6830 Ellerslie Road SW, Building 1, Unit 207",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6X 1A3",
+  "phone": "780-434-0223",
+  "website": "https://www.luminisclinicalpsych.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
   },
   "google_rating": null,
   "google_reviews": null,
@@ -10950,6 +11650,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Mindbuffs",
+  "clinic_id": "mindbuffs-edmonton",
+  "address": "1910 102 St NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6N 1N3",
+  "phone": "587-341-2342",
+  "website": "https://www.mindbuffs.com/",
+  "booking_page": "https://mindbuffs2025.janeapp.com/",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Mindful Milestones Psychotherapy",
   "clinic_id": "mindful-milestones-psychotherapy-brandon",
   "address": "740 Rosser Ave",
@@ -11075,6 +11800,31 @@
   "last_verified": null
  },
  {
+  "name": "Momentum Spine & Sports Physiotherapy",
+  "clinic_id": "momentum-spine-sports-physiotherapy-edmonton",
+  "address": "5108 Mullen Road NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6R 0S9",
+  "phone": "587-409-4495",
+  "website": "https://www.mssphysio.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.3,
+  "google_reviews": 7,
+  "rating_source": "Google Places",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Monarch Psychology",
   "clinic_id": "monarch-psychology-calgary",
   "address": "1725 10 Ave SW, Unit 303",
@@ -11097,6 +11847,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Monica Patt Acupuncture",
+  "clinic_id": "monica-patt-acupuncture-edmonton",
+  "address": "10118 124 Street, Suite A (Second Floor)",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": null,
+  "phone": "780-705-0444",
+  "website": "https://monicapattacupuncture.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "12:00 PM - 6:00 PM",
+   "tue": "11:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "10:00 AM - 6:00 PM",
+   "fri": "9:30 AM - 5:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 53,
+  "rating_source": "Google Places",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -11197,6 +11972,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Muscle Release Massage Therapy",
+  "clinic_id": "muscle-release-massage-therapy-edmonton",
+  "address": "9128 51 Avenue Northwest",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6E 5L8",
+  "phone": "780-903-0866",
+  "website": "https://www.musclereleasemassage.com/",
+  "booking_page": "https://mrmt.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 2:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "10:00 AM - 4:00 PM",
+   "sun": "12:00 PM - 6:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 4,
+  "rating_source": "Google Places details surfaced in search results (Rating: 5.0, based on 4 reviews)",
+  "direct_billing": null,
   "last_verified": "2026-11-01"
  },
  {
@@ -11650,6 +12450,31 @@
   "last_verified": null
  },
  {
+  "name": "Naturally Inclined Health",
+  "clinic_id": "naturally-inclined-health-edmonton",
+  "address": "Suite 300, 8225-105 St NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6E 4H2",
+  "phone": "780-757-7700",
+  "website": "http://www.naturallyinclinedhealth.com/",
+  "booking_page": "https://www.naturallyinclinedhealth.com/online-booking-existing-patients",
+  "hours": {
+   "fri": "10:00 AM - 4:00 PM",
+   "mon": "9:00 AM - 2:30 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 2:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No rating in the Google Places details surfaced in search results and no Google rating badge/widget on the clinic's own site (the site states the College of Naturopathic Doctors of Alberta prohibits posting testimonials/reviews), so rating is null",
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Nature Folk",
   "clinic_id": "nature-folk-dartmouth",
   "address": "90 Alderney Drive",
@@ -11748,6 +12573,31 @@
   "rating_source": "Google Places details (avg_rating 4.6667, num_rating 18)",
   "direct_billing": null,
   "last_verified": null
+ },
+ {
+  "name": "Neuroperforma \u2014 Dollard-des-Ormeaux",
+  "clinic_id": "neuroperforma-dollard-des-ormeaux",
+  "address": "3883 Boul. Saint-Jean, Suite 407",
+  "city": "Dollard-des-Ormeaux",
+  "prov": "QC",
+  "postal": "H9G 3B9",
+  "phone": "450-445-1010",
+  "website": "https://neuroperforma.com",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 9:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 9:00 PM",
+   "thu": "8:00 AM - 9:00 PM",
+   "fri": "8:00 AM - 9:00 PM",
+   "sat": "8:30 AM - 5:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Neurvana Naturopathic Medicine",
@@ -11900,6 +12750,31 @@
   "last_verified": null
  },
  {
+  "name": "Newbury Dental",
+  "clinic_id": "newbury-dental-edmonton",
+  "address": "8315 Chappelle Way SW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6W 4S1",
+  "phone": "780-760-3033",
+  "website": "https://www.newburydental.ca/",
+  "booking_page": "https://dental4.me/newburydentalcare/1",
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No rating in the Google Places details surfaced in search results and no Google rating badge/widget on the clinic's own site (its site testimonials are not a Google rating), so rating is null",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Newmarket Naturopathic Clinic (Dr. Michael Morsillo)",
   "clinic_id": "newmarket-naturopathic-clinic-dr-michael-morsillo-newmarket",
   "address": "16655 Yonge St 2nd Floor",
@@ -11923,6 +12798,31 @@
   "rating_source": "Google Places details shown in search results for this listing (4.8 stars, 6 reviews).",
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Next Gen Psychology",
+  "clinic_id": "next-gen-psychology-edmonton",
+  "address": "2921 66 St NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6L 6N3",
+  "phone": "587-989-9695",
+  "website": "https://www.nextgenpsychology.ca/",
+  "booking_page": "https://nextgenpsychology.janeapp.com/locations/next-gen-psychology/book",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No rating in the Google Places details surfaced in search results and no Google rating badge/widget on the clinic's own site, so rating is null",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "No Fear Counselling - Burnaby",
@@ -12575,6 +13475,31 @@
   "last_verified": null
  },
  {
+  "name": "Oliver Chiropractic Wellness Clinic",
+  "clinic_id": "oliver-chiropractic-wellness-clinic-edmonton",
+  "address": "10324 112 Street NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5K 1N1",
+  "phone": "1-780-455-2112",
+  "website": "https://www.ocwc.ca/",
+  "booking_page": "http://ocwc.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 4:00 PM",
+   "mon": "8:00 AM - 6:00 PM",
+   "sat": "By appointment only",
+   "sun": "Closed",
+   "thu": "8:00 AM - 6:00 PM",
+   "tue": "8:00 AM - 6:00 PM",
+   "wed": "8:00 AM - 6:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 34,
+  "rating_source": "Google Places details surfaced in search results for ocwc.ca (Rating: 4.8, Based on 34 reviews)",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Open Circle Psychology",
   "clinic_id": "open-circle-psychology-winnipeg",
   "address": "102 - 11 Evergreen Place",
@@ -12697,6 +13622,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Orchards Dental",
+  "clinic_id": "orchards-dental-edmonton",
+  "address": "150 Summerside Gate SW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6X 0P5",
+  "phone": "(780) 756-9555",
+  "website": "https://www.orchardsdental.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 21,
+  "rating_source": "Google Places details surfaced in search results for orchardsdental.ca (Rating: 5.0, Based on 21 reviews); aggregator ratings (e.g. Birdeye 4.9 / 2,116 reviews for the former location) were excluded per instructions",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -13150,6 +14100,56 @@
   "last_verified": null
  },
  {
+  "name": "Parkallen Dental",
+  "clinic_id": "parkallen-dental-edmonton",
+  "address": "6519 111 St NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6H 4R5",
+  "phone": "(780) 433-9977",
+  "website": "https://parkallendental.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 4:00 PM",
+   "mon": "7:30 AM - 5:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": "Closed",
+   "thu": "7:30 AM - 5:00 PM",
+   "tue": "7:30 AM - 5:00 PM",
+   "wed": "9:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No Google rating was included in the Google Places details surfaced in search results for parkallendental.ca, and no Google rating badge/widget was found on the clinic's own site; aggregator ratings were excluded per instructions",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Peaceful Mind Psychology",
+  "clinic_id": "peaceful-mind-psychology-edmonton",
+  "address": "9415 20 Ave NW Ste 200",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": null,
+  "phone": "(780) 904-4936",
+  "website": "https://peacefulmindpsychology.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 6:00 PM",
+   "mon": "9:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No Google rating was included in the Google Places details surfaced in search results for peacefulmindpsychology.ca, and no Google rating badge/widget was found on the clinic's own site; aggregator ratings were excluded per instructions",
+  "direct_billing": null,
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Peak Nutrition",
   "clinic_id": "peak-nutrition-toronto",
   "address": "100 King St W, 56th Floor",
@@ -13273,6 +14273,56 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Perception Psychotherapy",
+  "clinic_id": "perception-psychotherapy-edmonton",
+  "address": "Suite 2020, 10060 Jasper Ave",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5J 3R8",
+  "phone": "780-243-3292",
+  "website": "https://www.perceptionpsychotherapy.ca/",
+  "booking_page": "https://perceptionpsychotherapy.janeapp.com/",
+  "hours": {
+   "fri": "10:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 6:00 PM",
+   "sat": "10:00 AM - 3:00 PM",
+   "sun": "10:00 AM - 3:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No Google rating in Google Places details surfaced in search results for this clinic and no Google rating badge/widget found on the clinic's own site",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Performance Chiropractic + Physiotherapy",
+  "clinic_id": "performance-chiropractic-physiotherapy-edmonton",
+  "address": "2025 111 St NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6J 4V9",
+  "phone": "780-433-9920",
+  "website": "https://performancechiro.ca/",
+  "booking_page": "https://performancechiro.ca/book-physiotherapy/",
+  "hours": {
+   "fri": "9:00 AM - 6:00 PM",
+   "mon": "9:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 12:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 386,
+  "rating_source": "Google rating badge/widget on the clinic's own website (performancechiro.ca): 'Rated 4.9\u2605 on Google' and a review widget showing 4.9 with 386 reviews; Google Places extract in search results differed (5.0 based on 14 reviews) and was not used",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Personal Best Physiotherapy, Pilates, Rehabilitation",
@@ -13745,9 +14795,9 @@
   },
   "google_rating": null,
   "google_reviews": null,
-  "rating_source": null,
+  "rating_source": "No Google rating in Google Places details surfaced in search results for the High Performance Centre location used for this record and no Google rating badge/widget found on the clinic's own site; a 4.5 rating based on 2 reviews in Places for the Northgate location was not used as it is a different location",
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Pivotal Physiotherapy",
@@ -14073,6 +15123,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "PsychSolutions, Inc",
+  "clinic_id": "psychsolutions-inc-edmonton",
+  "address": "16880-111 Ave NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5M 4C9",
+  "phone": "780-710-9567",
+  "website": "https://psychsolutions.ca/",
+  "booking_page": "https://psychsolutions.janeapp.com/",
+  "hours": {
+   "fri": "10:00 AM - 3:00 PM",
+   "mon": "10:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "10:00 AM - 5:00 PM",
+   "tue": "10:00 AM - 5:00 PM",
+   "wed": "10:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No Google rating in Google Places details surfaced in search results for this clinic and no Google rating badge/widget found on the clinic's own site",
+  "direct_billing": null,
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Psychology Health Solutions",
@@ -14597,7 +15672,7 @@
   "google_reviews": 253,
   "rating_source": "Clinic's own website (redleafwellness.ca page footers, e.g. https://redleafwellness.ca/services/gua-sha-services-edmonton/) displays 'Rating: 5.0/5 (253 reviews)'; the clinic's own guide on the same site describes this as its Google reviews ('holds 251 Google reviews at a 5.0 rating'). Google Places details for the listing agree on 5.0 but show a stale count of 14 \u2014 see gaps.",
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Reframe Psychology and Counselling Clinic",
@@ -14925,6 +16000,31 @@
   "last_verified": null
  },
  {
+  "name": "Revival Physio",
+  "clinic_id": "revival-physio-east-york",
+  "address": "28 Industrial St, Unit 109",
+  "city": "East York",
+  "prov": "ON",
+  "postal": "M4G 1Y9",
+  "phone": "437-990-3250",
+  "website": "https://www.revivalphysio.ca",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 5:00 PM",
+   "tue": "Closed",
+   "wed": "8:30 AM - 5:00 PM",
+   "thu": "12:00 PM - 5:30 PM",
+   "fri": "8:30 AM - 5:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "9:00 AM - 3:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 208,
+  "rating_source": "Google Places",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Revive Physiotherapy & Performance",
   "clinic_id": "revive-physiotherapy-performance-hamilton",
   "address": "#2-318 Dundurn St S",
@@ -15075,6 +16175,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Riverdale Physiotherapy",
+  "clinic_id": "riverdale-physiotherapy-edmonton",
+  "address": "9907 88 Street Northwest",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5H 4N1",
+  "phone": "587-532-7378",
+  "website": "https://riverdalephysiotherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:30 AM - 4:30 PM",
+   "mon": "9:30 AM - 4:30 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:30 AM - 4:30 PM",
+   "tue": "9:30 AM - 4:30 PM",
+   "wed": "9:30 AM - 4:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Rivers Edge Counselling Centre",
   "clinic_id": "rivers-edge-counselling-centre-st-albert",
   "address": "14 Mission Ave",
@@ -15222,6 +16347,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Rooted Resilience Psychology",
+  "clinic_id": "rooted-resilience-psychology-edmonton",
+  "address": "11041 9 Ave NW Unit 102",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": null,
+  "phone": "780-953-8117",
+  "website": "https://www.rootedresilience.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -15700,6 +16850,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Shift Physiotherapy & Wellness",
+  "clinic_id": "shift-physiotherapy-wellness-edmonton",
+  "address": "#101, 11230 110 St NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5G 3H7",
+  "phone": "587-442-3111",
+  "website": "https://www.shiftptwellness.com/",
+  "booking_page": "https://shiftptwellness.janeapp.com/",
+  "hours": {
+   "fri": "7:00 AM - 7:00 PM",
+   "mon": "7:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 1:00 PM",
+   "sun": "Closed",
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "7:00 AM - 8:00 PM",
+   "wed": "7:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "ShiftGrit Psychology & Counselling",
   "clinic_id": "shiftgrit-psychology-counselling-calgary",
   "address": "815 17 Avenue SW #210",
@@ -15946,6 +17121,81 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": "No Google rating/reviews shown in Google Places search extract and no Google rating badge found on the clinic's own site",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "South Edmonton Massage Therapy",
+  "clinic_id": "south-edmonton-massage-therapy-edmonton",
+  "address": "9940 67 Ave NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6E 0P5",
+  "phone": "780-433-0550",
+  "website": "https://athleteschoicemassage.ca/locations/south-edmonton/",
+  "booking_page": "https://athleteschoicemassage.hivemanager.io/",
+  "hours": {
+   "fri": "8:00 AM - 8:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 8:00 PM",
+   "sun": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 243,
+  "rating_source": "Google Places details",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "South Edmonton Physiotherapy",
+  "clinic_id": "south-edmonton-physiotherapy-edmonton",
+  "address": "3010 106 Street NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6J 5M5",
+  "phone": "780-438-0001",
+  "website": "https://southedmontonphysio.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "7:00 AM - 7:00 PM",
+   "mon": "7:00 AM - 7:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 4,
+  "rating_source": "Google Places details",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Sparx Wellness Institute",
+  "clinic_id": "sparx-wellness-institute-dieppe",
+  "address": "539 Champlain St",
+  "city": "Dieppe",
+  "prov": "NB",
+  "postal": "E1A 1P2",
+  "phone": "506-857-8888",
+  "website": "https://sparxwellness.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 26,
+  "rating_source": "Google Places",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -16225,6 +17475,31 @@
   "last_verified": null
  },
  {
+  "name": "Stillar Psychological",
+  "clinic_id": "stillar-psychological-edmonton",
+  "address": "2715 Ellwood Dr SW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6X 0P7",
+  "phone": "780-999-2023",
+  "website": "https://stillarpsychological.com/",
+  "booking_page": "https://stillarpsychological.janeapp.com/",
+  "hours": {
+   "fri": "9:00 AM - 8:00 PM",
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "StoneTree Naturopathic Clinic",
   "clinic_id": "stonetree-naturopathic-clinic-collingwood",
   "address": "27 Third Street",
@@ -16273,6 +17548,31 @@
   "rating_source": "The clinic's own site (https://scn2xl.com/) carries a Trustindex Google-reviews widget headed 'Excellent rating / Based on 65 reviews' with 'Trustindex verifies that the original source of the review is Google' \u2014 this verifies the review count (65) from an own-site Google widget, but the fetched text shows no numeric star value, so google_rating is null rather than inferred from the star images.",
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Strive Holistic",
+  "clinic_id": "strive-holistic-edmonton",
+  "address": "12328 102 Ave NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5N 0L9",
+  "phone": "306-451-7844",
+  "website": "https://www.striveholistic.com/faq",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 8:30 PM",
+   "mon": "9:00 AM - 8:30 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 8:30 PM",
+   "tue": "9:00 AM - 8:30 PM",
+   "wed": "9:00 AM - 8:30 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 26,
+  "rating_source": "Google Places details",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Studio Athletica",
@@ -16900,6 +18200,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "The Neurofeedback Clinic",
+  "clinic_id": "the-neurofeedback-clinic-edmonton",
+  "address": "14920 Stony Plain Rd NW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T5P 3X8",
+  "phone": "780-680-0277",
+  "website": "https://www.theneurofeedbackclinic.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 5:00 PM",
+   "tue": "10:00 AM - 5:00 PM",
+   "wed": "10:00 AM - 5:00 PM",
+   "thu": "10:00 AM - 5:00 PM",
+   "fri": "10:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "The Nutrition Advantage",
   "clinic_id": "the-nutrition-advantage-toronto",
   "address": "65 Beveridge Dr",
@@ -17073,6 +18398,56 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "The Self Centre",
+  "clinic_id": "the-self-centre-edmonton",
+  "address": "2324 Ellwood Dr SW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6X 0A9",
+  "phone": "780-485-1404",
+  "website": "https://theselfcentre.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": "10:00 AM - 4:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 69,
+  "rating_source": "Google Places details",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Self Centre Massage and Wellness",
+  "clinic_id": "the-self-centre-massage-and-wellness-edmonton",
+  "address": "2324 Ellwood Dr SW",
+  "city": "Edmonton",
+  "prov": "AB",
+  "postal": "T6X 0A9",
+  "phone": "780-485-1404",
+  "website": "https://theselfcentre.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": "10:00 AM - 4:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 69,
+  "rating_source": "Google Places details",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "The Speech Associates",
@@ -17622,7 +18997,7 @@
   "google_reviews": 2,
   "rating_source": "Google Places details in search results for TruMed: 'Rating: five stars (5.0) Based on 2 reviews'.",
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "TruMed Fertility",

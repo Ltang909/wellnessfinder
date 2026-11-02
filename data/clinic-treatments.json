@@ -84,6 +84,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "accelerate-psychology-edmonton",
+  "treatment_id": "accelerate-psychology-edmonton--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Psychology",
+  "practitioner": "Laura",
+  "practitioners": [
+   {
+    "id": "accelerate-psychology-edmonton--laura",
+    "name": "Laura",
+    "as_recorded": "Laura, Registered Psychologist (Master's in Counselling Psychology; undergraduate work focused on Sports and Performance Psychology; former law-enforcement officer and competitive equestrian; surname not published on the clinic's own site)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No session fees are published on the clinic's own website, and no price list rendered from its Jane booking page in text fetch, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://acceleratepsych.ca/sport-and-performance",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "acces-physio-laval",
   "treatment_id": "acces-physio-laval--bike-fitting",
   "treatment": "Bike Fitting",
@@ -494,6 +513,25 @@
   "price_source": "No fees are published on the clinic's own website and it has no online booking page.",
   "price_tier": null,
   "treatment_link": "http://www.acupuncturebmclinic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "acupuncture-by-amy-edmonton",
+  "treatment_id": "acupuncture-by-amy-edmonton--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Amy",
+  "practitioners": [
+   {
+    "id": "acupuncture-by-amy-edmonton--amy",
+    "name": "Amy",
+    "as_recorded": "Amy, Registered Acupuncturist (member of the College of Acupuncturists of Alberta; 25+ years of practice; surname not published on her own site)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No treatment fees are published on the practitioner's own website and no public booking page with prices was found, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.acupuncturebyamy.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -1512,6 +1550,38 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "aspire-physiotherapy-edmonton",
+  "treatment_id": "aspire-physiotherapy-edmonton--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Troy Kinash",
+  "practitioners": [
+   {
+    "id": "aspire-physiotherapy-edmonton--troy-kinash",
+    "name": "Troy Kinash",
+    "as_recorded": "Troy Kinash, Physiotherapist, TPI (Titleist Performance Institute) Level 1 Certified - leads the golf program, including the TPI 16-point movement assessment and swing analysis"
+   }
+  ],
+  "price_text": "$100 (initial physiotherapy assessment)",
+  "price_source": "No golf-specific price is published. The clinic's own shockwave therapy page states its standard first-time physiotherapy assessment fee is $100; the golf program is a physiotherapist-delivered TPI assessment, so the clinic's published physiotherapy assessment fee is recorded with this note.",
+  "price_tier": "website",
+  "treatment_link": "https://aspirephysiotherapy.ca/services/golf-physiotherapy-edmonton/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "aspire-physiotherapy-edmonton",
+  "treatment_id": "aspire-physiotherapy-edmonton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$110 initial visit (assessment, diagnosis and treatment)",
+  "price_source": "Clinic's own shockwave therapy page (aspirephysiotherapy.ca/services/shockwave-therapy-edmonton-south/), 'Shockwave Therapy Physiotherapy Pricing' block.",
+  "price_tier": "website",
+  "treatment_link": "https://aspirephysiotherapy.ca/services/shockwave-therapy-edmonton-south/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "at-ease-nutrition-toronto",
   "treatment_id": "at-ease-nutrition-toronto--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -1618,6 +1688,44 @@
   "price_tier": null,
   "treatment_link": "http://attainphysiosport.ca/services",
   "last_verified": null
+ },
+ {
+  "clinic_id": "aura-physiotherapy-edmonton",
+  "treatment_id": "aura-physiotherapy-edmonton--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Karthikeyan P. Diwakar",
+  "practitioners": [
+   {
+    "id": "aura-physiotherapy-edmonton--karthikeyan-p-diwakar",
+    "name": "Karthikeyan P. Diwakar",
+    "as_recorded": "Karthikeyan P. Diwakar, MPT, MLD/CDT (Vodder-certified Manual Lymphatic Drainage)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No session fees are published on the clinic's own website (only a '$$' price range in its listing data) and no booking price list rendered, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://auraphysiotherapy.ca/services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "aura-physiotherapy-edmonton",
+  "treatment_id": "aura-physiotherapy-edmonton--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Radha Durai Babu",
+  "practitioners": [
+   {
+    "id": "aura-physiotherapy-edmonton--radha-durai-babu",
+    "name": "Radha Durai Babu",
+    "as_recorded": "Radha Durai Babu, PT, MPT (pelvic floor physiotherapist; 19 years of experience)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No session fees are published on the clinic's own website (only a '$$' price range in its listing data) and no booking price list rendered, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://auraphysiotherapy.ca/services",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "aurora-chiropractic-prince-albert",
@@ -2575,6 +2683,25 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.bodywiseancaster.ca/nutrition-dietitian-hamilton-ancaster.html",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "boost-psychology-edmonton",
+  "treatment_id": "boost-psychology-edmonton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Kirsten Klemm",
+  "practitioners": [
+   {
+    "id": "boost-psychology-edmonton--kirsten-klemm",
+    "name": "Kirsten Klemm",
+    "as_recorded": "Kirsten Klemm, Registered Psychologist (clinic lead; her verified Psychology Today profile lists couples among her client groups and marital/premarital among her top specialties)"
+   }
+  ],
+  "price_text": "$235 per 50-minute session (Registered Psychologists; some Registered Provisional Psychologists $180)",
+  "price_source": "Clinic's own FAQ page (boostpsych.com/about/faq): 'Sessions are 50 minutes long and are billed at $235... Boost Psychology follows the recommended fee schedule established by the Psychologists Association of Alberta.' This is the clinic's standard session fee; no couples-specific fee is published.",
+  "price_tier": "website",
+  "treatment_link": "https://www.boostpsych.com/couples-therapy-edmonton",
   "last_verified": "2026-11-01"
  },
  {
@@ -4003,6 +4130,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "clinique-dentaire-gem-drummondville",
+  "treatment_id": "clinique-dentaire-gem-drummondville--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dentistry",
+  "practitioner": "Dr Sevag Donabet",
+  "practitioners": [
+   {
+    "id": "clinique-dentaire-gem-drummondville--sevag-donabet",
+    "name": "Dr Sevag Donabet",
+    "as_recorded": "Dr Sevag Donabet, D.M.D. (clinic owner/dentist; Doctorate in Dental Medicine, Universit\u00e9 de Montr\u00e9al, 2017)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No neuromodulator/Botox fees are published on the clinic's own website or its neuromodulator landing page, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://go.gemdentaire.com/nm/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "clinique-inspiration-laval",
   "treatment_id": "clinique-inspiration-laval--clinical-pilates",
   "treatment": null,
@@ -4560,6 +4706,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "connect-physiotherapy-and-exercise-edmonton",
+  "treatment_id": "connect-physiotherapy-and-exercise-edmonton--bike-fitting",
+  "treatment": "Bike Fitting",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No bike-fit price is published on Connect's own website in fetched pages. Program partner United Sport & Cycle states that pricing and the booking link are on Connect's website, but no price rendered; a third-party listing showing a $300 full bike fit was NOT used.",
+  "price_tier": null,
+  "treatment_link": "https://unitedsport.ca/pages/bike-fitting",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "connect-physiotherapy-and-exercise-edmonton",
+  "treatment_id": "connect-physiotherapy-and-exercise-edmonton--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$200 initial assessment and treatment (60 min) \u00b7 $150 follow-up treatment (45 min)",
+  "price_source": "Clinic's own physiotherapy page (connectpt.ca/physiotherapy), Pelvic health physiotherapy pricing block.",
+  "price_tier": "website",
+  "treatment_link": "https://www.connectpt.ca/physiotherapy",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "connecta-health-calgary",
   "treatment_id": "connecta-health-calgary--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
@@ -4868,6 +5040,38 @@
   "price_tier": "website",
   "treatment_link": "https://cornerstonefamilycounselling.com/who-we-help/couples-therapy/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "corona-station-physical-therapy-edmonton",
+  "treatment_id": "corona-station-physical-therapy-edmonton--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Kaitlyn Sereda, PT, MScPT, BKin, Pelvic Health Physiotherapist",
+  "practitioners": [
+   {
+    "id": "corona-station-physical-therapy-edmonton--kaitlyn-sereda",
+    "name": "Kaitlyn Sereda",
+    "as_recorded": "Kaitlyn Sereda PT, MScPT, BKin \u2014 'Hi! My name is Kaitlyn and I am a Pelvic Health Physiotherapist.' (byline and self-description on the clinic's own Pelvic Health Physiotherapy page, coronaphysio.com/blog/what-is-pelvic-physiotherapy)"
+   }
+  ],
+  "price_text": "$175 assessment \u00b7 $100 treatment",
+  "price_source": "Clinic's own Services page (https://www.coronaphysio.com/services-overview) under 'Women's Pelvic Health': 'Assessment: $175 / Treatment: $100'",
+  "price_tier": "website",
+  "treatment_link": "https://www.coronaphysio.com/blog/what-is-pelvic-physiotherapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "corona-station-physical-therapy-edmonton",
+  "treatment_id": "corona-station-physical-therapy-edmonton--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$150",
+  "price_source": "Clinic's own Services page (https://www.coronaphysio.com/services-overview) under 'Running Performance and Gait Analysis': 'Fee: $150'",
+  "price_tier": "website",
+  "treatment_link": "https://www.coronaphysio.com/services-overview",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "counselling-solutions-for-life-brandon",
@@ -5650,6 +5854,45 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "downtown-dental-edmonton",
+  "treatment_id": "downtown-dental-edmonton--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.downtown-dental.net/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "downtown-edmonton-massage-therapy-edmonton",
+  "treatment_id": "downtown-edmonton-massage-therapy-edmonton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own website and its HiveManager booking page returned no extractable content, so no price could be verified. Aggregator ranges (TrustAnalytica '$90 - $140') are not an allowed price tier and were NOT used.",
+  "price_tier": null,
+  "treatment_link": "https://athleteschoicemassage.ca/locations/downtown-edmonton/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "downtown-edmonton-massage-therapy-edmonton",
+  "treatment_id": "downtown-edmonton-massage-therapy-edmonton--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee is published on the clinic's own TMJ service page (it lists only 45 min | 60 min session lengths) and its HiveManager booking page (athleteschoicemassage.hivemanager.io) returned no extractable content, so no booking/website price could be verified. Aggregator price ranges (TrustAnalytica '$100 - $150' for TMJ Treatment) are not an allowed price tier and were NOT used.",
+  "price_tier": null,
+  "treatment_link": "https://athleteschoicemassage.ca/locations/edmonton/tmj-massage/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-alex-dragan-coquitlam",
   "treatment_id": "dr-alex-dragan-coquitlam--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -5818,6 +6061,25 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://dralisamurli.com/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-allison-moses-naturopathic-doctor-edmonton",
+  "treatment_id": "dr-allison-moses-naturopathic-doctor-edmonton--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Allison Moses",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Allison Moses, ND (licensed Naturopathic Doctor practicing in Edmonton, Alberta; member of CAND and the College of Naturopathic Doctors of Alberta \u2014 bio hosted on Refresh Health & Wellness naturopathy page and her own site allisonmosesnd.com)",
+    "id": "dr-allison-moses-naturopathic-doctor-edmonton--allison-moses",
+    "name": "Allison Moses"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published anywhere on her own website (allisonmosesnd.com) and no booking-page price list could be read (her site's 'Book an Appointment' link target could not be fetched), so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.allisonmosesnd.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -6537,6 +6799,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-dhillon-delta",
+  "treatment_id": "dr-dhillon-delta--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Vinnie Dhillon",
+  "practitioners": [
+   {
+    "id": "dr-dhillon-delta--vinnie-dhillon",
+    "name": "Dr. Vinnie Dhillon",
+    "as_recorded": "Dr. Vinnie Dhillon, ND (registered naturopathic physician, College of Naturopathic Physicians of BC)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No IV therapy fees are published on the clinic's own website; its Jane booking page lists IV Vitamin Therapy treatments but no price list rendered in text fetch, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://surreynaturopath.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-dianne-marasigan-nd-abbotsford-abbotsford",
   "treatment_id": "dr-dianne-marasigan-nd-abbotsford-abbotsford--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -6651,6 +6932,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-dylan-sulz-edmonton",
+  "treatment_id": "dr-dylan-sulz-edmonton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (strivespineandsport.com) and no price list is shown on its booking page, so no shockwave or chiropractic price could be verified; the Rule v2 stand-in cannot be priced either.",
+  "price_tier": null,
+  "treatment_link": "https://www.strivespineandsport.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-emina-jasarevic-kelowna",
   "treatment_id": "dr-emina-jasarevic-kelowna--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -6705,6 +6999,49 @@
   "price_source": "No microneedling price is published on the Anti-Aging & Aesthetics page or elsewhere on dremina.com found in this sweep, so price left null.",
   "price_tier": null,
   "treatment_link": "https://dremina.com/areas-of-focus/anti-aging-aesthetics/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-eric-muradov-nd-naturopath-edmonton",
+  "treatment_id": "dr-eric-muradov-nd-naturopath-edmonton--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Eric Muradov, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Eric Muradov, ND",
+    "id": "dr-eric-muradov-nd-naturopath-edmonton--eric-muradov",
+    "name": "Eric Muradov"
+   },
+   {
+    "as_recorded": "Dr. Kirti Deol ND",
+    "id": "dr-eric-muradov-nd-naturopath-edmonton--kirti-deol",
+    "name": "Kirti Deol"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.trumedfertility.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-eric-muradov-nd-naturopath-edmonton",
+  "treatment_id": "dr-eric-muradov-nd-naturopath-edmonton--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Eric Muradov, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Eric Muradov, ND",
+    "id": "dr-eric-muradov-nd-naturopath-edmonton--eric-muradov",
+    "name": "Eric Muradov"
+   }
+  ],
+  "price_text": "$140\u2013$250 per IV typically; Myers Cocktail about $175 per treatment",
+  "price_source": "https://www.trumed.ca/iv-vitamins-edmonton (clinic's own IV page: 'How much does a Myers IV treatment cost? At TruMed our Naturopaths use a stronger, drip format Myers which is usually about $175 per treatment'; homepage states IV prices typically range $140 to $250)",
+  "price_tier": "website",
+  "treatment_link": "https://www.drericmuradov.com/intravenous-therapy-edmonton",
   "last_verified": "2026-11-01"
  },
  {
@@ -7259,6 +7596,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-keith-zukiwski-edmonton",
+  "treatment_id": "dr-keith-zukiwski-edmonton--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Keith Zukiwski",
+  "practitioners": [
+   {
+    "as_recorded": "Keith Zukiwsk, Ph.D. - Registered Psychologist in Alberta #2561 and B.C. #2334 (site spelling 'Zukiwsk')",
+    "id": "dr-keith-zukiwski-edmonton--keith-zukiwski",
+    "name": "Keith Zukiwski"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.drzukiwski.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-keltie-pratt-calgary",
   "treatment_id": "dr-keltie-pratt-calgary--sleep-coaching",
   "treatment": "Sleep Coaching",
@@ -7421,6 +7777,25 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://ramsayacu.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-monique-savoie-dieppe",
+  "treatment_id": "dr-monique-savoie-dieppe--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Monique Savoie",
+  "practitioners": [
+   {
+    "id": "dr-monique-savoie-dieppe--monique-savoie",
+    "name": "Dr. Monique Savoie",
+    "as_recorded": "Dr. Monique Savoie, Ph.D. in Clinical Psychology, L. Psych. (licensed psychologist in New Brunswick)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the practitioner's own website and no public booking page exists, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "http://www.drmoniquesavoie.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -7650,6 +8025,44 @@
   "price_tier": null,
   "treatment_link": "https://www.rachelcorradetti.com/preconception-consults",
   "last_verified": null
+ },
+ {
+  "clinic_id": "dr-robert-e-pearman-nd-edmonton",
+  "treatment_id": "dr-robert-e-pearman-nd-edmonton--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Robert E. Pearman, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Robert E.Pearman, MSc, ND - Naturopath",
+    "id": "dr-robert-e-pearman-nd-edmonton--robert-e-pearman",
+    "name": "Robert E. Pearman"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.solmed.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-robert-e-pearman-nd-edmonton",
+  "treatment_id": "dr-robert-e-pearman-nd-edmonton--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Carissa Barke",
+  "practitioners": [
+   {
+    "as_recorded": "Carissa Barke, Massage Therapist - RMT registered with the Natural Health Practitioners of Canada, Vodder Manual Lymphatic Drainage (Level One & Advanced)",
+    "id": "dr-robert-e-pearman-nd-edmonton--carissa-barke",
+    "name": "Carissa Barke"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.solmed.ca/blog/biotuning-services-edmonton-kp3gz",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "dr-ryan-lewis-nd-chilliwack",
@@ -7893,6 +8306,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-stephen-goodwin-edmonton",
+  "treatment_id": "dr-stephen-goodwin-edmonton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.strivespineandsport.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-vishaala-singh-nd-brampton",
   "treatment_id": "dr-vishaala-singh-nd-brampton--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -8072,6 +8498,38 @@
   "price_tier": "website",
   "treatment_link": "https://www.eastcoastperformancenutrition.com/nutrition-consultations",
   "last_verified": null
+ },
+ {
+  "clinic_id": "eastgate-physiotherapy-edmonton",
+  "treatment_id": "eastgate-physiotherapy-edmonton--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.eastgatephysiotherapy.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "eastgate-physiotherapy-edmonton",
+  "treatment_id": "eastgate-physiotherapy-edmonton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Satish Pandya",
+  "practitioners": [
+   {
+    "id": "eastgate-physiotherapy-edmonton--satish-pandya",
+    "name": "Satish Pandya",
+    "as_recorded": "Satish Pandya (Vestibular Physiotherapy service page: 'Provided by: Satish Pandya'; described on the clinic's own site as a Registered Physiotherapist and the clinical lead at Eastgate)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.eastgatephysiotherapy.com/services/vestibular-physiotherapy/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "eastnd-moncton",
@@ -9026,6 +9484,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "family-physio-edmonton",
+  "treatment_id": "family-physio-edmonton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$30 additional (shockwave add-on)",
+  "price_source": "Clinic's own website pricing blocks published on its service pages (fully read at https://www.physio.family/sports-physiotherapy-edmonton/): 'Shockwave treatments - additional $30.00'; the shockwave service page is https://www.physio.family/radial-shockwave-therapy-edmonton/",
+  "price_tier": "website",
+  "treatment_link": "https://www.physio.family/radial-shockwave-therapy-edmonton/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "family-physio-edmonton",
+  "treatment_id": "family-physio-edmonton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$150 assessment \u00b7 $100 treatment",
+  "price_source": "Clinic's own website pricing blocks published on its service pages (fully read at https://www.physio.family/sports-physiotherapy-edmonton/): 'Vestibular & Concussion - Assessment $150.00, Treatment $100.00'; the vestibular service page is https://www.physio.family/vestibular-physiotherapy-edmonton/",
+  "price_tier": "website",
+  "treatment_link": "https://www.physio.family/vestibular-physiotherapy-edmonton/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "fenwick-psychology-wellness-associates-halifax",
   "treatment_id": "fenwick-psychology-wellness-associates-halifax--couples-therapy",
   "treatment": "Couples Therapy",
@@ -9508,6 +9992,51 @@
   "last_verified": null
  },
  {
+  "clinic_id": "glen-sather-sports-medicine-clinic-edmonton",
+  "treatment_id": "glen-sather-sports-medicine-clinic-edmonton--performing-arts-physiotherapy",
+  "treatment": "Performing Arts Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own site.",
+  "price_tier": null,
+  "treatment_link": "https://www.ualberta.ca/glen-sather-clinic/services/index.html",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "glen-sather-sports-medicine-clinic-edmonton",
+  "treatment_id": "glen-sather-sports-medicine-clinic-edmonton--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own site.",
+  "price_tier": null,
+  "treatment_link": "https://www.ualberta.ca/glen-sather-clinic/services/index.html",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "got-knots-edmonton",
+  "treatment_id": "got-knots-edmonton--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Brittany Forrest",
+  "practitioners": [
+   {
+    "id": "got-knots-edmonton--brittany-forrest",
+    "name": "Brittany Forrest",
+    "as_recorded": "Brittany Forrest, RMT \u2014 the clinic's own TMJ massage page names her focus as 'Headaches, migraines and TMJ pain'"
+   }
+  ],
+  "price_text": "$73.50/30 min \u00b7 $115.50/60 min \u00b7 $157.50/90 min (+GST)",
+  "price_source": "https://www.gotknots.ca/massage-services/tmj-massage/",
+  "price_tier": "website",
+  "treatment_link": "https://www.gotknots.ca/massage-services/tmj-massage/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "granville-physiotherapy-edmonton",
   "treatment_id": "granville-physiotherapy-edmonton--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -9519,6 +10048,32 @@
   "price_tier": null,
   "treatment_link": "https://www.granvillephysiotherapy.ca/pelvic-floor-physiotherapy-edmonton/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "granville-physiotherapy-edmonton",
+  "treatment_id": "granville-physiotherapy-edmonton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website. Google Places shows a generic 'Price Range $100\u2013$150', which is not a clinic-published price and was not used.",
+  "price_tier": null,
+  "treatment_link": "https://www.granvillephysiotherapy.ca/shockwave-therapy-edmonton/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "granville-physiotherapy-edmonton",
+  "treatment_id": "granville-physiotherapy-edmonton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "https://www.granvillephysiotherapy.ca/alleviate-stress-headaches-vestibular-physiotherapy/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "grassroots-naturopathic-medicine-calgary",
@@ -10341,6 +10896,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "in-good-nutrition-edmonton",
+  "treatment_id": "in-good-nutrition-edmonton--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page (ingoodnutrition.janeapp.com) price list did not render in text fetch, so no price could be verified \u2014 queued for the Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://ingoodnutrition.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "in-step-physical-therapy-edmonton",
   "treatment_id": "in-step-physical-therapy-edmonton--accent-modification",
   "treatment": "Accent Modification",
@@ -10519,6 +11087,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "inner-peace-psychology-clinic-edmonton",
+  "treatment_id": "inner-peace-psychology-clinic-edmonton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "https://innerpeacepsychology.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "innova-physio-sports-rehab-hamilton",
   "treatment_id": "innova-physio-sports-rehab-hamilton--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -10530,6 +11111,19 @@
   "price_tier": null,
   "treatment_link": "https://www.innovaphysio.ca/blog/shockwave-therapy-meaning-benefits-treatment",
   "last_verified": null
+ },
+ {
+  "clinic_id": "insight-psychological-edmonton",
+  "treatment_id": "insight-psychological-edmonton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page service prices did not render in text fetch. The only prices shown are practicum-therapist rates ($75 for the first 3 sessions, then $100), which are not a couples therapy price and were not used.",
+  "price_tier": null,
+  "treatment_link": "https://insightpsychological.janeapp.com/locations/south-edmonton-2/book",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "insight-psychology-on-norfolk-guelph",
@@ -10739,6 +11333,19 @@
   "price_source": "No running assessment price is published on the clinic's own website.",
   "price_tier": null,
   "treatment_link": "https://intrinsi.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "iron-psychology-services-edmonton",
+  "treatment_id": "iron-psychology-services-edmonton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "https://www.ironpsychology.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -12204,6 +12811,35 @@
   "last_verified": null
  },
  {
+  "clinic_id": "loving-choices-psychology-edmonton",
+  "treatment_id": "loving-choices-psychology-edmonton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Jason Jones; Emily Ouellette; Luke Suelzle",
+  "practitioners": [
+   {
+    "id": "loving-choices-psychology-edmonton--jason-jones",
+    "name": "Jason Jones",
+    "as_recorded": "Dr. Jason Jones (Registered Psychologist; clinic founder; AASECT Certified Sex Therapist and Supervisor; featured under Meet Your Therapists on the clinic's couples counselling page)"
+   },
+   {
+    "id": "loving-choices-psychology-edmonton--emily-ouellette",
+    "name": "Emily Ouellette",
+    "as_recorded": "Emily Ouellette (Registered Provisional Psychologist; featured under Meet Your Therapists on the clinic's couples counselling page; accepts couples clients per the clinic's Jane page)"
+   },
+   {
+    "id": "loving-choices-psychology-edmonton--luke-suelzle",
+    "name": "Luke Suelzle",
+    "as_recorded": "Luke Suelzle (accepts individual and couples clients per the clinic's Jane booking page; Gottman Couples Counselling Level 1 and 2 training)"
+   }
+  ],
+  "price_text": "$195/hour (Registered Provisional Psychologist) \u00b7 $235/hour (Registered Psychologist)",
+  "price_source": "https://lovingchoicespsychology.ca/couples-marriage-counselling/",
+  "price_tier": "website",
+  "treatment_link": "https://lovingchoicespsychology.ca/couples-marriage-counselling/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "lumen-psychology-regina",
   "treatment_id": "lumen-psychology-regina--couples-therapy",
   "treatment": "Couples Therapy",
@@ -12258,6 +12894,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.lumenpsychology.ca/assessment",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "luminis-clinical-psychology-edmonton",
+  "treatment_id": "luminis-clinical-psychology-edmonton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's own site states 'Call for pricing options'; no fees are published.",
+  "price_tier": null,
+  "treatment_link": "https://www.luminisclinicalpsych.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -12958,6 +13607,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "mindbuffs-edmonton",
+  "treatment_id": "mindbuffs-edmonton--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Mental Performance Consulting",
+  "practitioner": "Shawna Shuster",
+  "practitioners": [
+   {
+    "id": "mindbuffs-edmonton--shawna-shuster",
+    "name": "Shawna Shuster",
+    "as_recorded": "Shawna Shuster (Mental Performance Consultant; master's degree in Sport and Performance Psychology and a kinesiology background, per her clinic team profile)"
+   }
+  ],
+  "price_text": "$100 / individual session (50 min)",
+  "price_source": "https://www.mindbuffs.com/team/shawna-shuster",
+  "price_tier": "website",
+  "treatment_link": "https://www.mindbuffs.com/services",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "mindful-milestones-psychotherapy-brandon",
   "treatment_id": "mindful-milestones-psychotherapy-brandon--couples-therapy",
   "treatment": "Couples Therapy",
@@ -13253,6 +13921,30 @@
   "last_verified": null
  },
  {
+  "clinic_id": "momentum-spine-sports-physiotherapy-edmonton",
+  "treatment_id": "momentum-spine-sports-physiotherapy-edmonton--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Giri Srinivasan; Girish Padmanabhan",
+  "practitioners": [
+   {
+    "id": "momentum-spine-sports-physiotherapy-edmonton--giri-srinivasan",
+    "name": "Giri Srinivasan",
+    "as_recorded": "Giri Srinivasan (TPI-certified therapist; the clinic's own Golf Physiotherapy page names him as conducting the TPI assessments)"
+   },
+   {
+    "id": "momentum-spine-sports-physiotherapy-edmonton--girish-padmanabhan",
+    "name": "Girish Padmanabhan",
+    "as_recorded": "Girish Padmanabhan (TPI-certified therapist; the clinic's own Golf Physiotherapy page names him as conducting the TPI assessments)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee for the TPI golf assessment is published on the clinic's own Golf Physiotherapy page or elsewhere on its site.",
+  "price_tier": null,
+  "treatment_link": "https://www.mssphysio.com/golf-physiotherapy-edmonton/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "monarch-psychology-calgary",
   "treatment_id": "monarch-psychology-calgary--couples-therapy",
   "treatment": "Couples Therapy",
@@ -13269,6 +13961,78 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://monarchpsychology.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "monica-patt-acupuncture-edmonton",
+  "treatment_id": "monica-patt-acupuncture-edmonton--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Rachel Yeap; Jana Lang",
+  "practitioners": [
+   {
+    "id": "monica-patt-acupuncture-edmonton--rachel-yeap",
+    "name": "Rachel Yeap",
+    "as_recorded": "Rachel Yeap, R.Ac, FABORM (Registered Acupuncturist; named on the clinic's cosmetic acupuncture page as offering the service)"
+   },
+   {
+    "id": "monica-patt-acupuncture-edmonton--jana-lang",
+    "name": "Jana Lang",
+    "as_recorded": "Jana Lang (named on the clinic's cosmetic acupuncture page as offering the service; the clinic's team page spells the name 'Jenna Lang, R.Ac, FABORM' \u2014 the treatment page's spelling is kept as recorded)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "https://monicapattacupuncture.ca/cosmetic-acupucnture-facial-rejuvenation/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "monica-patt-acupuncture-edmonton",
+  "treatment_id": "monica-patt-acupuncture-edmonton--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": "Acupuncture",
+  "practitioner": "Rachel Yeap",
+  "practitioners": [
+   {
+    "id": "monica-patt-acupuncture-edmonton--rachel-yeap",
+    "name": "Rachel Yeap",
+    "as_recorded": "Rachel Yeap, R.Ac, FABORM (Registered Acupuncturist; per the clinic's own cosmetic acupuncture page, she finishes cosmetic acupuncture sessions with facial cupping or gua sha)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "https://monicapattacupuncture.ca/cosmetic-acupucnture-facial-rejuvenation/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "monica-patt-acupuncture-edmonton",
+  "treatment_id": "monica-patt-acupuncture-edmonton--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Monica Patt; Rachel Yeap; Jenna Lang",
+  "practitioners": [
+   {
+    "id": "monica-patt-acupuncture-edmonton--monica-patt",
+    "name": "Monica Patt",
+    "as_recorded": "Monica Patt, R.Ac, FABORM (Registered Acupuncturist and clinic owner; Fellow of the Acupuncture and TCM Board of Reproductive Medicine, per the clinic's own team page)"
+   },
+   {
+    "id": "monica-patt-acupuncture-edmonton--rachel-yeap",
+    "name": "Rachel Yeap",
+    "as_recorded": "Rachel Yeap, R.Ac, FABORM (Registered Acupuncturist; Fellow of the Acupuncture and TCM Board of Reproductive Medicine, per the clinic's own team page)"
+   },
+   {
+    "id": "monica-patt-acupuncture-edmonton--jenna-lang",
+    "name": "Jenna Lang",
+    "as_recorded": "Jenna Lang, R.Ac, FABORM (Registered Acupuncturist; specializes in fertility acupuncture, per the clinic's own team page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "https://monicapattacupuncture.ca/fertility-acupuncture/",
   "last_verified": "2026-11-01"
  },
  {
@@ -13568,6 +14332,44 @@
   "price_source": "No shockwave therapy prices are published on the clinic's own website or on its Jane booking pages (read 2026-11-01).",
   "price_tier": null,
   "treatment_link": "https://mskclinics.com/physiotherapy-center-treatments/shockwave-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "muscle-release-massage-therapy-edmonton",
+  "treatment_id": "muscle-release-massage-therapy-edmonton--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Nan Whalin",
+  "practitioners": [
+   {
+    "as_recorded": "Nan Whalin, RMT.",
+    "id": "muscle-release-massage-therapy-edmonton--nan-whalin",
+    "name": "Nan Whalin"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price verifiable: checked the clinic's Jane App booking site (mrmt.janeapp.com, location-selection page; treatment prices were not rendered in the fetched text) and the clinic website (homepage, team, contact, deep-tissue and TMJ pages; no massage rate/fee list found). Manual Lymphatic Drainage is a technique used within Nan Whalin's massage sessions rather than a separately priced service on the pages checked, and no general massage session price was published on those pages to apply under the price fallback rule.",
+  "price_tier": null,
+  "treatment_link": "https://www.musclereleasemassage.com/team",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "muscle-release-massage-therapy-edmonton",
+  "treatment_id": "muscle-release-massage-therapy-edmonton--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Krysten Lindgren",
+  "practitioners": [
+   {
+    "as_recorded": "Krysten Lindgren, RMT",
+    "id": "muscle-release-massage-therapy-edmonton--krysten-lindgren",
+    "name": "Krysten Lindgren"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price verifiable: checked the clinic's Jane App booking site (treatment prices not rendered in the fetched text) and the clinic website, including its dedicated TMJ massage blog page; no massage rate/fee list was found on the pages checked.",
+  "price_tier": null,
+  "treatment_link": "https://www.musclereleasemassage.com/blog/massage-therapy-for-tmj-pain-and-jaw-tension",
   "last_verified": "2026-11-01"
  },
  {
@@ -14108,6 +14910,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "naturally-inclined-health-edmonton",
+  "treatment_id": "naturally-inclined-health-edmonton--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price verifiable: the new-patient page says 'Our fees are listed here' and links to a separate fees page, but that fees-page fetch returned HTTP 429 and was not retried per instructions; search-result extracts of the clinic's own pages, its services page and its online-booking page contain no fee amounts, and no review price within the last 12 months was found.",
+  "price_tier": null,
+  "treatment_link": "https://www.naturallyinclinedhealth.com/services",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "nature-folk-dartmouth",
   "treatment_id": "nature-folk-dartmouth--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -14202,6 +15017,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "neuroperforma-dollard-des-ormeaux",
+  "treatment_id": "neuroperforma-dollard-des-ormeaux--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$800 complete initial evaluation (qEEG + structured interview with a psychologist/neuropsychologist + detailed report); $170 per neurofeedback session (protocols run a minimum of 12 sessions); $25 file-opening fee (non-refundable); first phone consultation free",
+  "price_source": "Clinic network's own neurofeedback page (neuroperforma.com/le-neurofeedback/), 'Tarifs et valeur ajout\u00e9e' section; network-wide pricing - no Dollard-des-Ormeaux-specific price list is published.",
+  "price_tier": "website",
+  "treatment_link": "http://neuroperforma.com/le-neurofeedback/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "neurvana-naturopathic-medicine-calgary",
   "treatment_id": "neurvana-naturopathic-medicine-calgary--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -14265,6 +15093,30 @@
   "price_tier": null,
   "treatment_link": "https://newlifeclinicandpilates.com/pilates/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "newbury-dental-edmonton",
+  "treatment_id": "newbury-dental-edmonton--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dentistry",
+  "practitioner": "Dr. Linda Lee; Dr. Marcus Ngai",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Linda Lee",
+    "id": "newbury-dental-edmonton--linda-lee",
+    "name": "Dr. Linda Lee"
+   },
+   {
+    "as_recorded": "Dr. Marcus Ngai",
+    "id": "newbury-dental-edmonton--marcus-ngai",
+    "name": "Dr. Marcus Ngai"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price verifiable: checked the clinic's Botox page, its patients/financial page and its online booking page (dental4.me scheduling); none lists a Botox price, and no review price within the last 12 months was found.",
+  "price_tier": null,
+  "treatment_link": "https://www.newburydental.ca/articles/botox-injections-at-the-dentist-newbury-dental",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "newcare-counselling-brantford",
@@ -14361,6 +15213,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.nexwellness.com/what-does-a-naturopathic-doctor-do-in-burlington/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "next-gen-psychology-edmonton",
+  "treatment_id": "next-gen-psychology-edmonton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price verifiable: checked the clinic's Jane App booking page (its treatment list and prices were not rendered in the fetched text; only a student counsellor bio snippet was extracted) and the clinic website, which has no fees page found in search; no review price within the last 12 months was found.",
+  "price_tier": null,
+  "treatment_link": "https://www.nextgenpsychology.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14971,6 +15836,38 @@
   "last_verified": null
  },
  {
+  "clinic_id": "oliver-chiropractic-wellness-clinic-edmonton",
+  "treatment_id": "oliver-chiropractic-wellness-clinic-edmonton--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Cheryl Cantonjos",
+  "practitioners": [
+   {
+    "as_recorded": "Cheryl Cantonjos, RMT, OMT, CLT",
+    "id": "oliver-chiropractic-wellness-clinic-edmonton--cheryl-cantonjos",
+    "name": "Cheryl Cantonjos"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price found: Jane App booking page (ocwc.janeapp.com) was fetched and its extracted content listed practitioner bios with no treatment prices; no fee page for massage/lymphatic drainage was found on the clinic's own website",
+  "price_tier": null,
+  "treatment_link": "http://ocwc.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "oliver-chiropractic-wellness-clinic-edmonton",
+  "treatment_id": "oliver-chiropractic-wellness-clinic-edmonton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price found: Jane App booking page (ocwc.janeapp.com) was fetched and its extracted content listed practitioner bios with no treatment prices; the clinic's own website has no fee page for shockwave therapy found in search; no price quoted in a review within the last 12 months was found",
+  "price_tier": null,
+  "treatment_link": "https://www.ocwc.ca/edmonton-shockwave-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "omni-health-and-rehab-burlington",
   "treatment_id": "omni-health-and-rehab-burlington--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -15154,6 +16051,25 @@
   "price_source": "No fee was listed on the clinic's own site or in the Google Places details surfaced in search results; no separate booking flow with prices was found in the extracts.",
   "price_tier": null,
   "treatment_link": "http://orcaphysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "orchards-dental-edmonton",
+  "treatment_id": "orchards-dental-edmonton--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dentistry",
+  "practitioner": "Dr. Dennis George Anithottam",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Dennis George Anithottam",
+    "id": "orchards-dental-edmonton--dr-dennis-george-anithottam",
+    "name": "Dr. Dennis George Anithottam"
+   }
+  ],
+  "price_text": "$8.00 per unit",
+  "price_source": "Clinic's own Botox page: 'Dr. Dennis is certified in Level 2 Basic Neuromodulators: Upper Face and Bruxism Treatment and can administer Botox for both aesthetic and therapeutic uses. The cost per botox unit is $8.00.' The same page offers a complimentary/free Botox consultation. No booking page with pricing exists, so the website price is used.",
+  "price_tier": "website",
+  "treatment_link": "https://www.orchardsdental.ca/services/botox/20528",
   "last_verified": "2026-11-01"
  },
  {
@@ -15630,6 +16546,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "parkallen-dental-edmonton",
+  "treatment_id": "parkallen-dental-edmonton--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dentistry",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price found: the clinic's own Botox page has a 'Transparent Pricing' section stating cost varies by treatment area, muscle activity, goals and dose required and that cost is explained before treatment begins, but publishes no figure; no online booking page with pricing was found; no price quoted in a review within the last 12 months was found",
+  "price_tier": null,
+  "treatment_link": "https://parkallendental.ca/botox-dental-treatment/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "peaceful-mind-psychology-edmonton",
+  "treatment_id": "peaceful-mind-psychology-edmonton--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price found: the clinic's own homepage publishes no fees and no fee page or online booking page for the clinic was found in search; no price quoted in a review within the last 12 months was found",
+  "price_tier": null,
+  "treatment_link": "https://peacefulmindpsychology.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "peak-health-calgary-calgary",
   "treatment_id": "peak-health-calgary-calgary--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -15829,6 +16771,38 @@
   "price_tier": null,
   "treatment_link": "https://www.pelvico.ca/physiotherapy",
   "last_verified": null
+ },
+ {
+  "clinic_id": "perception-psychotherapy-edmonton",
+  "treatment_id": "perception-psychotherapy-edmonton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Daya Montakhebi",
+  "practitioners": [
+   {
+    "as_recorded": "Daya Montakhebi",
+    "id": "perception-psychotherapy-edmonton--daya-montakhebi",
+    "name": "Daya Montakhebi"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price found on the clinic homepage or in the Jane App booking page search extract; Jane page fetch returned HTTP 429 so built from search-result extracts per instructions, and no fee page was found on the clinic's own site",
+  "price_tier": null,
+  "treatment_link": "https://perceptionpsychotherapy.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "performance-chiropractic-physiotherapy-edmonton",
+  "treatment_id": "performance-chiropractic-physiotherapy-edmonton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price found on the clinic homepage, its Book Physiotherapy page (which includes a Shockwave Therapy section), or in a search of the clinic's own site for shockwave fees/prices; no separate booking-system price page was found",
+  "price_tier": null,
+  "treatment_link": "https://performancechiro.ca/book-physiotherapy/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "personal-best-physiotherapy-pilates-rehabilitation-toronto",
@@ -16319,6 +17293,32 @@
   "price_tier": "booking",
   "treatment_link": "https://pivotalphysio.com/services/pilates-based-physiotherapy/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "pivotal-physiotherapy-edmonton",
+  "treatment_id": "pivotal-physiotherapy-edmonton--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$165.00",
+  "price_source": "Clinic's own Running Assessment page (pivotalphysio.com/services/running-assessment/) lists 'Fee: $165.00' at High Performance Centre, Fort Saskatchewan and Northgate Centre",
+  "price_tier": "website",
+  "treatment_link": "https://pivotalphysio.com/services/running-assessment/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pivotal-physiotherapy-edmonton",
+  "treatment_id": "pivotal-physiotherapy-edmonton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$150.00",
+  "price_source": "Clinic's own services page (pivotalphysio.com/services/) lists Shock Wave Therapy 'Treatment: $150.00' at High Performance Centre and Fort Saskatchewan; its dedicated Shock Wave page lists 'Assessment: $150'",
+  "price_tier": "website",
+  "treatment_link": "https://pivotalphysio.com/services/shock-wave-therapy/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "pivotal-physiotherapy-fort-saskatchewan",
@@ -16850,6 +17850,44 @@
   "price_source": "The clinic's own FAQ page (psychealth.ca/faq/, fees stated 'as of September 2026'): 'Couples Counselling (50 minutes): $250'; its contact page repeats 'Fees (as of September 2026): sessions are 50 minutes... $250 for couples'.",
   "price_tier": "website",
   "treatment_link": "http://psychealth.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "psychsolutions-inc-edmonton",
+  "treatment_id": "psychsolutions-inc-edmonton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Lei Zhao",
+  "practitioners": [
+   {
+    "as_recorded": "Lei Zhao",
+    "id": "psychsolutions-inc-edmonton--lei-zhao",
+    "name": "Lei Zhao"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price found on Lei Zhao's own profile page or the clinic's services pages; the clinic's Jane App booking page fetch returned HTTP 429 so it could not be checked directly for prices, and no fee page was found on the clinic's own site",
+  "price_tier": null,
+  "treatment_link": "https://psychsolutions.ca/lei-zhao-edmonton-psychologist/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "psychsolutions-inc-edmonton",
+  "treatment_id": "psychsolutions-inc-edmonton--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": "Psychology",
+  "practitioner": "Joanna Zieminski",
+  "practitioners": [
+   {
+    "as_recorded": "Joanna Zieminski",
+    "id": "psychsolutions-inc-edmonton--joanna-zieminski",
+    "name": "Joanna Zieminski"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price found on the clinic's own CBT-I page or on Joanna Zieminski's own profile page; the clinic's Jane App booking page fetch returned HTTP 429 so it could not be checked directly for prices, and no fee page was found on the clinic's own site",
+  "price_tier": null,
+  "treatment_link": "https://psychsolutions.ca/insomnia-sleep-difficulties-edmonton/",
   "last_verified": "2026-11-01"
  },
  {
@@ -17648,6 +18686,38 @@
  },
  {
   "clinic_id": "red-leaf-wellness-edmonton",
+  "treatment_id": "red-leaf-wellness-edmonton--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Ac. Yoko Masuda",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Ac. Yoko Masuda (Doctor of Acupuncture, registered with the College of Acupuncturists of Alberta; named under 'Meet Edmonton's Facial Rejuvenation Acupuncturists' on the clinic's cosmetic acupuncture program page; also speaks Japanese)",
+    "id": "red-leaf-wellness-edmonton--dr-ac-yoko-masuda",
+    "name": "Dr. Ac. Yoko Masuda"
+   }
+  ],
+  "price_text": "$185 initial \u00b7 $140 follow-up (60 min) \u00b7 $199 follow-up (90 min)",
+  "price_source": "Clinic's own Service Fees page (redleafwellness.ca/our-fees/), 'Facial Acupuncture Fees': Initial Assessment $185 per session, Follow Up (60 Min) $140, Follow Up (90 Min) $199.",
+  "price_tier": "website",
+  "treatment_link": "https://redleafwellness.ca/integrative-care/cosmetic-acupuncture-program-edmonton/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "red-leaf-wellness-edmonton",
+  "treatment_id": "red-leaf-wellness-edmonton--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$165-$225 initial \u00b7 $112-$117 follow-up (general acupuncture fees; no separate fertility fee published)",
+  "price_source": "No separate fertility-acupuncture fee is published; price is the clinic's general acupuncture fee from its own Service Fees page (redleafwellness.ca/our-fees/): Initial Assessment $165-225, Follow Up (Adult) $112-117 \u2014 fertility acupuncture is delivered as acupuncture by the clinic's Dr.Ac acupuncturists per its fertility program page.",
+  "price_tier": "website",
+  "treatment_link": "https://redleafwellness.ca/integrative-care/fertility-program/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "red-leaf-wellness-edmonton",
   "treatment_id": "red-leaf-wellness-edmonton--naturopathy",
   "treatment": "Naturopathy",
   "billed_as": "Naturopathy",
@@ -18019,6 +19089,49 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "revival-physio-east-york",
+  "treatment_id": "revival-physio-east-york--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Ellie; Vanessa",
+  "practitioners": [
+   {
+    "id": "revival-physio-east-york--ellie",
+    "name": "Ellie",
+    "as_recorded": "Ellie, Registered Physiotherapist (10+ years of experience; surname not published on the clinic's own site)"
+   },
+   {
+    "id": "revival-physio-east-york--vanessa",
+    "name": "Vanessa",
+    "as_recorded": "Vanessa, Therapeutic Pilates Instructor (the clinic describes Physio Pilates as led one-on-one by a physio-trained clinical Pilates instructor; surname not published)"
+   }
+  ],
+  "price_text": "$140 assessment (30 min) \u00b7 $250 assessment (1 hour) \u00b7 $125 follow-up (30 min) \u00b7 $200 follow-up (1 hour)",
+  "price_source": "Clinic's own website FAQ (revivalphysio.ca): the clinic publishes one physiotherapy fee schedule and states 'Most of our physiotherapy services, including pelvic health physiotherapy, physio pilates and general physiotherapy, are eligible for coverage under standard physiotherapy benefits.' No separate Pilates price list exists, so the physiotherapy schedule is recorded per the inclusion rule.",
+  "price_tier": "website",
+  "treatment_link": "https://www.revivalphysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "revival-physio-east-york",
+  "treatment_id": "revival-physio-east-york--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Ellie",
+  "practitioners": [
+   {
+    "id": "revival-physio-east-york--ellie",
+    "name": "Ellie",
+    "as_recorded": "Ellie, Registered Physiotherapist (10+ years of experience; surname not published on the clinic's own site)"
+   }
+  ],
+  "price_text": "$140 assessment (30 min) \u00b7 $250 assessment (1 hour) \u00b7 $125 follow-up (30 min) \u00b7 $200 follow-up (1 hour)",
+  "price_source": "Clinic's own website FAQ (revivalphysio.ca): one physiotherapy fee schedule is published for the clinic, and its FAQ names pelvic health physiotherapy among the services eligible for coverage under standard physiotherapy benefits; no pelvic-specific price list exists, so the physiotherapy schedule is recorded per the inclusion rule.",
+  "price_tier": "website",
+  "treatment_link": "https://www.revivalphysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "revival-physio-toronto",
   "treatment_id": "revival-physio-toronto--clinical-pilates",
   "treatment": null,
@@ -18244,6 +19357,44 @@
   "price_source": "No pelvic floor physiotherapy price is published on the clinic's own website (richmondphysiotherapy.ca/pelvic-floor and /physiotherapy, read 2026-11-01); the site directs patients to its online booking site for prices.",
   "price_tier": null,
   "treatment_link": "https://www.richmondphysiotherapy.ca/pelvic-floor",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "riverdale-physiotherapy-edmonton",
+  "treatment_id": "riverdale-physiotherapy-edmonton--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Morgan Anderson",
+  "practitioners": [
+   {
+    "as_recorded": "Morgan Anderson (sole physiotherapist at Riverdale Physiotherapy, per the clinic's own homepage; services listed there include pelvic health and women's health physiotherapy)",
+    "id": "riverdale-physiotherapy-edmonton--morgan-anderson",
+    "name": "Morgan Anderson"
+   }
+  ],
+  "price_text": "$180 pelvic floor assessment",
+  "price_source": "Clinic's own website homepage price list (riverdalephysiotherapy.com): 'Pelvic Floor/Women's Health Assessment $180'. No pelvic follow-up price is published there.",
+  "price_tier": "website",
+  "treatment_link": "https://riverdalephysiotherapy.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "riverdale-physiotherapy-edmonton",
+  "treatment_id": "riverdale-physiotherapy-edmonton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Morgan Anderson",
+  "practitioners": [
+   {
+    "as_recorded": "Morgan Anderson (sole physiotherapist at Riverdale Physiotherapy, per the clinic's own homepage; vestibular and dizziness treatment listed among her services there)",
+    "id": "riverdale-physiotherapy-edmonton--morgan-anderson",
+    "name": "Morgan Anderson"
+   }
+  ],
+  "price_text": "$200 vestibular assessment \u00b7 $110 vestibular treatment",
+  "price_source": "Clinic's own website homepage price list (riverdalephysiotherapy.com): 'Vestibular Assessment, Physiotherapy Assessment, $200' and 'Vestibular Treatment, Physiotherapy Treatment, $110'.",
+  "price_tier": "website",
+  "treatment_link": "https://riverdalephysiotherapy.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -18488,6 +19639,19 @@
   "price_source": "Clinic's own services page (https://www.rootandrenewal.ca/services-2, fetched 2026-11-01) lists the TMJ treatment: 'A focused treatment designed to relieve jaw tension, headaches, neck pain, and facial tightness. Combining targeted TMJ massage, intraoral (buccal) massage, facial massage, and acupuncture...' at 80 min | $220. A buccal-massage + facial lymphatic variant 'Excellent for TMJ discomfort' is also listed at 50 min | $170.",
   "price_tier": "website",
   "treatment_link": "https://www.rootandrenewal.ca/services-2",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "rooted-resilience-psychology-edmonton",
+  "treatment_id": "rooted-resilience-psychology-edmonton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.rootedresilience.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -19202,6 +20366,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "shift-physiotherapy-wellness-edmonton",
+  "treatment_id": "shift-physiotherapy-wellness-edmonton--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No TPI golf screen or physiotherapy fee is published on the clinic's own website, and no price list rendered in search extracts of its Jane booking page.",
+  "price_tier": null,
+  "treatment_link": "https://www.shiftptwellness.com/post/titleist-performance-institute-golf-specific-movement-screen",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "shift-physiotherapy-wellness-edmonton",
+  "treatment_id": "shift-physiotherapy-wellness-edmonton--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor or physiotherapy fee is published on the clinic's own website, and no price list rendered in search extracts of its Jane booking page.",
+  "price_tier": null,
+  "treatment_link": "https://www.shiftptwellness.com/pelvic-floor-physiotherapy-treatments-in-edmonton",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "shiftgrit-psychology-counselling-calgary",
   "treatment_id": "shiftgrit-psychology-counselling-calgary--couples-therapy",
   "treatment": "Couples Therapy",
@@ -19489,6 +20679,83 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.soulacemassagestudio.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "south-edmonton-massage-therapy-edmonton",
+  "treatment_id": "south-edmonton-massage-therapy-edmonton--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No lymphatic drainage fee is published on the clinic's own website and its HiveManager booking page did not render a price list in search extracts.",
+  "price_tier": null,
+  "treatment_link": "https://athleteschoicemassage.ca/services/lymphatic-drainage-massage/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "south-edmonton-massage-therapy-edmonton",
+  "treatment_id": "south-edmonton-massage-therapy-edmonton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own website and its HiveManager booking page did not render a price list in search extracts.",
+  "price_tier": null,
+  "treatment_link": "https://athleteschoicemassage.ca/locations/south-edmonton/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "south-edmonton-massage-therapy-edmonton",
+  "treatment_id": "south-edmonton-massage-therapy-edmonton--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Pali G.",
+  "practitioners": [
+   {
+    "as_recorded": "Pali G., RMT, South Edmonton (clinic's own team page); a Google review quoted on the clinic's own South Edmonton location page credits 'Pali' with resolving the reviewer's TMJ clicking in one session ('Years of TMJ and jaw surgery never stopped the clicking. After one session with Pali it was gone')",
+    "id": "south-edmonton-massage-therapy-edmonton--pali-g",
+    "name": "Pali G."
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and its HiveManager booking page did not render a price list in search extracts, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://athleteschoicemassage.ca/locations/edmonton/tmj-massage/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "south-edmonton-physiotherapy-edmonton",
+  "treatment_id": "south-edmonton-physiotherapy-edmonton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and it has no online booking page, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://www.southedmontonphysio.ca/orthopaedic-physiotherapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sparx-wellness-institute-dieppe",
+  "treatment_id": "sparx-wellness-institute-dieppe--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Samuel Blanchard",
+  "practitioners": [
+   {
+    "id": "sparx-wellness-institute-dieppe--samuel-blanchard",
+    "name": "Samuel Blanchard",
+    "as_recorded": "Samuel Blanchard, Massage Therapist (diploma, Coll\u00e8ge Atlantique de Massage Th\u00e9rapeutique, Dieppe, 2019; trained in Manual Lymphatic Drainage (MLD) per the clinic's own team bio)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No massage therapy or MLD fees are published on the clinic's own website and no public booking price list was found, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://sparxwellness.ca/about/",
   "last_verified": "2026-11-01"
  },
  {
@@ -19900,6 +21167,69 @@
   "last_verified": null
  },
  {
+  "clinic_id": "stillar-psychological-edmonton",
+  "treatment_id": "stillar-psychological-edmonton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Karen; Larissa; Nasim; Virginia; Val; Daniela",
+  "practitioners": [
+   {
+    "as_recorded": "Karen (Registered Psychologist; 'Karen offers Counselling to Teens (age 13+), Adults, Couples, Families...' \u2014 clinic's own Jane booking bio; surname not published in the extract)",
+    "id": "stillar-psychological-edmonton--karen",
+    "name": "Karen"
+   },
+   {
+    "as_recorded": "Larissa ('Larissa works with children, teens, adults, and couples' \u2014 clinic's own Jane booking bio; surname not published in the extract)",
+    "id": "stillar-psychological-edmonton--larissa",
+    "name": "Larissa"
+   },
+   {
+    "as_recorded": "Nasim ('She also provides couples counselling. Nasim is trained in ... Gottman Couples Therapy' \u2014 clinic's own Jane booking bio; surname not published in the extract)",
+    "id": "stillar-psychological-edmonton--nasim",
+    "name": "Nasim"
+   },
+   {
+    "as_recorded": "Virginia ('She also provides marriage preparation and couples therapy ... training in ... Gottman Method Couples Therapy' \u2014 clinic's own Jane booking bio; surname not published in the extract)",
+    "id": "stillar-psychological-edmonton--virginia",
+    "name": "Virginia"
+   },
+   {
+    "as_recorded": "Val (over 20 years of counselling experience; areas have 'included depression, anxiety, stress, couples counselling, grief and loss...' \u2014 clinic's own Jane booking bio; surname not published in the extract)",
+    "id": "stillar-psychological-edmonton--val",
+    "name": "Val"
+   },
+   {
+    "as_recorded": "Daniela (Canadian Certified Counsellor 'working with individuals, couples, and adolescents' \u2014 clinic's own Jane booking bio; surname not published in the extract)",
+    "id": "stillar-psychological-edmonton--daniela",
+    "name": "Daniela"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own FAQ gives only a generic range ('Psychologists typically charge between $190-220 per hour') with no couples-specific fee, and its Jane booking page fetch hit HTTP 429 (not retried), so no couples price could be verified. A third-party roundup's $205-$275 figure was not used.",
+  "price_tier": null,
+  "treatment_link": "https://stillarpsychological.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "stillar-psychological-edmonton",
+  "treatment_id": "stillar-psychological-edmonton--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": "Kassie",
+  "practitioners": [
+   {
+    "as_recorded": "Kassie ('Kassie has extensive assessment experience completing psychoeducational assessments' \u2014 clinic's own Jane booking bio; the clinic's own psychoeducational assessment page states 'Kassie provides assessments for children, youth, and adults'; surname not published in the extracts)",
+    "id": "stillar-psychological-edmonton--kassie",
+    "name": "Kassie"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No assessment fee is published on the clinic's own website, and its Jane booking page fetch hit HTTP 429 (not retried), so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://stillarpsychological.com/assessment-center/psychoeducational-assessment/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "stonetree-naturopathic-clinic-collingwood",
   "treatment_id": "stonetree-naturopathic-clinic-collingwood--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
@@ -19973,6 +21303,19 @@
   "price_tier": null,
   "treatment_link": "https://scn2xl.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "strive-holistic-edmonton",
+  "treatment_id": "strive-holistic-edmonton--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$150 + tax initial assessment & treatment (new patients)",
+  "price_source": "Clinic's own FAQ page (striveholistic.com/faq): the Intra-oral TMJ section directs new clients to book the Initial Massage Assessment & Treatment, and the same FAQ page states 'New patients must book the initial assessment & treatment booking for $150.0 + tax' \u2014 the TMJ first-visit price is therefore the clinic's initial massage assessment price. Returning-client 30/45-minute jaw treatment prices are shown only inside the booking flow and could not be verified.",
+  "price_tier": "website",
+  "treatment_link": "https://www.striveholistic.com/faq",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "studio-athletica-toronto",
@@ -20718,6 +22061,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "the-neurofeedback-clinic-edmonton",
+  "treatment_id": "the-neurofeedback-clinic-edmonton--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology / Counselling",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and no online booking page with prices could be found.",
+  "price_tier": null,
+  "treatment_link": "https://www.theneurofeedbackclinic.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "the-nutrition-advantage-toronto",
   "treatment_id": "the-nutrition-advantage-toronto--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -20911,6 +22267,32 @@
   "price_tier": null,
   "treatment_link": "https://www.theroot.ca/our-services/womens-health/fertility-preconception-care/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "the-self-centre-edmonton",
+  "treatment_id": "the-self-centre-edmonton--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$65 (30 min) \u00b7 $85 (45 min) \u00b7 $105 (60 min) \u00b7 $125 (75 min) \u00b7 $150 (90 min) \u2014 massage therapy pricing, incl. GST",
+  "price_source": "No separate Lymphatic Drainage price is published. Manual Lymphatic Drainage is offered as a massage therapy service delivered by the clinic's Registered Massage Therapists, and the clinic's own website publishes a single massage therapy pricing schedule (30 min $65, 45 min $85, 60 min $105, 75 min $125, 90 min $150, incl. GST) \u2014 that schedule is recorded here as the treatment price under Pricing Rule v2 / the inclusion rule, since the same RMTs deliver both general massage and MLD.",
+  "price_tier": "website",
+  "treatment_link": "https://theselfcentre.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-self-centre-massage-and-wellness-edmonton",
+  "treatment_id": "the-self-centre-massage-and-wellness-edmonton--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$65 (30 min) \u00b7 $85 (45 min) \u00b7 $105 (60 min) \u00b7 $125 (75 min) \u00b7 $150 (90 min) \u2014 massage therapy pricing, incl. GST",
+  "price_source": "No separate Lymphatic Drainage price is published. Manual Lymphatic Drainage is offered as a massage therapy service delivered by the clinic's Registered Massage Therapists, and the clinic's own website publishes a single massage therapy pricing schedule (30 min $65, 45 min $85, 60 min $105, 75 min $125, 90 min $150, incl. GST) \u2014 that schedule is recorded here as the treatment price under Pricing Rule v2 / the inclusion rule, since the same RMTs deliver both general massage and MLD.",
+  "price_tier": "website",
+  "treatment_link": "https://theselfcentre.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "the-speech-associates-toronto",
@@ -21516,6 +22898,54 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.trianglephysiotherapy.com/category/shockwave",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "trumed-edmonton",
+  "treatment_id": "trumed-edmonton--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Eric Muradov; Dr. Kirti Deol",
+  "practitioners": [
+   {
+    "id": "trumed-edmonton--dr-eric-muradov",
+    "name": "Dr. Eric Muradov",
+    "as_recorded": "Dr. Eric Muradov, ND (Medical Director; the clinic's IV Therapy page on trumed.ca is 'Professionally Authored by Dr. Eric Muradov - Naturopathic Doctor Specialized in IV Therapy')"
+   },
+   {
+    "id": "trumed-edmonton--dr-kirti-deol",
+    "name": "Dr. Kirti Deol",
+    "as_recorded": "Dr. Kirti Deol, ND (IV Therapy Specialist \u2014 medically authored the clinic's Glutathione IV/injections page on its linked naturopath-edmonton.ca site)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No separate injection (IM) price is published on the clinic's own website; IV pricing does not carry over to injections.",
+  "price_tier": null,
+  "treatment_link": "https://www.trumed.ca/iv-vitamins-edmonton",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "trumed-edmonton",
+  "treatment_id": "trumed-edmonton--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Eric Muradov; Dr. Kirti Deol",
+  "practitioners": [
+   {
+    "id": "trumed-edmonton--dr-eric-muradov",
+    "name": "Dr. Eric Muradov",
+    "as_recorded": "Dr. Eric Muradov, ND (Medical Director; the clinic's IV Therapy page on trumed.ca is 'Professionally Authored by Dr. Eric Muradov - Naturopathic Doctor Specialized in IV Therapy')"
+   },
+   {
+    "id": "trumed-edmonton--dr-kirti-deol",
+    "name": "Dr. Kirti Deol",
+    "as_recorded": "Dr. Kirti Deol, ND (IV Therapy Specialist \u2014 medically authored the clinic's Glutathione IV/injections page on its linked naturopath-edmonton.ca site)"
+   }
+  ],
+  "price_text": "$140-$250 per IV (typical range); Myers Cocktail about $175",
+  "price_source": "Clinic's own website (trumed.ca): homepage states 'IV Therapy Pricing \u2014 Each IV is personalized to you, with prices typically ranging from $140 to $250', and its IV Therapy page (trumed.ca/iv-vitamins-edmonton) states the drip-format Myers Cocktail 'is usually about $175 per treatment'. No online booking page with prices exists (appointments are booked by phone).",
+  "price_tier": "website",
+  "treatment_link": "https://www.trumed.ca/iv-vitamins-edmonton",
   "last_verified": "2026-11-01"
  },
  {
