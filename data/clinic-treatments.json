@@ -478,6 +478,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "acupuncture-body-and-mind-care-clinic-corner-brook",
+  "treatment_id": "acupuncture-body-and-mind-care-clinic-corner-brook--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Maurice Nzoyamara",
+  "practitioners": [
+   {
+    "id": "acupuncture-body-and-mind-care-clinic-corner-brook--maurice-nzoyamara",
+    "name": "Maurice Nzoyamara",
+    "as_recorded": "Maurice Nzoyamara, R.Ac., ND \u2014 'The registered Acupuncturist and Naturopath, Maurice R.Ac.ND' (clinic's own homepage)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and it has no online booking page.",
+  "price_tier": null,
+  "treatment_link": "http://www.acupuncturebmclinic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "acupuncture-by-dr-sabina-calgary",
   "treatment_id": "acupuncture-by-dr-sabina-calgary--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
@@ -924,6 +943,32 @@
   "price_tier": null,
   "treatment_link": "http://www.alexandraanca.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "aligned-intervention-services-cornwall",
+  "treatment_id": "aligned-intervention-services-cornwall--myofunctional-therapy",
+  "treatment": "Myofunctional Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and it has no online booking page.",
+  "price_tier": null,
+  "treatment_link": "https://www.alignedinterventionservices.ca/clinic-services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "aligned-intervention-services-cornwall",
+  "treatment_id": "aligned-intervention-services-cornwall--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and it has no online booking page.",
+  "price_tier": null,
+  "treatment_link": "https://www.alignedinterventionservices.ca/clinic-services",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "alison-graham-massage-therapist-ottawa",
@@ -2174,6 +2219,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "betterbydesign-nutrition-coquitlam",
+  "treatment_id": "betterbydesign-nutrition-coquitlam--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://bbdnutrition.com/book-an-appointment/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "bijoy-s-physio-pilates-aurora",
   "treatment_id": "bijoy-s-physio-pilates-aurora--clinical-pilates",
   "treatment": null,
@@ -2446,6 +2504,51 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.bodyandmind.clinic/massage-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "body-works-charlottetown",
+  "treatment_id": "body-works-charlottetown--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Corena Hughes",
+  "practitioners": [
+   {
+    "id": "body-works-charlottetown--corena-hughes",
+    "name": "Corena Hughes",
+    "as_recorded": "Corena Hughes \u2014 pelvic floor physiotherapist; the clinic's own pelvic floor page states she has been providing treatment to patients with pelvic floor issues in Prince Edward Island for over two decades"
+   }
+  ],
+  "price_text": "$156 per treatment (approx. 1 hour)",
+  "price_source": "Clinic's own pelvic floor page (https://www.bodyworkspei.ca/pelvic-floor), Fees and Insurance section: 'Cost per treatment: $156 / Appointment duration: 1 hour (approx)'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.bodyworkspei.ca/pelvic-floor",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "body-works-charlottetown",
+  "treatment_id": "body-works-charlottetown--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.bodyworkspei.ca/running-assessment",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "body-works-charlottetown",
+  "treatment_id": "body-works-charlottetown--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.bodyworkspei.ca/shockwave-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -2934,6 +3037,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://cadencephysiorehab.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "caldwell-psychology-chatham-kent",
+  "treatment_id": "caldwell-psychology-chatham-kent--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://caldwellpsychology.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -4112,6 +4228,44 @@
   "last_verified": null
  },
  {
+  "clinic_id": "coast-therapy-coquitlam-centre-coquitlam",
+  "treatment_id": "coast-therapy-coquitlam-centre-coquitlam--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Paige Bassett",
+  "practitioners": [
+   {
+    "as_recorded": "Paige Bassett, Registered Massage Therapist, fully certified in Manual Lymphatic Drainage (Dr. Vodder Academy, all three levels) \u2014 Jane bio, Coquitlam Town Centre & Port Moody locations",
+    "id": "coast-therapy-coquitlam-centre-coquitlam--paige-bassett",
+    "name": "Paige Bassett"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://coasttherapy.janeapp.com/locations/coast-therapy-coquitlam-town-centre/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "coast-therapy-coquitlam-centre-coquitlam",
+  "treatment_id": "coast-therapy-coquitlam-centre-coquitlam--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Farnaz Jahromi",
+  "practitioners": [
+   {
+    "as_recorded": "Farnaz Jahromi, Physiotherapist (Coquitlam Centre team page); Jane bio: physiotherapist with additional training in pelvic floor rehabilitation",
+    "id": "coast-therapy-coquitlam-centre-coquitlam--farnaz-jahromi",
+    "name": "Farnaz Jahromi"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://coasttherapy.ca/physiotherapy/pelvic-floor-physiotherapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "coastal-sports-wellness-halifax",
   "treatment_id": "coastal-sports-wellness-halifax--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -4154,7 +4308,7 @@
   "treatment_id": "cochrane-sport-physio-cochrane--clinical-pilates",
   "treatment": null,
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Maddy Collins",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
@@ -4236,6 +4390,54 @@
   "price_tier": "website",
   "treatment_link": "https://www.collaborativetherapist.ca/couples-therapy",
   "last_verified": null
+ },
+ {
+  "clinic_id": "collingwood-fertility-acupuncture-collingwood",
+  "treatment_id": "collingwood-fertility-acupuncture-collingwood--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Kaleb Montgomery, TCMP",
+  "practitioners": [
+   {
+    "id": "collingwood-fertility-acupuncture-collingwood--kaleb-montgomery",
+    "name": "Kaleb Montgomery",
+    "as_recorded": "Kaleb Einstein Montgomery, TCMP, M.Cl.Sc., BSc \u2014 Traditional Chinese Medicine Practitioner/acupuncturist; founder of Collingwood Fertility Acupuncture and Toronto Fertility clinics"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://kalebmontgomery.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "collingwood-pelvic-health-collingwood",
+  "treatment_id": "collingwood-pelvic-health-collingwood--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Jessica Doig, BScKin, MScPT, Registered Physiotherapist; Lisa Mitchell, Registered Physiotherapist; Vanessa Vega, Registered Physiotherapist",
+  "practitioners": [
+   {
+    "as_recorded": "Jessica Doig. BScKin, MScPT. \u2014 'Jessica is both a clinician and owner of Collingwood Pelvic Health. A registered physiotherapist with 10 years experience in the field of pelvic health.' (clinic's own About page)",
+    "id": "collingwood-pelvic-health-collingwood--jessica-doig",
+    "name": "Jessica Doig"
+   },
+   {
+    "as_recorded": "Lisa Mitchell. Registered Physiotherapist \u2014 'She has a passion for helping people with pelvic health conditions... Lisa has completed specialized training in the treatment of prenatal and postpartum conditions, Diastasis Rect, urinary incontinence, pelvic pain, pelvic organ prolapse and pessary fittings.' (clinic's own About page; also listed on the clinic's Jane booking page)",
+    "id": "collingwood-pelvic-health-collingwood--lisa-mitchell",
+    "name": "Lisa Mitchell"
+   },
+   {
+    "as_recorded": "Vanessa Vega. Registered Physiotherapist \u2014 'She treats pelvic pain, incontinence, and pre- and post-natal concerns, supporting both men and women... advanced training in pelvic physiotherapy.' (clinic's own About page; also listed on the clinic's Jane booking page)",
+    "id": "collingwood-pelvic-health-collingwood--vanessa-vega",
+    "name": "Vanessa Vega"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://collingwoodpelvichealth.janeapp.com/locations/collingwood-pelvic-health/book",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "common-thread-psychology-airdrie",
@@ -5027,6 +5229,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "crux-psychology-charlottetown",
+  "treatment_id": "crux-psychology-charlottetown--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$250 per hour (Atlantic Canada)",
+  "price_source": "Clinic's own Payment Information page (https://cruxpsychology.ca/payment-details/): 'For Atlantic Canada: Couples therapy: $250 per hour.' Fees are paid prior to the session.",
+  "price_tier": "website",
+  "treatment_link": "https://cruxpsychology.ca/services/couples-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "crux-psychology-charlottetown",
+  "treatment_id": "crux-psychology-charlottetown--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "Psychoeducational assessment: $3,400 (adults) / $3,700 (children 5-18)",
+  "price_source": "Clinic's own Payment Information page (https://cruxpsychology.ca/payment-details/): 'For Adults (19 years of age or older): ... Psychoeducational: $3,400' and 'For Children (5 to 18 years of age): ... Psychoeducational: $3,700'.",
+  "price_tier": "website",
+  "treatment_link": "https://cruxpsychology.ca/services/assessment/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "cy-physiotherapy-and-vestibular-rehabilitation-calgary",
   "treatment_id": "cy-physiotherapy-and-vestibular-rehabilitation-calgary--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
@@ -5056,6 +5284,58 @@
   "price_source": "Clinic's own Fees & Insurance page (https://daltonassociates.ca/fees-insurance/): 'Currently our fee schedule ranges from $100 to $225 per hour, depending on the time and nature of the service provided, plus the training and experience of the therapist. All fees follow the guidelines set by the Ontario Psychological Association for psychological consultation and counselling.' This is Dalton Associates' own published counselling fee range; no couples-specific fee is published, and the same page notes reduced-fee counselling is also offered.",
   "price_tier": "booking",
   "treatment_link": "https://daltonassociates.ca/services/mental-wellness-services/marriage-couples-counselling/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dalton-associates-cambridge",
+  "treatment_id": "dalton-associates-cambridge--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://daltonassociates.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dalton-associates-cambridge",
+  "treatment_id": "dalton-associates-cambridge--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://daltonassociates.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dalton-associates-cobourg",
+  "treatment_id": "dalton-associates-cobourg--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.daltonassociates.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dalton-associates-cobourg",
+  "treatment_id": "dalton-associates-cobourg--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.daltonassociates.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -5151,6 +5431,38 @@
   "price_tier": null,
   "treatment_link": "https://www.deltaphysiotherapy.ca/pelvic-physio-service",
   "last_verified": null
+ },
+ {
+  "clinic_id": "dentiste-candiac-candiac",
+  "treatment_id": "dentiste-candiac-candiac--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dentistry",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://dentistecandiac.com/injections-dagents-neuromodulateurs/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dentistry-at-cornwall-cornwall",
+  "treatment_id": "dentistry-at-cornwall-cornwall--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dental",
+  "practitioner": "Dr. Alma Iancau",
+  "practitioners": [
+   {
+    "id": "dentistry-at-cornwall-cornwall--dr-alma-iancau",
+    "name": "Dr. Alma Iancau",
+    "as_recorded": "Dr. Alma Iancau (dentist; certificate for Advanced & Comprehensive Botox Administration Training, June 2020, Botox Training Centre, Toronto \u2014 per the clinic's own Botox page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No Botox fee is published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "https://dentistryatcornwall.ca/dental-services/other-dental-services/botox-treatment",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "dietitian-4-health-burlington",
@@ -5265,6 +5577,190 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.guelphpsychologycentre.com/blogs/10944-do-you-suffer-from-chronic-insomnia",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dovira-care-integrative-health-clinic-and-iv-lounge-dr-daria-kovnierista-nd-coquitlam",
+  "treatment_id": "dovira-care-integrative-health-clinic-and-iv-lounge-dr-daria-kovnierista-nd-coquitlam--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Counselling",
+  "practitioner": "Iryna",
+  "practitioners": [
+   {
+    "as_recorded": "Iryna, Registered Clinical Counsellor (RCC #28365, BCACC) \u2014 Jane bio: couples work using Gottman Method, systemic family therapy",
+    "id": "dovira-care-integrative-health-clinic-and-iv-lounge-dr-daria-kovnierista-nd-coquitlam--iryna",
+    "name": "Iryna"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://dovira.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dovira-care-integrative-health-clinic-and-iv-lounge-dr-daria-kovnierista-nd-coquitlam",
+  "treatment_id": "dovira-care-integrative-health-clinic-and-iv-lounge-dr-daria-kovnierista-nd-coquitlam--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Daria Kovnierista, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Daria Kovnierista, ND (License #01206) \u2014 Jane bio: offers iron infusions and IV therapy; Certifications: IV Therapy",
+    "id": "dovira-care-integrative-health-clinic-and-iv-lounge-dr-daria-kovnierista-nd-coquitlam--daria-kovnierista",
+    "name": "Daria Kovnierista"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://dovira.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dovira-care-integrative-health-clinic-and-iv-lounge-dr-daria-kovnierista-nd-coquitlam",
+  "treatment_id": "dovira-care-integrative-health-clinic-and-iv-lounge-dr-daria-kovnierista-nd-coquitlam--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Daria Kovnierista, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Daria Kovnierista, ND (License #01206) \u2014 Jane bio: certified in cosmetic Botox and aesthetic PRP",
+    "id": "dovira-care-integrative-health-clinic-and-iv-lounge-dr-daria-kovnierista-nd-coquitlam--daria-kovnierista",
+    "name": "Daria Kovnierista"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://dovira.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "downtown-chilliwack-dental-chilliwack",
+  "treatment_id": "downtown-chilliwack-dental-chilliwack--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.downtownchilliwackdental.ca/site/home",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-alex-dragan-coquitlam",
+  "treatment_id": "dr-alex-dragan-coquitlam--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Alex Dragan",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Alex Dragan, Naturopathic Doctor \u2014 own site lists cosmetic acupuncture as available in clinic",
+    "id": "dr-alex-dragan-coquitlam--alex-dragan",
+    "name": "Alex Dragan"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://dralexdragan.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-alex-dragan-coquitlam",
+  "treatment_id": "dr-alex-dragan-coquitlam--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Alex Dragan",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Alex Dragan, Naturopathic Doctor \u2014 own site lists gua sha among facial aesthetic services available in clinic",
+    "id": "dr-alex-dragan-coquitlam--alex-dragan",
+    "name": "Alex Dragan"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://dralexdragan.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-alex-dragan-coquitlam",
+  "treatment_id": "dr-alex-dragan-coquitlam--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Alex Dragan",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Alex Dragan, Naturopathic Doctor and Menopause Society Certified Practitioner \u2014 clinical focus Women's Health, Hormones & Fertility (own site and Jane bio)",
+    "id": "dr-alex-dragan-coquitlam--alex-dragan",
+    "name": "Alex Dragan"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://dralexdragan.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-alex-dragan-coquitlam",
+  "treatment_id": "dr-alex-dragan-coquitlam--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Alex Dragan",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Alex Dragan, Naturopathic Doctor \u2014 own site services list includes IV therapy; Jane direct billing includes IVs",
+    "id": "dr-alex-dragan-coquitlam--alex-dragan",
+    "name": "Alex Dragan"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://dralexdragan.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-alex-dragan-coquitlam",
+  "treatment_id": "dr-alex-dragan-coquitlam--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Alex Dragan",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Alex Dragan, Naturopathic Doctor \u2014 own site: Botox/neuromodulator injections done by Dr. Dragan in clinic",
+    "id": "dr-alex-dragan-coquitlam--alex-dragan",
+    "name": "Alex Dragan"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://dralexdragan.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-alex-dragan-coquitlam",
+  "treatment_id": "dr-alex-dragan-coquitlam--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Alex Dragan",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Alex Dragan, Naturopathic Doctor \u2014 own site lists microneedling as available in clinic",
+    "id": "dr-alex-dragan-coquitlam--alex-dragan",
+    "name": "Alex Dragan"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://dralexdragan.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -5848,6 +6344,44 @@
   "price_source": "Clinic's own IV Therapy page (https://drcolinmacleod.com/iv-therapy/): 'Your first appointment \u2014 60-minute consultation \u00b7 $200. All new patients start here. IV therapy and injection treatments are scheduled separately afterward if appropriate, and billed separately.' and 'If appropriate, your infusion is scheduled separately afterward. The formulation, preparation, risks and treatment fee are reviewed before proceeding.' No IV infusion price is published on the own site.",
   "price_tier": "booking",
   "treatment_link": "https://drcolinmacleod.com/iv-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-corey-collingwood",
+  "treatment_id": "dr-corey-collingwood--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Jennifer Corey, Naturopathic Doctor (also Registered Massage Therapist and Registered Acupuncturist)",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Jennifer Corey \u2014 'Dr. Jennifer Corey is the go-to Pelvic Health Solutionist who offers an integrative approach that includes Naturopathic Medicine, Massage Therapy and Acupuncture to help women end pelvic suffering' and 'As a Naturopathic Doctor, Registered Massage Therapist and Registered Acupuncturist, Dr. Corey...' (clinic's own homepage); homepage states she helps women with 'fertility difficulties'",
+    "id": "dr-corey-collingwood--jennifer-corey",
+    "name": "Jennifer Corey"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://drcoreynd.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-daniel-min-nd-coquitlam",
+  "treatment_id": "dr-daniel-min-nd-coquitlam--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Daniel Min",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Daniel Min, ND",
+    "id": "dr-daniel-min-nd-coquitlam--dr-daniel-min",
+    "name": "Dr. Daniel Min"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.drdanielmin.com/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -6604,6 +7138,63 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-joanne-menard-chilliwack",
+  "treatment_id": "dr-joanne-menard-chilliwack--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Joanne Menard, B.Sc., N.D.",
+  "practitioners": [
+   {
+    "id": "dr-joanne-menard-chilliwack--joanne-menard",
+    "name": "Joanne Menard",
+    "as_recorded": "Dr. Joanne Menard, B.Sc., N.D. \u2014 Naturopathic Physician at Restorative Health Chilliwack; licensed naturopathic physician (CCNM 2006) with acupuncture certification and BC prescribing authority"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.restorativehealthchilliwack.ca/?p=1232",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-joanne-menard-chilliwack",
+  "treatment_id": "dr-joanne-menard-chilliwack--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Joanne Menard, B.Sc., N.D.",
+  "practitioners": [
+   {
+    "id": "dr-joanne-menard-chilliwack--joanne-menard",
+    "name": "Joanne Menard",
+    "as_recorded": "Dr. Joanne Menard, B.Sc., N.D. \u2014 Naturopathic Physician at Restorative Health Chilliwack; licensed naturopathic physician (CCNM 2006) with acupuncture certification and BC prescribing authority"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.restorativehealthchilliwack.ca/?p=1232",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-joanne-menard-chilliwack",
+  "treatment_id": "dr-joanne-menard-chilliwack--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Joanne Menard, B.Sc., N.D.",
+  "practitioners": [
+   {
+    "id": "dr-joanne-menard-chilliwack--joanne-menard",
+    "name": "Joanne Menard",
+    "as_recorded": "Dr. Joanne Menard, B.Sc., N.D. \u2014 Naturopathic Physician at Restorative Health Chilliwack; licensed naturopathic physician (CCNM 2006) with acupuncture certification and BC prescribing authority"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.restorativehealthchilliwack.ca/?p=1232",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-julie-clark-naturopathic-doctor-calgary",
   "treatment_id": "dr-julie-clark-naturopathic-doctor-calgary--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -6684,6 +7275,25 @@
   "price_source": "No price found: checked the clinic's own sleep-therapy page, homepage, self-referral page, and its CBT-I patient info sheet PDF (drkp.ca/forms/DRKP-Dr-Pratt-CBTI-Patient-Info-Sheet.pdf); none publish a fee for CBT-I / sleep therapy.",
   "price_tier": null,
   "treatment_link": "https://drkp.ca/sleep-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-lisa-kachaniwsky-cambridge",
+  "treatment_id": "dr-lisa-kachaniwsky-cambridge--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Lisa Kachaniwsky",
+  "practitioners": [
+   {
+    "id": "dr-lisa-kachaniwsky-cambridge--lisa-kachaniwsky",
+    "name": "Lisa Kachaniwsky",
+    "as_recorded": "Dr. Lisa Kachaniwsky, ND \u2014 Naturopathic Doctor with a clinical focus on fertility and women's health (own website)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://lisakachaniwsky.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -7093,6 +7703,44 @@
   "last_verified": null
  },
  {
+  "clinic_id": "dr-sam-murphy-naturopathic-doctor-coquitlam",
+  "treatment_id": "dr-sam-murphy-naturopathic-doctor-coquitlam--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Sam Murphy",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Sam Murphy, Naturopathic Doctor",
+    "id": "dr-sam-murphy-naturopathic-doctor-coquitlam--dr-sam-murphy",
+    "name": "Dr. Sam Murphy"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://dralexdragan.janeapp.com/#/staff_member/14/treatment/67",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-sam-murphy-naturopathic-doctor-coquitlam",
+  "treatment_id": "dr-sam-murphy-naturopathic-doctor-coquitlam--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Acupuncture",
+  "practitioner": "Rowena Booth",
+  "practitioners": [
+   {
+    "as_recorded": "Rowena Booth, Registered Acupuncturist, Certified Sports Medicine Acupuncturist\u00ae",
+    "id": "dr-sam-murphy-naturopathic-doctor-coquitlam--rowena-booth",
+    "name": "Rowena Booth"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.regenholistictherapies.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-samantha-zahavi-nd-toronto",
   "treatment_id": "dr-samantha-zahavi-nd-toronto--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -7110,6 +7758,25 @@
   "price_tier": null,
   "treatment_link": "https://www.doctormomnd.com/fertility-pregnancy-toronto",
   "last_verified": null
+ },
+ {
+  "clinic_id": "dr-sarah-vosburgh-cobourg",
+  "treatment_id": "dr-sarah-vosburgh-cobourg--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Sarah Vosburgh, ND",
+  "practitioners": [
+   {
+    "id": "dr-sarah-vosburgh-cobourg--sarah-vosburgh",
+    "name": "Sarah Vosburgh",
+    "as_recorded": "Dr. Sarah Vosburgh, ND \u2014 Naturopathic Doctor at Living Well Integrative Health Centre, Cobourg (BSc Kinesiology; Doctor of Naturopathic Medicine)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.drsarahvosburghnd.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "dr-shannon-ferguson-calgary",
@@ -7350,6 +8017,44 @@
   "last_verified": null
  },
  {
+  "clinic_id": "earth-ember-acupuncture-charlottetown",
+  "treatment_id": "earth-ember-acupuncture-charlottetown--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Jenna Noble, R.Ac, D.TCM",
+  "practitioners": [
+   {
+    "id": "earth-ember-acupuncture-charlottetown--jenna-noble",
+    "name": "Jenna Noble",
+    "as_recorded": "Jenna Noble, R.Ac, D.TCM \u2014 Doctor of Traditional Chinese Medicine; founder and sole practitioner at Earth & Ember Acupuncture"
+   }
+  ],
+  "price_text": "$60-$185 per session (depending on length and services)",
+  "price_source": "Clinic's own website FAQ (http://www.earthember.ca/): 'Sessions range from $60-$185, depending on length and services. Please see my booking page for a more detailed menu of offerings.' This is the clinic's general acupuncture session range; fertility is treated within acupuncture sessions by the same (sole) practitioner and no fertility-specific price is published (rule v2 same-practitioner basis).",
+  "price_tier": "website",
+  "treatment_link": "http://www.earthember.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "earth-ember-acupuncture-jenna-noble-r-ac-d-tcm-charlottetown",
+  "treatment_id": "earth-ember-acupuncture-jenna-noble-r-ac-d-tcm-charlottetown--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Jenna Noble, R.Ac, D.TCM",
+  "practitioners": [
+   {
+    "id": "earth-ember-acupuncture-jenna-noble-r-ac-d-tcm-charlottetown--jenna-noble",
+    "name": "Jenna Noble",
+    "as_recorded": "Jenna Noble, R.Ac, D.TCM \u2014 Doctor of Traditional Chinese Medicine; founder and sole practitioner at Earth & Ember Acupuncture"
+   }
+  ],
+  "price_text": "$60-$185 per session (depending on length and services)",
+  "price_source": "Clinic's own website FAQ (http://www.earthember.ca/): 'Sessions range from $60-$185, depending on length and services. Please see my booking page for a more detailed menu of offerings.' This is the clinic's general acupuncture session range; fertility is treated within acupuncture sessions by the same (sole) practitioner and no fertility-specific price is published (rule v2 same-practitioner basis).",
+  "price_tier": "website",
+  "treatment_link": "http://www.earthember.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "east-coast-performance-nutrition-antigonish",
   "treatment_id": "east-coast-performance-nutrition-antigonish--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -7544,6 +8249,19 @@
   "price_source": "No fees are published on the clinic's own website in the pages fetched (homepage and FAQs, fetched 2026-11-01) and no online booking page with prices was found linked from it, so neither a pelvic floor price nor a general physiotherapy price could be verified; price is null.",
   "price_tier": null,
   "treatment_link": "http://elementphysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "elite-sport-physio-and-massage-chilliwack",
+  "treatment_id": "elite-sport-physio-and-massage-chilliwack--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://elitephysiomassage.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -8199,6 +8917,32 @@
   "price_tier": null,
   "treatment_link": "https://www.evolvetherapykingston.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "excel-physiotherapy-and-massage-therapy-coquitlam",
+  "treatment_id": "excel-physiotherapy-and-massage-therapy-coquitlam--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$95 standard physio treatment + $20 Shockwave surcharge ($105 assessment + $20)",
+  "price_source": "https://www.excelphysiotherapy.com/services.php",
+  "price_tier": "website",
+  "treatment_link": "https://www.excelphysiotherapy.com/services.php",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "excel-physiotherapy-and-massage-therapy-coquitlam",
+  "treatment_id": "excel-physiotherapy-and-massage-therapy-coquitlam--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$105 assessment \u00b7 $95 standard treatment (standard physiotherapy pricing; no separate vestibular fee listed)",
+  "price_source": "https://www.excelphysiotherapy.com/services.php",
+  "price_tier": "website",
+  "treatment_link": "https://www.excelphysiotherapy.com/services.php",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "excellence-sportive-quebec-levis-levis",
@@ -9362,6 +10106,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "higher-function-womens-health-collingwood",
+  "treatment_id": "higher-function-womens-health-collingwood--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Laura Powers, Owner and Registered Physiotherapist",
+  "practitioners": [
+   {
+    "as_recorded": "Laura Powers, Owner and Registered Physiotherapist \u2014 'It's about providing women of all ages a comfortable and safe space to speak about their health concerns and get them back on track with effective and skilled treatment.' \u2014 Laura Powers, Owner and Registered Physiotherapist (clinic's own homepage)",
+    "id": "higher-function-womens-health-collingwood--laura-powers",
+    "name": "Laura Powers"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.higherfunction.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "hmc-headache-migraine-and-concussion-centre-ajax",
   "treatment_id": "hmc-headache-migraine-and-concussion-centre-ajax--medical-botox",
   "treatment": "Medical Botox",
@@ -9711,6 +10474,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "inbloom-health-charlottetown",
+  "treatment_id": "inbloom-health-charlottetown--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$30 intramuscular injection service (15 min)",
+  "price_source": "Clinic's own pricing page (https://www.inbloomhealth.ca/pricing), under 'Naturopathic Care': 'Intramuscular Injection Service (15 min) \u2014 $30.00'. The same page lists Initial Naturopathic Consultation (60 min) $185, Follow-Up (30 min) $105 and Extensive Follow Up (45 min) $135.",
+  "price_tier": "website",
+  "treatment_link": "https://www.inbloomhealth.ca/pricing",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "inbloom-health-charlottetown",
+  "treatment_id": "inbloom-health-charlottetown--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.inbloomhealth.ca/services/all-services",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "infertility-and-reproductive-care-naturopathic-medicine-ottawa",
   "treatment_id": "infertility-and-reproductive-care-naturopathic-medicine-ottawa--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -9779,6 +10568,44 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "http://insightpsychology.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "inspired-by-nature-care-chilliwack",
+  "treatment_id": "inspired-by-nature-care-chilliwack--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Kristina Mokhir, ND",
+  "practitioners": [
+   {
+    "id": "inspired-by-nature-care-chilliwack--kristina-mokhir",
+    "name": "Kristina Mokhir",
+    "as_recorded": "Dr. Kristina Mokhir, ND \u2014 Naturopathic Doctor, Inspired By Nature Care (also practises at The Healing Oak, Chilliwack)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.inspiredbynaturecare.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "inspired-by-nature-care-chilliwack",
+  "treatment_id": "inspired-by-nature-care-chilliwack--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Kristina Mokhir, ND",
+  "practitioners": [
+   {
+    "id": "inspired-by-nature-care-chilliwack--kristina-mokhir",
+    "name": "Kristina Mokhir",
+    "as_recorded": "Dr. Kristina Mokhir, ND \u2014 Naturopathic Doctor, Inspired By Nature Care (also practises at The Healing Oak, Chilliwack)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.inspiredbynaturecare.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -11884,6 +12711,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "mcgregor-naturopathic-chatham-kent",
+  "treatment_id": "mcgregor-naturopathic-chatham-kent--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Brock McGregor, ND",
+  "practitioners": [
+   {
+    "id": "mcgregor-naturopathic-chatham-kent--brock-mcgregor",
+    "name": "Brock McGregor",
+    "as_recorded": "Dr. Brock McGregor, ND \u2014 solo naturopathic doctor; the clinic's own announcement refers to him as the IV provider ('I will be working to find an IV licensed provider to take over services at this site')"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.mcgregornd.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "meadowlife-chiropractic-wellness-pitt-meadows",
   "treatment_id": "meadowlife-chiropractic-wellness-pitt-meadows--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -12426,6 +13272,49 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "moore-michele-rmt-charlottetown",
+  "treatment_id": "moore-michele-rmt-charlottetown--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Laura Dear, RMT",
+  "practitioners": [
+   {
+    "id": "moore-michele-rmt-charlottetown--laura-dear",
+    "name": "Laura Dear",
+    "as_recorded": "Laura Dear, RMT \u2014 co-founder; the clinic's own About page states she completed Vodder levels 1, 2 and 3 for Manual Lymph Drainage (MLD) and Combined Decongestive Therapy, treats and manages lymphedema, lipedema and venous insufficiency, and that lymphedema is becoming the main focus of her practice"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://atlantictherapeuticmassage.ca/?page_id=9",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "moore-michele-rmt-charlottetown",
+  "treatment_id": "moore-michele-rmt-charlottetown--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Michele Moore, RMT",
+  "practitioners": [
+   {
+    "id": "moore-michele-rmt-charlottetown--michele-moore",
+    "name": "Michele Moore",
+    "as_recorded": "Michele Moore, BA, RMT, CFR \u2014 co-founder; the clinic's own About page lists her training courses in myofascial release, pregnancy massage, TMJ dysfunction and cupping"
+   },
+   {
+    "id": "moore-michele-rmt-charlottetown--laura-dear",
+    "name": "Laura Dear",
+    "as_recorded": "Laura Dear, RMT \u2014 co-founder; the clinic's own About page states she took 'TMJ Mastery' with John Corey, RMT in 2011 and has been specializing in the treatment of Temporo-Mandibular Joint (TMJ) Dysfunction since then"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://atlantictherapeuticmassage.ca/?page_id=9",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "moss-postpartum-house-calgary",
   "treatment_id": "moss-postpartum-house-calgary--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -12600,6 +13489,43 @@
   "price_tier": null,
   "treatment_link": "https://movesyou.ca/our-services/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "moves-you-physiotherapy-coquitlam",
+  "treatment_id": "moves-you-physiotherapy-coquitlam--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees published on the clinic's own website or rendered from its Jane booking page.",
+  "price_tier": null,
+  "treatment_link": "https://movesyou.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "moves-you-physiotherapy-coquitlam",
+  "treatment_id": "moves-you-physiotherapy-coquitlam--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Michelle Gibson; Andrew Moussavi",
+  "practitioners": [
+   {
+    "id": "moves-you-physiotherapy-coquitlam--michelle-gibson",
+    "name": "Michelle Gibson",
+    "as_recorded": "Michelle Gibson (certified in Vestibular Rehabilitation, per the clinic's own team bio)"
+   },
+   {
+    "id": "moves-you-physiotherapy-coquitlam--andrew-moussavi",
+    "name": "Andrew Moussavi",
+    "as_recorded": "Andrew Moussavi (physiotherapist with vestibular rehabilitation clinical experience, per the clinic's own team bio)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees published on the clinic's own website or rendered from its Jane booking page.",
+  "price_tier": null,
+  "treatment_link": "https://movesyou.ca/our-services/vestibular-rehabilitation-port-coquitlam/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "msk-health-and-performance-clinic-burnaby",
@@ -13736,6 +14662,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "nurturing-health-northumberland-cobourg",
+  "treatment_id": "nurturing-health-northumberland-cobourg--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Logan Iannarilli, ND",
+  "practitioners": [
+   {
+    "id": "nurturing-health-northumberland-cobourg--logan-iannarilli",
+    "name": "Logan Iannarilli",
+    "as_recorded": "Dr. Logan Iannarilli, ND \u2014 licensed Naturopathic Doctor and Menopause Society Certified Practitioner (MSCP), Nurturing Health Northumberland"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.nurturinghealth.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "nutriprocan-dietitians-london",
   "treatment_id": "nutriprocan-dietitians-london--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -14090,6 +15035,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "optimum-sport-and-health-centre-chilliwack",
+  "treatment_id": "optimum-sport-and-health-centre-chilliwack--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://optimumclinic.ca/treatment/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "optimum-sport-and-health-centre-chilliwack",
+  "treatment_id": "optimum-sport-and-health-centre-chilliwack--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://optimumclinic.ca/treatment/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "optimum-wellness-centres-calgary",
   "treatment_id": "optimum-wellness-centres-calgary--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -14251,6 +15222,19 @@
   "price_source": "No fees are published on the clinic's own website, so price is null.",
   "price_tier": null,
   "treatment_link": "https://www.voxlingue.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "osinga-nutrition-consulting-clarington",
+  "treatment_id": "osinga-nutrition-consulting-clarington--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.nicoleosinga.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -14720,6 +15704,86 @@
   "price_tier": "booking",
   "treatment_link": "https://peaknutrition.ca/health-and-performance/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "peak-to-shore-physiotherapy-sports-medicine-collingwood",
+  "treatment_id": "peak-to-shore-physiotherapy-sports-medicine-collingwood--bike-fitting",
+  "treatment": "Bike Fitting",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://peaktoshorephysiotherapy.com/newsletter/pedal-smarter-how-our-physiotherapists-can-support-your-cycling-goals/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "peak-to-shore-physiotherapy-sports-medicine-collingwood",
+  "treatment_id": "peak-to-shore-physiotherapy-sports-medicine-collingwood--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Mark Eaggleson",
+  "practitioners": [
+   {
+    "id": "peak-to-shore-physiotherapy-sports-medicine-collingwood--mark-eaggleson",
+    "name": "Mark Eaggleson",
+    "as_recorded": "Mark Eaggleson - named only in a patient testimonial on the clinic's own Dizziness and Vertigo page: 'I had vertigo and Mark Eaggleson did Epley maneuver very successfully.' (testimonial by Glenys H.)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://peaktoshorephysiotherapy.com/physiotherapy-center-services/dizziness-and-vertigo/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pei-pelvic-and-breast-health-cornwall",
+  "treatment_id": "pei-pelvic-and-breast-health-cornwall--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Paige Martin; Rebecca Arenburg",
+  "practitioners": [
+   {
+    "id": "pei-pelvic-and-breast-health-cornwall--paige-martin",
+    "name": "Paige Martin",
+    "as_recorded": "Paige Martin, PT (founder/owner; opened PEI Pelvic and Breast Health Inc. in 2021 \u2014 Keep Moving Physiotherapy team page and the clinic's podcast bio)"
+   },
+   {
+    "id": "pei-pelvic-and-breast-health-cornwall--rebecca-arenburg",
+    "name": "Rebecca Arenburg",
+    "as_recorded": "Rebecca Arenburg, PT (listed under Physiotherapy\u2013Pelvic and Breast Health on Keep Moving Physiotherapy's team page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "http://peipbh.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pei-pelvic-and-breast-health-inc-cornwall",
+  "treatment_id": "pei-pelvic-and-breast-health-inc-cornwall--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Paige Martin; Rebecca Arenburg",
+  "practitioners": [
+   {
+    "id": "pei-pelvic-and-breast-health-inc-cornwall--paige-martin",
+    "name": "Paige Martin",
+    "as_recorded": "Paige Martin, PT (founder/owner; opened PEI Pelvic and Breast Health Inc. in 2021 \u2014 Keep Moving Physiotherapy team page and the clinic's podcast bio)"
+   },
+   {
+    "id": "pei-pelvic-and-breast-health-inc-cornwall--rebecca-arenburg",
+    "name": "Rebecca Arenburg",
+    "as_recorded": "Rebecca Arenburg, PT (listed under Physiotherapy\u2013Pelvic and Breast Health on Keep Moving Physiotherapy's team page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "http://peipbh.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "pelvi-solutions-gatineau",
@@ -17800,6 +18864,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "sarah-carr-psychological-services-charlottetown",
+  "treatment_id": "sarah-carr-psychological-services-charlottetown--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://carrpsych.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "sask-naturopath-dr-stephanie-stokes-nd-saskatoon",
   "treatment_id": "sask-naturopath-dr-stephanie-stokes-nd-saskatoon--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -18286,6 +19363,38 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "small-town-sprouted-health-collective-chatham-kent",
+  "treatment_id": "small-town-sprouted-health-collective-chatham-kent--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Alecia Chevalier, ND",
+  "practitioners": [
+   {
+    "id": "small-town-sprouted-health-collective-chatham-kent--alecia-chevalier",
+    "name": "Alecia Chevalier",
+    "as_recorded": "Dr. Alecia Chevalier, ND \u2014 registered naturopathic doctor and founder/owner of Small Town Sprouted; Dr. Ashlyn Dolbear, ND also practises on the collective's naturopathic team (Jane)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.smalltownsprouted.com/services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "small-town-sprouted-health-collective-chatham-kent",
+  "treatment_id": "small-town-sprouted-health-collective-chatham-kent--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://smalltownsprouted.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "smilecrafters-dental-brantford-brantford",
   "treatment_id": "smilecrafters-dental-brantford-brantford--medical-botox",
   "treatment": "Medical Botox",
@@ -18296,6 +19405,64 @@
   "price_source": "No fee for therapeutic Botox is published on the clinic's own website; the clinic gives written estimates per treatment plan instead of a public price list.",
   "price_tier": null,
   "treatment_link": "https://smilecrafters.ca/brantford/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "solasta-counselling-calgary",
+  "treatment_id": "solasta-counselling-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "Registered Psychologist $235 per 50-min session; Canadian Certified Counsellors from $160; Counselling Interns $85 (same rates for individual, couples and family counselling)",
+  "price_source": "https://solastacounselling.ca/fees/",
+  "price_tier": "website",
+  "treatment_link": "https://solastacounselling.ca/counselling-calgary/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "solasta-counselling-calgary",
+  "treatment_id": "solasta-counselling-calgary--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Gillian McKirdy",
+  "practitioners": [
+   {
+    "id": "solasta-counselling-calgary--gillian-mckirdy",
+    "name": "Gillian McKirdy",
+    "as_recorded": "Dr. Gillian McKirdy \u2014 Registered Psychologist, Clinical Director and Co-Founder; her profile on the clinic's homepage lists Psychoeducational Assessments among her specialties"
+   }
+  ],
+  "price_text": "Comprehensive Psychoeducational Assessment $2,950",
+  "price_source": "https://solastacounselling.ca/fees/",
+  "price_tier": "website",
+  "treatment_link": "https://solastacounselling.ca/fees/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "solasta-counselling-calgary",
+  "treatment_id": "solasta-counselling-calgary--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://solastacounselling.ca/counselling-calgary/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "somerset-dental-on-james-calgary",
+  "treatment_id": "somerset-dental-on-james-calgary--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dentistry",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.somersetdental.ca/botox/",
   "last_verified": "2026-11-01"
  },
  {
@@ -18547,6 +19714,51 @@
   "last_verified": null
  },
  {
+  "clinic_id": "sports-centre-physiotherapy-charlottetown",
+  "treatment_id": "sports-centre-physiotherapy-charlottetown--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Ashley Andrews",
+  "practitioners": [
+   {
+    "id": "sports-centre-physiotherapy-charlottetown--ashley-andrews",
+    "name": "Ashley Andrews",
+    "as_recorded": "Ashley Andrews \u2014 physiotherapist (Masters in Physiotherapy, Dalhousie University 2021) with multiple post-graduate pelvic health courses; the clinic's own pelvic floor page and her Jane bio both name her for pelvic floor care"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page (sportscentrephysiotherapy.janeapp.com) rendered practitioner bios only in text fetch \u2014 no price list \u2014 so no booking-tier price could be captured; the clinic's own website publishes no pelvic floor fee. Price null; Jane re-scan queue.",
+  "price_tier": null,
+  "treatment_link": "https://sportscentrephysio.com/pelvic-floor-physiotherapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sports-centre-physiotherapy-charlottetown",
+  "treatment_id": "sports-centre-physiotherapy-charlottetown--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://sportscentrephysio.com/service/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sprouting-pediatrics-calgary",
+  "treatment_id": "sprouting-pediatrics-calgary--myofunctional-therapy",
+  "treatment": "Myofunctional Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.sproutingpediatrics.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "stadium-physiosteo-montreal",
   "treatment_id": "stadium-physiosteo-montreal--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -18686,6 +19898,62 @@
   "price_tier": null,
   "treatment_link": "https://stephaniehnatiuk.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "stonetree-naturopathic-clinic-collingwood",
+  "treatment_id": "stonetree-naturopathic-clinic-collingwood--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Candice Soldaat, ND",
+  "practitioners": [
+   {
+    "id": "stonetree-naturopathic-clinic-collingwood--candice-soldaat",
+    "name": "Candice Soldaat",
+    "as_recorded": "Dr. Candice Soldaat, ND - clinic fertility page: 'consider booking an appointment with Dr. Candice Soldaat, a long-time member of our ND team, who has years of experience with these protocols' (IVF acupuncture)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://stonetreeclinic.com/naturopathic-fertility/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "stonetree-naturopathic-clinic-collingwood",
+  "treatment_id": "stonetree-naturopathic-clinic-collingwood--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Dr. Kendra Reid, ND; Dr. Bridget McMaster, ND",
+  "practitioners": [
+   {
+    "id": "stonetree-naturopathic-clinic-collingwood--kendra-reid",
+    "name": "Kendra Reid",
+    "as_recorded": "Dr. Kendra Reid, ND - clinic homepage: 'Dr. Kendra has a general family practice with a special interest in dermatology, fertility, prenatal care, hormonal health, and pediatrics.'"
+   },
+   {
+    "id": "stonetree-naturopathic-clinic-collingwood--bridget-mcmaster",
+    "name": "Bridget McMaster",
+    "as_recorded": "Dr. Bridget McMaster, ND - clinic Jane booking page bio: 'My special areas of interest are: Women's health and hormonal concerns. Fertility, pregnancy and postpartum care...' (licensed/registered ND through CONO, CCNM graduated 2023)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://stonetreeclinic.com/naturopathic-fertility/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "stonetree-naturopathic-clinic-collingwood",
+  "treatment_id": "stonetree-naturopathic-clinic-collingwood--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://stonetree.janeapp.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "strength-conditioning-nutrition-toronto",
@@ -18895,6 +20163,19 @@
   "price_tier": "website",
   "treatment_link": "https://supportingwellness.com/psychology/counselling-calgary/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "symmetry-dental-calgary",
+  "treatment_id": "symmetry-dental-calgary--myofunctional-therapy",
+  "treatment": "Myofunctional Therapy",
+  "billed_as": "Dentistry",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://symmetrydental.ca/service/symptoms-of-tots/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "synergy-physiotherapy-and-pilates-halifax",
@@ -19189,6 +20470,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "the-acupuncture-and-health-centre-calgary",
+  "treatment_id": "the-acupuncture-and-health-centre-calgary--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Skye",
+  "practitioners": [
+   {
+    "id": "the-acupuncture-and-health-centre-calgary--skye",
+    "name": "Skye",
+    "as_recorded": "Skye \u2014 Doctor of Acupuncture, Chinese Medicine Practitioner (surname not published on the fetched pages); a patient testimonial on the clinic's homepage credits Skye with fertility and pregnancy care"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://acupuncturehealthcalgary.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "the-better-care-wellness-clinic-toronto",
   "treatment_id": "the-better-care-wellness-clinic-toronto--couples-therapy",
   "treatment": "Couples Therapy",
@@ -19266,6 +20566,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "the-inner-wellness-calgary",
+  "treatment_id": "the-inner-wellness-calgary--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://theinnerwellness.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-inner-wellness-calgary",
+  "treatment_id": "the-inner-wellness-calgary--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://theinnerwellness.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "the-lakeside-clinic-barrie",
   "treatment_id": "the-lakeside-clinic-barrie--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -19321,6 +20647,19 @@
   "price_tier": "booking",
   "treatment_link": "https://longevitylab.janeapp.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "the-lymphatic-studio-dartmouth",
+  "treatment_id": "the-lymphatic-studio-dartmouth--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price list could be read: the site homepage fetch hit HTTP 429 (not retried, per protocol) and no fees appeared in search extracts of the clinic's own pages.",
+  "price_tier": null,
+  "treatment_link": "https://www.thelymphaticstudio.ca/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "the-mcfadden-group-career-coaching-burlington",
@@ -19427,6 +20766,84 @@
   "price_source": "No fees are published on the clinic's own website (checked 2026-11-01).",
   "price_tier": null,
   "treatment_link": "http://www.nutritionwell.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-pelvic-health-clinic-dartmouth",
+  "treatment_id": "the-pelvic-health-clinic-dartmouth--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Erika Burger; Jenny Roy; Stephanie; Amy; Logan; Sonya; Andrea; Am\u00e9lie",
+  "practitioners": [
+   {
+    "id": "the-pelvic-health-clinic-dartmouth--erika-burger",
+    "name": "Erika Burger",
+    "as_recorded": "Erika Burger (owner; physiotherapist since 1995; advanced certification in incontinence, pelvic organ prolapse, voiding dysfunction and pelvic pain \u2014 clinic's Jane booking bio)"
+   },
+   {
+    "id": "the-pelvic-health-clinic-dartmouth--jenny-roy",
+    "name": "Jenny Roy",
+    "as_recorded": "Jenny Roy (MSc Physiotherapy, Dalhousie 2017; pelvic health for adults and pediatric pelvic health \u2014 clinic's Jane booking bio)"
+   },
+   {
+    "id": "the-pelvic-health-clinic-dartmouth--stephanie",
+    "name": "Stephanie",
+    "as_recorded": "Stephanie (MSc Physiotherapy, McMaster 2021; pelvic health courses incl. incontinence, prolapse/pessaries, pelvic pain; surname not published on the Jane page)"
+   },
+   {
+    "id": "the-pelvic-health-clinic-dartmouth--amy",
+    "name": "Amy",
+    "as_recorded": "Amy (MSc Physiotherapy, Dalhousie 2019; extensive pelvic floor post-graduate training incl. prolapse, dyspareunia, male pelvic pain, pessary fitting; surname not published on the Jane page)"
+   },
+   {
+    "id": "the-pelvic-health-clinic-dartmouth--logan",
+    "name": "Logan",
+    "as_recorded": "Logan (MSc Physiotherapy, Dalhousie; pelvic health specialisation incl. incontinence and biofeedback coursework; surname not published on the Jane page)"
+   },
+   {
+    "id": "the-pelvic-health-clinic-dartmouth--sonya",
+    "name": "Sonya",
+    "as_recorded": "Sonya (physiotherapist since 1995; advanced pelvic health training incl. incontinence, prolapse, endometriosis and post-prostatectomy rehab; surname not published on the Jane page)"
+   },
+   {
+    "id": "the-pelvic-health-clinic-dartmouth--andrea",
+    "name": "Andrea",
+    "as_recorded": "Andrea (BSc Physical Therapy, Queen's 2003; advanced pelvic health training incl. pelvic pain, incontinence, perinatal and Cesarean recovery; surname not published on the Jane page)"
+   },
+   {
+    "id": "the-pelvic-health-clinic-dartmouth--amelie",
+    "name": "Am\u00e9lie",
+    "as_recorded": "Am\u00e9lie (MSc Physiotherapy, Dalhousie; pelvic health physiotherapist; surname cut off in the fetched Jane page text)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page renders practitioner bios only in text fetch and its own website publishes no fee list, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://erikaburgerphysio.janeapp.com/locations/the-pelvic-health-clinic-by-erika-burger-physiotherapy/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-perinatal-wellness-centre-dartmouth",
+  "treatment_id": "the-perinatal-wellness-centre-dartmouth--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Julie Saint-Pierre; Myl\u00e8ne Desch\u00eanes",
+  "practitioners": [
+   {
+    "id": "the-perinatal-wellness-centre-dartmouth--julie-saint-pierre",
+    "name": "Julie Saint-Pierre",
+    "as_recorded": "Julie Saint-Pierre (Registered Acupuncturist; specialises in women's health and focuses on fertility, pregnancy and postpartum care at the Centre \u2014 clinic's own team page)"
+   },
+   {
+    "id": "the-perinatal-wellness-centre-dartmouth--mylene-deschenes",
+    "name": "Myl\u00e8ne Desch\u00eanes",
+    "as_recorded": "Myl\u00e8ne Desch\u00eanes (Registered Acupuncturist; additional training in Fertility Acupuncture \u2014 clinic's Jane booking bio)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, and its Jane booking page rendered bios only in search extracts.",
+  "price_tier": null,
+  "treatment_link": "https://theperinatalwellnesscentre.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -19892,6 +21309,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "tower-physio-calgary",
+  "treatment_id": "tower-physio-calgary--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://leadingedgephysio.com/locations/tower-sports-medicine/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "tower-physio-calgary",
+  "treatment_id": "tower-physio-calgary--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://leadingedgephysio.com/locations/tower-sports-medicine/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "trafalgar-physiotherapy-pt-health-oakville",
   "treatment_id": "trafalgar-physiotherapy-pt-health-oakville--clinical-pilates",
   "treatment": null,
@@ -20311,6 +21754,73 @@
   "last_verified": null
  },
  {
+  "clinic_id": "veitch-physiotherapy-and-wellness-center-corner-brook",
+  "treatment_id": "veitch-physiotherapy-and-wellness-center-corner-brook--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Heather; Jennifer Veitch",
+  "practitioners": [
+   {
+    "id": "veitch-physiotherapy-and-wellness-center-corner-brook--heather",
+    "name": "Heather",
+    "as_recorded": "Heather (physiotherapist; pelvic health physiotherapy since 2012 \u2014 urinary incontinence training at Lois Hole Hospital for Women, Pelvic Health Solutions levels I-IV; surname not published on the clinic's Jane page or website pages fetched)"
+   },
+   {
+    "id": "veitch-physiotherapy-and-wellness-center-corner-brook--jennifer-veitch",
+    "name": "Jennifer Veitch",
+    "as_recorded": "Jennifer Veitch (BScPT Dalhousie 1999; specialized training in Pelvic Floor Rehabilitation, per the clinic's Jane booking bio)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page renders practitioner bios only in text fetch and its own website publishes no fee schedule, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://veitchwellness.janeapp.com/locations/veitch-physiotherapy-and-wellness/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "veitch-physiotherapy-and-wellness-center-corner-brook",
+  "treatment_id": "veitch-physiotherapy-and-wellness-center-corner-brook--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Lee",
+  "practitioners": [
+   {
+    "id": "veitch-physiotherapy-and-wellness-center-corner-brook--lee",
+    "name": "Lee",
+    "as_recorded": "Lee (Registered Massage Therapist, CCMH 1997; training courses include TMJ dysfunction, per the clinic's Jane booking bio; surname not published there)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page renders practitioner bios only in text fetch and its own website publishes no fee schedule, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://veitchwellness.janeapp.com/locations/veitch-physiotherapy-and-wellness/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "veitch-physiotherapy-and-wellness-center-corner-brook",
+  "treatment_id": "veitch-physiotherapy-and-wellness-center-corner-brook--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Jennifer Veitch; Kelsey",
+  "practitioners": [
+   {
+    "id": "veitch-physiotherapy-and-wellness-center-corner-brook--jennifer-veitch",
+    "name": "Jennifer Veitch",
+    "as_recorded": "Jennifer Veitch (specialized training in Vestibular Rehabilitation, per the clinic's Jane booking bio)"
+   },
+   {
+    "id": "veitch-physiotherapy-and-wellness-center-corner-brook--kelsey",
+    "name": "Kelsey",
+    "as_recorded": "Kelsey (physiotherapist; Vestibular Rehabilitation among her post-graduate courses on the clinic's Jane booking bio; surname not published there)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page renders practitioner bios only in text fetch and its own website publishes no fee schedule, so no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://veitchwellness.janeapp.com/locations/veitch-physiotherapy-and-wellness/book",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "versa-movement-collective-calgary",
   "treatment_id": "versa-movement-collective-calgary--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -20435,6 +21945,45 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "virtuous-circle-counselling-calgary",
+  "treatment_id": "virtuous-circle-counselling-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://vccounselling.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "virtuous-circle-counselling-calgary",
+  "treatment_id": "virtuous-circle-counselling-calgary--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://vccounselling.com/sports-psychology-calgary/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "virtuous-circle-counselling-calgary",
+  "treatment_id": "virtuous-circle-counselling-calgary--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://vccounselling.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "vitality-nutrition-saskatoon",
   "treatment_id": "vitality-nutrition-saskatoon--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -20470,6 +22019,25 @@
   "price_tier": null,
   "treatment_link": "https://vitalitypt.ca/shockwave-therapy-findlay-creek/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "vivo-naturopathic-and-wellness-centre-cambridge",
+  "treatment_id": "vivo-naturopathic-and-wellness-centre-cambridge--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Amy de Oliveira, ND",
+  "practitioners": [
+   {
+    "id": "vivo-naturopathic-and-wellness-centre-cambridge--amy-de-oliveira",
+    "name": "Amy de Oliveira",
+    "as_recorded": "Dr. Amy de Oliveira, ND \u2014 Naturopathic Doctor; her own site biography lists Digestion, Hormonal balance, Pediatric care, Pregnancy, Stress resiliency, Weight loss & Women's Health as her focus areas"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.vivoinhealth.com/blog/category/best-2-fertility-signs",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "well-bynd-toronto",
@@ -20851,6 +22419,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "wild-roots-massage-therapy-calgary",
+  "treatment_id": "wild-roots-massage-therapy-calgary--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Angela Hope",
+  "practitioners": [
+   {
+    "id": "wild-roots-massage-therapy-calgary--angela-hope",
+    "name": "Angela Hope",
+    "as_recorded": "Angela Hope, RMT \u2014 founder and sole practitioner; graduate of the 2200-hour program at Vicars School of Massage Therapy, MTAA member; offers TMJ massage (clinic website and Jane booking page)"
+   }
+  ],
+  "price_text": "60 min $120 \u00b7 75 min $145 \u00b7 90 min $165 \u00b7 120 min $220 (TMJ work included within standard massage sessions at no extra cost)",
+  "price_source": "https://www.wildrootsmassage.ca/",
+  "price_tier": "website",
+  "treatment_link": "https://www.wildrootsmassage.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "wiley-health-burlington",
   "treatment_id": "wiley-health-burlington--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -20945,6 +22532,19 @@
   "price_tier": null,
   "treatment_link": "https://winnipegspineandsport.com/services/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "wise-eats-nutrition-coquitlam",
+  "treatment_id": "wise-eats-nutrition-coquitlam--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://wiseeatsnutrition.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "wjw-counselling-mediation-st-albert",
@@ -21115,6 +22715,51 @@
   "last_verified": null
  },
  {
+  "clinic_id": "your-counselling-ltd-calgary",
+  "treatment_id": "your-counselling-ltd-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://yourcounselling.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "your-counselling-ltd-calgary",
+  "treatment_id": "your-counselling-ltd-calgary--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://yourcounselling.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "your-counselling-ltd-calgary",
+  "treatment_id": "your-counselling-ltd-calgary--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": "Psychology",
+  "practitioner": "Susan Morison",
+  "practitioners": [
+   {
+    "id": "your-counselling-ltd-calgary--susan-morison",
+    "name": "Susan Morison",
+    "as_recorded": "Susan Morison, MA, R.Psych \u2014 Registered Psychologist; 'Your Counselling's dedicated Cognitive Behavioural Therapy for Insomnia (CBT-I) specialist' (clinic's insomnia therapy page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://yourcounselling.ca/services/sleep-insomnia-therapy-calgary/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "zenith-physio-pilates-mahone-bay",
   "treatment_id": "zenith-physio-pilates-mahone-bay--clinical-pilates",
   "treatment": null,
@@ -21177,6 +22822,25 @@
   "price_source": "No prices published on the clinic's own website (see gaps).",
   "price_tier": null,
   "treatment_link": "https://zenithphysio.com/what-we-treat/physiotherapy/vertigo/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "zwitchback-physiotherapy-health-corner-brook",
+  "treatment_id": "zwitchback-physiotherapy-health-corner-brook--bike-fitting",
+  "treatment": "Bike Fitting",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Justin Whittle",
+  "practitioners": [
+   {
+    "id": "zwitchback-physiotherapy-health-corner-brook--justin-whittle",
+    "name": "Justin Whittle",
+    "as_recorded": "Justin Whittle (physiotherapist; bike-fit patient testimonials on the clinic's own homepage name 'Justin'; surname taken from the clinic's own site photo filename 'Justin-Whittle')"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No bike-fit or physiotherapy fee is published on the clinic's own website, and its Jane booking page rendered bios only in search extracts.",
+  "price_tier": null,
+  "treatment_link": "https://zwitchback.janeapp.com/locations/zwitchback-physiotherapy-health/book",
   "last_verified": "2026-11-01"
  }
 ]
