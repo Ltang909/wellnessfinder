@@ -941,6 +941,12 @@ body { font-size: 16px; }
 .fs-chev { align-self: center; color: #6E8F7A; font-size: 1.1rem; padding: 0 4px; }
 .fs-tab { flex: 1; background: none; border: 0; font: 500 .6rem Inter, system-ui, sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #6E8F7A; cursor: pointer; display: flex; align-items: flex-end; justify-content: center; padding: 0 4px 12px; text-align: center; }
 .fs-tab.active { background: #0F2D2B; color: #fff; font-weight: 600; margin-bottom: -18px; padding-top: 12px; z-index: 2; }
+/* Fund tabs carry their hero highlight colour (Leon, 2026-11-01):
+   a colour strip under every fund tab, and the active tab fills with
+   its word's highlighter colour, black text like the hero words. */
+.fs-tab { box-shadow: inset 0 -3px 0 var(--fc, transparent); }
+.fs-tab.active { background: var(--fc, #0F2D2B); color: #161616; }
+.fs-tab.tab-all.active { background: #0F2D2B; color: #fff; }
 .fs-stem { width: 1px; height: 22px; background: #0F2D2B; margin: 14px auto 0; }
 .fs-title { font-family: "Playfair Display", serif; font-weight: 400; font-size: clamp(1.6rem, 3.4vw, 2.4rem); letter-spacing: .14em; text-align: center; text-transform: uppercase; color: #0F2D2B; margin-top: 4px; }
 .fs-count { text-align: center; font-size: .66rem; letter-spacing: .3em; text-transform: uppercase; color: #6E8F7A; margin-top: 8px; }

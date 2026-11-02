@@ -337,7 +337,7 @@
     root.innerHTML = `
       <div class="fs-tabbar"><span class="fs-chev">\u2039</span>
         ${["All", ...FUND_CATS.map(([w]) => w)].map((w) =>
-          `<button type="button" class="fs-tab ${w === fsView ? "active" : ""}" data-fsview="${esc(w)}">${esc(w)}</button>`).join("")}
+          `<button type="button" class="fs-tab ${w === "All" ? "tab-all" : ""} ${w === fsView ? "active" : ""}" ${w === "All" ? "" : `style="--fc:${FUND_COLOR[w] || "#0F2D2B"}"`} data-fsview="${esc(w)}">${esc(w)}</button>`).join("")}
         <span class="fs-chev">\u203a</span></div>
       <div class="fs-stem"></div>
       <h2 class="fs-title">${esc(fsView === "All" ? "All treatments" : fsView)}</h2>
