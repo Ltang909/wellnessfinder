@@ -344,9 +344,9 @@
       <p class="fs-count">${inView.length} treatment${inView.length === 1 ? "" : "s"}</p>
       <div class="fs-rule"><span>Featured treatments</span></div>
       <div class="fs-grid">${featured.map(fsCardHTML).join("")}</div>
-      ${mods.map((g, i) => `
-      <div class="fs-sect ${i === 0 ? "open" : ""}">
-        <button type="button" class="fs-sect-head" aria-expanded="${i === 0 ? "true" : "false"}"><b>${esc(g.m)}</b><span>${g.list.length} treatment${g.list.length === 1 ? "" : "s"} \u00b7 <em>${i === 0 ? "Hide \u25b4" : "Show \u25be"}</em></span></button>
+      ${mods.map((g) => `
+      <div class="fs-sect">
+        <button type="button" class="fs-sect-head" aria-expanded="false"><b>${esc(g.m)}</b><span>${g.list.length} treatment${g.list.length === 1 ? "" : "s"} \u00b7 <em>Show \u25be</em></span></button>
         <div class="fs-minigrid">${g.list.map(fsMiniHTML).join("")}</div>
       </div>`).join("")}`;
     if (!root.dataset.wired) {
