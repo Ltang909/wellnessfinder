@@ -174,6 +174,32 @@
     grid.innerHTML = `<div class="why-track">${half}${half}</div>`;
   }
 
+  /* Stat strip + sourced Google-review quotes under the claims marquee.
+     Data lives in js/data.js (CLAIM_STATS, REVIEW_QUOTES); the insurance
+     phrase in each quote gets the yellow marker highlight. */
+  function renderClaimExtra() {
+    const statsRoot = $("#claimStats");
+    if (statsRoot && typeof CLAIM_STATS !== "undefined") {
+      statsRoot.innerHTML =
+        `<div class="claims-stats">${CLAIM_STATS.map((s) =>
+          `<div class="cstat"><span class="cstat-num">${esc(s.num)}</span><span class="cstat-label">${esc(s.label)}</span></div>`).join("")}</div>
+         <p class="claims-source">Benefits figure: CLHIA, 2025. Clinic counts from WellFinder's own verification, November 2026.</p>`;
+    }
+    const root = $("#claimReviews");
+    if (!root || typeof REVIEW_QUOTES === "undefined") return;
+    const cards = REVIEW_QUOTES.map((q) => {
+      let text = esc(q.quote);
+      const ph = esc(q.phrase || "");
+      if (ph && text.includes(ph)) text = text.replace(ph, `<span class="ins-hl">${ph}</span>`);
+      const stars = q.stars
+        ? `<div class="review-stars" aria-label="${q.stars}-star Google review">${"★".repeat(q.stars)}</div>`
+        : `<div class="review-src">Google review</div>`;
+      return `<figure class="review-card">${stars}<blockquote class="review-quote">&ldquo;${text}&rdquo;</blockquote><figcaption class="review-meta"><span class="review-name">${esc(q.reviewer)}</span><span class="review-clinic">${esc(q.clinic)} · ${esc(q.city)}</span><span class="review-tags"><span class="review-tag">${esc(q.treatment)}</span><span class="review-tag review-tag--billed">Billed as ${esc(q.billed)}</span></span></figcaption></figure>`;
+    }).join("");
+    root.innerHTML =
+      `<div class="reviews-head"><h3>Straight from Google reviews</h3><p>Real reviewers at directory clinics, on the record about billing. Quotes are excerpts from public reviews; coverage varies by plan.</p></div><div class="reviews-grid">${cards}</div>`;
+  }
+
   const HEART = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.5 1-1a5.5 5.5 0 0 0 0-7.9Z"/></svg>`;
 
   /* Useful facts for the More details panel: typical cost range and,
@@ -1163,6 +1189,7 @@
     initLocationBar();
     renderInsurers();
     renderWhy();
+    renderClaimExtra();
     renderFeaturedClinics();
     if (wfLoc.get()) wfLoc.coords().then((pt) => { if (pt) { fcUserPt = pt; renderFeaturedClinics(); renderDirectory(); } });
     window.addEventListener("wf:location", () => {

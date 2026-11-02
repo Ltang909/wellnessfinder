@@ -2573,3 +2573,39 @@ const STUTTER_CLINICS = [
   { name: "Winnipeg Speech Therapy Clinic", city: "Winnipeg", web: "https://winnipegspeechtherapyclinic.com/", billed: "Speech Therapy", note: "registered SLP Carla Bonar provides fluency and stuttering support for all ages and, for adults, targeted support\u2026", prov: "MB" },
   { name: "Tall Tree Health", city: "Victoria", web: "http://www.talltreehealth.ca/services/speech-therapy", billed: "Speech Therapy", note: "speech therapy page: registered SLPs work with children and adults, speech therapy can help adults with stuttering,\u2026", prov: "BC" }
 ];
+
+/* Real-claims section: stat strip + Google review quotes.
+   Quotes are verbatim excerpts from public Google reviews of directory
+   clinics, collected 2026-11-01; `phrase` is the insurance wording in
+   each quote (highlighted on render); `source` is kept for audit. */
+const CLAIM_STATS = [
+  { num: "27M", label: "Canadians have extended health benefits" },
+  { num: "215", label: "directory clinics confirmed to direct-bill insurers" },
+  { num: "1,671", label: "clinics listed across Canada" },
+];
+const REVIEW_QUOTES = [
+  { treatment: "Bike Fitting", billed: "Physiotherapy", clinic: "Intrinsi", city: "Calgary", reviewer: "Jeff F", stars: 5,
+    quote: "I used the physiotherapy service to have my bike properly fitted by Spencer Potz. \u2026 Because of the nature of the service I was also to claim through benefits. Highly recommend the service but more specifically Spencer.",
+    phrase: "claim through benefits", source: "https://wanderlog.com/place/details/12675102/intrinsi" },
+  { treatment: "Cosmetic Acupuncture", billed: "Acupuncture", clinic: "Nikki Acupuncture & Beauty Clinic", city: "Halifax", reviewer: "wang Yiru", stars: null,
+    quote: "I've been in here since 2016. Acupuncture is really effective and can be covered by school insurance. And has good environment",
+    phrase: "can be covered by school insurance", source: "http://www.nikkisuiclinics.com/" },
+  { treatment: "Cosmetic Acupuncture", billed: "Acupuncture", clinic: "Nikki Acupuncture & Beauty Clinic", city: "Halifax", reviewer: "Chen Yueqi", stars: null,
+    quote: "I go there a lot so I bought a 'package', and combined with my dal insurance, student discount, and package deal, I only pay $10/session",
+    phrase: "dal insurance", source: "http://www.nikkisuiclinics.com/" },
+  { treatment: "Singing Voice Therapy", billed: "Speech Therapy", clinic: "SpeechAppeal", city: "Toronto", reviewer: "Ushan Makaju", stars: null,
+    quote: "Alyssa is an amazing Speech-Language Pathologist! She's very knowledgeable at what she does. Due to my insurance limitation, I only had a few sessions but all those sessions were really helpful.",
+    phrase: "insurance limitation", source: "https://www.thebesttoronto.com/best-speech-therapists-toronto/" },
+  { treatment: "Physiotherapy", billed: "Physiotherapy", clinic: "Holland Landing Health Centre", city: "Holland Landing", reviewer: "Bailey-Lynn Thurley", stars: null,
+    quote: "I have been there for massage, chiropractic, physiotherapy and naturopath appointments and have had amazing experiences with everyone I have seen. \u2026 I love the direct billing as I often forget to submit on my own.",
+    phrase: "direct billing", source: "https://www.loc8nearme.com/ontario/holland-landing/holland-landing-health-centre/7241297/comments/" },
+  { treatment: "Shockwave Therapy", billed: "Physiotherapy", clinic: "Delta Physiotherapy & Rehab", city: "Mississauga", reviewer: "Melissa Perodin", stars: null,
+    quote: "I came across Delta Physiotherapy & Rehab while looking online for a physio that would accept new patients and that also offered direct billing to my Insurance Compagny.",
+    phrase: "direct billing", source: "https://canadareviewers.com/physiotherapist/mississauga/delta-physiotherapy--rehab/" },
+  { treatment: "TMJ Massage", billed: "Massage Therapy", clinic: "Athlete's Choice Massage", city: "Edmonton", reviewer: "KillerDavy", stars: null,
+    quote: "Great facility, very clean and very inviting. Laura was the best massage therapist that I have ever met\u2026 Easy online booking system and smooth system for reminders and insurance claims.",
+    phrase: "insurance claims", source: "https://canadareviewers.com/massage-therapist/edmonton/athletes-choice-massage-south-edmonton/" },
+  { treatment: "Facial Gua Sha", billed: "Massage Therapy", clinic: "MyoCare RMT + Wellness", city: "Toronto", reviewer: "Joel R", stars: null,
+    quote: "Excellent massage. Very easy to use booking system and really loved that they accept insurance for direct billing.",
+    phrase: "accept insurance for direct billing", source: "https://www.elizabethsmassagetherapy.net/pages/reviews" },
+];

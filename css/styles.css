@@ -1001,3 +1001,28 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .fc-line + .fc-line { margin-top: 6px; }
 .fc-db { display: inline-block; margin-top: 12px; padding: 5px 12px; border-radius: 999px; background: #FFCE45; color: #0F2D2B; font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; }
 .fc-card--side .fc-db { filter: grayscale(1); opacity: .7; }
+
+/* Real-claims extras: stat strip + Google review quotes */
+.claims-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 8px 0 0; padding: 24px 10px; border-top: 1px solid var(--line-soft); border-bottom: 1px solid var(--line-soft); }
+.cstat { text-align: center; display: flex; flex-direction: column; gap: 4px; padding: 0 8px; }
+.cstat:not(:first-child) { border-left: 1px solid var(--line-soft); }
+.cstat-num { font-family: var(--serif); font-size: 2.2rem; font-weight: 600; line-height: 1; color: #0F2D2B; }
+.cstat-label { font-size: .84rem; line-height: 1.4; color: var(--ink-soft); max-width: 250px; margin: 0 auto; }
+.claims-source { text-align: center; font-size: .72rem; color: #9A958A; margin: 9px 0 2px; }
+.reviews-head { text-align: center; margin: 46px 0 20px; }
+.reviews-head h3 { font-family: var(--serif); font-size: 1.65rem; font-weight: 600; color: #0F2D2B; margin: 0 0 6px; }
+.reviews-head p { color: var(--ink-soft); font-size: .92rem; line-height: 1.5; margin: 0 auto; max-width: 580px; }
+.reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.review-card { background: #F4F6F3; border: 1px solid var(--line-soft); border-radius: var(--radius); padding: 20px; margin: 0; display: flex; flex-direction: column; gap: 12px; }
+.review-stars { color: #FBBC04; letter-spacing: 3px; font-size: .95rem; line-height: 1; }
+.review-src { font-size: .68rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--ink-soft); }
+.review-quote { margin: 0; font-size: .96rem; line-height: 1.55; color: var(--ink); }
+.ins-hl { box-shadow: inset 0 -0.34em 0 #FFCE45; padding: 0 .04em; }
+.review-meta { display: flex; flex-direction: column; gap: 2px; margin-top: auto; }
+.review-name { font-weight: 700; font-size: .92rem; color: var(--ink); }
+.review-clinic { font-size: .84rem; color: var(--ink-soft); }
+.review-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 10px; }
+.review-tag { font-size: .72rem; font-weight: 700; background: #0F2D2B; color: #fff; border-radius: 999px; padding: 4px 10px; white-space: nowrap; }
+.review-tag--billed { background: transparent; color: var(--ink); border: 1px solid #D8D2C2; font-weight: 600; }
+@media (max-width: 900px) { .reviews-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .reviews-grid { grid-template-columns: 1fr; } .claims-stats { grid-template-columns: 1fr; gap: 18px; } .cstat:not(:first-child) { border-left: none; } }
