@@ -2997,6 +2997,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "advance-form-fitness-toronto",
+  "treatment_id": "advance-form-fitness-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "1-hour session $115; Foundation Six Pack $600",
+  "price_source": "website",
+  "price_tier": "website",
+  "treatment_link": "https://www.advanceformfitness.com/golf-and-rotational-sports",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "advanced-health-and-sports-clinic-parksville",
   "treatment_id": "advanced-health-and-sports-clinic-parksville--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -8581,6 +8594,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "brentwood-chiropractic-clinic-sherwood-park",
+  "treatment_id": "brentwood-chiropractic-clinic-sherwood-park--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://brentwoodchiropractic.ca/blog/titleist-performance-institute-tpi-movement-screen-for-golfers",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "brentwood-physio-calgary",
   "treatment_id": "brentwood-physio-calgary--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -10038,6 +10064,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://cathywatsonphysio.ca/womens-pelvic-health/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "caviar-skin-clinic-vancouver",
+  "treatment_id": "caviar-skin-clinic-vancouver--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://caviarskinclinic.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -15261,6 +15300,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "core-wellness-chiropractic-sherwood-park",
+  "treatment_id": "core-wellness-chiropractic-sherwood-park--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://corewellnessandchiropractic.ca/chiropractic-techniques/clinical-pilates/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "coreology-physiotherapy-ottawa",
   "treatment_id": "coreology-physiotherapy-ottawa--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -17086,6 +17138,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "diane-lee-associates-physiotherapy-surrey",
+  "treatment_id": "diane-lee-associates-physiotherapy-surrey--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://dianeleephysio.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -19214,6 +19279,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-for-moms-calgary",
+  "treatment_id": "dr-for-moms-calgary--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://drformoms.com",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-gerann-murphy-kingston",
   "treatment_id": "dr-gerann-murphy-kingston--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -20336,6 +20414,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-leticia-spinelli-rio-skin-clinic-surrey",
+  "treatment_id": "dr-leticia-spinelli-rio-skin-clinic-surrey--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "Advanced Cosmetic Consultation $150; Skin Health Naturopathic Consultation $300",
+  "price_source": "website",
+  "price_tier": "website",
+  "treatment_link": "https://drleticiaspinelli.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -21790,6 +21881,19 @@
   "price_source": "No couples therapy fee is published on the clinic's own website (drschulercounselling.com homepage and team page read in full); no booking page with fees was found, so price is null.",
   "price_tier": null,
   "treatment_link": "http://www.drschulercounselling.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-sean-ceaser-winnipeg",
+  "treatment_id": "dr-sean-ceaser-winnipeg--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://drceaser.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -25382,6 +25486,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "flow-physio-wellness-bowmanville",
+  "treatment_id": "flow-physio-wellness-bowmanville--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.flow-wellness.ca/blog/titleist-performance-institute-golf-rehab-expert",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "flow-yeg-edmonton",
   "treatment_id": "flow-yeg-edmonton--couples-therapy",
   "treatment": "Couples Therapy",
@@ -26755,6 +26872,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "ggc-virtual-golf-club-vancouver",
+  "treatment_id": "ggc-virtual-golf-club-vancouver--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "Starter $600 / Better $1200 / Best $1800 (hourly $265)",
+  "price_source": "website",
+  "price_tier": "website",
+  "treatment_link": "https://ggcvirtualgolf.ca/tpi-assessment/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "gillian-pappas-physiotherapy-brandon",
   "treatment_id": "gillian-pappas-physiotherapy-brandon--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -26883,6 +27013,32 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "golf-performance-and-rehab-canada-kingsville",
+  "treatment_id": "golf-performance-and-rehab-canada-kingsville--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.gparcanada.com",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "golf-rehabilitation-and-physiotherapy-moncton",
+  "treatment_id": "golf-rehabilitation-and-physiotherapy-moncton--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://golfrehabphysiotherapy.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -29671,6 +29827,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "honsberger-physio-markham",
+  "treatment_id": "honsberger-physio-markham--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.honsbergerphysio.com/Golf-Services",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "hope-art-therapy-peterborough",
   "treatment_id": "hope-art-therapy-peterborough--couples-therapy",
   "treatment": "Couples Therapy",
@@ -29830,6 +29999,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "hydra-med-spa-and-wellness-abbotsford",
+  "treatment_id": "hydra-med-spa-and-wellness-abbotsford--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "Initial naturopathic consult $225; follow-up $125; virtual IV consult $60; virtual iron consult $80",
+  "price_source": "website",
+  "price_tier": "website",
+  "treatment_link": "https://hydramed.ca/treatments/naturopath/",
   "last_verified": "2026-11-01"
  },
  {
@@ -31956,6 +32138,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "juniper-family-health-victoria",
+  "treatment_id": "juniper-family-health-victoria--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://juniperfamilyhealth.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "juniper-naturopathic-clinic-fort-mcmurray",
   "treatment_id": "juniper-naturopathic-clinic-fort-mcmurray--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -32349,6 +32544,19 @@
   "price_source": "No fees are published on the clinic's own website, and its Jane booking page (kanatawomensmassage.janeapp.com) rendered only the practitioner bio in text fetch - the treatment/fee list did not render - so price is null.",
   "price_tier": null,
   "treatment_link": "https://kanatawomensmassage.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "kandis-lock-nd-ottawa",
+  "treatment_id": "kandis-lock-nd-ottawa--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.kandislocknd.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -35736,6 +35944,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "kinatex-sports-physio-montreal",
+  "treatment_id": "kinatex-sports-physio-montreal--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.kinatex.com/en/our-services/golf-program/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "kinatex-trois-rivieres-trois-rivieres",
   "treatment_id": "kinatex-trois-rivieres-trois-rivieres--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -36278,6 +36499,19 @@
   "price_tier": "booking",
   "treatment_link": "https://kinectivehealth.janeapp.com/locations/kinective-health-performance/book",
   "last_verified": null
+ },
+ {
+  "clinic_id": "kinetic-living-edmonton",
+  "treatment_id": "kinetic-living-edmonton--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://kineticliving.ca/golf-tpi/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "kinetic-solutions-physio-moncton",
@@ -46522,6 +46756,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "momentum-physiotherapy-edmonton",
+  "treatment_id": "momentum-physiotherapy-edmonton--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.mssphysio.com/golf-physiotherapy-edmonton/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "momentum-spine-sports-physiotherapy-edmonton",
   "treatment_id": "momentum-spine-sports-physiotherapy-edmonton--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -54548,6 +54795,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "penticton-physiotherapy-penticton",
+  "treatment_id": "penticton-physiotherapy-penticton--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://pentictonphysiotherapy.com/services/tpi-golf-assessment/",
   "last_verified": "2026-11-01"
  },
  {
@@ -66838,6 +67098,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "royal-quarry-wellness-stonewall",
+  "treatment_id": "royal-quarry-wellness-stonewall--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://royalquarrywellness.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "royal-york-massage-therapy-and-osteopathy-etobicoke",
   "treatment_id": "royal-york-massage-therapy-and-osteopathy-etobicoke--facial-manual-therapy",
   "treatment": "Facial Manual Therapy",
@@ -69062,6 +69335,19 @@
   "price_source": "No usable price is published: the clinic's own store pages (including the Guasha & Cosmetic Therapy page) show $0.00 placeholders for all modalities, and the homepage states treatments are a consistent flat rate across modalities without publishing amounts, so price is null.",
   "price_tier": null,
   "treatment_link": "https://www.soulfulacupuncture.com/store/p/guasha-cosmetic-therapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sound-chiropractic-and-wellness-owen-sound",
+  "treatment_id": "sound-chiropractic-and-wellness-owen-sound--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://soundchiros.ca/golf-chiropractor/",
   "last_verified": "2026-11-01"
  },
  {
@@ -72534,6 +72820,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "the-chiropractic-wellness-studio-edmonton",
+  "treatment_id": "the-chiropractic-wellness-studio-edmonton--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://feelbetteredmonton.com/tpi-level-1-tpi-medical-2-certifications",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "the-clara-clinic-toronto",
   "treatment_id": "the-clara-clinic-toronto--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
@@ -73161,6 +73460,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-naked-truth-laser-wellness-langley",
+  "treatment_id": "the-naked-truth-laser-wellness-langley--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "IV initial $200; Tier 1 $135; Tier 2 $190; Tier 3 $225; glutathione drip $135; NAD initial $465",
+  "price_source": "website",
+  "price_tier": "website",
+  "treatment_link": "https://thenakedtruthskincare.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -76010,6 +76322,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "true-physio-pilates-richmond",
+  "treatment_id": "true-physio-pilates-richmond--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://truephysiopilates.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "true-potential-health-services-saskatoon",
   "treatment_id": "true-potential-health-services-saskatoon--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -76320,6 +76645,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "university-of-guelph-physio-pilates-health-and-performance-centre-guelph",
+  "treatment_id": "university-of-guelph-physio-pilates-health-and-performance-centre-guelph--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$115/40 min session (page also lists $100 \"Complex Physiotherapy Treatment\" - pricing discrepancy on page)",
+  "price_source": "website",
+  "price_tier": "website",
+  "treatment_link": "https://wellness.uoguelph.ca/node/159",
   "last_verified": "2026-11-01"
  },
  {
@@ -76845,6 +77183,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vancity-physio-vancouver",
+  "treatment_id": "vancity-physio-vancouver--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.vancityphysio.com/services/clinical-pilates",
   "last_verified": "2026-11-01"
  },
  {
@@ -78960,6 +79311,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "woodland-physiotherapy-vancouver",
+  "treatment_id": "woodland-physiotherapy-vancouver--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://woodlandphysio.com/",
   "last_verified": "2026-11-01"
  },
  {
