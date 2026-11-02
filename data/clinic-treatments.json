@@ -1156,6 +1156,74 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "all-things-pelvic-physiotherapy-and-pessary-clinic-kitchener",
+  "treatment_id": "all-things-pelvic-physiotherapy-and-pessary-clinic-kitchener--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Renee Quiring",
+  "practitioners": [
+   {
+    "id": "all-things-pelvic-physiotherapy-and-pessary-clinic-kitchener--renee-quiring",
+    "name": "Renee Quiring",
+    "as_recorded": "Renee Quiring"
+   },
+   {
+    "id": "all-things-pelvic-physiotherapy-and-pessary-clinic-kitchener--heather-tsarfati",
+    "name": "Heather Tsarfati",
+    "as_recorded": "Heather Tsarfati"
+   },
+   {
+    "id": "all-things-pelvic-physiotherapy-and-pessary-clinic-kitchener--kaitlyn-snell",
+    "name": "Kaitlyn Snell",
+    "as_recorded": "Kaitlyn Snell"
+   },
+   {
+    "id": "all-things-pelvic-physiotherapy-and-pessary-clinic-kitchener--jenny-telfer-crum",
+    "name": "Jenny Telfer-Crum",
+    "as_recorded": "Jenny Telfer-Crum"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee schedule is published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "http://allthingspelvic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "all-things-pelvic-physiotherapy-kitchener",
+  "treatment_id": "all-things-pelvic-physiotherapy-kitchener--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Renee Quiring",
+  "practitioners": [
+   {
+    "id": "all-things-pelvic-physiotherapy-kitchener--renee-quiring",
+    "name": "Renee Quiring",
+    "as_recorded": "Renee Quiring"
+   },
+   {
+    "id": "all-things-pelvic-physiotherapy-kitchener--heather-tsarfati",
+    "name": "Heather Tsarfati",
+    "as_recorded": "Heather Tsarfati"
+   },
+   {
+    "id": "all-things-pelvic-physiotherapy-kitchener--kaitlyn-snell",
+    "name": "Kaitlyn Snell",
+    "as_recorded": "Kaitlyn Snell"
+   },
+   {
+    "id": "all-things-pelvic-physiotherapy-kitchener--jenny-telfer-crum",
+    "name": "Jenny Telfer-Crum",
+    "as_recorded": "Jenny Telfer-Crum"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee schedule is published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "http://allthingspelvic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "alliance-physio-kareem-hassanein-rpt-mississauga",
   "treatment_id": "alliance-physio-kareem-hassanein-rpt-mississauga--clinical-pilates",
   "treatment": null,
@@ -2292,6 +2360,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "bc-dietitians-inc-langley",
+  "treatment_id": "bc-dietitians-inc-langley--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$190+ (online nutrition consultation)",
+  "price_source": "BC Dietitians' own online consultation page (bcdietitians.ca/onlineconsultation) displays 'Price Range: $190+' / '$190+' for a nutrition consultation. Individual dietitians set their own fees, so this is the platform's stated starting range, not a single practitioner's session price.",
+  "price_tier": "website",
+  "treatment_link": "https://bcdietitians.ca/onlineconsultation",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "be-well-collingwood-collingwood",
   "treatment_id": "be-well-collingwood-collingwood--naturopathy",
   "treatment": "Naturopathy",
@@ -2618,6 +2699,19 @@
  },
  {
   "clinic_id": "blockline-physiotherapy-wellness-kitchener",
+  "treatment_id": "blockline-physiotherapy-wellness-kitchener--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Not applicable - the treatment is not offered as a bookable service (premise failure, see gaps); the site's published fees cover physiotherapy, massage therapy and shockwave only.",
+  "price_tier": null,
+  "treatment_link": "https://blocklinephysio.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "blockline-physiotherapy-wellness-kitchener",
   "treatment_id": "blockline-physiotherapy-wellness-kitchener--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": "Physiotherapy",
@@ -2672,6 +2766,25 @@
   "price_tier": null,
   "treatment_link": "https://bloom-physiotherapy.janeapp.com/locations/bloom/book",
   "last_verified": null
+ },
+ {
+  "clinic_id": "blue-leaf-counselling-lethbridge",
+  "treatment_id": "blue-leaf-counselling-lethbridge--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Edwin Brobbel, Registered Psychologist",
+  "practitioners": [
+   {
+    "as_recorded": "Edwin Brobbel, Registered Psychologist",
+    "id": "blue-leaf-counselling-lethbridge--edwin-brobbel",
+    "name": "Edwin Brobbel"
+   }
+  ],
+  "price_text": "$210/hr",
+  "price_source": "Clinic's own website (blueleafcounselling.ca) states 'Price Range: $210/hr' on its practice information block.",
+  "price_tier": "website",
+  "treatment_link": "https://blueleafcounselling.ca/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "bluebird-psychology-calgary",
@@ -3741,6 +3854,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "carlyn-brown-acupuncturist-kingston",
+  "treatment_id": "carlyn-brown-acupuncturist-kingston--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://carlynbrown.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "caroline-wang-rd-gatineau",
   "treatment_id": "caroline-wang-rd-gatineau--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -3947,6 +4073,38 @@
  },
  {
   "clinic_id": "centre-chiromedic-de-laval-laval",
+  "treatment_id": "centre-chiromedic-de-laval-laval--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic-health physiotherapy fee is published on the clinic's own website or in the fetchable text of its Jane App booking site, so the price is left null.",
+  "price_tier": null,
+  "treatment_link": "https://chiromedic.ca/fr/service/reeducation-perineale-et-pelvienne/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "centre-chiromedic-de-laval-laval",
+  "treatment_id": "centre-chiromedic-de-laval-laval--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": "Dre Marie-Christine Gougoux, DC",
+  "practitioners": [
+   {
+    "id": "centre-chiromedic-de-laval-laval--marie-christine-gougoux",
+    "name": "Marie-Christine Gougoux",
+    "as_recorded": "Dre Marie-Christine Gougoux DC"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No laser fee is published on the clinic's own website, and its Jane App booking site (chiromedic.janeapp.com) opens on a location picker whose fetchable text lists no prices, so the price is left null rather than sourced elsewhere.",
+  "price_tier": null,
+  "treatment_link": "https://chiromedic.ca/fr/service/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "centre-chiromedic-de-laval-laval",
   "treatment_id": "centre-chiromedic-de-laval-laval--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": "Chiropractic",
@@ -4021,6 +4179,19 @@
   "price_tier": null,
   "treatment_link": "https://champagneacupuncture.ca/en/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "chow-down-nutrition-langley",
+  "treatment_id": "chow-down-nutrition-langley--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No prices are published on the clinic's Find BC Dietitians profile, and its own website (chowdownnutrition.com) currently returns a hosting error page, so no price could be sourced.",
+  "price_tier": null,
+  "treatment_link": "https://bcdietitians.ca/british-columbia/langley/dietitian-services/amy-chow/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "chris-tierney-physiotherapy-vancouver",
@@ -4420,6 +4591,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "clinique-dentaire-meddent-laval",
+  "treatment_id": "clinique-dentaire-meddent-laval--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dentistry",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Botox fee is published on the clinic's own website, so the price is left null.",
+  "price_tier": null,
+  "treatment_link": "http://www.meddentlaval.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "clinique-inspiration-laval",
   "treatment_id": "clinique-inspiration-laval--clinical-pilates",
   "treatment": null,
@@ -4572,6 +4756,32 @@
   "price_tier": null,
   "treatment_link": "https://physiotherapieuniverselle.com/en/clinics/vaudreuil",
   "last_verified": null
+ },
+ {
+  "clinic_id": "clinique-tag-laval",
+  "treatment_id": "clinique-tag-laval--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on cliniquetag.com. A $130 shockwave price appears on cliniquetagmed.com (Clinique TAGMED, Montr\u00e9al/Terrebonne), which is a different business, so it was NOT used here.",
+  "price_tier": null,
+  "treatment_link": "http://www.cliniquetag.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-universitaire-du-sommeil-universite-de-montreal-laval",
+  "treatment_id": "clinique-universitaire-du-sommeil-universite-de-montreal-laval--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "Adultes: \u00e9valuation initiale du sommeil (75 min) 125 $; consultation de suivi 100 $ (individuelle 50 min ou de groupe 105 min). Tarif r\u00e9duit 105 $ / 80 $ (\u00e9tudiantes et \u00e9tudiants hors UdeM, employ\u00e9es et employ\u00e9s de l'UdeM, personnes de 65 ans et plus)",
+  "price_source": "Clinic's own Universit\u00e9 de Montr\u00e9al page, 'Grille tarifaire' (fee grid) for the sleep clinic.",
+  "price_tier": "website",
+  "treatment_link": "https://psy.umontreal.ca/ressources-services/clinique-universitaire-du-sommeil/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "clinique-viivacore-boucherville",
@@ -5994,6 +6204,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dalton-associates-kitchener",
+  "treatment_id": "dalton-associates-kitchener--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's own FAQ states fees are determined by the therapist's training and the service, follow Ontario Psychological Association guidelines, and are agreed at the initial interview; no couples fee is published, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.daltonassociates.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "danesh-aesthetics-richmond-hill",
   "treatment_id": "danesh-aesthetics-richmond-hill--naturopathy",
   "treatment": "Naturopathy",
@@ -6013,6 +6236,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "dawson-dental-kingston-kingston",
+  "treatment_id": "dawson-dental-kingston-kingston--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dentistry",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.dawsondental.ca/site/dental-services/specialty-dentistry-botox",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "debora-sloan-healthy-solutions-ottawa",
   "treatment_id": "debora-sloan-healthy-solutions-ottawa--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -6030,6 +6266,25 @@
   "price_tier": null,
   "treatment_link": "https://deborasloanhealthysolutions.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "deborah-colling-psychological-services-lethbridge",
+  "treatment_id": "deborah-colling-psychological-services-lethbridge--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Deborah Colling, Registered Psychologist",
+  "practitioners": [
+   {
+    "as_recorded": "Deborah Colling, Registered Psychologist",
+    "id": "deborah-colling-psychological-services-lethbridge--deborah-colling",
+    "name": "Deborah Colling"
+   }
+  ],
+  "price_text": "$220 per hour (couples)",
+  "price_source": "Clinic's own website (healthpsychology.ca) fee schedule lists 'Couples: $220 per hour' (individuals $110-$190, teens $190/hr on the same page).",
+  "price_tier": "website",
+  "treatment_link": "http://healthpsychology.ca/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "deep-roots-medicine-brandon",
@@ -6088,6 +6343,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "dental-care-kingston-kingston",
+  "treatment_id": "dental-care-kingston-kingston--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dentistry",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.dawsondental.ca/site/dental-services/specialty-dentistry-botox",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dentiste-candiac-candiac",
   "treatment_id": "dentiste-candiac-candiac--medical-botox",
   "treatment": "Medical Botox",
@@ -6117,6 +6385,38 @@
   "price_source": "No Botox fee is published on the clinic's own website.",
   "price_tier": null,
   "treatment_link": "https://dentistryatcornwall.ca/dental-services/other-dental-services/botox-treatment",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "diete-sante-laval",
+  "treatment_id": "diete-sante-laval--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No prices are published on the clinic's own website, and no booking page could be identified.",
+  "price_tier": null,
+  "treatment_link": "http://www.dietesante.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dietetic-directions-kitchener",
+  "treatment_id": "dietetic-directions-kitchener--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": "Laura Bender, Registered Dietitian",
+  "practitioners": [
+   {
+    "id": "dietetic-directions-kitchener--laura-bender",
+    "name": "Laura Bender",
+    "as_recorded": "Laura Bender, Registered Dietitian"
+   }
+  ],
+  "price_text": "Initial Assessment (60 min) $175; Follow-Up (60 min) $170; Follow-Up (30 min) $95 - the clinic's published 'Pay As You Go' Registered Dietitian counselling fee schedule, which covers its Sports Nutrition & Body Composition service",
+  "price_source": "Clinic's own website - Private Nutritional Counselling page (dieteticdirections.com/private-nutritional-counselling) publishes the fee schedule.",
+  "price_tier": "website",
+  "treatment_link": "https://dieteticdirections.com/private-nutritional-counselling/",
   "last_verified": "2026-11-01"
  },
  {
@@ -6569,6 +6869,25 @@
   "price_source": "No fees are published anywhere on her own website (allisonmosesnd.com) and no booking-page price list could be read (her site's 'Book an Appointment' link target could not be fetched), so no price could be verified.",
   "price_tier": null,
   "treatment_link": "https://www.allisonmosesnd.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-andrea-hilborn-kingston",
+  "treatment_id": "dr-andrea-hilborn-kingston--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Andrea Hilborn, ND, is a licensed Naturopathic Doctor with prescribing rights granted by the College of Naturopaths of Ontario.",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Andrea Hilborn, ND",
+    "id": "dr-andrea-hilborn-kingston--andrea-hilborn",
+    "name": "Dr. Andrea Hilborn"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.drandreahilbornnd.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -7629,6 +7948,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-gerann-murphy-kingston",
+  "treatment_id": "dr-gerann-murphy-kingston--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr Gerann Murphy is the owner and naturopathic doctor behind Anam Health.",
+  "practitioners": [
+   {
+    "as_recorded": "Dr Gerann Murphy",
+    "id": "dr-gerann-murphy-kingston--gerann-murphy",
+    "name": "Dr. Gerann Murphy"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://anamhealth.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-gregory-knoll-brantford",
   "treatment_id": "dr-gregory-knoll-brantford--mental-performance-coaching",
   "treatment": "Mental Performance Coaching",
@@ -8154,6 +8492,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-justin-jubber-lethbridge",
+  "treatment_id": "dr-justin-jubber-lethbridge--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dentistry",
+  "practitioner": "Dr. Justin Jubber",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Justin Jubber (dentist, Sun Dental Group)",
+    "id": "dr-justin-jubber-lethbridge--justin-jubber",
+    "name": "Justin Jubber"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No Botox/TMJ treatment fee is published on sundental.ca or any booking page found in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.sundental.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-kaitlyn-zorn-nd-guelph",
   "treatment_id": "dr-kaitlyn-zorn-nd-guelph--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -8501,6 +8858,63 @@
   "price_tier": null,
   "treatment_link": "https://www.drmarkweinberg.ca/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "dr-marwa-dabbagh-nd-kitchener",
+  "treatment_id": "dr-marwa-dabbagh-nd-kitchener--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Marwa Dabbagh, ND",
+  "practitioners": [
+   {
+    "id": "dr-marwa-dabbagh-nd-kitchener--marwa-dabbagh",
+    "name": "Marwa Dabbagh",
+    "as_recorded": "Dr. Marwa Dabbagh, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Her Jane booking page's treatment list did not render prices in this pass, and no fee is published on her own website.",
+  "price_tier": null,
+  "treatment_link": "http://www.drmarwadabbaghnd.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-marwa-dabbagh-nd-kitchener",
+  "treatment_id": "dr-marwa-dabbagh-nd-kitchener--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Marwa Dabbagh, ND",
+  "practitioners": [
+   {
+    "id": "dr-marwa-dabbagh-nd-kitchener--marwa-dabbagh",
+    "name": "Marwa Dabbagh",
+    "as_recorded": "Dr. Marwa Dabbagh, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Her Jane booking page's treatment list did not render prices in this pass, and no fee is published on her own website.",
+  "price_tier": null,
+  "treatment_link": "http://www.drmarwadabbaghnd.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-marwa-dabbagh-nd-kitchener",
+  "treatment_id": "dr-marwa-dabbagh-nd-kitchener--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Marwa Dabbagh, ND",
+  "practitioners": [
+   {
+    "id": "dr-marwa-dabbagh-nd-kitchener--marwa-dabbagh",
+    "name": "Marwa Dabbagh",
+    "as_recorded": "Dr. Marwa Dabbagh, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Her Jane booking page's treatment list did not render prices in this pass, and no fee is published on her own website.",
+  "price_tier": null,
+  "treatment_link": "http://www.drmarwadabbaghnd.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "dr-matthew-pace-nd-toronto",
@@ -9419,6 +9833,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "dynamic-approach-massage-therapy-kitchener",
+  "treatment_id": "dynamic-approach-massage-therapy-kitchener--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee schedule is published on the clinic's own website pages read in this pass.",
+  "price_tier": null,
+  "treatment_link": "http://www.dynamic-approach.com/massage-therapy-services.html",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dynamic-health-collaborative-toronto",
   "treatment_id": "dynamic-health-collaborative-toronto--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -9537,6 +9964,19 @@
   "price_tier": "website",
   "treatment_link": "https://www.eastcoastperformancenutrition.com/nutrition-consultations",
   "last_verified": null
+ },
+ {
+  "clinic_id": "east-end-dental-centre-kingston",
+  "treatment_id": "east-end-dental-centre-kingston--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://eastenddentalcentre.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "eastgate-physiotherapy-edmonton",
@@ -10132,6 +10572,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "envision-wellbeing-lethbridge",
+  "treatment_id": "envision-wellbeing-lethbridge--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page bios publish other therapists' rates ($235/hr for a Registered Psychologist; $220/hr for a clinical counsellor), but the owner/lead psychologist who offers mental performance work publishes no rate in the extracts read, and another practitioner's rate cannot stand in for hers (rule v2), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://envisionwellbeing.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "equilibrium-chiropractic-and-wellness-centre-kawartha-lakes",
   "treatment_id": "equilibrium-chiropractic-and-wellness-centre-kawartha-lakes--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -10583,6 +11036,45 @@
   "last_verified": null
  },
  {
+  "clinic_id": "euro-physical-therapy-lethbridge",
+  "treatment_id": "euro-physical-therapy-lethbridge--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://europhysio.ca/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "euro-physical-therapy-lethbridge",
+  "treatment_id": "euro-physical-therapy-lethbridge--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://europhysio.ca/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "euro-physical-therapy-lethbridge",
+  "treatment_id": "euro-physical-therapy-lethbridge--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://europhysio.ca/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "everwell-nd-vancouver",
   "treatment_id": "everwell-nd-vancouver--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -10633,6 +11125,57 @@
   "price_tier": null,
   "treatment_link": "https://everwellnd.com",
   "last_verified": null
+ },
+ {
+  "clinic_id": "evolution-physio-laval",
+  "treatment_id": "evolution-physio-laval--bike-fitting",
+  "treatment": "Bike Fitting",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Joey Choquette Passarelli",
+  "practitioners": [
+   {
+    "id": "evolution-physio-laval--joey-choquette-passarelli",
+    "name": "Joey Choquette Passarelli",
+    "as_recorded": "Joey Choquette Passarelli, M.Pht, certifi\u00e9 Bike Pt"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No bike-fitting fee is published on the clinic's own website or endurance-division pages read in this pass, so the price is left null.",
+  "price_tier": null,
+  "treatment_link": "https://evolutionphysio.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "evolution-physio-laval",
+  "treatment_id": "evolution-physio-laval--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No gait-analysis fee is published on the clinic's own website, so the price is left null.",
+  "price_tier": null,
+  "treatment_link": "https://evolutionphysio.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "evolution-physio-laval",
+  "treatment_id": "evolution-physio-laval--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Julie Gauthier",
+  "practitioners": [
+   {
+    "id": "evolution-physio-laval--julie-gauthier",
+    "name": "Julie Gauthier",
+    "as_recorded": "Julie Gauthier, physioth\u00e9rapeute"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular-rehabilitation fee is published on the clinic's own website, so the price is left null.",
+  "price_tier": null,
+  "treatment_link": "https://evolutionphysio.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "evolve-therapy-and-counselling-kingston",
@@ -10824,6 +11367,44 @@
   "price_tier": null,
   "treatment_link": "https://fenwickwellness.ca/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "fertility-acupuncture-by-jaynee-kim-kitchener",
+  "treatment_id": "fertility-acupuncture-by-jaynee-kim-kitchener--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Jaynee Kim, R.TCMP, R.Ac",
+  "practitioners": [
+   {
+    "id": "fertility-acupuncture-by-jaynee-kim-kitchener--jaynee-kim",
+    "name": "Jaynee Kim",
+    "as_recorded": "Jaynee Kim, R.TCMP, R.Ac"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee is published on her own website; the host clinic's TCM acupuncture prices were not borrowed (Pricing + Practitioner Rule v2 - see gaps).",
+  "price_tier": null,
+  "treatment_link": "https://www.acubyjaynee.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "fertility-acupuncture-by-jaynee-kim-r-tcmp-r-ac-kitchener",
+  "treatment_id": "fertility-acupuncture-by-jaynee-kim-r-tcmp-r-ac-kitchener--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Jaynee Kim, R.TCMP, R.Ac",
+  "practitioners": [
+   {
+    "as_recorded": "Jaynee Kim, R.TCMP, R.Ac",
+    "id": "fertility-acupuncture-by-jaynee-kim-r-tcmp-r-ac-kitchener--jaynee-kim",
+    "name": "Jaynee Kim"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee for Jaynee Kim's acupuncture is published on acubyjaynee.com or rendered on the Encompass Jane booking page in this pass (the Jane page renders practitioner bios, not her service prices). Encompass's naturopathic acupuncture prices ($165/$80, Dr. Carissa Bush, ND) were NOT used \u2014 different practitioner and different billing category (rule v2).",
+  "price_tier": null,
+  "treatment_link": "https://encompasshealth.janeapp.com/locations/encompass-health-and-wellness/book",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "fiona-aris-kingston",
@@ -11439,6 +12020,51 @@
   "price_source": "https://www.gotknots.ca/massage-services/tmj-massage/",
   "price_tier": "website",
   "treatment_link": "https://www.gotknots.ca/massage-services/tmj-massage/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "grand-river-sports-medicine-centre-kitchener",
+  "treatment_id": "grand-river-sports-medicine-centre-kitchener--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic-floor-specific fee is published on grsm.ca in this pass; the clinic's general physiotherapy initial assessment is $145 but pelvic floor delivery by the same practitioners is not explicitly evidenced, so no stand-in price was recorded (rule v2).",
+  "price_tier": null,
+  "treatment_link": "https://www.grsm.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "grand-river-sports-medicine-centre-kitchener",
+  "treatment_id": "grand-river-sports-medicine-centre-kitchener--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$145 initial assessment",
+  "price_source": "Clinic's own physiotherapy page (grsm.ca): 'Initial Assessments are $145 and can be billed directly to your insurance (if it allows)'. Running gait analysis is delivered inside physiotherapy \u2014 the same page lists 'Video analysis \u2013 athletic technique (e.g., \u2026 running gait \u2026) recorded on video and analyzed on computer' \u2014 so the physiotherapy initial assessment price stands as the treatment price.",
+  "price_tier": "website",
+  "treatment_link": "https://www.grsm.ca/services/physiotherapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "grand-river-sports-medicine-centre-kitchener",
+  "treatment_id": "grand-river-sports-medicine-centre-kitchener--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": "Stephanie Boville, RD",
+  "practitioners": [
+   {
+    "as_recorded": "Stephanie Boville, Registered Dietitian",
+    "id": "grand-river-sports-medicine-centre-kitchener--stephanie-boville",
+    "name": "Stephanie Boville"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No dietitian/nutrition fee is published on grsm.ca or rendered on the GRSM Jane booking page in this pass.",
+  "price_tier": null,
+  "treatment_link": "https://grsm.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -12148,6 +12774,30 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://healthmaxphysio.com/scarborough/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "healthsource-integrative-medical-centre-kitchener",
+  "treatment_id": "healthsource-integrative-medical-centre-kitchener--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Reid, ND and Dr. Thammasouk, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Reid, ND",
+    "id": "healthsource-integrative-medical-centre-kitchener--reid",
+    "name": "Reid"
+   },
+   {
+    "as_recorded": "Dr. Thammasouk, ND",
+    "id": "healthsource-integrative-medical-centre-kitchener--thammasouk",
+    "name": "Thammasouk"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own IV therapy page (healthsourceimc.com/iv-therapy/) publishes no IV fees in this pass, and no booking-page price list was found, so the price is left null rather than sourced elsewhere.",
+  "price_tier": null,
+  "treatment_link": "https://www.healthsourceimc.com/iv-therapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -13362,6 +14012,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "judith-cox-counseling-kingston",
+  "treatment_id": "judith-cox-counseling-kingston--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Counselling",
+  "practitioner": "Judith Cox - psychotherapist, counselor, life coach and social worker; member of the Ontario College of Social Workers and Social Service Workers (OCSWSSW) and the Ontario Association of Social Workers; over 30 years experience",
+  "practitioners": [
+   {
+    "id": "judith-cox-counseling-kingston--judith-cox",
+    "name": "Judith Cox",
+    "as_recorded": "Judith Cox - psychotherapist, counselor, life coach and social worker; member of the Ontario College of Social Workers and Social Service Workers (OCSWSSW)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.judithcoxcounseling.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "judith-perrault-nutritionniste-bromont",
   "treatment_id": "judith-perrault-nutritionniste-bromont--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -14043,6 +14712,44 @@
   "last_verified": null
  },
  {
+  "clinic_id": "kingston-integrated-healthcare-kihc-kingston",
+  "treatment_id": "kingston-integrated-healthcare-kihc-kingston--accent-modification",
+  "treatment": "Accent Modification",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Adrienne Nobbe, MHSc, Speech-Language Pathologist",
+  "practitioners": [
+   {
+    "id": "kingston-integrated-healthcare-kihc-kingston--adrienne-nobbe",
+    "name": "Adrienne Nobbe",
+    "as_recorded": "Adrienne Nobbe, MHSc, Speech-Language Pathologist"
+   }
+  ],
+  "price_text": "Speech-Language Pathology: First consultation (60 to 90 minutes) $180; Follow-up consultation (up to 60 minutes) $140; Follow-up consultation (up to 30 minutes) $90",
+  "price_source": "https://kihc.ca/medical-health-services/rates/",
+  "price_tier": "website",
+  "treatment_link": "https://kihc.ca/medical-health-services/speech-language-pathology/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "kingston-integrated-healthcare-kihc-kingston",
+  "treatment_id": "kingston-integrated-healthcare-kihc-kingston--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Adrienne Nobbe, MHSc, Speech-Language Pathologist",
+  "practitioners": [
+   {
+    "id": "kingston-integrated-healthcare-kihc-kingston--adrienne-nobbe",
+    "name": "Adrienne Nobbe",
+    "as_recorded": "Adrienne Nobbe, MHSc, Speech-Language Pathologist"
+   }
+  ],
+  "price_text": "Speech-Language Pathology: First consultation (60 to 90 minutes) $180; Follow-up consultation (up to 60 minutes) $140; Follow-up consultation (up to 30 minutes) $90",
+  "price_source": "https://kihc.ca/medical-health-services/rates/",
+  "price_tier": "website",
+  "treatment_link": "https://kihc.ca/medical-health-services/speech-language-pathology/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "kingston-pelvic-health-kingston",
   "treatment_id": "kingston-pelvic-health-kingston--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -14284,6 +14991,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "laura-mcdade-psychotherapy-kingston",
+  "treatment_id": "laura-mcdade-psychotherapy-kingston--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Laura McDade",
+  "practitioners": [
+   {
+    "id": "laura-mcdade-psychotherapy-kingston--laura-mcdade",
+    "name": "Laura McDade",
+    "as_recorded": "Laura McDade"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee is published on her own website (lauramcdade.ca) pages read in this pass, so the price is left null rather than sourced from therapist directories.",
+  "price_tier": null,
+  "treatment_link": "https://lauramcdade.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "le-groupe-therapie-the-therapy-group-montreal",
   "treatment_id": "le-groupe-therapie-the-therapy-group-montreal--couples-therapy",
   "treatment": "Couples Therapy",
@@ -14325,6 +15051,80 @@
   "price_tier": "booking",
   "treatment_link": "https://www.leasidesportsmedicine.com/services/shockwave-therapy/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "leduc-physio-leduc",
+  "treatment_id": "leduc-physio-leduc--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Pooja Vyas; Tamara Jose Varghese; Christine Chan",
+  "practitioners": [
+   {
+    "as_recorded": "Pooja Vyas (clinic's Jane bio explicitly lists 'Pelvic Health Physiotherapy')",
+    "id": "leduc-physio-leduc--pooja-vyas",
+    "name": "Pooja Vyas"
+   },
+   {
+    "as_recorded": "Tamara Jose Varghese, Pelvic Health Physiotherapist (clinic's Jane page)",
+    "id": "leduc-physio-leduc--tamara-jose-varghese",
+    "name": "Tamara Jose Varghese"
+   },
+   {
+    "as_recorded": "Christine Chan, Pelvic Health Physiotherapist (clinic's Jane page)",
+    "id": "leduc-physio-leduc--christine-chan",
+    "name": "Christine Chan"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch, with no fee list; no physiotherapy fees are published on leducphysio.ca pages read, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://leducphysio.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "leduc-physio-leduc",
+  "treatment_id": "leduc-physio-leduc--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch, with no fee list; no physiotherapy fees are published on leducphysio.ca pages read, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://leducphysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "leduc-physio-leduc",
+  "treatment_id": "leduc-physio-leduc--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page (leducphysio.janeapp.com) rendered practitioner bios only in text fetch, with no fee list; no massage fees are published on leducphysio.ca pages read, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://leducphysio.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "leduc-physio-leduc",
+  "treatment_id": "leduc-physio-leduc--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Tamara Jose Varghese",
+  "practitioners": [
+   {
+    "as_recorded": "Tamara Jose Varghese (clinic's Jane bio lists 'TMJ dysfunctions, concussion & vestibular rehabilitation')",
+    "id": "leduc-physio-leduc--tamara-jose-varghese",
+    "name": "Tamara Jose Varghese"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch, with no fee list; no physiotherapy fees are published on leducphysio.ca pages read, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://leducphysio.janeapp.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "leela-eco-spa-calgary",
@@ -14971,6 +15771,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://mamawellnessco.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "marathon-chiropractic-clinic-lethbridge",
+  "treatment_id": "marathon-chiropractic-clinic-lethbridge--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://marathonchiropractic.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -15852,6 +16665,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "miranda-mckinley-evans-rmt-kitchener",
+  "treatment_id": "miranda-mckinley-evans-rmt-kitchener--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Miranda McKinley Evans, RMT",
+  "practitioners": [
+   {
+    "as_recorded": "Miranda McKinley Evans, RMT",
+    "id": "miranda-mckinley-evans-rmt-kitchener--miranda-mckinley-evans",
+    "name": "Miranda McKinley Evans"
+   }
+  ],
+  "price_text": "60 min $110 \u00b7 45 min $90 \u00b7 75 min $135 \u00b7 90 min $157 \u00b7 30 min $69 (+HST)",
+  "price_source": "Clinic's own website rates (mckinleyevansrmt.com), increased 2025-09-01. Her own treatment page lists a dedicated 'TMJ Treatment' service, and as the solo practitioner she delivers both the massage sessions and the TMJ work, so her massage rates stand as the TMJ Massage price (rule v2).",
+  "price_tier": "website",
+  "treatment_link": "https://www.mckinleyevansrmt.com/treatment",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "mission-chiropractic-clinic-calgary",
   "treatment_id": "mission-chiropractic-clinic-calgary--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -16619,6 +17451,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "muve-massage-therapy-studio-kitchener",
+  "treatment_id": "muve-massage-therapy-studio-kitchener--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No rates are published on the clinic's own website pages read in this pass. Price ranges shown by review aggregators (e.g. TrustAnalytica) were NOT used \u2014 they are neither a booking page, the clinic's own site, nor a dated review quote.",
+  "price_tier": null,
+  "treatment_link": "https://www.muvermtstudio.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "mvmt-physio-chiro-st-albert",
   "treatment_id": "mvmt-physio-chiro-st-albert--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -17156,6 +18001,45 @@
   "last_verified": null
  },
  {
+  "clinic_id": "natural-route-health-kingston",
+  "treatment_id": "natural-route-health-kingston--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No cosmetic acupuncture fee is published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "https://www.natural-route.com/services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "natural-route-health-kingston",
+  "treatment_id": "natural-route-health-kingston--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No counselling fee is published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "https://www.natural-route.com/services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "natural-route-health-kingston",
+  "treatment_id": "natural-route-health-kingston--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No IV therapy fee is published on the clinic's own website; ND program fees seen on the site belong to other programs (e.g. Metabolic Reset) and were not used.",
+  "price_tier": null,
+  "treatment_link": "https://www.natural-route.com/services",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "natural-wellness-clinic-calgary-calgary",
   "treatment_id": "natural-wellness-clinic-calgary-calgary--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -17282,6 +18166,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "neurodezign-laval",
+  "treatment_id": "neurodezign-laval--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": "Dre Johanne L\u00e9vesque",
+  "practitioners": [
+   {
+    "id": "neurodezign-laval--johanne-levesque",
+    "name": "Johanne L\u00e9vesque",
+    "as_recorded": "Dre Johanne L\u00e9vesque"
+   }
+  ],
+  "price_text": "S\u00e9ance de neurofeedback 130 $; \u00e9valuation signature 850 $ + 50 $ de frais de dossier avec rapport \u00e9crit (680 $ + 50 $ sans rapport); \u00e9valuation de suivi 130 $; \u00e9valuation finale 255 $",
+  "price_source": "Clinic's own website neurofeedback page tariff grid (neurodezign.com).",
+  "price_tier": "website",
+  "treatment_link": "https://neurodezign.com/neurofeedback-une-approche-fiable-et-efficace/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "neuroperforma-dollard-des-ormeaux",
   "treatment_id": "neuroperforma-dollard-des-ormeaux--neurofeedback",
   "treatment": "Neurofeedback",
@@ -17305,6 +18208,19 @@
   "price_source": "Clinic's own website (neuroperforma.com) neurofeedback program page: file opening $25 (non-refundable); Phase 1 complete initial assessment $800 (psychologist/neuropsychologist interview, qEEG by technologist, report and recommendations); Phase 2 custom protocol $170 per session (minimum 12 sessions).",
   "price_tier": "website",
   "treatment_link": "https://neuroperforma.com/les-cliniques-neuroperforma/clinique-de-gatineau/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "neuroperforma-laval",
+  "treatment_id": "neuroperforma-laval--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$800 complete initial evaluation (structured interview with a psychologist/neuropsychologist + qEEG + detailed report); $170 per neurofeedback session (protocols run a minimum of 12 sessions); $25 file-opening fee (non-refundable)",
+  "price_source": "Clinic network's own neurofeedback page (neuroperforma.com) \u2014 the same network-wide fees recorded for its Dollard-des-Ormeaux (batch-064) and Gatineau (batch-070) locations.",
+  "price_tier": "website",
+  "treatment_link": "https://neuroperforma.com/les-cliniques-neuroperforma/clinique-de-laval/",
   "last_verified": "2026-11-01"
  },
  {
@@ -17520,6 +18436,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "nicole-ballantine-kincardine",
+  "treatment_id": "nicole-ballantine-kincardine--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.skinscreen.ca/registered-dietitian",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "nikki-acupuncture-beauty-clinic-halifax",
   "treatment_id": "nikki-acupuncture-beauty-clinic-halifax--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -17594,6 +18523,32 @@
   "price_source": "Clinic's own counselling cost guide (nofearcounselling.com/how-much-does-couples-counselling-cost-in-vancouver/, via search extract read 2026-11-01): Registered Clinical Counsellor $130\u2013$180 per 50-minute session; Registered Psychologist $200\u2013$250; intern/graduate counsellor $40\u2013$80. The guide is chain-wide (Vancouver-focused), not Burnaby-specific.",
   "price_tier": "booking",
   "treatment_link": "https://www.nofearcounselling.com/location/counselling-burnaby/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "noji-chiropractic-and-wellness-centre-lethbridge",
+  "treatment_id": "noji-chiropractic-and-wellness-centre-lethbridge--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on nojichiropractic.com pages read and no online booking price list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.nojichiropractic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "noji-chiropractic-and-wellness-centre-lethbridge",
+  "treatment_id": "noji-chiropractic-and-wellness-centre-lethbridge--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on nojichiropractic.com pages read and no online booking price list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.nojichiropractic.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -17899,6 +18854,25 @@
   "price_tier": null,
   "treatment_link": "https://www.nourishyourmind.ca/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "nova-health-naturopathic-centre-kingston",
+  "treatment_id": "nova-health-naturopathic-centre-kingston--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Kimberly Oxbro, BSc, MSc, ND",
+  "practitioners": [
+   {
+    "id": "nova-health-naturopathic-centre-kingston--kimberly-oxbro",
+    "name": "Kimberly Oxbro",
+    "as_recorded": "Dr. Kimberly Oxbro, BSc, MSc, ND"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No IV therapy fee is published on the clinic's own website.",
+  "price_tier": null,
+  "treatment_link": "https://novahealthnaturopathic.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "nurturing-health-northumberland-cobourg",
@@ -19074,6 +20048,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "peak-physical-therapy-lethbridge",
+  "treatment_id": "peak-physical-therapy-lethbridge--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No physiotherapy fees are published on peakpt.ca pages read and no online booking price list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.peakpt.ca/Women-s-Health-Issues/Pelvic-Floor-Health/a~4050/article.html",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "peak-to-shore-physiotherapy-sports-medicine-collingwood",
   "treatment_id": "peak-to-shore-physiotherapy-sports-medicine-collingwood--bike-fitting",
   "treatment": "Bike Fitting",
@@ -19202,6 +20189,25 @@
   "price_source": "No fees are published on the clinic's own website, so no price could be verified.",
   "price_tier": null,
   "treatment_link": "https://pelvic-floor.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pelvic-physio-by-laura-kitchener",
+  "treatment_id": "pelvic-physio-by-laura-kitchener--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Laura Holland, Registered Physiotherapist",
+  "practitioners": [
+   {
+    "as_recorded": "Laura Holland, Registered Physiotherapist",
+    "id": "pelvic-physio-by-laura-kitchener--laura-holland",
+    "name": "Laura Holland"
+   }
+  ],
+  "price_text": "$150 initial (60 min) \u00b7 $120 follow-up (30 min)",
+  "price_source": "Encompass Health & Wellness website (encompasshealth.ca) Pelvic Health Physiotherapy pricing, which names Laura Holland among its pelvic health physiotherapists \u2014 the same practitioner delivers the clinic's physiotherapy and this treatment, so the price stands (rule v2).",
+  "price_tier": "website",
+  "treatment_link": "https://pelvicphysiobylaura.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -19727,6 +20733,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "pink-lotus-acupuncture-and-wellness-centre-kitchener",
+  "treatment_id": "pink-lotus-acupuncture-and-wellness-centre-kitchener--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Amy M. Lee",
+  "practitioners": [
+   {
+    "as_recorded": "Amy M. Lee",
+    "id": "pink-lotus-acupuncture-and-wellness-centre-kitchener--amy-m-lee",
+    "name": "Amy M. Lee"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website pages read in this pass, and no booking-page price list exists (booking is by phone), so the price is left null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pinklotusacupuncture.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "pivotal-physiotherapy-edmonton",
   "treatment_id": "pivotal-physiotherapy-edmonton--clinical-pilates",
   "treatment": null,
@@ -19802,6 +20827,19 @@
   "price_source": "Clinic's own Services page (https://pivotalphysio.com/services/): 'SHOCK WAVE THERAPY \u2014 Free Phone Consultation, Treatment: $150.00, Locations: Fort Saskatchewan & High Performance Centre.'",
   "price_tier": "website",
   "treatment_link": "https://pivotalphysio.com/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "planted-nutrition-kelowna",
+  "treatment_id": "planted-nutrition-kelowna--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://plantednutrition.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -21115,6 +22153,32 @@
   "price_tier": "booking",
   "treatment_link": "https://www.rebirthwellness.ca/pelvic-floor-physiotherapy",
   "last_verified": null
+ },
+ {
+  "clinic_id": "rebound-health-north-lethbridge",
+  "treatment_id": "rebound-health-north-lethbridge--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on reboundhealthcentre.ca pages read for this location and no online booking price list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.reboundhealthcentre.ca/locations-1/rebound-health-north",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "rebound-health-north-lethbridge",
+  "treatment_id": "rebound-health-north-lethbridge--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on reboundhealthcentre.ca pages read for this location and no online booking price list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.reboundhealthcentre.ca/locations-1/rebound-health-north",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "reconnect-wellness-newmarket",
@@ -22548,6 +23612,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "sante-a-croquer-laval",
+  "treatment_id": "sante-a-croquer-laval--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The business has no website or booking page publishing prices; only a Yellow Pages listing exists.",
+  "price_tier": null,
+  "treatment_link": "https://www.pagesjaunes.ca/bus/Quebec/Laval/Sante-a-Croquer/101379093.html",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "sante-dentaire-rive-sud-centre-dentaire-cousineau-brossard",
   "treatment_id": "sante-dentaire-rive-sud-centre-dentaire-cousineau-brossard--medical-botox",
   "treatment": "Medical Botox",
@@ -22989,6 +24066,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "shore-psychological-services-lethbridge",
+  "treatment_id": "shore-psychological-services-lethbridge--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee schedule is published on the clinic's own site extracts or the provider list entry read in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://shorepsych.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "silver-lining-brampton",
   "treatment_id": "silver-lining-brampton--couples-therapy",
   "treatment": "Couples Therapy",
@@ -23102,6 +24192,32 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://simplylesspain.janeapp.com",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "six08-health-clinic-lethbridge",
+  "treatment_id": "six08-health-clinic-lethbridge--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No IM/injection therapy prices are published on six08health.com pages read and no online booking price list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://six08health.com/services/iv-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "six08-health-clinic-lethbridge",
+  "treatment_id": "six08-health-clinic-lethbridge--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No IV therapy prices are published on six08health.com pages read (including the dedicated IV therapy page) and no online booking price list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://six08health.com/services/iv-therapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -23305,6 +24421,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "spa-sante-corps-et-ame-l-assomption",
+  "treatment_id": "spa-sante-corps-et-ame-l-assomption--head-spa",
+  "treatment": "Head Spa",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$155 SIGNATURE (75 min, certified massage therapists, massage-therapy insurance receipts available)",
+  "price_source": "Clinic's own head spa page (spasante.ca/headspa/): 'T\u00eate dans les Nuages SIGNATURE', 75 min, $155, delivered by massoth\u00e9rapeutes certifi\u00e9s with 'Re\u00e7us d'assurance en massoth\u00e9rapie disponibles'.",
+  "price_tier": "website",
+  "treatment_link": "https://spasante.ca/headspa/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "sparx-wellness-institute-dieppe",
   "treatment_id": "sparx-wellness-institute-dieppe--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
@@ -23383,6 +24512,25 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.speaksquad.ca/services-3",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "spear-wellness-centre-kingston",
+  "treatment_id": "spear-wellness-centre-kingston--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Zack Revell, Registered Psychotherapist (Qualifying), MACP",
+  "practitioners": [
+   {
+    "id": "spear-wellness-centre-kingston--zack-revell",
+    "name": "Zack Revell",
+    "as_recorded": "Zack Revell, Registered Psychotherapist (Qualifying), MACP"
+   }
+  ],
+  "price_text": "EMDR + Performance Coaching $200 / 60-minute session (his Individual Psychotherapy is $175 / 60 min, listed on the same bio page)",
+  "price_source": "Clinic's own website - Zack Revell's practitioner bio page (spearwellness.ca/meet-zack) lists 'EMDR + Performance Coaching $200/60-minute session'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.spearwellness.ca/performance-coaching",
   "last_verified": "2026-11-01"
  },
  {
@@ -24388,6 +25536,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "tannis-maciel-rmt-kitchener-waterloo",
+  "treatment_id": "tannis-maciel-rmt-kitchener-waterloo--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Tannis Maciel, RMT",
+  "practitioners": [
+   {
+    "as_recorded": "Tannis Maciel, RMT",
+    "id": "tannis-maciel-rmt-kitchener-waterloo--tannis-maciel",
+    "name": "Tannis Maciel"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No rates are published on the clinic's own website pages read in this pass, so the price is left null rather than sourced elsewhere.",
+  "price_tier": null,
+  "treatment_link": "https://tannismacielrmt.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "taylor-nutrition-edmonton",
   "treatment_id": "taylor-nutrition-edmonton--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -24640,6 +25807,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.thegetgood.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-gut-loving-dietitian-kelowna",
+  "treatment_id": "the-gut-loving-dietitian-kelowna--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://gutlovingdietitian.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -25214,6 +26394,25 @@
   "price_tier": null,
   "treatment_link": "https://wellnessclinicbrandon.janeapp.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "the-wellness-dietitian-kelowna",
+  "treatment_id": "the-wellness-dietitian-kelowna--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Registered Dietitian",
+  "practitioner": "Kristy Hodgins, RD, Registered Dietitian",
+  "practitioners": [
+   {
+    "as_recorded": "Kristy Hodgins, RD",
+    "id": "the-wellness-dietitian-kelowna--kristy-hodgins",
+    "name": "Kristy Hodgins"
+   }
+  ],
+  "price_text": "Initial Consultation: ONE HOUR @ $160 BY PHONE, VIDEO CHAT",
+  "price_source": "https://www.thewellnessdietitian.ca/kelowna-dietitian-services",
+  "price_tier": "website",
+  "treatment_link": "https://www.thewellnessdietitian.ca/kelowna-dietitian-services",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "therapeutic-solutions-massage-therapy-fort-saskatchewan",
@@ -26435,6 +27634,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "walk-in-the-park-family-dental-kitchener",
+  "treatment_id": "walk-in-the-park-family-dental-kitchener--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dentistry",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's own Botox page publishes no price \u2014 cost is reviewed at consultation \u2014 so the price is left null.",
+  "price_tier": null,
+  "treatment_link": "https://walkintheparkfamilydental.com/botox-treatment-kitchener/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "webster-massage-therapy-hamilton",
   "treatment_id": "webster-massage-therapy-hamilton--tmj-massage",
   "treatment": "TMJ Massage",
@@ -26890,6 +28102,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "westcoast-nutrition-langley",
+  "treatment_id": "westcoast-nutrition-langley--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": "Michelle Shepherd, RD",
+  "practitioners": [
+   {
+    "id": "westcoast-nutrition-langley--michelle-shepherd",
+    "name": "Michelle Shepherd",
+    "as_recorded": "Michelle Shepherd, RD"
+   }
+  ],
+  "price_text": "$225 for the initial 'Metabolism & Energy Reset' session; ongoing 1:1 packages $377/month (Lifestyle Kickstart) and $467/month (Lifestyle Makeover)",
+  "price_source": "Clinic's own website homepage (westcoastnutrition.ca) published 1:1 pricing. No sport-specific price is published; per Pricing + Practitioner Rule v2 this general 1:1 price stands in because the same solo practitioner (Michelle Shepherd, RD) delivers the practice's sport and performance nutrition work \u2014 its own Places business description lists 'Sport and performance nutrition' among her focuses.",
+  "price_tier": "website",
+  "treatment_link": "https://westcoastnutrition.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "westwood-physiotherapy-neuro-and-vestibular-rehab-guelph",
   "treatment_id": "westwood-physiotherapy-neuro-and-vestibular-rehab-guelph--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -26995,6 +28226,32 @@
   "price_source": "No consultation fees are published on the clinic's own website (fetched 2026-11-01).",
   "price_tier": null,
   "treatment_link": "http://www.wileyhealthclinic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "wilson-health-services-kitchener",
+  "treatment_id": "wilson-health-services-kitchener--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own Kitchener shockwave page in this pass.",
+  "price_tier": null,
+  "treatment_link": "https://wilsonhealth.ca/shockwave-therapy-kitchener-3/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "wilson-health-services-kitchener",
+  "treatment_id": "wilson-health-services-kitchener--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No massage therapy rates are published on wilsonhealth.ca in this pass, and no Kitchener Jane price list was rendered, so the price is left null.",
+  "price_tier": null,
+  "treatment_link": "https://wilsonhealth.ca/",
   "last_verified": "2026-11-01"
  },
  {

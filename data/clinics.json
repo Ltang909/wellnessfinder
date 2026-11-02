@@ -1050,6 +1050,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "All Things Pelvic Physiotherapy",
+  "clinic_id": "all-things-pelvic-physiotherapy-kitchener",
+  "address": "625 King St E, Unit 1B",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": "N2G 2M2",
+  "phone": "519-222-2402",
+  "website": "http://allthingspelvic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 5:30 PM",
+   "tue": "8:30 AM - 6:00 PM",
+   "wed": "8:30 AM - 6:00 PM",
+   "thu": "8:30 AM - 5:30 PM",
+   "fri": "8:30 AM - 4:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places details",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "All Things Pelvic Physiotherapy and Pessary Clinic",
+  "clinic_id": "all-things-pelvic-physiotherapy-and-pessary-clinic-kitchener",
+  "address": "625 King St E, Unit 1B",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": "N2G 2M2",
+  "phone": "519-222-2402",
+  "website": "http://allthingspelvic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 5:30 PM",
+   "tue": "8:30 AM - 6:00 PM",
+   "wed": "8:30 AM - 6:00 PM",
+   "thu": "8:30 AM - 5:30 PM",
+   "fri": "8:30 AM - 4:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places details",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Alliance Physio",
   "clinic_id": "alliance-physio-mississauga",
   "address": "107-6750 Winston Churchill Blvd.",
@@ -1775,6 +1825,31 @@
   "last_verified": null
  },
  {
+  "name": "BC Dietitians Inc.",
+  "clinic_id": "bc-dietitians-inc-langley",
+  "address": "505-8840 210th St",
+  "city": "Langley",
+  "prov": "BC",
+  "postal": "V1M 2Y2",
+  "phone": "(604) 821-6811",
+  "website": "https://bcdietitians.ca/",
+  "booking_page": "https://bcdietitians.ca/onlineconsultation",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "BODY MAISON",
   "clinic_id": "body-maison-toronto",
   "address": "920 Yonge Street, Unit 603",
@@ -2397,7 +2472,7 @@
   "google_reviews": 87,
   "rating_source": "Clinic's own website (https://blocklinephysio.com/) displays a Google reviews badge: '4.9\u2605 87+ Google reviews' and '4.9 out of 5 from 87 Google reviews'. Google Places details retrieved for this listing showed no rating/count, so the own-site Google badge is the source; review count recorded as 87 (the badge's stated base figure).",
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Bloom Physiotherapy & Pelvic Health",
@@ -2423,6 +2498,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Blue Leaf Counselling",
+  "clinic_id": "blue-leaf-counselling-lethbridge",
+  "address": "#225, 200 4 Avenue South",
+  "city": "Lethbridge",
+  "prov": "AB",
+  "postal": "T1J 4C9",
+  "phone": "587-800-8535",
+  "website": "https://blueleafcounselling.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "1:00 PM - 8:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "1:00 PM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Bluebird Psychology",
@@ -3450,6 +3550,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Carlyn Brown Acupuncturist",
+  "clinic_id": "carlyn-brown-acupuncturist-kingston",
+  "address": "348 Bagot St #108",
+  "city": "Kingston",
+  "prov": "ON",
+  "postal": null,
+  "phone": "613-888-8923",
+  "website": "https://carlynbrown.com/",
+  "booking_page": "https://carlynbrown.janeapp.com/",
+  "hours": {
+   "fri": "9:30 AM - 4:00 PM",
+   "mon": "10:45 AM - 6:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "12:30 PM - 6:15 PM",
+   "tue": "9:00 AM - 3:30 PM",
+   "wed": "10:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Caroline Wang, RD",
   "clinic_id": "caroline-wang-rd-gatineau",
   "address": "57 Rue Saint-Jacques",
@@ -3671,8 +3796,8 @@
   "google_rating": 5.0,
   "google_reviews": 41,
   "rating_source": "Google Places details via browser search results for Centre Chiromedic: 'Rating: five stars (5.0) Based on 41 reviews'",
-  "direct_billing": null,
-  "last_verified": null
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Centre de Th\u00e9rapie pour Couples et Familles de l'Outaouais",
@@ -3721,6 +3846,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Chow Down Nutrition",
+  "clinic_id": "chow-down-nutrition-langley",
+  "address": "8661 201 St, 2nd Floor",
+  "city": "Langley",
+  "prov": "BC",
+  "postal": null,
+  "phone": "604-821-6811",
+  "website": "https://bcdietitians.ca/british-columbia/langley/dietitian-services/amy-chow/",
+  "booking_page": null,
+  "hours": {
+   "mon": "6:00 PM - 9:00 PM",
+   "tue": "6:00 PM - 9:00 PM",
+   "wed": "9:00 AM - 4:30 PM, 6:00 PM - 9:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "fri": "6:00 PM - 9:00 PM",
+   "sat": "8:00 AM - 12:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 8,
+  "rating_source": "Google Places details",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -3925,6 +4075,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Clinique Dentaire MedDent",
+  "clinic_id": "clinique-dentaire-meddent-laval",
+  "address": "230 Boulevard des Laurentides",
+  "city": "Laval",
+  "prov": "QC",
+  "postal": "H7G 2T6",
+  "phone": "450-662-8383",
+  "website": "http://www.meddentlaval.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 4:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Clinique Inspiration",
   "clinic_id": "clinique-inspiration-laval",
   "address": "1800 Boul. le Corbusier #101",
@@ -3947,7 +4122,7 @@
   "google_reviews": 44,
   "rating_source": "Google Places details (place_id 6370911179658312) \u2014 'Rating: 5.0, Based on 44 reviews'",
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Clinique Mots et Gestes",
@@ -4100,6 +4275,31 @@
   "last_verified": null
  },
  {
+  "name": "Clinique TAG",
+  "clinic_id": "clinique-tag-laval",
+  "address": "1200 Boulevard Chomedey",
+  "city": "Laval",
+  "prov": "QC",
+  "postal": null,
+  "phone": "450-934-7430",
+  "website": "http://www.cliniquetag.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:30 AM - 7:00 PM",
+   "tue": "9:30 AM - 7:00 PM",
+   "wed": "9:30 AM - 7:00 PM",
+   "thu": "9:30 AM - 7:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Clinique Viivacore",
   "clinic_id": "clinique-viivacore-boucherville",
   "address": "210 Boulevard de Montarville, local 1020",
@@ -4223,6 +4423,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": null
+ },
+ {
+  "name": "Clinique universitaire du sommeil \u2014 Universit\u00e9 de Montr\u00e9al",
+  "clinic_id": "clinique-universitaire-du-sommeil-universite-de-montreal-laval",
+  "address": null,
+  "city": "Laval",
+  "prov": "QC",
+  "postal": null,
+  "phone": null,
+  "website": "https://psy.umontreal.ca/ressources-services/clinique-universitaire-du-sommeil/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Coast Therapy Coquitlam Centre",
@@ -5225,6 +5450,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dalton Associates",
+  "clinic_id": "dalton-associates-kitchener",
+  "address": "678 Belmont Ave W, Unit 303",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": null,
+  "phone": "1-888-245-5516",
+  "website": "https://www.daltonassociates.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 5:00 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "8:00 AM - 5:00 PM",
+   "thu": "8:00 AM - 5:00 PM",
+   "fri": "8:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Danesh Aesthetics",
   "clinic_id": "danesh-aesthetics-richmond-hill",
   "address": "11160 Yonge Street, Unit 7",
@@ -5250,6 +5500,31 @@
   "last_verified": null
  },
  {
+  "name": "Dawson Dental - Kingston",
+  "clinic_id": "dawson-dental-kingston-kingston",
+  "address": "80 Queen St",
+  "city": "Kingston",
+  "prov": "ON",
+  "postal": "K7K 1A5",
+  "phone": "(613) 544-9223",
+  "website": "https://www.dawsondental.ca/site/kingston-dentist",
+  "booking_page": "https://www.dawsondental.ca/site/kingston-dentist",
+  "hours": {
+   "fri": "08:00 am - 04:00 pm",
+   "mon": "08:00 am - 05:00 pm",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "08:00 am - 05:00 pm",
+   "tue": "08:00 am - 05:00 pm",
+   "wed": "08:00 am - 05:00 pm"
+  },
+  "google_rating": null,
+  "google_reviews": 481,
+  "rating_source": "Clinic's own site Google Reviews count shown on Kingston location page (481 Google Reviews); no star rating visible there",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Debora Sloan Healthy Solutions",
   "clinic_id": "debora-sloan-healthy-solutions-ottawa",
   "address": "347 Churchill Avenue North",
@@ -5273,6 +5548,31 @@
   "rating_source": "Google Places details in search results for Debora Sloan Healthy Solutions: 'Rating: five stars (5.0) Based on 2 reviews'.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Deborah Colling Psychological Services",
+  "clinic_id": "deborah-colling-psychological-services-lethbridge",
+  "address": "740 4 Avenue South #9",
+  "city": "Lethbridge",
+  "prov": "AB",
+  "postal": "T1J 0N9",
+  "phone": "587-851-5873",
+  "website": "http://healthpsychology.ca/",
+  "booking_page": "https://deborahcolling.janeapp.com/",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": "9:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Deep Roots Medicine",
@@ -5350,6 +5650,31 @@
   "last_verified": null
  },
  {
+  "name": "Dental Care Kingston",
+  "clinic_id": "dental-care-kingston-kingston",
+  "address": "110 Princess St",
+  "city": "Kingston",
+  "prov": "ON",
+  "postal": "K7L 1A7",
+  "phone": "(613) 546-9898",
+  "website": "https://www.dawsondental.ca/site/kingston-princess-dentist",
+  "booking_page": "https://www.dawsondental.ca/site/kingston-princess-dentist",
+  "hours": {
+   "fri": "08:00 am - 04:00 pm",
+   "mon": "08:00 am - 04:15 pm",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "08:00 am - 04:15 pm",
+   "tue": "08:00 am - 04:15 pm",
+   "wed": "08:00 am - 04:15 pm"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 9,
+  "rating_source": "Google Places details visible in search results (rating 4.9 / 9 reviews); clinic's own site separately displays 206 Google Reviews with no star value",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dentiste Candiac",
   "clinic_id": "dentiste-candiac-candiac",
   "address": "210, boul Jean-Leman #210",
@@ -5397,6 +5722,31 @@
   "google_reviews": 40,
   "rating_source": "Google Places details",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dietetic Directions",
+  "clinic_id": "dietetic-directions-kitchener",
+  "address": "429 Queen St S",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": null,
+  "phone": "1-888-908-6583",
+  "website": "https://dieteticdirections.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 5:30 PM",
+   "tue": "9:30 AM - 8:30 PM",
+   "wed": "9:00 AM - 8:30 PM",
+   "thu": "9:00 AM - 7:30 PM",
+   "fri": "8:30 AM - 3:00 PM",
+   "sat": "8:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 11,
+  "rating_source": "Google Places details",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -5473,6 +5823,31 @@
   "rating_source": "Google Places details in search results",
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Di\u00e8te Sant\u00e9",
+  "clinic_id": "diete-sante-laval",
+  "address": null,
+  "city": "Laval",
+  "prov": "QC",
+  "postal": null,
+  "phone": null,
+  "website": "http://www.dietesante.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Donald Physiotherapy",
@@ -5771,6 +6146,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Andrea Hilborn",
+  "clinic_id": "dr-andrea-hilborn-kingston",
+  "address": "797 Princess St Ste 414",
+  "city": "Kingston",
+  "prov": "ON",
+  "postal": "K7L 1G1",
+  "phone": "(613) 777-5704",
+  "website": "http://www.drandreahilbornnd.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": "10:00 AM - 5:30 PM",
+   "tue": "10:00 AM - 4:00 PM",
+   "wed": "10:00 AM - 3:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 12,
+  "rating_source": "Clinic's own site (Additional Details on homepage: Rating: 5.0/5 (12 reviews))",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -6500,6 +6900,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Gerann Murphy",
+  "clinic_id": "dr-gerann-murphy-kingston",
+  "address": "4 Cataraqui St. Suite 202",
+  "city": "Kingston",
+  "prov": "ON",
+  "postal": "K7K 1Z7",
+  "phone": "(613) 549-7272",
+  "website": "https://anamhealth.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": "10:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "10:00 AM - 4:00 PM",
+   "tue": "10:00 AM - 4:00 PM",
+   "wed": "9:30 AM - 4:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Gregory Knoll",
   "clinic_id": "dr-gregory-knoll-brantford",
   "address": "67 King St",
@@ -6796,6 +7221,31 @@
   "google_rating": 5.0,
   "google_reviews": 55,
   "rating_source": "Clinic's own website homepage (https://theclinicyyc.ca/, fetched 2026-11-01) displays 'Rating: 5/5 (55 ratings)' in its contact/business block; the fetched text does not explicitly label this badge as Google \u2014 see gaps.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Justin Jubber",
+  "clinic_id": "dr-justin-jubber-lethbridge",
+  "address": "718 3 Ave S",
+  "city": "Lethbridge",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-327-3410",
+  "website": "http://www.sundental.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 3:00 PM",
+   "mon": "8:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:00 AM - 4:30 PM",
+   "tue": "8:00 AM - 4:00 PM",
+   "wed": "8:00 AM - 4:30 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details in search results for Sun Dental Group (sundental.ca listing): 5.0 stars based on 1 review (very low count \u2014 see gaps).",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -7123,6 +7573,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Dr. Marwa Dabbagh ND",
+  "clinic_id": "dr-marwa-dabbagh-nd-kitchener",
+  "address": "22 Water St S",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": "N2G 4K4",
+  "phone": "519-574-5151",
+  "website": "http://www.drmarwadabbaghnd.com/",
+  "booking_page": "https://greenbasehealth.janeapp.com",
+  "hours": {
+   "mon": "4:30 PM - 7:00 PM",
+   "tue": "12:00 PM - 7:00 PM",
+   "wed": null,
+   "thu": "12:00 PM - 7:00 PM",
+   "fri": "9:00 AM - 12:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Dr. Matthew Pace ND",
@@ -7925,6 +8400,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dynamic Approach Massage Therapy",
+  "clinic_id": "dynamic-approach-massage-therapy-kitchener",
+  "address": "525 Highland Rd W #12",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": null,
+  "phone": "519-571-1590",
+  "website": "http://www.dynamic-approach.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 6:00 PM",
+   "sat": "8:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dynamic Health Collaborative",
   "clinic_id": "dynamic-health-collaborative-toronto",
   "address": "778 Sheppard Ave W, Suite 103",
@@ -8173,6 +8673,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "East End Dental Centre",
+  "clinic_id": "east-end-dental-centre-kingston",
+  "address": "760 Highway 15, Unit 2",
+  "city": "Kingston",
+  "prov": "ON",
+  "postal": "K7L 0C3",
+  "phone": "613-767-0777",
+  "website": "https://eastenddentalcentre.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 8:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No Google rating visible in Google Places details in search results or on the clinic's own site; aggregator rating excluded",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Eastgate Physiotherapy",
@@ -8675,6 +9200,31 @@
   "last_verified": null
  },
  {
+  "name": "Envision Wellbeing",
+  "clinic_id": "envision-wellbeing-lethbridge",
+  "address": "534 18 St S, Suite B",
+  "city": "Lethbridge",
+  "prov": "AB",
+  "postal": "T1J 3E7",
+  "phone": "403-388-9698",
+  "website": "https://www.envisionwellbeing.ca/",
+  "booking_page": "https://envisionwellbeing.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 8:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "10:00 AM - 3:00 PM",
+   "sun": null,
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Equilibrium Chiropractic and Wellness Centre",
   "clinic_id": "equilibrium-chiropractic-and-wellness-centre-kawartha-lakes",
   "address": "72 Lindsay St S",
@@ -8872,7 +9422,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Everwell ND",
@@ -9123,6 +9673,56 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Fertility Acupuncture by Jaynee Kim",
+  "clinic_id": "fertility-acupuncture-by-jaynee-kim-kitchener",
+  "address": "130 Weber St W #202",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": "N2H 4A2",
+  "phone": "519-578-7070",
+  "website": "https://www.acubyjaynee.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": "11:30 AM - 5:30 PM",
+   "sat": "9:00 AM - 3:30 PM",
+   "sun": "9:00 AM - 1:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Fertility Acupuncture by Jaynee Kim R.TCMP, R.Ac",
+  "clinic_id": "fertility-acupuncture-by-jaynee-kim-r-tcmp-r-ac-kitchener",
+  "address": "130 Weber St W, Suite 202",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": "N2H 4A2",
+  "phone": "(519) 578-7070",
+  "website": "https://www.acubyjaynee.com/",
+  "booking_page": "https://encompasshealth.janeapp.com/locations/encompass-health-and-wellness/book",
+  "hours": {
+   "fri": "11:30 AM - 5:30 PM",
+   "mon": null,
+   "sat": "9:00 AM - 3:30 PM",
+   "sun": "9:00 AM - 1:30 PM",
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Fiona Aris",
@@ -9671,6 +10271,31 @@
   "google_rating": 4.9,
   "google_reviews": 235,
   "rating_source": "Clinic's own website Google badge (gotknots.ca)",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Grand River Sports Medicine Centre",
+  "clinic_id": "grand-river-sports-medicine-centre-kitchener",
+  "address": "700 Strasburg Rd",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": "N2E 2M2",
+  "phone": "(519) 571-7111",
+  "website": "https://www.grsm.ca/",
+  "booking_page": "https://grsm.janeapp.com/",
+  "hours": {
+   "fri": "7:30 AM - 5:00 PM",
+   "mon": "7:30 AM - 8:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "7:30 AM - 8:00 PM",
+   "tue": "7:30 AM - 8:00 PM",
+   "wed": "7:30 AM - 8:00 PM"
+  },
+  "google_rating": 4.6,
+  "google_reviews": 8,
+  "rating_source": "Google Places listing for Grand River Sports Medicine Centre, Kitchener (700 Strasburg Rd): 4.6 based on 8 reviews.",
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
@@ -10247,7 +10872,7 @@
   "google_reviews": 18,
   "rating_source": "Google Places details in search results for HealthSource Integrative Medical Centre: 'Rating: five stars (4.9), Based on 18 reviews'.",
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Healthflow Naturopathic Clinic",
@@ -11425,6 +12050,31 @@
   "last_verified": null
  },
  {
+  "name": "Judith Cox Counseling",
+  "clinic_id": "judith-cox-counseling-kingston",
+  "address": "120 Clarence St #203",
+  "city": "Kingston",
+  "prov": "ON",
+  "postal": null,
+  "phone": "613-352-5487",
+  "website": "http://www.judithcoxcounseling.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "9:00 AM - 3:30 PM",
+   "wed": "9:00 AM - 3:30 PM",
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No Google rating visible in Google Places details in search results or on the clinic's own site",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Judith Perrault Nutritionniste",
   "clinic_id": "judith-perrault-nutritionniste-bromont",
   "address": "75 Rue de Verch\u00e8res",
@@ -11950,6 +12600,31 @@
   "last_verified": null
  },
  {
+  "name": "Kingston Integrated Healthcare (KIHC)",
+  "clinic_id": "kingston-integrated-healthcare-kihc-kingston",
+  "address": "541 Palace Road",
+  "city": "Kingston",
+  "prov": "ON",
+  "postal": "K7L 4T6",
+  "phone": "613-547-5442",
+  "website": "https://kihc.ca",
+  "booking_page": "https://kihc.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.8,
+  "google_reviews": 6,
+  "rating_source": "Google Places details visible in search results",
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Kingston Pelvic Health",
   "clinic_id": "kingston-pelvic-health-kingston",
   "address": "128 Ontario St",
@@ -12150,6 +12825,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Laura McDade Psychotherapy",
+  "clinic_id": "laura-mcdade-psychotherapy-kingston",
+  "address": "4 Cataraqui St, Suite 311",
+  "city": "Kingston",
+  "prov": "ON",
+  "postal": "K7K 1Z7",
+  "phone": null,
+  "website": "https://lauramcdade.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Le Groupe Th\u00e9rapie (The Therapy Group)",
   "clinic_id": "le-groupe-therapie-the-therapy-group-montreal",
   "address": "277 Lakeshore Dr Suite 8",
@@ -12198,6 +12898,31 @@
   "rating_source": "Clinic's own website displays '100+ Google Reviews, 5.0 Star Average' across its pages, including the Shockwave Therapy page; the count is given only as '100+', so google_reviews is null.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Leduc Physio",
+  "clinic_id": "leduc-physio-leduc",
+  "address": "5201 50 St #15",
+  "city": "Leduc",
+  "prov": "AB",
+  "postal": "T9E 6T4",
+  "phone": "780-980-5443",
+  "website": "https://leducphysio.ca/",
+  "booking_page": "https://leducphysio.janeapp.com/",
+  "hours": {
+   "fri": "7:00 AM - 8:00 PM",
+   "mon": "7:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "7:00 AM - 8:00 PM",
+   "tue": "7:00 AM - 8:00 PM",
+   "wed": "7:00 AM - 8:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 101,
+  "rating_source": "Google Places details in search results for Leduc Physio (leducphysio.ca listing): 4.9 stars based on 101 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Leela Eco Spa",
@@ -12972,7 +13697,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": null,
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Marda Loop Physiotherapy",
@@ -13600,6 +14325,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Miranda McKinley Evans RMT",
+  "clinic_id": "miranda-mckinley-evans-rmt-kitchener",
+  "address": "900 Guelph St, Unit 407",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": "N2H 5Z6",
+  "phone": "(519) 504-5053",
+  "website": "https://www.mckinleyevansrmt.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 2:00 PM",
+   "mon": "1:30 PM - 7:30 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "12:00 PM - 6:00 PM",
+   "tue": "12:30 PM - 6:30 PM",
+   "wed": "2:30 PM - 6:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Mission Chiropractic Clinic",
   "clinic_id": "mission-chiropractic-clinic-calgary",
   "address": "2303 4 St SW #110",
@@ -13947,6 +14697,31 @@
   "google_reviews": 4,
   "rating_source": "Google Places details surfaced in search results (Rating: 5.0, based on 4 reviews)",
   "direct_billing": null,
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Muve Massage Therapy Studio",
+  "clinic_id": "muve-massage-therapy-studio-kitchener",
+  "address": "161 Victoria St S",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": "N2G 2B7",
+  "phone": "(226) 338-7959",
+  "website": "https://www.muvermtstudio.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "7:00 AM - 6:00 PM",
+   "mon": "7:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "9:00 AM - 6:00 PM",
+   "thu": "6:30 AM - 9:00 PM",
+   "tue": "7:00 AM - 9:00 PM",
+   "wed": "7:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -14400,6 +15175,31 @@
   "last_verified": null
  },
  {
+  "name": "Natural Route Health",
+  "clinic_id": "natural-route-health-kingston",
+  "address": "734 Arlington Park Pl",
+  "city": "Kingston",
+  "prov": "ON",
+  "postal": "K7M 8H9",
+  "phone": "613-767-6982",
+  "website": "https://www.natural-route.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 2:00 PM",
+   "tue": "10:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:30 AM - 4:30 PM",
+   "sat": "10:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 22,
+  "rating_source": "Google Places details",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Natural Wellness Clinic Calgary",
   "clinic_id": "natural-wellness-clinic-calgary-calgary",
   "address": "1025 1 Ave NE",
@@ -14550,6 +15350,31 @@
   "last_verified": null
  },
  {
+  "name": "Neurodezign",
+  "clinic_id": "neurodezign-laval",
+  "address": "1575 Boulevard de l'Avenir, Bureau 410",
+  "city": "Laval",
+  "prov": "QC",
+  "postal": "H7S 2N5",
+  "phone": "450-667-5764",
+  "website": "https://neurodezign.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 4:00 PM",
+   "tue": "8:30 AM - 4:00 PM",
+   "wed": "8:30 AM - 4:00 PM",
+   "thu": "8:30 AM - 4:00 PM",
+   "fri": "8:30 AM - 2:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 35,
+  "rating_source": "Google Places details",
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Neuroperforma \u2014 Dollard-des-Ormeaux",
   "clinic_id": "neuroperforma-dollard-des-ormeaux",
   "address": "3883 Boul. Saint-Jean, Suite 407",
@@ -14597,6 +15422,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Neuroperforma \u2014 Laval",
+  "clinic_id": "neuroperforma-laval",
+  "address": "300-3030 Boul. Cur\u00e9-Labelle",
+  "city": "Laval",
+  "prov": "QC",
+  "postal": "H7P 0H9",
+  "phone": "450-445-1010",
+  "website": "https://neuroperforma.com",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -14850,6 +15700,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Nicole Ballantine",
+  "clinic_id": "nicole-ballantine-kincardine",
+  "address": "770 Queen St",
+  "city": "Kincardine",
+  "prov": "ON",
+  "postal": "N2Z 2X4",
+  "phone": "226-396-1030",
+  "website": "http://www.nicoleballantine.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 4:00 PM",
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": "8:30 AM - 4:00 PM",
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Nikki Acupuncture & Beauty Clinic",
   "clinic_id": "nikki-acupuncture-beauty-clinic-halifax",
   "address": "6169 Quinpool Rd, Suite 203",
@@ -14921,6 +15796,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Noji Chiropractic and Wellness Centre",
+  "clinic_id": "noji-chiropractic-and-wellness-centre-lethbridge",
+  "address": "518 5th St S",
+  "city": "Lethbridge",
+  "prov": "AB",
+  "postal": "T1J 2B8",
+  "phone": "403-381-7766",
+  "website": "https://www.nojichiropractic.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:30 AM - 1:00 PM",
+   "mon": "8:30 AM - 5:00 PM",
+   "sat": "9:00 AM - 1:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 5:30 PM",
+   "tue": "9:00 AM - 5:30 PM",
+   "wed": "9:00 AM - 1:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 17,
+  "rating_source": "Google Places details in search results for Noji Chiropractic and Wellness Centre (nojichiropractic.com listing): 4.8 stars based on 17 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -15173,6 +16073,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Nova Health Naturopathic Centre",
+  "clinic_id": "nova-health-naturopathic-centre-kingston",
+  "address": "67 Brock St, 3rd Floor",
+  "city": "Kingston",
+  "prov": "ON",
+  "postal": "K7L 1R8",
+  "phone": "613-546-9995",
+  "website": "https://novahealthnaturopathic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 2:30 PM",
+   "tue": "10:00 AM - 2:30 PM",
+   "wed": "10:00 AM - 2:30 PM",
+   "thu": "10:00 AM - 2:30 PM",
+   "fri": "Closed",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 6,
+  "rating_source": "Google Places details",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "NuVista Mental Health",
@@ -16350,6 +17275,31 @@
   "last_verified": null
  },
  {
+  "name": "Peak Physical Therapy",
+  "clinic_id": "peak-physical-therapy-lethbridge",
+  "address": "715 2 Ave S",
+  "city": "Lethbridge",
+  "prov": "AB",
+  "postal": "T1J 0C4",
+  "phone": "403-328-7325",
+  "website": "http://www.peakpt.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "7:00 AM - 4:00 PM",
+   "mon": "7:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "7:00 AM - 6:00 PM",
+   "tue": "7:00 AM - 6:00 PM",
+   "wed": "7:00 AM - 6:00 PM"
+  },
+  "google_rating": 4.7,
+  "google_reviews": 22,
+  "rating_source": "Google Places details in search results for Peak Physical Therapy (peakpt.ca listing): 4.7 stars based on 22 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Peak To Shore Physiotherapy & Sports Medicine",
   "clinic_id": "peak-to-shore-physiotherapy-sports-medicine-collingwood",
   "address": "1 First St #102",
@@ -16447,6 +17397,31 @@
   "google_reviews": 3,
   "rating_source": "Google Places details",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Pelvic Physio by Laura",
+  "clinic_id": "pelvic-physio-by-laura-kitchener",
+  "address": "130 Weber St W, Suite 202",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": "N2H 4A2",
+  "phone": "(519) 578-7070",
+  "website": "https://pelvicphysiobylaura.com/",
+  "booking_page": "https://encompasshealth.janeapp.com/locations/encompass-health-and-wellness/book",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 2:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "10:00 AM - 4:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": null,
+  "rating_source": "Clinic's own website displays a '5.0 on Google' badge ('\u2605\u2605\u2605\u2605\u2605 5.0 Google rating'); the badge shows no review count, so google_reviews is null.",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -16975,6 +17950,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Pink Lotus Acupuncture and Wellness Centre",
+  "clinic_id": "pink-lotus-acupuncture-and-wellness-centre-kitchener",
+  "address": "111 Water St N",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": "N2H 5B1",
+  "phone": "(519) 576-0818",
+  "website": "https://www.pinklotusacupuncture.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 1:00 PM",
+   "mon": "Closed",
+   "sat": "8:00 AM - 1:00 PM",
+   "sun": "Closed",
+   "thu": "11:00 AM - 7:30 PM",
+   "tue": "10:00 AM - 5:00 PM",
+   "wed": "11:00 AM - 7:30 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places listing for Pink Lotus Acupuncture and Wellness Centre: 5.0 based on 2 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Pivotal Physiotherapy",
   "clinic_id": "pivotal-physiotherapy-edmonton",
   "address": "201, 11936 104 Ave NW",
@@ -17017,6 +18017,31 @@
    "thu": "7:00 AM - 7:00 PM",
    "tue": "7:00 AM - 7:00 PM",
    "wed": "7:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Planted Nutrition",
+  "clinic_id": "planted-nutrition-kelowna",
+  "address": "1075 Sunset Dr",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": "V1Y 9Y9",
+  "phone": "778-212-1595",
+  "website": "http://plantednutrition.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 12:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 5:00 PM",
+   "tue": null,
+   "wed": "9:00 AM - 5:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -17823,6 +18848,31 @@
   "rating_source": "Google Places details in search results for Rebirth Wellness Centre (256 Central Ave, London): 'Rating: five stars (4.8) Based on 117 reviews'.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Rebound Health - North",
+  "clinic_id": "rebound-health-north-lethbridge",
+  "address": "1007 3 Ave N",
+  "city": "Lethbridge",
+  "prov": "AB",
+  "postal": null,
+  "phone": "587-425-6543",
+  "website": "https://www.reboundhealthcentre.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 3:00 PM",
+   "mon": "1:00 PM - 5:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "8:00 AM - 5:00 PM",
+   "tue": "Closed",
+   "wed": "12:00 PM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Reconnect Wellness",
@@ -18700,6 +19750,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "SIX08 Health Clinic",
+  "clinic_id": "six08-health-clinic-lethbridge",
+  "address": "491 Wt Hill Blvd S #60",
+  "city": "Lethbridge",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-900-0608",
+  "website": "https://six08health.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "7:30 AM - 5:00 PM",
+   "mon": "7:30 AM - 8:00 PM",
+   "sat": "8:00 AM - 2:30 PM",
+   "sun": null,
+   "thu": "7:30 AM - 8:00 PM",
+   "tue": "7:30 AM - 8:00 PM",
+   "wed": "7:30 AM - 8:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 53,
+  "rating_source": "Google Places details in search results for SIX08 Health (six08health.com listing): 4.8 stars based on 53 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Sage Elements Naturopathic Clinic",
   "clinic_id": "sage-elements-naturopathic-clinic-halifax",
   "address": "5991 Spring Garden Rd Unit 465",
@@ -18867,6 +19942,31 @@
    "fri": "8:30 AM - 3:00 PM",
    "sat": "9:00 AM - 2:00 PM",
    "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Sant\u00e9 \u00e0 Croquer",
+  "clinic_id": "sante-a-croquer-laval",
+  "address": "3820 Boulevard L\u00e9vesque O",
+  "city": "Laval",
+  "prov": "QC",
+  "postal": null,
+  "phone": "514-830-7242",
+  "website": null,
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 4:30 PM",
+   "tue": "8:30 AM - 4:30 PM",
+   "wed": "8:30 AM - 4:30 PM",
+   "thu": "8:30 AM - 4:30 PM",
+   "fri": "8:30 AM - 4:30 PM",
+   "sat": null,
+   "sun": null
   },
   "google_rating": null,
   "google_reviews": null,
@@ -19200,6 +20300,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Shore Psychological Services",
+  "clinic_id": "shore-psychological-services-lethbridge",
+  "address": "308 Stafford Dr S",
+  "city": "Lethbridge",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-635-5424",
+  "website": "http://shorepsych.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 4:00 PM",
+   "mon": "8:00 AM - 4:00 PM",
+   "sat": "8:00 AM - 1:00 PM",
+   "sun": null,
+   "thu": "8:00 AM - 4:00 PM",
+   "tue": "8:00 AM - 4:00 PM",
+   "wed": "8:00 AM - 4:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Silver Lining",
   "clinic_id": "silver-lining-brampton",
   "address": "10 George St N",
@@ -19475,6 +20600,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Spa Sant\u00e9 Corps et \u00c2me",
+  "clinic_id": "spa-sante-corps-et-ame-l-assomption",
+  "address": "831 boul. L'Ange-Gardien-Nord, suite 101",
+  "city": "L'Assomption",
+  "prov": "QC",
+  "postal": "J5W 1P5",
+  "phone": "(450) 589-8885",
+  "website": "https://spasante.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 9:00 PM",
+   "mon": "9:00 AM - 9:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "10:00 AM - 4:30 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM"
+  },
+  "google_rating": 4.6,
+  "google_reviews": 188,
+  "rating_source": "Google Places listing for Spa Sant\u00e9 Corps & \u00c2me: 4.6 based on 188 reviews.",
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Sparx Wellness Institute",
   "clinic_id": "sparx-wellness-institute-dieppe",
   "address": "539 Champlain St",
@@ -19522,6 +20672,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Spear Wellness Centre",
+  "clinic_id": "spear-wellness-centre-kingston",
+  "address": "4 Cataraqui St #101",
+  "city": "Kingston",
+  "prov": "ON",
+  "postal": "K7K 1Z7",
+  "phone": "613-549-5996",
+  "website": "https://www.spearwellness.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 5:00 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "8:00 AM - 5:00 PM",
+   "thu": "8:00 AM - 5:00 PM",
+   "fri": "8:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -20225,6 +21400,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Tannis Maciel RMT",
+  "clinic_id": "tannis-maciel-rmt-kitchener-waterloo",
+  "address": "158 Dawson St",
+  "city": "Kitchener-Waterloo",
+  "prov": "ON",
+  "postal": "N2L 1S1",
+  "phone": "(226) 751-6737",
+  "website": "https://tannismacielrmt.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Taylor Nutrition",
   "clinic_id": "taylor-nutrition-edmonton",
   "address": "7121 104 St NW",
@@ -20467,6 +21667,31 @@
    "thu": "9:00 AM - 8:00 PM",
    "tue": "9:00 AM - 6:00 PM",
    "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Gut Loving Dietitian",
+  "clinic_id": "the-gut-loving-dietitian-kelowna",
+  "address": "726 Valley Rd",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": null,
+  "phone": "250-212-9992",
+  "website": "https://gutlovingdietitian.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 2:00 PM",
+   "mon": null,
+   "sat": "9:00 AM - 12:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 3:00 PM",
+   "tue": null,
+   "wed": "9:00 AM - 3:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -21023,6 +22248,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "The Wellness Dietitian",
+  "clinic_id": "the-wellness-dietitian-kelowna",
+  "address": "2900 Pandosy Street",
+  "city": "Kelowna",
+  "prov": "BC",
+  "postal": "V1Y 1V9",
+  "phone": "250-215-7232",
+  "website": "https://www.thewellnessdietitian.ca/",
+  "booking_page": "https://www.thewellnessdietitian.ca/kelowna-dietitian-services",
+  "hours": {
+   "fri": null,
+   "mon": "9:00 AM - 1:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 1:00 PM",
+   "tue": "9:00 AM - 1:00 PM",
+   "wed": "9:00 AM - 1:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "TheraTouch Physiotherapy",
@@ -22100,6 +23350,31 @@
   "last_verified": null
  },
  {
+  "name": "Walk In The Park Family Dental",
+  "clinic_id": "walk-in-the-park-family-dental-kitchener",
+  "address": "890 Glasgow St, Unit 6",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": "N2N 3G6",
+  "phone": "(519) 743-1172",
+  "website": "https://walkintheparkfamilydental.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:30 AM - 12:30 PM",
+   "mon": "8:30 AM - 7:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "8:00 AM - 5:00 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "8:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "WePhysio Performance & Wellness",
   "clinic_id": "wephysio-performance-and-wellness-edmonton",
   "address": "11996 109A Ave NW",
@@ -22350,6 +23625,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Westcoast Nutrition",
+  "clinic_id": "westcoast-nutrition-langley",
+  "address": "6375 202 St",
+  "city": "Langley",
+  "prov": "BC",
+  "postal": null,
+  "phone": "604-225-1285",
+  "website": "https://westcoastnutrition.ca/",
+  "booking_page": "https://westcoastnutrition.practicebetter.io",
+  "hours": {
+   "mon": null,
+   "tue": "2:00 PM - 8:00 PM",
+   "wed": "11:00 AM - 8:00 PM",
+   "thu": "1:00 PM - 7:00 PM",
+   "fri": null,
+   "sat": "10:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Westwood Physiotherapy Neuro and Vestibular Rehab",
   "clinic_id": "westwood-physiotherapy-neuro-and-vestibular-rehab-guelph",
   "address": "9 Woodlawn Rd E Unit 201",
@@ -22447,6 +23747,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Wilson Health Services",
+  "clinic_id": "wilson-health-services-kitchener",
+  "address": "123 Pioneer Dr, Bldg J, Unit #2",
+  "city": "Kitchener",
+  "prov": "ON",
+  "postal": "N2P 2A3",
+  "phone": "(548) 440-8080",
+  "website": "https://wilsonhealth.ca/",
+  "booking_page": "https://wilsonhealth.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 5:15 PM",
+   "mon": "9:00 AM - 7:00 PM",
+   "sat": "8:00 AM - 1:00 PM",
+   "sun": null,
+   "thu": "8:00 AM - 6:00 PM",
+   "tue": "8:00 AM - 6:00 PM",
+   "wed": "7:30 AM - 6:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -23048,5 +24373,30 @@
   "rating_source": null,
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "\u00c9volution Physio",
+  "clinic_id": "evolution-physio-laval",
+  "address": "1575 Boulevard de l'Avenir, Suite 440",
+  "city": "Laval",
+  "prov": "QC",
+  "postal": null,
+  "phone": "450-967-1007",
+  "website": "https://evolutionphysio.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:30 AM - 9:00 PM",
+   "tue": "7:30 AM - 9:00 PM",
+   "wed": "7:30 AM - 9:00 PM",
+   "thu": "7:30 AM - 9:00 PM",
+   "fri": "7:30 AM - 3:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  }
 ]
