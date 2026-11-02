@@ -1920,6 +1920,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "ancient-balance-acupuncture-red-deer",
+  "treatment_id": "ancient-balance-acupuncture-red-deer--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.ancientbalance.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "andalusia-speech-therapy-kanata",
   "treatment_id": "andalusia-speech-therapy-kanata--stuttering-therapy",
   "treatment": "Stuttering Therapy",
@@ -2695,6 +2708,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "atlas-physiotherapy-centre-pt-health-richmond",
+  "treatment_id": "atlas-physiotherapy-centre-pt-health-richmond--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's pt Health page and the pt Health online booking portal (booking.pthealth.ca) did not surface per-service prices in search extracts, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/atlas-physiotherapy-centre-pt-health/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "atlas-physiotherapy-centre-pt-health-richmond",
+  "treatment_id": "atlas-physiotherapy-centre-pt-health-richmond--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's pt Health page and the pt Health online booking portal (booking.pthealth.ca) did not surface per-service prices in search extracts, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/atlas-physiotherapy-centre-pt-health/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "atrium-acupuncture-moncton",
   "treatment_id": "atrium-acupuncture-moncton--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
@@ -2954,6 +2993,49 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.avisphysicaltherapy.com/treatment",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "awareness-massage-therapy-clinic-and-wellness-centre-regina",
+  "treatment_id": "awareness-massage-therapy-clinic-and-wellness-centre-regina--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Chaosong Wang",
+  "practitioners": [
+   {
+    "id": "awareness-massage-therapy-clinic-and-wellness-centre-regina--chaosong-wang",
+    "name": "Chaosong Wang",
+    "as_recorded": "Chaosong Wang, Registered Massage Therapist / Manual Osteopathic Therapist - specializes in 'Manual Lymphatic Treatment (MLT)' among other modalities, per her bio on the clinic's own site"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No lymphatic drainage fee is published on the clinic's own site (its price list covers Massage Therapy, Manual Osteopathic Therapy and Cupping without tying lymphatic treatment to one of them), so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.awarenessmassagetherapy.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "awareness-massage-therapy-clinic-and-wellness-centre-regina",
+  "treatment_id": "awareness-massage-therapy-clinic-and-wellness-centre-regina--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Tanisha Beaudry; Trisha Broadis",
+  "practitioners": [
+   {
+    "id": "awareness-massage-therapy-clinic-and-wellness-centre-regina--tanisha-beaudry",
+    "name": "Tanisha Beaudry",
+    "as_recorded": "Tanisha Beaudry, Registered Massage Therapist - 'specializes in myofascial release, trigger point therapy, feet/ankle, back, shoulder, neck, face and jaw (TMJ) issues', per her bio on the clinic's own site"
+   },
+   {
+    "id": "awareness-massage-therapy-clinic-and-wellness-centre-regina--trisha-broadis",
+    "name": "Trisha Broadis",
+    "as_recorded": "Trisha Broadis, Registered Massage Therapist - 'specializes in trigger point release, myofascial release, face and jaw (TMJ), feet and ankle, back, shoulder, and neck issues', per her bio on the clinic's own site"
+   }
+  ],
+  "price_text": "$65/30 min \u00b7 $85/45 min \u00b7 $100/60 min \u00b7 $120/75 min \u00b7 $135/90 min \u00b7 $185/120 min (+ GST)",
+  "price_source": "Clinic's own website 'Awareness Pricing' section (awarenessmassagetherapy.com): Massage Therapy 30 min $65.00 + GST, 45 min $85.00 + GST, 60 min $100.00 + GST, 75 min $120.00 + GST, 90 min $135.00 + GST, 120 min $185.00 + GST. TMJ work is delivered inside massage therapy sessions with no separate TMJ fee, so the massage therapy price list stands in.",
+  "price_tier": "website",
+  "treatment_link": "http://www.awarenessmassagetherapy.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -3431,6 +3513,38 @@
   "price_tier": "website",
   "treatment_link": "https://bearcreekcounselling.ca/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "beauty-within-richmond",
+  "treatment_id": "beauty-within-richmond--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Medicine (Physician)",
+  "practitioner": "Maria Tetelbaum",
+  "practitioners": [
+   {
+    "id": "beauty-within-richmond--maria-tetelbaum",
+    "name": "Maria Tetelbaum",
+    "as_recorded": "Dr. Maria Tetelbaum \u2014 physician injector; the clinic's own site states Beauty Within is the Medical Aesthetic Practice of Dr. Maria Tetelbaum and that she and her nurses completed PREEMPT training for chronic migraine Botox"
+   }
+  ],
+  "price_text": "$200 + tax injection fee (Botox drug cost separate; consultations complimentary)",
+  "price_source": "Clinic's own website, Chronic Migraine Treatment with Botox page (beautywithin.ca/cosmetic-skin-treatments/chronic-migraine-treatment-with-botox-therapeutic): 'There is an injection fee of $200 + tax' and 'Consultations are complimentary'; the page notes private insurance may cover all or a portion of the Botox drug itself.",
+  "price_tier": "website",
+  "treatment_link": "https://beautywithin.ca/cosmetic-skin-treatments/chronic-migraine-treatment-with-botox-therapeutic",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "beauty-within-richmond",
+  "treatment_id": "beauty-within-richmond--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Medicine (Physician)",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No microneedling price is published on the clinic's own website; the homepage states individualized quotes are provided, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://beautywithin.ca/about-beauty-within/covid-19-response",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "bedford-acupuncture-halifax",
@@ -4107,6 +4221,44 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.bodyandmind.clinic/massage-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "body-to-soul-massage-and-lymphatic-system-therapy-red-deer",
+  "treatment_id": "body-to-soul-massage-and-lymphatic-system-therapy-red-deer--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Cathy Foster",
+  "practitioners": [
+   {
+    "as_recorded": "Cathy Foster is a Registered Massage Therapist, Manual Lymph Drainage and Combined Decongestive Therapy Specialist, Reiki Master, and Holistic Practitioner",
+    "id": "body-to-soul-massage-and-lymphatic-system-therapy-red-deer--cathy-foster",
+    "name": "Cathy Foster"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://bodytosoul.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "body-to-soul-red-deer",
+  "treatment_id": "body-to-soul-red-deer--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Cathy Foster",
+  "practitioners": [
+   {
+    "as_recorded": "Cathy Foster is a Registered Massage Therapist, Manual Lymph Drainage and Combined Decongestive Therapy Specialist, Reiki Master, and Holistic Practitioner",
+    "id": "body-to-soul-red-deer--cathy-foster",
+    "name": "Cathy Foster"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://bodytosoul.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -5551,6 +5703,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "centre-for-therapeutic-massage-richmond-hill",
+  "treatment_id": "centre-for-therapeutic-massage-richmond-hill--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Joanne Schreiber",
+  "practitioners": [
+   {
+    "id": "centre-for-therapeutic-massage-richmond-hill--joanne-schreiber",
+    "name": "Joanne Schreiber",
+    "as_recorded": "Joanne Schreiber, RMT - licensed Registered Massage Therapist, per the clinic's own About page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website and no booking page was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.rmtrichmondhill.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "champagne-acupuncture-montreal",
   "treatment_id": "champagne-acupuncture-montreal--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -6364,6 +6535,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "clinique-de-psychologie-et-dinsomnie-quebec-city",
+  "treatment_id": "clinique-de-psychologie-et-dinsomnie-quebec-city--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (https://www.psycho-sommeil.com/) and no booking page with a fee list was found for this clinic, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.psycho-sommeil.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-de-psychologie-et-dinsomnie-quebec-city",
+  "treatment_id": "clinique-de-psychologie-et-dinsomnie-quebec-city--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (https://www.psycho-sommeil.com/) and no booking page with a fee list was found for this clinic, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.psycho-sommeil.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "clinique-de-psychologie-macherez-et-beauvolsk-longueuil",
   "treatment_id": "clinique-de-psychologie-macherez-et-beauvolsk-longueuil--couples-therapy",
   "treatment": "Couples Therapy",
@@ -7093,6 +7290,32 @@
   "price_tier": "website",
   "treatment_link": "https://www.collaborativetherapist.ca/couples-therapy",
   "last_verified": null
+ },
+ {
+  "clinic_id": "collegiate-sports-medicine-red-deer",
+  "treatment_id": "collegiate-sports-medicine-red-deer--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://csm.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "collegiate-sports-medicine-red-deer",
+  "treatment_id": "collegiate-sports-medicine-red-deer--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://collegiatesportsmedicine.ca/services/vestibular-rehabilitation/vertigo-2/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "collingwood-fertility-acupuncture-collingwood",
@@ -8004,6 +8227,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "crescendo-orthophonie-de-la-voix-rosemere",
+  "treatment_id": "crescendo-orthophonie-de-la-voix-rosemere--singing-voice-therapy",
+  "treatment": "Singing Voice Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Genevi\u00e8ve Bournival",
+  "practitioners": [
+   {
+    "as_recorded": "Genevi\u00e8ve Bournival, Orthophoniste, MPO OOAQ 05702 - orthophoniste et fondatrice de Crescendo Orthophonie; ma\u00eetrise professionnelle en orthophonie (Universit\u00e9 de Montr\u00e9al), sp\u00e9cialis\u00e9e en voix adulte; sang professionally and held a role in a professional musical, per the clinic's own site",
+    "id": "crescendo-orthophonie-de-la-voix-rosemere--genevieve-bournival",
+    "name": "Genevi\u00e8ve Bournival"
+   }
+  ],
+  "price_text": "$400 evaluation \u00b7 $125 follow-up (55 min)",
+  "price_source": "Fees published on the clinic's own website ('Services et tarifs'): voice evaluation $400 (approx. 1h30, includes the orthophonie report) and intervention sessions $125 (55 minutes). The same sole practitioner delivers all voice therapy at the clinic, so these voice-therapy fees stand in for singing voice therapy under Pricing + Practitioner Rule v2.",
+  "price_tier": "website",
+  "treatment_link": "https://www.orthophoniecrescendo.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "cristina-sutter-north-vancouver",
   "treatment_id": "cristina-sutter-north-vancouver--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -8547,6 +8789,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dalton-associates-richmond-hill",
+  "treatment_id": "dalton-associates-richmond-hill--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$100-$225/hr",
+  "price_source": "Clinic's own Fees & Insurance page (daltonassociates.ca/fees-insurance), via its search extract after the page fetch hit HTTP 429: 'Currently our fee schedule ranges from $100 to $225 per hour, depending on the time and nature of the service provided, plus the training and experience of the therapist.' Chain-wide schedule published on the clinic's own site; no couples-specific fee is published.",
+  "price_tier": "website",
+  "treatment_link": "https://www.daltonassociates.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "danesh-aesthetics-richmond-hill",
+  "treatment_id": "danesh-aesthetics-richmond-hill--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No microneedling service exists on the clinic's own site and no microneedling fee is published anywhere on daneshaesthetics.com, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.daneshaesthetics.com",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "danesh-aesthetics-richmond-hill",
   "treatment_id": "danesh-aesthetics-richmond-hill--naturopathy",
   "treatment": "Naturopathy",
@@ -8595,6 +8863,32 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.dawsondental.ca/site/dental-services/specialty-dentistry-botox",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dc-psychological-services-red-deer",
+  "treatment_id": "dc-psychological-services-red-deer--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No couples therapy or general therapy session price is published on dcpsychological.ca pages/extracts read (homepage, Cancellation & Billing Policy, Assessment FAQ); the $235/hour and assessment starting prices on the site apply to formal assessments only, so price is null for Couples Therapy.",
+  "price_tier": null,
+  "treatment_link": "https://www.dcpsychological.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dc-psychological-services-red-deer",
+  "treatment_id": "dc-psychological-services-red-deer--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$235/hour; Full Psychological/Psycho-educational Assessment starts at $3,290",
+  "price_source": "Clinic's own Formal Assessment FAQ (https://www.dcpsychological.ca/_files/ugd/5c436d_d8931abbf7c3441a96ae8223232d0d42.pdf, via search extract): 'The cost for a formal assessment is all inclusive, billed at $235 per hour' and 'Full Psychological/ Psycho-educational Assessment starts at $3,290.00'; the clinic's assessment service page (https://www.dcpsychological.ca/services/psychological-assessment) states formal assessment fees typically range from $1,900 to $4,300 depending on the assessment.",
+  "price_tier": "website",
+  "treatment_link": "https://www.dcpsychological.ca/services/psychological-assessment",
   "last_verified": "2026-11-01"
  },
  {
@@ -10824,6 +11118,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "dr-jason-law-richmond-hill",
+  "treatment_id": "dr-jason-law-richmond-hill--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Jason Law",
+  "practitioners": [
+   {
+    "id": "dr-jason-law-richmond-hill--jason-law",
+    "name": "Jason Law",
+    "as_recorded": "Dr. Jason Law, ND, RAc - Naturopathic Doctor and Registered Acupuncturist, per his own practice site (intdoctors.com), which lists Intravenous Therapy among his services"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No IV therapy price or fee schedule is published on the clinic's own site (intdoctors.com), so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://intdoctors.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-jatish-kaler-calgary",
   "treatment_id": "dr-jatish-kaler-calgary--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -10948,6 +11261,44 @@
   "price_tier": null,
   "treatment_link": "https://connected.janeapp.com",
   "last_verified": null
+ },
+ {
+  "clinic_id": "dr-jennifer-pilon-nd-red-deer",
+  "treatment_id": "dr-jennifer-pilon-nd-red-deer--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Jennifer Pilon",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Jen Pilon, CNDA-licensed naturopathic doctor, residency-trained through Bastyr University and CNME, Doctor of Naturopathic Medicine 2016, per her own site https://www.drjenpilon.com/",
+    "id": "dr-jennifer-pilon-nd-red-deer--jennifer-pilon",
+    "name": "Jennifer Pilon"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fertility consultation or naturopathic visit fee is published on drjenpilon.com pages read, and no booking page with fees was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.drjenpilon.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-jennifer-pilon-nd-red-deer",
+  "treatment_id": "dr-jennifer-pilon-nd-red-deer--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": "Naturopathy",
+  "practitioner": "Jennifer Pilon",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Jen Pilon, ND - offers Cognitive Behavioural Therapy for Insomnia (CBT-I) per her own site https://www.drjenpilon.com/",
+    "id": "dr-jennifer-pilon-nd-red-deer--jennifer-pilon",
+    "name": "Jennifer Pilon"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No CBT-I or sleep-service fee is published on drjenpilon.com pages read, and no booking page with fees was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.drjenpilon.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "dr-jennifer-rumancik-abbotsford",
@@ -11296,6 +11647,25 @@
   "price_source": "No price found: checked the clinic's own sleep-therapy page, homepage, self-referral page, and its CBT-I patient info sheet PDF (drkp.ca/forms/DRKP-Dr-Pratt-CBTI-Patient-Info-Sheet.pdf); none publish a fee for CBT-I / sleep therapy.",
   "price_tier": null,
   "treatment_link": "https://drkp.ca/sleep-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-keshia-kamphuis-nd-red-deer",
+  "treatment_id": "dr-keshia-kamphuis-nd-red-deer--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Keshia Kamphuis",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Keshia Kamphuis, ND - Naturopathic Doctor (College of Naturopathic Doctors of Alberta, Licensed Naturopathic Doctor, per her own site), special interest in pre-pregnancy & prenatal care per https://www.drkeshiand.com/makeababy",
+    "id": "dr-keshia-kamphuis-nd-red-deer--keshia-kamphuis",
+    "name": "Keshia Kamphuis"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fertility consultation or first-visit fee is published on drkeshiand.com pages/extracts read (Work With Me page lists 'First Visit - 60 min' and 'Follow Up Visits - 30 min' with no fees), and no booking page with fees was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.drkeshiand.com/makeababy",
   "last_verified": "2026-11-01"
  },
  {
@@ -12116,6 +12486,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-nicole-mitchelson-regina",
+  "treatment_id": "dr-nicole-mitchelson-regina--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Nicole Mitchelson",
+  "practitioners": [
+   {
+    "id": "dr-nicole-mitchelson-regina--nicole-mitchelson",
+    "name": "Dr. Nicole Mitchelson",
+    "as_recorded": "Dr. Nicole Mitchelson, Doctor of Traditional Chinese Medicine - specialized in Facial Acupuncture per the clinic's own homepage"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website in the extracts captured, and no booking fee list was captured, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.drnicolemitchelson.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-nicole-rush-london",
   "treatment_id": "dr-nicole-rush-london--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -12374,6 +12763,25 @@
   "price_tier": null,
   "treatment_link": "https://www.rachelcorradetti.com/preconception-consults",
   "last_verified": null
+ },
+ {
+  "clinic_id": "dr-rachel-lam-richmond",
+  "treatment_id": "dr-rachel-lam-richmond--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Rachel Lam",
+  "practitioners": [
+   {
+    "id": "dr-rachel-lam-richmond--rachel-lam",
+    "name": "Rachel Lam",
+    "as_recorded": "Dr. Rachel Lam, ND, RAc \u2014 naturopathic doctor and registered acupuncturist per the clinic's own website (drrachellam.com)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, and its Jane booking page (drrachellam.janeapp.com) rendered no treatment/fee list in text fetch (treatment list did not render), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.drrachellam.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "dr-renata-mola-perth-east",
@@ -15144,6 +15552,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "food-to-fit-nutrition-inc-regina",
+  "treatment_id": "food-to-fit-nutrition-inc-regina--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No sports nutrition service or fee is published on the clinic's own site in extracts captured, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.foodtofit.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "fortify-winnipeg",
   "treatment_id": "fortify-winnipeg--naturopathy",
   "treatment": "Naturopathy",
@@ -15171,6 +15592,25 @@
   "price_tier": null,
   "treatment_link": "https://thisisfortify.com/clinic/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "four-seasons-naturopathic-wellness-richmond-hill",
+  "treatment_id": "four-seasons-naturopathic-wellness-richmond-hill--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Rahim Habib",
+  "practitioners": [
+   {
+    "id": "four-seasons-naturopathic-wellness-richmond-hill--rahim-habib",
+    "name": "Rahim Habib",
+    "as_recorded": "Dr. Rahim Habib ND - Naturopathic Doctor, director of Four Seasons Naturopathic Wellness, per the clinic's own site; author of its 'Infertility & Optimal Fertility Care' page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fertility consultation fee is published on the clinic's own site and the clinic has no online booking page, so price is null. (The site's acupuncture page lists a $120 first assessment / $60 subsequent acupuncture treatment, but that is the acupuncture service fee, not a fertility consultation fee, and was not used.)",
+  "price_tier": null,
+  "treatment_link": "https://familynaturopath.ca/tips-resources/articles/infertility-optimal-fertility-care/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "francine-allard-nutritionniste-dietetiste-blainville",
@@ -15913,6 +16353,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "groupe-ancora-mario-levesque-rimouski",
+  "treatment_id": "groupe-ancora-mario-levesque-rimouski--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Mario L\u00e9vesque",
+  "practitioners": [
+   {
+    "as_recorded": "Mario L\u00e9vesque, B. Psy., M. \u00c9d. - conseiller d'orientation (OCCOQ) et psychoth\u00e9rapeute (permis de psychoth\u00e9rapeute de l'Ordre des psychologues du Qu\u00e9bec), per the clinic's own site and his Groupe Ancora training materials",
+    "id": "groupe-ancora-mario-levesque-rimouski--mario-levesque",
+    "name": "Mario L\u00e9vesque"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.groupeancora.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "guelph-voice-speech-therapy-guelph",
   "treatment_id": "guelph-voice-speech-therapy-guelph--singing-voice-therapy",
   "treatment": "Singing Voice Therapy",
@@ -16180,6 +16639,73 @@
   "price_tier": null,
   "treatment_link": "http://hcnutrition.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "head-to-heal-family-wellness-regina",
+  "treatment_id": "head-to-heal-family-wellness-regina--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Paige Chambers",
+  "practitioners": [
+   {
+    "id": "head-to-heal-family-wellness-regina--paige-chambers",
+    "name": "Dr. Paige Chambers",
+    "as_recorded": "Dr. Paige Chambers, ND - Certified in Facial Rejuvenation Acupuncture, per the clinic's practitioners page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No facial rejuvenation / cosmetic acupuncture fee is published on the clinic's own site in extracts captured, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.headtohealfamilywellness.com/practitioners-regina",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "head-to-heal-family-wellness-regina",
+  "treatment_id": "head-to-heal-family-wellness-regina--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Paige Chambers; Dr. Vanessa DiCicco",
+  "practitioners": [
+   {
+    "id": "head-to-heal-family-wellness-regina--paige-chambers",
+    "name": "Dr. Paige Chambers",
+    "as_recorded": "Dr. Paige Chambers, ND - practice focuses on fertility, women's and reproductive health, acupuncture, and Traditional Chinese Medicine, per the clinic's practitioners page"
+   },
+   {
+    "id": "head-to-heal-family-wellness-regina--vanessa-dicicco",
+    "name": "Dr. Vanessa DiCicco",
+    "as_recorded": "Dr. Vanessa DiCicco, ND, MOT - patients have had much success with fertility and reproductive health, per the clinic's practitioners page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fertility consultation or naturopathic fee list is published on the clinic's own site in extracts captured, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.headtohealfamilywellness.com/practitioners-regina",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "head-to-heal-family-wellness-regina",
+  "treatment_id": "head-to-heal-family-wellness-regina--naturopathy",
+  "treatment": "Naturopathy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Vanessa DiCicco; Jonathan Bablad",
+  "practitioners": [
+   {
+    "id": "head-to-heal-family-wellness-regina--vanessa-dicicco",
+    "name": "Dr. Vanessa DiCicco",
+    "as_recorded": "Dr. Vanessa DiCicco, ND, MOT - licensed Naturopathic Doctor, in practice in Regina since 2007, per the clinic's practitioners page"
+   },
+   {
+    "id": "head-to-heal-family-wellness-regina--jonathan-bablad",
+    "name": "Jonathan Bablad",
+    "as_recorded": "Dr. Bablad, ND - conducts initial naturopathic appointments per the clinic's Regina page (full name Jonathan Bablad per the clinic's Places description)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No naturopathic fee list is published on the clinic's own site in extracts captured, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.headtohealfamilywellness.com/regina",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "healing-house-ottawa",
@@ -16598,6 +17124,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "healthstyle-dental-regina",
+  "treatment_id": "healthstyle-dental-regina--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dentistry",
+  "practitioner": "Dr. Loreen Larson",
+  "practitioners": [
+   {
+    "id": "healthstyle-dental-regina--loreen-larson",
+    "name": "Dr. Loreen Larson",
+    "as_recorded": "Dr. Larson - dentist at Health Style Dental; the clinic's own Botox page states 'If Dr. Larson concludes that Botox or Dysport treatment is the right approach for you, a treatment appointment will be arranged' and that she trained with Dr. Warren Roberts of the Pacific Training Institute for Facial Aesthetics and Therapeutics (PTIFA). Full name Dr. Loreen Larson per dentalcorp job postings for this clinic."
+   }
+  ],
+  "price_text": null,
+  "price_source": "No Botox fee is published on the clinic's own website (healthstyledental.com Botox page read in full) and the clinic has no separate online booking/fee page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.healthstyledental.com/site/botox-regina",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "healthytodos-markham-health-rehab-markham",
   "treatment_id": "healthytodos-markham-health-rehab-markham--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -16836,6 +17381,25 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "http://www.hlhc.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "homecoming-psychotherapy-richmond-hill",
+  "treatment_id": "homecoming-psychotherapy-richmond-hill--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Kathy Lam",
+  "practitioners": [
+   {
+    "id": "homecoming-psychotherapy-richmond-hill--kathy-lam",
+    "name": "Kathy Lam",
+    "as_recorded": "Kathy Lam, M.Div, RSW, RP, ICEEFT Certified EFT Therapist - Registered Psychotherapist and Registered Social Worker, founder/sole therapist of Homecoming Psychotherapy per the clinic's own site"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No session fees are published on the clinic's own website and its Acuity scheduling page is not currently taking online bookings, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://homecomingtherapy.ca/services/therapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -17828,6 +18392,44 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "janis-li-richmond-hill",
+  "treatment_id": "janis-li-richmond-hill--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Janis Li",
+  "practitioners": [
+   {
+    "id": "janis-li-richmond-hill--janis-li",
+    "name": "Janis Li",
+    "as_recorded": "Dr. Janis Li, ND - licensed naturopathic doctor at Bayview North Family Chiropractic; Women's Health, Stress Management, Digestive Health and Acupuncture listed on the clinic's team card; special focus on women's health per her Google Places profile"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fertility consultation or naturopathic fee is published on the clinic's own site, and the clinic takes bookings by phone/text only (no online booking page found), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.bayviewnorth.com/naturopathic",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "janis-li-richmond-hill",
+  "treatment_id": "janis-li-richmond-hill--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": "Michael Iuliano",
+  "practitioners": [
+   {
+    "id": "janis-li-richmond-hill--michael-iuliano",
+    "name": "Michael Iuliano",
+    "as_recorded": "Dr. Michael Iuliano (Dr. Mike), Chiropractor - Shockwave Therapy listed among his techniques on the clinic's chiropractic page and homepage team card"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No shockwave therapy fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.bayviewnorth.com/chiropractic",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "jc-clinic-north-york",
   "treatment_id": "jc-clinic-north-york--clinical-pilates",
   "treatment": null,
@@ -17889,6 +18491,45 @@
   "price_tier": "booking",
   "treatment_link": "https://jdaphysio.janeapp.com/#/clinical-reformer-pilates-physiotherapy",
   "last_verified": null
+ },
+ {
+  "clinic_id": "jda-physio-rehabilitation-centre-richmond-hill",
+  "treatment_id": "jda-physio-rehabilitation-centre-richmond-hill--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Janet Yang; Carrie Chou; Zoey Wu; Irene Chau; Nathania Chan",
+  "practitioners": [
+   {
+    "id": "jda-physio-rehabilitation-centre-richmond-hill--janet-yang",
+    "name": "Janet Yang",
+    "as_recorded": "Janet Yang BSc, MScPT - Registered Physiotherapist, Pelvic Health Physiotherapist, per the clinic's own site; her Jane bio lists Pelvic Health Solutions Level 1, Level 2/3A, Pregnancy and Pelvic Girdle Pain, Cesarean Birth and Diastasis Recti training"
+   },
+   {
+    "id": "jda-physio-rehabilitation-centre-richmond-hill--carrie-chou",
+    "name": "Carrie Chou",
+    "as_recorded": "Carrie Chou (BSc, MScPT) - Pelvic Health Physiotherapist, per the clinic's own site; her Jane bio lists Pelvic Health Solutions Level 1 and Level 2/3A training"
+   },
+   {
+    "id": "jda-physio-rehabilitation-centre-richmond-hill--zoey-wu",
+    "name": "Zoey Wu",
+    "as_recorded": "Zoey Wu (PT, BSc, MSc, CTMD) - Pelvic Health Physiotherapist, per the clinic's own site; her Jane bio lists pelvic health Level 1 and Level 2/3A training"
+   },
+   {
+    "id": "jda-physio-rehabilitation-centre-richmond-hill--irene-chau",
+    "name": "Irene Chau",
+    "as_recorded": "Irene Chau - Registered Physiotherapist, per her Jane booking page bio, which details extensive pelvic floor and pregnancy/postpartum training (Childbirth and the Pelvic Floor, Diastasis Recti, Pregnancy/Pelvic Girdle Pain, Postpartum and Cesarean Birth rehabilitation)"
+   },
+   {
+    "id": "jda-physio-rehabilitation-centre-richmond-hill--nathania-chan",
+    "name": "Nathania Chan",
+    "as_recorded": "Nathania Chan (BSc, MScPT) - Pelvic Health Physiotherapist, per the clinic's own site team section and Jane bio (interest in pelvic health issues)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee is published on the clinic's own site, and its Jane booking page rendered bios only in text fetch (no fee list), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.jdaphysio.ca",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "jean-lamantia-rd-toronto",
@@ -19138,6 +19779,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "la-cite-medicale-quebec-city",
+  "treatment_id": "la-cite-medicale-quebec-city--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Premise failure - no Sports Nutrition service exists to price. No nutrition consultation fee is published on the clinic's own nutrition page either, and there is no online booking page (appointments by phone at 418.780.8967), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://lacitemedicale.com/services/professionnels-de-la-sante/nutrition",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "la-palma-spa-calgary",
   "treatment_id": "la-palma-spa-calgary--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -19412,6 +20066,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "lauren-straub-regina",
+  "treatment_id": "lauren-straub-regina--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Lauren Straub",
+  "practitioners": [
+   {
+    "id": "lauren-straub-regina--lauren-straub",
+    "name": "Lauren Straub",
+    "as_recorded": "Lauren Straub - Traditional Chinese Medicine practitioner; per her own site she graduated with a degree in Traditional Chinese Medicine from the Canadian College of Acupuncture and Oriental Medicine (Victoria, BC) in 2001, is a full member of the Chinese Medicine and Acupuncture Association of Canada and the Provincial Traditional Chinese Medicine and Acupuncture Society, and specialized with additional training in women's health and fertility."
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (laurenstraub.ca homepage and Women's Health page read in full), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.laurenstraub.ca/new-page",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "le-groupe-therapie-the-therapy-group-montreal",
   "treatment_id": "le-groupe-therapie-the-therapy-group-montreal--couples-therapy",
   "treatment": "Couples Therapy",
@@ -19666,6 +20339,19 @@
   "price_tier": "website",
   "treatment_link": "https://leveragenutrition.ca/nutrition-services.html",
   "last_verified": null
+ },
+ {
+  "clinic_id": "libra-nutrition-richmond",
+  "treatment_id": "libra-nutrition-richmond--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price is published on the clinic's own website (libranutrition.com) for any consultation service, and the premise failed (see gaps), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://libranutrition.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "lifeberry-oakville",
@@ -20027,6 +20713,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "lotus-wellness-psychology-clinic-richmond-hill",
+  "treatment_id": "lotus-wellness-psychology-clinic-richmond-hill--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Nancy Bahl, C.Psych",
+  "practitioners": [
+   {
+    "id": "lotus-wellness-psychology-clinic-richmond-hill--nancy-bahl",
+    "name": "Nancy Bahl",
+    "as_recorded": "Dr. Nancy Bahl, C.Psych - registered Clinical Psychologist (PhD, University of Ottawa), the clinic's psychologist per its own site"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own site (homepage, services and individual therapy pages read in full), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://lotuswellnessclinic.ca/services/individual-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "loving-choices-psychology-edmonton",
   "treatment_id": "loving-choices-psychology-edmonton--couples-therapy",
   "treatment": "Couples Therapy",
@@ -20346,6 +21051,32 @@
   "price_source": "No shockwave therapy fee is published on the clinic's own website, and the Jane booking page's treatment/fee list did not render in text fetch, so price is null.",
   "price_tier": null,
   "treatment_link": "https://mancusoclinic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "mandala-massage-regina-regina",
+  "treatment_id": "mandala-massage-regina-regina--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Registered Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$111.84/30 min \u00b7 $159.77/60 min \u00b7 $207.70/90 min (non-member)",
+  "price_source": "Non-member pricing published on the clinic's own website, Registered Massage Therapy treatments page (Manual Lymphatic Drainage section): 30 minutes $111.84, 60 minutes $159.77, 90 minutes $207.70; members save 10%.",
+  "price_tier": "website",
+  "treatment_link": "https://www.mandalamassageregina.com/registeredmassagetherapy-rapidnfr-manuallymphaticdrainage",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "mandala-massage-regina-regina",
+  "treatment_id": "mandala-massage-regina-regina--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Esthetics",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No microneedling fee was captured on the clinic's own pages read in this pass (homepage fetch hit HTTP 429, not retried), so price is null and the clinic is queued for an esthetics/microneedling price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://www.mandalamassageregina.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -20780,6 +21511,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "massotherapie-le-mesnil-quebec-city",
+  "treatment_id": "massotherapie-le-mesnil-quebec-city--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No drainage lymphatique or massage price is published on the clinic's own website pages read (https://www.massages-quebec.com/ and https://www.massages-quebec.com/drainage-lymphatique.php) and no booking page with a fee list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.massages-quebec.com/drainage-lymphatique.php",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "master-kin-terrebonne",
   "treatment_id": "master-kin-terrebonne--pressotherapy",
   "treatment": "Pressotherapy",
@@ -20918,6 +21662,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://meadowlifehealthcentre.ca/physiotherapy-conditions/back-pain-and-sciatica-relief/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "mecca-massage-therapy-clinic-regina",
+  "treatment_id": "mecca-massage-therapy-clinic-regina--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (meccamassage.ca homepage and lymphatic care page read in full); aggregator price ranges were not used, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.meccamassage.ca/lymphatic-care-regina.html",
   "last_verified": "2026-11-01"
  },
  {
@@ -22591,6 +23348,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "mountain-top-counselling-regina",
+  "treatment_id": "mountain-top-counselling-regina--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (mountaintopcounselling.ca), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.mountaintopcounselling.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "moves-you-physiotherapy-coquitlam",
   "treatment_id": "moves-you-physiotherapy-coquitlam--clinical-pilates",
   "treatment": null,
@@ -23244,6 +24014,81 @@
   "price_tier": "booking",
   "treatment_link": "https://myodetox.janeapp.com/locations/myo-richmond-hill/book",
   "last_verified": null
+ },
+ {
+  "clinic_id": "myo-myodetox-richmond-hill-richmond-hill",
+  "treatment_id": "myo-myodetox-richmond-hill-richmond-hill--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Chiropractic",
+  "practitioner": "Dr. Natalie Ng",
+  "practitioners": [
+   {
+    "id": "myo-myodetox-richmond-hill-richmond-hill--natalie-ng",
+    "name": "Natalie Ng",
+    "as_recorded": "Dr. Natalie Ng, Chiropractor - TPI Level 1 Certification for Golf Performance; special interests in golf injury & prevention and golf performance (her Jane booking page bio and the clinic's location page)"
+   }
+  ],
+  "price_text": "$270 (90 min)",
+  "price_source": "Clinic's own Richmond Hill location page lists the specialty session 'TPI Golf Assessment, 90 Mins, $270'; no fee rendered on the Jane booking page in text fetch, so the price is tier 'website'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/richmond-hill",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-myodetox-richmond-hill-richmond-hill",
+  "treatment_id": "myo-myodetox-richmond-hill-richmond-hill--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Brooke Thompson; Sabrina Trung",
+  "practitioners": [
+   {
+    "id": "myo-myodetox-richmond-hill-richmond-hill--brooke-thompson",
+    "name": "Brooke Thompson",
+    "as_recorded": "Brooke Thompson, Physiotherapist - Special Interests: Urinary incontinence, Pelvic pain, Pre/post natal; Certifications: Pelvic Floor Level 1, Pelvic Floor Level 2, Pelvic Floor Pregnancy & C-section Rehabilitation (clinic's Richmond Hill location page and Jane page)"
+   },
+   {
+    "id": "myo-myodetox-richmond-hill-richmond-hill--sabrina-trung",
+    "name": "Sabrina Trung",
+    "as_recorded": "Sabrina Trung, Physiotherapist - Certifications: Pelvic Floor Physiotherapist Level 1,2,3 and Prenatal Population; Fellow of the Canadian Academy of Manipulative Physiotherapy (clinic's Richmond Hill location page)"
+   }
+  ],
+  "price_text": "$185 (60 min)",
+  "price_source": "Clinic's own Richmond Hill location page lists the specialty session 'Pelvic Health Physiotherapy, 60 Mins, $185'; no fee rendered on the Jane booking page in text fetch, so the price is tier 'website'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/richmond-hill",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-myodetox-richmond-hill-richmond-hill",
+  "treatment_id": "myo-myodetox-richmond-hill-richmond-hill--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$180 (60 min)",
+  "price_source": "Clinic's own Richmond Hill location page lists the specialty session 'Run Assessment, 60 Mins, $180'; no fee rendered on the Jane booking page in text fetch, so the price is tier 'website'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/richmond-hill",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-myodetox-richmond-hill-richmond-hill",
+  "treatment_id": "myo-myodetox-richmond-hill-richmond-hill--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Tatjana Stankovic",
+  "practitioners": [
+   {
+    "id": "myo-myodetox-richmond-hill-richmond-hill--tatjana-stankovic",
+    "name": "Tatjana Stankovic",
+    "as_recorded": "Tatjana Stankovic, Registered Massage Therapist - Special Interests: Dancing, Running, Weightlifting, Power Athletes, TMJ (clinic's Richmond Hill location page team roster)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No TMJ-specific fee is published on the clinic's location page or Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.myodetox.com/ca/locations/richmond-hill",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "myo-myodetox-yorkville-toronto",
@@ -23924,6 +24769,32 @@
   "last_verified": null
  },
  {
+  "clinic_id": "neurocore-physiotherapy-and-pilates-centre-richmond-hill",
+  "treatment_id": "neurocore-physiotherapy-and-pilates-centre-richmond-hill--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee is published on the clinic's own site and no booking page with a fee list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://neurocore.ca/pelvic-floor-rehabilitation/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "neurocore-physiotherapy-and-pilates-centre-richmond-hill",
+  "treatment_id": "neurocore-physiotherapy-and-pilates-centre-richmond-hill--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's own site and no booking page with a fee list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://neurocore.ca/vestibular-rehabilitation/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "neurodezign-laval",
   "treatment_id": "neurodezign-laval--neurofeedback",
   "treatment": "Neurofeedback",
@@ -24005,6 +24876,19 @@
   "price_source": "Clinic's own website: The Neurofeedback page (https://neuroperforma.com/en/the-neurofeedback/), Pricing and added value section \u2014 file opening $25 (non-refundable fee); Phase 1 complete initial assessment $800 (interview with a psychologist/neuropsychologist + qEEG by a technologist + detailed report); Phase 2 custom protocol $170 per session, based on a minimum of 12 sessions. The Process page (https://neuroperforma.com/en/the-process/) confirms the complete assessment is $800 (four professional services of 60 minutes at $200 each). These are network-wide fees; no Montr\u00e9al-specific price list is published. Free initial phone consultation also offered.",
   "price_tier": "website",
   "treatment_link": "https://neuroperforma.com/en/our-clinics/montreal-clinic/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "neuroperforma-quebec-quebec-city",
+  "treatment_id": "neuroperforma-quebec-quebec-city--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$800 complete initial assessment \u00b7 $170 per session \u00b7 $25 file opening",
+  "price_source": "https://neuroperforma.com/en/the-neurofeedback/ - Pricing section: $25 file opening, $800 complete initial assessment, $170 per session custom protocol (minimum 12 sessions); corroborated at https://neuroperforma.com/en/the-process/ - 'The complete assessment ($800) includes four professional services of 60 minutes each ($200 each)'",
+  "price_tier": "website",
+  "treatment_link": "https://neuroperforma.com/en/the-neurofeedback/",
   "last_verified": "2026-11-01"
  },
  {
@@ -24430,6 +25314,19 @@
   "price_source": "Clinic's own counselling cost guide (nofearcounselling.com/how-much-does-couples-counselling-cost-in-vancouver/, via search extract read 2026-11-01): Registered Clinical Counsellor $130\u2013$180 per 50-minute session; Registered Psychologist $200\u2013$250; intern/graduate counsellor $40\u2013$80. The guide is chain-wide (Vancouver-focused), not Burnaby-specific.",
   "price_tier": "booking",
   "treatment_link": "https://www.nofearcounselling.com/location/counselling-burnaby/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "no-fear-counselling-richmond-richmond",
+  "treatment_id": "no-fear-counselling-richmond-richmond--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Counselling",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No clinic-specific couples fee is published on the clinic's own site: its own couples-cost guides state only market/typical ranges (e.g. RCC $130-$180 per 50-minute session; typical rates $130-$200) and its low-cost page lists practicum/recent-graduate tiers without a couples-specific fee, and team profiles show 'Session Rates' with no amount in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.nofearcounselling.com/best-couples-counselling-vancouver",
   "last_verified": "2026-11-01"
  },
  {
@@ -25761,6 +26658,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "online-nutrition-advice-richmond-hill",
+  "treatment_id": "online-nutrition-advice-richmond-hill--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own site - the site is a blog and its fees path rendered no fee list in text fetch - and no booking page was found, so price is null. No Sports Nutrition service exists to price in any case (see gaps).",
+  "price_tier": null,
+  "treatment_link": "http://onlinenutritionadvice.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "open-circle-psychology-winnipeg",
   "treatment_id": "open-circle-psychology-winnipeg--couples-therapy",
   "treatment": "Couples Therapy",
@@ -26693,6 +27603,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "patchouli7drops-richmond-hill",
+  "treatment_id": "patchouli7drops-richmond-hill--facial-manual-therapy",
+  "treatment": "Facial Manual Therapy",
+  "billed_as": "Osteopathy",
+  "practitioner": "Jenya",
+  "practitioners": [
+   {
+    "as_recorded": "Jenya - Registered Manual Osteopath, per the clinic's own site ('I'm a Registered Manual Osteopath with a background in medical science and more than 20 years in the clinical field'); surname not published on the site",
+    "id": "patchouli7drops-richmond-hill--jenya",
+    "name": "Jenya"
+   }
+  ],
+  "price_text": "$120 (60 min initial or follow-up) \u00b7 $90 (45 min short follow-up)",
+  "price_source": "Clinic's own website pricing section (patchouli7drops.com): Initial Visit - Assessment & Treatment 60 minutes $120CAD + tax; Follow-Up Treatment 60 minutes $120CAD + tax; Short Follow-Up 45 minutes $90CAD + tax. These are the osteopathy session prices of the same sole practitioner who delivers the cranial/facial component (rule v2).",
+  "price_tier": "website",
+  "treatment_link": "https://patchouli7drops.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "peaceful-mind-psychology-edmonton",
   "treatment_id": "peaceful-mind-psychology-edmonton--neurofeedback",
   "treatment": "Neurofeedback",
@@ -27244,6 +28173,43 @@
   "price_source": "No price could be verified: the clinic's own website publishes no rates for this treatment, and its online booking platform (Noterro, https://physiomotiva.noterro.com/) did not render services or prices in text fetch; the clinic's own FAQ states its current rates are always available on its online booking platform (per https://physiomotiva.ca/vestibular-rehabilitation/), so price is null.",
   "price_tier": null,
   "treatment_link": "https://physiomotiva.ca/vestibular-rehabilitation/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physio-pmp-physiotherapie-mouvement-performance-quebec-city",
+  "treatment_id": "physio-pmp-physiotherapie-mouvement-performance-quebec-city--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Anick Gendron, Jean-Christophe Bouchard",
+  "practitioners": [
+   {
+    "as_recorded": "Anick Gendron \u2013 physioth\u00e9rapeute, Experte 2.0 en course \u00e0 pied de La Clinique du Coureur",
+    "id": "physio-pmp-physiotherapie-mouvement-performance-quebec-city--anick-gendron",
+    "name": "Anick Gendron"
+   },
+   {
+    "as_recorded": "Jean-Christophe Bouchard \u2013 physioth\u00e9rapeute, Expert 1.0 en course \u00e0 pied de La Clinique du Coureur",
+    "id": "physio-pmp-physiotherapie-mouvement-performance-quebec-city--jean-christophe-bouchard",
+    "name": "Jean-Christophe Bouchard"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://physiopmp.com/course-a-pied/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physio-pmp-physiotherapie-mouvement-performance-quebec-city",
+  "treatment_id": "physio-pmp-physiotherapie-mouvement-performance-quebec-city--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://physiopmp.com/2025/10/16/reeducation-vestibulaire/",
   "last_verified": "2026-11-01"
  },
  {
@@ -28100,6 +29066,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "prairie-psychology-svc-regina",
+  "treatment_id": "prairie-psychology-svc-regina--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No neurofeedback service or fee exists on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://prairiepsychology.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "pre-therapy-burnaby",
   "treatment_id": "pre-therapy-burnaby--clinical-pilates",
   "treatment": null,
@@ -28375,6 +29354,57 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "proactive-health-richmond",
+  "treatment_id": "proactive-health-richmond--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No lymphatic drainage fee is published on the clinic's own site, and the Jane booking page's treatment/fee list did not render in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://proactivehealth.online/services/registered-massage-therapy-richmond-bc",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "proactive-health-richmond",
+  "treatment_id": "proactive-health-richmond--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Blake",
+  "practitioners": [
+   {
+    "as_recorded": "Blake - massage therapist, per his bio on the clinic's Jane booking page: 'Specialized treatment for specific conditions like temporomandibular joint dysfunction (TMJD) and Migraines' - surname not published",
+    "id": "proactive-health-richmond--blake",
+    "name": "Blake"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch - the treatment/fee list did not render - and the clinic's own RMT page publishes no TMJ-specific fee (its FAQ gives only a generic Richmond range of $90-$150/hr), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://proactivehealth.online/services/registered-massage-therapy-richmond-bc",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "proactive-health-richmond",
+  "treatment_id": "proactive-health-richmond--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Mohammad",
+  "practitioners": [
+   {
+    "as_recorded": "Mohammad - physiotherapist (MSc Physiotherapy, UK; B.Kin, UFV), per his bio on the clinic's Jane booking page: certification for Advanced Vestibular Rehabilitation and Orthopaedic Division Level 1 - surname not published in extracts read",
+    "id": "proactive-health-richmond--mohammad",
+    "name": "Mohammad"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's own site, and the Jane booking page's treatment/fee list did not render in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://proactivehealthonline.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "proactive-pelvic-health-centre-toronto",
   "treatment_id": "proactive-pelvic-health-centre-toronto--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -28386,6 +29416,25 @@
   "price_tier": null,
   "treatment_link": "https://www.proactiveph.com/pelvic-health-physiotherapy",
   "last_verified": null
+ },
+ {
+  "clinic_id": "professional-psychologists-and-associates-regina",
+  "treatment_id": "professional-psychologists-and-associates-regina--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Cindy Bote",
+  "practitioners": [
+   {
+    "id": "professional-psychologists-and-associates-regina--cindy-bote",
+    "name": "Cindy Bote",
+    "as_recorded": "Cindy Bote, M.C., Registered Psychologist"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page (profpsychandassoc.janeapp.com) rendered practitioner bios in text fetch but its session list and fees did not render, and no fees are published on ppanda.ca, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://profpsychandassoc.janeapp.com/locations/professional-psychologists-and-associates/book",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "progression-clinic-physiotherapy-vancouver-massage-therapy-clinic-vancouver",
@@ -28868,6 +29917,87 @@
   "price_tier": null,
   "treatment_link": "https://www.mypurebalance.ca/naturopathic-medicine",
   "last_verified": null
+ },
+ {
+  "clinic_id": "pursuit-physiotherapy-red-deer",
+  "treatment_id": "pursuit-physiotherapy-red-deer--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Nicola Julien; Leanne Schlachter",
+  "practitioners": [
+   {
+    "id": "pursuit-physiotherapy-red-deer--nicola-julien",
+    "name": "Nicola Julien",
+    "as_recorded": "Nicola (Nicki) Julien - 'Female pelvic health (incontinence, pain, prolapse, pregnancy)'; 'Nicki is also licensed to treat female Pelvic Health concerns, such as incontinence, perinatal issues and pain' and is certified in Rost Therapy, per her bio on the clinic's Jane booking page; one of the owners of Pursuit Physiotherapy"
+   },
+   {
+    "id": "pursuit-physiotherapy-red-deer--leanne-schlachter",
+    "name": "Leanne Schlachter",
+    "as_recorded": "Leanne Schlachter - Specialized Services: 'Female Pelvic Health (incontinence, prolapse, perinatal, pain)', per her bio on the clinic's Jane booking page; one of the owners of Pursuit Physiotherapy"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page (pursuitphysio.janeapp.com) rendered practitioner bios only in text fetch - its treatment/fee list did not render - and no fee list is published on pursuitphysio.com pages read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pursuitphysio.com/services/pelvic-health/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pursuit-physiotherapy-red-deer",
+  "treatment_id": "pursuit-physiotherapy-red-deer--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Bryan Boorman",
+  "practitioners": [
+   {
+    "id": "pursuit-physiotherapy-red-deer--bryan-boorman",
+    "name": "Bryan Boorman",
+    "as_recorded": "Bryan Boorman - Specialized Services: Vestibular Therapy, per his bio on the clinic's Jane booking page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page (pursuitphysio.janeapp.com) rendered practitioner bios only in text fetch - its treatment/fee list did not render - and no fee list is published on pursuitphysio.com pages read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://pursuitphysio.janeapp.com/locations/pursuit-physiotherapy/book",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "q-osteo-med-clinic-richmond-hill",
+  "treatment_id": "q-osteo-med-clinic-richmond-hill--facial-manual-therapy",
+  "treatment": "Facial Manual Therapy",
+  "billed_as": "Osteopathy",
+  "practitioner": "Fahimeh Qaranful",
+  "practitioners": [
+   {
+    "as_recorded": "Fahimeh Qaranful - certified manual osteopath, recognized by the Alliance Canadienne Medecine Alternative (ACMA), Society of Osteopaths of Canada (SOC) and the American College Of Physical Medicine (ACOPM); member of the Osteopathy Chronic Pain Clinics of Canada (OCPCC), per the clinic's own site",
+    "id": "q-osteo-med-clinic-richmond-hill--fahimeh-qaranful",
+    "name": "Fahimeh Qaranful"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (q-osteomed.com pages read, including its FAQ), and no online booking page with a fee list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://q-osteomed.com/temporomandibular-disorder-and-osteopathy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "q-osteo-med-clinic-richmond-hill",
+  "treatment_id": "q-osteo-med-clinic-richmond-hill--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Osteopathy",
+  "practitioner": "Fahimeh Qaranful",
+  "practitioners": [
+   {
+    "as_recorded": "Fahimeh Qaranful - certified manual osteopath, recognized by the Alliance Canadienne Medecine Alternative (ACMA), Society of Osteopaths of Canada (SOC) and the American College Of Physical Medicine (ACOPM); member of the Osteopathy Chronic Pain Clinics of Canada (OCPCC), per the clinic's own site",
+    "id": "q-osteo-med-clinic-richmond-hill--fahimeh-qaranful",
+    "name": "Fahimeh Qaranful"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No lymphatic drainage (or any service) fee is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://q-osteomed.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "qi-integrated-health-vancouver",
@@ -29617,6 +30747,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "red-deer-chiropractic-and-laser-centre-red-deer",
+  "treatment_id": "red-deer-chiropractic-and-laser-centre-red-deer--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No red light / laser therapy fee is published on the clinic's own site pages or extracts read in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://reddeerchiropractic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "red-leaf-wellness-edmonton",
   "treatment_id": "red-leaf-wellness-edmonton--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -29802,6 +30945,19 @@
   "last_verified": null
  },
  {
+  "clinic_id": "rehab-plus-pilates-studio-richmond-hill",
+  "treatment_id": "rehab-plus-pilates-studio-richmond-hill--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.rehabpluspilates.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "rekindle-health-yellowknife",
   "treatment_id": "rekindle-health-yellowknife--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -29898,6 +31054,30 @@
   "price_source": "No TMJ or massage fee list is published on the clinic's own website pages read, and its Jane booking page (relaxmassage.janeapp.com) rendered practitioner bios and a December 1, 2026 price-increase notice only in search extracts - no fee list - so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
   "price_tier": null,
   "treatment_link": "https://www.relaxmassagegroup.com/services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "remedy-massage-therapy-richmond",
+  "treatment_id": "remedy-massage-therapy-richmond--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Maria Huellas, Aly Benoit",
+  "practitioners": [
+   {
+    "as_recorded": "Maria Huellas, RMT - provides Manual Lymphatic Drainage at Remedy, per the clinic's own MLD service page and FAQ (Vodder Method MLD training)",
+    "id": "remedy-massage-therapy-richmond--maria-huellas",
+    "name": "Maria Huellas"
+   },
+   {
+    "as_recorded": "Aly Benoit, RMT - provides Manual Lymphatic Drainage at Remedy, per the clinic's own MLD service page and FAQ",
+    "id": "remedy-massage-therapy-richmond--aly-benoit",
+    "name": "Aly Benoit"
+   }
+  ],
+  "price_text": "$130 (50-minute MLD session)",
+  "price_source": "Clinic's own website, Manual Lymphatic Drainage service page (http://www.richmondremedymassage.ca/services/manual-lymph-drainage): 'Manual lymphatic drainage at Remedy is provided by Maria Huellas, RMT and Aly Benoit, RMT. A 50-minute MLD session is $130.'",
+  "price_tier": "website",
+  "treatment_link": "http://www.richmondremedymassage.ca/services/manual-lymph-drainage",
   "last_verified": "2026-11-01"
  },
  {
@@ -30489,6 +31669,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "richmond-hill-health-and-wellness-richmond-hill",
+  "treatment_id": "richmond-hill-health-and-wellness-richmond-hill--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No cosmetic acupuncture service or fee is published on the clinic's own site (no fee list of any kind was found on the pages read), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://richmondhillhealth.com/service/head-face-treatments/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "richmond-hill-health-wellness-richmond-hill",
   "treatment_id": "richmond-hill-health-wellness-richmond-hill--naturopathy",
   "treatment": "Naturopathy",
@@ -30519,6 +31712,25 @@
   "price_tier": "booking",
   "treatment_link": "https://www.richmondhillclinic.com/naturopathic-services",
   "last_verified": null
+ },
+ {
+  "clinic_id": "richmond-naturopathic-richmond",
+  "treatment_id": "richmond-naturopathic-richmond--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Raj Jheeta",
+  "practitioners": [
+   {
+    "id": "richmond-naturopathic-richmond--raj-jheeta",
+    "name": "Raj Jheeta",
+    "as_recorded": "Dr. Jheeta, ND - sole naturopathic doctor on the clinic's own site (registration number 30056); full name Dr. Raj Jheeta, ND in press/profile extracts"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No IV therapy fee (or any fee list) is published on the clinic's own website and no booking page was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.richmondnaturopathic.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "richmond-physiotherapy-massage-calgary",
@@ -31439,6 +32651,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "self-led-therapy-richmond-hill",
+  "treatment_id": "self-led-therapy-richmond-hill--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's homepage read in this pass, and its Couples Therapy subpage fetch hit HTTP 429 (not retried), so price is null and the clinic is queued for a subpage price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://selfledtherapy.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "semi-toronto",
   "treatment_id": "semi-toronto--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -32320,6 +33545,25 @@
   "price_source": "No fees are published on the clinic's own website and it has no online booking page, so no price could be verified.",
   "price_tier": null,
   "treatment_link": "https://www.southedmontonphysio.ca/orthopaedic-physiotherapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sow-and-grow-therapy-richmond-hill",
+  "treatment_id": "sow-and-grow-therapy-richmond-hill--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Veronica Benyamin",
+  "practitioners": [
+   {
+    "id": "sow-and-grow-therapy-richmond-hill--veronica-benyamin",
+    "name": "Veronica Benyamin",
+    "as_recorded": "Veronica - Founder and Clinical Director, Registered Psychotherapist, MSc, BA, per the clinic's own site (surname Benyamin per the site's headshot filename and her TherapyRoute listing)"
+   }
+  ],
+  "price_text": "$180 per 50-min couples session \u00b7 $270 per 75-min couples session",
+  "price_source": "Fees published on the clinic's own website FAQ (sowandgrowtherapy.com/faqs): '$180 per 50-minute couples and family therapy session' and 'The cost per 75-minute session is $240 for individual therapy and $270 for couples and family therapy'; services are HST-exempt. The Jane booking page's fee list did not render in text fetch, so this is a website-tier price.",
+  "price_tier": "website",
+  "treatment_link": "https://www.sowandgrowtherapy.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -33476,6 +34720,51 @@
   "last_verified": null
  },
  {
+  "clinic_id": "supporting-wellness-psychological-family-services-red-deer",
+  "treatment_id": "supporting-wellness-psychological-family-services-red-deer--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Counselling",
+  "practitioner": "Allison Young",
+  "practitioners": [
+   {
+    "id": "supporting-wellness-psychological-family-services-red-deer--allison-young",
+    "name": "Allison Young",
+    "as_recorded": "Allison Young, Canadian Certified Counsellor - Red Deer therapist whose services on the clinic's own site include 'Marriage & Couples'"
+   }
+  ],
+  "price_text": "$220 (50-minute session with a Canadian Certified Counsellor; $235 with a psychologist) - couples sessions cost the same as a regular 50-minute session",
+  "price_source": "Fees published on the clinic's own Red Deer page FAQ (supportingwellness.com/psychology/counselling-red-deer/): 'A 50-minute session is $235 with a psychologist and $220 with a Canadian Certified Counsellor. Fees are the same at our Calgary, Red Deer and Cold Lake clinics, and couples sessions cost the same as a regular 50-minute session.'",
+  "price_tier": "website",
+  "treatment_link": "https://supportingwellness.com/psychology/counselling-red-deer/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "supporting-wellness-psychological-family-services-red-deer",
+  "treatment_id": "supporting-wellness-psychological-family-services-red-deer--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No NeurOptimal / neurofeedback session fee is published on the clinic's own neurofeedback page or Red Deer page (the published $235 psychologist / $220 counsellor 50-minute counselling fees were NOT applied - a neurofeedback session is a distinct ~45-minute facilitated session, not a 50-minute counselling session), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://supportingwellness.com/specialized/neuroptimal-dynamical-neurofeedback/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "supporting-wellness-psychological-family-services-red-deer",
+  "treatment_id": "supporting-wellness-psychological-family-services-red-deer--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No psychoeducational assessment fee amount is published on the clinic's own site - its Red Deer page states assessments are priced separately and to contact the clinic for a quote - so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://supportingwellness.com/assessment/psychoeducational-assessments-calgary/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "sweetpea-fertility-and-wellness-guelph",
   "treatment_id": "sweetpea-fertility-and-wellness-guelph--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
@@ -34216,6 +35505,51 @@
   "price_source": "No coaching fees are published on the clinic's own website (fetched 2026-11-01).",
   "price_tier": null,
   "treatment_link": "http://www.tmgcareercoaching.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-motion-lab-richmond",
+  "treatment_id": "the-motion-lab-richmond--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vitamin injection fee is published on the clinic's own website, and its Jane booking page rendered practitioner bios only with no treatment/fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://themotionlab.co/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-motion-lab-richmond",
+  "treatment_id": "the-motion-lab-richmond--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Nathan Wang",
+  "practitioners": [
+   {
+    "id": "the-motion-lab-richmond--nathan-wang",
+    "name": "Nathan Wang",
+    "as_recorded": "Dr. Nathan Wang, ND - naturopathic doctor, per the clinic's Jane booking page bio ('including IV therapy') and team page (clinical focus on IV therapy)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No IV therapy fee is published on the clinic's own website, and its Jane booking page rendered practitioner bios only with no treatment/fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://themotionlab.co/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-motion-lab-richmond",
+  "treatment_id": "the-motion-lab-richmond--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own website, and its Jane booking page rendered practitioner bios only with no treatment/fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://themotionlab.co/services/",
   "last_verified": "2026-11-01"
  },
  {
@@ -35148,6 +36482,43 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "thrive-naturopathic-regina",
+  "treatment_id": "thrive-naturopathic-regina--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$25 IM injection appointment plus injectable (5 min)",
+  "price_source": "Clinic's own website fee list, Naturopathic Consultations page (https://thrivenaturopathic.squarespace.com/naturopathic-consultations): '$25 IM Injection Appointment plus injectable 5 Minutes'.",
+  "price_tier": "website",
+  "treatment_link": "https://thrivenaturopathic.squarespace.com/naturopathic-consultations",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "thrive-naturopathic-regina",
+  "treatment_id": "thrive-naturopathic-regina--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Mikayla Raddysh, Laura Stark",
+  "practitioners": [
+   {
+    "id": "thrive-naturopathic-regina--mikayla-raddysh",
+    "name": "Mikayla Raddysh",
+    "as_recorded": "Dr Raddysh ND (fee list); Dr. Mikayla Raddysh, Naturopathic Doctor, Thrive Founder (team page)"
+   },
+   {
+    "id": "thrive-naturopathic-regina--laura-stark",
+    "name": "Laura Stark",
+    "as_recorded": "Dr Stark ND (fee list); Dr. Laura Stark, Thrive Founder (team page)"
+   }
+  ],
+  "price_text": "$200 IV initial consultation (30 min) \u00b7 $115 IV therapy appointment (90+ min)",
+  "price_source": "Clinic's own website fee list, Naturopathic Consultations page (https://thrivenaturopathic.squarespace.com/naturopathic-consultations): '$200 IV Initial Consultation (Dr Raddysh ND & Dr Stark ND) 30 Minutes' and '$115 IV Therapy Appointment 90+ Minutes'. Practitioners are recorded from the IV Initial Consultation fee line, which names both NDs for the IV pathway; the IV Therapy Appointment fee line itself names no practitioner.",
+  "price_tier": "website",
+  "treatment_link": "https://thrivenaturopathic.squarespace.com/naturopathic-consultations",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "thrive-nutrition-coaching-brampton",
   "treatment_id": "thrive-nutrition-coaching-brampton--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -35269,6 +36640,25 @@
   "price_tier": null,
   "treatment_link": "https://www.timelesshealthclinic.com/naturopathic-medicine",
   "last_verified": null
+ },
+ {
+  "clinic_id": "tip-of-the-tongue-speech-therapy-and-lactation-consulting-red-deer",
+  "treatment_id": "tip-of-the-tongue-speech-therapy-and-lactation-consulting-red-deer--myofunctional-therapy",
+  "treatment": "Myofunctional Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Karrie Page",
+  "practitioners": [
+   {
+    "id": "tip-of-the-tongue-speech-therapy-and-lactation-consulting-red-deer--karrie-page",
+    "name": "Karrie Page",
+    "as_recorded": "Karrie Page, Speech-Language Pathologist | Lactation Consultant | Certified Orofacial Myologist (COM), IBCLC - Founder, Tip of the Tongue, per the clinic's own About page"
+   }
+  ],
+  "price_text": "$115/session (Myofunctional Therapy)",
+  "price_source": "Clinic's Jane booking page (tipofthetongue.janeapp.com) Fees note: 'Tip of the Tongue clinic fees will be increasing September 1, 2026... our Myofunctional Therapy fees will be increasing to $115/session' - the $115/session rate is therefore the current rate as of the 2026-11-01 verification.",
+  "price_tier": "booking",
+  "treatment_link": "https://www.tipofthetongue.ca/myofunctional-therapy",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "tonic-physiotherapy-and-rehabilitation-centre-milton",
@@ -36740,6 +38130,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "wayfound-mental-health-group-red-deer",
+  "treatment_id": "wayfound-mental-health-group-red-deer--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$235/hour (PAA recommended fee)",
+  "price_source": "Clinic's own website (onwardwellness.ca, First Responder & Frontline Mental Health service page): 'We follow the guidance of the Psychological Association of Alberta (PAA), and the current recommended fees are $235.00/hour.' No couples-specific fee is published, so the clinic's standard psychologist hourly fee stands in.",
+  "price_tier": "website",
+  "treatment_link": "https://onwardwellness.ca/services/relationship_therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "webster-massage-therapy-hamilton",
   "treatment_id": "webster-massage-therapy-hamilton--tmj-massage",
   "treatment": "TMJ Massage",
@@ -37667,6 +39070,45 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "http://www.yorkregioncbt.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "york-rehab-clinic-richmond-hill",
+  "treatment_id": "york-rehab-clinic-richmond-hill--cryotherapy",
+  "treatment": "Cryotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No cryotherapy fee (or any service fee list) is published on the clinic's own site pages read (homepage, cryotherapy article, shockwave and physiotherapy pages), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.yorkrehabclinic.ca/blog/cryotherapy-in-richmond-hill-targeted-cold-therapy-with-our-new-btl-cryotherapy-system/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "york-rehab-clinic-richmond-hill",
+  "treatment_id": "york-rehab-clinic-richmond-hill--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own shockwave service page or elsewhere on the site read in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.yorkrehabclinic.ca/service/shockwave-therapy-richmond-hill/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "york-rehab-clinic-richmond-hill",
+  "treatment_id": "york-rehab-clinic-richmond-hill--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No TMJ massage / osteo-massage fee is published on the clinic's own site pages read in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.yorkrehabclinic.ca/",
   "last_verified": "2026-11-01"
  },
  {

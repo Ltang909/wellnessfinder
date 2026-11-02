@@ -1600,6 +1600,31 @@
   "last_verified": null
  },
  {
+  "name": "Ancient Balance Acupuncture",
+  "clinic_id": "ancient-balance-acupuncture-red-deer",
+  "address": "4610 51 St",
+  "city": "Red Deer",
+  "prov": "AB",
+  "postal": null,
+  "phone": "780-886-7786",
+  "website": "http://www.ancientbalance.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": "9:00 AM - 4:00 PM",
+   "thu": "10:00 AM - 8:00 PM",
+   "tue": null,
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Andalusia Speech Therapy",
   "clinic_id": "andalusia-speech-therapy-kanata",
   "address": "99 Kakulu Rd, Suite 200",
@@ -2200,6 +2225,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Atlas Physiotherapy Centre - pt Health",
+  "clinic_id": "atlas-physiotherapy-centre-pt-health-richmond",
+  "address": "6971 Elmbridge Way, Suite 170",
+  "city": "Richmond",
+  "prov": "BC",
+  "postal": "V7C 0A5",
+  "phone": "604-278-2020",
+  "website": "https://www.pthealth.ca/clinic/atlas-physiotherapy-centre-pt-health/",
+  "booking_page": "https://booking.pthealth.ca",
+  "hours": {
+   "mon": "7:30 AM \u2013 8:00 PM",
+   "tue": "7:30 AM \u2013 8:00 PM",
+   "wed": "7:30 AM \u2013 8:00 PM",
+   "thu": "7:30 AM \u2013 8:00 PM",
+   "fri": "7:30 AM \u2013 8:00 PM",
+   "sat": "8:00 AM \u2013 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places details in search results for Atlas Physiotherapy Centre - pt Health: 'Rating: five stars (5.0) Based on 2 reviews'.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Attain Physiotherapy & Sport Performance Centre",
   "clinic_id": "attain-physiotherapy-sport-performance-centre-st-john-s",
   "address": "9 Austin Street",
@@ -2392,6 +2442,31 @@
    "fri": "8:00 AM - 8:00 PM",
    "sat": "11:00 AM - 3:00 PM",
    "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Awareness Massage Therapy Clinic and Wellness Centre",
+  "clinic_id": "awareness-massage-therapy-clinic-and-wellness-centre-regina",
+  "address": "1856 Scarth St #201",
+  "city": "Regina",
+  "prov": "SK",
+  "postal": "S4P 2G3",
+  "phone": "306-525-5799",
+  "website": "http://www.awarenessmassagetherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "10:00 AM - 4:00 PM",
+   "sun": "10:00 AM - 4:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -2900,6 +2975,31 @@
   "last_verified": null
  },
  {
+  "name": "Beauty Within",
+  "clinic_id": "beauty-within-richmond",
+  "address": "1635 Hyde Park Road Suite 102",
+  "city": "Richmond",
+  "prov": "BC",
+  "postal": "N6H 5L7",
+  "phone": "519-266-3642",
+  "website": "https://beautywithin.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 6:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 6:00 PM",
+   "thu": "9:00 AM \u2013 6:00 PM",
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.5,
+  "google_reviews": 88,
+  "rating_source": "Clinic's own website (beautywithin.ca) footer, which displays 'Rating: 4.5 (88 reviews)' alongside the clinic's Google g.page link.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Bedford Acupuncture",
   "clinic_id": "bedford-acupuncture-halifax",
   "address": "61 Fairhaven Way",
@@ -3388,6 +3488,56 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Body To Soul",
+  "clinic_id": "body-to-soul-red-deer",
+  "address": "4730 50 St Unit B",
+  "city": "Red Deer",
+  "prov": "AB",
+  "postal": null,
+  "phone": "(403) 391-0812",
+  "website": "http://bodytosoul.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 7:00 PM",
+   "mon": "9:00 AM - 7:00 PM",
+   "sat": "10:00 AM - 2:30 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM"
+  },
+  "google_rating": 5,
+  "google_reviews": 2,
+  "rating_source": "http://bodytosoul.ca/",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Body To Soul Massage and Lymphatic System Therapy",
+  "clinic_id": "body-to-soul-massage-and-lymphatic-system-therapy-red-deer",
+  "address": "4730 50 St Unit B",
+  "city": "Red Deer",
+  "prov": "AB",
+  "postal": null,
+  "phone": "(403) 391-0812",
+  "website": "http://bodytosoul.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 7:00 PM",
+   "mon": "9:00 AM - 7:00 PM",
+   "sat": "10:00 AM - 2:30 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM"
+  },
+  "google_rating": 5,
+  "google_reviews": 2,
+  "rating_source": "http://bodytosoul.ca/",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -4842,6 +4992,31 @@
   "last_verified": null
  },
  {
+  "name": "Centre for Therapeutic Massage",
+  "clinic_id": "centre-for-therapeutic-massage-richmond-hill",
+  "address": "339 Taylor Mills Drive North",
+  "city": "Richmond Hill",
+  "prov": "ON",
+  "postal": "L4C 2T8",
+  "phone": "416-433-8998",
+  "website": "http://www.rmtrichmondhill.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "12:00 PM - 6:00 PM",
+   "tue": "12:00 PM - 6:00 PM",
+   "wed": "12:00 PM - 6:00 PM",
+   "thu": "12:00 PM - 6:00 PM",
+   "fri": "12:00 PM - 6:00 PM",
+   "sat": "10:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Champagne Acupuncture",
   "clinic_id": "champagne-acupuncture-montreal",
   "address": "5004 R. Saint-Denis suite 101",
@@ -5901,6 +6076,31 @@
   "last_verified": null
  },
  {
+  "name": "Clinique de Psychologie et d'Insomnie",
+  "clinic_id": "clinique-de-psychologie-et-dinsomnie-quebec-city",
+  "address": "831 Avenue Marguerite-Bourgeoys",
+  "city": "Quebec City",
+  "prov": "QC",
+  "postal": "G1S 3W4",
+  "phone": "418-456-1368",
+  "website": "https://www.psycho-sommeil.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 5:00 PM",
+   "mon": "8:00 AM - 9:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:00 AM - 9:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Clinique de psychologie Macherez et Beauvolsk",
   "clinic_id": "clinique-de-psychologie-macherez-et-beauvolsk-longueuil",
   "address": "280 Rue Saint-Charles O",
@@ -6216,6 +6416,31 @@
   "rating_source": null,
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Collegiate Sports Medicine",
+  "clinic_id": "collegiate-sports-medicine-red-deer",
+  "address": "5121 47 St",
+  "city": "Red Deer",
+  "prov": "AB",
+  "postal": "T4N 1R8",
+  "phone": "(403) 314-4458",
+  "website": "https://collegiatesportsmedicine.ca/",
+  "booking_page": "https://csm.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 4:00 PM",
+   "mon": "9:00 AM - 7:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:00 AM - 5:00 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Collingwood Fertility Acupuncture",
@@ -6793,6 +7018,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Crescendo \u2014 Orthophonie de la voix",
+  "clinic_id": "crescendo-orthophonie-de-la-voix-rosemere",
+  "address": "323 Chem. de la Grande-C\u00f4te",
+  "city": "Rosem\u00e8re",
+  "prov": "QC",
+  "postal": "J7A 1J9",
+  "phone": "514-627-4457",
+  "website": "https://www.orthophoniecrescendo.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Cristina Sutter",
   "clinic_id": "cristina-sutter-north-vancouver",
   "address": "870 Baycrest Dr",
@@ -6990,6 +7240,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "DC Psychological Services",
+  "clinic_id": "dc-psychological-services-red-deer",
+  "address": "#300 5440 45 St",
+  "city": "Red Deer",
+  "prov": "AB",
+  "postal": "T4N 1L1",
+  "phone": "403-877-0056",
+  "website": "https://www.dcpsychological.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:30 AM - 3:00 PM",
+   "mon": "9:30 AM - 3:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "1:30 PM - 7:00 PM",
+   "tue": "9:30 AM - 3:00 PM",
+   "wed": "9:30 AM - 7:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -7318,6 +7593,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dalton Associates",
+  "clinic_id": "dalton-associates-richmond-hill",
+  "address": "22 Maraca Dr",
+  "city": "Richmond Hill",
+  "prov": "ON",
+  "postal": null,
+  "phone": "1-888-245-5516",
+  "website": "https://www.daltonassociates.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Danesh Aesthetics",
   "clinic_id": "danesh-aesthetics-richmond-hill",
   "address": "11160 Yonge Street, Unit 7",
@@ -7340,7 +7640,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Dawdy Naturopathic Clinic",
@@ -7965,6 +8265,31 @@
   "google_reviews": 154,
   "rating_source": "Clinic's own downtown location page prints 'Rating: 4.8/5 (154 reviews)' (athleteschoicemassage.ca/locations/downtown-edmonton/ business block). Aggregator ratings (TrustAnalytica 4.9/50) were NOT used.",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr Keshia Kamphuis ND",
+  "clinic_id": "dr-keshia-kamphuis-nd-red-deer",
+  "address": "B102, 5212 48 St Suite #104",
+  "city": "Red Deer",
+  "prov": "AB",
+  "postal": "T4N 7C3",
+  "phone": "587-815-8278",
+  "website": "http://www.drkeshiand.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": "9:30 AM - 2:30 PM",
+   "tue": "9:30 AM - 2:30 PM",
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -9193,6 +9518,31 @@
   "last_verified": null
  },
  {
+  "name": "Dr. Jason Law",
+  "clinic_id": "dr-jason-law-richmond-hill",
+  "address": "420 Hwy 7 E Unit 205",
+  "city": "Richmond Hill",
+  "prov": "ON",
+  "postal": "L4B 3K2",
+  "phone": "905-771-8808",
+  "website": "http://intdoctors.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 1:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Jatish Kaler",
   "clinic_id": "dr-jatish-kaler-calgary",
   "address": "530 8 Ave SW Suite 110",
@@ -9260,6 +9610,31 @@
    "fri": "12:00 PM - 7:00 PM",
    "sat": "10:00 AM - 3:00 PM",
    "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Jennifer Pilon ND",
+  "clinic_id": "dr-jennifer-pilon-nd-red-deer",
+  "address": "Suite 102, 4315 55 Ave",
+  "city": "Red Deer",
+  "prov": "AB",
+  "postal": "T4N 4N7",
+  "phone": "403-885-8800",
+  "website": "https://www.drjenpilon.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:30 AM - 5:00 PM",
+   "mon": "8:30 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:30 AM - 5:00 PM",
+   "tue": "8:30 AM - 5:00 PM",
+   "wed": "8:30 AM - 5:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -10143,6 +10518,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Nicole Mitchelson",
+  "clinic_id": "dr-nicole-mitchelson-regina",
+  "address": "3737 Wascana Parkway",
+  "city": "Regina",
+  "prov": "SK",
+  "postal": "S4S 0A2",
+  "phone": "306-585-4004",
+  "website": "http://www.drnicolemitchelson.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "11:00 AM - 3:00 PM",
+   "wed": "11:00 AM - 3:00 PM",
+   "thu": "11:00 AM - 3:00 PM",
+   "fri": "11:00 AM - 3:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Nicole Rush",
   "clinic_id": "dr-nicole-rush-london",
   "address": "130 High St",
@@ -10441,6 +10841,31 @@
   "rating_source": "Google Places details in search results for Dr. Rachel Corradetti-Sargeant: 'Rating: five stars (5.0) Based on 8 reviews'.",
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Dr. Rachel Lam",
+  "clinic_id": "dr-rachel-lam-richmond",
+  "address": "6081 No. 3 Rd Unit 613",
+  "city": "Richmond",
+  "prov": "BC",
+  "postal": "V6Y 2B2",
+  "phone": "778-308-5291",
+  "website": "https://www.drrachellam.com/",
+  "booking_page": "https://drrachellam.janeapp.com/",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": "10:00 AM \u2013 6:00 PM",
+   "thu": null,
+   "fri": null,
+   "sat": "9:30 AM \u2013 5:30 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Dr. Renata Mola",
@@ -12768,6 +13193,31 @@
   "last_verified": null
  },
  {
+  "name": "Food to Fit Nutrition Inc.",
+  "clinic_id": "food-to-fit-nutrition-inc-regina",
+  "address": "2445 Broad St #205",
+  "city": "Regina",
+  "prov": "SK",
+  "postal": null,
+  "phone": "306-717-6291",
+  "website": "http://www.foodtofit.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Fortify",
   "clinic_id": "fortify-winnipeg",
   "address": "123 Marion St #100",
@@ -12791,6 +13241,31 @@
   "rating_source": null,
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Four Seasons Naturopathic Wellness",
+  "clinic_id": "four-seasons-naturopathic-wellness-richmond-hill",
+  "address": "305 Carrville Rd",
+  "city": "Richmond Hill",
+  "prov": "ON",
+  "postal": "L4C 6E4",
+  "phone": "905-597-7201",
+  "website": "http://www.familynaturopath.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "10:00 AM - 1:00 PM",
+   "wed": "10:00 AM - 7:00 PM",
+   "thu": "10:00 AM - 7:00 PM",
+   "fri": null,
+   "sat": "8:00 AM - 4:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Francine Allard Nutritionniste Di\u00e9t\u00e9tiste",
@@ -13443,6 +13918,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Groupe Ancora Mario Levesque",
+  "clinic_id": "groupe-ancora-mario-levesque-rimouski",
+  "address": "93 Rue St Germain O #102B",
+  "city": "Rimouski",
+  "prov": "QC",
+  "postal": null,
+  "phone": "418-730-5966",
+  "website": "http://www.groupeancora.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": "8:30 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:30 AM - 5:00 PM",
+   "tue": "8:30 AM - 5:00 PM",
+   "wed": "8:30 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Guelph Voice & Speech Therapy",
   "clinic_id": "guelph-voice-speech-therapy-guelph",
   "address": "854 Gordon St, Suite 201",
@@ -13743,6 +14243,31 @@
   "last_verified": null
  },
  {
+  "name": "Head to Heal Family Wellness",
+  "clinic_id": "head-to-heal-family-wellness-regina",
+  "address": "2706 13th Ave",
+  "city": "Regina",
+  "prov": "SK",
+  "postal": "S4T 1N3",
+  "phone": "306-543-4325",
+  "website": "https://www.headtohealfamilywellness.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 5:00 PM",
+   "tue": "10:00 AM - 5:00 PM",
+   "wed": "10:00 AM - 5:00 PM",
+   "thu": "10:00 AM - 6:00 PM",
+   "fri": "10:00 AM - 5:00 PM",
+   "sat": "10:00 AM - 4:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 8,
+  "rating_source": "Google Places details in search results for Head to Heal Family Naturopathic Wellness, Regina: 5.0 stars based on 8 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Healing House",
   "clinic_id": "healing-house-ottawa",
   "address": "29 Bayswater Ave",
@@ -13914,6 +14439,31 @@
   "google_rating": 4.9,
   "google_reviews": 18,
   "rating_source": "Google Places details in search results for HealthSource Integrative Medical Centre: 'Rating: five stars (4.9), Based on 18 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "HealthStyle Dental",
+  "clinic_id": "healthstyle-dental-regina",
+  "address": "332 University Park Dr",
+  "city": "Regina",
+  "prov": "SK",
+  "postal": "S4V 0Y8",
+  "phone": "306-789-2330",
+  "website": "https://www.healthstyledental.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 4:30 PM",
+   "tue": "9:00 AM - 5:30 PM",
+   "wed": "9:00 AM - 4:30 PM",
+   "thu": "8:30 AM - 4:30 PM",
+   "fri": "8:00 AM - 1:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -14216,6 +14766,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Homecoming Psychotherapy",
+  "clinic_id": "homecoming-psychotherapy-richmond-hill",
+  "address": "20 Wertheim Ct, Unit 42",
+  "city": "Richmond Hill",
+  "prov": "ON",
+  "postal": "L4B 3A8",
+  "phone": "289-672-1082",
+  "website": "https://homecomingtherapy.ca/",
+  "booking_page": "https://app.acuityscheduling.com/schedule.php?owner=29684921&",
+  "hours": {
+   "mon": "10:00 AM - 9:00 PM",
+   "tue": "10:00 AM - 9:00 PM",
+   "wed": "10:00 AM - 9:00 PM",
+   "thu": "10:00 AM - 9:00 PM",
+   "fri": "10:00 AM - 9:00 PM",
+   "sat": "10:00 AM - 4:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": null,
+  "rating_source": "Clinic's own website homepage (homecomingtherapy.ca) carries a Google badge stating 'Rated 5 stars on Google'; no review count is published with the badge, so google_reviews is null.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Hong's Health Care",
@@ -15090,7 +15665,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "JM Nutrition",
@@ -15190,6 +15765,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Janis Li",
+  "clinic_id": "janis-li-richmond-hill",
+  "address": "9019 Bayview Ave Unit 2A",
+  "city": "Richmond Hill",
+  "prov": "ON",
+  "postal": "L4B 3M6",
+  "phone": "416-707-4538",
+  "website": "https://www.bayviewnorth.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "11:00 AM - 6:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 1:00 PM",
+   "thu": "1:00 PM - 7:00 PM",
+   "fri": "8:00 AM - 1:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 11,
+  "rating_source": "Google Places details in search results for Bayview North Family Chiropractic: 5.0 stars based on 11 reviews.",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -16218,6 +16818,31 @@
   "last_verified": null
  },
  {
+  "name": "La Cit\u00e9 M\u00e9dicale",
+  "clinic_id": "la-cite-medicale-quebec-city",
+  "address": "2600, boulevard Laurier, Suite 295",
+  "city": "Quebec City",
+  "prov": "QC",
+  "postal": "G1V 4T3",
+  "phone": "418-781-0480",
+  "website": "https://lacitemedicale.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 8:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 4:00 PM",
+   "sun": "8:00 AM - 4:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": 3.6,
+  "google_reviews": 133,
+  "rating_source": "Google Places details in search results for La Cit\u00e9 M\u00e9dicale (2600 Boul Laurier Suite 295, website lacitemedicale.com): 3.6 stars based on 133 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "La Palma Spa",
   "clinic_id": "la-palma-spa-calgary",
   "address": "2039 26 Avenue Southwest",
@@ -16433,6 +17058,31 @@
    "wed": "9:00 AM - 5:00 PM",
    "thu": "9:00 AM - 5:00 PM",
    "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Lauren Straub",
+  "clinic_id": "lauren-straub-regina",
+  "address": "2216 Smith Street",
+  "city": "Regina",
+  "prov": "SK",
+  "postal": "S4P 2P4",
+  "phone": "306-565-1747",
+  "website": "http://www.laurenstraub.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 5:00 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "8:00 AM - 5:00 PM",
+   "thu": "8:00 AM - 5:00 PM",
+   "fri": "8:00 AM - 5:00 PM",
    "sat": null,
    "sun": null
   },
@@ -16666,6 +17316,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Libra Nutrition",
+  "clinic_id": "libra-nutrition-richmond",
+  "address": "8171 Ackroyd Rd Unit 4050",
+  "city": "Richmond",
+  "prov": "BC",
+  "postal": "V6X 3K1",
+  "phone": "778-742-5066",
+  "website": "https://libranutrition.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM \u2013 5:00 PM",
+   "tue": "10:00 AM \u2013 5:00 PM",
+   "wed": "10:00 AM \u2013 5:00 PM",
+   "thu": "10:00 AM \u2013 5:00 PM",
+   "fri": "10:00 AM \u2013 5:00 PM",
+   "sat": null,
+   "sun": "10:00 AM \u2013 4:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "LifeCare Acupuncture & Natural Medicine Clinic",
@@ -17065,7 +17740,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Loving Choices Psychology",
@@ -17593,6 +18268,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Mandala Massage Regina",
+  "clinic_id": "mandala-massage-regina-regina",
+  "address": "2310 Scarth Street",
+  "city": "Regina",
+  "prov": "SK",
+  "postal": "S4P 2J7",
+  "phone": "306-559-7770",
+  "website": "https://www.mandalamassageregina.com/",
+  "booking_page": "https://mandalamassageregina.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 7,
+  "rating_source": "Google Places details in search results for Mandala Massage & Acupuncture, Regina: 5.0 stars based on 7 reviews.",
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Marathon Chiropractic Clinic",
   "clinic_id": "marathon-chiropractic-clinic-lethbridge",
   "address": null,
@@ -17960,6 +18660,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Massoth\u00e9rapie Le Mesnil",
+  "clinic_id": "massotherapie-le-mesnil-quebec-city",
+  "address": "797 boulevard Lebourgneuf, suite 202",
+  "city": "Quebec City",
+  "prov": "QC",
+  "postal": "G2J 0B5",
+  "phone": "418-997-9625",
+  "website": "https://www.massages-quebec.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:30 AM - 6:00 PM",
+   "mon": "9:30 AM - 5:00 PM",
+   "sat": "10:00 AM - 5:00 PM",
+   "sun": null,
+   "thu": "9:30 AM - 6:00 PM",
+   "tue": "9:30 AM - 6:30 PM",
+   "wed": "9:30 AM - 6:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Master-Kin\u00e9",
   "clinic_id": "master-kin-terrebonne",
   "address": null,
@@ -18073,6 +18798,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Mecca Massage Therapy Clinic",
+  "clinic_id": "mecca-massage-therapy-clinic-regina",
+  "address": "2278 Rose Street",
+  "city": "Regina",
+  "prov": "SK",
+  "postal": "S4P 2A6",
+  "phone": "306-591-7105",
+  "website": "https://www.meccamassage.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "11:00 AM - 6:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 11,
+  "rating_source": "Google Places details in search results for Mecca Massage Therapy Clinic, Regina: 5.0 stars based on 11 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -19027,6 +19777,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Mountain Top Counselling",
+  "clinic_id": "mountain-top-counselling-regina",
+  "address": "234 11 Ave E",
+  "city": "Regina",
+  "prov": "SK",
+  "postal": "S4N 6G8",
+  "phone": "306-869-5228",
+  "website": "https://www.mountaintopcounselling.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 8:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Moves You Physiotherapy",
   "clinic_id": "moves-you-physiotherapy-coquitlam",
   "address": "2992 Glen Dr #500",
@@ -19373,8 +20148,8 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": "Google Places details returned rating null for this location; clinic site Google badge is chain-wide (4.9, 5,751 reviews), not location-specific, so not used as a per-location rating.",
-  "direct_billing": null,
-  "last_verified": null
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Myo (Myodetox) \u2014 Yorkville",
@@ -19823,8 +20598,8 @@
   "google_rating": 4.7,
   "google_reviews": 18,
   "rating_source": "Google Places details (avg_rating 4.6667, num_rating 18)",
-  "direct_billing": null,
-  "last_verified": null
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Neurodezign",
@@ -19974,6 +20749,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Neuroperforma \u2014 Qu\u00e9bec",
+  "clinic_id": "neuroperforma-quebec-quebec-city",
+  "address": "2360, chemin Ste-Foy, Suite 320",
+  "city": "Quebec City",
+  "prov": "QC",
+  "postal": "G1V 4H2",
+  "phone": "418-476-0113",
+  "website": "https://neuroperforma.com",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 9:00 PM",
+   "mon": "8:00 AM - 9:00 PM",
+   "sat": "8:30 AM - 5:00 PM",
+   "sun": "8:00 AM - 4:30 PM",
+   "thu": "8:00 AM - 9:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -20399,6 +21199,31 @@
   "google_reviews": 104,
   "rating_source": "Rating displayed in the business block of the clinic's own Burnaby location page (fetched 2026-11-01): 'Rating: 4.8 (104 reviews)'. A conflicting Google Places extract (4.6, 12 reviews) is flagged in gaps.",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "No Fear Counselling - Richmond",
+  "clinic_id": "no-fear-counselling-richmond-richmond",
+  "address": "5951 Number 3 Rd",
+  "city": "Richmond",
+  "prov": "BC",
+  "postal": "V6X 3Y6",
+  "phone": "778-288-8361",
+  "website": "https://www.nofearcounselling.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": "10:00 AM - 5:00 PM",
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -21552,6 +22377,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Online Nutrition Advice",
+  "clinic_id": "online-nutrition-advice-richmond-hill",
+  "address": "ALTIMA WELLNESS CENTRE, 9625 Yonge St Unit 1",
+  "city": "Richmond Hill",
+  "prov": "ON",
+  "postal": null,
+  "phone": "647-875-4607",
+  "website": "http://onlinenutritionadvice.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Open Circle Psychology",
   "clinic_id": "open-circle-psychology-winnipeg",
   "address": "102 - 11 Evergreen Place",
@@ -22427,6 +23277,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Patchouli7drops",
+  "clinic_id": "patchouli7drops-richmond-hill",
+  "address": "24 Dunlop St",
+  "city": "Richmond Hill",
+  "prov": "ON",
+  "postal": "L4C 2M3",
+  "phone": "647-929-5409",
+  "website": "https://patchouli7drops.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 8:00 PM",
+   "mon": null,
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "12:00 PM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Peaceful Mind Psychology",
   "clinic_id": "peaceful-mind-psychology-edmonton",
   "address": "9415 20 Ave NW Ste 200",
@@ -22874,6 +23749,31 @@
   "google_reviews": 2,
   "rating_source": "Google Places details (place_id 549458660309211)",
   "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Physio PMP (Physioth\u00e9rapie Mouvement Performance)",
+  "clinic_id": "physio-pmp-physiotherapie-mouvement-performance-quebec-city",
+  "address": "2569 avenue Royale",
+  "city": "Quebec City",
+  "prov": "QC",
+  "postal": "G1C 1S3",
+  "phone": "581-888-2488",
+  "website": "http://physiopmp.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": 5,
+  "google_reviews": 9,
+  "rating_source": "http://physiopmp.com/",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -23552,6 +24452,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Prairie Psychology Svc",
+  "clinic_id": "prairie-psychology-svc-regina",
+  "address": "2230 Lorne Street",
+  "city": "Regina",
+  "prov": "SK",
+  "postal": "S4P 2M7",
+  "phone": "306-584-3876",
+  "website": "https://prairiepsychology.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Pro Fusion Rehab Physiotherapy",
   "clinic_id": "pro-fusion-rehab-physiotherapy-pickering",
   "address": "1885 Glenanna Rd Unit 112",
@@ -23727,6 +24652,31 @@
   "last_verified": null
  },
  {
+  "name": "Proactive Health",
+  "clinic_id": "proactive-health-richmond",
+  "address": "13351 Commerce Pkwy Unit 1128",
+  "city": "Richmond",
+  "prov": "BC",
+  "postal": "V6V 2X7",
+  "phone": "604-242-3633",
+  "website": "https://proactivehealth.online/",
+  "booking_page": "https://proactivehealthonline.janeapp.com/",
+  "hours": {
+   "fri": "9:00 AM - 7:00 PM",
+   "mon": "9:00 AM - 7:00 PM",
+   "sat": "10:00 AM - 6:00 PM",
+   "sun": "10:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 232,
+  "rating_source": "Google Places details surfaced on the clinic's own homepage fetch for Proactive Health, Richmond: 5.0 stars based on 232 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Proactive Pelvic Health Centre",
   "clinic_id": "proactive-pelvic-health-centre-toronto",
   "address": "832 College Street, Suite 500",
@@ -23750,6 +24700,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Professional Psychologists and Associates",
+  "clinic_id": "professional-psychologists-and-associates-regina",
+  "address": "104-2022 Cornwall St",
+  "city": "Regina",
+  "prov": "SK",
+  "postal": "S4P 2K5",
+  "phone": "306-721-2064",
+  "website": "http://www.ppanda.ca/",
+  "booking_page": "https://profpsychandassoc.janeapp.com/locations/professional-psychologists-and-associates",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Progression Clinic | Physiotherapy Vancouver & Massage Therapy Clinic",
@@ -24048,6 +25023,56 @@
   "google_rating": 4.6,
   "google_reviews": 17,
   "rating_source": "Google Places details in search results for Pure Wellness Group (place_id 1490256184745006): 'Rating: four and a half stars (4.6) Based on 17 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Pursuit Physiotherapy",
+  "clinic_id": "pursuit-physiotherapy-red-deer",
+  "address": "2840 Bremner Ave #110",
+  "city": "Red Deer",
+  "prov": "AB",
+  "postal": "T4R 1M9",
+  "phone": "403-356-9789",
+  "website": "https://www.pursuitphysio.com/",
+  "booking_page": "https://pursuitphysio.janeapp.com/locations/pursuit-physiotherapy/book",
+  "hours": {
+   "mon": "8:00 AM - 6:30 PM",
+   "tue": "7:30 AM - 5:00 PM",
+   "wed": "8:00 AM - 6:30 PM",
+   "thu": "7:30 AM - 5:00 PM",
+   "fri": "8:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 6,
+  "rating_source": "Google Places details in search results for Pursuit Physiotherapy, Red Deer: 5.0 stars based on 6 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Q. Osteo-Med Clinic",
+  "clinic_id": "q-osteo-med-clinic-richmond-hill",
+  "address": "127 Strathearn Ave",
+  "city": "Richmond Hill",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-303-9866",
+  "website": "https://q-osteomed.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM - 7:00 PM",
+   "mon": "10:00 AM - 7:00 PM",
+   "sat": "10:00 AM - 3:00 PM",
+   "sun": "Closed",
+   "thu": "10:00 AM - 7:00 PM",
+   "tue": "10:00 AM - 7:00 PM",
+   "wed": "10:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -24527,6 +25552,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Red Deer Chiropractic and Laser Centre",
+  "clinic_id": "red-deer-chiropractic-and-laser-centre-red-deer",
+  "address": "1959 Gaetz Ave #3",
+  "city": "Red Deer",
+  "prov": "AB",
+  "postal": "T4R 1Z4",
+  "phone": "403-340-1228",
+  "website": "http://reddeerchiropractic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": "9:00 AM - 12:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 11,
+  "rating_source": "Google Places details in search results for Red Deer Chiropractic & Laser Centre, Red Deer: 5.0 stars based on 11 reviews. (Aggregator figures, e.g. HealthHives, were NOT used.)",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Red Leaf Wellness",
   "clinic_id": "red-leaf-wellness-edmonton",
   "address": "12820 107 Avenue NW",
@@ -24673,8 +25723,8 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
-  "last_verified": null
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Rekindle Health",
@@ -24699,6 +25749,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Remedy Massage Therapy",
+  "clinic_id": "remedy-massage-therapy-richmond",
+  "address": "#1420 - 4771 McClelland Rd",
+  "city": "Richmond",
+  "prov": "BC",
+  "postal": "V6X 0M5",
+  "phone": "604-285-8070",
+  "website": "https://www.richmondremedymassage.ca/",
+  "booking_page": "https://richmondremedymassage.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 9:30 PM",
+   "mon": "8:00 AM - 9:30 PM",
+   "sat": "8:00 AM - 9:30 PM",
+   "sun": "8:00 AM - 9:30 PM",
+   "thu": "8:00 AM - 9:30 PM",
+   "tue": "8:00 AM - 9:30 PM",
+   "wed": "8:00 AM - 9:30 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 3,
+  "rating_source": "Google Places details in search results for Remedy Massage Therapy, Richmond (4771 McClelland Rd #1420): 5.0 stars based on 3 reviews.",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -25152,6 +26227,31 @@
   "last_verified": null
  },
  {
+  "name": "Richmond Hill Health & Wellness",
+  "clinic_id": "richmond-hill-health-and-wellness-richmond-hill",
+  "address": "8950 Yonge St Unit 6",
+  "city": "Richmond Hill",
+  "prov": "ON",
+  "postal": "L4C 6Z7",
+  "phone": "905-707-7000",
+  "website": "https://richmondhillhealth.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 3:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "1:00 PM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "10:00 AM - 4:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 3,
+  "rating_source": "Google Places details in search results for Richmond Hill Health & Wellness: 5.0 stars based on 3 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Richmond Hill Naturopathic Clinic (RHNC)",
   "clinic_id": "richmond-hill-naturopathic-clinic-rhnc-richmond-hill",
   "address": "10168 Yonge St Ste 102",
@@ -25175,6 +26275,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Richmond Naturopathic",
+  "clinic_id": "richmond-naturopathic-richmond",
+  "address": "8211 Ackroyd Rd",
+  "city": "Richmond",
+  "prov": "BC",
+  "postal": "V6X 3K1",
+  "phone": "604-273-7753",
+  "website": "http://www.richmondnaturopathic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "10:30 AM - 5:30 PM",
+   "wed": "10:30 AM - 5:30 PM",
+   "thu": "10:30 AM - 5:30 PM",
+   "fri": "10:30 AM - 5:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Richmond Physiotherapy & Massage",
@@ -26027,6 +27152,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Self Led Therapy",
+  "clinic_id": "self-led-therapy-richmond-hill",
+  "address": "30 Wertheim Court Unit 9",
+  "city": "Richmond Hill",
+  "prov": "ON",
+  "postal": "L4B 1B9",
+  "phone": null,
+  "website": "http://selfledtherapy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Serene Woods Psychotherapy and Collaborative Services",
   "clinic_id": "serene-woods-psychotherapy-and-collaborative-services-ottawa",
   "address": "11 Rosemount Ave, Suite 302",
@@ -26699,6 +27849,31 @@
   "google_reviews": 4,
   "rating_source": "Google Places details",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Sow and Grow Therapy",
+  "clinic_id": "sow-and-grow-therapy-richmond-hill",
+  "address": "30 Wertheim Ct Building B Unit 12",
+  "city": "Richmond Hill",
+  "prov": "ON",
+  "postal": "L4B 1B9",
+  "phone": "289-272-9288",
+  "website": "https://sowandgrowtherapy.com/",
+  "booking_page": "https://sowandgrowpsychotherapy.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -27494,6 +28669,31 @@
   "last_verified": null
  },
  {
+  "name": "Supporting Wellness Psychological & Family Services",
+  "clinic_id": "supporting-wellness-psychological-family-services-red-deer",
+  "address": "5550 45 St Unit G11",
+  "city": "Red Deer",
+  "prov": "AB",
+  "postal": "T4N 1L1",
+  "phone": "1-888-622-8350",
+  "website": "https://supportingwellness.com/",
+  "booking_page": "https://supportingwellnesspsychological.janeapp.com/locations/supporting-wellness-red-deer-office/book",
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 8:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "SweetPea Fertility and Wellness",
   "clinic_id": "sweetpea-fertility-and-wellness-guelph",
   "address": "17 Summit Crescent",
@@ -28161,6 +29361,31 @@
    "fri": "7:00 AM - 4:00 PM",
    "sat": null,
    "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Motion Lab",
+  "clinic_id": "the-motion-lab-richmond",
+  "address": "5951 No. 3 Road Unit 800",
+  "city": "Richmond",
+  "prov": "BC",
+  "postal": "V6X 2E3",
+  "phone": "877-358-3314",
+  "website": "http://themotionlab.co/",
+  "booking_page": "https://motionlab.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 6:30 PM",
+   "wed": "9:30 AM - 7:00 PM",
+   "thu": "8:00 AM - 7:00 PM",
+   "fri": "10:00 AM - 7:00 PM",
+   "sat": "8:00 AM - 5:00 PM",
+   "sun": "Closed"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -28936,6 +30161,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Thrive Naturopathic",
+  "clinic_id": "thrive-naturopathic-regina",
+  "address": "325 Victoria Ave",
+  "city": "Regina",
+  "prov": "SK",
+  "postal": null,
+  "phone": "306-949-4325",
+  "website": "https://thriveregina.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 5:00 PM",
+   "thu": "9:00 AM \u2013 5:00 PM",
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "sat": "9:30 AM \u2013 3:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Thrive Nutrition Coaching",
   "clinic_id": "thrive-nutrition-coaching-brampton",
   "address": "100 Queen Street West",
@@ -29008,6 +30258,31 @@
   "google_reviews": 171,
   "rating_source": "Clinic's own website https://www.timelesshealthclinic.com/naturopathic-medicine displays 'Rating: 5.0 (171 reviews)' in its business/location block",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Tip of the Tongue Speech Therapy and Lactation Consulting",
+  "clinic_id": "tip-of-the-tongue-speech-therapy-and-lactation-consulting-red-deer",
+  "address": "80 Donlevy Ave Unit 300",
+  "city": "Red Deer",
+  "prov": "AB",
+  "postal": "T4R 2Y8",
+  "phone": "825-989-6099",
+  "website": "http://www.tipofthetongue.ca/",
+  "booking_page": "https://tipofthetongue.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 4:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 4:00 PM",
+   "fri": "9:00 AM - 7:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -30211,6 +31486,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Wayfound Mental Health Group",
+  "clinic_id": "wayfound-mental-health-group-red-deer",
+  "address": "5589 47 St #101",
+  "city": "Red Deer",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-550-3614",
+  "website": "https://onwardwellness.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "WePhysio Performance & Wellness",
   "clinic_id": "wephysio-performance-and-wellness-edmonton",
   "address": "11996 109A Ave NW",
@@ -30932,6 +32232,31 @@
   "google_rating": 5.0,
   "google_reviews": 1,
   "rating_source": "Google Places details shown in search results for this listing (5.0 stars, 1 review).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "York Rehab Clinic",
+  "clinic_id": "york-rehab-clinic-richmond-hill",
+  "address": "10825 Yonge St Unit 5",
+  "city": "Richmond Hill",
+  "prov": "ON",
+  "postal": "L4C 3E3",
+  "phone": "416-350-1940",
+  "website": "https://www.yorkrehabclinic.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM - 7:00 PM",
+   "mon": null,
+   "sat": "10:00 AM - 4:00 PM",
+   "sun": null,
+   "thu": "1:00 PM - 6:30 PM",
+   "tue": "10:00 AM - 7:00 PM",
+   "wed": "10:00 AM - 7:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 310,
+  "rating_source": "Clinic's own website (homepage and blog/service pages) displays 'Rating: 4.9 (310 reviews)'. A 4.9/321 figure on the HealthHives aggregator was NOT used per the allowed-sources rule.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
