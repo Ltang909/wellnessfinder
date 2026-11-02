@@ -179,7 +179,7 @@
       statsRoot.innerHTML =
         `<div class="claims-stats">${CLAIM_STATS.map((s) =>
           `<div class="cstat"><span class="cstat-num">${esc(s.num)}</span><span class="cstat-label">${esc(s.label)}</span></div>`).join("")}</div>
-         <p class="claims-source">Benefits figure: CLHIA, 2025. Clinic counts from WellFinder's own verification, November 2026.</p>`;
+         <p class="claims-source">Clinic counts from WellFinder's own verification, November 2026.</p>`;
     }
   }
 

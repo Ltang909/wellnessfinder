@@ -2672,9 +2672,9 @@ const PRESSOTHERAPY_CLINICS = [
    clinics, collected 2026-11-01; `phrase` is the insurance wording in
    each quote (highlighted on render); `source` is kept for audit. */
 const CLAIM_STATS = [
-  { num: "27M", label: "Canadians have extended health benefits" },
-  { num: "445", label: "directory clinics confirmed to direct-bill insurers" },
+  { num: "34", label: "treatments you can search" },
   { num: "1,695", label: "clinics listed across Canada" },
+  { num: "445", label: "directory clinics confirmed to direct-bill insurers" },
 ];
 const REVIEW_QUOTES = [
   { treatment: "Clinical Pilates", billed: "Physiotherapy", clinic: "Resilience Physiotherapy", city: "Toronto", reviewer: "Madeline Dietrich", stars: null,
