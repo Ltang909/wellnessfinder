@@ -153,30 +153,26 @@
     row.innerHTML = `<div class="insurer-track">${items}</div>`;
   }
 
+  /* The claims marquee: sourced Google-review quotes (REVIEW_QUOTES in
+     js/data.js), duplicated for the seamless scroll loop. The insurance
+     phrase in each quote gets the yellow marker highlight. */
   function renderWhy() {
-    const grid = $("#whyGrid"); if (!grid) return;
-    const claims = [
-      { name: "Chi", treatment: "Clinical Pilates", sharing: "", billed: "Physiotherapy", covered: "100% covered", price: "$100 per 45 min session" },
-      { name: "Leon", treatment: "Facial massage", sharing: "", billed: "Osteopathy", covered: "100% covered", price: "$120 per session" },
-      { name: "Celine", treatment: "IM vitamin therapy", sharing: "", billed: "Naturopath", covered: "100% covered", price: "$50-80 per session" },
-      { name: "Chun Ho", treatment: "Neurofeedback", sharing: "", billed: "Psychology", covered: "100% covered", price: "$180 per session" },
-      { name: "Daniel", treatment: "Singing voice therapy", sharing: "", billed: "Speech therapy", covered: "100% covered", price: "$160 per 45 min session" },
-    ];
-    const card = (c) =>
-      `<div class="claim-card">
-         <div class="claim-top"><span class="claim-name">${esc(c.name)}</span><span class="claim-side">${c.covered ? `<span class="claim-covered">${esc(c.covered)}</span>` : ""}<img class="claim-logo" src="assets/logos/manulife.svg" alt="Manulife"></span></div>
-         <p class="claim-what">${esc(c.treatment)}</p>
-         <p class="claim-billed">Billed as ${esc(c.billed)}</p>
-         ${c.sharing ? `<p class="claim-sharing">&ldquo;${esc(c.sharing)}&rdquo;</p>` : ""}
-         ${c.price ? `<p class="claim-price">${esc(c.price)}</p>` : ""}
-       </div>`;
-    const half = claims.map(card).join("");
-    grid.innerHTML = `<div class="why-track">${half}${half}</div>`;
+    const grid = $("#whyGrid"); if (!grid || typeof REVIEW_QUOTES === "undefined") return;
+    const card = (q) => {
+      let text = esc(q.quote);
+      const ph = esc(q.phrase || "");
+      if (ph && text.includes(ph)) text = text.replace(ph, `<span class="ins-hl">${ph}</span>`);
+      const stars = q.stars
+        ? `<div class="review-stars" aria-label="${q.stars}-star Google review">${"★".repeat(q.stars)}</div>`
+        : `<div class="review-src">Google review</div>`;
+      return `<figure class="review-card">${stars}<blockquote class="review-quote">&ldquo;${text}&rdquo;</blockquote><figcaption class="review-meta"><span class="review-name">${esc(q.reviewer)}</span><span class="review-clinic">${esc(q.clinic)} · ${esc(q.city)}</span><span class="review-tags"><span class="review-tag">${esc(q.treatment)}</span><span class="review-tag review-tag--billed">Billed as ${esc(q.billed)}</span></span></figcaption></figure>`;
+    };
+    const half = REVIEW_QUOTES.map(card).join("");
+    const secs = Math.max(30, Math.round(REVIEW_QUOTES.length * 6.5));
+    grid.innerHTML = `<div class="why-track" style="animation-duration:${secs}s">${half}${half}</div>`;
   }
 
-  /* Stat strip + sourced Google-review quotes under the claims marquee.
-     Data lives in js/data.js (CLAIM_STATS, REVIEW_QUOTES); the insurance
-     phrase in each quote gets the yellow marker highlight. */
+  /* Stat strip above the claims marquee (CLAIM_STATS in js/data.js). */
   function renderClaimExtra() {
     const statsRoot = $("#claimStats");
     if (statsRoot && typeof CLAIM_STATS !== "undefined") {
@@ -185,19 +181,6 @@
           `<div class="cstat"><span class="cstat-num">${esc(s.num)}</span><span class="cstat-label">${esc(s.label)}</span></div>`).join("")}</div>
          <p class="claims-source">Benefits figure: CLHIA, 2025. Clinic counts from WellFinder's own verification, November 2026.</p>`;
     }
-    const root = $("#claimReviews");
-    if (!root || typeof REVIEW_QUOTES === "undefined") return;
-    const cards = REVIEW_QUOTES.map((q) => {
-      let text = esc(q.quote);
-      const ph = esc(q.phrase || "");
-      if (ph && text.includes(ph)) text = text.replace(ph, `<span class="ins-hl">${ph}</span>`);
-      const stars = q.stars
-        ? `<div class="review-stars" aria-label="${q.stars}-star Google review">${"★".repeat(q.stars)}</div>`
-        : `<div class="review-src">Google review</div>`;
-      return `<figure class="review-card">${stars}<blockquote class="review-quote">&ldquo;${text}&rdquo;</blockquote><figcaption class="review-meta"><span class="review-name">${esc(q.reviewer)}</span><span class="review-clinic">${esc(q.clinic)} · ${esc(q.city)}</span><span class="review-tags"><span class="review-tag">${esc(q.treatment)}</span><span class="review-tag review-tag--billed">Billed as ${esc(q.billed)}</span></span></figcaption></figure>`;
-    }).join("");
-    root.innerHTML =
-      `<div class="reviews-head"><h3>Straight from Google reviews</h3><p>Real reviewers at directory clinics, on the record about billing. Quotes are excerpts from public reviews; coverage varies by plan.</p></div><div class="reviews-grid">${cards}</div>`;
   }
 
   const HEART = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.5 1-1a5.5 5.5 0 0 0 0-7.9Z"/></svg>`;
