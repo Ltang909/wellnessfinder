@@ -338,11 +338,15 @@
       .map((m) => ({ m, list: inView.filter((t) => (t.categories || []).includes(m)) }))
       .filter((g) => g.list.length);
     const actIdx = Math.max(0, FS_TABS.indexOf(fsView));
-    const rotated = FS_TABS.map((_, k) => FS_TABS[(actIdx - 3 + k + FS_TABS.length) % FS_TABS.length]);
+    const rotated = FS_TABS.map((_, k) => FS_TABS[(actIdx - 4 + k + FS_TABS.length) % FS_TABS.length]);
+    /* Slot flex-grows: the four slots left of centre sum to the same
+       width as the three right of it, so the enlarged centre tab's
+       midpoint lands exactly on the bar's centre. */
+    const SLOT_GROW = [0.7, 0.8, 0.9, 1.0, 1.9, 1.2, 1.15, 1.05];
     root.innerHTML = `
       <div class="fs-tabbar"><button type="button" class="fs-chev" data-fsnav="-1" aria-label="Previous category">\u2039</button>
         ${rotated.map((w, k) =>
-          `<button type="button" class="fs-tab ${w === "All" ? "tab-all" : ""} ${w === fsView ? "active" : ""} d${Math.abs(k - 3)}" ${w === "All" ? "" : `style="--fc:${FUND_COLOR[w] || "#0F2D2B"}"`} data-fsview="${esc(w)}">${esc(w)}</button>`).join("")}
+          `<button type="button" class="fs-tab ${w === "All" ? "tab-all" : ""} ${w === fsView ? "active" : ""} d${Math.abs(k - 4)}" style="--fg:${SLOT_GROW[k]}${w === "All" ? "" : `;--fc:${FUND_COLOR[w] || "#0F2D2B"}`}" data-fsview="${esc(w)}">${esc(w)}</button>`).join("")}
         <button type="button" class="fs-chev" data-fsnav="1" aria-label="Next category">\u203a</button></div>
       <p class="fs-count">${inView.length} treatment${inView.length === 1 ? "" : "s"}</p>
       <div class="fs-rule"><span>Featured treatments</span></div>

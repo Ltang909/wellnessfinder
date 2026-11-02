@@ -949,7 +949,8 @@ body { font-size: 16px; }
 .fs-tab.d2 { font-size: .62rem; opacity: .66; }
 .fs-tab.d3 { font-size: .58rem; opacity: .48; }
 .fs-tab.d4 { font-size: .56rem; opacity: .4; }
-.fs-tab.active { flex: 1.9; font-size: .82rem; }
+.fs-tab { flex: var(--fg, 1) 1 0; }
+.fs-tab.active { font-size: .82rem; }
 .fs-chev { background: none; border: 0; cursor: pointer; }
 .fs-count { margin-top: 26px; }
 /* Fund tabs carry their hero highlight colour (Leon, 2026-11-01):
