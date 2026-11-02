@@ -75,6 +75,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "ARC Physio",
+  "clinic_id": "arc-physio-pointe-claire",
+  "address": "189 Hymus Blvd #400",
+  "city": "Pointe-Claire",
+  "prov": "QC",
+  "postal": "H9R 1E9",
+  "phone": "438-230-2388",
+  "website": "https://www.arcrehabphysio.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "7:00 AM - 8:00 PM",
+   "mon": "7:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 4:00 PM",
+   "sun": "Closed",
+   "thu": "7:00 AM - 8:00 PM",
+   "tue": "7:00 AM - 8:00 PM",
+   "wed": "7:00 AM - 8:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 546,
+  "rating_source": "Clinic's own website homepage rating block: 5.0 (546 ratings). Google Places details extract in search results also showed 5.0 stars.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "ASCEND Rehabilitation",
   "clinic_id": "ascend-rehabilitation-mississauga",
   "address": "3611 Mavis Road, Unit 12",
@@ -522,6 +547,31 @@
   "google_reviews": 21,
   "rating_source": "Google Places details in search results for Active Approach Health and Wellness Centre: 'Rating: five stars (4.9) Based on 21 reviews'.",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Active Chiropractic",
+  "clinic_id": "active-chiropractic-paris",
+  "address": "36 Mechanic Street",
+  "city": "Paris",
+  "prov": "ON",
+  "postal": "N3L 1K2",
+  "phone": "519-442-7100",
+  "website": "https://activechiro.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:30 AM - 11:30 AM, 1:30 PM - 6:00 PM",
+   "tue": "2:00 PM - 6:00 PM",
+   "wed": "7:30 AM - 11:30 AM, 1:30 PM - 6:00 PM",
+   "thu": "3:00 PM - 7:00 PM",
+   "fri": "7:30 AM - 11:30 AM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -1575,6 +1625,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Andreanne Martin Nutritionniste",
+  "clinic_id": "andreanne-martin-nutritionniste-quebec-city",
+  "address": "5075 Wilfrid-Hamel Blvd bureau 215",
+  "city": "Quebec City",
+  "prov": "QC",
+  "postal": "G2E 5G3",
+  "phone": "581-997-0861",
+  "website": "https://epithelia.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.5,
+  "google_reviews": 79,
+  "rating_source": "Google Places details in search results for Andreanne Martin Nutritionniste et Dietetiste (website epithelia.ca): 4.5 stars based on 79 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Anew Chiropractic",
   "clinic_id": "anew-chiropractic-calgary",
   "address": "933 17 Ave SW, Suite 500",
@@ -2348,6 +2423,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "B. Ryan Speech-Language Pathology",
+  "clinic_id": "b-ryan-speech-language-pathology-pickering",
+  "address": "4-1550 Kingston Road",
+  "city": "Pickering",
+  "prov": "ON",
+  "postal": "L1V 6W9",
+  "phone": "905-999-3148",
+  "website": "http://ryanspeechtherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "BC Dietitians Inc.",
@@ -4442,6 +4542,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Caroline Tanguay",
+  "clinic_id": "caroline-tanguay-quebec-city",
+  "address": "1363 Av. Maguire",
+  "city": "Quebec City",
+  "prov": "QC",
+  "postal": null,
+  "phone": "418-573-7247",
+  "website": "https://carolinetanguay.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 9,
+  "rating_source": "Google Places details in search results for Caroline Tanguay dtp - Clinique M\u00e9dicale de Sillery, Quebec City: 5.0 stars based on 9 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Caroline Wang, RD",
   "clinic_id": "caroline-wang-rd-gatineau",
   "address": "57 Rue Saint-Jacques",
@@ -4742,6 +4867,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Charlotte Geroudet Nutritionniste",
+  "clinic_id": "charlotte-geroudet-nutritionniste-quebec-city",
+  "address": "773 Bd des Chutes",
+  "city": "Quebec City",
+  "prov": "QC",
+  "postal": null,
+  "phone": "418-803-7735",
+  "website": "https://charlottegeroudet.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.7,
+  "google_reviews": 43,
+  "rating_source": "Google Places details in search results for Charlotte Geroudet Nutritionniste: 4.7 stars based on 43 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Chartier Physioth\u00e9rapie",
   "clinic_id": "chartier-physiotherapie-ottawa",
   "address": "305 Rue Wilbrod St Unit 1",
@@ -4767,6 +4917,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Chez Mon Masso",
+  "clinic_id": "chez-mon-masso-quebec-city",
+  "address": "1440 Rue Cyrille-Duquet #140",
+  "city": "Quebec City",
+  "prov": "QC",
+  "postal": "G1N 2E5",
+  "phone": "418-558-7848",
+  "website": "http://www.chezmonmasso.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 46,
+  "rating_source": "Google Places details in search results for J\u00e9r\u00f4me C\u00f4t\u00e9 Massoth\u00e9rapeute Kin\u00e9sith\u00e9rapeute: 5.0 stars based on 46 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Chez Mon Masso (J\u00e9r\u00f4me C\u00f4t\u00e9)",
+  "clinic_id": "chez-mon-masso-jerome-cote-quebec-city",
+  "address": "1440 Rue Cyrille-Duquet #140",
+  "city": "Quebec City",
+  "prov": "QC",
+  "postal": "G1N 2E5",
+  "phone": "418-558-7848",
+  "website": "http://www.chezmonmasso.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 46,
+  "rating_source": "Google Places details in search results for J\u00e9r\u00f4me C\u00f4t\u00e9 Massoth\u00e9rapeute Kin\u00e9sith\u00e9rapeute: 5.0 stars based on 46 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Chinese Acupuncture Clinic",
   "clinic_id": "chinese-acupuncture-clinic-moncton",
   "address": "1269 Mountain Road",
@@ -4784,6 +4984,31 @@
    "thu": null,
    "tue": null,
    "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Chinese Medicine Peterborough",
+  "clinic_id": "chinese-medicine-peterborough-peterborough",
+  "address": "438 Rogers St",
+  "city": "Peterborough",
+  "prov": "ON",
+  "postal": null,
+  "phone": "705-808-3894",
+  "website": "https://www.chinesemedicineptbo.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": "9:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -5426,6 +5651,31 @@
   "last_verified": null
  },
  {
+  "name": "Clinique R\u00e9seau Force Sant\u00e9",
+  "clinic_id": "clinique-reseau-force-sante-quebec-city",
+  "address": "811 Route Jean-Gauvin Local 110",
+  "city": "Quebec City",
+  "prov": "QC",
+  "postal": "G1X 4V9",
+  "phone": "418-353-6590",
+  "website": "https://cliniquereseauforcesante.com/",
+  "booking_page": "https://www.gorendezvous.com/cliniquerfs",
+  "hours": {
+   "mon": "7:30 AM - 8:00 PM",
+   "tue": "7:30 AM - 8:00 PM",
+   "wed": "7:30 AM - 8:00 PM",
+   "thu": "7:30 AM - 8:00 PM",
+   "fri": "7:30 AM - 5:00 PM",
+   "sat": "8:00 AM - 12:00 PM",
+   "sun": null
+  },
+  "google_rating": 3.5,
+  "google_reviews": 2,
+  "rating_source": "Google Places details in search results for Clinique R\u00e9seau Force-Sant\u00e9 (rating 3.5 based on 2 reviews). The 4.9/5 figure on the clinic's GoRendezVous booking page is that platform's own rating, not Google, and was not used.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Clinique TAG",
   "clinic_id": "clinique-tag-laval",
   "address": "1200 Boulevard Chomedey",
@@ -5476,6 +5726,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Clinique d'Acupuncture Durand",
+  "clinic_id": "clinique-d-acupuncture-durand-quebec-city",
+  "address": "9030 Bd de l'Ormi\u00e8re #202",
+  "city": "Quebec City",
+  "prov": "QC",
+  "postal": "G2B 3K3",
+  "phone": "418-843-9098",
+  "website": "http://www.quebecacupuncture.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 6:00 PM",
+   "tue": null,
+   "wed": "8:00 AM - 6:00 PM",
+   "thu": "8:00 AM - 6:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Clinique d'Acupuncture Lajeunesse",
   "clinic_id": "clinique-dacupuncture-lajeunesse-montreal",
   "address": "8836 Rue Lajeunesse",
@@ -5518,6 +5793,31 @@
    "thu": "8:00 AM \u2013 8:00 PM",
    "tue": "8:00 AM \u2013 8:00 PM",
    "wed": "8:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Clinique d'Acupuncture de Quebec",
+  "clinic_id": "clinique-d-acupuncture-de-quebec-quebec-city",
+  "address": "2860 Chemin Des Quatre-Bourgeois",
+  "city": "Quebec City",
+  "prov": "QC",
+  "postal": "G1V 1Y3",
+  "phone": "418-609-0910",
+  "website": "http://acuponcturequebec.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": null,
+   "thu": "9:00 AM - 9:00 PM",
+   "fri": "9:00 AM - 3:00 PM",
+   "sat": null,
+   "sun": null
   },
   "google_rating": null,
   "google_reviews": null,
@@ -5661,6 +5961,31 @@
   "website": "https://clubhippocrate.ca",
   "booking_page": null,
   "hours": null,
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Clyde Psychology",
+  "clinic_id": "clyde-psychology-pointe-claire",
+  "address": "6500 Trans-Canada Hwy #400",
+  "city": "Pointe-Claire",
+  "prov": "QC",
+  "postal": "H9R 0A5",
+  "phone": "514-319-1912",
+  "website": "https://clydepsychology.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "2:00 PM - 7:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "2:00 PM - 9:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "2:00 PM - 9:00 PM"
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
@@ -6418,6 +6743,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Courtney Cartmel | Acupuncture Peterborough",
+  "clinic_id": "courtney-cartmel-acupuncture-peterborough-peterborough",
+  "address": "386 Burnham St",
+  "city": "Peterborough",
+  "prov": "ON",
+  "postal": "K9H 1T6",
+  "phone": "705-761-6596",
+  "website": "http://courtneycartmel.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 4:00 PM",
+   "mon": "11:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "11:00 AM - 7:00 PM",
+   "tue": "7:30 AM - 3:30 PM",
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Craven SPORT Services",
   "clinic_id": "craven-sport-services-saskatoon",
   "address": "#3-701 2nd Avenue North (Main Clinic)",
@@ -6910,6 +7260,56 @@
    "fri": null,
    "sat": null,
    "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dalton Associates",
+  "clinic_id": "dalton-associates-peterborough",
+  "address": "Kingswood Life Centre, 993 Talwood Dr",
+  "city": "Peterborough",
+  "prov": "ON",
+  "postal": "K9J 7R8",
+  "phone": "1-888-245-5516",
+  "website": "https://www.daltonassociates.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 7:30 PM",
+   "mon": "9:00 AM - 7:30 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 7:30 PM",
+   "tue": "9:00 AM - 7:30 PM",
+   "wed": "9:00 AM - 7:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dalton Associates",
+  "clinic_id": "dalton-associates-pickering",
+  "address": "1250 St Martins Dr",
+  "city": "Pickering",
+  "prov": "ON",
+  "postal": null,
+  "phone": "1-888-245-5516",
+  "website": "https://www.daltonassociates.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM - 9:00 PM",
+   "mon": "10:00 AM - 9:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "10:00 AM - 9:00 PM",
+   "tue": "10:00 AM - 9:00 PM",
+   "wed": "10:00 AM - 9:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -8243,6 +8643,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Daniel Min",
+  "clinic_id": "dr-daniel-min-port-coquitlam",
+  "address": "2755 Lougheed Highway",
+  "city": "Port Coquitlam",
+  "prov": "BC",
+  "postal": "V3B 5Y9",
+  "phone": "604-685-1181",
+  "website": "http://www.drdanielmin.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 4:00 PM",
+   "tue": "2:30 PM - 5:30 PM",
+   "wed": "12:00 PM - 7:00 PM",
+   "thu": "9:00 AM - 4:00 PM",
+   "fri": "9:00 AM - 1:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Daniel Min ND",
   "clinic_id": "dr-daniel-min-nd-coquitlam",
   "address": "Inside Pomme Natural Market, 2755 Lougheed Hwy #9, Port Coquitlam",
@@ -8265,6 +8690,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Danielle DeBlock",
+  "clinic_id": "dr-danielle-deblock-perth-south",
+  "address": "263 Huron Rd",
+  "city": "Perth South",
+  "prov": "ON",
+  "postal": null,
+  "phone": "519-703-1827",
+  "website": "http://drdanielledeblocknd.com/",
+  "booking_page": "https://drdanielledeblocknd.janeapp.com/",
+  "hours": {
+   "fri": "10:00 AM - 4:00 PM",
+   "mon": "12:00 PM - 6:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": "11:00 AM - 5:00 PM",
+   "wed": "10:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -9318,6 +9768,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Mariem",
+  "clinic_id": "dr-mariem-peterborough",
+  "address": "311 George Street North",
+  "city": "Peterborough",
+  "prov": "ON",
+  "postal": "K9J 3H3",
+  "phone": "705-957-8055",
+  "website": "https://arganianaturalhealthclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 6:00 PM",
+   "mon": "9:00 AM - 6:00 PM",
+   "sat": "8:30 AM - 2:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Marissa Gaucher",
   "clinic_id": "dr-marissa-gaucher-kelowna",
   "address": "775 Seymour Street",
@@ -9693,6 +10168,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Nicole Zutz",
+  "clinic_id": "dr-nicole-zutz-prince-george",
+  "address": "205 513 Ahbau St",
+  "city": "Prince George",
+  "prov": "BC",
+  "postal": "V2M 3R8",
+  "phone": "250-596-3236",
+  "website": "https://www.krellwell.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 5:00 PM",
+   "tue": "8:30 AM - 5:00 PM",
+   "wed": "8:30 AM - 5:00 PM",
+   "thu": "8:30 AM - 5:00 PM",
+   "fri": "8:30 AM - 5:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.5,
+  "google_reviews": 33,
+  "rating_source": "Google Places details in search results for Krell Wellness Center, 513 Ahbau St, Prince George: 4.5 stars based on 33 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Nina Woulff, Psychologist and Associates",
   "clinic_id": "dr-nina-woulff-psychologist-and-associates-halifax",
   "address": "5991 Spring Garden Road, Suite 345",
@@ -9735,6 +10235,31 @@
    "thu": "2:00 PM - 8:00 PM",
    "tue": "10:00 AM - 5:00 PM",
    "wed": "10:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Olivia Novak ND",
+  "clinic_id": "dr-olivia-novak-nd-pembroke",
+  "address": "20 Wolfe Ave, Unit 11",
+  "city": "Pembroke",
+  "prov": "ON",
+  "postal": "K8H 2S5",
+  "phone": "613-635-9955",
+  "website": "https://www.drolivianovaknd.com/",
+  "booking_page": "https://naturale.janeapp.com/",
+  "hours": {
+   "fri": "10:00 AM - 4:00 PM",
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": "12:00 PM - 6:00 PM",
+   "tue": "12:00 PM - 6:00 PM",
+   "wed": "10:00 AM - 4:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -9916,6 +10441,31 @@
   "rating_source": "Google Places details in search results for Dr. Rachel Corradetti-Sargeant: 'Rating: five stars (5.0) Based on 8 reviews'.",
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Dr. Renata Mola",
+  "clinic_id": "dr-renata-mola-perth-east",
+  "address": "3875 Road 111",
+  "city": "Perth East",
+  "prov": "ON",
+  "postal": "N5A 6S5",
+  "phone": "416-414-8453",
+  "website": "https://www.renatamola.com/",
+  "booking_page": "https://renatamola.janeapp.com/",
+  "hours": {
+   "fri": "9:30 AM - 2:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": "9:30 AM - 2:45 PM",
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Dr. Rhiannon Burkitt Naturopathic Doctor",
@@ -10239,6 +10789,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Tanner Alden",
+  "clinic_id": "dr-tanner-alden-prince-george",
+  "address": "205 513 Ahbau St",
+  "city": "Prince George",
+  "prov": "BC",
+  "postal": "V2M 3R8",
+  "phone": "250-596-3236",
+  "website": "https://www.krellwell.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 5:00 PM",
+   "tue": "8:30 AM - 5:00 PM",
+   "wed": "8:30 AM - 5:00 PM",
+   "thu": "8:30 AM - 5:00 PM",
+   "fri": "8:30 AM - 5:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.5,
+  "google_reviews": 33,
+  "rating_source": "Google Places details in search results for Krell Wellness Center, 513 Ahbau St, Prince George: 4.5 stars based on 33 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -12793,6 +13368,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Grey Bruce Chiropractic",
+  "clinic_id": "grey-bruce-chiropractic-owen-sound",
+  "address": "345 8th Street East Suite 203",
+  "city": "Owen Sound",
+  "prov": "ON",
+  "postal": "N4K 1L3",
+  "phone": "519-370-0201",
+  "website": "http://www.greybrucewellness.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 6:00 PM",
+   "tue": "10:00 AM - 7:00 PM",
+   "wed": "8:30 AM - 4:00 PM",
+   "thu": "10:00 AM - 7:00 PM",
+   "fri": "Closed",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Grit Psychology & Counselling",
   "clinic_id": "grit-psychology-counselling-airdrie",
   "address": "Unit #17 \u2013 620 1 Ave NW",
@@ -15218,6 +15818,31 @@
   "last_verified": null
  },
  {
+  "name": "Kathy Chao Acupuncture Clinic",
+  "clinic_id": "kathy-chao-acupuncture-clinic-pickering",
+  "address": null,
+  "city": "Pickering",
+  "prov": "ON",
+  "postal": null,
+  "phone": "289-469-5689",
+  "website": "http://www.kathyacupuncture.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 12:00 PM",
+   "mon": null,
+   "sat": null,
+   "sun": "9:00 AM - 2:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 2:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Katie Bartel Registered Dietitian",
   "clinic_id": "katie-bartel-registered-dietitian-new-westminster",
   "address": "10 Renaissance Square",
@@ -15239,6 +15864,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Kawartha Dental Clinic",
+  "clinic_id": "kawartha-dental-clinic-peterborough",
+  "address": "250 Reid Street",
+  "city": "Peterborough",
+  "prov": "ON",
+  "postal": "K9J 3R1",
+  "phone": "705-743-1851",
+  "website": "https://www.kawarthadentalclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 3:00 PM",
+   "mon": "8:00 AM - 9:00 PM",
+   "sat": "8:00 AM - 3:00 PM",
+   "sun": "Closed",
+   "thu": "8:00 AM - 9:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 9:00 PM"
+  },
+  "google_rating": 4.4,
+  "google_reviews": 40,
+  "rating_source": "Google Places details in search results for Kawartha Dental Clinic, Peterborough: 4.4 stars based on 40 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -17877,6 +18527,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Mindful Nutrition and Wellness",
+  "clinic_id": "mindful-nutrition-and-wellness-peterborough",
+  "address": "459 George Street North, Suite 207",
+  "city": "Peterborough",
+  "prov": "ON",
+  "postal": "K9H 3R6",
+  "phone": "705-761-8443",
+  "website": "http://www.mindfulnutritionandwellness.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": "8:00 AM - 4:00 PM",
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Mindful With You Psychotherapy & Counselling",
   "clinic_id": "mindful-with-you-psychotherapy-counselling-ontario",
   "address": null,
@@ -19377,6 +20052,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "New Life Physio and Health Clinic",
+  "clinic_id": "new-life-physio-and-health-clinic-ottawa",
+  "address": "1742 Montr\u00e9al Rd",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K1J 6N3",
+  "phone": "613-741-1510",
+  "website": "https://newlifept.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 7:00 PM",
+   "tue": "10:00 AM - 7:00 PM",
+   "wed": "10:00 AM - 7:00 PM",
+   "thu": "10:00 AM - 7:00 PM",
+   "fri": "10:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "New Life Rehab Clinic",
   "clinic_id": "new-life-rehab-clinic-scarborough",
   "address": "1645 Warden Ave #102",
@@ -19419,6 +20119,31 @@
    "fri": "7:00 AM \u2013 10:00 PM",
    "sat": "7:00 AM \u2013 10:00 PM",
    "sun": "7:00 AM \u2013 10:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "New Life Therapy",
+  "clinic_id": "new-life-therapy-ottawa",
+  "address": "580 Terry Fox Dr #401",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K2L 4B9",
+  "phone": "343-338-4594",
+  "website": "https://newlifetherapy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "11:00 AM - 6:00 PM",
+   "tue": "11:00 AM - 6:00 PM",
+   "wed": "11:00 AM - 6:00 PM",
+   "thu": "11:00 AM - 6:00 PM",
+   "fri": "11:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null
   },
   "google_rating": null,
   "google_reviews": null,
@@ -20852,6 +21577,31 @@
   "last_verified": null
  },
  {
+  "name": "Ophysio Clinic",
+  "clinic_id": "ophysio-clinic-ottawa",
+  "address": "2555 St Joseph Blvd Suite 206",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K1C 1S6",
+  "phone": "613-424-8855",
+  "website": "https://ophysioclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 105,
+  "rating_source": "The clinic's own website (ophysioclinic.com) displays 'Rating: 5.0 (105 ratings)' alongside its Google patient reviews; recorded per the own-site Google badge rule.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Optimum Sport and Health Centre",
   "clinic_id": "optimum-sport-and-health-centre-chilliwack",
   "address": "#7 - 45966 Yale Road",
@@ -21077,6 +21827,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Osteo Naturel",
+  "clinic_id": "osteo-naturel-ottawa",
+  "address": "376 Churchill Ave N, Suite 305",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K1Z 5C3",
+  "phone": "613-514-0218",
+  "website": "https://www.osteonaturel.com/",
+  "booking_page": "https://osteonaturel.janeapp.com",
+  "hours": {
+   "mon": "8:00 AM - 9:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 9:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 8:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 5,
+  "rating_source": "Google Places details in search results for Osteo Naturel: 5.0 stars based on 5 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Osteopathy First",
   "clinic_id": "osteopathy-first-burlington",
   "address": "666 Appleby Line, Unit C105",
@@ -21127,6 +21902,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Ottawa Cancer and Lymphatics Centre",
+  "clinic_id": "ottawa-cancer-and-lymphatics-centre-ottawa",
+  "address": "1902 Robertson Rd #200A",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K2H 5B8",
+  "phone": "613-422-5061",
+  "website": "https://ottawaclc.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "8:00 AM - 6:00 PM",
+   "thu": "8:00 AM - 5:00 PM",
+   "fri": "8:00 AM - 3:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 3,
+  "rating_source": "Google Places details in search results for Ottawa Cancer and Lymphatics Centre: 5.0 stars based on 3 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Ottawa Neurofeedback and Psychotherapy Centre",
   "clinic_id": "ottawa-neurofeedback-and-psychotherapy-centre-ottawa",
   "address": "600 Terry Fox Drive, Suite 202",
@@ -21143,6 +21943,81 @@
    "thu": "9:00 AM - 6:00 PM",
    "fri": "9:00 AM - 6:00 PM",
    "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Ottawa Physiotherapy and Sport Clinic",
+  "clinic_id": "ottawa-physiotherapy-and-sport-clinic-ottawa",
+  "address": "205-194 Main Street",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K1S 1C2",
+  "phone": "613-567-4808",
+  "website": "https://www.optsc.com/main-street-physiotherapy-massage-therapy",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM - 8:00 PM",
+   "tue": "7:00 AM - 8:00 PM",
+   "wed": "7:00 AM - 8:00 PM",
+   "thu": "7:00 AM - 8:00 PM",
+   "fri": "7:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 1:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Ottawa Physiotherapy and Sport Clinics",
+  "clinic_id": "ottawa-physiotherapy-and-sport-clinics-ottawa",
+  "address": "2 Goldridge Dr #3B",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K2T 1C7",
+  "phone": "613-599-4777",
+  "website": "https://www.optsc.com/kanata-physiotherapy",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM - 8:00 PM",
+   "tue": "7:00 AM - 8:00 PM",
+   "wed": "7:00 AM - 8:00 PM",
+   "thu": "7:00 AM - 8:00 PM",
+   "fri": "7:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Ottawa Physiotherapy and Sport Clinics - Glebe",
+  "clinic_id": "ottawa-physiotherapy-and-sport-clinics-glebe-ottawa",
+  "address": "108 Third Ave #102",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K1S 2J8",
+  "phone": "613-680-3980",
+  "website": "https://www.optsc.com/glebe-physiotherapy",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM - 8:00 PM",
+   "tue": "7:00 AM - 8:00 PM",
+   "wed": "7:00 AM - 8:00 PM",
+   "thu": "7:00 AM - 8:00 PM",
+   "fri": "7:00 AM - 8:00 PM",
+   "sat": "7:00 AM - 12:00 PM",
    "sun": null
   },
   "google_rating": null,
@@ -21852,6 +22727,31 @@
   "last_verified": null
  },
  {
+  "name": "Peterborough Centre of Naturopathic Medicine",
+  "clinic_id": "peterborough-centre-of-naturopathic-medicine-peterborough",
+  "address": "386 Burnham Street",
+  "city": "Peterborough",
+  "prov": "ON",
+  "postal": "K9H 1T6",
+  "phone": "705-761-6596",
+  "website": "http://pcnm.ca/",
+  "booking_page": "https://peterboroughcentreofnaturopathicmedicine.janeapp.com/",
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 23,
+  "rating_source": "Google Places details in search results for Peterborough Centre of Naturopathic Medicine: 5.0 stars based on 23 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Philosophy Wellness Inc",
   "clinic_id": "philosophy-wellness-inc-sherwood-park",
   "address": "375 Savoy Cres",
@@ -21927,6 +22827,31 @@
   "last_verified": null
  },
  {
+  "name": "Physio Bike Fitter",
+  "clinic_id": "physio-bike-fitter-ottawa",
+  "address": "250 City Centre Ave Ste 302",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K1R 6K7",
+  "phone": "613-656-0187",
+  "website": "http://physiobikefitter.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Physio Motiva",
   "clinic_id": "physio-motiva-montreal",
   "address": "3287 Rue Saint-Jacques O, #100",
@@ -21994,6 +22919,31 @@
    "fri": "10:30 AM - 8:00 PM",
    "sat": "10:30 AM - 5:00 PM",
    "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Physio Sports Care Centre",
+  "clinic_id": "physio-sports-care-centre-ottawa",
+  "address": "801 King Edward Avenue, Suite N203",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K1N 6N5",
+  "phone": "613-564-3950",
+  "website": "https://physiosportscare.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
   },
   "google_rating": null,
   "google_reviews": null,
@@ -22173,6 +23123,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Physiocare Physiotherapy & Rehab Centre",
+  "clinic_id": "physiocare-physiotherapy-rehab-centre-ottawa",
+  "address": "289 Greenbank Rd",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K2H 8K9",
+  "phone": "613-714-9495",
+  "website": "https://www.physiocarephysiotherapy.com/",
+  "booking_page": "https://physiocare.juvonno.com",
+  "hours": {
+   "mon": "6:30 AM - 8:00 PM",
+   "tue": "6:30 AM - 8:00 PM",
+   "wed": "6:30 AM - 8:00 PM",
+   "thu": "6:30 AM - 8:00 PM",
+   "fri": "6:30 AM - 8:00 PM",
+   "sat": "8:00 AM - 12:00 PM",
+   "sun": "9:00 AM - 1:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 20,
+  "rating_source": "Google Places details in search results for Physiocare's Nepean location: 5.0 stars based on 20 reviews. (The chain homepage separately displays a 4.9/5 aggregate from 487 reviews across its locations.)",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -22577,6 +23552,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Pro Fusion Rehab Physiotherapy",
+  "clinic_id": "pro-fusion-rehab-physiotherapy-pickering",
+  "address": "1885 Glenanna Rd Unit 112",
+  "city": "Pickering",
+  "prov": "ON",
+  "postal": "L1V 6R6",
+  "phone": "905-492-2577",
+  "website": "https://profusionrehab.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM - 7:00 PM",
+   "mon": "9:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Pro Kure Wellness & Health Centre",
   "clinic_id": "pro-kure-wellness-health-centre-surrey",
   "address": "14863 108 Ave",
@@ -22674,6 +23674,31 @@
   "google_reviews": 32,
   "rating_source": "Google Places details surfaced in search results for Pro Motion Physiotherapy (website promotionphysio.com) showed 'Ratings for Pro Motion Physiotherapy: Rating: four and a half stars (4.6), Based on 32 reviews'.",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Pro Physio & Sport Medicine Centres",
+  "clinic_id": "pro-physio-sport-medicine-centres-ottawa",
+  "address": "234 Laurier Ave W Unit A",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": null,
+  "phone": "613-747-8787",
+  "website": "https://prophysiotherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM - 8:00 PM",
+   "tue": "7:00 AM - 8:00 PM",
+   "wed": "7:00 AM - 8:00 PM",
+   "thu": "7:00 AM - 8:00 PM",
+   "fri": "7:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -23677,6 +24702,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Renew Neurotherapy",
+  "clinic_id": "renew-neurotherapy-ottawa",
+  "address": "21 Concourse Gate, #6",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K2E 7S4",
+  "phone": "613-809-1770",
+  "website": "https://renewneurotherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 5:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Renita Lam",
   "clinic_id": "renita-lam-toronto",
   "address": null,
@@ -23723,6 +24773,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Renu Massage Therapy & Spa",
+  "clinic_id": "renu-massage-therapy-spa-ottawa",
+  "address": "1432 Wellington St W",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": null,
+  "phone": "613-722-2929",
+  "website": "https://www.renuspa.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 8:00 PM",
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 6:00 PM",
+   "sun": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": 4.7,
+  "google_reviews": 85,
+  "rating_source": "Google Places details in search results for Renu Massage Therapy and Spa, Ottawa (1432 Wellington St W): 4.7 stars based on 85 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -23798,6 +24873,31 @@
   "google_rating": 4.8,
   "google_reviews": 13,
   "rating_source": "Google Places details in search results (place_id 1123225798545742): 'Rating: five stars (4.8) Based on 13 reviews'. CONFLICT: aggregator Birdeye republishes a 4.9 figure from 189 reviews for the same place_id \u2014 aggregator figures were not used, per the rating-source rule.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Resolution Psychology Clinic",
+  "clinic_id": "resolution-psychology-clinic-ottawa",
+  "address": "222 Queen St",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": null,
+  "phone": "647-947-5922",
+  "website": "https://www.resolutionpsychologyclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 9:00 PM",
+   "mon": "9:00 AM - 9:00 PM",
+   "sat": "9:00 AM - 9:00 PM",
+   "sun": "9:00 AM - 9:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -23950,6 +25050,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "ReviveLife Clinic",
+  "clinic_id": "revivelife-clinic-ottawa",
+  "address": "69 Kempster Ave",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K2B 6M2",
+  "phone": "613-829-7100",
+  "website": "https://revivelifeclinic.com/",
+  "booking_page": "https://www.optimantra.com/optimus/patient/patientaccess/modalities?pid=ekJoQ1J3ZTdKMDJjdFkyZTNPdms3QT09&lid=TmgzdGpKYmVpZklkMkFjUXZ0d0cvQT09",
+  "hours": {
+   "fri": "9:00 AM - 3:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details in search results for Revivelife Clinic | Naturopath in Ottawa: 5.0 stars based on 1 review.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Revolution Wellness Clinic",
@@ -24150,6 +25275,31 @@
   "rating_source": "Google Places details in search results for Rivers Edge Counselling Centre, St. Albert showed 4.3 stars from 6 reviews.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Riverside Acupuncture & Wellness Centre",
+  "clinic_id": "riverside-acupuncture-wellness-centre-ottawa",
+  "address": "2211 Riverside Dr. #106",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K1H 7X5",
+  "phone": "613-863-6906",
+  "website": "https://acupunctureottawa.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM - 6:00 PM",
+   "mon": "10:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 1:00 PM",
+   "sun": "Closed",
+   "thu": "10:00 AM - 6:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "10:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Rocky Mountain Psychological Services",
@@ -24424,6 +25574,31 @@
   "google_reviews": 53,
   "rating_source": "Google Places details in search results for SIX08 Health (six08health.com listing): 4.8 stars based on 53 reviews.",
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "SL Psychotherapy and Wellness",
+  "clinic_id": "sl-psychotherapy-and-wellness-ottawa",
+  "address": "104 Centrepointe Dr Upper Floor",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K2G 6B1",
+  "phone": "613-762-8251",
+  "website": "http://www.shannonlawlesstherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 8:00 PM",
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 8:30 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -24852,6 +26027,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Serene Woods Psychotherapy and Collaborative Services",
+  "clinic_id": "serene-woods-psychotherapy-and-collaborative-services-ottawa",
+  "address": "11 Rosemount Ave, Suite 302",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K1Y 4R8",
+  "phone": "613-600-5322",
+  "website": "https://www.mycounselling.ca/",
+  "booking_page": "https://serenewoods.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 8:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 8:00 PM",
+   "sun": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Seven Summits Rehab and Health",
   "clinic_id": "seven-summits-rehab-and-health-vancouver",
   "address": "201 - 2475 Bayswater Street",
@@ -25052,6 +26252,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Sheridan Dental Centre",
+  "clinic_id": "sheridan-dental-centre-pickering",
+  "address": "1550 Kingston Rd Unit 12",
+  "city": "Pickering",
+  "prov": "ON",
+  "postal": "L1V 1C3",
+  "phone": "905-839-4486",
+  "website": "https://www.sheridandentalcentre.com/site/home",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 3:00 PM",
+   "mon": "8:00 AM - 8:30 PM",
+   "sat": "9:00 AM - 2:30 PM",
+   "sun": "Closed",
+   "thu": "8:00 AM - 8:30 PM",
+   "tue": "8:00 AM - 8:30 PM",
+   "wed": "8:00 AM - 8:30 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 3,
+  "rating_source": "Google Places details in search results for Sheridan Dental Centre, Pickering: 5.0 stars based on 3 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Shift Physiotherapy & Wellness",
   "clinic_id": "shift-physiotherapy-wellness-edmonton",
   "address": "#101, 11230 110 St NW",
@@ -25227,6 +26452,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Skyline Dental Clinic",
+  "clinic_id": "skyline-dental-clinic-prince-george",
+  "address": "760 Kinsmen Pl #301",
+  "city": "Prince George",
+  "prov": "BC",
+  "postal": "V2M 0A8",
+  "phone": "250-960-2231",
+  "website": "http://www.skylinedental.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM - 6:00 PM",
+   "tue": "7:00 AM - 6:00 PM",
+   "wed": "7:00 AM - 6:00 PM",
+   "thu": "7:00 AM - 6:00 PM",
+   "fri": "7:00 AM - 6:00 PM",
+   "sat": "7:00 AM - 6:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.6,
+  "google_reviews": 28,
+  "rating_source": "Google Places details in search results for Skyline Dental Clinic, Prince George: 4.6 stars based on 28 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Small Town Sprouted Health Collective",
   "clinic_id": "small-town-sprouted-health-collective-chatham-kent",
   "address": "6 Main St W",
@@ -25373,6 +26623,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": "No Google rating/reviews shown in Google Places search extract and no Google rating badge found on the clinic's own site",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Soulful Acupuncture and Hijama",
+  "clinic_id": "soulful-acupuncture-and-hijama-pickering",
+  "address": "1822 Whites Rd",
+  "city": "Pickering",
+  "prov": "ON",
+  "postal": "L1V 4M1",
+  "phone": "647-677-6147",
+  "website": "https://www.soulfulacupuncture.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:30 AM - 7:00 PM",
+   "mon": "9:30 AM - 7:00 PM",
+   "sat": "9:30 AM - 6:00 PM",
+   "sun": null,
+   "thu": "9:30 AM - 7:00 PM",
+   "tue": "9:30 AM - 7:00 PM",
+   "wed": "9:30 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -25869,6 +27144,31 @@
   "last_verified": null
  },
  {
+  "name": "Stephanie Flynn RMT",
+  "clinic_id": "stephanie-flynn-rmt-ottawa",
+  "address": "411 Roosevelt Avenue, suite 202",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K2A 3X9",
+  "phone": "613-325-8190",
+  "website": "https://stephanieflynnrmt.janeapp.com",
+  "booking_page": "https://stephanieflynnrmt.janeapp.com",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Stephanie Hnatiuk Performance Nutrition",
   "clinic_id": "stephanie-hnatiuk-performance-nutrition-winnipeg",
   "address": "930 Lorimer Blvd, Suite 4",
@@ -25941,6 +27241,31 @@
   "google_reviews": 22,
   "rating_source": "Google Places details via search",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Stradwick Psychology & Neurofeedback",
+  "clinic_id": "stradwick-psychology-neurofeedback-ottawa",
+  "address": "21 Concourse Gate, Unit 12",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K2E 7S4",
+  "phone": "613-226-6767",
+  "website": "https://stradwickclinic.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 7:30 PM",
+   "mon": "9:00 AM - 7:30 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 7:30 PM",
+   "tue": "9:00 AM - 7:30 PM",
+   "wed": "9:00 AM - 7:30 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 4,
+  "rating_source": "Google Places details in search results for Stradwick Psychology & Neurofeedback Clinic (21 Concourse Gate listing): 5.0 stars based on 4 reviews.",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -26316,6 +27641,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Tamara Long Speech Language Pathologist",
+  "clinic_id": "tamara-long-speech-language-pathologist-ottawa",
+  "address": "14 Rockcliffe Way",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K1M 1B1",
+  "phone": "613-241-0517",
+  "website": "https://www.ottawaspeechtherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 4:45 PM",
+   "mon": "9:00 AM - 4:45 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 4:45 PM",
+   "tue": "9:00 AM - 4:45 PM",
+   "wed": "9:00 AM - 4:45 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -27169,6 +28519,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "The Speech Voice and Language Clinic",
+  "clinic_id": "the-speech-voice-and-language-clinic-ottawa",
+  "address": "2039 Robertson Rd Suite 256",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K2H 8R2",
+  "phone": "613-820-4722",
+  "website": "http://speechvoice.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Speech, Voice & Language Clinic",
+  "clinic_id": "the-speech-voice-language-clinic-ottawa",
+  "address": "2039 Robertson Rd Suite 256",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K2H 8R2",
+  "phone": "613-820-4722",
+  "website": "http://www.speechvoice.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "The Spot Rehab Performance & Recovery",
   "clinic_id": "the-spot-rehab-performance-recovery-markham",
   "address": "548 Carlton Rd Unit 206/208",
@@ -27936,6 +29336,31 @@
   "last_verified": null
  },
  {
+  "name": "Triada Health Ottawa",
+  "clinic_id": "triada-health-ottawa-ottawa",
+  "address": "63 Glencoe St, Suite 303",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K2H 8S5",
+  "phone": "613-695-1213",
+  "website": "https://triadahealthottawa.com/",
+  "booking_page": "https://triadahealth.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "9:00 AM - 1:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Triangle Physiotherapy",
   "clinic_id": "triangle-physiotherapy-mississauga",
   "address": "4188 Living Arts Drive, Unit 3",
@@ -28183,6 +29608,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Uprise Psychology & Wellness",
+  "clinic_id": "uprise-psychology-wellness-ottawa",
+  "address": "116 Lisgar St #101",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": null,
+  "phone": "613-695-7133",
+  "website": "https://uprisepsychology.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -29758,6 +31208,31 @@
   "google_reviews": 19,
   "rating_source": "Google Places details visible in search results for pureBalance Wellness (the place listing block in search results stating 'Rating: four and a half stars (4.4), Based on 19 reviews'); not taken from any aggregator.",
   "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "relax Massage Group",
+  "clinic_id": "relax-massage-group-ottawa",
+  "address": "504 Kent St",
+  "city": "Ottawa",
+  "prov": "ON",
+  "postal": "K2P 2B9",
+  "phone": "613-222-0465",
+  "website": "https://www.relaxmassagegroup.com/",
+  "booking_page": "https://relaxmassage.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 8:00 PM",
+   "sun": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 36,
+  "rating_source": "Google Places details in search results for Relax Ottawa Massage Therapy, 504 Kent St, Ottawa: 4.9 stars based on 36 reviews.",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
