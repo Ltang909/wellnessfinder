@@ -250,6 +250,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Action Sports Clinic",
+  "clinic_id": "action-sports-clinic-calgary",
+  "address": "639 5th Ave SW, Suite 130",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2P 0M9",
+  "phone": "403-263-2225",
+  "website": "https://actionsportsclinic.ca/",
+  "booking_page": "https://actionsportsclinic.ca/",
+  "hours": {
+   "fri": "9:00 AM - 4:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": 4.4,
+  "google_reviews": 8,
+  "rating_source": "Google Places details in search results for Action Sports Clinic (place_id matches the listing linked from the clinic's own site), read 2026-11-01: 'Rating: four and a half stars (4.4), Based on 8 reviews'. Low review count flagged in gaps.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Activa Physiotherapy",
   "clinic_id": "activa-physiotherapy-ottawa",
   "address": "200 Rideau Terrace #202",
@@ -348,6 +373,31 @@
   "rating_source": "Google Places details in search results for Active Physio Works, 2012 Tudor Gln, St Albert (place_id 728644714904865): 'Rating: five stars (5.0) Based on 14 reviews'.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Active Sports Therapy",
+  "clinic_id": "active-sports-therapy-calgary",
+  "address": "9950 Macleod Trl SE #220",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-278-1405",
+  "website": "https://www.activesportstherapy.ca/",
+  "booking_page": "https://activesportstherapy.juvonno.com",
+  "hours": {
+   "fri": "8:00 AM - 6:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": "Closed",
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 12,
+  "rating_source": "Google Places details in search results for Active Sports Therapy (Willow Park listing), read 2026-11-01: 'Rating: five stars (5.0), Based on 12 reviews'.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Acu with Ashleigh",
@@ -575,6 +625,31 @@
   "last_verified": null
  },
  {
+  "name": "Acupuncture by Dr. Sabina",
+  "clinic_id": "acupuncture-by-dr-sabina-calgary",
+  "address": "913 1 Ave NE",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2E 1M2",
+  "phone": "403-452-2111",
+  "website": "https://acupuncturebydrsabina.com/",
+  "booking_page": "https://acupuncturebydrsabina.com/",
+  "hours": {
+   "fri": null,
+   "mon": "7:00 AM - 1:00 PM",
+   "sat": "8:00 AM - 2:00 PM",
+   "sun": null,
+   "thu": "2:00 PM - 7:00 PM",
+   "tue": "2:30 PM - 7:00 PM",
+   "wed": "8:00 AM - 2:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 31,
+  "rating_source": "Clinic's own website Google reviews widget (Trustindex, embedded on acupuncturebydrsabina.com, read 2026-11-01): five-star display with '31 Google reviews'. Recorded as 5.0 from the widget's five filled stars; see gaps.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Advanced Women's Health (Toronto West)",
   "clinic_id": "advanced-womens-health-toronto-west-toronto",
   "address": "832 College Street, Suite 500",
@@ -722,6 +797,31 @@
   "google_reviews": 13,
   "rating_source": "Google Places details in search results for Airdrie Physiotherapy & Massage (place_id 265582515979482): rating 5.0 based on 13 reviews.",
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Alberta Counselling Centre",
+  "clinic_id": "alberta-counselling-centre-calgary",
+  "address": "280 Midpark Way SE, #210",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2X 1J6",
+  "phone": "587-352-3222",
+  "website": "http://albertacounselling.ca/",
+  "booking_page": "https://acc.janeapp.com",
+  "hours": {
+   "fri": "8:30 AM - 8:00 PM",
+   "mon": "8:30 AM - 8:00 PM",
+   "sat": "9:00 AM - 8:00 PM",
+   "sun": "9:00 AM - 8:00 PM",
+   "thu": "8:30 AM - 8:00 PM",
+   "tue": "8:30 AM - 8:00 PM",
+   "wed": "8:30 AM - 8:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 80,
+  "rating_source": "Rating displayed in the business block of the clinic's own website (albertacounselling.ca, fetched 2026-11-01): 'Rating: 4.8 (80 reviews)'.",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -923,6 +1023,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Anew Chiropractic",
+  "clinic_id": "anew-chiropractic-calgary",
+  "address": "933 17 Ave SW, Suite 500",
+  "city": "Calgary",
+  "prov": "AB",
+  "postal": "T2T 5R6",
+  "phone": "403-302-6532",
+  "website": "https://anewchiroclinic.com/",
+  "booking_page": "https://anewchiroclinic.com/",
+  "hours": {
+   "fri": "9:00 AM - 3:00 PM",
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 3:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Annex Naturopathic Clinic",
@@ -7650,6 +7775,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Joayo Therapy",
+  "clinic_id": "joayo-therapy-burnaby",
+  "address": "Unit 100C, 4664 Lougheed Hwy",
+  "city": "Burnaby",
+  "prov": "BC",
+  "postal": "V5C 5T5",
+  "phone": "604-558-1347",
+  "website": "https://joayotherapy.ca/",
+  "booking_page": "https://joayotherapy.janeapp.com/",
+  "hours": {
+   "fri": "9:30 AM - 8:00 PM",
+   "mon": "9:30 AM - 8:00 PM",
+   "sat": "9:30 AM - 6:00 PM",
+   "sun": "10:00 AM - 5:00 PM",
+   "thu": "9:30 AM - 8:00 PM",
+   "tue": "9:30 AM - 8:00 PM",
+   "wed": "9:30 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Josh Dyck Psychology",
   "clinic_id": "josh-dyck-psychology-lethbridge",
   "address": "1274 3 Avenue South",
@@ -8272,7 +8422,7 @@
   "google_reviews": 552,
   "rating_source": "Google Places details (place_id 448773447146881) via clinic site https://launchrehab.ca/north-burnaby/ \u2014 'Rating: 4.9/5 (552 reviews)'",
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Le Groupe Th\u00e9rapie (The Therapy Group)",
@@ -8598,6 +8748,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "MSK Health and Performance Clinic",
+  "clinic_id": "msk-health-and-performance-clinic-burnaby",
+  "address": "4555 Kingsway, unit 700",
+  "city": "Burnaby",
+  "prov": "BC",
+  "postal": "V5H 4T8",
+  "phone": "604-438-6106",
+  "website": "https://mskclinics.com/",
+  "booking_page": "https://mskhealthandperformance.janeapp.com/locations/metrotown-burnaby/book",
+  "hours": {
+   "fri": "8:00 AM - 8:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "10:00 AM - 5:00 PM",
+   "sun": null,
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "MVMT Physio & Chiro",
@@ -9097,6 +9272,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Metrotown Naturopathic and Acupuncture",
+  "clinic_id": "metrotown-naturopathic-and-acupuncture-burnaby",
+  "address": "5050 Kingsway Suite #412",
+  "city": "Burnaby",
+  "prov": "BC",
+  "postal": "V5H 4C2",
+  "phone": "604-451-1737",
+  "website": "https://metrotownnaturopathic.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 8:00 PM",
+   "mon": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 8:00 PM",
+   "sun": "Closed",
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -9975,6 +10175,31 @@
   "last_verified": null
  },
  {
+  "name": "No Fear Counselling - Burnaby",
+  "clinic_id": "no-fear-counselling-burnaby-burnaby",
+  "address": "211 \u2013 7885 6th St",
+  "city": "Burnaby",
+  "prov": "BC",
+  "postal": "V3N 3N4",
+  "phone": "778-288-8361",
+  "website": "https://www.nofearcounselling.com/location/counselling-burnaby/",
+  "booking_page": "https://app.acuityscheduling.com",
+  "hours": {
+   "fri": "8:00 AM - 9:30 PM",
+   "mon": "8:00 AM - 9:30 PM",
+   "sat": "9:00 AM - 8:00 PM",
+   "sun": "9:00 AM - 7:00 PM",
+   "thu": "8:00 AM - 9:30 PM",
+   "tue": "8:00 AM - 9:30 PM",
+   "wed": "8:00 AM - 9:30 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 104,
+  "rating_source": "Rating displayed in the business block of the clinic's own Burnaby location page (fetched 2026-11-01): 'Rating: 4.8 (104 reviews)'. A conflicting Google Places extract (4.6, 12 reviews) is flagged in gaps.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "No.1 Healing Group",
   "clinic_id": "no-1-healing-group-winnipeg",
   "address": "609 Sargent Ave",
@@ -10797,7 +11022,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Pain Ease Naturopathic Clinic",
@@ -14148,6 +14373,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "The Nutrition Well",
+  "clinic_id": "the-nutrition-well-burnaby",
+  "address": "1920 Willingdon Ave #3105",
+  "city": "Burnaby",
+  "prov": "BC",
+  "postal": "V5C 0K3",
+  "phone": "604-773-3372",
+  "website": "http://www.nutritionwell.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 9:00 PM",
+   "mon": "9:00 AM - 9:00 PM",
+   "sat": "9:00 AM - 9:00 PM",
+   "sun": "9:00 AM - 9:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "The Physio Care",

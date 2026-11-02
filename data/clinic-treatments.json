@@ -223,6 +223,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "action-sports-clinic-calgary",
+  "treatment_id": "action-sports-clinic-calgary--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No running assessment price is published on the clinic's own website (checked 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://actionsportsclinic.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "action-sports-clinic-calgary",
+  "treatment_id": "action-sports-clinic-calgary--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave therapy price is published on the clinic's own website (checked 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://actionsportsclinic.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "activa-physiotherapy-ottawa",
   "treatment_id": "activa-physiotherapy-ottawa--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -279,6 +305,51 @@
   "price_tier": null,
   "treatment_link": "https://www.lifemark.ca/clinics/st-albert/apw-tudor-glen/clinic-information",
   "last_verified": null
+ },
+ {
+  "clinic_id": "active-sports-therapy-calgary",
+  "treatment_id": "active-sports-therapy-calgary--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Leah Resch, RMT",
+  "practitioners": [
+   {
+    "as_recorded": "Leah Resch, RMT \u2014 Active Sports Therapy (Willow Park); the clinic's own blog post states she 'is now trained in Manual Lymphatic Drainage (MLD)'",
+    "id": "active-sports-therapy-calgary--leah-resch",
+    "name": "Leah Resch"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No manual lymphatic drainage or massage therapy prices are published on the clinic's own website in the pages fetched (2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.activesportstherapy.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "active-sports-therapy-calgary",
+  "treatment_id": "active-sports-therapy-calgary--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave therapy price is published on the clinic's own website (checked 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.activesportstherapy.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "active-sports-therapy-calgary",
+  "treatment_id": "active-sports-therapy-calgary--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular therapy price is published on the clinic's own website (checked 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.activesportstherapy.ca/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "acu-with-ashleigh-milton",
@@ -404,6 +475,25 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "http://www.aculiftmontreal.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "acupuncture-by-dr-sabina-calgary",
+  "treatment_id": "acupuncture-by-dr-sabina-calgary--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Sabina Jaipaul, Registered Acupuncturist",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Sabina \u2014 Registered Acupuncturist in Bridgeland, Calgary (the clinic's own site and Places description style her 'Dr. Sabina'; the surname 'Jaipaul' appears in a patient Google review reproduced in the clinic's own Trustindex review widget)",
+    "id": "acupuncture-by-dr-sabina-calgary--sabina-jaipaul",
+    "name": "Sabina Jaipaul"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No treatment fees are published on the clinic's own website (checked 2026-11-01); Google Places shows only a $ price range.",
+  "price_tier": null,
+  "treatment_link": "https://acupuncturebydrsabina.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -778,6 +868,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "alberta-counselling-centre-calgary",
+  "treatment_id": "alberta-counselling-centre-calgary--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$235 per 50-minute session",
+  "price_source": "Clinic's own fees page (albertacounselling.ca/fees.html, via search extract read 2026-11-01): 'Our fees are set by the current Psychologists' Association of Alberta (PAA) Recommended Fee Schedule, which sets a 50-minute therapy session at $235... Couple/Family therapy sessions are also billed at $235 for each 50-minute session (as per PAA guidelines).'",
+  "price_tier": "booking",
+  "treatment_link": "https://www.albertacounselling.ca/services.html",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "alberta-counselling-centre-calgary",
+  "treatment_id": "alberta-counselling-centre-calgary--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$2,937.50 comprehensive psychoeducational assessment \u00b7 $3,995 with autism assessment",
+  "price_source": "Clinic's own fees page (albertacounselling.ca/fees.html, via search extract read 2026-11-01): 'The total cost for a comprehensive psychoeducational assessment is $2,937.50. Psychoeducational assessments with autism assessments are $3,995.' The same page notes gifted testing-and-scoring only (declining the report and feedback meeting when criteria are not met) is $705.",
+  "price_tier": "booking",
+  "treatment_link": "http://albertacounselling.ca/psychoeducational-child.html",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "alberta-physical-therapy-clinics-medicine-hat",
   "treatment_id": "alberta-physical-therapy-clinics-medicine-hat--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -981,6 +1097,54 @@
   "price_tier": null,
   "treatment_link": "https://anchoredtherapycentre.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "anew-chiropractic-calgary",
+  "treatment_id": "anew-chiropractic-calgary--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": "Dr. Rachel Frontain, DC, DACNB",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Rachel Frontain, DC & DACNB (team listing on the clinic's own website)",
+    "id": "anew-chiropractic-calgary--rachel-frontain",
+    "name": "Rachel Frontain"
+   },
+   {
+    "as_recorded": "Dr. Bria Kloppenborg, DC & Medical Acupuncture (team listing on the clinic's own website)",
+    "id": "anew-chiropractic-calgary--bria-kloppenborg",
+    "name": "Bria Kloppenborg"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No standalone red light therapy price is published on the clinic's own website (checked 2026-11-01); it is bundled into individualized care plans.",
+  "price_tier": null,
+  "treatment_link": "https://anewchiroclinic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "anew-chiropractic-calgary",
+  "treatment_id": "anew-chiropractic-calgary--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Chiropractic",
+  "practitioner": "Dr. Rachel Frontain, DC, DACNB",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Rachel Frontain, DC & DACNB (team listing on the clinic's own website)",
+    "id": "anew-chiropractic-calgary--rachel-frontain",
+    "name": "Rachel Frontain"
+   },
+   {
+    "as_recorded": "Dr. Bria Kloppenborg, DC & Medical Acupuncture (team listing on the clinic's own website)",
+    "id": "anew-chiropractic-calgary--bria-kloppenborg",
+    "name": "Bria Kloppenborg"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation price is published on the clinic's own website (checked 2026-11-01); vestibular work is part of individualized chiropractic care plans.",
+  "price_tier": null,
+  "treatment_link": "https://anewchiroclinic.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "annex-naturopathic-clinic-toronto",
@@ -8960,6 +9124,87 @@
   "last_verified": null
  },
  {
+  "clinic_id": "joayo-therapy-burnaby",
+  "treatment_id": "joayo-therapy-burnaby--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Anna Kim, R.TCM.P",
+  "practitioners": [
+   {
+    "as_recorded": "Anna Kim, R.TCM.P \u2014 Registered Traditional Chinese Medicine Practitioner; Jane bio: 'specializing in precision acupuncture and facial acupuncture'",
+    "id": "joayo-therapy-burnaby--anna-kim",
+    "name": "Anna Kim"
+   },
+   {
+    "as_recorded": "Parvin \u2014 Registered TCM Practitioner, Manual Osteopath Therapist, and a Certified Mei Zen Facial Acupuncture specialist (surname not published on the clinic's Jane page)",
+    "id": "joayo-therapy-burnaby--parvin",
+    "name": "Parvin"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No cosmetic acupuncture prices are published on the clinic's own website or Jane booking page (read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://joayotherapy.ca/hydra-amp-glow-facial-acupuncture-radiance-that-comes-from-within/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "joayo-therapy-burnaby",
+  "treatment_id": "joayo-therapy-burnaby--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Maral Afifi, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Maral Afifi \u2014 licensed Naturopathic Doctor (former Medical Doctor in Iran); specializes in cosmetic and therapeutic injections per her Jane bio",
+    "id": "joayo-therapy-burnaby--maral-afifi",
+    "name": "Maral Afifi"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No IM injection prices are published on the clinic's own website or Jane booking page (read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.joayotherapy.ca/service/naturopathic-medicine",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "joayo-therapy-burnaby",
+  "treatment_id": "joayo-therapy-burnaby--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Maral Afifi, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Maral Afifi \u2014 licensed Naturopathic Doctor (former Medical Doctor in Iran); the clinic's Naturopathic Medicine page and Jane bio state she specializes in IV therapies",
+    "id": "joayo-therapy-burnaby--maral-afifi",
+    "name": "Maral Afifi"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No IV therapy prices are published on the clinic's own website or on its Jane booking page (joayotherapy.janeapp.com, read 2026-11-01); the Jane page lists practitioners and bios without public treatment prices.",
+  "price_tier": null,
+  "treatment_link": "https://www.joayotherapy.ca/service/naturopathic-medicine",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "joayo-therapy-burnaby",
+  "treatment_id": "joayo-therapy-burnaby--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Maral Afifi, ND",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Maral Afifi \u2014 licensed Naturopathic Doctor (former Medical Doctor in Iran); specializes in cosmetic and therapeutic injections per the clinic's own pages",
+    "id": "joayo-therapy-burnaby--maral-afifi",
+    "name": "Maral Afifi"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No neuromodulator/Botox prices are published on the clinic's own website or Jane booking page (read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.joayotherapy.ca/service/naturopathic-medicine",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "josh-dyck-psychology-lethbridge",
   "treatment_id": "josh-dyck-psychology-lethbridge--couples-therapy",
   "treatment": "Couples Therapy",
@@ -9701,6 +9946,19 @@
   "price_tier": "booking",
   "treatment_link": "https://launch.janeapp.com/locations/launch-rehab-north-burnaby/book",
   "last_verified": null
+ },
+ {
+  "clinic_id": "launch-rehab-north-burnaby-burnaby",
+  "treatment_id": "launch-rehab-north-burnaby-burnaby--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular-specific price could be confidently attributed from the clinic's own rates page extract (read 2026-11-01), so no price is recorded.",
+  "price_tier": null,
+  "treatment_link": "https://launchrehab.ca/north-burnaby/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "le-groupe-therapie-the-therapy-group-montreal",
@@ -10537,6 +10795,38 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "metrotown-naturopathic-and-acupuncture-burnaby",
+  "treatment_id": "metrotown-naturopathic-and-acupuncture-burnaby--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Ladan Mohammadi, Dr. TCM, R.Ac., PhD",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Ladan Mohammadi, Dr. TCM, R.Ac., PhD \u2014 'a licensed acupuncturist and a licensed doctor of traditional Chinese medicine' per the clinic's own acupuncture service page",
+    "id": "metrotown-naturopathic-and-acupuncture-burnaby--ladan-mohammadi",
+    "name": "Ladan Mohammadi"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No acupuncture fees were available from the clinic's own pages this pass (Fees page fetch returned HTTP 429 and was not retried per protocol; no fees in search extracts), so no price is recorded.",
+  "price_tier": null,
+  "treatment_link": "https://metrotownnaturopathic.com/can-acupuncture-help-with-getting-pregnant/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "metrotown-naturopathic-and-acupuncture-burnaby",
+  "treatment_id": "metrotown-naturopathic-and-acupuncture-burnaby--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's own Fees page was not readable this pass (page-fetch HTTP 429, not retried per protocol) and no naturopathic consultation fees appear in search extracts of the clinic's own pages, so no price is recorded.",
+  "price_tier": null,
+  "treatment_link": "https://metrotownnaturopathic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "metrotown-orthopedic-sports-physiotherapy-burnaby",
   "treatment_id": "metrotown-orthopedic-sports-physiotherapy-burnaby--clinical-pilates",
   "treatment": null,
@@ -10935,6 +11225,49 @@
   "price_tier": null,
   "treatment_link": "https://movesyou.ca/our-services/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "msk-health-and-performance-clinic-burnaby",
+  "treatment_id": "msk-health-and-performance-clinic-burnaby--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Kayon, RMT",
+  "practitioners": [
+   {
+    "as_recorded": "Kayon \u2014 Registered Massage Therapist (Vancouver College of Massage Therapy); her bio on this location's Jane booking page states a strong interest in Fascial Stretch Therapy (FST) and Manual Lymphatic Drainage (MLD). Surname not published in the fetched Jane extract, so the ID uses her first name.",
+    "id": "msk-health-and-performance-clinic-burnaby--kayon",
+    "name": "Kayon"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No manual lymphatic drainage prices are published on the clinic's own website or Jane booking pages (read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://mskclinics.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "msk-health-and-performance-clinic-burnaby",
+  "treatment_id": "msk-health-and-performance-clinic-burnaby--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Samuel, Physiotherapist (radial shockwave therapy); also Dr. Chris White, Chiropractor",
+  "practitioners": [
+   {
+    "as_recorded": "Samuel \u2014 Physiotherapist (Masters of Physiotherapy, McMaster University); his bio on this location's Jane booking page lists Radial Shockwave Therapy among his treatment techniques. Surname not published in the fetched Jane extract, so the ID uses his first name.",
+    "id": "msk-health-and-performance-clinic-burnaby--samuel",
+    "name": "Samuel"
+   },
+   {
+    "as_recorded": "Dr. Chris White \u2014 Chiropractor; his bio on this location's Jane booking page lists Shockwave among his techniques (also team chiropractor for the Vancouver Giants).",
+    "id": "msk-health-and-performance-clinic-burnaby--chris-white",
+    "name": "Chris White"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No shockwave therapy prices are published on the clinic's own website or on its Jane booking pages (read 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://mskclinics.com/physiotherapy-center-treatments/shockwave-therapy/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "mvmt-physio-chiro-st-albert",
@@ -11727,6 +12060,19 @@
   "price_source": "Premise failure (see gaps); no standalone Facial Gua Sha price exists on the clinic's own site in the extracts surfaced.",
   "price_tier": null,
   "treatment_link": "http://heal-1.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "no-fear-counselling-burnaby-burnaby",
+  "treatment_id": "no-fear-counselling-burnaby-burnaby--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$130\u2013$180 per 50-minute session (Registered Clinical Counsellor)",
+  "price_source": "Clinic's own counselling cost guide (nofearcounselling.com/how-much-does-couples-counselling-cost-in-vancouver/, via search extract read 2026-11-01): Registered Clinical Counsellor $130\u2013$180 per 50-minute session; Registered Psychologist $200\u2013$250; intern/graduate counsellor $40\u2013$80. The guide is chain-wide (Vancouver-focused), not Burnaby-specific.",
+  "price_tier": "booking",
+  "treatment_link": "https://www.nofearcounselling.com/location/counselling-burnaby/",
   "last_verified": "2026-11-01"
  },
  {
@@ -13446,6 +13792,32 @@
   "price_tier": "booking",
   "treatment_link": "https://www.pretherapy.ca/clinical-reformer-pilates",
   "last_verified": null
+ },
+ {
+  "clinic_id": "pre-therapy-burnaby",
+  "treatment_id": "pre-therapy-burnaby--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$175 initial (60 min) \u00b7 $175 subsequent (60 min) \u00b7 $105 subsequent (30 min)",
+  "price_source": "Clinic's own Pelvic Floor Physiotherapy page pricing block (pretherapy.ca/pelvic-floor-physio, via search extract read 2026-11-01): 'Offered at Laurel & Brentwood. Initial \u00b7 60 min $175; Subsequent \u00b7 60 min $175; Subsequent \u00b7 30 min $105. Prices are in CAD and current as of 2026.'",
+  "price_tier": "booking",
+  "treatment_link": "https://www.pretherapy.ca/pelvic-floor-physio",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pre-therapy-burnaby",
+  "treatment_id": "pre-therapy-burnaby--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No SoftWave/shockwave price is published on the clinic's own pages fetched this pass (2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "https://www.pretherapy.ca/services",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "pro-active-physiotherapy-clinic-mississauga",
@@ -17104,6 +17476,38 @@
   "price_tier": null,
   "treatment_link": "https://www.the-nutrition-advantage.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "the-nutrition-well-burnaby",
+  "treatment_id": "the-nutrition-well-burnaby--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Dietitian",
+  "practitioner": "Annie Tsang, RD",
+  "practitioners": [
+   {
+    "as_recorded": "Annie Tsang, Registered Dietitian \u2014 founder of The Nutrition Well (founded 2012); the clinic's own site states she specializes in fertility, perinatal nutrition, gut health, and women's health and founded the 'Seed to Sprout' fertility nutrition hub",
+    "id": "the-nutrition-well-burnaby--annie-tsang",
+    "name": "Annie Tsang"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fertility consultation fees are published on the clinic's own website (checked 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "http://www.nutritionwell.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-nutrition-well-burnaby",
+  "treatment_id": "the-nutrition-well-burnaby--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (checked 2026-11-01).",
+  "price_tier": null,
+  "treatment_link": "http://www.nutritionwell.ca/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "the-physio-care-okotoks",
