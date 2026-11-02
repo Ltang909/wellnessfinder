@@ -2674,7 +2674,7 @@ const PRESSOTHERAPY_CLINICS = [
 const CLAIM_STATS = [
   { num: "34", label: "treatments you can search" },
   { num: "1,695", label: "clinics listed across Canada" },
-  { num: "445", label: "directory clinics confirmed to direct-bill insurers" },
+  { num: "457", label: "directory clinics confirmed to direct-bill insurers" },
 ];
 const REVIEW_QUOTES = [
   { treatment: "Clinical Pilates", billed: "Physiotherapy", clinic: "Resilience Physiotherapy", city: "Toronto", reviewer: "Madeline Dietrich", stars: null,

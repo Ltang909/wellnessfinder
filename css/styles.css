@@ -887,6 +887,9 @@ body { font-size: 16px; }
 .section-petpet::before { content: ""; position: absolute; left: 50%; top: 56%; transform: translate(-50%, -50%); width: 96%; aspect-ratio: 1/1; border-radius: 50%; background: #FFCE45; }
 .section-petpet img { position: relative; display: block; width: 100%; }
 @media (max-width: 640px) { .section-petpet { width: 76px; } }
+.claims-head { max-width: none; }
+.claims-head h2 { white-space: nowrap; }
+@media (max-width: 640px) { .claims-head h2 { white-space: normal; } }
 
 /* Claim card twist: insurer logo under the covered badge, no footer row */
 .claim-side { display: inline-flex; flex-direction: column; align-items: flex-end; gap: 6px; }
