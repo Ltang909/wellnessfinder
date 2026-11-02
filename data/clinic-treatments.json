@@ -142,6 +142,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "a-time-to-heal-psychotherapy-vaughan",
+  "treatment_id": "a-time-to-heal-psychotherapy-vaughan--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's website or in its Jane booking page extract; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.atimetohealpsychotherapy.com/neurofeedback-biofeedback",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "a-to-z-fertility-toronto",
   "treatment_id": "a-to-z-fertility-toronto--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -237,6 +250,44 @@
   "price_tier": "website",
   "treatment_link": "https://www.abbyphysio.com/team-member/todd-mcgladdery/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "abby-brooks-victoria",
+  "treatment_id": "abby-brooks-victoria--accent-modification",
+  "treatment": "Accent Modification",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Abby Brooks",
+  "practitioners": [
+   {
+    "as_recorded": "Abby Brooks, B. Ed., M. Sc. A, RSLP - registered and certified speech and language therapist; certified in the Compton PESL Accent Modification Method (clinic's own site)",
+    "id": "abby-brooks-victoria--abby-brooks",
+    "name": "Abby Brooks"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Fees are not published on voicespeechlanguage.com (its pages direct clients to contact the clinic for current fees), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.voicespeechlanguage.com/accent-reduction",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "abby-brooks-victoria",
+  "treatment_id": "abby-brooks-victoria--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Abby Brooks",
+  "practitioners": [
+   {
+    "as_recorded": "Abby Brooks, B. Ed., M. Sc. A, RSLP - registered and certified speech and language therapist (clinic's own site)",
+    "id": "abby-brooks-victoria--abby-brooks",
+    "name": "Abby Brooks"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Fees are not published on voicespeechlanguage.com, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.voicespeechlanguage.com/on-line-therapy",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "about-mind-mental-health-clinic-etobicoke",
@@ -4458,6 +4509,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "apollo-performance-therapy-victoria",
+  "treatment_id": "apollo-performance-therapy-victoria--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Premise failure - no pelvic floor service exists at this clinic, so no price applies.",
+  "price_tier": null,
+  "treatment_link": "https://www.apolloperformancetherapy.com/services",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "apollo-performance-therapy-victoria",
+  "treatment_id": "apollo-performance-therapy-victoria--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price is published for the Running Assessment on the clinic's website, and its Jane booking page does not expose prices in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.apolloperformancetherapy.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "apple-creek-sports-medicine-centre-markham",
   "treatment_id": "apple-creek-sports-medicine-centre-markham--clinical-pilates",
   "treatment": null,
@@ -7195,6 +7272,44 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "beta-health-victoria",
+  "treatment_id": "beta-health-victoria--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Marianne Custodio Fox",
+  "practitioners": [
+   {
+    "as_recorded": "Marianne Custodio Fox, Registered Physiotherapist - MSc Physical Therapy (University of Alberta); courses in pelvic floor rehabilitation and a special interest in pelvic floor conditions (clinic's Jane bio; named on the clinic's pelvic health page)",
+    "id": "beta-health-victoria--marianne-custodio-fox",
+    "name": "Marianne Custodio Fox"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Physiotherapy rates are not published on betahealth.ca, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://betahealth.ca/pelvic-health-physiotherapy/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "beta-health-victoria",
+  "treatment_id": "beta-health-victoria--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Jason Geddes",
+  "practitioners": [
+   {
+    "as_recorded": "Jason Geddes, RMT - 'gained considerable familiarity with Cervical, Lumbar, and TMJ dysfunctions (intra-oral treatments are available)' (clinic's own massage therapy page)",
+    "id": "beta-health-victoria--jason-geddes",
+    "name": "Jason Geddes"
+   }
+  ],
+  "price_text": "$80 (30 min) \u00b7 $110 (45 min) \u00b7 $134 (60 min) \u00b7 $168 (75 min) \u00b7 $199 (90 min), + GST",
+  "price_source": "RATES section of the clinic's own massage therapy page (betahealth.ca/massage-therapy/)",
+  "price_tier": "website",
+  "treatment_link": "http://betahealth.ca/massage-therapy/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "better-bodies-by-massage-antigonish",
   "treatment_id": "better-bodies-by-massage-antigonish--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
@@ -7238,6 +7353,19 @@
   "price_tier": null,
   "treatment_link": "https://bbdnutrition.com/book-an-appointment/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "bettercare-clinic-vaughan",
+  "treatment_id": "bettercare-clinic-vaughan--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Red light therapy is priced 'on consultation' on the clinic's own site (a free 20-minute first session runs as a welcome offer); no per-session price is published on the site or in the Jane extract, so price is null. A 2023 clinic price-list PDF lists laser therapy at $65-$100, which is a different modality and too old to carry as the red light price.",
+  "price_tier": null,
+  "treatment_link": "https://better-care.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "bewell-clinics-toronto",
@@ -10016,6 +10144,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "catherine-walton-rmt-victoria",
+  "treatment_id": "catherine-walton-rmt-victoria--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Catherine Walton",
+  "practitioners": [
+   {
+    "as_recorded": "Catherine Walton, RMT - Dr. Vodder method manual lymph drainage (clinic's own site)",
+    "id": "catherine-walton-rmt-victoria--catherine-walton",
+    "name": "Catherine Walton"
+   }
+  ],
+  "price_text": "$105 (45 min) \u00b7 $135-157 (60 min), GST included",
+  "price_source": "Pricing for Manual Lymph Drainage on the clinic's own page (catherinewaltonrmt.com/manual-lymph-drainage); GST included in all rates",
+  "price_tier": "website",
+  "treatment_link": "https://catherinewaltonrmt.com/manual-lymph-drainage",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "catholic-family-services-of-prince-albert-prince-albert",
   "treatment_id": "catholic-family-services-of-prince-albert-prince-albert--couples-therapy",
   "treatment": "Couples Therapy",
@@ -12255,6 +12402,30 @@
   "price_tier": "website",
   "treatment_link": "https://www.chinesemedicineptbo.com/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "chiropractic-victoria-victoria",
+  "treatment_id": "chiropractic-victoria-victoria--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic / Physiotherapy",
+  "practitioner": "Dr. Ken Alexander; Justine Aichelberger",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Ken Alexander, DC - 'Shockwave Therapy is available with our Chiropractor at Remedy' (clinic's own chiropractic page)",
+    "id": "chiropractic-victoria-victoria--ken-alexander",
+    "name": "Ken Alexander"
+   },
+   {
+    "as_recorded": "Justine Aichelberger, PT - uses shockwave therapy in her physiotherapy practice at the clinic (clinic practitioner profile)",
+    "id": "chiropractic-victoria-victoria--justine-aichelberger",
+    "name": "Justine Aichelberger"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.chiropracticvictoria.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "chiropractic-wellness-and-rehabilitation-oshawa",
@@ -14798,7 +14969,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://conceptphysiotherapy.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -17264,6 +17435,19 @@
  },
  {
   "clinic_id": "diversified-health-clinic-victoria",
+  "treatment_id": "diversified-health-clinic-victoria--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Premise failure - the clinic offers Class IV laser therapy, not red light therapy, so no red light price applies.",
+  "price_tier": null,
+  "treatment_link": "https://www.diversifiedhealth.ca/chiropractic-care/what-is-laser-therapy/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "diversified-health-clinic-victoria",
   "treatment_id": "diversified-health-clinic-victoria--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
@@ -17272,21 +17456,66 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.diversifiedhealth.ca/sports-therapy/more-treatment-options-with-modern-technology-physiotherapy-victoria-bc/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dockside-physiotherapy-victoria",
+  "treatment_id": "dockside-physiotherapy-victoria--bike-fitting",
+  "treatment": "Bike Fitting",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$160 standard fit (60 min) \u00b7 $300 full fit (120 min) \u00b7 $375 full fit + aerobars (150 min) \u00b7 $160 refit",
+  "price_source": "Bike Fitting (BikeFit(R)) section of the clinic's own Pricing & Coverage page (docksidephysio.com)",
+  "price_tier": "website",
+  "treatment_link": "https://docksidephysio.com/our-services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "dockside-physiotherapy-victoria",
   "treatment_id": "dockside-physiotherapy-victoria--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
+  "practitioner": "Shawna",
+  "practitioners": [],
+  "price_text": "$180 assessment (60 min) \u00b7 $105 (30 min) / $150 (45 min) / $190 (60 min) treatment",
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://docksidephysio.com/our-services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dockside-physiotherapy-victoria",
+  "treatment_id": "dockside-physiotherapy-victoria--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
   "practitioner": null,
   "practitioners": [],
   "price_text": null,
-  "price_source": null,
+  "price_source": "The clinic's own Pricing & Coverage page lists no separate Running Analysis fee, so price is null.",
   "price_tier": null,
-  "treatment_link": null,
-  "last_verified": "2026-11-01"
+  "treatment_link": "https://docksidephysio.com/our-services/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "dockside-physiotherapy-victoria",
+  "treatment_id": "dockside-physiotherapy-victoria--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Nina Bai",
+  "practitioners": [
+   {
+    "as_recorded": "Nina Bai, Certified Vestibular Therapist (clinic's own vestibular therapy page)",
+    "id": "dockside-physiotherapy-victoria--nina-bai",
+    "name": "Nina Bai"
+   }
+  ],
+  "price_text": "$180 assessment (60 min) \u00b7 $105 (30 min) / $150 (45 min) / $190 (60 min) treatment",
+  "price_source": "Vestibular Therapy section of the clinic's own Pricing & Coverage page (docksidephysio.com)",
+  "price_tier": "website",
+  "treatment_link": "https://docksidephysio.com/our-services/vestibular-therapy",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "doctor-kara-st-catharines",
@@ -18157,6 +18386,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-brewster-scott-victoria",
+  "treatment_id": "dr-brewster-scott-victoria--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Brewster Scott",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Brewster Scott, ND, R.TCM.P - naturopathic physician licensed with the College of Naturopathic Physicians of BC and a Registered Traditional Chinese Medicine Practitioner (clinic's own site)",
+    "id": "dr-brewster-scott-victoria--brewster-scott",
+    "name": "Brewster Scott"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on drbrewsterscottnd.com, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.drbrewsterscottnd.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "dr-brian-yeung-nd-markham",
   "treatment_id": "dr-brian-yeung-nd-markham--naturopathy",
   "treatment": "Naturopathy",
@@ -18543,6 +18791,25 @@
   "price_tier": null,
   "treatment_link": "https://acupoint.ca/iv-vitamin-therapy-vancouver",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-chelsea-cole-victoria",
+  "treatment_id": "dr-chelsea-cole-victoria--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Chelsea Cole",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Chelsea Cole, ND (drchelseacole.com)",
+    "id": "dr-chelsea-cole-victoria--chelsea-cole",
+    "name": "Chelsea Cole"
+   }
+  ],
+  "price_text": "$290 initial ND consult (60 min)",
+  "price_source": "Fee Schedule page of Juniper Family Health (juniperfamilyhealth.com), the clinic where Dr. Cole practises; her fertility/preconception care is delivered through ND consultations there",
+  "price_tier": "website",
+  "treatment_link": "https://www.drchelseacole.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "dr-christa-angell-calgary",
@@ -20836,6 +21103,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-mary-saad-vaughan",
+  "treatment_id": "dr-mary-saad-vaughan--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Mary Saad",
+  "practitioners": [
+   {
+    "id": "dr-mary-saad-vaughan--dr-mary-saad",
+    "name": "Dr. Mary Saad",
+    "as_recorded": "Dr. Mary Saad, ND (CONO-registered naturopathic doctor; formerly a medical doctor in Egypt)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Fees are not published on her website, and her Jane booking page extract rendered no fee list. Sun Life Lumino lists $105-$166 per visit, an insurer-directory range rather than her own booking/website price, so price is null pending a Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://drmarysaadnd.janeapp.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "dr-matthew-pace-nd-toronto",
   "treatment_id": "dr-matthew-pace-nd-toronto--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -21961,6 +22247,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-shelby-entner-vernon",
+  "treatment_id": "dr-shelby-entner-vernon--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Shelby Entner",
+  "practitioners": [
+   {
+    "id": "dr-shelby-entner-vernon--shelby-entner",
+    "name": "Shelby Entner",
+    "as_recorded": "Dr. Shelby Entner, ND - Naturopathic Doctor, founder of Vero Health Naturopathic Care"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane page (verohealth.janeapp.com) rendered practitioner bios but no fee list in text fetch, and verocare.ca publishes no prices, so price is null. A dated Sun Life Lumino profile suggested $115-$185 per visit but that is not a clinic booking/website price and was not recorded. Queued for the rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://verocare.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "dr-simona-scurtu-ajax",
   "treatment_id": "dr-simona-scurtu-ajax--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
@@ -22321,6 +22626,44 @@
   "price_tier": null,
   "treatment_link": "https://torontodentistry.info/tmj/botox-for-tmj-bruxism/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-zarlashta-popal-nd-vaughan",
+  "treatment_id": "dr-zarlashta-popal-nd-vaughan--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Zarlashta Popal",
+  "practitioners": [
+   {
+    "id": "dr-zarlashta-popal-nd-vaughan--dr-zarlashta-popal",
+    "name": "Dr. Zarlashta Popal",
+    "as_recorded": "Dr. Zarlashta Popal, ND (licensed naturopath practising since 2005; CONO, OAND, CAND)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on drzarnd.com or in the Jane (Maple Gates of Wellness) extract; price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.drzarnd.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "dr-zarlashta-popal-nd-vaughan",
+  "treatment_id": "dr-zarlashta-popal-nd-vaughan--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Zarlashta Popal",
+  "practitioners": [
+   {
+    "id": "dr-zarlashta-popal-nd-vaughan--dr-zarlashta-popal",
+    "name": "Dr. Zarlashta Popal",
+    "as_recorded": "Dr. Zarlashta Popal, ND (licensed naturopath practising since 2005; CONO, OAND, CAND)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on drzarnd.com or in the Jane (Maple Gates of Wellness) extract; price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.drzarnd.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "drainage-lymphatique-montreal-montreal",
@@ -22822,16 +23165,48 @@
  },
  {
   "clinic_id": "easthill-physiotherapy-and-acupuncture-vernon",
+  "treatment_id": "easthill-physiotherapy-and-acupuncture-vernon--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Rob McMillan",
+  "practitioners": [
+   {
+    "as_recorded": "Rob McMillan, physiotherapist, Titleist Performance Institute certified (clinic's own TPI Golf Assessment page)",
+    "id": "easthill-physiotherapy-and-acupuncture-vernon--rob-mcmillan",
+    "name": "Rob McMillan"
+   }
+  ],
+  "price_text": "$225 TPI assessment package (assessment + implementation session) \u00b7 $80 re-assessment",
+  "price_source": "Clinic's own TPI Golf Assessment page on easthillphysio.com ('How much does it cost?' section)",
+  "price_tier": "website",
+  "treatment_link": "https://easthillphysio.com/titleist-performance-institute-golf-assessment-whats-that-all-about/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "easthill-physiotherapy-and-acupuncture-vernon",
   "treatment_id": "easthill-physiotherapy-and-acupuncture-vernon--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Chenoa Koke",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://easthillphysio.com/services/pelvic-floor-physiotherapy/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "easthill-physiotherapy-and-acupuncture-vernon",
+  "treatment_id": "easthill-physiotherapy-and-acupuncture-vernon--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee schedule is published on easthillphysio.com and no booking-page prices could be read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://easthillphysio.com/services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "eastnd-fredericton",
@@ -23216,6 +23591,43 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "elements-of-health-centre-victoria",
+  "treatment_id": "elements-of-health-centre-victoria--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No acupuncture fees are published on elementscentre.ca or in the clinic's Jane page extract, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://elementscentre.janeapp.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "elements-of-health-centre-victoria",
+  "treatment_id": "elements-of-health-centre-victoria--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Harris Fisher; Stephanie Curran",
+  "practitioners": [
+   {
+    "as_recorded": "Harris Fisher, Dr.TCM - clinical focus in reproductive and hormonal health; supports patients navigating fertility and assisted reproductive treatments (IVF, IUI) (clinic's own bio page)",
+    "id": "elements-of-health-centre-victoria--harris-fisher",
+    "name": "Harris Fisher"
+   },
+   {
+    "as_recorded": "Stephanie Curran - clinic founder; fellowship with the American Board of Oriental Reproductive Medicine (ABORM) obtained in 2009 (clinic's Jane booking page)",
+    "id": "elements-of-health-centre-victoria--stephanie-curran",
+    "name": "Stephanie Curran"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No acupuncture fees are published on elementscentre.ca or in the clinic's Jane page extract, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.elementscentre.ca/?p=1675",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "elev8-aesthetic-medicine-inc-barrie",
   "treatment_id": "elev8-aesthetic-medicine-inc-barrie--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
@@ -23316,6 +23728,19 @@
   "price_tier": null,
   "treatment_link": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "elizabeth-zemelman-vaughan",
+  "treatment_id": "elizabeth-zemelman-vaughan--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "PREMISE FAILURE: no sports nutrition service is offered (see gaps); price is null.",
+  "price_tier": null,
+  "treatment_link": "https://elizabethzrd.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "elle-medi-spa-charlottetown",
@@ -24362,16 +24787,54 @@
  },
  {
   "clinic_id": "essential-balance-vaughan",
+  "treatment_id": "essential-balance-vaughan--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Eileen Fauster",
+  "practitioners": [
+   {
+    "id": "essential-balance-vaughan--eileen-fauster",
+    "name": "Eileen Fauster",
+    "as_recorded": "Eileen Fauster, Registered Acupuncturist (R.Ac) and Registered Holistic Nutritionist, founder of Essential Balance"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price is published for cosmetic (Vienna Mei Ren) facial acupuncture on the clinic's website or any booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://essentialbalance.ca/facial-cosmetic-acupuncture-toronto/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "essential-balance-vaughan",
   "treatment_id": "essential-balance-vaughan--facial-gua-sha",
   "treatment": "Facial Gua Sha",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Eileen Fauster",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$160 (special; reg. $190)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://essentialbalance.ca/gua-sha-facial-vaughan-toronto/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "essential-balance-vaughan",
+  "treatment_id": "essential-balance-vaughan--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Eileen Fauster",
+  "practitioners": [
+   {
+    "id": "essential-balance-vaughan--eileen-fauster",
+    "name": "Eileen Fauster",
+    "as_recorded": "Eileen Fauster, Registered Acupuncturist (R.Ac) and Registered Holistic Nutritionist, founder of Essential Balance"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fertility-specific acupuncture price is published on the clinic's website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://essentialbalance.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "essential-physiotherapy-brantford",
@@ -25426,6 +25889,30 @@
   "price_tier": null,
   "treatment_link": "http://www.fitphysio.com/services.html",
   "last_verified": null
+ },
+ {
+  "clinic_id": "fix-healthcare-victoria",
+  "treatment_id": "fix-healthcare-victoria--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Lauren Giles; Sean Raymond",
+  "practitioners": [
+   {
+    "as_recorded": "Lauren Giles, PT - listed among the Women's Health physiotherapists on the clinic's own Women's Health page",
+    "id": "fix-healthcare-victoria--lauren-giles",
+    "name": "Lauren Giles"
+   },
+   {
+    "as_recorded": "Sean Raymond, PT - pre/post natal care focus on the clinic's own Women's Health page",
+    "id": "fix-healthcare-victoria--sean-raymond",
+    "name": "Sean Raymond"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No physiotherapy fees are published on fixhealthcarevictoria.com, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.fixhealthcarevictoria.com/womens-health/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "flatlands-acupuncture-regina",
@@ -30596,6 +31083,25 @@
   "price_tier": null,
   "treatment_link": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "inner-health-nutrition-consulting-vaughan",
+  "treatment_id": "inner-health-nutrition-consulting-vaughan--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": "Filomena Vernace-Inserra",
+  "practitioners": [
+   {
+    "id": "inner-health-nutrition-consulting-vaughan--filomena-vernace-inserra",
+    "name": "Filomena Vernace-Inserra",
+    "as_recorded": "Filomena Vernace-Inserra, BASc, RD - Registered Dietitian & Nutrition Consultant, founder"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Program pricing (1, 3, 6 and 12-month programs) is not published on the clinic's website and there is no online booking fee list, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://innerhealth1.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "inner-peace-psychology-clinic-edmonton",
@@ -40844,6 +41350,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "maple-dentistry-vaughan",
+  "treatment_id": "maple-dentistry-vaughan--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dental",
+  "practitioner": "Daniel Sun",
+  "practitioners": [
+   {
+    "id": "maple-dentistry-vaughan--daniel-sun",
+    "name": "Daniel Sun",
+    "as_recorded": "Dr. Daniel Sun, Dentist - practice lead, Maple Dentistry (Dr. Daniel Sun & Associates)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No Botox pricing is published on the clinic's website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://mapledentistry.com/faqs/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "maple-ridge-physiotherapy-and-pain-clinic-maple-ridge",
   "treatment_id": "maple-ridge-physiotherapy-and-pain-clinic-maple-ridge--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -49104,6 +49629,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "nancy-bevilacqua-vaughan",
+  "treatment_id": "nancy-bevilacqua-vaughan--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": "Nancy Bevilacqua",
+  "practitioners": [
+   {
+    "id": "nancy-bevilacqua-vaughan--nancy-bevilacqua",
+    "name": "Nancy Bevilacqua",
+    "as_recorded": "Nancy Bevilacqua, MHSc, RD - Registered Dietitian"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Her own website links to a packages page but publishes no prices in the fetched text, and no booking-page fee list exists, so price is null. (A Squarespace fee PDF surfaced in search belongs to a different practice and was not used.)",
+  "price_tier": null,
+  "treatment_link": "https://nutritionwithnancy.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "natalie-koleric-therapy-winnipeg",
   "treatment_id": "natalie-koleric-therapy-winnipeg--couples-therapy",
   "treatment": "Couples Therapy",
@@ -49115,6 +49659,93 @@
   "price_tier": null,
   "treatment_link": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "natcan-integrative-medical-wellness-centre-vaughan",
+  "treatment_id": "natcan-integrative-medical-wellness-centre-vaughan--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Amita Sachdev; Sylvia Santos; Sabrina Perfetto; Stefania Iovine",
+  "practitioners": [
+   {
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--amita-sachdev",
+    "name": "Amita Sachdev",
+    "as_recorded": "Dr. Amita Sachdev, RN, ND - Naturopathic Doctor, IVIT Certified"
+   },
+   {
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--sylvia-santos",
+    "name": "Sylvia Santos",
+    "as_recorded": "Dr. Sylvia Santos, ND - Naturopathic Doctor"
+   },
+   {
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--sabrina-perfetto",
+    "name": "Sabrina Perfetto",
+    "as_recorded": "Dr. Sabrina Perfetto, ND - Naturopathic Doctor"
+   },
+   {
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--stefania-iovine",
+    "name": "Stefania Iovine",
+    "as_recorded": "Dr. Stefania Iovine, ND - Naturopathic Doctor (Vaughan location only)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vitamin-injection prices are published on the clinic's website or rendered on its Jane page in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://natcanintegrative.janeapp.com/locations/natcan-integrative-medical-wellness-centre/book",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "natcan-integrative-medical-wellness-centre-vaughan",
+  "treatment_id": "natcan-integrative-medical-wellness-centre-vaughan--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Amita Sachdev; Sylvia Santos; Sabrina Perfetto; Stefania Iovine",
+  "practitioners": [
+   {
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--amita-sachdev",
+    "name": "Amita Sachdev",
+    "as_recorded": "Dr. Amita Sachdev, RN, ND - Naturopathic Doctor, IVIT Certified"
+   },
+   {
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--sylvia-santos",
+    "name": "Sylvia Santos",
+    "as_recorded": "Dr. Sylvia Santos, ND - Naturopathic Doctor"
+   },
+   {
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--sabrina-perfetto",
+    "name": "Sabrina Perfetto",
+    "as_recorded": "Dr. Sabrina Perfetto, ND - Naturopathic Doctor"
+   },
+   {
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--stefania-iovine",
+    "name": "Stefania Iovine",
+    "as_recorded": "Dr. Stefania Iovine, ND - Naturopathic Doctor (Vaughan location only)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page lists an 'Intravenous (IV) Vitamin Therapy' category for this location but rendered no prices in text fetch; no IV price list is published on natcanintegrative.com, so price is null. Queued for the rendered-browser Jane price re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://natcanintegrative.janeapp.com/locations/natcan-integrative-medical-wellness-centre/book",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "natcan-integrative-medical-wellness-centre-vaughan",
+  "treatment_id": "natcan-integrative-medical-wellness-centre-vaughan--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Nikki",
+  "practitioners": [
+   {
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--nikki",
+    "name": "Nikki",
+    "as_recorded": "Nikki, Registered Massage Therapist (first name only, as recorded on the clinic's Jane page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No massage-therapy fees are published on the clinic's website or rendered on its Jane page in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://natcanintegrative.janeapp.com/locations/natcan-integrative-medical-wellness-centre/book",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "natcan-integrative-medical-wellness-centre-vaughan",
@@ -49149,6 +49780,25 @@
   "price_tier": null,
   "treatment_link": "https://natcanintegrative.com/pages/naturopathic-medicine",
   "last_verified": null
+ },
+ {
+  "clinic_id": "natcan-integrative-medical-wellness-centre-vaughan",
+  "treatment_id": "natcan-integrative-medical-wellness-centre-vaughan--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Kelly Leong",
+  "practitioners": [
+   {
+    "id": "natcan-integrative-medical-wellness-centre-vaughan--kelly-leong",
+    "name": "Kelly Leong",
+    "as_recorded": "Kelly Leong, PT - Pelvic Floor Physiotherapist (MScPT, McMaster 2016)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No physiotherapy fees are published on the clinic's website or rendered on its Jane page in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://natcanintegrative.com/pages/physiotherapy-pelvic-floor-physiotherapy",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "natcan-weight-loss-skin-clinic-woodbridge",
@@ -53857,15 +54507,28 @@
  },
  {
   "clinic_id": "pacific-maple-psych-centre-vancouver",
-  "treatment_id": "pacific-maple-psych-centre-vancouver--psychoeducational-assessments",
-  "treatment": "Psychoeducational Assessments",
-  "billed_as": null,
+  "treatment_id": "pacific-maple-psych-centre-vancouver--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
   "practitioner": null,
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://pacificmaplepsych.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "pacific-maple-psych-centre-vancouver",
+  "treatment_id": "pacific-maple-psych-centre-vancouver--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": null,
+  "practitioner": "Dr. Camille Mori; Dr. Mabel Yu; Ilona Oszadszky",
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://pacificmaplepsych.com/services/psychological-assessment.html",
   "last_verified": "2026-11-01"
  },
  {
@@ -54167,6 +54830,19 @@
  },
  {
   "clinic_id": "panda-clinic-vancouver",
+  "treatment_id": "panda-clinic-vancouver--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://pandaclinic.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "panda-clinic-vancouver",
   "treatment_id": "panda-clinic-vancouver--naturopathy",
   "treatment": "Naturopathy",
   "billed_as": "Naturopathy",
@@ -54194,12 +54870,12 @@
   "treatment_id": "parallel-wellness-vancouver--psychoeducational-assessments",
   "treatment": "Psychoeducational Assessments",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Meredith MacKenzie; Dr. Alejandra Botia",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://parallelwellness.ca/psychoeducational-assessment",
   "last_verified": "2026-11-01"
  },
  {
@@ -54923,6 +55599,25 @@
   "price_tier": "booking",
   "treatment_link": "https://personalbestphysio.janeapp.com/locations/personal-best-physiotherapy-pilates/book",
   "last_verified": null
+ },
+ {
+  "clinic_id": "peter-joy-psychology-vancouver",
+  "treatment_id": "peter-joy-psychology-vancouver--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Peter Joy",
+  "practitioners": [
+   {
+    "id": "peter-joy-psychology-vancouver--peter-joy",
+    "name": "Dr. Peter Joy",
+    "as_recorded": "Dr. Peter Joy, Registered Psychologist (College of Psychologists of BC Reg. #1003), Ph.D. Counselling Psychology \u2014 30+ years of clinical experience"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.peterjoypsychology.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "peterborough-centre-of-naturopathic-medicine-peterborough",
@@ -60328,6 +61023,45 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "physiomed-vancouver",
+  "treatment_id": "physiomed-vancouver--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://physiomedvancouver.ca/physiotherapy-treatments/red-light-therapy/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "physiomed-vancouver",
+  "treatment_id": "physiomed-vancouver--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://physiomedvancouver.ca/physiomed-dizziness-vertigo/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "physiomed-vaughan-vaughan",
+  "treatment_id": "physiomed-vaughan-vaughan--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No golf-program or physiotherapy prices are published on physiomed.ca for this location, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.physiomed.ca/golf-physiotherapy-improve-swing/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "physiomed-vaughan-vaughan",
   "treatment_id": "physiomed-vaughan-vaughan--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -62932,15 +63666,28 @@
  },
  {
   "clinic_id": "providence-therapy-and-neurofeedback-vancouver",
-  "treatment_id": "providence-therapy-and-neurofeedback-vancouver--neurofeedback",
-  "treatment": "Neurofeedback",
-  "billed_as": null,
+  "treatment_id": "providence-therapy-and-neurofeedback-vancouver--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Counselling",
   "practitioner": null,
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.providencetherapybc.com/services",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "providence-therapy-and-neurofeedback-vancouver",
+  "treatment_id": "providence-therapy-and-neurofeedback-vancouver--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": null,
+  "practitioner": "Dr. Aida Javadzadeh",
+  "practitioners": [],
+  "price_text": "Assessment first: Interview-style EEG neurofeedback assessment $300 (90 min) \u00b7 QEEG brain-mapping assessment $850 (both appointments)",
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.providencetherapybc.com/filter-brain-bar-modalities/neurofeedback-assessments-qeeg-brain-mapping",
   "last_verified": "2026-11-01"
  },
  {
@@ -63769,6 +64516,25 @@
   "price_tier": null,
   "treatment_link": "https://www.qiintegratedhealth.com/services/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "quadra-wellness-and-counselling-vancouver",
+  "treatment_id": "quadra-wellness-and-counselling-vancouver--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": "Social Work",
+  "practitioner": "Tony Ho",
+  "practitioners": [
+   {
+    "id": "quadra-wellness-and-counselling-vancouver--tony-ho",
+    "name": "Tony Ho",
+    "as_recorded": "Tony Ho, MSW, RSW \u2014 Registered Social Worker (BC College of Social Workers + Ontario College of Social Workers and Social Service Workers), founder of Quadra Wellness"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://quadrawellness.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "quantam-physiotherapy-clinic-london",
@@ -66383,6 +67149,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "rika-mansingh-vancouver",
+  "treatment_id": "rika-mansingh-vancouver--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.rikadiet4wellness.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "ripple-effect-wellness-centre-st-albert",
   "treatment_id": "ripple-effect-wellness-centre-st-albert--facial-manual-therapy",
   "treatment": "Facial Manual Therapy",
@@ -67208,6 +67987,44 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "run-lab-physiotherapy-vancouver",
+  "treatment_id": "run-lab-physiotherapy-vancouver--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Jennifer Chew",
+  "practitioners": [
+   {
+    "id": "run-lab-physiotherapy-vancouver--jennifer-chew",
+    "name": "Jennifer Chew",
+    "as_recorded": "Jennifer Chew, Registered Physiotherapist \u2014 Masters of Physical Therapy (UBC), Masters of Exercise Science and Health Promotion"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.runlabphysiotherapy.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "run-lab-physiotherapy-vancouver",
+  "treatment_id": "run-lab-physiotherapy-vancouver--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Jennifer Chew",
+  "practitioners": [
+   {
+    "id": "run-lab-physiotherapy-vancouver--jennifer-chew",
+    "name": "Jennifer Chew",
+    "as_recorded": "Jennifer Chew, Registered Physiotherapist \u2014 Masters of Physical Therapy (UBC), Masters of Exercise Science and Health Promotion"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "http://www.runlabphysiotherapy.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "rundle-physiotherapy-canmore",
   "treatment_id": "rundle-physiotherapy-canmore--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -67232,6 +68049,19 @@
   "price_tier": null,
   "treatment_link": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "rupert-health-centre-vancouver",
+  "treatment_id": "rupert-health-centre-vancouver--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.ruperthealth.com/services.html",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "sage-elements-naturopathic-clinic-halifax",
@@ -77270,6 +78100,44 @@
   "last_verified": null
  },
  {
+  "clinic_id": "vancouver-naturopathic-doctor-vancouver",
+  "treatment_id": "vancouver-naturopathic-doctor-vancouver--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Robin Lewis",
+  "practitioners": [
+   {
+    "id": "vancouver-naturopathic-doctor-vancouver--dr-robin-lewis",
+    "name": "Dr. Robin Lewis",
+    "as_recorded": "Dr. Robin Lewis, ND - Naturopathic Doctor"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No IM injection fees are published on drrobinlewis.com; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://drrobinlewis.com/naturopathic-services/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "vancouver-naturopathic-doctor-vancouver",
+  "treatment_id": "vancouver-naturopathic-doctor-vancouver--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Robin Lewis",
+  "practitioners": [
+   {
+    "id": "vancouver-naturopathic-doctor-vancouver--dr-robin-lewis",
+    "name": "Dr. Robin Lewis",
+    "as_recorded": "Dr. Robin Lewis, ND - Naturopathic Doctor"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No IV or consultation fees are published on drrobinlewis.com (homepage and services pages checked); price is null.",
+  "price_tier": null,
+  "treatment_link": "https://drrobinlewis.com/naturopathic-services/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "vancouver-neurotherapy-health-services-richmond",
   "treatment_id": "vancouver-neurotherapy-health-services-richmond--neurofeedback",
   "treatment": "Neurofeedback",
@@ -77352,6 +78220,64 @@
   "price_tier": null,
   "treatment_link": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vaughan-psychologists-vaughan",
+  "treatment_id": "vaughan-psychologists-vaughan--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No couples-therapy price is published on the clinic's website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://psychologyhelps.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "vaughan-psychologists-vaughan",
+  "treatment_id": "vaughan-psychologists-vaughan--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No assessment price is published on the clinic's website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://psychologyhelps.ca/service/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "vaughan-psychologists-vaughan",
+  "treatment_id": "vaughan-psychologists-vaughan--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No sleep-program or session price is published on the clinic's website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://psychologyhelps.ca/?p=596",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "vaughan-psychotherapy-vaughan",
+  "treatment_id": "vaughan-psychotherapy-vaughan--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Cara",
+  "practitioners": [
+   {
+    "id": "vaughan-psychotherapy-vaughan--cara",
+    "name": "Cara",
+    "as_recorded": "Cara, Registered Psychotherapist (RP) - Vaughan Counselling and Psychotherapy"
+   }
+  ],
+  "price_text": "$120 / 30-min neurofeedback session",
+  "price_source": "Clinic's own practitioner profile (vaughanpsychotherapist.com/cara): 'Cara's rate is $175 for a 50-minute individual session and $120 for a 30-minute neurofeedback session.' General clinic fees on its contact page run $145-$185 per 50-min individual session.",
+  "price_tier": "website",
+  "treatment_link": "https://www.vaughanpsychotherapist.com/adhd-program",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "vault-psychology-sherwood-park",
@@ -78398,6 +79324,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "wellness-by-lisa-vaughan",
+  "treatment_id": "wellness-by-lisa-vaughan--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": "Lisa Makeeva",
+  "practitioners": [
+   {
+    "id": "wellness-by-lisa-vaughan--lisa-makeeva",
+    "name": "Lisa Makeeva",
+    "as_recorded": "Lisa Makeeva, B.Sc., M.Sc., RD - Registered Dietitian, ISSA-certified personal trainer"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No prices are published on wellnessbylisa.com and her Practice Better booking pages rendered no fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://wellnessbylisa.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "wellness-massage-edmonton-edmonton",
   "treatment_id": "wellness-massage-edmonton-edmonton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
@@ -78819,6 +79764,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "west-end-wellness-vancouver",
+  "treatment_id": "west-end-wellness-vancouver--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$90 / 30 min \u00b7 $115 / 45 min \u00b7 $140 / 60 min \u00b7 $175 / 75 min (RMT rates)",
+  "price_source": "Registered Massage Therapy rates on the clinic's own rates page (westendwellness.ca/service-rates): 30 Min $90.00, 45 Min $115.00, 60 Min $140.00, 75 Min $175.00, taxes included; the same rates are repeated on the clinic's current RMT service page. TMJ massage has no separate price - it is delivered within RMT sessions by the same Registered Massage Therapists, so the RMT rates stand as the treatment price.",
+  "price_tier": "website",
+  "treatment_link": "https://www.westendwellness.ca/tmj-massage-vancouver",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "west-henday-physiotherapy-and-massage-clinic-edmonton",
   "treatment_id": "west-henday-physiotherapy-and-massage-clinic-edmonton--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -78862,6 +79820,25 @@
   "price_tier": "website",
   "treatment_link": "https://westcoastnutrition.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "westside-integrative-neurotherapy-vancouver",
+  "treatment_id": "westside-integrative-neurotherapy-vancouver--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychology",
+  "practitioner": "Dr. Andrea Araujo van der Walle",
+  "practitioners": [
+   {
+    "id": "westside-integrative-neurotherapy-vancouver--dr-andrea-araujo-van-der-walle",
+    "name": "Dr. Andrea Araujo van der Walle",
+    "as_recorded": "Dr. Andrea Araujo van der Walle, R. Psych, BCN, QEEG-DL"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on drandreaaraujo.com; price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.drandreaaraujo.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "westwood-physiotherapy-neuro-and-vestibular-rehab-guelph",
@@ -79022,6 +79999,19 @@
   "price_tier": null,
   "treatment_link": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "whitney-hussain-vancouver",
+  "treatment_id": "whitney-hussain-vancouver--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "PREMISE FAILURE: no sports nutrition pricing exists because no sports nutrition service is offered (see gaps); price is null.",
+  "price_tier": null,
+  "treatment_link": "https://whitneyhussain.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "whole-family-health-edmonton",
@@ -79366,6 +80356,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "yaletown-nutrition-vancouver",
+  "treatment_id": "yaletown-nutrition-vancouver--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": "Liz Powell",
+  "practitioners": [
+   {
+    "id": "yaletown-nutrition-vancouver--liz-powell",
+    "name": "Liz Powell",
+    "as_recorded": "Liz Powell, BSc, RD"
+   }
+  ],
+  "price_text": "$195 initial (75 min) \u00b7 $150 follow-up (50 min)",
+  "price_source": "Pay-as-you-go dietitian rates on the clinic's own services page (yaletownnutrition.com/services/): Initial Consultation - Individual $195 for 75 minutes; Follow-up Consultation - Individual $150 for 50 minutes. Packages run from $195 (Jump Start, 1 session) to $695 (Habit Changer, 5 sessions). Sport nutrition is delivered through these standard RD consultations.",
+  "price_tier": "website",
+  "treatment_link": "https://yaletownnutrition.com/services/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "yara-jabre-physio-montreal",
   "treatment_id": "yara-jabre-physio-montreal--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -79420,8 +80429,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://yinstill.janeapp.com/locations/vancouver-yinstill-reproductive-wellness/book",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "yinstill-reproductive-wellness-vancouver",
+  "treatment_id": "yinstill-reproductive-wellness-vancouver--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fertility consultation fee is published on yinstill.com or in the Jane booking mirror; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://yinstill.janeapp.com/locations/vancouver-yinstill-reproductive-wellness/book",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "ymm-collaborative-practice-fort-mcmurray",

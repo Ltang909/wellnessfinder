@@ -93,6 +93,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "A Time To Heal Psychotherapy",
+  "clinic_id": "a-time-to-heal-psychotherapy-vaughan",
+  "address": "9401 Jane Street, Suite 306",
+  "city": "Vaughan",
+  "prov": "ON",
+  "postal": "L6A 4H7",
+  "phone": "647-201-0110",
+  "website": "https://www.atimetohealpsychotherapy.com/",
+  "booking_page": "https://atimetoheal.janeapp.com/",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "A to Z Fertility",
   "clinic_id": "a-to-z-fertility-toronto",
   "address": null,
@@ -393,6 +418,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Abby Brooks",
+  "clinic_id": "abby-brooks-victoria",
+  "address": null,
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": null,
+  "phone": "250-891-3385",
+  "website": "http://voicespeechlanguage.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "About Mind Mental Health Clinic",
@@ -3205,6 +3255,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Apollo Performance Therapy",
+  "clinic_id": "apollo-performance-therapy-victoria",
+  "address": "1410 Quadra Street",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": "V8W 2L1",
+  "phone": "778-401-4460",
+  "website": "https://www.apolloperformancetherapy.com/",
+  "booking_page": "https://apolloperformancetherapy.janeapp.com/",
+  "hours": {
+   "fri": "7:00 AM - 7:00 PM",
+   "mon": "7:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 12:00 PM",
+   "sun": "Closed",
+   "thu": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Apple Creek Sports Medicine Centre",
   "clinic_id": "apple-creek-sports-medicine-centre-markham",
   "address": "445 Apple Creek Blvd, Suite 103",
@@ -5479,6 +5554,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Beta Health",
+  "clinic_id": "beta-health-victoria",
+  "address": "4396 W Saanich Rd, Suite 220",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": "V8Z 3E9",
+  "phone": null,
+  "website": "https://betahealth.ca/",
+  "booking_page": "https://betahealth.janeapp.com/",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Better Bodies by Massage",
   "clinic_id": "better-bodies-by-massage-antigonish",
   "address": "59 Beech Hill Rd #4",
@@ -5544,6 +5644,31 @@
   "rating_source": "Clinic's own website Google badge/widget (services page: '87 Verified 4.9-Star Google Reviews'; homepage also shows Rating: 4.9 (87 reviews))",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "BetterCare Clinic",
+  "clinic_id": "bettercare-clinic-vaughan",
+  "address": "3550 Rutherford Rd, Unit 86",
+  "city": "Vaughan",
+  "prov": "ON",
+  "postal": "L4H 3T8",
+  "phone": "(905) 832-2322",
+  "website": "https://better-care.ca/",
+  "booking_page": "https://bettercare.janeapp.com/",
+  "hours": {
+   "mon": "10:00 AM - 8:00 PM",
+   "tue": "10:00 AM - 8:00 PM",
+   "wed": "10:00 AM - 8:00 PM",
+   "thu": "10:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 170,
+  "rating_source": "Clinic's own website Google badge claim (better-care.ca homepage): 'rated 5.0 in Vaughan' with '170+ 5-star Google reviews'.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Bijoy's Physio & Pilates",
@@ -9306,6 +9431,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Catherine Walton RMT",
+  "clinic_id": "catherine-walton-rmt-victoria",
+  "address": "4480 W Saanich Rd, Unit 207",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": null,
+  "phone": null,
+  "website": "https://catherinewaltonrmt.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Catholic Family Services of Prince Albert",
   "clinic_id": "catholic-family-services-of-prince-albert-prince-albert",
   "address": null,
@@ -9949,6 +10099,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Chiropractic Victoria",
+  "clinic_id": "chiropractic-victoria-victoria",
+  "address": "200-1075 Pendergast Street",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": "V8V 3X6",
+  "phone": "250-590-5221",
+  "website": "http://www.chiropracticvictoria.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 7:00 PM",
+   "mon": "8:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": "Closed",
+   "thu": "8:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 7:00 PM",
+   "wed": "8:00 AM - 7:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 402,
+  "rating_source": "Google rating displayed on the clinic's own website (chiropracticvictoria.ca)",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Chiropractic Wellness and Rehabilitation",
@@ -11216,7 +11391,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Clinique R\u00e9seau Force Sant\u00e9",
@@ -12277,18 +12452,26 @@
  {
   "name": "Concept Physiotherapy and Massage",
   "clinic_id": "concept-physiotherapy-and-massage-vernon",
-  "address": null,
+  "address": "4412 27 St #200",
   "city": "Vernon",
   "prov": "BC",
-  "postal": null,
-  "phone": null,
+  "postal": "V1T 4Y4",
+  "phone": "250-260-1550",
   "website": "http://www.conceptphysiotherapy.com/",
   "booking_page": null,
-  "hours": null,
-  "google_rating": null,
-  "google_reviews": null,
-  "rating_source": null,
-  "direct_billing": null,
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 6:00 PM",
+   "sat": "8:00 AM - 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 26,
+  "rating_source": "Google Places details in search results for Concept Physiotherapy and Massage, Vernon (4.8 based on 26 reviews). Aggregator totals (Birdeye) not used.",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -14607,18 +14790,26 @@
  {
   "name": "Diversified Health Clinic",
   "clinic_id": "diversified-health-clinic-victoria",
-  "address": null,
+  "address": "1063 Fort St",
   "city": "Victoria",
   "prov": "BC",
-  "postal": null,
-  "phone": null,
+  "postal": "V8V 3K5",
+  "phone": "250-382-0018",
   "website": "https://www.diversifiedhealth.ca",
-  "booking_page": null,
-  "hours": null,
-  "google_rating": null,
-  "google_reviews": null,
-  "rating_source": null,
-  "direct_billing": null,
+  "booking_page": "https://diversifiedhealth.janeapp.com/",
+  "hours": {
+   "fri": "7:00 AM - 7:00 PM",
+   "mon": "7:00 AM - 7:00 PM",
+   "sat": "9:00 AM - 4:00 PM",
+   "sun": "8:00 AM - 2:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM"
+  },
+  "google_rating": 4.7,
+  "google_reviews": 16,
+  "rating_source": "Google Places details in search results",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -14649,18 +14840,26 @@
  {
   "name": "Dockside Physiotherapy",
   "clinic_id": "dockside-physiotherapy-victoria",
-  "address": null,
+  "address": "399 Tyee Rd, Unit 103",
   "city": "Victoria",
   "prov": "BC",
-  "postal": null,
-  "phone": null,
+  "postal": "V9A 0A8",
+  "phone": "250-590-5840",
   "website": "https://docksidephysio.com/",
   "booking_page": null,
-  "hours": null,
-  "google_rating": null,
-  "google_reviews": null,
-  "rating_source": null,
-  "direct_billing": null,
+  "hours": {
+   "fri": "7:00 AM - 6:15 PM",
+   "mon": "7:00 AM - 7:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM"
+  },
+  "google_rating": 4.9,
+  "google_reviews": 261,
+  "rating_source": "Google reviews widget (Trustindex) on the clinic's own website - 'EXCELLENT, Based on 261 reviews', 4.9 stars displayed on docksidephysio.com",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -15433,6 +15632,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Brewster Scott",
+  "clinic_id": "dr-brewster-scott-victoria",
+  "address": "851 Cormorant Street",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": "V8W 1R2",
+  "phone": "250-858-3993",
+  "website": "http://www.drbrewsterscottnd.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Dr. Brian Yeung ND",
   "clinic_id": "dr-brian-yeung-nd-markham",
   "address": "890A Yonge St",
@@ -15707,6 +15931,31 @@
   "rating_source": "Google Places details in search results for Acupoint Wellness Centre (rating 5.0, based on 27 reviews) - the clinic where Dr. Rose practises; no separate Places listing for her personal practice was shown, flagged in gaps.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Chelsea Cole",
+  "clinic_id": "dr-chelsea-cole-victoria",
+  "address": "314-1175 Cook St",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": "V8V 4A1",
+  "phone": "778-265-8340",
+  "website": "https://www.drchelseacole.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM - 4:00 PM",
+   "mon": "10:00 AM - 6:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "10:00 AM - 6:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "10:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Dr. Christa Angell",
@@ -17371,6 +17620,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Mary Saad",
+  "clinic_id": "dr-mary-saad-vaughan",
+  "address": "7117 Bathurst St #204",
+  "city": "Vaughan",
+  "prov": "ON",
+  "postal": "L4J 2J6",
+  "phone": "(647) 458-8093",
+  "website": "http://betterlifenaturopathy.com/",
+  "booking_page": "https://drmarysaadnd.janeapp.com/",
+  "hours": {
+   "mon": null,
+   "tue": "11:00 AM - 4:00 PM",
+   "wed": "1:00 PM - 4:00 PM",
+   "thu": "2:00 PM - 6:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Dr. Matthew Pace ND",
   "clinic_id": "dr-matthew-pace-nd-toronto",
   "address": "320 Danforth Ave, Suite 202A",
@@ -18398,6 +18672,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Shelby Entner",
+  "clinic_id": "dr-shelby-entner-vernon",
+  "address": "2920 29th St",
+  "city": "Vernon",
+  "prov": "BC",
+  "postal": "V1T 5A6",
+  "phone": "778-475-4265",
+  "website": "https://verocare.ca/",
+  "booking_page": "https://verohealth.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 22,
+  "rating_source": "Google Places details in search results for Vero Health, Vernon (5.0 based on 22 reviews).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Dr. Simona Scurtu",
   "clinic_id": "dr-simona-scurtu-ajax",
   "address": "300 Rossland Rd E Ste 202",
@@ -18688,6 +18987,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Zarlashta Popal ND",
+  "clinic_id": "dr-zarlashta-popal-nd-vaughan",
+  "address": "2200 Rutherford Rd, Unit 204",
+  "city": "Vaughan",
+  "prov": "ON",
+  "postal": "L4K 5V2",
+  "phone": "905-553-9255",
+  "website": "http://www.drzarnd.com/",
+  "booking_page": "http://maplegatesofwellness.janeapp.com",
+  "hours": {
+   "mon": null,
+   "tue": "9:30 AM - 7:00 PM",
+   "wed": "9:30 AM - 5:00 PM",
+   "thu": "9:30 AM - 5:00 PM",
+   "fri": "9:30 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Dr.Janelle Albas",
@@ -19412,18 +19736,26 @@
  {
   "name": "Easthill Physiotherapy & Acupuncture",
   "clinic_id": "easthill-physiotherapy-and-acupuncture-vernon",
-  "address": null,
+  "address": "2906 26 St",
   "city": "Vernon",
   "prov": "BC",
-  "postal": null,
-  "phone": null,
+  "postal": "V1T 4T7",
+  "phone": "250-545-2922",
   "website": "https://easthillphysio.com/",
   "booking_page": null,
-  "hours": null,
-  "google_rating": null,
-  "google_reviews": null,
-  "rating_source": null,
-  "direct_billing": null,
+  "hours": {
+   "fri": "7:00 AM - 7:00 PM",
+   "mon": "7:00 AM - 7:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 578,
+  "rating_source": "Google rating displayed on the clinic's own website (easthillphysio.com)",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -19595,6 +19927,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Elements of Health Centre",
+  "clinic_id": "elements-of-health-centre-victoria",
+  "address": "1581 Hillside Ave, Unit 206",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": "V8T 2C1",
+  "phone": "250-383-2626",
+  "website": "http://www.elementscentre.ca/",
+  "booking_page": "https://elementscentre.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 8:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "Closed",
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": 4.4,
+  "google_reviews": 9,
+  "rating_source": "Google Places details in search results",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Elev8 Aesthetic Medicine Inc.",
   "clinic_id": "elev8-aesthetic-medicine-inc-barrie",
   "address": null,
@@ -19711,6 +20068,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Elizabeth Zemelman",
+  "clinic_id": "elizabeth-zemelman-vaughan",
+  "address": "531 Atkinson Ave, Unit 17",
+  "city": "Vaughan",
+  "prov": "ON",
+  "postal": "L4J 8L7",
+  "phone": "416-230-3383",
+  "website": "https://elizabethzrd.com/",
+  "booking_page": "https://www.halaxy.com/profile/elizabeth-zemelman/dietitian/192666",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Elle Medi Spa",
@@ -20604,18 +20986,26 @@
  {
   "name": "Essential Balance",
   "clinic_id": "essential-balance-vaughan",
-  "address": null,
+  "address": "36 Gidleigh Park Crescent",
   "city": "Vaughan",
   "prov": "ON",
-  "postal": null,
-  "phone": null,
+  "postal": "L4H 1J3",
+  "phone": "416-885-5558",
   "website": "https://essentialbalance.ca",
   "booking_page": null,
-  "hours": null,
+  "hours": {
+   "mon": "8:30 AM - 7:00 PM",
+   "tue": "8:30 AM - 7:00 PM",
+   "wed": "8:30 AM - 7:00 PM",
+   "thu": "8:30 AM - 7:00 PM",
+   "fri": "8:30 AM - 7:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "Closed"
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -21650,6 +22040,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Fix Healthcare",
+  "clinic_id": "fix-healthcare-victoria",
+  "address": "805 Johnson St",
+  "city": "Victoria",
+  "prov": "BC",
+  "postal": "V8W 1N4",
+  "phone": "250-385-5583",
+  "website": "http://www.fixhealthcarevictoria.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM - 8:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "Closed",
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 42,
+  "rating_source": "Google Places details in search results",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Flatlands Acupuncture",
@@ -26230,6 +26645,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Inner Health Nutrition Consulting",
+  "clinic_id": "inner-health-nutrition-consulting-vaughan",
+  "address": "8333 Weston Rd Suite 405",
+  "city": "Vaughan",
+  "prov": "ON",
+  "postal": "L4L 8E2",
+  "phone": "905-265-2140",
+  "website": "https://innerhealth1.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 5,
+  "rating_source": "Google Places details in search results for Inner Health Nutrition Consulting (5.0 based on 5 reviews).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Inner Peace Psychology Clinic",
@@ -33595,8 +34035,8 @@
   "google_rating": 5.0,
   "google_reviews": 1,
   "rating_source": "Google Places details (avg_rating 5, num_rating 1) \u2014 prior 5.0 / 1 review confirmed",
-  "direct_billing": null,
-  "last_verified": null
+  "direct_billing": "no",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "MYo Lab",
@@ -34000,6 +34440,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Maple Dentistry",
+  "clinic_id": "maple-dentistry-vaughan",
+  "address": "2810 Major Mackenzie Dr Unit 1",
+  "city": "Vaughan",
+  "prov": "ON",
+  "postal": "L6A 3L2",
+  "phone": "905-417-1905",
+  "website": "http://www.mapledentistry.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 3:00 PM",
+   "sat": "8:00 AM - 2:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Maple Ridge Physiotherapy and Pain Clinic",
@@ -39663,6 +40128,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Nancy Bevilacqua",
+  "clinic_id": "nancy-bevilacqua-vaughan",
+  "address": "400 Applewood Crescent Suite 100",
+  "city": "Vaughan",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-587-5542",
+  "website": "https://nutritionwithnancy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "fri": "9:00 AM - 9:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "9:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "NatCan Integrative Medical & Wellness Centre",
   "clinic_id": "natcan-integrative-medical-wellness-centre-vaughan",
   "address": "3905 Major MacKenzie Dr W, Unit 102",
@@ -39685,7 +40175,7 @@
   "google_reviews": null,
   "rating_source": "Clinic's own site Google Reviews section on https://natcanintegrative.com/pages/naturopathic-medicine, headed 'NatCan Integrative Medical & Wellness Centre \u00b7 \u2605\u2605\u2605\u2605\u2605 5.0 on Google'; the own-site stats block on the same page also states '\u2605 5.0, Google Rating'. No review count is shown on the own site, so google_reviews is null.",
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-02"
  },
  {
   "name": "NatCan Weight Loss & Skin Clinic",
@@ -44090,14 +44580,22 @@
  {
   "name": "Pacific Maple Psych Centre",
   "clinic_id": "pacific-maple-psych-centre-vancouver",
-  "address": null,
+  "address": "470 Granville St #619",
   "city": "Vancouver",
   "prov": "BC",
-  "postal": null,
-  "phone": null,
+  "postal": "V6C 1V4",
+  "phone": "604-774-5501",
   "website": "https://pacificmaplepsych.com",
   "booking_page": null,
-  "hours": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 8:00 PM",
+   "tue": "9:00 AM \u2013 8:00 PM",
+   "wed": "9:00 AM \u2013 8:00 PM",
+   "thu": "9:00 AM \u2013 8:00 PM",
+   "fri": "9:00 AM \u2013 8:00 PM",
+   "sat": "9:00 AM \u2013 8:00 PM",
+   "sun": "9:00 AM \u2013 8:00 PM"
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
@@ -44311,19 +44809,27 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Parallel Wellness",
   "clinic_id": "parallel-wellness-vancouver",
-  "address": null,
+  "address": "4370 Dominion St, Suite 540",
   "city": "Vancouver",
   "prov": "BC",
   "postal": null,
-  "phone": null,
+  "phone": "(778) 990-5491",
   "website": "https://parallelwellness.ca",
-  "booking_page": null,
-  "hours": null,
+  "booking_page": "https://parallelwellness.janeapp.com",
+  "hours": {
+   "mon": "9:00 AM \u2013 8:00 PM",
+   "tue": "9:00 AM \u2013 8:00 PM",
+   "wed": "9:00 AM \u2013 8:00 PM",
+   "thu": "9:00 AM \u2013 8:00 PM",
+   "fri": "9:00 AM \u2013 8:00 PM",
+   "sat": "10:00 AM \u2013 6:00 PM",
+   "sun": "10:00 AM \u2013 3:00 PM"
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
@@ -44958,6 +45464,31 @@
   "rating_source": "Google Places details (avg_rating 5, num_rating 1)",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Peter Joy Psychology",
+  "clinic_id": "peter-joy-psychology-vancouver",
+  "address": "750 W Broadway #1406",
+  "city": "Vancouver",
+  "prov": "BC",
+  "postal": null,
+  "phone": "604-241-7317",
+  "website": "http://www.peterjoypsychology.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 5:00 PM",
+   "thu": "9:00 AM \u2013 5:00 PM",
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": null,
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Peterborough Centre of Naturopathic Medicine",
@@ -46492,7 +47023,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Physiolab \u2014 Olympic Village",
@@ -46517,7 +47048,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
-  "last_verified": null
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Physiomed Alliston",
@@ -46860,20 +47391,53 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Physiomed Vancouver",
+  "clinic_id": "physiomed-vancouver",
+  "address": "1677 E Broadway",
+  "city": "Vancouver",
+  "prov": "BC",
+  "postal": "V5N 1V9",
+  "phone": "(778) 761-1993",
+  "website": "https://physiomedvancouver.ca",
+  "booking_page": "https://physiomed.janeapp.com",
+  "hours": {
+   "mon": "10:00 AM \u2013 7:00 PM",
+   "tue": "10:00 AM \u2013 7:00 PM",
+   "wed": "10:00 AM \u2013 7:00 PM",
+   "thu": "10:00 AM \u2013 7:00 PM",
+   "fri": "10:00 AM \u2013 7:00 PM",
+   "sat": "10:00 AM \u2013 4:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 4.2,
+  "google_reviews": 311,
+  "rating_source": "Clinic's own website Google Maps embed block ('Rating: 4.2 (311 reviews)') shown on physiomedvancouver.ca pages.",
+  "direct_billing": null,
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Physiomed Vaughan",
   "clinic_id": "physiomed-vaughan-vaughan",
-  "address": null,
+  "address": "28 Roytec Rd Unit 5",
   "city": "Vaughan",
   "prov": "ON",
-  "postal": null,
-  "phone": null,
+  "postal": "L4L 8E4",
+  "phone": "905-265-9899",
   "website": "http://www.physiomed.ca/find-a-clinic/vaughan/overview/",
   "booking_page": null,
-  "hours": null,
+  "hours": {
+   "mon": "10:00 AM - 8:00 PM",
+   "tue": "10:00 AM - 8:00 PM",
+   "wed": "10:00 AM - 8:00 PM",
+   "thu": "10:00 AM - 8:00 PM",
+   "fri": "10:00 AM - 6:00 PM",
+   "sat": "10:00 AM - 3:00 PM",
+   "sun": "Closed"
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -48763,14 +49327,22 @@
  {
   "name": "Providence Therapy and Neurofeedback",
   "clinic_id": "providence-therapy-and-neurofeedback-vancouver",
-  "address": null,
+  "address": "210-1669 West 3rd Ave",
   "city": "Vancouver",
   "prov": "BC",
-  "postal": null,
-  "phone": null,
+  "postal": "V6J 1K1",
+  "phone": "604-292-7043",
   "website": "http://www.providencetherapybc.com",
-  "booking_page": null,
-  "hours": null,
+  "booking_page": "https://providencetherapy.janeapp.com",
+  "hours": {
+   "mon": "9:00 AM \u2013 7:30 PM",
+   "tue": "9:00 AM \u2013 7:30 PM",
+   "wed": "9:00 AM \u2013 7:30 PM",
+   "thu": "9:00 AM \u2013 7:30 PM",
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "sat": "9:00 AM \u2013 5:00 PM",
+   "sun": null
+  },
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
@@ -49229,6 +49801,31 @@
   "rating_source": "Google Places details shown in search results for this listing (4.8 stars, 37 reviews); consistent with the project's earlier featured-clinic verification.",
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Quadra Wellness and Counselling",
+  "clinic_id": "quadra-wellness-and-counselling-vancouver",
+  "address": "470 Granville Street",
+  "city": "Vancouver",
+  "prov": "BC",
+  "postal": "V6C 1V4",
+  "phone": "(778) 807-7373",
+  "website": "https://quadrawellness.com/",
+  "booking_page": "https://quadrawellness.practicebetter.io",
+  "hours": {
+   "mon": "9:00 AM \u2013 3:00 PM",
+   "tue": "9:00 AM \u2013 3:00 PM",
+   "wed": "9:00 AM \u2013 3:00 PM",
+   "thu": "9:00 AM \u2013 3:00 PM",
+   "fri": "9:00 AM \u2013 3:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": null,
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Quantam Physiotherapy",
@@ -51362,6 +51959,23 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Rika Mansingh",
+  "clinic_id": "rika-mansingh-vancouver",
+  "address": null,
+  "city": "Vancouver",
+  "prov": "BC",
+  "postal": null,
+  "phone": "778-240-5951",
+  "website": "https://www.rikadiet4wellness.com/",
+  "booking_page": null,
+  "hours": null,
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": null,
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Ripple Effect Wellness Centre",
   "clinic_id": "ripple-effect-wellness-centre-st-albert",
   "address": "161 Liberton Drive, Suite 60B",
@@ -52041,6 +52655,23 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Run Lab Physiotherapy",
+  "clinic_id": "run-lab-physiotherapy-vancouver",
+  "address": null,
+  "city": "Vancouver",
+  "prov": "BC",
+  "postal": null,
+  "phone": null,
+  "website": "http://www.runlabphysiotherapy.com/",
+  "booking_page": null,
+  "hours": null,
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": null,
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Rundle Physiotherapy",
   "clinic_id": "rundle-physiotherapy-canmore",
   "address": null,
@@ -52056,6 +52687,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Rupert Health Centre",
+  "clinic_id": "rupert-health-centre-vancouver",
+  "address": "2955 Kingsway",
+  "city": "Vancouver",
+  "prov": "BC",
+  "postal": "V5R 5J4",
+  "phone": "604-435-2285",
+  "website": "https://www.ruperthealth.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM \u2013 1:00 PM",
+   "tue": "9:30 AM \u2013 6:00 PM",
+   "wed": "10:00 AM \u2013 6:00 PM",
+   "thu": "9:30 AM \u2013 6:00 PM",
+   "fri": "10:00 AM \u2013 6:00 PM",
+   "sat": "10:00 AM \u2013 6:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 4.8,
+  "google_reviews": null,
+  "rating_source": "Clinic's own website homepage badge ('4.8 Google rating'); the review count is not displayed on the site, so google_reviews is null.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "R\u00e9gis Parcel Psychologue",
@@ -61028,6 +61684,31 @@
   "last_verified": null
  },
  {
+  "name": "Vancouver Naturopathic Doctor",
+  "clinic_id": "vancouver-naturopathic-doctor-vancouver",
+  "address": "1100 Melville St #110",
+  "city": "Vancouver",
+  "prov": "BC",
+  "postal": null,
+  "phone": "778-945-2771",
+  "website": "https://drrobinlewis.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "8:00 AM - 2:00 PM",
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Vancouver Neurotherapy Health Services",
   "clinic_id": "vancouver-neurotherapy-health-services-richmond",
   "address": null,
@@ -61102,6 +61783,56 @@
   "rating_source": "Clinic's own website homepage (https://www.vanguardperformance.ca/) states '4.9 on Google, 82 reviews' with a linked Google badge ('4.9 across 82 reviews Google'); the clinic page repeats '4.9 stars on Google'.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Vaughan Psychologists",
+  "clinic_id": "vaughan-psychologists-vaughan",
+  "address": "9983 Keele St #105",
+  "city": "Vaughan",
+  "prov": "ON",
+  "postal": "L6A 3Y5",
+  "phone": "416-801-8889",
+  "website": "http://psychologyhelps.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "fri": "10:00 AM - 6:00 PM",
+   "sat": "10:00 AM - 6:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "name": "Vaughan Psychotherapy",
+  "clinic_id": "vaughan-psychotherapy-vaughan",
+  "address": "8383 Weston Rd Unit 201A",
+  "city": "Vaughan",
+  "prov": "ON",
+  "postal": "L4L 0K7",
+  "phone": "905-264-6565",
+  "website": "https://www.vaughanpsychotherapist.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "fri": "9:00 AM - 9:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "12:00 PM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Vault Psychology",
@@ -62019,6 +62750,31 @@
   "last_verified": null
  },
  {
+  "name": "Wellness By Lisa",
+  "clinic_id": "wellness-by-lisa-vaughan",
+  "address": "1801 Rutherford Rd Unit 1",
+  "city": "Vaughan",
+  "prov": "ON",
+  "postal": null,
+  "phone": "647-376-3744",
+  "website": "https://wellnessbylisa.com/",
+  "booking_page": "https://wellnessbylisa.practicebetter.io",
+  "hours": {
+   "mon": "9:00 AM - 3:30 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "10:00 AM - 3:30 PM",
+   "sun": "9:00 AM - 8:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Wellness Massage Edmonton",
   "clinic_id": "wellness-massage-edmonton-edmonton",
   "address": null,
@@ -62230,18 +62986,26 @@
  {
   "name": "West End Wellness",
   "clinic_id": "west-end-wellness-vancouver",
-  "address": null,
+  "address": "1033 Davie St #501",
   "city": "Vancouver",
   "prov": "BC",
-  "postal": null,
-  "phone": null,
+  "postal": "V6E 1M7",
+  "phone": "(604) 428-9355",
   "website": "https://www.westendwellness.ca",
   "booking_page": null,
-  "hours": null,
-  "google_rating": null,
-  "google_reviews": null,
-  "rating_source": null,
-  "direct_billing": null,
+  "hours": {
+   "mon": "8:00 AM - 8:30 PM",
+   "tue": "8:00 AM - 8:30 PM",
+   "wed": "8:00 AM - 8:30 PM",
+   "thu": "10:00 AM - 7:00 PM",
+   "fri": "8:00 AM - 8:30 PM",
+   "sat": "9:00 AM - 6:00 PM",
+   "sun": "9:30 AM - 3:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 15,
+  "rating_source": "Google Places details in search results for West End Wellness (Rating: 5.0, based on 15 reviews).",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -62293,6 +63057,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Westside Integrative Neurotherapy",
+  "clinic_id": "westside-integrative-neurotherapy-vancouver",
+  "address": "1125 Howe St, Suite 610, Office 28",
+  "city": "Vancouver",
+  "prov": "BC",
+  "postal": "V6Z 2K8",
+  "phone": "778-719-5660",
+  "website": "http://www.drandreaaraujo.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "10:00 AM - 5:00 PM",
+   "wed": null,
+   "thu": "10:00 AM - 5:00 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Westwood Physiotherapy Neuro and Vestibular Rehab",
@@ -62419,6 +63208,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Whitney Hussain",
+  "clinic_id": "whitney-hussain-vancouver",
+  "address": null,
+  "city": "Vancouver",
+  "prov": "BC",
+  "postal": null,
+  "phone": "(778) 867-9448",
+  "website": "https://whitneyhussain.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 3:00 PM",
+   "sat": "10:00 AM - 2:00 PM",
+   "sun": "10:00 AM - 4:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
  },
  {
   "name": "Whole Family Health",
@@ -62857,6 +63671,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Yaletown Nutrition",
+  "clinic_id": "yaletown-nutrition-vancouver",
+  "address": "1118 Homer St",
+  "city": "Vancouver",
+  "prov": "BC",
+  "postal": "V6B 2G2",
+  "phone": "(604) 992-3890",
+  "website": "https://www.yaletownnutrition.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-02"
+ },
+ {
   "name": "Yara Jabre Physio",
   "clinic_id": "yara-jabre-physio-montreal",
   "address": null,
@@ -62901,18 +63740,26 @@
  {
   "name": "Yinstill Reproductive Wellness",
   "clinic_id": "yinstill-reproductive-wellness-vancouver",
-  "address": null,
+  "address": "3523 Main Street",
   "city": "Vancouver",
   "prov": "BC",
-  "postal": null,
-  "phone": null,
+  "postal": "V5V 3N4",
+  "phone": "604-873-9355",
   "website": "https://yinstill.com",
-  "booking_page": null,
-  "hours": null,
-  "google_rating": null,
-  "google_reviews": null,
-  "rating_source": null,
-  "direct_billing": null,
+  "booking_page": "https://yinstill.janeapp.com/locations/vancouver-yinstill-reproductive-wellness/book",
+  "hours": {
+   "mon": "12:00 PM - 7:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 7:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "8:30 AM - 2:30 PM",
+   "sat": "8:30 AM - 1:00 PM",
+   "sun": "11:00 AM - 7:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 25,
+  "rating_source": "Google Places details in search results for Yinstill Reproductive Wellness, Vancouver (Rating: 5.0, based on 25 reviews).",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
