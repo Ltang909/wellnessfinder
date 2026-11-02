@@ -18,7 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css?v=67" />
 <link rel="canonical" href="https://wellfinder.ca/blog-clinical-vs-group-pilates" />
 <script type="application/ld+json">
 {
@@ -85,12 +85,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <section class="subhero">
     <div class="wrap">
+      <div class="article-wrap">
       <a class="back" href="/#resources">← Back to Resources</a>
       <p class="eyebrow">A WellFinder guide</p>
       <h1>Clinical Pilates vs Group Pilates: <em>You Do Not Have to Choose</em></h1>
       <p>Pilates can mean very different things depending on where you do it. Here is how the two compare, who each one is for, and how to combine both in your week.</p>
       <p class="byline">By WellFinder · September 2026 · 4 min read</p>
     </div>
+      </div>
+    
   </section>
 
   <section class="section--tight">

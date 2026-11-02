@@ -600,7 +600,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 .universal-header{background:#fbfaf6;border-bottom:1px solid rgba(35,54,47,.09)}.universal-nav{min-height:76px}.universal-links{gap:.35rem!important}.universal-links a{padding:.5rem .78rem!important;border-radius:999px;white-space:nowrap;font-weight:600!important}.universal-links a:hover,.universal-links .is-active{background:var(--mist);color:var(--forest)!important}.universal-saved{display:inline-flex;align-items:center;gap:.38rem;padding:.52rem .76rem;border:1px solid rgba(35,54,47,.15);border-radius:999px;color:var(--forest);font-size:.88rem;font-weight:700;white-space:nowrap}.universal-saved.is-active{background:var(--mist)}.universal-saved b{display:inline-grid;place-items:center;min-width:1.35rem;height:1.35rem;padding:0 .25rem;border-radius:999px;background:var(--forest);color:#fff;font-size:.7rem}.universal-saved b[hidden]{display:none}.universal-header .mobile-menu>p{margin:.7rem 1.2rem .2rem;color:var(--muted);font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.11em}@media(max-width:900px){.universal-links{display:none!important}.universal-join{display:none!important}.universal-nav{min-height:66px}}
 
 /* ---------- Blog article ---------- */
-.article-wrap { max-width: 46rem; margin: 0 auto; }
+.article-wrap { max-width: 64rem; margin: 0 auto; }
 .article-body { font-size: 1.075rem; line-height: 1.75; color: var(--ink-soft); }
 .article-body h2 { font-family: var(--serif); color: var(--ink); font-size: 1.6rem; line-height: 1.3; margin: 2.5rem 0 1rem; }
 .article-body p { margin: 0 0 1.1rem; }
@@ -1001,3 +1001,8 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .fc-line + .fc-line { margin-top: 6px; }
 .fc-db { display: inline-block; margin-top: 12px; padding: 5px 12px; border-radius: 999px; background: #FFCE45; color: #0F2D2B; font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; }
 .fc-card--side .fc-db { filter: grayscale(1); opacity: .7; }
+
+/* Article pages: header text spans the same wide column as the body
+   (scoped to .article-wrap so clinic subheroes keep their caps) */
+.subhero .article-wrap h1 { max-width: none; }
+.subhero .article-wrap p { max-width: none; }
