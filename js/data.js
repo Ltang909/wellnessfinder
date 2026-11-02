@@ -1767,7 +1767,6 @@ const CLINIC_MEDIA = {
   "Wellness Place": {"img": "/assets/clinics/wellness-place-treatment-room.jpg", "practitioner": "Dr. Tatsiana Vovk, ND", "price": "$250 / 95-min session", "rating": [5.0, 119], "db": "yes"},
   "Pulse Physiotherapy": {"img": "/assets/clinics/pulse-physiotherapy.jpg", "link": "https://www.pulsephysioyyc.com/clinical-pilates", "price": "$160 initial · $140 follow-up", "rating": [5.0, 166], "db": "yes"},
   "Revival Physio": {"img": "/assets/clinics/revival-physio-v2.jpg", "link": "https://revivalphysio.squarespace.com/physio-pilates", "price": "$140 initial · $125 follow-up", "rating": [5.0, 208]},
-  "JC Clinic": {"img": "/assets/clinics/jc-clinic.jpg", "link": "https://jcclinic.janeapp.com/#/pilates-ballet", "practitioner": "Yoon A Kim", "price": "$140 intro (2 private sessions) · $80 follow-up", "rating": [5.0, 163]},
   "Toronto Physiotherapy (Danforth & Chester)": {"img": "/assets/clinics/toronto-physiotherapy-danforth.jpg", "link": "https://torontophysiotherapy.ca/services/physio-pilates/", "price": "$120 per hour (Physio Pilates)", "rating": [4.9, 271]},
   "Focus Physio + Wellness": {"img": "/assets/clinics/focus-physio-wellness-v3.jpg", "link": "https://focusphysio.ca/clinical-pilates-vancouver/", "practitioner": "Catherine Vani", "price": "$170 initial · $135 follow-up", "rating": [5.0, 29], "db": "yes"},
   "Treloar Physiotherapy \u2014 Cambie": {"img": "/assets/clinics/treloar-physiotherapy-cambie.jpg", "link": "https://www.treloarphysio.com/clinical-pilates-vancouver/", "price": "$105 initial · $105 follow-up", "rating": [4.5, 28], "db": "yes"},
@@ -2199,7 +2198,6 @@ const NEUROFEEDBACK_CLINICS = [
 const PILATES_CLINICS = [
   { name: "Aurora North Medical Centre", city: "Aurora", loc: "Aurora, ON", prov: "ON", directBill: false, modalities: "Reformer, Mat, Clinical / Rehab", billed: "Physio / Chiro", price: "Confirm with clinic", db: "Confirm with clinic", web: "https://share.google/qvf5UVRrbQMZfx8h5" },
   { name: "BODY MAISON", city: "Toronto", loc: "Toronto, ON (Yonge & Bloor)", prov: "ON", directBill: false, modalities: "Reformer, Clinical / Rehab", billed: "Physiotherapy", price: "$125-150", db: "No", web: "https://bodymaison.com",about:"BODY MAISON, located at Yonge and Bloor, is a physiotherapy clinic treating neck and shoulder pain, chronic back pain, scoliosis, and rehabilitation. We offer Shockwave Therapy, Pilates, and movement", lat: 43.674033, lng: -79.389085, postal: "M4W 3C7" },
-  { name: "JC Clinic", city: "North York", loc: "North York, ON", prov: "ON", directBill: false, modalities: "Clinical / Rehab", billed: "Physio / Chiro / Naturo", price: "Confirm with clinic", db: "Confirm with clinic", web: "https://jcclinic.ca", email: "jcclinicto@gmail.com", lat: 43.726382, lng: -79.312737, postal: "M4A 1J8" , note: "Clinical Pilates and Pilates/ballet training with instructor Yoon A Kim"},
   { name: "Reconnect Wellness", city: "Newmarket", loc: "Newmarket, ON", prov: "ON", directBill: true, modalities: "Clinical / Rehab", billed: "Physiotherapy", price: "Confirm with clinic", db: "Yes", web: "https://reconphysio.ca", email: "forum@reconphysio.ca",about:"Choose physiotherapy in Newmarket for injury recovery, pain relief, and improved mobility with personalized treatment at Reconnect Physiotherapy.", lat: 44.0708080, lng: -79.4380412 },
   { name: "Bijoy's Physio & Pilates", city: "Aurora", loc: "Aurora, ON", prov: "ON", directBill: false, modalities: "Reformer, Clinical / Rehab", billed: "Physiotherapy", price: "$120 initial · $100 / 45-min session", db: "Confirm with clinic", web: "https://www.bijoysphysioandpilates.com",about:"Personalized physiotherapy and Pilates services in Aurora, ON. Improve mobility, recover from injury, and promote long-term health with expert-led programs."},
   { name: "MVMT Physiotherapy", city: "Vaughan", loc: "Vaughan, ON (Maple)", prov: "ON", directBill: false, modalities: "Reformer, Clinical / Rehab", billed: "Physiotherapy", price: "Confirm with clinic", db: "No", web: "https://mvmtphysio.com", email: "feelbetter@mvmtphysio.com",about:"We help you prioritize your health, master your movement, and eliminate pain so you can live your best life."},
@@ -2673,7 +2671,7 @@ const PRESSOTHERAPY_CLINICS = [
    each quote (highlighted on render); `source` is kept for audit. */
 const CLAIM_STATS = [
   { num: "34", label: "treatments you can search" },
-  { num: "1,695", label: "clinics listed across Canada" },
+  { num: "1,694", label: "clinics listed across Canada" },
   { num: "457", label: "clinics confirmed to direct-bill insurers" },
 ];
 const REVIEW_QUOTES = [
