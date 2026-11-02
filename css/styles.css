@@ -1246,3 +1246,13 @@ a.nc-slot-chip:hover { border-color: #0F2D2B; background: #F4F6F3; }
 
 /* Icon-only billing states (Leon's word-saving call): X = no, ? = unconfirmed */
 .nc-db-no, .nc-db-unk, .fc-db-no { font-weight: 700; }
+
+/* CTA swap (Leon): the Jane timeslot chips carry the yellow highlight now;
+   the Book button steps back to a plain outline on directory rows. */
+.tp-list .nc-btn-book { background: #fff; border: 1.5px solid #c4ccc5; color: #161616; }
+.tp-list .nc-btn-book:hover { border-color: #0F2D2B; }
+.nc-slot-chip { background: #FFCE45; border-color: #FFCE45; }
+a.nc-slot-chip:hover { background: #F2C230; border-color: #F2C230; }
+.nc-slot-opt .nc-slot-mail { opacity: .9; display: inline-flex; align-items: center; }
+.nc-slot-opt .nc-slot-mail:hover { opacity: 1; }
+.nc-slot-mail svg { display: block; }

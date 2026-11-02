@@ -1346,11 +1346,12 @@
         if (t.length > 36) t = t.slice(0, 33).replace(/\s+\S*$/, "") + "\u2026";
         return t;
       };
+      const GMAIL_ICON = `<svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true"><path d="M2 8.2v11.3A1.5 1.5 0 0 0 3.5 21h3V10.6z" fill="#4285F4"/><path d="M6.5 10.6L12 15.6l5.5-5V6.1L12 11.1 6.5 6.1z" fill="#EA4335"/><path d="M17.5 10.6V21h3a1.5 1.5 0 0 0 1.5-1.5V8.2z" fill="#FBBC04"/></svg>`;
       const mailFor = (s, title, pricePart) => {
         if (!em) return "";
         const subj = `${title} — ${s.d} at ${s.t} (${c.name})`;
-        const body = `Hi ${c.name} team,\n\nI found your clinic on WellFinder.ca and saw an opening for ${title}${title !== T ? ` (${T})` : ""}${billed ? `, billed as ${billed}` : ""}, on ${s.d} at ${s.t}${pricePart ? `, listed at ${pricePart}` : ""}.\n\nIs this time still available? I would like to ask a few questions before booking.\n\nThank you`;
-        return `<a class="nc-slot-mail" href="mailto:${em}?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}" aria-label="Email ${esc(c.name)} about this slot" title="Email the clinic about this slot">✉</a>`;
+        const body = `Hi ${c.name} team,\n\nI found your clinic on WellFinder.ca and saw an opening for ${title}${title !== T ? ` (${T})` : ""}${billed ? `, billed as ${billed}` : ""}, on ${s.d} at ${s.t}${pricePart ? `, listed at ${pricePart}` : ""}.\n\nIs this time still available? I would like to ask for more information before booking.\n\nThank you`;
+        return `<a class="nc-slot-mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(em)}&su=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}" target="_blank" rel="noopener" aria-label="Email ${esc(c.name)} via Gmail about this slot" title="Email the clinic via Gmail about this slot">${GMAIL_ICON}</a>`;
       };
       const blockFor = (s, kind) => {
         const title = titleFor(s, kind);
