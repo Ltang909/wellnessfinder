@@ -1739,7 +1739,7 @@ const CLINIC_MEDIA = {
   "Essence Wellness Clinic (Marda Loop)": {"img": "/assets/clinics/essence-wellness-clinic-marda-loop.jpg", "link": "https://essencewellness.janeapp.com/", "price": "$295 per session", "rating": [4.8, 32], "db": "yes"},
   "Qi Integrated Health": {"img": "/assets/clinics/qi-integrated-health.jpg", "link": "https://qiintegratedhealth.janeapp.com/", "price": "$248\u2013$375 per session", "rating": [4.8, 37], "db": "yes"},
   "Well BYND": {"img": "/assets/clinics/well-bynd-v2.jpg", "price": "$450 per session"},
-  "Health Globe Wellness Clinic": {"price": "$200 per session", "img": "/assets/clinics/health-globe-wellness-clinic-v2.jpg"},
+  "Health Globe Wellness Clinic": {"img": "/assets/clinics/health-globe-wellness-clinic-v2.jpg", "db": "yes"},
   "Everwell ND": {"img": "/assets/clinics/everwell-nd.jpg", "price": "$695 per session (with PRP)"},
   "Pivotal Physiotherapy": {"img": "/assets/clinics/pivotal-physiotherapy.jpg", "price": "$165 assessment · $100 / 30-min follow-up"},
   "Nxt Generation PHYSIO \u2014 Homa": {"img": "/assets/clinics/nxt-generation-physio-homa.jpg", "practitioner": "Thalie Forest"},
