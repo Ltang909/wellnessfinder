@@ -1900,6 +1900,8 @@ const FC_GEO = {
 
 
 const RESOURCES = [
+  { tag: "Insurance guide", title: "Your 2026 Benefits Expire December 31", desc: "Most extended health benefits reset Jan 1. Check what you have left, book before the December rush, and ask the right questions first.", url: "/blog-benefits-year-end" },
+  { tag: "Treatment guide", title: "What Is Microneedling?", desc: "How it works, how many sessions people usually need, what it costs in Canada, and how naturopath benefits may apply.", url: "/blog-microneedling" },
   { tag: "Treatment guide", title: "What is Clinical Pilates?", desc: "How it differs from a studio Pilates class, and why it's billed through physiotherapy.", url: "/blog-clinical-pilates" },
   { tag: "Treatment guide", title: "Clinical Pilates vs Group Pilates: Which Do You Need?", desc: "The differences, who each is for, how benefits may apply, and how to combine both in your week.", url: "/blog-clinical-vs-group-pilates" },
   { tag: "Treatment guide", title: "What Is a TPI Golf Swing Assessment?", desc: "How a TPI assessment looks at the body behind your swing, and how benefits may apply.", url: "/blog-tpi-golf-assessment" },
