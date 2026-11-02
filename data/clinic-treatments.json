@@ -172,12 +172,12 @@
   "treatment_id": "abbotsford-physio-abbotsford--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Inderpreet Bajaj",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://abbotsfordphysio.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -190,8 +190,32 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.abbotsfordphysio.com/services",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "abbotsford-physio-abbotsford",
+  "treatment_id": "abbotsford-physio-abbotsford--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Inderpreet Bajaj",
+  "practitioners": [
+   {
+    "id": "abbotsford-physio-abbotsford--inderpreet-bajaj",
+    "name": "Inderpreet Bajaj",
+    "as_recorded": "Inderpreet Bajaj, Registered Physiotherapist \u2014 listed specialty: 'Pelvic Floor and Vestibular Rehabilitation' (clinic's own site)"
+   },
+   {
+    "id": "abbotsford-physio-abbotsford--sandeep-bajaj",
+    "name": "Sandeep Bajaj",
+    "as_recorded": "Sandeep Bajaj, Registered Physiotherapist (MPT Orthopaedics) \u2014 listed specialty: 'Vestibular Rehabilitation' (clinic's own site)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://abbotsfordphysio.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "abbotsford-sports-orthopaedic-physiotherapy-abbotsford",
@@ -2050,8 +2074,27 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://activelifephysio.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "active-life-physiotherapy-canmore",
+  "treatment_id": "active-life-physiotherapy-canmore--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Mental Performance Consulting",
+  "practitioner": "Danelle Kabush",
+  "practitioners": [
+   {
+    "id": "active-life-physiotherapy-canmore--danelle-kabush",
+    "name": "Danelle Kabush",
+    "as_recorded": "Danelle Kabush, PhD, CSPA certified Mental Performance Consultant \u2014 listed on the clinic's own profile as its mental performance consultant (sport psychology; works with speed skating, cycling, biathlon, cross-country skiing and other athletes/teams)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's profile or in Places extracts, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://activelifephysio.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "active-life-physiotherapy-canmore",
@@ -2063,7 +2106,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://activelifephysio.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -2212,7 +2255,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/st-albert/apw-servus-place/coverage-options",
   "last_verified": "2026-11-01"
  },
  {
@@ -2225,7 +2268,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/st-albert/apw-servus-place/coverage-options",
   "last_verified": "2026-11-01"
  },
  {
@@ -2678,7 +2721,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://acupuncturecentertoronto.com/services/",
   "last_verified": "2026-11-01"
  },
  {
@@ -2691,7 +2734,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://acupuncturecentertoronto.com/services/",
   "last_verified": "2026-11-01"
  },
  {
@@ -2919,7 +2962,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.adamsmassagetherapy.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -2932,7 +2975,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.adamsmassagetherapy.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -2940,12 +2983,12 @@
   "treatment_id": "add-centre-winnipeg--mental-performance-coaching",
   "treatment": "Mental Performance Coaching",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Stephen Dubienski",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.addcentrewinnipeg.com/executive-x",
   "last_verified": "2026-11-01"
  },
  {
@@ -2958,7 +3001,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.addcentrewinnipeg.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -3146,6 +3189,19 @@
  },
  {
   "clinic_id": "advanced-womens-health-squamish",
+  "treatment_id": "advanced-womens-health-squamish--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic states appointment costs vary by practitioner and service and points to a Squamish fees page, but no IV/IM fee figures were captured in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.advancedwomenshealth.ca/squamish-clinic",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "advanced-womens-health-squamish",
   "treatment_id": "advanced-womens-health-squamish--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
@@ -3154,7 +3210,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.advancedwomenshealth.ca/squamish-clinic",
   "last_verified": "2026-11-01"
  },
  {
@@ -3167,7 +3223,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.advancedwomenshealth.ca/squamish-clinic",
   "last_verified": "2026-11-01"
  },
  {
@@ -3904,6 +3960,25 @@
  },
  {
   "clinic_id": "allied-physiotherapy-white-rock-white-rock",
+  "treatment_id": "allied-physiotherapy-white-rock-white-rock--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Counselling",
+  "practitioner": "Kamalpreet",
+  "practitioners": [
+   {
+    "id": "allied-physiotherapy-white-rock-white-rock--kamalpreet",
+    "name": "Kamalpreet",
+    "as_recorded": "Kamalpreet (surname not displayed in the booking-page text extract) \u2014 Master's degree in Psychology and Diploma in Guidance and Counselling; her clinic booking-page bio states she provides 'psychotherapy and counseling to adults, couples, and seniors' and specializes in relationship issues"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's website or in the text extract of its Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://physiowhiterock.janeapp.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "allied-physiotherapy-white-rock-white-rock",
   "treatment_id": "allied-physiotherapy-white-rock-white-rock--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
@@ -3912,7 +3987,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://physiowhiterock.ca/services/",
   "last_verified": "2026-11-01"
  },
  {
@@ -3925,8 +4000,32 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://physiowhiterock.ca/services/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "allied-physiotherapy-white-rock-white-rock",
+  "treatment_id": "allied-physiotherapy-white-rock-white-rock--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Nabil",
+  "practitioners": [
+   {
+    "id": "allied-physiotherapy-white-rock-white-rock--nabil",
+    "name": "Nabil",
+    "as_recorded": "Nabil (surname not displayed in the booking-page text extract), Registered Physiotherapist \u2014 'specializing in Acupuncture, Dry Needling, Concussion, and Vertigo treatments'; his listed services include Vertigo Rehab"
+   },
+   {
+    "id": "allied-physiotherapy-white-rock-white-rock--venkata",
+    "name": "Venkata",
+    "as_recorded": "Venkata (surname not displayed in the booking-page text extract), Physiotherapist \u2014 listed services include 'Vertigo & Concussion Rehab'"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's website or in the text extract of its Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://physiowhiterock.ca/services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "alpine-naturopathic-wellness-abbotsford",
@@ -3949,6 +4048,19 @@
  },
  {
   "clinic_id": "alta-sask-wellness-meadow-lake-meadow-lake",
+  "treatment_id": "alta-sask-wellness-meadow-lake-meadow-lake--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.lifemark.ca/Alta-Sask-Meadow-Lake",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "alta-sask-wellness-meadow-lake-meadow-lake",
   "treatment_id": "alta-sask-wellness-meadow-lake-meadow-lake--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
@@ -3957,7 +4069,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/Alta-Sask-Meadow-Lake",
   "last_verified": "2026-11-01"
  },
  {
@@ -3970,7 +4082,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/Alta-Sask-Meadow-Lake",
   "last_verified": "2026-11-01"
  },
  {
@@ -4537,7 +4649,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.apistherapy.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -4550,7 +4662,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.apistherapy.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -4814,11 +4926,24 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$145 initial (60 min) - $110 follow-up (30 min) - $180 follow-up (60 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://artofmobility.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "art-of-mobility-mississauga",
+  "treatment_id": "art-of-mobility-mississauga--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$145 initial (60 min) - $110 follow-up (30 min) - $180 follow-up (60 min)",
+  "price_source": "The Golf Assessment is delivered within the clinic's physiotherapy services; priced from the clinic's published physiotherapy rate card (current as of October 2026, per its own service pages) per the pricing rule",
+  "price_tier": "website",
+  "treatment_link": "https://artofmobility.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "art-of-mobility-mississauga",
@@ -4827,11 +4952,37 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$145 initial (60 min) - $110 follow-up (30 min) - $180 follow-up (60 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://artofmobility.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "art-of-mobility-mississauga",
+  "treatment_id": "art-of-mobility-mississauga--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$145 initial running assessment (60 min) - $110 follow-up (30 min) - $180 follow-up (60 min)",
+  "price_source": "Clinic's own Running Physiotherapy page, Port Credit pricing (stated current as of October 2026)",
+  "price_tier": "website",
+  "treatment_link": "https://artofmobility.com/running-physiotherapy/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "art-of-mobility-mississauga",
+  "treatment_id": "art-of-mobility-mississauga--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$145 initial (60 min) - $110 follow-up (30 min) - $180 follow-up (60 min)",
+  "price_source": "Vestibular Therapy is delivered within the clinic's physiotherapy services; priced from the clinic's published physiotherapy rate card (current as of October 2026, per its own service pages) per the pricing rule",
+  "price_tier": "website",
+  "treatment_link": "https://artofmobility.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "art-of-mobility-toronto",
@@ -4967,12 +5118,12 @@
   "treatment_id": "artistry-health-inc-hamilton--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sarah, Registered Nurse, owner & Certified Cosmetic Nurse Injector",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.artistryhealthinc.ca/ivandimtreatments",
   "last_verified": "2026-11-01"
  },
  {
@@ -4980,12 +5131,12 @@
   "treatment_id": "artistry-health-inc-hamilton--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sarah, Registered Nurse, owner & Certified Cosmetic Nurse Injector",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.artistryhealthinc.ca/ivandimtreatments",
   "last_verified": "2026-11-01"
  },
  {
@@ -5804,7 +5955,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/Avalon-Kenmount",
   "last_verified": "2026-11-01"
  },
  {
@@ -5817,7 +5968,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/Avalon-Kenmount",
   "last_verified": "2026-11-01"
  },
  {
@@ -5981,7 +6132,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://batthetop.com/services/medical-vitamin-injections/",
   "last_verified": "2026-11-01"
  },
  {
@@ -5994,7 +6145,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://batthetop.com/services/medical-vitamin-injections/",
   "last_verified": "2026-11-01"
  },
  {
@@ -6239,12 +6390,12 @@
   "treatment_id": "back-in-motion-health-richmond--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dilek Kacar, Physical Therapist (Richmond) - Pelvic Health Solutions Level 1, sees pelvic floor patients",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://backinmotionhealth.com/locations/richmond/physiotherapy-treatment-richmond/",
   "last_verified": "2026-11-01"
  },
  {
@@ -6257,7 +6408,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://backinmotionhealth.com/locations/richmond/physiotherapy-treatment-richmond/",
   "last_verified": "2026-11-01"
  },
  {
@@ -6387,20 +6538,39 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://backinmotioncornwall.ca",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "back-in-motion-physiotherapy-cornwall",
+  "treatment_id": "back-in-motion-physiotherapy-cornwall--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": "Eric, Bkin, DC - Doctor of Chiropractic; Shockwave Therapy among his techniques",
+  "practitioners": [
+   {
+    "as_recorded": "Eric, Bkin, DC - Doctor of Chiropractic (CMCC); his listed techniques include Shockwave Therapy (clinic's Jane booking page; surname not shown in the page extract)",
+    "id": "back-in-motion-physiotherapy-cornwall--eric",
+    "name": "Eric"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://backinmotioncornwall.ca",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "back-in-motion-physiotherapy-cornwall",
   "treatment_id": "back-in-motion-physiotherapy-cornwall--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Eric Mageau, BSc Physiotherapy - trained in vestibular assessment and treatment",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://backinmotioncornwall.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -6408,12 +6578,12 @@
   "treatment_id": "back-on-track-physiotherapy-windsor--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dipti Suvarna, Physiotherapist - Women's Health / Pelvic Floor Physiotherapy, certified in pelvic floor physiotherapy",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.backontrackphysio.com/team-windsor",
   "last_verified": "2026-11-01"
  },
  {
@@ -6426,7 +6596,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://backontrackphysio.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -6619,13 +6789,26 @@
   "treatment_id": "banff-sport-medicine-canmore--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
+  "practitioner": "Aly Walford, Physiotherapist, MScPT - certified Pelvic Health specialist",
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://banffsportmed.ca/physiotherapy-services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "banff-sport-medicine-canmore",
+  "treatment_id": "banff-sport-medicine-canmore--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
   "practitioner": null,
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
-  "last_verified": "2026-11-01"
+  "treatment_link": "https://banffsportmed.ca/physiotherapy-services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "banff-sport-medicine-canmore",
@@ -6637,8 +6820,51 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://banffsportmed.ca/physiotherapy-services/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "banff-sport-medicine-canmore",
+  "treatment_id": "banff-sport-medicine-canmore--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": "Jordan Amantea, Registered Dietitian; Lindsay Haager, Registered Dietitian (IOC Diploma in Sports Nutrition)",
+  "practitioners": [
+   {
+    "as_recorded": "Jordan Amantea, Dietitian, RD, BSc Dietetics - works with endurance and mountain athletes on performance and recovery nutrition (clinic's Jane booking page)",
+    "id": "banff-sport-medicine-canmore--jordan-amantea",
+    "name": "Jordan Amantea"
+   },
+   {
+    "as_recorded": "Lindsay Haager, Dietitian, RD, BSc, CDE, IOC Diploma in Sports Nutrition - specializes in sports/performance nutrition (clinic's Jane booking page)",
+    "id": "banff-sport-medicine-canmore--lindsay-haager",
+    "name": "Lindsay Haager"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://banffsportmed.ca/physiotherapy-services/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "banff-sport-medicine-canmore",
+  "treatment_id": "banff-sport-medicine-canmore--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Brooke Goodfellow, Physiotherapist, MScPT - vestibular rehabilitation certification",
+  "practitioners": [
+   {
+    "as_recorded": "Brooke Goodfellow, Physiotherapist, BKin, MScPT - additional certifications include vestibular rehabilitation (clinic's Jane booking page)",
+    "id": "banff-sport-medicine-canmore--brooke-goodfellow",
+    "name": "Brooke Goodfellow"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://banffsportmed.ca/physiotherapy-services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "barbara-fish-toronto",
@@ -6836,7 +7062,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://bealignedstudios.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -6844,12 +7070,12 @@
   "treatment_id": "be-aligned-studios-saskatoon--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Mish - Medical Aesthetician, Certified Microneedling Practitioner, SkinPen Certified",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://bealignedstudios.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -7288,12 +7514,12 @@
   "treatment_id": "berwick-physio-pt-health-berwick--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Hannah Gertridge, RMT - specializes in head, neck and jaw treatment",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/berwick-physio-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -7306,7 +7532,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/berwick-physio-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -7886,10 +8112,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$30 vitamin B injection \u00b7 $30 MIC/B12 injection \u00b7 $55 CoQ10 IM injection",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.blissmedispa.ca/wellness-edmonton/iv-nutrient-therapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -7899,11 +8125,24 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$195 Silver Drip \u00b7 $250 Gold Drip \u00b7 $295 Platinum Drip",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.blissmedispa.ca/wellness-edmonton/iv-nutrient-therapy/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "bliss-medispa-edmonton",
+  "treatment_id": "bliss-medispa-edmonton--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$450 full face \u00b7 $550 full face & neck",
+  "price_source": "Clinic's own Microneedling page (InnoPen collagen induction therapy): Full Face $450, Full Face & Neck $550. Sylfirm X RF microneedling is also offered under Advanced Rejuvenation.",
+  "price_tier": "website",
+  "treatment_link": "https://www.blissmedispa.ca/medical-spa-edmonton/microneedling/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "blockline-physiotherapy-wellness-kitchener",
@@ -8642,7 +8881,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/bowmanville-physiotherapy-and-sports-medicine-centre-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -8655,7 +8894,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/bowmanville-physiotherapy-and-sports-medicine-centre-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -8668,7 +8907,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://braintherapyclinic.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -8676,12 +8915,12 @@
   "treatment_id": "brain-therapy-clinic-the-posture-clinic-peterborough--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Ian Horseman, Chiropractor",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://braintherapyclinic.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -8694,7 +8933,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://bramaleaphysio.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -8707,7 +8946,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://bramaleaphysio.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -9392,6 +9631,38 @@
  },
  {
   "clinic_id": "burnaby-physiotherapy-and-hand-therapy-pt-health-burnaby",
+  "treatment_id": "burnaby-physiotherapy-and-hand-therapy-pt-health-burnaby--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "pt Health does not publish fee schedules on its clinic pages or booking portal, so no price could be verified from the clinic's own channels and price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/burnaby-physiotherapy-and-hand-therapy-pt-health/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "burnaby-physiotherapy-and-hand-therapy-pt-health-burnaby",
+  "treatment_id": "burnaby-physiotherapy-and-hand-therapy-pt-health-burnaby--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Acupuncture",
+  "practitioner": "Steven Zhou, Registered Acupuncturist",
+  "practitioners": [
+   {
+    "id": "burnaby-physiotherapy-and-hand-therapy-pt-health-burnaby--steven-zhou",
+    "name": "Steven Zhou",
+    "as_recorded": "Steven Zhou, Registered Acupuncturist (R.Ac.) - team profile on this location's page states he received microneedling training (Central College / Canadian Board of Aesthetic Medicine) and provides microneedling for skincare"
+   }
+  ],
+  "price_text": null,
+  "price_source": "pt Health does not publish fee schedules on its clinic pages or booking portal, so no price could be verified from the clinic's own channels and price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/burnaby-physiotherapy-and-hand-therapy-pt-health/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "burnaby-physiotherapy-and-hand-therapy-pt-health-burnaby",
   "treatment_id": "burnaby-physiotherapy-and-hand-therapy-pt-health-burnaby--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
@@ -9400,7 +9671,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/burnaby-physiotherapy-and-hand-therapy-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -9408,13 +9679,32 @@
   "treatment_id": "burnaby-physiotherapy-and-hand-therapy-pt-health-burnaby--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Olga Dorfman, Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/burnaby-physiotherapy-and-hand-therapy-pt-health/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "burnaby-physiotherapy-and-hand-therapy-pt-health-burnaby",
+  "treatment_id": "burnaby-physiotherapy-and-hand-therapy-pt-health-burnaby--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Olga Dorfman, Physiotherapist",
+  "practitioners": [
+   {
+    "id": "burnaby-physiotherapy-and-hand-therapy-pt-health-burnaby--olga-dorfman",
+    "name": "Olga Dorfman",
+    "as_recorded": "Olga Dorfman, Physiotherapist - team profile on this location's own page lists TMJ disorders and vestibular rehabilitation among her areas of expertise"
+   }
+  ],
+  "price_text": null,
+  "price_source": "pt Health does not publish fee schedules on its clinic pages or booking portal, so no price could be verified from the clinic's own channels and price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/burnaby-physiotherapy-and-hand-therapy-pt-health/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "burnaby-vancouver-naturopath-burnaby",
@@ -9506,6 +9796,25 @@
  },
  {
   "clinic_id": "cabot-physiotherapy-sydney-river",
+  "treatment_id": "cabot-physiotherapy-sydney-river--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Alana Coady, Physiotherapist",
+  "practitioners": [
+   {
+    "id": "cabot-physiotherapy-sydney-river--alana-coady",
+    "name": "Alana Coady",
+    "as_recorded": "Alana Coady, Physiotherapist - her bio page on the clinic's own site (cabotphysio.ca/alana-bio) describes 7+ years of pelvic floor rehabilitation at Cabot, trained (APTA courses from 2015) to treat urinary incontinence, pelvic organ prolapse and pelvic pain conditions"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own Squarespace website publishes no fees, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://cabotphysio.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "cabot-physiotherapy-sydney-river",
   "treatment_id": "cabot-physiotherapy-sydney-river--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": "Physiotherapy",
@@ -9516,6 +9825,19 @@
   "price_tier": null,
   "treatment_link": "https://cabotphysio.ca/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "cabot-physiotherapy-sydney-river",
+  "treatment_id": "cabot-physiotherapy-sydney-river--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's own Squarespace website publishes no fees, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://cabotphysio.ca",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "cadence-counselling-psychology-saskatoon",
@@ -9578,12 +9900,12 @@
   "treatment_id": "cadence-physiotherapy-scarborough--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sarah, Registered Physiotherapist (Pelvic Health Provider); Manisha Wijay, Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cadencephysiotherapy.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -9596,7 +9918,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cadencephysiotherapy.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -10484,7 +10806,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/ajax",
   "last_verified": "2026-11-01"
  },
  {
@@ -10497,7 +10819,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/ajax",
   "last_verified": "2026-11-01"
  },
  {
@@ -10510,7 +10832,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/antigonish",
   "last_verified": "2026-11-01"
  },
  {
@@ -10523,7 +10845,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/antigonish",
   "last_verified": "2026-11-01"
  },
  {
@@ -10536,7 +10858,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/arthritis-sports-medicine-centre",
   "last_verified": "2026-11-01"
  },
  {
@@ -10549,7 +10871,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/arthritis-sports-medicine-centre",
   "last_verified": "2026-11-01"
  },
  {
@@ -10562,7 +10884,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/belleville-millennium",
   "last_verified": "2026-11-01"
  },
  {
@@ -10575,7 +10897,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/belleville-millennium",
   "last_verified": "2026-11-01"
  },
  {
@@ -10588,7 +10910,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/berwick",
   "last_verified": "2026-11-01"
  },
  {
@@ -10601,7 +10923,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/berwick",
   "last_verified": "2026-11-01"
  },
  {
@@ -10614,7 +10936,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/brampton-county-court",
   "last_verified": "2026-11-01"
  },
  {
@@ -10627,7 +10949,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/brampton-county-court",
   "last_verified": "2026-11-01"
  },
  {
@@ -10640,7 +10962,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/brampton-gateway",
   "last_verified": "2026-11-01"
  },
  {
@@ -10653,7 +10975,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/brampton-gateway",
   "last_verified": "2026-11-01"
  },
  {
@@ -10666,7 +10988,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/brampton-hurontario",
   "last_verified": "2026-11-01"
  },
  {
@@ -10679,7 +11001,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/brampton-hurontario",
   "last_verified": "2026-11-01"
  },
  {
@@ -10692,7 +11014,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/brantford-west",
   "last_verified": "2026-11-01"
  },
  {
@@ -10705,7 +11027,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/brantford-west",
   "last_verified": "2026-11-01"
  },
  {
@@ -10718,7 +11040,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/brunswick",
   "last_verified": "2026-11-01"
  },
  {
@@ -10731,7 +11053,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/brunswick",
   "last_verified": "2026-11-01"
  },
  {
@@ -10744,7 +11066,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/burlington-appleby",
   "last_verified": "2026-11-01"
  },
  {
@@ -10757,7 +11079,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/burlington-appleby",
   "last_verified": "2026-11-01"
  },
  {
@@ -10770,7 +11092,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/cambridge-conestoga",
   "last_verified": "2026-11-01"
  },
  {
@@ -10783,7 +11105,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/cambridge-conestoga",
   "last_verified": "2026-11-01"
  },
  {
@@ -10796,7 +11118,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/chilliwack-fraser-valley",
   "last_verified": "2026-11-01"
  },
  {
@@ -10809,7 +11131,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/chilliwack-fraser-valley",
   "last_verified": "2026-11-01"
  },
  {
@@ -10822,7 +11144,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/clayton-park",
   "last_verified": "2026-11-01"
  },
  {
@@ -10835,7 +11157,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/clayton-park",
   "last_verified": "2026-11-01"
  },
  {
@@ -10848,7 +11170,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/dartmouth-pleasant",
   "last_verified": "2026-11-01"
  },
  {
@@ -10861,7 +11183,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/dartmouth-pleasant",
   "last_verified": "2026-11-01"
  },
  {
@@ -10874,7 +11196,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/discovery",
   "last_verified": "2026-11-01"
  },
  {
@@ -10887,7 +11209,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/discovery",
   "last_verified": "2026-11-01"
  },
  {
@@ -10921,12 +11243,12 @@
   "treatment_id": "cbi-health-edmonton-burnewood-edmonton--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Grace Phipps, Jithy Shijo",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/pelvic-health",
   "last_verified": "2026-11-01"
  },
  {
@@ -10939,7 +11261,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/edmonton-burnewood",
   "last_verified": "2026-11-01"
  },
  {
@@ -10952,7 +11274,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/edmonton-northwest",
   "last_verified": "2026-11-01"
  },
  {
@@ -10965,7 +11287,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/edmonton-northwest",
   "last_verified": "2026-11-01"
  },
  {
@@ -10978,7 +11300,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/edmonton-southeast",
   "last_verified": "2026-11-01"
  },
  {
@@ -10991,7 +11313,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/vestibular-rehabilitation",
   "last_verified": "2026-11-01"
  },
  {
@@ -10999,12 +11321,12 @@
   "treatment_id": "cbi-health-edmonton-southwest-edmonton--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ritu Bedi, Jithy Shijo",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/pelvic-health",
   "last_verified": "2026-11-01"
  },
  {
@@ -11012,12 +11334,12 @@
   "treatment_id": "cbi-health-edmonton-southwest-edmonton--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ritu Bedi, Andi Noppers",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/vestibular-rehabilitation",
   "last_verified": "2026-11-01"
  },
  {
@@ -11025,25 +11347,38 @@
   "treatment_id": "cbi-health-fort-mcmurray-fort-mcmurray--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jayati Kapadia",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/pelvic-health",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "cbi-health-fort-mcmurray-fort-mcmurray",
+  "treatment_id": "cbi-health-fort-mcmurray-fort-mcmurray--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website or on its CBI online booking portal (portal.cbihealth.ca lists no prices); price left null rather than estimated.",
+  "price_tier": null,
+  "treatment_link": "https://www.cbihealth.ca/services/shockwave-therapy",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "cbi-health-fort-mcmurray-fort-mcmurray",
   "treatment_id": "cbi-health-fort-mcmurray-fort-mcmurray--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jayati Kapadia",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/vestibular-rehabilitation",
   "last_verified": "2026-11-01"
  },
  {
@@ -11056,7 +11391,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/fraser-valley",
   "last_verified": "2026-11-01"
  },
  {
@@ -11069,7 +11404,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/fraser-valley",
   "last_verified": "2026-11-01"
  },
  {
@@ -11077,13 +11412,26 @@
   "treatment_id": "cbi-health-garrison-chilliwack--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Megan Sawatsky, Nadine Heuss",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/pelvic-health",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "cbi-health-garrison-chilliwack",
+  "treatment_id": "cbi-health-garrison-chilliwack--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website or on its CBI online booking portal (portal.cbihealth.ca lists no prices); price left null rather than estimated.",
+  "price_tier": null,
+  "treatment_link": "https://www.cbihealth.ca/services/shockwave-therapy",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "cbi-health-garrison-chilliwack",
@@ -11095,7 +11443,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/vestibular-rehabilitation",
   "last_verified": "2026-11-01"
  },
  {
@@ -11103,25 +11451,44 @@
   "treatment_id": "cbi-health-georgetown-georgetown--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sneha Sathe, Shamadeep Kaur Walia",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/pelvic-health",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "cbi-health-georgetown-georgetown",
+  "treatment_id": "cbi-health-georgetown-georgetown--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Sneha Sathe",
+  "practitioners": [
+   {
+    "id": "cbi-health-georgetown-georgetown--sneha-sathe",
+    "name": "Sneha Sathe",
+    "as_recorded": "Sneha Sathe \u2014 Registered Physiotherapist; member of the American Society of Medical Shockwave Therapists and the International Society of Medical Shockwave Therapy, with a strong interest in radial pressure wave and focused shockwave therapy (clinic's own team bio)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website or on its CBI online booking portal (portal.cbihealth.ca lists no prices); price left null rather than estimated.",
+  "price_tier": null,
+  "treatment_link": "https://www.cbihealth.ca/services/shockwave-therapy",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "cbi-health-georgetown-georgetown",
   "treatment_id": "cbi-health-georgetown-georgetown--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Cameron Hunter, Sneha Sathe",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/vestibular-rehabilitation",
   "last_verified": "2026-11-01"
  },
  {
@@ -11134,7 +11501,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/guelph",
   "last_verified": "2026-11-01"
  },
  {
@@ -11147,7 +11514,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/guelph",
   "last_verified": "2026-11-01"
  },
  {
@@ -11160,8 +11527,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/halifax-south-end",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "cbi-health-halifax-south-end-halifax",
+  "treatment_id": "cbi-health-halifax-south-end-halifax--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website or on its CBI online booking portal (portal.cbihealth.ca lists no prices); price left null rather than estimated.",
+  "price_tier": null,
+  "treatment_link": "https://www.cbihealth.ca/services/shockwave-therapy",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "cbi-health-halifax-south-end-halifax",
@@ -11173,7 +11553,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/vestibular-rehabilitation",
   "last_verified": "2026-11-01"
  },
  {
@@ -11181,12 +11561,12 @@
   "treatment_id": "cbi-health-hamilton-upper-james-hamilton--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Deepa Elango",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/pelvic-health",
   "last_verified": "2026-11-01"
  },
  {
@@ -11199,7 +11579,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/vestibular-rehabilitation",
   "last_verified": "2026-11-01"
  },
  {
@@ -11212,7 +11592,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/locations/hospital-side",
   "last_verified": "2026-11-01"
  },
  {
@@ -11220,12 +11600,12 @@
   "treatment_id": "cbi-health-hospital-side-red-deer--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Harkirat Khamba",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cbihealth.ca/services/vestibular-rehabilitation",
   "last_verified": "2026-11-01"
  },
  {
@@ -74730,12 +75110,12 @@
   "treatment_id": "stratford-physiotherapy-centre-pt-health-stratford--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Alison Gray",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/stratford-physiotherapy-centre-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -74743,12 +75123,12 @@
   "treatment_id": "stratford-physiotherapy-centre-pt-health-stratford--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Amrinder Kaur",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/stratford-physiotherapy-centre-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -74756,12 +75136,12 @@
   "treatment_id": "stratford-physiotherapy-centre-pt-health-stratford--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Amrinder Kaur",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/stratford-physiotherapy-centre-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -76751,12 +77131,12 @@
   "treatment_id": "the-apollo-clinic-abbotsford--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Amrit Sidhu",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://theapolloclinic.ca/about/",
   "last_verified": "2026-11-01"
  },
  {
@@ -76769,8 +77149,27 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.theapolloclinic.ca",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-apollo-clinic-abbotsford",
+  "treatment_id": "the-apollo-clinic-abbotsford--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Naturopathy",
+  "practitioner": "Heather van der Geest",
+  "practitioners": [
+   {
+    "id": "the-apollo-clinic-abbotsford--heather-van-der-geest",
+    "name": "Heather van der Geest",
+    "as_recorded": "Dr. Heather van der Geest, ND \u2014 certifications listed on the clinic's own team page include 'Advanced Injection Therapies Part A & B' and 'Aesthetic and Medical Botox', with prescriptive authority"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee schedule is published on the clinic's website. A third-party comparison (New Leaf Wellness Centre, 2025) describes initial appointments at $75-$210 depending on service, but that is not a clinic-published price, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://theapolloclinic.ca/about/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "the-apollo-clinic-abbotsford",
@@ -76782,7 +77181,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.theapolloclinic.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -77072,7 +77471,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.thedermasuite.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -77080,12 +77479,12 @@
   "treatment_id": "the-derma-suite-chatham-kent--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Emily Williams",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.thedermasuite.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -77093,12 +77492,12 @@
   "treatment_id": "the-derma-suite-chatham-kent--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Emily Williams",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.thedermasuite.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -80331,7 +80730,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/trenton-physiotherapy-pt-health",
   "last_verified": "2026-11-01"
  },
  {
@@ -80344,7 +80743,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/trenton-physiotherapy-pt-health",
   "last_verified": "2026-11-01"
  },
  {
@@ -80357,7 +80756,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/trenton-physiotherapy-pt-health",
   "last_verified": "2026-11-01"
  },
  {
