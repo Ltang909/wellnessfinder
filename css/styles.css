@@ -562,6 +562,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
    gets a wider measure so it breaks at its sentences. */
 body[data-page="about"] .subhero .wrap { max-width: calc(64rem + 48px); }
 body[data-page="about"] .story { max-width: 64rem; }
+body[data-page="about"] .subhero p { max-width: none; }
 body[data-page="about"] .subhero h1 { max-width: none; }
 body[data-page="about"] .mission h2 { max-width: 30ch; }
 
@@ -952,7 +953,6 @@ body { font-size: 16px; }
 .fs-tab { flex: var(--fg, 1) 1 0; }
 .fs-tab.active { font-size: .82rem; }
 .fs-chev { background: none; border: 0; cursor: pointer; }
-.fs-count { margin-top: 26px; }
 /* Fund tabs carry their hero highlight colour (Leon, 2026-11-01):
    a colour strip under every fund tab, and the active tab fills with
    its word's highlighter colour, black text like the hero words. */
@@ -1059,3 +1059,6 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .subhero .article-wrap h1 { max-width: none; }
 .subhero .article-wrap p { max-width: none; }
 >>>>>>> article-wide
+
+/* Count sits below the protruding active tab block (stem removed). */
+.fs-panel .fs-count { margin-top: 44px; }
