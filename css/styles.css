@@ -1137,7 +1137,3 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .nc-btn-book { background: #FFCE45; color: #161616; flex: 1; }
 .nc-btn-web { background: #fff; border: 1.5px solid #0F2D2B; color: #0F2D2B; }
 @media (prefers-reduced-motion: reduce) { .nc-track { transition: none; } }
-
-/* Featured stage: unified-card grid sits in a centred wrap-width column. */
-#featured-clinics .fc-inner { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
-.fc-grid { margin-top: 26px; }
