@@ -1009,15 +1009,15 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .fc-rail { display: flex; justify-content: center; align-items: stretch; gap: 22px; margin-top: 14px; padding: 0 10px; }
 .fc-card--side { filter: grayscale(1); opacity: .5; transform: scale(.94); box-shadow: none; margin-top: 0; margin-bottom: 0; cursor: pointer; }
 .fc-card--side:hover, .fc-card--side:focus-visible { opacity: .78; }
-.fc-card { position: relative; width: 330px; flex: none; background: #fff; padding: 13px 0 15px; text-align: center; box-shadow: 0 24px 60px rgba(0,0,0,.45); margin-top: -14px; margin-bottom: -14px; }
-.fc-card h3 { font-family: Inter, system-ui, sans-serif; font-size: .8rem; letter-spacing: .18em; text-transform: uppercase; color: #0F2D2B; padding: 0 26px; line-height: 1.4; }
+.fc-card { position: relative; width: 330px; flex: none; background: #fff; padding: 11px 0 13px; text-align: center; box-shadow: 0 24px 60px rgba(0,0,0,.45); margin-top: -14px; margin-bottom: -14px; }
+.fc-card h3 { font-family: Inter, system-ui, sans-serif; font-size: .8rem; letter-spacing: .18em; text-transform: uppercase; color: #0F2D2B; padding: 0 26px; line-height: 1.32; }
 .fc-city { font-size: .6rem; letter-spacing: .3em; text-transform: uppercase; color: #6E8F7A; margin-top: 8px; }
 .fc-dist { font-size: .78rem; font-weight: 600; color: #FFCE45; margin-top: 4px; }
 .fc-geo { text-align: center; margin-top: 10px; font-size: .8rem; color: #A7BFAE; }
-.fc-card img { width: 100%; height: clamp(100px, 15vh, 148px); object-fit: cover; display: block; margin-top: 10px; }
+.fc-card img { width: 100%; height: clamp(100px, 15vh, 148px); object-fit: cover; display: block; margin-top: 8px; }
 .fc-card--text { background: #F4F6F3; }
 .fc-card--text .fc-desc { -webkit-line-clamp: 3; margin-top: 16px; }
-.fc-desc { font-family: "Playfair Display", serif; font-size: .9rem; line-height: 1.5; color: #33302B; padding: 10px 32px 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; min-height: 4.05rem; }
+.fc-desc { font-family: "Playfair Display", serif; font-size: .9rem; line-height: 1.42; color: #33302B; padding: 8px 32px 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; min-height: 3.83rem; }
 .fc-btn { display: inline-block; background: #0F2D2B; color: #fff; font-size: .62rem; letter-spacing: .26em; text-transform: uppercase; font-weight: 600; padding: 12px 26px; margin-top: 18px; text-decoration: none; }
 .fc-pager { display: flex; justify-content: center; align-items: center; gap: 18px; color: #fff; margin-top: 10px; font-size: .78rem; letter-spacing: .3em; }
 .fc-pager b { font-weight: 500; }
@@ -1041,12 +1041,12 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 @media (max-height: 760px) { .fc-card img { height: 92px; } .fc-card { padding: 10px 0 12px; } .fc-stage { padding: 10px 0 8px; } .fc-desc { -webkit-line-clamp: 2; min-height: 2.7rem; } }
 
 /* Featured clinic card info lines */
-.fc-stars { margin-top: 7px; font-size: .8rem; color: #0F2D2B; font-weight: 600; }
+.fc-stars { margin-top: 5px; font-size: .8rem; color: #0F2D2B; font-weight: 600; }
 .fc-star-glyphs { color: #E8A33D; letter-spacing: 2px; }
 .fc-rcount { color: #77736A; font-weight: 400; font-size: .72rem; }
-.fc-line { margin-top: 7px; font-size: .62rem; letter-spacing: .22em; text-transform: uppercase; color: #6E8F7A; font-weight: 600; }
+.fc-line { margin-top: 5px; font-size: .62rem; letter-spacing: .22em; text-transform: uppercase; color: #6E8F7A; font-weight: 600; }
 .fc-line + .fc-line { margin-top: 6px; }
-.fc-db { display: inline-block; margin-top: 9px; padding: 5px 12px; border-radius: 999px; background: #FFCE45; color: #0F2D2B; font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; }
+.fc-db { display: inline-block; margin-top: 7px; padding: 5px 12px; border-radius: 999px; background: #FFCE45; color: #0F2D2B; font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; }
 .fc-card--side .fc-db { filter: grayscale(1); opacity: .7; }
 
 /* Real claims: stat strip + scrolling Google review quotes */
@@ -1139,17 +1139,17 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 @media (prefers-reduced-motion: reduce) { .nc-track { transition: none; } }
 
 /* Featured carousel cards carry the unified card's information set. */
-.fc-addr { margin-top: 8px; padding: 0 26px; font-size: .74rem; color: #47635B; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.fc-price { margin-top: 7px; padding: 0 26px; font-size: .92rem; font-weight: 700; color: #161616; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fc-addr { margin-top: 5px; padding: 0 26px; font-size: .74rem; color: #47635B; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fc-price { margin-top: 5px; padding: 0 26px; font-size: .92rem; font-weight: 700; color: #161616; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .fc-noprice { font-weight: 500; color: #47635B; }
-.fc-tier { margin-top: 3px; padding: 0 26px; font-size: .7rem; color: #7c8a80; }
+.fc-tier { margin-top: 2px; padding: 0 26px; font-size: .7rem; color: #7c8a80; }
 .fc-tier-ok { color: #1d9d62; font-weight: 600; }
 .fc-db-no { background: #fff; border: 1.5px solid #0F2D2B; color: #0F2D2B; letter-spacing: .06em; text-transform: none; font-size: .68rem; padding: 6px 12px; }
 .fc-db-unk { background: #fff; border: 1.5px dashed #9db3a5; color: #47635B; letter-spacing: .06em; text-transform: none; font-size: .68rem; padding: 6px 12px; }
-.fc-hours { margin-top: 7px; padding: 0 26px; font-size: .76rem; color: #33302B; display: flex; align-items: center; justify-content: center; gap: 5px; }
+.fc-hours { margin-top: 5px; padding: 0 26px; font-size: .76rem; color: #33302B; display: flex; align-items: center; justify-content: center; gap: 5px; }
 .fc-hours-na { color: #7c8a80; }
 .fc-btns { display: flex; gap: 8px; justify-content: center; padding: 0 26px; }
-.fc-btns .fc-btn { margin-top: 10px; padding: 10px 16px; letter-spacing: .14em; }
+.fc-btns .fc-btn { margin-top: 8px; padding: 10px 16px; letter-spacing: .14em; }
 .fc-btn-book { background: #FFCE45; color: #161616; }
 .fc-btn-web { background: #fff; border: 1.5px solid #0F2D2B; color: #0F2D2B; padding: 9.5px 16px; }
 .fc-card--side .fc-btns .fc-btn { filter: grayscale(1); }
