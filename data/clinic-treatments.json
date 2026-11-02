@@ -854,6 +854,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "acupuncture-andreanne-laroche-saint-hyacinthe",
+  "treatment_id": "acupuncture-andreanne-laroche-saint-hyacinthe--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Andr\u00e9anne Laroche",
+  "practitioners": [
+   {
+    "id": "acupuncture-andreanne-laroche-saint-hyacinthe--andreanne-laroche",
+    "name": "Andr\u00e9anne Laroche",
+    "as_recorded": "Andr\u00e9anne Laroche, acupunctrice - Membre de l'Ordre des acupuncteurs du Qu\u00e9bec et de l'association des acupuncteurs du Qu\u00e9bec (acupunctureandreannelaroche.com)"
+   }
+  ],
+  "price_text": "$70/treatment ($60 for students)",
+  "price_source": "Clinic's own website FAQ (acupunctureandreannelaroche.com): 'Chaque traitement r\u00e9gulier co\u00fbte 70$. Les \u00e9tudiants b\u00e9n\u00e9ficient d'un tarif r\u00e9duit \u00e0 60$ par traitement.' No separate fertility fee is published; fertility help is delivered within regular acupuncture treatments by the same solo practitioner, so the regular treatment rate stands in under Practitioner Rule v2.",
+  "price_tier": "website",
+  "treatment_link": "http://www.acupunctureandreannelaroche.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "acupuncture-body-and-mind-care-clinic-corner-brook",
   "treatment_id": "acupuncture-body-and-mind-care-clinic-corner-brook--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -1022,6 +1041,25 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "http://acupunctureontario.ca/index.php/conditions-we-treat/4-infertility",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "acupuncture-st-lambert-julie-dube-saint-lambert",
+  "treatment_id": "acupuncture-st-lambert-julie-dube-saint-lambert--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Julie Dub\u00e9",
+  "practitioners": [
+   {
+    "id": "acupuncture-st-lambert-julie-dube-saint-lambert--julie-dube",
+    "name": "Julie Dub\u00e9",
+    "as_recorded": "Julie Dub\u00e9, Ac. \u2014 solo acupuncturist; member of the Ordre des Acupuncteurs du Qu\u00e9bec (OAQ) and the Association des Acupuncteurs du Qu\u00e9bec (AAQ), per her own site and Places description"
+   }
+  ],
+  "price_text": "$140 / 90 min",
+  "price_source": "The clinic's own website services section lists 'Soin facial | 140$' (90 min) \u2014 the facial/cosmetic acupuncture treatment; price is published on her website, not on the GoRendezVous booking page, so the tier is website.",
+  "price_tier": "website",
+  "treatment_link": "https://www.juliedube.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -1460,6 +1498,30 @@
   "last_verified": null
  },
  {
+  "clinic_id": "alchemy-counselling-psychotherapy-saskatoon",
+  "treatment_id": "alchemy-counselling-psychotherapy-saskatoon--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Tanya Blake, Michelle Plummer",
+  "practitioners": [
+   {
+    "id": "alchemy-counselling-psychotherapy-saskatoon--tanya-blake",
+    "name": "Tanya Blake",
+    "as_recorded": "Tanya Blake, MA, CCC, CSTIP, Psychotherapist \u2014 'Couples' listed among her practice areas on the clinic's own team page; Gottman Method and EFT are clinic specializations"
+   },
+   {
+    "id": "alchemy-counselling-psychotherapy-saskatoon--michelle-plummer",
+    "name": "Michelle Plummer",
+    "as_recorded": "Michelle Plummer, MA, MBA, CCC, Counsellor \u2014 'Couples' listed among her practice areas on the clinic's own team page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own FAQ states session fees vary by clinician and are shown in its Jane App booking system / on therapist profiles; no fee list could be rendered in text fetch, so price is null; queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "http://alchemypsychotherapy.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "alexandra-anca-toronto",
   "treatment_id": "alexandra-anca-toronto--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -1799,6 +1861,25 @@
   "price_source": "No fee amounts are published in the clinic's own pages read in this pass: its FAQ answers the cost question only with 'Click here to see our current clinic fees' (the linked fees page's amounts did not render in text fetch or search extracts), and no booking-page fee list exists, so price is null.",
   "price_tier": null,
   "treatment_link": "https://ampedphysiotherapy.com/specialty-services/vestibular-physiotherapy-ottawa/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "anais-desaulniers-shawinigan",
+  "treatment_id": "anais-desaulniers-shawinigan--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Nutritionniste-Di\u00e9t\u00e9tiste",
+  "practitioner": "Ana\u00efs Desaulniers",
+  "practitioners": [
+   {
+    "as_recorded": "Ana\u00efs Desaulniers Dt.P., Nutritionniste-Di\u00e9t\u00e9tiste (Clinique Lafert\u00e9 nutrition page)",
+    "id": "anais-desaulniers-shawinigan--anais-desaulniers",
+    "name": "Ana\u00efs Desaulniers"
+   }
+  ],
+  "price_text": "$150 initial assessment \u00b7 $120 follow-up",
+  "price_source": "Clinic's own website (Clinique Lafert\u00e9 nutrition page, cliniquelaferte.com/nutritionniste, 'Prix'): '\u00c9valuation en nutrition : 150 $' and 'Suivi en nutrition : 120 $'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.cliniquelaferte.com/nutritionniste",
   "last_verified": "2026-11-01"
  },
  {
@@ -2957,6 +3038,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "avalon-wellness-centre-saskatoon",
+  "treatment_id": "avalon-wellness-centre-saskatoon--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Melissa",
+  "practitioners": [
+   {
+    "id": "avalon-wellness-centre-saskatoon--melissa",
+    "name": "Melissa",
+    "as_recorded": "Melissa, physiotherapist, 'level 1 certified TPI physiotherapist' \u2014 named throughout the clinic's own TPI Golf Assessments page; surname is not published on that page, so she is recorded first-name-only as published"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page (avalonwellnesscentre.janeapp.com) rendered no fee list in text fetch and no TPI fee is published on its website, so price is null; queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://avalonwellnesscentre.com/tpi-golf-assessments",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "avenue-physio-calgary",
   "treatment_id": "avenue-physio-calgary--shockwave-therapy",
   "treatment": "Shockwave Therapy",
@@ -3829,6 +3929,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "birchmount-dental-group-scarborough",
+  "treatment_id": "birchmount-dental-group-scarborough--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Botulinum Toxin (Botox\u00ae)",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Botox price is published on the clinic's own website (Botox page read in this pass) and no booking page with a fee list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.birchmountdentalgroup.com/site/botox-scarborough",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "bite-rite-nutrition-mississauga",
   "treatment_id": "bite-rite-nutrition-mississauga--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -4698,6 +4811,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "brighton-dental-centre-saskatoon",
+  "treatment_id": "brighton-dental-centre-saskatoon--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Botox/Dysport fee is published on the clinic's own website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.brightondentalstudio.com/service/botox/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "brittany-wade-physiotherapy-okotoks",
   "treatment_id": "brittany-wade-physiotherapy-okotoks--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -4715,6 +4841,69 @@
   "price_tier": null,
   "treatment_link": "https://brittanywadephysiotherapy.janeapp.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "broadmead-physiotherapy-clinic-saanich",
+  "treatment_id": "broadmead-physiotherapy-clinic-saanich--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Paul McIntyre, Matt Rose, Ian Hallworth, Mary Wong Colebrook, Dr. Derek Lloyd, Feodor Mongin",
+  "practitioners": [
+   {
+    "id": "broadmead-physiotherapy-clinic-saanich--paul-mcintyre",
+    "name": "Paul McIntyre",
+    "as_recorded": "Paul McIntyre, BSc.PT, FCAMPT, CGIMS - tagged 'Extracorporeal Shockwave Therapy' on the clinic's own homepage team listing"
+   },
+   {
+    "id": "broadmead-physiotherapy-clinic-saanich--matt-rose",
+    "name": "Matt Rose",
+    "as_recorded": "Matt Rose, BSc. Kin, MSc. PT, CAFCI, Functional Dry Needling / IMS - tagged 'Extracorporeal Shockwave Therapy' on the clinic's own homepage team listing"
+   },
+   {
+    "id": "broadmead-physiotherapy-clinic-saanich--ian-hallworth",
+    "name": "Ian Hallworth",
+    "as_recorded": "Ian Hallworth, BSc.PT, MSc. Rehab Science - tagged 'Extracorporeal Shockwave Therapy' on the clinic's own homepage team listing"
+   },
+   {
+    "id": "broadmead-physiotherapy-clinic-saanich--mary-wong-colebrook",
+    "name": "Mary Wong Colebrook",
+    "as_recorded": "Mary Wong Colebrook, B.Sc. PT, CAFCI, CGIMS - tagged 'Extracorporeal Shockwave Therapy' on the clinic's own homepage team listing"
+   },
+   {
+    "id": "broadmead-physiotherapy-clinic-saanich--derek-lloyd",
+    "name": "Derek Lloyd",
+    "as_recorded": "Dr. Derek Lloyd, DC - tagged 'Extracorporeal Shockwave Therapy' on the clinic's own homepage team listing; clinic's chiropractic page also states 'Extracorporeal Shockwave Therapy (ESWT) with Dr. Lloyd'"
+   },
+   {
+    "id": "broadmead-physiotherapy-clinic-saanich--feodor-mongin",
+    "name": "Feodor Mongin",
+    "as_recorded": "Feodor Mongin, BSc., R.TCM.P - tagged 'Extracorporeal Shockwave Therapy' on the clinic's own homepage team listing"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's own website states shockwave therapy (ESWT) is included in the treatment plan at no additional charge, and no physiotherapy session fee is published on the website; its Jane booking page rendered practitioner bios only with no fee list, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://broadmeadphysiotherapy.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "broadmead-physiotherapy-clinic-saanich",
+  "treatment_id": "broadmead-physiotherapy-clinic-saanich--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Mary Wong Colebrook",
+  "practitioners": [
+   {
+    "id": "broadmead-physiotherapy-clinic-saanich--mary-wong-colebrook",
+    "name": "Mary Wong Colebrook",
+    "as_recorded": "Mary Wong Colebrook, B.Sc. PT, CAFCI, CGIMS - named as the clinic's vestibular rehabilitation specialist on its own vestibular page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's own website; its Jane booking page rendered practitioner bios only with no fee list, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.broadmeadphysiotherapy.com/vertigo/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "brooklyn-seal-rd-cde-brantford",
@@ -4925,6 +5114,30 @@
   "price_tier": null,
   "treatment_link": "https://cabotphysio.ca/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "cadence-counselling-psychology-saskatoon",
+  "treatment_id": "cadence-counselling-psychology-saskatoon--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": "David Jackson, Dustin Reekie",
+  "practitioners": [
+   {
+    "id": "cadence-counselling-psychology-saskatoon--david-jackson",
+    "name": "David Jackson",
+    "as_recorded": "David Jackson, Ph.D, R.D. Psych \u2014 'Relationship Problems' and 'Sexual Relationship Issues' listed among his areas of practice on the clinic's own homepage team section"
+   },
+   {
+    "id": "cadence-counselling-psychology-saskatoon--dustin-reekie",
+    "name": "Dustin Reekie",
+    "as_recorded": "Dustin Reekie, M.Ed., Registered Psychologist \u2014 'Infidelity Recovery' and 'Family Counselling' listed among his areas of practice on the clinic's own homepage team section"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page (cadencepsych.janeapp.com) rendered no fee list in text fetch and no fees are published on its website, so price is null; queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "http://www.cadencepsych.net/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "cadence-physiotherapy-rehab-vancouver",
@@ -5223,6 +5436,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "canadian-sport-centre-saskatchewan-saskatoon",
+  "treatment_id": "canadian-sport-centre-saskatchewan-saskatoon--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Mental Performance Consulting",
+  "practitioner": "Lisa Hoffart, Registered Psychologist and Certified Mental Performance Consultant",
+  "practitioners": [
+   {
+    "id": "canadian-sport-centre-saskatchewan-saskatoon--lisa-hoffart",
+    "name": "Lisa Hoffart",
+    "as_recorded": "Lisa Hoffart, Registered Psychologist and Certified Mental Performance Consultant"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee or price is published on the centre's own website and no booking page exists; mental performance services are provided to registered athletes through CSCS/SMSCS, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.csc-sask.ca/about/meet-the-team/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "cant-we-just-get-along-counselling-calgary",
   "treatment_id": "cant-we-just-get-along-counselling-calgary--couples-therapy",
   "treatment": "Couples Therapy",
@@ -5259,6 +5491,25 @@
   "price_tier": "booking",
   "treatment_link": "https://www.nutritionistottawa.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "caravan-counselling-saskatoon",
+  "treatment_id": "caravan-counselling-saskatoon--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Counselling",
+  "practitioner": "Dr. Giti Caravan DCP, M.Ed., CCC, Certified Counsellor & Psychotherapist # 2093; Certified Hypnotherapist",
+  "practitioners": [
+   {
+    "id": "caravan-counselling-saskatoon--giti-caravan",
+    "name": "Giti Caravan",
+    "as_recorded": "Dr. Giti Caravan DCP, M.Ed., CCC, Certified Counsellor & Psychotherapist # 2093; Certified Hypnotherapist"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No session price was exposed on the clinic's Jane booking page in the fetched text and no fee list is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.caravancounselling.com/counseling-and-psychotherapy",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "career-success-now-mississauga",
@@ -5639,6 +5890,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "centre-ancrage-troubles-alimentaires-saint-jerome",
+  "treatment_id": "centre-ancrage-troubles-alimentaires-saint-jerome--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website; price is null.",
+  "price_tier": null,
+  "treatment_link": "http://centreancrage.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "centre-chiromedic-de-laval-laval",
   "treatment_id": "centre-chiromedic-de-laval-laval--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -5701,6 +5965,19 @@
   "price_tier": null,
   "treatment_link": "http://ctcfo.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "centre-dentaire-anjou-saint-leonard",
+  "treatment_id": "centre-dentaire-anjou-saint-leonard--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Botox fee is published on the clinic's own website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://centredentaireanjou.ca/injections-de-botox/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "centre-for-therapeutic-massage-richmond-hill",
@@ -6009,6 +6286,87 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "cigonia-sherbrooke",
+  "treatment_id": "cigonia-sherbrooke--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Sexology (sexological counseling)",
+  "practitioner": "Alex Lapointe-Guay",
+  "practitioners": [
+   {
+    "as_recorded": "Alex Lapointe-Guay \u2014 Sexologist; 'She offers individual and couples counselling' (Sexology and couple counseling page, cigonia.com)",
+    "id": "cigonia-sherbrooke--alex-lapointe-guay",
+    "name": "Alex Lapointe-Guay"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee for sexology/couples counseling is published on the clinic's own website; the sexology page mentions a preferential rate and reduced rates without amounts, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://cigonia.com/en/our-expertise-physiotherapy-pelvic-perineal-rehabilitation/sexology-and-couple-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "cigonia-sherbrooke",
+  "treatment_id": "cigonia-sherbrooke--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee for massage therapy / lymphatic drainage is published on the clinic's own website; the Cigonia FAQ says callers are informed about rates by phone (819-821-3434), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://cigonia.com/en/faq/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "cigonia-sherbrooke",
+  "treatment_id": "cigonia-sherbrooke--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Perineal physiotherapy (physiotherapy)",
+  "practitioner": "Marie-\u00c8ve Prince, Rachel Dumont, Olivia Dubois, France Biron, Virginie Lachance, Jessica Roy, Caroline Boisvert",
+  "practitioners": [
+   {
+    "as_recorded": "Marie-\u00c8ve Prince \u2014 Physiotherapist specializing in perineal rehabilitation, general director, and founder-owner of Cigonia (Our team, cigonia.com/en/our-physiotherapists-team/)",
+    "id": "cigonia-sherbrooke--marie-eve-prince",
+    "name": "Marie-\u00c8ve Prince"
+   },
+   {
+    "as_recorded": "Rachel Dumont \u2014 Physiotherapist in perineal rehabilitation and orthopedics, assistant to the general and professional management (Our team, cigonia.com/en/our-physiotherapists-team/)",
+    "id": "cigonia-sherbrooke--rachel-dumont",
+    "name": "Rachel Dumont"
+   },
+   {
+    "as_recorded": "Olivia Dubois \u2014 Physiotherapist in perineal rehabilitation and orthopedics, Director of knowledge mobilization, Ph. D. (Our team, cigonia.com/en/our-physiotherapists-team/)",
+    "id": "cigonia-sherbrooke--olivia-dubois",
+    "name": "Olivia Dubois"
+   },
+   {
+    "as_recorded": "France Biron \u2014 Physiotherapist in perineal rehabilitation, orthopedics and pediatrics (Our team, cigonia.com/en/our-physiotherapists-team/)",
+    "id": "cigonia-sherbrooke--france-biron",
+    "name": "France Biron"
+   },
+   {
+    "as_recorded": "Virginie Lachance \u2014 Physiotherapist in perineal rehabilitation (Our team, cigonia.com/en/our-physiotherapists-team/)",
+    "id": "cigonia-sherbrooke--virginie-lachance",
+    "name": "Virginie Lachance"
+   },
+   {
+    "as_recorded": "Jessica Roy \u2014 Physiotherapist in perineal rehabilitation and orthopedics, assistant to the management team (Our team, cigonia.com/en/our-physiotherapists-team/)",
+    "id": "cigonia-sherbrooke--jessica-roy",
+    "name": "Jessica Roy"
+   },
+   {
+    "as_recorded": "Caroline Boisvert \u2014 Physiotherapist in perineal rehabilitation (Our team, cigonia.com/en/our-physiotherapists-team/)",
+    "id": "cigonia-sherbrooke--caroline-boisvert",
+    "name": "Caroline Boisvert"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No general fee for perineal physiotherapy is published on the clinic's own website or an extractable booking page; the Cigonia FAQ says callers are informed about rates by phone (819-821-3434). The only amounts on the clinic's own site are SAAQ payer amounts on its Paying Agents page, which are not a general published price, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://cigonia.com/en/the-issues/women-pain-incontinence-descent-organ/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "cirrus-psychology-red-deer",
   "treatment_id": "cirrus-psychology-red-deer--couples-therapy",
   "treatment": "Couples Therapy",
@@ -6256,6 +6614,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "clinique-altitude-nutrition-sainte-therese",
+  "treatment_id": "clinique-altitude-nutrition-sainte-therese--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No consultation fees are published on the clinic's own website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://altitudenutrition.ca/blogue/vos-nutritionnistes-a-terrebonne",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "clinique-camirand-muzzi-montreal",
   "treatment_id": "clinique-camirand-muzzi-montreal--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -6347,6 +6718,45 @@
   "price_source": "Clinic treatment menu",
   "price_tier": "website",
   "treatment_link": "https://www.cliniquecb.com",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-chiropratique-st-sauveur-saint-sauveur",
+  "treatment_id": "clinique-chiropratique-st-sauveur-saint-sauveur--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee for laser therapy is published on the clinic's own website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://chirostsauveur.com/traitements/therapie-au-laser-lllt/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-chiropratique-st-sauveur-saint-sauveur",
+  "treatment_id": "clinique-chiropratique-st-sauveur-saint-sauveur--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No gait-analysis fee is published on the clinic's own website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://chirostsauveur.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-chiropratique-st-sauveur-saint-sauveur",
+  "treatment_id": "clinique-chiropratique-st-sauveur-saint-sauveur--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://chirostsauveur.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -6619,6 +7029,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "clinique-dentaire-st-sauveur-saint-sauveur",
+  "treatment_id": "clinique-dentaire-st-sauveur-saint-sauveur--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Botox fee is published on the clinic's own website (a limited-time free-consultation promotion is advertised, which is not a treatment price); price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.cliniquedentairestsauveur.com/services-generaux",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "clinique-inspiration-laval",
   "treatment_id": "clinique-inspiration-laval--clinical-pilates",
   "treatment": null,
@@ -6758,6 +7181,30 @@
   "price_source": "https://www.nutritionsf.com/consultation-nutrition",
   "price_tier": "website",
   "treatment_link": "https://www.nutritionsf.com/nutrition-sportive-adolescents",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-nutritive-sherbrooke",
+  "treatment_id": "clinique-nutritive-sherbrooke--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Sports nutrition",
+  "practitioner": "Laurie-Anne Patenaude, Vincent Ballard",
+  "practitioners": [
+   {
+    "as_recorded": "Laurie-Anne Patenaude \u2014 Nutritionniste \u00e0 Sherbrooke et en visioconf\u00e9rence; 'elle se distingue de l'\u00e9quipe par sa formation plus pouss\u00e9e en nutrition sportive'; Domaines d'expertise principaux: ... nutrition sportive (L'\u00e9quipe, cliniquenutritive.com/equipe/)",
+    "id": "clinique-nutritive-sherbrooke--laurie-anne-patenaude",
+    "name": "Laurie-Anne Patenaude"
+   },
+   {
+    "as_recorded": "Vincent Ballard \u2014 Nutritionniste \u00e0 Sherbrooke, Ayer's Cliff et en visioconf\u00e9rence; 'il approfondie ses connaissances en nutrition sportive afin d'offrir des conseils encore plus adapt\u00e9s aux athl\u00e8tes et aux sportifs de tous les niveaux'; Motifs de consultation: ... nutrition sportive (L'\u00e9quipe, cliniquenutritive.com/equipe/)",
+    "id": "clinique-nutritive-sherbrooke--vincent-ballard",
+    "name": "Vincent Ballard"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (cliniquenutritive.com \u2014 team and consultation pages checked) and no booking page publishing fees was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://cliniquenutritive.com/equipe/",
   "last_verified": "2026-11-01"
  },
  {
@@ -7567,6 +8014,44 @@
   "last_verified": null
  },
  {
+  "clinic_id": "confederation-chiropractic-clinic-saskatoon",
+  "treatment_id": "confederation-chiropractic-clinic-saskatoon--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Jeremiah Villegas, Registered Massage Therapist",
+  "practitioners": [
+   {
+    "id": "confederation-chiropractic-clinic-saskatoon--jeremiah-villegas",
+    "name": "Jeremiah Villegas",
+    "as_recorded": "Jeremiah Villegas, Registered Massage Therapist"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No massage therapy fee or lymphatic drainage price is published on the clinic's own website and no priced booking page was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.confedchiro.com/meet-the-team/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "confederation-chiropractic-clinic-saskatoon",
+  "treatment_id": "confederation-chiropractic-clinic-saskatoon--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Jeremiah Villegas, Registered Massage Therapist",
+  "practitioners": [
+   {
+    "id": "confederation-chiropractic-clinic-saskatoon--jeremiah-villegas",
+    "name": "Jeremiah Villegas",
+    "as_recorded": "Jeremiah Villegas, Registered Massage Therapist"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No massage therapy fee or TMJ massage price is published on the clinic's own website and no priced booking page was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.confedchiro.com/meet-the-team/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "connect-physiotherapy-and-exercise-edmonton",
   "treatment_id": "connect-physiotherapy-and-exercise-edmonton--bike-fitting",
   "treatment": "Bike Fitting",
@@ -8227,6 +8712,51 @@
   "last_verified": null
  },
  {
+  "clinic_id": "craven-sport-services-training-centre-saskatoon",
+  "treatment_id": "craven-sport-services-training-centre-saskatoon--bike-fitting",
+  "treatment": "Bike Fitting",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$230 (2 hour)",
+  "price_source": "Clinic's own Fitness Assessments page https://cravensportservices.ca/fitness-assessments/ lists '2 hour cycling assessment: $230.00' - website tier. Note discrepancy with https://cravensportservices.ca/physiotherapy/physiotherapy-pricing/ which lists Bike-Fit/Cycling Assessment 90 minutes at $200.00.",
+  "price_tier": "website",
+  "treatment_link": "https://cravensportservices.ca/fitness-assessments/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "craven-sport-services-training-centre-saskatoon",
+  "treatment_id": "craven-sport-services-training-centre-saskatoon--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Hayley Braun",
+  "practitioners": [
+   {
+    "id": "craven-sport-services-training-centre-saskatoon--hayley-braun",
+    "name": "Hayley Braun",
+    "as_recorded": "Hayley Braun"
+   }
+  ],
+  "price_text": "$145 initial \u00b7 $155 follow-up (60 min) \u00b7 $90 follow-up (30 min)",
+  "price_source": "Clinic's own Physiotherapy Pricing page https://cravensportservices.ca/physiotherapy/physiotherapy-pricing/ lists 'Pelvic Health Physiotherapy Initial Assessment (60 minutes): $145.00, Follow Up Treatment (60 minutes): $155.00, Follow Up Treatment (30 minutes): $90.00' - website tier.",
+  "price_tier": "website",
+  "treatment_link": "https://cravensportservices.ca/physiotherapy/pelvic-floor-physiotherapy-saskatoon/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "craven-sport-services-training-centre-saskatoon",
+  "treatment_id": "craven-sport-services-training-centre-saskatoon--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$165 (1.5 hour)",
+  "price_source": "Clinic's own Fitness Assessments page https://cravensportservices.ca/fitness-assessments/ lists '1.5 hour running assessment $165.00' - website tier. Note discrepancy with https://cravensportservices.ca/physiotherapy/physiotherapy-pricing/ which lists Running Assessment 90 minutes at $200.00.",
+  "price_tier": "website",
+  "treatment_link": "https://cravensportservices.ca/fitness-assessments/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "crescendo-orthophonie-de-la-voix-rosemere",
   "treatment_id": "crescendo-orthophonie-de-la-voix-rosemere--singing-voice-therapy",
   "treatment": "Singing Voice Therapy",
@@ -8802,6 +9332,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dalton-associates-saugeen-shores",
+  "treatment_id": "dalton-associates-saugeen-shores--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$100-$225/hr (general fee range; exact fee set at intake)",
+  "price_source": "The clinic's own Fees & Insurance page (daltonassociates.ca/fees-insurance) states: 'Currently our fee schedule ranges from $100 to $225 per hour, depending on the time and nature of the service provided, plus the training and experience of the therapist' and that the fee is discussed at the intake interview - a general chain fee range, not a couples-specific fee.",
+  "price_tier": "website",
+  "treatment_link": "https://www.daltonassociates.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "danesh-aesthetics-richmond-hill",
   "treatment_id": "danesh-aesthetics-richmond-hill--microneedling",
   "treatment": "Microneedling",
@@ -8832,6 +9375,19 @@
   "price_tier": "booking",
   "treatment_link": "https://www.daneshaesthetics.com/book-online",
   "last_verified": null
+ },
+ {
+  "clinic_id": "dani-health-saanich",
+  "treatment_id": "dani-health-saanich--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No sports nutrition service or fee exists on the clinic's own site, and no fee list for any service was published on the site pages read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.danihealth.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "dawdy-naturopathic-clinic-ottawa",
@@ -10261,6 +10817,25 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "http://drcoreynd.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "dr-courtney-ranieri-virtual-nd-sault-ste-marie",
+  "treatment_id": "dr-courtney-ranieri-virtual-nd-sault-ste-marie--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Courtney Ranieri",
+  "practitioners": [
+   {
+    "id": "dr-courtney-ranieri-virtual-nd-sault-ste-marie--courtney-ranieri",
+    "name": "Courtney Ranieri",
+    "as_recorded": "Dr. Courtney Ranieri, ND - licensed Naturopathic Doctor and founder, Somewhere Health (formerly BlossomCo Wellness); Jane bio lists natural fertility + pregnancy support and additional training in Integrative Fertility Methods"
+   }
+  ],
+  "price_text": "$259 initial consultation (60-75 min); follow-ups $60-$215",
+  "price_source": "Fees published on the clinic's own website (blossomcowellness.com, now Somewhere Health): 'Our fees are simple and upfront: $259 for your first consultation and follow-ups from $60', with its How It Works page specifying follow-ups from $60 for a 15-minute check-in to $215 for a full 60-minute visit. The Jane booking page rendered practitioner bios only, no fee list, so the tier is website, not booking.",
+  "price_tier": "website",
+  "treatment_link": "https://somewherehealth.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -13228,6 +13803,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "dr-toby-bridgman-saskatoon",
+  "treatment_id": "dr-toby-bridgman-saskatoon--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Toby Bridgman, ND",
+  "practitioners": [
+   {
+    "id": "dr-toby-bridgman-saskatoon--toby-bridgman",
+    "name": "Toby Bridgman",
+    "as_recorded": "Dr. Toby Bridgman, ND"
+   }
+  ],
+  "price_text": "$130\u2013$220 per treatment",
+  "price_source": "Clinic's own IV Therapy page https://www.saskatoonnaturopathicdoctor.com/iv-therapy-saskatoon states 'IV treatments at Bridgman Clinical generally cost between $130 and $220, depending on the ingredients used' - website tier. Same range on homepage FAQ.",
+  "price_tier": "website",
+  "treatment_link": "https://www.saskatoonnaturopathicdoctor.com/iv-therapy-saskatoon",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "dr-tonia-winchester-nanaimo",
   "treatment_id": "dr-tonia-winchester-nanaimo--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
@@ -15565,6 +16159,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "food-to-fit-nutrition-inc-saskatoon",
+  "treatment_id": "food-to-fit-nutrition-inc-saskatoon--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (homepage and Our Team page read in this pass) and no booking page with a fee list was found, so price is null. Premise failure in any case - see gaps.",
+  "price_tier": null,
+  "treatment_link": "http://www.foodtofit.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "fortify-winnipeg",
   "treatment_id": "fortify-winnipeg--naturopathy",
   "treatment": "Naturopathy",
@@ -15696,6 +16303,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "fuel-up-nutrition-sault-ste-marie",
+  "treatment_id": "fuel-up-nutrition-sault-ste-marie--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": "Karly Gratton",
+  "practitioners": [
+   {
+    "id": "fuel-up-nutrition-sault-ste-marie--karly-gratton",
+    "name": "Karly Gratton",
+    "as_recorded": "Karly Gratton, Registered Dietitian and Sports Nutritionist - per the clinic's own website homepage title and About page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (fuelupnutrition.ca) and no online booking page with a fee list was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.fuelupnutrition.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "fueling-with-food-inc-kelowna",
   "treatment_id": "fueling-with-food-inc-kelowna--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -15725,6 +16351,25 @@
   "price_source": "No couples therapy fee could be verified: the clinic's dedicated couples-therapy page could not be fetched (HTTP 429, not retried) and no fee is published on the homepage or in search extracts of the clinic's own pages, so price is null.",
   "price_tier": null,
   "treatment_link": "https://functionandfulfillmentpsychotherapy.ca/couples-therapy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "gabrielle-trepanier-rouyn-noranda",
+  "treatment_id": "gabrielle-trepanier-rouyn-noranda--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian / Nutritionist",
+  "practitioner": "Gabrielle Tr\u00e9panier",
+  "practitioners": [
+   {
+    "id": "gabrielle-trepanier-rouyn-noranda--gabrielle-trepanier",
+    "name": "Gabrielle Tr\u00e9panier",
+    "as_recorded": "Gabrielle Tr\u00e9panier, Dt.P, Nutritionniste - named practitioner in the clinic's own site title and on its individual sports-nutrition consultation page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee is published on the current clinic website (consultation page read in full, redesigned Oct 2026); a superseded crawl of the clinic's own consultation page quoted $165 for the initial nutritional assessment, which was not used as it no longer appears live, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://nutritiongt.com/services-en-nutrition/consultation-individuelle/",
   "last_verified": "2026-11-01"
  },
  {
@@ -15967,6 +16612,19 @@
   "price_source": "No fees are published on the clinic's own site.",
   "price_tier": null,
   "treatment_link": "https://www.ualberta.ca/glen-sather-clinic/services/index.html",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "glibota-m-c-dr-sault-ste-marie",
+  "treatment_id": "glibota-m-c-dr-sault-ste-marie--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Botox service or fee exists on the clinic's own site (premise failure), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.glibotadentistry.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -16639,6 +17297,19 @@
   "price_tier": null,
   "treatment_link": "http://hcnutrition.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "head-spa-quebec-saint-eustache",
+  "treatment_id": "head-spa-quebec-saint-eustache--head-spa",
+  "treatment": "Head Spa",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's own soin pages (headspaquebec.ca) publish no total Head Spa price in text fetch; the Enfants page publishes only the $28.80 massage-therapy insurance receipt amount for the eligible portion of the 55-min soin, which is a receipt amount rather than the soin price, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://headspaquebec.ca/soin/head-spa-enfant#soin",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "head-to-heal-family-wellness-regina",
@@ -17765,6 +18436,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://ingoodnutrition.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "in-good-nutrition-saskatoon",
+  "treatment_id": "in-good-nutrition-saskatoon--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Registered Dietitian",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$190 initial \u00b7 $165 follow-up",
+  "price_source": "Jane booking page (ingoodnutrition.janeapp.com), 'Saskatchewan Virtual Clinic - Residents Only' discipline: Initial Consultation - Virtual $190 and Follow-up - Virtual $165. The clinic's own Saskatoon page lists Sports Nutrition among its nutrition services with no separate sports fee, so the general dietitian consultation prices that sports-nutrition clients book are recorded, with the inclusion stated here.",
+  "price_tier": "booking",
+  "treatment_link": "https://www.ingoodnutrition.com/locations/nutritionist-dietitian-saskatoon/",
   "last_verified": "2026-11-01"
  },
  {
@@ -19371,6 +20055,44 @@
   "last_verified": null
  },
  {
+  "clinic_id": "kids-physio-group-saskatoon",
+  "treatment_id": "kids-physio-group-saskatoon--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Rachel Mamer, MPT - per the clinic's Jane booking page, sole practitioner listed for the Pediatric Pelvic Health Assessment and Pediatric Pelvic Health Follow-up under 'Physiotherapy for Bowel and Bladder - Pelvic Health'; her Jane bio states she has completed continuing education in pediatric pelvic health (bowel and bladder)",
+  "practitioners": [
+   {
+    "id": "kids-physio-group-saskatoon--rachel-mamer",
+    "name": "Rachel Mamer",
+    "as_recorded": "Rachel Mamer, MPT - per the clinic's Jane booking page, sole practitioner listed for the Pediatric Pelvic Health Assessment and Pediatric Pelvic Health Follow-up under 'Physiotherapy for Bowel and Bladder - Pelvic Health'; her Jane bio states she has completed continuing education in pediatric pelvic health (bowel and bladder)"
+   }
+  ],
+  "price_text": "$160 initial \u00b7 $135 follow-up",
+  "price_source": "Jane booking page (kidsphysiosaskatoon.janeapp.com), 'Physiotherapy for Bowel and Bladder - Pelvic Health' discipline: Pediatric Pelvic Health Assessment $160 and Pediatric Pelvic Health Follow-up $135.",
+  "price_tier": "booking",
+  "treatment_link": "https://www.kidsphysio.ca/services/pelvic-health/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "kids-physio-group-saskatoon",
+  "treatment_id": "kids-physio-group-saskatoon--performing-arts-physiotherapy",
+  "treatment": "Performing Arts Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Victoria Parkvold - per the clinic's Jane booking page, sole practitioner listed for the Initial Assessment for Dancers and Follow up for Dancers under 'Physiotherapy for Dancers'; her Jane bio states she completed her Master's in Physiotherapy at the University of Hertfordshire and holds RAD Grade 8 Ballet certification with 14 years of dance training",
+  "practitioners": [
+   {
+    "id": "kids-physio-group-saskatoon--victoria-parkvold",
+    "name": "Victoria Parkvold",
+    "as_recorded": "Victoria Parkvold - per the clinic's Jane booking page, sole practitioner listed for the Initial Assessment for Dancers and Follow up for Dancers under 'Physiotherapy for Dancers'; her Jane bio states she completed her Master's in Physiotherapy at the University of Hertfordshire and holds RAD Grade 8 Ballet certification with 14 years of dance training"
+   }
+  ],
+  "price_text": "$150 initial \u00b7 $130 follow-up",
+  "price_source": "Jane booking page (kidsphysiosaskatoon.janeapp.com), 'Physiotherapy for Dancers' discipline: Initial Assessment for Dancers $150 and Follow up for Dancers $130.",
+  "price_tier": "booking",
+  "treatment_link": "https://kidsphysiosaskatoon.janeapp.com/locations/kids-physio-group-saskatoon/book#/physiotherapy-for-dancers",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "kimberly-dixon-registered-acupuncturist-moncton",
   "treatment_id": "kimberly-dixon-registered-acupuncturist-moncton--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -19656,6 +20378,38 @@
   "price_source": "The clinic's Jane booking page (kineticsolutionsphysio.janeapp.com) rendered practitioner bios only in text fetch - the treatment/fee list did not render - and no fees are published on kineticsolutionsphysio.ca, so price is null and the clinic is queued for a rendered-browser Jane price re-scan.",
   "price_tier": null,
   "treatment_link": "https://kineticsolutionsphysio.ca/services",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "kinetic-solutions-physiotherapy-salisbury",
+  "treatment_id": "kinetic-solutions-physiotherapy-salisbury--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Cameron Bessey",
+  "practitioners": [
+   {
+    "id": "kinetic-solutions-physiotherapy-salisbury--cameron-bessey",
+    "name": "Cameron Bessey",
+    "as_recorded": "Cameron Bessey, PT \u2014 his bio on the clinic's own team page lists post-graduate training in 'TPI golf assessment and treatment'"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered no fee list in text fetch and no golf assessment fee is published on its website, so price is null; queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://kineticsolutionsphysio.ca",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "kinetic-solutions-physiotherapy-salisbury",
+  "treatment_id": "kinetic-solutions-physiotherapy-salisbury--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page (kineticsolutionsphysio.janeapp.com) rendered no fee list in text fetch and no fees are published on its website, so price is null; queued for the rendered-browser Jane re-scan.",
+  "price_tier": null,
+  "treatment_link": "https://kineticsolutionsphysio.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -20882,6 +21636,54 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "mackie-physiotherapy-saskatoon",
+  "treatment_id": "mackie-physiotherapy-saskatoon--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Social Work",
+  "practitioner": "Eileen Schmidt MSW, RSW, Registered Social Worker & Mental Health Therapist - per the clinic's own homepage, she provides clinical support to 'couples seeking relational support' and uses the Gottman Method for couples therapy, seeing clients through the Evergreen location",
+  "practitioners": [
+   {
+    "id": "mackie-physiotherapy-saskatoon--eileen-schmidt",
+    "name": "Eileen Schmidt",
+    "as_recorded": "Eileen Schmidt MSW, RSW, Registered Social Worker & Mental Health Therapist - per the clinic's own homepage, she provides clinical support to 'couples seeking relational support' and uses the Gottman Method for couples therapy, seeing clients through the Evergreen location"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No couples therapy fee is published on the clinic's own site or Jane booking page; the homepage states appointments with Eileen Schmidt are booked through her own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.mackiephysio.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "mackie-physiotherapy-saskatoon",
+  "treatment_id": "mackie-physiotherapy-saskatoon--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Nadia Philipenko, PT, B.Sc.(Kin.), M.P.T, B.D.N. - per the clinic's Jane booking page, listed for Pelvic Floor Initial Assessment and Pelvic Floor Treatment, Andrea Loraas, PT, B.Sc. (Kin), M.P.T. - per the clinic's Jane booking page, listed for Pelvic Floor Initial Assessment and Pelvic Floor Treatment; the clinic's own social posts name her as a presenter of its Women's Health & Pelvic Floor Physiotherapy Workshop (October 20, 2026), Kirstin Greve, PT, B.Sc.(Kin.), M.P.T, B.D.N. - per the clinic's Jane booking page, listed for Pelvic Floor Initial Assessment and Pelvic Floor Treatment; the clinic's own homepage states 'Kirstin is a certified Level 1 Pelvic Floor physiotherapist' with a special interest in women's health",
+  "practitioners": [
+   {
+    "id": "mackie-physiotherapy-saskatoon--nadia-philipenko",
+    "name": "Nadia Philipenko",
+    "as_recorded": "Nadia Philipenko, PT, B.Sc.(Kin.), M.P.T, B.D.N. - per the clinic's Jane booking page, listed for Pelvic Floor Initial Assessment and Pelvic Floor Treatment"
+   },
+   {
+    "id": "mackie-physiotherapy-saskatoon--andrea-loraas",
+    "name": "Andrea Loraas",
+    "as_recorded": "Andrea Loraas, PT, B.Sc. (Kin), M.P.T. - per the clinic's Jane booking page, listed for Pelvic Floor Initial Assessment and Pelvic Floor Treatment; the clinic's own social posts name her as a presenter of its Women's Health & Pelvic Floor Physiotherapy Workshop (October 20, 2026)"
+   },
+   {
+    "id": "mackie-physiotherapy-saskatoon--kirstin-greve",
+    "name": "Kirstin Greve",
+    "as_recorded": "Kirstin Greve, PT, B.Sc.(Kin.), M.P.T, B.D.N. - per the clinic's Jane booking page, listed for Pelvic Floor Initial Assessment and Pelvic Floor Treatment; the clinic's own homepage states 'Kirstin is a certified Level 1 Pelvic Floor physiotherapist' with a special interest in women's health"
+   }
+  ],
+  "price_text": "$145 initial \u00b7 $95 follow-up",
+  "price_source": "Jane booking page (mackiephysio.janeapp.com, Mackie Physiotherapy Arlington): Pelvic Floor Initial Assessment $145 and Pelvic Floor Treatment $95.",
+  "price_tier": "booking",
+  "treatment_link": "https://mackiephysio.janeapp.com/locations/mackie-physiotherapy-arlington/book",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "madison-wood-rd-kelowna",
   "treatment_id": "madison-wood-rd-kelowna--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -21282,6 +22084,19 @@
   "price_tier": null,
   "treatment_link": "https://www.mariejuliedessaivreacupunctrice.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "marilyn-beatty-massage-therapy-saskatoon",
+  "treatment_id": "marilyn-beatty-massage-therapy-saskatoon--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, and its massagezone.biz booking page rendered no service or fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.massagezone.biz/marilynbeattymassagetherapy/?page=tpltsched2_req&pageid=53058&sessionType=&id=",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "maritime-play-therapy-centre-bedford",
@@ -22912,6 +23727,25 @@
   "price_source": "No fee for the TPI golf assessment is published on the clinic's own Golf Physiotherapy page or elsewhere on its site.",
   "price_tier": null,
   "treatment_link": "https://www.mssphysio.com/golf-physiotherapy-edmonton/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "mon-orthodontiste-dr-david-benguira-saint-eustache",
+  "treatment_id": "mon-orthodontiste-dr-david-benguira-saint-eustache--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Dentistry",
+  "practitioner": "Dr David Benguira",
+  "practitioners": [
+   {
+    "as_recorded": "Dr David Benguira, Orthodontiste certifi\u00e9 FRCD(C) - doctorate in dental medicine and orthodontic training at Universit\u00e9 de Montr\u00e9al, 20+ years' experience; described on the clinic's Botox th\u00e9rapeutique page as a university trainer in neuromodulators (formateur universitaire en neuromodulateurs)",
+    "id": "mon-orthodontiste-dr-david-benguira-saint-eustache--david-benguira",
+    "name": "David Benguira"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No therapeutic Botox price is published on the clinic's own website; its Botox th\u00e9rapeutique page states only that fees apply for therapeutic Botox consultations (and CBCT), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.monorthodontiste.org/pages/botox-therapeutique.html",
   "last_verified": "2026-11-01"
  },
  {
@@ -24732,6 +25566,25 @@
   "last_verified": null
  },
  {
+  "clinic_id": "neil-clinic-acupuncture-saskatoon",
+  "treatment_id": "neil-clinic-acupuncture-saskatoon--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Glenda (Leni) Neil Dr. Ac BSc(Hons)Ac. Lic. Ac",
+  "practitioners": [
+   {
+    "id": "neil-clinic-acupuncture-saskatoon--glenda-neil",
+    "name": "Glenda Neil",
+    "as_recorded": "Glenda (Leni) Neil Dr. Ac BSc(Hons)Ac. Lic. Ac"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (homepage and facial-acupuncture page checked) and no booking-page fee list could be read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.neilclinic.ca/facial-acupuncture",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "nepean-sports-medicine-physiotherapy-centre-nepean",
   "treatment_id": "nepean-sports-medicine-physiotherapy-centre-nepean--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -25154,6 +26007,32 @@
   "price_tier": null,
   "treatment_link": "https://newmclinic.com",
   "last_verified": null
+ },
+ {
+  "clinic_id": "newm-clinic-scarborough-scarborough",
+  "treatment_id": "newm-clinic-scarborough-scarborough--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "IM Shots (Vitamin B Complex IM Shots)",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No IM-shot price is published on the clinic's own website (IV Therapy & IM Shots page and FAQ read in this pass; the prices shown there are for IV therapy), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://newmclinic.com/iv-therapy-im-shots/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "newm-clinic-scarborough-scarborough",
+  "treatment_id": "newm-clinic-scarborough-scarborough--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "IV Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "Starts at $150",
+  "price_source": "Clinic's own website: FAQ page (https://newmclinic.com/faq/) and IV Therapy & IM Shots page (https://newmclinic.com/iv-therapy-im-shots/) both state 'How much does IV therapy cost? ... Prices start at $150.' The FAQ also lists Myers' Cocktail starting at $180, Glutathione IV starting at $150, and Anti-Aging IV starting at $200.",
+  "price_tier": "website",
+  "treatment_link": "https://newmclinic.com/iv-therapy-im-shots/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "newm-clinic-scarborough-scarborough",
@@ -25583,6 +26462,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "northern-wellness-collective-sault-ste-marie",
+  "treatment_id": "northern-wellness-collective-sault-ste-marie--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Kelsey Hroch",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Kelsey Hroch, BSc, ND \u2014 owner, with a special interest in perinatal care including fertility, pregnancy and postpartum (clinic homepage and perinatal-care page)",
+    "id": "northern-wellness-collective-sault-ste-marie--kelsey-hroch",
+    "name": "Kelsey Hroch"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price published on the clinic's own website/perinatal-care page and no priced booking page found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://northernwellnesscollective.ca/perinatal-care/saint-edouard-de-fabre/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "northmount-dental-care-calgary",
   "treatment_id": "northmount-dental-care-calgary--medical-botox",
   "treatment": "Medical Botox",
@@ -25992,6 +26890,19 @@
   "price_source": "No IV therapy fee is published on the clinic's own website.",
   "price_tier": null,
   "treatment_link": "https://novahealthnaturopathic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "nt-nutrition-saguenay",
+  "treatment_id": "nt-nutrition-saguenay--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No sports nutrition service or fee list is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://fr.nutritiontherapy.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -26559,6 +27470,25 @@
   "price_source": "No fees are published on the clinic's own website (oceanbell.ca pages read in full) and no online booking page with fees was found, so price is null; no review-quoted price within 1 year was found either.",
   "price_tier": null,
   "treatment_link": "http://www.oceanbell.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "oceanside-acupuncture-massage-therapy-saint-john",
+  "treatment_id": "oceanside-acupuncture-massage-therapy-saint-john--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Andre Giroux",
+  "practitioners": [
+   {
+    "id": "oceanside-acupuncture-massage-therapy-saint-john--andre-giroux",
+    "name": "Andre Giroux",
+    "as_recorded": "Andre Giroux, Dr.Ac. - Doctor of Acupuncture, registered with the Chinese Medicine and Acupuncture Association of Canada (CMAAC), per the clinic's own site"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No acupuncture or fertility fee is published on the clinic's own website and no fee-bearing booking page was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.oceansideacupuncture.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -28076,6 +29006,30 @@
   "last_verified": null
  },
  {
+  "clinic_id": "physio-masso-mp-saint-jerome",
+  "treatment_id": "physio-masso-mp-saint-jerome--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "M\u00e9lanie Perron, Jessica Sanchez",
+  "practitioners": [
+   {
+    "id": "physio-masso-mp-saint-jerome--melanie-perron",
+    "name": "M\u00e9lanie Perron",
+    "as_recorded": "M\u00e9lanie Perron, massoth\u00e9rapeute \u00e0 St-J\u00e9r\u00f4me, TPhys, membre OPPQ et membre FQM \u2014 named on the clinic's massoth\u00e9rapie page, which lists 'Drainage Lymphatique 90 minutes' among the massages offered"
+   },
+   {
+    "id": "physio-masso-mp-saint-jerome--jessica-sanchez",
+    "name": "Jessica Sanchez",
+    "as_recorded": "Jessica Sanchez \u2014 named under 'Nos professionnels en massoth\u00e9rapie' on the clinic's massoth\u00e9rapie page, which lists 'Drainage Lymphatique 90 minutes' among the massages offered"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee for lymphatic drainage is published on the clinic's own website or its service pages; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.physio-masso.com/4067-2/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "physio-motiva-montreal",
   "treatment_id": "physio-motiva-montreal--clinical-pilates",
   "treatment": null,
@@ -28500,6 +29454,45 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "physiomed-bellamy-scarborough",
+  "treatment_id": "physiomed-bellamy-scarborough--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No golf physiotherapy / physiotherapy fees are published on Physiomed's own website (Bellamy clinic page and golf physiotherapy page read in this pass) and no booking page with a fee list for this location was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.physiomed.ca/golf-physiotherapy-improve-swing/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physiomed-bellamy-scarborough",
+  "treatment_id": "physiomed-bellamy-scarborough--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Pelvic Floor Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy / physiotherapy fees are published on the clinic's own website (Bellamy clinic page read in this pass) and no booking page with a fee list for this location was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.physiomed.ca/clinic/scarborough-bellamy/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physiomed-kennedy-scarborough",
+  "treatment_id": "physiomed-kennedy-scarborough--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Golf Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No golf physiotherapy / golf assessment price is published on Physiomed's own golf page, on the Kennedy location page, or in a Kennedy booking listing found in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.physiomed.ca/golf-physiotherapy-improve-swing/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "physionow-mississauga",
   "treatment_id": "physionow-mississauga--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -28903,6 +29896,19 @@
   "price_source": "Clinic's own Services page (https://pivotalphysio.com/services/): 'SHOCK WAVE THERAPY \u2014 Free Phone Consultation, Treatment: $150.00, Locations: Fort Saskatchewan & High Performance Centre.'",
   "price_tier": "website",
   "treatment_link": "https://pivotalphysio.com/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pivotal-point-massage-therapy-saskatoon",
+  "treatment_id": "pivotal-point-massage-therapy-saskatoon--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, and its Jane booking page (schedulemassage.janeapp.com, linked from schedulemassage.ca) rendered no treatment or fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://schedulemassage.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -31752,6 +32758,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "rituels-atelier-saint-hippolyte",
+  "treatment_id": "rituels-atelier-saint-hippolyte--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "\u00c9milie Jean-Higgins",
+  "practitioners": [
+   {
+    "id": "rituels-atelier-saint-hippolyte--emilie-jean-higgins",
+    "name": "\u00c9milie Jean-Higgins",
+    "as_recorded": "\u00c9milie Jean-Higgins - Acupuncture | \u00c9nerg\u00e9tique, Coaching (Notre \u00e9quipe, rituelsatelier.com)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, and its GoRendezVous booking page (gorendezvous.com/rituelsatelier, linked from the site's acupuncture page) rendered no service or fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://rituelsatelier.com/acupuncture-fertilite",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "river-clinic-acupuncture-and-integrative-chinese-medicine-markham",
   "treatment_id": "river-clinic-acupuncture-and-integrative-chinese-medicine-markham--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
@@ -32445,6 +33470,45 @@
   "last_verified": null
  },
  {
+  "clinic_id": "saint-john-sports-medicine-clinic-saint-john",
+  "treatment_id": "saint-john-sports-medicine-clinic-saint-john--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No light-therapy or physiotherapy fee list is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://sjsportsmedclinic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "saint-john-sports-medicine-clinic-saint-john",
+  "treatment_id": "saint-john-sports-medicine-clinic-saint-john--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave or physiotherapy fee list is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://sjsportsmedclinic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "salt-and-stone-massage-therapy-saskatoon",
+  "treatment_id": "salt-and-stone-massage-therapy-saskatoon--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "30min $75 \u00b7 45min from $90 \u00b7 60min from $105 \u00b7 75min from $120 \u00b7 90min from $140 \u00b7 120min from $200 (general RMT list incl. TMJ)",
+  "price_source": "Clinic's own Massage Therapy page (saltandstonesaskatoon.ca/massagetherapy) publishes the RMT price list that covers all listed services including TMJ: 30min $75, 45min starting at $90, 60min starting at $105, 75min starting at $120, 90min starting at $140, 120min starting at $200, noting per-service pricing is confirmed in the Fresha booking software. No TMJ-specific price is published, so the general RMT list stands in (same service list, clinic's own site).",
+  "price_tier": "website",
+  "treatment_link": "https://www.saltandstonesaskatoon.ca/massagetherapy",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "sandra-edwards-markham",
   "treatment_id": "sandra-edwards-markham--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -32529,6 +33593,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "sarah-normandin-nutritionniste-shawinigan",
+  "treatment_id": "sarah-normandin-nutritionniste-shawinigan--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Sports nutrition",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website: the R\u00e9f\u00e9rence Nutrition Services page (referencenutrition.ca/en/services) says 'Whichever service you desire, do not hesitate to call or write to us. We will discuss your needs, our availability and prices.', and the GoRendezVous booking page (gorendezvous.com/referencenutrition) rendered no service or fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.referencenutrition.ca/en/services/sports-nutrition",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "sask-naturopath-dr-stephanie-stokes-nd-saskatoon",
   "treatment_id": "sask-naturopath-dr-stephanie-stokes-nd-saskatoon--fertility-consultation",
   "treatment": "Fertility Consultation",
@@ -32546,6 +33623,25 @@
   "price_tier": null,
   "treatment_link": "http://www.sasknaturopath.com/",
   "last_verified": null
+ },
+ {
+  "clinic_id": "sask-naturopath-saskatoon",
+  "treatment_id": "sask-naturopath-saskatoon--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathy",
+  "practitioner": "Stephanie Liebrecht",
+  "practitioners": [
+   {
+    "id": "sask-naturopath-saskatoon--stephanie-liebrecht",
+    "name": "Stephanie Liebrecht",
+    "as_recorded": "Dr. Stephanie Liebrecht, BSc, ND - Naturopathic Doctor, per the clinic's own blog bylines on sasknaturopath.com and its Google Places listing; the site homepage also names her as Dr. Stephanie Stokes, ND (surname discrepancy flagged in gaps)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No consultation fees are published on the clinic's own website (sasknaturopath.com) and no booking page with fees was found, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.sasknaturopath.com/",
+  "last_verified": "2026-11-01"
  },
  {
   "clinic_id": "savannah-massage-therapy-wellness-clinic-kitchener-waterloo",
@@ -32700,6 +33796,25 @@
   "price_source": "Fees published on the clinic's own website FAQ (mycounselling.ca/faqs, Payment Questions): 'Family or couples 50 min session = range from $185 - $215'.",
   "price_tier": "website",
   "treatment_link": "https://www.mycounselling.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "serenity-health-co-sault-ste-marie",
+  "treatment_id": "serenity-health-co-sault-ste-marie--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Naturopathic Medicine",
+  "practitioner": "Kristen Timusk",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Kristen Timusk, ND \u2014 Naturopathic Doctor + Owner of Serenity Health Co., with particular clinical interests including natural fertility support (clinic website and Jane booking page)",
+    "id": "serenity-health-co-sault-ste-marie--kristen-timusk",
+    "name": "Kristen Timusk"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price published on the clinic's own website and the Jane booking page treatment/fee list did not render in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://serenityhealthco.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -33432,6 +34547,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "sophie-de-grandpre-dietetiste-nutritionniste-saint-hyacinthe",
+  "treatment_id": "sophie-de-grandpre-dietetiste-nutritionniste-saint-hyacinthe--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietetics (Di\u00e9t\u00e9tiste-Nutritionniste)",
+  "practitioner": "Sophie De Grandpr\u00e9",
+  "practitioners": [
+   {
+    "id": "sophie-de-grandpre-dietetiste-nutritionniste-saint-hyacinthe--sophie-de-grandpre",
+    "name": "Sophie De Grandpr\u00e9",
+    "as_recorded": "Sophie de Grandpr\u00e9, DtP-Nutr., Di\u00e9t\u00e9tiste-Nutritionniste, Vision Pro Sant\u00e9, Saint-Hyacinthe - membre de l'Ordre des di\u00e9t\u00e9tistes-nutritionniste du Qu\u00e9bec (ODNQ) (sophiedegrandpre.com/conditions)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (homepage or Conditions page), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://sophiedegrandpre.com/conditions/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "soscuisine-montreal",
   "treatment_id": "soscuisine-montreal--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -33729,6 +34863,77 @@
   "price_source": "No stuttering therapy fee is published on the clinic's own website, so price is null (as on the Accent Modification record).",
   "price_tier": null,
   "treatment_link": "https://www.speechassociates.ca/adult-speech-therapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speech-language-network-saskatoon",
+  "treatment_id": "speech-language-network-saskatoon--accent-modification",
+  "treatment": "Accent Modification",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Kara Broks",
+  "practitioners": [
+   {
+    "id": "speech-language-network-saskatoon--kara-broks",
+    "name": "Kara Broks",
+    "as_recorded": "Kara Broks, SLP & director of the Speech Language Network - specialized training and certification in the COMPTON P-ESL program, per the clinic's own FAQ (thesln.com/faq)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (thesln.com) and there is no online booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://thesln.com/faq/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speech-language-network-saskatoon",
+  "treatment_id": "speech-language-network-saskatoon--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (thesln.com) and there is no online booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://thesln.com/faq/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speech-specialists-scarborough",
+  "treatment_id": "speech-specialists-scarborough--accent-modification",
+  "treatment": "Accent Modification",
+  "billed_as": "Accent Modification",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No accent modification fee is published on the clinic's own website or Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.speechspecialists.ca/accent-modification-toronto/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speech-specialists-scarborough",
+  "treatment_id": "speech-specialists-scarborough--singing-voice-therapy",
+  "treatment": "Singing Voice Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No singing voice therapy service or fee is published on the clinic's own website or its Jane booking page, so price is null (see premise failure in gaps).",
+  "price_tier": null,
+  "treatment_link": "https://speechspecialists.ca/speech-therapy-scarborough/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "speech-specialists-scarborough",
+  "treatment_id": "speech-specialists-scarborough--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": "Stuttering Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No stuttering therapy fee is published on the clinic's own website or Jane booking page; the clinic's own stuttering page states 'Fees depend on the type and length of session, so contact us for current fees', so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://speechspecialists.ca/stuttering-therapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -34164,6 +35369,38 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "station-street-health-saint-john",
+  "treatment_id": "station-street-health-saint-john--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Samantha Edwards",
+  "practitioners": [
+   {
+    "as_recorded": "Samantha Edwards, PT - Masters of Physiotherapy, Dalhousie University; per her Jane booking page bio she has directed her passion towards women's health, with continued education to help clients with incontinence, prolapse, pelvic pain, pregnancy and postpartum assessment",
+    "id": "station-street-health-saint-john--samantha-edwards",
+    "name": "Samantha Edwards"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor or physiotherapy fee is published on the clinic's own website, and the Jane booking page's treatment/fee list could not be read in this pass (bios rendered; the continuation request returned HTTP 429 and was not retried), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.stationstreethealth.com/pelvicfloorphysiotherapy",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "station-street-health-saint-john",
+  "treatment_id": "station-street-health-saint-john--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own website, and the Jane treatment/fee list could not be read in this pass (HTTP 429 on continuation, not retried), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.stationstreethealth.com/home",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "stella-paterakis-rd-toronto",
   "treatment_id": "stella-paterakis-rd-toronto--sports-nutrition",
   "treatment": "Sports Nutrition",
@@ -34388,6 +35625,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://stonetree.janeapp.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "stoonrmt-saskatoon",
+  "treatment_id": "stoonrmt-saskatoon--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$100 / 60 min",
+  "price_source": "The clinic's own Wix booking service page for Lymphatic Drainage (stoonrmt.com/service-page/lymphatic-drainage-22nd-st-w) lists '1 h - 100 Canadian dollars'.",
+  "price_tier": "booking",
+  "treatment_link": "https://www.stoonrmt.com/service-page/lymphatic-drainage-22nd-st-w?referral=service_list_widget",
   "last_verified": "2026-11-01"
  },
  {
@@ -34704,6 +35954,25 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://sungodphysio.com/services/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "superbloom-wellness-saskatoon",
+  "treatment_id": "superbloom-wellness-saskatoon--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Sophia Wolsfeld",
+  "practitioners": [
+   {
+    "id": "superbloom-wellness-saskatoon--sophia-wolsfeld",
+    "name": "Sophia Wolsfeld",
+    "as_recorded": "Sophia - Registered Psychotherapist, Trauma Therapist, Canadian Certified Counsellor, and Certified Narcissistic Abuse Treatment Clinician, per the clinic's own site; full name Sophia Wolsfeld per her Lumino Health provider listing for Superbloom Wellness"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website (only a free 15-minute connection consultation is offered), so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.superbloom.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -35339,6 +36608,44 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://downtownpsychologyclinic.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-fun-path-therapy-services-saskatoon",
+  "treatment_id": "the-fun-path-therapy-services-saskatoon--myofunctional-therapy",
+  "treatment": "Myofunctional Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Emily Eckart",
+  "practitioners": [
+   {
+    "id": "the-fun-path-therapy-services-saskatoon--emily-eckart",
+    "name": "Emily Eckart",
+    "as_recorded": "Emily Eckart, M.Sc., SLP - Speech Therapist / Myofunctional Therapist, per the clinic's own site"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.thefunpath.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "the-fun-path-therapy-services-saskatoon",
+  "treatment_id": "the-fun-path-therapy-services-saskatoon--stuttering-therapy",
+  "treatment": "Stuttering Therapy",
+  "billed_as": "Speech Therapy",
+  "practitioner": "Emily Eckart",
+  "practitioners": [
+   {
+    "id": "the-fun-path-therapy-services-saskatoon--emily-eckart",
+    "name": "Emily Eckart",
+    "as_recorded": "Emily Eckart, M.Sc., SLP - Speech Therapist / Myofunctional Therapist, per the clinic's own site"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.thefunpath.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -37254,6 +38561,25 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "true-potential-health-services-saskatoon",
+  "treatment_id": "true-potential-health-services-saskatoon--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Jacqui Fleury",
+  "practitioners": [
+   {
+    "id": "true-potential-health-services-saskatoon--jacqui-fleury",
+    "name": "Jacqui Fleury",
+    "as_recorded": "Dr. Jacqui Fleury, ND - 'IV therapy is offered by Dr. Jacqui Fleury, ND at the True Potential Health clinic in Saskatoon' per the clinic's own IV Therapies page; she also holds IV Therapy certification (2014) per her clinic bio page"
+   }
+  ],
+  "price_text": "Myers Cocktail $140-$205; Vitamin C $50-$265; NAD+ $215-$305; Glutathione $105; Hydration $85-$145",
+  "price_source": "Prices published on the clinic's own IV Therapies page (truepotentialhealth.com/?p=14542): Myers Cocktail $140.00-205.00, Vitamin C $50.00-265.00, NAD+ $215.00-305.00, Glutathione $105.00, Hydration $85.00-145.00.",
+  "price_tier": "website",
+  "treatment_link": "https://truepotentialhealth.com/?p=14542",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "trumed-edmonton",
   "treatment_id": "trumed-edmonton--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
@@ -37756,6 +39082,32 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "venture-rehabilitation-sciences-group-saskatoon",
+  "treatment_id": "venture-rehabilitation-sciences-group-saskatoon--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee (or any service fee list) is published on the clinic's own site, and booking is by phone/text/email request form only, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://venturerehab.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "venture-rehabilitation-sciences-group-saskatoon",
+  "treatment_id": "venture-rehabilitation-sciences-group-saskatoon--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://venturerehab.ca/",
+  "last_verified": "2026-11-01"
+ },
+ {
   "clinic_id": "versa-movement-collective-calgary",
   "treatment_id": "versa-movement-collective-calgary--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -37948,6 +39300,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://vccounselling.com/",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vital-roots-nutrition-sault-ste-marie",
+  "treatment_id": "vital-roots-nutrition-sault-ste-marie--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Sports Nutrition price exists because the treatment is not verifiably offered (premise failure); no price is published for it on the clinic's own website or Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://vitalroots.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {

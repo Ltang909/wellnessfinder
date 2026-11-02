@@ -825,6 +825,31 @@
   "last_verified": null
  },
  {
+  "name": "Acupuncture Andr\u00e9anne Laroche",
+  "clinic_id": "acupuncture-andreanne-laroche-saint-hyacinthe",
+  "address": "2560 rue Ledoux",
+  "city": "Saint-Hyacinthe",
+  "prov": "QC",
+  "postal": "J2T 5G4",
+  "phone": "450-702-7024",
+  "website": "http://www.acupunctureandreannelaroche.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 7:00 PM",
+   "tue": "9:00 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Acupuncture Body and Mind Care Clinic",
   "clinic_id": "acupuncture-body-and-mind-care-clinic-corner-brook",
   "address": "347 O'Connell Dr",
@@ -972,7 +997,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Acupuncture by Amy",
@@ -1248,6 +1273,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": null
+ },
+ {
+  "name": "Alchemy Counselling & Psychotherapy",
+  "clinic_id": "alchemy-counselling-psychotherapy-saskatoon",
+  "address": "111 2 Ave S, Unit 400",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7K 1K6",
+  "phone": "306-741-4913",
+  "website": "http://alchemypsychotherapy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:30 AM - 8:00 PM",
+   "thu": "8:30 AM - 9:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Alexandra Anca",
@@ -1542,6 +1592,31 @@
    "thu": "7:00 AM - 7:30 PM",
    "tue": "7:00 AM - 7:30 PM",
    "wed": "7:00 AM - 7:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Ana\u00efs Desaulniers",
+  "clinic_id": "anais-desaulniers-shawinigan",
+  "address": "3451, chemin de Sainte-Flore",
+  "city": "Shawinigan",
+  "prov": "QC",
+  "postal": "G9T 1A6",
+  "phone": "819-536-8181",
+  "website": "https://www.cliniquelaferte.com/nutritionniste",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM \u2013 4:30 PM",
+   "mon": "8:00 AM \u2013 4:30 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:00 AM \u2013 4:30 PM",
+   "tue": "8:00 AM \u2013 4:30 PM",
+   "wed": "8:00 AM \u2013 4:30 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -2400,6 +2475,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Avalon Wellness Centre",
+  "clinic_id": "avalon-wellness-centre-saskatoon",
+  "address": "21-2605 Broadway Ave",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7J 0Z5",
+  "phone": "306-651-7565",
+  "website": "https://avalonwellnesscentre.com",
+  "booking_page": "https://avalonwellnesscentre.janeapp.com/",
+  "hours": {
+   "mon": "6:30 AM - 8:00 PM",
+   "tue": "8:00 AM - 7:00 PM",
+   "wed": "6:30 AM - 6:00 PM",
+   "thu": "7:00 AM - 8:00 PM",
+   "fri": "7:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 12:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Avenue Physio",
   "clinic_id": "avenue-physio-calgary",
   "address": "225 7 Ave SW Suite #130",
@@ -3242,6 +3342,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Birchmount Dental Group",
+  "clinic_id": "birchmount-dental-group-scarborough",
+  "address": "2000 Eglinton Ave E Unit 3H",
+  "city": "Scarborough",
+  "prov": "ON",
+  "postal": "M1L 2M6",
+  "phone": "416-750-7175",
+  "website": "https://www.birchmountdentalgroup.com",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 2:00 PM",
+   "mon": "11:00 AM \u2013 7:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "8:30 AM \u2013 5:30 PM",
+   "tue": "9:00 AM \u2013 6:00 PM",
+   "wed": "9:00 AM \u2013 6:00 PM"
+  },
+  "google_rating": 4.7,
+  "google_reviews": 6,
+  "rating_source": "Google Places details in search results for Birchmount Dental Group (place_id shown on the clinic's own site): Rating: 4.7 stars, based on 6 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Bite Rite Nutrition",
   "clinic_id": "bite-rite-nutrition-mississauga",
   "address": "1454 Dundas St E #125",
@@ -3892,6 +4017,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Brighton Dental Centre",
+  "clinic_id": "brighton-dental-centre-saskatoon",
+  "address": "147 Gibson Bnd #95",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7V 0V2",
+  "phone": "306-343-2020",
+  "website": "https://www.brightondentalstudio.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": "9:00 AM - 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Brittany Wade Physiotherapy",
   "clinic_id": "brittany-wade-physiotherapy-okotoks",
   "address": "10 D\u2019arcy Ranch Dr #332",
@@ -3915,6 +4065,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Broadmead Physiotherapy Clinic",
+  "clinic_id": "broadmead-physiotherapy-clinic-saanich",
+  "address": "4420 Chatterton Way #102",
+  "city": "Saanich",
+  "prov": "BC",
+  "postal": "V8X 5J2",
+  "phone": "250-881-1199",
+  "website": "https://www.broadmeadphysiotherapy.com/",
+  "booking_page": "https://broadmeadphysiotherapy.janeapp.com/",
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 7:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 7,
+  "rating_source": "Google Places details in search results for Broadmead Physiotherapy Clinic: 5.0 stars based on 7 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Brooklyn Seal, RD, CDE",
@@ -4292,6 +4467,31 @@
   "last_verified": null
  },
  {
+  "name": "Cadence Counselling & Psychology",
+  "clinic_id": "cadence-counselling-psychology-saskatoon",
+  "address": "#316-220 3rd Ave S",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7K 1M1",
+  "phone": "306-291-0900",
+  "website": "http://www.cadencepsych.net/",
+  "booking_page": "https://cadencepsych.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": "10:00 AM - 4:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Cadence Physiotherapy & Rehab",
   "clinic_id": "cadence-physiotherapy-rehab-vancouver",
   "address": "#706-550 W Broadway",
@@ -4542,6 +4742,31 @@
   "last_verified": null
  },
  {
+  "name": "Canadian Sport Centre Saskatchewan",
+  "clinic_id": "canadian-sport-centre-saskatchewan-saskatoon",
+  "address": "510 Cynthia St",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7L 7K7",
+  "phone": "(306) 975-0800",
+  "website": "https://www.csc-sask.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details in search results for Canadian Sport Centre Saskatchewan, Saskatoon: rating 5.0 based on 1 review.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Capital Nutrition Group",
   "clinic_id": "capital-nutrition-group-ottawa",
   "address": "1335 Wellington Street West, Suite 200",
@@ -4565,6 +4790,31 @@
   "rating_source": "Clinic's own homepage (https://www.nutritionistottawa.com/), Aggregate Reviews section: 'Google Reviews 4.9\u2605\u2605\u2605\u2605\u2605 \u00b7 220+ reviews' under the heading '4.9 across Google, RateMDs, and Facebook'; recorded as 4.9 with 220 reviews (site states 220+). The site's header banner separately claims 4.9/5 from 350+ Ottawa clients across platforms, which was not used as the Google count.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Caravan Counselling",
+  "clinic_id": "caravan-counselling-saskatoon",
+  "address": "Unit 1008, 201 21st Street East",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7K 0B8",
+  "phone": "(306) 242-6688",
+  "website": "https://www.caravancounselling.com/",
+  "booking_page": "https://caravancounselling.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details in search results for Caravan Counselling, Saskatoon: rating 5.0 based on 1 review.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Career Success Now",
@@ -4942,6 +5192,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Centre Ancrage-Troubles Alimentaires",
+  "clinic_id": "centre-ancrage-troubles-alimentaires-saint-jerome",
+  "address": "38 Rue de la Gare",
+  "city": "Saint-J\u00e9r\u00f4me",
+  "prov": "QC",
+  "postal": null,
+  "phone": "450-512-3698",
+  "website": "http://centreancrage.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Centre Chirom\u00e9dic de Laval",
   "clinic_id": "centre-chiromedic-de-laval-laval",
   "address": "1545, boulevard de l'Avenir, Bureau 300",
@@ -4964,6 +5239,31 @@
   "google_reviews": 41,
   "rating_source": "Google Places details via browser search results for Centre Chiromedic: 'Rating: five stars (5.0) Based on 41 reviews'",
   "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Centre Dentaire Anjou",
+  "clinic_id": "centre-dentaire-anjou-saint-leonard",
+  "address": "6359 rue Jean-Talon Est, Bureau 201",
+  "city": "Saint-L\u00e9onard",
+  "prov": "QC",
+  "postal": "H1S 3E7",
+  "phone": "514-254-2000",
+  "website": "https://centredentaireanjou.ca",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:30 AM - 8:30 PM",
+   "tue": "7:30 AM - 8:30 PM",
+   "wed": "7:30 AM - 8:30 PM",
+   "thu": "7:30 AM - 6:30 PM",
+   "fri": "7:30 AM - 2:00 PM",
+   "sat": "8:00 AM - 2:30 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -5292,6 +5592,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Cigonia",
+  "clinic_id": "cigonia-sherbrooke",
+  "address": "2845 Rue King Ouest",
+  "city": "Sherbrooke",
+  "prov": "QC",
+  "postal": "J1L 1C6",
+  "phone": "819-821-3434",
+  "website": "https://cigonia.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM \u2013 4:00 PM",
+   "mon": "8:00 AM \u2013 8:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "8:00 AM \u2013 8:00 PM",
+   "tue": "8:00 AM \u2013 8:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 47,
+  "rating_source": "Google Places details in search results for Cigonia, Sherbrooke (place_id 486777003271921): rating 5.0 based on 47 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Cirrus Psychology",
   "clinic_id": "cirrus-psychology-red-deer",
   "address": "228 Spruce St, #102",
@@ -5467,6 +5792,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Clinique Altitude Nutrition",
+  "clinic_id": "clinique-altitude-nutrition-sainte-therese",
+  "address": "200 Bd Cur\u00e9-Labelle, bureau 201",
+  "city": "Sainte-Th\u00e9r\u00e8se",
+  "prov": "QC",
+  "postal": "J7E 2W3",
+  "phone": "450-312-0464",
+  "website": "https://altitudenutrition.ca/bureaux/nutritionniste-blainville",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 7:00 PM",
+   "tue": "8:30 AM - 7:00 PM",
+   "wed": "8:30 AM - 7:00 PM",
+   "thu": "8:30 AM - 7:00 PM",
+   "fri": "8:30 AM - 5:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 13,
+  "rating_source": "Google rating surfaced with the clinic's own Sainte-Th\u00e9r\u00e8se bureau page fetch: 5.0/5 based on 13 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Clinique CB",
   "clinic_id": "clinique-cb-laval",
   "address": null,
@@ -5506,6 +5856,31 @@
   "google_reviews": 16,
   "rating_source": "Google Places details in search results for Clinique Camirand Muzzi: 'Rating: five stars (4.8) Based on 16 reviews'.",
   "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Clinique Chiropratique St-Sauveur",
+  "clinic_id": "clinique-chiropratique-st-sauveur-saint-sauveur",
+  "address": "26 avenue Lafleur Sud",
+  "city": "Saint-Sauveur",
+  "prov": "QC",
+  "postal": "J0R 1R0",
+  "phone": "450-227-0644",
+  "website": "https://chirostsauveur.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 35,
+  "rating_source": "Google Places details in search results for Clinique Chiropratique St-Sauveur: 4.8 stars based on 35 reviews.",
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -5574,6 +5949,31 @@
    "wed": "9:00 AM - 5:00 PM",
    "thu": "9:00 AM - 5:00 PM",
    "fri": "9:00 AM - 4:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Clinique Dentaire St-Sauveur",
+  "clinic_id": "clinique-dentaire-st-sauveur-saint-sauveur",
+  "address": "126 Chemin du Lac-Millette",
+  "city": "Saint-Sauveur",
+  "prov": "QC",
+  "postal": null,
+  "phone": "450-227-4744",
+  "website": "https://www.cliniquedentairestsauveur.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 6:30 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "8:00 AM - 5:00 PM",
+   "thu": "8:00 AM - 5:00 PM",
+   "fri": "8:30 AM - 3:00 PM",
    "sat": "Closed",
    "sun": "Closed"
   },
@@ -5730,6 +6130,31 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Clinique Nutritive",
+  "clinic_id": "clinique-nutritive-sherbrooke",
+  "address": "2984 Rue des Ch\u00eanes",
+  "city": "Sherbrooke",
+  "prov": "QC",
+  "postal": null,
+  "phone": "819-570-6313",
+  "website": "http://www.cliniquenutritive.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 4:00 PM",
+   "mon": "8:00 AM \u2013 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:00 AM \u2013 8:00 PM",
+   "tue": "8:00 AM \u2013 8:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": 4.4,
+  "google_reviews": 5,
+  "rating_source": "Google Places details in search results for Clinique Nutritive, Sherbrooke (place_id 787585042688915): rating 4.4 based on 5 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -6593,6 +7018,31 @@
   "last_verified": null
  },
  {
+  "name": "Confederation Chiropractic Clinic",
+  "clinic_id": "confederation-chiropractic-clinic-saskatoon",
+  "address": "Suite 20-207 Fairmont Dr",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7M 5B8",
+  "phone": "(306) 978-7788",
+  "website": "https://www.confedchiro.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "7:00 AM - 6:00 PM",
+   "tue": "7:00 AM - 6:00 PM",
+   "wed": "7:00 AM - 11:00 AM, 2:30 PM - 6:00 PM",
+   "thu": "7:00 AM - 6:00 PM",
+   "fri": "7:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.8,
+  "google_reviews": 71,
+  "rating_source": "Google Places details in search results for Confederation Chiropractic Clinic, Saskatoon: rating 4.8 based on 71 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Connect Physiotherapy & Exercise",
   "clinic_id": "connect-physiotherapy-and-exercise-edmonton",
   "address": "6316 106 Street",
@@ -7015,6 +7465,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Craven SPORT Services Training Centre",
+  "clinic_id": "craven-sport-services-training-centre-saskatoon",
+  "address": "632 1st Ave N #10",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7K 1X8",
+  "phone": "306-986-3548",
+  "website": "http://www.cravensportservices.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "6:00 AM \u2013 9:00 PM",
+   "tue": "7:00 AM \u2013 9:00 PM",
+   "wed": "6:00 AM \u2013 9:00 PM",
+   "thu": "7:00 AM \u2013 9:00 PM",
+   "fri": "6:00 AM \u2013 7:00 PM",
+   "sat": "7:30 AM \u2013 1:30 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No Google rating found: Google Places details in search results for Craven SPORT Services Training Centre listed address, phone and hours but no rating/review count; the rating found for the separate Main Clinic listing was not used.",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -7618,6 +8093,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dalton Associates",
+  "clinic_id": "dalton-associates-saugeen-shores",
+  "address": "421 Clarendon St",
+  "city": "Saugeen Shores",
+  "prov": "ON",
+  "postal": null,
+  "phone": "1-888-245-5516",
+  "website": "https://www.daltonassociates.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 8:00 PM",
+   "tue": "10:00 AM - 8:00 PM",
+   "wed": "10:00 AM - 8:00 PM",
+   "thu": "10:00 AM - 8:00 PM",
+   "fri": "10:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Danesh Aesthetics",
   "clinic_id": "danesh-aesthetics-richmond-hill",
   "address": "11160 Yonge Street, Unit 7",
@@ -7635,6 +8135,31 @@
    "thu": "Closed",
    "tue": "Closed",
    "wed": "1:00 PM - 5:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dani Health",
+  "clinic_id": "dani-health-saanich",
+  "address": "1095 McKenzie Ave Suite 300",
+  "city": "Saanich",
+  "prov": "BC",
+  "postal": "V8P 2L5",
+  "phone": "250-532-2507",
+  "website": "http://www.danihealth.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": "9:00 AM - 1:00 PM",
+   "sun": null
   },
   "google_rating": null,
   "google_reviews": null,
@@ -8960,6 +9485,31 @@
    "thu": "Closed",
    "tue": "9:00 AM \u2013 5:00 PM",
    "wed": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Courtney Ranieri Virtual ND",
+  "clinic_id": "dr-courtney-ranieri-virtual-nd-sault-ste-marie",
+  "address": null,
+  "city": "Sault Ste. Marie",
+  "prov": "ON",
+  "postal": null,
+  "phone": null,
+  "website": "http://www.blossomcowellness.com/",
+  "booking_page": "https://somewherehealth.janeapp.com/",
+  "hours": {
+   "mon": "2:00 PM - 7:00 PM",
+   "tue": null,
+   "wed": null,
+   "thu": "9:00 AM - 3:30 PM",
+   "fri": null,
+   "sat": null,
+   "sun": null
   },
   "google_rating": null,
   "google_reviews": null,
@@ -11243,6 +11793,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Toby Bridgman",
+  "clinic_id": "dr-toby-bridgman-saskatoon",
+  "address": "125 Ave C North Unit 2",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": null,
+  "phone": "306-385-5112",
+  "website": "https://www.saskatoonnaturopathicdoctor.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "9:00 AM \u2013 4:00 PM",
+   "wed": "9:00 AM \u2013 4:00 PM",
+   "thu": "9:00 AM \u2013 4:00 PM",
+   "fri": "9:00 AM \u2013 4:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": "No Google rating found: Google Places details in search results for Dr. Toby Bridgman, Naturopathic Doctor listed address, phone and hours but no rating/review count.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Tonia Winchester",
   "clinic_id": "dr-tonia-winchester-nanaimo",
   "address": "975 Terminal Ave N",
@@ -13218,6 +13793,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Food to Fit Nutrition Inc.",
+  "clinic_id": "food-to-fit-nutrition-inc-saskatoon",
+  "address": "1124 8 St E",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": null,
+  "phone": "306-717-6291",
+  "website": "http://www.foodtofit.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 14,
+  "rating_source": "Google Places details in search results for Food to Fit Nutrition Inc., Saskatoon (1124 8 St E): Rating 4.9 based on 14 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Fortify",
   "clinic_id": "fortify-winnipeg",
   "address": "123 Marion St #100",
@@ -13343,6 +13943,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Fuel Up Nutrition",
+  "clinic_id": "fuel-up-nutrition-sault-ste-marie",
+  "address": "Wilson St",
+  "city": "Sault Ste. Marie",
+  "prov": "ON",
+  "postal": null,
+  "phone": "705-987-2812",
+  "website": "http://www.fuelupnutrition.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Fueling With Food INC",
   "clinic_id": "fueling-with-food-inc-kelowna",
   "address": "104 - 1708 Dolphin Avenue",
@@ -13383,6 +14008,31 @@
    "wed": "8:00 AM - 8:00 PM",
    "thu": "8:00 AM - 8:00 PM",
    "fri": "8:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Gabrielle Tr\u00e9panier",
+  "clinic_id": "gabrielle-trepanier-rouyn-noranda",
+  "address": "153 Av. Murdoch",
+  "city": "Rouyn-Noranda",
+  "prov": "QC",
+  "postal": null,
+  "phone": "819-290-2162",
+  "website": "https://nutritiongt.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 7:00 PM",
+   "tue": "8:00 AM - 7:00 PM",
+   "wed": "8:00 AM - 7:00 PM",
+   "thu": "8:00 AM - 7:00 PM",
+   "fri": "8:00 AM - 4:00 PM",
    "sat": null,
    "sun": null
   },
@@ -13614,6 +14264,31 @@
   "google_rating": 4.3,
   "google_reviews": 17,
   "rating_source": "Google Places",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Glibota M C Dr",
+  "clinic_id": "glibota-m-c-dr-sault-ste-marie",
+  "address": "167 Elgin St",
+  "city": "Sault Ste. Marie",
+  "prov": "ON",
+  "postal": null,
+  "phone": "705-942-1937",
+  "website": "https://www.glibotadentistry.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 5:00 PM",
+   "tue": "8:30 AM - 5:00 PM",
+   "wed": "8:30 AM - 5:00 PM",
+   "thu": "8:30 AM - 5:00 PM",
+   "fri": "8:00 AM - 12:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -14241,6 +14916,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Head Spa Qu\u00e9bec",
+  "clinic_id": "head-spa-quebec-saint-eustache",
+  "address": "203 - 24 Rue Saint-Eustache",
+  "city": "Saint-Eustache",
+  "prov": "QC",
+  "postal": "J7R 2K9",
+  "phone": "514-573-9630",
+  "website": "https://headspaquebec.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 7:00 PM",
+   "mon": "9:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "10:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 5:30 PM",
+   "wed": "9:00 AM - 5:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Head to Heal Family Wellness",
@@ -15133,6 +15833,31 @@
    "wed": null,
    "thu": null,
    "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "In Good Nutrition",
+  "clinic_id": "in-good-nutrition-saskatoon",
+  "address": "111 2 Ave S Unit 400",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7K 1K6",
+  "phone": "825-474-6633",
+  "website": "https://www.ingoodnutrition.com/",
+  "booking_page": "https://ingoodnutrition.janeapp.com/",
+  "hours": {
+   "mon": "8:00 AM \u2013 5:00 PM",
+   "tue": "9:00 AM \u2013 7:00 PM",
+   "wed": "9:00 AM \u2013 7:00 PM",
+   "thu": "8:00 AM \u2013 6:00 PM",
+   "fri": "8:00 AM \u2013 5:00 PM",
    "sat": null,
    "sun": null
   },
@@ -16568,6 +17293,31 @@
   "last_verified": null
  },
  {
+  "name": "Kids Physio Group",
+  "clinic_id": "kids-physio-group-saskatoon",
+  "address": "Unit C, 380 2nd Ave North",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7K 2B9",
+  "phone": "306-384-7080",
+  "website": "https://www.kidsphysio.ca/locations/saskatoon/",
+  "booking_page": "https://kidsphysiosaskatoon.janeapp.com/locations/kids-physio-group-saskatoon/book",
+  "hours": {
+   "mon": "11:00 AM \u2013 8:00 PM",
+   "tue": "8:00 AM \u2013 8:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM",
+   "thu": "8:00 AM \u2013 8:00 PM",
+   "fri": "8:00 AM \u2013 5:00 PM",
+   "sat": "8:00 AM \u2013 3:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Kimberly Dixon, Registered Acupuncturist",
   "clinic_id": "kimberly-dixon-registered-acupuncturist-moncton",
   "address": "110 Victoria Street",
@@ -16710,6 +17460,31 @@
    "thu": "9:00 AM - 8:00 PM",
    "tue": "9:00 AM - 8:00 PM",
    "wed": "12:00 PM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Kinetic Solutions Physiotherapy",
+  "clinic_id": "kinetic-solutions-physiotherapy-salisbury",
+  "address": "2729 Fredericton Road Unit 2",
+  "city": "Salisbury",
+  "prov": "NB",
+  "postal": "E4J 0E2",
+  "phone": "506-215-2225",
+  "website": "https://kineticsolutionsphysio.ca",
+  "booking_page": "https://kineticsolutionsphysio.janeapp.com/",
+  "hours": {
+   "mon": "12:00 PM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "12:00 PM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 2:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -18093,6 +18868,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Mackie Physiotherapy",
+  "clinic_id": "mackie-physiotherapy-saskatoon",
+  "address": "3012 Arlington Ave",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": null,
+  "phone": "306-955-7888",
+  "website": "http://www.mackiephysio.com/",
+  "booking_page": "https://mackiephysio.janeapp.com/locations/mackie-physiotherapy-arlington/book",
+  "hours": {
+   "mon": "6:30 AM \u2013 6:30 PM",
+   "tue": "6:30 AM \u2013 6:30 PM",
+   "wed": "6:30 AM \u2013 6:30 PM",
+   "thu": "6:30 AM \u2013 6:30 PM",
+   "fri": "6:30 AM \u2013 6:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Madison Wood, RD",
   "clinic_id": "madison-wood-rd-kelowna",
   "address": "367 Beach Avenue",
@@ -18415,6 +19215,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Marilyn Beatty Massage Therapy",
+  "clinic_id": "marilyn-beatty-massage-therapy-saskatoon",
+  "address": "#8-2155 Airport Drive",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": null,
+  "phone": "639-318-8939",
+  "website": "https://www.marilynbeattymassagetherapy.com/",
+  "booking_page": "https://www.massagezone.biz/marilynbeattymassagetherapy/?page=tpltsched2_req&pageid=53058&sessionType=&id=",
+  "hours": {
+   "mon": "2:00 PM \u2013 8:00 PM",
+   "tue": "2:00 PM \u2013 8:00 PM",
+   "wed": "2:00 PM \u2013 8:00 PM",
+   "thu": "2:00 PM \u2013 8:00 PM",
+   "fri": "2:00 PM \u2013 8:00 PM",
+   "sat": "11:00 AM \u2013 6:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -19602,6 +20427,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Mon Orthodontiste \u2014 Dr David Benguira",
+  "clinic_id": "mon-orthodontiste-dr-david-benguira-saint-eustache",
+  "address": "464 rue du Parc, suite 122",
+  "city": "Saint-Eustache",
+  "prov": "QC",
+  "postal": "J7R 0C9",
+  "phone": "450-983-4233",
+  "website": "https://www.monorthodontiste.org/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:30 AM - 1:00 PM",
+   "mon": "8:30 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:30 AM - 5:00 PM",
+   "tue": "8:30 AM - 5:00 PM",
+   "wed": "8:30 AM - 5:00 PM"
+  },
+  "google_rating": 4.8,
+  "google_reviews": 258,
+  "rating_source": "Clinic's own website business details (monorthodontiste.org, shown consistently across its pages in search extracts and page fetches): Rating: 4.8/5 (258 reviews).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Monarch Psychology",
   "clinic_id": "monarch-psychology-calgary",
   "address": "1725 10 Ave SW, Unit 303",
@@ -20227,6 +21077,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "NT nutrition",
+  "clinic_id": "nt-nutrition-saguenay",
+  "address": "2015 Bd Mellon",
+  "city": "Saguenay",
+  "prov": "QC",
+  "postal": null,
+  "phone": null,
+  "website": "https://fr.nutritiontherapy.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:30 AM - 6:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 6:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "NatCan Integrative Medical & Wellness Centre",
   "clinic_id": "natcan-integrative-medical-wellness-centre-vaughan",
   "address": "3905 Major MacKenzie Dr W, Unit 102",
@@ -20548,6 +21423,31 @@
   "google_rating": 5.0,
   "google_reviews": 8,
   "rating_source": "Google Places details in search results for Naturopathic Essentials Health Centre \u2014 Rating 5.0 based on 8 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Neil Clinic Acupuncture",
+  "clinic_id": "neil-clinic-acupuncture-saskatoon",
+  "address": "814 Lamarsh Lane",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7W 1B6",
+  "phone": "306-713-1391",
+  "website": "http://www.neilclinic.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "Closed",
+   "tue": "10:00 AM \u2013 8:00 PM",
+   "wed": "Closed",
+   "thu": "10:00 AM \u2013 8:00 PM",
+   "fri": "Closed",
+   "sat": "10:00 AM \u2013 6:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places details in search results for Neil Clinic Acupuncture, Saskatoon (place_id 358046043194218): 'Rating: five stars (5.0), Based on 2 reviews'. Aggregator ratings were not used.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -21032,7 +21932,7 @@
   "address": "2130 Lawrence Ave E #308",
   "city": "Scarborough",
   "prov": "ON",
-  "postal": null,
+  "postal": "M1R 3A6",
   "phone": "647-846-4611",
   "website": "https://newmclinic.com",
   "booking_page": null,
@@ -21049,7 +21949,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Newbury Dental",
@@ -21469,6 +22369,31 @@
    "fri": "10:00 AM - 3:00 PM",
    "sat": "10:00 AM - 3:00 PM",
    "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Northern Wellness Collective",
+  "clinic_id": "northern-wellness-collective-sault-ste-marie",
+  "address": "391 Pim Street",
+  "city": "Sault Ste. Marie",
+  "prov": "ON",
+  "postal": "P6B 2T9",
+  "phone": "705-257-6123",
+  "website": "https://northernwellnesscollective.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "10:00 AM \u2013 7:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 5:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -22349,6 +23274,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Oceanside Acupuncture & Massage Therapy",
+  "clinic_id": "oceanside-acupuncture-massage-therapy-saint-john",
+  "address": "17 Battery Rd",
+  "city": "Saint John",
+  "prov": "NB",
+  "postal": null,
+  "phone": "506-271-1888",
+  "website": "http://www.oceansideacupuncture.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": "10:00 AM - 7:00 PM",
+   "wed": "10:00 AM - 7:00 PM",
+   "thu": "10:00 AM - 7:00 PM",
+   "fri": "10:00 AM - 7:00 PM",
+   "sat": "10:00 AM - 2:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -23852,6 +24802,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Physio-Masso MP",
+  "clinic_id": "physio-masso-mp-saint-jerome",
+  "address": "2412 Boul. Cur\u00e9-Labelle",
+  "city": "Saint-J\u00e9r\u00f4me",
+  "prov": "QC",
+  "postal": "J7Y 5E9",
+  "phone": "450-569-4774",
+  "website": "https://www.physio-masso.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 6:00 PM",
+   "tue": "8:00 AM - 6:00 PM",
+   "wed": "8:00 AM - 4:00 PM",
+   "thu": "8:00 AM - 4:00 PM",
+   "fri": "8:00 AM - 4:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 36,
+  "rating_source": "Google Places details in search results for Physio-Masso: 5.0 stars based on 36 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "PhysioDNA",
   "clinic_id": "physiodna-toronto",
   "address": "116 Spadina Avenue, Unit 201",
@@ -24102,6 +25077,56 @@
   "last_verified": null
  },
  {
+  "name": "Physiomed \u2014 Bellamy",
+  "clinic_id": "physiomed-bellamy-scarborough",
+  "address": "1920 Ellesmere Rd Suite 106",
+  "city": "Scarborough",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-439-9542",
+  "website": "https://www.physiomed.ca",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM \u2013 7:00 PM",
+   "mon": "10:00 AM \u2013 7:00 PM",
+   "sat": "10:00 AM \u2013 5:00 PM",
+   "sun": "Closed",
+   "thu": "10:00 AM \u2013 7:00 PM",
+   "tue": "10:00 AM \u2013 7:00 PM",
+   "wed": "10:00 AM \u2013 7:00 PM"
+  },
+  "google_rating": 4.6,
+  "google_reviews": 114,
+  "rating_source": "Rating displayed at the top of the clinic's own Scarborough - Bellamy page (https://www.physiomed.ca/clinic/scarborough-bellamy/): 4.6 (114). This is the Bellamy location's own page display; no other Physiomed location's rating was used.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Physiomed \u2014 Kennedy",
+  "clinic_id": "physiomed-kennedy-scarborough",
+  "address": "1399 Kennedy Rd, Unit 11A",
+  "city": "Scarborough",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-615-0808",
+  "website": "http://www.physiomed.ca/find-a-clinic/scarborough-kennedy/overview/",
+  "booking_page": "https://myclinic.physiomed.ca",
+  "hours": {
+   "fri": "10:00 AM \u2013 7:00 PM",
+   "mon": "10:00 AM \u2013 7:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "10:00 AM \u2013 7:00 PM",
+   "tue": "10:00 AM \u2013 7:00 PM",
+   "wed": "10:00 AM \u2013 7:00 PM"
+  },
+  "google_rating": 4.6,
+  "google_reviews": 144,
+  "rating_source": "Google rating badge displayed on the clinic's own Kennedy location page (physiomed.ca/find-a-clinic/scarborough-kennedy/overview/): 4.6 (144). This is the Kennedy location's own page, not the Bellamy location's rating.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Physiotherapy On Wheels",
   "clinic_id": "physiotherapy-on-wheels-mississauga",
   "address": "6295 Mississauga Road, Suite 130",
@@ -24349,6 +25374,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Pivotal Point Massage Therapy",
+  "clinic_id": "pivotal-point-massage-therapy-saskatoon",
+  "address": "310 Wall Street",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7K 1N7",
+  "phone": "306-380-7764",
+  "website": "https://schedulemassage.ca/",
+  "booking_page": "https://schedulemassage.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM \u2013 8:00 PM",
+   "tue": "9:00 AM \u2013 8:00 PM",
+   "wed": "9:00 AM \u2013 8:00 PM",
+   "thu": "9:00 AM \u2013 8:00 PM",
+   "fri": "9:00 AM \u2013 8:00 PM",
+   "sat": "9:00 AM \u2013 4:00 PM",
+   "sun": "10:00 AM \u2013 4:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 12,
+  "rating_source": "Google Places details in search results for Pivotal Point Massage Therapy, Saskatoon (place_id 1196543387560593): 'Rating: five stars (5.0), Based on 12 reviews'. Aggregator ratings (e.g. TrustAnalytica 4.7/27) were not used.",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -26327,6 +27377,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Rituels Atelier",
+  "clinic_id": "rituels-atelier-saint-hippolyte",
+  "address": "2241 Chemin des Hauteurs #203",
+  "city": "Saint-Hippolyte",
+  "prov": "QC",
+  "postal": "J8A 2R2",
+  "phone": "514-743-0642",
+  "website": "https://rituelsatelier.com/",
+  "booking_page": "https://www.gorendezvous.com/rituelsatelier",
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": null,
+   "sun": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "River Clinic Acupuncture and Integrative Chinese Medicine",
   "clinic_id": "river-clinic-acupuncture-and-integrative-chinese-medicine-markham",
   "address": "8787 Woodbine Ave #126",
@@ -26877,6 +27952,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Saint John Sports Medicine Clinic",
+  "clinic_id": "saint-john-sports-medicine-clinic-saint-john",
+  "address": "50 Union St",
+  "city": "Saint John",
+  "prov": "NB",
+  "postal": "E2L 1A1",
+  "phone": "506-634-1415",
+  "website": "http://sjsportsmedclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 5:00 PM",
+   "tue": "8:00 AM - 5:00 PM",
+   "wed": "8:00 AM - 5:00 PM",
+   "thu": "8:00 AM - 5:00 PM",
+   "fri": "8:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 4,
+  "rating_source": "Google Places details in search results for Saint John Sports Medicine Clinic: 5.0 stars based on 4 reviews.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Salt and Stone Massage Therapy",
+  "clinic_id": "salt-and-stone-massage-therapy-saskatoon",
+  "address": "702 1st Ave N #3",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7K 1Y1",
+  "phone": "306-952-1328",
+  "website": "https://saltandstonewellness.ca/",
+  "booking_page": "https://saltandstonewellness.ca/",
+  "hours": {
+   "mon": "9:00 AM - 9:00 PM",
+   "tue": "9:00 AM - 9:00 PM",
+   "wed": "9:00 AM - 9:00 PM",
+   "thu": "9:00 AM - 9:00 PM",
+   "fri": "9:00 AM - 9:00 PM",
+   "sat": "9:00 AM - 9:00 PM",
+   "sun": "9:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Sandra Edwards",
   "clinic_id": "sandra-edwards-markham",
   "address": "66 Couperthwaite Crescent",
@@ -27023,6 +28148,56 @@
   "google_rating": 5.0,
   "google_reviews": 1,
   "rating_source": "Google Places details in search results: 5.0 stars based on 1 review (single review \u2014 low-count flag).",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Sarah Normandin Nutritionniste",
+  "clinic_id": "sarah-normandin-nutritionniste-shawinigan",
+  "address": "1050 8th St",
+  "city": "Shawinigan",
+  "prov": "QC",
+  "postal": null,
+  "phone": "450-918-4898",
+  "website": "http://referencenutrition.ca/",
+  "booking_page": "https://www.gorendezvous.com/referencenutrition",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Sask Naturopath",
+  "clinic_id": "sask-naturopath-saskatoon",
+  "address": "205 Avenue G N",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": null,
+  "phone": "639-994-6014",
+  "website": "http://www.sasknaturopath.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 5:00 PM",
+   "tue": "8:30 AM - 5:00 PM",
+   "wed": "8:30 AM - 5:00 PM",
+   "thu": "8:30 AM - 5:00 PM",
+   "fri": "8:30 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 4,
+  "rating_source": "Google Places details in search results for Dr. Stephanie Liebrecht (sasknaturopath.com listing): 5.0 stars based on 4 reviews.",
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -27199,6 +28374,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Serenity Health Co.",
+  "clinic_id": "serenity-health-co-sault-ste-marie",
+  "address": "357 Trunk Rd Unit 2",
+  "city": "Sault Ste. Marie",
+  "prov": "ON",
+  "postal": "P6A 3S9",
+  "phone": "705-535-1620",
+  "website": "http://www.serenityhealthco.ca/",
+  "booking_page": "https://serenityhealthco.janeapp.com/",
+  "hours": {
+   "fri": "9:30 AM \u2013 1:30 PM",
+   "mon": "9:30 AM \u2013 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:30 AM \u2013 5:00 PM",
+   "tue": "9:30 AM \u2013 5:00 PM",
+   "wed": "9:30 AM \u2013 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -27752,6 +28952,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Sophie De Grandpr\u00e9, Di\u00e9t\u00e9tiste-Nutritionniste",
+  "clinic_id": "sophie-de-grandpre-dietetiste-nutritionniste-saint-hyacinthe",
+  "address": "2860 Bd Laframboise Ste 200",
+  "city": "Saint-Hyacinthe",
+  "prov": "QC",
+  "postal": "J2S 4Z1",
+  "phone": "514-817-9934",
+  "website": "http://www.sophiedegrandpre.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:30 AM - 4:30 PM",
+   "tue": null,
+   "wed": null,
+   "thu": "8:30 AM - 6:00 PM",
+   "fri": "8:30 AM - 4:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Soulace Massage Studio",
   "clinic_id": "soulace-massage-studio-toronto",
   "address": "565 King Street West, Floor 3",
@@ -28016,6 +29241,56 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Speech Language Network",
+  "clinic_id": "speech-language-network-saskatoon",
+  "address": "410 Jessop Ave #110",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": null,
+  "phone": "306-933-3222",
+  "website": "https://thesln.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:30 AM - 5:30 PM",
+   "tue": "9:30 AM - 5:00 PM",
+   "wed": "9:30 AM - 6:00 PM",
+   "thu": "9:30 AM - 5:30 PM",
+   "fri": "9:30 AM - 4:30 PM",
+   "sat": "9:30 AM - 5:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Speech Specialists",
+  "clinic_id": "speech-specialists-scarborough",
+  "address": "2761 Markham Rd, Unit C20",
+  "city": "Scarborough",
+  "prov": "ON",
+  "postal": "M1X 0A4",
+  "phone": "416-858-4300",
+  "website": "https://speechspecialists.ca/",
+  "booking_page": "https://speechspecialists.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM \u2013 8:00 PM",
+   "mon": "8:00 AM \u2013 8:00 PM",
+   "sat": "9:00 AM \u2013 6:00 PM",
+   "sun": "9:00 AM \u2013 6:00 PM",
+   "thu": "8:00 AM \u2013 8:00 PM",
+   "tue": "8:00 AM \u2013 8:00 PM",
+   "wed": "8:00 AM \u2013 8:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 134,
+  "rating_source": "Google rating displayed on the clinic's own website (speechspecialists.ca/speech-therapy-scarborough/): Rating: 5.0 (134 ratings). Displayed site-wide on the clinic's own pages.",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -28294,6 +29569,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Station Street Health",
+  "clinic_id": "station-street-health-saint-john",
+  "address": "125 Station St",
+  "city": "Saint John",
+  "prov": "NB",
+  "postal": "E2L 4X4",
+  "phone": "506-632-9000",
+  "website": "https://www.stationstreethealth.com/",
+  "booking_page": "https://stationstreethealth.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 4:00 PM",
+   "mon": "8:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "11:00 AM - 7:00 PM",
+   "tue": "11:00 AM - 7:00 PM",
+   "wed": "8:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Stella Paterakis RD",
   "clinic_id": "stella-paterakis-rd-toronto",
   "address": "2967 Dundas St W, #473D",
@@ -28415,6 +29715,31 @@
   "google_rating": 5.0,
   "google_reviews": 22,
   "rating_source": "Google Places details via search",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "StoonRMT",
+  "clinic_id": "stoonrmt-saskatoon",
+  "address": "606 22nd Street West #3",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7M 5W1",
+  "phone": "306-954-1588",
+  "website": "https://www.stoonrmt.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:30 AM - 6:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": null,
+   "thu": "9:30 AM - 6:00 PM",
+   "fri": "9:30 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 9,
+  "rating_source": "Google Places details in search results for StoonRMT (606 22nd St W, Saskatoon listing): 5.0 stars based on 9 reviews.",
   "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
@@ -28640,6 +29965,31 @@
   "google_rating": 5.0,
   "google_reviews": 16,
   "rating_source": "Google Places details in search results for Sungod Sports and Orthopaedic Physiotherapy Clinic: 'Rating: five stars (5.0) Based on 16 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Superbloom Wellness",
+  "clinic_id": "superbloom-wellness-saskatoon",
+  "address": "220 3 Ave S #407",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7K 1M1",
+  "phone": "306-400-5661",
+  "website": "http://www.superbloom.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM - 6:00 PM",
+   "tue": "10:00 AM - 6:00 PM",
+   "wed": "10:00 AM - 6:00 PM",
+   "thu": "10:00 AM - 6:00 PM",
+   "fri": "10:00 AM - 6:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -29160,6 +30510,31 @@
    "thu": "8:30 AM - 8:00 PM",
    "fri": "8:30 AM - 8:00 PM",
    "sat": "10:00 AM - 4:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "The Fun Path Therapy Services",
+  "clinic_id": "the-fun-path-therapy-services-saskatoon",
+  "address": "3337B 8 St E Unit 206",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": null,
+  "phone": "306-222-9552",
+  "website": "https://www.thefunpath.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 4:30 PM",
+   "tue": "8:00 AM - 4:30 PM",
+   "wed": "8:00 AM - 4:30 PM",
+   "thu": "8:00 AM - 4:30 PM",
+   "fri": "8:00 AM - 4:30 PM",
+   "sat": null,
    "sun": null
   },
   "google_rating": null,
@@ -30761,6 +32136,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "True Potential Health Services",
+  "clinic_id": "true-potential-health-services-saskatoon",
+  "address": "1024 8 St E",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7H 0R9",
+  "phone": "306-373-5209",
+  "website": "https://truepotentialhealth.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 3:00 PM",
+   "tue": "9:00 AM - 3:00 PM",
+   "wed": "9:00 AM - 3:00 PM",
+   "thu": "9:00 AM - 3:00 PM",
+   "fri": "9:00 AM - 3:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Tuxedo Physiotherapy",
   "clinic_id": "tuxedo-physiotherapy-winnipeg",
   "address": "156-2025 Corydon Ave",
@@ -31186,6 +32586,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Venture Rehabilitation Sciences Group",
+  "clinic_id": "venture-rehabilitation-sciences-group-saskatoon",
+  "address": "294 Venture Cres #109",
+  "city": "Saskatoon",
+  "prov": "SK",
+  "postal": "S7K 6M1",
+  "phone": "306-665-1962",
+  "website": "https://venturerehab.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Versa Movement Collective",
   "clinic_id": "versa-movement-collective-calgary",
   "address": "7460 Springbank Blvd SW #210",
@@ -31303,6 +32728,31 @@
    "fri": "8:00 AM - 8:00 PM",
    "sat": "8:00 AM - 8:00 PM",
    "sun": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Vital Roots Nutrition",
+  "clinic_id": "vital-roots-nutrition-sault-ste-marie",
+  "address": "765 Queen St E Ste 101",
+  "city": "Sault Ste. Marie",
+  "prov": "ON",
+  "postal": "P6A 2A8",
+  "phone": "705-975-5055",
+  "website": "https://vitalroots.ca/",
+  "booking_page": "https://vitalroots.janeapp.com/",
+  "hours": {
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM \u2013 5:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 5:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
