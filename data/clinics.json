@@ -75,6 +75,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Abyss Psychotherapy",
+  "clinic_id": "abyss-psychotherapy-brampton",
+  "address": "134 Queen Street East, Suite 400",
+  "city": "Brampton",
+  "prov": "ON",
+  "postal": "L6V 1B2",
+  "phone": "(289) 210-9005",
+  "website": "https://www.abysspsychotherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "11:00 AM - 9:30 PM",
+   "tue": "11:00 AM - 9:30 PM",
+   "wed": "11:00 AM - 9:30 PM",
+   "thu": "10:00 AM - 8:30 PM",
+   "fri": "11:00 AM - 8:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Acacia Health",
   "clinic_id": "acacia-health-victoria",
   "address": "391 Tyee Rd #101",
@@ -500,6 +525,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Acupuncture Ontario",
+  "clinic_id": "acupuncture-ontario-brampton",
+  "address": "10 Gillingham Drive, Suite 209",
+  "city": "Brampton",
+  "prov": "ON",
+  "postal": "L6X 5A5",
+  "phone": "905-455-2105",
+  "website": "http://acupunctureontario.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:30 AM - 7:30 PM",
+   "mon": "9:30 AM - 7:30 PM",
+   "sat": "9:00 AM - 1:00 PM",
+   "sun": null,
+   "thu": "9:30 AM - 7:30 PM",
+   "tue": "9:30 AM - 7:30 PM",
+   "wed": "9:30 AM - 7:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Acupuncture St-Lambert (Julie Dub\u00e9)",
   "clinic_id": "acupuncture-st-lambert-julie-dube-saint-lambert",
   "address": "395 Av. Maple",
@@ -597,6 +647,81 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Airdrie Chiropractic & Massage",
+  "clinic_id": "airdrie-chiropractic-massage-airdrie",
+  "address": "140 1st Avenue NW",
+  "city": "Airdrie",
+  "prov": "AB",
+  "postal": "T4B 0R2",
+  "phone": "403-948-7171",
+  "website": "https://www.airdriechiroandmassage.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 6:00 PM",
+   "tue": "9:00 AM - 7:00 PM",
+   "wed": "9:00 AM - 6:00 PM",
+   "thu": "9:00 AM - 7:00 PM",
+   "fri": "9:00 AM - 6:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details in search results for Airdrie Chiropractic & Massage (place_id 1483986312061075): rating 5.0 based on 1 review. The clinic's own website carries no Google badge/widget.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Airdrie Pelvic Floor Physiotherapy",
+  "clinic_id": "airdrie-pelvic-floor-physiotherapy-airdrie",
+  "address": "328 1 Ave NW (inside Airdrie Midwives Office)",
+  "city": "Airdrie",
+  "prov": "AB",
+  "postal": null,
+  "phone": "587-997-4253",
+  "website": "https://kaaiaa.co/",
+  "booking_page": "https://kaaiaa.co/",
+  "hours": {
+   "mon": "7:00 AM - 7:00 PM",
+   "tue": "7:00 AM - 7:00 PM",
+   "wed": "7:00 AM - 7:00 PM",
+   "thu": "7:00 AM - 7:00 PM",
+   "fri": "7:00 AM - 7:00 PM",
+   "sat": "7:00 AM - 7:00 PM",
+   "sun": "7:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Airdrie Physiotherapy & Massage",
+  "clinic_id": "airdrie-physiotherapy-massage-airdrie",
+  "address": "705 Main St S #1350",
+  "city": "Airdrie",
+  "prov": "AB",
+  "postal": "T4B 3M2",
+  "phone": "403-455-2734",
+  "website": "https://www.airdriephysio.com/",
+  "booking_page": "https://airdriephysio.janeapp.com/",
+  "hours": {
+   "mon": "7:30 AM - 7:30 PM",
+   "tue": "7:30 AM - 7:30 PM",
+   "wed": "7:30 AM - 7:30 PM",
+   "thu": "7:30 AM - 7:30 PM",
+   "fri": "7:30 AM - 7:30 PM",
+   "sat": "8:30 AM - 2:30 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 13,
+  "rating_source": "Google Places details in search results for Airdrie Physiotherapy & Massage (place_id 265582515979482): rating 5.0 based on 13 reviews.",
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -723,6 +848,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Alpine Naturopathic & Wellness",
+  "clinic_id": "alpine-naturopathic-wellness-abbotsford",
+  "address": "311 - 2060 McCallum Rd",
+  "city": "Abbotsford",
+  "prov": "BC",
+  "postal": "V2S 3N4",
+  "phone": "778-752-6702",
+  "website": "http://drnicolecerfbscnd7054.clinicsites.co/",
+  "booking_page": null,
+  "hours": {
+   "fri": "10:00 AM - 3:00 PM",
+   "mon": null,
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": null,
+   "thu": "12:00 PM - 6:00 PM",
+   "tue": "9:00 AM - 3:00 PM",
+   "wed": "9:30 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Altermed",
@@ -1097,7 +1247,7 @@
   "google_reviews": 4,
   "rating_source": "Google Places details shown in search results for this listing (4.0 stars, 4 reviews).",
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Aurora North Medical Centre",
@@ -1121,8 +1271,8 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": null,
-  "last_verified": null
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Avenue Physio",
@@ -1321,6 +1471,31 @@
   "google_rating": 5.0,
   "google_reviews": 8,
   "rating_source": "Google Places details in search results for Balance Within Acupuncture Clinic (214 Main St, Eastern Charlotte, NB) listed a rating of five stars (5.0) based on 8 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Barefoot Health Integrative Wellness Clinic",
+  "clinic_id": "barefoot-health-integrative-wellness-clinic-ajax",
+  "address": "375 Finley Ave",
+  "city": "Ajax",
+  "prov": "ON",
+  "postal": null,
+  "phone": "647-615-7521",
+  "website": "http://www.barefoothealth.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "12:00 PM - 8:00 PM",
+   "tue": "12:00 PM - 8:00 PM",
+   "wed": "7:00 AM - 8:00 PM",
+   "thu": "7:00 AM - 8:00 PM",
+   "fri": "10:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -1550,6 +1725,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Better Bodies by Massage",
+  "clinic_id": "better-bodies-by-massage-antigonish",
+  "address": "59 Beech Hill Rd #4",
+  "city": "Antigonish",
+  "prov": "NS",
+  "postal": "B2G 2P9",
+  "phone": "902-714-9463",
+  "website": "https://betterbodiesbymassage.ca/",
+  "booking_page": "https://betterbodies.noterro.com/",
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Bijoy's Physio & Pilates",
   "clinic_id": "bijoy-s-physio-pilates-aurora",
   "address": "42 Temperance St",
@@ -1573,6 +1773,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": null
+ },
+ {
+  "name": "Bijoy's Physio & Pilates",
+  "clinic_id": "bijoys-physio-pilates-aurora",
+  "address": "42 Temperance Street",
+  "city": "Aurora",
+  "prov": "ON",
+  "postal": "L4G 2P7",
+  "phone": "(905)727-7149",
+  "website": "https://www.bijoysphysioandpilates.com",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM \u2013 6:00 PM",
+   "mon": "8:00 AM \u2013 6:00 PM",
+   "sat": "8:00 AM \u2013 1:00 PM",
+   "sun": null,
+   "thu": "8:00 AM \u2013 6:00 PM",
+   "tue": null,
+   "wed": "8:00 AM \u2013 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Blaise T. Ryan Acupuncture & TCM",
@@ -1700,6 +1925,56 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Bodywise Health & Rehab",
+  "clinic_id": "bodywise-health-rehab-ancaster",
+  "address": "385 Wilson St E #102",
+  "city": "Ancaster",
+  "prov": "ON",
+  "postal": "L9G 2C1",
+  "phone": "289-442-7332",
+  "website": "https://www.bodywiseancaster.ca/",
+  "booking_page": "https://bodywisehealthandrehab.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM \u2013 4:00 PM",
+   "mon": "8:00 AM \u2013 7:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:00 AM \u2013 6:00 PM",
+   "tue": "8:00 AM \u2013 7:00 PM",
+   "wed": "8:00 AM \u2013 7:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details in search results for Bodywise Health & Rehab (place_id 386177476785010): 'Rating: five stars (5.0), Based on 1 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Brampton Acupuncture & Massage Therapy Clinic",
+  "clinic_id": "brampton-acupuncture-massage-therapy-clinic-brampton",
+  "address": "157 Queen St E, Suite 208",
+  "city": "Brampton",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-254-1213",
+  "website": "https://acupuncturebrampton.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": "1:00 PM - 8:00 PM",
+   "tue": "1:00 PM - 8:00 PM",
+   "wed": "9:00 AM - 4:00 PM"
+  },
+  "google_rating": 4.5,
+  "google_reviews": 2,
+  "rating_source": "Google Places details in search results for Brampton Acupuncture & Massage Therapy Clinic: 'Rating: four and a half stars (4.5) Based on 2 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Brampton Naturopath Osteopath Clinic",
   "clinic_id": "brampton-naturopath-osteopath-clinic-brampton",
   "address": "1834 Lakeshore Rd W Unit 6",
@@ -1722,7 +1997,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Brentwood Physio",
@@ -2050,6 +2325,31 @@
   "last_verified": null
  },
  {
+  "name": "Carly Piercy RMT",
+  "clinic_id": "carly-piercy-rmt-airdrie",
+  "address": "136 1st Ave NE",
+  "city": "Airdrie",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-969-9378",
+  "website": "https://carlypiercyrmt.janeapp.com/",
+  "booking_page": "https://carlypiercyrmt.janeapp.com/",
+  "hours": {
+   "mon": "11:45 AM - 6:00 PM",
+   "tue": "1:00 PM - 8:00 PM",
+   "wed": "11:45 AM - 5:30 PM",
+   "thu": "1:00 PM - 8:00 PM",
+   "fri": "11:45 AM - 6:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 2,
+  "rating_source": "Google Places details in search results for Carly Piercy RMT (place_id 1337122733783714): rating 5.0 based on 2 reviews.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Cathy Watson Physiotherapy",
   "clinic_id": "cathy-watson-physiotherapy-vernon",
   "address": "3704 32 St #3",
@@ -2097,6 +2397,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Central Ontario Psychology",
+  "clinic_id": "central-ontario-psychology-barrie",
+  "address": "151 Essa Rd #202",
+  "city": "Barrie",
+  "prov": "ON",
+  "postal": "L4N 3L2",
+  "phone": "705-735-4776",
+  "website": "http://www.centralontariopsych.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM \u2013 5:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
  {
@@ -2392,6 +2717,31 @@
    "thu": "8:30 AM - 8:00 PM",
    "tue": "8:00 AM - 6:00 PM",
    "wed": "8:30 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Clinique Nutrition Sant\u00e9 Famille",
+  "clinic_id": "clinique-nutrition-sante-famille-alma",
+  "address": "980 Boulevard St Jude",
+  "city": "Alma",
+  "prov": "QC",
+  "postal": null,
+  "phone": "450-752-8554",
+  "website": "https://www.nutritionsf.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:00 AM \u2013 7:00 PM",
+   "mon": "8:00 AM \u2013 7:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:00 AM \u2013 7:00 PM",
+   "tue": "8:00 AM \u2013 7:00 PM",
+   "wed": "8:00 AM \u2013 7:00 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -2698,6 +3048,31 @@
   "rating_source": null,
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Common Thread Psychology",
+  "clinic_id": "common-thread-psychology-airdrie",
+  "address": "403 MacKenzie Way SW #1113",
+  "city": "Airdrie",
+  "prov": "AB",
+  "postal": null,
+  "phone": "587-740-8023",
+  "website": "https://commonthreadpsychology.com/",
+  "booking_page": "https://commonthreadpsychology.janeapp.com/",
+  "hours": {
+   "mon": "Closed",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "12:00 PM - 4:30 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 2:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Conceive Health",
@@ -3375,6 +3750,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Alisa Murli",
+  "clinic_id": "dr-alisa-murli-ajax",
+  "address": "375 Finley Ave",
+  "city": "Ajax",
+  "prov": "ON",
+  "postal": null,
+  "phone": "905-218-3680",
+  "website": "http://www.dralisamurli.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM \u2013 7:00 PM",
+   "tue": "11:00 AM \u2013 7:00 PM",
+   "wed": "12:00 PM \u2013 7:00 PM",
+   "thu": "12:00 PM \u2013 6:30 PM",
+   "fri": null,
+   "sat": "10:00 AM \u2013 1:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Andrea Hilborn ND",
   "clinic_id": "dr-andrea-hilborn-nd-kingston",
   "address": "797 Princess St #414",
@@ -3450,6 +3850,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Ben Connolly ND",
+  "clinic_id": "dr-ben-connolly-nd-bedford",
+  "address": "14 Old School Rd",
+  "city": "Bedford",
+  "prov": "NS",
+  "postal": null,
+  "phone": "902-820-3443",
+  "website": "http://www.drbenconnolly.com/",
+  "booking_page": "https://cornerstonenaturopathic.janeapp.com/locations/cornerstone-naturopathic-inc/book",
+  "hours": {
+   "fri": null,
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 9,
+  "rating_source": "Google Places details in search results for Dr. Ben Connolly: 'Rating: five stars (5.0) Based on 9 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Betty",
   "clinic_id": "dr-betty-st-johns",
   "address": "Nuport Building, 44 Torbay Rd",
@@ -3473,6 +3898,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Dr. Brandon Spletzer",
+  "clinic_id": "dr-brandon-spletzer-abbotsford",
+  "address": "2061 Sumas Way Unit 130",
+  "city": "Abbotsford",
+  "prov": "BC",
+  "postal": null,
+  "phone": "604-747-8339",
+  "website": "http://www.drbrandonspletzer.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 4:30 PM",
+   "mon": "9:00 AM - 4:30 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 4:30 PM",
+   "tue": "9:00 AM - 4:30 PM",
+   "wed": "9:00 AM - 4:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Dr. Brian Yeung ND",
@@ -3575,6 +4025,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Colin MacLeod ND (Optimal Wellbeing Clinic)",
+  "clinic_id": "dr-colin-macleod-nd-optimal-wellbeing-clinic-bedford",
+  "address": "1378 Bedford Highway, Unit 1",
+  "city": "Bedford",
+  "prov": "NS",
+  "postal": "B4A 1E2",
+  "phone": "(902) 406-4424",
+  "website": "https://drcolinmacleod.com/",
+  "booking_page": "https://macleodnaturopathic.janeapp.com/",
+  "hours": {
+   "mon": "7:30 AM - 3:30 PM",
+   "tue": "7:30 AM - 3:30 PM",
+   "wed": "7:30 AM - 3:30 PM",
+   "thu": "7:30 AM - 3:30 PM",
+   "fri": "7:30 AM - 3:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Denise Cheung ND (Markham)",
   "clinic_id": "dr-denise-cheung-nd-markham-markham",
   "address": "335 William Forster Rd",
@@ -3617,6 +4092,56 @@
    "thu": "4:00 PM - 6:30 PM",
    "tue": "Closed",
    "wed": "10:00 AM - 4:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Devin McEachern",
+  "clinic_id": "dr-devin-mceachern-barrie",
+  "address": "100 Bell Farm Rd",
+  "city": "Barrie",
+  "prov": "ON",
+  "postal": "L4M 5G1",
+  "phone": "705-730-1533",
+  "website": "http://www.barrienaturopathic.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM \u2013 2:00 PM",
+   "mon": "9:00 AM \u2013 6:00 PM",
+   "sat": "Closed",
+   "sun": "Closed",
+   "thu": "10:00 AM \u2013 6:30 PM",
+   "tue": "12:00 PM \u2013 7:00 PM",
+   "wed": "9:00 AM \u2013 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Dianne Marasigan ND- Abbotsford",
+  "clinic_id": "dr-dianne-marasigan-nd-abbotsford-abbotsford",
+  "address": "2061 Sumas Way Unit 130",
+  "city": "Abbotsford",
+  "prov": "BC",
+  "postal": "V2S 8H6",
+  "phone": "604-744-8339",
+  "website": "https://drmarasigan.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": "9:30 AM - 4:30 PM",
+   "tue": "9:30 AM - 4:30 PM",
+   "wed": "9:30 AM - 4:30 PM"
   },
   "google_rating": null,
   "google_reviews": null,
@@ -3675,6 +4200,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Dr. Heather Goldthorpe",
+  "clinic_id": "dr-heather-goldthorpe-barrie",
+  "address": "411 Huronia Rd Unit 6A",
+  "city": "Barrie",
+  "prov": "ON",
+  "postal": "L4N 9B3",
+  "phone": "705-733-2033",
+  "website": "https://heathergoldthorpend.com/",
+  "booking_page": "https://heathergoldthorpend.janeapp.com",
+  "hours": {
+   "fri": "9:00 AM \u2013 12:00 PM",
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": "9:00 AM \u2013 1:00 PM",
+   "wed": "2:00 PM \u2013 6:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 12,
+  "rating_source": "Google Places details in search results for Dr. Heather Goldthorpe (place_id 592800202283864): 'Rating: five stars (5.0), Based on 12 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Helena Zurekova",
   "clinic_id": "dr-helena-zurekova-richmond",
   "address": "10020 No. 3 Road",
@@ -3722,6 +4272,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Dr. Isha Bhatoa",
+  "clinic_id": "dr-isha-bhatoa-brampton",
+  "address": "10 Henderson Avenue",
+  "city": "Brampton",
+  "prov": "ON",
+  "postal": "L6Y 2A4",
+  "phone": "289-315-4032",
+  "website": "http://www.drishand.ca/",
+  "booking_page": "https://wholeheartedhealth.janeapp.com/",
+  "hours": {
+   "fri": null,
+   "mon": "2:00 PM - 8:00 PM",
+   "sat": "2:00 PM - 6:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 4:00 PM",
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
   "last_verified": "2026-11-01"
  },
  {
@@ -3950,6 +4525,31 @@
   "last_verified": null
  },
  {
+  "name": "Dr. Nicole Hwang",
+  "clinic_id": "dr-nicole-hwang-brampton",
+  "address": "57 Mill St N #102",
+  "city": "Brampton",
+  "prov": "ON",
+  "postal": null,
+  "phone": "905-499-3909",
+  "website": "http://nicolehwang.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "11:00 AM \u2013 7:00 PM",
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Pamela Frank ND",
   "clinic_id": "dr-pamela-frank-nd-toronto",
   "address": "568 St. Clair Ave. West",
@@ -4150,6 +4750,31 @@
   "last_verified": null
  },
  {
+  "name": "Dr. Simona Scurtu",
+  "clinic_id": "dr-simona-scurtu-ajax",
+  "address": "300 Rossland Rd E Ste 202",
+  "city": "Ajax",
+  "prov": "ON",
+  "postal": null,
+  "phone": "416-613-9985",
+  "website": "https://drsimona.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": "10:00 AM \u2013 6:00 PM",
+   "thu": null,
+   "fri": "10:00 AM \u2013 6:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Dr. Song's Acupuncture",
   "clinic_id": "dr-songs-acupuncture-st-johns",
   "address": "446 Newfoundland Dr, Suite 209",
@@ -4197,7 +4822,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Dynamic Health Collaborative",
@@ -4325,6 +4950,31 @@
   "last_verified": null
  },
  {
+  "name": "Eau Therapy",
+  "clinic_id": "eau-therapy-brampton",
+  "address": "100 Queen St W",
+  "city": "Brampton",
+  "prov": "ON",
+  "postal": null,
+  "phone": null,
+  "website": "http://eautherapy.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Edgemont Naturopathic Clinic",
   "clinic_id": "edgemont-naturopathic-clinic-north-vancouver",
   "address": "3246 Connaught Cres #105",
@@ -4425,6 +5075,31 @@
   "last_verified": null
  },
  {
+  "name": "Embrace Psychological Services",
+  "clinic_id": "embrace-psychological-services-airdrie",
+  "address": "118 Main St NE, Unit 4",
+  "city": "Airdrie",
+  "prov": "AB",
+  "postal": "T4B 0R3",
+  "phone": "587-254-3002",
+  "website": "https://embracepsychological.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 8:30 PM",
+   "tue": "9:00 AM - 5:30 PM",
+   "wed": "9:00 AM - 8:30 PM",
+   "thu": "9:00 AM - 8:30 PM",
+   "fri": "9:00 AM - 4:00 PM",
+   "sat": "12:00 PM - 6:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Emerald Hills Physio & Sport Clinic",
   "clinic_id": "emerald-hills-physio-sport-clinic-sherwood-park",
   "address": "8005 Emerald Dr #826",
@@ -4516,6 +5191,31 @@
    "thu": "12:00 PM - 5:00 PM",
    "fri": "11:00 AM - 6:00 PM",
    "sat": "8:30 AM - 6:30 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Enhanced Motion Inc.",
+  "clinic_id": "enhanced-motion-inc-airdrie",
+  "address": "520 1 Ave NE (inside At Dawn Wellness)",
+  "city": "Airdrie",
+  "prov": "AB",
+  "postal": "T4B 1R1",
+  "phone": "403-689-9660",
+  "website": "https://enhancedmotion.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
    "sun": null
   },
   "google_rating": null,
@@ -4800,6 +5500,31 @@
   "last_verified": null
  },
  {
+  "name": "FIT Clinic \u2014 ChiroGolf Program",
+  "clinic_id": "fit-clinic-chirogolf-program-brampton",
+  "address": "2250 Bovaird Drive East Suite 601",
+  "city": "Brampton",
+  "prov": "ON",
+  "postal": "L6R 0W3",
+  "phone": "905-487-4490",
+  "website": "http://www.fitclinic.ca/",
+  "booking_page": "https://fitclinic.janeapp.com/",
+  "hours": {
+   "mon": "10:00 AM \u2013 7:00 PM",
+   "tue": "10:00 AM \u2013 7:00 PM",
+   "wed": "10:00 AM \u2013 7:00 PM",
+   "thu": "10:00 AM \u2013 7:00 PM",
+   "fri": "10:00 AM \u2013 4:00 PM",
+   "sat": "10:00 AM \u2013 2:00 PM",
+   "sun": null
+  },
+  "google_rating": 4.9,
+  "google_reviews": 29,
+  "rating_source": "Google Places details in search results for FIT Clinic (2250 Bovaird Dr E, Brampton): 'Rating: five stars (4.9) Based on 29 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Fairlawn Physiotherapy & Rehabilitation Centre",
   "clinic_id": "fairlawn-physiotherapy-rehabilitation-centre-toronto",
   "address": "3317 Yonge St",
@@ -5075,6 +5800,31 @@
   "last_verified": null
  },
  {
+  "name": "Francine Allard Nutritionniste Di\u00e9t\u00e9tiste",
+  "clinic_id": "francine-allard-nutritionniste-dietetiste-blainville",
+  "address": "10 Bd des Ch\u00e2teaux Appt 102",
+  "city": "Blainville",
+  "prov": "QC",
+  "postal": null,
+  "phone": "514-570-8015",
+  "website": "https://www.nutritionnistefrancineallard.ca/",
+  "booking_page": "https://www.nutritionnistefrancineallard.ca/contact/",
+  "hours": {
+   "mon": "8:00 AM - 9:00 PM",
+   "tue": "8:00 AM - 9:00 PM",
+   "wed": "8:00 AM - 9:00 PM",
+   "thu": "8:00 AM - 9:00 PM",
+   "fri": "8:00 AM - 9:00 PM",
+   "sat": "8:00 AM - 9:00 PM",
+   "sun": "8:00 AM - 9:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Fredericton Naturopathic Clinic",
   "clinic_id": "fredericton-naturopathic-clinic-fredericton",
   "address": "288 Union St",
@@ -5325,6 +6075,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Grit Psychology & Counselling",
+  "clinic_id": "grit-psychology-counselling-airdrie",
+  "address": "Unit #17 \u2013 620 1 Ave NW",
+  "city": "Airdrie",
+  "prov": "AB",
+  "postal": "T4B 2R3",
+  "phone": "403-588-7639",
+  "website": "http://www.gritpsychology.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 8:00 PM",
+   "tue": "9:00 AM - 8:00 PM",
+   "wed": "9:00 AM - 8:00 PM",
+   "thu": "9:00 AM - 8:00 PM",
+   "fri": "9:00 AM - 8:00 PM",
+   "sat": "10:00 AM - 6:00 PM",
+   "sun": "10:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "HC Nutrition",
   "clinic_id": "hc-nutrition-ottawa",
   "address": "267 O'Connor St",
@@ -5348,6 +6123,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "HMC Headache Migraine and Concussion Centre",
+  "clinic_id": "hmc-headache-migraine-and-concussion-centre-ajax",
+  "address": "555 Kingston Rd West",
+  "city": "Ajax",
+  "prov": "ON",
+  "postal": "L1S 6M1",
+  "phone": "905-477-4677",
+  "website": "https://hmccentre.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM \u2013 5:00 PM",
+   "tue": "9:00 AM \u2013 5:00 PM",
+   "wed": "9:00 AM \u2013 5:00 PM",
+   "thu": "9:00 AM \u2013 5:00 PM",
+   "fri": "9:00 AM \u2013 5:00 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Haas Health",
@@ -5823,6 +6623,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": null
+ },
+ {
+  "name": "Impact Healthcare",
+  "clinic_id": "impact-healthcare-barrie",
+  "address": "411 Huronia Rd Unit 4",
+  "city": "Barrie",
+  "prov": "ON",
+  "postal": "L4N 9B3",
+  "phone": "705-725-9777",
+  "website": "https://impacthc.ca/",
+  "booking_page": "https://impact-healthcare.au1.cliniko.com",
+  "hours": {
+   "fri": "8:00 AM - 6:00 PM",
+   "mon": "8:00 AM - 8:00 PM",
+   "sat": "8:00 AM - 2:00 PM",
+   "sun": null,
+   "thu": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 13,
+  "rating_source": "Google Places details in search results for Impact Healthcare (411 Huronia Rd Unit 4, Barrie): 'Rating: five stars (5.0) Based on 13 reviews'.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "In Step Physical Therapy",
@@ -6650,6 +7475,31 @@
   "last_verified": null
  },
  {
+  "name": "Knot Just Hands RMT",
+  "clinic_id": "knot-just-hands-rmt-brampton",
+  "address": "60 Queen St E",
+  "city": "Brampton",
+  "prov": "ON",
+  "postal": null,
+  "phone": "647-980-5304",
+  "website": "http://knotjusthands.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM \u2013 9:00 PM",
+   "tue": "10:00 AM \u2013 9:00 PM",
+   "wed": "10:00 AM \u2013 9:00 PM",
+   "thu": "10:00 AM \u2013 9:00 PM",
+   "fri": "10:00 AM \u2013 9:00 PM",
+   "sat": "10:00 AM \u2013 6:00 PM",
+   "sun": "10:00 AM \u2013 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "L'Interphase \u2014 Clinique de psychologie & neuropsychologie",
   "clinic_id": "linterphase-clinique-de-psychologie-neuropsychologie-montreal",
   "address": "410 Rue Saint-Nicolas, Suite 124",
@@ -6823,6 +7673,31 @@
   "rating_source": "Clinic's own website displays '100+ Google Reviews, 5.0 Star Average' across its pages, including the Shockwave Therapy page; the count is given only as '100+', so google_reviews is null.",
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Legend Physiotherapy",
+  "clinic_id": "legend-physiotherapy-abbotsford",
+  "address": "32526 George Ferguson Way #210",
+  "city": "Abbotsford",
+  "prov": "BC",
+  "postal": "V2T 4Y1",
+  "phone": "778-880-8823",
+  "website": "https://legendphysio.ca/",
+  "booking_page": "https://legendphysioabbotsford.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 6:00 PM",
+   "mon": "8:00 AM - 6:00 PM",
+   "sat": "8:00 AM - 6:00 PM",
+   "sun": "9:00 AM - 3:00 PM",
+   "thu": "8:00 AM - 6:00 PM",
+   "tue": "8:00 AM - 6:00 PM",
+   "wed": "8:00 AM - 6:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Leslie Beck RD",
@@ -7225,6 +8100,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Maritime Play Therapy Centre",
+  "clinic_id": "maritime-play-therapy-centre-bedford",
+  "address": "1600 Bedford Hwy",
+  "city": "Bedford",
+  "prov": "NS",
+  "postal": null,
+  "phone": "902 301 7430",
+  "website": "https://www.maritimeptc.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": "12:00 PM - 4:00 PM",
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Maritime Psychology Clinic",
   "clinic_id": "maritime-psychology-clinic-moncton",
   "address": "353 St. George Street, Suite 200",
@@ -7473,6 +8373,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Metanoia Counselling",
+  "clinic_id": "metanoia-counselling-abbotsford",
+  "address": "2630 Bourquin Crescent W Unit 3",
+  "city": "Abbotsford",
+  "prov": "BC",
+  "postal": null,
+  "phone": "778-347-9974",
+  "website": "https://www.metanoiacounselling.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "4:00 PM - 8:00 PM",
+   "mon": "4:00 PM - 6:00 PM",
+   "sat": "9:00 AM - 5:00 PM",
+   "sun": "10:00 AM - 2:00 PM",
+   "thu": "4:00 PM - 6:00 PM",
+   "tue": "4:00 PM - 8:00 PM",
+   "wed": "4:00 PM - 8:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Metrotown Orthopedic & Sports Physiotherapy",
@@ -7997,7 +8922,7 @@
   "google_reviews": 6,
   "rating_source": "Google Places details in search results for Natural Health Clinic of Halton (Oakville address, website nhchalton.com) \u2014 Rating 5.0 based on 6 reviews. This is the practice's only Places listing; the directory's Brampton entry resolves to this same physical clinic (see gaps).",
   "direct_billing": "no",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Natural Health Clinic of Halton (Mississauga)",
@@ -8183,7 +9108,7 @@
   "postal": null,
   "phone": "647-846-4611",
   "website": "https://newmclinic.com",
-  "booking_page": null,
+  "booking_page": "https://newmclinic.com/contact/",
   "hours": {
    "fri": "9:00 AM - 8:00 PM",
    "mon": "9:00 AM - 8:00 PM",
@@ -8197,7 +9122,7 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "NewM Clinic (Newmarket)",
@@ -8575,6 +9500,31 @@
   "last_verified": null
  },
  {
+  "name": "Nutrition with Hope",
+  "clinic_id": "nutrition-with-hope-brampton",
+  "address": "12 Woodside Court",
+  "city": "Brampton",
+  "prov": "ON",
+  "postal": "L6Y 3Z3",
+  "phone": "416-768-3361",
+  "website": "https://www.nutritionwithhope.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM \u2013 10:30 PM",
+   "tue": "8:00 AM \u2013 10:30 PM",
+   "wed": "8:00 AM \u2013 10:30 PM",
+   "thu": "8:00 AM \u2013 10:30 PM",
+   "fri": "8:00 AM \u2013 10:30 PM",
+   "sat": "8:00 AM \u2013 10:30 PM",
+   "sun": "8:00 AM \u2013 10:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Nutritional/ Dietitian Counselling Services",
   "clinic_id": "nutritional-dietitian-counselling-services-ottawa",
   "address": "1554 Carling Ave, #514",
@@ -8598,6 +9548,56 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Nutritionwize Diet Clinic - Sandalwood",
+  "clinic_id": "nutritionwize-diet-clinic-sandalwood-brampton",
+  "address": "170 Sandalwood Pkwy E",
+  "city": "Brampton",
+  "prov": "ON",
+  "postal": "L6Z 1Y5",
+  "phone": "905-970-1414",
+  "website": "http://nutritionwize.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "10:00 AM \u2013 6:00 PM",
+   "tue": "10:00 AM \u2013 6:00 PM",
+   "wed": "10:00 AM \u2013 6:00 PM",
+   "thu": "10:00 AM \u2013 6:00 PM",
+   "fri": "10:00 AM \u2013 6:00 PM",
+   "sat": "10:00 AM \u2013 3:00 PM",
+   "sun": null
+  },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details in search results for Nutritionwize Diet Clinic - Sandalwood: 'Rating: five stars (5.0), Based on 1 reviews'",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Nutrivive Consulting Ltd",
+  "clinic_id": "nutrivive-consulting-ltd-brampton",
+  "address": "7700 Hurontario St Unit 310A",
+  "city": "Brampton",
+  "prov": "ON",
+  "postal": null,
+  "phone": "(905) 861-8284",
+  "website": "https://nutrivive.ca/",
+  "booking_page": "https://nutrivive.ca/contact/",
+  "hours": {
+   "mon": "11:00 AM \u2013 3:00 PM",
+   "tue": "11:00 AM \u2013 3:00 PM",
+   "wed": "11:00 AM \u2013 3:00 PM",
+   "thu": "11:00 AM \u2013 3:00 PM",
+   "fri": "Closed",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 1,
+  "rating_source": "Google Places details in search results for Nutrivive Consulting Ltd (website https://nutrivive.ca/): 'Rating: five stars (5.0), Based on 1 reviews'. No Google badge/widget was found on the clinic's own site.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Nxt Generation PHYSIO \u2014 Homa",
@@ -8648,6 +9648,31 @@
   "rating_source": null,
   "direct_billing": "no",
   "last_verified": null
+ },
+ {
+  "name": "Oakhill Counselling and Mediation Services",
+  "clinic_id": "oakhill-counselling-and-mediation-services-abbotsford",
+  "address": "300-31935 South Fraser Way",
+  "city": "Abbotsford",
+  "prov": "BC",
+  "postal": null,
+  "phone": "604-607-1035",
+  "website": "https://oakhill.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": null,
+   "sat": null,
+   "sun": null,
+   "thu": null,
+   "tue": null,
+   "wed": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Oakville Naturopathic Doctor",
@@ -9675,6 +10700,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Pro Motion Physiotherapy",
+  "clinic_id": "pro-motion-physiotherapy-abbotsford",
+  "address": "110-32555 Simon Ave",
+  "city": "Abbotsford",
+  "prov": "BC",
+  "postal": "V2T 4Y2",
+  "phone": "604-852-3180",
+  "website": "http://www.promotionphysio.com/",
+  "booking_page": "https://promotionphysio.janeapp.com/",
+  "hours": {
+   "fri": "7:00 AM - 4:00 PM",
+   "mon": "7:00 AM - 7:30 PM",
+   "sat": "8:00 AM - 3:00 PM",
+   "sun": null,
+   "thu": "7:00 AM - 7:30 PM",
+   "tue": "7:00 AM - 7:30 PM",
+   "wed": "7:00 AM - 7:30 PM"
+  },
+  "google_rating": 4.6,
+  "google_reviews": 32,
+  "rating_source": "Google Places details surfaced in search results for Pro Motion Physiotherapy (website promotionphysio.com) showed 'Ratings for Pro Motion Physiotherapy: Rating: four and a half stars (4.6), Based on 32 reviews'.",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Pro-Active Physiotherapy Clinic",
   "clinic_id": "pro-active-physiotherapy-clinic-mississauga",
   "address": "2275 Britannia Rd W, Unit #8",
@@ -10275,6 +11325,31 @@
   "last_verified": null
  },
  {
+  "name": "Reframe Psychology and Counselling Clinic",
+  "clinic_id": "reframe-psychology-and-counselling-clinic-abbotsford",
+  "address": "2955 Gladwin Rd #301b",
+  "city": "Abbotsford",
+  "prov": "BC",
+  "postal": null,
+  "phone": "604-398-3837",
+  "website": "http://www.reframepsych.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": null,
+   "mon": "9:00 AM - 5:00 PM",
+   "sat": "9:00 AM - 1:00 PM",
+   "sun": null,
+   "thu": null,
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Regenerate Physiotherapy & Shockwave Edmonton",
   "clinic_id": "regenerate-physiotherapy-shockwave-edmonton-edmonton",
   "address": "10082 164 St NW",
@@ -10300,6 +11375,31 @@
   "last_verified": null
  },
  {
+  "name": "Registered Dietitian Eve Laws",
+  "clinic_id": "registered-dietitian-eve-laws-barrie",
+  "address": "607 Cundles Rd E",
+  "city": "Barrie",
+  "prov": "ON",
+  "postal": "L4M 0G9",
+  "phone": "705-220-1603",
+  "website": "https://www.realdealdietitian.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 12:00 PM",
+   "mon": "9:00 AM - 4:00 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "9:00 AM - 4:00 PM",
+   "tue": "10:00 AM - 7:00 PM",
+   "wed": "10:00 AM - 7:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Rehab Plus Pilates Studio",
   "clinic_id": "rehab-plus-pilates-studio-richmond-hill",
   "address": "350 Hwy 7, 212 & 203 E, level 2 Unit",
@@ -10323,6 +11423,31 @@
   "rating_source": null,
   "direct_billing": null,
   "last_verified": null
+ },
+ {
+  "name": "Rekindle Health",
+  "clinic_id": "rekindle-health-yellowknife",
+  "address": "5122 48 St",
+  "city": "Yellowknife",
+  "prov": "NT",
+  "postal": null,
+  "phone": "867-444-5122",
+  "website": "https://rekindlehealth.ca/",
+  "booking_page": null,
+  "hours": {
+   "fri": "9:00 AM - 3:30 PM",
+   "mon": "8:30 AM - 3:30 PM",
+   "sat": "10:00 AM - 12:00 PM",
+   "sun": null,
+   "thu": "9:00 AM - 3:30 PM",
+   "tue": "9:00 AM - 3:30 PM",
+   "wed": "9:00 AM - 2:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Renita Lam",
@@ -10498,6 +11623,31 @@
   "rating_source": null,
   "direct_billing": "yes",
   "last_verified": null
+ },
+ {
+  "name": "Revolution Wellness Clinic",
+  "clinic_id": "revolution-wellness-clinic-abbotsford",
+  "address": "Unit A, 33623 Wildwood Drive",
+  "city": "Abbotsford",
+  "prov": "BC",
+  "postal": "V2S 1S2",
+  "phone": "604-776-5665",
+  "website": "https://www.revolutionwellnessclinic.ca/",
+  "booking_page": "https://revolutionwellnessclinic.janeapp.com/",
+  "hours": {
+   "fri": "8:00 AM - 5:30 PM",
+   "mon": "10:00 AM - 4:00 PM",
+   "sat": "10:00 AM - 2:00 PM",
+   "sun": null,
+   "thu": "8:00 AM - 5:30 PM",
+   "tue": "9:00 AM - 5:30 PM",
+   "wed": "9:00 AM - 5:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Richmond Hill Health & Wellness",
@@ -10800,6 +11950,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Sano State Psychology",
+  "clinic_id": "sano-state-psychology-airdrie",
+  "address": "120 - 2797 Main St South (part of re-HUB Health Collective)",
+  "city": "Airdrie",
+  "prov": "AB",
+  "postal": null,
+  "phone": "587-333-6349",
+  "website": "https://www.sanostate.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 5:00 PM",
+   "tue": "9:00 AM - 5:00 PM",
+   "wed": "9:00 AM - 5:00 PM",
+   "thu": "9:00 AM - 5:00 PM",
+   "fri": "9:00 AM - 5:00 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Sask Naturopath (Dr. Stephanie Stokes ND)",
   "clinic_id": "sask-naturopath-dr-stephanie-stokes-nd-saskatoon",
   "address": "205 Avenue G N",
@@ -11047,6 +12222,31 @@
   "google_reviews": null,
   "rating_source": null,
   "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Skylark Counselling Clinic",
+  "clinic_id": "skylark-counselling-clinic-abbotsford",
+  "address": "32615 South Fraser Way, Suite 304",
+  "city": "Abbotsford",
+  "prov": "BC",
+  "postal": "V2T 1X8",
+  "phone": "604-968-4325",
+  "website": "https://abbotsford.skylarkclinic.ca/",
+  "booking_page": "https://skylarkclinic.janeapp.com/",
+  "hours": {
+   "fri": "7:00 AM - 10:00 PM",
+   "mon": "7:00 AM - 10:00 PM",
+   "sat": "7:00 AM - 10:00 PM",
+   "sun": "7:00 AM - 10:00 PM",
+   "thu": "7:00 AM - 10:00 PM",
+   "tue": "7:00 AM - 10:00 PM",
+   "wed": "7:00 AM - 10:00 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "yes",
   "last_verified": "2026-11-01"
  },
  {
@@ -11373,6 +12573,31 @@
   "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Sumas Naturopathic Clinic",
+  "clinic_id": "sumas-naturopathic-clinic-abbotsford",
+  "address": "#130 \u2013 2061 Sumas Way",
+  "city": "Abbotsford",
+  "prov": "BC",
+  "postal": "V2S 8H6",
+  "phone": "604-744-8339",
+  "website": "https://sumasnaturopathic.ca/",
+  "booking_page": null,
+  "hours": {
+   "mon": "9:00 AM - 4:30 PM",
+   "tue": "9:00 AM - 4:30 PM",
+   "wed": "9:00 AM - 4:30 PM",
+   "thu": "9:00 AM - 4:30 PM",
+   "fri": "9:00 AM - 4:30 PM",
+   "sat": "Closed",
+   "sun": "Closed"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "Sun City Physiotherapy",
@@ -11747,7 +12972,7 @@
   "google_reviews": 12,
   "rating_source": "Google Places details in search results for The Lakeside Clinic: 'Rating: five stars (4.8), Based on 12 reviews'.",
   "direct_billing": "unverifiable",
-  "last_verified": null
+  "last_verified": "2026-11-01"
  },
  {
   "name": "The Longevity Lab",
@@ -12096,6 +13321,31 @@
   "google_rating": 5.0,
   "google_reviews": 16,
   "rating_source": "Google Places details in search results for Thrive Massage Therapy & Wellness: 'Rating: five stars (5.0), Based on 16 reviews'.",
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "name": "Thrive Nutrition Coaching",
+  "clinic_id": "thrive-nutrition-coaching-brampton",
+  "address": "100 Queen Street West",
+  "city": "Brampton",
+  "prov": "ON",
+  "postal": "L6X 1A4",
+  "phone": "647-200-7172",
+  "website": "https://www.thrivenutrition.ca/",
+  "booking_page": "https://thrivenutrition.janeapp.com/",
+  "hours": {
+   "mon": "9:00 AM \u2013 5:30 PM",
+   "tue": "9:00 AM \u2013 5:30 PM",
+   "wed": "9:00 AM \u2013 5:30 PM",
+   "thu": "9:00 AM \u2013 5:30 PM",
+   "fri": "9:00 AM \u2013 5:30 PM",
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
   "direct_billing": "unverifiable",
   "last_verified": "2026-11-01"
  },
@@ -12975,6 +14225,31 @@
   "last_verified": null
  },
  {
+  "name": "Winnipeg Speech Therapy Clinic",
+  "clinic_id": "winnipeg-speech-therapy-clinic-winnipeg",
+  "address": "2B-553 St. Mary's Road",
+  "city": "Winnipeg",
+  "prov": "MB",
+  "postal": "R2M 3L4",
+  "phone": "204-515-6433",
+  "website": "https://winnipegspeechtherapyclinic.com/",
+  "booking_page": null,
+  "hours": {
+   "fri": "8:30 AM - 4:30 PM",
+   "mon": "8:30 AM - 4:30 PM",
+   "sat": null,
+   "sun": null,
+   "thu": "8:30 AM - 4:30 PM",
+   "tue": "8:30 AM - 4:30 PM",
+   "wed": "8:30 AM - 4:30 PM"
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "no",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "Winnipeg Spine & Sports Therapy",
   "clinic_id": "winnipeg-spine-sports-therapy-winnipeg",
   "address": "1465-B Pembina Highway",
@@ -13075,6 +14350,31 @@
   "last_verified": "2026-11-01"
  },
  {
+  "name": "Yeboah Psychotherapy",
+  "clinic_id": "yeboah-psychotherapy-brampton",
+  "address": "9780 Bramalea Road, Suite 305",
+  "city": "Brampton",
+  "prov": "ON",
+  "postal": "L6S 2P1",
+  "phone": "(905) 500-9389",
+  "website": "http://beautifulmindd.ca/",
+  "booking_page": "https://portal.owlpractice.ca/yeboahpsychotherapy",
+  "hours": {
+   "mon": null,
+   "tue": null,
+   "wed": null,
+   "thu": null,
+   "fri": null,
+   "sat": null,
+   "sun": null
+  },
+  "google_rating": null,
+  "google_reviews": null,
+  "rating_source": null,
+  "direct_billing": "unverifiable",
+  "last_verified": "2026-11-01"
+ },
+ {
   "name": "York Region CBT",
   "clinic_id": "york-region-cbt-vaughan",
   "address": "9461 Jane Street, Suite 105",
@@ -13148,6 +14448,31 @@
   "rating_source": "Google Places details (place_id 1283112933470230)",
   "direct_billing": "unverifiable",
   "last_verified": null
+ },
+ {
+  "name": "Zenith Physiotherapy and Wellness Clinic",
+  "clinic_id": "zenith-physiotherapy-and-wellness-clinic-airdrie",
+  "address": "800 Yankee Valley Blvd SW #309",
+  "city": "Airdrie",
+  "prov": "AB",
+  "postal": null,
+  "phone": "403-768-2747",
+  "website": "https://zenithphysio.com/",
+  "booking_page": null,
+  "hours": {
+   "mon": "8:00 AM - 8:00 PM",
+   "tue": "8:00 AM - 8:00 PM",
+   "wed": "8:00 AM - 8:00 PM",
+   "thu": "8:00 AM - 8:00 PM",
+   "fri": "8:00 AM - 8:00 PM",
+   "sat": "9:00 AM - 2:00 PM",
+   "sun": "Closed"
+  },
+  "google_rating": 5.0,
+  "google_reviews": 8,
+  "rating_source": "Google Places details in search results for Zenith Physiotherapy and Wellness Clinic (place_id 9447235858683539): rating 5.0 based on 8 reviews. (The review counters embedded on the clinic's own homepage render as '0 +' and were not used.)",
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01"
  },
  {
   "name": "calgarymicroneedling.com (Dr. Trudy Strasser ND RAc)",
