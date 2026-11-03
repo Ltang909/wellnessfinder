@@ -217,3 +217,50 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-hero{padding:
   .mw-ctable input{width:84px}
   .mw-pet{display:none}
 }
+
+/* ============================================================
+   Composer bar — Direction A (2026-11-03): one white bar for
+   drop / attach / paste / type / dictate, hero + confirm forms.
+   ============================================================ */
+.mw-composer{position:relative;background:#fff;border-radius:28px;box-shadow:0 24px 48px -18px rgba(0,0,0,.45);padding:18px 20px 14px;margin-top:22px;color:var(--ink);text-align:left}
+.mw-composer.dragover::after{content:"";position:absolute;inset:7px;border:2px dashed var(--forest-300);border-radius:22px;pointer-events:none}
+.mw-composer.listening{box-shadow:0 0 0 3px #FFCE45,0 24px 48px -18px rgba(0,0,0,.45)}
+.mw-comp-files{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.mw-comp-files[hidden]{display:none}
+.mw-comp-file{display:inline-flex;align-items:center;gap:8px;background:var(--mist);border-radius:999px;padding:6px 8px 6px 14px;font-size:.85rem;font-weight:600;color:var(--forest)}
+.mw-comp-file button{border:0;background:rgba(15,45,43,.08);width:20px;height:20px;border-radius:50%;font-size:.85rem;line-height:1;cursor:pointer;color:var(--forest);display:grid;place-items:center;padding:0}
+.mw-comp-file button:hover{background:rgba(15,45,43,.16)}
+.mw-comp-text{width:100%;box-sizing:border-box;border:0;resize:none;font:inherit;font-size:1.02rem;line-height:1.45;color:var(--ink);background:transparent;padding:2px 2px 0}
+.mw-comp-text:focus{outline:none}
+.mw-comp-text::placeholder{color:#8A9A90}
+.mw-comp-hint{font-size:.82rem;color:#7A8A80;margin:8px 0 0}
+.mw-comp-hint b{color:var(--forest)}
+.mw-comp-chips{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:12px}
+.mw-comp-chips[hidden]{display:none}
+.mw-comp-chips-lbl{font-size:.7rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#8A9A90}
+.mw-heard-chip{background:#E8EFE9;color:#315f52;font-size:.8rem;font-weight:700;border-radius:999px;padding:5px 11px}
+.mw-comp-row{display:flex;align-items:center;gap:10px;margin-top:14px}
+.mw-comp-row .spacer{flex:1}
+.mw-comp-attach{width:44px;height:44px;border-radius:50%;border:1.5px solid rgba(15,45,43,.25);background:#fff;color:var(--forest);font-size:1.45rem;font-weight:400;line-height:1;cursor:pointer;display:grid;place-items:center;flex:0 0 auto;padding:0}
+.mw-comp-attach:hover{border-color:var(--forest);background:var(--mist)}
+.mw-comp-mic{width:40px;height:40px;border-radius:50%;border:0;background:transparent;color:#55705F;cursor:pointer;display:grid;place-items:center;flex:0 0 auto;padding:0}
+.mw-comp-mic:hover{background:var(--mist);color:var(--forest)}
+.mw-comp-mic svg{width:20px;height:20px}
+.mw-comp-mic[hidden]{display:none}
+.mw-comp-send{background:var(--forest);color:#fff;border:0;font:700 .92rem inherit;padding:.72rem 1.35rem;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:7px;flex:0 0 auto}
+.mw-comp-send:hover{background:var(--forest-600)}
+.mw-hero-foot{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;margin-top:12px}
+.mw-hero-foot .mw-privacy{margin-top:0;flex:1;min-width:220px}
+.mw-manual-link{background:none;border:0;color:#fff;font:700 .82rem inherit;text-decoration:underline;text-underline-offset:3px;cursor:pointer;padding:0;flex:0 0 auto}
+/* Compact form inside the confirm panel */
+.mw-composer--compact{display:flex;align-items:center;gap:8px;border-radius:999px;padding:7px 8px;margin:14px 0 4px;box-shadow:0 4px 16px rgba(15,45,43,.10);border:1px solid #E7E2CE}
+.mw-composer--compact.dragover::after{inset:3px;border-radius:999px}
+.mw-composer--compact .mw-comp-attach{width:38px;height:38px;font-size:1.25rem}
+.mw-composer--compact input{flex:1;min-width:0;border:0;font:inherit;font-size:.95rem;color:var(--ink);background:transparent;padding:.45rem .2rem}
+.mw-composer--compact input:focus{outline:none}
+.mw-comp-send-disc{width:38px;height:38px;border-radius:50%;border:0;background:var(--forest);color:#fff;font-size:1.05rem;cursor:pointer;display:grid;place-items:center;flex:0 0 auto;padding:0}
+.mw-comp-send-disc:hover{background:var(--forest-600)}
+@media(max-width:620px){
+  .mw-composer{padding:14px 14px 12px;border-radius:22px}
+  .mw-comp-send{padding:.65rem 1.05rem}
+}

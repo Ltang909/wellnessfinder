@@ -362,8 +362,15 @@
   document.body.appendChild(fileInput);
   var parseStatusMsg = "";
   fileInput.addEventListener("change", function () {
-    if (fileInput.files && fileInput.files.length) handleIntakeFiles(fileInput.files);
+    var picked = fileInput.files ? Array.prototype.slice.call(fileInput.files) : [];
     fileInput.value = "";
+    if (!picked.length) return;
+    /* While the hero Composer is on screen (no booklet yet, confirm
+       closed), a pick STAGES the files as pills in the bar — Send
+       runs the parse. In the wallet state a pick parses immediately,
+       as "Upload a newer PDF" always has. */
+    if (composerActive()) { stageBarFiles(picked); return; }
+    handleIntakeFiles(picked);
   });
   function pickPdf() { fileInput.click(); }
 
@@ -399,6 +406,7 @@
       parsed.note = "Couldn't read that clearly — check the amounts or enter them here.";
     }
     renderConfirm(parsed);
+    applyPendingInstr();
   }
   function parseTextFile(file) {
     parseStatusMsg = "Reading your text file on this device…";
@@ -477,6 +485,216 @@
     });
   }
 
+  /* ============================================================
+     Composer bar (Direction A): one bar for drop / attach / paste /
+     type / dictate. State lives in barState so hero re-renders
+     (parse progress, status messages) never lose it.
+     ============================================================ */
+  var barState = { files: [], text: "" };
+  var pendingInstr = "";
+  var MIC_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"></rect><path d="M5 11a7 7 0 0 0 14 0"></path><path d="M12 18v3"></path></svg>';
+  var TIER_LABELS = ["Essential", "Core", "Enhanced", "Basic", "Standard", "Premium", "Comprehensive"];
+
+  function composerActive() {
+    var c = $("mwConfirm");
+    return !!$("mwBar") && (!c || c.hidden);
+  }
+  function stageBarFiles(files) {
+    var arr = Array.prototype.slice.call(files || []);
+    if (!arr.length) return;
+    if (arr.every(isImageFile)) barState.files = arr.slice(0, 3);
+    else barState.files = [arr[0]];
+    renderHero();
+  }
+  /* Light-weight intent preview for the bar's "We heard" chips.
+     Display only — the confirm step's applyInstructions is the
+     authority that actually changes fields. */
+  function detectHeard(raw) {
+    var out = {};
+    if (!raw || !raw.trim()) return out;
+    var text = " " + raw.toLowerCase().replace(/[’]/g, "'") + " ";
+    var i;
+    for (i = 0; i < TIER_LABELS.length; i++) {
+      if (new RegExp("\\b" + TIER_LABELS[i].toLowerCase() + "\\b").test(text)) { out.tier = TIER_LABELS[i] + " plan"; break; }
+    }
+    if (/\bfamily\b|\bspouse\b|\bwife\b|\bhusband\b|\bkids\b|\bchildren\b|\bpartner\b/.test(text)) out.coverage = "Family coverage";
+    else if (/\bsingle\b|just me|only me/.test(text)) out.coverage = "Single coverage";
+    text.split(/[,;]|\band\b/).forEach(function (cl) {
+      var am = cl.match(/\$\s?([\d,]+(?:\.\d{2})?)/);
+      if (!am) return;
+      var amt = parseFloat(am[1].replace(/,/g, ""));
+      if (/hsa|hcsa|spending account/.test(cl) && /used|claimed|spent/.test(cl)) { out.hcsaUsed = "HCSA used " + money(amt); return; }
+      if (!/used|claimed|spent|left/.test(cl)) return;
+      var cat = instrCatMatch(cl);
+      if (!cat) return;
+      if (/\bleft\b/.test(cl)) out["left:" + cat] = cat + " " + money(amt) + " left";
+      else out["used:" + cat] = cat + " used " + money(amt);
+    });
+    var rm = text.match(/(reset|renew|plan year|starts?|begins?)[^.]{0,24}?\b(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\s+(\d{1,2})?\b/);
+    if (rm) {
+      var months = { jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5, jul: 6, aug: 7, sep: 8, sept: 8, oct: 9, nov: 10, dec: 11 };
+      var mon = months[rm[2].slice(0, 4)] != null ? months[rm[2].slice(0, 4)] : months[rm[2].slice(0, 3)];
+      if (mon != null) {
+        var day = rm[3] ? parseInt(rm[3], 10) : 1;
+        var nowD = new Date(); nowD.setHours(0, 0, 0, 0);
+        var dd = new Date(nowD.getFullYear(), mon, day);
+        if (dd <= nowD) dd = new Date(nowD.getFullYear() + 1, mon, day);
+        out.reset = "Resets " + fmtDate(dd);
+      }
+    }
+    for (i = 0; i < INSURERS.length; i++) {
+      if (text.indexOf(INSURERS[i].toLowerCase()) > -1) { out.insurer = INSURERS[i].replace("Green Shield", "GreenShield"); break; }
+    }
+    return out;
+  }
+  function heardChipsHTML() {
+    var heard = detectHeard(barState.text);
+    var keys = Object.keys(heard);
+    if (!keys.length) return "";
+    return '<span class="mw-comp-chips-lbl">We heard</span>' + keys.map(function (k) {
+      return '<span class="mw-heard-chip">' + esc(heard[k]) + "</span>";
+    }).join("");
+  }
+  function refreshBarChips() {
+    var host = $("mwBarChips");
+    if (!host) return;
+    host.innerHTML = heardChipsHTML();
+    host.hidden = !host.innerHTML;
+  }
+  function composerHTML() {
+    var files = barState.files.map(function (f, i) {
+      var nm = f.name || "Screenshot";
+      return '<span class="mw-comp-file">📄 ' + esc(nm) + '<button type="button" data-barx="' + i + '" aria-label="Remove ' + esc(nm) + '">×</button></span>';
+    }).join("");
+    var chips = heardChipsHTML();
+    return '<div class="mw-composer" id="mwBar">'
+      + '<div class="mw-comp-files" id="mwBarFiles"' + (barState.files.length ? "" : " hidden") + ">" + files + "</div>"
+      + '<textarea class="mw-comp-text" id="mwBarText" rows="2" placeholder="Drop your booklet here, paste a screenshot (Ctrl+V), or tell us about your plan…" aria-label="Tell us about your plan, or drop your booklet here">' + esc(barState.text) + "</textarea>"
+      + '<p class="mw-comp-hint">You can also <b>paste a screenshot</b> (Ctrl+V) or drop a PDF, screenshot or text file anywhere on this bar.</p>'
+      + '<div class="mw-comp-chips" id="mwBarChips"' + (chips ? "" : " hidden") + ">" + chips + "</div>"
+      + '<div class="mw-comp-row"><button type="button" class="mw-comp-attach" id="mwBarAttach" aria-label="Attach your booklet — PDF, screenshot, or text file">+</button><span class="spacer"></span>'
+      + '<button type="button" class="mw-comp-mic" id="mwBarMic" aria-label="Dictate with your voice">' + MIC_SVG + "</button>"
+      + '<button type="button" class="mw-comp-send" id="mwBarSend"><span aria-hidden="true">↑</span> Read my booklet</button></div>'
+      + "</div>";
+  }
+  function wireMic(btn, field, barEl, onText) {
+    var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SR) { btn.hidden = true; return; }
+    var rec = null;
+    btn.addEventListener("click", function () {
+      if (rec) { try { rec.stop(); } catch (_) {} return; }
+      try {
+        rec = new SR();
+        rec.lang = "en-CA";
+        rec.interimResults = false;
+        rec.continuous = false;
+        if (barEl) barEl.classList.add("listening");
+        rec.onresult = function (ev) {
+          var txt = "";
+          for (var i = ev.resultIndex; i < ev.results.length; i++) txt += ev.results[i][0].transcript;
+          txt = txt.trim();
+          if (txt) {
+            field.value = (field.value ? field.value.replace(/\s+$/, "") + " " : "") + txt;
+            if (onText) onText(field.value);
+          }
+        };
+        var done = function () { rec = null; if (barEl) barEl.classList.remove("listening"); };
+        rec.onend = done;
+        rec.onerror = done;
+        rec.start();
+      } catch (_) { rec = null; if (barEl) barEl.classList.remove("listening"); }
+    });
+  }
+  function barSend() {
+    var text = (barState.text || "").trim();
+    if (barState.files.length) {
+      pendingInstr = text;
+      var fs = barState.files;
+      barState.files = [];
+      handleIntakeFiles(fs);
+      return;
+    }
+    if (text) {
+      barState.text = "";
+      /* A long paste is plan text, not an instruction — read it the
+         way the old paste box did. Short text is instructions for a
+         manual confirm. */
+      if (text.length > 240) { ingestText(text, "your text"); return; }
+      renderConfirm({ insurer: "", planName: "", resetsISO: nextJan1ISO(), categories: {} });
+      applyInstructions(text);
+      return;
+    }
+    parseStatusMsg = "Drop your booklet on the bar, paste a screenshot (Ctrl+V), or just type what you know — then hit Read my booklet.";
+    renderHero();
+  }
+  function applyPendingInstr() {
+    if (!pendingInstr) return;
+    var t = pendingInstr;
+    pendingInstr = "";
+    var i = $("mwInstr");
+    if (i) { i.value = t; applyInstructions(t); }
+  }
+  function wireComposer() {
+    var bar = $("mwBar");
+    if (!bar) return;
+    var ta = $("mwBarText");
+    if (ta) ta.addEventListener("input", function () { barState.text = ta.value; refreshBarChips(); });
+    var att = $("mwBarAttach");
+    if (att) att.addEventListener("click", pickPdf);
+    var send = $("mwBarSend");
+    if (send) send.addEventListener("click", barSend);
+    var mic = $("mwBarMic");
+    if (mic && ta) wireMic(mic, ta, bar, function (v) { barState.text = v; refreshBarChips(); });
+    bar.querySelectorAll("[data-barx]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        barState.files.splice(parseInt(btn.getAttribute("data-barx"), 10), 1);
+        renderHero();
+      });
+    });
+    ["dragover", "dragenter"].forEach(function (ev) {
+      bar.addEventListener(ev, function (e) { e.preventDefault(); bar.classList.add("dragover"); });
+    });
+    ["dragleave", "drop"].forEach(function (ev) {
+      bar.addEventListener(ev, function (e) { e.preventDefault(); bar.classList.remove("dragover"); });
+    });
+    bar.addEventListener("drop", function (e) {
+      var fs = e.dataTransfer && e.dataTransfer.files;
+      if (fs && fs.length) { pendingInstr = (barState.text || "").trim(); handleIntakeFiles(fs); }
+    });
+  }
+  /* Clipboard screenshots: pasting an image while the bar (or the
+     confirm bar) has focus — or with nothing else focused — stages
+     it as an attached pill first, then reads it. Pastes aimed at
+     other fields, and plain-text pastes, are left alone. */
+  document.addEventListener("paste", function (e) {
+    var t = e.target;
+    var inBar = !!(t && t.closest && t.closest(".mw-composer"));
+    var inField = !!(t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA" || t.isContentEditable));
+    if (!inBar && inField) return;
+    var items = (e.clipboardData && e.clipboardData.items) || [];
+    var imgs = [];
+    for (var i = 0; i < items.length; i++) {
+      if (items[i].type && items[i].type.indexOf("image/") === 0) {
+        var f = items[i].getAsFile();
+        if (f) imgs.push(f);
+      }
+    }
+    if (!imgs.length) return;
+    e.preventDefault();
+    if (composerActive()) {
+      pendingInstr = (barState.text || "").trim();
+      stageBarFiles(imgs);
+      var fs = barState.files;
+      barState.files = [];
+      setTimeout(function () { handleIntakeFiles(fs); }, 60);
+    } else {
+      var ci = $("mwInstr");
+      var cf = $("mwConfirm");
+      pendingInstr = ci && cf && !cf.hidden ? ci.value : "";
+      handleIntakeFiles(imgs);
+    }
+  });
+
   function renderHero() {
     var host = $("mwHero");
     if (!host) return;
@@ -484,48 +702,20 @@
     if (!b) {
       host.innerHTML =
         '<div class="mw-hero"><div class="mw-hero-flex"><div class="mw-hero-main">'
-        + '<p class="mw-eyebrow">My WellFinder</p>'
-        + "<h2>Your benefits, in one wallet.</h2>"
-        + '<p class="mw-lede">Upload your insurance booklet and we will pull out your plan\'s yearly maximums, show what you have left in each category, and line up the treatments worth using before your plan resets.</p>'
-        + '<div class="mw-drop" id="mwDrop" role="button" tabindex="0" aria-label="Upload your benefits booklet — PDF, screenshot, or text file"><strong>📄 Drop your benefits booklet here — PDF, screenshot, or text file</strong><span>We read it on this device and pull out your insurer, categories and yearly maximums for you to confirm. Booklet spans pages? Choose up to 3 screenshots.</span></div>'
-        + '<p class="mw-drop-hint">After you add your booklet you can tell us things like "I\'m on the Core plan."</p>'
-        + '<div class="mw-intake-btns"><button type="button" class="mw-manual" id="mwManualBtn">Enter my plan manually instead</button><button type="button" class="mw-manual mw-manual-alt" id="mwPasteBtn">Paste plan text instead</button></div>'
-        + '<div class="mw-paste" id="mwPasteWrap" hidden><label for="mwPasteText">Paste your plan details</label><textarea id="mwPasteText" rows="6" placeholder="Paste from your insurer\'s app or website — plan text copied from an insurer portal works too. Categories with their yearly maximums read best."></textarea><button type="button" class="mw-manual" id="mwPasteGo">Read this text</button></div>'
+        + '<p class="mw-eyebrow">Your benefits wallet</p>'
+        + "<h2>Tell us about your plan.</h2>"
+        + '<p class="mw-lede">Drop your booklet, paste a screenshot, or just type what you know. We read it here on this device and turn it into your wallet.</p>'
+        + composerHTML()
         + (parseStatusMsg ? '<p class="mw-parse-status">' + esc(parseStatusMsg) + "</p>" : "")
-        + '<p class="mw-privacy">🔒 Your files never leave this device — everything is read right here in your browser, and your plan is stored only on this device.</p>'
+        + '<div class="mw-hero-foot"><p class="mw-privacy">🔒 Read on this device only — your booklet and notes are never uploaded or stored on our servers.</p>'
+        + '<button type="button" class="mw-manual-link" id="mwManualBtn">Enter your plan by hand</button></div>'
         + '</div>'
         + '<div class="mw-pet"><div class="mw-petdisc"><img src="assets/petpet/peek.png" alt="Pet Pet"></div><p>Pet Pet keeps<br>an eye on the deadline.</p></div>'
         + "</div></div>";
-      var drop = $("mwDrop");
-      if (drop) {
-        drop.addEventListener("click", pickPdf);
-        drop.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pickPdf(); } });
-        ["dragover", "dragenter"].forEach(function (ev) {
-          drop.addEventListener(ev, function (e) { e.preventDefault(); drop.classList.add("dragover"); });
-        });
-        ["dragleave", "drop"].forEach(function (ev) {
-          drop.addEventListener(ev, function (e) { e.preventDefault(); drop.classList.remove("dragover"); });
-        });
-        drop.addEventListener("drop", function (e) {
-          var fs = e.dataTransfer && e.dataTransfer.files;
-          if (fs && fs.length) handleIntakeFiles(fs);
-        });
-      }
+      wireComposer();
       var mb = $("mwManualBtn");
       if (mb) mb.addEventListener("click", function () {
         renderConfirm({ insurer: "", planName: "", resetsISO: nextJan1ISO(), categories: {} });
-      });
-      var pb = $("mwPasteBtn");
-      if (pb) pb.addEventListener("click", function () {
-        var wrap = $("mwPasteWrap");
-        if (!wrap) return;
-        wrap.hidden = !wrap.hidden;
-        if (!wrap.hidden) { var t = $("mwPasteText"); if (t) t.focus(); }
-      });
-      var pg = $("mwPasteGo");
-      if (pg) pg.addEventListener("click", function () {
-        var t = $("mwPasteText");
-        ingestText(t ? t.value : "", "your text");
       });
       return;
     }
@@ -568,6 +758,7 @@
         storeRemove(BOOKLET_KEY);
         parseStatusMsg = "";
         renderWallet();
+        if (window.wfRenderWalletChip) window.wfRenderWalletChip();
       }
     });
   }
@@ -1306,7 +1497,7 @@
       });
     }).then(function (res) {
       parseStatusMsg = "";
-      if (res.tiered) { renderConfirm(res.tiered); return; }
+      if (res.tiered) { renderConfirm(res.tiered); applyPendingInstr(); return; }
       var text = res.flat || "";
       if (!text || text.replace(/\s/g, "").length < 40) {
         parseStatusMsg = "That PDF looks like scanned images — we couldn't read its text. Try a screenshot of the page instead, or enter your plan manually.";
@@ -1314,6 +1505,7 @@
         return;
       }
       renderConfirm(extractPlan(text));
+      applyPendingInstr();
     }).catch(function () {
       parseStatusMsg = "We couldn't read that PDF — try entering your plan manually.";
       renderHero();
@@ -1424,6 +1616,17 @@
         refillConfirm();
         chip("tier", tierHit);
       } else if (tierHit) chip("tier", tierHit);
+    } else {
+      /* No tiered parse (manual entry / flat booklet): a named plan
+         option still lands — as the plan name. */
+      for (var ti = 0; ti < TIER_LABELS.length; ti++) {
+        if (new RegExp("\\b" + TIER_LABELS[ti].toLowerCase() + "\\b").test(text)) {
+          var pfi = $("mwFPlan");
+          if (pfi) pfi.value = TIER_LABELS[ti] + " Plan";
+          chip("tier", TIER_LABELS[ti] + " plan");
+          break;
+        }
+      }
     }
     /* 2 · coverage (Single / Family) — matters when it changes the
        HCSA amount: tiered parse, or a flat parse with a $ pair. */
@@ -1527,9 +1730,9 @@
     host.innerHTML =
       '<div class="mw-confirm"><h2>Confirm your plan</h2>'
       + '<p class="sub">We read these amounts from your booklet on this device — booklets vary, so check each line and fix anything before saving. "Already used" is what you have claimed so far this plan year; what\'s left is what My WellFinder plans around.</p>'
-      + '<div class="mw-instr"><div class="mw-instr-row"><input id="mwInstr" type="text" autocomplete="off" placeholder="Anything we should know? Try: I\'m on the Core plan, single coverage · I\'ve used $200 of physio · My plan resets March 1" aria-label="Tell us about your plan in your own words"><button type="button" class="mw-instr-apply" id="mwInstrApply">Apply</button></div>'
+      + '<div class="mw-composer mw-composer--compact" id="mwInstrBar"><button type="button" class="mw-comp-attach" id="mwInstrAttach" aria-label="Attach a booklet file instead">+</button><input id="mwInstr" type="text" autocomplete="off" placeholder="Anything we should know? Try: I\'m on the Core plan, single coverage · I\'ve used $200 of physio · My plan resets March 1" aria-label="Tell us about your plan in your own words"><button type="button" class="mw-comp-mic" id="mwInstrMic" aria-label="Dictate with your voice">' + MIC_SVG + '</button><button type="button" class="mw-comp-send-disc" id="mwInstrApply" aria-label="Apply instructions">↑</button></div>'
       + '<div class="mw-ichips" id="mwInstrChips" hidden></div>'
-      + '<p class="mw-instr-note" id="mwInstrNote" hidden></p></div>'
+      + '<p class="mw-instr-note" id="mwInstrNote" hidden></p>'
       + (parsed.note ? '<p class="mw-confirm-note">' + esc(parsed.note) + "</p>" : "")
       + tierBar
       + '<div class="mw-cgrid">'
@@ -1556,6 +1759,10 @@
     if (applyBtn) applyBtn.addEventListener("click", function () { var i = $("mwInstr"); applyInstructions(i ? i.value : ""); });
     var instrInput = $("mwInstr");
     if (instrInput) instrInput.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); applyInstructions(instrInput.value); } });
+    var instrAttach = $("mwInstrAttach");
+    if (instrAttach) instrAttach.addEventListener("click", pickPdf);
+    var instrMic = $("mwInstrMic");
+    if (instrMic && instrInput) wireMic(instrMic, instrInput, $("mwInstrBar"), null);
     $("mwCancelConfirm").addEventListener("click", function () { host.hidden = true; host.innerHTML = ""; });
     $("mwSaveBooklet").addEventListener("click", function () {
       var cats = {};
@@ -1598,6 +1805,7 @@
       renderWallet();
       renderTreatments();
       renderTimeline();
+      if (window.wfRenderWalletChip) window.wfRenderWalletChip();
     });
   }
 

@@ -86,9 +86,13 @@
 
   function linkHTML(link) {
     var active = link.label === "Treatments" ? isBrowseActive() : isActive(link);
+    // Lovable-style: Treatments + Clinics carry a small caret (the
+    // links themselves are unchanged).
+    var caret = (link.label === "Treatments" || link.label === "Clinics")
+      ? ' <span class="nav-caret" aria-hidden="true">▾</span>' : "";
     return '<a href="' + link.href + '"' +
       (active ? ' aria-current="page" class="is-active"' : "") +
-      ">" + link.label + "</a>";
+      ">" + link.label + caret + "</a>";
   }
 
   var desktopLinks = NAV_LINKS.map(linkHTML).join("");
@@ -105,9 +109,14 @@
       '<div class="nav-right">' +
         '<a class="universal-saved" href="/saved"' +
           (path === "/saved" ? ' aria-current="page" class="is-active"' : "") +
-          '><span aria-hidden="true">♡</span> My wellness <b id="universalSavedCount">0</b></a>' +
-        '<a class="btn btn--honey btn--sm universal-join" href="/#subscribe">Join WellFinder</a>' +
+          '><span aria-hidden="true">♡</span> My wellness <b id="universalSavedCount">0</b>' +
+          // Wallet chip: filled by app.js (wfRenderWalletChip) when a
+          // booklet is stored; stays hidden otherwise.
+          '<span class="wallet-chip" id="universalWalletChip" hidden></span></a>' +
+        '<a class="btn universal-join" href="/#subscribe">Join WellFinder</a>' +
       "</div>" +
+      // Mobile strip: amount-only wallet chip beside the hamburger.
+      '<a class="wallet-chip wallet-chip--m" id="universalWalletChipM" href="/saved" hidden></a>' +
       '<button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileMenu">' +
         '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">' +
           '<path d="M4 7h16M4 12h16M4 17h16"/>' +

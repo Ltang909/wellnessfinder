@@ -85,6 +85,51 @@
     if (uni) { uni.textContent = n; uni.hidden = !n; }
   }
 
+  /* ---------- header wallet chip (My WellFinder booklet) ---------- */
+  /* Pool-aware "left" for a stored booklet: standalone categories
+     count (max - used); each shared pool (groupCaps) counts its cap
+     minus its members' combined used, ONCE — pool members are not
+     also counted on their own, and the HCSA is not coverage here.
+     Mirrors the wallet math in saved.js, with the pool double-count
+     removed. */
+  window.wfWalletLeft = function (b) {
+    if (!b || !b.categories) return 0;
+    var pooled = {}, left = 0;
+    (b.groupCaps || []).forEach(function (g) {
+      var usedSum = 0;
+      (g.members || []).forEach(function (m) {
+        pooled[m] = 1;
+        var c = b.categories[m];
+        if (c) usedSum += c.used || 0;
+      });
+      left += Math.max(0, (g.max || 0) - usedSum);
+    });
+    Object.keys(b.categories).forEach(function (k) {
+      if (pooled[k]) return;
+      var c = b.categories[k];
+      left += Math.max(0, (c.max || 0) - (c.used || 0));
+    });
+    return Math.max(0, Math.round(left));
+  };
+  /* Fill the header wallet chips (desktop pill + mobile strip) from
+     the stored booklet; both stay hidden when there is no booklet. */
+  window.wfRenderWalletChip = function () {
+    var chip = document.getElementById("universalWalletChip");
+    var chipM = document.getElementById("universalWalletChipM");
+    if (!chip && !chipM) return;
+    var b = null;
+    try { b = JSON.parse(localStorage.getItem("wf_booklet") || "null"); } catch (_) {}
+    if (!b || !b.categories) {
+      if (chip) chip.hidden = true;
+      if (chipM) chipM.hidden = true;
+      return;
+    }
+    var amt = "$" + window.wfWalletLeft(b).toLocaleString("en-CA");
+    var tier = String(b.tier || b.planName || "").replace(/\s+plan$/i, "").trim();
+    if (chip) { chip.textContent = amt + " left" + (tier ? " · " + tier : ""); chip.hidden = false; }
+    if (chipM) { chipM.textContent = amt + " left"; chipM.hidden = false; }
+  };
+
   /* ---------- mobile nav ---------- */
   function initNav() {
     const toggle = $(".nav-toggle");
@@ -1580,6 +1625,7 @@ if (em) {
     if (window.__wfBooted) return;
     window.__wfBooted = true;
     initNav();
+    if (window.wfRenderWalletChip) window.wfRenderWalletChip();
     initShare();
     initNewsletter();
     updateFavCount();
