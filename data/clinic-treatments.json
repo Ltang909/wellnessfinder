@@ -42740,7 +42740,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/richmond/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42753,7 +42753,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/salmon-arm/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42766,7 +42766,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/st-catharines/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42779,7 +42779,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/stoney-creek/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42792,7 +42792,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/surrey/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42805,7 +42805,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/toronto/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42818,7 +42818,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/vancouver/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42831,7 +42831,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/vernon/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42844,7 +42844,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/waterloo/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42857,7 +42857,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/whitby/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42870,7 +42870,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/white-rock/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42991,7 +42991,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.kochspinecentre.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -43004,7 +43004,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.physiotherapy.clinic/services/page-0",
   "last_verified": "2026-11-01"
  },
  {
@@ -43096,12 +43096,12 @@
   "treatment_id": "kt-massotherapie-sherbrooke--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Karina Tringali",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.massotringali.com/description-des-massages",
   "last_verified": "2026-11-01"
  },
  {
@@ -43132,15 +43132,28 @@
  },
  {
   "clinic_id": "kv-psychology-and-wellness-clinic-saint-john",
+  "treatment_id": "kv-psychology-and-wellness-clinic-saint-john--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No couples therapy fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.kvpsychology.ca/therapy-services/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "kv-psychology-and-wellness-clinic-saint-john",
   "treatment_id": "kv-psychology-and-wellness-clinic-saint-john--neurofeedback",
   "treatment": "Neurofeedback",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Stephanie Lewell",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kvpsychology.ca/kv-neuroptimal-neurofeedback/",
   "last_verified": "2026-11-01"
  },
  {
@@ -43179,7 +43192,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://lafrangecoiffure.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -43250,7 +43263,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lavidaspa.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -43277,13 +43290,26 @@
   "treatment_id": "laird-counselling-services-guelph--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Associate Cindy",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lairdcounsellingservices.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "laird-counselling-services-guelph",
+  "treatment_id": "laird-counselling-services-guelph--sleep-coaching",
+  "treatment": "Sleep Coaching",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No sleep therapy fee is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.lairdcounsellingservices.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "lajoie-counselling-medicine-hat",
@@ -43292,10 +43318,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$125",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://lajoiecounselling.ca/counselling",
   "last_verified": "2026-11-01"
  },
  {
@@ -43464,12 +43490,12 @@
   "treatment_id": "lamella-medical-aesthetics-regina--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Holly Newson, Sayeh Shekari, Carli Pomeroy",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$350",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://lamella.ca/pages/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -43576,7 +43602,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://lavishnailsheadspa.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -43684,7 +43710,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://leadingedgephysio.com/services/sports-physiotherapy/",
   "last_verified": "2026-11-02"
  },
  {
@@ -43744,12 +43770,12 @@
   "treatment_id": "leah-macinnes-therapy-and-consulting-victoria--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Leah MacInnes",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$220 per 55-minute session",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://islandtherapy.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -43757,12 +43783,12 @@
   "treatment_id": "leanie-sexologue-drummondville--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "L\u00e9anie Desroches-Guernon",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$130 virtual / $140 in-office (50 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://leaniesexologue.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -43946,12 +43972,12 @@
   "treatment_id": "legacies-health-centre-surrey--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Roxanne Karadimas",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://legacieshealthcentre.ca/services/lymphatic-drainage/",
   "last_verified": "2026-11-01"
  },
  {
@@ -43996,7 +44022,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sylvaintrudel.com/services/physiotherapie",
   "last_verified": "2026-11-01"
  },
  {
@@ -44009,7 +44035,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://salonlesvoisines.wixsite.com/salonlesvoisines",
   "last_verified": "2026-11-01"
  },
  {
@@ -44111,12 +44137,12 @@
   "treatment_id": "life-care-acupuncture-halifax--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Diana Tong Li",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.fertilityclinicns.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -44129,7 +44155,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://lifetbay.com/services.html",
   "last_verified": "2026-11-01"
  },
  {
@@ -44197,6 +44223,19 @@
  },
  {
   "clinic_id": "lifemark-father-david-bauer-arena-calgary",
+  "treatment_id": "lifemark-father-david-bauer-arena-calgary--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Lifemark does not publish a pelvic health fee for this location, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.lifemark.ca/Father-David-Bauer-Arena",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "lifemark-father-david-bauer-arena-calgary",
   "treatment_id": "lifemark-father-david-bauer-arena-calgary--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
@@ -44205,8 +44244,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/Father-David-Bauer-Arena",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "lifemark-harvey-avenue-kelowna",
+  "treatment_id": "lifemark-harvey-avenue-kelowna--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Lifemark does not publish a shockwave therapy fee for this location, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.lifemark.ca/Harvey-Avenue",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "lifemark-harvey-avenue-kelowna",
@@ -44218,7 +44270,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/Harvey-Avenue",
   "last_verified": "2026-11-01"
  },
  {
@@ -44257,7 +44309,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/nature-park-way",
   "last_verified": "2026-11-01"
  },
  {
@@ -44270,7 +44322,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/amherst/amherst",
   "last_verified": "2026-11-01"
  },
  {
