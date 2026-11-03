@@ -16892,7 +16892,7 @@
   ],
   "price_text": "$175 (60 min)",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://continuumwellness.janeapp.com/locations/continuum-wellness/book",
   "last_verified": "2026-11-01"
  },
@@ -16911,7 +16911,7 @@
   ],
   "price_text": "$180 (90 min)",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.continuumwellness.ca/acupuncture-traditional-chinese-medicine-toronto",
   "last_verified": "2026-11-01"
  },
@@ -16930,7 +16930,7 @@
   ],
   "price_text": "$180 initial (90 min) / $105 follow-up (30 min)",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.continuumwellness.ca/acupuncture-traditional-chinese-medicine-toronto",
   "last_verified": "2026-11-01"
  },
@@ -16949,7 +16949,7 @@
   ],
   "price_text": "$130 (60 min)",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://continuumwellness.janeapp.com/locations/continuum-wellness/book",
   "last_verified": "2026-11-01"
  },
@@ -16968,7 +16968,7 @@
   ],
   "price_text": "$180 (60 min)",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://continuumwellness.janeapp.com/locations/continuum-wellness/book",
   "last_verified": "2026-11-01"
  },
@@ -19514,7 +19514,7 @@
   ],
   "price_text": "$160 initial \u00b7 $130 follow-up",
   "price_source": "No cosmetic acupuncture prices are published on the clinic's own website or rendered on its Jane booking page, so no price is recorded.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://diversifiedhealth.janeapp.com",
   "last_verified": "2026-11-02"
  },
@@ -19533,7 +19533,7 @@
   ],
   "price_text": "$135 initial \u00b7 $125 follow-up",
   "price_source": "No fertility acupuncture prices are published on the clinic's own website or rendered on its Jane booking page, so no price is recorded.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://diversifiedhealth.janeapp.com",
   "last_verified": "2026-11-02"
  },
@@ -19546,7 +19546,7 @@
   "practitioners": [],
   "price_text": "$195 initial \u00b7 $165 follow-up",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.diversifiedhealth.ca/practices-and-treatments/womens-health/",
   "last_verified": "2026-11-01"
  },
@@ -19559,7 +19559,7 @@
   "practitioners": [],
   "price_text": "$80",
   "price_source": "Premise failure - the clinic offers Class IV laser therapy, not red light therapy, so no red light price applies.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.diversifiedhealth.ca/chiropractic-care/what-is-laser-therapy/",
   "last_verified": "2026-11-02"
  },
@@ -19572,7 +19572,7 @@
   "practitioners": [],
   "price_text": "$115",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "http://www.diversifiedhealth.ca/sports-therapy/more-treatment-options-with-modern-technology-physiotherapy-victoria-bc/",
   "last_verified": "2026-11-01"
  },
@@ -19591,7 +19591,7 @@
   ],
   "price_text": "$165 initial \u00b7 $115 follow-up",
   "price_source": "No vestibular rehabilitation prices are published on the clinic's own website or rendered on its Jane booking page, so no price is recorded.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://diversifiedhealth.janeapp.com",
   "last_verified": "2026-11-02"
  },
@@ -20027,7 +20027,7 @@
   ],
   "price_text": "$250",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://dralexdragan.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -20084,7 +20084,7 @@
   ],
   "price_text": "$175",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://dralexdragan.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -20103,7 +20103,7 @@
   ],
   "price_text": "$9 consultation",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://dralexdragan.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -23797,7 +23797,7 @@
   ],
   "price_text": "$140 assessment / $105 follow up",
   "price_source": "No golf assessment fee is published on the clinic's own site; the Jane page rendered practitioner bios only (Jane re-scan queue).",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://foundation.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -23835,7 +23835,7 @@
   ],
   "price_text": "$200",
   "price_source": "The clinic's Jane booking page (foundation.janeapp.com, fetched 2026-11-01) rendered practitioner bios only - no treatment list or fees - and no IV fee is published on the clinic's own naturopathic page; candidate for the Jane re-scan queue.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://foundationkelowna.com/naturopathic-medicine/",
   "last_verified": "2026-11-01"
  },
@@ -23873,7 +23873,7 @@
   ],
   "price_text": "$140 assessment / $105 follow up",
   "price_source": "No vestibular fee is published on the clinic's own site; the clinic's Jane page rendered practitioner bios only - no treatment list or fees (Jane re-scan queue).",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://foundationkelowna.com/vestibularphysiotherapy/",
   "last_verified": "2026-11-01"
  },
@@ -31333,7 +31333,7 @@
   ],
   "price_text": "$180 initial \u00b7 $150 follow-up",
   "price_source": "No cosmetic acupuncture fees are published on the clinic's own website or rendered on its Jane page in text fetch, so no price is recorded; flagged for the Jane re-scan queue.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.glowintegrative.com/acupuncture",
   "last_verified": "2026-11-02"
  },
@@ -31346,7 +31346,7 @@
   "practitioners": [],
   "price_text": "$175-$195 (50 min)",
   "price_source": "No counselling fees are published on the clinic's own website or rendered on its Jane page in text fetch, so no price is recorded; flagged for the Jane re-scan queue.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.glowintegrative.com",
   "last_verified": "2026-11-02"
  },
@@ -31359,7 +31359,7 @@
   "practitioners": [],
   "price_text": "$150 initial \u00b7 $130 follow-up",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.glowintegrative.com/acupuncture",
   "last_verified": "2026-11-01"
  },
@@ -31372,7 +31372,7 @@
   "practitioners": [],
   "price_text": "B12 $65 \u00b7 Vitamin D $85 \u00b7 NAD $95",
   "price_source": "The clinic books on Jane (glowintegrative.janeapp.com); Jane fee lists do not render in text fetch, so no price could be verified this pass - queued for a rendered-browser Jane re-scan. Price is null.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://glowintegrative.janeapp.com",
   "last_verified": "2026-11-02"
  },
@@ -31385,7 +31385,7 @@
   "practitioners": [],
   "price_text": "$245 initial \u00b7 $195 subsequent",
   "price_source": "The clinic books on Jane (glowintegrative.janeapp.com); Jane fee lists do not render in text fetch, so no price could be verified this pass - queued for a rendered-browser Jane re-scan. Price is null.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://glowintegrative.janeapp.com",
   "last_verified": "2026-11-02"
  },
@@ -31404,7 +31404,7 @@
   ],
   "price_text": "$80-$200 (30-90 min)",
   "price_source": "The clinic books on Jane (glowintegrative.janeapp.com); Jane fee lists do not render in text fetch, so no price could be verified this pass - queued for a rendered-browser Jane re-scan. Price is null.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://glowintegrative.janeapp.com",
   "last_verified": "2026-11-02"
  },
@@ -33662,7 +33662,7 @@
   ],
   "price_text": "$135 initial assessment",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://healthglobe.ca/service/cosmetic-acupuncture/",
   "last_verified": "2026-11-01"
  },
@@ -33686,7 +33686,7 @@
   ],
   "price_text": "$90 assessment / $120 follow up",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://healthglobe.ca/iv-im-therapy/",
   "last_verified": "2026-11-01"
  },
@@ -33710,7 +33710,7 @@
   ],
   "price_text": "$120 per session",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://healthglobe.ca/iv-im-therapy/",
   "last_verified": "2026-11-01"
  },
@@ -33729,7 +33729,7 @@
   ],
   "price_text": "$125 per session",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://healthglobe.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -52013,7 +52013,7 @@
   ],
   "price_text": "$175",
   "price_source": "No psychotherapy/couples fee is published on the clinic's own couples therapy page or in the Jane page text extracts read, so price is null.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.metatherapylab.com/couples-therapy",
   "last_verified": "2026-11-01"
  },
@@ -52032,7 +52032,7 @@
   ],
   "price_text": "$30\u2013$90 per injection",
   "price_source": "No IM injection fee is published on the clinic's own site pages read or on its Jane page in text fetch; the published IV drip sit-time fee is for IV drips and was not transferred to IM injections, so price is null.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.metatherapylab.com/nad-drips",
   "last_verified": "2026-11-01"
  },
@@ -52064,7 +52064,7 @@
   "practitioners": [],
   "price_text": "$139",
   "price_source": "No lymphatic drainage fee is published on the clinic's own lymphatic drainage page or on its Jane page in text fetch, so price is null.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.metatherapylab.com/lymphatic-drainage",
   "last_verified": "2026-11-01"
  },
@@ -52090,7 +52090,7 @@
   "practitioners": [],
   "price_text": "$375",
   "price_source": "No microneedling fee is published on the clinic's own site pages read or on its Jane page in text fetch, so price is null.",
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://metalab.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -53703,7 +53703,7 @@
   ],
   "price_text": "$170",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://mosspostpartum.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -53741,7 +53741,7 @@
   ],
   "price_text": "$155 assessment / $120 follow up",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://mosspostpartum.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -53765,7 +53765,7 @@
   ],
   "price_text": "$155 assessment / $120 follow up",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://mosspostpartum.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -53789,7 +53789,7 @@
   ],
   "price_text": "$235",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://mosspostpartum.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -53823,7 +53823,7 @@
   ],
   "price_text": "$185 assessment / $145 follow up",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://mosspostpartum.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -54341,7 +54341,7 @@
   ],
   "price_text": "$125 per session",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.mulberrywellness.ca/lymphatic-drainage-massage",
   "last_verified": "2026-11-01"
  },
@@ -54370,7 +54370,7 @@
   ],
   "price_text": "$115 assessment / $95 follow up",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.mulberrywellness.ca/physiotherapy",
   "last_verified": "2026-11-01"
  },
@@ -54389,7 +54389,7 @@
   ],
   "price_text": "$125 initial assessment",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://mulberry.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -54413,7 +54413,7 @@
   ],
   "price_text": "$115 assessment / $95 follow up",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.mulberrywellness.ca/physiotherapy",
   "last_verified": "2026-11-01"
  },
@@ -72344,7 +72344,7 @@
   ],
   "price_text": "$154 (60 min)",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://rebalancetoronto.com/sports-medicine-services/cosmetic-acupuncture-downtown-toronto/",
   "last_verified": "2026-11-01"
  },
@@ -72363,7 +72363,7 @@
   ],
   "price_text": "$143 initial (60 min) / $102 follow-up (30 min)",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://rebalancetoronto.com/sports-medicine-services/cosmetic-acupuncture-downtown-toronto/",
   "last_verified": "2026-11-01"
  },
@@ -72382,7 +72382,7 @@
   ],
   "price_text": "$147-$152 initial (60 min) / $102-$107 follow-up (30 min)",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://rebalance155university.janeapp.com/locations/rebalance-sports-medicine/book",
   "last_verified": "2026-11-01"
  },
@@ -72426,7 +72426,7 @@
   ],
   "price_text": "$147-$152 initial (60 min) / $102-$107 follow-up (30 min)",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://rebalance155university.janeapp.com/locations/rebalance-sports-medicine/book",
   "last_verified": "2026-11-01"
  },
@@ -72445,7 +72445,7 @@
   ],
   "price_text": "$170 (75 min)",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://rebalancetoronto.com/blog/how-massage-therapy-can-help-with-jaw-pain-and-tmj-dysfunction/",
   "last_verified": "2026-11-01"
  },
@@ -72469,7 +72469,7 @@
   ],
   "price_text": "$147-$152 initial (60 min) / $102-$107 follow-up (30 min)",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://rebalance155university.janeapp.com/locations/rebalance-sports-medicine/book",
   "last_verified": "2026-11-01"
  },
@@ -74280,7 +74280,7 @@
   ],
   "price_text": "$130 assessment / $70 follow up",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://www.revolutionwellnessclinic.ca/",
   "last_verified": "2026-11-01"
  },
@@ -74299,7 +74299,7 @@
   ],
   "price_text": "$130 assessment / $70 follow up",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://revolutionwellnessclinic.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -74323,7 +74323,7 @@
   ],
   "price_text": "$250",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://revolutionwellnessclinic.janeapp.com/",
   "last_verified": "2026-11-01"
  },
@@ -74347,7 +74347,7 @@
   ],
   "price_text": "$150\u2013$230",
   "price_source": null,
-  "price_tier": null,
+  "price_tier": "booking",
   "treatment_link": "https://revolutionwellnessclinic.janeapp.com/",
   "last_verified": "2026-11-01"
  },
