@@ -1330,3 +1330,9 @@ a.tp-list .nc-slot-chip:hover, .tp-list a.nc-slot-chip:hover { text-decoration: 
    it inherited from the standalone .nc-db-yes rule. */
 .tp-list .nc-metaline { display: block; }
 .tp-list .nc-dbseg { background: none; border: none; padding: 0; }
+
+/* Yellow circle chips for live-opening times (Leon): each time becomes a
+   filled yellow badge — the brand yellow returns on the times only. */
+.tp-list .nc-slot-chip { background: #FFCE45; border-radius: 999px; padding: 7px 14px; font-size: .88rem; }
+.tp-list .nc-slot-c { gap: 8px 10px; }
+.tp-list a.nc-slot-chip:hover { background: #FFD65E; text-decoration: none; }
