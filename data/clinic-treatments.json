@@ -25587,13 +25587,39 @@
   "treatment_id": "east-toronto-orthopaedic-and-sports-injury-clinic-toronto--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jessica Dam",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.lifemark.ca/ETO-Danforth",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "east-toronto-orthopaedic-and-sports-injury-clinic-toronto",
+  "treatment_id": "east-toronto-orthopaedic-and-sports-injury-clinic-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the Lifemark location page for this clinic, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.lifemark.ca/ETO-Danforth",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "east-toronto-orthopaedic-and-sports-injury-clinic-toronto",
+  "treatment_id": "east-toronto-orthopaedic-and-sports-injury-clinic-toronto--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the Lifemark location page for this clinic, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.lifemark.ca/ETO-Danforth",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "eastgate-physiotherapy-edmonton",
@@ -25975,7 +26001,7 @@
   "treatment_id": "eglinton-physiotherapy-toronto--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": "Physiotherapy",
-  "practitioner": null,
+  "practitioner": "Andra Schonfeld",
   "practitioners": [],
   "price_text": null,
   "price_source": "No fees are published on the clinic's own website, so no price is recorded.",
@@ -25988,7 +26014,7 @@
   "treatment_id": "eglinton-physiotherapy-toronto--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Andra Schonfeld",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
@@ -26511,7 +26537,7 @@
   "treatment_id": "emdr-kw-counselling-waterloo--neurofeedback",
   "treatment": "Neurofeedback",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Gulin Aydin",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
@@ -26573,6 +26599,45 @@
  },
  {
   "clinic_id": "emerald-wellness-and-medical-centre-edmonton",
+  "treatment_id": "emerald-wellness-and-medical-centre-edmonton--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Medicine",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Botox price is published on the clinic's own website (consultations are stated to be free), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://emeraldwellness.ca/medispa-treatments",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "emerald-wellness-and-medical-centre-edmonton",
+  "treatment_id": "emerald-wellness-and-medical-centre-edmonton--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Medicine",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No microneedling price is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://emeraldwellness.ca/microneedling",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "emerald-wellness-and-medical-centre-edmonton",
+  "treatment_id": "emerald-wellness-and-medical-centre-edmonton--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Medicine",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No red light / low-level laser therapy prices are published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://emeraldwellness.ca/light-therapy",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "emerald-wellness-and-medical-centre-edmonton",
   "treatment_id": "emerald-wellness-and-medical-centre-edmonton--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
@@ -26610,7 +26675,7 @@
   "billed_as": "Massage Therapy / Osteopathy",
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$20/session (treatment add-on)",
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://empowerphysioyeg.com",
@@ -26666,7 +26731,7 @@
   "treatment_id": "encompass-sports-therapy-calgary--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": "Physiotherapy",
-  "practitioner": null,
+  "practitioner": "Muge Browning",
   "practitioners": [],
   "price_text": null,
   "price_source": "No pelvic floor fee is published on the clinic's own site, fetched 2026-11-02.",
@@ -26692,7 +26757,7 @@
   "treatment_id": "encompass-sports-therapy-calgary--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": "Physiotherapy",
-  "practitioner": null,
+  "practitioner": "Sarah Chambers; Muge Browning",
   "practitioners": [],
   "price_text": null,
   "price_source": "No vestibular fee is published on the clinic's own vestibular page, fetched 2026-11-02.",
@@ -26814,7 +26879,7 @@
     "as_recorded": "Carm, RN (Nurse Practitioner) \u2014 founder of Enhance; the clinic's homepage presents '(RN) Carm, Founder of Enhance Vitamins & Registered Nurse', and its Jane bio describes her as a nurse practitioner with dual registration in the U.S. and Ontario and 6+ years as a Registered Nurse, specializing in IV vitamin infusions. Published first-name-only, so the ID is built from the first name per SCHEMA."
    }
   ],
-  "price_text": null,
+  "price_text": "$60 - $70 (vitamin injections)",
   "price_source": "No injection prices are published on the clinic's own site and its Jane 'Vitamin Injections' category did not render prices in the extracts fetched 2026-11-02; price null (Jane re-scan candidate).",
   "price_tier": null,
   "treatment_link": "https://enhancevitamins.com",
@@ -26827,11 +26892,24 @@
   "billed_as": null,
   "practitioner": "Carm, RN",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$240 (Myers Wellness) \u00b7 $288 (Detox / Beauty & Energy) \u00b7 $300 (Hangover Cure) \u00b7 $600 (NAD+)",
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://enhancevitamins.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "enhanced-medical-aesthetics-st-albert",
+  "treatment_id": "enhanced-medical-aesthetics-st-albert--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Nursing",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$10 per unit (Botox/Dysport) + $150 injection fee",
+  "price_source": "Price published on the clinic's own website Botox page (enhancedaesthetics.ca/botox.html): 'Botox / Dysport - $10 per unit' and 'Injection Fee - $150'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.enhancedaesthetics.ca/botox.html",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "enhanced-medical-aesthetics-st-albert",
@@ -26886,6 +26964,32 @@
  },
  {
   "clinic_id": "enlighten-alternative-awareness-and-healing-fredericton",
+  "treatment_id": "enlighten-alternative-awareness-and-healing-fredericton--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Clinic's Noterro booking page for Cosmetic Acupuncture Treatment states treatment plans are required and 'prices are depended on the plan purchased' / book a consultation; no fee is published, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://enlighten.noterro.com/service/60071/Cosmetic-Acupuncture-Treatment",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "enlighten-alternative-awareness-and-healing-fredericton",
+  "treatment_id": "enlighten-alternative-awareness-and-healing-fredericton--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No facial gua sha / gua sha fee is published on the clinic's own site or Noterro booking pages read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.enlightenfredericton.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "enlighten-alternative-awareness-and-healing-fredericton",
   "treatment_id": "enlighten-alternative-awareness-and-healing-fredericton--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
   "billed_as": null,
@@ -26896,6 +27000,19 @@
   "price_tier": null,
   "treatment_link": "https://www.enlightenfredericton.com/acupuncture--natural-medicine.html",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "enlighten-alternative-awareness-and-healing-fredericton",
+  "treatment_id": "enlighten-alternative-awareness-and-healing-fredericton--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Clinic's Noterro booking page for Microneedling - Hair regrowth states 'Pricing varies depending on package chosen... Contact us for pricing options'; no fee is published on the homepage either, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://enlighten.noterro.com/service/65949/Microneedling-Hair-regrowth",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "enlighten-alternative-awareness-and-healing-fredericton-fredericton",
@@ -27199,6 +27316,25 @@
  },
  {
   "clinic_id": "eramosa-physiotherapy-guelph",
+  "treatment_id": "eramosa-physiotherapy-guelph--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Jacqueline Zwambag",
+  "practitioners": [
+   {
+    "id": "eramosa-physiotherapy-guelph--jacqueline-zwambag",
+    "name": "Jacqueline Zwambag",
+    "as_recorded": "Jacqueline Zwambag, Registered Physiotherapist / Certified Pilates Instructor / EPA Shoulder Lead Associate, BSc Hon (HK) (University of Guelph), MSc (PT) (McMaster University, 2013), IDN - Guelph - Bullfrog Mall, listed in 'Meet our Team' on the clinic's Physio Pilates page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No Physio Pilates fee is published on the clinic's own site or booking portal in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://eramosaphysio.com/services/physio-pilates/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "eramosa-physiotherapy-guelph",
   "treatment_id": "eramosa-physiotherapy-guelph--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
@@ -27212,10 +27348,29 @@
  },
  {
   "clinic_id": "eramosa-physiotherapy-guelph",
+  "treatment_id": "eramosa-physiotherapy-guelph--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Bushra Makani",
+  "practitioners": [
+   {
+    "id": "eramosa-physiotherapy-guelph--bushra-makani",
+    "name": "Bushra Makani",
+    "as_recorded": "Bushra Makani, Registered Physiotherapist / Shockwave Therapy Lead Associate, BSc (PT) (D.Y. Patil University, Mumbai, 2017) - Guelph - Bullfrog Mall, listed under 'Meet our Physiotherapists' on the clinic's Shockwave Therapy page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own site or booking portal in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://eramosaphysio.com/services/shockwave-therapy/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "eramosa-physiotherapy-guelph",
   "treatment_id": "eramosa-physiotherapy-guelph--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": "Physiotherapy",
-  "practitioner": null,
+  "practitioner": "David Ross",
   "practitioners": [],
   "price_text": null,
   "price_source": "No vestibular fees are published on the clinic's own site, fetched 2026-11-02.",
@@ -27267,6 +27422,19 @@
   "price_tier": null,
   "treatment_link": "https://www.espacehera.com/pelvic-floor-physiotherapy",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "essence-medical-grand-falls-windsor",
+  "treatment_id": "essence-medical-grand-falls-windsor--cryotherapy",
+  "treatment": "Cryotherapy",
+  "billed_as": "Nursing",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No cryotherapy price is published on the clinic's own website pages read, and its Jane booking page could not be opened in this pass (HTTP 429, not retried), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.essencemedicalnl.ca/medical-treatments",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "essence-medical-grand-falls-windsor",
@@ -27332,6 +27500,19 @@
   "price_tier": null,
   "treatment_link": "https://essenceofhealthclinic.ca/iv-therapy-hamilton",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "essence-of-health-clinic-hamilton",
+  "treatment_id": "essence-of-health-clinic-hamilton--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Nursing",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No microneedling price is published on the clinic's own website pages read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://essenceofhealthclinic.ca/main-services",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "essence-wellness-clinic-mahogany-calgary",
@@ -28059,7 +28240,7 @@
   "billed_as": null,
   "practitioner": "Wendy Pearson, RP",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$200 per hour",
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://evolvegroupinc.net/services",
@@ -28070,7 +28251,7 @@
   "treatment_id": "evolve-therapeutic-richmond--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
   "billed_as": "Acupuncture",
-  "practitioner": null,
+  "practitioner": "Alvin Yu",
   "practitioners": [],
   "price_text": null,
   "price_source": "No cosmetic acupuncture fee is published on the clinic's own site, and its Jane booking page rendered no prices in text fetch, so no price is recorded; flagged for the Jane re-scan queue.",
@@ -28344,7 +28525,7 @@
   "treatment_id": "fairvale-physiotherapy-pt-health-rothesay--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jonathan Knight",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
@@ -29135,6 +29316,25 @@
   "last_verified": "2026-11-02"
  },
  {
+  "clinic_id": "flow-spa-peterborough",
+  "treatment_id": "flow-spa-peterborough--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Jessica Vautour, RMT",
+  "practitioners": [
+   {
+    "as_recorded": "Jessica Vautour, RMT",
+    "id": "flow-spa-peterborough--jessica-vautour",
+    "name": "Jessica Vautour"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's massage page publishes TMJ session lengths (30 to 90 minutes) but its prices sit on a separate pricing page that was not captured, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://flowspa.ca/massage-therapy",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "flow-yeg-edmonton",
   "treatment_id": "flow-yeg-edmonton--couples-therapy",
   "treatment": "Couples Therapy",
@@ -29438,7 +29638,7 @@
   "billed_as": null,
   "practitioner": "Maggie Keats, RMT",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "RMT rates: 30 minutes $100 / 45 minutes $120 / 60 minutes $145 (HST included)",
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://forhealthssake.ca/physiotherapy-treatments/lymphatic-drainage-massage/",
@@ -30174,7 +30374,7 @@
   "treatment_id": "freedom-massage-and-lymphedema-clinic-barrie--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jackie Mungal, RMT, CLT",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
@@ -30351,12 +30551,31 @@
  },
  {
   "clinic_id": "function101-chiro-physio-hamilton",
+  "treatment_id": "function101-chiro-physio-hamilton--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Sabrina Dasouki, MScPT",
+  "practitioners": [
+   {
+    "as_recorded": "Sabrina Dasouki, MScPT",
+    "id": "function101-chiro-physio-hamilton--sabrina-dasouki",
+    "name": "Sabrina Dasouki"
+   }
+  ],
+  "price_text": "Women's Pelvic Health Initial Assessment (60 minutes) $155",
+  "price_source": "Clinic's own services page rates section (function101.ca/services/) lists a Women's Pelvic Health Initial Assessment (60 minutes) at $155.",
+  "price_tier": "website",
+  "treatment_link": "https://function101.ca/services/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "function101-chiro-physio-hamilton",
   "treatment_id": "function101-chiro-physio-hamilton--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "No separate shockwave fee; delivered within chiropractic/physiotherapy sessions: initial assessment (60 min) $140, follow-ups 20 min $75 / 30 min $95 / 45 min $120 / 60 min $165",
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://function101.ca/services/chiropractic-physiotherapy-rehabilitation-hamilton-locke-street/",
@@ -30367,9 +30586,9 @@
   "treatment_id": "function101-chiro-physio-hamilton--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": "Physiotherapy",
-  "practitioner": null,
+  "practitioner": "Sabrina Dasouki, MScPT",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Initial assessment (60 min) $140 (physiotherapy rate; no separate vestibular fee published)",
   "price_source": "The clinic's Jane booking page (function101.janeapp.com) lists its disciplines in the search extract without prices, and no fee schedule is published on its website, so no price is recorded; flagged for the Jane re-scan queue.",
   "price_tier": null,
   "treatment_link": "https://function101.ca/services/chiropractic-physiotherapy-rehabilitation-hamilton-locke-street/",
@@ -31036,6 +31255,19 @@
   "last_verified": "2026-11-02"
  },
  {
+  "clinic_id": "golf-rehabilitation-and-physiotherapy-moncton",
+  "treatment_id": "golf-rehabilitation-and-physiotherapy-moncton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No prices published on the practice's websites (search extracts), so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.monctonphysiotherapist.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "golf-rehabilitation-physiotherapy-moncton",
   "treatment_id": "golf-rehabilitation-physiotherapy-moncton--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
@@ -31349,7 +31581,7 @@
   "treatment_id": "great-lakes-wellness-co-sarnia--neurofeedback",
   "treatment": "Neurofeedback",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Robyn Kopriva",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
@@ -31381,6 +31613,19 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://greatnorthphysio.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "great-north-physiotherapy-niagara-on-the-lake",
+  "treatment_id": "great-north-physiotherapy-niagara-on-the-lake--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No prices published on the clinic's website (search extracts), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://greatnorthphysio.ca/physiotherapy-services",
   "last_verified": "2026-11-02"
  },
  {
