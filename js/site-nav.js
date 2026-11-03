@@ -125,10 +125,13 @@
     "</nav></div>" +
     '<div class="mobile-menu" id="mobileMenu">' + mobileLinks + "</div>";
 
-  // Saved-count badge: the unified wf_favourites store.
+  // Saved-count badge: the unified wf_favourites store, minus
+  // archived items (wf_archived) — archived saves are not active.
   var count = 0;
   try {
-    count = (JSON.parse(localStorage.getItem("wf_favourites")) || []).length;
+    var favs0 = JSON.parse(localStorage.getItem("wf_favourites")) || [];
+    var arch0 = JSON.parse(localStorage.getItem("wf_archived")) || [];
+    count = favs0.filter(function (x) { return arch0.indexOf(x) === -1; }).length;
   } catch (_) {}
   var badge = document.getElementById("universalSavedCount");
   badge.textContent = count;

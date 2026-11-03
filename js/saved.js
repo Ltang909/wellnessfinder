@@ -152,13 +152,66 @@
     if (!b || !b.categories[cat]) return 0;
     return Math.max(0, (b.categories[cat].max || 0) - (b.categories[cat].used || 0));
   }
+  /* ---------- shared pools (groupCaps) + claimable math ---------- */
+  function groupOfCat(b, cat) {
+    if (!b || !b.groupCaps) return null;
+    for (var i = 0; i < b.groupCaps.length; i++) {
+      if ((b.groupCaps[i].members || []).indexOf(cat) > -1) return b.groupCaps[i];
+    }
+    return null;
+  }
+  function poolUsed(b, g) {
+    return (g.members || []).reduce(function (s, m) {
+      return s + ((b.categories[m] || {}).used || 0);
+    }, 0);
+  }
+  function poolLeft(b, g) { return Math.max(0, (g.max || 0) - poolUsed(b, g)); }
+  /* What a category can actually still pay: its own remaining cap,
+     limited by what's left in its shared pool when it has one. */
+  function claimable(b, cat) {
+    if (!b || !b.categories[cat]) return 0;
+    var g = groupOfCat(b, cat);
+    return g ? Math.min(catLeft(b, cat), poolLeft(b, g)) : catLeft(b, cat);
+  }
+  function poolShortLabel(g) {
+    return String(g.label || "Shared pool").replace(/\s+services combined$/i, " pool").replace(/\s+combined$/i, " pool").replace(/^Mental health/i, "Mental-health");
+  }
+  /* Distinct totals: standalone categories count (max − used); each
+     shared pool counts ONCE. Matches wfWalletLeft() in app.js. */
   function bookletTotals(b) {
-    var max = 0, left = 0;
+    var pooled = {}, max = 0, left = 0;
+    (b.groupCaps || []).forEach(function (g) {
+      (g.members || []).forEach(function (m) { pooled[m] = 1; });
+      max += g.max || 0;
+      left += poolLeft(b, g);
+    });
     Object.keys(b.categories).forEach(function (k) {
+      if (pooled[k]) return;
       max += b.categories[k].max || 0;
       left += catLeft(b, k);
     });
     return { max: max, left: left };
+  }
+
+  /* ---------- archive (wf_archived) ---------- */
+  var ARCH_KEY = "wf_archived";
+  function archived() {
+    try { return JSON.parse(localStorage.getItem(ARCH_KEY)) || []; } catch (_) { return []; }
+  }
+  function setArchived(a) { storeSet(ARCH_KEY, JSON.stringify(a)); }
+  function isArchived(n) { return archived().indexOf(n) > -1; }
+  function activeFavs() {
+    var a = archived();
+    return favs().filter(function (n) { return a.indexOf(n) < 0; });
+  }
+  function archiveItem(n) {
+    var a = archived();
+    if (a.indexOf(n) < 0) { a.push(n); setArchived(a); }
+  }
+  function unarchiveItem(n) {
+    var a = archived();
+    var i = a.indexOf(n);
+    if (i > -1) { a.splice(i, 1); setArchived(a); }
   }
   function resetDate(b) {
     if (!b || !b.resetsISO) return null;
@@ -296,7 +349,7 @@
       (byName[item.clinic.name] = byName[item.clinic.name] || []).push(item);
     });
     clinicVMs = [];
-    favs().forEach(function (name) {
+    activeFavs().forEach(function (name) {
       if (treatmentByName(name)) return;
       var entries = byName[name];
       if (!entries) return;
@@ -327,7 +380,7 @@
     var best = 0;
     vm.treatments.forEach(function (tn) {
       var cat = treatmentCategory(treatmentByName(tn));
-      if (cat) best = Math.max(best, catLeft(b, cat));
+      if (cat) best = Math.max(best, claimable(b, cat));
     });
     return best;
   }
@@ -724,14 +777,17 @@
     var r = resetDate(b);
     var pct = totals.max > 0 ? Math.round((totals.left / totals.max) * 100) : 0;
     var covYear = r ? (r.getMonth() === 0 && r.getDate() === 1 ? r.getFullYear() - 1 : r.getFullYear()) : new Date().getFullYear();
+    var pooled = !!(b.groupCaps && b.groupCaps.length);
     host.innerHTML =
       '<div class="mw-hero"><div class="mw-hero-flex"><div class="mw-hero-main">'
       + '<p class="mw-eyebrow">Your benefits wallet · ' + esc(b.insurer || "Your plan") + (b.planName ? " " + esc(b.planName) : "") + "</p>"
-      + '<div><span class="mw-hero-amt">' + money(totals.left) + '</span> <span class="mw-hero-sub">left of <b>' + money(totals.max) + "</b> in " + covYear + " coverage</span>"
+      + '<div><span class="mw-hero-amt">' + money(totals.left) + '</span> <span class="mw-hero-sub">'
+      + (pooled ? "distinct coverage left in " + covYear + "</span>" : 'left of <b>' + money(totals.max) + "</b> in " + covYear + " coverage</span>")
       + (days != null && r ? '<span class="mw-dayschip">' + days + " days left · resets " + fmtDate(r) + "</span>" : "")
       + "</div>"
       + '<div class="mw-hero-bar"><i style="width:' + pct + '%"></i></div>'
-      + '<p class="mw-hero-note">' + pct + "% of your coverage is still unused" + (r && days != null && days <= 120 ? " — and unused amounts don't roll over." : ".") + "</p>"
+      + '<p class="mw-hero-note">' + pct + "% of your coverage is still unused" + (r && days != null && days <= 120 ? " — and unused amounts don't roll over." : ".")
+      + (pooled ? " Counted honestly: shared pools are counted once, so this is the real total your plan can still pay." : "") + "</p>"
       + (b.hcsa && b.hcsa.max > 0 ? '<p class="mw-hero-hcsa">🏦 Health Spending Account: <b>' + money(Math.max(0, b.hcsa.max - (b.hcsa.used || 0))) + '</b> available — separate from the categories above, for any eligible expense.</p>' : "")
       + '<div class="mw-hero-links"><button type="button" id="mwNewerBtn">Upload a newer PDF</button><button type="button" id="mwEditBtn">Edit amounts</button><button type="button" id="mwRemoveBtn">Remove booklet</button></div>'
       + (parseStatusMsg ? '<p class="mw-parse-status">' + esc(parseStatusMsg) + "</p>" : "")
@@ -814,67 +870,154 @@
   }
 
   /* ---------- wallet cards ---------- */
+  function wcardTag(left, max) {
+    if (left <= 0) return '<span class="mw-tag mw-tag-used">Used up</span>';
+    if (left >= (max || 0)) return '<span class="mw-tag mw-tag-full">Untouched</span>';
+    if (max > 0 && Math.round((left / max) * 100) <= 25) return '<span class="mw-tag mw-tag-low">Running low</span>';
+    return "";
+  }
+  function pinChips(b, savedTx, catName, color) {
+    return savedTx.filter(function (t) { return treatmentCategory(t) === catName; })
+      .map(function (t) { return '<span class="mw-txtag"><span class="mw-dot" style="background:' + color + '"></span>' + esc(t.name) + " ♥</span>"; }).join("");
+  }
+  function standaloneCardHTML(b, name, savedTx) {
+    var meta = catMeta(name);
+    var cc = b.categories[name];
+    var left = catLeft(b, name);
+    var pctLeft = cc.max > 0 ? Math.round((left / cc.max) * 100) : 0;
+    var pins = pinChips(b, savedTx, name, meta.color);
+    var pinHtml = pins
+      ? pins
+      : (left <= 0
+        ? '<p class="none">Back ' + (resetDate(b) ? fmtDate(resetDate(b)) : "next plan year") + "</p>"
+        : '<p class="none">No saved treatments yet</p>');
+    return '<div class="mw-wcard' + (left <= 0 ? " usedup" : "") + '">'
+      + '<p class="mw-wcard-head"><span class="mw-dot" style="background:' + meta.color + '"></span>' + esc(name)
+      + '<span class="mw-badge mw-badge-own">Own budget</span></p>'
+      + '<div class="mw-wamt">' + money(left) + "</div>"
+      + '<p class="mw-wsub">' + (cc.pct != null ? cc.pct + "% covered · up to " + money(cc.max || 0) + "/yr" : "left of " + money(cc.max || 0) + " max") + "</p>"
+      + '<div class="mw-covbar"><i class="' + (pctLeft <= 25 && left > 0 ? "low" : "") + '" style="width:' + pctLeft + '%"></i></div>'
+      + wcardTag(left, cc.max)
+      + '<div class="mw-pinrow"><p>Saved here</p>' + pinHtml + "</div>"
+      + "</div>";
+  }
+  function poolCardHTML(b, g, savedTx) {
+    var members = g.members || [];
+    var used = poolUsed(b, g);
+    var left = poolLeft(b, g);
+    var pctLeft = g.max > 0 ? Math.round((left / g.max) * 100) : 0;
+    var pct = g.pct != null ? g.pct : null;
+    if (pct == null) {
+      for (var i = 0; i < members.length; i++) {
+        var mc0 = b.categories[members[i]];
+        if (mc0 && mc0.pct != null) { pct = mc0.pct; break; }
+      }
+    }
+    var firstMeta = catMeta(members[0] || g.label);
+    var subCaps = members.map(function (m) { return b.categories[m]; })
+      .filter(function (cc) { return cc && !cc.sharedPool && (cc.max || 0) > 0; })
+      .map(function (cc) { return cc.max; });
+    var uniformSub = subCaps.length && subCaps.every(function (v) { return v === subCaps[0]; }) ? subCaps[0] : null;
+    var usedParts = members.filter(function (m) { return ((b.categories[m] || {}).used || 0) > 0; })
+      .map(function (m) { return esc(m) + " " + money((b.categories[m] || {}).used || 0); });
+    var rows = members.map(function (m) {
+      var meta = catMeta(m);
+      var cc = b.categories[m] || {};
+      var mUsed = cc.used || 0;
+      var ownCap = (!cc.sharedPool && (cc.max || 0) > 0) ? cc.max : null;
+      var ownLeft = ownCap != null ? Math.max(0, ownCap - mUsed) : null;
+      var eff = claimable(b, m);
+      var sub = ownCap != null
+        ? money(ownLeft) + " of its " + money(ownCap) + " cap left"
+        : "no per-service limit — draws on the pool";
+      var pins = pinChips(b, savedTx, m, meta.color);
+      return '<div class="mw-mrow"><span class="mw-dot" style="background:' + meta.color + '"></span>'
+        + '<span class="mw-mmain"><span class="mw-mname">' + esc(m) + '</span>'
+        + '<span class="mw-msub">' + (mUsed > 0 ? money(mUsed) + " used · " : "") + sub + "</span></span>"
+        + '<span class="mw-meff">' + money(eff) + "<small>claimable</small></span></div>"
+        + (pins ? '<div class="mw-mpins">' + pins + "</div>" : "");
+    }).join("");
+    var anyPins = members.some(function (m) {
+      return savedTx.some(function (t) { return treatmentCategory(t) === m; });
+    });
+    return '<div class="mw-wcard mw-poolcard' + (left <= 0 ? " usedup" : "") + '">'
+      + '<p class="mw-wcard-head"><span class="mw-dot" style="background:' + firstMeta.color + '"></span>' + esc(g.label)
+      + '<span class="mw-badge mw-badge-pool">Shared pool</span></p>'
+      + '<div class="mw-wamt">' + money(left) + "</div>"
+      + '<p class="mw-wsub">left of ' + money(g.max || 0) + " combined per year" + (pct != null ? " · " + pct + "% covered" : "") + "</p>"
+      + '<div class="mw-covbar"><i class="' + (pctLeft <= 25 && left > 0 ? "low" : "") + '" style="width:' + pctLeft + '%"></i></div>'
+      + wcardTag(left, g.max)
+      + '<p class="mw-poolused">' + (used > 0
+          ? money(used) + " used so far" + (usedParts.length ? " — " + usedParts.join(" · ") : "")
+          : "Nothing used yet") + "</p>"
+      + (subCaps.length ? '<p class="mw-wshare">' + (uniformSub != null
+          ? "Each service also capped at " + money(uniformSub) + " on its own"
+          : "Each service also has its own yearly cap — see its row") + "</p>" : "")
+      + (anyPins ? '<div class="mw-pinrow"><p>Saved here — these draw on this pool</p></div>' : "")
+      + '<div class="mw-mrows">' + rows + "</div>"
+      + '<p class="mw-poolrule">However you split it, the plan pays at most ' + money(g.max || 0) + " across all " + members.length + " services"
+      + (uniformSub != null ? " — and at most " + money(uniformSub) + " for any one" : "") + ".</p>"
+      + "</div>";
+  }
   function renderWalletCards() {
     var host = $("mwWalletCards");
     if (!host) return;
     var b = booklet();
     if (!b) { host.innerHTML = ""; return; }
-    var savedTx = favs().map(treatmentByName).filter(Boolean);
+    var savedTx = activeFavs().map(treatmentByName).filter(Boolean);
+    var groups = b.groupCaps || [];
+    var memberOf = {};
+    groups.forEach(function (g) {
+      (g.members || []).forEach(function (m) { if (!memberOf[m]) memberOf[m] = g; });
+    });
     var order = MW_CATS.map(function (c) { return c.name; });
     Object.keys(b.categories).forEach(function (k) { if (order.indexOf(k) < 0) order.push(k); });
-    var cards = order.filter(function (name) { return b.categories[name]; }).map(function (name) {
-      var meta = catMeta(name);
-      var cc = b.categories[name];
-      var left = Math.max(0, (cc.max || 0) - (cc.used || 0));
-      var pctLeft = cc.max > 0 ? Math.round((left / cc.max) * 100) : 0;
-      var tag = "";
-      if (left <= 0) tag = '<span class="mw-tag mw-tag-used">Used up</span>';
-      else if (left >= (cc.max || 0)) tag = '<span class="mw-tag mw-tag-full">Untouched</span>';
-      else if (pctLeft <= 25) tag = '<span class="mw-tag mw-tag-low">Running low</span>';
-      var pins = savedTx.filter(function (t) { return treatmentCategory(t) === name; });
-      var pinHtml = pins.length
-        ? pins.map(function (t) { return '<span class="mw-txtag"><span class="mw-dot" style="background:' + meta.color + '"></span>' + esc(t.name) + " ♥</span>"; }).join("")
-        : (left <= 0
-          ? '<p class="none">Back ' + (resetDate(b) ? fmtDate(resetDate(b)) : "next plan year") + "</p>"
-          : '<p class="none">No saved treatments yet</p>');
-      var shareNote = "";
-      (b.groupCaps || []).forEach(function (g) {
-        if ((g.members || []).indexOf(name) > -1 && g.members.length > 1) {
-          var others = g.members.filter(function (x) { return x !== name; });
-          shareNote = '<p class="mw-wshare">Shares a ' + money(g.max) + " pool with " + esc(others.join(", ")) + "</p>";
-        }
-      });
-      return '<div class="mw-wcard' + (left <= 0 ? " usedup" : "") + '">'
-        + '<p class="mw-wcard-head"><span class="mw-dot" style="background:' + meta.color + '"></span>' + esc(name) + "</p>"
-        + '<div class="mw-wamt">' + money(left) + "</div>"
-        + '<p class="mw-wsub">' + (cc.pct != null ? cc.pct + "% covered · up to " + money(cc.max || 0) + "/yr" : "left of " + money(cc.max || 0) + " max") + "</p>"
-        + shareNote
-        + '<div class="mw-covbar"><i class="' + (pctLeft <= 25 && left > 0 ? "low" : "") + '" style="width:' + pctLeft + '%"></i></div>'
-        + tag
-        + '<div class="mw-pinrow"><p>Saved here</p>' + pinHtml + "</div>"
-        + "</div>";
-    }).join("");
+    groups.forEach(function (g) {
+      (g.members || []).forEach(function (m) { if (order.indexOf(m) < 0) order.push(m); });
+    });
+    var renderedGroups = {};
+    var cards = "";
+    var breakdown = [];
+    order.forEach(function (name) {
+      var g = memberOf[name];
+      if (g) {
+        if (renderedGroups[g.label]) return;
+        renderedGroups[g.label] = 1;
+        cards += poolCardHTML(b, g, savedTx);
+        breakdown.push({ label: poolShortLabel(g), left: poolLeft(b, g) });
+      } else if (b.categories[name]) {
+        cards += standaloneCardHTML(b, name, savedTx);
+        breakdown.push({ label: name, left: catLeft(b, name) });
+      }
+    });
+    groups.forEach(function (g) {
+      if (renderedGroups[g.label]) return;
+      renderedGroups[g.label] = 1;
+      cards += poolCardHTML(b, g, savedTx);
+      breakdown.push({ label: poolShortLabel(g), left: poolLeft(b, g) });
+    });
     var hcsaCard = "";
     if (b.hcsa && b.hcsa.max > 0) {
       var hLeft = Math.max(0, b.hcsa.max - (b.hcsa.used || 0));
       var hPct = Math.round((hLeft / b.hcsa.max) * 100);
-      var hTag = hLeft <= 0 ? '<span class="mw-tag mw-tag-used">Used up</span>'
-        : (hLeft >= b.hcsa.max ? '<span class="mw-tag mw-tag-full">Untouched</span>'
-        : (hPct <= 25 ? '<span class="mw-tag mw-tag-low">Running low</span>' : ""));
       hcsaCard = '<div class="mw-wcard mw-hcsa-card' + (hLeft <= 0 ? " usedup" : "") + '">'
         + '<p class="mw-wcard-head"><span class="mw-dot" style="background:#C77F1A"></span>Health Spending Account</p>'
         + '<div class="mw-wamt">' + money(hLeft) + "</div>"
         + '<p class="mw-wsub">of ' + money(b.hcsa.max) + " HCSA</p>"
         + '<div class="mw-covbar"><i class="' + (hPct <= 25 && hLeft > 0 ? "low" : "") + '" style="width:' + hPct + '%"></i></div>'
-        + hTag
+        + wcardTag(hLeft, b.hcsa.max)
         + '<div class="mw-pinrow"><p>Flexible money</p><p class="none">Use for any eligible expense — including the part your plan doesn\'t pay.</p></div>'
         + "</div>";
     }
-    var groupNotes = (b.groupCaps || []).map(function (g) {
-      return '<p class="mw-groupnote">ⓘ ' + esc(g.label) + ": <b>" + money(g.max) + "</b>/yr shared maximum across " + esc((g.members || []).join(", ")) + ".</p>";
-    }).join("");
+    var totals = bookletTotals(b);
+    var strip = "";
+    if (groups.length && breakdown.length) {
+      strip = '<div class="mw-breakdown"><p><b>How the ' + money(totals.left) + " adds up:</b> "
+        + breakdown.map(function (p) { return esc(p.label) + " " + money(p.left); }).join(" + ")
+        + " = " + money(totals.left) + " distinct coverage left</p></div>";
+    }
     host.innerHTML = ((cards || hcsaCard) ? '<div class="mw-wallet-grid">' + cards + hcsaCard + "</div>" : "")
-      + groupNotes
+      + strip
       + '<p class="mw-qual">Balances come from the benefits booklet (PDF) you uploaded, stored only on this device. Amounts may be covered by your plan — confirm with ' + esc(b.insurer || "your insurer") + " before booking.</p>";
   }
 
@@ -887,8 +1030,8 @@
       return treatmentCategory(t) === cat && usedTx.indexOf(t.name) < 0;
     });
     candidates.sort(function (a, c) {
-      var sa = favs().indexOf(a.name) > -1 ? 0 : 1;
-      var sc = favs().indexOf(c.name) > -1 ? 0 : 1;
+      var sa = activeFavs().indexOf(a.name) > -1 ? 0 : 1;
+      var sc = activeFavs().indexOf(c.name) > -1 ? 0 : 1;
       return sa - sc;
     });
     var all = allClinics();
@@ -908,8 +1051,8 @@
         return vm;
       }).filter(function (vm) { return vm.price && vm.price > 0; });
       vms.sort(function (a, c) {
-        var sa = favs().indexOf(a.name) > -1 ? 0 : 1;
-        var sc = favs().indexOf(c.name) > -1 ? 0 : 1;
+        var sa = activeFavs().indexOf(a.name) > -1 ? 0 : 1;
+        var sc = activeFavs().indexOf(c.name) > -1 ? 0 : 1;
         return sa - sc || (a.distKm - c.distKm) || ((c.rating ? c.rating[0] : 0) - (a.rating ? a.rating[0] : 0));
       });
       if (!vms.length) continue;
@@ -956,7 +1099,7 @@
     if (!b) { host.innerHTML = ""; return; }
     var days = daysToReset(b);
     var r = resetDate(b);
-    var cats = Object.keys(b.categories).map(function (k) { return { name: k, left: catLeft(b, k) }; })
+    var cats = Object.keys(b.categories).map(function (k) { return { name: k, left: claimable(b, k) }; })
       .filter(function (c) { return c.left > 0; })
       .sort(function (a, c) { return c.left - a.left; });
     var tl = { hcsaLeft: b.hcsa ? Math.max(0, b.hcsa.max - (b.hcsa.used || 0)) : 0, groupLeft: {}, groupOf: {} };
@@ -1517,7 +1660,11 @@
   function confirmPlanData() {
     var p = confirmCtx.parsed;
     if (p.tiers) return p.tiers.plans[confirmCtx.tier] || { categories: {}, groupCaps: [], hcsa: {} };
-    return { categories: p.categories || {}, groupCaps: p.groupCaps || [], hcsa: p.hcsa || null };
+    return {
+      categories: p.categories || {},
+      groupCaps: p.groupCaps || (p._stored && p._stored.groupCaps) || [],
+      hcsa: p.hcsa || null
+    };
   }
   function harvestUsed() {
     var host = $("mwConfirm");
@@ -1531,15 +1678,80 @@
   }
   function catRowsHTML(data) {
     var parsed = confirmCtx.parsed;
-    var rows = MW_CATS.map(function (cat) {
+    var groups = data.groupCaps || [];
+    var memberOf = {};
+    groups.forEach(function (g) {
+      (g.members || []).forEach(function (m) { if (!memberOf[m]) memberOf[m] = g; });
+    });
+    function usedVal(name) {
+      var u = confirmCtx.used[name];
+      if (u != null && u !== "") return u;
+      var f = data.categories[name];
+      return f && f.used ? f.used : 0;
+    }
+    function foundTag(found) {
+      return found && found.found ? '<span class="found">found in ' + esc(parsed.sourceLabel || "PDF") + "</span>" : "";
+    }
+    function maxCell(cat, found) {
+      return '<td><input type="number" min="0" step="1" inputmode="numeric" data-mw-max="' + esc(cat.name) + '" value="' + (found ? found.max : "") + '" placeholder="0" aria-label="' + esc(cat.name) + ' yearly maximum"></td>';
+    }
+    function pctCell(cat, found) {
+      return '<td><input type="number" min="0" max="100" step="1" inputmode="numeric" data-mw-pct="' + esc(cat.name) + '" value="' + (found && found.pct != null ? found.pct : "") + '" placeholder="—" aria-label="' + esc(cat.name) + ' coverage percent"></td>';
+    }
+    function usedCell(cat) {
+      return '<td><input type="number" min="0" step="1" inputmode="numeric" data-mw-used="' + esc(cat.name) + '" value="' + usedVal(cat.name) + '" aria-label="' + esc(cat.name) + ' already used"></td>';
+    }
+    function standaloneRow(cat) {
       var found = data.categories[cat.name];
-      var used = confirmCtx.used[cat.name];
       return "<tr><td class='catcell'><span class='mw-dot' style='background:" + cat.color + "'></span> " + esc(cat.name)
-        + (found && found.found ? '<span class="found">found in ' + esc(parsed.sourceLabel || "PDF") + "</span>" : "") + "</td>"
-        + '<td><input type="number" min="0" step="1" inputmode="numeric" data-mw-max="' + esc(cat.name) + '" value="' + (found ? found.max : "") + '" placeholder="0" aria-label="' + esc(cat.name) + ' yearly maximum"></td>'
-        + '<td><input type="number" min="0" max="100" step="1" inputmode="numeric" data-mw-pct="' + esc(cat.name) + '" value="' + (found && found.pct != null ? found.pct : "") + '" placeholder="—" aria-label="' + esc(cat.name) + ' coverage percent"></td>'
-        + '<td><input type="number" min="0" step="1" inputmode="numeric" data-mw-used="' + esc(cat.name) + '" value="' + (used != null && used !== "" ? used : 0) + '" aria-label="' + esc(cat.name) + ' already used"></td></tr>';
-    }).join("");
+        + foundTag(found) + "</td>" + maxCell(cat, found) + pctCell(cat, found) + usedCell(cat) + "</tr>";
+    }
+    function memberRow(cat, g) {
+      var found = data.categories[cat.name];
+      var pure = !!((found && found.sharedPool) || !found || !(found.max > 0));
+      return '<tr class="mw-mrow-tr"><td class="catcell mw-mcell"><span class="mw-dot" style="background:' + cat.color + '"></span> ' + esc(cat.name)
+        + foundTag(found) + "</td>"
+        + (pure
+          ? '<td><span class="mw-share-note">shares the pool — no separate limit</span></td><td></td>'
+          : maxCell(cat, found) + pctCell(cat, found))
+        + usedCell(cat) + "</tr>";
+    }
+    function bandRow(g) {
+      var pct = g.pct != null ? g.pct : null;
+      if (pct == null) {
+        for (var i = 0; i < (g.members || []).length; i++) {
+          var mf = data.categories[g.members[i]];
+          if (mf && mf.pct != null) { pct = mf.pct; break; }
+        }
+      }
+      var usedSum = (g.members || []).reduce(function (s, m) { return s + (parseFloat(usedVal(m)) || 0); }, 0);
+      var anyFound = (g.members || []).some(function (m) { var f = data.categories[m]; return f && f.found; });
+      return '<tr class="mw-bandrow"><td class="catcell">' + esc(g.label) + '<span class="mw-badge mw-badge-pool">Shared pool</span></td>'
+        + '<td><input type="number" min="0" step="1" inputmode="numeric" data-mw-group-max="' + esc(g.label) + '" value="' + (g.max != null ? g.max : "") + '" placeholder="0" aria-label="' + esc(g.label) + ' combined maximum">'
+        + '<span class="found">combined max' + (anyFound ? " · found in " + esc(parsed.sourceLabel || "PDF") : "") + "</span></td>"
+        + '<td><input type="number" min="0" max="100" step="1" inputmode="numeric" data-mw-group-pct="' + esc(g.label) + '" value="' + (pct != null ? pct : "") + '" placeholder="—" aria-label="' + esc(g.label) + ' coverage percent"></td>'
+        + '<td><span class="mw-bandused" data-mw-band-used="' + esc(g.label) + '">' + money(usedSum) + '</span> <span class="mw-bandsum">(sum of services)</span></td></tr>';
+    }
+    var renderedGroups = {};
+    var rows = "";
+    MW_CATS.forEach(function (cat) {
+      var g = memberOf[cat.name];
+      if (g) {
+        if (!renderedGroups[g.label]) {
+          renderedGroups[g.label] = 1;
+          rows += bandRow(g);
+          (g.members || []).forEach(function (m) { rows += memberRow(catMeta(m), g); });
+        }
+      } else {
+        rows += standaloneRow(cat);
+      }
+    });
+    groups.forEach(function (g) {
+      if (renderedGroups[g.label]) return;
+      renderedGroups[g.label] = 1;
+      rows += bandRow(g);
+      (g.members || []).forEach(function (m) { rows += memberRow(catMeta(m), g); });
+    });
     if (confirmCtx.showHcsa) {
       var hmax = "";
       if (data.hcsa) {
@@ -1556,9 +1768,7 @@
   }
   function groupNoteHTML(data) {
     if (!data.groupCaps || !data.groupCaps.length) return "";
-    return data.groupCaps.map(function (g) {
-      return '<p class="mw-groupnote">ⓘ ' + esc(g.label) + ": <b>" + money(g.max) + "</b>/yr shared maximum across " + esc((g.members || []).join(", ")) + ".</p>";
-    }).join("");
+    return '<p class="mw-groupnote">A <b>combined maximum</b> is one yearly cap shared across several services — however you split it, the plan pays at most that much across all of them together.</p>';
   }
   function refillConfirm() {
     var host = $("mwConfirm");
@@ -1755,6 +1965,21 @@
     });
     var covSel = $("mwFCoverage");
     if (covSel) covSel.addEventListener("change", function () { confirmCtx.coverage = covSel.value; refillConfirm(); });
+    /* Pool band "used" cells are auto-sums of their member rows. */
+    host.addEventListener("input", function (e) {
+      var t = e.target;
+      if (!t || !t.getAttribute || !t.getAttribute("data-mw-used")) return;
+      (confirmPlanData().groupCaps || []).forEach(function (g) {
+        var cell = host.querySelector('[data-mw-band-used="' + g.label.replace(/"/g, '\\"') + '"]');
+        if (!cell) return;
+        var sum = 0;
+        (g.members || []).forEach(function (m) {
+          var el = host.querySelector('[data-mw-used="' + m + '"]');
+          if (el) sum += parseFloat(el.value) || 0;
+        });
+        cell.textContent = money(sum);
+      });
+    });
     var applyBtn = $("mwInstrApply");
     if (applyBtn) applyBtn.addEventListener("click", function () { var i = $("mwInstr"); applyInstructions(i ? i.value : ""); });
     var instrInput = $("mwInstr");
@@ -1765,15 +1990,40 @@
     if (instrMic && instrInput) wireMic(instrMic, instrInput, $("mwInstrBar"), null);
     $("mwCancelConfirm").addEventListener("click", function () { host.hidden = true; host.innerHTML = ""; });
     $("mwSaveBooklet").addEventListener("click", function () {
+      var plan = confirmPlanData();
+      var groupPct = {}, memberGroup = {};
+      (plan.groupCaps || []).forEach(function (g) {
+        var gpEl = host.querySelector('[data-mw-group-pct="' + g.label.replace(/"/g, '\\"') + '"]');
+        var gp = gpEl ? parseFloat(gpEl.value) : NaN;
+        if (gp > 0 && gp <= 100) groupPct[g.label] = Math.round(gp);
+        else if (g.pct != null) groupPct[g.label] = g.pct;
+        (g.members || []).forEach(function (m) { memberGroup[m] = g.label; });
+      });
       var cats = {};
       MW_CATS.forEach(function (cat) {
         var mx = parseFloat((host.querySelector('[data-mw-max="' + cat.name + '"]') || {}).value) || 0;
         var us = parseFloat((host.querySelector('[data-mw-used="' + cat.name + '"]') || {}).value) || 0;
         var pc = parseFloat((host.querySelector('[data-mw-pct="' + cat.name + '"]') || {}).value);
+        var src = plan.categories[cat.name];
+        /* Pure-pool members have no max input of their own: they are
+           stored with the pool max + sharedPool flag (parser shape),
+           and wfWalletLeft/claimable count them via the pool only. */
+        if (!(mx > 0) && src && src.sharedPool) {
+          var gOf = (plan.groupCaps || []).filter(function (g) { return (g.members || []).indexOf(cat.name) > -1; })[0];
+          var pmax = gOf ? (parseFloat((host.querySelector('[data-mw-group-max="' + gOf.label.replace(/"/g, '\\"') + '"]') || {}).value) || gOf.max || 0) : (src.max || 0);
+          if (pmax > 0) {
+            var pentry = { max: Math.round(pmax * 100) / 100, used: Math.min(Math.round(us * 100) / 100, Math.round(pmax * 100) / 100), sharedPool: true };
+            var ppc = (pc > 0 && pc <= 100) ? pc : (memberGroup[cat.name] ? groupPct[memberGroup[cat.name]] : null);
+            if (ppc != null) pentry.pct = Math.round(ppc);
+            else if (src.pct != null) pentry.pct = src.pct;
+            cats[cat.name] = pentry;
+          }
+          return;
+        }
         if (mx > 0) {
           var entry = { max: Math.round(mx * 100) / 100, used: Math.min(Math.round(us * 100) / 100, Math.round(mx * 100) / 100) };
           if (pc > 0 && pc <= 100) entry.pct = Math.round(pc);
-          var src = confirmPlanData().categories[cat.name];
+          else if (memberGroup[cat.name] && groupPct[memberGroup[cat.name]] != null) entry.pct = groupPct[memberGroup[cat.name]];
           if (src && src.sharedPool) entry.sharedPool = true;
           cats[cat.name] = entry;
         }
@@ -1785,14 +2035,23 @@
         uploadedISO: new Date().toISOString(),
         categories: cats
       };
+      if (plan.groupCaps && plan.groupCaps.length) {
+        b.groupCaps = plan.groupCaps.map(function (g) {
+          var gmEl = host.querySelector('[data-mw-group-max="' + g.label.replace(/"/g, '\\"') + '"]');
+          var gm = gmEl ? parseFloat(gmEl.value) : NaN;
+          var out = { label: g.label, max: gm > 0 ? Math.round(gm * 100) / 100 : (g.max || 0), members: (g.members || []).slice() };
+          if (groupPct[g.label] != null) out.pct = groupPct[g.label];
+          return out;
+        });
+      }
       if (parsed.tiers) {
         b.tier = confirmCtx.tier;
         b.coverage = confirmCtx.coverage;
-        b.groupCaps = confirmPlanData().groupCaps || [];
+        if (!b.groupCaps) b.groupCaps = [];
       } else if (parsed._stored) {
         if (parsed._stored.tier) b.tier = parsed._stored.tier;
         if (parsed._stored.coverage) b.coverage = parsed._stored.coverage;
-        if (parsed._stored.groupCaps) b.groupCaps = parsed._stored.groupCaps;
+        if (!b.groupCaps && parsed._stored.groupCaps) b.groupCaps = parsed._stored.groupCaps;
       }
       if (confirmCtx.showHcsa) {
         var hm = parseFloat((host.querySelector("[data-mw-hcsa-max]") || {}).value) || 0;
@@ -1810,33 +2069,50 @@
   }
 
   /* ============================================================
-     Saved treatments
+     Saved treatments — one-line carousel (replaces the old grid,
+     whose card CSS clipped card text)
      ============================================================ */
-  function treatmentCard(t) {
+  function txCardHTML(t) {
     var b = booklet();
     var cat = treatmentCategory(t);
-    var cov = "";
-    if (b && cat && b.categories[cat]) {
-      var cc = b.categories[cat];
-      var left = Math.max(0, (cc.max || 0) - (cc.used || 0));
-      var pct = cc.max > 0 ? Math.round((left / cc.max) * 100) : 0;
-      cov = '<div class="saved-tx-cov"><span>' + money(left) + " of " + money(cc.max) + " left · " + esc(cat) + '</span><div class="mw-covbar"><i class="' + (pct <= 25 && left > 0 ? "low" : "") + '" style="width:' + pct + '%"></i></div></div>';
-    }
     var photo = imgFor(t);
-    var photoHtml = photo
-      ? '<div class="saved-media saved-photo treatment-photo" style="background-image:url(\'' + photo + '\')" role="img" aria-label="' + esc(t.name) + '"></div>'
-      : '<div class="saved-media saved-emoji" aria-hidden="true">' + (t.emoji || "•") + "</div>";
-    return '<article class="saved-card">'
-      + photoHtml
-      + '<div class="saved-heart"><button class="fav-btn active" type="button" data-fav="' + esc(t.name) + '" aria-label="Remove ' + esc(t.name) + ' from saved"><span class="heart" aria-hidden="true">♥</span></button></div>'
-      + '<div class="saved-body">'
-      + '<div class="saved-type">Saved treatment</div>'
-      + "<h3>" + esc(t.name) + "</h3>"
-      + '<p class="saved-line"><strong>' + esc(t.group || "") + "</strong> · billed as " + esc(t.billed || "") + "</p>"
-      + cov
-      + '<p class="saved-line mw-tx-near" data-near-for="' + esc(t.name) + '"></p>'
-      + '<a class="card-link" href="/clinics-' + slug(t.name) + '">See clinics offering ' + esc(t.name) + " →</a>"
-      + "</div></article>";
+    var media = photo
+      ? '<img src="' + esc(photo) + '" alt="" loading="lazy">'
+      : '<span class="tx-nophoto" style="background:' + catMeta(cat || "").color + '" aria-hidden="true">' + esc((t.name || "?").charAt(0)) + "</span>";
+    var meta = "";
+    if (b && cat && b.categories[cat]) {
+      meta = money(claimable(b, cat)) + " claimable · " + esc(cat);
+    }
+    return '<article class="tx-card">'
+      + '<a class="tx-cardlink" href="/clinics-' + slug(t.name) + '" aria-label="See clinics offering ' + esc(t.name) + '">'
+      + '<span class="tx-media">' + media + "</span>"
+      + '<span class="tx-body"><span class="tx-name">' + esc(t.name) + "</span>"
+      + '<span class="tx-mod">' + esc(t.group || "") + " · billed as " + esc(t.billed || "") + "</span>"
+      + '<span class="tx-meta"' + (meta ? "" : ' data-near-for="' + esc(t.name) + '"') + ">" + esc(meta) + "</span>"
+      + "</span></a>"
+      + '<span class="tx-actions">'
+      + '<button type="button" class="tx-act" data-archive-tx="' + esc(t.name) + '" aria-label="Archive ' + esc(t.name) + '" title="Archive">🗄</button>'
+      + '<button type="button" class="tx-act" data-remove-tx="' + esc(t.name) + '" aria-label="Remove ' + esc(t.name) + ' from saved" title="Remove">✕</button>'
+      + "</span></article>";
+  }
+  function wireTxCarousel() {
+    var track = $("txTrack");
+    if (!track) return;
+    var prev = document.querySelector("[data-tx-scroll='-1']");
+    var next = document.querySelector("[data-tx-scroll='1']");
+    function upd() {
+      var max = track.scrollWidth - track.clientWidth;
+      if (prev) prev.disabled = track.scrollLeft <= 2;
+      if (next) next.disabled = track.scrollLeft >= max - 2;
+    }
+    function go(dir) {
+      track.scrollBy({ left: dir * Math.max(240, track.clientWidth * 0.8), behavior: "smooth" });
+      setTimeout(upd, 350);
+    }
+    if (prev) prev.addEventListener("click", function () { go(-1); });
+    if (next) next.addEventListener("click", function () { go(1); });
+    track.addEventListener("scroll", upd, { passive: true });
+    upd();
   }
   function updateNearCounts() {
     document.querySelectorAll("[data-near-for]").forEach(function (p) {
@@ -1854,11 +2130,17 @@
     });
   }
   function renderTreatments() {
-    var f = favs();
-    var txs = f.map(treatmentByName).filter(Boolean);
-    treatWrap.innerHTML = txs.length
-      ? txs.map(treatmentCard).join("")
-      : '<div class="saved-empty-card"><span class="big" aria-hidden="true">♥</span><h3>No saved treatments yet</h3><p>Tap the heart ♥ on any treatment to pin it here. Saved treatments get matched to your booklet balance.</p><a class="btn btn--primary" href="/">Browse treatments</a></div>';
+    var txs = activeFavs().map(treatmentByName).filter(Boolean);
+    if (!txs.length) {
+      treatWrap.innerHTML = '<div class="saved-empty-card"><span class="big" aria-hidden="true">♥</span><h3>No saved treatments yet</h3><p>Tap the heart ♥ on any treatment to pin it here. Saved treatments get matched to your booklet balance.</p><a class="btn btn--primary" href="/">Browse treatments</a></div>';
+      return 0;
+    }
+    treatWrap.innerHTML = '<div class="tx-carousel">'
+      + '<button type="button" class="tx-arrow" data-tx-scroll="-1" aria-label="Scroll saved treatments back">‹</button>'
+      + '<div class="tx-track" id="txTrack">' + txs.map(txCardHTML).join("") + "</div>"
+      + '<button type="button" class="tx-arrow" data-tx-scroll="1" aria-label="Scroll saved treatments forward">›</button>'
+      + "</div>";
+    wireTxCarousel();
     updateNearCounts();
     return txs.length;
   }
@@ -1927,7 +2209,7 @@
        saved that this clinic offers (max 2 lines). If none of those
        have openings, fall back to the single earliest line the clinic
        has across all its treatments. */
-    var favList = favs();
+    var favList = activeFavs();
     var savedTx = vm.treatments.filter(function (T) {
       return favList.indexOf(T) > -1 && !!treatmentByName(T);
     });
@@ -2008,6 +2290,7 @@
     var manage = '<div class="mw-manage"><span class="mw-manage-lbl">📌 Manage</span>'
       + '<select class="mw-manage-sel" data-status-for="' + esc(vm.name) + '" aria-label="Status for ' + esc(vm.name) + '">' + statusOpts + "</select>"
       + '<button type="button" class="mw-notebtn" data-note-toggle="' + esc(vm.name) + '">' + (meta.note ? "✎ Note (1)" : "＋ Note") + "</button>"
+      + '<button type="button" class="mw-archivebtn" data-archive-clinic="' + esc(vm.name) + '">Archive</button>'
       + '<button type="button" class="mw-remove" data-unsave="' + esc(vm.name) + '">♥ Remove</button>'
       + '<textarea class="mw-note" data-note-for="' + esc(vm.name) + '" rows="2" placeholder="Private note — only visible on this device" aria-label="Private note for ' + esc(vm.name) + '"' + (meta.note ? "" : " hidden") + ">" + esc(meta.note || "") + "</textarea></div>";
     return '<article class="nc-card">' + gallery
@@ -2038,7 +2321,7 @@
     if (!clinicVMs.length) { host.innerHTML = ""; return; }
     var offered = {};
     clinicVMs.forEach(function (vm) { vm.treatments.forEach(function (t) { offered[t] = true; }); });
-    var savedTx = favs().filter(function (n) { return treatmentByName(n) && offered[n]; });
+    var savedTx = activeFavs().filter(function (n) { return treatmentByName(n) && offered[n]; });
     var chips = ['<button type="button" class="mw-fchip' + (filters.tx === "" ? " active" : "") + '" data-mw-ftx="">All treatments</button>']
       .concat(savedTx.map(function (t) {
         return '<button type="button" class="mw-fchip' + (filters.tx === t ? " active" : "") + '" data-mw-ftx="' + esc(t) + '">' + esc(t) + "</button>";
@@ -2086,15 +2369,15 @@
   function renderRecs() {
     var grid = document.getElementById("savedRecGrid");
     if (!grid) return;
-    var f = favs();
+    var f = activeFavs();
     var b = booklet();
     if (b) {
       var perBilled = {};
       TREATMENTS.forEach(function (t) {
-        if (f.indexOf(t.name) > -1) return;
+        if (f.indexOf(t.name) > -1 || isArchived(t.name)) return;
         var cat = treatmentCategory(t);
         if (!cat) return;
-        var left = catLeft(b, cat);
+        var left = claimable(b, cat);
         if (left <= 0) return;
         (perBilled[t.name] = perBilled[t.name] || { t: t, cat: cat, left: left });
       });
@@ -2110,13 +2393,13 @@
         return;
       }
     }
-    grid.innerHTML = '<p class="near-empty">Save a treatment or add your booklet and we\'ll suggest nearby options that fit your coverage.</p>';
+    grid.innerHTML = "";
     renderSuggClinics();
   }
   function renderSuggClinics() {
     var host = $("mwSuggClinics");
     if (!host) return;
-    var f = favs();
+    var f = activeFavs();
     var savedClinics = {};
     clinicVMs.forEach(function (vm) { savedClinics[vm.name] = true; });
     var pool = [];
@@ -2130,25 +2413,32 @@
     if (b) {
       TREATMENTS.forEach(function (t) {
         var cat = treatmentCategory(t);
-        if (cat && catLeft(b, cat) > 0 && interesting.indexOf(t.name) < 0) interesting.push(t.name);
+        if (cat && claimable(b, cat) > 0 && interesting.indexOf(t.name) < 0) interesting.push(t.name);
       });
     }
     Object.keys(byName).forEach(function (name) {
-      if (savedClinics[name] || f.indexOf(name) > -1) return;
+      if (savedClinics[name] || f.indexOf(name) > -1 || isArchived(name)) return;
       var entries = byName[name];
       var txs = entries.map(function (e) { return e.treatment; }).filter(function (t) { return interesting.indexOf(t) > -1; });
       if (!txs.length) return;
       var c = entries[0].clinic;
       var vm = { name: name, clinic: c, key: (c.name + "|" + (c.city || "")).toLowerCase(), X: extraFor(c), media: mediaFor(c), distKm: Infinity };
       vm.rating = ratingFor(vm);
-      var photo = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.gal && CLINIC_EXTRA.gal[name] && CLINIC_EXTRA.gal[name][0]) || vm.media.img || "";
-      if (!photo) return;
+      var photo = vm.media.img || (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.gal && CLINIC_EXTRA.gal[name] && CLINIC_EXTRA.gal[name][0]) || "";
       if (window.wfGeo && userPt) {
         var coords = window.wfGeo.clinicCoords(c) || (vm.media.lat != null ? [parseFloat(vm.media.lat), parseFloat(vm.media.lng)] : null);
         if (coords) vm.distKm = window.wfGeo.haversineKm(userPt, coords);
       }
-      var ps = priceStrFor(vm, txs[0]);
-      pool.push({ vm: vm, tx: txs[0], photo: photo, price: ps });
+      var lead = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.lead && CLINIC_EXTRA.lead[name] && CLINIC_EXTRA.lead[name][txs[0]]) || "";
+      var addr = vm.media.address || "";
+      if (!addr) {
+        var parts = [];
+        if (vm.X && vm.X.a) parts.push(vm.X.a);
+        if (c.city) parts.push(c.city);
+        if (c.prov) parts.push(c.prov);
+        addr = parts.join(", ");
+      }
+      pool.push({ vm: vm, tx: txs[0], photo: photo, lead: lead, addr: addr });
     });
     pool.sort(function (a, c) {
       return (a.vm.distKm - c.vm.distKm) || ((c.vm.rating ? c.vm.rating[0] : 0) - (a.vm.rating ? a.vm.rating[0] : 0));
@@ -2156,12 +2446,70 @@
     pool = pool.slice(0, 3);
     host.innerHTML = pool.length ? pool.map(function (p) {
       var vm = p.vm;
-      var place = vm.clinic.city + (vm.clinic.prov ? ", " + vm.clinic.prov : "") + (isFinite(vm.distKm) && userPt ? " · " + (vm.distKm < 1 ? vm.distKm.toFixed(1) : Math.round(vm.distKm)) + " km" : "");
-      return '<div class="mw-sugg-card"><div class="ph" style="background-image:url(\'' + esc(p.photo) + '\')" role="img" aria-label="' + esc(vm.name) + '"></div>'
-        + '<div class="b"><h4>' + esc(vm.name) + '</h4><p class="addr">' + esc(place) + (vm.rating ? ' · <span class="nc-rate" style="font-size:.8rem">' + vm.rating[0] + " ★ (" + vm.rating[1] + ")</span>" : "") + '</p>'
-        + '<p class="tx">' + esc(p.tx) + (p.price ? ' · <b>' + esc(p.price.split(/[·|]/)[0].trim()) + "</b>" : "") + '</p>'
-        + '<button type="button" class="mw-savebtn2" data-mw-save="' + esc(vm.name) + '">♥ Save clinic</button></div></div>';
+      var ph = p.photo
+        ? '<div class="ph" style="background-image:url(\'' + esc(p.photo) + '\')" role="img" aria-label="' + esc(vm.name) + '"></div>'
+        : '<div class="ph ph--none" aria-hidden="true"><span>' + esc((vm.name || "?").charAt(0)) + "</span></div>";
+      var rate = vm.rating
+        ? '<span class="rate">★ ' + (vm.rating[0] % 1 ? vm.rating[0].toFixed(1) : vm.rating[0]) + " (" + Number(vm.rating[1] || 0).toLocaleString() + ")</span>"
+        : "<span></span>";
+      return '<div class="mw-sugg-card">' + ph
+        + '<div class="b"><h4>' + esc(vm.name) + "</h4>"
+        + (p.lead ? '<p class="desc">' + esc(p.lead) + "</p>" : "")
+        + (p.addr ? '<p class="addr">' + esc(p.addr) + "</p>" : "")
+        + '<div class="mw-sugg-actions">' + rate
+        + '<button type="button" class="mw-savebtn2" data-mw-save="' + esc(vm.name) + '">♥ Save clinic</button></div>'
+        + "</div></div>";
     }).join("") : "";
+    syncRecVisibility();
+  }
+  /* The Recommended section shows only when it has something in it —
+     no orphan heading over an empty block. */
+  function syncRecVisibility() {
+    var wrap = $("savedRecWrap");
+    if (!wrap) return;
+    var g1 = $("savedRecGrid"), g2 = $("mwSuggClinics");
+    var has = !!((g1 && g1.children.length) || (g2 && g2.children.length));
+    wrap.hidden = !has;
+  }
+
+  /* ============================================================
+     Archived items (bottom of /saved)
+     ============================================================ */
+  function renderArchived() {
+    var wrap = $("mwArchivedWrap");
+    if (!wrap) return;
+    var f = favs();
+    var names = archived().filter(function (n) { return f.indexOf(n) > -1; });
+    if (!names.length) { wrap.hidden = true; return; }
+    wrap.hidden = false;
+    var cnt = $("mwArchivedCount");
+    if (cnt) cnt.textContent = String(names.length);
+    var list = $("mwArchivedList");
+    if (!list) return;
+    list.innerHTML = names.map(function (n) {
+      var t = treatmentByName(n);
+      var tag, sub = "";
+      if (t) { tag = "Treatment"; }
+      else {
+        tag = "Clinic";
+        var e = findClinic(n);
+        if (e && e.clinic) sub = e.clinic.city || "";
+      }
+      return '<div class="mw-arch-row"><span class="mw-arch-name">' + esc(n) + '</span>'
+        + '<span class="mw-arch-tag">' + tag + "</span>"
+        + (sub ? '<span class="mw-arch-city">' + esc(sub) + "</span>" : "")
+        + '<span class="mw-arch-sp"></span>'
+        + '<button type="button" class="mw-arch-btn" data-restore="' + esc(n) + '">Restore</button>'
+        + '<button type="button" class="mw-arch-btn mw-arch-del" data-remove-archived="' + esc(n) + '">Remove</button></div>';
+    }).join("");
+  }
+  function renderAllSaved() {
+    render();
+    renderRecs();
+    renderSuggClinics();
+    renderWalletCards();
+    renderTimeline();
+    renderArchived();
   }
 
   /* ============================================================
@@ -2175,6 +2523,7 @@
     if (count) count.textContent = String(total);
     if (empty) empty.hidden = total !== 0;
     if (clear) clear.disabled = total === 0;
+    renderArchived();
     return total;
   }
 
@@ -2206,14 +2555,48 @@
     if (sv) {
       var sname = sv.getAttribute("data-mw-save");
       if (window.wfFavs) wfFavs.toggle(sname);
-      render(); renderRecs(); renderSuggClinics();
+      renderAllSaved();
       return;
     }
     var btn = e.target.closest ? e.target.closest("[data-unsave]") : null;
     if (btn) {
       var name = btn.getAttribute("data-unsave");
       if (window.wfFavs) wfFavs.toggle(name);
-      render(); renderRecs(); renderSuggClinics(); renderWalletCards(); renderTimeline();
+      renderAllSaved();
+      return;
+    }
+    var atx = e.target.closest ? e.target.closest("[data-archive-tx]") : null;
+    if (atx) {
+      archiveItem(atx.getAttribute("data-archive-tx"));
+      renderAllSaved();
+      return;
+    }
+    var rtx = e.target.closest ? e.target.closest("[data-remove-tx]") : null;
+    if (rtx) {
+      if (window.wfFavs) wfFavs.toggle(rtx.getAttribute("data-remove-tx"));
+      renderAllSaved();
+      return;
+    }
+    var acl = e.target.closest ? e.target.closest("[data-archive-clinic]") : null;
+    if (acl) {
+      archiveItem(acl.getAttribute("data-archive-clinic"));
+      renderAllSaved();
+      return;
+    }
+    var rst = e.target.closest ? e.target.closest("[data-restore]") : null;
+    if (rst) {
+      unarchiveItem(rst.getAttribute("data-restore"));
+      renderAllSaved();
+      return;
+    }
+    var rar = e.target.closest ? e.target.closest("[data-remove-archived]") : null;
+    if (rar) {
+      var rname = rar.getAttribute("data-remove-archived");
+      unarchiveItem(rname);
+      if (window.wfFavs && wfFavs.has(rname)) wfFavs.toggle(rname);
+      var mm = metaAll();
+      if (mm[rname]) { delete mm[rname]; storeSet(META_KEY, JSON.stringify(mm)); }
+      renderAllSaved();
       return;
     }
     var cp = e.target.closest ? e.target.closest("[data-copy-msg]") : null;
@@ -2242,7 +2625,7 @@
         b.classList.toggle("active");
         var heart = b.querySelector(".heart");
         if (heart) heart.textContent = b.classList.contains("active") ? "♥" : "♡";
-        render(); renderRecs(); renderWalletCards(); renderTimeline();
+        renderAllSaved();
       }
     });
   }
@@ -2250,7 +2633,8 @@
   if (clear) {
     clear.addEventListener("click", function () {
       storeSet(FAV_KEY, "[]");
-      render(); renderRecs(); renderSuggClinics(); renderWalletCards(); renderTimeline();
+      setArchived([]);
+      renderAllSaved();
     });
   }
 

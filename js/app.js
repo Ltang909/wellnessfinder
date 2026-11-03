@@ -72,10 +72,29 @@
     toggle(n) {
       const f = getFavs(); const i = f.indexOf(n);
       if (i > -1) f.splice(i, 1); else f.push(n);
-      setFavs(f); updateFavCount(); return i === -1;
+      setFavs(f); updateFavCount();
+      if (i === -1) {
+        /* Restore-on-reheart: re-saving an item that sits in the
+           /saved archive (wf_archived) brings it back to active. */
+        try {
+          const a = JSON.parse(localStorage.getItem("wf_archived")) || [];
+          const j = a.indexOf(n);
+          if (j > -1) {
+            a.splice(j, 1);
+            if (window.wfStoreSet) window.wfStoreSet("wf_archived", JSON.stringify(a));
+            else localStorage.setItem("wf_archived", JSON.stringify(a));
+          }
+        } catch {}
+      }
+      return i === -1;
     } };
   function updateFavCount() {
-    const n = getFavs().length;
+    /* Archived items (wf_archived) stay in wf_favourites but are not
+       active saves — the header counts exclude them (Leon's archive
+       spec: archived items leave the saved count). */
+    let arch = [];
+    try { arch = JSON.parse(localStorage.getItem("wf_archived")) || []; } catch {}
+    const n = getFavs().filter((x) => !arch.includes(x)).length;
     const el = $("#favCount");
     if (el) {
       el.textContent = n ? `${n} saved` : "";
@@ -324,7 +343,7 @@
   const FS_MOD_ORDER = ["Physiotherapy", "Naturopathy", "Chiropractic", "Speech Therapy", "Acupuncture", "Massage Therapy", "Psychology", "Psychotherapy", "Osteopathy", "Dental", "Dietitian"];
   let fsView = "All";
 
-  const fsImg = (t) => ((typeof TREATMENT_IMAGES !== "undefined" && TREATMENT_IMAGES[t.name]) || {}).src || `/assets/treatments/${treatmentSlug(t.name)}.jpg`;
+  const fsImg = (t) => ((typeof TREATMENT_IMAGES !== "undefined" && TREATMENT_IMAGES[t.name]) || {}).src || ((typeof TREATMENT_ART !== "undefined" && TREATMENT_ART[t.group]) || "") || `/assets/treatments/${treatmentSlug(t.name)}.jpg`;
   const fsDesc = (t) => (t.desc || "").replace(/\s*\*Coverage varies by provider\.?/g, "").trim();
   const fsBilled = (t) => (t.billed || "").replace(/\*+$/, "");
   const fsClinics = (t) => (gtaDataFor(t.name) || { clinics: [] }).clinics.length;

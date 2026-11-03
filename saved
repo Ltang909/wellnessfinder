@@ -9,8 +9,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=115">
-<link rel="stylesheet" href="css/saved.css?v=12">
+<link rel="stylesheet" href="css/styles.css?v=116">
+<link rel="stylesheet" href="css/saved.css?v=13">
 <link rel="canonical" href="https://wellfinder.ca/saved" />
 </head>
 <body data-page="saved">
@@ -24,11 +24,6 @@
 <div class="mobile-menu" id="mobileMenu"><a href="/#directory">Browse treatments</a><a href="/pilates">Pilates clinics</a><a href="/naturopath">Naturopathic clinics</a><a href="/golf">Golf clinics</a></div>
 </header>
 <main>
-<section class="saved-hero"><div class="wrap saved-hero-inner">
-<div><p class="eyebrow">My wellness</p><h1>My wellness page</h1><p>Your saved treatments and clinics, plus clinics near you.</p></div>
-<div class="saved-count-card"><strong id="savedCount">0</strong><span>saved</span></div>
-</div></section>
-
 <section class="wrap mw-section" id="mwWalletSection">
 <div id="mwHero"></div>
 <div id="mwConfirm" hidden></div>
@@ -40,7 +35,7 @@
 <section class="wrap saved-section">
 <div class="saved-toolbar"><p>Your shortlist</p><button id="clearSaved" type="button">Clear all</button></div>
 <h2 class="saved-h2">Saved treatments</h2>
-<div class="saved-tx-list" id="savedTreatments"></div>
+<div id="savedTreatments"></div>
 <h2 class="saved-h2">Saved clinics</h2>
 <div id="mwFilters"></div>
 <p class="mw-count" id="mwClinicCount"></p>
@@ -48,12 +43,17 @@
 <section class="saved-empty" id="savedEmpty" hidden><span aria-hidden="true">♡</span><h2>Your shortlist is waiting.</h2><p>Save treatments and clinics to build your shortlist.</p><a class="btn btn--primary" href="/#directory">Browse treatments</a></section>
 </section>
 
-<section class="wrap saved-section" id="savedRecWrap">
-<p class="eyebrow">For you</p>
-<h2>Recommended treatments</h2>
-<p>Based on what you save and what is near you.</p>
+<section class="wrap saved-section" id="savedRecWrap" hidden>
+<h2 class="saved-h2">Recommended treatments and clinics</h2>
 <div class="near-list" id="savedRecGrid"></div>
 <div class="mw-sugg-grid" id="mwSuggClinics"></div>
+</section>
+
+<section class="wrap saved-section" id="mwArchivedWrap" hidden>
+<details class="mw-archived">
+<summary>Archived (<span id="mwArchivedCount">0</span>)</summary>
+<div id="mwArchivedList"></div>
+</details>
 </section>
 
 <section class="saved-email">
@@ -87,8 +87,8 @@
       <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
     </div>
   </footer>
-<script src="js/data.js?v=53"></script><script src="js/site-nav.js?v=7"></script>
+<script src="js/data.js?v=53"></script><script src="js/site-nav.js?v=8"></script>
 <script src="js/clinic-extra.js?v=5"></script><script src="js/clinic-slots.js?v=6"></script>
-<script src="js/app.js?v=104"></script><script src="js/vendor/pdf.min.js?v=1"></script><script src="js/saved.js?v=32"></script>
+<script src="js/app.js?v=106"></script><script src="js/vendor/pdf.min.js?v=1"></script><script src="js/saved.js?v=33"></script>
 </body>
 </html>

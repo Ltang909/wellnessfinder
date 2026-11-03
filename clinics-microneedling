@@ -10,13 +10,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=115" />
+  <link rel="stylesheet" href="css/styles.css?v=116" />
 </head>
 <body data-treatment="Microneedling">
   <header class="site-header compact-header">
     <div class="wrap"><nav class="nav">
       <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
-      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+      <div class="nav-right"><a class="wallet-chip wallet-chip--mini" id="universalWalletChip" href="/saved" hidden></a><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
     </nav></div>
   </header>
   <main class="section">
@@ -53,6 +53,6 @@
   </footer>
   <script src="js/data.js?v=53"></script>
   <script src="js/clinic-extra.js?v=5"></script><script src="js/clinic-slots.js?v=6"></script>
-<script src="js/app.js?v=104"></script>
+<script src="js/app.js?v=106"></script>
 </body>
 </html>
