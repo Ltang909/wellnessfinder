@@ -1292,3 +1292,41 @@ a.nc-slot-chip:hover { background: #FFF6D8; border-color: #FFCE45; }
 .tp-list .nc-slot-title { font-size: .95rem; }
 .tp-list .nc-slot-price { font-size: .86rem; }
 .tp-list .nc-slot-opt .nc-slot-chip { padding: 7px 14px; font-size: .88rem; }
+
+/* Hybrid card (Leon): Option C top — name row, one muted meta line
+   (address · hours · direct billing as text), one-line description —
+   over Option A bottom: text-link actions and borderless live openings
+   with plain-text times. Boxes removed across the row cards. */
+.tp-list .nc-card { background: transparent; border: none; border-bottom: 1px solid #e2e8e2; border-radius: 0; box-shadow: none; padding: 20px 2px 22px; }
+.tp-list .nc-gallery { width: 96px; height: 96px; aspect-ratio: 1 / 1; margin: 0; border-radius: 10px; align-self: flex-start; }
+.tp-list .nc-metaline { flex: 1 1 100%; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 7px; margin: 3px 0 0; font-size: .82rem; color: #5C6B5E; line-height: 1.4; }
+.tp-list .nc-metaline .nc-sep { color: #b9c2ba; }
+.tp-list .nc-dbseg { font-weight: 600; }
+.tp-list .nc-dbseg.nc-db-yes { color: #1d9d62; }
+.tp-list .nc-dbseg.nc-db-no { color: #b3543f; }
+.tp-list .nc-dbseg.nc-db-unk { color: #5C6B5E; }
+.tp-list .nc-todaywrap { display: inline-block; position: relative; }
+.tp-list .nc-hourbtn { background: none; border: none; padding: 0 1px; margin-left: 3px; font-size: .72rem; color: #5C6B5E; cursor: pointer; line-height: 1; transition: transform .15s ease; }
+.tp-list .nc-hourbtn[aria-expanded="true"] { transform: rotate(180deg); }
+.tp-list .nc-desc { font-family: "Inter", system-ui, sans-serif; font-size: .9rem; line-height: 1.45; height: auto; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 5px; }
+.tp-list .nc-actions { flex: 1 1 100%; display: flex; flex-wrap: wrap; gap: 6px 20px; margin: 10px 0 0; padding: 0; }
+.tp-list .nc-tlink { color: #0F2D2B; font-weight: 600; font-size: .88rem; text-decoration: none; }
+.tp-list .nc-tlink:hover { text-decoration: underline; text-underline-offset: 3px; }
+.tp-list .nc-hyprice { flex: 1 1 100%; margin: 8px 0 0; font-size: .95rem; }
+.tp-list .nc-hyprice .nc-hynote { margin-left: 8px; font-size: .82rem; }
+.tp-list .nc-slots { border-top: none; margin-top: 14px; padding-top: 0; }
+.tp-list .nc-slots-label { background: none; color: #8a968c; padding: 0; border-radius: 0; font-size: .72rem; letter-spacing: .12em; }
+.tp-list .nc-slot-c { display: flex; flex-wrap: wrap; gap: 8px 26px; }
+.tp-list .nc-slot-chip { background: none; border: none; padding: 0; border-radius: 0; font-size: .92rem; font-weight: 400; color: #161616; text-decoration: none; }
+.tp-list .nc-slot-chip b { font-weight: 600; }
+a.tp-list .nc-slot-chip:hover, .tp-list a.nc-slot-chip:hover { text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 640px) {
+  .tp-list .nc-card { flex-direction: row; padding: 16px 2px 18px; }
+  .tp-list .nc-gallery { width: 76px; height: 76px; aspect-ratio: 1 / 1; margin: 0; border-radius: 10px; }
+}
+
+/* Meta line flows as plain inline text (flex made each segment wrap onto
+   its own line), and the billing segment sheds the old pill background
+   it inherited from the standalone .nc-db-yes rule. */
+.tp-list .nc-metaline { display: block; }
+.tp-list .nc-dbseg { background: none; border: none; padding: 0; }

@@ -1297,29 +1297,27 @@
 
     /* direct billing: featured curation wins, else the verified record */
     const dbv = media.db || (X && X.db) || "";
-    const dbPill = dbv === "yes"
-      ? `<span class="nc-db nc-db-yes" title="Direct billing available" aria-label="Direct billing available">✓ Direct billing</span>`
+    const dbSeg = dbv === "yes"
+      ? `<span class="nc-dbseg nc-db-yes" title="Direct billing available">✓ Direct billing</span>`
       : dbv === "no"
-        ? `<span class="nc-db nc-db-no" title="No direct billing — pay & claim with receipt" aria-label="No direct billing — pay and claim with receipt">✕ Direct billing</span>`
-        : `<span class="nc-db nc-db-unk" title="Direct billing not confirmed — ask the clinic" aria-label="Direct billing not confirmed — ask the clinic">? Direct billing</span>`;
+        ? `<span class="nc-dbseg nc-db-no" title="No direct billing — pay & claim with receipt">✕ No direct billing</span>`
+        : `<span class="nc-dbseg nc-db-unk" title="Direct billing not confirmed — ask the clinic">? Direct billing unconfirmed</span>`;
 
     /* hours: today line + expandable week */
-    let todayHTML, weekHTML = "";
+    let hoursSeg = "";
     if (X && X.h) {
       const st = ncTodayState(X.h, prov);
-      const openBit = st.closed ? `<span class="nc-closed-txt">Closed today</span>`
-        : st.open === true ? `<span class="nc-open-dot"></span><span class="nc-open-txt">Open now</span> <b>${esc(ncFmtHours(st.label))}</b>`
-        : st.open === false ? `<span class="nc-closed-dot"></span><span class="nc-closed-txt">Closed now</span> <b>${esc(ncFmtHours(st.label))}</b>`
-        : `Today <b>${esc(ncFmtHours(st.label))}</b>`;
-      todayHTML = `<p class="nc-today">${openBit}<button type="button" class="nc-more" data-nc-hours>See all hours ▾</button></p>`;
-      weekHTML = `<div class="nc-week" hidden>${NC_WEEK.map((d) => {
+      const range = ncFmtHours(st.label);
+      const end = range.split(" \u2013 ")[1] || "";
+      const segInner = st.closed ? `<span class="nc-closed-txt">Closed today</span>`
+        : st.open === true ? `<span class="nc-open-txt">Open now</span> till ${esc(end)}`
+        : st.open === false ? `<span class="nc-closed-txt">Closed now</span>`
+        : `Today ${esc(range)}`;
+      const weekHTML = `<div class="nc-week" hidden>${NC_WEEK.map((d) => {
         const v = X.h[d];
         return `<div class="nc-hrow${st.key === d ? " today" : ""}"><span>${NC_DAYLBL[d]}</span><span>${v ? esc(ncFmtHours(v)) : '<span class="nc-closed">Closed</span>'}</span></div>`;
       }).join("")}</div>`;
-      todayHTML = `<div class="nc-todaywrap">${todayHTML}${weekHTML}</div>`;
-      weekHTML = "";
-    } else {
-      todayHTML = `<p class="nc-today"><span class="nc-hours-na">Hours not listed</span></p>`;
+      hoursSeg = `<span class="nc-todaywrap"><span class="nc-hseg">${segInner}</span><button type="button" class="nc-hourbtn" data-nc-hours aria-expanded="false" aria-label="See all hours">\u25be</button>${weekHTML}</span>`;
     }
 
     /* actions */
@@ -1357,7 +1355,7 @@ if (em) {
         const ntitle = titleFor(slot[nk], nk);
         const gsubj = `${T} at ${c.name} \u2014 asking about your next opening`;
         const gbody = `Hi ${c.name} team,\n\nI found your clinic on WellFinder.ca while looking for ${T}${billed ? `, billed as ${billed}` : ""}, in ${c.city}.\n\nYour next opening showing on WellFinder is ${ntitle} on ${nslot.d} at ${nslot.t}. Is that time still available? I would like to ask for more information before booking.\n\nThank you`;
-        gmailBtn = `<a class="nc-btn nc-btn-gmail" href="https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(em)}&su=${encodeURIComponent(gsubj)}&body=${encodeURIComponent(gbody)}" target="_blank" rel="noopener" aria-label="Email ${esc(c.name)} via Gmail" title="Email the clinic via Gmail">${GMAIL_ICON}</a>`;
+        gmailBtn = `<a class="nc-tlink" href="https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(em)}&su=${encodeURIComponent(gsubj)}&body=${encodeURIComponent(gbody)}" target="_blank" rel="noopener" aria-label="Email ${esc(c.name)} via Gmail" title="Email the clinic via Gmail">Email the clinic</a>`;
       }
       const blockFor = (s, kind) => {
         const title = titleFor(s, kind);
@@ -1366,7 +1364,7 @@ if (em) {
         const seenChips = new Set();
         const chips = rawChips.filter((ch) => { const k = ch.d + "|" + ch.t; if (seenChips.has(k)) return false; seenChips.add(k); return true; }).slice(0, 7);
         const opts = chips.map((ch) => {
-          const chip = book ? `<a class="nc-slot-chip" href="${esc(book)}" target="_blank" rel="noopener" title="Book this slot on the clinic's booking page">${ch.d} &middot; ${ch.t}</a>` : `<span class="nc-slot-chip">${ch.d} &middot; ${ch.t}</span>`;
+          const chip = book ? `<a class="nc-slot-chip" href="${esc(book)}" target="_blank" rel="noopener" title="Book this slot on the clinic's booking page"><b>${ch.d}</b> &middot; ${ch.t}</a>` : `<span class="nc-slot-chip"><b>${ch.d}</b> &middot; ${ch.t}</span>`;
           return `<span class="nc-slot-opt">${chip}</span>`;
         }).join("");
         const linePrice = pricePart ? `<span class="nc-slot-price">${esc(pricePart)}</span>${pair && pair.t === "booking" ? `<span class="nc-verified"><i>\u2713</i> Verified on booking page</span>` : ""}` : "";
@@ -1387,16 +1385,18 @@ if (em) {
       }
     }
 
-    const metaHTML = priceHTML ? `<div class="nc-meta"><div class="nc-pricecell">${priceHTML}<p class="nc-note">${noteHTML}</p></div></div>` : "";
-    actions = `<div class="nc-actions">${book ? `<a class="nc-btn nc-btn-book" href="${esc(book)}" target="_blank" rel="noopener">Book appointment</a>` : ""}${web ? `<a class="nc-btn nc-btn-web" href="${esc(web)}" target="_blank" rel="noopener">Website \u2197</a>` : ""}${gmailBtn}</div>`;
+    const priceLine = price && !hasSlots ? `<p class="nc-hyprice"><b>${esc(price)}</b>${noteHTML ? `<span class="nc-hynote">${noteHTML}</span>` : ""}</p>` : "";
+    actions = `<div class="nc-actions">${book ? `<a class="nc-tlink" href="${esc(book)}" target="_blank" rel="noopener">Book appointment \u2192</a>` : ""}${web ? `<a class="nc-tlink" href="${esc(web)}" target="_blank" rel="noopener">Website \u2197</a>` : ""}${gmailBtn}</div>`;
+    const metaSegs = [esc(addr), hoursSeg || `<span class="nc-hours-na">Hours not listed</span>`, dbSeg];
+    const metaLine = `<div class="nc-metaline">${metaSegs.join(`<span class="nc-sep" aria-hidden="true"> \u00b7 </span>`)}</div>`;
     return `<article class="nc-card">
       ${gallery}
       <div class="nc-main">
-        <div class="nc-head"><h4 class="nc-name">${esc(c.name)}</h4>${dbPill}${actions}${rating}</div>
-        <p class="nc-addr"><svg width="12" height="12" viewBox="0 0 24 24" fill="#6E8F7A" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg><span>${esc(addr)}</span></p>
-        ${todayHTML}
+        <div class="nc-head"><h4 class="nc-name">${esc(c.name)}</h4>${rating}</div>
+        ${metaLine}
         <p class="nc-desc">${esc(desc)}</p>
-        ${metaHTML}
+        ${priceLine}
+        ${actions}
         ${slotsHTML}
       </div>
     </article>`;
@@ -1430,7 +1430,7 @@ if (em) {
           w.setAttribute("hidden", "");
           const wrap = w.closest(".nc-todaywrap");
           const b = wrap && wrap.querySelector("[data-nc-hours]");
-          if (b) b.textContent = "See all hours \u25be";
+          if (b) b.setAttribute("aria-expanded", "false");
         });
       }
       const more = e.target.closest("[data-nc-hours]");
@@ -1440,10 +1440,10 @@ if (em) {
         if (!week) return;
         const open = week.hasAttribute("hidden");
         if (open) {
-          document.querySelectorAll(".nc-week:not([hidden])").forEach((w) => { if (w !== week) w.setAttribute("hidden", ""); });
-          week.removeAttribute("hidden"); more.textContent = "Hide hours \u25b4";
+          document.querySelectorAll(".nc-week:not([hidden])").forEach((w) => { if (w !== week) { w.setAttribute("hidden", ""); const wb = w.closest(".nc-todaywrap"); const bb = wb && wb.querySelector("[data-nc-hours]"); if (bb) bb.setAttribute("aria-expanded", "false"); } });
+          week.removeAttribute("hidden"); more.setAttribute("aria-expanded", "true");
         }
-        else { week.setAttribute("hidden", ""); more.textContent = "See all hours \u25be"; }
+        else { week.setAttribute("hidden", ""); more.setAttribute("aria-expanded", "false"); }
       }
     });
   }
