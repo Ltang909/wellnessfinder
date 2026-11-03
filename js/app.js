@@ -417,10 +417,10 @@
      (Places or the clinic's own Google badge/widget). Treatments
      without a curated set fall back to the notes-first selection. */
   const FC_SETS = {
-    "Clinical Pilates": ["Revival Physio", "Pulse Physiotherapy", "Toronto Physiotherapy (Danforth & Chester)", "Focus Physio + Wellness", "Treloar Physiotherapy \u2014 Cambie", "Synergy Physiotherapy and Pilates", "Pilates4Physio", "Bijoy's Physio & Pilates"],
-    "Microneedling": ["Qi Integrated Health", "Dr. Lauren Cottom", "Well BYND", "Health Globe Wellness Clinic", "Everwell ND", "Wellness Place"],
-    "IV Vitamin Therapy": ["Timeless Health Clinic", "The Vitamin Clinic", "Essence Wellness Clinic (Marda Loop)", "TruMed", "Sage Naturopathic Clinic (Kitchener)"],
-    "Golf Swing Assessment": ["MOTI Physio", "Anchor Health and Performance Clinic", "OAK Physio & Wellness", "Arbutus Physiotherapy"],
+    "Clinical Pilates": ["Revival Physio", "Pulse Physiotherapy", "Toronto Physiotherapy (Danforth & Chester)", "Focus Physio + Wellness", "Treloar Physiotherapy \u2014 Cambie", "Synergy Physiotherapy and Pilates", "Pilates4Physio"],
+    "Microneedling": ["Qi Integrated Health", "Dr. Lauren Cottom", "Well BYND", "Everwell ND", "Wellness Place", "Dr. Caitlin Batting"],
+    "IV Vitamin Therapy": ["Timeless Health Clinic", "The Vitamin Clinic", "Essence Wellness Clinic (Marda Loop)", "TruMed", "Health Globe Wellness Clinic"],
+    "Golf Swing Assessment": ["MOTI Physio", "Anchor Health and Performance Clinic", "OAK Physio & Wellness", "Arbutus Physiotherapy", "Ohana Wellness Clinic"],
   };
   function fcFeatured(name) {
     const all = (gtaDataFor(name) || { clinics: [] }).clinics.filter(Boolean);
