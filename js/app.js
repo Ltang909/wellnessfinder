@@ -149,6 +149,422 @@
     if (chipM) { chipM.textContent = amt + " left"; chipM.hidden = false; }
   };
 
+  /* ============================================================
+     Schedule request — the clinic card's main call to action.
+     Tapping a live-opening chip opens a chooser (email the clinic
+     for more information, or straight to the booking page); the
+     Email icon opens the same inline form with no slot picked.
+     The form posts to /api/request-time.php, which resolves the
+     clinic's address server-side and sends from
+     hello@wellfinder.ca with Reply-To = the visitor.
+     Shared by directory/minipage cards (app.js) and /saved cards
+     (saved.js emits the same data-req-* hooks; app.js loads first).
+     ============================================================ */
+  const REQ_ICO = {
+    cal: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>`,
+    globe: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.9 5.7 3.9 9s-1.4 6.4-3.9 9c-2.5-2.6-3.9-5.7-3.9-9S9.5 5.6 12 3z"/></svg>`,
+    env: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>`
+  };
+  window.wfIco = REQ_ICO;
+
+  const reqRand = (n) => {
+    const cs = "ABCDEFGHJKMNPQRSTUVWXYZ23456789";
+    let s = "";
+    for (let i = 0; i < n; i++) s += cs[Math.floor(Math.random() * cs.length)];
+    return s;
+  };
+  window.wfUserId = function () {
+    try {
+      let u = localStorage.getItem("wf_uid");
+      if (!u || !/^WF-U-[A-Z0-9]{4}$/.test(u)) {
+        u = "WF-U-" + reqRand(4);
+        if (window.wfStoreSet) window.wfStoreSet("wf_uid", u);
+        else localStorage.setItem("wf_uid", u);
+      }
+      return u;
+    } catch (_) { return "WF-U-" + reqRand(4); }
+  };
+  window.wfRequests = {
+    get() {
+      try { return JSON.parse(localStorage.getItem("wf_requests")) || []; }
+      catch (_) { return []; }
+    },
+    add(rec) {
+      const a = window.wfRequests.get();
+      a.unshift(rec);
+      const v = JSON.stringify(a);
+      if (window.wfStoreSet) window.wfStoreSet("wf_requests", v);
+      else { try { localStorage.setItem("wf_requests", v); } catch (_) {} }
+      return a;
+    }
+  };
+
+  /* Map a treatment to the booklet category it bills under — mirrors
+     treatmentCategory() in saved.js (same regex table). */
+  const wfCategoryFor = (t) => {
+    if (!t) return null;
+    const hay = (t.billed || "") + " | " + (t.categories || []).join(" | ");
+    const tests = [
+      [/physiotherapy|physio\b/i, "Physiotherapy"],
+      [/chiropractic|chiro\b/i, "Chiropractic"],
+      [/naturopath/i, "Naturopathy"],
+      [/psychology|psychologist/i, "Psychology"],
+      [/psychotherap|counsell/i, "Psychotherapy"],
+      [/massage/i, "Massage Therapy"],
+      [/acupuncture/i, "Acupuncture"],
+      [/osteopath/i, "Osteopathy"],
+      [/dietitian|dietician|nutrition/i, "Dietitian"],
+      [/speech/i, "Speech Therapy"],
+      [/dental/i, "Dental"]
+    ];
+    for (const pair of tests) if (pair[0].test(hay)) return pair[1];
+    return null;
+  };
+  const reqMoney = (n) => "$" + Math.round(n).toLocaleString("en-CA");
+  /* Compact wallet reader for directory pages (saved.js is not loaded
+     there): what the visitor's booklet says about one treatment —
+     claimable = min(own remaining, shared-pool remaining). */
+  window.wfPlanFor = function (treatmentName) {
+    let b = null;
+    try { b = JSON.parse(localStorage.getItem("wf_booklet") || "null"); } catch (_) {}
+    if (!b || !b.categories || typeof TREATMENTS === "undefined") return null;
+    const t = TREATMENTS.find((x) => x.name === treatmentName);
+    if (!t) return null;
+    const cat = wfCategoryFor(t);
+    if (!cat || !b.categories[cat]) return null;
+    const cc = b.categories[cat];
+    const ownLeft = Math.max(0, (cc.max || 0) - (cc.used || 0));
+    let pool = null, claim = ownLeft;
+    (b.groupCaps || []).forEach((g) => {
+      if ((g.members || []).indexOf(cat) > -1) {
+        const used = (g.members || []).reduce((s, m) => s + ((b.categories[m] || {}).used || 0), 0);
+        const left = Math.max(0, (g.max || 0) - used);
+        pool = { max: g.max || 0, left, label: g.label || "shared pool" };
+        claim = Math.min(ownLeft, left);
+      }
+    });
+    const pct = cc.pct != null ? cc.pct : null;
+    const insurer = b.insurer || "";
+    const tier = String(b.tier || b.planName || "").replace(/\s+plan$/i, "").trim();
+    const head = [insurer, tier ? tier + " Plan" : "", b.coverage || ""].filter(Boolean).join(" · ");
+    const poolName = pool ? String(pool.label).replace(/\s+services combined$/i, "").replace(/\s+combined$/i, "").trim().toLowerCase() : "";
+    const display = (head ? head + ". " : "") + treatmentName + " bills under " + cat + ". Your wallet shows "
+      + reqMoney(claim) + " left"
+      + (pool ? " of the " + reqMoney(pool.max) + " " + poolName + " pool" : "")
+      + (pct != null ? " · " + pct + "% covered" : "") + ".";
+    const sentence = "Covered under " + (insurer || "my plan") + (tier ? " " + tier : "")
+      + " (bills as " + cat + (pct != null ? ", " + pct + "% plan coverage" : "")
+      + ") — please confirm it's billable under my plan and the total cost.";
+    return { insurer, tier, coverage: b.coverage || "", category: cat, claim, pool, pct, display, sentence };
+  };
+  const reqHasBooklet = () => {
+    try { const b = JSON.parse(localStorage.getItem("wf_booklet") || "null"); return !!(b && b.categories); }
+    catch (_) { return false; }
+  };
+
+  /* ---------- chooser (popover / bottom sheet) ---------- */
+  let reqChooserEl = null, reqPressedChip = null;
+  function reqCloseChooser(unpress) {
+    if (reqChooserEl) { reqChooserEl.remove(); reqChooserEl = null; }
+    if (unpress && reqPressedChip) { reqPressedChip.classList.remove("pressed"); reqPressedChip = null; }
+  }
+  function reqOpenChooser(chip, ctx, sel) {
+    reqCloseChooser(true);
+    chip.classList.add("pressed");
+    reqPressedChip = chip;
+    const book = (ctx.book && ctx.book[sel.treatment]) || "";
+    const el = document.createElement("div");
+    el.className = "wf-choose" + (window.innerWidth <= 680 ? " sheet" : "");
+    el.setAttribute("role", "dialog");
+    el.setAttribute("aria-label", "Choose how to contact " + ctx.name);
+    el.innerHTML =
+      `<p class="wf-choose-head"><b>${esc(sel.d)} · ${esc(sel.t)} — ${esc(sel.treatment)}</b><span>${esc(ctx.name)} · what would you like to do?</span></p>`
+      + `<button type="button" class="wf-choose-opt" data-req-act="email"><span class="wf-choose-ico">${REQ_ICO.env}</span><span class="wf-choose-txt"><b>Email the clinic for more information</b><small>Ask about this time, coverage &amp; cost — sent from hello@wellfinder.ca</small></span><span class="wf-choose-arr" aria-hidden="true">›</span></button>`
+      + (book ? `<a class="wf-choose-opt" href="${esc(book)}" target="_blank" rel="noopener"><span class="wf-choose-ico">${REQ_ICO.cal}</span><span class="wf-choose-txt"><b>Book on Jane →</b><small>Go straight to their booking page</small></span><span class="wf-choose-arr" aria-hidden="true">›</span></a>` : "")
+      + `<button type="button" class="wf-choose-cancel" data-req-act="cancel">Cancel</button>`;
+    document.body.appendChild(el);
+    reqChooserEl = el;
+    if (!el.classList.contains("sheet")) {
+      const r = chip.getBoundingClientRect();
+      const w = Math.min(360, window.innerWidth - 24);
+      el.style.width = w + "px";
+      el.style.left = Math.max(12, Math.min(r.left, window.innerWidth - w - 12)) + "px";
+      el.style.top = (r.bottom + 8) + "px";
+      const h = el.offsetHeight;
+      if (r.bottom + 8 + h > window.innerHeight - 8 && r.top - h - 8 > 0) el.style.top = (r.top - h - 8) + "px";
+    }
+    el.querySelector('[data-req-act="email"]').addEventListener("click", () => {
+      reqCloseChooser(false);
+      reqOpenForm(chip, ctx, { treatment: sel.treatment, slot: sel });
+    });
+    const cancel = el.querySelector('[data-req-act="cancel"]');
+    if (cancel) cancel.addEventListener("click", () => reqCloseChooser(true));
+  }
+
+  /* ---------- inline request form (Variant B) ---------- */
+  let reqFormHost = null;
+  function reqCloseForm() {
+    if (reqFormHost) { reqFormHost.remove(); reqFormHost = null; }
+  }
+  function reqOpenForm(anchor, ctx, opts) {
+    reqCloseForm();
+    const card = anchor.closest(".nc-card") || anchor.closest("[data-req-ctx]");
+    if (!card || !ctx) return;
+    const host = document.createElement("div");
+    host.className = "wf-reqhost";
+    card.after(host);
+    reqFormHost = host;
+    const state = {
+      ctx,
+      caseId: "WF-" + reqRand(5),
+      userId: window.wfUserId(),
+      treatment: opts.treatment || (ctx.treatments || [])[0] || "",
+      times: new Set(),
+      asks: { time: !!opts.slot, coverage: false, cost: false },
+      includeSummary: true,
+      carried: !!opts.slot,
+      fields: { name: "", email: "", phone: "", note: "", otherTimes: "", insurer: "" }
+    };
+    if (opts.slot) state.times.add(opts.slot.d + "|" + opts.slot.t);
+    render();
+    host.scrollIntoView({ behavior: "smooth", block: "nearest" });
+
+    function slotsFor(T) {
+      return (ctx.slots && ctx.slots[T]) || [];
+    }
+    function readFields() {
+      ["name", "email", "phone", "note", "otherTimes", "insurer"].forEach((k) => {
+        const el = host.querySelector(`[data-f="${k}"]`);
+        if (el) state.fields[k] = el.value;
+      });
+      const tog = host.querySelector('[data-f="includeSummary"]');
+      if (tog) state.includeSummary = tog.checked;
+    }
+    function formHTML() {
+      const plan = window.wfPlanFor(state.treatment);
+      const slots = slotsFor(state.treatment);
+      const askPill = (k, label) =>
+        `<label class="wf-ask${state.asks[k] ? " on" : ""}"><input type="checkbox" data-ask="${k}"${state.asks[k] ? " checked" : ""}><span class="wf-ask-box" aria-hidden="true">✓</span>${label}</label>`;
+      const timesHTML = slots.length
+        ? `<div class="wf-tchips">${slots.map((s) => {
+            const k = s.d + "|" + s.t;
+            return `<button type="button" class="wf-tchip${state.times.has(k) ? " on" : ""}" data-tchip="${esc(k)}">${state.times.has(k) ? "✓ " : ""}<b>${esc(s.d)}</b> · ${esc(s.t)}</button>`;
+          }).join("")}</div>`
+        : `<p class="wf-req-note">No live openings listed for ${esc(state.treatment)} right now — tell us what suits you:</p>`;
+      const planHTML = plan && (state.asks.coverage || state.asks.cost)
+        ? `<div class="wf-plan">
+             <p class="wf-req-lbl">Your plan — from your booklet on file</p>
+             <p class="wf-plan-txt">${esc(plan.display)}</p>
+             <label class="wf-toggle"><input type="checkbox" data-f="includeSummary"${state.includeSummary ? " checked" : ""}><span class="wf-sw" aria-hidden="true"></span>Include this summary so the clinic can check billing</label>
+             ${state.includeSummary ? `<p class="wf-plan-prev">✉ The clinic sees this in your request email: <i>“${esc(plan.sentence)}”</i></p>` : ""}
+           </div>`
+        : "";
+      const insurerHTML = !plan && state.asks.coverage
+        ? `<div class="wf-insurer">
+             <p class="wf-req-lbl">Insurance — no booklet on file</p>
+             <input type="text" data-f="insurer" placeholder="Your insurer (optional) — e.g. Manulife" value="${esc(state.fields.insurer)}" autocomplete="off">
+             <p class="wf-req-note">No booklet on file — add one on My WellFinder and we'll include your coverage details automatically.</p>
+           </div>`
+        : "";
+      return `<form class="wf-req" novalidate>
+        <div class="wf-req-head"><h4>Request a time + more info · ${esc(ctx.name)}</h4><span class="wf-case">Case ${state.caseId}</span><button type="button" class="wf-req-x" data-req-close aria-label="Close request form">×</button></div>
+        <p class="wf-req-lbl">What would you like?</p>
+        <div class="wf-asks">${askPill("time", "Request a time")}${askPill("coverage", "Check if my insurance covers this")}${askPill("cost", "Confirm the total cost")}</div>
+        <div class="wf-req-grid2">
+          <div><p class="wf-req-lbl">Treatment</p><select data-f="treatment" aria-label="Treatment">${(ctx.treatments || []).map((t) => `<option value="${esc(t)}"${t === state.treatment ? " selected" : ""}>${esc(t)}</option>`).join("")}</select></div>
+          <div><p class="wf-req-lbl">Preferred times${state.carried ? " — carried in from the time you tapped" : ""}</p>${timesHTML}</div>
+        </div>
+        <input type="text" data-f="otherTimes" placeholder="Other times — e.g. weekday evenings after 5" value="${esc(state.fields.otherTimes)}" autocomplete="off">
+        ${planHTML}
+        ${insurerHTML}
+        <div class="wf-req-grid3">
+          <div><p class="wf-req-lbl">Your name</p><input type="text" data-f="name" value="${esc(state.fields.name)}" autocomplete="name"></div>
+          <div><p class="wf-req-lbl">Email</p><input type="email" data-f="email" value="${esc(state.fields.email)}" autocomplete="email"></div>
+          <div><p class="wf-req-lbl">Phone</p><input type="tel" data-f="phone" value="${esc(state.fields.phone)}" autocomplete="tel"></div>
+        </div>
+        <input type="text" data-f="note" placeholder="Note for the clinic (optional) — e.g. first visit, please confirm the assessment is included" value="${esc(state.fields.note)}" autocomplete="off">
+        <input type="text" name="company" data-f="company" class="wf-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <p class="wf-req-err" hidden></p>
+        <div class="wf-req-foot">
+          <p class="wf-req-small">🔒 Sent from <b>hello@wellfinder.ca</b> · The clinic replies to your email directly · Case ${state.caseId}</p>
+          <span class="wf-req-btns"><button type="button" class="wf-req-close" data-req-close>Close</button><button type="submit" class="wf-req-send">Send request</button></span>
+        </div>
+      </form>`;
+    }
+    function render() {
+      host.innerHTML = formHTML();
+      wire();
+    }
+    function wire() {
+      host.querySelectorAll("[data-req-close]").forEach((b) => b.addEventListener("click", () => reqCloseForm()));
+      host.querySelectorAll("[data-ask]").forEach((cb) => cb.addEventListener("change", () => {
+        readFields();
+        state.asks[cb.getAttribute("data-ask")] = cb.checked;
+        render();
+      }));
+      const tsel = host.querySelector('[data-f="treatment"]');
+      if (tsel) tsel.addEventListener("change", () => {
+        readFields();
+        state.treatment = tsel.value;
+        state.times = new Set();
+        state.carried = false;
+        render();
+      });
+      host.querySelectorAll("[data-tchip]").forEach((chip) => chip.addEventListener("click", () => {
+        const k = chip.getAttribute("data-tchip");
+        if (state.times.has(k)) state.times.delete(k); else state.times.add(k);
+        chip.classList.toggle("on", state.times.has(k));
+        const d = k.split("|")[0], t = k.split("|")[1];
+        chip.innerHTML = (state.times.has(k) ? "✓ " : "") + `<b>${esc(d)}</b> · ${esc(t)}`;
+      }));
+      const tog = host.querySelector('[data-f="includeSummary"]');
+      if (tog) tog.addEventListener("change", () => { readFields(); render(); });
+      const form = host.querySelector("form.wf-req");
+      form.addEventListener("submit", (e) => { e.preventDefault(); submit(); });
+    }
+    function fail(msg) {
+      const errEl = host.querySelector(".wf-req-err");
+      const btn = host.querySelector(".wf-req-send");
+      if (btn) { btn.disabled = false; btn.textContent = "Send request"; }
+      let html = esc(msg);
+      if (ctx.email) {
+        const plan = window.wfPlanFor(state.treatment);
+        const times = [...state.times].map((k) => k.replace("|", " · "));
+        const body = [
+          `Hi ${ctx.name} team,`,
+          "",
+          `I found your clinic on WellFinder.ca and would like to ask about ${state.treatment}.`,
+          times.length ? `Preferred times: ${times.join("; ")}.` : "",
+          state.fields.otherTimes ? `Also possible: ${state.fields.otherTimes}` : "",
+          state.asks.coverage ? "Could you confirm whether this is billable under my insurance plan?" : "",
+          state.asks.cost ? "Could you confirm the total cost?" : "",
+          state.includeSummary && plan ? plan.sentence : "",
+          state.fields.note || "",
+          "",
+          `Thank you,`,
+          state.fields.name || ""
+        ].filter((x) => x !== "").join("\n");
+        const href = "mailto:" + encodeURIComponent(ctx.email)
+          + "?subject=" + encodeURIComponent(`[WellFinder] ${state.treatment} request — Case ${state.caseId}`)
+          + "&body=" + encodeURIComponent(body);
+        html += ` <a class="wf-req-mailto" href="${href}">Email ${esc(ctx.name)} directly instead →</a>`;
+      }
+      if (errEl) { errEl.innerHTML = html; errEl.hidden = false; }
+    }
+    async function submit() {
+      readFields();
+      const errEl = host.querySelector(".wf-req-err");
+      const missing = [];
+      if (!state.fields.name.trim()) missing.push("your name");
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(state.fields.email.trim())) missing.push("a valid email");
+      if (!state.asks.time && !state.asks.coverage && !state.asks.cost) missing.push("at least one thing to ask");
+      if (missing.length) {
+        if (errEl) { errEl.textContent = "Please add " + missing.join(", ") + "."; errEl.hidden = false; }
+        return;
+      }
+      if (errEl) errEl.hidden = true;
+      const btn = host.querySelector(".wf-req-send");
+      if (btn) { btn.disabled = true; btn.textContent = "Sending…"; }
+      const plan = window.wfPlanFor(state.treatment);
+      const hp = host.querySelector('[data-f="company"]');
+      const payload = {
+        caseId: state.caseId,
+        userId: state.userId,
+        clinicKey: ctx.key,
+        clinicName: ctx.name,
+        treatment: state.treatment,
+        times: [...state.times].map((k) => k.replace("|", " · ")),
+        otherTimes: state.fields.otherTimes.trim(),
+        asks: state.asks,
+        name: state.fields.name.trim(),
+        email: state.fields.email.trim(),
+        phone: state.fields.phone.trim(),
+        note: state.fields.note.trim(),
+        insurer: state.fields.insurer.trim(),
+        includeSummary: !!(plan && state.includeSummary),
+        planSummaryText: plan ? plan.sentence : "",
+        company: hp ? hp.value : "",
+        turnstileToken: ""
+      };
+      try {
+        const r = await fetch("/api/request-time.php", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        const j = await r.json().catch(() => null);
+        if (!j || !j.ok) throw new Error((j && j.reason) || "send_failed");
+        window.wfRequests.add({
+          caseId: state.caseId,
+          userId: state.userId,
+          clinicName: ctx.name,
+          clinicKey: ctx.key,
+          treatment: state.treatment,
+          times: payload.times,
+          otherTimes: payload.otherTimes,
+          asks: state.asks,
+          insurer: payload.insurer,
+          includeSummary: payload.includeSummary,
+          date: new Date().toISOString(),
+          status: "Waiting"
+        });
+        try { window.dispatchEvent(new CustomEvent("wf:requests")); } catch (_) {}
+        host.innerHTML = `<div class="wf-req wf-req-done">
+          <p class="wf-done-ico" aria-hidden="true">✓</p>
+          <h4>Request sent — Case ${state.caseId}</h4>
+          <p>${esc(ctx.name)} replies to your email directly. You can track this under <b>My requests</b> on your wellness page.</p>
+          <button type="button" class="wf-req-close" data-req-done-close>Done</button>
+        </div>`;
+        const dc = host.querySelector("[data-req-done-close]");
+        if (dc) dc.addEventListener("click", () => reqCloseForm());
+      } catch (err) {
+        const reason = err && err.message;
+        fail(reason === "no_email"
+          ? "This clinic doesn't have an email on file with us, so the request couldn't be sent."
+          : reason === "rate"
+            ? "You've sent a few requests in the last hour — please wait a bit before sending more."
+            : "We couldn't send that just now. Please try again in a moment.");
+      }
+    }
+  }
+
+  /* Delegated hooks: chips + Email icons on any card that carries a
+     request context (directory, minipages, /saved). */
+  function initWfReq() {
+    const ctxOf = (el) => {
+      const card = el.closest("[data-req-ctx]");
+      if (!card) return null;
+      try { return JSON.parse(card.getAttribute("data-req-ctx")); } catch (_) { return null; }
+    };
+    document.addEventListener("click", (e) => {
+      const chip = e.target.closest ? e.target.closest("[data-req-chip]") : null;
+      if (chip) {
+        const ctx = ctxOf(chip);
+        if (ctx) reqOpenChooser(chip, ctx, {
+          treatment: chip.getAttribute("data-treatment") || "",
+          d: chip.getAttribute("data-d") || "",
+          t: chip.getAttribute("data-t") || ""
+        });
+        return;
+      }
+      const em = e.target.closest ? e.target.closest("[data-req-email]") : null;
+      if (em) {
+        const ctx = ctxOf(em);
+        if (ctx) {
+          reqCloseChooser(true);
+          reqOpenForm(em, ctx, { treatment: (ctx.treatments || [])[0] || "", slot: null });
+        }
+        return;
+      }
+      if (reqChooserEl && !reqChooserEl.contains(e.target) && !(reqPressedChip && reqPressedChip.contains(e.target))) {
+        reqCloseChooser(true);
+      }
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") { reqCloseChooser(true); reqCloseForm(); }
+    });
+  }
+
   /* ---------- mobile nav ---------- */
   function initNav() {
     const toggle = $(".nav-toggle");
@@ -1387,16 +1803,17 @@
     /* actions */
     const book = media.link || c.book || (X && X.b) || (pair && pair.l) || "";
     const web = c.web || (X && X.w) || "";
-    let gmailBtn = "";
+    const email = (typeof CLINIC_SLOTS !== "undefined" && CLINIC_SLOTS[key] && CLINIC_SLOTS[key]._em) || c.email || "";
     let actions = "";
+    const ctxSlots = [];
+    const ctxSeen = new Set();
 
     /* live openings, ClassPass-style: one line per slot — service title +
-       that slot's price, then the date and time. The line links to the
-       clinic's booking page; the envelope opens a prefilled email naming
-       that exact slot, its price, and the WellFinder referral. */
+       that slot's price, then the date and time. Tapping a chip no longer
+       navigates: it opens the schedule-request chooser (email the clinic
+       for more information, or straight to the booking page). */
     let slotsHTML = "";
     if (slot) {
-      const em = (CLINIC_SLOTS[key] && CLINIC_SLOTS[key]._em) || "";
       const fc = price ? fcPriceLine(price) : "";
       const fcSplit = fc.match(/^\$([\d,]+) assessment \/ \$([\d,]+) follow up$/);
       const priceFor = (kind) => {
@@ -1413,22 +1830,18 @@
         if (t.length > 36) t = t.slice(0, 33).replace(/\s+\S*$/, "") + "\u2026";
         return t;
       };
-if (em) {
-        const nk = slot.a ? "a" : slot.i ? "i" : "f";
-        const nslot = (slot[nk].list && slot[nk].list[0]) || slot[nk];
-        const ntitle = titleFor(slot[nk], nk);
-        const gsubj = `${T} at ${c.name} \u2014 asking about your next opening`;
-        const gbody = `Hi ${c.name} team,\n\nI found your clinic on WellFinder.ca while looking for ${T}${billed ? `, billed as ${billed}` : ""}, in ${c.city}.\n\nYour next opening showing on WellFinder is ${ntitle} on ${nslot.d} at ${nslot.t}. Is that time still available? I would like to ask for more information before booking.\n\nThank you`;
-        gmailBtn = `<a class="nc-tlink" href="https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(em)}&su=${encodeURIComponent(gsubj)}&body=${encodeURIComponent(gbody)}" target="_blank" rel="noopener" aria-label="Email ${esc(c.name)} via Gmail" title="Email the clinic via Gmail">Email the clinic</a>`;
-      }
       const blockFor = (s, kind) => {
         const title = titleFor(s, kind);
         const pricePart = priceFor(kind);
         const rawChips = (s.list && s.list.length ? s.list : [{ d: s.d, t: s.t, w: s.w }]);
         const seenChips = new Set();
         const chips = rawChips.filter((ch) => { const k = ch.d + "|" + ch.t; if (seenChips.has(k)) return false; seenChips.add(k); return true; }).slice(0, 7);
+        chips.forEach((ch) => {
+          const ck = ch.d + "|" + ch.t;
+          if (!ctxSeen.has(ck) && ctxSlots.length < 9) { ctxSeen.add(ck); ctxSlots.push({ d: ch.d, t: ch.t }); }
+        });
         const opts = chips.map((ch) => {
-          const chip = book ? `<a class="nc-slot-chip" href="${esc(book)}" target="_blank" rel="noopener" title="Book this slot on the clinic's booking page"><b>${ch.d}</b> &middot; ${ch.t}</a>` : `<span class="nc-slot-chip"><b>${ch.d}</b> &middot; ${ch.t}</span>`;
+          const chip = `<button type="button" class="nc-slot-chip" data-req-chip data-treatment="${esc(T)}" data-d="${esc(ch.d)}" data-t="${esc(ch.t)}" aria-label="Request ${esc(T)} on ${esc(ch.d)} at ${esc(ch.t)}"><b>${esc(ch.d)}</b> &middot; ${esc(ch.t)}</button>`;
           return `<span class="nc-slot-opt">${chip}</span>`;
         }).join("");
         const linePrice = pricePart ? `<span class="nc-slot-price">${esc(pricePart)}</span>${pair && pair.t === "booking" ? `<span class="nc-verified"><i>\u2713</i> Verified on booking page</span>` : ""}` : "";
@@ -1445,15 +1858,17 @@ if (em) {
         if (typeof CLINIC_SLOTS_CHECKED !== "undefined" && CLINIC_SLOTS_CHECKED) {
           try { chk = "checked " + new Date(CLINIC_SLOTS_CHECKED).toLocaleDateString("en-CA", { timeZone: "America/Toronto", weekday: "short", month: "short", day: "numeric" }); } catch (e) {}
         }
-        slotsHTML = `<div class="nc-slots"><p class="nc-slots-head"><span class="nc-slots-label">Live openings</span>${chk ? `<span class="nc-slots-chk">${chk}</span>` : ""}</p>${rows.join("")}</div>`;
+        slotsHTML = `<div class="nc-slots"><p class="nc-slots-head"><span class="nc-slots-label">Live openings</span>${chk ? `<span class="nc-slots-chk">${chk}</span>` : ""}<span class="nc-slots-cta">Tap a time to request it →</span></p>${rows.join("")}</div>`;
       }
     }
 
     const priceLine = price && !hasSlots ? `<p class="nc-hyprice"><b>${esc(price)}</b>${noteHTML ? `<span class="nc-hynote">${noteHTML}</span>` : ""}</p>` : "";
-    actions = `<div class="nc-actions">${book ? `<a class="nc-tlink" href="${esc(book)}" target="_blank" rel="noopener">Book appointment \u2192</a>` : ""}${web ? `<a class="nc-tlink" href="${esc(web)}" target="_blank" rel="noopener">Website \u2197</a>` : ""}${gmailBtn}</div>`;
+    const ico = window.wfIco || {};
+    actions = `<div class="nc-actions nc-icons">${book ? `<a class="nc-ico" href="${esc(book)}" target="_blank" rel="noopener" aria-label="Book at ${esc(c.name)}">${ico.cal || ""}<span>Book</span></a>` : ""}${web ? `<a class="nc-ico" href="${esc(web)}" target="_blank" rel="noopener" aria-label="Visit ${esc(c.name)} website">${ico.globe || ""}<span>Website</span></a>` : ""}${email ? `<button type="button" class="nc-ico" data-req-email aria-label="Email ${esc(c.name)} for more information">${ico.env || ""}<span>Email</span></button>` : ""}</div>`;
+    const reqCtx = { name: c.name, key, city: c.city, email, treatments: [T], book: book ? { [T]: book } : {}, slots: ctxSlots.length ? { [T]: ctxSlots } : {} };
     const metaSegs = [esc(addr), hoursSeg || `<span class="nc-hours-na">Hours not listed</span>`, dbSeg];
     const metaLine = `<div class="nc-metaline">${metaSegs.join(`<span class="nc-sep" aria-hidden="true"> \u00b7 </span>`)}</div>`;
-    return `<article class="nc-card">
+    return `<article class="nc-card" data-req-ctx="${esc(JSON.stringify(reqCtx))}">
       ${gallery}
       <div class="nc-main">
         <div class="nc-head"><h4 class="nc-name">${esc(c.name)}</h4>${rating}</div>
@@ -1668,6 +2083,7 @@ if (em) {
     renderTreatmentPage();
     initGlobalFavs();
     initNcCards();
+    initWfReq();
     window.addEventListener("wf:location", () => {
         renderRecommendations();
       if (typeof TREATMENTS !== "undefined") {

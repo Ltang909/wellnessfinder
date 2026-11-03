@@ -2224,18 +2224,15 @@
     lines = lines.slice(0, 2);
     if (!lines.length) return "";
     var parts = lines.map(function (ln) {
-      var book = bookUrlFor(vm, ln.T);
       var chipHtml = ln.chips.map(function (ch) {
         var inner = "<b>" + esc(ch.d) + "</b> · " + esc(ch.t);
-        return book
-          ? '<a class="nc-slot-chip" href="' + esc(book) + '" target="_blank" rel="noopener" aria-label="Book ' + esc(ln.T) + " " + esc(ch.d) + " at " + esc(ch.t) + '">' + inner + "</a>"
-          : '<span class="nc-slot-chip">' + inner + "</span>";
+        return '<button type="button" class="nc-slot-chip" data-req-chip data-treatment="' + esc(ln.T) + '" data-d="' + esc(ch.d) + '" data-t="' + esc(ch.t) + '" aria-label="Request ' + esc(ln.T) + " " + esc(ch.d) + " at " + esc(ch.t) + '">' + inner + "</button>";
       }).join("");
       return '<div class="nc-slot"><p class="nc-slot-t"><span class="nc-slot-title">' + esc(slotTitle(ln.s, ln.kind, ln.T)) + "</span>"
         + (ln.s.price ? '<span class="nc-slot-price">' + esc(ln.s.price) + "</span>" : "")
         + '</p><p class="nc-slot-c">' + chipHtml + "</p></div>";
     });
-    return '<div class="nc-slots"><p class="nc-slots-head"><span class="nc-slots-label">Live openings</span><span class="nc-slots-note">real bookings — tap one to grab it</span></p>' + parts.join("") + "</div>";
+    return '<div class="nc-slots"><p class="nc-slots-head"><span class="nc-slots-label">Live openings</span><span class="nc-slots-cta">Tap a time to request it →</span></p>' + parts.join("") + "</div>";
   }
   function clinicCard(vm) {
     var c = vm.clinic;
@@ -2279,10 +2276,34 @@
     var book = bookUrlFor(vm, T0);
     var web = vm.clinic.link || (vm.X && vm.X.w) || "";
     var email = (typeof CLINIC_SLOTS !== "undefined" && CLINIC_SLOTS[vm.key] && CLINIC_SLOTS[vm.key]._em) || vm.clinic.email || "";
+    var ico = window.wfIco || {};
     var actions = "";
-    if (book) actions += '<a class="nc-abtn nc-abtn-book" href="' + esc(book) + '" target="_blank" rel="noopener">📅 Book</a>';
-    if (web) actions += '<a class="nc-abtn" href="' + esc(web) + '" target="_blank" rel="noopener">Website</a>';
-    if (email) actions += '<a class="nc-abtn" href="mailto:' + esc(email) + '">Email</a>';
+    if (book) actions += '<a class="nc-ico" href="' + esc(book) + '" target="_blank" rel="noopener" aria-label="Book at ' + esc(c.name) + '">' + (ico.cal || "📅") + "<span>Book</span></a>";
+    if (web) actions += '<a class="nc-ico" href="' + esc(web) + '" target="_blank" rel="noopener" aria-label="Visit ' + esc(c.name) + ' website">' + (ico.globe || "🌐") + "<span>Website</span></a>";
+    if (email) actions += '<button type="button" class="nc-ico" data-req-email aria-label="Email ' + esc(c.name) + ' for more information">' + (ico.env || "✉") + "<span>Email</span></button>";
+    /* Schedule-request context for the shared chooser/form in app.js:
+       every treatment this clinic offers here, its booking link, and
+       its live openings. */
+    var ctxSlots = {}, ctxBook = {};
+    vm.treatments.forEach(function (T) {
+      var bu = bookUrlFor(vm, T);
+      if (bu) ctxBook[T] = bu;
+      var sl = slotFor(vm, T);
+      if (!sl) return;
+      var kinds = sl.a ? ["a"] : ["i", "f"].filter(function (k) { return sl[k]; });
+      var seen = {}, arr = [];
+      kinds.forEach(function (k) {
+        var raw = (sl[k].list && sl[k].list.length) ? sl[k].list : (sl[k].d ? [{ d: sl[k].d, t: sl[k].t }] : []);
+        raw.forEach(function (ch) {
+          var kk = ch.d + "|" + ch.t;
+          if (seen[kk] || arr.length >= 9) return;
+          seen[kk] = 1;
+          arr.push({ d: ch.d, t: ch.t });
+        });
+      });
+      if (arr.length) ctxSlots[T] = arr;
+    });
+    var reqCtx = { name: c.name, key: vm.key, city: c.city || "", email: email, treatments: vm.treatments, book: ctxBook, slots: ctxSlots };
     var meta = metaFor(vm.name);
     var statusOpts = ['<option value="">Set status…</option>'].concat(STATUSES.map(function (s) {
       return '<option value="' + s + '"' + (meta.status === s ? " selected" : "") + ">" + s + "</option>";
@@ -2293,12 +2314,12 @@
       + '<button type="button" class="mw-archivebtn" data-archive-clinic="' + esc(vm.name) + '">Archive</button>'
       + '<button type="button" class="mw-remove" data-unsave="' + esc(vm.name) + '">♥ Remove</button>'
       + '<textarea class="mw-note" data-note-for="' + esc(vm.name) + '" rows="2" placeholder="Private note — only visible on this device" aria-label="Private note for ' + esc(vm.name) + '"' + (meta.note ? "" : " hidden") + ">" + esc(meta.note || "") + "</textarea></div>";
-    return '<article class="nc-card">' + gallery
+    return '<article class="nc-card" data-req-ctx="' + esc(JSON.stringify(reqCtx)) + '">' + gallery
       + '<div class="nc-main">'
       + '<div class="nc-head"><h4 class="nc-name">' + esc(c.name) + "</h4>" + rate + "</div>"
       + '<div class="nc-metaline">' + [addr ? "<span>" + esc(addr) + "</span>" : "", hSeg || "", dbSeg || "", (isFinite(vm.distKm) && userPt ? '<span class="nc-chipdist">' + (vm.distKm < 1 ? vm.distKm.toFixed(1) : Math.round(vm.distKm)) + " km away</span>" : "")].filter(Boolean).join('<span class="nc-sep" aria-hidden="true"> · </span>') + "</div>"
       + desc + priceHtml
-      + (actions ? '<div class="nc-actions">' + actions + "</div>" : "")
+      + (actions ? '<div class="nc-actions nc-icons">' + actions + "</div>" : "")
       + clinicSlotsHTML(vm)
       + manage
       + "</div></article>";
@@ -2473,6 +2494,48 @@
   }
 
   /* ============================================================
+     My requests — schedule requests sent from clinic cards
+     (wf_requests, written by the shared form in app.js)
+     ============================================================ */
+  var REQ_STATUSES = ["Waiting", "Replied", "Booked", "Done"];
+  function requests() {
+    return window.wfRequests ? window.wfRequests.get() : [];
+  }
+  function saveRequests(a) { storeSet("wf_requests", JSON.stringify(a)); }
+  function renderRequests() {
+    var wrap = $("mwRequestsWrap");
+    if (!wrap) return;
+    var list = requests();
+    if (!list.length) { wrap.hidden = true; return; }
+    wrap.hidden = false;
+    var host = $("mwRequestsList");
+    if (!host) return;
+    host.innerHTML = list.map(function (r) {
+      var badges = "";
+      if (r.asks && r.asks.time) badges += '<span class="mw-req-badge">Time</span>';
+      if (r.asks && r.asks.coverage) badges += '<span class="mw-req-badge">Billable?</span>';
+      if (r.asks && r.asks.cost) badges += '<span class="mw-req-badge">Cost?</span>';
+      var when = "";
+      if (r.date) {
+        var dt = new Date(r.date);
+        if (!isNaN(dt)) when = dt.toLocaleDateString("en-CA", { month: "short", day: "numeric", year: "numeric" });
+      }
+      var times = (r.times && r.times.length) ? r.times.join("; ") : (r.otherTimes || "");
+      var opts = REQ_STATUSES.map(function (s) {
+        return '<option value="' + s + '"' + ((r.status || "Waiting") === s ? " selected" : "") + ">" + s + "</option>";
+      }).join("");
+      return '<div class="mw-req-row">'
+        + '<div class="mw-req-main"><p class="mw-req-name">' + esc(r.clinicName || "") + ' <span class="mw-req-tx">' + esc(r.treatment || "") + "</span></p>"
+        + (times ? '<p class="mw-req-times">' + esc(times) + "</p>" : "")
+        + '<p class="mw-req-meta">' + badges + '<span class="mw-req-case">Case ' + esc(r.caseId || "") + "</span>"
+        + (when ? '<span class="mw-req-date">' + esc(when) + "</span>" : "") + "</p></div>"
+        + '<label class="mw-req-status">Status <select data-req-status="' + esc(r.caseId || "") + '" aria-label="Status for request ' + esc(r.caseId || "") + '">' + opts + "</select></label>"
+        + '<button type="button" class="mw-req-remove" data-req-remove="' + esc(r.caseId || "") + '" aria-label="Remove request ' + esc(r.caseId || "") + '">Remove</button>'
+        + "</div>";
+    }).join("");
+  }
+
+  /* ============================================================
      Archived items (bottom of /saved)
      ============================================================ */
   function renderArchived() {
@@ -2524,6 +2587,7 @@
     if (empty) empty.hidden = total !== 0;
     if (clear) clear.disabled = total === 0;
     renderArchived();
+    renderRequests();
     return total;
   }
 
@@ -2599,6 +2663,13 @@
       renderAllSaved();
       return;
     }
+    var rr = e.target.closest ? e.target.closest("[data-req-remove]") : null;
+    if (rr) {
+      var rid = rr.getAttribute("data-req-remove");
+      saveRequests(requests().filter(function (r) { return r.caseId !== rid; }));
+      renderRequests();
+      return;
+    }
     var cp = e.target.closest ? e.target.closest("[data-copy-msg]") : null;
     if (cp) {
       var text = cp.getAttribute("data-copy-msg") || "";
@@ -2608,6 +2679,14 @@
     }
   });
   document.addEventListener("change", function (e) {
+    var rsel = e.target.closest ? e.target.closest("[data-req-status]") : null;
+    if (rsel) {
+      var rid2 = rsel.getAttribute("data-req-status");
+      var all = requests();
+      all.forEach(function (r) { if (r.caseId === rid2) r.status = rsel.value; });
+      saveRequests(all);
+      return;
+    }
     var sel = e.target.closest ? e.target.closest("[data-status-for]") : null;
     if (sel) { setMeta(sel.getAttribute("data-status-for"), { status: sel.value }); return; }
     var ta = e.target.closest ? e.target.closest("[data-note-for]") : null;
@@ -2675,4 +2754,5 @@
     renderLocBar();
     refreshAsync();
   });
+  window.addEventListener("wf:requests", function () { renderRequests(); });
 })();

@@ -344,3 +344,21 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-section{paddi
 .mw-sugg-card .addr{font-size:.82rem;color:#5C6B5E;margin:4px 0 0}
 .mw-sugg-card .rate{font-size:.85rem;font-weight:700;color:var(--forest);white-space:nowrap}
 .mw-sugg-card .mw-sugg-actions{margin-top:auto;padding-top:12px;justify-content:space-between}
+
+/* My requests (schedule requests sent from clinic cards) */
+.mw-req-row { display: flex; align-items: flex-start; gap: 14px; background: #fff; border: 1px solid #dde3dc; border-radius: 14px; padding: 14px 16px; margin: 0 0 10px; }
+.mw-req-main { flex: 1 1 auto; min-width: 0; }
+.mw-req-name { font-weight: 700; color: #0F2D2B; margin: 0; font-size: 1rem; }
+.mw-req-tx { font-weight: 600; color: #55705F; font-size: .88rem; }
+.mw-req-times { color: #44604D; font-size: .9rem; margin: 3px 0 0; }
+.mw-req-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; margin: 7px 0 0; }
+.mw-req-badge { background: #EFF4EC; border: 1px solid #D8E2D5; color: #33503F; font-size: .7rem; font-weight: 700; padding: 2px 8px; border-radius: 99px; }
+.mw-req-case { font-size: .8rem; font-weight: 700; color: #0F2D2B; }
+.mw-req-date { font-size: .8rem; color: #82937F; }
+.mw-req-status { font-size: .78rem; font-weight: 600; color: #55705F; display: flex; flex-direction: column; gap: 4px; }
+.mw-req-status select { font-family: inherit; font-size: .88rem; padding: 7px 9px; border: 1.5px solid #CCD3CD; border-radius: 9px; background: #fff; color: #161616; }
+.mw-req-remove { background: none; border: none; font-family: inherit; font-size: .85rem; font-weight: 600; color: #B3543F; cursor: pointer; padding: 6px 2px; }
+.mw-req-remove:hover { text-decoration: underline; }
+@media (max-width: 640px) {
+  .mw-req-row { flex-wrap: wrap; }
+}
