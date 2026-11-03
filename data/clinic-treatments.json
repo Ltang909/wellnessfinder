@@ -27203,7 +27203,7 @@
   "price_text": null,
   "price_source": "No acupuncture fee schedule is published on the clinic's own website, so price is null.",
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.enlightenfredericton.com/acupuncture--natural-medicine.html",
   "last_verified": "2026-11-02"
  },
  {
@@ -27229,7 +27229,7 @@
   "price_text": null,
   "price_source": "No acupuncture fee schedule is published on the clinic's own website, so price is null.",
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.enlightenfredericton.com/acupuncture--natural-medicine.html",
   "last_verified": "2026-11-02"
  },
  {
@@ -32639,7 +32639,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/mississauga-derry-village/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32652,7 +32652,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/mississauga-dixie/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32665,7 +32665,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.handandstone.ca/locations/mississauga-port-credit",
   "last_verified": "2026-11-01"
  },
  {
@@ -32678,7 +32678,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/newmarket/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32691,7 +32691,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/bayview-village/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32704,7 +32704,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/don-mills/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32717,7 +32717,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/oakville/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32730,7 +32730,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.handandstone.ca/locations/orleans",
   "last_verified": "2026-11-01"
  },
  {
@@ -32743,7 +32743,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/peterborough/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32756,7 +32756,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/pickering-spa/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32769,7 +32769,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/richmond-hill/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32782,8 +32782,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/saskatoon-stonebridge/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "hand-and-stone-saskatoon-stonebridge-saskatoon",
+  "treatment_id": "hand-and-stone-saskatoon-stonebridge-saskatoon--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Microneedling is listed on the location page without a published price; no booking-page price was verifiable, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://handandstone.ca/locations/saskatoon-stonebridge/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "hand-and-stone-sherwood-park-sherwood-park",
@@ -32795,7 +32808,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/sherwood-park-ab/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32808,8 +32821,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/ottawa-stittsville-on/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "hand-and-stone-stittsville-ottawa",
+  "treatment_id": "hand-and-stone-stittsville-ottawa--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Microneedling is listed on the location page without a published price; no booking-page price was verifiable, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://handandstone.ca/locations/ottawa-stittsville-on/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "hand-and-stone-thornhill-thornhill",
@@ -32821,8 +32847,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/thornhill/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "hand-and-stone-thornhill-thornhill",
+  "treatment_id": "hand-and-stone-thornhill-thornhill--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Microneedling is listed on the location page without a published price; no booking-page price was verifiable, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://handandstone.ca/locations/thornhill/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "hand-and-stone-toronto-avenue-road-toronto",
@@ -32834,7 +32873,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/toronto-avenueroad/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32847,8 +32886,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/toronto-beaches/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "hand-and-stone-toronto-beaches-toronto",
+  "treatment_id": "hand-and-stone-toronto-beaches-toronto--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Microneedling is listed on the location page without a published price; no booking-page price was verifiable, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://handandstone.ca/locations/toronto-beaches/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "hand-and-stone-toronto-college-street-toronto",
@@ -32860,7 +32912,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.handandstone.ca/locations/toronto-college-street",
   "last_verified": "2026-11-01"
  },
  {
@@ -32873,8 +32925,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/toronto-dan-leckie/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "hand-and-stone-toronto-dan-leckie-toronto",
+  "treatment_id": "hand-and-stone-toronto-dan-leckie-toronto--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Microneedling is listed on the location page without a published price; no booking-page price was verifiable, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://handandstone.ca/locations/toronto-dan-leckie/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "hand-and-stone-toronto-danforth-toronto",
@@ -32886,7 +32951,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.handandstone.ca/locations/toronto-danforth-spa",
   "last_verified": "2026-11-01"
  },
  {
@@ -32899,7 +32964,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/toronto-jarvis-adelaide/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32912,8 +32977,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/toronto-leaside/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "hand-and-stone-toronto-leaside-toronto",
+  "treatment_id": "hand-and-stone-toronto-leaside-toronto--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Microneedling is listed on the location page without a published price; no booking-page price was verifiable, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://handandstone.ca/locations/toronto-leaside/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "hand-and-stone-vaughan-west-vaughan",
@@ -32925,7 +33003,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/vaughan-west/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32938,7 +33016,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/theboardwalk/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32951,7 +33029,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.handandstone.ca/locations/whitby",
   "last_verified": "2026-11-01"
  },
  {
@@ -32964,7 +33042,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/woodbridge/",
   "last_verified": "2026-11-01"
  },
  {
@@ -33088,12 +33166,12 @@
   "treatment_id": "harmony-chiropractic-and-wellness-clinic-the-harmony-clinic-kelowna--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Megan Relkoff",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://theharmonyclinic.com/service/registered-massage-therapy-kelowna/",
   "last_verified": "2026-11-01"
  },
  {
@@ -33106,7 +33184,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://thepelvicexperts.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -33116,10 +33194,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "From $120 (45 min Petite Pamper) - $180 (60 min Signature) - $222 (60 min Restart)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.hartsalon.com/headspa",
   "last_verified": "2026-11-01"
  },
  {
@@ -33127,12 +33205,12 @@
   "treatment_id": "harvest-moon-counselling-and-therapy-prince-albert--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Terry Fehr",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.harvestmooncounselling.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -33145,7 +33223,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.hausofbodymh.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -33318,7 +33396,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://healspace.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -33400,7 +33478,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.healthcentreofmilton.ca/physiotherapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -33526,6 +33604,19 @@
  },
  {
   "clinic_id": "health-for-life-naturopaths-st-johns",
+  "treatment_id": "health-for-life-naturopaths-st-johns--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No IM injection service or price appears on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.healthforlifenl.com/iv-therapy",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "health-for-life-naturopaths-st-johns",
   "treatment_id": "health-for-life-naturopaths-st-johns--iv-im-vitamin-therapy",
   "treatment": "IV/IM Vitamin Therapy",
   "billed_as": null,
@@ -33536,6 +33627,25 @@
   "price_tier": null,
   "treatment_link": "https://www.healthforlifenl.com/iv-therapy",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "health-for-life-naturopaths-st-johns",
+  "treatment_id": "health-for-life-naturopaths-st-johns--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Kathleen Mercer",
+  "practitioners": [
+   {
+    "id": "health-for-life-naturopaths-st-johns--kathleen-mercer",
+    "name": "Kathleen Mercer",
+    "as_recorded": "Dr. Kathleen Mercer, ND"
+   }
+  ],
+  "price_text": "$150 + cost of IV solution per session; 3-session pack $120/session + solution",
+  "price_source": "Clinic's own IV Therapy page (healthforlifenl.com/iv-therapy): 'IV Therapy Sessions: $150 + the cost of your IV Solution; 3 sessions over 2 months for $120 + the cost of your IV Solution.' The same page notes '$80 can be covered through insurance under Naturopathic Medicine.'",
+  "price_tier": "website",
+  "treatment_link": "https://www.healthforlifenl.com/iv-therapy",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "health-globe-wellness-clinic-mississauga",
@@ -33689,7 +33799,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://shophealthhut.com/pages/torontosbestnaturalfacials",
   "last_verified": "2026-11-01"
  },
  {
@@ -33771,12 +33881,12 @@
   "treatment_id": "health-within-cornwall--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Shawn Fontaine",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://cornwallwellness.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -33879,7 +33989,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://healthmaxphysio.com/etobicoke/massage-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -34037,8 +34147,27 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.healthx.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "healthx-physiotherapy-langley",
+  "treatment_id": "healthx-physiotherapy-langley--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Cory Graham",
+  "practitioners": [
+   {
+    "id": "healthx-physiotherapy-langley--cory-graham",
+    "name": "Cory Graham",
+    "as_recorded": "Cory Graham, Registered Physiotherapist - Jane bio: specialisation in vertigo, dizziness and balance issues with Introduction to Vestibular Rehabilitation Certification"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee published on the clinic's own website or rendered on its Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.healthx.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "healthytodos-markham-health-rehab-markham",
@@ -34107,7 +34236,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.heartlandfertility.mb.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -34152,7 +34281,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.hebebeautybar.ca/skin-aesthetics",
   "last_verified": "2026-11-01"
  },
  {
@@ -34393,10 +34522,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$160 The HeadSpa \u00b7 $60 Dry HeadSpa",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.hivehairspa.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -34409,7 +34538,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://hizandherzmarriage.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -34430,12 +34559,12 @@
   "treatment_id": "hobson-psychology-and-wellness-centre-saint-john--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jason Green",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.hobsonpsychology.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -34453,16 +34582,64 @@
  },
  {
   "clinic_id": "holistic-fertility-group-st-albert",
+  "treatment_id": "holistic-fertility-group-st-albert--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Nicole Broadhurst",
+  "practitioners": [
+   {
+    "id": "holistic-fertility-group-st-albert--nicole-broadhurst",
+    "name": "Nicole Broadhurst",
+    "as_recorded": "Nicole Broadhurst, Registered Acupuncturist and Traditional Chinese Medicine Doctor, co-founder - specializing in fertility and reproductive medicine since 2016 (clinic Jane bio)"
+   },
+   {
+    "id": "holistic-fertility-group-st-albert--jeanine-mailloux",
+    "name": "Jeanine Mailloux",
+    "as_recorded": "Jeanine Mailloux, Registered Acupuncturist (Doctor of Acupuncture), co-founder (clinic Jane bio)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No acupuncture fee published on the clinic's own website, and its Jane booking page rendered practitioner bios without a fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://holisticfertilitygroup.com/services",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "holistic-fertility-group-st-albert",
   "treatment_id": "holistic-fertility-group-st-albert--fertility-consultation",
   "treatment": "Fertility Consultation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nicole Broadhurst",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://holisticfertilitygroup.com/services",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "holistic-fertility-group-st-albert",
+  "treatment_id": "holistic-fertility-group-st-albert--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Calista",
+  "practitioners": [
+   {
+    "id": "holistic-fertility-group-st-albert--calista",
+    "name": "Calista",
+    "as_recorded": "Calista (Cali), Pelvic Health Physiotherapist - MSc Physical Therapy (2017), PhD in Clinical Sexology (2022); recorded first-name-only as published by the clinic"
+   },
+   {
+    "id": "holistic-fertility-group-st-albert--mariah",
+    "name": "Mariah",
+    "as_recorded": "Mariah, Registered Physiotherapist and Doctor of Acupuncture - pelvic health focus (bladder/bowel dysfunction, pelvic pain, pregnancy and postpartum care); recorded first-name-only as published by the clinic"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic health physiotherapy fee published on the clinic's own website, and its Jane booking page rendered practitioner bios without a fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://holisticfertilitygroup.com/services",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "holistic-healing-arts-centre-brantford",
@@ -34672,12 +34849,12 @@
   "treatment_id": "hope-art-therapy-peterborough--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Penny Hope",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.hopearttherapy.net/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -34690,7 +34867,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://estherwebster1.wix.com/mysite",
   "last_verified": "2026-11-01"
  },
  {
@@ -34703,8 +34880,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://hfnc.ca",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "horizon-family-naturopathic-clinic-peterborough",
+  "treatment_id": "horizon-family-naturopathic-clinic-peterborough--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No IV drip prices are published on the clinic's website; IV therapy follows an initial ND assessment with a personalized plan, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://hfnc.ca",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "horizon-therapy-toronto",
@@ -34724,12 +34914,12 @@
   "treatment_id": "house-of-yoko-north-vancouver--head-spa",
   "treatment": "Head Spa",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Mika",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.houseofyoko.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -34739,23 +34929,36 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$155 initial / $135 follow-up (Basic, 60 min); $260 / $240 (Intermediate, 90 min); $310 / $300 (Deluxe, 110 min)",
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.huatuoclinic.com/facial-acupuncture/",
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "huatuo-clinic-calgary",
+  "treatment_id": "huatuo-clinic-calgary--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fertility-acupuncture-specific price is published on the clinic's website; its published package prices cover facial acupuncture only, and general acupuncture fees were not assumed for this treatment, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.huatuoclinic.com/fertility-acupuncture/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "hush-cosmetic-injections-kingston",
   "treatment_id": "hush-cosmetic-injections-kingston--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sara",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.hushinjections.com/sylfirmx",
   "last_verified": "2026-11-01"
  },
  {
@@ -34850,10 +35053,29 @@
  },
  {
   "clinic_id": "hydra-med-spa-and-wellness-abbotsford",
+  "treatment_id": "hydra-med-spa-and-wellness-abbotsford--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Ashley Bilodeau",
+  "practitioners": [
+   {
+    "id": "hydra-med-spa-and-wellness-abbotsford--ashley-bilodeau",
+    "name": "Ashley Bilodeau",
+    "as_recorded": "Dr. Ashley Bilodeau, ND - the clinic's naturopath, named on its Naturopath and IV Therapy pages as the clinician whose consult precedes infusions and injections"
+   }
+  ],
+  "price_text": "Vitamin shots from $35 (Vit A, Vit D, B12, Biotin, NAD, Adrenal Support, Myers Wellness)",
+  "price_source": "IM vitamin shot pricing published on the clinic's own IV Lounge page (hydramed.ca/treatments/iv-therapy/): 'ALL shots start at $35'.",
+  "price_tier": "website",
+  "treatment_link": "https://hydramed.ca/treatments/iv-therapy/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "hydra-med-spa-and-wellness-abbotsford",
   "treatment_id": "hydra-med-spa-and-wellness-abbotsford--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": "Naturopathy",
-  "practitioner": null,
+  "practitioner": "Ashley Bilodeau",
   "practitioners": [],
   "price_text": "Initial naturopathic consult $225; follow-up $125; virtual IV consult $60; virtual iron consult $80",
   "price_source": "website",
@@ -34940,6 +35162,19 @@
  },
  {
   "clinic_id": "ignite-health-clinic-brampton",
+  "treatment_id": "ignite-health-clinic-brampton--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No cosmetic acupuncture fee is published on the clinic's website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.ignitehealthclinic.com/services/cosmetic-acupuncture/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "ignite-health-clinic-brampton",
   "treatment_id": "ignite-health-clinic-brampton--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
@@ -34948,7 +35183,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.ignitehealthclinic.com/pelvic-floor-physiotherapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -34980,12 +35215,12 @@
   "treatment_id": "imago-ottawa-ottawa--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Joy Tabakman",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://imagoottawa.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -35301,12 +35536,12 @@
   "treatment_id": "increments-psychotherapy-etobicoke--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jasia Nauthoa",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$200 (50-minute couples session)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://incrementspsychotherapy.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -35402,7 +35637,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.infiniphysio.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -35415,7 +35650,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.inkandskin.ca/medical-aesthetics",
   "last_verified": "2026-11-01"
  },
  {
