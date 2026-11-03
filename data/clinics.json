@@ -20966,8 +20966,9 @@
   "google_rating": 5.0,
   "google_reviews": 476,
   "rating_source": "Clinic's own website homepage Google Reviews widget: 'Google Reviews / 5.0 Stars | 476 Reviews' (foundationkelowna.com, fetched via search extract 2026-11-01). A Places aggregator extract showing '5.0 based on 1 reviews' conflicts and was not used.",
-  "direct_billing": "unverifiable",
-  "last_verified": "2026-11-01"
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01",
+  "gaps": " [Pilot fill Nov 2: direct billing set to YES from the clinic's own /billing/ page \u2014 \"We offer direct insurance billing to all major insurance plans\" (foundationkelowna.com).]"
  },
  {
   "name": "Dr. Michael McFarlane, B.Sc., R.Ac.",
@@ -47229,8 +47230,9 @@
   "google_rating": null,
   "google_reviews": null,
   "rating_source": null,
-  "direct_billing": "unverifiable",
-  "last_verified": "2026-11-01"
+  "direct_billing": "yes",
+  "last_verified": "2026-11-01",
+  "gaps": " [Pilot fill Nov 2: direct billing set to YES from the clinic's own FAQ \u2014 \"direct billing to over 25 insurance companies\" (mosspostpartum.com).]"
  },
  {
   "name": "Motion Care Clinic",
