@@ -35761,12 +35761,12 @@
   "treatment_id": "innerscape-psychotherapy-counselling-and-emdr-services-yorkton--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Amanda Sutton",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$225 / 90 min \u00b7 $300 / 120 min",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.innerscape-therapy.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -35779,7 +35779,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.innovactionphysiotherapy.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -35805,7 +35805,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.innovaphysiotherapy.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -35818,7 +35818,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.innovationdermatology.com/services/med-spa/red-deer-microneedling/",
   "last_verified": "2026-11-01"
  },
  {
@@ -35826,12 +35826,12 @@
   "treatment_id": "insight-centre-counselling-and-psychotherapy-barrie--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Tatyana Bashkatova",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://insightcentre.ca/services/",
   "last_verified": "2026-11-01"
  },
  {
@@ -35891,12 +35891,12 @@
   "treatment_id": "inspire-health-performance-calgary--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Mike",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.inspirehealthcalgary.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -36013,12 +36013,12 @@
   "treatment_id": "institut-bea-laval--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Isabelle",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$80 facial drainage \u00b7 $120 body 60 min \u00b7 $160 body 90 min",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://institutbea.com/en/wellness/lymphatic-drainage-laval",
   "last_verified": "2026-11-01"
  },
  {
@@ -36028,10 +36028,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$250 (IV Drip, 1 hr)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.fresha.com/lp/en/tt/iv-drip-therapy/in/ca-montr%C3%A9al",
   "last_verified": "2026-11-01"
  },
  {
@@ -36044,7 +36044,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://isisbeaute.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -36057,7 +36057,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.institutproderma.ca/home-institut-proderma-medical-aesthetic/our-treatments/",
   "last_verified": "2026-11-01"
  },
  {
@@ -36186,15 +36186,28 @@
  },
  {
   "clinic_id": "integral-iv-duncan",
+  "treatment_id": "integral-iv-duncan--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Nursing",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$45 per injection (Vitamin B12 or Vitamin D3)",
+  "price_source": "Price published on the clinic's own website (integraliv.com): 'Vitamin B12 or D3 Injection $45 each'.",
+  "price_tier": "website",
+  "treatment_link": "https://integraliv.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "integral-iv-duncan",
   "treatment_id": "integral-iv-duncan--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jackie Muth",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "New-client NP assessment $50 (reg. $150); Myers' Immune Cocktail from $80; NAD+ infusion from $225; Glutathione IV $125; Iron Replenish IV $225 (administration only); Rehydration IV $249",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://integraliv.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -36240,12 +36253,12 @@
   "treatment_id": "interior-naturopathic-and-wellness-kamloops--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Madison Schreiner",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.interiornaturopathic.ca/meet-the-team",
   "last_verified": "2026-11-01"
  },
  {
@@ -36305,6 +36318,19 @@
  },
  {
   "clinic_id": "invicta-performance-edmonton",
+  "treatment_id": "invicta-performance-edmonton--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No massage fee schedule is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.invictaperformance.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "invicta-performance-edmonton",
   "treatment_id": "invicta-performance-edmonton--pressotherapy",
   "treatment": "Pressotherapy",
   "billed_as": "Massage Therapy / Osteopathy",
@@ -36313,7 +36339,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.invictaperformance.com",
   "last_verified": "2026-11-02"
  },
  {
@@ -36321,12 +36347,12 @@
   "treatment_id": "inviting-conversations-counselling-medicine-hat--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Cathy Brotzell",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://invitingconversation.com/about",
   "last_verified": "2026-11-01"
  },
  {
@@ -36344,6 +36370,25 @@
  },
  {
   "clinic_id": "island-view-physiotherapy-charlottetown",
+  "treatment_id": "island-view-physiotherapy-charlottetown--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Liza van Rensburg",
+  "practitioners": [
+   {
+    "id": "island-view-physiotherapy-charlottetown--liza-van-rensburg",
+    "name": "Liza van Rensburg",
+    "as_recorded": "Liza van Rensburg, physiotherapist - per the clinic's own homepage bio she has 25 years of experience in Orthopedics, Manual Therapy, Sports Physiotherapy, Pediatrics, Acupuncture, Vestibular (Dizziness) Rehab, and Women's health, more specifically Urinary Incontinence, Pelvic girdle pain, Coccydynia (tailbone pain) management and Pessary fitting"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fees are published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://islandviewphysiotherapy.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "island-view-physiotherapy-charlottetown",
   "treatment_id": "island-view-physiotherapy-charlottetown--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
@@ -36352,8 +36397,27 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://islandviewphysiotherapy.com/services/physiotherapy/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "island-view-physiotherapy-charlottetown",
+  "treatment_id": "island-view-physiotherapy-charlottetown--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Liza van Rensburg",
+  "practitioners": [
+   {
+    "id": "island-view-physiotherapy-charlottetown--liza-van-rensburg",
+    "name": "Liza van Rensburg",
+    "as_recorded": "Liza van Rensburg, physiotherapist - per the clinic's own homepage bio she has 25 years of experience in Orthopedics, Manual Therapy, Sports Physiotherapy, Pediatrics, Acupuncture, Vestibular (Dizziness) Rehab, and Women's health, more specifically Urinary Incontinence, Pelvic girdle pain, Coccydynia (tailbone pain) management and Pessary fitting"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fees are published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://islandviewphysiotherapy.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "it-takes-practice-red-deer",
@@ -36384,7 +36448,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://jacquelinerobertson.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -36397,7 +36461,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://jadeclinics.com/locations/kamloops-bc/",
   "last_verified": "2026-11-01"
  },
  {
@@ -36410,7 +36474,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://jadeclinics.com/microneedling/",
   "last_verified": "2026-11-01"
  },
  {
@@ -36494,13 +36558,51 @@
   "treatment_id": "janick-pelchat-seguin-acupunctrice-gatineau--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Janick Pelchat-S\u00e9guin",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.janickacupunctrice.ca",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "janick-pelchat-seguin-acupunctrice-gatineau",
+  "treatment_id": "janick-pelchat-seguin-acupunctrice-gatineau--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": "Acupuncture",
+  "practitioner": "Janick Pelchat-S\u00e9guin",
+  "practitioners": [
+   {
+    "id": "janick-pelchat-seguin-acupunctrice-gatineau--janick-pelchat-seguin",
+    "name": "Janick Pelchat-S\u00e9guin",
+    "as_recorded": "Janick Pelchat-S\u00e9guin, acupunctrice agr\u00e9\u00e9e (licensed acupuncturist, Ordre des acupuncteurs du Qu\u00e9bec) - solo bilingual practitioner per her own website"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.janickacupunctrice.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "janick-pelchat-seguin-acupunctrice-gatineau",
+  "treatment_id": "janick-pelchat-seguin-acupunctrice-gatineau--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Janick Pelchat-S\u00e9guin",
+  "practitioners": [
+   {
+    "id": "janick-pelchat-seguin-acupunctrice-gatineau--janick-pelchat-seguin",
+    "name": "Janick Pelchat-S\u00e9guin",
+    "as_recorded": "Janick Pelchat-S\u00e9guin, acupunctrice agr\u00e9\u00e9e (licensed acupuncturist, Ordre des acupuncteurs du Qu\u00e9bec) - solo bilingual practitioner per her own website"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.janickacupunctrice.ca",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "janis-li-richmond-hill",
@@ -36550,7 +36652,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://jannaleephysio.com/pelvic-health.html",
   "last_verified": "2026-11-01"
  },
  {
@@ -36593,6 +36695,32 @@
  },
  {
   "clinic_id": "jd-physiotherapy-kingston",
+  "treatment_id": "jd-physiotherapy-kingston--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.jdphysiotherapy.ca/services/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "jd-physiotherapy-kingston",
+  "treatment_id": "jd-physiotherapy-kingston--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.jdphysiotherapy.ca/services/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "jd-physiotherapy-kingston",
   "treatment_id": "jd-physiotherapy-kingston--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
@@ -36601,8 +36729,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.jdphysiotherapy.ca/services/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "jd-physiotherapy-kingston",
+  "treatment_id": "jd-physiotherapy-kingston--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.jdphysiotherapy.ca/services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "jda-physio-rehabilitation-centre-richmond-hill",
@@ -36818,12 +36959,12 @@
   "treatment_id": "jenny-telfer-crum-guelph--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jenny Telfer-Crum",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$95 per 30 min \u00b7 $150 per hour",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://jennytcpt.com/services-pelvic-physiotherapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -36831,12 +36972,12 @@
   "treatment_id": "jessica-gaskin-counselling-at-repose-therapy-abbotsford--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jessica Gaskin",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://reposetherapy.com/housemate/jessica-gaskin/",
   "last_verified": "2026-11-01"
  },
  {
@@ -36901,12 +37042,12 @@
   "treatment_id": "jm-nutrition-halifax--sports-nutrition",
   "treatment": "Sports Nutrition",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Megan Couturier",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$145 initial (1 hr) \u00b7 $80 follow-up (30 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.julienutrition.com/services/sports-nutritionist/",
   "last_verified": "2026-11-01"
  },
  {
@@ -36935,10 +37076,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$145 initial (1 hr) \u00b7 $80 follow-up (30 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.julienutrition.com/services/sports-nutritionist/",
   "last_verified": "2026-11-01"
  },
  {
@@ -36948,10 +37089,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$150 per 1 hr \u00b7 $220 per 1.5 hrs",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.jmbcounsellingservices.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -37040,12 +37181,12 @@
   "treatment_id": "jones-counselling-services-grande-prairie--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Janet Jones",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://jonescounselling.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -37134,7 +37275,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://jradskin.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -37291,12 +37432,51 @@
  },
  {
   "clinic_id": "juniper-family-health-victoria",
-  "treatment_id": "juniper-family-health-victoria--microneedling",
-  "treatment": "Microneedling",
+  "treatment_id": "juniper-family-health-victoria--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
   "billed_as": "Naturopathy",
   "practitioner": null,
   "practitioners": [],
   "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://junipernaturopathic.janeapp.com/locations/juniper-naturopathic-clinic/book",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "juniper-family-health-victoria",
+  "treatment_id": "juniper-family-health-victoria--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://junipernaturopathic.janeapp.com/locations/juniper-naturopathic-clinic/book",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "juniper-family-health-victoria",
+  "treatment_id": "juniper-family-health-victoria--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://juniperfamilyhealth.com/aesthetics-at-juniper",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "juniper-family-health-victoria",
+  "treatment_id": "juniper-family-health-victoria--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Naturopathy",
+  "practitioner": "Carla Cashin",
+  "practitioners": [],
+  "price_text": "$750 for a package of 3 treatments",
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://juniperfamilyhealth.com/",
@@ -37402,12 +37582,12 @@
   "treatment_id": "kaaiaa-calgary--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nav Grewal",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$185 assessment \u00b7 $120 follow-up",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://kaaiaa.co",
   "last_verified": "2026-11-01"
  },
  {
@@ -37523,8 +37703,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.kaizenphysiotherapygroup.ca",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "kaizen-physiotherapy-group-etobicoke",
+  "treatment_id": "kaizen-physiotherapy-group-etobicoke--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$165 initial assessment \u00b7 $120-$165 follow-up",
+  "price_source": "Clinic's own website physiotherapy page (kaizenphysiotherapygroup.ca/physiotherapy/): Pelvic Health Physiotherapy initial $165; follow-ups $120 (30 min), $155 (45 min), $165 (60 min).",
+  "price_tier": "website",
+  "treatment_link": "https://kaizenphysiotherapygroup.ca/physiotherapy/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "kaizen-physiotherapy-group-kaizen-pilates-etobicoke",
@@ -37599,6 +37792,25 @@
  },
  {
   "clinic_id": "kalm-wellness-therapy-north-york",
+  "treatment_id": "kalm-wellness-therapy-north-york--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Kayla Schofield",
+  "practitioners": [
+   {
+    "id": "kalm-wellness-therapy-north-york--kayla-schofield",
+    "name": "Kayla Schofield",
+    "as_recorded": "Kayla Schofield, RP (Registered Psychotherapist; the clinic's featured therapist)"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://kalmwellnesstherapy.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "kalm-wellness-therapy-north-york",
   "treatment_id": "kalm-wellness-therapy-north-york--neurofeedback",
   "treatment": "Neurofeedback",
   "billed_as": null,
@@ -37607,7 +37819,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://kalmwellnesstherapy.com/neurofeedback/",
   "last_verified": "2026-11-01"
  },
  {
@@ -37620,7 +37832,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://kalonskinlab.com/microneedling/",
   "last_verified": "2026-11-01"
  },
  {
@@ -37630,10 +37842,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$100 (75 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://go.booker.com/location/kamiya",
   "last_verified": "2026-11-01"
  },
  {
@@ -37716,7 +37928,7 @@
   "treatment_id": "kandis-lock-nd-ottawa--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": "Naturopathy",
-  "practitioner": null,
+  "practitioner": "Dr. Kandis Lock, N.D.",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
@@ -37763,7 +37975,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/burnaby/karp-fitness-2000/clinic-information",
   "last_verified": "2026-11-01"
  },
  {
@@ -37776,7 +37988,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/burnaby/karp-fitness-2000/clinic-information",
   "last_verified": "2026-11-01"
  },
  {
@@ -37875,10 +38087,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$30 add-on per treatment area (plus visit fee)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kentchiromed.com/shockwave-therapy-ottawa/",
   "last_verified": "2026-11-01"
  },
  {
@@ -37904,8 +38116,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/keswick-arlington-drive/get-directions",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "keswick-physiotherapy-and-sports-injuries-clinic-arlington-dr-keswick",
+  "treatment_id": "keswick-physiotherapy-and-sports-injuries-clinic-arlington-dr-keswick--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Lifemark does not publish treatment prices for this clinic; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.lifemark.ca/keswick-arlington-drive/get-directions",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "keswick-physiotherapy-and-sports-injuries-clinic-the-queensway-s-keswick",
@@ -40098,8 +40323,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kinatex.com/cliniques/place-de-la-cite/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "kinatex-place-de-la-cite-quebec-city",
+  "treatment_id": "kinatex-place-de-la-cite-quebec-city--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Kinatex does not publish treatment prices on its website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.kinatex.com/cliniques/place-de-la-cite/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "kinatex-plateau-mont-royal-tjc-montreal",
@@ -41422,6 +41660,19 @@
  },
  {
   "clinic_id": "kinatex-sports-physio-montreal",
+  "treatment_id": "kinatex-sports-physio-montreal--bike-fitting",
+  "treatment": "Bike Fitting",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Kinatex does not publish treatment prices on its website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.kinatex.com/cliniques/ile-des-soeurs/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "kinatex-sports-physio-montreal",
   "treatment_id": "kinatex-sports-physio-montreal--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
   "billed_as": "Physiotherapy",
@@ -41432,6 +41683,19 @@
   "price_tier": null,
   "treatment_link": "https://www.kinatex.com/en/our-services/golf-program/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "kinatex-sports-physio-montreal",
+  "treatment_id": "kinatex-sports-physio-montreal--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Kinatex does not publish treatment prices on its website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.kinatex.com/cliniques/ile-des-soeurs/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "kinatex-trois-rivieres-trois-rivieres",
@@ -42052,7 +42316,20 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://kineticedgehg.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "kinetic-edge-health-group-ottawa",
+  "treatment_id": "kinetic-edge-health-group-ottawa--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price is published on the clinic's shockwave page or elsewhere on its website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://kineticedgehg.com/shockwave-therapy-ottawa/",
   "last_verified": "2026-11-02"
  },
  {
@@ -42060,13 +42337,64 @@
   "treatment_id": "kinetic-living-edmonton--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
   "billed_as": "Physiotherapy",
-  "practitioner": null,
+  "practitioner": "Dr. Isaac Konrad",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://kineticliving.ca/golf-tpi/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "kinetic-living-edmonton",
+  "treatment_id": "kinetic-living-edmonton--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://kineticliving.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "kinetic-living-edmonton",
+  "treatment_id": "kinetic-living-edmonton--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": "Annika K.",
+  "practitioners": [
+   {
+    "id": "kinetic-living-edmonton--annika-k",
+    "name": "Annika K.",
+    "as_recorded": "Annika K., Registered Dietitian (College of Dietitians of Alberta); IOC Diploma in Sport Nutrition"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://kineticliving.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "kinetic-living-edmonton",
+  "treatment_id": "kinetic-living-edmonton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Annika G.",
+  "practitioners": [
+   {
+    "id": "kinetic-living-edmonton--annika-g",
+    "name": "Annika G.",
+    "as_recorded": "Annika G., Physiotherapist (Masters in Physical Therapy, University of Alberta); post-graduate education in vestibular and TMJ treatment"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://kineticliving.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "kinetic-solutions-physio-moncton",
@@ -42230,7 +42558,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42243,7 +42571,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42256,7 +42584,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/chilliwack/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42269,7 +42597,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42282,7 +42610,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/hamilton/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42295,7 +42623,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/kingston/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42308,7 +42636,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/langley/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42321,7 +42649,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/maple-ridge/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42334,7 +42662,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/mississauga/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42347,7 +42675,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/north-vancouver/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42360,7 +42688,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/oakville/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42373,7 +42701,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/pickering/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42386,7 +42714,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/port-moody/",
   "last_verified": "2026-11-01"
  },
  {
@@ -42399,7 +42727,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.kintec.net/richmond-hill/",
   "last_verified": "2026-11-01"
  },
  {
@@ -74863,7 +75191,7 @@
   "treatment_id": "roots-to-branches-whole-health-clinic-quispamsis--fertility-consultation",
   "treatment": "Fertility Consultation",
   "billed_as": "Naturopathy",
-  "practitioner": null,
+  "practitioner": "Dr. Mollie Brennan",
   "practitioners": [],
   "price_text": null,
   "price_source": "The clinic's Jane booking page did not render its service fee list in text fetch and the clinic website publishes no fees; price is null (queued for the rendered-browser Jane re-scan).",
