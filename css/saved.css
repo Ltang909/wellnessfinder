@@ -65,6 +65,15 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-hero{padding:
 .mw-manual{margin-top:14px;background:#FFCE45;border:0;color:#161616;font:700 .88rem inherit;padding:.65rem 1.2rem;border-radius:999px;cursor:pointer}
 .mw-manual:hover{background:#f5be2e}
 .mw-privacy{margin-top:12px;font-size:.8rem;color:#A7BFAE}
+.mw-intake-btns{display:flex;gap:10px;flex-wrap:wrap}
+.mw-manual-alt{background:transparent;border:1.5px solid rgba(255,255,255,.55);color:#fff}
+.mw-manual-alt:hover{background:rgba(255,255,255,.12)}
+.mw-paste{margin-top:16px;max-width:560px}
+.mw-paste label{font-size:.75rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:#A7BFAE;display:block;margin-bottom:.4rem}
+.mw-paste textarea{width:100%;box-sizing:border-box;border-radius:12px;border:1px solid rgba(255,255,255,.35);background:rgba(255,255,255,.06);color:#fff;padding:12px 14px;font:inherit;font-size:.92rem;line-height:1.5;resize:vertical}
+.mw-paste textarea::placeholder{color:#8FAE9C}
+.mw-paste textarea:focus{outline:2px solid #FFCE45;outline-offset:1px}
+.mw-confirm-note{background:#FFF6DC;border:1px solid #F0DFA8;color:#6B5510;border-radius:10px;padding:10px 14px;font-size:.88rem;font-weight:600;max-width:65ch}
 .mw-parse-status{margin-top:12px;font-weight:700;font-size:.9rem;color:#FFCE45}
 
 .mw-locbar{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;background:var(--paper-warm);border-radius:16px;padding:12px 18px;margin-top:16px;font-size:.92rem}

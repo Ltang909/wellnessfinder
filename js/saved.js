@@ -356,15 +356,126 @@
      ============================================================ */
   var fileInput = document.createElement("input");
   fileInput.type = "file";
-  fileInput.accept = "application/pdf,.pdf";
+  fileInput.accept = "application/pdf,.pdf,.txt,text/plain,image/png,image/jpeg,image/webp";
+  fileInput.multiple = true;
   fileInput.style.display = "none";
   document.body.appendChild(fileInput);
   var parseStatusMsg = "";
   fileInput.addEventListener("change", function () {
-    if (fileInput.files && fileInput.files[0]) parsePdf(fileInput.files[0]);
+    if (fileInput.files && fileInput.files.length) handleIntakeFiles(fileInput.files);
     fileInput.value = "";
   });
   function pickPdf() { fileInput.click(); }
+
+  /* ---------- intake routing: PDF / text file / screenshot (OCR) ---------- */
+  function isPdfFile(f) { return (f.type || "") === "application/pdf" || /\.pdf$/i.test(f.name || ""); }
+  function isTxtFile(f) { return (f.type || "") === "text/plain" || /\.txt$/i.test(f.name || ""); }
+  function isImageFile(f) { return /^image\/(png|jpe?g|webp)$/i.test(f.type || "") || /\.(png|jpe?g|webp)$/i.test(f.name || ""); }
+  function handleIntakeFiles(list) {
+    var files = Array.prototype.slice.call(list || []);
+    if (!files.length) return;
+    if (files.length > 1 && files.every(isImageFile)) { parseImages(files.slice(0, 3)); return; }
+    routeIntakeFile(files[0]);
+  }
+  function routeIntakeFile(f) {
+    if (!f) return;
+    if (isPdfFile(f)) { parsePdf(f); return; }
+    if (isTxtFile(f)) { parseTextFile(f); return; }
+    if (isImageFile(f)) { parseImages([f]); return; }
+    parseStatusMsg = "That file type can't be read — try a PDF, a PNG/JPG screenshot, or paste the text.";
+    renderHero();
+  }
+  /* Every source lands in the same extract + confirm pipeline. */
+  function ingestText(text, sourceLabel) {
+    parseStatusMsg = "";
+    if (!text || text.replace(/\s/g, "").length < 40) {
+      parseStatusMsg = "We couldn't pull any plan details out of that — try pasting the text or entering your plan manually.";
+      renderHero();
+      return;
+    }
+    var parsed = extractPlan(text);
+    parsed.sourceLabel = sourceLabel;
+    if (!Object.keys(parsed.categories).length) {
+      parsed.note = "Couldn't read that clearly — check the amounts or enter them here.";
+    }
+    renderConfirm(parsed);
+  }
+  function parseTextFile(file) {
+    parseStatusMsg = "Reading your text file on this device…";
+    renderHero();
+    file.text().then(function (text) {
+      ingestText(text, "your text");
+    }).catch(function () {
+      parseStatusMsg = "We couldn't read that text file — try pasting the text instead.";
+      renderHero();
+    });
+  }
+
+  /* ---------- screenshot OCR (Tesseract.js, vendored, fully on-device) ---------- */
+  var ocrWorker = null, ocrLibPromise = null, ocrState = { i: 0, n: 1, lastPct: -999 };
+  function loadOcrLib() {
+    if (window.Tesseract) return Promise.resolve();
+    if (!ocrLibPromise) {
+      ocrLibPromise = new Promise(function (resolve, reject) {
+        var s = document.createElement("script");
+        s.src = "js/vendor/ocr/tesseract.min.js?v=1";
+        s.onload = function () { resolve(); };
+        s.onerror = function () { reject(new Error("ocr lib failed to load")); };
+        document.head.appendChild(s);
+      });
+    }
+    return ocrLibPromise;
+  }
+  function ocrStatus(m) {
+    var msg = null;
+    if (m.status === "recognizing text") {
+      var pct = Math.round((m.progress || 0) * 100);
+      if (pct === ocrState.lastPct) return;
+      ocrState.lastPct = pct;
+      msg = "Reading " + (ocrState.n > 1 ? "screenshot " + (ocrState.i + 1) + " of " + ocrState.n : "your screenshot") + " on this device… " + pct + "%";
+    } else if (/loading|initiali[sz]ing|compiling/i.test(m.status || "")) {
+      if (ocrState.lastPct === -2) return;
+      ocrState.lastPct = -2;
+      msg = "Preparing the screenshot reader on this device…";
+    }
+    if (msg === null) return;
+    parseStatusMsg = msg;
+    renderHero();
+  }
+  function getOcrWorker() {
+    if (ocrWorker) return Promise.resolve(ocrWorker);
+    return loadOcrLib().then(function () {
+      return Tesseract.createWorker("eng", 1, {
+        workerPath: "js/vendor/ocr/worker.min.js",
+        corePath: "js/vendor/ocr",
+        langPath: "js/vendor/ocr",
+        cacheMethod: "none",
+        logger: ocrStatus
+      });
+    }).then(function (w) { ocrWorker = w; return w; });
+  }
+  function parseImages(files) {
+    files = files.slice(0, 3);
+    ocrState = { i: 0, n: files.length, lastPct: -999 };
+    parseStatusMsg = "Reading your screenshot" + (files.length > 1 ? "s" : "") + " on this device…";
+    renderHero();
+    getOcrWorker().then(function (worker) {
+      var texts = [];
+      var chain = Promise.resolve();
+      files.forEach(function (f, idx) {
+        chain = chain.then(function () {
+          ocrState.i = idx; ocrState.lastPct = -999;
+          return worker.recognize(f).then(function (r) { texts.push((r.data && r.data.text) || ""); });
+        });
+      });
+      return chain.then(function () { return texts.join("\n"); });
+    }).then(function (text) {
+      ingestText(text, "your screenshot");
+    }).catch(function () {
+      parseStatusMsg = "We couldn't read that screenshot — try a clearer image, a PDF, or paste the text.";
+      renderHero();
+    });
+  }
 
   function renderHero() {
     var host = $("mwHero");
@@ -376,10 +487,11 @@
         + '<p class="mw-eyebrow">My WellFinder</p>'
         + "<h2>Your benefits, in one wallet.</h2>"
         + '<p class="mw-lede">Upload your insurance booklet and we will pull out your plan\'s yearly maximums, show what you have left in each category, and line up the treatments worth using before your plan resets.</p>'
-        + '<div class="mw-drop" id="mwDrop" role="button" tabindex="0" aria-label="Upload your benefits booklet PDF"><strong>📄 Drop your benefits booklet (PDF) here, or tap to choose</strong><span>We read it on this device and pull out your insurer, categories and yearly maximums for you to confirm.</span></div>'
-        + '<button type="button" class="mw-manual" id="mwManualBtn">Enter my plan manually instead</button>'
+        + '<div class="mw-drop" id="mwDrop" role="button" tabindex="0" aria-label="Upload your benefits booklet — PDF, screenshot, or text file"><strong>📄 Drop your benefits booklet here — PDF, screenshot, or text file</strong><span>We read it on this device and pull out your insurer, categories and yearly maximums for you to confirm. Booklet spans pages? Choose up to 3 screenshots.</span></div>'
+        + '<div class="mw-intake-btns"><button type="button" class="mw-manual" id="mwManualBtn">Enter my plan manually instead</button><button type="button" class="mw-manual mw-manual-alt" id="mwPasteBtn">Paste plan text instead</button></div>'
+        + '<div class="mw-paste" id="mwPasteWrap" hidden><label for="mwPasteText">Paste your plan details</label><textarea id="mwPasteText" rows="6" placeholder="Paste from your insurer\'s app or website — plan text copied from an insurer portal works too. Categories with their yearly maximums read best."></textarea><button type="button" class="mw-manual" id="mwPasteGo">Read this text</button></div>'
         + (parseStatusMsg ? '<p class="mw-parse-status">' + esc(parseStatusMsg) + "</p>" : "")
-        + '<p class="mw-privacy">🔒 Your PDF never leaves this device — it is read right here in your browser, and your plan is stored only on this device.</p>'
+        + '<p class="mw-privacy">🔒 Your files never leave this device — everything is read right here in your browser, and your plan is stored only on this device.</p>'
         + '</div>'
         + '<div class="mw-pet"><div class="mw-petdisc"><img src="assets/petpet/peek.png" alt="Pet Pet"></div><p>Pet Pet keeps<br>an eye on the deadline.</p></div>'
         + "</div></div>";
@@ -394,13 +506,25 @@
           drop.addEventListener(ev, function (e) { e.preventDefault(); drop.classList.remove("dragover"); });
         });
         drop.addEventListener("drop", function (e) {
-          var f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
-          if (f) parsePdf(f);
+          var fs = e.dataTransfer && e.dataTransfer.files;
+          if (fs && fs.length) handleIntakeFiles(fs);
         });
       }
       var mb = $("mwManualBtn");
       if (mb) mb.addEventListener("click", function () {
         renderConfirm({ insurer: "", planName: "", resetsISO: nextJan1ISO(), categories: {} });
+      });
+      var pb = $("mwPasteBtn");
+      if (pb) pb.addEventListener("click", function () {
+        var wrap = $("mwPasteWrap");
+        if (!wrap) return;
+        wrap.hidden = !wrap.hidden;
+        if (!wrap.hidden) { var t = $("mwPasteText"); if (t) t.focus(); }
+      });
+      var pg = $("mwPasteGo");
+      if (pg) pg.addEventListener("click", function () {
+        var t = $("mwPasteText");
+        ingestText(t ? t.value : "", "your text");
       });
       return;
     }
@@ -739,7 +863,7 @@
     }).then(function (text) {
       parseStatusMsg = "";
       if (!text || text.replace(/\s/g, "").length < 40) {
-        parseStatusMsg = "That PDF looks like scanned images — we couldn't read its text. Try entering your plan manually.";
+        parseStatusMsg = "That PDF looks like scanned images — we couldn't read its text. Try a screenshot of the page instead, or enter your plan manually.";
         renderHero();
         return;
       }
@@ -757,13 +881,14 @@
     var rows = MW_CATS.map(function (cat) {
       var found = parsed.categories[cat.name];
       return "<tr><td class='catcell'><span class='mw-dot' style='background:" + cat.color + "'></span> " + esc(cat.name)
-        + (found && found.found ? '<span class="found">found in PDF</span>' : "") + "</td>"
+        + (found && found.found ? '<span class="found">found in ' + esc(parsed.sourceLabel || "PDF") + "</span>" : "") + "</td>"
         + '<td><input type="number" min="0" step="1" inputmode="numeric" data-mw-max="' + esc(cat.name) + '" value="' + (found ? found.max : "") + '" placeholder="0" aria-label="' + esc(cat.name) + ' yearly maximum"></td>'
         + '<td><input type="number" min="0" step="1" inputmode="numeric" data-mw-used="' + esc(cat.name) + '" value="' + (found && found.used ? found.used : 0) + '" aria-label="' + esc(cat.name) + ' already used"></td></tr>';
     }).join("");
     host.innerHTML =
       '<div class="mw-confirm"><h2>Confirm your plan</h2>'
       + '<p class="sub">We read these amounts from your booklet on this device — booklets vary, so check each line and fix anything before saving. "Already used" is what you have claimed so far this plan year; what\'s left is what My WellFinder plans around.</p>'
+      + (parsed.note ? '<p class="mw-confirm-note">' + esc(parsed.note) + "</p>" : "")
       + '<div class="mw-cgrid">'
       + '<label>Insurer<input id="mwFInsurer" type="text" value="' + esc(parsed.insurer || "") + '" placeholder="e.g. Manulife"></label>'
       + '<label>Plan name<input id="mwFPlan" type="text" value="' + esc(parsed.planName || "") + '" placeholder="e.g. Extended Health"></label>'
