@@ -87093,7 +87093,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://thriveclinical.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -87101,12 +87101,12 @@
   "treatment_id": "thrive-counselling-and-consulting-sydney--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Lauren Ripley; Julienne Cordy; Starla Brown",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://thrivecapebreton.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -87241,12 +87241,12 @@
   "treatment_id": "thunder-bay-naturopathic-clinic-thunder-bay--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Chris Brown, ND; Dr. Jessica Carfagnini, ND",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://tbaynaturopathic.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -87374,16 +87374,73 @@
  },
  {
   "clinic_id": "to-the-point-acupuncture-grande-prairie",
+  "treatment_id": "to-the-point-acupuncture-grande-prairie--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Kari Pettersen",
+  "practitioners": [
+   {
+    "id": "to-the-point-acupuncture-grande-prairie--kari-pettersen",
+    "name": "Kari Pettersen",
+    "as_recorded": "Kari Pettersen, Registered Acupuncturist with the College and Association of Acupuncturists of Alberta (CAAA), with certificates in fertility and hormonal acupuncture, per the clinic's own site/Places description"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No cosmetic acupuncture fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://acupuncturetothepoint.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "to-the-point-acupuncture-grande-prairie",
   "treatment_id": "to-the-point-acupuncture-grande-prairie--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Kari Pettersen",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://acupuncturetothepoint.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "to-the-point-acupuncture-grande-prairie",
+  "treatment_id": "to-the-point-acupuncture-grande-prairie--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": "Acupuncture",
+  "practitioner": "Kari Pettersen",
+  "practitioners": [
+   {
+    "id": "to-the-point-acupuncture-grande-prairie--kari-pettersen",
+    "name": "Kari Pettersen",
+    "as_recorded": "Kari Pettersen, Registered Acupuncturist with the College and Association of Acupuncturists of Alberta (CAAA), with certificates in fertility and hormonal acupuncture, per the clinic's own site/Places description"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No microneedling fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://acupuncturetothepoint.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "to-the-point-acupuncture-grande-prairie",
+  "treatment_id": "to-the-point-acupuncture-grande-prairie--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "Acupuncture",
+  "practitioner": "Kari Pettersen",
+  "practitioners": [
+   {
+    "id": "to-the-point-acupuncture-grande-prairie--kari-pettersen",
+    "name": "Kari Pettersen",
+    "as_recorded": "Kari Pettersen, Registered Acupuncturist with the College and Association of Acupuncturists of Alberta (CAAA), with certificates in fertility and hormonal acupuncture, per the clinic's own site/Places description"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No LED/red light therapy fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://acupuncturetothepoint.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "tonic-physiotherapy-and-rehabilitation-centre-milton",
@@ -87484,7 +87541,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://tonynailz.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -87564,7 +87621,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.torontocommunitymassage.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -87843,8 +87900,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.toronto-fertility.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "toronto-reproductive-acupuncture-clinic-etobicoke",
+  "treatment_id": "toronto-reproductive-acupuncture-clinic-etobicoke--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "Free 30-minute consultation for all new patients",
+  "price_source": "Clinic's own website: 'We offer a free 30 minute consultation for all new patients.'",
+  "price_tier": "website",
+  "treatment_link": "http://www.toronto-fertility.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "toronto-rock-sports-medicine-wellness-centre-toronto",
@@ -87856,7 +87926,26 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.torontorocksportsmed.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "total-acupuncture-clinic-calgary",
+  "treatment_id": "total-acupuncture-clinic-calgary--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Dr. Mandy Liu",
+  "practitioners": [
+   {
+    "id": "total-acupuncture-clinic-calgary--mandy-liu",
+    "name": "Dr. Mandy Liu",
+    "as_recorded": "Dr. Mandy Liu - registered acupuncturist and Doctor of TCM in Canada since 2005 (former medical doctor in China), specializing in male and female infertility, per the clinic's Places description"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No cosmetic acupuncture fee is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://acupuncturetcmd.com",
   "last_verified": "2026-11-02"
  },
  {
@@ -87864,12 +87953,12 @@
   "treatment_id": "total-acupuncture-clinic-calgary--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Mandy Liu",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://acupuncturetcmd.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -87877,12 +87966,12 @@
   "treatment_id": "total-health-clinic-kamloops--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Kaleb Falk, ND",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.total-health-clinic.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -87895,7 +87984,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.ancasterphysio.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -88282,12 +88371,12 @@
   "treatment_id": "tremblay-counselling-timmins--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Micheal Tremblay",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://tremblaycounselling.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -88295,7 +88384,7 @@
   "treatment_id": "trent-health-in-motion-peterborough--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Reanna; Kristin",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
@@ -88352,8 +88441,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://tricityphysio.ca/services/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "tri-city-physiotherapy-and-rehabilitation-cambridge",
+  "treatment_id": "tri-city-physiotherapy-and-rehabilitation-cambridge--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.tricityphysio.ca",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "tri-health-clinic-kingston",
@@ -88365,7 +88467,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://trihealthclinic.com/the-team/",
   "last_verified": "2026-11-01"
  },
  {
@@ -88517,7 +88619,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://trilliumclinic.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -88525,13 +88627,37 @@
   "treatment_id": "trinity-naturopathic-clinic-fort-mcmurray--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Melanie Vicino, ND",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.trinitynaturopathic.com/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "trinity-naturopathic-clinic-fort-mcmurray",
+  "treatment_id": "trinity-naturopathic-clinic-fort-mcmurray--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Abigail Whitt; Haylee Philpott",
+  "practitioners": [
+   {
+    "id": "trinity-naturopathic-clinic-fort-mcmurray--abigail-whitt",
+    "name": "Abigail Whitt",
+    "as_recorded": "Abigail Whitt - Registered Massage Therapist, RMT, per the clinic's own website Clinical Team section"
+   },
+   {
+    "id": "trinity-naturopathic-clinic-fort-mcmurray--haylee-philpott",
+    "name": "Haylee Philpott",
+    "as_recorded": "Haylee Philpott - Registered Massage Therapist, RMT, per the clinic's own website Clinical Team section"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No standalone lymphatic drainage fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.trinitynaturopathic.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "trish-scott-rmt-london",
@@ -88575,7 +88701,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://truenorthpsychological.com/service/neurofeedback/",
   "last_verified": "2026-11-01"
  },
  {
@@ -88583,13 +88709,51 @@
   "treatment_id": "true-physio-pilates-richmond--clinical-pilates",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
-  "practitioner": null,
+  "practitioner": "Janice Lee; Kadi",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://truephysiopilates.com/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "true-physio-pilates-richmond",
+  "treatment_id": "true-physio-pilates-richmond--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Janice Lee",
+  "practitioners": [
+   {
+    "id": "true-physio-pilates-richmond--janice-lee",
+    "name": "Janice Lee",
+    "as_recorded": "Janice Lee - Pilates | Vestibular | Pelvic Floor | MKin | MPT | BSc | FDN; Master's of Physical Therapy (UBC), post-graduate training in clinical Pilates and Pelvic Floor rehabilitation, per the clinic group's own True Conditioning site profile for True Physio + Pilates"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee rendered on the clinic's Jane booking page in text extracts, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://truephysiopilates.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "true-physio-pilates-richmond",
+  "treatment_id": "true-physio-pilates-richmond--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Janice Lee",
+  "practitioners": [
+   {
+    "id": "true-physio-pilates-richmond--janice-lee",
+    "name": "Janice Lee",
+    "as_recorded": "Janice Lee - Pilates | Vestibular | Pelvic Floor | MKin | MPT | BSc | FDN; Master's of Physical Therapy (UBC), post-graduate training in clinical Pilates and Pelvic Floor rehabilitation, per the clinic group's own True Conditioning site profile for True Physio + Pilates"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee rendered on the clinic's Jane booking page in text extracts, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://truephysiopilates.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "true-potential-health-services-saskatoon",
@@ -88721,13 +88885,26 @@
   "treatment_id": "turn-towards-couples-counselling-kelowna--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sarah Andrea Smith",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.turntowardstherapy.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "turning-point-physiotherapy-edmonton",
+  "treatment_id": "turning-point-physiotherapy-edmonton--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee is published in the clinic's own site extracts read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://turningpointphysio.ca/physiotherapy-services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "turning-point-physiotherapy-edmonton",
@@ -88739,8 +88916,34 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.turningpointphysio.ca/sports-injury-physiotherapy-edmonton/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "turning-point-physiotherapy-edmonton",
+  "treatment_id": "turning-point-physiotherapy-edmonton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave therapy fee is published in the clinic's own site extracts read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://turningpointphysio.ca/physiotherapy-services/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "turning-point-physiotherapy-edmonton",
+  "treatment_id": "turning-point-physiotherapy-edmonton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published in the clinic's own site extracts read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://turningpointphysio.ca/physiotherapy-services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "turnstone-psychology-sydney",
@@ -88888,7 +89091,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://uniqueclinic.ca/microneedling/",
   "last_verified": "2026-11-01"
  },
  {
@@ -88896,20 +89099,39 @@
   "treatment_id": "unity-beauty-and-wellness-hamilton--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Ayman Srajeldin, MD",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "Saline $150-$175; Immunity Boost $250 / Super Immune Boost $350; Recovery and Performance $300; Radiance/Beauty $300; Migraine Relief $250; physician IV consultation $50",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://unitybeauty.ca/iv-therapy-in-hamilton-on/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "unity-beauty-and-wellness-hamilton",
+  "treatment_id": "unity-beauty-and-wellness-hamilton--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Medicine",
+  "practitioner": "Dr. Ayman Srajeldin, MD",
+  "practitioners": [
+   {
+    "id": "unity-beauty-and-wellness-hamilton--ayman-srajeldin",
+    "name": "Dr. Ayman Srajeldin, MD",
+    "as_recorded": "Dr. Ayman Srajeldin, MD - Medical Director and practicing physician with over 10 years of clinical experience in IV therapy and medical aesthetics, per the clinic's own About page (he began his career as a Naturopathic Doctor before becoming a licensed Canadian Medical Doctor)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No Botox price is published on unitybeauty.ca pages read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://unitybeauty.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "university-of-guelph-physio-pilates-health-and-performance-centre-guelph",
   "treatment_id": "university-of-guelph-physio-pilates-health-and-performance-centre-guelph--clinical-pilates",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
-  "practitioner": null,
+  "practitioner": "Jeannette Johnson",
   "practitioners": [],
   "price_text": "$115/40 min session (page also lists $100 \"Complex Physiotherapy Treatment\" - pricing discrepancy on page)",
   "price_source": "website",
@@ -89034,15 +89256,39 @@
  },
  {
   "clinic_id": "uplift-medical-aesthetics-bc-nanaimo",
+  "treatment_id": "uplift-medical-aesthetics-bc-nanaimo--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Nursing",
+  "practitioner": "Matt Mehrassa; Molly Nice",
+  "practitioners": [
+   {
+    "id": "uplift-medical-aesthetics-bc-nanaimo--matt-mehrassa",
+    "name": "Matt Mehrassa",
+    "as_recorded": "Matt Mehrassa, RN - Nurse Injector, certified in medical treatment with neurotoxin per the clinic's Jane booking page"
+   },
+   {
+    "id": "uplift-medical-aesthetics-bc-nanaimo--molly-nice",
+    "name": "Molly Nice",
+    "as_recorded": "Molly Nice, LPN - Nurse Injector, certified in medical treatment with neurotoxin per the clinic's Jane booking page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No medical Botox fee is published on the clinic's own website, and its Jane booking page rendered practitioner bios only in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://upliftmedicalaesthetics.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "uplift-medical-aesthetics-bc-nanaimo",
   "treatment_id": "uplift-medical-aesthetics-bc-nanaimo--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Molly Nice",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://upliftmedicalaesthetics.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89164,7 +89410,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.urgencephysio.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -89177,7 +89423,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/hamilton/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89190,7 +89436,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/barrie/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89203,7 +89449,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/barrie/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89216,7 +89462,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/calgary/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89229,7 +89475,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/locations/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89242,7 +89488,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/etobicoke/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89255,7 +89501,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/locations/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89268,7 +89514,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/kelowna/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89281,7 +89527,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/kitchener-waterloo/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89294,7 +89540,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/london/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89307,7 +89553,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/mississauga/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89320,7 +89566,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/north-vancouver/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89346,7 +89592,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/oakville/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89359,7 +89605,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/ottawa/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89372,7 +89618,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/ottawa/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89398,7 +89644,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/richmond-hill/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89411,7 +89657,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/saskatoon/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89424,7 +89670,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/stcatharines/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89437,7 +89683,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/uptown-toronto/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89450,7 +89696,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/vancouver/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89463,7 +89709,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/vaughan/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89476,7 +89722,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/victoria/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89489,7 +89735,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/whitby/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89502,7 +89748,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/windsor/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89515,7 +89761,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://urospot.com/winnipeg/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89541,7 +89787,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://valeohealthclinic.com/aesthetics/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89549,12 +89795,12 @@
   "treatment_id": "valerie-major-sexologue-saint-jean-sur-richelieu--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Val\u00e9rie Major",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.vmsexologue.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89562,12 +89808,12 @@
   "treatment_id": "valley-counselling-and-psychotherapy-cornwall--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jennifer Gaudreau",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.valleycounsellingpsychotherapy.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -89575,13 +89821,45 @@
   "treatment_id": "vancity-physio-vancouver--clinical-pilates",
   "treatment": "Clinical Pilates",
   "billed_as": "Physiotherapy",
-  "practitioner": null,
+  "practitioner": "Jamieson",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.vancityphysio.com/services/clinical-pilates",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vancity-physio-vancouver",
+  "treatment_id": "vancity-physio-vancouver--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Jamieson",
+  "practitioners": [
+   {
+    "id": "vancity-physio-vancouver--jamieson",
+    "name": "Jamieson",
+    "as_recorded": "Jamieson, physiotherapist (Master of Physical Therapy, Western University) - Jane booking bio states she 'has completed advanced training in both pelvic health, orthopaedics and clinical pilates'; surname not captured in the booking-page extract"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee is published on the clinic's own site or in the Jane booking extract, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://vancityphysio.janeapp.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "vancity-physio-vancouver",
+  "treatment_id": "vancity-physio-vancouver--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No separate shockwave fee is published on the clinic's own site (physiotherapy session fees are inclusive of all modalities), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.vancityphysio.com/services/physiotherapy",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "vancouver-couple-family-institute-vancouver",
@@ -89606,8 +89884,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.vitalcryotherapyvancouver.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vancouver-cryotherapy-vancouver",
+  "treatment_id": "vancouver-cryotherapy-vancouver--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Premise failure - no billable practitioner-delivered service, so no price is recorded (the studio sells sessions/subscriptions on its own site).",
+  "price_tier": null,
+  "treatment_link": "https://www.vitalcryotherapyvancouver.ca/redlighttherapy",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "vancouver-dietitians-vancouver",
@@ -89759,7 +90050,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.neurofeedbackclinic.ca/services.html",
   "last_verified": "2026-11-01"
  },
  {
@@ -89803,15 +90094,28 @@
  },
  {
   "clinic_id": "vancouver-psychology-centre-vancouver",
-  "treatment_id": "vancouver-psychology-centre-vancouver--psychoeducational-assessments",
-  "treatment": "Psychoeducational Assessments",
-  "billed_as": null,
+  "treatment_id": "vancouver-psychology-centre-vancouver--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychology",
   "practitioner": null,
   "practitioners": [],
   "price_text": null,
+  "price_source": "No couples therapy fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.vancouverpsychologycentre.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "vancouver-psychology-centre-vancouver",
+  "treatment_id": "vancouver-psychology-centre-vancouver--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": null,
+  "practitioner": "Dr. Jessica Presutto; Josh Mugford; Dr. Jessie Sandhu; Dr. Katrina Milani; Dr. Sam O'Brien; Dr. Laura Obdeyn; Dr. Zarina Giannone",
+  "practitioners": [],
+  "price_text": "$3,900 total (Psychoeducational and Psycho-Vocational Assessment: $300 non-refundable booking fee + $2,300 intake and testing + $1,300 feedback session and final report)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.vancouverpsychologycentre.com/psychoeducational-assessment",
   "last_verified": "2026-11-01"
  },
  {
@@ -89843,7 +90147,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://vanitysault.com/",
   "last_verified": "2026-11-01"
  },
  {
