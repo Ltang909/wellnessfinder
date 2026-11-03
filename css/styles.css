@@ -1272,3 +1272,23 @@ a.nc-slot-chip:hover { background: #FFF6D8; border-color: #FFCE45; }
 .tp-list .nc-head .nc-db { align-self: center; flex: 0 0 auto; }
 .tp-list .nc-meta { grid-template-columns: minmax(0, 220px) minmax(0, 1fr) auto; }
 .tp-list .nc-name { flex: 0 1 auto; }
+
+/* Hours sit next to the address now (Leon); meta bar is price + actions only */
+.tp-list .nc-todaywrap { flex: 1 1 100%; }
+.tp-list .nc-meta { grid-template-columns: minmax(0, 1fr) auto; }
+
+/* Top-loaded card (Leon): photo truly top-left (the gallery's align-self:
+   center was overriding the card), actions sit in the head row next to the
+   billing pill, and a harmonised font pass for a neater card. */
+.tp-list .nc-gallery { align-self: flex-start; }
+.tp-list .nc-head { align-items: center; flex-wrap: wrap; row-gap: 8px; }
+.tp-list .nc-head .nc-actions { margin-left: 0; }
+.tp-list .nc-head .nc-btn { padding: 7px 12px; font-size: .8rem; }
+.tp-list .nc-name { font-size: 1.1rem; letter-spacing: -.01em; }
+.tp-list .nc-addr { font-size: .8rem; color: #5C6B5E; }
+.tp-list .nc-today { font-size: .8rem; }
+.tp-list .nc-desc { font-size: .94rem; line-height: 1.45; }
+.tp-list .nc-rating { font-size: .82rem; }
+.tp-list .nc-slot-title { font-size: .95rem; }
+.tp-list .nc-slot-price { font-size: .86rem; }
+.tp-list .nc-slot-opt .nc-slot-chip { padding: 7px 14px; font-size: .88rem; }

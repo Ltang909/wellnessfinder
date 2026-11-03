@@ -1387,14 +1387,16 @@ if (em) {
       }
     }
 
+    const metaHTML = priceHTML ? `<div class="nc-meta"><div class="nc-pricecell">${priceHTML}<p class="nc-note">${noteHTML}</p></div></div>` : "";
     actions = `<div class="nc-actions">${book ? `<a class="nc-btn nc-btn-book" href="${esc(book)}" target="_blank" rel="noopener">Book appointment</a>` : ""}${web ? `<a class="nc-btn nc-btn-web" href="${esc(web)}" target="_blank" rel="noopener">Website \u2197</a>` : ""}${gmailBtn}</div>`;
     return `<article class="nc-card">
       ${gallery}
       <div class="nc-main">
-        <div class="nc-head"><h4 class="nc-name">${esc(c.name)}</h4>${dbPill}${rating}</div>
+        <div class="nc-head"><h4 class="nc-name">${esc(c.name)}</h4>${dbPill}${actions}${rating}</div>
         <p class="nc-addr"><svg width="12" height="12" viewBox="0 0 24 24" fill="#6E8F7A" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg><span>${esc(addr)}</span></p>
+        ${todayHTML}
         <p class="nc-desc">${esc(desc)}</p>
-        <div class="nc-meta"><div class="nc-pricecell">${priceHTML}<p class="nc-note">${noteHTML}</p></div>${todayHTML}${actions}</div>
+        ${metaHTML}
         ${slotsHTML}
       </div>
     </article>`;
