@@ -2831,13 +2831,32 @@
   "treatment_id": "acupuncture-by-kb-fredericton--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "KB",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$110 (75 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.acupuncturekb.com/services",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "acupuncture-by-kb-fredericton",
+  "treatment_id": "acupuncture-by-kb-fredericton--facial-gua-sha",
+  "treatment": "Facial Gua Sha",
+  "billed_as": "Acupuncture",
+  "practitioner": "KB",
+  "practitioners": [
+   {
+    "as_recorded": "KB, Registered Practitioner (publishes under the initials KB only, acupuncturekb.com)",
+    "id": "acupuncture-by-kb-fredericton--kb",
+    "name": "KB"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Facial gua sha is not priced as a standalone service; it is delivered as a component of the $110 AcuSculpting facial and of TCM manual therapy sessions by the same practitioner, so no separate price is recorded.",
+  "price_tier": null,
+  "treatment_link": "https://www.acupuncturekb.com/services",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "acupuncture-center-toronto-toronto",
@@ -3223,7 +3242,7 @@
   "treatment_id": "adjust-your-health-calgary-calgary--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Brian Boisvert",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
@@ -3401,7 +3420,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.advantagephysio.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -4404,7 +4423,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://amaura-massage-head-spa.square.site/",
   "last_verified": "2026-11-01"
  },
  {
@@ -5501,6 +5520,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "ascent-physical-therapy-and-performance-lab-canmore",
+  "treatment_id": "ascent-physical-therapy-and-performance-lab-canmore--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee for vestibular rehabilitation is published on the clinic's site extracts; the clinic books on Jane, whose fee list does not render in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.ascentphysio.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "ashley-abbs-calgary",
   "treatment_id": "ashley-abbs-calgary--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
@@ -6455,13 +6487,26 @@
   "treatment_id": "back-in-action-physiotherapy-massage-whistler--running-gait-analysis",
   "treatment": "Running Gait Analysis",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Emilie Noble",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://backinactionphysiotherapy.com/services/physiotherapy",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "back-in-action-physiotherapy-massage-whistler",
+  "treatment_id": "back-in-action-physiotherapy-massage-whistler--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee for vestibular rehabilitation is published on the clinic's concussion rehabilitation page extracts, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://backinactionphysiotherapy.com/services/concussion-rehabilitation",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "back-in-motion-health-abbotsford-abbotsford",
@@ -6849,12 +6894,12 @@
   "treatment_id": "back-to-your-roots-orofacial-myofunctional-therapy-cambridge--myofunctional-therapy",
   "treatment": "Myofunctional Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Kelly Hall",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.backtoyourrootsomt.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -7045,7 +7090,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://banffphysicaltherapy.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -7602,7 +7647,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://bedfordtherapy.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -8580,13 +8625,26 @@
   "treatment_id": "bloom-physiotherapy-vancouver--clinical-pilates",
   "treatment": "Clinical Pilates",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dahra",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.bloomphysiotherapy.ca/clinical-pilates",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "bloom-physiotherapy-vancouver",
+  "treatment_id": "bloom-physiotherapy-vancouver--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee for pelvic floor physiotherapy is published in the fetched extracts of the clinic's site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.bloomphysiotherapy.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "blossomco-wellness-clinic-windsor",
@@ -11175,8 +11233,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://catalystphysioyeg.com/services/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "catalyst-physio-and-sports-performance-edmonton",
+  "treatment_id": "catalyst-physio-and-sports-performance-edmonton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website, and no online booking page could be found for this clinic, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://catalystphysioyeg.com/services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "cataraqui-counselling-clinic-kingston",
@@ -14959,8 +15030,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cliniqueds.com/services/massotherapie",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-ds-longueuil",
+  "treatment_id": "clinique-ds-longueuil--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee schedule is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.cliniqueds.com/services/reeducation-vestibulaire",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "clinique-equilib-saguenay",
@@ -15040,6 +15124,25 @@
  },
  {
   "clinic_id": "clinique-interaxion-quebec-city",
+  "treatment_id": "clinique-interaxion-quebec-city--bike-fitting",
+  "treatment": "Bike Fitting",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Vincent Lavoie",
+  "practitioners": [
+   {
+    "id": "clinique-interaxion-quebec-city--vincent-lavoie",
+    "name": "Vincent Lavoie",
+    "as_recorded": "Vincent Lavoie, physiotherapeute, certifie BikePT (bronze)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee for the bike positioning service is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.cliniqueinteraxion.com/positionnement-velo",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "clinique-interaxion-quebec-city",
   "treatment_id": "clinique-interaxion-quebec-city--clinical-pilates",
   "treatment": "Clinical Pilates",
   "billed_as": null,
@@ -15050,6 +15153,25 @@
   "price_tier": null,
   "treatment_link": "https://www.cliniqueinteraxion.com/pilates-quebec",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "clinique-interaxion-quebec-city",
+  "treatment_id": "clinique-interaxion-quebec-city--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Chiropractic",
+  "practitioner": "Catherine Lemire",
+  "practitioners": [
+   {
+    "id": "clinique-interaxion-quebec-city--catherine-lemire",
+    "name": "Catherine Lemire",
+    "as_recorded": "Dre Catherine Lemire, chiropraticienne (the clinic's chiropractor and an experienced runner)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee for the running analysis is published on the clinic's own website or readable on its Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.cliniqueinteraxion.com/analyse-course-a-pied",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "clinique-jem-montreal",
@@ -17234,7 +17356,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.cormackchiropracticcare.com/physiotherapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -17362,16 +17484,73 @@
  },
  {
   "clinic_id": "corona-physiotherapy-edmonton",
+  "treatment_id": "corona-physiotherapy-edmonton--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Chantal Pinsent",
+  "practitioners": [
+   {
+    "id": "corona-physiotherapy-edmonton--chantal-pinsent",
+    "name": "Chantal Pinsent",
+    "as_recorded": "Chantal Pinsent, MScPT, CAFCI - pelvic health focus (pregnancy, postpartum, incontinence, prolapse)"
+   }
+  ],
+  "price_text": "$175 assessment \u00b7 $100 treatment",
+  "price_source": "The clinic's own services page lists Women's Pelvic Health: 'Assessment: $175 / Treatment: $100'.",
+  "price_tier": "website",
+  "treatment_link": "http://www.coronaphysio.com/services-overview",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "corona-physiotherapy-edmonton",
   "treatment_id": "corona-physiotherapy-edmonton--running-gait-analysis",
   "treatment": "Running Gait Analysis",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$150",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.coronaphysio.com/services-overview",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "corona-physiotherapy-edmonton",
+  "treatment_id": "corona-physiotherapy-edmonton--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Shari Black",
+  "practitioners": [
+   {
+    "id": "corona-physiotherapy-edmonton--shari-black",
+    "name": "Shari Black",
+    "as_recorded": "Shari Black, RMT - 'she offers TMJ Massage treatment for relief of jaw tension'"
+   }
+  ],
+  "price_text": "$70 (30 min) \u00b7 $90 (45 min) \u00b7 $100 (60 min)",
+  "price_source": "The clinic's own services page publishes its Massage Therapy fees (30 Minutes: $70 / 45 Minutes: $90 / 60 Minutes: $100); TMJ Massage is delivered by the clinic's RMT as part of her massage practice, so her session fees are the treatment price (Pricing Rule v2 - same practitioner).",
+  "price_tier": "website",
+  "treatment_link": "http://www.coronaphysio.com/services-overview",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "corona-physiotherapy-edmonton",
+  "treatment_id": "corona-physiotherapy-edmonton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Ashley Cripps",
+  "practitioners": [
+   {
+    "id": "corona-physiotherapy-edmonton--ashley-cripps",
+    "name": "Ashley Cripps",
+    "as_recorded": "Ashley Cripps, MScPT, FCAMPT, CAFCI, Clinic Owner - Certified Vestibular Therapist (Advanced Vestibular Rehab Training, 2021)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular-specific fee is published on the clinic's own website (its published concussion fees are a different service and were not borrowed), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.coronaphysio.com/physiotherapists-massage-edmonton",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "corona-station-physical-therapy-edmonton",
@@ -17650,10 +17829,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$180 / 60 min \u00b7 $275 / 90 min",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.couplestherapyottawa.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -27016,6 +27195,19 @@
  },
  {
   "clinic_id": "enlighten-alternative-awareness-and-healing-fredericton-fredericton",
+  "treatment_id": "enlighten-alternative-awareness-and-healing-fredericton-fredericton--fertility-acupuncture",
+  "treatment": "Fertility Acupuncture",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No acupuncture fee schedule is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "enlighten-alternative-awareness-and-healing-fredericton-fredericton",
   "treatment_id": "enlighten-alternative-awareness-and-healing-fredericton-fredericton--fertility-acupuncture-consultation",
   "treatment": "Fertility Acupuncture/Consultation",
   "billed_as": null,
@@ -27026,6 +27218,32 @@
   "price_tier": null,
   "treatment_link": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "enlighten-alternative-awareness-and-healing-fredericton-fredericton",
+  "treatment_id": "enlighten-alternative-awareness-and-healing-fredericton-fredericton--fertility-consultation",
+  "treatment": "Fertility Consultation",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No acupuncture fee schedule is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": null,
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "enlighten-alternative-awareness-and-healing-fredericton-fredericton",
+  "treatment_id": "enlighten-alternative-awareness-and-healing-fredericton-fredericton--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No nutrition consultation fee is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.enlightenfredericton.com/nutrition--weight-management.html",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "envision-physiotherapy-false-creek-vancouver",
@@ -28225,12 +28443,12 @@
   "treatment_id": "evolve-physiotherapy-thunder-bay--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Emmanuelle Rousseau",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.evolvephysiotherapy.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -28392,7 +28610,7 @@
   "treatment_id": "excite-physiotherapy-barrie--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Margi Patel",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
@@ -28721,10 +28939,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$140 per 50-min session",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://familyservice.pe.ca/therapeutic-counselling/",
   "last_verified": "2026-11-01"
  },
  {
@@ -28943,7 +29161,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://finebalancenanaimo.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -30507,7 +30725,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://functionandflowmtc.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -31367,7 +31585,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://gparcanada.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -31643,6 +31861,19 @@
  },
  {
   "clinic_id": "great-north-physiotherapy-st-catharines",
+  "treatment_id": "great-north-physiotherapy-st-catharines--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Pelvic health is booked under physiotherapy on the clinic's Jane page; Jane prices do not render in a text fetch, so no price could be verified - Jane re-scan queue.",
+  "price_tier": null,
+  "treatment_link": "https://gnp.janeapp.com/locations/great-north-physiotherapy-st-catharines-located-inside-house-of-greatness/book",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "great-north-physiotherapy-st-catharines",
   "treatment_id": "great-north-physiotherapy-st-catharines--pressotherapy",
   "treatment": "Pressotherapy",
   "billed_as": "Massage Therapy / Osteopathy",
@@ -31651,7 +31882,20 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://greatnorthphysio.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "great-north-physiotherapy-st-catharines",
+  "treatment_id": "great-north-physiotherapy-st-catharines--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Vestibular rehab is booked under physiotherapy on the clinic's Jane page; Jane prices do not render in a text fetch, so no price could be verified - Jane re-scan queue.",
+  "price_tier": null,
+  "treatment_link": "https://gnp.janeapp.com/locations/great-north-physiotherapy-st-catharines-located-inside-house-of-greatness/book",
   "last_verified": "2026-11-02"
  },
  {
@@ -31868,12 +32112,12 @@
   "treatment_id": "groupe-ancora-rimouski--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Mario L\u00e9vesque",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://groupeancora.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32034,12 +32278,12 @@
   "treatment_id": "hair-salon-head-spa-toronto--head-spa",
   "treatment": "Head Spa",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Akemi",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$280-$330 by hair length (90-min Deep Healing Headspa course with Facial Shiatsu Yoga massage); $350 with Akemi",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.canadastyles.com/japanese-head-spa",
   "last_verified": "2026-11-01"
  },
  {
@@ -32060,13 +32304,51 @@
   "treatment_id": "halifax-osteopathic-health-centre-halifax--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Judith Forget",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://halifaxosteopathy.janeapp.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "halifax-osteopathic-health-centre-halifax",
+  "treatment_id": "halifax-osteopathic-health-centre-halifax--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Natalie",
+  "practitioners": [
+   {
+    "id": "halifax-osteopathic-health-centre-halifax--natalie",
+    "name": "Natalie",
+    "as_recorded": "Natalie - Musculoskeletal Physiotherapist and Pelvic Health Physiotherapist, Master's in Physiotherapy from Dalhousie University; treats pelvic floor dysfunction including incontinence, pelvic organ prolapse, ano-rectal disorders, pre/post-natal care and pelvic pain (surname not shown on the booking page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Physiotherapy is booked on the clinic's Jane page; Jane prices do not render in a text fetch, so no price could be verified - Jane re-scan queue.",
+  "price_tier": null,
+  "treatment_link": "https://halifaxosteopathy.janeapp.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "halifax-osteopathic-health-centre-halifax",
+  "treatment_id": "halifax-osteopathic-health-centre-halifax--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Natalie",
+  "practitioners": [
+   {
+    "id": "halifax-osteopathic-health-centre-halifax--natalie",
+    "name": "Natalie",
+    "as_recorded": "Natalie - Musculoskeletal Physiotherapist and Pelvic Health Physiotherapist (Dalhousie MScPT); 'Natalie also treats dizziness and balance disorders. She can help you if you are experiencing vertigo.' (surname not shown on the booking page)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Physiotherapy is booked on the clinic's Jane page; Jane prices do not render in a text fetch, so no price could be verified - Jane re-scan queue.",
+  "price_tier": null,
+  "treatment_link": "https://halifaxosteopathy.janeapp.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "halo-brows-and-skin-airdrie",
@@ -32078,7 +32360,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.halobrowsandskin.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32086,12 +32368,12 @@
   "treatment_id": "hamilton-neurofeedback-hamilton--neurofeedback",
   "treatment": "Neurofeedback",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nigel Barnim",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://hamiltonneurofeedback.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32104,8 +32386,27 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://healthhives.com/clinic/hamilton-orthopaedic-institute",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "hamilton-orthopaedic-institute-hamilton",
+  "treatment_id": "hamilton-orthopaedic-institute-hamilton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Eric Jones",
+  "practitioners": [
+   {
+    "id": "hamilton-orthopaedic-institute-hamilton--eric-jones",
+    "name": "Eric Jones",
+    "as_recorded": "Eric Jones, Director of Clinical Services & Registered Physiotherapist; continuing education includes 'Introductory & Advanced Vestibular Rehabilitation Courses by Dizziness and Balance Rehab Clinic' (clinic's own site, niagaraortho.ca/hamilton)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No vestibular rehab fee is published on the clinic's profile or its own site; no price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://healthhives.com/clinic/hamilton-orthopaedic-institute",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "hamilton-physio-and-rehab-hamilton",
@@ -32156,7 +32457,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/ajax/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32169,7 +32470,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations",
   "last_verified": "2026-11-01"
  },
  {
@@ -32182,7 +32483,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/barrie-north/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32195,7 +32496,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/brampton-trinity-common/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32208,7 +32509,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/burlington/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32221,7 +32522,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/calgary-south-trail-crossing-ab/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32234,7 +32535,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/bloor-west/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32247,7 +32548,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/guelph/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32260,7 +32561,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/halifax-washmill-lake/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32273,7 +32574,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/markhameast/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32286,7 +32587,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/calgary-south-trail-crossing-ab/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32299,7 +32600,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/saskatoon-stonebridge/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32312,7 +32613,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/sherwood-park-ab/",
   "last_verified": "2026-11-01"
  },
  {
@@ -32325,7 +32626,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://handandstone.ca/locations/milton/",
   "last_verified": "2026-11-01"
  },
  {
@@ -53857,15 +54158,34 @@
  },
  {
   "clinic_id": "myo-kensington-calgary",
+  "treatment_id": "myo-kensington-calgary--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Piper Ferguson",
+  "practitioners": [
+   {
+    "as_recorded": "Piper Ferguson, Physiotherapist - Clinical Pilates Instructor; Pelvic Floor Level 1 and 2 (clinic's Kensington team roster)",
+    "id": "myo-kensington-calgary--piper-ferguson",
+    "name": "Piper Ferguson"
+   }
+  ],
+  "price_text": "$180 (60 min Clinical Pilates)",
+  "price_source": "Clinic's own Kensington location page lists the specialty session 'Clinical Pilates, 60 Mins, $180'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/locations/kensington",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-kensington-calgary",
   "treatment_id": "myo-kensington-calgary--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Riley Zubrickas",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$230 (90 min TPI Golf Assessment)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.myodetox.com/locations/kensington",
   "last_verified": "2026-11-01"
  },
  {
@@ -53873,12 +54193,12 @@
   "treatment_id": "myo-kensington-calgary--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Piper Ferguson",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$190 (60 min Pelvic Health Physiotherapy)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.myodetox.com/ca/pelvic-health-physical-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -56127,7 +56447,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.neumovement.com/okanaganphysiotherapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -56140,8 +56460,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.neumovement.com/okanaganphysiotherapy",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "neumovement-pilates-and-physiotherapy-kelowna",
+  "treatment_id": "neumovement-pilates-and-physiotherapy-kelowna--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's own website; its Jane booking page did not render a fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.neumovement.com/okanaganphysiotherapy",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "neumovement-pilates-and-physiotherapy-vernon",
@@ -59687,7 +60020,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.orthophonievocalis.com/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -59700,7 +60033,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.orthophonievocalis.com/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -60775,6 +61108,19 @@
  },
  {
   "clinic_id": "pcn-physio-quebec-city",
+  "treatment_id": "pcn-physio-quebec-city--bike-fitting",
+  "treatment": "Bike Fitting",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No bike fitting fee is published on the network's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://pcnphysio.com/?post_type=service",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "pcn-physio-quebec-city",
   "treatment_id": "pcn-physio-quebec-city--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
   "billed_as": null,
@@ -60783,8 +61129,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://pcnphysio.com/?post_type=service",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pcn-physio-quebec-city",
+  "treatment_id": "pcn-physio-quebec-city--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor fee is published on the network's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://pcnphysio.com/?post_type=service",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "pcn-physio-quebec-city",
@@ -60796,8 +61155,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://pcnphysio.com/?post_type=service",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pcn-physio-quebec-city",
+  "treatment_id": "pcn-physio-quebec-city--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the network's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://pcnphysio.com/?post_type=service",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "pcn-physiotherapie-lebourgneuf-quebec-city",
@@ -68314,7 +68686,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://precisionphysio.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -68327,7 +68699,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://precisionphysio.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -71121,7 +71493,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://reactivehealth.com/services/",
   "last_verified": "2026-11-01"
  },
  {
@@ -71134,8 +71506,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://reactivehealth.com/services/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "reactive-health-stratford",
+  "treatment_id": "reactive-health-stratford--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's site; its Jane booking page did not render a fee list in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://reactivehealth.com/services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "ready-room-health-toronto",
@@ -74152,12 +74537,12 @@
   "treatment_id": "rooted-naturopathic-clinic-barrie--fertility-consultation",
   "treatment": "Fertility Consultation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Whitney Young, ND",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.rootedinhealth.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -74170,7 +74555,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rootedinhealth.ca/iron-iv-therapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -74514,12 +74899,12 @@
   "treatment_id": "rundle-physiotherapy-canmore--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Leah Forrestall",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rundlephysiotherapy.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -74532,7 +74917,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rundlephysiotherapy.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -77580,12 +77965,12 @@
   "treatment_id": "speed-river-physiotherapy-guelph--clinical-pilates",
   "treatment": "Clinical Pilates",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Heather Finn",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://speedriverphysio.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77593,12 +77978,12 @@
   "treatment_id": "speed-river-physiotherapy-guelph--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Heather Finn",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://speedriverphysio.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -80164,12 +80549,12 @@
   "treatment_id": "teou-studio-calgary--facial-manual-therapy",
   "treatment": "Facial Manual Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ariffa",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://teoustudio.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -80177,12 +80562,12 @@
   "treatment_id": "teou-studio-calgary--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ariffa",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://teoustudio.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -88376,8 +88761,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.zonephysiotherapy.com/services",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "zone-sports-physiotherapy-saskatoon",
+  "treatment_id": "zone-sports-physiotherapy-saskatoon--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No gait analysis fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.zonephysiotherapy.com/services",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "zone-sports-physiotherapy-saskatoon",
@@ -88389,7 +88787,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.zonephysiotherapy.com/services",
   "last_verified": "2026-11-01"
  },
  {
