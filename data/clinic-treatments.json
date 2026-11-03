@@ -75463,10 +75463,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$70-$200 per 60-min session",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.relationshipmatterstherapy.com/counselling-services",
   "last_verified": "2026-11-01"
  },
  {
@@ -75476,10 +75476,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$155-$175+ per session",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://relationshiptherapycentre.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -75524,8 +75524,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.relievephysiotherapy.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "relieve-physiotherapy-and-health-centre-brantford",
+  "treatment_id": "relieve-physiotherapy-and-health-centre-brantford--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own website or any booking page for this clinic, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.relievephysiotherapy.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "remedy-massage-therapy-richmond",
@@ -75553,6 +75566,19 @@
  },
  {
   "clinic_id": "remedyrealm-sault-ste-marie",
+  "treatment_id": "remedyrealm-sault-ste-marie--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Botox price (per-unit or otherwise) is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://remedyrealm.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "remedyrealm-sault-ste-marie",
   "treatment_id": "remedyrealm-sault-ste-marie--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
@@ -75561,7 +75587,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://remedyrealm.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -75683,12 +75709,12 @@
   "treatment_id": "reset-chiropractic-and-rehab-london--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Arjun Bali",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://resetchiro.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -75829,12 +75855,12 @@
   "treatment_id": "resolvology-calgary--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jeannine Crofton",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$250 per session",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://resolvology.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -75890,7 +75916,20 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://restorativetouchphysiotherapy.ca/services/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "restorative-touch-physiotherapy-hamilton",
+  "treatment_id": "restorative-touch-physiotherapy-hamilton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://restorativetouchphysiotherapy.ca/services/",
   "last_verified": "2026-11-02"
  },
  {
@@ -75898,12 +75937,12 @@
   "treatment_id": "restorative-wellness-massage-and-shockwave-therapy-airdrie--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Keli",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://therestorativewellness.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -75950,25 +75989,44 @@
   "treatment_id": "restore-health-and-sport-new-minas--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Brandon Kehoe",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.restorehealthandsport.com/restore-health-and-sport-home",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "restore-health-and-sport-new-minas",
+  "treatment_id": "restore-health-and-sport-new-minas--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Misty Hemphill",
+  "practitioners": [
+   {
+    "as_recorded": "Misty Hemphill, Registered Massage Therapist - the clinic's own team page states she is 'Specializing in TMJ therapy and Trigger Point Therapy'",
+    "id": "restore-health-and-sport-new-minas--misty-hemphill",
+    "name": "Misty Hemphill"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No TMJ or massage fee is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.restorehealthandsport.com/our-team",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "restore-rehabilitation-and-wellness-surrey",
   "treatment_id": "restore-rehabilitation-and-wellness-surrey--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Karandeep (KD) Athwal",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://restorerehabandwellness.ca/shockwave-therapy/",
   "last_verified": "2026-11-01"
  },
  {
@@ -75981,7 +76039,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.restorewellnessrd.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -76162,7 +76220,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://revibeto.com",
   "last_verified": "2026-11-02"
  },
  {
@@ -76170,13 +76228,32 @@
   "treatment_id": "revital-wellness-halifax--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Janice Fleet",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$130 (60 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://revital.janeapp.com/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "revitalize-physiotherapy-and-rehabilitation-saskatoon",
+  "treatment_id": "revitalize-physiotherapy-and-rehabilitation-saskatoon--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Dysen Swan",
+  "practitioners": [
+   {
+    "id": "revitalize-physiotherapy-and-rehabilitation-saskatoon--dysen-swan",
+    "name": "Dysen Swan",
+    "as_recorded": "Dysen Swan, RMT"
+   }
+  ],
+  "price_text": "$120 (60 min)",
+  "price_source": "The clinic's Jane booking page lists 'Lymphatic Drainage Massage - 60 Min' at $120, staffed by Dysen Swan, RMT.",
+  "price_tier": "booking",
+  "treatment_link": "https://revitalizephysiotherapy-rehab.janeapp.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "revitalize-physiotherapy-and-rehabilitation-saskatoon",
@@ -76188,8 +76265,27 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://revitalizephysio.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "revitalize-physiotherapy-and-rehabilitation-saskatoon",
+  "treatment_id": "revitalize-physiotherapy-and-rehabilitation-saskatoon--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Nirali Patel",
+  "practitioners": [
+   {
+    "id": "revitalize-physiotherapy-and-rehabilitation-saskatoon--nirali-patel",
+    "name": "Nirali Patel",
+    "as_recorded": "Nirali Patel, Physiotherapist"
+   }
+  ],
+  "price_text": "$150 initial assessment, $100 subsequent session",
+  "price_source": "The clinic's Jane booking page lists 'Vestibular Therapy - Initial assessment' at $150 and 'Vestibular Therapy - Subsequent session' at $100, staffed only by Nirali Patel; vestibular rehabilitation is also listed on the clinic's own website services.",
+  "price_tier": "booking",
+  "treatment_link": "https://revitalizephysiotherapy-rehab.janeapp.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "revival-physio-east-york",
@@ -76268,12 +76364,12 @@
   "treatment_id": "revive-and-align-therapy-clinic-mission--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Ashley",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://revivealigntherapyclinic.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -76286,8 +76382,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://revive-beauty-solutions.zoca.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "revive-counselling-and-neurofeedback-maple-ridge",
+  "treatment_id": "revive-counselling-and-neurofeedback-maple-ridge--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Counselling",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$175",
+  "price_source": "The clinic's own fees page states: 'Couples counselling sessions are $175.'",
+  "price_tier": "website",
+  "treatment_link": "https://revivecounselling.com/fees",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "revive-counselling-and-neurofeedback-maple-ridge",
@@ -76296,10 +76405,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$190 initial assessment, $135 per 30 min session",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://revivecounselling.com/fees",
   "last_verified": "2026-11-01"
  },
  {
@@ -76360,6 +76469,19 @@
  },
  {
   "clinic_id": "revive-medical-spa-barrie",
+  "treatment_id": "revive-medical-spa-barrie--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's own IV therapy page names its BOOST, NRG, and RADIANCE drips but publishes no prices, and its booking portal shows none either, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://revivemedspa.ca/medical/iv-therapy-near-me/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "revive-medical-spa-barrie",
   "treatment_id": "revive-medical-spa-barrie--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
@@ -76368,7 +76490,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://revivemedspa.ca/cosmetics/microneedling-near-me/",
   "last_verified": "2026-11-01"
  },
  {
@@ -76584,12 +76706,12 @@
   "treatment_id": "revolution-physiotherapy-and-massage-spruce-grove--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Meghan Ryan",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$165 initial assessment",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://revolutionphysio.ca/womens-health-and-pelvic-floor-rehabilitation/",
   "last_verified": "2026-11-01"
  },
  {
@@ -76740,12 +76862,12 @@
   "treatment_id": "rhapsody-psychotherapy-and-counselling-peterborough--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Spring Berriman",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://spring.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77007,15 +77129,58 @@
  },
  {
   "clinic_id": "rise-medical-aesthetics-nanaimo",
+  "treatment_id": "rise-medical-aesthetics-nanaimo--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": null,
+  "practitioner": "Shawna Chappell",
+  "practitioners": [
+   {
+    "id": "rise-medical-aesthetics-nanaimo--shawna-chappell",
+    "name": "Shawna Chappell",
+    "as_recorded": "Shawna Chappell, RN"
+   },
+   {
+    "id": "rise-medical-aesthetics-nanaimo--travis-cunningham",
+    "name": "Travis Cunningham",
+    "as_recorded": "Travis Cunningham, RN"
+   }
+  ],
+  "price_text": "$249-$329 per infusion (NAD+ from $399)",
+  "price_source": "The clinic's own IV therapy page prices its infusions: Hydration & Recovery IV $249, Rise Wellness IV $249, Immune Boost IV $329, Beauty Boost IV $329, Energy & Performance IV $329, and NAD+ IV starting at $399.",
+  "price_tier": "website",
+  "treatment_link": "https://www.risemedaesthetics.com/iv-therapy-1",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "rise-medical-aesthetics-nanaimo",
+  "treatment_id": "rise-medical-aesthetics-nanaimo--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": "Laura McIntyre",
+  "practitioners": [
+   {
+    "id": "rise-medical-aesthetics-nanaimo--laura-mcintyre",
+    "name": "Laura McIntyre",
+    "as_recorded": "Laura McIntyre, NP"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane page lists 'Neuromodulator (Dysport/Botox/Nuceiva) - Initial Consultation and Treatment' and a repeat treatment with no per-unit or session price, and the clinic's website publishes no neuromodulator price, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://risemedspa.janeapp.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "rise-medical-aesthetics-nanaimo",
   "treatment_id": "rise-medical-aesthetics-nanaimo--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Shawna Chappell",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://risemedspa.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77047,7 +77212,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://risingwarriorpsychotherapy.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -77226,7 +77391,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rlbeaute.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -77239,7 +77404,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rltmarriagecounselling.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -77247,13 +77412,26 @@
   "treatment_id": "rm-psychological-services-calgary--neurofeedback",
   "treatment": "Neurofeedback",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Cassandra Hillman White",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rmpsychservices.com/adults/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "rm-psychological-services-calgary",
+  "treatment_id": "rm-psychological-services-calgary--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee for psychoeducational assessment is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://rmpsychservices.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "rmt-movement-brampton",
@@ -77498,12 +77676,12 @@
   "treatment_id": "rooted-family-wellness-centre-ottawa--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Slesha Shah",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rootedfamily.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -77511,12 +77689,12 @@
   "treatment_id": "rooted-family-wellness-ottawa--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Slesha Shah",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rootedfamily.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -77568,7 +77746,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rootedwillowyyc.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -77699,13 +77877,32 @@
   "treatment_id": "rosen-couples-counselling-richmond-hill--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Vitali Rosen",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$4,000-$5,000 for a complete cycle of treatment (6-12 sessions)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.rosencounselling.ca/marriage-counselling/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "royal-medical-spa-guelph",
+  "treatment_id": "royal-medical-spa-guelph--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": "Aly Chornaby",
+  "practitioners": [
+   {
+    "id": "royal-medical-spa-guelph--aly-chornaby",
+    "name": "Aly Chornaby",
+    "as_recorded": "Aly Chornaby, RN, cosmetic injector, registered with the College of Nurses of Ontario \u2014 'Anti-wrinkle injections and dermal filler are performed by Aly Chornaby, RN' (clinic's own homepage)"
+   }
+  ],
+  "price_text": "$9.50 per unit (Botox/Dysport, starting at)",
+  "price_source": "Price published on the clinic's own homepage: anti-wrinkle injections (Botox and Dysport) start at $9.50 per unit, 'with every price published on our treatment page before you book'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.royalmedicalspa.ca",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "royal-medical-spa-guelph",
@@ -77717,7 +77914,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.royalmedicalspa.ca/microneedling.html",
   "last_verified": "2026-11-01"
  },
  {
@@ -77730,8 +77927,34 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://royalnailsandheadspa.ca",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "royal-quarry-wellness-stonewall",
+  "treatment_id": "royal-quarry-wellness-stonewall--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee for cosmetic acupuncture is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://royalquarrywellness.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "royal-quarry-wellness-stonewall",
+  "treatment_id": "royal-quarry-wellness-stonewall--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee for IV therapy is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://royalquarrywellness.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "royal-quarry-wellness-stonewall",
@@ -77788,7 +78011,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rcsj.org/ruah-counselling-centre",
   "last_verified": "2026-11-01"
  },
  {
@@ -77940,10 +78163,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$175 (IV Iron Infusion, 2-hour medically supervised)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.thesageclinic.com/iv-infusion/",
   "last_verified": "2026-11-01"
  },
  {
@@ -78245,7 +78468,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://asarahealth.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -78284,7 +78507,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.salonhaze.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -78297,7 +78520,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.salonsignea.com/booking-calendar/microneedling-visage",
   "last_verified": "2026-11-01"
  },
  {
@@ -78318,12 +78541,12 @@
   "treatment_id": "samara-felesky-hunt-calgary--sports-nutrition",
   "treatment": "Sports Nutrition",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Samara Felesky-Hunt",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://dietitian-online.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -78391,7 +78614,7 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$350 intake assessment (incl. brain map) \u00b7 $235/60 min NF therapy treatment \u00b7 free initial information session",
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://sanostate.com/neurofeedback/",
@@ -78428,12 +78651,12 @@
   "treatment_id": "sara-friedrich-rd-kelowna--sports-nutrition",
   "treatment": "Sports Nutrition",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sara Friedrich",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$560 Performance Nutrition Package (1 x 60-min initial assessment + 4 x 30-min follow-ups)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.sarafriedrichrd.com/service-page/assessment-and-3-follow-up-package",
   "last_verified": "2026-11-01"
  },
  {
@@ -78647,13 +78870,39 @@
   "treatment_id": "scarborough-village-physio-and-chiro-scarborough--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Kritika Manchanda; Umaima Thiseen; Divya Magesh; Maitri Patel",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://scarboroughphysiochiro.com/pelvic-floor-physiotherapy/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "scarborough-village-physio-and-chiro-scarborough",
+  "treatment_id": "scarborough-village-physio-and-chiro-scarborough--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave therapy fee is published on the clinic's own site, and its Juvonno booking portal is login-walled in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://scarboroughphysiochiro.com/services/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "scarborough-village-physio-and-chiro-scarborough",
+  "treatment_id": "scarborough-village-physio-and-chiro-scarborough--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's own site, and its Juvonno booking portal is login-walled in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://scarboroughphysiochiro.com/services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "scott-anderson-and-associates-physiotherapy-regina",
@@ -78665,7 +78914,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.andersonphysiotherapysask.ca/Women-s-Health-Issues/Pelvic-Floor-Health/a~4050/article.html",
   "last_verified": "2026-11-01"
  },
  {
@@ -78761,6 +79010,19 @@
  },
  {
   "clinic_id": "serenity-acuspa-markham",
+  "treatment_id": "serenity-acuspa-markham--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No cosmetic acupuncture fee is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://serenityacuspa.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "serenity-acuspa-markham",
   "treatment_id": "serenity-acuspa-markham--head-spa",
   "treatment": "Head Spa",
   "billed_as": null,
@@ -78769,7 +79031,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://serenityacuspa.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -78831,6 +79093,19 @@
  },
  {
   "clinic_id": "shan-esthetics-chilliwack",
+  "treatment_id": "shan-esthetics-chilliwack--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Nursing (RN/NP)",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No IV therapy price or infusion menu is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://shanesthetics.com/blog",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "shan-esthetics-chilliwack",
   "treatment_id": "shan-esthetics-chilliwack--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
@@ -78839,7 +79114,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://shanesthetics.com/services/prp-platelet-rich-plasma/prp-vampire-facial",
   "last_verified": "2026-11-01"
  },
  {
@@ -78866,13 +79141,26 @@
   "treatment_id": "shape-toronto-health-and-wellness-north-york--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
   "billed_as": null,
+  "practitioner": "Sender Deutsch",
+  "practitioners": [],
+  "price_text": "TPI physical screening: two treatment units (treatment units $135.60 regular fee each; $115-$107.50 each discounted in packages)",
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.shapepersonaltrainers.com/training-services/golf-fitness-training",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "shape-toronto-health-and-wellness-north-york",
+  "treatment_id": "shape-toronto-health-and-wellness-north-york--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
   "practitioner": null,
   "practitioners": [],
   "price_text": null,
-  "price_source": null,
+  "price_source": "No pelvic floor therapy fee is published on the clinic's own site; its general physiotherapy rates were not stood in because the same-practitioner link required by Pricing Rule v2 is not evidenced for this service, so price is null.",
   "price_tier": null,
-  "treatment_link": null,
-  "last_verified": "2026-11-01"
+  "treatment_link": "https://www.shapetoronto.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "shape-toronto-health-wellness-toronto",
@@ -79223,6 +79511,19 @@
  },
  {
   "clinic_id": "sheppard-clinic-north-york",
+  "treatment_id": "sheppard-clinic-north-york--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://sheppardclinic.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "sheppard-clinic-north-york",
   "treatment_id": "sheppard-clinic-north-york--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
@@ -79231,8 +79532,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sheppardclinic.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sheppard-clinic-north-york",
+  "treatment_id": "sheppard-clinic-north-york--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://sheppardclinic.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "sheppard-clinic-toronto",
@@ -79362,12 +79676,12 @@
   "treatment_id": "shockwave-therapy-centre-barrie--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Scott",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://shockwavetherapycenter.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -79497,8 +79811,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://scalpandskinstudio.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "simo-scalp-and-skin-studio-calgary",
+  "treatment_id": "simo-scalp-and-skin-studio-calgary--microneedling",
+  "treatment": "Microneedling",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$200 CAD (60-75 min)",
+  "price_source": "Clinic's own website homepage (scalpandskinstudio.com): 'Microneedling Skin Treatment 60-75 min | $200 CAD'.",
+  "price_tier": "website",
+  "treatment_link": "https://scalpandskinstudio.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "simone-galna-physiotherapy-victoria",
@@ -79524,12 +79851,12 @@
   "treatment_id": "simone-merkl-marriage-counselling-port-alberni--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Simone Merkl",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.mmarriage.ca/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -79645,8 +79972,32 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://six08health.com/services/pelvic-health-physiotherapy/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "six08-health-lethbridge",
+  "treatment_id": "six08-health-lethbridge--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Shockwave Therapy",
+  "practitioner": "Gurleen Kaur",
+  "practitioners": [
+   {
+    "as_recorded": "I'm Gurleen Kaur, a passionate and dedicated Massage Therapist who enjoys helping people reduce pain, release muscle tension, and improve their overall well-being. I specialize in Deep Tissue Massage and Trigger Point Therapy, and I also provide Shockwave Therapy to support pain management and recovery.",
+    "id": "six08-health-lethbridge--gurleen-kaur",
+    "name": "Gurleen Kaur"
+   },
+   {
+    "as_recorded": "Maxxe graduated from the 2200-hour accredited massage therapy program from Lethbridge College in 2021. She has been practicing massage since, adding cupping and shockwave therapy to here treatment options.",
+    "id": "six08-health-lethbridge--maxxe",
+    "name": "Maxxe"
+   }
+  ],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://six08health.com/services/shockwave-therapy/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "sk-physiotherapy-and-sports-injury-clinic-cambridge",
@@ -79658,7 +80009,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://skphysiotherapy.ca/physio-services/shockwave-therapy-cambridge",
   "last_verified": "2026-11-01"
  },
  {
@@ -79671,7 +80022,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.skinlabaesthetics.net/skin-treatments",
   "last_verified": "2026-11-01"
  },
  {
@@ -79681,11 +80032,37 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
+  "price_text": "Vitamin C $249 each + HST; Energy Boost $189 each + HST; Glutathione $189 each + HST",
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.skinmdclinic.ca/iv-drip",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "skin-md-niagara-falls",
+  "treatment_id": "skin-md-niagara-falls--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Botox\u00ae/Nuceiva\u00ae",
+  "practitioner": null,
+  "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
-  "last_verified": "2026-11-01"
+  "treatment_link": "https://www.skinmdclinic.ca/botox",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "skin-vitality-medical-clinic-milton-milton",
+  "treatment_id": "skin-vitality-medical-clinic-milton-milton--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Botox\u00ae",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.skinvitality.ca/cosmetic-procedures/injection/botox-milton/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "skin-vitality-medical-clinic-milton-milton",
@@ -79697,7 +80074,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.skinvitality.ca/cosmetic-procedures/dermapen-acne-treatment-milton-ontario/",
   "last_verified": "2026-11-01"
  },
  {
@@ -79736,8 +80113,34 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://skintegritymedispa.com/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "skintegrity-medi-spa-nanaimo",
+  "treatment_id": "skintegrity-medi-spa-nanaimo--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": "red and blue light therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price found on the clinic's own website or a booking page as of 2026-11-02.",
+  "price_tier": null,
+  "treatment_link": "https://skintegritymedispa.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "skintegrity-medi-spa-nanaimo",
+  "treatment_id": "skintegrity-medi-spa-nanaimo--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "shock wave therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price found on the clinic's own website or a booking page as of 2026-11-02.",
+  "price_tier": null,
+  "treatment_link": "https://skintegritymedispa.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "skn-med-spa-saskatoon",
@@ -79749,7 +80152,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sknmedspa.ca/treatments",
   "last_verified": "2026-11-01"
  },
  {
@@ -79929,21 +80332,66 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.solepurposewellness.com/services/massage/manual-lymphatic-drainage/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "sole-purpose-wellness-edmonton",
+  "treatment_id": "sole-purpose-wellness-edmonton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Shockwave Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price found on the clinic's own Shockwave Therapy page, website, or Click4Time booking page text as of 2026-11-02.",
+  "price_tier": null,
+  "treatment_link": "https://www.solepurposewellness.com/services/shockwave-therapy/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "sole-purpose-wellness-edmonton",
+  "treatment_id": "sole-purpose-wellness-edmonton--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "TMJ Massage",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No price found on the clinic's own website or its Click4Time booking page text as of 2026-11-02; booking lists a 45-minute TMJ Massage without a price.",
+  "price_tier": null,
+  "treatment_link": "https://www.solepurposewellness.com/services/massage/tmjd-chronic-pain/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "solluna-collective-fort-mcmurray",
   "treatment_id": "solluna-collective-fort-mcmurray--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Stephanie Lilly",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://sollunacollective.com/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "solluna-collective-fort-mcmurray",
+  "treatment_id": "solluna-collective-fort-mcmurray--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "TMJ Focused Massage",
+  "practitioner": "Leah Foley",
+  "practitioners": [
+   {
+    "as_recorded": "Leah Foley Massage \u00b7 Graston \u00b7 TMJ",
+    "id": "solluna-collective-fort-mcmurray--leah-foley",
+    "name": "Leah Foley"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No price published on the clinic's own website; the Jane booking page's service/price list was not extractable from its page text, so no booking or website price could be verified.",
+  "price_tier": null,
+  "treatment_link": "https://sollunacollective.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "solution-focused-psychology-medicine-hat",
@@ -79963,25 +80411,49 @@
   "treatment_id": "soma-and-soul-wellness-toronto--cosmetic-acupuncture",
   "treatment": "Cosmetic Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Olivia Leung",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://somaandsoul.ca/cosmetic-acupuncture/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "soma-and-soul-wellness-toronto",
+  "treatment_id": "soma-and-soul-wellness-toronto--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "IV Vitamin Therapy",
+  "practitioner": "Dr. Charity Au",
+  "practitioners": [
+   {
+    "as_recorded": "Book a consultation with Dr. Charity Au, ND, today and find the right IV treatment for you! (clinic's own IV therapy FAQ article)",
+    "id": "soma-and-soul-wellness-toronto--charity-au",
+    "name": "Dr. Charity Au"
+   },
+   {
+    "as_recorded": "Dr. Mary Choi, ND \u2014 Founder and CEO; custom IV vitamin drips offered 'under the supervision of Dr. Mary Choi, ND' (clinic's own IV page for athletes)",
+    "id": "soma-and-soul-wellness-toronto--mary-choi",
+    "name": "Dr. Mary Choi"
+   }
+  ],
+  "price_text": "$135 - $300 (includes a consultation with a Naturopathic Doctor)",
+  "price_source": "Clinic's own IV Vitamin Therapy page (somaandsoul.ca/iv-vitamin-drip-toronto-beaches-danforth/): 'Prices range from $135 to $300, which includes a consultation with a Naturopathic Doctor.'",
+  "price_tier": "website",
+  "treatment_link": "https://somaandsoul.ca/iv-vitamin-drip-toronto-beaches-danforth/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "soma-burnaby-wellness-burnaby",
   "treatment_id": "soma-burnaby-wellness-burnaby--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Aislynn Hunt",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://somaburnaby.com/burnaby-iv-therapy",
   "last_verified": "2026-11-01"
  },
  {
