@@ -90257,7 +90257,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://vcarephysiochiro.ca/contact-us/",
   "last_verified": "2026-11-01"
  },
  {
@@ -90307,7 +90307,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://veddercounselling.ca/counselling-services/",
   "last_verified": "2026-11-01"
  },
  {
@@ -90379,15 +90379,34 @@
  },
  {
   "clinic_id": "velora-skin-clinic-richmond-hill",
+  "treatment_id": "velora-skin-clinic-richmond-hill--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Nursing",
+  "practitioner": "Rana Jabrayilova",
+  "practitioners": [
+   {
+    "as_recorded": "Rana Jabrayilova, RPN - Registered Practical Nurse registered with the College of Nurses of Ontario, per the clinic's own StarVac / lymphatic drainage page",
+    "id": "velora-skin-clinic-richmond-hill--rana-jabrayilova",
+    "name": "Rana Jabrayilova"
+   }
+  ],
+  "price_text": "Starts from $80 CAD",
+  "price_source": "FAQ on the clinic's own StarVac / lymphatic drainage page: 'How much does Starvac vacuum therapy cost in Richmond Hill? A: Cost depends on treatment area, session length and package plan. Starts from $80 CAD'.",
+  "price_tier": "website",
+  "treatment_link": "https://veloraskinclinic.ca/services/starvac-vacuum-therapy/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "velora-skin-clinic-richmond-hill",
   "treatment_id": "velora-skin-clinic-richmond-hill--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Rana Jabrayilova",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://veloraskinclinic.ca/services/microneedling/",
   "last_verified": "2026-11-01"
  },
  {
@@ -90490,7 +90509,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://verdurewellnessclinic.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -90627,7 +90646,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.vibrantsalonandspa.com/medispa",
   "last_verified": "2026-11-01"
  },
  {
@@ -90654,12 +90673,12 @@
   "treatment_id": "victoria-mary-routhier-physiotherapie-montreal--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Victoria Mary Routhier",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.vmrphysio.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -90728,21 +90747,59 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.victoriavillephysio.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vida-flow-mind-body-skin-clinic-penticton",
+  "treatment_id": "vida-flow-mind-body-skin-clinic-penticton--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Counselling",
+  "practitioner": "Stephanie",
+  "practitioners": [
+   {
+    "as_recorded": "Stephanie - counsellor whose Jane booking page bio states she provides a safe space for couples and individuals around reproductive and relationship challenges (surname and designation not published in the extract read)",
+    "id": "vida-flow-mind-body-skin-clinic-penticton--stephanie",
+    "name": "Stephanie"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch - the treatment/fee list did not render - and no counselling fee is published on vida-flow.com, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://vida-flow.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "vida-flow-mind-body-skin-clinic-penticton",
   "treatment_id": "vida-flow-mind-body-skin-clinic-penticton--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Tia; Vicki",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://vida-flow.com/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vida-flow-mind-body-skin-clinic-penticton",
+  "treatment_id": "vida-flow-mind-body-skin-clinic-penticton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Davis Rodrigues",
+  "practitioners": [
+   {
+    "as_recorded": "Davis Rodrigues, BScPT H. Ortho Dip, CGIMS - physiotherapist whose Jane booking page bio lists radial shockwave therapy in his clinical approach",
+    "id": "vida-flow-mind-body-skin-clinic-penticton--davis-rodrigues",
+    "name": "Davis Rodrigues"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch - the treatment/fee list did not render - and no shockwave fee is published on vida-flow.com, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://vida-flow.janeapp.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "vinterra-wellness-vernon",
@@ -90878,12 +90935,12 @@
   "treatment_id": "vitacare-natural-health-clinic-nanaimo--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. John Yim, ND; Dr Katarine Holewa, ND, RAc",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.vita-care.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -90969,13 +91026,45 @@
   "treatment_id": "vitality-biomed-calgary--im-vitamin-therapy",
   "treatment": "IM Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Maddison Miller",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://vitalitybiomed.com/vitamin-injections-in-calgary/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "vitality-biomed-calgary",
+  "treatment_id": "vitality-biomed-calgary--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No IV fee is published on the clinic's own site or in the Jane extract read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://vitalitybiomed.janeapp.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "vitality-biomed-calgary",
+  "treatment_id": "vitality-biomed-calgary--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Denise Doehren",
+  "practitioners": [
+   {
+    "as_recorded": "Denise Doehren, BSc, RMT - Registered Massage Therapist, Lymphatic Drainage Specialist (3 levels of Lymph Drainage Therapy certification, Chikly Health Institute), per her Jane booking page bio",
+    "id": "vitality-biomed-calgary--denise-doehren",
+    "name": "Denise Doehren"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No lymphatic drainage fee is published on the clinic's own site or in the Jane extract read, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://vitalitybiomed.janeapp.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "vitality-nutrition-saskatoon",
@@ -91080,7 +91169,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.vokadeka.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -91221,15 +91310,34 @@
  },
  {
   "clinic_id": "waso-physiotherapy-lethbridge",
+  "treatment_id": "waso-physiotherapy-lethbridge--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Stephanie Honess",
+  "practitioners": [
+   {
+    "id": "waso-physiotherapy-lethbridge--stephanie-honess",
+    "name": "Stephanie Honess",
+    "as_recorded": "Stephanie Honess, Physiotherapist - postgraduate certifications including clinical pilates, per the clinic's own team page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No Clinical Pilates fee is published on the clinic's own site and the Jane treatment list did not render in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://wasophysio.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "waso-physiotherapy-lethbridge",
   "treatment_id": "waso-physiotherapy-lethbridge--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Brittni Steeves; Samantha Evans",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.wasophysio.ca/pelvic-floor-physio",
   "last_verified": "2026-11-01"
  },
  {
@@ -91285,12 +91393,12 @@
   "treatment_id": "wave-physiotherapy-toronto--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sharon-anne Graham",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$165 (1-hour initial assessment); $95/30 min or $130/45 min (treatment)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.wavephysiotherapy.ca/balance-dizziness-clinic-toronto",
   "last_verified": "2026-11-01"
  },
  {
@@ -91426,15 +91534,28 @@
  },
  {
   "clinic_id": "well-said-toronto-speech-therapy-toronto",
+  "treatment_id": "well-said-toronto-speech-therapy-toronto--accent-modification",
+  "treatment": "Accent Modification",
+  "billed_as": "Speech Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$169 (Level 1) / $189 (Level 2) / $249 (Level 3) per session + 2.8% admin fee",
+  "price_source": "Fees published on the clinic's own website pricing page (torontospeechtherapy.com/pricing): Level 1 session $169, Level 2 session $189, Level 3 session $249, each plus a 2.8% admin fee, HST exempt, no additional assessment fees; block rates (11 sessions over 12 weeks) $1,521 / $1,701 / $2,380. Sessions are delivered by the clinic's registered speech-language pathologists, so the session rates stand in under Pricing + Practitioner Rule v2.",
+  "price_tier": "website",
+  "treatment_link": "https://www.torontospeechtherapy.com/online-booking/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "well-said-toronto-speech-therapy-toronto",
   "treatment_id": "well-said-toronto-speech-therapy-toronto--stuttering-therapy",
   "treatment": "Stuttering Therapy",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$169 (Level 1) / $189 (Level 2) / $249 (Level 3) per session + 2.8% admin fee",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.torontospeechtherapy.com/stuttering",
   "last_verified": "2026-11-01"
  },
  {
@@ -91480,12 +91601,12 @@
   "treatment_id": "wellness-massage-edmonton-edmonton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Norgyun",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://wellnessmassageedmonton.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -91890,10 +92011,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$135 (acupuncture initial, 75 min); $105 (acupuncture follow-up, 50 min) - gua sha delivered within acupuncture",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.westendwellness.ca/gua-sha-vancouver",
   "last_verified": "2026-11-01"
  },
  {
@@ -92026,6 +92147,25 @@
  },
  {
   "clinic_id": "whistler-medical-aesthetics-whistler",
+  "treatment_id": "whistler-medical-aesthetics-whistler--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": "Dr. Sarah Kennea",
+  "practitioners": [
+   {
+    "id": "whistler-medical-aesthetics-whistler--sarah-kennea",
+    "name": "Dr. Sarah Kennea",
+    "as_recorded": "Dr. Sarah Kennea, BSc (Hons), MBChB, MRCGP, CCFP - Medical Director / Owner, Allergan Faculty injector, per the clinic's own site and Jane booking page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No Botox fee or per-unit price is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.whistlermedicalaesthetics.com/treatments/anti-wrinkle-injections",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "whistler-medical-aesthetics-whistler",
   "treatment_id": "whistler-medical-aesthetics-whistler--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
@@ -92034,8 +92174,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.whistlermedicalaesthetics.com/treatments/skinpen-microneedling-treatment",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "whitby-physiotherapy-and-sports-rehab-whitby",
+  "treatment_id": "whitby-physiotherapy-and-sports-rehab-whitby--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://whitbysportsphysiotherapy.ca/services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "whitby-physiotherapy-and-sports-rehab-whitby",
@@ -92047,8 +92200,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://whitbysportsphysiotherapy.ca/services/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "whitby-physiotherapy-and-sports-rehab-whitby",
+  "treatment_id": "whitby-physiotherapy-and-sports-rehab-whitby--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular physiotherapy fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://whitbysportsphysiotherapy.ca/services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "white-rock-naturopathic-therapy-surrey",
@@ -92161,15 +92327,34 @@
  },
  {
   "clinic_id": "whole-family-health-edmonton",
+  "treatment_id": "whole-family-health-edmonton--cosmetic-acupuncture",
+  "treatment": "Cosmetic Acupuncture",
+  "billed_as": "Acupuncture",
+  "practitioner": "Jada Nedelec",
+  "practitioners": [
+   {
+    "id": "whole-family-health-edmonton--jada-nedelec",
+    "name": "Jada Nedelec",
+    "as_recorded": "Jada Nedelec, Dr.Ac, HHP - Registered Doctor of Acupuncture (CAA) with a special focus on women's health, fertility, pregnancy and postpartum care, per the clinic's own team page"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No cosmetic acupuncture fee is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.wholefamilyhealth.ca/about-us/team/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "whole-family-health-edmonton",
   "treatment_id": "whole-family-health-edmonton--fertility-acupuncture",
   "treatment": "Fertility Acupuncture",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Alda Ngo; Christina Pistotnik; Kassidy Finch; Jada Nedelec",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.wholefamilyhealth.ca/programs/womens-health/infertility/",
   "last_verified": "2026-11-01"
  },
  {
@@ -92260,12 +92445,12 @@
   "treatment_id": "willow-wellness-naturopathic-clinic-waterloo--neurofeedback",
   "treatment": "Neurofeedback",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Cecilia de Martino, ND",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://willowwellness.ca/conditions/15-energy-work-neurofeedback",
   "last_verified": "2026-11-01"
  },
  {
@@ -92278,7 +92463,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://wilsonhealth.ca/chiropody-cambridge/",
   "last_verified": "2026-11-01"
  },
  {
@@ -92317,7 +92502,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://winhealth.ca/physiotherapy-clinic/physiotherapy-shockwave/",
   "last_verified": "2026-11-01"
  },
  {
@@ -92438,15 +92623,34 @@
  },
  {
   "clinic_id": "womens-health-physiotherapy-centre-ajax",
+  "treatment_id": "womens-health-physiotherapy-centre-ajax--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Kayla",
+  "practitioners": [
+   {
+    "id": "womens-health-physiotherapy-centre-ajax--kayla",
+    "name": "Kayla",
+    "as_recorded": "Kayla, Registered Massage Therapist - graduate of Centennial College's Massage Therapy Program; specializes in manual lymph drainage; Vodder trained in Manual Lymph Drainage (surname not published in the Jane bio)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking page rendered practitioner bios only in text fetch - the treatment/fee list did not render - so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://womenshealthphysio.janeapp.com/locations/women-s-health-physiotherapy-centre-ajax-pickering/book",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "womens-health-physiotherapy-centre-ajax",
   "treatment_id": "womens-health-physiotherapy-centre-ajax--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Laura Apps; Liron; Tori",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.womenshealthphysiotherapy.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -92461,6 +92665,19 @@
   "price_tier": null,
   "treatment_link": "https://woodlandphysio.com/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "woodland-physiotherapy-vancouver",
+  "treatment_id": "woodland-physiotherapy-vancouver--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's own 'Our Rates' table did not render amounts in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://woodlandphysio.janeapp.com/locations/woodland-physiotherapy-east-hastings-and-kaslo-location/book",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "yaletown-integrative-clinic-vancouver",
@@ -92525,12 +92742,12 @@
   "treatment_id": "yara-jabre-physio-montreal--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Yara Jabre",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$150 (initial assessment, 75 min); $130 (follow-up, 60 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.thepregnancypelvicphysio.com/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -92611,24 +92828,56 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$230 (Couples or Family, 60 min); $345 (Couples or Family, 90 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.ymmcollaborativepractice.com/home",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ymm-collaborative-practice-fort-mcmurray",
+  "treatment_id": "ymm-collaborative-practice-fort-mcmurray--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The Jane fee extract captured couples/family and art therapy rates only; no assessment fee was shown, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.ymmcollaborativepractice.com/specialized-services",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "ymm-muscle-mechanic-fort-mcmurray",
   "treatment_id": "ymm-muscle-mechanic-fort-mcmurray--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Lauren",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.ymmservices.ca/services/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "ymm-muscle-mechanic-fort-mcmurray",
+  "treatment_id": "ymm-muscle-mechanic-fort-mcmurray--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Lauren",
+  "practitioners": [
+   {
+    "id": "ymm-muscle-mechanic-fort-mcmurray--lauren",
+    "name": "Lauren",
+    "as_recorded": "Lauren, Master Trained Clinical RMT - YMM Muscle Mechanic (surname not published on the clinic's site)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's services page lists appointment lengths and prices from $40 to $310 + GST, but the price-to-duration mapping did not render in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.ymmservices.ca/services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "yohu-wellness-clinic-dr-xuanli-monica-wang-markham",
@@ -92750,7 +92999,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://youglowspas.com/red-deer/microneedling-in-red-deer/",
   "last_verified": "2026-11-01"
  },
  {
@@ -92808,7 +93057,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.yourskinmagician.ca/lasertreatmentsnanaimo",
   "last_verified": "2026-11-01"
  },
  {
@@ -92818,11 +93067,24 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$185 - $225 (50 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://yourtherapist.ca/couples-counselling/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "yourtherapist-psychotherapy-and-counselling-ottawa",
+  "treatment_id": "yourtherapist-psychotherapy-and-counselling-ottawa--neurofeedback",
+  "treatment": "Neurofeedback",
+  "billed_as": "Psychotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "The clinic's Fees page does not publish a fee tied to neurofeedback (several services are 'Please contact us'), so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://yourtherapist.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "zen-physiotherapy-winnipeg",
