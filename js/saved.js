@@ -104,13 +104,13 @@
     { name: "Physiotherapy", color: "#0B6E99", aliases: ["physiotherapy", "physiotherapist"] },
     { name: "Chiropractic", color: "#D9730D", aliases: ["chiropractic", "chiropractor"] },
     { name: "Naturopathy", color: "#0F7B6C", aliases: ["naturopathy", "naturopathic", "naturopath"] },
-    { name: "Psychology", color: "#E03E3E", aliases: ["psychology", "psychologist", "psychological services"] },
+    { name: "Psychology", color: "#E03E3E", aliases: ["psychology", "psychologist", "psychological services", "mental health"] },
     { name: "Psychotherapy", color: "#B03A5B", aliases: ["psychotherapy", "psychotherapist"] },
     { name: "Massage Therapy", color: "#64473A", aliases: ["massage therapy", "massage therapist", "massage"] },
     { name: "Acupuncture", color: "#AD1A72", aliases: ["acupuncture", "acupuncturist"] },
     { name: "Osteopathy", color: "#6940A5", aliases: ["osteopathy", "osteopath"] },
     { name: "Dietitian", color: "#5B7F1E", aliases: ["dietitian", "dietician", "registered dietitian"] },
-    { name: "Speech Therapy", color: "#DFAB01", aliases: ["speech therapy", "speech-language", "speech language"] },
+    { name: "Speech Therapy", color: "#DFAB01", aliases: ["speech therapy", "speech-language", "speech language", "speech therapist", "speech-language pathologist"] },
     { name: "Dental", color: "#3FA7F5", aliases: ["dental"] }
   ];
   function catMeta(name) {
@@ -488,6 +488,7 @@
         + "<h2>Your benefits, in one wallet.</h2>"
         + '<p class="mw-lede">Upload your insurance booklet and we will pull out your plan\'s yearly maximums, show what you have left in each category, and line up the treatments worth using before your plan resets.</p>'
         + '<div class="mw-drop" id="mwDrop" role="button" tabindex="0" aria-label="Upload your benefits booklet — PDF, screenshot, or text file"><strong>📄 Drop your benefits booklet here — PDF, screenshot, or text file</strong><span>We read it on this device and pull out your insurer, categories and yearly maximums for you to confirm. Booklet spans pages? Choose up to 3 screenshots.</span></div>'
+        + '<p class="mw-drop-hint">After you add your booklet you can tell us things like "I\'m on the Core plan."</p>'
         + '<div class="mw-intake-btns"><button type="button" class="mw-manual" id="mwManualBtn">Enter my plan manually instead</button><button type="button" class="mw-manual mw-manual-alt" id="mwPasteBtn">Paste plan text instead</button></div>'
         + '<div class="mw-paste" id="mwPasteWrap" hidden><label for="mwPasteText">Paste your plan details</label><textarea id="mwPasteText" rows="6" placeholder="Paste from your insurer\'s app or website — plan text copied from an insurer portal works too. Categories with their yearly maximums read best."></textarea><button type="button" class="mw-manual" id="mwPasteGo">Read this text</button></div>'
         + (parseStatusMsg ? '<p class="mw-parse-status">' + esc(parseStatusMsg) + "</p>" : "")
@@ -541,6 +542,7 @@
       + "</div>"
       + '<div class="mw-hero-bar"><i style="width:' + pct + '%"></i></div>'
       + '<p class="mw-hero-note">' + pct + "% of your coverage is still unused" + (r && days != null && days <= 120 ? " — and unused amounts don't roll over." : ".") + "</p>"
+      + (b.hcsa && b.hcsa.max > 0 ? '<p class="mw-hero-hcsa">🏦 Health Spending Account: <b>' + money(Math.max(0, b.hcsa.max - (b.hcsa.used || 0))) + '</b> available — separate from the categories above, for any eligible expense.</p>' : "")
       + '<div class="mw-hero-links"><button type="button" id="mwNewerBtn">Upload a newer PDF</button><button type="button" id="mwEditBtn">Edit amounts</button><button type="button" id="mwRemoveBtn">Remove booklet</button></div>'
       + (parseStatusMsg ? '<p class="mw-parse-status">' + esc(parseStatusMsg) + "</p>" : "")
       + '</div>'
@@ -551,8 +553,14 @@
       var bb = booklet();
       var parsed = { insurer: bb.insurer || "", planName: bb.planName || "", resetsISO: bb.resetsISO || nextJan1ISO(), categories: {} };
       Object.keys(bb.categories).forEach(function (k) {
-        parsed.categories[k] = { max: bb.categories[k].max || "", used: bb.categories[k].used || 0, found: false };
+        parsed.categories[k] = { max: bb.categories[k].max || "", used: bb.categories[k].used || 0, pct: bb.categories[k].pct != null ? bb.categories[k].pct : null, found: false };
       });
+      if (bb.hcsa && bb.hcsa.max > 0) {
+        parsed.hcsa = { single: bb.hcsa.max, family: bb.hcsa.max };
+        parsed.hcsaUsed = bb.hcsa.used || 0;
+      }
+      parsed.coverage = bb.coverage || "Single";
+      parsed._stored = { tier: bb.tier || null, coverage: bb.coverage || null, groupCaps: bb.groupCaps || null };
       renderConfirm(parsed);
     });
     $("mwRemoveBtn").addEventListener("click", function () {
@@ -638,21 +646,49 @@
         : (left <= 0
           ? '<p class="none">Back ' + (resetDate(b) ? fmtDate(resetDate(b)) : "next plan year") + "</p>"
           : '<p class="none">No saved treatments yet</p>');
+      var shareNote = "";
+      (b.groupCaps || []).forEach(function (g) {
+        if ((g.members || []).indexOf(name) > -1 && g.members.length > 1) {
+          var others = g.members.filter(function (x) { return x !== name; });
+          shareNote = '<p class="mw-wshare">Shares a ' + money(g.max) + " pool with " + esc(others.join(", ")) + "</p>";
+        }
+      });
       return '<div class="mw-wcard' + (left <= 0 ? " usedup" : "") + '">'
         + '<p class="mw-wcard-head"><span class="mw-dot" style="background:' + meta.color + '"></span>' + esc(name) + "</p>"
         + '<div class="mw-wamt">' + money(left) + "</div>"
-        + '<p class="mw-wsub">left of ' + money(cc.max || 0) + " max</p>"
+        + '<p class="mw-wsub">' + (cc.pct != null ? cc.pct + "% covered · up to " + money(cc.max || 0) + "/yr" : "left of " + money(cc.max || 0) + " max") + "</p>"
+        + shareNote
         + '<div class="mw-covbar"><i class="' + (pctLeft <= 25 && left > 0 ? "low" : "") + '" style="width:' + pctLeft + '%"></i></div>'
         + tag
         + '<div class="mw-pinrow"><p>Saved here</p>' + pinHtml + "</div>"
         + "</div>";
     }).join("");
-    host.innerHTML = (cards ? '<div class="mw-wallet-grid">' + cards + "</div>" : "")
+    var hcsaCard = "";
+    if (b.hcsa && b.hcsa.max > 0) {
+      var hLeft = Math.max(0, b.hcsa.max - (b.hcsa.used || 0));
+      var hPct = Math.round((hLeft / b.hcsa.max) * 100);
+      var hTag = hLeft <= 0 ? '<span class="mw-tag mw-tag-used">Used up</span>'
+        : (hLeft >= b.hcsa.max ? '<span class="mw-tag mw-tag-full">Untouched</span>'
+        : (hPct <= 25 ? '<span class="mw-tag mw-tag-low">Running low</span>' : ""));
+      hcsaCard = '<div class="mw-wcard mw-hcsa-card' + (hLeft <= 0 ? " usedup" : "") + '">'
+        + '<p class="mw-wcard-head"><span class="mw-dot" style="background:#C77F1A"></span>Health Spending Account</p>'
+        + '<div class="mw-wamt">' + money(hLeft) + "</div>"
+        + '<p class="mw-wsub">of ' + money(b.hcsa.max) + " HCSA</p>"
+        + '<div class="mw-covbar"><i class="' + (hPct <= 25 && hLeft > 0 ? "low" : "") + '" style="width:' + hPct + '%"></i></div>'
+        + hTag
+        + '<div class="mw-pinrow"><p>Flexible money</p><p class="none">Use for any eligible expense — including the part your plan doesn\'t pay.</p></div>'
+        + "</div>";
+    }
+    var groupNotes = (b.groupCaps || []).map(function (g) {
+      return '<p class="mw-groupnote">ⓘ ' + esc(g.label) + ": <b>" + money(g.max) + "</b>/yr shared maximum across " + esc((g.members || []).join(", ")) + ".</p>";
+    }).join("");
+    host.innerHTML = ((cards || hcsaCard) ? '<div class="mw-wallet-grid">' + cards + hcsaCard + "</div>" : "")
+      + groupNotes
       + '<p class="mw-qual">Balances come from the benefits booklet (PDF) you uploaded, stored only on this device. Amounts may be covered by your plan — confirm with ' + esc(b.insurer || "your insurer") + " before booking.</p>";
   }
 
   /* ---------- year-end timeline ---------- */
-  function pickStep(cat, left, usedTx) {
+  function pickStep(cat, left, usedTx, tl) {
     var b = booklet();
     var r = resetDate(b);
     var days = daysToReset(b);
@@ -688,13 +724,34 @@
       if (!vms.length) continue;
       var pick = vms[0];
       var cadence = Math.max(1, Math.min(12, Math.floor((days || 30) / 7)));
-      var sessions = Math.min(Math.floor(left / pick.price), cadence);
+      /* Wallet v2 math: the plan pays pct% of each visit until the
+         category max runs out; what's left of the bill falls to the
+         HCSA, then to the user. pct unknown (v1 booklets) = the old
+         full-price behaviour. */
+      var ccfg = (b.categories || {})[cat] || {};
+      var pct = ccfg.pct != null ? ccfg.pct : null;
+      var perPlan = pick.price * (pct != null ? pct / 100 : 1);
+      var sessions = Math.min(Math.floor(left / perPlan), cadence);
       if (sessions < 1) continue;
       usedTx.push(T.name);
+      var visitTotal = sessions * pick.price;
+      var planPays = Math.min(visitTotal * (pct != null ? pct / 100 : 1), left);
+      if (tl && tl.groupOf[cat]) {
+        var gl = tl.groupOf[cat];
+        planPays = Math.min(planPays, tl.groupLeft[gl]);
+        tl.groupLeft[gl] -= planPays;
+      }
+      var hcsaPays = 0;
+      if (tl && tl.hcsaLeft > 0) {
+        hcsaPays = Math.min(visitTotal - planPays, tl.hcsaLeft);
+        tl.hcsaLeft -= hcsaPays;
+      }
       return {
         cat: cat, left: left, treatment: T, clinicName: pick.name,
         price: pick.price, priceStr: pick.priceStr, sessions: sessions,
-        total: sessions * pick.price,
+        total: visitTotal, planPays: planPays, hcsaPays: hcsaPays,
+        oop: visitTotal - planPays - hcsaPays, pct: pct,
+        split: pct != null || !!(b.hcsa && b.hcsa.max > 0),
         bookUrl: bookUrlFor(pick, T.name),
         slot: firstSlot(pick, T.name)
       };
@@ -711,10 +768,19 @@
     var cats = Object.keys(b.categories).map(function (k) { return { name: k, left: catLeft(b, k) }; })
       .filter(function (c) { return c.left > 0; })
       .sort(function (a, c) { return c.left - a.left; });
+    var tl = { hcsaLeft: b.hcsa ? Math.max(0, b.hcsa.max - (b.hcsa.used || 0)) : 0, groupLeft: {}, groupOf: {} };
+    (b.groupCaps || []).forEach(function (g) {
+      var usedSum = 0;
+      (g.members || []).forEach(function (mn) {
+        usedSum += (b.categories[mn] || {}).used || 0;
+        if (!tl.groupOf[mn]) tl.groupOf[mn] = g.label;
+      });
+      tl.groupLeft[g.label] = Math.max(0, (g.max || 0) - usedSum);
+    });
     var usedTx = [];
     var steps = [];
     for (var i = 0; i < cats.length && steps.length < 3; i++) {
-      var s = pickStep(cats[i].name, cats[i].left, usedTx);
+      var s = pickStep(cats[i].name, cats[i].left, usedTx, tl);
       if (s) steps.push(s);
     }
     /* Categories with a balance too small for one session still get a
@@ -731,6 +797,9 @@
     if (!steps.length) { host.innerHTML = ""; return; }
     var yearEnd = days != null && days <= 120;
     var total = steps.reduce(function (sum, s) { return sum + (s.total || 0); }, 0);
+    var totalPlan = steps.reduce(function (sum, s) { return sum + (s.planPays != null ? s.planPays : (s.total || 0)); }, 0);
+    var totalHcsa = steps.reduce(function (sum, s) { return sum + (s.hcsaPays || 0); }, 0);
+    var anySplit = steps.some(function (s) { return s.split; });
     var labels;
     if (yearEnd && r) {
       var mid = new Date(Date.now() + 10 * 864e5);
@@ -760,11 +829,16 @@
       var chip = s.slot
         ? '<a class="nc-slot-chip" href="' + esc(s.bookUrl || "#") + '" target="_blank" rel="noopener"><b>' + esc(s.slot.d) + "</b> · " + esc(s.slot.t) + "</a>"
         : "";
+      var splitTxt = s.split
+        ? ". About <b>" + s.sessions + " session" + (s.sessions === 1 ? "" : "s") + "</b> ≈ <b>" + money(s.total) + "</b> in visits. Plan may pay ≈ <b>" + money(s.planPays) + "</b>"
+          + (s.hcsaPays > 0 ? " · HCSA could cover ≈ <b>" + money(s.hcsaPays) + "</b>" : "")
+          + " · ≈ <b>" + money(s.oop) + "</b> out of pocket.</p>"
+        : ". About <b>" + s.sessions + " session" + (s.sessions === 1 ? "" : "s") + "</b> ≈ <b>" + money(s.total) + "</b> of your " + esc(s.cat.toLowerCase()) + " balance may be covered.</p>";
       return '<div class="mw-step">' + head
         + "<h3>" + esc(s.treatment.name) + " · " + money(s.left) + " left</h3>"
         + "<p><b>" + esc(s.clinicName) + "</b> — " + esc(s.treatment.name) + " at <b>" + money(s.price) + "</b> a session"
         + (chip ? ", next opening " + esc(s.slot.d) + " · " + esc(s.slot.t) : "")
-        + ". About <b>" + s.sessions + " session" + (s.sessions === 1 ? "" : "s") + "</b> ≈ <b>" + money(s.total) + "</b> of your " + esc(s.cat.toLowerCase()) + " balance may be covered.</p>"
+        + splitTxt
         + '<div class="go">' + chip
         + (s.bookUrl ? '<a class="mw-bookbtn" href="' + esc(s.bookUrl) + '" target="_blank" rel="noopener">Book at ' + esc(s.clinicName.split(" (")[0]) + "</a>" : "")
         + "</div></div>";
@@ -774,7 +848,8 @@
       + '<p class="mw-eyebrow" style="color:#55705F;margin:0">' + (yearEnd ? "Use it before " + (r ? r.toLocaleDateString("en-CA", { month: "short", day: "numeric" }) : "your reset") : "Your plan") + "</p>"
       + "<h2>" + (yearEnd ? "Your year-end plan" : "Your plan ahead") + "</h2>"
       + '<span class="mw-tl-sub" style="color:#5C6B5E;font-size:.9rem">' + steps.length + " moves, ranked by what expires unused.</span>"
-      + (total > 0 ? '<span class="mw-tl-total">Plan total ≈ ' + money(total) + " in visits that may be covered</span>" : "")
+      + (anySplit && totalPlan > 0 ? '<span class="mw-tl-total">Plan may pay ≈ ' + money(totalPlan) + (totalHcsa > 0 ? " · HCSA could cover ≈ " + money(totalHcsa) : "") + "</span>"
+        : (total > 0 ? '<span class="mw-tl-total">Plan total ≈ ' + money(total) + " in visits that may be covered</span>" : ""))
       + "</div>" + track
       + '<div class="mw-tl-grid">' + cards + "</div>"
       + '<p class="mw-qual">Estimates from your uploaded booklet. A visit may be covered in full, in part, or not at all — confirm with ' + esc(b.insurer || "your insurer") + " and the clinic before each booking.</p>"
@@ -791,6 +866,77 @@
      Booklet PDF parsing (entirely in the browser)
      ============================================================ */
   var INSURERS = ["Medavie Blue Cross", "Alberta Blue Cross", "Pacific Blue Cross", "Manulife", "Sun Life", "Canada Life", "Desjardins", "GreenShield", "Green Shield", "Blue Cross", "Empire Life", "RBC Insurance", "Equitable Life", "Beneva", "SSQ", "iA Financial", "Industrial Alliance", "ClaimSecure", "Cowan"];
+  /* Coverage % nearest before a $ amount (booklets state "80%
+     coverage up to $500 ..." — the % precedes its amount). */
+  function pctBefore(text, idx, span) {
+    var seg = text.slice(Math.max(0, idx - (span || 200)), idx);
+    var re = /(\d{1,3})\s?%/g, m, best = null;
+    while ((m = re.exec(seg))) {
+      var v = parseInt(m[1], 10);
+      if (v >= 10 && v <= 100) best = v;
+    }
+    if (best != null) return best;
+    var after = text.slice(idx, idx + 45);
+    var am = after.match(/(\d{1,3})\s?%/);
+    if (am) { var v2 = parseInt(am[1], 10); if (v2 >= 10 && v2 <= 100) return v2; }
+    return null;
+  }
+  function isHcsaContext(text, idx) {
+    return /spending account|\bhcsa\b/i.test(text.slice(Math.max(0, idx - 90), idx + 90));
+  }
+  /* Health Spending Account amounts in prose: "$249.96 (Single
+     Coverage) or $350.04 (Family Coverage)" pairs, or a lone amount
+     next to a spending-account mention. */
+  function hcsaPairIn(text) {
+    var m = text.match(/\$\s?([\d,]+(?:\.\d{2})?)\s*\(Single Coverage\)\s*or\s*\$\s?([\d,]+(?:\.\d{2})?)\s*\(Family Coverage\)/i);
+    if (m) return { single: parseFloat(m[1].replace(/,/g, "")), family: parseFloat(m[2].replace(/,/g, "")) };
+    return null;
+  }
+  function hcsaLooseIn(text) {
+    var re = /health (?:care )?spending account|\bHCSA\b/gi, m;
+    while ((m = re.exec(text))) {
+      var win = text.slice(m.index, m.index + 160);
+      var am = win.match(/\$\s?([\d,]+(?:\.\d{2})?)/);
+      if (am) { var v = parseFloat(am[1].replace(/,/g, "")); if (v >= 10 && v <= 20000) return { single: v, family: v }; }
+      var before = text.slice(Math.max(0, m.index - 80), m.index);
+      var bm = before.match(/\$\s?([\d,]+(?:\.\d{2})?)(?!.*\$)/);
+      if (bm) { var v2 = parseFloat(bm[1].replace(/,/g, "")); if (v2 >= 10 && v2 <= 20000) return { single: v2, family: v2 }; }
+    }
+    return null;
+  }
+  /* Attribute prose HCSA mentions to plan tiers: the nearest tier
+     keyword mentioned before the amount (intro pages walk through
+     the options one by one). */
+  function proseTierHcsa(text, tierNames) {
+    var out = {};
+    if (!tierNames || !tierNames.length) return out;
+    var marks = [];
+    tierNames.forEach(function (name) {
+      var keys = [name.toLowerCase(), name.toLowerCase().split(" ")[0]];
+      keys.forEach(function (k) {
+        if (k.length < 3) return;
+        var re = new RegExp("\\b" + k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "gi"), m;
+        while ((m = re.exec(text))) marks.push({ idx: m.index, tier: name });
+      });
+    });
+    marks.sort(function (a, b) { return a.idx - b.idx; });
+    function tierBefore(idx) {
+      var t = null;
+      for (var i = 0; i < marks.length; i++) { if (marks[i].idx <= idx) t = marks[i].tier; else break; }
+      return t;
+    }
+    var pairRe = /\$\s?([\d,]+(?:\.\d{2})?)\s*\(Single Coverage\)\s*or\s*\$\s?([\d,]+(?:\.\d{2})?)\s*\(Family Coverage\)/gi, m;
+    while ((m = pairRe.exec(text))) {
+      var t = tierBefore(m.index);
+      if (t && !out[t]) out[t] = { single: parseFloat(m[1].replace(/,/g, "")), family: parseFloat(m[2].replace(/,/g, "")) };
+    }
+    var looseRe = /receive\s+\$\s?([\d,]+(?:\.\d{2})?)[^.]{0,70}?spending account/gi;
+    while ((m = looseRe.exec(text))) {
+      var t2 = tierBefore(m.index);
+      if (t2 && !out[t2]) { var v = parseFloat(m[1].replace(/,/g, "")); out[t2] = { single: v, family: v }; }
+    }
+    return out;
+  }
   function extractPlan(text) {
     var out = { insurer: "", planName: "", resetsISO: nextJan1ISO(), categories: {} };
     for (var i = 0; i < INSURERS.length; i++) {
@@ -810,19 +956,24 @@
           while ((am = are.exec(win))) {
             var val = parseFloat(am[1].replace(/,/g, ""));
             if (val < 50 || val > 20000) continue;
+            /* Spending-account money is its own bucket — it must
+               never land in a category. */
+            if (isHcsaContext(text, m.index + am.index)) continue;
             var after = win.slice(am.index, am.index + 60);
             var strong = /per (benefit )?year|annual|maximum|max\b/i.test(after) ? 1 : 0;
             /* Booklets list categories sequentially, so the FIRST
                annual-context amount after the category name is its
                max; fall back to the largest plain amount seen. */
-            if (strong && !best) best = { val: val, strong: 1 };
-            else if (!strong && !best) best = { val: val, strong: 0 };
-            else if (!strong && best && !best.strong && val > best.val) best = { val: val, strong: 0 };
+            if (strong && !best) best = { val: val, strong: 1, idx: m.index + am.index };
+            else if (!strong && !best) best = { val: val, strong: 0, idx: m.index + am.index };
+            else if (!strong && best && !best.strong && val > best.val) best = { val: val, strong: 0, idx: m.index + am.index };
           }
         }
       });
-      if (best) out.categories[cat.name] = { max: best.val, used: 0, found: true };
+      if (best) out.categories[cat.name] = { max: best.val, used: 0, found: true, pct: pctBefore(text, best.idx) };
     });
+    var hc = hcsaPairIn(text) || hcsaLooseIn(text);
+    if (hc) out.hcsa = hc;
     return out;
   }
   function pageText(tc) {
@@ -837,6 +988,296 @@
     if (cur.length) lines.push(cur.join(" "));
     return lines.join("\n");
   }
+  /* ============================================================
+     Column-aware parsing for multi-option booklets: pdf.js items
+     carry x/y, so a tier header row (Essential / Core / Enhanced
+     Plan …) defines columns; every later fragment is bucketed
+     into its tier's column text, and table rows are segmented so
+     spending-account amounts land in the HCSA bucket, never in a
+     category. Pages without a header inherit the open layout.
+     ============================================================ */
+  var TIER_WORDS = ["essential", "core", "enhanced", "basic", "standard", "premium", "comprehensive", "bronze", "silver", "gold", "platinum", "value", "select", "plus", "classic"];
+  function buildPageLines(tc) {
+    var its = [];
+    (tc.items || []).forEach(function (it) {
+      if (!it.str) return;
+      var tr = it.transform || [1, 0, 0, 1, 0, 0];
+      its.push({ s: it.str, x: tr[4], y: tr[5], w: it.width || 0 });
+    });
+    its.sort(function (a, b) { return (b.y - a.y) || (a.x - b.x); });
+    var raw = [];
+    its.forEach(function (it) {
+      if (raw.length && Math.abs(raw[raw.length - 1].y - it.y) <= 3) raw[raw.length - 1].items.push(it);
+      else raw.push({ y: it.y, items: [it] });
+    });
+    return raw.map(function (ln) {
+      ln.items.sort(function (a, b) { return a.x - b.x; });
+      var segs = [], pendWs = false;
+      ln.items.forEach(function (it) {
+        if (!it.s.trim()) { pendWs = true; return; }
+        if (!segs.length) { segs.push({ t: it.s, x0: it.x, x1: it.x + it.w }); pendWs = false; return; }
+        var last = segs[segs.length - 1];
+        var gap = it.x - last.x1;
+        if (pendWs && gap <= 12) { last.t += " " + it.s; last.x1 = it.x + it.w; }
+        else if (!pendWs && gap <= 4) { last.t += it.s; last.x1 = it.x + it.w; }
+        else segs.push({ t: it.s, x0: it.x, x1: it.x + it.w });
+        pendWs = false;
+      });
+      segs.forEach(function (s) { s.cx = (s.x0 + s.x1) / 2; });
+      return { y: ln.y, segs: segs };
+    });
+  }
+  function tierNameOf(segText) {
+    var t = String(segText || "").trim();
+    if (!t || t.length > 34) return null;
+    var low = t.toLowerCase();
+    if (TIER_WORDS.indexOf(low) > -1) return t;
+    if (/\b(plan|option)$/.test(low) && /^[A-Z][A-Za-z&' -]+$/.test(t)) {
+      var words = low.replace(/\s+(plan|option)$/, "").split(/\s+/);
+      if (words.some(function (w) { return TIER_WORDS.indexOf(w) > -1; }) || words.length <= 2) return t;
+    }
+    return null;
+  }
+  function detectTierLayout(lines) {
+    for (var li = 0; li < lines.length; li++) {
+      var found = [], seen = {};
+      lines[li].segs.forEach(function (s) {
+        var nm = tierNameOf(s.t);
+        if (nm && !seen[nm]) { seen[nm] = 1; found.push({ name: nm, cx: s.cx }); }
+      });
+      if (found.length < 2) continue;
+      found.sort(function (a, b) { return a.cx - b.cx; });
+      /* Single/Family sub-columns from the coverage row just below
+         the header: they pin down where each tier's column starts
+         and where Single splits from Family. */
+      var singles = {}, families = {};
+      for (var j = li + 1; j < Math.min(lines.length, li + 7); j++) {
+        lines[j].segs.forEach(function (s) {
+          var tt = s.t.trim().toLowerCase();
+          if (tt !== "single" && tt !== "family") return;
+          var bi = 0, bd = Infinity;
+          found.forEach(function (t, i) { var d = Math.abs(t.cx - s.cx); if (d < bd) { bd = d; bi = i; } });
+          (tt === "single" ? singles : families)[bi] = s.cx;
+        });
+      }
+      var bounds = found.map(function (t, i) {
+        t.split = null;
+        if (singles[i] != null && families[i] != null) {
+          t.split = (singles[i] + families[i]) / 2;
+          return singles[i] - (families[i] - singles[i]) / 2;
+        }
+        if (i === 0) return t.cx - (found[1].cx - t.cx) / 2;
+        return (found[i - 1].cx + t.cx) / 2;
+      });
+      return { tiers: found, bounds: bounds, headerLine: li };
+    }
+    return null;
+  }
+  function tierIndexAt(layout, x) {
+    var ti = -1;
+    layout.bounds.forEach(function (b, i) { if (x >= b) ti = i; });
+    return ti;
+  }
+  /* Segment a table page into rows. Label cells are vertically
+     centred, so a wrapped label can sit above or below its row's
+     content lines: pending label fragments join whichever content
+     line is nearer in y. Rows are only used to route HCSA money. */
+  function buildRows(lines, layout, startIdx, state) {
+    var rows = state.rows || [], cur = state.cur || null, pending = state.pending || [], lastY = state.lastY || null;
+    for (var li = startIdx; li < lines.length; li++) {
+      var ln = lines[li];
+      var lab = [], con = [];
+      ln.segs.forEach(function (s) { (tierIndexAt(layout, s.cx) < 0 ? lab : con).push(s); });
+      var labTxt = lab.map(function (s) { return s.t; }).join(" ").trim();
+      if (!con.length) { if (labTxt) pending.push({ y: ln.y, t: labTxt }); continue; }
+      var newLabels = [];
+      pending.forEach(function (p) {
+        if (cur && lastY != null && (lastY - p.y) <= (p.y - ln.y)) cur.label = (cur.label + " " + p.t).trim();
+        else newLabels.push(p.t);
+      });
+      pending = [];
+      if (labTxt) newLabels.push(labTxt);
+      if (!cur) cur = { label: newLabels.join(" "), segs: con.slice() };
+      else if (newLabels.length && cur.segs.length) { rows.push(cur); cur = { label: newLabels.join(" "), segs: con.slice() }; }
+      else if (newLabels.length) { cur.label = (cur.label + " " + newLabels.join(" ")).trim(); cur.segs = cur.segs.concat(con); }
+      else cur.segs = cur.segs.concat(con);
+      lastY = ln.y;
+    }
+    if (cur) { rows.push(cur); cur = null; }
+    return { rows: rows, cur: cur, pending: pending, lastY: lastY };
+  }
+  function hcsaFromRows(rows, layout) {
+    var out = {};
+    rows.forEach(function (r) {
+      if (!/spending|hcsa/i.test(r.label)) return;
+      r.segs.forEach(function (s) {
+        var re = /\$/g, m;
+        while ((m = re.exec(s.t))) {
+          var dx = s.x0 + (s.t.length ? (m.index / s.t.length) * (s.x1 - s.x0) : 0);
+          var vm = s.t.slice(m.index).match(/^\$\s?([\d,]+(?:\.\d{2})?)/);
+          if (!vm) continue;
+          var val = parseFloat(vm[1].replace(/,/g, ""));
+          if (!(val > 0)) continue;
+          var ti = tierIndexAt(layout, dx);
+          if (ti < 0) ti = tierIndexAt(layout, s.cx);
+          if (ti < 0) return;
+          var tier = layout.tiers[ti];
+          var cov = tier.split != null ? (dx < tier.split ? "single" : "family") : "single";
+          var rec = out[tier.name] = out[tier.name] || {};
+          if (rec[cov] == null) rec[cov] = val;
+        }
+      });
+    });
+    return out;
+  }
+  function catsInList(listText) {
+    var low = " " + String(listText || "").toLowerCase() + " ";
+    var out = [];
+    MW_CATS.forEach(function (cat) {
+      var hit = cat.aliases.some(function (a) { return low.indexOf(a) > -1; });
+      if (hit && out.indexOf(cat.name) < 0) out.push(cat.name);
+    });
+    return out;
+  }
+  function includingAfter(text, idx, maxLen) {
+    var m = text.slice(idx, idx + 420).match(/including:?/i);
+    if (!m) return "";
+    var chunk = text.slice(idx + m.index + m[0].length, idx + m.index + m[0].length + (maxLen || 240));
+    var cut = chunk.search(/\$\s?\d|\d+\s?%/);
+    if (cut > -1) chunk = chunk.slice(0, cut);
+    return chunk;
+  }
+  /* Targeted extractors over ONE tier's column text (normalized to
+     single spaces). Fills only categories not already set, so
+     earlier pages win and later pages complete them. */
+  function extractFromColumnText(rawText, plan) {
+    var t = String(rawText || "").replace(/\s+/g, " ");
+    var cats = plan.categories, groups = plan.groupCaps;
+    function hasGroup(label) { return groups.some(function (g) { return g.label === label; }); }
+    var m = t.match(/maximum of \$\s?([\d,]+(?:\.\d{2})?)\s+per\s+specialty/i);
+    if (m) {
+      var per = parseFloat(m[1].replace(/,/g, ""));
+      var pct = pctBefore(t, t.indexOf(m[0]));
+      var members = catsInList(includingAfter(t, t.indexOf(m[0]) + m[0].length)).filter(function (c) { return c !== "Dental"; });
+      members.forEach(function (c) { if (!cats[c]) cats[c] = { max: per, used: 0, found: true, pct: pct }; });
+      var cm = t.match(/(?:overall|total)[^.]{0,60}?maximum of \$\s?([\d,]+(?:\.\d{2})?)/i)
+        || t.match(/maximum of \$\s?([\d,]+(?:\.\d{2})?)\s+for all combined/i);
+      if (cm && members.length && !hasGroup("Paramedical services combined")) {
+        groups.push({ label: "Paramedical services combined", max: parseFloat(cm[1].replace(/,/g, "")), members: members });
+      }
+    }
+    var pm = t.search(/physiotherapy/i);
+    if (pm > -1 && !cats.Physiotherapy) {
+      var block = t.slice(Math.max(0, pm - 60), pm + 360);
+      var mm = block.match(/maximum of \$\s?([\d,]+(?:\.\d{2})?)/i);
+      if (mm) cats.Physiotherapy = { max: parseFloat(mm[1].replace(/,/g, "")), used: 0, found: true, pct: pctBefore(block, block.indexOf(mm[0])) };
+    }
+    var hm = t.search(/mental health/i);
+    if (hm > -1) {
+      var hblock = t.slice(Math.max(0, hm - 380), hm + 480);
+      var hm2 = hblock.match(/expense maximum of \$\s?([\d,]+(?:\.\d{2})?)/i);
+      if (hm2) {
+        var val = parseFloat(hm2[1].replace(/,/g, ""));
+        var pcm = hblock.match(/(\d{1,3})\s?%\s*coverage/i);
+        var hpct = pcm ? parseInt(pcm[1], 10) : pctBefore(hblock, hblock.indexOf(hm2[0]));
+        var hlist = catsInList(includingAfter(t, hm));
+        var hasPsy = hlist.indexOf("Psychology") > -1, hasTher = hlist.indexOf("Psychotherapy") > -1;
+        if (hasPsy && !cats.Psychology) cats.Psychology = { max: val, used: 0, found: true, pct: hpct, sharedPool: hasTher };
+        if (hasTher && !cats.Psychotherapy) cats.Psychotherapy = { max: val, used: 0, found: true, pct: hpct, sharedPool: true };
+        var gm = hblock.match(/overall calendar year maximum of \$\s?([\d,]+(?:\.\d{2})?)/i);
+        if (gm && hasPsy && hasTher && !hasGroup("Mental health services combined")) {
+          groups.push({ label: "Mental health services combined", max: parseFloat(gm[1].replace(/,/g, "")), members: ["Psychology", "Psychotherapy"] });
+        }
+      }
+    }
+  }
+  function dentalFromColumnText(rawText, plan) {
+    if (plan.categories.Dental) return;
+    var t = String(rawText || "").replace(/\s+/g, " ");
+    var re = /\$\s?([\d,]+(?:\.\d{2})?)/g, m;
+    while ((m = re.exec(t))) {
+      var val = parseFloat(m[1].replace(/,/g, ""));
+      if (val < 100 || val > 20000) continue;
+      var pm = t.match(/(\d{1,3})\s?%/);
+      plan.categories.Dental = { max: val, used: 0, found: true, pct: pm ? parseInt(pm[1], 10) : null };
+      return;
+    }
+  }
+  /* Whole-PDF structured parse. Returns a tiered parse result, or
+     null when no plan-option table exists (flat fallback). */
+  function parsePdfStructured(pdf) {
+    var texts = [], pages = [];
+    var chain = Promise.resolve();
+    for (var i = 1; i <= pdf.numPages; i++) {
+      (function (n) {
+        chain = chain.then(function () {
+          return pdf.getPage(n).then(function (pg) { return pg.getTextContent(); })
+            .then(function (tc) { texts.push(pageText(tc)); pages.push(buildPageLines(tc)); });
+        });
+      })(i);
+    }
+    return chain.then(function () {
+      var flatAll = texts.join("\n");
+      var sessions = [], cur = null, layout = null;
+      pages.forEach(function (lines) {
+        var lay = detectTierLayout(lines);
+        var flat = lines.map(function (ln) { return ln.segs.map(function (s) { return s.t; }).join(" "); }).join("\n");
+        if (lay) {
+          layout = lay;
+          cur = { layout: lay, colSegs: {}, flat: "", rowstate: {} };
+          lay.tiers.forEach(function (t) { cur.colSegs[t.name] = []; });
+          sessions.push(cur);
+          cur.rowstate = buildRows(lines, lay, lay.headerLine + 1, cur.rowstate);
+        } else if (layout) {
+          cur.rowstate = buildRows(lines, layout, 0, cur.rowstate);
+        } else {
+          return;
+        }
+        cur.flat += "\n" + flat;
+        lines.forEach(function (ln) {
+          ln.segs.forEach(function (s) {
+            var ti = tierIndexAt(layout, s.cx);
+            if (ti >= 0) cur.colSegs[layout.tiers[ti].name].push(s.t);
+          });
+        });
+      });
+      if (!sessions.length) return null;
+      var plans = {}, order = [];
+      sessions.forEach(function (sess) {
+        var hcsa = hcsaFromRows(sess.rowstate.rows, sess.layout);
+        var isDental = /annual maximum/i.test(sess.flat);
+        sess.layout.tiers.forEach(function (t) {
+          if (!plans[t.name]) { plans[t.name] = { categories: {}, groupCaps: [], hcsa: {} }; order.push(t.name); }
+          var plan = plans[t.name];
+          var colText = sess.colSegs[t.name].join(" ");
+          extractFromColumnText(colText, plan);
+          if (isDental) dentalFromColumnText(colText, plan);
+          Object.keys(hcsa[t.name] || {}).forEach(function (cov) {
+            if (plan.hcsa[cov] == null) plan.hcsa[cov] = hcsa[t.name][cov];
+          });
+        });
+      });
+      /* Prose HCSA (intro pages) fills whatever the table missed. */
+      var prose = proseTierHcsa(flatAll, order);
+      order.forEach(function (name) {
+        if (!prose[name]) return;
+        ["single", "family"].forEach(function (cov) {
+          if (plans[name].hcsa[cov] == null && prose[name][cov] != null) plans[name].hcsa[cov] = prose[name][cov];
+        });
+      });
+      var any = order.some(function (name) {
+        return Object.keys(plans[name].categories).length || Object.keys(plans[name].hcsa).length;
+      });
+      if (!any) return null;
+      var def = order.filter(function (n) { return /core/i.test(n); })[0] || order[Math.floor(order.length / 2)] || order[0];
+      return {
+        insurer: extractPlan(flatAll).insurer || "", planName: "", resetsISO: nextJan1ISO(),
+        sourceLabel: "PDF",
+        tiers: { names: order, defaultTier: def, plans: plans }
+      };
+    });
+  }
+
   function parsePdf(file) {
     if (typeof pdfjsLib === "undefined") {
       parseStatusMsg = "The PDF reader didn't load — try entering your plan manually.";
@@ -849,19 +1290,24 @@
     file.arrayBuffer().then(function (buf) {
       return pdfjsLib.getDocument({ data: buf }).promise;
     }).then(function (pdf) {
-      var texts = [];
-      var chain = Promise.resolve();
-      for (var i = 1; i <= pdf.numPages; i++) {
-        (function (n) {
-          chain = chain.then(function () {
-            return pdf.getPage(n).then(function (pg) { return pg.getTextContent(); })
-              .then(function (tc) { texts.push(pageText(tc)); });
-          });
-        })(i);
-      }
-      return chain.then(function () { return texts.join("\n"); });
-    }).then(function (text) {
+      return parsePdfStructured(pdf).then(function (tiered) {
+        if (tiered) return { tiered: tiered };
+        var texts = [];
+        var chain = Promise.resolve();
+        for (var i = 1; i <= pdf.numPages; i++) {
+          (function (n) {
+            chain = chain.then(function () {
+              return pdf.getPage(n).then(function (pg) { return pg.getTextContent(); })
+                .then(function (tc) { texts.push(pageText(tc)); });
+            });
+          })(i);
+        }
+        return chain.then(function () { return { flat: texts.join("\n") }; });
+      });
+    }).then(function (res) {
       parseStatusMsg = "";
+      if (res.tiered) { renderConfirm(res.tiered); return; }
+      var text = res.flat || "";
       if (!text || text.replace(/\s/g, "").length < 40) {
         parseStatusMsg = "That PDF looks like scanned images — we couldn't read its text. Try a screenshot of the page instead, or enter your plan manually.";
         renderHero();
@@ -875,37 +1321,255 @@
   }
 
   /* ---------- confirm / edit table ---------- */
-  function renderConfirm(parsed) {
+  var confirmCtx = null;
+  function confirmPlanData() {
+    var p = confirmCtx.parsed;
+    if (p.tiers) return p.tiers.plans[confirmCtx.tier] || { categories: {}, groupCaps: [], hcsa: {} };
+    return { categories: p.categories || {}, groupCaps: p.groupCaps || [], hcsa: p.hcsa || null };
+  }
+  function harvestUsed() {
     var host = $("mwConfirm");
-    if (!host) return;
+    if (!host || !confirmCtx) return;
+    MW_CATS.forEach(function (cat) {
+      var el = host.querySelector('[data-mw-used="' + cat.name + '"]');
+      if (el) confirmCtx.used[cat.name] = el.value;
+    });
+    var hu = host.querySelector("[data-mw-hcsa-used]");
+    if (hu) confirmCtx.hcsaUsed = hu.value;
+  }
+  function catRowsHTML(data) {
+    var parsed = confirmCtx.parsed;
     var rows = MW_CATS.map(function (cat) {
-      var found = parsed.categories[cat.name];
+      var found = data.categories[cat.name];
+      var used = confirmCtx.used[cat.name];
       return "<tr><td class='catcell'><span class='mw-dot' style='background:" + cat.color + "'></span> " + esc(cat.name)
         + (found && found.found ? '<span class="found">found in ' + esc(parsed.sourceLabel || "PDF") + "</span>" : "") + "</td>"
         + '<td><input type="number" min="0" step="1" inputmode="numeric" data-mw-max="' + esc(cat.name) + '" value="' + (found ? found.max : "") + '" placeholder="0" aria-label="' + esc(cat.name) + ' yearly maximum"></td>'
-        + '<td><input type="number" min="0" step="1" inputmode="numeric" data-mw-used="' + esc(cat.name) + '" value="' + (found && found.used ? found.used : 0) + '" aria-label="' + esc(cat.name) + ' already used"></td></tr>';
+        + '<td><input type="number" min="0" max="100" step="1" inputmode="numeric" data-mw-pct="' + esc(cat.name) + '" value="' + (found && found.pct != null ? found.pct : "") + '" placeholder="—" aria-label="' + esc(cat.name) + ' coverage percent"></td>'
+        + '<td><input type="number" min="0" step="1" inputmode="numeric" data-mw-used="' + esc(cat.name) + '" value="' + (used != null && used !== "" ? used : 0) + '" aria-label="' + esc(cat.name) + ' already used"></td></tr>';
     }).join("");
+    if (confirmCtx.showHcsa) {
+      var hmax = "";
+      if (data.hcsa) {
+        var covKey = confirmCtx.coverage === "Family" ? "family" : "single";
+        hmax = data.hcsa[covKey] != null ? data.hcsa[covKey] : (data.hcsa.single != null ? data.hcsa.single : "");
+      }
+      rows += '<tr class="hcsa-row"><td class="catcell"><span class="mw-dot" style="background:#C77F1A"></span> Health Spending Account (HCSA)'
+        + '<span class="found">for any eligible expense</span></td>'
+        + '<td><input type="number" min="0" step="0.01" inputmode="decimal" data-mw-hcsa-max value="' + hmax + '" placeholder="0" aria-label="Health Spending Account yearly amount"></td>'
+        + "<td></td>"
+        + '<td><input type="number" min="0" step="0.01" inputmode="decimal" data-mw-hcsa-used value="' + (confirmCtx.hcsaUsed || 0) + '" aria-label="Health Spending Account already used"></td></tr>';
+    }
+    return rows;
+  }
+  function groupNoteHTML(data) {
+    if (!data.groupCaps || !data.groupCaps.length) return "";
+    return data.groupCaps.map(function (g) {
+      return '<p class="mw-groupnote">ⓘ ' + esc(g.label) + ": <b>" + money(g.max) + "</b>/yr shared maximum across " + esc((g.members || []).join(", ")) + ".</p>";
+    }).join("");
+  }
+  function refillConfirm() {
+    var host = $("mwConfirm");
+    if (!host || !confirmCtx) return;
+    harvestUsed();
+    var data = confirmPlanData();
+    var tb = $("mwCatRows");
+    if (tb) tb.innerHTML = catRowsHTML(data);
+    var gn = $("mwGroupNote");
+    if (gn) gn.innerHTML = groupNoteHTML(data);
+  }
+  /* ----- plain-language instructions (rule-based, on-device) ----- */
+  var INSTR_EXTRA = { Physiotherapy: ["physio"], Chiropractic: ["chiro"] };
+  function instrCatMatch(clause) {
+    var best = null, bestLen = 0;
+    MW_CATS.forEach(function (cat) {
+      var aliases = cat.aliases.concat([cat.name.toLowerCase()], INSTR_EXTRA[cat.name] || []);
+      aliases.forEach(function (a) {
+        if (a.length > bestLen && new RegExp("\\b" + a.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b").test(clause)) {
+          best = cat.name; bestLen = a.length;
+        }
+      });
+    });
+    return best;
+  }
+  function renderInstrChips() {
+    var host = $("mwInstrChips");
+    if (!host || !confirmCtx) return;
+    var labels = Object.keys(confirmCtx.applied).map(function (k) { return confirmCtx.applied[k]; });
+    host.innerHTML = labels.length
+      ? '<span class="mw-ichips-lbl">Applied:</span>' + labels.map(function (l) { return '<span class="mw-ichip">' + esc(l) + "</span>"; }).join("")
+      : "";
+    host.hidden = !labels.length;
+  }
+  function applyInstructions(raw) {
+    var host = $("mwConfirm");
+    var note = $("mwInstrNote");
+    if (!host || !confirmCtx || !raw || !raw.trim()) return;
+    var text = " " + raw.toLowerCase().replace(/[’]/g, "'") + " ";
+    var appliedNow = 0;
+    function chip(key, label) { confirmCtx.applied[key] = label; appliedNow++; }
+    /* 1 · plan tier */
+    if (confirmCtx.parsed.tiers) {
+      var tierHit = null;
+      confirmCtx.parsed.tiers.names.forEach(function (name) {
+        var keys = [name.toLowerCase(), name.toLowerCase().split(" ")[0]];
+        keys.forEach(function (k) {
+          if (!tierHit && k.length >= 3 && new RegExp("\\b" + k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b").test(text)) tierHit = name;
+        });
+      });
+      if (tierHit && tierHit !== confirmCtx.tier) {
+        confirmCtx.tier = tierHit;
+        var sel = $("mwFTier"); if (sel) sel.value = tierHit;
+        var planInput = $("mwFPlan"); if (planInput) planInput.value = tierHit;
+        refillConfirm();
+        chip("tier", tierHit);
+      } else if (tierHit) chip("tier", tierHit);
+    }
+    /* 2 · coverage (Single / Family) — matters when it changes the
+       HCSA amount: tiered parse, or a flat parse with a $ pair. */
+    var pd = confirmPlanData();
+    var covMatters = !!confirmCtx.parsed.tiers || (pd.hcsa && pd.hcsa.single != null && pd.hcsa.family != null && pd.hcsa.single !== pd.hcsa.family);
+    var famAt = text.search(/\bfamily\b|\bspouse\b|\bwife\b|\bhusband\b|\bkids\b|\bchildren\b|\bdependents?\b|\bpartner\b/);
+    var sglAt = text.search(/\bsingle\b|just me|only me/);
+    if (covMatters && (famAt > -1 || sglAt > -1)) {
+      var cov = (famAt > -1 && (sglAt < 0 || famAt > sglAt)) ? "Family" : "Single";
+      if (cov !== confirmCtx.coverage || confirmCtx.applied.coverage !== cov + " coverage") {
+        confirmCtx.coverage = cov;
+        var csel = $("mwFCoverage"); if (csel) csel.value = cov;
+        refillConfirm();
+      }
+      chip("coverage", cov + " coverage");
+    }
+    /* 3 · used amounts, clause by clause */
+    var clauses = text.split(/[,;]|\band\b/);
+    clauses.forEach(function (cl) {
+      var am = cl.match(/\$\s?([\d,]+(?:\.\d{2})?)/);
+      if (!am) return;
+      var amt = parseFloat(am[1].replace(/,/g, ""));
+      if (/hsa|hcsa|spending account/.test(cl) && /used|claimed|spent/.test(cl)) {
+        var hu = host.querySelector("[data-mw-hcsa-used]");
+        if (hu) { hu.value = amt; confirmCtx.hcsaUsed = String(amt); chip("hcsaUsed", "HCSA used " + money(amt)); }
+        return;
+      }
+      if (!/used|claimed|spent|left/.test(cl)) return;
+      var cat = instrCatMatch(cl);
+      if (!cat) return;
+      var usedEl = host.querySelector('[data-mw-used="' + cat + '"]');
+      var maxEl = host.querySelector('[data-mw-max="' + cat + '"]');
+      if (!usedEl) return;
+      if (/\bleft\b/.test(cl) && maxEl && parseFloat(maxEl.value)) {
+        var leftUsed = Math.max(0, Math.round(parseFloat(maxEl.value) - amt));
+        usedEl.value = leftUsed; confirmCtx.used[cat] = String(leftUsed);
+        chip("used:" + cat, cat + " " + money(amt) + " left");
+      } else if (/used|claimed|spent/.test(cl)) {
+        usedEl.value = amt; confirmCtx.used[cat] = String(amt);
+        chip("used:" + cat, cat + " used " + money(amt));
+      }
+    });
+    /* 4 · reset date */
+    var rm = text.match(/(reset|renew|plan year|starts?|begins?)[^.]{0,24}?\b(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|jun|jul|aug|sep|sept|oct|nov|dec)\s+(\d{1,2})?\b/);
+    if (rm) {
+      var months = { jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5, jul: 6, aug: 7, sep: 8, sept: 8, oct: 9, nov: 10, dec: 11 };
+      var mon = months[rm[2].slice(0, 4)] != null ? months[rm[2].slice(0, 4)] : months[rm[2].slice(0, 3)];
+      var day = rm[3] ? parseInt(rm[3], 10) : 1;
+      var now = new Date(); now.setHours(0, 0, 0, 0);
+      var d = new Date(now.getFullYear(), mon, day);
+      if (d <= now) d = new Date(now.getFullYear() + 1, mon, day);
+      var iso = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+      var ri = $("mwFReset"); if (ri) ri.value = iso;
+      chip("reset", "Resets " + fmtDate(d));
+    }
+    /* 5 · insurer */
+    for (var ii = 0; ii < INSURERS.length; ii++) {
+      var nm = INSURERS[ii];
+      if (text.indexOf(" " + nm.toLowerCase().replace(/\s+/g, " ") + " ") > -1 || text.indexOf(nm.toLowerCase()) > -1) {
+        var fi = $("mwFInsurer");
+        if (fi) fi.value = nm.replace("Green Shield", "GreenShield");
+        chip("insurer", nm.replace("Green Shield", "GreenShield"));
+        break;
+      }
+    }
+    renderInstrChips();
+    if (note) {
+      if (appliedNow) { note.hidden = true; note.textContent = ""; }
+      else { note.hidden = false; note.textContent = "Didn't catch anything to apply there — everything below is editable by hand."; }
+    }
+    var input = $("mwInstr");
+    if (input) input.value = "";
+  }
+  function renderConfirm(parsed) {
+    var host = $("mwConfirm");
+    if (!host) return;
+    var usedSeed = {}, huSeed = 0;
+    Object.keys(parsed.categories || {}).forEach(function (k) {
+      var u = (parsed.categories[k] || {}).used;
+      if (u) usedSeed[k] = String(u);
+    });
+    if (parsed.hcsaUsed) huSeed = parsed.hcsaUsed;
+    var isManual = !parsed.tiers && !parsed.sourceLabel && !Object.keys(parsed.categories || {}).length && !parsed.hcsa;
+    confirmCtx = {
+      parsed: parsed,
+      tier: parsed.tiers ? (parsed.tiers.defaultTier || parsed.tiers.names[0]) : null,
+      coverage: parsed.coverage || "Single",
+      used: usedSeed, hcsaUsed: huSeed,
+      applied: {},
+      showHcsa: !!(parsed.tiers || parsed.hcsa || isManual)
+    };
+    var tierBar = "";
+    if (parsed.tiers) {
+      tierBar = '<div class="mw-tierbar">'
+        + '<label>Plan option<select id="mwFTier">' + parsed.tiers.names.map(function (n) {
+          return '<option value="' + esc(n) + '"' + (n === confirmCtx.tier ? " selected" : "") + ">" + esc(n) + "</option>";
+        }).join("") + "</select></label>"
+        + '<label>Coverage<select id="mwFCoverage"><option value="Single"' + (confirmCtx.coverage === "Single" ? " selected" : "") + '>Single</option><option value="Family"' + (confirmCtx.coverage === "Family" ? " selected" : "") + ">Family</option></select></label>"
+        + "</div>";
+    }
     host.innerHTML =
       '<div class="mw-confirm"><h2>Confirm your plan</h2>'
       + '<p class="sub">We read these amounts from your booklet on this device — booklets vary, so check each line and fix anything before saving. "Already used" is what you have claimed so far this plan year; what\'s left is what My WellFinder plans around.</p>'
+      + '<div class="mw-instr"><div class="mw-instr-row"><input id="mwInstr" type="text" autocomplete="off" placeholder="Anything we should know? Try: I\'m on the Core plan, single coverage · I\'ve used $200 of physio · My plan resets March 1" aria-label="Tell us about your plan in your own words"><button type="button" class="mw-instr-apply" id="mwInstrApply">Apply</button></div>'
+      + '<div class="mw-ichips" id="mwInstrChips" hidden></div>'
+      + '<p class="mw-instr-note" id="mwInstrNote" hidden></p></div>'
       + (parsed.note ? '<p class="mw-confirm-note">' + esc(parsed.note) + "</p>" : "")
+      + tierBar
       + '<div class="mw-cgrid">'
       + '<label>Insurer<input id="mwFInsurer" type="text" value="' + esc(parsed.insurer || "") + '" placeholder="e.g. Manulife"></label>'
-      + '<label>Plan name<input id="mwFPlan" type="text" value="' + esc(parsed.planName || "") + '" placeholder="e.g. Extended Health"></label>'
+      + '<label>Plan name<input id="mwFPlan" type="text" value="' + esc(parsed.tiers ? confirmCtx.tier : (parsed.planName || "")) + '" placeholder="e.g. Extended Health"></label>'
       + '<label>Plan resets on<input id="mwFReset" type="date" value="' + esc(parsed.resetsISO || nextJan1ISO()) + '"></label>'
       + "</div>"
-      + '<table class="mw-ctable"><thead><tr><th>Category</th><th>Yearly max ($)</th><th>Already used ($)</th></tr></thead><tbody>' + rows + "</tbody></table>"
+      + '<table class="mw-ctable"><thead><tr><th>Category</th><th>Yearly max ($)</th><th>Covered %</th><th>Already used ($)</th></tr></thead><tbody id="mwCatRows"></tbody></table>'
+      + '<div id="mwGroupNote"></div>'
       + '<div class="mw-confirm-actions"><button type="button" class="mw-savebtn" id="mwSaveBooklet">Save my booklet</button><button type="button" class="mw-cancelbtn" id="mwCancelConfirm">Cancel</button></div>'
       + "</div>";
     host.hidden = false;
     host.scrollIntoView({ behavior: "smooth", block: "start" });
+    refillConfirm();
+    var tierSel = $("mwFTier");
+    if (tierSel) tierSel.addEventListener("change", function () {
+      confirmCtx.tier = tierSel.value;
+      var pi = $("mwFPlan"); if (pi) pi.value = tierSel.value;
+      refillConfirm();
+    });
+    var covSel = $("mwFCoverage");
+    if (covSel) covSel.addEventListener("change", function () { confirmCtx.coverage = covSel.value; refillConfirm(); });
+    var applyBtn = $("mwInstrApply");
+    if (applyBtn) applyBtn.addEventListener("click", function () { var i = $("mwInstr"); applyInstructions(i ? i.value : ""); });
+    var instrInput = $("mwInstr");
+    if (instrInput) instrInput.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); applyInstructions(instrInput.value); } });
     $("mwCancelConfirm").addEventListener("click", function () { host.hidden = true; host.innerHTML = ""; });
     $("mwSaveBooklet").addEventListener("click", function () {
       var cats = {};
       MW_CATS.forEach(function (cat) {
         var mx = parseFloat((host.querySelector('[data-mw-max="' + cat.name + '"]') || {}).value) || 0;
         var us = parseFloat((host.querySelector('[data-mw-used="' + cat.name + '"]') || {}).value) || 0;
-        if (mx > 0) cats[cat.name] = { max: Math.round(mx), used: Math.min(Math.round(us), Math.round(mx)) };
+        var pc = parseFloat((host.querySelector('[data-mw-pct="' + cat.name + '"]') || {}).value);
+        if (mx > 0) {
+          var entry = { max: Math.round(mx * 100) / 100, used: Math.min(Math.round(us * 100) / 100, Math.round(mx * 100) / 100) };
+          if (pc > 0 && pc <= 100) entry.pct = Math.round(pc);
+          var src = confirmPlanData().categories[cat.name];
+          if (src && src.sharedPool) entry.sharedPool = true;
+          cats[cat.name] = entry;
+        }
       });
       var b = {
         insurer: ($("mwFInsurer").value || "").trim(),
@@ -914,6 +1578,20 @@
         uploadedISO: new Date().toISOString(),
         categories: cats
       };
+      if (parsed.tiers) {
+        b.tier = confirmCtx.tier;
+        b.coverage = confirmCtx.coverage;
+        b.groupCaps = confirmPlanData().groupCaps || [];
+      } else if (parsed._stored) {
+        if (parsed._stored.tier) b.tier = parsed._stored.tier;
+        if (parsed._stored.coverage) b.coverage = parsed._stored.coverage;
+        if (parsed._stored.groupCaps) b.groupCaps = parsed._stored.groupCaps;
+      }
+      if (confirmCtx.showHcsa) {
+        var hm = parseFloat((host.querySelector("[data-mw-hcsa-max]") || {}).value) || 0;
+        var hu = parseFloat((host.querySelector("[data-mw-hcsa-used]") || {}).value) || 0;
+        if (hm > 0) b.hcsa = { max: Math.round(hm * 100) / 100, used: Math.min(Math.round(hu * 100) / 100, Math.round(hm * 100) / 100) };
+      }
       saveBooklet(b);
       host.hidden = true; host.innerHTML = "";
       parseStatusMsg = "";

@@ -139,6 +139,26 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-hero{padding:
 .mw-ctable input{width:110px;box-sizing:border-box;padding:.45rem .55rem;border:1px solid rgba(15,45,43,.18);border-radius:9px;font:inherit}
 .mw-ctable .catcell{font-weight:700;color:var(--forest)}
 .mw-ctable .found{font-size:.75rem;color:#1d9d62;font-weight:700;margin-left:6px}
+.mw-drop-hint{margin-top:10px;font-size:.82rem;color:#A7BFAE}
+.mw-hero-hcsa{margin-top:8px;font-size:.92rem;color:#EDE8DA}
+.mw-hero-hcsa b{color:#FFCE45}
+.mw-instr{margin:14px 0 4px;border:1px solid #E7E2CE;background:#FBF9F1;border-radius:14px;padding:12px 14px}
+.mw-instr-row{display:flex;gap:.5rem}
+.mw-instr-row input{flex:1;min-width:0;padding:.6rem .7rem;border:1px solid rgba(15,45,43,.2);border-radius:10px;font:inherit;color:var(--ink)}
+.mw-instr-apply{background:var(--forest);color:#fff;border:0;font:700 .88rem inherit;padding:.6rem 1.15rem;border-radius:999px;cursor:pointer;flex:0 0 auto}
+.mw-instr-apply:hover{background:#265047}
+.mw-ichips{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.6rem;align-items:center}
+.mw-ichips-lbl{font-size:.78rem;font-weight:800;color:#55705F}
+.mw-ichip{background:#E8EFE9;color:#315f52;font-size:.78rem;font-weight:700;border-radius:999px;padding:4px 10px}
+.mw-ichip::before{content:'✓ '}
+.mw-instr-note{margin:.55rem 0 0;font-size:.85rem;color:#6B5510}
+.mw-tierbar{display:flex;gap:1rem;flex-wrap:wrap;margin:14px 0 2px}
+.mw-tierbar label{font-size:.75rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:#55705F;display:block}
+.mw-tierbar select{display:block;margin-top:.3rem;padding:.6rem .7rem;border:1px solid rgba(15,45,43,.2);border-radius:10px;font:600 .95rem inherit;text-transform:none;letter-spacing:0;color:var(--ink);background:#fff}
+.mw-groupnote{margin-top:10px;font-size:.85rem;color:#47635B;background:#F4F6F3;border-radius:10px;padding:9px 12px}
+.mw-ctable .hcsa-row td{background:#FBF9F1}
+.mw-wcard-hcsa{border-color:#EAD9A0;background:#FFFDF4}
+.mw-wshare{font-size:.76rem;color:#8A6D1F;margin-top:6px}
 .mw-confirm-actions{display:flex;gap:.7rem;margin-top:18px;flex-wrap:wrap}
 .mw-savebtn{background:#FFCE45;border:0;color:#161616;font:700 .92rem inherit;padding:.75rem 1.5rem;border-radius:999px;cursor:pointer}
 .mw-savebtn:hover{background:#f5be2e}
