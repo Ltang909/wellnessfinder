@@ -1258,3 +1258,17 @@ a.nc-slot-chip:hover { background: #FFF6D8; border-color: #FFCE45; }
 .nc-btn-gmail svg { display: block; }
 .tp-list .nc-card { align-items: flex-start; }
 .nc-slot-t .nc-verified { margin-left: 2px; }
+
+/* Hours popup (Leon): the week floats over the card instead of pushing it longer */
+.nc-todaywrap { position: relative; min-width: 0; }
+.tp-list .nc-week { position: absolute; top: calc(100% + 8px); left: 0; z-index: 40; width: 248px; max-width: 80vw; display: block; background: #fff; border: 1px solid #dfe5df; border-radius: 12px; box-shadow: 0 14px 34px rgba(15,45,43,.18); padding: 10px 14px; }
+.tp-list .nc-week[hidden] { display: none; }
+.tp-list .nc-week .nc-hrow { display: flex; justify-content: space-between; gap: 18px; padding: 3px 0; }
+
+/* Billing pill sits next to the clinic name (Leon); the meta bar drops its
+   pill column, giving the hours line the freed space. */
+.tp-list .nc-head { justify-content: flex-start; }
+.tp-list .nc-head .nc-rating { margin-left: auto; }
+.tp-list .nc-head .nc-db { align-self: center; flex: 0 0 auto; }
+.tp-list .nc-meta { grid-template-columns: minmax(0, 220px) minmax(0, 1fr) auto; }
+.tp-list .nc-name { flex: 0 1 auto; }

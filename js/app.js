@@ -563,7 +563,7 @@
       const db = dbv === "yes"
         ? `<p class="fc-db" title="Direct billing available" aria-label="Direct billing available">✓ Direct billing</p>`
         : dbv === "no"
-          ? `<p class="fc-db fc-db-no" title="No direct billing — pay & claim with receipt" aria-label="No direct billing — pay and claim with receipt">✕</p>`
+          ? `<p class="fc-db fc-db-no" title="No direct billing — pay & claim with receipt" aria-label="No direct billing — pay and claim with receipt">✕ Direct billing</p>`
           : "";
 
       /* today's hours + open/closed state */
@@ -1300,8 +1300,8 @@
     const dbPill = dbv === "yes"
       ? `<span class="nc-db nc-db-yes" title="Direct billing available" aria-label="Direct billing available">✓ Direct billing</span>`
       : dbv === "no"
-        ? `<span class="nc-db nc-db-no" title="No direct billing — pay & claim with receipt" aria-label="No direct billing — pay and claim with receipt">✕</span>`
-        : `<span class="nc-db nc-db-unk" title="Direct billing not confirmed — ask the clinic" aria-label="Direct billing not confirmed — ask the clinic">?</span>`;
+        ? `<span class="nc-db nc-db-no" title="No direct billing — pay & claim with receipt" aria-label="No direct billing — pay and claim with receipt">✕ Direct billing</span>`
+        : `<span class="nc-db nc-db-unk" title="Direct billing not confirmed — ask the clinic" aria-label="Direct billing not confirmed — ask the clinic">? Direct billing</span>`;
 
     /* hours: today line + expandable week */
     let todayHTML, weekHTML = "";
@@ -1316,6 +1316,8 @@
         const v = X.h[d];
         return `<div class="nc-hrow${st.key === d ? " today" : ""}"><span>${NC_DAYLBL[d]}</span><span>${v ? esc(ncFmtHours(v)) : '<span class="nc-closed">Closed</span>'}</span></div>`;
       }).join("")}</div>`;
+      todayHTML = `<div class="nc-todaywrap">${todayHTML}${weekHTML}</div>`;
+      weekHTML = "";
     } else {
       todayHTML = `<p class="nc-today"><span class="nc-hours-na">Hours not listed</span></p>`;
     }
@@ -1362,7 +1364,7 @@ if (em) {
         const pricePart = priceFor(kind);
         const rawChips = (s.list && s.list.length ? s.list : [{ d: s.d, t: s.t, w: s.w }]);
         const seenChips = new Set();
-        const chips = rawChips.filter((ch) => { const k = ch.d + "|" + ch.t; if (seenChips.has(k)) return false; seenChips.add(k); return true; }).slice(0, 8);
+        const chips = rawChips.filter((ch) => { const k = ch.d + "|" + ch.t; if (seenChips.has(k)) return false; seenChips.add(k); return true; }).slice(0, 7);
         const opts = chips.map((ch) => {
           const chip = book ? `<a class="nc-slot-chip" href="${esc(book)}" target="_blank" rel="noopener" title="Book this slot on the clinic's booking page">${ch.d} &middot; ${ch.t}</a>` : `<span class="nc-slot-chip">${ch.d} &middot; ${ch.t}</span>`;
           return `<span class="nc-slot-opt">${chip}</span>`;
@@ -1389,12 +1391,11 @@ if (em) {
     return `<article class="nc-card">
       ${gallery}
       <div class="nc-main">
-        <div class="nc-head"><h4 class="nc-name">${esc(c.name)}</h4>${rating}</div>
+        <div class="nc-head"><h4 class="nc-name">${esc(c.name)}</h4>${dbPill}${rating}</div>
         <p class="nc-addr"><svg width="12" height="12" viewBox="0 0 24 24" fill="#6E8F7A" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg><span>${esc(addr)}</span></p>
         <p class="nc-desc">${esc(desc)}</p>
-        <div class="nc-meta"><div class="nc-pricecell">${priceHTML}<p class="nc-note">${noteHTML}</p></div><div class="nc-dbrow">${dbPill}</div>${todayHTML}${actions}</div>
+        <div class="nc-meta"><div class="nc-pricecell">${priceHTML}<p class="nc-note">${noteHTML}</p></div>${todayHTML}${actions}</div>
         ${slotsHTML}
-        ${weekHTML}
       </div>
     </article>`;
   }
@@ -1422,14 +1423,25 @@ if (em) {
         dots.forEach((el, i) => el.classList.toggle("on", i === idx));
         return;
       }
+      if (!e.target.closest(".nc-todaywrap")) {
+        document.querySelectorAll(".nc-week:not([hidden])").forEach((w) => {
+          w.setAttribute("hidden", "");
+          const wrap = w.closest(".nc-todaywrap");
+          const b = wrap && wrap.querySelector("[data-nc-hours]");
+          if (b) b.textContent = "See all hours \u25be";
+        });
+      }
       const more = e.target.closest("[data-nc-hours]");
       if (more) {
         const main = more.closest(".nc-main");
         const week = main && main.querySelector(".nc-week");
         if (!week) return;
         const open = week.hasAttribute("hidden");
-        if (open) { week.removeAttribute("hidden"); more.textContent = "Hide hours ▴"; }
-        else { week.setAttribute("hidden", ""); more.textContent = "See all hours ▾"; }
+        if (open) {
+          document.querySelectorAll(".nc-week:not([hidden])").forEach((w) => { if (w !== week) w.setAttribute("hidden", ""); });
+          week.removeAttribute("hidden"); more.textContent = "Hide hours \u25b4";
+        }
+        else { week.setAttribute("hidden", ""); more.textContent = "See all hours \u25be"; }
       }
     });
   }
