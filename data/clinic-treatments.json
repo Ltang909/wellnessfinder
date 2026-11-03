@@ -69831,15 +69831,107 @@
  },
  {
   "clinic_id": "physiomobility-toronto",
+  "treatment_id": "physiomobility-toronto--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "EunYoung Seo",
+  "practitioners": [
+   {
+    "as_recorded": "EunYoung Seo - massage therapist on the clinic's Jane roster; sole practitioner listed for all Lymphatic Drainage Massage Therapy and Lymphedema MX services",
+    "id": "physiomobility-toronto--eunyoung-seo",
+    "name": "EunYoung Seo"
+   }
+  ],
+  "price_text": "$115 (45 min) \u00b7 $130 (60 min) \u00b7 $195 (90 min)",
+  "price_source": "Clinic's own Jane booking catalogue under the Massage Therapy discipline: '45 min Initial Lymphatic Drainage Massage Therapy' $115; '60 min Initial Lymphatic Drainage Massage Therapy' $130; '90 min Initial Lymphatic Drainage Massage Therapy' $195 (follow-ups priced the same); Lymphedema MX sessions $175-$215 also listed.",
+  "price_tier": "booking",
+  "treatment_link": "https://physiomobility.janeapp.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "physiomobility-toronto",
+  "treatment_id": "physiomobility-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Mihaela Marica",
+  "practitioners": [
+   {
+    "as_recorded": "Mihaela Marica - Registered Physiotherapist (clinic team page); Jane roster for Pelvic (Female) and Pelvic (male) Physiotherapy initial visits",
+    "id": "physiomobility-toronto--mihaela-marica",
+    "name": "Mihaela Marica"
+   },
+   {
+    "as_recorded": "Armina O.B.Tehrani (Jane roster) - also listed for Pre-Post Natal Pelvic Physiotherapy initial visits",
+    "id": "physiomobility-toronto--armina-tehrani",
+    "name": "Armina Tehrani"
+   }
+  ],
+  "price_text": "$155 initial \u00b7 $105 follow-up (30 min)",
+  "price_source": "Clinic's own Jane booking catalogue: 'Pelvic (Female) Physiotherapy-Initial Visit' $155/60 min; 'Pelvic (male) Physiotherapy-Initial Visit' $155; 'Pre-Post Natal Pelvic Physiotherapy-Initial Visit' $155; 'Pelvic Physiotherapy-30 min follow up session' $105.",
+  "price_tier": "booking",
+  "treatment_link": "https://physiomobility.janeapp.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "physiomobility-toronto",
+  "treatment_id": "physiomobility-toronto--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Melissa Tan",
+  "practitioners": [
+   {
+    "as_recorded": "Melissa Tan",
+    "id": "physiomobility-toronto--melissa-tan",
+    "name": "Melissa Tan"
+   },
+   {
+    "as_recorded": "Armina O.B.Tehrani (Jane roster)",
+    "id": "physiomobility-toronto--armina-tehrani",
+    "name": "Armina Tehrani"
+   },
+   {
+    "as_recorded": "Mohammadreza Farazdaghi",
+    "id": "physiomobility-toronto--mohammadreza-farazdaghi",
+    "name": "Mohammadreza Farazdaghi"
+   },
+   {
+    "as_recorded": "Kevin Chim",
+    "id": "physiomobility-toronto--kevin-chim",
+    "name": "Kevin Chim"
+   },
+   {
+    "as_recorded": "Fema Lalu Merin",
+    "id": "physiomobility-toronto--fema-lalu-merin",
+    "name": "Fema Lalu Merin"
+   },
+   {
+    "as_recorded": "Shirin Tajalli",
+    "id": "physiomobility-toronto--shirin-tajalli",
+    "name": "Shirin Tajalli"
+   },
+   {
+    "as_recorded": "Alyssa Dais",
+    "id": "physiomobility-toronto--alyssa-dais",
+    "name": "Alyssa Dais"
+   }
+  ],
+  "price_text": "$100 (20 min session)",
+  "price_source": "Clinic's own Jane booking catalogue: 'Shockwave Physiotherapy-20 min session' $100 under the Physiotherapy discipline; the 30-min and 40-min shockwave physiotherapy sessions are listed without a published price, so only the priced 20-min session is recorded.",
+  "price_tier": "booking",
+  "treatment_link": "https://physiomobility.janeapp.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "physiomobility-toronto",
   "treatment_id": "physiomobility-toronto--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Melissa Tan",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$155 initial \u00b7 $105 follow-up (30 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://physiomobility.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -70026,7 +70118,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.physiorehabgroup.com/pelvic-care-in-bolton-brampton-etobicoke",
   "last_verified": "2026-11-01"
  },
  {
@@ -70034,12 +70126,12 @@
   "treatment_id": "physiotherapie-beyond-kegels-montreal--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Kirstie",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://beyondkegels.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -70047,12 +70139,12 @@
   "treatment_id": "physiotherapie-marie-eve-bergeron-trois-rivieres--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Marie-\u00c8ve Bergeron",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://physiotherapiebergeron.com/services/reeducation-perineale/",
   "last_verified": "2026-11-01"
  },
  {
@@ -70060,13 +70152,37 @@
   "treatment_id": "physiotherapie-nomade-quebec-city--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "\u00c9milie Vachon",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://physionomade.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physiotherapie-nomade-quebec-city",
+  "treatment_id": "physiotherapie-nomade-quebec-city--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Simon Jean-Pineault",
+  "practitioners": [
+   {
+    "as_recorded": "Simon Jean-Pineault - Physioth\u00e9rapeute; expertises include 'Vertiges et \u00e9tourdissements' and 'Commotions c\u00e9r\u00e9brales, maux de t\u00eate' (clinic's own team page)",
+    "id": "physiotherapie-nomade-quebec-city--simon-jean-pineault",
+    "name": "Simon Jean-Pineault"
+   },
+   {
+    "as_recorded": "J\u00e9r\u00e9mie Lanthier-Plante - Physioth\u00e9rapeute; expertises include 'Maux de t\u00eate, vertiges et \u00e9tourdissements' (clinic's own team page)",
+    "id": "physiotherapie-nomade-quebec-city--j\u00e9r\u00e9mie-lanthier-plante",
+    "name": "J\u00e9r\u00e9mie Lanthier-Plante"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://physionomade.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "physiotherapie-saint-francois-drummondville",
@@ -70078,8 +70194,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://physiotherapieuniverselle.com/cliniques/drummondville",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physiotherapie-sn-drummondville",
+  "treatment_id": "physiotherapie-sn-drummondville--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's website and its ClinicMaster booking page rendered no public price list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://physiosn.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "physiotherapie-sn-drummondville",
@@ -70091,8 +70220,34 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://physiosn.com/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physiotherapie-sn-drummondville",
+  "treatment_id": "physiotherapie-sn-drummondville--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's website and its ClinicMaster booking page rendered no public price list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://physiosn.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "physiotherapie-sn-drummondville",
+  "treatment_id": "physiotherapie-sn-drummondville--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's website and its ClinicMaster booking page rendered no public price list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://physiosn.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "physiotherapie-universelle-st-francois-sherbrooke",
@@ -70104,7 +70259,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://physiotherapieuniverselle.com/cliniques/sherbrooke",
   "last_verified": "2026-11-01"
  },
  {
@@ -70117,7 +70272,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://physiotherapyfirst.ca/services/shockwave-therapy-in-brampton",
   "last_verified": "2026-11-01"
  },
  {
@@ -70252,8 +70407,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://physiozen.ca/pelvic-physiotherapy",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "physiozen-scarborough",
+  "treatment_id": "physiozen-scarborough--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://physiozen.ca",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "physiozen-toronto",
@@ -70497,12 +70665,12 @@
   "treatment_id": "pivot-marriage-and-family-therapy-regina--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Mike",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://pivottherapy.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -70510,12 +70678,12 @@
   "treatment_id": "pivot-physiotherapy-port-alberni--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Stephanie Linning",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://pivotphysio.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -70677,7 +70845,20 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.podiumphysiotherapy.com/rehab-treatment/modalities/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "podium-physiotherapy-st-albert",
+  "treatment_id": "podium-physiotherapy-st-albert--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fee for the running assessment is published on the clinic's site; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.podiumphysiotherapy.com/services/running-assessment/",
   "last_verified": "2026-11-02"
  },
  {
@@ -70714,15 +70895,34 @@
  },
  {
   "clinic_id": "polaris-counselling-mississauga",
+  "treatment_id": "polaris-counselling-mississauga--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Fatemeh Heshmati",
+  "practitioners": [
+   {
+    "as_recorded": "Fatemeh Heshmati, Registered Psychotherapist - practice lead per the clinic's own site",
+    "id": "polaris-counselling-mississauga--fatemeh-heshmati",
+    "name": "Fatemeh Heshmati"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fee for couples therapy is published on the clinic's site; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.polariscounselling.ca",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "polaris-counselling-mississauga",
   "treatment_id": "polaris-counselling-mississauga--neurofeedback",
   "treatment": "Neurofeedback",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Fatemeh Heshmati",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.polariscounselling.ca/neurofeedback-brain-training",
   "last_verified": "2026-11-01"
  },
  {
@@ -70730,12 +70930,12 @@
   "treatment_id": "polyclinique-centre-ville-montreal--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Philippe Bizien",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://pcvmontreal.com/en/expertise-and-specialized-services/specialized-services/vestibular-rehabilitation",
   "last_verified": "2026-11-01"
  },
  {
@@ -70743,13 +70943,58 @@
   "treatment_id": "polygon-health-burnaby-burnaby--clinical-pilates",
   "treatment": "Clinical Pilates",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Christine Pang",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.polygonhealth.ca/pilates-burnaby",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "polygon-health-burnaby-burnaby",
+  "treatment_id": "polygon-health-burnaby-burnaby--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Christine Pang",
+  "practitioners": [
+   {
+    "as_recorded": "Christine Pang, Registered Physiotherapist - Jane booking profile lists Specialties: Pelvic Health, Clinical Pilates; advanced training in pelvic floor therapy",
+    "id": "polygon-health-burnaby-burnaby--christine-pang",
+    "name": "Christine Pang"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor fee is published on the clinic's site or rendered on its Jane page; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.polygonhealth.ca/physio-burnaby",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "polygon-health-burnaby-burnaby",
+  "treatment_id": "polygon-health-burnaby-burnaby--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's site or rendered on its Jane page; price is null.",
+  "price_tier": null,
+  "treatment_link": "http://www.polygonhealth.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "polygon-health-burnaby-burnaby",
+  "treatment_id": "polygon-health-burnaby-burnaby--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular fee is published on the clinic's site or rendered on its Jane page; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.polygonhealth.ca/physio-burnaby",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "port-credit-therapeutic-massage-clinic-mississauga",
@@ -70865,7 +71110,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.powercounselling.net",
   "last_verified": "2026-11-01"
  },
  {
@@ -70878,7 +71123,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://powerpt.ca/shockwave-laser-therapy.html",
   "last_verified": "2026-11-01"
  },
  {
@@ -70975,13 +71220,39 @@
   "treatment_id": "prairie-view-physiotherapy-yorkton--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Lisa Evans",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.prairieviewphysiotherapy.ca/treatments",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "prairie-view-physiotherapy-yorkton",
+  "treatment_id": "prairie-view-physiotherapy-yorkton--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's site; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.prairieviewphysiotherapy.ca/treatments",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "prairie-view-physiotherapy-yorkton",
+  "treatment_id": "prairie-view-physiotherapy-yorkton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's site; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.prairieviewphysiotherapy.ca/treatments",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "pre-therapy-burnaby",
@@ -71038,8 +71309,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pretherapy.ca/pelvic-floor-physio",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pre-therapy-surrey",
+  "treatment_id": "pre-therapy-surrey--clinical-pilates",
+  "treatment": "Clinical Pilates",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No Clinical Pilates fee is published on the clinic's site or Jane page; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://pretherapy.janeapp.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "pre-therapy-surrey",
@@ -71051,7 +71335,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pretherapy.ca/pelvic-floor-physio",
   "last_verified": "2026-11-01"
  },
  {
@@ -71082,15 +71366,34 @@
  },
  {
   "clinic_id": "preferred-rehab-physiotherapy-petrolia-petrolia",
+  "treatment_id": "preferred-rehab-physiotherapy-petrolia-petrolia--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Amanda Podolinsky",
+  "practitioners": [
+   {
+    "as_recorded": "Amanda Podolinsky, Registered Massage Therapist - this location's team page: specializes in Manual Lymph Drainage and Cupping Therapy",
+    "id": "preferred-rehab-physiotherapy-petrolia-petrolia--amanda-podolinsky",
+    "name": "Amanda Podolinsky"
+   }
+  ],
+  "price_text": null,
+  "price_source": "pt Health does not publish treatment fees on its clinic pages; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/petrolia-physiotherapy-pt-health/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "preferred-rehab-physiotherapy-petrolia-petrolia",
   "treatment_id": "preferred-rehab-physiotherapy-petrolia-petrolia--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Alexandra Ciorba",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/petrolia-physiotherapy-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -71103,8 +71406,27 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://premierphysiotherapyclinic.ca/common-conditions/pelvic-health-conditions",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "premier-physiotherapy-ottawa",
+  "treatment_id": "premier-physiotherapy-ottawa--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Alana McCulloch-Auld",
+  "practitioners": [
+   {
+    "as_recorded": "Alana McCulloch-Auld, Registered Physiotherapist specializing in orthopaedics and vestibular physiotherapy - clinic's Jane booking roster bio",
+    "id": "premier-physiotherapy-ottawa--alana-mcculloch-auld",
+    "name": "Alana McCulloch-Auld"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's site or rendered on its Jane page; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://premierphysiotherapyclinic.janeapp.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "prime-performance-therapy-nanaimo",
@@ -71116,7 +71438,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://primesport.janeapp.com/locations/prime-performance-therapy/book",
   "last_verified": "2026-11-02"
  },
  {
@@ -71155,8 +71477,34 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://profunction.ca/pro-function-services/pelvic-health-physiotherapy/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pro-function-health-care-team-london",
+  "treatment_id": "pro-function-health-care-team-london--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No per-service fees are published on the clinic's website and the Jane booking page rendered no fee list, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://profunction.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "pro-fusion-rehab-milton",
+  "treatment_id": "pro-fusion-rehab-milton--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://profusionrehab.com/milton-physiotherapy-clinic/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "pro-fusion-rehab-milton",
@@ -71168,8 +71516,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://profusionrehab.com/shockwave-therapy/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pro-fusion-rehab-milton",
+  "treatment_id": "pro-fusion-rehab-milton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://profusionrehab.com/milton-physiotherapy-clinic/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "pro-fusion-rehab-physiotherapy-pickering",
@@ -71367,12 +71728,12 @@
   "treatment_id": "pro-pelvic-physio-dayna-webster-pt-greater-sudbury--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dayna Webster",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.daynawebsterpt.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -71380,12 +71741,12 @@
   "treatment_id": "pro-pelvic-physio-sudbury--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dayna Webster",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.daynawebsterpt.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -71528,7 +71889,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/ottawa/ppc-conroy/our-team?page=1",
   "last_verified": "2026-11-01"
  },
  {
@@ -71996,7 +72357,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/ottawa/ppc-riverside-court/our-team",
   "last_verified": "2026-11-01"
  },
  {
@@ -72272,7 +72633,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://procrea.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -72301,11 +72662,24 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$125 initial \u00b7 $95 follow-up",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://progressphysio.com/?p=844",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "progress-physiotherapy-kingston",
+  "treatment_id": "progress-physiotherapy-kingston--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$125 initial \u00b7 $95 follow-up",
+  "price_source": "Clinic's own fees page (progressphysio.com/fees-insurance/) publishes the physiotherapy fee schedule ($125 initial assessment, $95 follow-up) that applies to its physiotherapy appointments; vestibular appointments are booked as physiotherapy through reception.",
+  "price_tier": "website",
+  "treatment_link": "https://progressphysio.com/?p=844",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "progression-clinic-physiotherapy-vancouver-massage-therapy-clinic-vancouver",
@@ -72511,7 +72885,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://prosperhealth.ca/services",
   "last_verified": "2026-11-02"
  },
  {
@@ -72524,7 +72898,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://prosperhealth.ca/services",
   "last_verified": "2026-11-02"
  },
  {
@@ -72597,12 +72971,12 @@
   "treatment_id": "psych-ed-assessment-services-toronto--psychoeducational-assessments",
   "treatment": "Psychoeducational Assessments",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Elisabeth Saunders",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.psych-ed.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -72775,12 +73149,12 @@
   "treatment_id": "psyeval-clinic-montreal--psychoeducational-assessments",
   "treatment": "Psychoeducational Assessments",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Marie-Michelle Boulanger",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.psyeval.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -72793,8 +73167,27 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://psynergycentre.ca/services/general-services/couples-therapy/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pt-health-barrie-physiotherapy-barrie",
+  "treatment_id": "pt-health-barrie-physiotherapy-barrie--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "George Amzu",
+  "practitioners": [
+   {
+    "as_recorded": "George Amzu, Massage Therapist (Sutherland-Chan School of Massage Therapy) \u2014 his bio on this location's own page lists lymphatic drainage among his treatment techniques",
+    "id": "pt-health-barrie-physiotherapy-barrie--george-amzu",
+    "name": "George Amzu"
+   }
+  ],
+  "price_text": null,
+  "price_source": "pt Health does not publish session fees on its location pages or in its public booking flow; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/pt-health-barrie-physiotherapy/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "pt-health-barrie-physiotherapy-barrie",
@@ -72806,8 +73199,27 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/pt-health-barrie-physiotherapy/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "pt-health-barrie-physiotherapy-barrie",
+  "treatment_id": "pt-health-barrie-physiotherapy-barrie--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Paul Love",
+  "practitioners": [
+   {
+    "as_recorded": "Paul Love, Physiotherapist and Clinic Director for Barrie Physiotherapy \u2014 his bio on this location's own page cites extensive experience treating vestibular problems",
+    "id": "pt-health-barrie-physiotherapy-barrie--paul-love",
+    "name": "Paul Love"
+   }
+  ],
+  "price_text": null,
+  "price_source": "pt Health does not publish session fees on its location pages or in its public booking flow; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/pt-health-barrie-physiotherapy/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "pt-health-chatham-physiotherapy-chatham",
@@ -72889,6 +73301,25 @@
  },
  {
   "clinic_id": "pt-health-physiotherapy-amherst-amherst",
+  "treatment_id": "pt-health-physiotherapy-amherst-amherst--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Janet Hicks",
+  "practitioners": [
+   {
+    "as_recorded": "Janet Hicks (Janet Porter Hicks), Massage Therapist \u2014 her bio on this location's own page lists lymphatic drainage among her techniques; registered with the Massage Therapist and Holistic Practitioner's Association of the Maritimes (MTWPAM)",
+    "id": "pt-health-physiotherapy-amherst-amherst--janet-hicks",
+    "name": "Janet Hicks"
+   }
+  ],
+  "price_text": null,
+  "price_source": "pt Health does not publish session fees on its location pages or in its public booking flow; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/pt-health-physiotherapy-amherst/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "pt-health-physiotherapy-amherst-amherst",
   "treatment_id": "pt-health-physiotherapy-amherst-amherst--tmj-massage",
   "treatment": "TMJ Massage",
   "billed_as": null,
@@ -72897,7 +73328,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/pt-health-physiotherapy-amherst/",
   "last_verified": "2026-11-01"
  },
  {
@@ -72905,12 +73336,12 @@
   "treatment_id": "pulse-physio-and-performance-peterborough--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "\u00c9milie",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://pulsept.janeapp.com/locations/pulse-lansdowne/book",
   "last_verified": "2026-11-01"
  },
  {
@@ -72995,15 +73426,28 @@
  },
  {
   "clinic_id": "pur-med-spa-regina",
+  "treatment_id": "pur-med-spa-regina--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": "Nursing",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "Botox $10 per unit",
+  "price_source": "Cosmetic Injectables section of the clinic's own Menu & Price List (thepurmedspa.ca/pages/price-list): 'Botox $10 per unit' (dermal filler also listed at $600 per full syringe / $425 per half syringe; SkinVIVE $400 per syringe).",
+  "price_tier": "website",
+  "treatment_link": "https://thepurmedspa.ca/pages/price-list",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "pur-med-spa-regina",
   "treatment_id": "pur-med-spa-regina--microneedling",
   "treatment": "Microneedling",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$350 full face \u00b7 $550 with Exosomes + HA \u00b7 $600 with BIOREG Exosomes + PDRN",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://thepurmedspa.ca/pages/price-list",
   "last_verified": "2026-11-01"
  },
  {
@@ -73234,7 +73678,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://purelylymphatic.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -73242,13 +73686,32 @@
   "treatment_id": "purely-wellness-duncan--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Kate Bonnell",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.purelywellness.com/counselling",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "purely-wellness-duncan",
+  "treatment_id": "purely-wellness-duncan--iv-vitamin-therapy",
+  "treatment": "IV Vitamin Therapy",
+  "billed_as": "Nursing",
+  "practitioner": "Jackie",
+  "practitioners": [
+   {
+    "as_recorded": "Jackie, NP (surname not published in the material read) \u2014 Nurse Practitioner and founder of Integral IV (Integral Nursing Inc.), the nurse-led IV service operating inside Purely Wellness",
+    "id": "purely-wellness-duncan--jackie",
+    "name": "Jackie"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No IV therapy prices are published on Purely Wellness's website or in the Integral IV material read; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://integraliv.com/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "purete-med-spa-etobicoke",
@@ -73353,8 +73816,37 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://pushmarkham.com/fertility-support/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "push-markham-markham",
+  "treatment_id": "push-markham-markham--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Sharon",
+  "practitioners": [
+   {
+    "as_recorded": "Sharon (surname not published in the booking extract) \u2014 MSc Physical Therapy (University of Toronto); certified in Pelvic Health Levels 1, 2 and 3; specializes in pre and postnatal care (clinic's Jane booking page)",
+    "id": "push-markham-markham--sharon",
+    "name": "Sharon"
+   },
+   {
+    "as_recorded": "Sherry (surname not published in the booking extract) \u2014 Registered Physiotherapist; Pelvic Health Physiotherapy Levels 1 and 2 through Pelvic Health Solutions (clinic's Jane booking page)",
+    "id": "push-markham-markham--sherry",
+    "name": "Sherry"
+   },
+   {
+    "as_recorded": "Gina (surname not published in the booking extract) \u2014 physiotherapist with Pelvic Health Levels 1 and 2 through Pelvic Health Solutions, including lactation physiotherapy training (clinic's Jane booking page)",
+    "id": "push-markham-markham--gina",
+    "name": "Gina"
+   }
+  ],
+  "price_text": null,
+  "price_source": "The clinic's Jane booking catalogue did not render session fees in text fetch, and no pelvic physiotherapy fee is published on the clinic's website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://pushmarkham.com/markham-pelvic-health/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "q-osteo-med-clinic-richmond-hill",
@@ -73530,20 +74022,46 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.quantamphysiotherapy.com",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "quantam-physiotherapy-london",
+  "treatment_id": "quantam-physiotherapy-london--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No session fees are published on the clinic's website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.quantamphysiotherapy.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "quantam-physiotherapy-london",
+  "treatment_id": "quantam-physiotherapy-london--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No session fees are published on the clinic's website; price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.quantamphysiotherapy.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "r3-integrative-health-moncton",
   "treatment_id": "r3-integrative-health-moncton--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ricki Porter",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://resolveyourpain.clinicsense.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -73632,7 +74150,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://aestheticradiance.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -73801,12 +74319,12 @@
   "treatment_id": "rasheeda-henry-counselling-brampton--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Rasheeda Henry",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$190",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.rasheedahenry.com/couples-counselling",
   "last_verified": "2026-11-01"
  },
  {
@@ -73850,6 +74368,19 @@
  },
  {
   "clinic_id": "reactive-health-charlottetown",
+  "treatment_id": "reactive-health-charlottetown--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$62 assessment",
+  "price_source": "Jane booking page for the West Royalty location: 'TPI Level Three Assessment' priced at $62 (TPI = Titleist Performance Institute golf assessment). Jane shows staff by internal ID only, so no practitioner is recorded.",
+  "price_tier": "booking",
+  "treatment_link": "https://reactivehealth.janeapp.com/locations/west-royalty/book",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "reactive-health-charlottetown",
   "treatment_id": "reactive-health-charlottetown--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
@@ -73858,8 +74389,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://reactivehealth.janeapp.com/locations/west-royalty/book",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "reactive-health-charlottetown",
+  "treatment_id": "reactive-health-charlottetown--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://reactivehealth.janeapp.com/locations/west-royalty/book",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "reactive-health-stratford",
@@ -73936,7 +74480,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.reallifehealth.ca/",
   "last_verified": "2026-11-02"
  },
  {
@@ -73946,10 +74490,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$100",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://realignhealth.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -74389,6 +74933,19 @@
  },
  {
   "clinic_id": "recovery-lab-red-deer",
+  "treatment_id": "recovery-lab-red-deer--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$137-$205 (30-60 min)",
+  "price_source": "Jane booking catalogue (pre-tax): '*Lymphatic Massage' 30 min $137.14, 45 min $159.52, 60 min $204.52, under the discipline 'reSTORE | Massage Therapy'. Jane lists staff by internal ID only, so no practitioner is recorded.",
+  "price_tier": "booking",
+  "treatment_link": "https://myrecoverylab.janeapp.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "recovery-lab-red-deer",
   "treatment_id": "recovery-lab-red-deer--pressotherapy",
   "treatment": "Pressotherapy",
   "billed_as": "Massage Therapy / Osteopathy",
@@ -74397,7 +74954,20 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://myrecoverylab.janeapp.com/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "recovery-lab-red-deer",
+  "treatment_id": "recovery-lab-red-deer--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$112 initial (45 min)",
+  "price_source": "Jane booking catalogue (pre-tax): '*TMJ Treatment - Initial - 45m' $112.14 under the discipline 'reCOVER | Massage Therapy'; the follow-up entry shows $0.00 (price not published), so only the initial price is recorded. Staff shown by internal ID only - practitioner null.",
+  "price_tier": "booking",
+  "treatment_link": "https://myrecoverylab.janeapp.com/",
   "last_verified": "2026-11-02"
  },
  {
@@ -74481,10 +75051,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$200 (60 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.redsandstherapy.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -74518,12 +75088,12 @@
   "treatment_id": "reeducation-perineale-montreal--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Marie-\u00c8ve Dargis Sureau",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.reeducationperineale.net",
   "last_verified": "2026-11-01"
  },
  {
@@ -74557,12 +75127,12 @@
   "treatment_id": "regen-center-ottawa--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Rick Penney",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$47 new patient special",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.regentrt.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -74609,7 +75179,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://regionalfertilityprogram.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -74622,7 +75192,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.regisparcelpsychologuesherbrooke.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -74730,6 +75300,19 @@
  },
  {
   "clinic_id": "rehab1-performance-center-fredericton",
+  "treatment_id": "rehab1-performance-center-fredericton--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://rehab1.janeapp.com/locations/rehab1-fredericton/book",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "rehab1-performance-center-fredericton",
   "treatment_id": "rehab1-performance-center-fredericton--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
@@ -74738,8 +75321,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rehab1.janeapp.com/locations/rehab1-fredericton/book",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "rehab1-performance-center-fredericton",
+  "treatment_id": "rehab1-performance-center-fredericton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$120 assessment / $130 treatment",
+  "price_source": "Fredericton Jane catalogue: 'Vestibular - Initial Assessment' $120 and 'Vestibular - Treatment' $130 under Chiropractic. A physiotherapy variant ('Physiotherapy Treatment + Dry Needling / Vestibular Rehab', $110) is also listed; the dedicated named vestibular services are the chiropractic ones recorded here.",
+  "price_tier": "booking",
+  "treatment_link": "https://rehab1.janeapp.com/locations/rehab1-fredericton/book",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "reid-physiotherapy-sydney",
@@ -74751,8 +75347,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.reidphysiotherapy.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "rejuvenate-cosmetic-clinic-and-spa-brantford",
+  "treatment_id": "rejuvenate-cosmetic-clinic-and-spa-brantford--medical-botox",
+  "treatment": "Medical Botox",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://rejuvenatespaclinics.com/brantford/medical-injection-treatments/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "rejuvenate-cosmetic-clinic-and-spa-brantford",
@@ -74764,7 +75373,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://rejuvenatespaclinics.com/brantford/micro-needling/",
   "last_verified": "2026-11-01"
  },
  {
