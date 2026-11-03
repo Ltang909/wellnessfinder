@@ -53066,7 +53066,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.michelerenee.ca/treatments",
   "last_verified": "2026-11-01"
  },
  {
@@ -53074,12 +53074,12 @@
   "treatment_id": "midland-physiotherapy-and-rehabilitation-centre-pt-health-midland--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Samarth Shah",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.pthealth.ca/clinic/midland-physiotherapy-and-rehabilitation-centre-pt-health/",
   "last_verified": "2026-11-01"
  },
  {
@@ -53124,12 +53124,12 @@
   "treatment_id": "mind-at-peace-center-campbellton--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Mallory Isaac",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.centremieux-etre.ca/en/campbellton",
   "last_verified": "2026-11-01"
  },
  {
@@ -53265,6 +53265,30 @@
  },
  {
   "clinic_id": "mind-shift-therapy-barrie",
+  "treatment_id": "mind-shift-therapy-barrie--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Psychotherapy",
+  "practitioner": "Elyse Schweighofer",
+  "practitioners": [
+   {
+    "id": "mind-shift-therapy-barrie--elyse-schweighofer",
+    "name": "Elyse Schweighofer",
+    "as_recorded": "Elyse Schweighofer, Registered Psychotherapist - specialties include Couples (clinic's own site team list)"
+   },
+   {
+    "id": "mind-shift-therapy-barrie--rachel-bickley",
+    "name": "Rachel Bickley",
+    "as_recorded": "Rachel Bickley, Registered Psychotherapist (Qualifying) - specialties include Couples (clinic's own site team list)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No couples therapy fee is published on the clinic's own website, and its Jane booking page rendered no fee list in text fetch, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.mindshifttherapy.ca/our-services",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "mind-shift-therapy-barrie",
   "treatment_id": "mind-shift-therapy-barrie--neurofeedback",
   "treatment": "Neurofeedback",
   "billed_as": null,
@@ -53273,7 +53297,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.mindshifttherapy.ca/our-services",
   "last_verified": "2026-11-01"
  },
  {
@@ -53286,7 +53310,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://mindbodybeauty.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -53318,7 +53342,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://mindfire.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -53384,12 +53408,12 @@
   "treatment_id": "mindful-therapies-halifax--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Allison Boyd",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://mindfultherapies.org/halifax-office/",
   "last_verified": "2026-11-01"
  },
  {
@@ -53447,12 +53471,12 @@
   "treatment_id": "mindscape-psychology-medicine-hat--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Monique MacDonald",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://mindscapepsychology.ca/counselling/",
   "last_verified": "2026-11-01"
  },
  {
@@ -53633,7 +53657,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://miracletouchspa.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -53665,7 +53689,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://mishelsnaturalbeauty.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -53710,7 +53734,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://marriagecounsellingtherapy.com/mississauga/",
   "last_verified": "2026-11-01"
  },
  {
@@ -53864,12 +53888,12 @@
   "treatment_id": "ml-counselling-services-sault-ste-marie--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Meaghan Lambert",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://mlcounsellingservices.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -53882,7 +53906,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://mllesofia.com/microneedling/",
   "last_verified": "2026-11-01"
  },
  {
@@ -53890,13 +53914,26 @@
   "treatment_id": "mn-physiotherapy-clinic-oshawa--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Merinisa Natada",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$200 initial assessment \u00b7 $95-$180 MLD follow-up (30-60 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://mnphysiotherapyclinic.janeapp.com/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "mn-physiotherapy-clinic-oshawa",
+  "treatment_id": "mn-physiotherapy-clinic-oshawa--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$130 initial \u00b7 $95 follow-up",
+  "price_source": "No vestibular-specific price is published. The clinic's Jane booking catalogue lists 'Physiotherapy Assessment & Treatment' at $130 and subsequent physiotherapy treatments at $95; vestibular rehabilitation is a physiotherapy service at this clinic (own site's Vestibular Rehab Therapy section), so the clinic's physiotherapy rates are recorded per Pricing Rule v2.",
+  "price_tier": "booking",
+  "treatment_link": "https://mnphysiotherapy.ca",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "mobilita-function-and-performance-london",
@@ -53946,7 +53983,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://momentumhealth.ca",
   "last_verified": "2026-11-02"
  },
  {
@@ -53954,7 +53991,7 @@
   "treatment_id": "momentum-physiotherapy-edmonton--golf-swing-assessment",
   "treatment": "Golf Swing Assessment",
   "billed_as": "Physiotherapy",
-  "practitioner": null,
+  "practitioner": "Giri Srinivasan",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
@@ -53988,6 +54025,19 @@
  },
  {
   "clinic_id": "momentum-sportmed-and-wellness-toronto",
+  "treatment_id": "momentum-sportmed-and-wellness-toronto--lymphatic-drainage",
+  "treatment": "Lymphatic Drainage",
+  "billed_as": "Massage Therapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No lymphatic drainage fee is published on the clinic's own site and its Juvonno booking portal requires a login, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.momentumsportmed.ca/lymphatic-drainage-massage",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "momentum-sportmed-and-wellness-toronto",
   "treatment_id": "momentum-sportmed-and-wellness-toronto--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
@@ -53996,7 +54046,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.momentumsportmed.ca/shockwave-therapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -54066,7 +54116,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.monctonnaturopathic.com/treatments/",
   "last_verified": "2026-11-01"
  },
  {
@@ -54146,12 +54196,12 @@
   "treatment_id": "montreal-fertility-centre-montreal--fertility-consultation",
   "treatment": "Fertility Consultation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Neal Mahutte",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$500 (covered by RAMQ if eligible)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.montrealfertility.com/fees/",
   "last_verified": "2026-11-01"
  },
  {
@@ -54161,10 +54211,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$100 (60 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://moonwellnesshealing.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -54220,8 +54270,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://moosejawnaturopathicclinic.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "moov-physiotherapy-and-wellness-ottawa",
+  "treatment_id": "moov-physiotherapy-and-wellness-ottawa--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$175 initial \u00b7 $110-$175 follow-up",
+  "price_source": "The clinic's Jane booking catalogue (moovphysiotherapy.janeapp.com) lists 'Initial Pelvic Health Assessment' at $175 and 'Pelvic Health Physio Follow up' at $110 (30 min), $150 (45 min) and $175 (60 min) under its Pelvic Health Rehabilitation discipline.",
+  "price_tier": "booking",
+  "treatment_link": "https://moovphysiotherapy.janeapp.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "moov-physiotherapy-and-wellness-ottawa",
@@ -54233,7 +54296,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://moovphysiotherapy.ca/vestibular-rehabilitation-ottawa",
   "last_verified": "2026-11-01"
  },
  {
@@ -54246,7 +54309,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.morethantraining.org/",
   "last_verified": "2026-11-01"
  },
  {
@@ -54256,10 +54319,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "from $185",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.fresha.com/book-now/morgan-roy-hair-trumqk0z/all-offer?share&pId=1476591",
   "last_verified": "2026-11-01"
  },
  {
@@ -54599,13 +54662,45 @@
   "treatment_id": "mountain-ridge-wellness-maple-ridge--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Mohamad Ali, ND",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://mountainridgewellness.ca/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "mountain-ridge-wellness-maple-ridge",
+  "treatment_id": "mountain-ridge-wellness-maple-ridge--red-light-therapy",
+  "treatment": "Red Light Therapy",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Price is null: the record is a premise failure (see gaps); the self-serve Recovery Room is sold as an unlimited pass, not as a priced practitioner treatment.",
+  "price_tier": null,
+  "treatment_link": "https://mountainridgewellness.ca/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "mountain-ridge-wellness-maple-ridge",
+  "treatment_id": "mountain-ridge-wellness-maple-ridge--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Chiropractic",
+  "practitioner": "Dr. Chelsea Lillbeck",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Chelsea Lillbeck, chiropractor - a testimonial on the clinic's own homepage describes her treating a patient's chronic ankle injury with shockwave and Stimpod",
+    "id": "mountain-ridge-wellness-maple-ridge--chelsea-lillbeck",
+    "name": "Dr. Chelsea Lillbeck"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own website or in the service catalogue rendered from its Jane booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://mountainridgewellness.ca/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "mountain-top-counselling-regina",
@@ -54690,12 +54785,12 @@
   "treatment_id": "move-therapeutics-cornwall--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Madison Ruffo",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://movetherapeutics.janeapp.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -54727,7 +54822,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://moveo.ca/products/",
   "last_verified": "2026-11-02"
  },
  {
@@ -54740,7 +54835,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://moveo.ca/products/",
   "last_verified": "2026-11-02"
  },
  {
@@ -55148,15 +55243,34 @@
  },
  {
   "clinic_id": "my-physio-sports-and-rehab-centre-vaughan",
+  "treatment_id": "my-physio-sports-and-rehab-centre-vaughan--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Parul Chauhan",
+  "practitioners": [
+   {
+    "as_recorded": "Parul Chauhan, Physiotherapist, Pelvic Floor Certified, registered with the College of Physiotherapists of Ontario, with Pelvic Health Solutions Levels 1, 2A and 3A training - clinic's own website",
+    "id": "my-physio-sports-and-rehab-centre-vaughan--parul-chauhan",
+    "name": "Parul Chauhan"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No pelvic floor physiotherapy fee is published on the clinic's own website or booking page, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://my-physio.ca/pelvic-floor-physiotherapy-vaughan/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "my-physio-sports-and-rehab-centre-vaughan",
   "treatment_id": "my-physio-sports-and-rehab-centre-vaughan--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$10 per session (add-on within a physiotherapy or chiropractic visit)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://my-physio.ca/shockwave-therapy-treatment-woodbridge-vaughan/",
   "last_verified": "2026-11-01"
  },
  {
@@ -55316,8 +55430,47 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.myodetox.com/ca/locations/cityplace",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-cityplace-toronto",
+  "treatment_id": "myo-cityplace-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy / Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$270 (90 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/cityplace), Specialty Sessions: 'TPI Golf Assessment, 90 Mins, $270'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/cityplace",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-cityplace-toronto",
+  "treatment_id": "myo-cityplace-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$185 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/cityplace), Specialty Sessions: 'Pelvic Health Physiotherapy, 60 Mins, $185'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/cityplace",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-cityplace-toronto",
+  "treatment_id": "myo-cityplace-toronto--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy / Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$180 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/cityplace), Specialty Sessions: 'Run Assessment, 60 Mins, $180'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/cityplace",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "myo-fraser-vancouver",
@@ -55445,8 +55598,47 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.myodetox.com/ca/locations/kitsilano",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-kitsilano-vancouver",
+  "treatment_id": "myo-kitsilano-vancouver--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy / Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$195 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/kitsilano), Specialty Sessions: 'TPI Golf Assessment, 60 Mins, $195'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/kitsilano",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-kitsilano-vancouver",
+  "treatment_id": "myo-kitsilano-vancouver--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$195 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/kitsilano), Specialty Sessions: 'Pelvic Health Physiotherapy, 60 Mins, $195'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/kitsilano",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-kitsilano-vancouver",
+  "treatment_id": "myo-kitsilano-vancouver--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy / Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$195 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/kitsilano), Specialty Sessions: 'Run Assessment, 60 Mins, $195'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/kitsilano",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "myo-lab-calgary",
@@ -55492,26 +55684,91 @@
   "treatment_id": "myo-leslieville-toronto--clinical-pilates",
   "treatment": "Clinical Pilates",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Brynne Billings",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$180 (60 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.myodetox.com/ca/locations/leslieville",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-leslieville-toronto",
+  "treatment_id": "myo-leslieville-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy / Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$270 (90 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/leslieville), Specialty Sessions: 'TPI Golf Assessment, 90 Mins, $270'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/leslieville",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-leslieville-toronto",
+  "treatment_id": "myo-leslieville-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$185 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/leslieville), Specialty Sessions: 'Pelvic Health Physiotherapy, 60 Mins, $185'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/leslieville",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-leslieville-toronto",
+  "treatment_id": "myo-leslieville-toronto--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy / Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$180 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/leslieville), Specialty Sessions: 'Run Assessment, 60 Mins, $180'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/leslieville",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "myo-liberty-village-toronto",
   "treatment_id": "myo-liberty-village-toronto--clinical-pilates",
   "treatment": "Clinical Pilates",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Erin Caplice",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$185 (60 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.myodetox.com/ca/locations/liberty-village",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-liberty-village-toronto",
+  "treatment_id": "myo-liberty-village-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$195 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/liberty-village), Specialty Sessions: 'Pelvic Health Physiotherapy, 60 Mins, $195'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/liberty-village",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-liberty-village-toronto",
+  "treatment_id": "myo-liberty-village-toronto--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy / Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$180 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/liberty-village), Specialty Sessions: 'Run Assessment, 60 Mins, $180'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/liberty-village",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "myo-main-vancouver",
@@ -55626,8 +55883,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.myodetox.com/ca/locations/markham",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-markham-markham",
+  "treatment_id": "myo-markham-markham--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$185 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/markham), Specialty Sessions: 'Pelvic Health Physiotherapy, 60 Mins, $185'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/markham",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "myo-mississauga-mississauga",
@@ -55639,8 +55909,47 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.myodetox.com/ca/locations/mississauga",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-mississauga-mississauga",
+  "treatment_id": "myo-mississauga-mississauga--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Physiotherapy / Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$270 (90 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/mississauga), Specialty Sessions: 'TPI Golf Assessment, 90 Mins, $270'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/mississauga",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-mississauga-mississauga",
+  "treatment_id": "myo-mississauga-mississauga--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$180 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/mississauga), Specialty Sessions: 'Pelvic Health Physiotherapy, 60 Mins, $180'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/mississauga",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-mississauga-mississauga",
+  "treatment_id": "myo-mississauga-mississauga--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy / Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$180 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/mississauga), Specialty Sessions: 'Run Assessment, 60 Mins, $180'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/mississauga",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "myo-myodetox-cityplace-toronto",
@@ -56344,8 +56653,34 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.myodetox.com/ca/locations/park-royal",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-park-royal-west-vancouver",
+  "treatment_id": "myo-park-royal-west-vancouver--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$195 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/park-royal), Specialty Sessions: 'Pelvic Health Physiotherapy, 60 Mins, $195'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/park-royal",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-park-royal-west-vancouver",
+  "treatment_id": "myo-park-royal-west-vancouver--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy / Chiropractic",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$195 (60 min)",
+  "price_source": "Clinic's own website location page (myodetox.com/ca/locations/park-royal), Specialty Sessions: 'Run Assessment, 60 Mins, $195'.",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/ca/locations/park-royal",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "myo-path-brookfield-place-toronto",
@@ -56354,11 +56689,62 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$180 (60 min)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.myodetox.com/locations/path-brookfield-place",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-path-brookfield-place-toronto",
+  "treatment_id": "myo-path-brookfield-place-toronto--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": null,
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$270 (90 min)",
+  "price_source": "Clinic's own location page service menu (TPI Golf Assessment, 90 min, $270)",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/locations/path-brookfield-place",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-path-brookfield-place-toronto",
+  "treatment_id": "myo-path-brookfield-place-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Indu Murali",
+  "practitioners": [
+   {
+    "as_recorded": "Indu Murali",
+    "id": "myo-path-brookfield-place-toronto--indu-murali",
+    "name": "Indu Murali"
+   }
+  ],
+  "price_text": "$185 (60 min)",
+  "price_source": "Clinic's own location page service menu (Pelvic Health Physiotherapy, 60 min, $185)",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/locations/path-brookfield-place",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-path-brookfield-place-toronto",
+  "treatment_id": "myo-path-brookfield-place-toronto--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Alex Hart",
+  "practitioners": [
+   {
+    "as_recorded": "Alex Hart",
+    "id": "myo-path-brookfield-place-toronto--alex-hart",
+    "name": "Alex Hart"
+   }
+  ],
+  "price_text": "$180 (60 min)",
+  "price_source": "Clinic's own location page service menu (Run Assessment, 60 min, $180)",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/locations/path-brookfield-place",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "myo-path-exchange-tower-toronto",
@@ -56370,21 +56756,133 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.myodetox.com/locations/path-exchange-tower",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-path-exchange-tower-toronto",
+  "treatment_id": "myo-path-exchange-tower-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Alissa Ung; Kate Carter",
+  "practitioners": [
+   {
+    "as_recorded": "Alissa Ung",
+    "id": "myo-path-exchange-tower-toronto--alissa-ung",
+    "name": "Alissa Ung"
+   },
+   {
+    "as_recorded": "Kate Carter",
+    "id": "myo-path-exchange-tower-toronto--kate-carter",
+    "name": "Kate Carter"
+   }
+  ],
+  "price_text": "$185 (60 min)",
+  "price_source": "Clinic's own location page service menu (Pelvic Health Physiotherapy, 60 min, $185)",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/locations/path-exchange-tower",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-path-exchange-tower-toronto",
+  "treatment_id": "myo-path-exchange-tower-toronto--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$180 (60 min)",
+  "price_source": "Clinic's own location page service menu (Run Assessment, 60 min, $180)",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/locations/path-exchange-tower",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "myo-richmond-hill-richmond-hill",
   "treatment_id": "myo-richmond-hill-richmond-hill--clinical-pilates",
   "treatment": "Clinical Pilates",
   "billed_as": null,
+  "practitioner": "Verena Siu",
+  "practitioners": [],
+  "price_text": "$150 (60 min)",
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.myodetox.com/locations/richmond-hill",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-richmond-hill-richmond-hill",
+  "treatment_id": "myo-richmond-hill-richmond-hill--golf-swing-assessment",
+  "treatment": "Golf Swing Assessment",
+  "billed_as": "Chiropractic",
+  "practitioner": "Dr. Natalie Ng",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Natalie Ng",
+    "id": "myo-richmond-hill-richmond-hill--dr-natalie-ng",
+    "name": "Dr. Natalie Ng"
+   }
+  ],
+  "price_text": "$270 (90 min)",
+  "price_source": "Clinic's own location page service menu (TPI Golf Assessment, 90 min, $270)",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/locations/richmond-hill",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-richmond-hill-richmond-hill",
+  "treatment_id": "myo-richmond-hill-richmond-hill--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Brooke Thompson; Sabrina Trung",
+  "practitioners": [
+   {
+    "as_recorded": "Brooke Thompson",
+    "id": "myo-richmond-hill-richmond-hill--brooke-thompson",
+    "name": "Brooke Thompson"
+   },
+   {
+    "as_recorded": "Sabrina Trung",
+    "id": "myo-richmond-hill-richmond-hill--sabrina-trung",
+    "name": "Sabrina Trung"
+   }
+  ],
+  "price_text": "$185 (60 min)",
+  "price_source": "Clinic's own location page service menu (Pelvic Health Physiotherapy, 60 min, $185)",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/locations/richmond-hill",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-richmond-hill-richmond-hill",
+  "treatment_id": "myo-richmond-hill-richmond-hill--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
   "practitioner": null,
   "practitioners": [],
+  "price_text": "$180 (60 min)",
+  "price_source": "Clinic's own location page service menu (Run Assessment, 60 min, $180)",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/locations/richmond-hill",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-richmond-hill-richmond-hill",
+  "treatment_id": "myo-richmond-hill-richmond-hill--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Tatjana Stankovic",
+  "practitioners": [
+   {
+    "as_recorded": "Tatjana Stankovic, RMT",
+    "id": "myo-richmond-hill-richmond-hill--tatjana-stankovic",
+    "name": "Tatjana Stankovic"
+   }
+  ],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
-  "last_verified": "2026-11-01"
+  "treatment_link": "https://www.myodetox.com/locations/richmond-hill",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "myo-richmond-richmond",
@@ -56396,33 +56894,118 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.myodetox.com/locations/richmond",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-richmond-richmond",
+  "treatment_id": "myo-richmond-richmond--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": "$195 (60 min)",
+  "price_source": "Clinic's own location page service menu (Run Assessment, 60 min, $195)",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/locations/richmond",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "myo-yorkville-toronto",
   "treatment_id": "myo-yorkville-toronto--clinical-pilates",
   "treatment": "Clinical Pilates",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Kaila Lunny; Dr. Monika Reinstein",
   "practitioners": [],
+  "price_text": "$180 (60 min)",
+  "price_source": null,
+  "price_tier": null,
+  "treatment_link": "https://www.myodetox.com/locations/yorkville",
+  "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "myo-yorkville-toronto",
+  "treatment_id": "myo-yorkville-toronto--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Kate Moon; Sanyaa Sothinathan; Kaila Lunny; Gill Balboul",
+  "practitioners": [
+   {
+    "as_recorded": "Kate Moon",
+    "id": "myo-yorkville-toronto--kate-moon",
+    "name": "Kate Moon"
+   },
+   {
+    "as_recorded": "Sanyaa Sothinathan",
+    "id": "myo-yorkville-toronto--sanyaa-sothinathan",
+    "name": "Sanyaa Sothinathan"
+   },
+   {
+    "as_recorded": "Kaila Lunny",
+    "id": "myo-yorkville-toronto--kaila-lunny",
+    "name": "Kaila Lunny"
+   },
+   {
+    "as_recorded": "Gill Balboul",
+    "id": "myo-yorkville-toronto--gill-balboul",
+    "name": "Gill Balboul"
+   }
+  ],
+  "price_text": "$185 (60 min)",
+  "price_source": "Clinic's own location page service menu (Pelvic Health Physiotherapy, 60 min, $185)",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/locations/yorkville",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-yorkville-toronto",
+  "treatment_id": "myo-yorkville-toronto--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Kelli Brooks",
+  "practitioners": [
+   {
+    "as_recorded": "Kelli Brooks",
+    "id": "myo-yorkville-toronto--kelli-brooks",
+    "name": "Kelli Brooks"
+   }
+  ],
+  "price_text": "$180 (60 min)",
+  "price_source": "Clinic's own location page service menu (Run Assessment, 60 min, $180)",
+  "price_tier": "website",
+  "treatment_link": "https://www.myodetox.com/locations/yorkville",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myo-yorkville-toronto",
+  "treatment_id": "myo-yorkville-toronto--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Kelli Brooks",
+  "practitioners": [
+   {
+    "as_recorded": "Kelli Brooks",
+    "id": "myo-yorkville-toronto--kelli-brooks",
+    "name": "Kelli Brooks"
+   }
+  ],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
-  "last_verified": "2026-11-01"
+  "treatment_link": "https://www.myodetox.com/locations/yorkville",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "myobalance-vancouver",
   "treatment_id": "myobalance-vancouver--facial-gua-sha",
   "treatment": "Facial Gua Sha",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Jeannie Mundle",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$125 (45 min Gua Sha) \u00b7 $187 (75 min Signature, incl. Gua Sha option)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.myobalance.ca/facialmassagetherapy",
   "last_verified": "2026-11-01"
  },
  {
@@ -56579,25 +57162,113 @@
   "treatment_id": "myodynamic-health-physiotherapy-orthotics-barrie--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Faith Akinyemi; Natasha Minas",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$150 initial \u00b7 $125 follow-up (45 min) \u00b7 $95 (30 min)",
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://myodynamic.ca/pages/pelvic-floor-physiotherapy-barrie",
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "myodynamic-health-physiotherapy-orthotics-barrie",
+  "treatment_id": "myodynamic-health-physiotherapy-orthotics-barrie--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Tara Leeming; Jon Lawrance; Dr. Brad Dormiedy; Dr. Lucrecia Hardowar; Dr. Adam Murphy; Dr. Maria Cichalewski; Josh Mynott; Mitchell Hartman",
+  "practitioners": [
+   {
+    "as_recorded": "Tara Leeming",
+    "id": "myodynamic-health-physiotherapy-orthotics-barrie--tara-leeming",
+    "name": "Tara Leeming"
+   },
+   {
+    "as_recorded": "Jon Lawrance",
+    "id": "myodynamic-health-physiotherapy-orthotics-barrie--jon-lawrance",
+    "name": "Jon Lawrance"
+   },
+   {
+    "as_recorded": "Dr. Brad Dormiedy",
+    "id": "myodynamic-health-physiotherapy-orthotics-barrie--dr-brad-dormiedy",
+    "name": "Dr. Brad Dormiedy"
+   },
+   {
+    "as_recorded": "Dr. Lucrecia Hardowar",
+    "id": "myodynamic-health-physiotherapy-orthotics-barrie--dr-lucrecia-hardowar",
+    "name": "Dr. Lucrecia Hardowar"
+   },
+   {
+    "as_recorded": "Dr. Adam Murphy",
+    "id": "myodynamic-health-physiotherapy-orthotics-barrie--dr-adam-murphy",
+    "name": "Dr. Adam Murphy"
+   },
+   {
+    "as_recorded": "Dr. Maria Cichalewski",
+    "id": "myodynamic-health-physiotherapy-orthotics-barrie--dr-maria-cichalewski",
+    "name": "Dr. Maria Cichalewski"
+   },
+   {
+    "as_recorded": "Josh Mynott",
+    "id": "myodynamic-health-physiotherapy-orthotics-barrie--josh-mynott",
+    "name": "Josh Mynott"
+   },
+   {
+    "as_recorded": "Mitchell Hartman",
+    "id": "myodynamic-health-physiotherapy-orthotics-barrie--mitchell-hartman",
+    "name": "Mitchell Hartman"
+   }
+  ],
+  "price_text": "$150 initial assessment \u00b7 $100 follow-up",
+  "price_source": "Clinic's Jane booking page (myodynamichealth.janeapp.com, Barrie location): Initial Shockwave Therapy Assessment $150; Shockwave Therapy Follow-Up $100",
+  "price_tier": "booking",
+  "treatment_link": "https://myodynamichealth.janeapp.com",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "myodynamic-health-physiotherapy-orthotics-barrie",
+  "treatment_id": "myodynamic-health-physiotherapy-orthotics-barrie--tmj-massage",
+  "treatment": "TMJ Massage",
+  "billed_as": "Massage Therapy",
+  "practitioner": "Matt Spencer; Katy Dempster; Jenny Burk; Trevor O'Donnell",
+  "practitioners": [
+   {
+    "as_recorded": "Matt Spencer",
+    "id": "myodynamic-health-physiotherapy-orthotics-barrie--matt-spencer",
+    "name": "Matt Spencer"
+   },
+   {
+    "as_recorded": "Katy Dempster",
+    "id": "myodynamic-health-physiotherapy-orthotics-barrie--katy-dempster",
+    "name": "Katy Dempster"
+   },
+   {
+    "as_recorded": "Jenny Burk",
+    "id": "myodynamic-health-physiotherapy-orthotics-barrie--jenny-burk",
+    "name": "Jenny Burk"
+   },
+   {
+    "as_recorded": "Trevor O'Donnell",
+    "id": "myodynamic-health-physiotherapy-orthotics-barrie--trevor-odonnell",
+    "name": "Trevor O'Donnell"
+   }
+  ],
+  "price_text": "$80 (30 min) \u00b7 $100 (45 min) \u00b7 $120 (60 min)",
+  "price_source": "Clinic's Jane booking page (myodynamichealth.janeapp.com, Barrie location): TMJ massage $80 (30 min) / $100 (45 min) / $120 (60 min)",
+  "price_tier": "booking",
+  "treatment_link": "https://myodynamichealth.janeapp.com",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "myokinesis-moncton",
   "treatment_id": "myokinesis-moncton--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Ashley Carpenter",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$165 (90 min MyoLymphatic Reflexology)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://myokinesis.janeapp.com/locations/myokinesis-dieppe",
   "last_verified": "2026-11-01"
  },
  {
@@ -56610,20 +57281,39 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.namijapaneseheadspa.com/headspa-services-calgary",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "nanaimo-iv-therapy-nanaimo",
+  "treatment_id": "nanaimo-iv-therapy-nanaimo--im-vitamin-therapy",
+  "treatment": "IM Vitamin Therapy",
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Tonia Winchester",
+  "practitioners": [
+   {
+    "as_recorded": "Dr. Tonia Winchester, ND, BSc. | Naturopathic Doctor | IV Nutrient Therapist",
+    "id": "nanaimo-iv-therapy-nanaimo--dr-tonia-winchester",
+    "name": "Dr. Tonia Winchester"
+   }
+  ],
+  "price_text": "$70 B12 \u00b7 $100 B Complex \u00b7 $130 NAD+",
+  "price_source": "Booking page (kneadtherapy.janeapp.com): B 12 Injection $70; B Complex Injection $100; NAD+ Injection $130",
+  "price_tier": "booking",
+  "treatment_link": "https://kneadtherapy.janeapp.com",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "nanaimo-iv-therapy-nanaimo",
   "treatment_id": "nanaimo-iv-therapy-nanaimo--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Tonia Winchester",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$180 Myers drip \u00b7 $230 Myers + aminos \u00b7 $285 consult + Myers",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://kneadtherapy.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -56650,12 +57340,12 @@
   "treatment_id": "natalie-koleric-therapy-winnipeg--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Natalie Koleric",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://nataliekolerictherapy.ca",
   "last_verified": "2026-11-01"
  },
  {
@@ -56903,12 +57593,12 @@
   "treatment_id": "nathalie-lalumiere-rmt-belleville--lymphatic-drainage",
   "treatment": "Lymphatic Drainage",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nathalie Lalumiere",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.rmtnat.com/services",
   "last_verified": "2026-11-01"
  },
  {
@@ -57548,7 +58238,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://ncsalon.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -57636,6 +58326,19 @@
  },
  {
   "clinic_id": "nepean-sports-medicine-and-physiotherapy-centre-ottawa",
+  "treatment_id": "nepean-sports-medicine-and-physiotherapy-centre-ottawa--mental-performance-coaching",
+  "treatment": "Mental Performance Coaching",
+  "billed_as": "Mental Performance Consulting",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own site pages read in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.nepeansportsmedicine.ca/site/blog/2022/07/15/mental-performance-consulting",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "nepean-sports-medicine-and-physiotherapy-centre-ottawa",
   "treatment_id": "nepean-sports-medicine-and-physiotherapy-centre-ottawa--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
@@ -57644,8 +58347,47 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.nepeansportsmedicine.ca/site/pelvic-health-services-physiotherapy-nepean",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "nepean-sports-medicine-and-physiotherapy-centre-ottawa",
+  "treatment_id": "nepean-sports-medicine-and-physiotherapy-centre-ottawa--running-gait-analysis",
+  "treatment": "Running Gait Analysis",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own site pages read in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.nepeansportsmedicine.ca/site/blog/2021/11/30/ache-feet-physiotherapy",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "nepean-sports-medicine-and-physiotherapy-centre-ottawa",
+  "treatment_id": "nepean-sports-medicine-and-physiotherapy-centre-ottawa--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own site pages read in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.nepeansportsmedicine.ca/site/blog/2021/11/30/ache-feet-physiotherapy",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "nepean-sports-medicine-and-physiotherapy-centre-ottawa",
+  "treatment_id": "nepean-sports-medicine-and-physiotherapy-centre-ottawa--sports-nutrition",
+  "treatment": "Sports Nutrition",
+  "billed_as": "Dietitian",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No fees are published on the clinic's own site pages read in this pass, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.nepeansportsmedicine.ca/site/dietitian-nutrition-nepean-ottawa",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "nepean-sports-medicine-physiotherapy-centre-nepean",
@@ -57738,15 +58480,34 @@
  },
  {
   "clinic_id": "neuralive-counselling-and-neurofeedback-victoria",
+  "treatment_id": "neuralive-counselling-and-neurofeedback-victoria--couples-therapy",
+  "treatment": "Couples Therapy",
+  "billed_as": "Counselling",
+  "practitioner": "Jennifer",
+  "practitioners": [
+   {
+    "id": "neuralive-counselling-and-neurofeedback-victoria--jennifer",
+    "name": "Jennifer",
+    "as_recorded": "Jennifer, Reg. Clinical Counsellor (RCC), Neurofeedback Practitioner, VICTORIA & ONLINE (Empire St) - 'Counselling (14+): Youth, Adults, Couples; Neurofeedback (6+): Children, Youth, Adults' per the clinic's own neurofeedback page practitioner card (surname not published in the fetched card; first-name-only per schema)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "No couples counselling fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://neuralive.org/services/counselling/",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "neuralive-counselling-and-neurofeedback-victoria",
   "treatment_id": "neuralive-counselling-and-neurofeedback-victoria--neurofeedback",
   "treatment": "Neurofeedback",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Zachary Bruyere; Jennifer",
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$140/session (in-office with RCC); $60/session (Community Clinic); At-Home $1,280/28 days, $2,480/56 days",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://neuralive.org/services/neurofeedback/",
   "last_verified": "2026-11-01"
  },
  {
@@ -57812,12 +58573,12 @@
   "treatment_id": "neuroorchestra-north-vancouver--neurofeedback",
   "treatment": "Neurofeedback",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Dr. Mahtab Sarraf",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "http://www.neuroorchestra.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -57944,10 +58705,10 @@
   "billed_as": null,
   "practitioner": null,
   "practitioners": [],
-  "price_text": null,
+  "price_text": "$25 file opening; $800 complete initial assessment; $170/session (custom protocol, min. 12 sessions)",
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://neuroperforma.com/les-cliniques-neuroperforma/clinique-trois-rivieres/",
   "last_verified": "2026-11-01"
  },
  {
@@ -57960,7 +58721,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://neuropotentialclinics.com/",
   "last_verified": "2026-11-01"
  },
  {
@@ -58024,8 +58785,21 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://neuromtl.com/fr/services/",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "neurotherapie-montreal-montreal",
+  "treatment_id": "neurotherapie-montreal-montreal--psychoeducational-assessments",
+  "treatment": "Psychoeducational Assessments",
+  "billed_as": "Psychology",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No assessment fee is published on the clinic's own website, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://neuromtl.com/fr/services/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "neurvana-naturopathic-medicine-calgary",
@@ -58063,7 +58837,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://newagespa.ca/microneedling/",
   "last_verified": "2026-11-01"
  },
  {
@@ -58071,13 +58845,39 @@
   "treatment_id": "new-hope-physiotherapy-brampton--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Gauravdeep Randhawa",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.newhopephysio.com/pelvic-floor-physiotherapy",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "new-hope-physiotherapy-brampton",
+  "treatment_id": "new-hope-physiotherapy-brampton--shockwave-therapy",
+  "treatment": "Shockwave Therapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No shockwave fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.newhopephysio.com/shockwave-therapy",
+  "last_verified": "2026-11-02"
+ },
+ {
+  "clinic_id": "new-hope-physiotherapy-brampton",
+  "treatment_id": "new-hope-physiotherapy-brampton--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "No vestibular rehabilitation fee is published on the clinic's own site, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.newhopephysio.com/blog/discover-vestibular-therapy-your-path-to-balance-and-recovery/",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "new-leaf-physiotherapy-kelowna",
@@ -58097,12 +58897,12 @@
   "treatment_id": "new-leaf-therapy-kate-paul-moose-jaw--couples-therapy",
   "treatment": "Couples Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Kate Paul",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://newleaftherapyonline.janeapp.com",
   "last_verified": "2026-11-01"
  },
  {
@@ -58267,7 +59067,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.newtide.ca/",
   "last_verified": "2026-11-01"
  },
  {
@@ -58280,7 +59080,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.newtide.ca/",
   "last_verified": "2026-11-01"
  },
  {
