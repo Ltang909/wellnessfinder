@@ -44335,7 +44335,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/Canada-Games-Centre",
   "last_verified": "2026-11-01"
  },
  {
@@ -44452,7 +44452,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/blackburn-and-taylor-kidd",
   "last_verified": "2026-11-01"
  },
  {
@@ -44607,7 +44607,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/chestermere/chestermere",
   "last_verified": "2026-11-01"
  },
  {
@@ -44615,12 +44615,12 @@
   "treatment_id": "lifemark-physiotherapy-church-street-markham--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Louisa Simpson, Physiotherapist (training in vestibular and concussion rehabilitation)",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/Church-Street",
   "last_verified": "2026-11-01"
  },
  {
@@ -44628,12 +44628,12 @@
   "treatment_id": "lifemark-physiotherapy-courtside-regina--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "SueAnn Farthing, Physiotherapist (certified in Vestibular Rehabilitation; Clinical Director, Lifemark Courtside)",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/courtside",
   "last_verified": "2026-11-01"
  },
  {
@@ -44685,7 +44685,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/milton/derry-and-bronte",
   "last_verified": "2026-11-01"
  },
  {
@@ -44750,7 +44750,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/edmonton-terra-losa",
   "last_verified": "2026-11-01"
  },
  {
@@ -44758,12 +44758,12 @@
   "treatment_id": "lifemark-physiotherapy-elm-and-wilson-st-thomas--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Taylor Feick, Physiotherapist; Joleen Elder, Physiotherapist",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/st-thomas/elm-and-wilson",
   "last_verified": "2026-11-01"
  },
  {
@@ -44776,7 +44776,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/greenwood/greenwood-central",
   "last_verified": "2026-11-01"
  },
  {
@@ -44789,20 +44789,39 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/Gulf-Canada-Square",
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "lifemark-physiotherapy-hamilton-mountain-hamilton",
+  "treatment_id": "lifemark-physiotherapy-hamilton-mountain-hamilton--pelvic-floor-physiotherapy",
+  "treatment": "Pelvic Floor Physiotherapy",
+  "billed_as": "Physiotherapy",
+  "practitioner": "Riddhi Desai, Physiotherapist (pelvic floor health specialist)",
+  "practitioners": [
+   {
+    "id": "lifemark-physiotherapy-hamilton-mountain-hamilton--riddhi-desai",
+    "name": "Riddhi Desai",
+    "as_recorded": "Riddhi Desai, Physiotherapist (Lifemark therapist profile, lifemark.ca/therapists/riddhi/desai/3446843)"
+   }
+  ],
+  "price_text": null,
+  "price_source": "Lifemark does not publish per-session fees on this clinic's own pages or booking flow, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.lifemark.ca/hamilton-mountain",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "lifemark-physiotherapy-hamilton-mountain-hamilton",
   "treatment_id": "lifemark-physiotherapy-hamilton-mountain-hamilton--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Tristan Sault, PT, Physiotherapist (advanced vestibular rehabilitation training, Lifemark Specialty Development program)",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/hamilton-mountain",
   "last_verified": "2026-11-01"
  },
  {
@@ -44841,7 +44860,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/surrey/surrey-hazelwood",
   "last_verified": "2026-11-01"
  },
  {
@@ -44849,12 +44868,12 @@
   "treatment_id": "lifemark-physiotherapy-jamieson-and-townline-cambridge--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Nimmy Thomas",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/services/pelvic-health",
   "last_verified": "2026-11-01"
  },
  {
@@ -44869,6 +44888,19 @@
   "price_tier": null,
   "treatment_link": null,
   "last_verified": "2026-11-01"
+ },
+ {
+  "clinic_id": "lifemark-physiotherapy-kamloops-kamloops",
+  "treatment_id": "lifemark-physiotherapy-kamloops-kamloops--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Lifemark does not publish treatment fees on this clinic's pages or on a public booking page; no fee list could be verified anywhere for this clinic, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.lifemark.ca/services/dizziness-balance",
+  "last_verified": "2026-11-02"
  },
  {
   "clinic_id": "lifemark-physiotherapy-kanata-march-road-ottawa",
@@ -44933,12 +44965,12 @@
   "treatment_id": "lifemark-physiotherapy-keefer-place-vancouver--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Kathryn M.",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/services/dizziness-balance",
   "last_verified": "2026-11-01"
  },
  {
@@ -44998,12 +45030,12 @@
   "treatment_id": "lifemark-physiotherapy-kingsway-edmonton--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Geoff Wendell",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/services/dizziness-balance",
   "last_verified": "2026-11-01"
  },
  {
@@ -45063,12 +45095,12 @@
   "treatment_id": "lifemark-physiotherapy-mill-cove-bedford--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Yves Cormier",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/services/dizziness-balance",
   "last_verified": "2026-11-01"
  },
  {
@@ -45111,6 +45143,19 @@
   "last_verified": "2026-11-01"
  },
  {
+  "clinic_id": "lifemark-physiotherapy-nordel-way-surrey",
+  "treatment_id": "lifemark-physiotherapy-nordel-way-surrey--vestibular-rehabilitation",
+  "treatment": "Vestibular Rehabilitation",
+  "billed_as": "Physiotherapy",
+  "practitioner": null,
+  "practitioners": [],
+  "price_text": null,
+  "price_source": "Lifemark does not publish treatment fees on this clinic's pages or on a public booking page; no fee list could be verified anywhere for this clinic, so price is null.",
+  "price_tier": null,
+  "treatment_link": "https://www.lifemark.ca/services/dizziness-balance",
+  "last_verified": "2026-11-02"
+ },
+ {
   "clinic_id": "lifemark-physiotherapy-pelham-and-glendale-st-catharines",
   "treatment_id": "lifemark-physiotherapy-pelham-and-glendale-st-catharines--pelvic-floor-physiotherapy",
   "treatment": "Pelvic Floor Physiotherapy",
@@ -45120,7 +45165,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/services/pelvic-health",
   "last_verified": "2026-11-01"
  },
  {
@@ -45128,12 +45173,12 @@
   "treatment_id": "lifemark-physiotherapy-peterborough-peterborough--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Devin Brooks",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/services/dizziness-balance",
   "last_verified": "2026-11-01"
  },
  {
@@ -45141,12 +45186,12 @@
   "treatment_id": "lifemark-physiotherapy-pickering-rougemount-pickering--shockwave-therapy",
   "treatment": "Shockwave Therapy",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Haard Rao",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/pickering/pickering-physiotherapy-clinic",
   "last_verified": "2026-11-01"
  },
  {
@@ -45185,7 +45230,7 @@
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/clinics/dartmouth/portland-street",
   "last_verified": "2026-11-01"
  },
  {
@@ -45193,12 +45238,12 @@
   "treatment_id": "lifemark-physiotherapy-quarry-park-calgary--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Sheri Funk",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/services/dizziness-balance",
   "last_verified": "2026-11-01"
  },
  {
@@ -45206,12 +45251,12 @@
   "treatment_id": "lifemark-physiotherapy-royal-oak-calgary--vestibular-rehabilitation",
   "treatment": "Vestibular Rehabilitation",
   "billed_as": null,
-  "practitioner": null,
+  "practitioner": "Amarjeet Saini",
   "practitioners": [],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
-  "treatment_link": null,
+  "treatment_link": "https://www.lifemark.ca/services/dizziness-balance",
   "last_verified": "2026-11-01"
  },
  {
