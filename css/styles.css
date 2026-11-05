@@ -1422,6 +1422,12 @@ button.nc-slot-chip { font-family: inherit; cursor: pointer; }
 .wf-plan-prev { background: #F4F6F3; border: 1px dashed #C9D2C9; border-radius: 10px; padding: 9px 12px; font-size: .85rem; color: #44604D; margin: 10px 0 0; }
 .wf-insurer { background: #fff; border: 1px dashed #C9D2C9; border-radius: 14px; padding: 6px 16px 8px; margin: 4px 0 12px; }
 .wf-req-note { color: #5C6B5E; font-size: .85rem; margin: 2px 0 9px; }
+.wf-email { margin-top: 2px; }
+.wf-email textarea { width: 100%; box-sizing: border-box; padding: 12px 14px; border: 1.5px solid #CCD3CD; border-radius: 11px; font-family: inherit; font-size: .92rem; line-height: 1.55; background: #fff; color: #161616; resize: vertical; min-height: 190px; margin: 0; }
+.wf-email textarea:focus { outline: none; border-color: #0F2D2B; }
+.wf-email-foot { display: flex; align-items: baseline; justify-content: space-between; gap: 8px 14px; flex-wrap: wrap; margin-top: 6px; }
+.wf-email-hint { color: #8A978C; font-size: .8rem; }
+.wf-reset { background: none; border: none; padding: 0; font-family: inherit; font-size: .83rem; font-weight: 600; color: #0F2D2B; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }
 .wf-req-err { color: #B3543F; font-weight: 600; font-size: .9rem; margin: 6px 0; }
 .wf-req-err a { color: #0F2D2B; }
 .wf-req-foot { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 4px; }

@@ -22,7 +22,6 @@
 
   var count = document.getElementById("savedCount");
   var empty = document.getElementById("savedEmpty");
-  var clear = document.getElementById("clearSaved");
 
   function $(id) { return document.getElementById(id); }
   function storeSet(k, v) {
@@ -819,40 +818,41 @@
     });
   }
 
-  /* ---------- location bar ---------- */
+  /* ---------- location control (Saved clinics filter row) ----------
+     Relocated from the standalone bar under the wallet hero
+     (Nov 5): identical wfLoc/wfProv behaviour and the same
+     wf:location event; the bar's booklet-status text went away
+     with it (hero + Composer cover booklet status/upload). */
   var locEditing = false;
-  function renderLocBar() {
-    var host = $("mwLocBar");
-    if (!host) return;
+  function locChipHTML() {
     var p = window.wfLoc ? wfLoc.get() : "";
     var prov = window.wfProv ? wfProv.get() : "";
     if (p && !prov) prov = FSA_PROV[String(p).toUpperCase()[0]] || "";
-    var b = booklet();
-    var bookHtml = b
-      ? '<span class="mw-bookstat">📄 <b>Booklet on file:</b> ' + esc(b.insurer || "Plan") + (b.uploadedISO ? " · uploaded " + esc(String(b.uploadedISO).slice(0, 10)) : "") + '</span> <button type="button" class="mw-linklike" id="mwLocNewer">Upload a newer PDF</button>'
-      : '<span class="mw-bookstat">No booklet yet — balances appear once you add one.</span>';
-    var locHtml;
     if (locEditing) {
       var opts = ['<option value="">Province</option>', '<option value="CA"' + (prov === "CA" ? " selected" : "") + ">Canada</option>"]
         .concat(Object.keys(PROV_NAMES).filter(function (k) { return k !== "CA"; }).map(function (k) {
           return '<option value="' + k + '"' + (k === prov ? " selected" : "") + ">" + PROV_NAMES[k] + "</option>";
         })).join("");
-      locHtml = '<form class="mw-locform" id="mwLocForm"><span aria-hidden="true">📍</span>'
+      return '<form class="mw-locform" id="mwLocForm"><span aria-hidden="true">📍</span>'
         + '<input id="mwLocPostal" placeholder="Postal code" autocomplete="postal-code" value="' + esc(p || "") + '" aria-label="Postal code">'
         + '<select id="mwLocProv" class="mw-sel" aria-label="Province">' + opts + "</select>"
         + '<button class="btn btn--primary btn--sm" type="submit">Set location</button>'
         + '<button type="button" class="mw-linklike" id="mwLocCancel">Cancel</button></form>';
-    } else if (p) {
-      var fsa = String(p).toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 3);
-      locHtml = '<span aria-hidden="true">📍</span><span>Showing clinics near</span><span class="mw-postalchip">' + esc(fsa) + (prov && prov !== "CA" ? " · " + esc(PROV_NAMES[prov] || prov) : "") + '</span><button type="button" class="mw-linklike" id="mwLocChange">Change</button>';
-    } else {
-      locHtml = '<span aria-hidden="true">📍</span><span>See clinics near you</span><button type="button" class="mw-linklike" id="mwLocChange">Set your location</button>';
     }
-    host.innerHTML = '<div class="mw-locbar">' + locHtml + '<span class="spacer"></span>' + bookHtml + "</div>";
+    if (p) {
+      var fsa = String(p).toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 3);
+      return '<span class="mw-locchip"><span aria-hidden="true">📍</span><span>Near <b>' + esc(fsa) + (prov && prov !== "CA" ? " · " + esc(PROV_NAMES[prov] || prov) : "") + '</b></span><button type="button" class="mw-linklike" id="mwLocChange">Change</button></span>';
+    }
+    if (prov) {
+      return '<span class="mw-locchip"><span aria-hidden="true">📍</span><b>' + esc(prov === "CA" ? "Canada" : (PROV_NAMES[prov] || prov)) + '</b><button type="button" class="mw-linklike" id="mwLocChange">Change</button></span>';
+    }
+    return '<span class="mw-locchip"><span aria-hidden="true">📍</span><button type="button" class="mw-linklike" id="mwLocChange">Set your location</button></span>';
+  }
+  function wireLocChip() {
     var ch = $("mwLocChange");
-    if (ch) ch.addEventListener("click", function () { locEditing = true; renderLocBar(); var i = $("mwLocPostal"); if (i) { i.focus(); i.select(); } });
+    if (ch) ch.addEventListener("click", function () { locEditing = true; renderFilters(); var i = $("mwLocPostal"); if (i) { i.focus(); i.select(); } });
     var ca = $("mwLocCancel");
-    if (ca) ca.addEventListener("click", function () { locEditing = false; renderLocBar(); });
+    if (ca) ca.addEventListener("click", function () { locEditing = false; renderFilters(); });
     var form = $("mwLocForm");
     if (form) form.addEventListener("submit", function (e) {
       e.preventDefault();
@@ -865,8 +865,6 @@
       locEditing = false;
       window.dispatchEvent(new CustomEvent("wf:location"));
     });
-    var nw = $("mwLocNewer");
-    if (nw) nw.addEventListener("click", pickPdf);
   }
 
   /* ---------- wallet cards ---------- */
@@ -1191,7 +1189,6 @@
   }
   function renderWallet() {
     renderHero();
-    renderLocBar();
     renderWalletCards();
     renderTimeline();
   }
@@ -2339,7 +2336,7 @@
   function renderFilters() {
     var host = $("mwFilters");
     if (!host) return;
-    if (!clinicVMs.length) { host.innerHTML = ""; return; }
+    if (!clinicVMs.length) { host.innerHTML = locChipHTML(); wireLocChip(); return; }
     var offered = {};
     clinicVMs.forEach(function (vm) { vm.treatments.forEach(function (t) { offered[t] = true; }); });
     var savedTx = activeFavs().filter(function (n) { return treatmentByName(n) && offered[n]; });
@@ -2358,7 +2355,9 @@
       + '<option value="closest"' + (filters.sort === "closest" ? " selected" : "") + ">Closest</option>"
       + '<option value="rated"' + (filters.sort === "rated" ? " selected" : "") + ">Highest rated</option>"
       + '<option value="coverage"' + (filters.sort === "coverage" ? " selected" : "") + ">Most coverage left</option>"
-      + "</select></label>";
+      + "</select></label>"
+      + locChipHTML();
+    wireLocChip();
     var ds = $("mwDistSel");
     if (ds) ds.addEventListener("change", function () { filters.dist = parseInt(ds.value, 10) || 50; renderClinics(); updateNearCounts(); });
     var ss = $("mwSortSel");
@@ -2585,7 +2584,6 @@
     var total = nTx + clinicVMs.length;
     if (count) count.textContent = String(total);
     if (empty) empty.hidden = total !== 0;
-    if (clear) clear.disabled = total === 0;
     renderArchived();
     renderRequests();
     return total;
@@ -2709,14 +2707,6 @@
     });
   }
 
-  if (clear) {
-    clear.addEventListener("click", function () {
-      storeSet(FAV_KEY, "[]");
-      setArchived([]);
-      renderAllSaved();
-    });
-  }
-
   var emailForm = document.getElementById("savedEmailForm");
   var emailInput = document.getElementById("savedEmailInput");
   var emailMsg = document.getElementById("savedEmailMsg");
@@ -2751,7 +2741,7 @@
   window.addEventListener("wf:location", function () {
     userPt = null; userPtKey = "";
     locEditing = false;
-    renderLocBar();
+    renderFilters();
     refreshAsync();
   });
   window.addEventListener("wf:requests", function () { renderRequests(); });

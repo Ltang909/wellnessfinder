@@ -70,6 +70,10 @@ $insurer  = $flat($cut($get('insurer'), 80));
 $otherTimes = $cut($get('otherTimes'), 200);
 $planSummary = $cut($get('planSummaryText'), 600);
 $includeSummary = !empty($in['includeSummary']);
+/* The visitor-edited email text (the form shows them the exact
+   email, prefilled by the client composer, and they can edit it
+   freely). When present it IS the body — see Compose below. */
+$message  = $cut($get('message'), 2500);
 
 $asks = (isset($in['asks']) && is_array($in['asks'])) ? $in['asks'] : [];
 $askTime = !empty($asks['time']);
@@ -190,6 +194,17 @@ if ($askTime && $askCov) {
 }
 $subject = '[WellFinder] ' . $kind . ' — Case ' . $caseId;
 
+if ($message !== '') {
+    /* Visitor-edited path: their text verbatim + the standard
+       footer. None of the structured lines below are added, so
+       nothing (times, coverage questions, note) is duplicated.
+       The subject stays composed from the asks, as before. */
+    $body = $message . "\n\n—\n"
+        . 'Reply directly to this email to reach ' . $name . ".\n"
+        . 'Sent via WellFinder · Case ' . $caseId . ' · Visitor ' . $userId . "\n";
+} else {
+    /* Legacy path (cached clients without a message): compose
+       from the structured fields, exactly as before. */
 $lines = [];
 $lines[] = 'Hello ' . $clinicName . ' team,';
 $lines[] = '';
@@ -239,6 +254,7 @@ $lines[] = '—';
 $lines[] = 'Reply directly to this email to reach ' . $name . '.';
 $lines[] = 'Sent via WellFinder · Case ' . $caseId . ' · Visitor ' . $userId;
 $body = implode("\n", $lines) . "\n";
+}
 
 $headers = implode("\r\n", [
     'From: WellFinder <hello@wellfinder.ca>',

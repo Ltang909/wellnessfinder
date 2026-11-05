@@ -255,7 +255,16 @@
     const sentence = "Covered under " + (insurer || "my plan") + (tier ? " " + tier : "")
       + " (bills as " + cat + (pct != null ? ", " + pct + "% plan coverage" : "")
       + ") — please confirm it's billable under my plan and the total cost.";
-    return { insurer, tier, coverage: b.coverage || "", category: cat, claim, pool, pct, display, sentence };
+    /* First-person version for the editable-email composer: the
+       visitor speaking about their own plan. */
+    const firstPerson = "My plan is " + (insurer || "my plan") + (tier ? " " + tier : "")
+      + (b.coverage ? " (" + b.coverage + ")" : "")
+      + " — " + treatmentName + " bills under " + cat
+      + (pct != null ? ", " + pct + "% covered" : "")
+      + ", and my benefits wallet shows " + reqMoney(claim) + " left"
+      + (pool ? " of the " + reqMoney(pool.max) + (poolName ? " combined " + poolName : "") + " pool" : "")
+      + ".";
+    return { insurer, tier, coverage: b.coverage || "", category: cat, claim, pool, pct, display, sentence, firstPerson };
   };
   const reqHasBooklet = () => {
     try { const b = JSON.parse(localStorage.getItem("wf_booklet") || "null"); return !!(b && b.categories); }
@@ -323,9 +332,11 @@
       asks: { time: !!opts.slot, coverage: false, cost: false },
       includeSummary: true,
       carried: !!opts.slot,
-      fields: { name: "", email: "", phone: "", note: "", otherTimes: "", insurer: "" }
+      messageEdited: false,
+      fields: { name: "", email: "", phone: "", otherTimes: "", insurer: "", message: "" }
     };
     if (opts.slot) state.times.add(opts.slot.d + "|" + opts.slot.t);
+    state.fields.message = composeMessage();
     render();
     host.scrollIntoView({ behavior: "smooth", block: "nearest" });
 
@@ -333,12 +344,59 @@
       return (ctx.slots && ctx.slots[T]) || [];
     }
     function readFields() {
-      ["name", "email", "phone", "note", "otherTimes", "insurer"].forEach((k) => {
+      ["name", "email", "phone", "otherTimes", "insurer", "message"].forEach((k) => {
         const el = host.querySelector(`[data-f="${k}"]`);
         if (el) state.fields[k] = el.value;
       });
       const tog = host.querySelector('[data-f="includeSummary"]');
       if (tog) state.includeSummary = tog.checked;
+    }
+    /* The FULL email, composed in the visitor's first person from
+       the current form state. This one composer feeds the editable
+       email box, the POST payload's `message`, and the mailto
+       fallback — the clinic receives exactly what the visitor saw. */
+    function composeMessage() {
+      const plan = window.wfPlanFor(state.treatment);
+      const times = [...state.times].map((k) => k.replace("|", " · "));
+      const paras = [];
+      paras.push(`Hi ${ctx.name} team,`);
+      paras.push(`I found your clinic on WellFinder and I'm interested in ${state.treatment}.`);
+      if (state.asks.time) {
+        let p = times.length
+          ? `Preferred times: ${times.join("; ")}. Could you confirm if one of these works, or suggest the closest alternative?`
+          : `I'm flexible on timing — please let me know what you have open.`;
+        if (state.fields.otherTimes.trim()) p += ` Also possible: ${state.fields.otherTimes.trim()}.`;
+        paras.push(p);
+      }
+      if (state.asks.coverage) {
+        let p = `Could you confirm whether ${state.treatment} is billable under my insurance plan?`;
+        if (plan && state.includeSummary) p += " " + plan.firstPerson;
+        else if (state.fields.insurer.trim()) p += ` My insurer is ${state.fields.insurer.trim()}.`;
+        paras.push(p);
+      }
+      if (state.asks.cost) {
+        let p = `Could you also confirm the total cost for ${state.treatment}?`;
+        if (!state.asks.coverage && plan && state.includeSummary) p += " " + plan.firstPerson;
+        paras.push(p);
+      }
+      let sign = "Thanks,";
+      if (state.fields.name.trim()) sign += "\n" + state.fields.name.trim();
+      if (state.fields.phone.trim()) sign += "\n" + state.fields.phone.trim();
+      paras.push(sign);
+      return paras.join("\n\n");
+    }
+    function autoGrow(ta) {
+      if (!ta) return;
+      ta.style.height = "auto";
+      ta.style.height = Math.min(560, ta.scrollHeight + 2) + "px";
+    }
+    /* While the visitor hasn't hand-edited the email, keep it in
+       sync with the form; once they type in the box it is theirs
+       and nothing recomposes over it. */
+    function syncMessage() {
+      if (!state.messageEdited) state.fields.message = composeMessage();
+      const ta = host.querySelector('[data-f="message"]');
+      if (ta && ta.value !== state.fields.message) { ta.value = state.fields.message; autoGrow(ta); }
     }
     function formHTML() {
       const plan = window.wfPlanFor(state.treatment);
@@ -382,7 +440,12 @@
           <div><p class="wf-req-lbl">Email</p><input type="email" data-f="email" value="${esc(state.fields.email)}" autocomplete="email"></div>
           <div><p class="wf-req-lbl">Phone</p><input type="tel" data-f="phone" value="${esc(state.fields.phone)}" autocomplete="tel"></div>
         </div>
-        <input type="text" data-f="note" placeholder="Note for the clinic (optional) — e.g. first visit, please confirm the assessment is included" value="${esc(state.fields.note)}" autocomplete="off">
+        <div class="wf-email">
+          <p class="wf-req-lbl">Your email to ${esc(ctx.name)}</p>
+          <p class="wf-req-note">This is exactly what the clinic receives — edit anything.</p>
+          <textarea data-f="message" rows="9" aria-label="Your email to the clinic">${esc(state.fields.message)}</textarea>
+          <div class="wf-email-foot"><span class="wf-email-hint">We'll add a short footer with your case ID when it's sent.</span><button type="button" class="wf-reset" data-req-reset>↺ Reset to suggested wording</button></div>
+        </div>
         <input type="text" name="company" data-f="company" class="wf-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <p class="wf-req-err" hidden></p>
         <div class="wf-req-foot">
@@ -400,6 +463,7 @@
       host.querySelectorAll("[data-ask]").forEach((cb) => cb.addEventListener("change", () => {
         readFields();
         state.asks[cb.getAttribute("data-ask")] = cb.checked;
+        syncMessage();
         render();
       }));
       const tsel = host.querySelector('[data-f="treatment"]');
@@ -408,6 +472,7 @@
         state.treatment = tsel.value;
         state.times = new Set();
         state.carried = false;
+        syncMessage();
         render();
       });
       host.querySelectorAll("[data-tchip]").forEach((chip) => chip.addEventListener("click", () => {
@@ -416,9 +481,32 @@
         chip.classList.toggle("on", state.times.has(k));
         const d = k.split("|")[0], t = k.split("|")[1];
         chip.innerHTML = (state.times.has(k) ? "✓ " : "") + `<b>${esc(d)}</b> · ${esc(t)}`;
+        syncMessage();
       }));
       const tog = host.querySelector('[data-f="includeSummary"]');
-      if (tog) tog.addEventListener("change", () => { readFields(); render(); });
+      if (tog) tog.addEventListener("change", () => { readFields(); syncMessage(); render(); });
+      /* Free-text fields update state live (no re-render, so focus
+         is kept) and refresh the suggested email while it's
+         unedited. */
+      ["name", "email", "phone", "otherTimes", "insurer"].forEach((k) => {
+        const el = host.querySelector(`[data-f="${k}"]`);
+        if (el) el.addEventListener("input", () => { state.fields[k] = el.value; syncMessage(); });
+      });
+      const ta = host.querySelector('[data-f="message"]');
+      if (ta) {
+        autoGrow(ta);
+        ta.addEventListener("input", () => {
+          state.messageEdited = true;
+          state.fields.message = ta.value;
+          autoGrow(ta);
+        });
+      }
+      const reset = host.querySelector("[data-req-reset]");
+      if (reset) reset.addEventListener("click", () => {
+        state.messageEdited = false;
+        state.fields.message = composeMessage();
+        if (ta) { ta.value = state.fields.message; autoGrow(ta); }
+      });
       const form = host.querySelector("form.wf-req");
       form.addEventListener("submit", (e) => { e.preventDefault(); submit(); });
     }
@@ -428,25 +516,11 @@
       if (btn) { btn.disabled = false; btn.textContent = "Send request"; }
       let html = esc(msg);
       if (ctx.email) {
-        const plan = window.wfPlanFor(state.treatment);
-        const times = [...state.times].map((k) => k.replace("|", " · "));
-        const body = [
-          `Hi ${ctx.name} team,`,
-          "",
-          `I found your clinic on WellFinder.ca and would like to ask about ${state.treatment}.`,
-          times.length ? `Preferred times: ${times.join("; ")}.` : "",
-          state.fields.otherTimes ? `Also possible: ${state.fields.otherTimes}` : "",
-          state.asks.coverage ? "Could you confirm whether this is billable under my insurance plan?" : "",
-          state.asks.cost ? "Could you confirm the total cost?" : "",
-          state.includeSummary && plan ? plan.sentence : "",
-          state.fields.note || "",
-          "",
-          `Thank you,`,
-          state.fields.name || ""
-        ].filter((x) => x !== "").join("\n");
+        /* The fallback carries the same email text the visitor
+           saw and edited — one composer everywhere. */
         const href = "mailto:" + encodeURIComponent(ctx.email)
           + "?subject=" + encodeURIComponent(`[WellFinder] ${state.treatment} request — Case ${state.caseId}`)
-          + "&body=" + encodeURIComponent(body);
+          + "&body=" + encodeURIComponent(state.fields.message);
         html += ` <a class="wf-req-mailto" href="${href}">Email ${esc(ctx.name)} directly instead →</a>`;
       }
       if (errEl) { errEl.innerHTML = html; errEl.hidden = false; }
@@ -454,6 +528,10 @@
     async function submit() {
       readFields();
       const errEl = host.querySelector(".wf-req-err");
+      if (!state.fields.message.trim()) {
+        if (errEl) { errEl.textContent = "Your email is empty — write a message or reset the suggested wording."; errEl.hidden = false; }
+        return;
+      }
       const missing = [];
       if (!state.fields.name.trim()) missing.push("your name");
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(state.fields.email.trim())) missing.push("a valid email");
@@ -479,7 +557,8 @@
         name: state.fields.name.trim(),
         email: state.fields.email.trim(),
         phone: state.fields.phone.trim(),
-        note: state.fields.note.trim(),
+        note: "",
+        message: state.fields.message.trim(),
         insurer: state.fields.insurer.trim(),
         includeSummary: !!(plan && state.includeSummary),
         planSummaryText: plan ? plan.sentence : "",
@@ -505,6 +584,7 @@
           asks: state.asks,
           insurer: payload.insurer,
           includeSummary: payload.includeSummary,
+          message: payload.message,
           date: new Date().toISOString(),
           status: "Waiting"
         });
@@ -1032,10 +1112,13 @@
       else if (pair && pair.p) price = pair.p;
       else if (media.price) price = media.price;
       else if (c.price && c.price.indexOf("$") > -1) price = c.price;
-      let priceHTML = "", tierHTML = "";
+      /* Featured cards show the price only — the price-provenance
+         caption ("Verified on booking page" etc.) was removed from
+         this surface at Leon's direction (Nov 5). Directory, minipage
+         and saved cards keep their provenance lines; not this one. */
+      let priceHTML = "";
       if (price) {
         priceHTML = `<p class="fc-price">${esc(fcPriceLine(price))}</p>`;
-        if (pair && pair.t === "booking") tierHTML = `<p class="fc-tier"><span class="fc-tier-ok">✓ Verified on booking page</span></p>`;
       }
 
       /* direct billing: three honest states */
@@ -1071,7 +1154,7 @@
             ${annItem.d !== null && annItem.d !== undefined ? `<p class="fc-dist">📍 ${annItem.d < 1 ? "<1" : Math.round(annItem.d)} km away</p>` : ""}
             ${photo}
             <p class="fc-desc">${esc(desc)}</p>
-            ${stars}${practHTML}${addrHTML}${priceHTML}${tierHTML}${db}${hoursHTML}
+            ${stars}${practHTML}${addrHTML}${priceHTML}${db}${hoursHTML}
             ${btns}
           </article>`;
     };
