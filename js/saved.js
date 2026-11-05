@@ -2650,6 +2650,15 @@
     var g1 = $("savedRecGrid");
     var has = !!((g1 && g1.children.length) || recPool.length);
     wrap.hidden = !has;
+    /* Heading names the basis (Leon's wording): saved treatments
+       when the visitor has any, their booklet benefits otherwise. */
+    var h2 = wrap.querySelector(".saved-h2");
+    if (h2) {
+      var favTx = favs().filter(function (n) { return treatmentByName(n) && !isArchived(n); });
+      h2.textContent = favTx.length
+        ? "Recommended clinics based on your saved treatments"
+        : (booklet() ? "Recommended clinics based on your benefits" : "Recommended clinics");
+    }
   }
 
   /* ============================================================
