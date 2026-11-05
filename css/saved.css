@@ -336,10 +336,7 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-section{paddi
    .wf-reqhost as the card's next sibling) or whose chooser is open
    (.mw-rec-open, hooked in saved.js) spans the full row so the
    form/chooser context gets full width; the form host spans too. */
-#mwSuggClinics{margin-top:2px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;grid-auto-flow:row dense}
-@media (max-width:1099px){
-  #mwSuggClinics{grid-template-columns:repeat(2,minmax(0,1fr))}
-}
+#mwSuggClinics{margin-top:2px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;grid-auto-flow:row dense}
 @media (max-width:699px){
   #mwSuggClinics{grid-template-columns:minmax(0,1fr)}
 }
