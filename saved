@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css?v=120">
-<link rel="stylesheet" href="css/saved.css?v=17">
+<link rel="stylesheet" href="css/saved.css?v=18">
 <link rel="canonical" href="https://wellfinder.ca/saved" />
 </head>
 <body data-page="saved">
@@ -34,6 +34,7 @@
 <section class="wrap saved-section">
 <h2 class="saved-h2" style="margin-top:.4rem">Saved treatments</h2>
 <div id="savedTreatments"></div>
+<div id="mwTxPicker" hidden></div>
 <h2 class="saved-h2">Saved clinics</h2>
 <div id="mwFilters"></div>
 <p class="mw-count" id="mwClinicCount"></p>
@@ -44,7 +45,9 @@
 <section class="wrap saved-section" id="savedRecWrap" hidden>
 <h2 class="saved-h2">Recommended treatments and clinics</h2>
 <div class="near-list" id="savedRecGrid"></div>
-<div class="mw-sugg-grid" id="mwSuggClinics"></div>
+<div id="mwRecFilters"></div>
+<p class="mw-count" id="mwRecCount"></p>
+<div class="mw-clinic-list tp-list" id="mwSuggClinics"></div>
 </section>
 
 <section class="wrap saved-section" id="mwRequestsWrap" hidden>
@@ -92,6 +95,6 @@
   </footer>
 <script src="js/data.js?v=53"></script><script src="js/site-nav.js?v=9"></script>
 <script src="js/clinic-extra.js?v=5"></script><script src="js/clinic-slots.js?v=6"></script>
-<script src="js/app.js?v=109"></script><script src="js/vendor/pdf.min.js?v=1"></script><script src="js/saved.js?v=37"></script>
+<script src="js/app.js?v=109"></script><script src="js/vendor/pdf.min.js?v=1"></script><script src="js/saved.js?v=38"></script>
 </body>
 </html>

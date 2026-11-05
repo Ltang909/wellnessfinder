@@ -191,21 +191,17 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-section{paddi
 
 
 
-.mw-sugg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:16px}
-.mw-sugg-card{border:1px solid #E1E5E0;border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 2px 12px rgba(15,45,43,.05)}
 
 
 
 
 
 
-.mw-sugg-actions{display:flex;gap:10px;align-items:center;margin-top:12px}
 .mw-savebtn2{border:1.5px solid var(--forest);background:#fff;color:var(--forest);font:700 .82rem inherit;padding:.5rem 1rem;border-radius:999px;cursor:pointer}
 .mw-savebtn2.saved{background:var(--forest);color:#fff}
 
 @media(max-width:900px){
   .mw-tl-grid{grid-template-columns:1fr}
-  .mw-sugg-grid{grid-template-columns:1fr 1fr}
   .mw-cgrid{grid-template-columns:1fr}
   .mw-tl-total{margin-left:0}
 }
@@ -213,7 +209,6 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-section{paddi
   .mw-hero{padding:22px 20px}
   .mw-hero-amt{font-size:2.4rem}
   .mw-timeline{padding:20px 16px}
-  .mw-sugg-grid{grid-template-columns:1fr}
   .mw-ctable input{width:84px}
   .mw-pet{display:none}
 }
@@ -333,17 +328,10 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-section{paddi
 .mw-arch-btn.mw-arch-del{border-color:rgba(15,45,43,.2);color:#B03A2E}
 .mw-archivebtn{background:none;border:0;color:#55705F;font:700 .8rem inherit;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 
-/* Recommended clinic cards (rebuilt) */
-.mw-sugg-card{display:flex;flex-direction:column}
-.mw-sugg-card .ph{height:150px;background-size:cover;background-position:center;flex:0 0 auto}
-.mw-sugg-card .ph--none{background:linear-gradient(135deg,#0F2D2B,#6E8F7A);display:flex;align-items:center;justify-content:center}
-.mw-sugg-card .ph--none span{font:600 2.4rem "Playfair Display",serif;color:#F4F6F3}
-.mw-sugg-card .b{padding:14px 16px;display:flex;flex-direction:column;flex:1}
-.mw-sugg-card .b h4{font:600 1.02rem/1.25 "Playfair Display",serif;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--forest)}
-.mw-sugg-card .desc{font-size:.85rem;color:#47635B;margin:5px 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.mw-sugg-card .addr{font-size:.82rem;color:#5C6B5E;margin:4px 0 0}
-.mw-sugg-card .rate{font-size:.85rem;font-weight:700;color:var(--forest);white-space:nowrap}
-.mw-sugg-card .mw-sugg-actions{margin-top:auto;padding-top:12px;justify-content:space-between}
+/* Recommended clinic cards are clinicCard output in rec mode, so
+   they inherit the .mw-clinic-list anatomy above; the list host
+   just needs the same top spacing the saved list gets. */
+#mwSuggClinics{margin-top:2px}
 
 /* My requests (schedule requests sent from clinic cards) */
 .mw-req-row { display: flex; align-items: flex-start; gap: 14px; background: #fff; border: 1px solid #dde3dc; border-radius: 14px; padding: 14px 16px; margin: 0 0 10px; }
@@ -367,19 +355,19 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-section{paddi
    control sits in the Saved clinics filter row; every control in
    the row shares a uniform 40px height and centred alignment. */
 .mw-locchip{display:inline-flex;align-items:center;gap:7px;height:40px;box-sizing:border-box;border:1.5px dashed #c4ccc5;background:#FBFAF6;border-radius:999px;padding:0 13px;font:600 .85rem inherit;color:var(--ink)}
-#mwFilters{display:flex;align-items:center;flex-wrap:wrap;gap:9px}
-#mwFilters .mw-toggle,#mwFilters .mw-fchip{height:40px;box-sizing:border-box;padding-top:0;padding-bottom:0}
+#mwFilters,#mwRecFilters{display:flex;align-items:center;flex-wrap:wrap;gap:9px}
+#mwFilters .mw-toggle,#mwFilters .mw-fchip,#mwRecFilters .mw-toggle,#mwRecFilters .mw-fchip{height:40px;box-sizing:border-box;padding-top:0;padding-bottom:0}
 .mw-fsel-lbl{display:inline-flex;align-items:center;gap:6px;height:40px;font:600 .85rem inherit;color:var(--ink)}
-#mwFilters .mw-sel{height:40px;box-sizing:border-box;padding-top:0;padding-bottom:0}
+#mwFilters .mw-sel,#mwRecFilters .mw-sel{height:40px;box-sizing:border-box;padding-top:0;padding-bottom:0}
 .mw-locform #mwLocPostal{height:40px;box-sizing:border-box}
 
 /* ---- Compact saved-clinic cards (Leon) ----
    One merged action row (icons left, Manage right), 72px thumb,
    one-line description and price. Scoped to the saved list so the
    minipage rows keep their roomier hybrid layout. */
-.mw-clinic-list.tp-list .nc-card{padding:14px}
+.mw-clinic-list.tp-list .nc-card{padding:14px;column-gap:18px}
 .mw-clinic-list .nc-gallery{width:72px;height:72px}
-.mw-clinic-list .nc-main{padding:0;row-gap:3px}
+.mw-clinic-list .nc-main{padding:0;row-gap:5px}
 .mw-clinic-list .nc-head{row-gap:2px}
 .mw-clinic-list .nc-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
 .mw-clinic-list .nc-head .nc-rate{flex:none}
@@ -394,7 +382,7 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-section{paddi
 .mw-clinic-list .mw-notebtn,.mw-clinic-list .mw-archivebtn,.mw-clinic-list .mw-remove{padding:7px 4px}
 .mw-clinic-list .nc-slots{margin-top:4px}
 @media (max-width:640px){
-  .mw-clinic-list.tp-list .nc-card{padding:12px}
+  .mw-clinic-list.tp-list .nc-card{padding:12px;column-gap:16px}
   .mw-cardrow{gap:4px 8px}
   .mw-clinic-list .mw-manage{gap:.35rem}
   .mw-clinic-list .mw-notebtn,.mw-clinic-list .mw-archivebtn,.mw-clinic-list .mw-remove{padding:6px 3px}
@@ -406,4 +394,38 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-section{paddi
   /* Same specificity as the compact-card rule above, later in the
      file, so the 16px wins inside saved cards too. */
   .mw-clinic-list .mw-manage select{font-size:16px}
+}
+
+/* ---- Save-more-treatments picker (Leon) ----
+   Inline panel under the Saved treatments section: every treatment
+   once, grouped by modality (directory order), compact rows with a
+   square thumb, name, billed-as line and a 2-line-clamped intro.
+   The carousel's add tile shares the .tx-card footprint (230px). */
+.tx-card.tx-add{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-height:212px;border:1.5px dashed #b9c6bb;background:#FBFAF6;color:var(--forest);font:700 .95rem inherit;cursor:pointer;padding:18px}
+.tx-card.tx-add:hover{border-color:var(--forest);background:#F1F5F0}
+.tx-add-plus{font-size:1.9rem;font-weight:400;line-height:1;color:#6E8F7A}
+.txp-emptybtn{background:none;border:1.5px dashed #b9c6bb;border-radius:999px;color:var(--forest);font:700 .85rem inherit;padding:.55rem 1.1rem;cursor:pointer;margin-left:8px}
+.txp-emptybtn:hover{border-color:var(--forest)}
+#mwTxPicker{margin-top:14px}
+.txp-panel{border:1px solid #dde3dc;border-radius:18px;background:#fff;padding:18px 20px 10px;box-shadow:0 2px 14px rgba(15,45,43,.05)}
+.txp-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.txp-head h3{font:600 1.15rem "Playfair Display",serif;color:var(--forest);margin:0}
+.txp-close{border:1.5px solid var(--forest);background:#fff;color:var(--forest);font:700 .82rem inherit;padding:.45rem 1rem;border-radius:999px;cursor:pointer}
+.txp-mod{font:700 .78rem inherit;letter-spacing:.1em;text-transform:uppercase;color:#6E8F7A;margin:18px 0 4px}
+.txp-row{display:flex;align-items:center;gap:12px;padding:9px 0;border-top:1px solid #eef1ee}
+.txp-main{display:flex;align-items:center;gap:12px;flex:1;min-width:0;text-decoration:none;color:inherit}
+.txp-media{flex:none;width:56px;height:56px;border-radius:12px;overflow:hidden;background:#E8EFE9}
+.txp-media img{width:100%;height:100%;object-fit:cover;display:block}
+.txp-nophoto{display:flex;align-items:center;justify-content:center;width:100%;height:100%;font:600 1.3rem "Playfair Display",serif;color:#F4F6F3}
+.txp-body{display:flex;flex-direction:column;min-width:0}
+.txp-name{font-weight:700;color:var(--ink)}
+.txp-archtag{font-size:.66rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;background:#E8EFE9;color:#315f52;border-radius:999px;padding:2px 8px;vertical-align:2px}
+.txp-billed{font-size:.8rem;color:#47635B}
+.txp-desc{font-size:.85rem;color:#5C6B5E;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.txp-save{flex:none;border:1.5px solid var(--forest);background:#fff;color:var(--forest);font:700 .82rem inherit;padding:.5rem 1rem;border-radius:999px;cursor:pointer;min-height:40px}
+.txp-save.saved{background:var(--forest);color:#fff}
+.txp-save.is-arch{border-color:#b9c6bb;color:#315f52}
+@media (max-width:640px){
+  .txp-panel{padding:14px 14px 6px}
+  .txp-media{width:48px;height:48px}
 }

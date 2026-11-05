@@ -823,46 +823,61 @@
      (Nov 5): identical wfLoc/wfProv behaviour and the same
      wf:location event; the bar's booklet-status text went away
      with it (hero + Composer cover booklet status/upload). */
-  var locEditing = false;
-  function locChipHTML() {
+  /* The chip now renders in TWO filter rows (Saved clinics and
+     Recommended) over the same shared wfLoc/wfProv state. Each
+     instance gets id-suffixed elements (scope "" = saved row,
+     "rec" = recommended row) so they never collide; locEditScope
+     tracks which row (if any) is showing the editor. */
+  var locEditScope = null;
+  function locIds(scope) {
+    var s = scope === "rec" ? "Rec" : "";
+    return { form: "mwLocForm" + s, postal: "mwLocPostal" + s, prov: "mwLocProv" + s, change: "mwLocChange" + s, cancel: "mwLocCancel" + s };
+  }
+  function locChipHTML(scope) {
+    var ids = locIds(scope);
     var p = window.wfLoc ? wfLoc.get() : "";
     var prov = window.wfProv ? wfProv.get() : "";
     if (p && !prov) prov = FSA_PROV[String(p).toUpperCase()[0]] || "";
-    if (locEditing) {
+    if (locEditScope === scope) {
       var opts = ['<option value="">Province</option>', '<option value="CA"' + (prov === "CA" ? " selected" : "") + ">Canada</option>"]
         .concat(Object.keys(PROV_NAMES).filter(function (k) { return k !== "CA"; }).map(function (k) {
           return '<option value="' + k + '"' + (k === prov ? " selected" : "") + ">" + PROV_NAMES[k] + "</option>";
         })).join("");
-      return '<form class="mw-locform" id="mwLocForm"><span aria-hidden="true">📍</span>'
-        + '<input id="mwLocPostal" placeholder="Postal code" autocomplete="postal-code" value="' + esc(p || "") + '" aria-label="Postal code">'
-        + '<select id="mwLocProv" class="mw-sel" aria-label="Province">' + opts + "</select>"
+      return '<form class="mw-locform" id="' + ids.form + '"><span aria-hidden="true">📍</span>'
+        + '<input id="' + ids.postal + '" placeholder="Postal code" autocomplete="postal-code" value="' + esc(p || "") + '" aria-label="Postal code">'
+        + '<select id="' + ids.prov + '" class="mw-sel" aria-label="Province">' + opts + "</select>"
         + '<button class="btn btn--primary btn--sm" type="submit">Set location</button>'
-        + '<button type="button" class="mw-linklike" id="mwLocCancel">Cancel</button></form>';
+        + '<button type="button" class="mw-linklike" id="' + ids.cancel + '">Cancel</button></form>';
     }
     if (p) {
       var fsa = String(p).toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 3);
-      return '<span class="mw-locchip"><span aria-hidden="true">📍</span><span>Near <b>' + esc(fsa) + (prov && prov !== "CA" ? " · " + esc(PROV_NAMES[prov] || prov) : "") + '</b></span><button type="button" class="mw-linklike" id="mwLocChange">Change</button></span>';
+      return '<span class="mw-locchip"><span aria-hidden="true">📍</span><span>Near <b>' + esc(fsa) + (prov && prov !== "CA" ? " · " + esc(PROV_NAMES[prov] || prov) : "") + '</b></span><button type="button" class="mw-linklike" id="' + ids.change + '">Change</button></span>';
     }
     if (prov) {
-      return '<span class="mw-locchip"><span aria-hidden="true">📍</span><b>' + esc(prov === "CA" ? "Canada" : (PROV_NAMES[prov] || prov)) + '</b><button type="button" class="mw-linklike" id="mwLocChange">Change</button></span>';
+      return '<span class="mw-locchip"><span aria-hidden="true">📍</span><b>' + esc(prov === "CA" ? "Canada" : (PROV_NAMES[prov] || prov)) + '</b><button type="button" class="mw-linklike" id="' + ids.change + '">Change</button></span>';
     }
-    return '<span class="mw-locchip"><span aria-hidden="true">📍</span><button type="button" class="mw-linklike" id="mwLocChange">Set your location</button></span>';
+    return '<span class="mw-locchip"><span aria-hidden="true">📍</span><button type="button" class="mw-linklike" id="' + ids.change + '">Set your location</button></span>';
   }
-  function wireLocChip() {
-    var ch = $("mwLocChange");
-    if (ch) ch.addEventListener("click", function () { locEditing = true; renderFilters(); var i = $("mwLocPostal"); if (i) { i.focus(); i.select(); } });
-    var ca = $("mwLocCancel");
-    if (ca) ca.addEventListener("click", function () { locEditing = false; renderFilters(); });
-    var form = $("mwLocForm");
+  function rerenderLocRows() {
+    renderFilters();
+    renderRecFilters();
+  }
+  function wireLocChip(scope) {
+    var ids = locIds(scope || "");
+    var ch = $(ids.change);
+    if (ch) ch.addEventListener("click", function () { locEditScope = scope || ""; rerenderLocRows(); var i = $(ids.postal); if (i) { i.focus(); i.select(); } });
+    var ca = $(ids.cancel);
+    if (ca) ca.addEventListener("click", function () { locEditScope = null; rerenderLocRows(); });
+    var form = $(ids.form);
     if (form) form.addEventListener("submit", function (e) {
       e.preventDefault();
-      var v = ($("mwLocPostal").value || "").trim().toUpperCase();
-      var pv = $("mwLocProv").value;
-      if (v && !(window.wfLoc && wfLoc.valid(v))) { $("mwLocPostal").focus(); return; }
-      if (!v && !pv) { $("mwLocProv").focus(); return; }
+      var v = ($(ids.postal).value || "").trim().toUpperCase();
+      var pv = $(ids.prov).value;
+      if (v && !(window.wfLoc && wfLoc.valid(v))) { $(ids.postal).focus(); return; }
+      if (!v && !pv) { $(ids.prov).focus(); return; }
       if (v) { wfLoc.set(v); wfLoc.reset(); if (!pv || pv === "CA") pv = FSA_PROV[v[0]] || ""; }
       if (pv) wfProv.set(pv);
-      locEditing = false;
+      locEditScope = null;
       window.dispatchEvent(new CustomEvent("wf:location"));
     });
   }
@@ -2129,17 +2144,85 @@
   function renderTreatments() {
     var txs = activeFavs().map(treatmentByName).filter(Boolean);
     if (!txs.length) {
-      treatWrap.innerHTML = '<div class="saved-empty-card"><span class="big" aria-hidden="true">♥</span><h3>No saved treatments yet</h3><p>Tap the heart ♥ on any treatment to pin it here. Saved treatments get matched to your booklet balance.</p><a class="btn btn--primary" href="/">Browse treatments</a></div>';
+      treatWrap.innerHTML = '<div class="saved-empty-card"><span class="big" aria-hidden="true">♥</span><h3>No saved treatments yet</h3><p>Tap the heart ♥ on any treatment to pin it here. Saved treatments get matched to your booklet balance.</p><a class="btn btn--primary" href="/">Browse treatments</a> <button type="button" class="txp-emptybtn" data-tx-picker-open>+ Save more treatments</button></div>';
       return 0;
     }
     treatWrap.innerHTML = '<div class="tx-carousel">'
       + '<button type="button" class="tx-arrow" data-tx-scroll="-1" aria-label="Scroll saved treatments back">‹</button>'
-      + '<div class="tx-track" id="txTrack">' + txs.map(txCardHTML).join("") + "</div>"
+      + '<div class="tx-track" id="txTrack">' + txs.map(txCardHTML).join("")
+      + '<button type="button" class="tx-card tx-add" data-tx-picker-open aria-label="Save more treatments"><span class="tx-add-plus" aria-hidden="true">+</span><span class="tx-add-lbl">Save more treatments</span></button>'
+      + "</div>"
       + '<button type="button" class="tx-arrow" data-tx-scroll="1" aria-label="Scroll saved treatments forward">›</button>'
       + "</div>";
     wireTxCarousel();
     updateNearCounts();
     return txs.length;
+  }
+
+  /* ============================================================
+     Save-more-treatments picker (Leon): an inline panel under the
+     Saved treatments section listing ALL treatments once, grouped
+     by modality. Grouping mirrors the homepage directory accordions
+     (app.js FS_MOD_ORDER + t.categories) — except the directory
+     duplicates a treatment under every modality it bills through,
+     while the picker lists each treatment once, under its FIRST
+     (primary) category. FS_MOD_ORDER lives inside app.js's IIFE, so
+     the order is mirrored here; keep the two in sync.
+     ============================================================ */
+  var TX_MOD_ORDER = ["Physiotherapy", "Naturopathy", "Chiropractic", "Speech Therapy", "Acupuncture", "Massage Therapy", "Psychology", "Psychotherapy", "Osteopathy", "Dental", "Dietitian"];
+  var txPickerOpen = false;
+  function txPickerGroups() {
+    var groups = [];
+    var covered = {};
+    TX_MOD_ORDER.forEach(function (m) {
+      var list = TREATMENTS.filter(function (t) { return (t.categories || [])[0] === m; });
+      if (list.length) {
+        groups.push({ m: m, list: list });
+        list.forEach(function (t) { covered[t.name] = 1; });
+      }
+    });
+    var rest = TREATMENTS.filter(function (t) { return !covered[t.name]; });
+    if (rest.length) groups.push({ m: "Other", list: rest });
+    return groups;
+  }
+  function txPickerRowHTML(t) {
+    var f = favs();
+    var isSaved = f.indexOf(t.name) > -1;
+    var isArch = isSaved && isArchived(t.name);
+    var photo = imgFor(t);
+    var cat = treatmentCategory(t);
+    var media = photo
+      ? '<img src="' + esc(photo) + '" alt="" loading="lazy">'
+      : '<span class="txp-nophoto" style="background:' + catMeta(cat || "").color + '" aria-hidden="true">' + esc((t.name || "?").charAt(0)) + "</span>";
+    var desc = (t.desc || "").replace(/\s*\*Coverage varies by provider\.?/g, "").trim();
+    var billed = (t.billed || "").replace(/\*+$/, "");
+    var btn = isArch
+      ? '<button type="button" class="txp-save is-arch" data-tx-restore="' + esc(t.name) + '">Restore</button>'
+      : (isSaved
+        ? '<button type="button" class="txp-save saved" data-tx-save="' + esc(t.name) + '">♥ Saved</button>'
+        : '<button type="button" class="txp-save" data-tx-save="' + esc(t.name) + '">♡ Save</button>');
+    return '<div class="txp-row">'
+      + '<a class="txp-main" href="/clinics-' + slug(t.name) + '" aria-label="See clinics offering ' + esc(t.name) + '">'
+      + '<span class="txp-media">' + media + "</span>"
+      + '<span class="txp-body"><span class="txp-name">' + esc(t.name)
+      + (isArch ? ' <span class="txp-archtag">Archived</span>' : "")
+      + '</span><span class="txp-billed">billed as ' + esc(billed) + "</span>"
+      + (desc ? '<span class="txp-desc">' + esc(desc) + "</span>" : "")
+      + "</span></a>"
+      + btn
+      + "</div>";
+  }
+  function renderTxPicker() {
+    var host = $("mwTxPicker");
+    if (!host) return;
+    host.hidden = !txPickerOpen;
+    if (!txPickerOpen) { host.innerHTML = ""; return; }
+    host.innerHTML = '<div class="txp-panel">'
+      + '<div class="txp-head"><h3>Save more treatments</h3><button type="button" class="txp-close" data-tx-picker-close>Done</button></div>'
+      + txPickerGroups().map(function (g) {
+        return '<h4 class="txp-mod">' + esc(g.m) + '</h4><div class="txp-rows">' + g.list.map(txPickerRowHTML).join("") + "</div>";
+      }).join("")
+      + "</div>";
   }
 
   /* ============================================================
@@ -2177,62 +2260,71 @@
     }
     return dt.getTime();
   }
-  function clinicSlotsHTML(vm) {
-    /* One line per (treatment, kind); chips deduped, earliest first,
-       hard-capped at 3 per line. */
-    function linesFor(treatments) {
-      var lines = [];
-      treatments.forEach(function (T) {
-        var slot = slotFor(vm, T);
-        if (!slot) return;
-        var kinds = slot.a ? ["a"] : ["i", "f"].filter(function (k) { return slot[k]; });
-        kinds.forEach(function (kind) {
-          var s = slot[kind];
-          var raw = (s.list && s.list.length) ? s.list : (s.d ? [{ d: s.d, t: s.t, w: s.w }] : []);
-          var seen = {}, chips = [];
-          raw.forEach(function (ch) {
-            var kk = ch.d + "|" + ch.t;
-            if (seen[kk]) return;
-            seen[kk] = 1;
-            chips.push(ch);
-          });
-          chips = chips.slice(0, 3);
-          if (chips.length) lines.push({ T: T, kind: kind, s: s, chips: chips });
+  /* Live openings grouped BY TREATMENT (Leon): pull in the chips for
+     every treatment this clinic offers in the directory that has live
+     slots — not just the saved ones. Groups: saved treatments first,
+     then the rest in directory order; ≤3 chips per treatment (merged
+     across initial/follow-up kinds, deduped, earliest first) and at
+     most 3 groups per card. Pass onlyTx (array) to restrict the block
+     to specific treatments (recommended cards show only their own
+     treatment). Chips carry data-treatment, so the shared chooser in
+     app.js opens for the chip's own treatment. */
+  function clinicSlotsHTML(vm, onlyTx) {
+    var order;
+    if (onlyTx && onlyTx.length) {
+      order = onlyTx.slice();
+    } else {
+      var favList = activeFavs();
+      var savedFirst = vm.treatments.filter(function (T) {
+        return favList.indexOf(T) > -1 && !!treatmentByName(T);
+      });
+      order = savedFirst.concat(vm.treatments.filter(function (T) {
+        return savedFirst.indexOf(T) < 0;
+      }));
+    }
+    var groups = [];
+    order.forEach(function (T) {
+      var slot = slotFor(vm, T);
+      if (!slot) return;
+      var kinds = slot.a ? ["a"] : ["i", "f"].filter(function (k) { return slot[k]; });
+      var seen = {}, merged = [];
+      kinds.forEach(function (kind) {
+        var s = slot[kind];
+        var raw = (s.list && s.list.length) ? s.list : (s.d ? [{ d: s.d, t: s.t, w: s.w }] : []);
+        raw.forEach(function (ch) {
+          var kk = ch.d + "|" + ch.t;
+          if (seen[kk]) return;
+          seen[kk] = 1;
+          merged.push({ ch: ch, kind: kind, s: s });
         });
       });
-      return lines;
-    }
-    /* Saved cards show openings only for the treatments the user has
-       saved that this clinic offers (max 2 lines). If none of those
-       have openings, fall back to the single earliest line the clinic
-       has across all its treatments. */
-    var favList = activeFavs();
-    var savedTx = vm.treatments.filter(function (T) {
-      return favList.indexOf(T) > -1 && !!treatmentByName(T);
+      if (!merged.length) return;
+      merged.sort(function (a, b) { return chipTimeKey(a.ch) - chipTimeKey(b.ch); });
+      merged = merged.slice(0, 3);
+      var head = merged[0];
+      groups.push({ T: T, title: slotTitle(head.s, head.kind, T), price: head.s.price || "", chips: merged.map(function (x) { return x.ch; }) });
     });
-    var lines = linesFor(savedTx);
-    if (!lines.length) {
-      var all = linesFor(vm.treatments);
-      if (all.length) {
-        all.sort(function (a, b) { return chipTimeKey(a.chips[0]) - chipTimeKey(b.chips[0]); });
-        lines = all.slice(0, 1);
-      }
-    }
-    lines = lines.slice(0, 2);
-    if (!lines.length) return "";
-    var parts = lines.map(function (ln) {
-      var chipHtml = ln.chips.map(function (ch) {
+    groups = groups.slice(0, 3);
+    if (!groups.length) return "";
+    var parts = groups.map(function (g) {
+      var chipHtml = g.chips.map(function (ch) {
         var inner = "<b>" + esc(ch.d) + "</b> · " + esc(ch.t);
-        return '<button type="button" class="nc-slot-chip" data-req-chip data-treatment="' + esc(ln.T) + '" data-d="' + esc(ch.d) + '" data-t="' + esc(ch.t) + '" aria-label="Request ' + esc(ln.T) + " " + esc(ch.d) + " at " + esc(ch.t) + '">' + inner + "</button>";
+        return '<button type="button" class="nc-slot-chip" data-req-chip data-treatment="' + esc(g.T) + '" data-d="' + esc(ch.d) + '" data-t="' + esc(ch.t) + '" aria-label="Request ' + esc(g.T) + " " + esc(ch.d) + " at " + esc(ch.t) + '">' + inner + "</button>";
       }).join("");
-      return '<div class="nc-slot"><p class="nc-slot-t"><span class="nc-slot-title">' + esc(slotTitle(ln.s, ln.kind, ln.T)) + "</span>"
-        + (ln.s.price ? '<span class="nc-slot-price">' + esc(ln.s.price) + "</span>" : "")
+      return '<div class="nc-slot"><p class="nc-slot-t"><span class="nc-slot-title">' + esc(g.title) + "</span>"
+        + (g.price ? '<span class="nc-slot-price">' + esc(g.price) + "</span>" : "")
         + '</p><p class="nc-slot-c">' + chipHtml + "</p></div>";
     });
     return '<div class="nc-slots"><p class="nc-slots-head"><span class="nc-slots-label">Live openings</span><span class="nc-slots-cta">Tap a time to request it →</span></p>' + parts.join("") + "</div>";
   }
-  function clinicCard(vm) {
+  /* One card renderer for both surfaces: saved clinics (default)
+     and Recommended cards (pass recTx — the card's clinic×treatment
+     pair; vm.treatments is [recTx] there). Recommended cards swap
+     the Manage row for a single Save button and show openings only
+     for their own treatment. */
+  function clinicCard(vm, recTx) {
     var c = vm.clinic;
+    var isRec = typeof recTx === "string" && !!recTx;
     var T0 = vm.treatments[0];
     var t0 = treatmentByName(T0);
     var gal = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.gal && CLINIC_EXTRA.gal[c.name]) || (vm.media.img ? [vm.media.img] : []);
@@ -2310,13 +2402,18 @@
        share ONE row (icons left, manage right); the note editor stays
        a sibling under the row and still expands when opened. All
        data-* hooks are unchanged, so the delegated wiring is too. */
-    var manage = '<div class="mw-manage">'
-      + '<select class="mw-manage-sel" data-status-for="' + esc(vm.name) + '" aria-label="Status for ' + esc(vm.name) + '">' + statusOpts + "</select>"
-      + '<button type="button" class="mw-notebtn" data-note-toggle="' + esc(vm.name) + '">' + (meta.note ? "✎ Note (1)" : "＋ Note") + "</button>"
-      + '<button type="button" class="mw-archivebtn" data-archive-clinic="' + esc(vm.name) + '">Archive</button>'
-      + '<button type="button" class="mw-remove" data-unsave="' + esc(vm.name) + '">♥ Remove</button>'
-      + "</div>";
-    var noteTa = '<textarea class="mw-note" data-note-for="' + esc(vm.name) + '" rows="2" placeholder="Private note — only visible on this device" aria-label="Private note for ' + esc(vm.name) + '"' + (meta.note ? "" : " hidden") + ">" + esc(meta.note || "") + "</textarea>";
+    var manage, noteTa = "";
+    if (isRec) {
+      manage = '<div class="mw-manage mw-rec-manage"><button type="button" class="mw-savebtn2" data-mw-save="' + esc(vm.name) + '">♥ Save clinic</button></div>';
+    } else {
+      manage = '<div class="mw-manage">'
+        + '<select class="mw-manage-sel" data-status-for="' + esc(vm.name) + '" aria-label="Status for ' + esc(vm.name) + '">' + statusOpts + "</select>"
+        + '<button type="button" class="mw-notebtn" data-note-toggle="' + esc(vm.name) + '">' + (meta.note ? "✎ Note (1)" : "＋ Note") + "</button>"
+        + '<button type="button" class="mw-archivebtn" data-archive-clinic="' + esc(vm.name) + '">Archive</button>'
+        + '<button type="button" class="mw-remove" data-unsave="' + esc(vm.name) + '">♥ Remove</button>'
+        + "</div>";
+      noteTa = '<textarea class="mw-note" data-note-for="' + esc(vm.name) + '" rows="2" placeholder="Private note — only visible on this device" aria-label="Private note for ' + esc(vm.name) + '"' + (meta.note ? "" : " hidden") + ">" + esc(meta.note || "") + "</textarea>";
+    }
     return '<article class="nc-card" data-req-ctx="' + esc(JSON.stringify(reqCtx)) + '">' + gallery
       + '<div class="nc-main">'
       + '<div class="nc-head"><h4 class="nc-name">' + esc(c.name) + "</h4>" + rate + "</div>"
@@ -2324,7 +2421,7 @@
       + desc + priceHtml
       + '<div class="mw-cardrow">' + (actions ? '<div class="nc-actions nc-icons">' + actions + "</div>" : "") + manage + "</div>"
       + noteTa
-      + clinicSlotsHTML(vm)
+      + (isRec ? clinicSlotsHTML(vm, [recTx]) : clinicSlotsHTML(vm))
       + "</div></article>";
   }
   function cycleNextOpenKey(hours, todayKey) {
@@ -2342,7 +2439,7 @@
   function renderFilters() {
     var host = $("mwFilters");
     if (!host) return;
-    if (!clinicVMs.length) { host.innerHTML = locChipHTML(); wireLocChip(); return; }
+    if (!clinicVMs.length) { host.innerHTML = locChipHTML(""); wireLocChip(""); return; }
     var offered = {};
     clinicVMs.forEach(function (vm) { vm.treatments.forEach(function (t) { offered[t] = true; }); });
     var savedTx = activeFavs().filter(function (n) { return treatmentByName(n) && offered[n]; });
@@ -2362,8 +2459,8 @@
       + '<option value="rated"' + (filters.sort === "rated" ? " selected" : "") + ">Highest rated</option>"
       + '<option value="coverage"' + (filters.sort === "coverage" ? " selected" : "") + ">Most coverage left</option>"
       + "</select></label>"
-      + locChipHTML();
-    wireLocChip();
+      + locChipHTML("");
+    wireLocChip("");
     var ds = $("mwDistSel");
     if (ds) ds.addEventListener("change", function () { filters.dist = parseInt(ds.value, 10) || 50; renderClinics(); updateNearCounts(); });
     var ss = $("mwSortSel");
@@ -2422,13 +2519,22 @@
     grid.innerHTML = "";
     renderSuggClinics();
   }
-  function renderSuggClinics() {
-    var host = $("mwSuggClinics");
-    if (!host) return;
+  /* Recommended clinics, revamped (Leon): the cards ARE the saved-
+     clinic cards (clinicCard in rec mode — photo-left anatomy, meta
+     line, one-line desc/price, icon row, openings chips for the
+     card's treatment, Save button instead of the Manage row), and a
+     filter row mirroring the saved-clinics one sits above them.
+     Selection logic is unchanged (interesting = saved treatments +
+     booklet categories with money left; not-saved clinics only);
+     the pool is capped at 12 so the section stays a shortlist, and
+     the row's filters/sorts apply on top of that pool. */
+  var recFilters = { db: false, open: false, tx: "", dist: 50, sort: "rec" };
+  var recPool = [];
+  var REC_POOL_CAP = 12;
+  function buildRecPool() {
     var f = activeFavs();
     var savedClinics = {};
     clinicVMs.forEach(function (vm) { savedClinics[vm.name] = true; });
-    var pool = [];
     var byName = {};
     allClinics().forEach(function (item) { (byName[item.clinic.name] = byName[item.clinic.name] || []).push(item); });
     var interesting = [];
@@ -2442,59 +2548,107 @@
         if (cat && claimable(b, cat) > 0 && interesting.indexOf(t.name) < 0) interesting.push(t.name);
       });
     }
+    var pool = [];
     Object.keys(byName).forEach(function (name) {
       if (savedClinics[name] || f.indexOf(name) > -1 || isArchived(name)) return;
       var entries = byName[name];
       var txs = entries.map(function (e) { return e.treatment; }).filter(function (t) { return interesting.indexOf(t) > -1; });
       if (!txs.length) return;
       var c = entries[0].clinic;
-      var vm = { name: name, clinic: c, key: (c.name + "|" + (c.city || "")).toLowerCase(), X: extraFor(c), media: mediaFor(c), distKm: Infinity };
+      var tx = txs[0];
+      var vm = { name: name, clinic: c, treatments: [tx], key: (c.name + "|" + (c.city || "")).toLowerCase(), X: null, media: {}, distKm: Infinity };
+      vm.X = extraFor(c);
+      vm.media = mediaFor(c);
+      vm.dbv = dbFor(vm);
       vm.rating = ratingFor(vm);
-      var photo = vm.media.img || (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.gal && CLINIC_EXTRA.gal[name] && CLINIC_EXTRA.gal[name][0]) || "";
       if (window.wfGeo && userPt) {
         var coords = window.wfGeo.clinicCoords(c) || (vm.media.lat != null ? [parseFloat(vm.media.lat), parseFloat(vm.media.lng)] : null);
         if (coords) vm.distKm = window.wfGeo.haversineKm(userPt, coords);
       }
-      var lead = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.lead && CLINIC_EXTRA.lead[name] && CLINIC_EXTRA.lead[name][txs[0]]) || "";
-      var addr = vm.media.address || "";
-      if (!addr) {
-        var parts = [];
-        if (vm.X && vm.X.a) parts.push(vm.X.a);
-        if (c.city) parts.push(c.city);
-        if (c.prov) parts.push(c.prov);
-        addr = parts.join(", ");
-      }
-      pool.push({ vm: vm, tx: txs[0], photo: photo, lead: lead, addr: addr });
+      pool.push({ vm: vm, tx: tx, priceNum: sessionPrice(priceStrFor(vm, tx)) || Infinity });
     });
+    /* "Recommended" order: the pool's native order (closest, then
+       best rated) — the other sorts re-order on demand. */
     pool.sort(function (a, c) {
       return (a.vm.distKm - c.vm.distKm) || ((c.vm.rating ? c.vm.rating[0] : 0) - (a.vm.rating ? a.vm.rating[0] : 0));
     });
-    pool = pool.slice(0, 3);
-    host.innerHTML = pool.length ? pool.map(function (p) {
-      var vm = p.vm;
-      var ph = p.photo
-        ? '<div class="ph" style="background-image:url(\'' + esc(p.photo) + '\')" role="img" aria-label="' + esc(vm.name) + '"></div>'
-        : '<div class="ph ph--none" aria-hidden="true"><span>' + esc((vm.name || "?").charAt(0)) + "</span></div>";
-      var rate = vm.rating
-        ? '<span class="rate">★ ' + (vm.rating[0] % 1 ? vm.rating[0].toFixed(1) : vm.rating[0]) + " (" + Number(vm.rating[1] || 0).toLocaleString() + ")</span>"
-        : "<span></span>";
-      return '<div class="mw-sugg-card">' + ph
-        + '<div class="b"><h4>' + esc(vm.name) + "</h4>"
-        + (p.lead ? '<p class="desc">' + esc(p.lead) + "</p>" : "")
-        + (p.addr ? '<p class="addr">' + esc(p.addr) + "</p>" : "")
-        + '<div class="mw-sugg-actions">' + rate
-        + '<button type="button" class="mw-savebtn2" data-mw-save="' + esc(vm.name) + '">♥ Save clinic</button></div>'
-        + "</div></div>";
-    }).join("") : "";
+    return pool.slice(0, REC_POOL_CAP);
+  }
+  function visibleRecs() {
+    var list = recPool.slice();
+    if (recFilters.db) list = list.filter(function (p) { return p.vm.dbv === "yes"; });
+    if (recFilters.open) list = list.filter(function (p) {
+      var st = p.vm.X && p.vm.X.h ? todayState(p.vm.X.h, p.vm.clinic.prov) : null;
+      return !!(st && st.open === true);
+    });
+    if (recFilters.tx) list = list.filter(function (p) { return p.tx === recFilters.tx; });
+    if (userPt) list = list.filter(function (p) { return p.vm.distKm <= recFilters.dist; });
+    if (recFilters.sort === "closest") {
+      list.sort(function (a, c) { return (a.vm.distKm - c.vm.distKm) || ((c.vm.rating ? c.vm.rating[0] : 0) - (a.vm.rating ? a.vm.rating[0] : 0)); });
+    } else if (recFilters.sort === "rated") {
+      list.sort(function (a, c) { return ((c.vm.rating ? c.vm.rating[0] : 0) - (a.vm.rating ? a.vm.rating[0] : 0)) || (a.vm.distKm - c.vm.distKm); });
+    } else if (recFilters.sort === "price") {
+      list.sort(function (a, c) { return (a.priceNum - c.priceNum) || (a.vm.distKm - c.vm.distKm); });
+    }
+    return list;
+  }
+  function renderRecFilters() {
+    var host = $("mwRecFilters");
+    if (!host) return;
+    var txSeen = [];
+    recPool.forEach(function (p) { if (txSeen.indexOf(p.tx) < 0) txSeen.push(p.tx); });
+    if (recFilters.tx && txSeen.indexOf(recFilters.tx) < 0) recFilters.tx = "";
+    var chips = ['<button type="button" class="mw-fchip' + (recFilters.tx === "" ? " active" : "") + '" data-rec-ftx="">All treatments</button>']
+      .concat(txSeen.map(function (t) {
+        return '<button type="button" class="mw-fchip' + (recFilters.tx === t ? " active" : "") + '" data-rec-ftx="' + esc(t) + '">' + esc(t) + "</button>";
+      })).join("");
+    host.innerHTML = (recPool.length
+      ? '<button type="button" class="mw-toggle' + (recFilters.db ? " on" : "") + '" data-rec-toggle="db" aria-pressed="' + recFilters.db + '"><span class="mw-knob"></span>Direct billing only</button>'
+        + '<button type="button" class="mw-toggle' + (recFilters.open ? " on" : "") + '" data-rec-toggle="open" aria-pressed="' + recFilters.open + '"><span class="mw-knob"></span>Open now</button>'
+        + chips
+        + '<label class="mw-fsel-lbl">Within <select class="mw-sel" id="mwRecDistSel" aria-label="Distance">'
+        + [10, 25, 50, 100].map(function (d) { return '<option value="' + d + '"' + (recFilters.dist === d ? " selected" : "") + ">" + d + " km</option>"; }).join("")
+        + '</select></label>'
+        + '<label class="mw-fsel-lbl">Sort <select class="mw-sel" id="mwRecSortSel" aria-label="Sort recommendations">'
+        + '<option value="rec"' + (recFilters.sort === "rec" ? " selected" : "") + ">Recommended</option>"
+        + '<option value="closest"' + (recFilters.sort === "closest" ? " selected" : "") + ">Closest</option>"
+        + '<option value="rated"' + (recFilters.sort === "rated" ? " selected" : "") + ">Top rated</option>"
+        + '<option value="price"' + (recFilters.sort === "price" ? " selected" : "") + ">Lowest price</option>"
+        + "</select></label>"
+      : "")
+      + locChipHTML("rec");
+    wireLocChip("rec");
+    var ds = $("mwRecDistSel");
+    if (ds) ds.addEventListener("change", function () { recFilters.dist = parseInt(ds.value, 10) || 50; renderRecCards(); });
+    var ss = $("mwRecSortSel");
+    if (ss) ss.addEventListener("change", function () { recFilters.sort = ss.value; renderRecCards(); });
+  }
+  function renderRecCards() {
+    var host = $("mwSuggClinics");
+    if (!host) return;
+    var list = visibleRecs();
+    var cnt = $("mwRecCount");
+    if (cnt) cnt.textContent = recPool.length
+      ? list.length + " of " + recPool.length + " recommended clinic" + (recPool.length === 1 ? "" : "s") + " shown"
+      : "";
+    host.innerHTML = list.length
+      ? list.map(function (p) { return clinicCard(p.vm, p.tx); }).join("")
+      : (recPool.length ? '<div class="saved-empty-card"><h3>No recommendations match those filters</h3><p>Try widening the distance or clearing a filter.</p></div>' : "");
     syncRecVisibility();
+  }
+  function renderSuggClinics() {
+    if (!$("mwSuggClinics")) return;
+    recPool = buildRecPool();
+    renderRecFilters();
+    renderRecCards();
   }
   /* The Recommended section shows only when it has something in it —
      no orphan heading over an empty block. */
   function syncRecVisibility() {
     var wrap = $("savedRecWrap");
     if (!wrap) return;
-    var g1 = $("savedRecGrid"), g2 = $("mwSuggClinics");
-    var has = !!((g1 && g1.children.length) || (g2 && g2.children.length));
+    var g1 = $("savedRecGrid");
+    var has = !!((g1 && g1.children.length) || recPool.length);
     wrap.hidden = !has;
   }
 
@@ -2578,6 +2732,7 @@
     renderWalletCards();
     renderTimeline();
     renderArchived();
+    renderTxPicker();
   }
 
   /* ============================================================
@@ -2617,6 +2772,49 @@
       filters.tx = fc.getAttribute("data-mw-ftx") || "";
       renderFilters();
       renderClinics();
+      return;
+    }
+    var rtg = e.target.closest ? e.target.closest("[data-rec-toggle]") : null;
+    if (rtg) {
+      var rwhich = rtg.getAttribute("data-rec-toggle");
+      recFilters[rwhich] = !recFilters[rwhich];
+      renderRecFilters();
+      renderRecCards();
+      return;
+    }
+    var rfc = e.target.closest ? e.target.closest("[data-rec-ftx]") : null;
+    if (rfc) {
+      recFilters.tx = rfc.getAttribute("data-rec-ftx") || "";
+      renderRecFilters();
+      renderRecCards();
+      return;
+    }
+    var po = e.target.closest ? e.target.closest("[data-tx-picker-open]") : null;
+    if (po) {
+      txPickerOpen = true;
+      renderTxPicker();
+      var pk = $("mwTxPicker");
+      if (pk) pk.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      return;
+    }
+    var pcl = e.target.closest ? e.target.closest("[data-tx-picker-close]") : null;
+    if (pcl) {
+      txPickerOpen = false;
+      renderTxPicker();
+      return;
+    }
+    var psv = e.target.closest ? e.target.closest("[data-tx-save]") : null;
+    if (psv) {
+      if (window.wfFavs) wfFavs.toggle(psv.getAttribute("data-tx-save"));
+      renderAllSaved();
+      renderTxPicker();
+      return;
+    }
+    var prs = e.target.closest ? e.target.closest("[data-tx-restore]") : null;
+    if (prs) {
+      unarchiveItem(prs.getAttribute("data-tx-restore"));
+      renderAllSaved();
+      renderTxPicker();
       return;
     }
     var sv = e.target.closest ? e.target.closest("[data-mw-save]") : null;
@@ -2746,7 +2944,7 @@
   refreshAsync();
   window.addEventListener("wf:location", function () {
     userPt = null; userPtKey = "";
-    locEditing = false;
+    locEditScope = null;
     renderFilters();
     refreshAsync();
   });
