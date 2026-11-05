@@ -340,7 +340,10 @@
      Saved clinic view models
      ============================================================ */
   var clinicVMs = [];
-  var filters = { db: false, open: false, tx: "", dist: 50, sort: "closest" };
+  var filters = { db: false, open: false, mods: [], dist: 50, sort: "closest" };
+  /* Saved-row Modality dropdown open state (kept across the row's
+     re-renders so ticking a box doesn't collapse the panel). */
+  var modPanelOpen = false;
 
   function buildVMs() {
     var byName = {};
@@ -383,6 +386,21 @@
     });
     return best;
   }
+  /* Primary modality of a treatment — the picker's grouping rule
+     (categories[0]) — and the set of modalities a saved clinic
+     spans through its listed treatments. */
+  function txModality(name) {
+    var t = treatmentByName(name);
+    return t && t.categories && t.categories.length ? t.categories[0] : null;
+  }
+  function vmModalities(vm) {
+    var out = [];
+    vm.treatments.forEach(function (tn) {
+      var m = txModality(tn);
+      if (m && out.indexOf(m) < 0) out.push(m);
+    });
+    return out;
+  }
   function visibleVMs() {
     var list = clinicVMs.slice();
     if (filters.db) list = list.filter(function (vm) { return vm.dbv === "yes"; });
@@ -390,7 +408,10 @@
       var st = vm.X && vm.X.h ? todayState(vm.X.h, vm.clinic.prov) : null;
       return !!(st && st.open === true);
     });
-    if (filters.tx) list = list.filter(function (vm) { return vm.treatments.indexOf(filters.tx) > -1; });
+    if (filters.mods.length) list = list.filter(function (vm) {
+      var ms = vmModalities(vm);
+      return filters.mods.some(function (m) { return ms.indexOf(m) > -1; });
+    });
     if (userPt) list = list.filter(function (vm) { return vm.distKm <= filters.dist; });
     var bySlots = function (a, b) { return (b.hasSlots ? 1 : 0) - (a.hasSlots ? 1 : 0); };
     if (filters.sort === "rated") {
@@ -2171,6 +2192,20 @@
      ============================================================ */
   var TX_MOD_ORDER = ["Physiotherapy", "Naturopathy", "Chiropractic", "Speech Therapy", "Acupuncture", "Massage Therapy", "Psychology", "Psychotherapy", "Osteopathy", "Dental", "Dietitian"];
   var txPickerOpen = false;
+  /* Picker-session tracking (Leon): a treatment newly saved while
+     the panel is open arms a landing scroll — closing the panel
+     then glides to the Recommended section so the user lands on
+     the payoff. Closing with no new saves does not scroll. */
+  var txPickerNewSave = false;
+  /* Recency boost for the Recommended pool: treatment name ->
+     timestamp of its most recent save from the picker. Pairs for
+     a boosted treatment sort ahead of the pool's native order in
+     buildRecPool (freshest first), so a just-saved treatment's
+     clinics survive the 12-pair cap and lead the default
+     "Recommended" order. Un-saving clears the boost. The explicit
+     sorts (Closest / Top rated / Lowest price) re-order the
+     visible list in visibleRecs() exactly as before. */
+  var txBoost = {};
   function txPickerGroups() {
     var groups = [];
     var covered = {};
@@ -2222,6 +2257,7 @@
       + txPickerGroups().map(function (g) {
         return '<h4 class="txp-mod">' + esc(g.m) + '</h4><div class="txp-rows">' + g.list.map(txPickerRowHTML).join("") + "</div>";
       }).join("")
+      + '<div class="txp-foot"><button type="button" class="txp-close" data-tx-picker-close>Done</button></div>'
       + "</div>";
   }
 
@@ -2262,13 +2298,16 @@
   }
   /* Live openings grouped BY TREATMENT (Leon): pull in the chips for
      every treatment this clinic offers in the directory that has live
-     slots — not just the saved ones. Groups: saved treatments first,
-     then the rest in directory order; ≤3 chips per treatment (merged
-     across initial/follow-up kinds, deduped, earliest first) and at
-     most 3 groups per card. Pass onlyTx (array) to restrict the block
-     to specific treatments (recommended cards show only their own
-     treatment). Chips carry data-treatment, so the shared chooser in
-     app.js opens for the chip's own treatment. */
+     slots — not just the saved ones. Groups: most-recently-saved
+     first (the picker's recency map, freshest first — so a treatment
+     the user just added always surfaces), then the other saved
+     treatments, then unsaved ones in directory order; ≤3 chips per
+     treatment (merged across initial/follow-up kinds, deduped,
+     earliest first) and at most 4 groups per card. Pass onlyTx
+     (array) to restrict the block to specific treatments
+     (recommended cards show only their own treatment). Chips carry
+     data-treatment, so the shared chooser in app.js opens for the
+     chip's own treatment. */
   function clinicSlotsHTML(vm, onlyTx) {
     var order;
     if (onlyTx && onlyTx.length) {
@@ -2278,6 +2317,9 @@
       var savedFirst = vm.treatments.filter(function (T) {
         return favList.indexOf(T) > -1 && !!treatmentByName(T);
       });
+      /* Stable sort: boosted (recently saved) first by recency,
+         the rest keep directory order. */
+      savedFirst.sort(function (a, b) { return (txBoost[b] || 0) - (txBoost[a] || 0); });
       order = savedFirst.concat(vm.treatments.filter(function (T) {
         return savedFirst.indexOf(T) < 0;
       }));
@@ -2304,7 +2346,7 @@
       var head = merged[0];
       groups.push({ T: T, title: slotTitle(head.s, head.kind, T), price: head.s.price || "", chips: merged.map(function (x) { return x.ch; }) });
     });
-    groups = groups.slice(0, 3);
+    groups = groups.slice(0, 4);
     if (!groups.length) return "";
     var parts = groups.map(function (g) {
       var chipHtml = g.chips.map(function (ch) {
@@ -2446,18 +2488,34 @@
   function renderFilters() {
     var host = $("mwFilters");
     if (!host) return;
-    if (!clinicVMs.length) { host.innerHTML = locChipHTML(""); wireLocChip(""); return; }
-    var offered = {};
-    clinicVMs.forEach(function (vm) { vm.treatments.forEach(function (t) { offered[t] = true; }); });
-    var savedTx = activeFavs().filter(function (n) { return treatmentByName(n) && offered[n]; });
-    var chips = ['<button type="button" class="mw-fchip' + (filters.tx === "" ? " active" : "") + '" data-mw-ftx="">All treatments</button>']
-      .concat(savedTx.map(function (t) {
-        return '<button type="button" class="mw-fchip' + (filters.tx === t ? " active" : "") + '" data-mw-ftx="' + esc(t) + '">' + esc(t) + "</button>";
-      })).join("");
+    /* No location chip in this row (Leon: not needed for saved
+       clinics) — the shared wfLoc/wfProv state lives on via the
+       Recommended row's chip and still drives distances/Within. */
+    if (!clinicVMs.length) { host.innerHTML = ""; return; }
+    /* Modalities represented among the saved clinics, in the
+       picker's modality order; stale ticks are pruned. */
+    var repSet = {};
+    clinicVMs.forEach(function (vm) { vmModalities(vm).forEach(function (m) { repSet[m] = true; }); });
+    var repMods = TX_MOD_ORDER.filter(function (m) { return repSet[m]; });
+    Object.keys(repSet).forEach(function (m) { if (repMods.indexOf(m) < 0) repMods.push(m); });
+    filters.mods = filters.mods.filter(function (m) { return repSet[m]; });
+    var modDD = '<div class="mw-modwrap">'
+      + '<button type="button" class="mw-fchip mw-modbtn' + (filters.mods.length ? " active" : "") + '" data-mw-modbtn aria-haspopup="true" aria-expanded="' + modPanelOpen + '">Modalities'
+      + (filters.mods.length ? " · " + filters.mods.length : "")
+      + ' <span aria-hidden="true">▾</span></button>'
+      + (modPanelOpen
+        ? '<div class="mw-modpanel" role="group" aria-label="Filter by modality">'
+          + repMods.map(function (m) {
+            return '<label class="mw-modrow"><input type="checkbox" data-mw-mod="' + esc(m) + '"' + (filters.mods.indexOf(m) > -1 ? " checked" : "") + "> " + esc(m) + "</label>";
+          }).join("")
+          + '<div class="mw-modfoot"><button type="button" class="mw-linklike" data-mw-modclear>Clear</button>'
+          + '<button type="button" class="mw-mod-done" data-mw-modclose>Done</button></div></div>'
+        : "")
+      + "</div>";
     host.innerHTML =
       '<button type="button" class="mw-toggle' + (filters.db ? " on" : "") + '" data-mw-toggle="db" aria-pressed="' + filters.db + '"><span class="mw-knob"></span>Direct billing only</button>'
       + '<button type="button" class="mw-toggle' + (filters.open ? " on" : "") + '" data-mw-toggle="open" aria-pressed="' + filters.open + '"><span class="mw-knob"></span>Open now</button>'
-      + chips
+      + modDD
       + '<label class="mw-fsel-lbl">Within <select class="mw-sel" id="mwDistSel" aria-label="Distance">'
       + [10, 25, 50, 100].map(function (d) { return '<option value="' + d + '"' + (filters.dist === d ? " selected" : "") + ">" + d + " km</option>"; }).join("")
       + '</select></label>'
@@ -2465,9 +2523,7 @@
       + '<option value="closest"' + (filters.sort === "closest" ? " selected" : "") + ">Closest</option>"
       + '<option value="rated"' + (filters.sort === "rated" ? " selected" : "") + ">Highest rated</option>"
       + '<option value="coverage"' + (filters.sort === "coverage" ? " selected" : "") + ">Most coverage left</option>"
-      + "</select></label>"
-      + locChipHTML("");
-    wireLocChip("");
+      + "</select></label>";
     var ds = $("mwDistSel");
     if (ds) ds.addEventListener("change", function () { filters.dist = parseInt(ds.value, 10) || 50; renderClinics(); updateNearCounts(); });
     var ss = $("mwSortSel");
@@ -2574,9 +2630,13 @@
       }
       pool.push({ vm: vm, tx: tx, priceNum: sessionPrice(priceStrFor(vm, tx)) || Infinity });
     });
-    /* "Recommended" order: the pool's native order (closest, then
-       best rated) — the other sorts re-order on demand. */
+    /* "Recommended" order: the pool's native order — picker
+       recency boost first (freshest-saved treatment's pairs lead,
+       so they survive the cap below), then closest, then best
+       rated. The explicit sorts re-order on demand. */
     pool.sort(function (a, c) {
+      var ba = txBoost[a.tx] || 0, bc = txBoost[c.tx] || 0;
+      if (bc !== ba) return bc - ba;
       return (a.vm.distKm - c.vm.distKm) || ((c.vm.rating ? c.vm.rating[0] : 0) - (a.vm.rating ? a.vm.rating[0] : 0));
     });
     return pool.slice(0, REC_POOL_CAP);
@@ -2767,6 +2827,13 @@
   }
 
   document.addEventListener("click", function (e) {
+    /* Modality dropdown (saved-clinics row): a click anywhere
+       outside it closes the panel — the click itself still
+       processes through the branches below. */
+    if (modPanelOpen && !(e.target.closest && e.target.closest(".mw-modwrap"))) {
+      modPanelOpen = false;
+      renderFilters();
+    }
     var noteBtn = e.target.closest ? e.target.closest("[data-note-toggle]") : null;
     if (noteBtn) {
       var name2 = noteBtn.getAttribute("data-note-toggle");
@@ -2783,10 +2850,30 @@
       renderClinics();
       return;
     }
-    var fc = e.target.closest ? e.target.closest("[data-mw-ftx]") : null;
-    if (fc) {
-      filters.tx = fc.getAttribute("data-mw-ftx") || "";
+    var mb = e.target.closest ? e.target.closest("[data-mw-modbtn]") : null;
+    if (mb) {
+      modPanelOpen = !modPanelOpen;
       renderFilters();
+      return;
+    }
+    var mclr = e.target.closest ? e.target.closest("[data-mw-modclear]") : null;
+    if (mclr) {
+      filters.mods = [];
+      renderClinics();
+      return;
+    }
+    var mdn = e.target.closest ? e.target.closest("[data-mw-modclose]") : null;
+    if (mdn) {
+      modPanelOpen = false;
+      renderFilters();
+      return;
+    }
+    var mcb = e.target.closest ? e.target.closest("[data-mw-mod]") : null;
+    if (mcb) {
+      var mn = mcb.getAttribute("data-mw-mod");
+      var mix = filters.mods.indexOf(mn);
+      if (mcb.checked && mix < 0) filters.mods.push(mn);
+      if (!mcb.checked && mix > -1) filters.mods.splice(mix, 1);
       renderClinics();
       return;
     }
@@ -2808,6 +2895,7 @@
     var po = e.target.closest ? e.target.closest("[data-tx-picker-open]") : null;
     if (po) {
       txPickerOpen = true;
+      txPickerNewSave = false;
       renderTxPicker();
       var pk = $("mwTxPicker");
       if (pk) pk.scrollIntoView({ behavior: "smooth", block: "nearest" });
@@ -2815,13 +2903,28 @@
     }
     var pcl = e.target.closest ? e.target.closest("[data-tx-picker-close]") : null;
     if (pcl) {
+      var landOnRecs = txPickerNewSave;
       txPickerOpen = false;
+      txPickerNewSave = false;
       renderTxPicker();
+      if (landOnRecs) {
+        var rw = $("savedRecWrap");
+        if (rw && !rw.hidden) rw.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
       return;
     }
     var psv = e.target.closest ? e.target.closest("[data-tx-save]") : null;
     if (psv) {
-      if (window.wfFavs) wfFavs.toggle(psv.getAttribute("data-tx-save"));
+      var txName = psv.getAttribute("data-tx-save");
+      var wasSaved = window.wfFavs ? wfFavs.has(txName) : favs().indexOf(txName) > -1;
+      if (window.wfFavs) wfFavs.toggle(txName);
+      var nowSaved = window.wfFavs ? wfFavs.has(txName) : favs().indexOf(txName) > -1;
+      if (nowSaved && !wasSaved) {
+        txBoost[txName] = Date.now();
+        if (txPickerOpen) txPickerNewSave = true;
+      } else if (!nowSaved && wasSaved) {
+        delete txBoost[txName];
+      }
       renderAllSaved();
       renderTxPicker();
       return;
