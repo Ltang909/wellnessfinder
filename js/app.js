@@ -649,7 +649,12 @@
   function initNav() {
     const toggle = $(".nav-toggle");
     const menu = $("#mobileMenu");
-    if (!toggle || !menu) return;
+    /* Mobile fix pass (A3): single owner for the toggle binding.
+       site-nav.js binds (and flags) the toggle on universal-header
+       pages; binding here too made one tap open AND close the menu.
+       Pages with a static header (no site-nav) still bind here. */
+    if (!toggle || !menu || toggle.__wfNavBound) return;
+    toggle.__wfNavBound = true;
     toggle.addEventListener("click", () => {
       const open = menu.classList.toggle("open");
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
@@ -1452,16 +1457,29 @@
       if ((p || prov) && !editing) {
         bar.classList.add("is-pill");
         document.body.classList.remove("has-loc-banner");
+        document.body.classList.add("has-loc-pill");
+        document.body.style.paddingBottom = "";
         const label = prov === "CA" && !p ? "Canada" : [prov === "CA" ? "" : prov, p ? p.toUpperCase() : ""].filter(Boolean).join(" · ");
         bar.innerHTML = `<button type="button" class="loc-pill" data-loc-edit aria-label="Your location is ${esc(label)}. Tap to change it">📍 ${esc(label)}</button>`;
       } else {
         bar.classList.remove("is-pill");
+        document.body.classList.remove("has-loc-pill");
         document.body.classList.add("has-loc-banner");
         bar.innerHTML = editing
           ? `<div class="wrap loc-bar-in"><span>📍 Your location</span>${formHTML(p, prov)}<button type="button" class="loc-cancel" data-loc-cancel aria-label="Cancel">✕</button></div>`
           : `<div class="wrap loc-bar-in"><span>📍 See clinics near you</span>${formHTML("", "")}</div>`;
+        /* Mobile fix pass (A7): page content gets exactly the docked
+           bar's height as bottom padding, so the bar never covers the
+           end of the page (the wrapped mobile form is taller than the
+           old fixed 54px allowance). */
+        document.body.style.paddingBottom = bar.offsetHeight + "px";
       }
     };
+    window.addEventListener("resize", () => {
+      if (!editing && !bar.classList.contains("is-pill")) {
+        document.body.style.paddingBottom = bar.offsetHeight + "px";
+      }
+    });
     render();
     bar.addEventListener("click", (e) => {
       if (e.target.closest("[data-loc-cancel]")) { editing = false; render(); return; }
@@ -2002,10 +2020,21 @@
         if (!week) return;
         const open = week.hasAttribute("hidden");
         if (open) {
-          document.querySelectorAll(".nc-week:not([hidden])").forEach((w) => { if (w !== week) { w.setAttribute("hidden", ""); const wb = w.closest(".nc-todaywrap"); const bb = wb && wb.querySelector("[data-nc-hours]"); if (bb) bb.setAttribute("aria-expanded", "false"); } });
+          document.querySelectorAll(".nc-week:not([hidden])").forEach((w) => { if (w !== week) { w.setAttribute("hidden", ""); w.style.left = ""; const wb = w.closest(".nc-todaywrap"); const bb = wb && wb.querySelector("[data-nc-hours]"); if (bb) bb.setAttribute("aria-expanded", "false"); } });
           week.removeAttribute("hidden"); more.setAttribute("aria-expanded", "true");
+          /* Mobile fix pass (A6): keep the floating week popup inside
+             the viewport — shift it left when it would spill past the
+             right edge (in-flow week blocks ignore `left`, so this is
+             a no-op for them). */
+          week.style.left = "";
+          const wr = week.getBoundingClientRect();
+          const vw = document.documentElement.clientWidth;
+          let shift = 0;
+          if (wr.right > vw - 8) shift = (vw - 8) - wr.right;
+          if (wr.left + shift < 8) shift = 8 - wr.left;
+          if (shift) week.style.left = shift + "px";
         }
-        else { week.setAttribute("hidden", ""); more.setAttribute("aria-expanded", "false"); }
+        else { week.setAttribute("hidden", ""); week.style.left = ""; more.setAttribute("aria-expanded", "false"); }
       }
     });
   }
@@ -2053,7 +2082,13 @@
     if (list) {
       const provs = [...new Set(g.clinics.map((c) => c.prov || "ON"))].sort();
       const provCount = (p) => g.clinics.filter((c) => (c.prov || "ON") === p).length;
-      const PAGE_SIZE = 12;
+      /* Mobile fix pass (B1): render cap — only `shown` cards are in
+         the DOM at once (30 to start, +30 per "Show more" click).
+         The old pattern rendered everything and hid the overflow in
+         a .nc-grid div whose display:grid silently overrode [hidden],
+         so the full set was laid out anyway (~70k px on IV Therapy). */
+      const PAGE_SIZE = 30;
+      let shown = PAGE_SIZE;
       let userPt = null;
       let nearSet = null;
       let scope = "";
@@ -2071,7 +2106,8 @@
         if (pv && provCount(pv)) return pv;
         return "";
       };
-      const renderList = (sc) => {
+      const renderList = (sc, keepShown) => {
+        if (!keepShown) shown = PAGE_SIZE;
         scope = sc || "";
         if (scope === "near" && !nearSet) scope = "";
         let cs;
@@ -2095,19 +2131,19 @@
           ? `<label class="prov-filter">Show <select id="provSelect">${nearOpt}<option value="">All of Canada (${g.clinics.length})</option>${provs.map((p) => `<option value="${p}">${PROV_NAMES[p] || p} (${provCount(p)})</option>`).join("")}</select></label>`
           : "";
         const sortedNote = (userPt && scope !== "near") ? ` <span class="tp-sorted">Sorted by distance from ${esc(wfLoc.get().toUpperCase())} \u00b7 approximate</span>` : "";
-        const first = cs.slice(0, PAGE_SIZE);
-        const rest = cs.slice(PAGE_SIZE);
+        const visible = cs.slice(0, shown);
+        const countLine = cs.length > PAGE_SIZE
+          ? `<p class="tp-count">Showing ${visible.length} of ${cs.length} clinics</p>` : "";
         list.innerHTML = `<div class="tp-list-head"><h2>${cs.length} clinic${cs.length === 1 ? "" : "s"} ${where}${sortedNote}</h2>${filter}</div>`
-          + ncCardsHTML(first, g)
-          + (rest.length ? `<div class="nc-grid see-more-body" hidden>${ncCardsHTML(rest, g, false)}</div><button type="button" class="btn btn--ghost see-more-btn" data-see-more>See all ${cs.length} clinics</button>` : "");
+          + countLine
+          + ncCardsHTML(visible, g)
+          + (shown < cs.length ? `<button type="button" class="btn btn--ghost see-more-btn" data-see-more>Show more clinics</button>` : "");
         const sel = document.getElementById("provSelect");
         if (sel) { sel.value = scope; sel.addEventListener("change", () => { userPicked = true; renderList(sel.value); }); }
         const moreBtn = list.querySelector("[data-see-more]");
         if (moreBtn) moreBtn.addEventListener("click", () => {
-          const body = list.querySelector(".see-more-body");
-          const open = body.hidden;
-          body.hidden = !open;
-          moreBtn.textContent = open ? "Show less" : `See all ${cs.length} clinics`;
+          shown += PAGE_SIZE;
+          renderList(scope, true);
         });
       };
       renderList(defaultScope());

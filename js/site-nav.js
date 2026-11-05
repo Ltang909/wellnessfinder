@@ -137,9 +137,13 @@
   badge.textContent = count;
   badge.hidden = !count;
 
-  // Mobile menu toggle (unchanged behaviour).
+  // Mobile menu toggle. This header is built by site-nav.js, so
+  // site-nav owns the binding; the __wfNavBound flag tells app.js's
+  // initNav to keep its hands off (mobile fix pass A3: the two used
+  // to both bind, so one tap toggled the menu open and shut again).
   var toggle = header.querySelector(".nav-toggle");
   var menu = document.getElementById("mobileMenu");
+  toggle.__wfNavBound = true;
   toggle.addEventListener("click", function () {
     var open = menu.classList.toggle("open");
     toggle.setAttribute("aria-expanded", open ? "true" : "false");

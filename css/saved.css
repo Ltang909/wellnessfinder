@@ -372,3 +372,38 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-section{paddi
 .mw-fsel-lbl{display:inline-flex;align-items:center;gap:6px;height:40px;font:600 .85rem inherit;color:var(--ink)}
 #mwFilters .mw-sel{height:40px;box-sizing:border-box;padding-top:0;padding-bottom:0}
 .mw-locform #mwLocPostal{height:40px;box-sizing:border-box}
+
+/* ---- Compact saved-clinic cards (Leon) ----
+   One merged action row (icons left, Manage right), 72px thumb,
+   one-line description and price. Scoped to the saved list so the
+   minipage rows keep their roomier hybrid layout. */
+.mw-clinic-list.tp-list .nc-card{padding:14px}
+.mw-clinic-list .nc-gallery{width:72px;height:72px}
+.mw-clinic-list .nc-main{padding:0;row-gap:3px}
+.mw-clinic-list .nc-head{row-gap:2px}
+.mw-clinic-list .nc-name{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.mw-clinic-list .nc-head .nc-rate{flex:none}
+.mw-clinic-list .nc-desc{margin-top:2px}
+.mw-clinic-list .nc-price-line{flex:1 1 100%;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:.9rem;color:#33302B}
+.mw-cardrow{flex:1 1 100%;display:flex;align-items:center;gap:6px 12px;flex-wrap:wrap;margin-top:2px}
+.mw-cardrow .nc-actions{flex:none;margin:0;padding:0;gap:6px 12px}
+.mw-cardrow .nc-ico{min-width:40px;gap:3px}
+.mw-cardrow .nc-ico svg{width:36px;height:36px;padding:9px}
+.mw-clinic-list .mw-manage{flex:0 1 auto;margin:0 0 0 auto;border-top:0;padding-top:0;gap:.45rem}
+.mw-clinic-list .mw-manage select{padding:.35rem .45rem;font-size:.82rem}
+.mw-clinic-list .mw-notebtn,.mw-clinic-list .mw-archivebtn,.mw-clinic-list .mw-remove{padding:7px 4px}
+.mw-clinic-list .nc-slots{margin-top:4px}
+@media (max-width:640px){
+  .mw-clinic-list.tp-list .nc-card{padding:12px}
+  .mw-cardrow{gap:4px 8px}
+  .mw-clinic-list .mw-manage{gap:.35rem}
+  .mw-clinic-list .mw-notebtn,.mw-clinic-list .mw-archivebtn,.mw-clinic-list .mw-remove{padding:6px 3px}
+}
+/* Mobile fix pass (A8): 16px form text on phones stops iOS auto-zoom
+   (the Composer textarea is already 1.02rem). */
+@media (max-width:680px){
+  .mw-sel,.mw-manage select,.mw-paste textarea{font-size:16px}
+  /* Same specificity as the compact-card rule above, later in the
+     file, so the 16px wins inside saved cards too. */
+  .mw-clinic-list .mw-manage select{font-size:16px}
+}

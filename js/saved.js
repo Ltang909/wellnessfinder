@@ -2238,7 +2238,7 @@
     var gal = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.gal && CLINIC_EXTRA.gal[c.name]) || (vm.media.img ? [vm.media.img] : []);
     var gallery = gal.length
       ? '<div class="nc-gallery"><div class="nc-track"><img src="' + esc(gal[0]) + '" alt="' + esc(c.name) + '" loading="lazy"></div></div>'
-      : '<div class="nc-tile" aria-hidden="true">' + esc((c.name || "?").charAt(0)) + "</div>";
+      : '<div class="nc-gallery"><div class="nc-tile" aria-hidden="true"><span>' + esc((c.name || "?").charAt(0)) + "</span></div></div>";
     var rate = vm.rating
       ? '<span class="nc-rate">' + (vm.rating[0] % 1 ? vm.rating[0].toFixed(1) : vm.rating[0]) + " ★ · " + vm.rating[1].toLocaleString() + "</span>"
       : "";
@@ -2263,12 +2263,13 @@
     }
     var billed = (t0 && t0.billed) || (pairFor(vm, T0) && pairFor(vm, T0).ba) || "";
     var leadTxt = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.lead && CLINIC_EXTRA.lead[c.name] && CLINIC_EXTRA.lead[c.name][T0]) || "";
-    var desc = leadTxt
-      ? '<p class="nc-desc">' + esc(leadTxt) + "</p>"
-      : '<p class="nc-desc">' + esc(vm.treatments.map(function (tn) { return tn; }).join(" · ")) + " in " + esc(c.city || "") + (billed ? " — billed as " + esc(billed) + "." : ".") + "</p>";
+    /* Compact card (Leon): description and price are single lines with
+       the full text in the title attribute (CSS ellipsises them). */
+    var descText = leadTxt || (vm.treatments.join(" · ") + " in " + (c.city || "") + (billed ? " — billed as " + billed + "." : "."));
+    var desc = '<p class="nc-desc" title="' + esc(descText) + '">' + esc(descText) + "</p>";
     var priceStr = priceStrFor(vm, T0);
     var priceHtml = priceStr
-      ? '<p class="nc-price-line">💲 ' + esc(priceStr) + " · " + esc(T0) + "</p>"
+      ? '<p class="nc-price-line" title="' + esc(priceStr + " · " + T0) + '">💲 ' + esc(priceStr) + " · " + esc(T0) + "</p>"
       : "";
     var book = bookUrlFor(vm, T0);
     var web = vm.clinic.link || (vm.X && vm.X.w) || "";
@@ -2305,20 +2306,25 @@
     var statusOpts = ['<option value="">Set status…</option>'].concat(STATUSES.map(function (s) {
       return '<option value="' + s + '"' + (meta.status === s ? " selected" : "") + ">" + s + "</option>";
     })).join("");
-    var manage = '<div class="mw-manage"><span class="mw-manage-lbl">📌 Manage</span>'
+    /* Compact card (Leon): the icon actions and the Manage controls
+       share ONE row (icons left, manage right); the note editor stays
+       a sibling under the row and still expands when opened. All
+       data-* hooks are unchanged, so the delegated wiring is too. */
+    var manage = '<div class="mw-manage">'
       + '<select class="mw-manage-sel" data-status-for="' + esc(vm.name) + '" aria-label="Status for ' + esc(vm.name) + '">' + statusOpts + "</select>"
       + '<button type="button" class="mw-notebtn" data-note-toggle="' + esc(vm.name) + '">' + (meta.note ? "✎ Note (1)" : "＋ Note") + "</button>"
       + '<button type="button" class="mw-archivebtn" data-archive-clinic="' + esc(vm.name) + '">Archive</button>'
       + '<button type="button" class="mw-remove" data-unsave="' + esc(vm.name) + '">♥ Remove</button>'
-      + '<textarea class="mw-note" data-note-for="' + esc(vm.name) + '" rows="2" placeholder="Private note — only visible on this device" aria-label="Private note for ' + esc(vm.name) + '"' + (meta.note ? "" : " hidden") + ">" + esc(meta.note || "") + "</textarea></div>";
+      + "</div>";
+    var noteTa = '<textarea class="mw-note" data-note-for="' + esc(vm.name) + '" rows="2" placeholder="Private note — only visible on this device" aria-label="Private note for ' + esc(vm.name) + '"' + (meta.note ? "" : " hidden") + ">" + esc(meta.note || "") + "</textarea>";
     return '<article class="nc-card" data-req-ctx="' + esc(JSON.stringify(reqCtx)) + '">' + gallery
       + '<div class="nc-main">'
       + '<div class="nc-head"><h4 class="nc-name">' + esc(c.name) + "</h4>" + rate + "</div>"
       + '<div class="nc-metaline">' + [addr ? "<span>" + esc(addr) + "</span>" : "", hSeg || "", dbSeg || "", (isFinite(vm.distKm) && userPt ? '<span class="nc-chipdist">' + (vm.distKm < 1 ? vm.distKm.toFixed(1) : Math.round(vm.distKm)) + " km away</span>" : "")].filter(Boolean).join('<span class="nc-sep" aria-hidden="true"> · </span>') + "</div>"
       + desc + priceHtml
-      + (actions ? '<div class="nc-actions nc-icons">' + actions + "</div>" : "")
+      + '<div class="mw-cardrow">' + (actions ? '<div class="nc-actions nc-icons">' + actions + "</div>" : "") + manage + "</div>"
+      + noteTa
       + clinicSlotsHTML(vm)
-      + manage
       + "</div></article>";
   }
   function cycleNextOpenKey(hours, todayKey) {
