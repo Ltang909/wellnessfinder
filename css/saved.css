@@ -197,8 +197,6 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-section{paddi
 
 
 
-.mw-savebtn2{border:1.5px solid var(--forest);background:#fff;color:var(--forest);font:700 .82rem inherit;padding:.5rem 1rem;border-radius:999px;cursor:pointer}
-.mw-savebtn2.saved{background:var(--forest);color:#fff}
 
 @media(max-width:900px){
   .mw-tl-grid{grid-template-columns:1fr}
@@ -331,7 +329,35 @@ body[data-page="saved"]{background:#ffffff;color:var(--ink)}.saved-section{paddi
 /* Recommended clinic cards are clinicCard output in rec mode, so
    they inherit the .mw-clinic-list anatomy above; the list host
    just needs the same top spacing the saved list gets. */
-#mwSuggClinics{margin-top:2px}
+/* Recommended grid (Leon): 3 cards per row on desktop, 2 on
+   tablets, 1 on phones — the saved list above stays stacked.
+   Dense flow backfills the cells a spanning card leaves behind.
+   A card whose inline request form is open (the engine drops its
+   .wf-reqhost as the card's next sibling) or whose chooser is open
+   (.mw-rec-open, hooked in saved.js) spans the full row so the
+   form/chooser context gets full width; the form host spans too. */
+#mwSuggClinics{margin-top:2px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;grid-auto-flow:row dense}
+@media (max-width:1099px){
+  #mwSuggClinics{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:699px){
+  #mwSuggClinics{grid-template-columns:minmax(0,1fr)}
+}
+#mwSuggClinics>.nc-card{min-width:0}
+#mwSuggClinics>.nc-card:has(+ .wf-reqhost),
+#mwSuggClinics>.nc-card.mw-rec-open,
+#mwSuggClinics>.wf-reqhost,
+#mwSuggClinics>.saved-empty-card{grid-column:1/-1}
+
+/* Rec card save control (Leon): icon-only heart at the right end
+   of the icon row. Base circle sizing comes from .fav-btn in
+   styles.css; these rules un-anchor it (the base is absolute for
+   photo corners), push it right, and make the saved fill deep
+   green instead of the photo-corner blush. */
+.mw-cardrow .mw-saveico{position:static;flex:none;margin-left:auto;background:#fff;border:1.5px solid rgba(15,45,43,.28);color:var(--forest);cursor:pointer}
+.mw-cardrow .mw-saveico:hover{border-color:var(--forest);color:var(--forest)}
+.mw-cardrow .mw-saveico.saved{background:#fff;border-color:var(--forest);color:var(--forest)}
+.mw-cardrow .mw-saveico.saved svg{fill:var(--forest)}
 
 /* My requests (schedule requests sent from clinic cards) */
 .mw-req-row { display: flex; align-items: flex-start; gap: 14px; background: #fff; border: 1px solid #dde3dc; border-radius: 14px; padding: 14px 16px; margin: 0 0 10px; }

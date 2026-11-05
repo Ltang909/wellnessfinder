@@ -2317,6 +2317,8 @@
     });
     return '<div class="nc-slots"><p class="nc-slots-head"><span class="nc-slots-label">Live openings</span><span class="nc-slots-cta">Tap a time to request it →</span></p>' + parts.join("") + "</div>";
   }
+  /* Same heart path as app.js's HEART, for the rec cards' save icon. */
+  var MW_HEART = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1L12 21l7.8-7.5 1-1a5.5 5.5 0 0 0 0-7.9Z"/></svg>';
   /* One card renderer for both surfaces: saved clinics (default)
      and Recommended cards (pass recTx — the card's clinic×treatment
      pair; vm.treatments is [recTx] there). Recommended cards swap
@@ -2404,7 +2406,12 @@
        data-* hooks are unchanged, so the delegated wiring is too. */
     var manage, noteTa = "";
     if (isRec) {
-      manage = '<div class="mw-manage mw-rec-manage"><button type="button" class="mw-savebtn2" data-mw-save="' + esc(vm.name) + '">♥ Save clinic</button></div>';
+      /* Icon-only save heart (Leon): the site-standard .fav-btn, so
+         app.js's global handler owns the wfFavs toggle + fill; the
+         data-rec-save hook below refreshes the saved sections after
+         it runs. No visible text — aria-label/title carry the name. */
+      var recSaved = favs().indexOf(vm.name) > -1;
+      manage = '<button type="button" class="fav-btn mw-saveico' + (recSaved ? " saved" : "") + '" data-fav="' + esc(vm.name) + '" data-rec-save aria-label="Save clinic" title="Save clinic" aria-pressed="' + (recSaved ? "true" : "false") + '">' + MW_HEART + "</button>";
     } else {
       manage = '<div class="mw-manage">'
         + '<select class="mw-manage-sel" data-status-for="' + esc(vm.name) + '" aria-label="Status for ' + esc(vm.name) + '">' + statusOpts + "</select>"
@@ -2918,6 +2925,41 @@
         renderAllSaved();
       }
     });
+  }
+
+  /* Recommended grid hooks (Leon). The rec cards' save heart is a
+     plain .fav-btn: app.js's global handler owns the wfFavs toggle
+     and the heart fill. Once it has run, refresh the saved sections
+     so the clinic lands in the saved list above — the rec grid
+     itself is NOT re-rendered, so the filled heart stays in place. */
+  document.addEventListener("click", function (e) {
+    var b = e.target.closest ? e.target.closest("[data-rec-save]") : null;
+    if (!b) return;
+    setTimeout(function () { render(); }, 0);
+  });
+
+  /* While the contact chooser is open from a rec card's time chip,
+     that card spans the full grid row. The .wf-choose popover lives
+     on <body> (outside the card), so a class hook + an observer
+     stand in: chip clicks mark the card, and the class clears as
+     soon as no chooser exists. The inline request form needs no
+     hook — its host lands as the card's next sibling and CSS
+     :has(+ .wf-reqhost) spans the card (see saved.css). */
+  var suggHost = $("mwSuggClinics");
+  if (suggHost) {
+    suggHost.addEventListener("click", function (e) {
+      var chip = e.target.closest ? e.target.closest("[data-req-chip]") : null;
+      if (!chip) return;
+      var card = chip.closest(".nc-card");
+      suggHost.querySelectorAll(".nc-card.mw-rec-open").forEach(function (x) { x.classList.remove("mw-rec-open"); });
+      if (card) card.classList.add("mw-rec-open");
+    });
+    if (window.MutationObserver) {
+      new MutationObserver(function () {
+        if (document.querySelector(".wf-choose")) return;
+        suggHost.querySelectorAll(".nc-card.mw-rec-open").forEach(function (x) { x.classList.remove("mw-rec-open"); });
+      }).observe(document.body, { childList: true });
+    }
   }
 
   var emailForm = document.getElementById("savedEmailForm");
