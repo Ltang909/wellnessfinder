@@ -733,7 +733,7 @@
       return `<figure class="review-card">${stars}<blockquote class="review-quote">&ldquo;${text}&rdquo;</blockquote><figcaption class="review-meta"><span class="review-name">${esc(q.reviewer)}</span><span class="review-clinic">${esc(q.clinic)} · ${esc(q.city)}</span><span class="review-tags"><span class="review-tag">${esc(q.treatment)}</span><span class="review-tag review-tag--billed">Billed as ${esc(q.billed)}</span></span></figcaption></figure>`;
     };
     const half = REVIEW_QUOTES.map(card).join("");
-    const secs = Math.max(30, Math.round(REVIEW_QUOTES.length * 13)); // x13 (was x6.5): marquee slowed to half speed, Nov 6 2026
+    const secs = Math.max(30, Math.round(REVIEW_QUOTES.length * 26)); // x26 (was x13, x6.5 before): marquee at quarter speed, Nov 6 2026
     grid.innerHTML = `<div class="why-track" style="animation-duration:${secs}s">${half}${half}</div>`;
   }
 
@@ -929,6 +929,17 @@
         <button type="button" class="fs-sect-head" aria-expanded="false"><b>${esc(g.m)}</b><span>${g.list.length} treatment${g.list.length === 1 ? "" : "s"} \u00b7 ${(function () { const n = g.list.reduce((sum, t) => sum + fsClinicsShown(t), 0); return `${n.toLocaleString("en-CA")} clinic${n === 1 ? "" : "s"}`; })()} \u00b7 <em>Show \u25be</em></span></button>
         <div class="fs-minigrid">${g.list.map(fsMiniHTML).join("")}</div>
       </div>`).join("")}`;
+    /* Mobile: the tab strip scrolls (real tab widths, no label overlap);
+       centre the active tab in the strip. No-op when nothing overflows
+       (desktop). Re-run once webfonts land, since widths shift. */
+    const centreFsTab = () => {
+      const bar = root.querySelector(".fs-tabbar"), act = root.querySelector(".fs-tab.active");
+      if (!bar || !act || bar.scrollWidth <= bar.clientWidth) return;
+      const br = bar.getBoundingClientRect(), ar = act.getBoundingClientRect();
+      bar.scrollLeft += (ar.left - br.left) - (bar.clientWidth - ar.width) / 2;
+    };
+    centreFsTab();
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(centreFsTab);
     if (!root.dataset.wired) {
       root.dataset.wired = "1";
       root.addEventListener("click", (e) => {
@@ -1018,8 +1029,48 @@
     return clean.length <= 40 ? clean : clean.split(/\s*[;\u00b7]\s*/)[0];
   }
 
+  /* Mobile featured rail (<=760px): native scroll-snap instead of the
+     desktop fan. fcWireMobileRail centres the current card after each
+     render and keeps fcIndex + the pagination dots in sync with the
+     scroll position; fcScrollToCard serves the dot clicks. */
+  function fcRailCentreIndex(rail) {
+    const cards = rail.querySelectorAll(".fc-card");
+    if (!cards.length) return 0;
+    const rc = rail.getBoundingClientRect().left + rail.clientWidth / 2;
+    let best = 0, bd = Infinity;
+    cards.forEach((card, i) => {
+      const r = card.getBoundingClientRect();
+      const d = Math.abs(r.left + r.width / 2 - rc);
+      if (d < bd) { bd = d; best = i; }
+    });
+    return best;
+  }
+  function fcScrollToCard(root, i, smooth) {
+    const rail = root.querySelector(".fc-rail--m"); if (!rail) return;
+    const card = rail.querySelectorAll(".fc-card")[i]; if (!card) return;
+    const left = rail.scrollLeft + (card.getBoundingClientRect().left - rail.getBoundingClientRect().left) - (rail.clientWidth - card.offsetWidth) / 2;
+    rail.scrollTo({ left, behavior: smooth ? "smooth" : "auto" });
+  }
+  function fcWireMobileRail(root) {
+    const rail = root.querySelector(".fc-rail--m"); if (!rail) return;
+    fcScrollToCard(root, fcIndex, false);
+    let ticking = false;
+    rail.addEventListener("scroll", () => {
+      if (ticking) return; ticking = true;
+      requestAnimationFrame(() => {
+        ticking = false;
+        const i = fcRailCentreIndex(rail);
+        if (i !== fcIndex) {
+          fcIndex = i;
+          root.querySelectorAll(".fc-pagedot").forEach((d, di) => d.classList.toggle("active", di === i));
+        }
+      });
+    }, { passive: true });
+  }
+
   function renderFeaturedClinics() {
     const root = $("#fcRoot"); if (!root || typeof TREATMENTS === "undefined") return;
+    const fcMobile = window.matchMedia("(max-width: 760px)").matches;
     const cfg = FC_TREATMENTS.find((x) => x.name === fcTreatment) || FC_TREATMENTS[1];
     const t = TREATMENTS.find((x) => x.name === fcTreatment);
     const { featured, total } = fcFeatured(fcTreatment);
@@ -1079,7 +1130,7 @@
     fcIndex = ((fcIndex % vis.length) + vis.length) % vis.length;
     const n = vis.length;
     const at = (k) => vis[((fcIndex + k) % n + n) % n];
-    const cardHTML = (annItem, k) => {
+    const cardHTML = (annItem, k, m) => {
       const c = annItem.c;
       const media = (typeof CLINIC_MEDIA !== "undefined" && CLINIC_MEDIA[c.name]) || {};
       const key = (c.name + "|" + c.city).toLowerCase();
@@ -1145,22 +1196,26 @@
         hoursHTML = `<p class="fc-hours">${bit}</p>`;
       }
 
-      /* actions: real links on the centre card, inert on side cards (they jump) */
+      /* actions: real links on the centre card, inert on side cards (they jump);
+         on mobile every card is reachable by scrolling, so all get real links */
       const book = media.link || c.book || (X && X.b) || (pair && pair.l) || "";
       const web = c.web || (X && X.w) || "";
-      const btns = k === 0
+      const btns = (k === 0 || m)
         ? `<div class="fc-btns">${book ? `<a class="fc-btn fc-btn-book" href="${esc(book)}" target="_blank" rel="noopener">Book appointment</a>` : ""}${web ? `<a class="fc-btn fc-btn-web" href="${esc(web)}" target="_blank" rel="noopener">Website ↗</a>` : ""}</div>`
         : `<div class="fc-btns">${book ? `<span class="fc-btn fc-btn-book">Book appointment</span>` : ""}${web ? `<span class="fc-btn fc-btn-web">Website ↗</span>` : ""}</div>`;
       const photo = media.img ? `<img src="${esc(media.img)}" alt="${esc(c.name)}">` : "";
       const fcSaved = getFavs().includes(c.name);
-      return `<article class="fc-card fc-d${Math.abs(k)} ${k === 0 ? "fc-card--active" : "fc-card--side"}${media.img ? "" : " fc-card--text"}" ${k === 0 ? "" : `data-fc-jump="${k}" role="button" tabindex="0" aria-label="Show ${esc(c.name)}"`}>
+      const inner = `
             <button class="fav-btn ${fcSaved ? "saved" : ""}" data-fav="${esc(c.name)}" aria-label="Save ${esc(c.name)}" aria-pressed="${fcSaved}">${HEART}</button>
             <h3>${esc(c.name)}</h3>
             ${annItem.d !== null && annItem.d !== undefined ? `<p class="fc-dist">📍 ${annItem.d < 1 ? "<1" : Math.round(annItem.d)} km away</p>` : ""}
             ${photo}
             <p class="fc-desc">${esc(desc)}</p>
             ${stars}${practHTML}${addrHTML}${priceHTML}${db}${hoursHTML}
-            ${btns}
+            ${btns}`;
+      if (m) return `<article class="fc-card fc-m${media.img ? "" : " fc-card--text"}" data-fc-i="${k}">${inner}
+          </article>`;
+      return `<article class="fc-card fc-d${Math.abs(k)} ${k === 0 ? "fc-card--active" : "fc-card--side"}${media.img ? "" : " fc-card--text"}" ${k === 0 ? "" : `data-fc-jump="${k}" role="button" tabindex="0" aria-label="Show ${esc(c.name)}"`}>${inner}
           </article>`;
     };
     const active = at(0);
@@ -1175,17 +1230,25 @@
         <p class="fc-sub">${esc(cfg.sub)}</p>
         <p class="fc-viewall"><a href="/featured-${slug}">View all featured clinics \u2192</a></p>
         ${geoNote ? `<p class="fc-geo">${geoNote}</p>` : ""}
-        <div class="fc-rail${fcDir > 0 ? " fc--fwd" : fcDir < 0 ? " fc--back" : ""}">
+        ${fcMobile ? `<div class="fc-rail fc-rail--m">${vis.map((a, i) => cardHTML(a, i, true)).join("")}</div>
+        <div class="fc-dots">${vis.map((_, i) => `<button type="button" class="fc-pagedot${i === fcIndex ? " active" : ""}" data-fc-dot="${i}" aria-label="Show clinic ${i + 1} of ${n}"></button>`).join("")}</div>` : `<div class="fc-rail${fcDir > 0 ? " fc--fwd" : fcDir < 0 ? " fc--back" : ""}">
           ${(() => { const w = Math.min(n % 2 === 1 ? n : n - 1, 7); const half = Math.floor(w / 2); const ks = []; for (let k = -half; k <= half; k++) ks.push(k); return ks.map((k) => cardHTML(at(k), k)).join(""); })()}
         </div>
-        <p class="fc-pager"><button type="button" data-fc-nav="-1" aria-label="Previous clinic">\u2039</button><b>${fcIndex + 1} / ${n}</b><button type="button" data-fc-nav="1" aria-label="Next clinic">\u203a</button></p>
+        <p class="fc-pager"><button type="button" data-fc-nav="-1" aria-label="Previous clinic">\u2039</button><b>${fcIndex + 1} / ${n}</b><button type="button" data-fc-nav="1" aria-label="Next clinic">\u203a</button></p>`}
       </div>
     </div>`;
     fcDir = 0;
+    if (fcMobile) fcWireMobileRail(root);
+    if (!window.__fcMqWired) {
+      window.__fcMqWired = true;
+      window.matchMedia("(max-width: 760px)").addEventListener("change", () => renderFeaturedClinics());
+    }
     if (!root.dataset.wired) {
       root.dataset.wired = "1";
       root.addEventListener("click", (e) => {
         if (e.target.closest(".fav-btn")) { setTimeout(() => renderFeaturedClinics(), 0); return; }
+        const dot = e.target.closest("[data-fc-dot]");
+        if (dot) { fcScrollToCard(root, parseInt(dot.dataset.fcDot, 10), true); return; }
         const sw = e.target.closest("[data-fc-treat]");
         if (sw) { fcTreatment = sw.dataset.fcTreat; fcIndex = 0; renderFeaturedClinics(); return; }
         const nav = e.target.closest("[data-fc-nav]");

@@ -226,7 +226,7 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
 /* Duration doubled Nov 6, 2026 (the claims bar rolled too fast for Leon).
    This CSS value is only the pre-JS fallback: renderWhy() in app.js sets the
    live duration inline, and that factor was doubled to match. */
-.why-track { display: flex; gap: 16px; width: max-content; padding: 4px 2px 16px; animation: why-scroll 76s linear infinite; }
+.why-track { display: flex; gap: 16px; width: max-content; padding: 4px 2px 16px; animation: why-scroll 152s linear infinite; }
 .why-track:hover { animation-play-state: paused; }
 @keyframes why-scroll { to { transform: translateX(calc(-50% - 8px)); } }
 .why-track .claim-card { flex: 0 0 300px; }
@@ -1497,19 +1497,84 @@ button.nc-slot-chip { font-family: inherit; cursor: pointer; }
 }
 
 /* ---------- mobile hero/header tune (Nov 6, 2026) ----------
-   Leon's phone kept wrapping the Fund headline to 3 lines: the Oct 31
-   phone size (8.6vw) left only ~13-25px of slack on the widest line,
-   so tighter renders tipped "insurance benefits." onto a third line.
-   8.2vw keeps ~30px of slack at 360/390/430 for every rotator word
-   (canvas-checked against real Playfair metrics) at nearly the same
-   visual size. The header logo lockup scales to 60% on mobile (tap
-   area kept at 44px), and the hero gets its top breathing room back:
-   padding-top 10px -> 40px at phone widths. Desktop untouched. */
+   The Fund headline is TWO LINES BY CONSTRUCTION on phones: the H1 is
+   two .h1-line spans ("Fund {word} with" / "insurance benefits.")
+   split by a structural <br class="h1-break"> that is always hidden —
+   on phones each span is a nowrap block, so no font-metric drift on a
+   real device can ever produce a third line. (The earlier metric-tuned
+   sizes, 8.6vw then 8.2vw, still tipped to 3 lines on Leon's phone.)
+   At 6.9vw the widest line ("Fund personal growth with") measures
+   88% of the 312px available at 360px (layout-measured, real faces). The header logo
+   lockup scales to 60% on mobile (tap area kept at 44px), and the
+   hero gets its top breathing room back: padding-top 10px -> 40px at
+   phone widths. Desktop untouched: spans inline, break hidden, the
+   Oct 31 single nowrap line renders exactly as before. */
+.h1-break { display: none; }
 @media (max-width: 760px) {
-  .hero h1 { font-size: clamp(1.7rem, 8.2vw, 2.05rem); line-height: 1.1; white-space: normal; }
+  .hero h1 { font-size: clamp(1.35rem, 6.9vw, 2.05rem); line-height: 1.1; white-space: normal; }
+  .hero h1 .h1-line { display: block; white-space: nowrap; }
   .site-header .brand { font-size: .77rem; gap: 6px; min-height: 44px; }
   .site-header .brand img { width: 20.4px; height: 20.4px; }
 }
 @media (max-width: 640px) {
   .hero-grid { padding-top: 40px; }
+}
+
+/* ---------- directory treatment cards: alignment discipline (Nov 6, 2026) ----------
+   On the 2-col phone grid the featured-treatment cards started their
+   internals at different heights (1- vs 2-line titles, billed-as
+   wrapping unevenly), so the "N clinics near..." rows sat on different
+   baselines. The card is now a flex column with reserved block heights
+   and the count link pinned to the bottom; grid rows already stretch,
+   so every card in a row shares the same count-row baseline. */
+.fs-card { display: flex; flex-direction: column; }
+.fs-card h3 { line-height: 1.15; min-height: 1.8rem; }
+.fs-meta { line-height: 1.5; min-height: 1.86rem; }
+.fs-card a.fs-clinics { margin-top: auto; padding-top: 8px; }
+
+/* Save hearts on the directory treatment cards only: the visual circle
+   shrinks to ~37px, centred inside a 44px tap box (the base .fav-btn
+   elsewhere stays 40px). The circle is drawn by ::before so the saved
+   (blush) and hover states colour it, not the transparent button box. */
+.fs-card .fav-btn, .fs-mini .fav-btn { width: 44px; height: 44px; background: transparent; border-color: transparent; box-shadow: none; }
+.fs-card .fav-btn::before, .fs-mini .fav-btn::before { content: ""; position: absolute; inset: 3.5px; border-radius: 50%; background: var(--paper); border: 1px solid var(--line); transition: all .16s ease; }
+.fs-card .fav-btn:hover::before, .fs-mini .fav-btn:hover::before { border-color: var(--blush); }
+.fs-card .fav-btn.saved, .fs-mini .fav-btn.saved { background: transparent; border-color: transparent; }
+.fs-card .fav-btn.saved::before, .fs-mini .fav-btn.saved::before { background: var(--blush); border-color: var(--blush); }
+.fs-card .fav-btn svg, .fs-mini .fav-btn svg { position: relative; z-index: 1; width: 16px; height: 16px; }
+
+/* ---------- featured clinics + directory tabs on phones (Nov 6, 2026) ----------
+   Featured Clinics follows the Four Seasons mobile pattern: a native
+   scroll-snap carousel, one large card centred with its neighbours
+   peeking in at both edges, photo-first card with the white caption
+   panel under it, pagination dots instead of the ‹ N / n › pager.
+   Desktop keeps the rotating fan untouched. */
+@media (max-width: 760px) {
+  .fc-pager { display: none; }
+  .fc-rail--m { justify-content: flex-start; overflow-x: auto; scroll-snap-type: x mandatory; gap: 12px; padding: 4px 9vw 12px; scrollbar-width: none; overscroll-behavior-x: contain; }
+  .fc-rail--m::-webkit-scrollbar { display: none; }
+  .fc-rail--m .fc-card { width: 82vw; flex: 0 0 82vw; margin: 0; padding: 0 0 16px; display: flex; flex-direction: column; scroll-snap-align: center; box-shadow: 0 18px 44px rgba(0, 0, 0, .4); }
+  .fc-rail--m .fc-card img { order: -1; width: 100%; aspect-ratio: 4 / 3.4; height: auto; margin-top: 0; }
+  .fc-rail--m .fc-card .fav-btn { top: 10px; right: 10px; z-index: 3; }
+  .fc-rail--m .fc-card h3 { margin-top: 14px; }
+  .fc-rail--m .fc-desc { -webkit-line-clamp: 1; min-height: 1.28rem; }
+  .fc-dots { display: flex; justify-content: center; gap: 7px; margin-top: 12px; }
+  .fc-pagedot { width: 7px; height: 7px; border-radius: 50%; border: 0; padding: 0; background: rgba(255, 255, 255, .35); cursor: pointer; }
+  .fc-pagedot.active { background: #FFCE45; }
+
+  /* Fund-word tab strip: real tab widths in a scrollable strip, so
+     labels can never paint over each other (they overflowed their
+     flex boxes by up to ~29px). The active tab is centred by JS;
+     chevrons stick to the strip edges. */
+  .fs-tabbar { overflow-x: auto; scrollbar-width: none; }
+  .fs-tabbar::-webkit-scrollbar { display: none; }
+  .fs-tab { flex: 0 0 auto; width: max-content; min-width: max-content; padding-left: 14px; padding-right: 14px; }
+  .fs-tab.active { margin-bottom: 0; }
+  .fs-chev { position: sticky; z-index: 3; background: #fff; flex: none; }
+  .fs-chev[data-fsnav="-1"] { left: 0; }
+  .fs-chev[data-fsnav="1"] { right: 0; }
+  .fs-panel .fs-count { margin-top: 16px; }
+}
+@media (min-width: 761px) {
+  .fc-dots { display: none; }
 }
