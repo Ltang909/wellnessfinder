@@ -1562,6 +1562,18 @@ button.nc-slot-chip { font-family: inherit; cursor: pointer; }
   .fc-pagedot { width: 7px; height: 7px; border-radius: 50%; border: 0; padding: 0; background: rgba(255, 255, 255, .35); cursor: pointer; }
   .fc-pagedot.active { background: #FFCE45; }
 
+  /* Featured category tabs on ONE line (Leon): the ≤820px rule wraps
+     the switcher onto two lines; compact fluid metrics keep all four
+     labels side by side down to 360px (row 340px of 360, ~10px slack
+     per side). Fluid size: 9.4px @360, 10.1px @390, capped at the
+     desktop .68rem. Stretch alignment gives every tab the same box
+     (the active tab's underline border no longer makes it 1px taller),
+     and the wider padding keeps a ~34px tap height. overflow-x: clip
+     is only a safety net — the fit comes from the metrics. */
+  .fc-switcher { flex-wrap: nowrap; gap: 6px; overflow-x: clip; align-items: stretch; }
+  .fc-switch { flex: 0 0 auto; white-space: nowrap; font-size: clamp(.55rem, 2.6vw, .68rem); letter-spacing: .06em; padding: 10px 0; }
+  .fc-dot { font-size: .45rem; align-self: center; }
+
   /* Fund-word tab strip: real tab widths in a scrollable strip, so
      labels can never paint over each other (they overflowed their
      flex boxes by up to ~29px). The active tab is centred by JS;
