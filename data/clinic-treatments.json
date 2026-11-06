@@ -8700,7 +8700,7 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.sacredlotusholisticwellness.com",
-  "last_verified": "2026-11-01"
+  "last_verified": "2026-11-06"
  },
  {
   "clinic_id": "blue-sky-counselling-and-wellness-clinic-vancouver",
@@ -14708,7 +14708,7 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://cliniqued.com/dermatologie-esthetique/nos-procedures/",
-  "last_verified": "2026-11-01"
+  "last_verified": "2026-11-06"
  },
  {
   "clinic_id": "clinique-d-orthophonie-laurier-montreal",
@@ -16357,14 +16357,20 @@
   "clinic_id": "comox-valley-naturopathic-medicine-courtenay",
   "treatment_id": "comox-valley-naturopathic-medicine-courtenay--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
-  "billed_as": null,
-  "practitioner": null,
-  "practitioners": [],
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Graham Sigalet, ND",
+  "practitioners": [
+   {
+    "id": "comox-valley-naturopathic-medicine-courtenay--graham-sigalet",
+    "name": "Graham Sigalet",
+    "as_recorded": "Dr. Graham Sigalet, ND"
+   }
+  ],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://comoxvalleynaturopathic.janeapp.com/locations/comox-valley-naturopathic-medicine/book",
-  "last_verified": "2026-11-01"
+  "last_verified": "2026-11-06"
  },
  {
   "clinic_id": "complete-health-chiropractic-massage-okotoks",
@@ -19235,7 +19241,7 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.dermamedibeaute.ca/soins/morpheus8/",
-  "last_verified": "2026-11-01"
+  "last_verified": "2026-11-06"
  },
  {
   "clinic_id": "dermapure-quebec-sainte-foy-quebec-city",
@@ -19248,7 +19254,7 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.dermapure.com/fr/cliniques/quebec/ste-foy/radiofrequence",
-  "last_verified": "2026-11-01"
+  "last_verified": "2026-11-06"
  },
  {
   "clinic_id": "dermapure-sherbrooke-sherbrooke",
@@ -19261,7 +19267,7 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "https://www.dermapure.com/fr/cliniques/sherbrooke/radiofrequence",
-  "last_verified": "2026-11-01"
+  "last_verified": "2026-11-06"
  },
  {
   "clinic_id": "dermatouch-richmond-hill",
@@ -23088,14 +23094,20 @@
   "clinic_id": "dr-lawrence-brkich-naturopathic-physician-inc-prince-george",
   "treatment_id": "dr-lawrence-brkich-naturopathic-physician-inc-prince-george--iv-vitamin-therapy",
   "treatment": "IV Vitamin Therapy",
-  "billed_as": null,
-  "practitioner": null,
-  "practitioners": [],
+  "billed_as": "Naturopathy",
+  "practitioner": "Dr. Lawrence Brkich, ND",
+  "practitioners": [
+   {
+    "id": "dr-lawrence-brkich-naturopathic-physician-inc-prince-george--lawrence-brkich",
+    "name": "Lawrence Brkich",
+    "as_recorded": "Dr. Lawrence Brkich, ND"
+   }
+  ],
   "price_text": null,
   "price_source": null,
   "price_tier": null,
   "treatment_link": "http://drbrkich.ca/",
-  "last_verified": "2026-11-01"
+  "last_verified": "2026-11-06"
  },
  {
   "clinic_id": "dr-leizl-yance-nd-waterloo",
@@ -37704,7 +37716,7 @@
   "price_source": null,
   "price_tier": null,
   "treatment_link": "http://www.kaizenphysiotherapygroup.ca",
-  "last_verified": "2026-11-01"
+  "last_verified": "2026-11-06"
  },
  {
   "clinic_id": "kaizen-physiotherapy-group-etobicoke",
