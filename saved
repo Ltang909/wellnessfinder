@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=120">
+<link rel="stylesheet" href="css/styles.css?v=121">
 <link rel="stylesheet" href="css/saved.css?v=22">
 <link rel="canonical" href="https://wellfinder.ca/saved" />
 </head>
@@ -95,6 +95,6 @@
   </footer>
 <script src="js/data.js?v=54"></script><script src="js/site-nav.js?v=9"></script>
 <script src="js/clinic-extra.js?v=6"></script><script src="js/clinic-slots.js?v=6"></script>
-<script src="js/app.js?v=109"></script><script src="js/vendor/pdf.min.js?v=1"></script><script src="js/saved.js?v=42"></script>
+<script src="js/app.js?v=110"></script><script src="js/vendor/pdf.min.js?v=1"></script><script src="js/saved.js?v=42"></script>
 </body>
 </html>

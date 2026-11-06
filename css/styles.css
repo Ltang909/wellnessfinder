@@ -223,7 +223,10 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; line-height: 1.1; 
    Why grid
    ============================================================ */
 .why-scroll { overflow: hidden; margin: 0 -8px; padding: 0 8px; }
-.why-track { display: flex; gap: 16px; width: max-content; padding: 4px 2px 16px; animation: why-scroll 38s linear infinite; }
+/* Duration doubled Nov 6, 2026 (the claims bar rolled too fast for Leon).
+   This CSS value is only the pre-JS fallback: renderWhy() in app.js sets the
+   live duration inline, and that factor was doubled to match. */
+.why-track { display: flex; gap: 16px; width: max-content; padding: 4px 2px 16px; animation: why-scroll 76s linear infinite; }
 .why-track:hover { animation-play-state: paused; }
 @keyframes why-scroll { to { transform: translateX(calc(-50% - 8px)); } }
 .why-track .claim-card { flex: 0 0 300px; }
@@ -1491,4 +1494,22 @@ button.nc-slot-chip { font-family: inherit; cursor: pointer; }
 @media (max-width: 680px) {
   .wf-req { padding: 16px; }
   .wf-req-grid2, .wf-req-grid3 { grid-template-columns: 1fr; }
+}
+
+/* ---------- mobile hero/header tune (Nov 6, 2026) ----------
+   Leon's phone kept wrapping the Fund headline to 3 lines: the Oct 31
+   phone size (8.6vw) left only ~13-25px of slack on the widest line,
+   so tighter renders tipped "insurance benefits." onto a third line.
+   8.2vw keeps ~30px of slack at 360/390/430 for every rotator word
+   (canvas-checked against real Playfair metrics) at nearly the same
+   visual size. The header logo lockup scales to 60% on mobile (tap
+   area kept at 44px), and the hero gets its top breathing room back:
+   padding-top 10px -> 40px at phone widths. Desktop untouched. */
+@media (max-width: 760px) {
+  .hero h1 { font-size: clamp(1.7rem, 8.2vw, 2.05rem); line-height: 1.1; white-space: normal; }
+  .site-header .brand { font-size: .77rem; gap: 6px; min-height: 44px; }
+  .site-header .brand img { width: 20.4px; height: 20.4px; }
+}
+@media (max-width: 640px) {
+  .hero-grid { padding-top: 40px; }
 }

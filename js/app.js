@@ -733,7 +733,7 @@
       return `<figure class="review-card">${stars}<blockquote class="review-quote">&ldquo;${text}&rdquo;</blockquote><figcaption class="review-meta"><span class="review-name">${esc(q.reviewer)}</span><span class="review-clinic">${esc(q.clinic)} · ${esc(q.city)}</span><span class="review-tags"><span class="review-tag">${esc(q.treatment)}</span><span class="review-tag review-tag--billed">Billed as ${esc(q.billed)}</span></span></figcaption></figure>`;
     };
     const half = REVIEW_QUOTES.map(card).join("");
-    const secs = Math.max(30, Math.round(REVIEW_QUOTES.length * 6.5));
+    const secs = Math.max(30, Math.round(REVIEW_QUOTES.length * 13)); // x13 (was x6.5): marquee slowed to half speed, Nov 6 2026
     grid.innerHTML = `<div class="why-track" style="animation-duration:${secs}s">${half}${half}</div>`;
   }
 
