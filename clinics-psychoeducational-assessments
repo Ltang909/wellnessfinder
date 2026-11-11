@@ -11,6 +11,54 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css?v=123" />
+<!-- wf-schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Psychoeducational Assessments clinics",
+          "item": "https://wellfinder.ca/clinics-psychoeducational-assessments"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wellfinder.ca/clinics-psychoeducational-assessments#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Psychoeducational Assessments covered by extended health benefits in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Psychoeducational Assessments is often claimable under psychology benefits when it is provided by a registered psychologist working within their scope of practice. Coverage always depends on your own plan, so confirm with your insurer and the clinic before you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who provides Psychoeducational Assessments?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Psychoeducational Assessments is provided by a registered psychologist. For a visit to be claimable, the practitioner needs to hold the licence or registration their province requires for that profession and bill the visit under the matching benefit category."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- /wf-schema -->
 </head>
 <body data-treatment="Psychoeducational Assessments">
   <header class="site-header compact-header">

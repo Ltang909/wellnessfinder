@@ -43,6 +43,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   }
 }
 </script>
+<!-- wf-schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "What Is a TPI Golf Swing Assessment?",
+          "item": "https://wellfinder.ca/blog-tpi-golf-assessment"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- /wf-schema -->
 </head>
 <body data-page="blog-tpi-golf-assessment">
 <!-- Google Tag Manager (noscript) -->

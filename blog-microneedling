@@ -35,6 +35,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "publisher": {"@type": "Organization", "name": "WellFinder", "url": "https://wellfinder.ca/"}
 }
 </script>
+<!-- wf-schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "What Is Microneedling? Your Benefits Guide",
+          "item": "https://wellfinder.ca/blog-microneedling"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- /wf-schema -->
 </head>
 <body data-page="blog-microneedling">
 <!-- Google Tag Manager (noscript) -->

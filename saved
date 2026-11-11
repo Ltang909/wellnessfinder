@@ -12,6 +12,32 @@
 <link rel="stylesheet" href="css/styles.css?v=123">
 <link rel="stylesheet" href="css/saved.css?v=22">
 <link rel="canonical" href="https://wellfinder.ca/saved" />
+<!-- wf-schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "My Wellness",
+          "item": "https://wellfinder.ca/saved"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- /wf-schema -->
 </head>
 <body data-page="saved">
 <header class="site-header">
