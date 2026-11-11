@@ -76,6 +76,13 @@
 .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
 .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
 </style>
+<!-- wf-links-style -->
+<style>
+.wf-treats{max-width:820px;margin:26px auto 4px}
+.wf-treats ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+.wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
+.wf-treats .wf-treats-label{margin:16px 0 0;font-weight:600;color:#0F2D2B}
+</style>
 </head>
 <body data-treatment="Fertility Consultation">
   <header class="site-header compact-header">
@@ -90,7 +97,24 @@
       <div id="tpList" class="tp-list"></div>
     </div>
   
-    <section class="wf-faq">
+        <section class="wf-treats wf-links">
+      <h2>Explore Fertility Consultation</h2>
+        <p class="wf-treats-label">Fertility Consultation by city</p>
+        <ul>
+          <li><a href="/clinics-fertility-consultation-toronto">Fertility Consultation in Toronto (9)</a></li>
+          <li><a href="/clinics-fertility-consultation-ottawa">Fertility Consultation in Ottawa (7)</a></li>
+          <li><a href="/clinics-fertility-consultation-vancouver">Fertility Consultation in Vancouver (6)</a></li>
+          <li><a href="/clinics-fertility-consultation-calgary">Fertility Consultation in Calgary (5)</a></li>
+        </ul>
+        <p class="wf-treats-label">Related treatments</p>
+        <ul>
+          <li><a href="/clinics-cosmetic-acupuncture">Cosmetic Acupuncture</a></li>
+          <li><a href="/clinics-im-vitamin-therapy">IM Vitamin Therapy</a></li>
+          <li><a href="/clinics-iv-vitamin-therapy">IV Vitamin Therapy</a></li>
+          <li><a href="/clinics-microneedling">Microneedling</a></li>
+        </ul>
+    </section>
+  <section class="wf-faq">
       <h2>Common questions</h2>
       <details><summary>Is Fertility Consultation covered by extended health benefits in Canada?</summary><p>Fertility Consultation is often claimable under naturopathy benefits when it is provided by a naturopathic doctor working within their scope of practice. Coverage always depends on your own plan, so confirm with your insurer and the clinic before you book.</p></details>
       <details><summary>How much does Fertility Consultation cost in Canada?</summary><p>Typical prices in Canada run $150 to $300 for an initial consultation. Prices vary by clinic, city and what the session includes, and benefits may reimburse part of the cost when the visit is billed under the right category.</p></details>

@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Physiotherapy clinics in Ottawa — WellFinder</title>
+  <meta name="description" content="62 clinics in Ottawa, ON whose visits bill under physiotherapy, across 9 treatments. See how physiotherapy benefits work and compare clinics before you book." />
+  <link rel="canonical" href="https://wellfinder.ca/clinics-physiotherapy-ottawa" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=123" />
+  <style>
+    .wf-faq{max-width:820px;margin:34px auto 6px}
+    .wf-faq h2{margin:0 0 10px}
+    .wf-faq details{border-top:1px solid #E4E2D6;padding:11px 2px}
+    .wf-faq details:last-of-type{border-bottom:1px solid #E4E2D6}
+    .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
+    .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
+    .wf-treats{max-width:820px;margin:26px auto 4px}
+    .wf-treats ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+    .wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Physiotherapy clinics in Ottawa",
+          "item": "https://wellfinder.ca/clinics-physiotherapy-ottawa"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wellfinder.ca/clinics-physiotherapy-ottawa#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is physiotherapy covered by extended health benefits in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many extended health plans include physiotherapy benefits. A visit is claimable when it is provided by a registered physiotherapist working within their scope of practice and billed under the physiotherapy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which treatments on WellFinder bill under physiotherapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treatments that bill under physiotherapy include Clinical Pilates, Golf Swing Assessment, Red Light Therapy, Cryotherapy, Pelvic Floor Physiotherapy, Bike Fitting, Running Gait Analysis, Shockwave Therapy, Performing Arts Physiotherapy and Vestibular Rehabilitation. Each treatment page shows how clinics bill the visit, so you can match it to your plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many clinics in Ottawa bill under physiotherapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WellFinder lists 62 clinics in Ottawa, ON whose visits can bill under physiotherapy, across 9 treatments including Pelvic Floor Physiotherapy, Shockwave Therapy and Vestibular Rehabilitation."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Physiotherapy clinics in Ottawa",
+      "numberOfItems": 62,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Activ Physio",
+          "url": "https://activphysio.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Activa Physiotherapy",
+          "url": "https://activa.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Active Health Institute",
+          "url": "https://hintonburg.activehealthinstitute.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Amped Physiotherapy",
+          "url": "https://ampedphysiotherapy.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Anatomy Physiotherapy",
+          "url": "https://anatomyphysioclinic.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Athlete's Care Ottawa",
+          "url": "https://www.athletescareottawa.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Bellefleur Physiotherapy",
+          "url": "https://bellefleurphysio.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Blaise T. Ryan Acupuncture & TCM",
+          "url": "https://blaiseryan.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Bravella Health",
+          "url": "https://ottawa.bravellahealth.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Bravella Health / Femade",
+          "url": "https://femade.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Camille Physiotherapy",
+          "url": "https://www.camillephysiotherapy.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "CBI Health - Ottawa Hospital General Campus",
+          "url": "https://www.cbihealth.ca/locations/ottawa-hospital"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Chartier Physiothérapie",
+          "url": "https://chartierphysio.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "CN Physiotherapy",
+          "url": "https://cnphysiotherapy.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "Coreology Physiotherapy",
+          "url": "https://www.coreologyphysiotherapy.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "Elite Physio Ottawa",
+          "url": "https://elitephysioottawa.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "FocusWave Clinic",
+          "url": "https://focuswaveclinic.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "name": "Geneviève Renaud Physio + Performance",
+          "url": "https://genrenaudphysio.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "name": "Glebe Health House",
+          "url": "https://www.glebehealthhouse.com/normatec-recovery"
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "name": "Harmony Physiotherapy & Wellness",
+          "url": "https://thepelvicexperts.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "name": "Hong's Health Care",
+          "url": "http://helixclinic.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "name": "Hw Physio / Sport Science Rehab & Performance - East",
+          "url": "https://www.hwphysio.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "name": "HW Women's Health",
+          "url": "https://hwwomenshealth.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "name": "Inertia Physio+",
+          "url": "https://inertiaphysio.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "name": "Kent Chiro-Med Wellness Clinic",
+          "url": "https://kentchiromed.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "name": "Kinetic Edge Health Group",
+          "url": "https://kineticedgehg.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "name": "Lifemark Physiotherapy Kanata March Road",
+          "url": "https://www.lifemark.ca/clinics/ottawa/kanata-march-road/clinic-information"
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "name": "LiquidGym",
+          "url": "https://www.liquidgym.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "name": "Manotick PhysioWorks",
+          "url": "https://manotickphysioworks.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "name": "Marie-Josée F. Forget PT",
+          "url": "http://mjforgetpt.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "name": "Metcalfe Massage Therapy Clinic",
+          "url": "http://www.metcalfemassage.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "name": "MOOV Physiotherapy & Wellness",
+          "url": "https://moovphysiotherapy.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "name": "Nepean Sports Medicine & Physiotherapy Centre",
+          "url": "https://www.nepeansportsmedicine.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "name": "New Life Physio and Health Clinic",
+          "url": "https://newlifept.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "name": "Ophysio Clinic",
+          "url": "https://ophysioclinic.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "name": "OPTSC",
+          "url": "https://optsc.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "name": "Ottawa Cancer and Lymphatics Centre",
+          "url": "https://ottawaclc.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "name": "Ottawa Physiotherapy and Sport Clinic",
+          "url": "https://www.optsc.com/main-street-physiotherapy-massage-therapy"
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "name": "Ottawa Physiotherapy and Sport Clinics",
+          "url": "https://www.optsc.com/kanata-physiotherapy"
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "name": "Ottawa Physiotherapy and Sport Clinics - Glebe",
+          "url": "https://www.optsc.com/glebe-physiotherapy"
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "name": "Ottawa Sport Medicine Centre",
+          "url": "https://www.lifemark.ca/clinics/ottawa/ppc-ottawa-sport"
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "name": "Ottawa-Carleton Physiotherapy & Sports Injury Center",
+          "url": "https://www.ocphysio.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 43,
+          "name": "Physio Bike Fitter",
+          "url": "http://physiobikefitter.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 44,
+          "name": "Physio Sports Care Centre",
+          "url": "https://physiosportscare.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 45,
+          "name": "Physiocare Physiotherapy & Rehab Centre",
+          "url": "https://www.physiocarephysiotherapy.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 46,
+          "name": "Premier Physiotherapy",
+          "url": "https://premierphysiotherapyclinic.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 47,
+          "name": "Pro Physio & Sport Medicine Centres",
+          "url": "https://prophysiotherapy.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 48,
+          "name": "Pro Physio & Sport Medicine Centres Bank",
+          "url": "https://www.lifemark.ca/clinics/ottawa/ppc-bank"
+        },
+        {
+          "@type": "ListItem",
+          "position": 49,
+          "name": "Pro Physio & Sport Medicine Centres Conroy",
+          "url": "https://www.lifemark.ca/clinics/ottawa/ppc-conroy/our-team?page=1"
+        },
+        {
+          "@type": "ListItem",
+          "position": 50,
+          "name": "Pro Physio & Sport Medicine Centres Crown Pointe",
+          "url": "https://www.lifemark.ca/PPC-Crown-Pointe"
+        },
+        {
+          "@type": "ListItem",
+          "position": 51,
+          "name": "Pro Physio & Sport Medicine Centres Greenbank",
+          "url": "https://www.lifemark.ca/clinics/ottawa/ppc-greenbank"
+        },
+        {
+          "@type": "ListItem",
+          "position": 52,
+          "name": "Pro Physio & Sport Medicine Centres Jeanne d'Arc",
+          "url": "https://www.lifemark.ca/clinics/ottawa/ppc-jeanne-darc/common-conditions-we-treat"
+        },
+        {
+          "@type": "ListItem",
+          "position": 53,
+          "name": "Pro Physio & Sport Medicine Centres Merivale",
+          "url": "https://www.prophysiotherapy.com/locations.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 54,
+          "name": "Pro Physio & Sport Medicine Centres Montreal Road",
+          "url": "https://www.lifemark.ca/clinics/ottawa/ppc-montreal-road"
+        },
+        {
+          "@type": "ListItem",
+          "position": 55,
+          "name": "Pro Physio & Sport Medicine Centres Pro Plus",
+          "url": "https://www.lifemark.ca/clinics/ottawa/ppc-pro-plus"
+        },
+        {
+          "@type": "ListItem",
+          "position": 56,
+          "name": "Pro Physio & Sport Medicine Centres Ray Friel",
+          "url": "https://www.prophysiotherapy.com/locations.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 57,
+          "name": "Pro Physio & Sport Medicine Centres Riverside Court",
+          "url": "https://www.lifemark.ca/clinics/ottawa/ppc-riverside-court/our-team"
+        },
+        {
+          "@type": "ListItem",
+          "position": 58,
+          "name": "Pro Physio & Sport Medicine Centres Strandherd",
+          "url": "https://www.prophysiotherapy.com/locations.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 59,
+          "name": "ReGen Center",
+          "url": "https://www.regentrt.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 60,
+          "name": "Rooted Family Wellness",
+          "url": "https://rootedfamily.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 61,
+          "name": "TheraTouch Physiotherapy",
+          "url": "https://theratouchphysio.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 62,
+          "name": "Vitality Physiotherapy and Wellness Centre",
+          "url": "https://vitalitypt.ca/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- wf-crosslinks -->
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+    </nav></div>
+  </header>
+  <main class="section">
+    <div class="wrap tp-wrap">
+      <h1>Physiotherapy clinics in Ottawa</h1>
+      <p>62 clinics in Ottawa, ON provide care that bills under physiotherapy, across 9 treatments on WellFinder including Pelvic Floor Physiotherapy, Shockwave Therapy and Vestibular Rehabilitation. Many extended health plans include physiotherapy benefits, and a visit is claimable when it is provided by a registered physiotherapist and billed under the matching category. Coverage depends on your plan, so confirm with your insurer and the clinic before you book.</p>
+      <section class="wf-treats">
+        <h2>Treatments billed under physiotherapy in Ottawa</h2>
+        <ul>
+          <li><a href="/clinics-pelvic-floor-physiotherapy-ottawa">Pelvic Floor Physiotherapy (32)</a></li>
+          <li><a href="/clinics-shockwave-therapy-ottawa">Shockwave Therapy (26)</a></li>
+          <li><a href="/clinics-vestibular-rehabilitation-ottawa">Vestibular Rehabilitation (22)</a></li>
+          <li><a href="/clinics-running-gait-analysis-ottawa">Running Gait Analysis (5)</a></li>
+          <li><a href="/clinics-clinical-pilates">Clinical Pilates (3)</a></li>
+          <li><a href="/clinics-red-light-therapy">Red Light Therapy (3)</a></li>
+          <li><a href="/clinics-bike-fitting">Bike Fitting (3)</a></li>
+          <li><a href="/clinics-golf-swing-assessment">Golf Swing Assessment (2)</a></li>
+          <li><a href="/clinics-performing-arts-physiotherapy">Performing Arts Physiotherapy (1)</a></li>
+        </ul>
+      </section>
+      <section class="wf-treats">
+        <h2>Other benefit categories in Ottawa</h2>
+        <ul>
+          <li><a href="/clinics-chiropractic-ottawa">Chiropractic clinics in Ottawa (32)</a></li>
+          <li><a href="/clinics-massage-therapy-ottawa">Massage Therapy clinics in Ottawa (27)</a></li>
+          <li><a href="/clinics-psychology-ottawa">Psychology clinics in Ottawa (25)</a></li>
+          <li><a href="/clinics-psychotherapy-ottawa">Psychotherapy clinics in Ottawa (22)</a></li>
+          <li><a href="/clinics-acupuncture-ottawa">Acupuncture clinics in Ottawa (15)</a></li>
+          <li><a href="/clinics-naturopathy-ottawa">Naturopathy clinics in Ottawa (14)</a></li>
+          <li><a href="/clinics-dietitian-ottawa">Dietitian clinics in Ottawa (9)</a></li>
+          <li><a href="/clinics-speech-therapy-ottawa">Speech Therapy clinics in Ottawa (5)</a></li>
+        </ul>
+      </section>
+      <div class="nc-grid">
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Activ Physio</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Activ%20Physio%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">own site lists pelvic health; team of registered physiotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://activphysio.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Activa Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Activa%20Physiotherapy%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">Shockwave modality; covered by most insurance providers</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://activa.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Active Health Institute</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Active%20Health%20Institute%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">Physiotherapist + bike fitter (Alyssa); 1,500+ bike fits completed</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://hintonburg.activehealthinstitute.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Amped Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Amped%20Physiotherapy%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">'Vestibular Physiotherapy Ottawa' specialty page: vestibular rehabilitation physiotherapists assess/treat BPPV,…</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://ampedphysiotherapy.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Anatomy Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Anatomy%20Physiotherapy%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">intra-oral TMJ by RMTs</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://anatomyphysioclinic.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Athlete's Care Ottawa</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Athlete's%20Care%20Ottawa%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">Video analysis incl. running technique by sports med team with physiotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.athletescareottawa.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>Bellefleur Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Bellefleur%20Physiotherapy%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">video analysis of running mechanics</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://bellefleurphysio.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>Blaise T. Ryan Acupuncture &amp; TCM</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Blaise%20T.%20Ryan%20Acupuncture%20%26%20TCM%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">facial rejuvenation acupuncture by licensed acupuncturists; 383 Parkdale Ave #106; from $155 return visit</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Red Light Therapy Add-On</div></div></div><div class="cc-links"><a href="https://blaiseryan.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>Bravella Health</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Bravella%20Health%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">Abby Delarge RMT (CMTO); TMJ massage therapy listed</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Clinical Pilates</div></div></div><div class="cc-links"><a href="https://ottawa.bravellahealth.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>Bravella Health / Femade</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Bravella%20Health%20%2F%20Femade%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://femade.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Camille Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Camille%20Physiotherapy%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">own site describes her as pelvic health physiotherapist</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Pelvic Health Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.camillephysiotherapy.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>CBI Health - Ottawa Hospital General Campus</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=CBI%20Health%20-%20Ottawa%20Hospital%20General%20Campus%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.cbihealth.ca/locations/ottawa-hospital" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Chartier Physiothérapie</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Chartier%20Physioth%C3%A9rapie%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">Dedicated 'Vestibular Rehabilitation Ottawa | Dizziness Treatment' page: specialized Vestibular Rehabilitation…</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Pelvic Floor Physiotherapy</div></div></div><div class="cc-links"><a href="https://chartierphysio.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>CN Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=CN%20Physiotherapy%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">pelvic health, private rooms</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://cnphysiotherapy.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Coreology Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Coreology%20Physiotherapy%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">Niamh Aisling Lawlor, PT, postgraduate pelvic-floor training</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.coreologyphysiotherapy.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>E</span></div>
+        <div class="cc-top"><h3>Elite Physio Ottawa</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Elite%20Physio%20Ottawa%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://elitephysioottawa.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>F</span></div>
+        <div class="cc-top"><h3>FocusWave Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=FocusWave%20Clinic%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Nursing</div></div></div><div class="cc-links"><a href="https://focuswaveclinic.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>G</span></div>
+        <div class="cc-top"><h3>Geneviève Renaud Physio + Performance</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Genevi%C3%A8ve%20Renaud%20Physio%20%2B%20Performance%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">billed as 'Dance &amp; Sports Physiotherapy' in Ottawa lists Dance &amp; Sport Injury Rehabilitation, Pre-Pointe Assessments…</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://genrenaudphysio.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>G</span></div>
+        <div class="cc-top"><h3>Glebe Health House</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Glebe%20Health%20House%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.glebehealthhouse.com/normatec-recovery" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>H</span></div>
+        <div class="cc-top"><h3>Harmony Physiotherapy &amp; Wellness</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Harmony%20Physiotherapy%20%26%20Wellness%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://thepelvicexperts.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>H</span></div>
+        <div class="cc-top"><h3>Hong's Health Care</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Hong's%20Health%20Care%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">own site offers shockwave therapy; clinic of physical therapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Shockwave Therapy</div></div></div><div class="cc-links"><a href="http://helixclinic.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>H</span></div>
+        <div class="cc-top"><h3>Hw Physio / Sport Science Rehab &amp; Performance - East</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Hw%20Physio%20%2F%20Sport%20Science%20Rehab%20%26%20Performance%20-%20East%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">own site lists pelvic floor physiotherapy; founder is pelvic floor PT</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.hwphysio.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>H</span></div>
+        <div class="cc-top"><h3>HW Women's Health</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=HW%20Women's%20Health%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://hwwomenshealth.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>I</span></div>
+        <div class="cc-top"><h3>Inertia Physio+</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Inertia%20Physio%2B%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">own site lists pelvic health among services; clinic physiotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://inertiaphysio.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>Kent Chiro-Med Wellness Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Kent%20Chiro-Med%20Wellness%20Clinic%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">Shockwave $30 add-on to physio/chiro visit; 563 Gladstone Ave</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy / Chiropractic</div></div></div><div class="cc-links"><a href="https://kentchiromed.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>Kinetic Edge Health Group</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Kinetic%20Edge%20Health%20Group%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-links"><a href="https://kineticedgehg.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Physiotherapy Kanata March Road</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Physiotherapy%20Kanata%20March%20Road%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/clinics/ottawa/kanata-march-road/clinic-information" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>LiquidGym</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=LiquidGym%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.liquidgym.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Manotick PhysioWorks</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Manotick%20PhysioWorks%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://manotickphysioworks.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Marie-Josée F. Forget PT</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Marie-Jos%C3%A9e%20F.%20Forget%20PT%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">own site dedicated to pelvic health physio; owner is PT with 25 years in pelvic health</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="http://mjforgetpt.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Metcalfe Massage Therapy Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Metcalfe%20Massage%20Therapy%20Clinic%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">Site lists TMJ Treatment (Jaw) modality by RMTs</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Registered Massage Therapy</div></div></div><div class="cc-links"><a href="http://www.metcalfemassage.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>MOOV Physiotherapy &amp; Wellness</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=MOOV%20Physiotherapy%20%26%20Wellness%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://moovphysiotherapy.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>N</span></div>
+        <div class="cc-top"><h3>Nepean Sports Medicine &amp; Physiotherapy Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Nepean%20Sports%20Medicine%20%26%20Physiotherapy%20Centre%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">RD team; sports nutrition section</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.nepeansportsmedicine.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>N</span></div>
+        <div class="cc-top"><h3>New Life Physio and Health Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=New%20Life%20Physio%20and%20Health%20Clinic%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">LLLT/photobiomodulation by physiotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://newlifept.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>O</span></div>
+        <div class="cc-top"><h3>Ophysio Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Ophysio%20Clinic%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">own site offers shockwave therapy; team led by PT Omnia Aleraky PhD</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://ophysioclinic.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>O</span></div>
+        <div class="cc-top"><h3>OPTSC</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=OPTSC%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://optsc.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>O</span></div>
+        <div class="cc-top"><h3>Ottawa Cancer and Lymphatics Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Ottawa%20Cancer%20and%20Lymphatics%20Centre%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">RMTs with 300+ hrs lymphatic training</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://ottawaclc.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>O</span></div>
+        <div class="cc-top"><h3>Ottawa Physiotherapy and Sport Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Ottawa%20Physiotherapy%20and%20Sport%20Clinic%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">own site pelvic floor physio page names Main Street clinic; qualified physiotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.optsc.com/main-street-physiotherapy-massage-therapy" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>O</span></div>
+        <div class="cc-top"><h3>Ottawa Physiotherapy and Sport Clinics</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Ottawa%20Physiotherapy%20and%20Sport%20Clinics%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">own site pelvic floor physio page names Kanata Lakes clinic; qualified physiotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.optsc.com/kanata-physiotherapy" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>O</span></div>
+        <div class="cc-top"><h3>Ottawa Physiotherapy and Sport Clinics - Glebe</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Ottawa%20Physiotherapy%20and%20Sport%20Clinics%20-%20Glebe%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">own site pelvic floor physio page names Glebe clinic; qualified physiotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.optsc.com/glebe-physiotherapy" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>O</span></div>
+        <div class="cc-top"><h3>Ottawa Sport Medicine Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Ottawa%20Sport%20Medicine%20Centre%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/clinics/ottawa/ppc-ottawa-sport" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>O</span></div>
+        <div class="cc-top"><h3>Ottawa-Carleton Physiotherapy &amp; Sports Injury Center</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Ottawa-Carleton%20Physiotherapy%20%26%20Sports%20Injury%20Center%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">shockwave therapy</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.ocphysio.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Physio Bike Fitter</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Physio%20Bike%20Fitter%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">registered physiotherapists; 250 City Centre Ave</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="http://physiobikefitter.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Physio Sports Care Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Physio%20Sports%20Care%20Centre%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">TPI Certified Golf Screen by registered physiotherapist; Ottawa Athletic Club</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://physiosportscare.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Physiocare Physiotherapy &amp; Rehab Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Physiocare%20Physiotherapy%20%26%20Rehab%20Centre%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">Certified pelvic health physiotherapist; incontinence, prolapse, pelvic pain</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.physiocarephysiotherapy.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Premier Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Premier%20Physiotherapy%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://premierphysiotherapyclinic.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pro Physio &amp; Sport Medicine Centres</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pro%20Physio%20%26%20Sport%20Medicine%20Centres%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">full-body CryoCabin at Kanata physio centre</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://prophysiotherapy.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pro Physio &amp; Sport Medicine Centres Bank</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pro%20Physio%20%26%20Sport%20Medicine%20Centres%20Bank%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/clinics/ottawa/ppc-bank" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pro Physio &amp; Sport Medicine Centres Conroy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pro%20Physio%20%26%20Sport%20Medicine%20Centres%20Conroy%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/clinics/ottawa/ppc-conroy/our-team?page=1" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pro Physio &amp; Sport Medicine Centres Crown Pointe</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pro%20Physio%20%26%20Sport%20Medicine%20Centres%20Crown%20Pointe%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/PPC-Crown-Pointe" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pro Physio &amp; Sport Medicine Centres Greenbank</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pro%20Physio%20%26%20Sport%20Medicine%20Centres%20Greenbank%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/clinics/ottawa/ppc-greenbank" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pro Physio &amp; Sport Medicine Centres Jeanne d'Arc</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pro%20Physio%20%26%20Sport%20Medicine%20Centres%20Jeanne%20d'Arc%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/clinics/ottawa/ppc-jeanne-darc/common-conditions-we-treat" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pro Physio &amp; Sport Medicine Centres Merivale</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pro%20Physio%20%26%20Sport%20Medicine%20Centres%20Merivale%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.prophysiotherapy.com/locations.html" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pro Physio &amp; Sport Medicine Centres Montreal Road</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pro%20Physio%20%26%20Sport%20Medicine%20Centres%20Montreal%20Road%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/clinics/ottawa/ppc-montreal-road" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pro Physio &amp; Sport Medicine Centres Pro Plus</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pro%20Physio%20%26%20Sport%20Medicine%20Centres%20Pro%20Plus%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/clinics/ottawa/ppc-pro-plus" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pro Physio &amp; Sport Medicine Centres Ray Friel</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pro%20Physio%20%26%20Sport%20Medicine%20Centres%20Ray%20Friel%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.prophysiotherapy.com/locations.html" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pro Physio &amp; Sport Medicine Centres Riverside Court</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pro%20Physio%20%26%20Sport%20Medicine%20Centres%20Riverside%20Court%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/clinics/ottawa/ppc-riverside-court/our-team" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pro Physio &amp; Sport Medicine Centres Strandherd</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pro%20Physio%20%26%20Sport%20Medicine%20Centres%20Strandherd%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.prophysiotherapy.com/locations.html" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>ReGen Center</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=ReGen%20Center%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Chiropractic</div></div></div><div class="cc-links"><a href="https://www.regentrt.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Rooted Family Wellness</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Rooted%20Family%20Wellness%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://rootedfamily.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>TheraTouch Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=TheraTouch%20Physiotherapy%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">physiotherapists with advanced pelvic-health training; West Ottawa (Carling Ave)</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://theratouchphysio.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>V</span></div>
+        <div class="cc-top"><h3>Vitality Physiotherapy and Wellness Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Vitality%20Physiotherapy%20and%20Wellness%20Centre%20Ottawa%20ON" target="_blank" rel="noopener"><span>Ottawa, ON</span></a>
+        <div class="cc-note">Findlay Creek; shockwave by licensed physiotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://vitalitypt.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      </div>
+    <section class="wf-faq">
+      <h2>Common questions</h2>
+      <details><summary>Is physiotherapy covered by extended health benefits in Canada?</summary><p>Many extended health plans include physiotherapy benefits. A visit is claimable when it is provided by a registered physiotherapist working within their scope of practice and billed under the physiotherapy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book.</p></details>
+      <details><summary>Which treatments on WellFinder bill under physiotherapy?</summary><p>Treatments that bill under physiotherapy include Clinical Pilates, Golf Swing Assessment, Red Light Therapy, Cryotherapy, Pelvic Floor Physiotherapy, Bike Fitting, Running Gait Analysis, Shockwave Therapy, Performing Arts Physiotherapy and Vestibular Rehabilitation. Each treatment page shows how clinics bill the visit, so you can match it to your plan.</p></details>
+      <details><summary>How many clinics in Ottawa bill under physiotherapy?</summary><p>WellFinder lists 62 clinics in Ottawa, ON whose visits can bill under physiotherapy, across 9 treatments including Pelvic Floor Physiotherapy, Shockwave Therapy and Vestibular Rehabilitation.</p></details>
+    </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#featured-clinics">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Physiotherapy clinics in Montreal — WellFinder</title>
+  <meta name="description" content="40 clinics in Montreal, QC whose visits bill under physiotherapy, across 10 treatments. See how physiotherapy benefits work and compare clinics before you book." />
+  <link rel="canonical" href="https://wellfinder.ca/clinics-physiotherapy-montreal" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=123" />
+  <style>
+    .wf-faq{max-width:820px;margin:34px auto 6px}
+    .wf-faq h2{margin:0 0 10px}
+    .wf-faq details{border-top:1px solid #E4E2D6;padding:11px 2px}
+    .wf-faq details:last-of-type{border-bottom:1px solid #E4E2D6}
+    .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
+    .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
+    .wf-treats{max-width:820px;margin:26px auto 4px}
+    .wf-treats ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+    .wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Physiotherapy clinics in Montreal",
+          "item": "https://wellfinder.ca/clinics-physiotherapy-montreal"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wellfinder.ca/clinics-physiotherapy-montreal#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is physiotherapy covered by extended health benefits in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many extended health plans include physiotherapy benefits. A visit is claimable when it is provided by a registered physiotherapist working within their scope of practice and billed under the physiotherapy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which treatments on WellFinder bill under physiotherapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treatments that bill under physiotherapy include Clinical Pilates, Golf Swing Assessment, Red Light Therapy, Cryotherapy, Pelvic Floor Physiotherapy, Bike Fitting, Running Gait Analysis, Shockwave Therapy, Performing Arts Physiotherapy and Vestibular Rehabilitation. Each treatment page shows how clinics bill the visit, so you can match it to your plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many clinics in Montreal bill under physiotherapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WellFinder lists 40 clinics in Montreal, QC whose visits can bill under physiotherapy, across 10 treatments including Pelvic Floor Physiotherapy, Vestibular Rehabilitation and Running Gait Analysis."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Physiotherapy clinics in Montreal",
+      "numberOfItems": 40,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Action Sport Physio",
+          "url": "https://actionsportphysio.com/fr/clinique-physiotherapie-montreal-centre-ville"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Action Sport Physio Lachine",
+          "url": "https://lachine.actionsportphysio.com/physiotherapie-1"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Action Sport Physio Maisonneuve-Rosemont",
+          "url": "https://actionsportphysio.com/en/physiotherapy-clinic-maisonneuve-rosemont?services=3725"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Action Sport Physio Mercier-Hochelaga",
+          "url": "https://actionsportphysio.com/en/physiotherapy-clinic-mercier-hochelaga?services=8586"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Altermed",
+          "url": "https://cliniquealtermed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Centre Ville Chiropratique",
+          "url": "https://www.centrevillechiropratique.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Clinique Altermed",
+          "url": "https://cliniquealtermed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Clinique Camirand Muzzi",
+          "url": "https://www.cliniquecamirandmuzzi.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Clinique Pelvi-Santé",
+          "url": "https://www.pelvisante.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Endura Physio",
+          "url": "https://enduraphysio.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Hexa Physio",
+          "url": "https://www.hexaphysio.com/en/services/physiotherapy/running-assessment/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Kinatex Complexe Desjardins",
+          "url": "https://www.kinatex.com/cliniques/complexe-desjardins/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Kinatex Gare Centrale",
+          "url": "https://www.kinatex.com/cliniques/gare-centrale/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "Kinatex Griffintown",
+          "url": "https://www.kinatex.com/cliniques/griffintown/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "Kinatex Île-des-Sœurs",
+          "url": "https://www.kinatex.com/cliniques/ile-des-soeurs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "Kinatex Jarry Petite-Italie",
+          "url": "https://www.kinatex.com/cliniques/jarry-petite-italie/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "Kinatex Rosemont",
+          "url": "https://www.kinatex.com/cliniques/rosemont/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "name": "Kinatex Saint-Laurent - Physimed",
+          "url": "https://www.kinatex.com/cliniques/saint-laurent/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "name": "Kinatex Saint-Léonard",
+          "url": "https://www.kinatex.com/cliniques/saint-leonard/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "name": "Kinatex Sports Physio",
+          "url": "https://www.kinatex.com/cliniques/ile-des-soeurs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "name": "Kinatex Sports Physio — Centre-Ville",
+          "url": "https://www.kinatex.com/cliniques/centre-ville/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "name": "Kinatex Vieux-Montréal",
+          "url": "https://www.kinatex.com/cliniques/vieux-montreal/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "name": "La Physio — Tamami Ayoub",
+          "url": "https://laphysio.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "name": "Marie-Pierre Estel, physiothérapeute en santé pelvienne",
+          "url": "https://www.mariepierrephysio.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "name": "Physio Motiva",
+          "url": "https://physiomotiva.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "name": "Physio Solution Active",
+          "url": "https://www.physiosa.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "name": "Physiobalance",
+          "url": "https://www.physiobalance.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "name": "PhysioExtra",
+          "url": "https://physioextra.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "name": "PhysioExtra Ahuntsic - Fleury",
+          "url": "https://physioextra.ca/en/clinic/physioextra-ahuntsic-fleury/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "name": "PhysioExtra Ahuntsic - Regina Assumpta",
+          "url": "https://physioextra.ca/en/clinic/physioextra-ahuntsic-regina-assumpta/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "name": "PhysioExtra Pointe-aux-Trembles",
+          "url": "https://physioextra.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "name": "PhysioExtra Rosemont",
+          "url": "https://physioextra.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "name": "PhysioExtra St-Henri",
+          "url": "https://physioextra.ca/en/clinic/physioextra-saint-henri/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "name": "PhysioExtra Villeray",
+          "url": "https://physioextra.ca/en/clinic/physioextra-villeray/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "name": "Physiothérapie Beyond Kegels",
+          "url": "http://beyondkegels.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "name": "Physioversal",
+          "url": "https://www.physioversal.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "name": "Polyclinique Centre-Ville",
+          "url": "https://pcvmontreal.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "name": "Stadium PhysiOsteo",
+          "url": "https://www.stadiumphysiosteo.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "name": "Urgence Physio Montréal",
+          "url": "https://www.urgencephysio.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "name": "Yara Jabre Physio",
+          "url": "https://www.thepregnancypelvicphysio.com/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- wf-crosslinks -->
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+    </nav></div>
+  </header>
+  <main class="section">
+    <div class="wrap tp-wrap">
+      <h1>Physiotherapy clinics in Montreal</h1>
+      <p>40 clinics in Montreal, QC provide care that bills under physiotherapy, across 10 treatments on WellFinder including Pelvic Floor Physiotherapy, Vestibular Rehabilitation and Running Gait Analysis. Many extended health plans include physiotherapy benefits, and a visit is claimable when it is provided by a registered physiotherapist and billed under the matching category. Coverage depends on your plan, so confirm with your insurer and the clinic before you book.</p>
+      <section class="wf-treats">
+        <h2>Treatments billed under physiotherapy in Montreal</h2>
+        <ul>
+          <li><a href="/clinics-pelvic-floor-physiotherapy-montreal">Pelvic Floor Physiotherapy (26)</a></li>
+          <li><a href="/clinics-vestibular-rehabilitation-montreal">Vestibular Rehabilitation (24)</a></li>
+          <li><a href="/clinics-running-gait-analysis-montreal">Running Gait Analysis (18)</a></li>
+          <li><a href="/clinics-shockwave-therapy-montreal">Shockwave Therapy (9)</a></li>
+          <li><a href="/clinics-golf-swing-assessment">Golf Swing Assessment (5)</a></li>
+          <li><a href="/clinics-bike-fitting">Bike Fitting (3)</a></li>
+          <li><a href="/clinics-cryotherapy">Cryotherapy (2)</a></li>
+          <li><a href="/clinics-performing-arts-physiotherapy">Performing Arts Physiotherapy (2)</a></li>
+          <li><a href="/clinics-clinical-pilates">Clinical Pilates (1)</a></li>
+          <li><a href="/clinics-red-light-therapy">Red Light Therapy (1)</a></li>
+        </ul>
+      </section>
+      <section class="wf-treats">
+        <h2>Other benefit categories in Montreal</h2>
+        <ul>
+          <li><a href="/clinics-massage-therapy-montreal">Massage Therapy clinics in Montreal (24)</a></li>
+          <li><a href="/clinics-chiropractic-montreal">Chiropractic clinics in Montreal (13)</a></li>
+          <li><a href="/clinics-naturopathy-montreal">Naturopathy clinics in Montreal (12)</a></li>
+          <li><a href="/clinics-psychology-montreal">Psychology clinics in Montreal (12)</a></li>
+          <li><a href="/clinics-acupuncture-montreal">Acupuncture clinics in Montreal (11)</a></li>
+          <li><a href="/clinics-psychotherapy-montreal">Psychotherapy clinics in Montreal (10)</a></li>
+          <li><a href="/clinics-dietitian-montreal">Dietitian clinics in Montreal (9)</a></li>
+          <li><a href="/clinics-speech-therapy-montreal">Speech Therapy clinics in Montreal (6)</a></li>
+        </ul>
+      </section>
+      <div class="nc-grid">
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Action Sport Physio</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Action%20Sport%20Physio%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">Game Ready cryotherapy (compression + cold)</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://actionsportphysio.com/fr/clinique-physiotherapie-montreal-centre-ville" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Action Sport Physio Lachine</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Action%20Sport%20Physio%20Lachine%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://lachine.actionsportphysio.com/physiotherapie-1" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Action Sport Physio Maisonneuve-Rosemont</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Action%20Sport%20Physio%20Maisonneuve-Rosemont%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://actionsportphysio.com/en/physiotherapy-clinic-maisonneuve-rosemont?services=3725" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Action Sport Physio Mercier-Hochelaga</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Action%20Sport%20Physio%20Mercier-Hochelaga%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://actionsportphysio.com/en/physiotherapy-clinic-mercier-hochelaga?services=8586" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Altermed</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Altermed%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">évaluation course à pied by physiothérapeute Danny Dinh, NDG</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://cliniquealtermed.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Centre Ville Chiropratique</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Centre%20Ville%20Chiropratique%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Chiropractic</div></div></div><div class="cc-links"><a href="https://www.centrevillechiropratique.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Clinique Altermed</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Clinique%20Altermed%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">Vodder-trained certified massage and lymphedema therapist; Plateau</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://cliniquealtermed.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Clinique Camirand Muzzi</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Clinique%20Camirand%20Muzzi%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">rééducation périnéale by Sheinaz Abuani pht, OPPQ, 16+ yrs</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.cliniquecamirandmuzzi.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Clinique Pelvi-Santé</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Clinique%20Pelvi-Sant%C3%A9%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.pelvisante.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>E</span></div>
+        <div class="cc-top"><h3>Endura Physio</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Endura%20Physio%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">ESWT by physiotherapist, West Island Sainte-Geneviève</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://enduraphysio.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>H</span></div>
+        <div class="cc-top"><h3>Hexa Physio</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Hexa%20Physio%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.hexaphysio.com/en/services/physiotherapy/running-assessment/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>Kinatex Complexe Desjardins</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Kinatex%20Complexe%20Desjardins%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.kinatex.com/cliniques/complexe-desjardins/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>Kinatex Gare Centrale</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Kinatex%20Gare%20Centrale%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.kinatex.com/cliniques/gare-centrale/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>Kinatex Griffintown</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Kinatex%20Griffintown%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.kinatex.com/cliniques/griffintown/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>Kinatex Île-des-Sœurs</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Kinatex%20%C3%8Ele-des-S%C5%93urs%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.kinatex.com/cliniques/ile-des-soeurs/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>Kinatex Jarry Petite-Italie</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Kinatex%20Jarry%20Petite-Italie%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.kinatex.com/cliniques/jarry-petite-italie/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>Kinatex Rosemont</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Kinatex%20Rosemont%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.kinatex.com/cliniques/rosemont/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>Kinatex Saint-Laurent - Physimed</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Kinatex%20Saint-Laurent%20-%20Physimed%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.kinatex.com/cliniques/saint-laurent/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>Kinatex Saint-Léonard</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Kinatex%20Saint-L%C3%A9onard%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.kinatex.com/cliniques/saint-leonard/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>Kinatex Sports Physio</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Kinatex%20Sports%20Physio%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.kinatex.com/cliniques/ile-des-soeurs/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>Kinatex Sports Physio — Centre-Ville</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Kinatex%20Sports%20Physio%20%E2%80%94%20Centre-Ville%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">TPI-certified golf swing assessment by physiotherapist</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.kinatex.com/cliniques/centre-ville/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>Kinatex Vieux-Montréal</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Kinatex%20Vieux-Montr%C3%A9al%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.kinatex.com/cliniques/vieux-montreal/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>La Physio — Tamami Ayoub</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=La%20Physio%20%E2%80%94%20Tamami%20Ayoub%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">physiothérapeute OPPQ, pelvic floor (incontinence, périnatalité)</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://laphysio.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Marie-Pierre Estel, physiothérapeute en santé pelvienne</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Marie-Pierre%20Estel%2C%20physioth%C3%A9rapeute%20en%20sant%C3%A9%20pelvienne%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.mariepierrephysio.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Physio Motiva</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Physio%20Motiva%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">clinical Pilates by physiotherapy clinic, Lionel-Groulx</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://physiomotiva.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Physio Solution Active</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Physio%20Solution%20Active%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">pilates at physiotherapy clinics, Ville-Émard</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.physiosa.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Physiobalance</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Physiobalance%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">cryothérapie listed among physio techniques</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.physiobalance.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>PhysioExtra</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=PhysioExtra%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">bike fit assessment in physio, by physiotherapist</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://physioextra.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>PhysioExtra Ahuntsic - Fleury</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=PhysioExtra%20Ahuntsic%20-%20Fleury%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://physioextra.ca/en/clinic/physioextra-ahuntsic-fleury/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>PhysioExtra Ahuntsic - Regina Assumpta</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=PhysioExtra%20Ahuntsic%20-%20Regina%20Assumpta%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://physioextra.ca/en/clinic/physioextra-ahuntsic-regina-assumpta/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>PhysioExtra Pointe-aux-Trembles</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=PhysioExtra%20Pointe-aux-Trembles%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://physioextra.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>PhysioExtra Rosemont</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=PhysioExtra%20Rosemont%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://physioextra.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>PhysioExtra St-Henri</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=PhysioExtra%20St-Henri%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://physioextra.ca/en/clinic/physioextra-saint-henri/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>PhysioExtra Villeray</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=PhysioExtra%20Villeray%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://physioextra.ca/en/clinic/physioextra-villeray/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Physiothérapie Beyond Kegels</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Physioth%C3%A9rapie%20Beyond%20Kegels%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="http://beyondkegels.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Physioversal</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Physioversal%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">physiothérapie périnéale et pelvienne, rééducation du plancher pelvien</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.physioversal.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Polyclinique Centre-Ville</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Polyclinique%20Centre-Ville%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://pcvmontreal.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>S</span></div>
+        <div class="cc-top"><h3>Stadium PhysiOsteo</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Stadium%20PhysiOsteo%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">clinique du golfeur, analyse biomécanique + TPI tests; 4553 av. Pierre-De Coubertin</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.stadiumphysiosteo.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>U</span></div>
+        <div class="cc-top"><h3>Urgence Physio Montréal</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Urgence%20Physio%20Montr%C3%A9al%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.urgencephysio.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>Y</span></div>
+        <div class="cc-top"><h3>Yara Jabre Physio</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Yara%20Jabre%20Physio%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.thepregnancypelvicphysio.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      </div>
+    <section class="wf-faq">
+      <h2>Common questions</h2>
+      <details><summary>Is physiotherapy covered by extended health benefits in Canada?</summary><p>Many extended health plans include physiotherapy benefits. A visit is claimable when it is provided by a registered physiotherapist working within their scope of practice and billed under the physiotherapy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book.</p></details>
+      <details><summary>Which treatments on WellFinder bill under physiotherapy?</summary><p>Treatments that bill under physiotherapy include Clinical Pilates, Golf Swing Assessment, Red Light Therapy, Cryotherapy, Pelvic Floor Physiotherapy, Bike Fitting, Running Gait Analysis, Shockwave Therapy, Performing Arts Physiotherapy and Vestibular Rehabilitation. Each treatment page shows how clinics bill the visit, so you can match it to your plan.</p></details>
+      <details><summary>How many clinics in Montreal bill under physiotherapy?</summary><p>WellFinder lists 40 clinics in Montreal, QC whose visits can bill under physiotherapy, across 10 treatments including Pelvic Floor Physiotherapy, Vestibular Rehabilitation and Running Gait Analysis.</p></details>
+    </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#featured-clinics">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
+    </div>
+  </footer>
+</body>
+</html>

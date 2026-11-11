@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Psychotherapy clinics in Halifax — WellFinder</title>
+  <meta name="description" content="10 clinics in Halifax, NS whose visits bill under psychotherapy, across 2 treatments. See how psychotherapy benefits work and compare clinics before you book." />
+  <link rel="canonical" href="https://wellfinder.ca/clinics-psychotherapy-halifax" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=123" />
+  <style>
+    .wf-faq{max-width:820px;margin:34px auto 6px}
+    .wf-faq h2{margin:0 0 10px}
+    .wf-faq details{border-top:1px solid #E4E2D6;padding:11px 2px}
+    .wf-faq details:last-of-type{border-bottom:1px solid #E4E2D6}
+    .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
+    .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
+    .wf-treats{max-width:820px;margin:26px auto 4px}
+    .wf-treats ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+    .wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Psychotherapy clinics in Halifax",
+          "item": "https://wellfinder.ca/clinics-psychotherapy-halifax"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wellfinder.ca/clinics-psychotherapy-halifax#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is psychotherapy covered by extended health benefits in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many extended health plans include psychotherapy benefits. A visit is claimable when it is provided by a registered psychotherapist working within their scope of practice and billed under the psychotherapy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which treatments on WellFinder bill under psychotherapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treatments that bill under psychotherapy include Neurofeedback and Couples Therapy. Each treatment page shows how clinics bill the visit, so you can match it to your plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many clinics in Halifax bill under psychotherapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WellFinder lists 10 clinics in Halifax, NS whose visits can bill under psychotherapy, across 2 treatments including Couples Therapy and Neurofeedback."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Psychotherapy clinics in Halifax",
+      "numberOfItems": 10,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Cedarwood Psychology",
+          "url": "https://cedarwoodpsychology.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "CRUX Psychology",
+          "url": "https://cruxpsychology.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dr. Nina Woulff, Psychologist and Associates",
+          "url": "http://drnina.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Emerald Light Psychology",
+          "url": "https://www.emeraldlightpsychology.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Fenwick Psychology & Wellness Associates",
+          "url": "https://fenwickwellness.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Genest MacGillivray Psychologists",
+          "url": "http://www.halifaxpsychologists.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Green Leaf Psychological Services",
+          "url": "http://www.greenleafpsychological.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Hann Psychological Services",
+          "url": "http://www.hannpsychologicalservices.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Lisa's Holistic Rehab & Neurofeedback",
+          "url": "https://lisasholisticrehab.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Mindful Therapies",
+          "url": "https://mindfultherapies.org"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- wf-crosslinks -->
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+    </nav></div>
+  </header>
+  <main class="section">
+    <div class="wrap tp-wrap">
+      <h1>Psychotherapy clinics in Halifax</h1>
+      <p>10 clinics in Halifax, NS provide care that bills under psychotherapy, across 2 treatments on WellFinder including Couples Therapy and Neurofeedback. Many extended health plans include psychotherapy benefits, and a visit is claimable when it is provided by a registered psychotherapist and billed under the matching category. Coverage depends on your plan, so confirm with your insurer and the clinic before you book.</p>
+      <section class="wf-treats">
+        <h2>Treatments billed under psychotherapy in Halifax</h2>
+        <ul>
+          <li><a href="/clinics-couples-therapy-halifax">Couples Therapy (9)</a></li>
+          <li><a href="/clinics-neurofeedback">Neurofeedback (1)</a></li>
+        </ul>
+      </section>
+      <section class="wf-treats">
+        <h2>Other benefit categories in Halifax</h2>
+        <ul>
+          <li><a href="/clinics-physiotherapy-halifax">Physiotherapy clinics in Halifax (15)</a></li>
+          <li><a href="/clinics-massage-therapy-halifax">Massage Therapy clinics in Halifax (11)</a></li>
+          <li><a href="/clinics-psychology-halifax">Psychology clinics in Halifax (11)</a></li>
+          <li><a href="/clinics-chiropractic-halifax">Chiropractic clinics in Halifax (9)</a></li>
+          <li><a href="/clinics-acupuncture-halifax">Acupuncture clinics in Halifax (9)</a></li>
+          <li><a href="/clinics-naturopathy-halifax">Naturopathy clinics in Halifax (7)</a></li>
+        </ul>
+      </section>
+      <div class="nc-grid">
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Cedarwood Psychology</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Cedarwood%20Psychology%20Halifax%20NS" target="_blank" rel="noopener"><span>Halifax, NS</span></a>
+        <div class="cc-note">Couples Therapy listed; clinic listed in APNS psychologist directory</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://cedarwoodpsychology.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>CRUX Psychology</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=CRUX%20Psychology%20Halifax%20NS" target="_blank" rel="noopener"><span>Halifax, NS</span></a>
+        <div class="cc-note">Couples Therapy service page; Dr. Simon Sherry PhD and Dr. Brad Kelln psychologists on team</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://cruxpsychology.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Nina Woulff, Psychologist and Associates</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Nina%20Woulff%2C%20Psychologist%20and%20Associates%20Halifax%20NS" target="_blank" rel="noopener"><span>Halifax, NS</span></a>
+        <div class="cc-note">Couples welcomed for care; Dr. Nina Woulff Psychologist</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="http://drnina.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>E</span></div>
+        <div class="cc-top"><h3>Emerald Light Psychology</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Emerald%20Light%20Psychology%20Halifax%20NS" target="_blank" rel="noopener"><span>Halifax, NS</span></a>
+        <div class="cc-note">Couples and relationship therapy listed; supervises candidate register psychologists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.emeraldlightpsychology.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>F</span></div>
+        <div class="cc-top"><h3>Fenwick Psychology &amp; Wellness Associates</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Fenwick%20Psychology%20%26%20Wellness%20Associates%20Halifax%20NS" target="_blank" rel="noopener"><span>Halifax, NS</span></a>
+        <div class="cc-note">Therapy counselling for couples; 20+ years in Halifax</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://fenwickwellness.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>G</span></div>
+        <div class="cc-top"><h3>Genest MacGillivray Psychologists</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Genest%20MacGillivray%20Psychologists%20Halifax%20NS" target="_blank" rel="noopener"><span>Halifax, NS</span></a>
+        <div class="cc-note">Doctoral-level licensed psychologists; therapy for couples</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="http://www.halifaxpsychologists.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>G</span></div>
+        <div class="cc-top"><h3>Green Leaf Psychological Services</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Green%20Leaf%20Psychological%20Services%20Halifax%20NS" target="_blank" rel="noopener"><span>Halifax, NS</span></a>
+        <div class="cc-note">Psychologists offer couples counselling with direct billing</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="http://www.greenleafpsychological.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>H</span></div>
+        <div class="cc-top"><h3>Hann Psychological Services</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Hann%20Psychological%20Services%20Halifax%20NS" target="_blank" rel="noopener"><span>Halifax, NS</span></a>
+        <div class="cc-note">Emotion-Focused Couples Therapy by Dr. S. Gerald Hann</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="http://www.hannpsychologicalservices.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lisa's Holistic Rehab &amp; Neurofeedback</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lisa's%20Holistic%20Rehab%20%26%20Neurofeedback%20Halifax%20NS" target="_blank" rel="noopener"><span>Halifax, NS</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Occupational Therapy</div></div></div><div class="cc-links"><a href="https://lisasholisticrehab.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Mindful Therapies</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Mindful%20Therapies%20Halifax%20NS" target="_blank" rel="noopener"><span>Halifax, NS</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Counselling</div></div></div><div class="cc-links"><a href="https://mindfultherapies.org" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      </div>
+    <section class="wf-faq">
+      <h2>Common questions</h2>
+      <details><summary>Is psychotherapy covered by extended health benefits in Canada?</summary><p>Many extended health plans include psychotherapy benefits. A visit is claimable when it is provided by a registered psychotherapist working within their scope of practice and billed under the psychotherapy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book.</p></details>
+      <details><summary>Which treatments on WellFinder bill under psychotherapy?</summary><p>Treatments that bill under psychotherapy include Neurofeedback and Couples Therapy. Each treatment page shows how clinics bill the visit, so you can match it to your plan.</p></details>
+      <details><summary>How many clinics in Halifax bill under psychotherapy?</summary><p>WellFinder lists 10 clinics in Halifax, NS whose visits can bill under psychotherapy, across 2 treatments including Couples Therapy and Neurofeedback.</p></details>
+    </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#featured-clinics">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
+    </div>
+  </footer>
+</body>
+</html>

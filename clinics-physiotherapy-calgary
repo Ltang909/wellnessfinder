@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Physiotherapy clinics in Calgary — WellFinder</title>
+  <meta name="description" content="58 clinics in Calgary, AB whose visits bill under physiotherapy, across 10 treatments. See how physiotherapy benefits work and compare clinics before you book." />
+  <link rel="canonical" href="https://wellfinder.ca/clinics-physiotherapy-calgary" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=123" />
+  <style>
+    .wf-faq{max-width:820px;margin:34px auto 6px}
+    .wf-faq h2{margin:0 0 10px}
+    .wf-faq details{border-top:1px solid #E4E2D6;padding:11px 2px}
+    .wf-faq details:last-of-type{border-bottom:1px solid #E4E2D6}
+    .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
+    .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
+    .wf-treats{max-width:820px;margin:26px auto 4px}
+    .wf-treats ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+    .wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Physiotherapy clinics in Calgary",
+          "item": "https://wellfinder.ca/clinics-physiotherapy-calgary"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wellfinder.ca/clinics-physiotherapy-calgary#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is physiotherapy covered by extended health benefits in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many extended health plans include physiotherapy benefits. A visit is claimable when it is provided by a registered physiotherapist working within their scope of practice and billed under the physiotherapy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which treatments on WellFinder bill under physiotherapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treatments that bill under physiotherapy include Clinical Pilates, Golf Swing Assessment, Red Light Therapy, Cryotherapy, Pelvic Floor Physiotherapy, Bike Fitting, Running Gait Analysis, Shockwave Therapy, Performing Arts Physiotherapy and Vestibular Rehabilitation. Each treatment page shows how clinics bill the visit, so you can match it to your plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many clinics in Calgary bill under physiotherapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WellFinder lists 58 clinics in Calgary, AB whose visits can bill under physiotherapy, across 10 treatments including Pelvic Floor Physiotherapy, Vestibular Rehabilitation and Shockwave Therapy."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Physiotherapy clinics in Calgary",
+      "numberOfItems": 58,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Action Sports Clinic",
+          "url": "https://actionsportsclinic.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Active Sports Therapy",
+          "url": "https://www.activesportstherapy.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Adjust Your Health Calgary",
+          "url": "http://www.ayhcalgary.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Altitude Collaborative Health",
+          "url": "https://altitudehealth.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Anew Chiropractic",
+          "url": "https://anewchiroclinic.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Ascent Health & Sport Therapy",
+          "url": "https://ascent.health"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Avenue Physio",
+          "url": "https://avenuephysio.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Brentwood Physio",
+          "url": "https://www.brentwoodphysio.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Brentwood Physiotherapy",
+          "url": "https://brentwoodphysio.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Bronze Baxx Luxury Tanning & Wellness",
+          "url": "https://bronzebaxxtanning.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Calgary Core Physiotherapy",
+          "url": "https://www.calgarycorephysio.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Calgary Pelvic Floor Physiotherapy",
+          "url": "https://www.pelvicfloorcalgary.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Caring Hands Physiotherapy",
+          "url": "https://www.caringhandsphysio.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "Connecta Health",
+          "url": "https://www.connectahealth.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "CY Physiotherapy and Vestibular Rehabilitation",
+          "url": "https://cyphysiotherapy.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "Encompass Sports Therapy",
+          "url": "https://encompasscalgary.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "Genesis Physiotherapy",
+          "url": "https://www.genesisphysio.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "name": "Group23 Sports Medicine",
+          "url": "https://www.group23.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "name": "Holistic Institute of Health & Fertility",
+          "url": "https://www.fertilecalgary.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "name": "Inspire Health & Performance",
+          "url": "https://www.inspirehealthcalgary.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "name": "Intrinsi",
+          "url": "https://intrinsi.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "name": "KAAIAA",
+          "url": "https://kaaiaa.co"
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "name": "KAAIAA: Calgary Pelvic Floor Physiotherapy",
+          "url": "https://www.kaaiaa.co/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "name": "Lakeview Physiotherapy",
+          "url": "https://lakeviewphysio.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "name": "Lifemark Father David Bauer Arena",
+          "url": "https://www.lifemark.ca/Father-David-Bauer-Arena"
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "name": "Lifemark Physiotherapy Aspen",
+          "url": "https://www.lifemark.ca/Aspen"
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "name": "Lifemark Physiotherapy Calgary Bridlewood",
+          "url": "https://www.lifemark.ca/Bridlewood"
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "name": "Lifemark Physiotherapy Castleridge",
+          "url": "https://www.lifemark.ca/Castleridge"
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "name": "Lifemark Physiotherapy Crowchild Twin Arena",
+          "url": "https://www.lifemark.ca/Crowchild-Twin-Arena"
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "name": "Lifemark Physiotherapy Gulf Canada Square",
+          "url": "https://www.lifemark.ca/Gulf-Canada-Square"
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "name": "Lifemark Physiotherapy Quarry Park",
+          "url": "https://www.lifemark.ca/Quarry-Park"
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "name": "Lifemark Physiotherapy Royal Oak",
+          "url": "https://www.lifemark.ca/Royal-Oak"
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "name": "Lifemark Physiotherapy Southland Leisure Centre",
+          "url": "https://www.lifemark.ca/Southland-Leisure-Centre"
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "name": "Lifemark Physiotherapy Springborough",
+          "url": "https://www.lifemark.ca/clinics/calgary/springborough/coverage-options"
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "name": "Lifemark Sport Medicine MNP Community and Sport Centre",
+          "url": "https://www.lifemark.ca/clinics/calgary/mnp-community-and-sport-centre/coverage-options"
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "name": "Lifemark Sport Therapy Beltline",
+          "url": "https://www.lifemark.ca/beltline"
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "name": "Lifemark Sunpark Plaza",
+          "url": "https://www.lifemark.ca/Sunpark-Plaza"
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "name": "Marda Loop Physiotherapy",
+          "url": "https://mardaloopphysio.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "name": "Mission Chiropractic Clinic",
+          "url": "http://missionhealth.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "name": "More Than Training",
+          "url": "https://www.morethantraining.org/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "name": "Moss Postpartum House",
+          "url": "https://mosspostpartum.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "name": "Myo — Kensington",
+          "url": "https://www.myodetox.com/locations/kensington"
+        },
+        {
+          "@type": "ListItem",
+          "position": 43,
+          "name": "Myo 17th Ave",
+          "url": "https://www.myodetox.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 44,
+          "name": "MYo Lab",
+          "url": "https://myolab.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 45,
+          "name": "Nolan Hill Physiotherapy",
+          "url": "https://nolanhillphysiotherapy.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 46,
+          "name": "Nolan Hill Physiotherapy & Massage",
+          "url": "https://nolanhillphysiotherapy.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 47,
+          "name": "Nolan Hill Physiotherapy and Massage Clinic",
+          "url": "https://nolanhillphysiotherapy.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 48,
+          "name": "Optimum Wellness Centres Trans-Canada",
+          "url": "https://optimumwellnesscentres.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 49,
+          "name": "Osteo Health",
+          "url": "https://osteohealthcalgary.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 50,
+          "name": "PEAK Health Calgary",
+          "url": "https://peakhealthcalgary.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 51,
+          "name": "Power Physiotherapy & Massage",
+          "url": "https://powerpt.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 52,
+          "name": "Pro Motion Calgary",
+          "url": "https://www.promotioncalgary.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 53,
+          "name": "Prompt Physiotherapy and Massage",
+          "url": "https://promptphysio.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 54,
+          "name": "Pulse Physiotherapy",
+          "url": "https://www.pulsephysioyyc.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 55,
+          "name": "Resilience Pelvic Health",
+          "url": "https://www.resiliencepelvichealth.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 56,
+          "name": "Richmond Physiotherapy & Massage",
+          "url": "https://www.richmondphysiotherapy.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 57,
+          "name": "Tower Physio",
+          "url": "https://leadingedgephysio.com/locations/tower-sports-medicine/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 58,
+          "name": "Versa Movement Collective",
+          "url": "https://versamc.com/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- wf-crosslinks -->
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+    </nav></div>
+  </header>
+  <main class="section">
+    <div class="wrap tp-wrap">
+      <h1>Physiotherapy clinics in Calgary</h1>
+      <p>58 clinics in Calgary, AB provide care that bills under physiotherapy, across 10 treatments on WellFinder including Pelvic Floor Physiotherapy, Vestibular Rehabilitation and Shockwave Therapy. Many extended health plans include physiotherapy benefits, and a visit is claimable when it is provided by a registered physiotherapist and billed under the matching category. Coverage depends on your plan, so confirm with your insurer and the clinic before you book.</p>
+      <section class="wf-treats">
+        <h2>Treatments billed under physiotherapy in Calgary</h2>
+        <ul>
+          <li><a href="/clinics-pelvic-floor-physiotherapy-calgary">Pelvic Floor Physiotherapy (29)</a></li>
+          <li><a href="/clinics-vestibular-rehabilitation-calgary">Vestibular Rehabilitation (28)</a></li>
+          <li><a href="/clinics-shockwave-therapy-calgary">Shockwave Therapy (23)</a></li>
+          <li><a href="/clinics-clinical-pilates-calgary">Clinical Pilates (8)</a></li>
+          <li><a href="/clinics-golf-swing-assessment-calgary">Golf Swing Assessment (8)</a></li>
+          <li><a href="/clinics-running-gait-analysis-calgary">Running Gait Analysis (7)</a></li>
+          <li><a href="/clinics-bike-fitting">Bike Fitting (3)</a></li>
+          <li><a href="/clinics-red-light-therapy">Red Light Therapy (2)</a></li>
+          <li><a href="/clinics-performing-arts-physiotherapy">Performing Arts Physiotherapy (2)</a></li>
+          <li><a href="/clinics-cryotherapy">Cryotherapy (1)</a></li>
+        </ul>
+      </section>
+      <section class="wf-treats">
+        <h2>Other benefit categories in Calgary</h2>
+        <ul>
+          <li><a href="/clinics-naturopathy-calgary">Naturopathy clinics in Calgary (39)</a></li>
+          <li><a href="/clinics-chiropractic-calgary">Chiropractic clinics in Calgary (38)</a></li>
+          <li><a href="/clinics-massage-therapy-calgary">Massage Therapy clinics in Calgary (35)</a></li>
+          <li><a href="/clinics-psychology-calgary">Psychology clinics in Calgary (25)</a></li>
+          <li><a href="/clinics-psychotherapy-calgary">Psychotherapy clinics in Calgary (24)</a></li>
+          <li><a href="/clinics-acupuncture-calgary">Acupuncture clinics in Calgary (22)</a></li>
+          <li><a href="/clinics-dietitian-calgary">Dietitian clinics in Calgary (7)</a></li>
+        </ul>
+      </section>
+      <div class="nc-grid">
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Action Sports Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Action%20Sports%20Clinic%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Running Assessments: gait analysis + biomechanical assessment; downtown 639 5th Ave SW; direct billing; serving athletes since 1999</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://actionsportsclinic.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Active Sports Therapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Active%20Sports%20Therapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Leah Resch, RMT trained in Manual Lymphatic Drainage; Willow Park + Westman Village locations</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.activesportstherapy.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Adjust Your Health Calgary</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Adjust%20Your%20Health%20Calgary%20Calgary" target="_blank" rel="noopener"><span>Calgary</span></a>
+        <div class="cc-links"><a href="http://www.ayhcalgary.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Altitude Collaborative Health</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Altitude%20Collaborative%20Health%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://altitudehealth.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Anew Chiropractic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Anew%20Chiropractic%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">red light therapy; Dr. Rachel Frontain DC, Dr. Bria Kloppenborg DC</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Chiropractic</div></div></div><div class="cc-links"><a href="https://anewchiroclinic.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Ascent Health &amp; Sport Therapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Ascent%20Health%20%26%20Sport%20Therapy%20Calgary" target="_blank" rel="noopener"><span>Calgary</span></a>
+        <div class="cc-links"><a href="https://ascent.health" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Avenue Physio</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Avenue%20Physio%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Downtown Calgary since 1984; Storz radial shockwave + rehab</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://avenuephysio.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>Brentwood Physio</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Brentwood%20Physio%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">shockwave by physiotherapist</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.brentwoodphysio.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>Brentwood Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Brentwood%20Physiotherapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://brentwoodphysio.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>Bronze Baxx Luxury Tanning &amp; Wellness</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Bronze%20Baxx%20Luxury%20Tanning%20%26%20Wellness%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-links"><a href="https://bronzebaxxtanning.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Calgary Core Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Calgary%20Core%20Physiotherapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Running Gait Assessment listed; downtown 605 8 Ave SW</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.calgarycorephysio.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Calgary Pelvic Floor Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Calgary%20Pelvic%20Floor%20Physiotherapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">free 15-min virtual consult</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.pelvicfloorcalgary.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Caring Hands Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Caring%20Hands%20Physiotherapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Cold Laser Therapy in services; 3 Calgary locations; licensed physiotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.caringhandsphysio.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Connecta Health</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Connecta%20Health%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">lymphatic massage by RMT team</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.connectahealth.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>CY Physiotherapy and Vestibular Rehabilitation</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=CY%20Physiotherapy%20and%20Vestibular%20Rehabilitation%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Booking page for a clinic named for vestibular rehabilitation in Calgary: specialized exercise therapy to reduce…</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://cyphysiotherapy.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>E</span></div>
+        <div class="cc-top"><h3>Encompass Sports Therapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Encompass%20Sports%20Therapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://encompasscalgary.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>G</span></div>
+        <div class="cc-top"><h3>Genesis Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Genesis%20Physiotherapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Gait analysis of how you walk and run; NE Calgary (Falconridge)</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.genesisphysio.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>G</span></div>
+        <div class="cc-top"><h3>Group23 Sports Medicine</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Group23%20Sports%20Medicine%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">TPI golf assessment; Amy Level 1 TPI + Registered PT; Chinook + WinSport</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.group23.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>H</span></div>
+        <div class="cc-top"><h3>Holistic Institute of Health &amp; Fertility</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Holistic%20Institute%20of%20Health%20%26%20Fertility%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">15 plus years exclusive fertility acupuncture by regulated practitioners</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.fertilecalgary.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>I</span></div>
+        <div class="cc-top"><h3>Inspire Health &amp; Performance</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Inspire%20Health%20%26%20Performance%20Calgary" target="_blank" rel="noopener"><span>Calgary</span></a>
+        <div class="cc-links"><a href="https://www.inspirehealthcalgary.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>I</span></div>
+        <div class="cc-top"><h3>Intrinsi</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Intrinsi%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Bike fitters are licensed physiotherapists; Complete Fit Package $450 incl physio assessment</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://intrinsi.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>KAAIAA</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=KAAIAA%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://kaaiaa.co" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>K</span></div>
+        <div class="cc-top"><h3>KAAIAA: Calgary Pelvic Floor Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=KAAIAA%3A%20Calgary%20Pelvic%20Floor%20Physiotherapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Registered Physiotherapist Nav Grewal PT</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.kaaiaa.co/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lakeview Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lakeview%20Physiotherapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Physio Pilates led by a physiotherapist; one-on-one Clinical Pilates; SW Calgary</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://lakeviewphysio.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Father David Bauer Arena</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Father%20David%20Bauer%20Arena%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/Father-David-Bauer-Arena" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Physiotherapy Aspen</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Physiotherapy%20Aspen%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/Aspen" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Physiotherapy Calgary Bridlewood</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Physiotherapy%20Calgary%20Bridlewood%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/Bridlewood" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Physiotherapy Castleridge</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Physiotherapy%20Castleridge%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/Castleridge" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Physiotherapy Crowchild Twin Arena</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Physiotherapy%20Crowchild%20Twin%20Arena%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/Crowchild-Twin-Arena" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Physiotherapy Gulf Canada Square</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Physiotherapy%20Gulf%20Canada%20Square%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/Gulf-Canada-Square" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Physiotherapy Quarry Park</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Physiotherapy%20Quarry%20Park%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/Quarry-Park" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Physiotherapy Royal Oak</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Physiotherapy%20Royal%20Oak%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/Royal-Oak" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Physiotherapy Southland Leisure Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Physiotherapy%20Southland%20Leisure%20Centre%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/Southland-Leisure-Centre" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Physiotherapy Springborough</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Physiotherapy%20Springborough%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/clinics/calgary/springborough/coverage-options" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Sport Medicine MNP Community and Sport Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Sport%20Medicine%20MNP%20Community%20and%20Sport%20Centre%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/clinics/calgary/mnp-community-and-sport-centre/coverage-options" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Sport Therapy Beltline</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Sport%20Therapy%20Beltline%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/beltline" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Sunpark Plaza</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Sunpark%20Plaza%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/Sunpark-Plaza" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Marda Loop Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Marda%20Loop%20Physiotherapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">pelvic health physiotherapist on team; treats pre/postnatal and pelvic post-surgical</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://mardaloopphysio.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Mission Chiropractic Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Mission%20Chiropractic%20Clinic%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Fee schedule lists Shockwave Treatment; Dr. Jason Fox chiropractor on staff</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Chiropractic</div></div></div><div class="cc-links"><a href="http://missionhealth.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>More Than Training</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=More%20Than%20Training%20Calgary" target="_blank" rel="noopener"><span>Calgary</span></a>
+        <div class="cc-links"><a href="https://www.morethantraining.org/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Moss Postpartum House</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Moss%20Postpartum%20House%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Dr. Mariah Da Silveira, Doctor of Acupuncture &amp; TCM; cosmetic acupuncture, facial gua sha, cupping</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://mosspostpartum.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Myo — Kensington</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Myo%20%E2%80%94%20Kensington%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.myodetox.com/locations/kensington" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Myo 17th Ave</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Myo%2017th%20Ave%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">pelvic health physiotherapy specialty session 60 min $190</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.myodetox.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>MYo Lab</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=MYo%20Lab%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Red light therapy at chiropractic clinic</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Chiropractic</div></div></div><div class="cc-links"><a href="https://myolab.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>N</span></div>
+        <div class="cc-top"><h3>Nolan Hill Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Nolan%20Hill%20Physiotherapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://nolanhillphysiotherapy.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>N</span></div>
+        <div class="cc-top"><h3>Nolan Hill Physiotherapy &amp; Massage</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Nolan%20Hill%20Physiotherapy%20%26%20Massage%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Pelvic floor rehabilitation; registered physiotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://nolanhillphysiotherapy.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>N</span></div>
+        <div class="cc-top"><h3>Nolan Hill Physiotherapy and Massage Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Nolan%20Hill%20Physiotherapy%20and%20Massage%20Clinic%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://nolanhillphysiotherapy.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>O</span></div>
+        <div class="cc-top"><h3>Optimum Wellness Centres Trans-Canada</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Optimum%20Wellness%20Centres%20Trans-Canada%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Shockwave therapy service page on clinic site; chiropractors on staff</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Chiropractic</div></div></div><div class="cc-links"><a href="https://optimumwellnesscentres.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>O</span></div>
+        <div class="cc-top"><h3>Osteo Health</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Osteo%20Health%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Manual osteopaths; TMJ and craniosacral jaw care, Midnapore</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Osteopathy</div></div></div><div class="cc-links"><a href="https://osteohealthcalgary.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>PEAK Health Calgary</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=PEAK%20Health%20Calgary%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Golf Movement Assessment by physiotherapist; TPI screen + swing video</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://peakhealthcalgary.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Power Physiotherapy &amp; Massage</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Power%20Physiotherapy%20%26%20Massage%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://powerpt.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pro Motion Calgary</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pro%20Motion%20Calgary%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Shockwave therapy by physiotherapists; South Calgary near Southcentre</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.promotioncalgary.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Prompt Physiotherapy and Massage</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Prompt%20Physiotherapy%20and%20Massage%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">women's issues pelvic dysfunction/disorder treated by physiotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://promptphysio.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Pulse Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Pulse%20Physiotherapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Clinical Pilates one-on-one with licensed physiotherapist; Capitol Hill</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.pulsephysioyyc.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Resilience Pelvic Health</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Resilience%20Pelvic%20Health%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Women's pelvic floor physiotherapy; one-on-one appointments; across from Rockyview Hospital, 7007 14 St SW</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.resiliencepelvichealth.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Richmond Physiotherapy &amp; Massage</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Richmond%20Physiotherapy%20%26%20Massage%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">dedicated pelvic floor treatment page; personalized plan by physiotherapist</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.richmondphysiotherapy.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>Tower Physio</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Tower%20Physio%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">shockwave therapy offered as own treatment with licensed physiotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://leadingedgephysio.com/locations/tower-sports-medicine/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>V</span></div>
+        <div class="cc-top"><h3>Versa Movement Collective</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Versa%20Movement%20Collective%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Evan Baldwin MScPT; TPI Medical Level 2; video-capture gait analysis</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://versamc.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      </div>
+    <section class="wf-faq">
+      <h2>Common questions</h2>
+      <details><summary>Is physiotherapy covered by extended health benefits in Canada?</summary><p>Many extended health plans include physiotherapy benefits. A visit is claimable when it is provided by a registered physiotherapist working within their scope of practice and billed under the physiotherapy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book.</p></details>
+      <details><summary>Which treatments on WellFinder bill under physiotherapy?</summary><p>Treatments that bill under physiotherapy include Clinical Pilates, Golf Swing Assessment, Red Light Therapy, Cryotherapy, Pelvic Floor Physiotherapy, Bike Fitting, Running Gait Analysis, Shockwave Therapy, Performing Arts Physiotherapy and Vestibular Rehabilitation. Each treatment page shows how clinics bill the visit, so you can match it to your plan.</p></details>
+      <details><summary>How many clinics in Calgary bill under physiotherapy?</summary><p>WellFinder lists 58 clinics in Calgary, AB whose visits can bill under physiotherapy, across 10 treatments including Pelvic Floor Physiotherapy, Vestibular Rehabilitation and Shockwave Therapy.</p></details>
+    </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#featured-clinics">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
+    </div>
+  </footer>
+</body>
+</html>

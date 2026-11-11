@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Psychotherapy clinics in Calgary — WellFinder</title>
+  <meta name="description" content="24 clinics in Calgary, AB whose visits bill under psychotherapy, across 2 treatments. See how psychotherapy benefits work and compare clinics before you book." />
+  <link rel="canonical" href="https://wellfinder.ca/clinics-psychotherapy-calgary" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=123" />
+  <style>
+    .wf-faq{max-width:820px;margin:34px auto 6px}
+    .wf-faq h2{margin:0 0 10px}
+    .wf-faq details{border-top:1px solid #E4E2D6;padding:11px 2px}
+    .wf-faq details:last-of-type{border-bottom:1px solid #E4E2D6}
+    .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
+    .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
+    .wf-treats{max-width:820px;margin:26px auto 4px}
+    .wf-treats ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+    .wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Psychotherapy clinics in Calgary",
+          "item": "https://wellfinder.ca/clinics-psychotherapy-calgary"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wellfinder.ca/clinics-psychotherapy-calgary#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is psychotherapy covered by extended health benefits in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many extended health plans include psychotherapy benefits. A visit is claimable when it is provided by a registered psychotherapist working within their scope of practice and billed under the psychotherapy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which treatments on WellFinder bill under psychotherapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treatments that bill under psychotherapy include Neurofeedback and Couples Therapy. Each treatment page shows how clinics bill the visit, so you can match it to your plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many clinics in Calgary bill under psychotherapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WellFinder lists 24 clinics in Calgary, AB whose visits can bill under psychotherapy, across 2 treatments including Couples Therapy and Neurofeedback."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Psychotherapy clinics in Calgary",
+      "numberOfItems": 24,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Alberta Counselling Centre",
+          "url": "http://albertacounselling.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Best Choice Counselling",
+          "url": "https://bestchoicecounselling.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Calgary Mind & Wellness Clinic",
+          "url": "https://calgarymindclinic.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Can't We Just Get Along Counselling",
+          "url": "https://www.cantwejustgetalongcounselling.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Core Psychology",
+          "url": "https://www.corepsychology.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Couples Reconnect",
+          "url": "https://couplesreconnect.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Emotions Therapy Calgary",
+          "url": "https://www.emotionstherapycalgary.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Mind Revive Psychotherapy & Counselling",
+          "url": "https://mindrevive.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Monarch Psychology",
+          "url": "https://monarchpsychology.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Moss Postpartum House",
+          "url": "https://mosspostpartum.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Neurvana Naturopathic Medicine",
+          "url": "https://neurvanahealth.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Norum Psych Services",
+          "url": "https://norumpsychservices.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Resolvology",
+          "url": "https://resolvology.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "RM Psychological Services",
+          "url": "https://rmpsychservices.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "Rocky Mountain Psychological Services",
+          "url": "https://rmpsychservices.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "Rooted Willow Relationship Centre",
+          "url": "https://rootedwillowyyc.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "Sanford Psychological Services",
+          "url": "http://www.sanfordpsychological.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "name": "Sano State Psychology",
+          "url": "https://sanostate.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "name": "ShiftGrit Psychology & Counselling",
+          "url": "https://shiftgrit.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "name": "Solasta Counselling",
+          "url": "https://solastacounselling.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "name": "Supporting Wellness",
+          "url": "https://supportingwellness.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "name": "Supporting Wellness Psychological Services",
+          "url": "https://supportingwellness.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "name": "Virtuous Circle Counselling",
+          "url": "https://vccounselling.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "name": "Your Counselling Ltd.",
+          "url": "https://yourcounselling.ca/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- wf-crosslinks -->
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+    </nav></div>
+  </header>
+  <main class="section">
+    <div class="wrap tp-wrap">
+      <h1>Psychotherapy clinics in Calgary</h1>
+      <p>24 clinics in Calgary, AB provide care that bills under psychotherapy, across 2 treatments on WellFinder including Couples Therapy and Neurofeedback. Many extended health plans include psychotherapy benefits, and a visit is claimable when it is provided by a registered psychotherapist and billed under the matching category. Coverage depends on your plan, so confirm with your insurer and the clinic before you book.</p>
+      <section class="wf-treats">
+        <h2>Treatments billed under psychotherapy in Calgary</h2>
+        <ul>
+          <li><a href="/clinics-couples-therapy-calgary">Couples Therapy (19)</a></li>
+          <li><a href="/clinics-neurofeedback-calgary">Neurofeedback (8)</a></li>
+        </ul>
+      </section>
+      <section class="wf-treats">
+        <h2>Other benefit categories in Calgary</h2>
+        <ul>
+          <li><a href="/clinics-physiotherapy-calgary">Physiotherapy clinics in Calgary (58)</a></li>
+          <li><a href="/clinics-naturopathy-calgary">Naturopathy clinics in Calgary (39)</a></li>
+          <li><a href="/clinics-chiropractic-calgary">Chiropractic clinics in Calgary (38)</a></li>
+          <li><a href="/clinics-massage-therapy-calgary">Massage Therapy clinics in Calgary (35)</a></li>
+          <li><a href="/clinics-psychology-calgary">Psychology clinics in Calgary (25)</a></li>
+          <li><a href="/clinics-acupuncture-calgary">Acupuncture clinics in Calgary (22)</a></li>
+          <li><a href="/clinics-dietitian-calgary">Dietitian clinics in Calgary (7)</a></li>
+        </ul>
+      </section>
+      <div class="nc-grid">
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Alberta Counselling Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Alberta%20Counselling%20Centre%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Registered psychologists; Gottman Method couples therapy, Midnapore</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="http://albertacounselling.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>Best Choice Counselling</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Best%20Choice%20Counselling%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Registered Psychologists provide individual and couples counselling</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://bestchoicecounselling.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Calgary Mind &amp; Wellness Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Calgary%20Mind%20%26%20Wellness%20Clinic%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">qEEG brain mapping + neurofeedback; $490 brain map</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://calgarymindclinic.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Can't We Just Get Along Counselling</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Can't%20We%20Just%20Get%20Along%20Counselling%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Melody Evans, Registered Psychologist + RMFT; Gottman Method couples therapy; since 2007; serves Calgary + surrounding</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.cantwejustgetalongcounselling.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Core Psychology</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Core%20Psychology%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Registered psychologists; Gottman Method couples therapy</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.corepsychology.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Couples Reconnect</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Couples%20Reconnect%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://couplesreconnect.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>E</span></div>
+        <div class="cc-top"><h3>Emotions Therapy Calgary</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Emotions%20Therapy%20Calgary%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Rod Mitchell, Registered Psychologist; Gottman + EFT</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.emotionstherapycalgary.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Mind Revive Psychotherapy &amp; Counselling</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Mind%20Revive%20Psychotherapy%20%26%20Counselling%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Neurofeedback training with Dr. Effat Daftarchi, registered psychologist; qEEG</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://mindrevive.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Monarch Psychology</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Monarch%20Psychology%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Couples Counselling in services list and Registered Psychologists on team</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://monarchpsychology.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Moss Postpartum House</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Moss%20Postpartum%20House%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Dr. Mariah Da Silveira, Doctor of Acupuncture &amp; TCM; cosmetic acupuncture, facial gua sha, cupping</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://mosspostpartum.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>N</span></div>
+        <div class="cc-top"><h3>Neurvana Naturopathic Medicine</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Neurvana%20Naturopathic%20Medicine%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Licensed NDs registered with CNDA/CAND; IV therapy among integrative care; 2020 4 St SW #330</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://neurvanahealth.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>N</span></div>
+        <div class="cc-top"><h3>Norum Psych Services</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Norum%20Psych%20Services%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Neurofeedback among psychological services</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://norumpsychservices.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Resolvology</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Resolvology%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://resolvology.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>RM Psychological Services</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=RM%20Psychological%20Services%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://rmpsychservices.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Rocky Mountain Psychological Services</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Rocky%20Mountain%20Psychological%20Services%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Neurofeedback program with qEEG brain mapping; team incl. Registered Psychologist; 20-session courses</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://rmpsychservices.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Rooted Willow Relationship Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Rooted%20Willow%20Relationship%20Centre%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Counselling</div></div></div><div class="cc-links"><a href="https://rootedwillowyyc.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>S</span></div>
+        <div class="cc-top"><h3>Sanford Psychological Services</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Sanford%20Psychological%20Services%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Registered Psychologist works with individuals couples and families using Gottman Couples Therapy model</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="http://www.sanfordpsychological.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>S</span></div>
+        <div class="cc-top"><h3>Sano State Psychology</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Sano%20State%20Psychology%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://sanostate.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>S</span></div>
+        <div class="cc-top"><h3>ShiftGrit Psychology &amp; Counselling</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=ShiftGrit%20Psychology%20%26%20Counselling%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Baldwin Asala, Registered Provisional Psychologist; sports performance psychology; Mount Royal studio 815 17 Ave SW</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://shiftgrit.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>S</span></div>
+        <div class="cc-top"><h3>Solasta Counselling</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Solasta%20Counselling%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Sarah Choudhry, Registered Psychologist, trained in CBT-i</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://solastacounselling.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>S</span></div>
+        <div class="cc-top"><h3>Supporting Wellness</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Supporting%20Wellness%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">registered psychologists and therapists; marriage and couples counselling; Gottman Method</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://supportingwellness.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>S</span></div>
+        <div class="cc-top"><h3>Supporting Wellness Psychological Services</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Supporting%20Wellness%20Psychological%20Services%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://supportingwellness.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>V</span></div>
+        <div class="cc-top"><h3>Virtuous Circle Counselling</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Virtuous%20Circle%20Counselling%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Sport &amp; performance psychologists; registered psychologists; multiple Calgary + Edmonton offices</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://vccounselling.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>Y</span></div>
+        <div class="cc-top"><h3>Your Counselling Ltd.</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Your%20Counselling%20Ltd.%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Susan Morison, Psychologist MA R.Psych; CBT-I insomnia specialist</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://yourcounselling.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      </div>
+    <section class="wf-faq">
+      <h2>Common questions</h2>
+      <details><summary>Is psychotherapy covered by extended health benefits in Canada?</summary><p>Many extended health plans include psychotherapy benefits. A visit is claimable when it is provided by a registered psychotherapist working within their scope of practice and billed under the psychotherapy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book.</p></details>
+      <details><summary>Which treatments on WellFinder bill under psychotherapy?</summary><p>Treatments that bill under psychotherapy include Neurofeedback and Couples Therapy. Each treatment page shows how clinics bill the visit, so you can match it to your plan.</p></details>
+      <details><summary>How many clinics in Calgary bill under psychotherapy?</summary><p>WellFinder lists 24 clinics in Calgary, AB whose visits can bill under psychotherapy, across 2 treatments including Couples Therapy and Neurofeedback.</p></details>
+    </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#featured-clinics">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
+    </div>
+  </footer>
+</body>
+</html>

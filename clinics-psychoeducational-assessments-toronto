@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Psychoeducational Assessments clinics in Toronto — WellFinder</title>
+  <meta name="description" content="10 clinics offering Psychoeducational Assessments in Toronto, ON. Billed under psychology when provided by a registered psychologist. Compare clinics and see how claiming works." />
+  <link rel="canonical" href="https://wellfinder.ca/clinics-psychoeducational-assessments-toronto" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=123" />
+  <style>
+    .wf-faq{max-width:820px;margin:34px auto 6px}
+    .wf-faq h2{margin:0 0 10px}
+    .wf-faq details{border-top:1px solid #E4E2D6;padding:11px 2px}
+    .wf-faq details:last-of-type{border-bottom:1px solid #E4E2D6}
+    .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
+    .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
+
+    .wf-treats{max-width:820px;margin:26px auto 4px}
+    .wf-treats ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+    .wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Psychoeducational Assessments clinics",
+          "item": "https://wellfinder.ca/clinics-psychoeducational-assessments"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Psychoeducational Assessments clinics in Toronto",
+          "item": "https://wellfinder.ca/clinics-psychoeducational-assessments-toronto"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wellfinder.ca/clinics-psychoeducational-assessments-toronto#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Psychoeducational Assessments covered by extended health benefits in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Psychoeducational Assessments is often claimable under psychology benefits when it is provided by a registered psychologist working within their scope of practice. Coverage always depends on your own plan, so confirm with your insurer and the clinic before you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who provides Psychoeducational Assessments?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Psychoeducational Assessments is provided by a registered psychologist. For a visit to be claimable, the practitioner needs to hold the licence or registration their province requires for that profession and bill the visit under the matching benefit category."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many clinics offer Psychoeducational Assessments in Toronto?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WellFinder lists 10 clinics offering Psychoeducational Assessments in Toronto, ON. Each listing shows how the clinic bills, so you can match the visit to your plan before you book."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Psychoeducational Assessments clinics in Toronto",
+      "numberOfItems": 10,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ADHD and PsychoEd Clinic",
+          "url": "https://www.psychoedclinic.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "BeWell Clinics",
+          "url": "https://bewellclinics.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dalton Associates",
+          "url": "https://www.daltonassociates.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Dr. Andrew Wong Psychology",
+          "url": "http://www.awongpsych.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Possibilities Clinic",
+          "url": "https://possibilitiesclinic.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Psych-Ed Assessment Services",
+          "url": "https://www.psych-ed.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "The ADD Centre",
+          "url": "https://www.addcentre.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "The Counselling Centre",
+          "url": "https://thecounsellingcentre.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "The Wise Self Psychotherapy Clinic",
+          "url": "https://www.thewiseself.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Toronto Neurofeedback and Psychotherapy Centre",
+          "url": "https://nuvistamentalhealth.com/locations/toronto/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- wf-crosslinks -->
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+    </nav></div>
+  </header>
+  <main class="section">
+    <div class="wrap tp-wrap">
+      <h1>Psychoeducational Assessments clinics in Toronto</h1>
+      <p>10 clinics in Toronto, ON offer Psychoeducational Assessments. It is billed under psychology when the visit is provided by a registered psychologist, which is how extended health benefits may apply. Coverage depends on your plan, so confirm with your insurer and the clinic before you book. See every Psychoeducational Assessments clinic in Canada on the <a href="/clinics-psychoeducational-assessments">Psychoeducational Assessments clinics page</a>.</p>
+      <section class="wf-treats">
+        <h2>Psychoeducational Assessments and your benefits in Toronto</h2>
+        <ul>
+          <li><a href="/clinics-psychology-toronto">More Psychology clinics in Toronto</a></li>
+        </ul>
+      </section>
+      <div class="nc-grid">
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>ADHD and PsychoEd Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=ADHD%20and%20PsychoEd%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">/ CADDAC listing for psychoedclinic.com: interdisciplinary team including psychologists providing Adult ADHD…</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.psychoedclinic.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>BeWell Clinics</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=BeWell%20Clinics%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">ADHD Integrative Program in Toronto/Mississauga/Hamilton — clients are matched with a Psychologist for psychological…</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://bewellclinics.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dalton Associates</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dalton%20Associates%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Marriage &amp; Couples Counselling offered; employs Registered Psychologists and Registered Psychotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.daltonassociates.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Andrew Wong Psychology</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Andrew%20Wong%20Psychology%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Couples Therapy listed under adult services</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="http://www.awongpsych.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Possibilities Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Possibilities%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">'Signature Psychoeducational, ADHD &amp; Mental Health Assessment' for children, teens and adults; states…</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://possibilitiesclinic.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Psych-Ed Assessment Services</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Psych-Ed%20Assessment%20Services%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.psych-ed.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The ADD Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20ADD%20Centre%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.addcentre.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The Counselling Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20Counselling%20Centre%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Couples Therapy listed among counselling services</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://thecounsellingcentre.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The Wise Self Psychotherapy Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20Wise%20Self%20Psychotherapy%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">LENS neurofeedback in Etobicoke</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.thewiseself.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>Toronto Neurofeedback and Psychotherapy Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Toronto%20Neurofeedback%20and%20Psychotherapy%20Centre%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">brain-based healing plus psychotherapy</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://nuvistamentalhealth.com/locations/toronto/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      </div>
+    <section class="wf-faq">
+      <h2>Common questions</h2>
+      <details><summary>Is Psychoeducational Assessments covered by extended health benefits in Canada?</summary><p>Psychoeducational Assessments is often claimable under psychology benefits when it is provided by a registered psychologist working within their scope of practice. Coverage always depends on your own plan, so confirm with your insurer and the clinic before you book.</p></details>
+      <details><summary>Who provides Psychoeducational Assessments?</summary><p>Psychoeducational Assessments is provided by a registered psychologist. For a visit to be claimable, the practitioner needs to hold the licence or registration their province requires for that profession and bill the visit under the matching benefit category.</p></details>
+      <details><summary>How many clinics offer Psychoeducational Assessments in Toronto?</summary><p>WellFinder lists 10 clinics offering Psychoeducational Assessments in Toronto, ON. Each listing shows how the clinic bills, so you can match the visit to your plan before you book.</p></details>
+    </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#featured-clinics">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
+    </div>
+  </footer>
+</body>
+</html>

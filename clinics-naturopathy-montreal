@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Naturopathy clinics in Montreal — WellFinder</title>
+  <meta name="description" content="12 clinics in Montreal, QC whose visits bill under naturopathy, across 2 treatments. See how naturopathy benefits work and compare clinics before you book." />
+  <link rel="canonical" href="https://wellfinder.ca/clinics-naturopathy-montreal" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=123" />
+  <style>
+    .wf-faq{max-width:820px;margin:34px auto 6px}
+    .wf-faq h2{margin:0 0 10px}
+    .wf-faq details{border-top:1px solid #E4E2D6;padding:11px 2px}
+    .wf-faq details:last-of-type{border-bottom:1px solid #E4E2D6}
+    .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
+    .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
+    .wf-treats{max-width:820px;margin:26px auto 4px}
+    .wf-treats ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+    .wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Naturopathy clinics in Montreal",
+          "item": "https://wellfinder.ca/clinics-naturopathy-montreal"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wellfinder.ca/clinics-naturopathy-montreal#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is naturopathy covered by extended health benefits in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many extended health plans include naturopathy benefits. A visit is claimable when it is provided by a naturopathic doctor working within their scope of practice and billed under the naturopathy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which treatments on WellFinder bill under naturopathy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treatments that bill under naturopathy include Cosmetic Acupuncture, Microneedling, IM Vitamin Therapy, IV Vitamin Therapy and Fertility Consultation. Each treatment page shows how clinics bill the visit, so you can match it to your plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many clinics in Montreal bill under naturopathy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WellFinder lists 12 clinics in Montreal, QC whose visits can bill under naturopathy, across 2 treatments including Cosmetic Acupuncture and Fertility Consultation."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Naturopathy clinics in Montreal",
+      "numberOfItems": 12,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Altermed",
+          "url": "https://cliniquealtermed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Champagne Acupuncture",
+          "url": "https://champagneacupuncture.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Clinic acuenergie",
+          "url": "https://www.acuenergie.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Clinique Altermed",
+          "url": "https://cliniquealtermed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Clinique Camirand Muzzi",
+          "url": "https://www.cliniquecamirandmuzzi.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Clinique d'Acupuncture Lajeunesse",
+          "url": "https://cliniquedacupuncturelajeunesse.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Clinique Médicale Gynesys",
+          "url": "http://www.gynesys.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Fannie Beaulieu",
+          "url": "https://fanniebeaulieu.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Marie Julie Dessaivre Acupuncture",
+          "url": "https://www.mariejuliedessaivreacupunctrice.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Montreal Fertility Centre",
+          "url": "http://www.montrealfertility.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "OriginElle Fertility Clinic & Women's Health Centre",
+          "url": "https://www.originelle.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Stéphanie Gilbert Acupuncture",
+          "url": "https://sgilbertacupuncture.com/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- wf-crosslinks -->
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+    </nav></div>
+  </header>
+  <main class="section">
+    <div class="wrap tp-wrap">
+      <h1>Naturopathy clinics in Montreal</h1>
+      <p>12 clinics in Montreal, QC provide care that bills under naturopathy, across 2 treatments on WellFinder including Cosmetic Acupuncture and Fertility Consultation. Many extended health plans include naturopathy benefits, and a visit is claimable when it is provided by a naturopathic doctor and billed under the matching category. Coverage depends on your plan, so confirm with your insurer and the clinic before you book.</p>
+      <section class="wf-treats">
+        <h2>Treatments billed under naturopathy in Montreal</h2>
+        <ul>
+          <li><a href="/clinics-cosmetic-acupuncture-montreal">Cosmetic Acupuncture (8)</a></li>
+          <li><a href="/clinics-fertility-consultation">Fertility Consultation (4)</a></li>
+        </ul>
+      </section>
+      <section class="wf-treats">
+        <h2>Other benefit categories in Montreal</h2>
+        <ul>
+          <li><a href="/clinics-physiotherapy-montreal">Physiotherapy clinics in Montreal (40)</a></li>
+          <li><a href="/clinics-massage-therapy-montreal">Massage Therapy clinics in Montreal (24)</a></li>
+          <li><a href="/clinics-chiropractic-montreal">Chiropractic clinics in Montreal (13)</a></li>
+          <li><a href="/clinics-psychology-montreal">Psychology clinics in Montreal (12)</a></li>
+          <li><a href="/clinics-acupuncture-montreal">Acupuncture clinics in Montreal (11)</a></li>
+          <li><a href="/clinics-psychotherapy-montreal">Psychotherapy clinics in Montreal (10)</a></li>
+          <li><a href="/clinics-dietitian-montreal">Dietitian clinics in Montreal (9)</a></li>
+          <li><a href="/clinics-speech-therapy-montreal">Speech Therapy clinics in Montreal (6)</a></li>
+        </ul>
+      </section>
+      <div class="nc-grid">
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Altermed</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Altermed%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">acupuncture esthétique faciale by Nadège Agostini, Ac.</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://cliniquealtermed.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Champagne Acupuncture</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Champagne%20Acupuncture%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">cosmetic acupuncture, 6 sessions recommended</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://champagneacupuncture.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Clinic acuenergie</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Clinic%20acuenergie%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">female and male infertility; IUI and IVF support; licensed acupuncturist (OAQ)</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://www.acuenergie.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Clinique Altermed</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Clinique%20Altermed%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">Vodder-trained certified massage and lymphedema therapist; Plateau</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://cliniquealtermed.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Clinique Camirand Muzzi</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Clinique%20Camirand%20Muzzi%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">acupuncture cosmétique by Aline Yon, Ac.</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://www.cliniquecamirandmuzzi.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Clinique d'Acupuncture Lajeunesse</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Clinique%20d'Acupuncture%20Lajeunesse%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">acupuncture esthétique du visage, 8836 rue Lajeunesse</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://cliniquedacupuncturelajeunesse.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Clinique Médicale Gynesys</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Clinique%20M%C3%A9dicale%20Gynesys%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-links"><a href="http://www.gynesys.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>F</span></div>
+        <div class="cc-top"><h3>Fannie Beaulieu</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Fannie%20Beaulieu%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">General nutrition; no sports angle stated; Registered Dietitian on staff</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Dietitian</div></div></div><div class="cc-links"><a href="https://fanniebeaulieu.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Marie Julie Dessaivre Acupuncture</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Marie%20Julie%20Dessaivre%20Acupuncture%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">facial acupuncture, 3 protocols, acupuncturist</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://www.mariejuliedessaivreacupunctrice.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Montreal Fertility Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Montreal%20Fertility%20Centre%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-links"><a href="http://www.montrealfertility.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>O</span></div>
+        <div class="cc-top"><h3>OriginElle Fertility Clinic &amp; Women's Health Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=OriginElle%20Fertility%20Clinic%20%26%20Women's%20Health%20Centre%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-links"><a href="https://www.originelle.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>S</span></div>
+        <div class="cc-top"><h3>Stéphanie Gilbert Acupuncture</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=St%C3%A9phanie%20Gilbert%20Acupuncture%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">acupuncture faciale Moderne/Traditionnelle, 1217 av Bernard</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://sgilbertacupuncture.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      </div>
+    <section class="wf-faq">
+      <h2>Common questions</h2>
+      <details><summary>Is naturopathy covered by extended health benefits in Canada?</summary><p>Many extended health plans include naturopathy benefits. A visit is claimable when it is provided by a naturopathic doctor working within their scope of practice and billed under the naturopathy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book.</p></details>
+      <details><summary>Which treatments on WellFinder bill under naturopathy?</summary><p>Treatments that bill under naturopathy include Cosmetic Acupuncture, Microneedling, IM Vitamin Therapy, IV Vitamin Therapy and Fertility Consultation. Each treatment page shows how clinics bill the visit, so you can match it to your plan.</p></details>
+      <details><summary>How many clinics in Montreal bill under naturopathy?</summary><p>WellFinder lists 12 clinics in Montreal, QC whose visits can bill under naturopathy, across 2 treatments including Cosmetic Acupuncture and Fertility Consultation.</p></details>
+    </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#featured-clinics">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
+    </div>
+  </footer>
+</body>
+</html>

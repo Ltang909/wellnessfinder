@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dietitian clinics in Toronto — WellFinder</title>
+  <meta name="description" content="11 clinics in Toronto, ON whose visits bill under dietitian services, across 1 treatments. See how dietitian services benefits work and compare clinics before you book." />
+  <link rel="canonical" href="https://wellfinder.ca/clinics-dietitian-toronto" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=123" />
+  <style>
+    .wf-faq{max-width:820px;margin:34px auto 6px}
+    .wf-faq h2{margin:0 0 10px}
+    .wf-faq details{border-top:1px solid #E4E2D6;padding:11px 2px}
+    .wf-faq details:last-of-type{border-bottom:1px solid #E4E2D6}
+    .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
+    .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
+    .wf-treats{max-width:820px;margin:26px auto 4px}
+    .wf-treats ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+    .wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Dietitian clinics in Toronto",
+          "item": "https://wellfinder.ca/clinics-dietitian-toronto"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wellfinder.ca/clinics-dietitian-toronto#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is dietitian services covered by extended health benefits in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many extended health plans include dietitian services benefits. A visit is claimable when it is provided by a registered dietitian working within their scope of practice and billed under the dietitian services category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which treatments on WellFinder bill under dietitian services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treatments that bill under dietitian services include Sports Nutrition. Each treatment page shows how clinics bill the visit, so you can match it to your plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many clinics in Toronto bill under dietitian services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WellFinder lists 11 clinics in Toronto, ON whose visits can bill under dietitian services, across 1 treatments including Sports Nutrition."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Dietitian clinics in Toronto",
+      "numberOfItems": 11,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "At Ease Nutrition",
+          "url": "https://www.ateasenutrition.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Jean LaMantia, RD",
+          "url": "https://jeanlamantia.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "JM Nutrition",
+          "url": "https://www.julienutrition.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Leslie Beck RD",
+          "url": "http://www.lesliebeck.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Live Active Sport Med",
+          "url": "https://liveactivesportmed.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Peak Nutrition",
+          "url": "https://peaknutrition.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Renita Lam",
+          "url": "https://www.renitalam.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Strength Conditioning Nutrition",
+          "url": "https://scn2xl.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Studio Athletica",
+          "url": "https://www.studioathletica.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "The Nutrition Advantage",
+          "url": "https://www.the-nutrition-advantage.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Toronto Metabolic Clinic",
+          "url": "https://torontometabolicclinic.com/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- wf-crosslinks -->
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+    </nav></div>
+  </header>
+  <main class="section">
+    <div class="wrap tp-wrap">
+      <h1>Dietitian clinics in Toronto</h1>
+      <p>11 clinics in Toronto, ON provide care that bills under dietitian services, across 1 treatments on WellFinder including Sports Nutrition. Many extended health plans include dietitian services benefits, and a visit is claimable when it is provided by a registered dietitian and billed under the matching category. Coverage depends on your plan, so confirm with your insurer and the clinic before you book.</p>
+      <section class="wf-treats">
+        <h2>Treatments billed under dietitian services in Toronto</h2>
+        <ul>
+          <li><a href="/clinics-sports-nutrition-toronto">Sports Nutrition (11)</a></li>
+        </ul>
+      </section>
+      <section class="wf-treats">
+        <h2>Other benefit categories in Toronto</h2>
+        <ul>
+          <li><a href="/clinics-physiotherapy-toronto">Physiotherapy clinics in Toronto (84)</a></li>
+          <li><a href="/clinics-chiropractic-toronto">Chiropractic clinics in Toronto (68)</a></li>
+          <li><a href="/clinics-massage-therapy-toronto">Massage Therapy clinics in Toronto (40)</a></li>
+          <li><a href="/clinics-naturopathy-toronto">Naturopathy clinics in Toronto (30)</a></li>
+          <li><a href="/clinics-psychology-toronto">Psychology clinics in Toronto (30)</a></li>
+          <li><a href="/clinics-psychotherapy-toronto">Psychotherapy clinics in Toronto (29)</a></li>
+          <li><a href="/clinics-acupuncture-toronto">Acupuncture clinics in Toronto (24)</a></li>
+          <li><a href="/clinics-speech-therapy-toronto">Speech Therapy clinics in Toronto (21)</a></li>
+        </ul>
+      </section>
+      <div class="nc-grid">
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>At Ease Nutrition</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=At%20Ease%20Nutrition%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">General nutrition; no sports angle stated; Erica Kao RD, founder</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Dietitian</div></div></div><div class="cc-links"><a href="https://www.ateasenutrition.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>J</span></div>
+        <div class="cc-top"><h3>Jean LaMantia, RD</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Jean%20LaMantia%2C%20RD%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">General nutrition; no sports angle stated; Registered Dietitian on staff</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Dietitian</div></div></div><div class="cc-links"><a href="https://jeanlamantia.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>J</span></div>
+        <div class="cc-top"><h3>JM Nutrition</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=JM%20Nutrition%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Pamela Mitri MSc RD; sports nutrition specialty</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Dietitian</div></div></div><div class="cc-links"><a href="https://www.julienutrition.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Leslie Beck RD</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Leslie%20Beck%20RD%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">General nutrition; no sports angle stated; Registered Dietitian on staff</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Dietitian</div></div></div><div class="cc-links"><a href="http://www.lesliebeck.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Live Active Sport Med</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Live%20Active%20Sport%20Med%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Run gait analysis + retraining; Beaches &amp; Etobicoke locations</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Dietitian</div></div></div><div class="cc-links"><a href="https://liveactivesportmed.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Peak Nutrition</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Peak%20Nutrition%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Terence Boateng MHSc RD CSEP-CE; performance nutrition</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Dietitian</div></div></div><div class="cc-links"><a href="https://peaknutrition.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Renita Lam</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Renita%20Lam%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">General nutrition; no sports angle stated; Registered Dietitian on staff</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Dietitian</div></div></div><div class="cc-links"><a href="https://www.renitalam.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>S</span></div>
+        <div class="cc-top"><h3>Strength Conditioning Nutrition</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Strength%20Conditioning%20Nutrition%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Board Certified Sports Dietitian (CSSD) for athletes</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Dietitian</div></div></div><div class="cc-links"><a href="https://scn2xl.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>S</span></div>
+        <div class="cc-top"><h3>Studio Athletica</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Studio%20Athletica%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">registered dietitian consults; sports nutrition counselling</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Dietitian</div></div></div><div class="cc-links"><a href="https://www.studioathletica.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The Nutrition Advantage</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20Nutrition%20Advantage%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">General nutrition; no sports angle stated; Registered Dietitian on staff</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Dietitian</div></div></div><div class="cc-links"><a href="https://www.the-nutrition-advantage.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>Toronto Metabolic Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Toronto%20Metabolic%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">General nutrition; no sports angle stated; Registered Dietitian on staff</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Dietitian</div></div></div><div class="cc-links"><a href="https://torontometabolicclinic.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      </div>
+    <section class="wf-faq">
+      <h2>Common questions</h2>
+      <details><summary>Is dietitian services covered by extended health benefits in Canada?</summary><p>Many extended health plans include dietitian services benefits. A visit is claimable when it is provided by a registered dietitian working within their scope of practice and billed under the dietitian services category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book.</p></details>
+      <details><summary>Which treatments on WellFinder bill under dietitian services?</summary><p>Treatments that bill under dietitian services include Sports Nutrition. Each treatment page shows how clinics bill the visit, so you can match it to your plan.</p></details>
+      <details><summary>How many clinics in Toronto bill under dietitian services?</summary><p>WellFinder lists 11 clinics in Toronto, ON whose visits can bill under dietitian services, across 1 treatments including Sports Nutrition.</p></details>
+    </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#featured-clinics">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
+    </div>
+  </footer>
+</body>
+</html>

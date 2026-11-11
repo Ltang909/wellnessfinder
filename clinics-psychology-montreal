@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Psychology clinics in Montreal — WellFinder</title>
+  <meta name="description" content="12 clinics in Montreal, QC whose visits bill under psychology, across 4 treatments. See how psychology benefits work and compare clinics before you book." />
+  <link rel="canonical" href="https://wellfinder.ca/clinics-psychology-montreal" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=123" />
+  <style>
+    .wf-faq{max-width:820px;margin:34px auto 6px}
+    .wf-faq h2{margin:0 0 10px}
+    .wf-faq details{border-top:1px solid #E4E2D6;padding:11px 2px}
+    .wf-faq details:last-of-type{border-bottom:1px solid #E4E2D6}
+    .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
+    .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
+    .wf-treats{max-width:820px;margin:26px auto 4px}
+    .wf-treats ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+    .wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Psychology clinics in Montreal",
+          "item": "https://wellfinder.ca/clinics-psychology-montreal"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wellfinder.ca/clinics-psychology-montreal#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is psychology covered by extended health benefits in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many extended health plans include psychology benefits. A visit is claimable when it is provided by a registered psychologist working within their scope of practice and billed under the psychology category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which treatments on WellFinder bill under psychology?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treatments that bill under psychology include Sleep Coaching, Couples Therapy, Mental Performance Coaching and Psychoeducational Assessments. Each treatment page shows how clinics bill the visit, so you can match it to your plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many clinics in Montreal bill under psychology?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WellFinder lists 12 clinics in Montreal, QC whose visits can bill under psychology, across 4 treatments including Couples Therapy, Sleep Coaching and Psychoeducational Assessments."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Psychology clinics in Montreal",
+      "numberOfItems": 12,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Blake Psychology",
+          "url": "https://blakepsychology.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Clinic Dr. Bita",
+          "url": "https://www.clinicdrbita.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Clinique de Psychologie Berri",
+          "url": "https://www.psyberri.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Couple and Family Therapy Montreal",
+          "url": "http://www.familytherapymtl.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Elizabeth Shoiry, Psychologist",
+          "url": "https://elizabethshoiry.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "HALEO Clinique",
+          "url": "https://www.haleoclinic.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Institut Therapeía",
+          "url": "https://instituttherapeia.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "L'Interphase — Clinique de psychologie & neuropsychologie",
+          "url": "https://www.linterphasepsychologie.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Le Groupe Thérapie (The Therapy Group)",
+          "url": "https://www.thetherapygroup.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Le Psy Sportif — Dr Jean-Michel Pelletier",
+          "url": "http://www.psysportif.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Neurothérapie Montréal",
+          "url": "https://neuromtl.com/fr/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Psyeval Clinic",
+          "url": "https://www.psyeval.ca"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- wf-crosslinks -->
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+    </nav></div>
+  </header>
+  <main class="section">
+    <div class="wrap tp-wrap">
+      <h1>Psychology clinics in Montreal</h1>
+      <p>12 clinics in Montreal, QC provide care that bills under psychology, across 4 treatments on WellFinder including Couples Therapy, Sleep Coaching and Psychoeducational Assessments. Many extended health plans include psychology benefits, and a visit is claimable when it is provided by a registered psychologist and billed under the matching category. Coverage depends on your plan, so confirm with your insurer and the clinic before you book.</p>
+      <section class="wf-treats">
+        <h2>Treatments billed under psychology in Montreal</h2>
+        <ul>
+          <li><a href="/clinics-couples-therapy-montreal">Couples Therapy (7)</a></li>
+          <li><a href="/clinics-sleep-coaching">Sleep Coaching (3)</a></li>
+          <li><a href="/clinics-psychoeducational-assessments">Psychoeducational Assessments (3)</a></li>
+          <li><a href="/clinics-mental-performance-coaching">Mental Performance Coaching (2)</a></li>
+        </ul>
+      </section>
+      <section class="wf-treats">
+        <h2>Other benefit categories in Montreal</h2>
+        <ul>
+          <li><a href="/clinics-physiotherapy-montreal">Physiotherapy clinics in Montreal (40)</a></li>
+          <li><a href="/clinics-massage-therapy-montreal">Massage Therapy clinics in Montreal (24)</a></li>
+          <li><a href="/clinics-chiropractic-montreal">Chiropractic clinics in Montreal (13)</a></li>
+          <li><a href="/clinics-naturopathy-montreal">Naturopathy clinics in Montreal (12)</a></li>
+          <li><a href="/clinics-acupuncture-montreal">Acupuncture clinics in Montreal (11)</a></li>
+          <li><a href="/clinics-psychotherapy-montreal">Psychotherapy clinics in Montreal (10)</a></li>
+          <li><a href="/clinics-dietitian-montreal">Dietitian clinics in Montreal (9)</a></li>
+          <li><a href="/clinics-speech-therapy-montreal">Speech Therapy clinics in Montreal (6)</a></li>
+        </ul>
+      </section>
+      <div class="nc-grid">
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>Blake Psychology</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Blake%20Psychology%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">explicit CBT-I page on own site</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://blakepsychology.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Clinic Dr. Bita</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Clinic%20Dr.%20Bita%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">Psychologists in four Montreal area clinics; couples therapy specialists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.clinicdrbita.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Clinique de Psychologie Berri</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Clinique%20de%20Psychologie%20Berri%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">troubles du sommeil pris en charge par psychologues</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.psyberri.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Couple and Family Therapy Montreal</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Couple%20and%20Family%20Therapy%20Montreal%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychotherapy</div></div></div><div class="cc-links"><a href="http://www.familytherapymtl.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>E</span></div>
+        <div class="cc-top"><h3>Elizabeth Shoiry, Psychologist</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Elizabeth%20Shoiry%2C%20Psychologist%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://elizabethshoiry.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>H</span></div>
+        <div class="cc-top"><h3>HALEO Clinique</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=HALEO%20Clinique%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">virtual TCC-I insomnia programs by certified psychologists/psychotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.haleoclinic.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>I</span></div>
+        <div class="cc-top"><h3>Institut Therapeía</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Institut%20Therape%C3%ADa%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">Therapie de couple listed; Charbel Ibrahim psychotherapeute</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychotherapy</div></div></div><div class="cc-links"><a href="https://instituttherapeia.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>L'Interphase — Clinique de psychologie &amp; neuropsychologie</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=L'Interphase%20%E2%80%94%20Clinique%20de%20psychologie%20%26%20neuropsychologie%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">thérapie de couple by psychologues</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.linterphasepsychologie.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Le Groupe Thérapie (The Therapy Group)</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Le%20Groupe%20Th%C3%A9rapie%20(The%20Therapy%20Group)%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychotherapy</div></div></div><div class="cc-links"><a href="https://www.thetherapygroup.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Le Psy Sportif — Dr Jean-Michel Pelletier</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Le%20Psy%20Sportif%20%E2%80%94%20Dr%20Jean-Michel%20Pelletier%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-note">psychologue du sport &amp; de la performance</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="http://www.psysportif.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>N</span></div>
+        <div class="cc-top"><h3>Neurothérapie Montréal</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Neuroth%C3%A9rapie%20Montr%C3%A9al%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://neuromtl.com/fr/services/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Psyeval Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Psyeval%20Clinic%20Montreal%20QC" target="_blank" rel="noopener"><span>Montreal, QC</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.psyeval.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      </div>
+    <section class="wf-faq">
+      <h2>Common questions</h2>
+      <details><summary>Is psychology covered by extended health benefits in Canada?</summary><p>Many extended health plans include psychology benefits. A visit is claimable when it is provided by a registered psychologist working within their scope of practice and billed under the psychology category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book.</p></details>
+      <details><summary>Which treatments on WellFinder bill under psychology?</summary><p>Treatments that bill under psychology include Sleep Coaching, Couples Therapy, Mental Performance Coaching and Psychoeducational Assessments. Each treatment page shows how clinics bill the visit, so you can match it to your plan.</p></details>
+      <details><summary>How many clinics in Montreal bill under psychology?</summary><p>WellFinder lists 12 clinics in Montreal, QC whose visits can bill under psychology, across 4 treatments including Couples Therapy, Sleep Coaching and Psychoeducational Assessments.</p></details>
+    </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#featured-clinics">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
+    </div>
+  </footer>
+</body>
+</html>

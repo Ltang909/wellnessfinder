@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Psychology clinics in Toronto — WellFinder</title>
+  <meta name="description" content="30 clinics in Toronto, ON whose visits bill under psychology, across 4 treatments. See how psychology benefits work and compare clinics before you book." />
+  <link rel="canonical" href="https://wellfinder.ca/clinics-psychology-toronto" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=123" />
+  <style>
+    .wf-faq{max-width:820px;margin:34px auto 6px}
+    .wf-faq h2{margin:0 0 10px}
+    .wf-faq details{border-top:1px solid #E4E2D6;padding:11px 2px}
+    .wf-faq details:last-of-type{border-bottom:1px solid #E4E2D6}
+    .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
+    .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
+    .wf-treats{max-width:820px;margin:26px auto 4px}
+    .wf-treats ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+    .wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Psychology clinics in Toronto",
+          "item": "https://wellfinder.ca/clinics-psychology-toronto"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wellfinder.ca/clinics-psychology-toronto#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is psychology covered by extended health benefits in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many extended health plans include psychology benefits. A visit is claimable when it is provided by a registered psychologist working within their scope of practice and billed under the psychology category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which treatments on WellFinder bill under psychology?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treatments that bill under psychology include Sleep Coaching, Couples Therapy, Mental Performance Coaching and Psychoeducational Assessments. Each treatment page shows how clinics bill the visit, so you can match it to your plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many clinics in Toronto bill under psychology?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WellFinder lists 30 clinics in Toronto, ON whose visits can bill under psychology, across 4 treatments including Couples Therapy, Psychoeducational Assessments and Sleep Coaching."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Psychology clinics in Toronto",
+      "numberOfItems": 30,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ACE Clinics",
+          "url": "https://aceclinics.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ADHD and PsychoEd Clinic",
+          "url": "https://www.psychoedclinic.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "BeWell Clinics",
+          "url": "https://bewellclinics.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Clear Path Solutions",
+          "url": "https://www.clearpathsolutions.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Couples Counselling Centre",
+          "url": "https://couplescounsellingcentre.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Dalton Associates",
+          "url": "https://www.daltonassociates.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Dr. Andrew Wong Psychology",
+          "url": "http://www.awongpsych.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Dr. Schuler Counselling Consultation and Training",
+          "url": "http://www.drschulercounselling.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Harmonia Counselling & Psychotherapy",
+          "url": "https://www.harmoniacounselling.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Heads Up Mental Game Coaching",
+          "url": "https://www.mentalgamecoaching.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Horizon Therapy",
+          "url": "http://www.horizontherapy.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Local Psychotherapy",
+          "url": "https://www.localpsychotherapy.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "New Pathways Therapy Center",
+          "url": "https://www.newpathwaystherapy.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "Newpath Psychotherapy",
+          "url": "http://newpathpsychotherapy.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "Possibilities Clinic",
+          "url": "https://possibilitiesclinic.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "Psych-Ed Assessment Services",
+          "url": "https://www.psych-ed.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "Psychological Recovery Clinic",
+          "url": "https://www.psychologicalrecovery.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "name": "Resolution Psychology Clinic",
+          "url": "https://www.resolutionpsychologyclinic.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "name": "Scarborough Psychology Clinic",
+          "url": "https://scarboroughpsychology.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "name": "Shanti Psychotherapy",
+          "url": "https://www.shantipsychotherapy.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "name": "The ADD Centre",
+          "url": "https://www.addcentre.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "name": "The Better Care Wellness Clinic",
+          "url": "https://www.thebettercare.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "name": "The Cohen Clinic",
+          "url": "https://thecohenclinic.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "name": "The Counselling Centre",
+          "url": "https://thecounsellingcentre.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "name": "The Counselling Clinic",
+          "url": "https://thecounsellingclinic.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "name": "The Downtown Psychology Clinic",
+          "url": "https://downtownpsychologyclinic.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "name": "The Mental Game Clinic",
+          "url": "https://www.thementalgame.me/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "name": "The Wise Self Psychotherapy Clinic",
+          "url": "https://www.thewiseself.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "name": "Toronto Neurofeedback and Psychotherapy Centre",
+          "url": "https://nuvistamentalhealth.com/locations/toronto/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "name": "Toronto Psychology Clinic",
+          "url": "https://torontopsychology.com/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- wf-crosslinks -->
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+    </nav></div>
+  </header>
+  <main class="section">
+    <div class="wrap tp-wrap">
+      <h1>Psychology clinics in Toronto</h1>
+      <p>30 clinics in Toronto, ON provide care that bills under psychology, across 4 treatments on WellFinder including Couples Therapy, Psychoeducational Assessments and Sleep Coaching. Many extended health plans include psychology benefits, and a visit is claimable when it is provided by a registered psychologist and billed under the matching category. Coverage depends on your plan, so confirm with your insurer and the clinic before you book.</p>
+      <section class="wf-treats">
+        <h2>Treatments billed under psychology in Toronto</h2>
+        <ul>
+          <li><a href="/clinics-couples-therapy-toronto">Couples Therapy (23)</a></li>
+          <li><a href="/clinics-psychoeducational-assessments-toronto">Psychoeducational Assessments (10)</a></li>
+          <li><a href="/clinics-sleep-coaching">Sleep Coaching (3)</a></li>
+          <li><a href="/clinics-mental-performance-coaching">Mental Performance Coaching (3)</a></li>
+        </ul>
+      </section>
+      <section class="wf-treats">
+        <h2>Other benefit categories in Toronto</h2>
+        <ul>
+          <li><a href="/clinics-physiotherapy-toronto">Physiotherapy clinics in Toronto (84)</a></li>
+          <li><a href="/clinics-chiropractic-toronto">Chiropractic clinics in Toronto (68)</a></li>
+          <li><a href="/clinics-massage-therapy-toronto">Massage Therapy clinics in Toronto (40)</a></li>
+          <li><a href="/clinics-naturopathy-toronto">Naturopathy clinics in Toronto (30)</a></li>
+          <li><a href="/clinics-psychotherapy-toronto">Psychotherapy clinics in Toronto (29)</a></li>
+          <li><a href="/clinics-acupuncture-toronto">Acupuncture clinics in Toronto (24)</a></li>
+          <li><a href="/clinics-speech-therapy-toronto">Speech Therapy clinics in Toronto (21)</a></li>
+          <li><a href="/clinics-dietitian-toronto">Dietitian clinics in Toronto (11)</a></li>
+        </ul>
+      </section>
+      <div class="nc-grid">
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>ACE Clinics</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=ACE%20Clinics%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">EEG assessment and neurofeedback for ADHD</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Neuro-cognitive Training</div></div></div><div class="cc-links"><a href="https://aceclinics.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>ADHD and PsychoEd Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=ADHD%20and%20PsychoEd%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">/ CADDAC listing for psychoedclinic.com: interdisciplinary team including psychologists providing Adult ADHD…</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.psychoedclinic.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>BeWell Clinics</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=BeWell%20Clinics%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">ADHD Integrative Program in Toronto/Mississauga/Hamilton — clients are matched with a Psychologist for psychological…</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://bewellclinics.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Clear Path Solutions</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Clear%20Path%20Solutions%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Dr. Douglas Saunders C.Psych; EFT-based couples therapy; 123 Edward St</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.clearpathsolutions.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Couples Counselling Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Couples%20Counselling%20Centre%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">$135-180/session; EFT + Gottman; Toronto downtown + Hamilton</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychotherapy / Social Work</div></div></div><div class="cc-links"><a href="https://couplescounsellingcentre.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dalton Associates</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dalton%20Associates%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Marriage &amp; Couples Counselling offered; employs Registered Psychologists and Registered Psychotherapists</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.daltonassociates.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Andrew Wong Psychology</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Andrew%20Wong%20Psychology%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Couples Therapy listed under adult services</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="http://www.awongpsych.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Schuler Counselling Consultation and Training</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Schuler%20Counselling%20Consultation%20and%20Training%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Couples Therapy listed as a service</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychotherapy</div></div></div><div class="cc-links"><a href="http://www.drschulercounselling.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>H</span></div>
+        <div class="cc-top"><h3>Harmonia Counselling &amp; Psychotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Harmonia%20Counselling%20%26%20Psychotherapy%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">CBT-I insomnia specialist; Mariam Daneshgar MSW RSW psychotherapist; virtual</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychotherapy</div></div></div><div class="cc-links"><a href="https://www.harmoniacounselling.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>H</span></div>
+        <div class="cc-top"><h3>Heads Up Mental Game Coaching</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Heads%20Up%20Mental%20Game%20Coaching%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">RP-run Mind Gym; mental coaching and sports performance counselling</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychotherapy</div></div></div><div class="cc-links"><a href="https://www.mentalgamecoaching.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>H</span></div>
+        <div class="cc-top"><h3>Horizon Therapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Horizon%20Therapy%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">RP/RSW/psychologist team; couples counselling; 455 Avenue Rd</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychotherapy</div></div></div><div class="cc-links"><a href="http://www.horizontherapy.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Local Psychotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Local%20Psychotherapy%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">RP (Qualifying) CRPO #19262; queer-affirming couples work; 111 Queen St E</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychotherapy</div></div></div><div class="cc-links"><a href="https://www.localpsychotherapy.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>N</span></div>
+        <div class="cc-top"><h3>New Pathways Therapy Center</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=New%20Pathways%20Therapy%20Center%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">neurofeedback for trauma recovery</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychotherapy</div></div></div><div class="cc-links"><a href="https://www.newpathwaystherapy.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>N</span></div>
+        <div class="cc-top"><h3>Newpath Psychotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Newpath%20Psychotherapy%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Gottman Couples Therapy listed as an approach</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychotherapy</div></div></div><div class="cc-links"><a href="http://newpathpsychotherapy.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Possibilities Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Possibilities%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">'Signature Psychoeducational, ADHD &amp; Mental Health Assessment' for children, teens and adults; states…</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://possibilitiesclinic.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Psych-Ed Assessment Services</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Psych-Ed%20Assessment%20Services%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.psych-ed.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Psychological Recovery Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Psychological%20Recovery%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Couples therapy listed as a service</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.psychologicalrecovery.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Resolution Psychology Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Resolution%20Psychology%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Gottman Couples Therapy listed as an approach</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.resolutionpsychologyclinic.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>S</span></div>
+        <div class="cc-top"><h3>Scarborough Psychology Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Scarborough%20Psychology%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Dedicated couple and family therapy page</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology / Psychotherapy</div></div></div><div class="cc-links"><a href="https://scarboroughpsychology.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>S</span></div>
+        <div class="cc-top"><h3>Shanti Psychotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Shanti%20Psychotherapy%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Dedicated couples and discernment counselling page</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychotherapy</div></div></div><div class="cc-links"><a href="https://www.shantipsychotherapy.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The ADD Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20ADD%20Centre%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.addcentre.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The Better Care Wellness Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20Better%20Care%20Wellness%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Dedicated couples service page</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.thebettercare.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The Cohen Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20Cohen%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">clinical psychologists and RPs; couples counselling; 1407 Yonge St</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://thecohenclinic.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The Counselling Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20Counselling%20Centre%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Couples Therapy listed among counselling services</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://thecounsellingcentre.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The Counselling Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20Counselling%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Couples Therapy listed as a service</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Social Work</div></div></div><div class="cc-links"><a href="https://thecounsellingclinic.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The Downtown Psychology Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20Downtown%20Psychology%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">Insomnia listed among conditions treated</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://downtownpsychologyclinic.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The Mental Game Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20Mental%20Game%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">registered clinical psychologist + Certified Mental Performance Consultant; 1150 Yonge St</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychotherapy</div></div></div><div class="cc-links"><a href="https://www.thementalgame.me/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The Wise Self Psychotherapy Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20Wise%20Self%20Psychotherapy%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">LENS neurofeedback in Etobicoke</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://www.thewiseself.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>Toronto Neurofeedback and Psychotherapy Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Toronto%20Neurofeedback%20and%20Psychotherapy%20Centre%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">brain-based healing plus psychotherapy</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://nuvistamentalhealth.com/locations/toronto/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>Toronto Psychology Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Toronto%20Psychology%20Clinic%20Toronto%20ON" target="_blank" rel="noopener"><span>Toronto, ON</span></a>
+        <div class="cc-note">registered clinical psychologists; individual and couple therapy; 2 Carlton St</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Psychology</div></div></div><div class="cc-links"><a href="https://torontopsychology.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      </div>
+    <section class="wf-faq">
+      <h2>Common questions</h2>
+      <details><summary>Is psychology covered by extended health benefits in Canada?</summary><p>Many extended health plans include psychology benefits. A visit is claimable when it is provided by a registered psychologist working within their scope of practice and billed under the psychology category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book.</p></details>
+      <details><summary>Which treatments on WellFinder bill under psychology?</summary><p>Treatments that bill under psychology include Sleep Coaching, Couples Therapy, Mental Performance Coaching and Psychoeducational Assessments. Each treatment page shows how clinics bill the visit, so you can match it to your plan.</p></details>
+      <details><summary>How many clinics in Toronto bill under psychology?</summary><p>WellFinder lists 30 clinics in Toronto, ON whose visits can bill under psychology, across 4 treatments including Couples Therapy, Psychoeducational Assessments and Sleep Coaching.</p></details>
+    </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#featured-clinics">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
+    </div>
+  </footer>
+</body>
+</html>

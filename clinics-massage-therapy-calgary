@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Massage Therapy clinics in Calgary — WellFinder</title>
+  <meta name="description" content="35 clinics in Calgary, AB whose visits bill under massage therapy, across 3 treatments. See how massage therapy benefits work and compare clinics before you book." />
+  <link rel="canonical" href="https://wellfinder.ca/clinics-massage-therapy-calgary" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=123" />
+  <style>
+    .wf-faq{max-width:820px;margin:34px auto 6px}
+    .wf-faq h2{margin:0 0 10px}
+    .wf-faq details{border-top:1px solid #E4E2D6;padding:11px 2px}
+    .wf-faq details:last-of-type{border-bottom:1px solid #E4E2D6}
+    .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
+    .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
+    .wf-treats{max-width:820px;margin:26px auto 4px}
+    .wf-treats ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+    .wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Massage Therapy clinics in Calgary",
+          "item": "https://wellfinder.ca/clinics-massage-therapy-calgary"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wellfinder.ca/clinics-massage-therapy-calgary#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is massage therapy covered by extended health benefits in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many extended health plans include massage therapy benefits. A visit is claimable when it is provided by a registered massage therapist working within their scope of practice and billed under the massage therapy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which treatments on WellFinder bill under massage therapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treatments that bill under massage therapy include Head Spa, TMJ Massage, Lymphatic Drainage and Pressotherapy. Each treatment page shows how clinics bill the visit, so you can match it to your plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many clinics in Calgary bill under massage therapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WellFinder lists 35 clinics in Calgary, AB whose visits can bill under massage therapy, across 3 treatments including Lymphatic Drainage, TMJ Massage and Head Spa."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Massage Therapy clinics in Calgary",
+      "numberOfItems": 35,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Active Sports Therapy",
+          "url": "https://www.activesportstherapy.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Body and Soul Massage Therapy",
+          "url": "https://www.bnsmassage.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Boho Hair Boutique & Head Spa",
+          "url": "https://bohohairboutique.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Brentwood Physiotherapy",
+          "url": "https://brentwoodphysio.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Cloud Nine Head Spa",
+          "url": "https://cloudnineheadspa.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Connecta Health",
+          "url": "https://www.connectahealth.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Leela Eco Spa",
+          "url": "https://leelaecospa.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Lifemark Physiotherapy Calgary Bridlewood",
+          "url": "https://www.lifemark.ca/Bridlewood"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Lifemark Physiotherapy Castleridge",
+          "url": "https://www.lifemark.ca/Castleridge"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Lifemark Physiotherapy South Trail",
+          "url": "https://www.lifemark.ca/South-Trail"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Lifemark Sport Medicine MNP Community and Sport Centre",
+          "url": "https://www.lifemark.ca/clinics/calgary/mnp-community-and-sport-centre/coverage-options"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Loam & Moss",
+          "url": "https://loamandmoss.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Massage Addict Calgary Beltline",
+          "url": "https://www.massageaddict.ca/calgary-beltline"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "Massage Addict Calgary Braeside",
+          "url": "https://www.massageaddict.ca/calgary-braeside"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "Massage Addict Calgary Brentwood",
+          "url": "https://www.massageaddict.ca/calgary-brentwood"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "Massage Addict Calgary Crowfoot",
+          "url": "https://www.massageaddict.ca/calgary-crowfoot"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "Massage Addict Calgary Harvest Hills",
+          "url": "https://www.massageaddict.ca/calgary-harvesthills"
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "name": "Massage Addict Calgary Legacy",
+          "url": "https://www.massageaddict.ca/calgary-legacy"
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "name": "Massage Addict Calgary Mahogany",
+          "url": "https://www.massageaddict.ca/calgary-mahogany/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "name": "Massage Addict Calgary Marda Loop",
+          "url": "https://www.massageaddict.ca/calgary-mardaloop/massage-therapy"
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "name": "Massage Addict Calgary Seton",
+          "url": "https://www.massageaddict.ca/calgary-seton"
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "name": "Massage Addict Calgary Shawnessy",
+          "url": "https://www.massageaddict.ca/calgary-shawnessy/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "name": "Massage Addict Calgary Sunridge",
+          "url": "https://www.massageaddict.ca/calgary-sunridge"
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "name": "Massage Addict Calgary West Springs",
+          "url": "https://www.massageaddict.ca/calgary-westsprings"
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "name": "MYo Lab",
+          "url": "https://myolab.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "name": "Nami Japanese Headspa",
+          "url": "https://www.namijapaneseheadspa.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "name": "Osteo Health",
+          "url": "https://osteohealthcalgary.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "name": "Phoenix Massage & Wellness",
+          "url": "https://phoenixmassageyyc.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "name": "Renu Health & Wellness",
+          "url": "https://renuyourhealth.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "name": "Rewind Massage Therapy",
+          "url": "https://www.rewindmassagetherapy.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "name": "Root & Renewal Collective",
+          "url": "https://www.rootandrenewal.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "name": "TEOU Studio",
+          "url": "https://teoustudio.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "name": "VeraVita Clinic",
+          "url": "https://veravitaclinic.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "name": "Vitality BioMed",
+          "url": "https://vitalitybiomed.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "name": "Wild Roots Massage Therapy",
+          "url": "https://www.wildrootsmassage.ca/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- wf-crosslinks -->
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+    </nav></div>
+  </header>
+  <main class="section">
+    <div class="wrap tp-wrap">
+      <h1>Massage Therapy clinics in Calgary</h1>
+      <p>35 clinics in Calgary, AB provide care that bills under massage therapy, across 3 treatments on WellFinder including Lymphatic Drainage, TMJ Massage and Head Spa. Many extended health plans include massage therapy benefits, and a visit is claimable when it is provided by a registered massage therapist and billed under the matching category. Coverage depends on your plan, so confirm with your insurer and the clinic before you book.</p>
+      <section class="wf-treats">
+        <h2>Treatments billed under massage therapy in Calgary</h2>
+        <ul>
+          <li><a href="/clinics-lymphatic-drainage-calgary">Lymphatic Drainage (25)</a></li>
+          <li><a href="/clinics-tmj-massage-calgary">TMJ Massage (10)</a></li>
+          <li><a href="/clinics-head-spa">Head Spa (4)</a></li>
+        </ul>
+      </section>
+      <section class="wf-treats">
+        <h2>Other benefit categories in Calgary</h2>
+        <ul>
+          <li><a href="/clinics-physiotherapy-calgary">Physiotherapy clinics in Calgary (58)</a></li>
+          <li><a href="/clinics-naturopathy-calgary">Naturopathy clinics in Calgary (39)</a></li>
+          <li><a href="/clinics-chiropractic-calgary">Chiropractic clinics in Calgary (38)</a></li>
+          <li><a href="/clinics-psychology-calgary">Psychology clinics in Calgary (25)</a></li>
+          <li><a href="/clinics-psychotherapy-calgary">Psychotherapy clinics in Calgary (24)</a></li>
+          <li><a href="/clinics-acupuncture-calgary">Acupuncture clinics in Calgary (22)</a></li>
+          <li><a href="/clinics-dietitian-calgary">Dietitian clinics in Calgary (7)</a></li>
+        </ul>
+      </section>
+      <div class="nc-grid">
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Active Sports Therapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Active%20Sports%20Therapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Leah Resch, RMT trained in Manual Lymphatic Drainage; Willow Park + Westman Village locations</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.activesportstherapy.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>Body and Soul Massage Therapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Body%20and%20Soul%20Massage%20Therapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Ivy Elaine Dela Cruz, Registered Massage Therapist; Japanese Head Spa from $85</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.bnsmassage.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>Boho Hair Boutique &amp; Head Spa</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Boho%20Hair%20Boutique%20%26%20Head%20Spa%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-links"><a href="https://bohohairboutique.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>B</span></div>
+        <div class="cc-top"><h3>Brentwood Physiotherapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Brentwood%20Physiotherapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://brentwoodphysio.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Cloud Nine Head Spa</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Cloud%20Nine%20Head%20Spa%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-links"><a href="https://cloudnineheadspa.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Connecta Health</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Connecta%20Health%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">lymphatic massage by RMT team</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.connectahealth.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Leela Eco Spa</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Leela%20Eco%20Spa%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">TMJ massage for jaw pain/clenching/bruxism; RMTs; Bankers Hall downtown</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://leelaecospa.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Physiotherapy Calgary Bridlewood</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Physiotherapy%20Calgary%20Bridlewood%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/Bridlewood" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Physiotherapy Castleridge</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Physiotherapy%20Castleridge%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/Castleridge" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Physiotherapy South Trail</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Physiotherapy%20South%20Trail%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/South-Trail" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Lifemark Sport Medicine MNP Community and Sport Centre</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Lifemark%20Sport%20Medicine%20MNP%20Community%20and%20Sport%20Centre%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Physiotherapy</div></div></div><div class="cc-links"><a href="https://www.lifemark.ca/clinics/calgary/mnp-community-and-sport-centre/coverage-options" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>Loam &amp; Moss</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Loam%20%26%20Moss%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Raegan Brumer, RMT + Certified Lymphedema Therapist; $125-170</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://loamandmoss.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Massage Addict Calgary Beltline</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Massage%20Addict%20Calgary%20Beltline%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.massageaddict.ca/calgary-beltline" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Massage Addict Calgary Braeside</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Massage%20Addict%20Calgary%20Braeside%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.massageaddict.ca/calgary-braeside" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Massage Addict Calgary Brentwood</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Massage%20Addict%20Calgary%20Brentwood%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.massageaddict.ca/calgary-brentwood" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Massage Addict Calgary Crowfoot</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Massage%20Addict%20Calgary%20Crowfoot%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.massageaddict.ca/calgary-crowfoot" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Massage Addict Calgary Harvest Hills</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Massage%20Addict%20Calgary%20Harvest%20Hills%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.massageaddict.ca/calgary-harvesthills" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Massage Addict Calgary Legacy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Massage%20Addict%20Calgary%20Legacy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.massageaddict.ca/calgary-legacy" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Massage Addict Calgary Mahogany</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Massage%20Addict%20Calgary%20Mahogany%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.massageaddict.ca/calgary-mahogany/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Massage Addict Calgary Marda Loop</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Massage%20Addict%20Calgary%20Marda%20Loop%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.massageaddict.ca/calgary-mardaloop/massage-therapy" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Massage Addict Calgary Seton</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Massage%20Addict%20Calgary%20Seton%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.massageaddict.ca/calgary-seton" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Massage Addict Calgary Shawnessy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Massage%20Addict%20Calgary%20Shawnessy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.massageaddict.ca/calgary-shawnessy/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Massage Addict Calgary Sunridge</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Massage%20Addict%20Calgary%20Sunridge%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.massageaddict.ca/calgary-sunridge" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Massage Addict Calgary West Springs</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Massage%20Addict%20Calgary%20West%20Springs%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.massageaddict.ca/calgary-westsprings" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>MYo Lab</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=MYo%20Lab%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">RMTs treat TMJ dysfunction (jaw pain); multidisciplinary clinic</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://myolab.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>N</span></div>
+        <div class="cc-top"><h3>Nami Japanese Headspa</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Nami%20Japanese%20Headspa%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-links"><a href="https://www.namijapaneseheadspa.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>O</span></div>
+        <div class="cc-top"><h3>Osteo Health</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Osteo%20Health%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Manual osteopaths; TMJ and craniosacral jaw care, Midnapore</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://osteohealthcalgary.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>Phoenix Massage &amp; Wellness</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Phoenix%20Massage%20%26%20Wellness%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">lymphatic drainage by RMTs; direct billing</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://phoenixmassageyyc.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Renu Health &amp; Wellness</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Renu%20Health%20%26%20Wellness%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">RMTs + Certified Lymphedema Therapist</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://renuyourhealth.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Rewind Massage Therapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Rewind%20Massage%20Therapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">TMJ and facial massage by specialized RMT; 2200hr registered RMTs</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.rewindmassagetherapy.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Root &amp; Renewal Collective</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Root%20%26%20Renewal%20Collective%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Brittany Bouma, Registered Massage Therapist; lymphatic drainage $170/50min</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.rootandrenewal.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>TEOU Studio</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=TEOU%20Studio%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://teoustudio.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>V</span></div>
+        <div class="cc-top"><h3>VeraVita Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=VeraVita%20Clinic%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://veravitaclinic.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>V</span></div>
+        <div class="cc-top"><h3>Vitality BioMed</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Vitality%20BioMed%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Dr. Cheryl Cooper, ND; B12, D, adrenal IM injections; nursing team; 7015 Macleod Trail SW suite 280</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://vitalitybiomed.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>W</span></div>
+        <div class="cc-top"><h3>Wild Roots Massage Therapy</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Wild%20Roots%20Massage%20Therapy%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Angela Hope, RMT; TMJ massage (intraoral + external); 60 min $120; Capitol Hill NW</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Massage Therapy</div></div></div><div class="cc-links"><a href="https://www.wildrootsmassage.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      </div>
+    <section class="wf-faq">
+      <h2>Common questions</h2>
+      <details><summary>Is massage therapy covered by extended health benefits in Canada?</summary><p>Many extended health plans include massage therapy benefits. A visit is claimable when it is provided by a registered massage therapist working within their scope of practice and billed under the massage therapy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book.</p></details>
+      <details><summary>Which treatments on WellFinder bill under massage therapy?</summary><p>Treatments that bill under massage therapy include Head Spa, TMJ Massage, Lymphatic Drainage and Pressotherapy. Each treatment page shows how clinics bill the visit, so you can match it to your plan.</p></details>
+      <details><summary>How many clinics in Calgary bill under massage therapy?</summary><p>WellFinder lists 35 clinics in Calgary, AB whose visits can bill under massage therapy, across 3 treatments including Lymphatic Drainage, TMJ Massage and Head Spa.</p></details>
+    </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#featured-clinics">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Naturopathy clinics in Calgary — WellFinder</title>
+  <meta name="description" content="39 clinics in Calgary, AB whose visits bill under naturopathy, across 5 treatments. See how naturopathy benefits work and compare clinics before you book." />
+  <link rel="canonical" href="https://wellfinder.ca/clinics-naturopathy-calgary" />
+  <link rel="icon" href="assets/favicon-active.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css?v=123" />
+  <style>
+    .wf-faq{max-width:820px;margin:34px auto 6px}
+    .wf-faq h2{margin:0 0 10px}
+    .wf-faq details{border-top:1px solid #E4E2D6;padding:11px 2px}
+    .wf-faq details:last-of-type{border-bottom:1px solid #E4E2D6}
+    .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
+    .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
+    .wf-treats{max-width:820px;margin:26px auto 4px}
+    .wf-treats ul{list-style:none;padding:0;margin:10px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+    .wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "WellFinder",
+          "item": "https://wellfinder.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Naturopathy clinics in Calgary",
+          "item": "https://wellfinder.ca/clinics-naturopathy-calgary"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://wellfinder.ca/clinics-naturopathy-calgary#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is naturopathy covered by extended health benefits in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many extended health plans include naturopathy benefits. A visit is claimable when it is provided by a naturopathic doctor working within their scope of practice and billed under the naturopathy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which treatments on WellFinder bill under naturopathy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treatments that bill under naturopathy include Cosmetic Acupuncture, Microneedling, IM Vitamin Therapy, IV Vitamin Therapy and Fertility Consultation. Each treatment page shows how clinics bill the visit, so you can match it to your plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many clinics in Calgary bill under naturopathy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "WellFinder lists 39 clinics in Calgary, AB whose visits can bill under naturopathy, across 5 treatments including IV Vitamin Therapy, Cosmetic Acupuncture and IM Vitamin Therapy."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Naturopathy clinics in Calgary",
+      "numberOfItems": 39,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Ashley Abbs",
+          "url": "https://www.ashleyabbs.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Calgary Integrative Medicine",
+          "url": "https://calgaryintegrativemedicine.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dr. Ashley Abbs",
+          "url": "https://ashleyabbs.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Dr. Caitlin Batting",
+          "url": "http://drcaitlinbatting.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Dr. Celeste Quan",
+          "url": "http://drcelestequan.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Dr. Christa Angell",
+          "url": "http://christaangell.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Dr. Jatish Kaler",
+          "url": "https://www.evolvechiro.ca/team/dr-jatish-kaler/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Dr. Julie Clark Naturopathic Doctor",
+          "url": "https://theclinicyyc.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "Dr. Mandy Milliquet Naturopathic Doctor",
+          "url": "http://elevatefunctionalhealth.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "Dr. Michael McFarlane, B.Sc., R.Ac.",
+          "url": "http://ramsayacupuncture.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "Dr. Michelle Hislop",
+          "url": "https://drmichellehislop.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "Dr. Patti Yik",
+          "url": "https://drpattiyik.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "Dr. Shannon Ferguson",
+          "url": "http://www.calgarynaturopathiccare.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "Dr.Janelle Albas",
+          "url": "http://www.evolvechiro.ca/8th-ave-team/dr-janelle-albas/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "Essence Wellness Clinic (Mahogany)",
+          "url": "https://www.essencewellness.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "Essence Wellness Clinic (Marda Loop)",
+          "url": "https://www.essencewellness.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "Essence Wellness Clinic (Sage Hill)",
+          "url": "https://www.essencewellness.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "name": "Essence Wellness Clinic (Willow Park)",
+          "url": "https://www.essencewellness.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "name": "Gaia",
+          "url": "https://gaiahealthcare.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "name": "Grassroots Naturopathic Medicine",
+          "url": "https://grassrootsnaturopathic.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "name": "Healthflow Naturopathic Clinic",
+          "url": "https://www.healthflow.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "name": "Huatuo Clinic",
+          "url": "https://www.huatuoclinic.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "name": "La Palma Spa",
+          "url": "https://www.lapalmaspa.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "name": "Moss Postpartum House",
+          "url": "https://mosspostpartum.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "name": "Natural Wellness Clinic Calgary",
+          "url": "https://naturally.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "name": "Neurvana Naturopathic Medicine",
+          "url": "https://neurvanahealth.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "name": "Optimum Wellness Centres",
+          "url": "https://optimumwellnesscentres.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "name": "POKE Acupuncture and Skincare",
+          "url": "https://pokeacupunctureandskin.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "name": "Ramsay Acupuncture & Wellness",
+          "url": "https://www.ramsayacupuncture.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "name": "Regional Fertility Program",
+          "url": "https://regionalfertilityprogram.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "name": "Root & Renewal Collective",
+          "url": "https://www.rootandrenewal.ca/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "name": "SIMO Scalp and Skin Studio",
+          "url": "https://scalpandskinstudio.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "name": "TerraSana Health",
+          "url": "https://www.ashleyabbs.com/acupuncture"
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "name": "The Floating Table",
+          "url": "https://thefloatingtable.ca"
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "name": "The Inner Wellness",
+          "url": "https://theinnerwellness.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "name": "Total Acupuncture Clinic",
+          "url": "https://acupuncturetcmd.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "name": "VeraVita Clinic",
+          "url": "https://veravitaclinic.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "name": "Vitality BioMed",
+          "url": "https://vitalitybiomed.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "name": "Wellness On 1st",
+          "url": "https://www.wellnesson1st.com"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<!-- wf-crosslinks -->
+  <header class="site-header compact-header">
+    <div class="wrap"><nav class="nav">
+      <a class="brand" href="/"><img src="assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+      <div class="nav-right"><a class="btn btn--honey btn--sm" href="/">All treatments</a></div>
+    </nav></div>
+  </header>
+  <main class="section">
+    <div class="wrap tp-wrap">
+      <h1>Naturopathy clinics in Calgary</h1>
+      <p>39 clinics in Calgary, AB provide care that bills under naturopathy, across 5 treatments on WellFinder including IV Vitamin Therapy, Cosmetic Acupuncture and IM Vitamin Therapy. Many extended health plans include naturopathy benefits, and a visit is claimable when it is provided by a naturopathic doctor and billed under the matching category. Coverage depends on your plan, so confirm with your insurer and the clinic before you book.</p>
+      <section class="wf-treats">
+        <h2>Treatments billed under naturopathy in Calgary</h2>
+        <ul>
+          <li><a href="/clinics-iv-vitamin-therapy-calgary">IV Vitamin Therapy (19)</a></li>
+          <li><a href="/clinics-cosmetic-acupuncture-calgary">Cosmetic Acupuncture (17)</a></li>
+          <li><a href="/clinics-im-vitamin-therapy-calgary">IM Vitamin Therapy (10)</a></li>
+          <li><a href="/clinics-microneedling-calgary">Microneedling (8)</a></li>
+          <li><a href="/clinics-fertility-consultation-calgary">Fertility Consultation (5)</a></li>
+        </ul>
+      </section>
+      <section class="wf-treats">
+        <h2>Other benefit categories in Calgary</h2>
+        <ul>
+          <li><a href="/clinics-physiotherapy-calgary">Physiotherapy clinics in Calgary (58)</a></li>
+          <li><a href="/clinics-chiropractic-calgary">Chiropractic clinics in Calgary (38)</a></li>
+          <li><a href="/clinics-massage-therapy-calgary">Massage Therapy clinics in Calgary (35)</a></li>
+          <li><a href="/clinics-psychology-calgary">Psychology clinics in Calgary (25)</a></li>
+          <li><a href="/clinics-psychotherapy-calgary">Psychotherapy clinics in Calgary (24)</a></li>
+          <li><a href="/clinics-acupuncture-calgary">Acupuncture clinics in Calgary (22)</a></li>
+          <li><a href="/clinics-dietitian-calgary">Dietitian clinics in Calgary (7)</a></li>
+        </ul>
+      </section>
+      <div class="nc-grid">
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>A</span></div>
+        <div class="cc-top"><h3>Ashley Abbs</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Ashley%20Abbs%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Registered Dr. of Acupuncture; cosmetic acupuncture + facial gua sha; Winston Heights</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://www.ashleyabbs.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>C</span></div>
+        <div class="cc-top"><h3>Calgary Integrative Medicine</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Calgary%20Integrative%20Medicine%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://calgaryintegrativemedicine.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Ashley Abbs</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Ashley%20Abbs%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://ashleyabbs.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Caitlin Batting</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Caitlin%20Batting%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Microneedling listed among treatment modalities offered; Dr. Caitlin Batting ND</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="http://drcaitlinbatting.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Celeste Quan</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Celeste%20Quan%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Intravenous &amp; Injection Therapy (nutrient IV therapy) listed under services; Dr. Celeste Quan ND</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="http://drcelestequan.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Christa Angell</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Christa%20Angell%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">TCM D.AC, R.Ac; Facial Rejuvenation Acupuncture + Facial Gua Sha; Eminence Organics</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="http://christaangell.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Jatish Kaler</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Jatish%20Kaler%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Vitamin injections &amp; IV nutrient therapy listed under Treatments &amp; Tests; Dr. Jatish Kaler ND licensed in Alberta</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://www.evolvechiro.ca/team/dr-jatish-kaler/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Julie Clark Naturopathic Doctor</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Julie%20Clark%20Naturopathic%20Doctor%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">IV and injection therapy certified; uses IV therapy in practice at The Clinic YYC; Dr. Julie Clark ND</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://theclinicyyc.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Mandy Milliquet Naturopathic Doctor</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Mandy%20Milliquet%20Naturopathic%20Doctor%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">IV vitamins listed among treatment options; Dr. Mandy Swinden BHK ND on staff</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="http://elevatefunctionalhealth.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Michael McFarlane, B.Sc., R.Ac.</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Michael%20McFarlane%2C%20B.Sc.%2C%20R.Ac.%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Cosmetic rejuvenation: facial acupuncture + IPL laser</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="http://ramsayacupuncture.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Michelle Hislop</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Michelle%20Hislop%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture / Naturopathy</div></div></div><div class="cc-links"><a href="https://drmichellehislop.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Patti Yik</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Patti%20Yik%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Naturopathic Doctor; customized fertility plans + specialized fertility testing</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://drpattiyik.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr. Shannon Ferguson</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.%20Shannon%20Ferguson%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Vitamin Injections (intramuscular) listed as treatment; Dr. Shannon Ferguson ND</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="http://www.calgarynaturopathiccare.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>D</span></div>
+        <div class="cc-top"><h3>Dr.Janelle Albas</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Dr.Janelle%20Albas%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Experience balancing hormonal system to improve fertility; Dr. Janelle Albas ND registered Calgary naturopath</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathic Medicine</div></div></div><div class="cc-links"><a href="http://www.evolvechiro.ca/8th-ave-team/dr-janelle-albas/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>E</span></div>
+        <div class="cc-top"><h3>Essence Wellness Clinic (Mahogany)</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Essence%20Wellness%20Clinic%20(Mahogany)%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://www.essencewellness.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>E</span></div>
+        <div class="cc-top"><h3>Essence Wellness Clinic (Marda Loop)</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Essence%20Wellness%20Clinic%20(Marda%20Loop)%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Microneedling and naturopathic care in Marda Loop</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://www.essencewellness.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>E</span></div>
+        <div class="cc-top"><h3>Essence Wellness Clinic (Sage Hill)</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Essence%20Wellness%20Clinic%20(Sage%20Hill)%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://www.essencewellness.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>E</span></div>
+        <div class="cc-top"><h3>Essence Wellness Clinic (Willow Park)</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Essence%20Wellness%20Clinic%20(Willow%20Park)%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://www.essencewellness.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>G</span></div>
+        <div class="cc-top"><h3>Gaia</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Gaia%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Led by Dr. Marnie Wachtler ND; Eau Claire Athletic Club downtown</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://gaiahealthcare.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>G</span></div>
+        <div class="cc-top"><h3>Grassroots Naturopathic Medicine</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Grassroots%20Naturopathic%20Medicine%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://grassrootsnaturopathic.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>H</span></div>
+        <div class="cc-top"><h3>Healthflow Naturopathic Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Healthflow%20Naturopathic%20Clinic%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">IV Therapy (vitamins minerals fluids into bloodstream) listed; licensed naturopathic doctor on staff</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://www.healthflow.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>H</span></div>
+        <div class="cc-top"><h3>Huatuo Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Huatuo%20Clinic%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://www.huatuoclinic.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>L</span></div>
+        <div class="cc-top"><h3>La Palma Spa</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=La%20Palma%20Spa%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Facial acupuncture by TCMD (natural alternative to Botox); ends with Gua Sha; 60 min $165</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://www.lapalmaspa.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>M</span></div>
+        <div class="cc-top"><h3>Moss Postpartum House</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Moss%20Postpartum%20House%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Dr. Mariah Da Silveira, Doctor of Acupuncture &amp; TCM; cosmetic acupuncture, facial gua sha, cupping</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture / Naturopathy</div></div></div><div class="cc-links"><a href="https://mosspostpartum.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>N</span></div>
+        <div class="cc-top"><h3>Natural Wellness Clinic Calgary</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Natural%20Wellness%20Clinic%20Calgary%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">fertility optimization for couples; cycle monitoring, sperm testing, IVF/IUI co-therapy</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://naturally.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>N</span></div>
+        <div class="cc-top"><h3>Neurvana Naturopathic Medicine</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Neurvana%20Naturopathic%20Medicine%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Licensed NDs registered with CNDA/CAND; IV therapy among integrative care; 2020 4 St SW #330</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://neurvanahealth.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>O</span></div>
+        <div class="cc-top"><h3>Optimum Wellness Centres</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Optimum%20Wellness%20Centres%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">IV by naturopathic doctor; Myers cocktail; multi-location Calgary</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://optimumwellnesscentres.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>P</span></div>
+        <div class="cc-top"><h3>POKE Acupuncture and Skincare</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=POKE%20Acupuncture%20and%20Skincare%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Dr. Amy Nykoluk, Doctor of TCM, Licensed Professional Acupuncturist</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://pokeacupunctureandskin.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Ramsay Acupuncture &amp; Wellness</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Ramsay%20Acupuncture%20%26%20Wellness%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Cosmetic rejuvenation incl. facial acupuncture; Ramsay neighbourhood</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://www.ramsayacupuncture.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Regional Fertility Program</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Regional%20Fertility%20Program%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-links"><a href="https://regionalfertilityprogram.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>R</span></div>
+        <div class="cc-top"><h3>Root &amp; Renewal Collective</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Root%20%26%20Renewal%20Collective%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Brittany Bouma, Doctor of Acupuncture; facial acupuncture from $150</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://www.rootandrenewal.ca/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-1" aria-hidden="true"><span>S</span></div>
+        <div class="cc-top"><h3>SIMO Scalp and Skin Studio</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=SIMO%20Scalp%20and%20Skin%20Studio%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-links"><a href="https://scalpandskinstudio.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>TerraSana Health</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=TerraSana%20Health%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Cosmetic Acupuncture service; Dr. Ashley Abbs B.A. DTCM R.Ac FABORM, CAA-registered fertility specialist</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://www.ashleyabbs.com/acupuncture" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The Floating Table</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20Floating%20Table%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://thefloatingtable.ca" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>The Inner Wellness</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=The%20Inner%20Wellness%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Naturopathic clinic in SE Calgary (Dr. Alpa ND); IV intravenous therapy; direct billing; 15425 Bannister Rd SE Unit 8</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://theinnerwellness.com/" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-3" aria-hidden="true"><span>T</span></div>
+        <div class="cc-top"><h3>Total Acupuncture Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Total%20Acupuncture%20Clinic%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture</div></div></div><div class="cc-links"><a href="https://acupuncturetcmd.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>V</span></div>
+        <div class="cc-top"><h3>VeraVita Clinic</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=VeraVita%20Clinic%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture / Naturopathy</div></div></div><div class="cc-links"><a href="https://veravitaclinic.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-2" aria-hidden="true"><span>V</span></div>
+        <div class="cc-top"><h3>Vitality BioMed</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Vitality%20BioMed%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-note">Dr. Cheryl Cooper, ND; B12, D, adrenal IM injections; nursing team; 7015 Macleod Trail SW suite 280</div><div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Naturopathy</div></div></div><div class="cc-links"><a href="https://vitalitybiomed.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      <article class="clinic-card">
+        <div class="cc-mono mono-0" aria-hidden="true"><span>W</span></div>
+        <div class="cc-top"><h3>Wellness On 1st</h3></div>
+        <a class="cc-loc" href="https://www.google.com/maps/search/?api=1&query=Wellness%20On%201st%20Calgary%20AB" target="_blank" rel="noopener"><span>Calgary, AB</span></a>
+        <div class="cc-meta"><div><div class="m-label">Billed as</div><div class="m-val">Acupuncture / Naturopathy</div></div></div><div class="cc-links"><a href="https://www.wellnesson1st.com" target="_blank" rel="noopener">Website</a></div>
+      </article>
+      </div>
+    <section class="wf-faq">
+      <h2>Common questions</h2>
+      <details><summary>Is naturopathy covered by extended health benefits in Canada?</summary><p>Many extended health plans include naturopathy benefits. A visit is claimable when it is provided by a naturopathic doctor working within their scope of practice and billed under the naturopathy category. Coverage amounts and rules depend on your own plan, so confirm with your insurer and the clinic before you book.</p></details>
+      <details><summary>Which treatments on WellFinder bill under naturopathy?</summary><p>Treatments that bill under naturopathy include Cosmetic Acupuncture, Microneedling, IM Vitamin Therapy, IV Vitamin Therapy and Fertility Consultation. Each treatment page shows how clinics bill the visit, so you can match it to your plan.</p></details>
+      <details><summary>How many clinics in Calgary bill under naturopathy?</summary><p>WellFinder lists 39 clinics in Calgary, AB whose visits can bill under naturopathy, across 5 treatments including IV Vitamin Therapy, Cosmetic Acupuncture and IM Vitamin Therapy.</p></details>
+    </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="/"><img src="/assets/wellfinder-mark-active.svg" alt="" width="34" height="34" /> WellFinder</a>
+          <p>Find the right treatment. Understand your insurance. Connect with the right clinic.</p>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">@chimai0403 on Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h5>Browse</h5>
+          <a href="/#directory">Treatments</a>
+          <a href="/#featured-clinics">Clinics</a>
+        </div>
+        <div class="footer-col">
+          <h5>Resources</h5>
+          <a href="/#resources">Guides</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="/about">About</a>
+          <a href="https://instagram.com/chimai0403" target="_blank" rel="noopener">Contact</a>
+        </div>
+      </div>
+      <p class="footer-bottom">WellFinder is for informational purposes only and is not medical or financial advice. Wellness coverage can vary by insurer, plan, and provider. These listings are personal discoveries and community recommendations — not guarantees of coverage. Always confirm billing and coverage with the clinic and your insurer before booking.</p>
+    </div>
+  </footer>
+</body>
+</html>
