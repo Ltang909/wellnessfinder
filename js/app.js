@@ -804,7 +804,7 @@
     "Mental Performance Coaching": "Personal growth",
     "Performing Arts Physiotherapy": "Hobbies",
     "Psychoeducational Assessments": "Personal growth", "Stuttering Therapy": "Personal growth",
-    "Vestibular Rehabilitation": "Recovery", "Pressotherapy": "Recovery"
+    "Vestibular Rehabilitation": "Recovery", "Pressotherapy": "Recovery", "Scoliosis Physiotherapy": "Recovery"
   };
   const FUND_COLOR = {};
   FUND_CATS.forEach(([w, c]) => { FUND_COLOR[w] = c; });
@@ -1341,6 +1341,7 @@
       "Performing Arts Physiotherapy": { clinics: (typeof PERFORMINGARTS_CLINICS !== "undefined" ? PERFORMINGARTS_CLINICS : []).filter(inDirectory) },
       "Psychoeducational Assessments": { clinics: (typeof PSYCHASSESS_CLINICS !== "undefined" ? PSYCHASSESS_CLINICS : []).filter(inDirectory) },
       "Vestibular Rehabilitation": { clinics: (typeof VESTIBULAR_CLINICS !== "undefined" ? VESTIBULAR_CLINICS : []).filter(inDirectory) },
+      "Scoliosis Physiotherapy": { clinics: (typeof SCOLIOSIS_CLINICS !== "undefined" ? SCOLIOSIS_CLINICS : []).filter(inDirectory) },
       "Pressotherapy": { clinics: (typeof PRESSOTHERAPY_CLINICS !== "undefined" ? PRESSOTHERAPY_CLINICS : []).filter(inDirectory) },
       "Stuttering Therapy": { clinics: (typeof STUTTER_CLINICS !== "undefined" ? STUTTER_CLINICS : []).filter(inDirectory) },
     };
@@ -1734,6 +1735,7 @@
     push(typeof PERFORMINGARTS_CLINICS !== "undefined" ? PERFORMINGARTS_CLINICS : [], "Performing Arts Physiotherapy");
     push(typeof PSYCHASSESS_CLINICS !== "undefined" ? PSYCHASSESS_CLINICS : [], "Psychoeducational Assessments");
     push(typeof VESTIBULAR_CLINICS !== "undefined" ? VESTIBULAR_CLINICS : [], "Vestibular Rehabilitation");
+    push(typeof SCOLIOSIS_CLINICS !== "undefined" ? SCOLIOSIS_CLINICS : [], "Scoliosis Physiotherapy");
     push(typeof PRESSOTHERAPY_CLINICS !== "undefined" ? PRESSOTHERAPY_CLINICS : [], "Pressotherapy");
     push(typeof STUTTER_CLINICS !== "undefined" ? STUTTER_CLINICS : [], "Stuttering Therapy");
     return out;

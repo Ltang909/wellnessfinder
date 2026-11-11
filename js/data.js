@@ -175,7 +175,11 @@ const TREATMENTS = [
   { group: "Perform Better", name: "Stuttering Therapy", billed: "Speech Therapy",
     categories: ["Speech Therapy"], link: "/clinics-stuttering-therapy",
     desc: "Fluency therapy for teens and adults who stutter, with a speech-language pathologist.",
-    detail: "Delivered by a registered speech-language pathologist, so it bills as speech therapy and often lands inside your extended health benefits." }
+    detail: "Delivered by a registered speech-language pathologist, so it bills as speech therapy and often lands inside your extended health benefits." },
+  { group: "Move Better", name: "Scoliosis Physiotherapy", billed: "Physiotherapy",
+    categories: ["Physiotherapy"], link: "/clinics-scoliosis-physiotherapy",
+    desc: "Physiotherapy built around spinal curves, including Schroth and SEAS programs, from physiotherapists with dedicated scoliosis training.",
+    detail: "Delivered by a registered physiotherapist, so it bills as physiotherapy and often lands inside your extended health benefits." }
 ];
 
 
@@ -5127,4 +5131,44 @@ const REVIEW_QUOTES = [
   { treatment: "Sports Nutrition", billed: "Dietitian", clinic: "JM Nutrition", city: "Toronto", reviewer: "Sydney Helgesen", stars: null,
     quote: "I had the pleasure of working with Natalie and I have nothing but great things to say about her. I'm an amateur endurance athlete who has been struggling with hitting my nutrition goals in a healthy manner.",
     phrase: "endurance athlete", source: "https://ca.nutrifinder.net/en-ca/i/82662-jm-nutrition/" },
+];
+
+
+/* ---------- Scoliosis Physiotherapy (researched 2026-11-11) ---------- */
+const SCOLIOSIS_CLINICS = [
+  {"name": "Shelbourne Physiotherapy", "city": "Victoria", "web": "https://www.shelbournephysio.ca/", "billed": "Physiotherapy", "note": "Schroth", "prov": "BC"},
+  {"name": "The ScoliClinic", "city": "Vancouver", "web": "https://scoliclinic.ca/", "billed": "Physiotherapy", "note": "Schroth, BSPTS, SEAS. Dedicated scoliosis clinic; site states direct billing to extended health providers", "prov": "BC"},
+  {"name": "The ScoliClinic", "city": "North Vancouver", "web": "https://scoliclinic.ca/", "billed": "Physiotherapy", "note": "Schroth, BSPTS, SEAS. Dedicated scoliosis clinic", "prov": "BC"},
+  {"name": "The ScoliClinic", "city": "Surrey", "web": "https://scoliclinic.ca/", "billed": "Physiotherapy", "note": "Schroth, BSPTS, SEAS. Dedicated scoliosis clinic", "prov": "BC"},
+  {"name": "Scoliosis Physiotherapy Vancouver", "city": "Vancouver", "web": "https://www.scoliosisvancouver.com/", "billed": "Physiotherapy", "note": "BSPTS, SEAS. Laura Peterson practises at Myodetox Oak Street, 3087 Oak St", "prov": "BC"},
+  {"name": "Compass Physio & Pilates", "city": "Vancouver", "web": "https://www.compassphysiopilates.ca/", "billed": "Physiotherapy", "note": "BSPTS", "prov": "BC"},
+  {"name": "Kids Physio Group", "city": "Kelowna", "web": "https://www.kidsphysio.ca/", "billed": "Physiotherapy", "note": "Schroth, BSPTS. Direct billing to Pacific Blue Cross and other insurers stated on site", "prov": "BC"},
+  {"name": "Path Physiotherapy", "city": "Lake Country", "web": "https://www.pathphysio.ca/", "billed": "Physiotherapy", "note": "Schroth", "prov": "BC"},
+  {"name": "Blue Velvet Health", "city": "Rossland", "web": "http://www.bluevelvethealth.com/", "billed": "Physiotherapy", "note": "Schroth", "prov": "BC"},
+  {"name": "Curvy Spine", "city": "Edmonton", "web": "https://curvyspine.com/", "billed": "Physiotherapy", "note": "Schroth. Dedicated scoliosis and kyphosis specialty clinic", "prov": "AB"},
+  {"name": "Strathcona Physical Therapy", "city": "Edmonton", "web": "https://www.strathconaphysicaltherapy.com/", "billed": "Physiotherapy", "note": "Schroth", "prov": "AB"},
+  {"name": "Bonnie Doon Physiotherapy", "city": "Edmonton", "web": "https://www.bonniedoonphysiotherapy.com/", "billed": "Physiotherapy", "note": "Schroth. Direct billing stated on site", "prov": "AB"},
+  {"name": "Momentum Health", "city": "Calgary", "web": "https://momentumhealth.ca/", "billed": "Physiotherapy", "note": "Schroth, BSPTS", "prov": "AB"},
+  {"name": "Peak Health & Performance", "city": "Calgary", "web": "https://peakhealthcalgary.com/", "billed": "Physiotherapy", "note": "Schroth", "prov": "AB"},
+  {"name": "Craven SPORT Services", "city": "Saskatoon", "web": "https://cravensportservices.ca/", "billed": "Physiotherapy", "note": "Schroth. Prices published on site: Schroth initial assessment $200, follow ups $155", "prov": "SK"},
+  {"name": "Highland Rehabilitation Centre", "city": "Moose Jaw", "web": "https://www.highlandrehab.ca/", "billed": "Physiotherapy", "note": "Schroth", "prov": "SK"},
+  {"name": "Doug Christie Physiotherapy", "city": "Winnipeg", "web": "https://www.dougchristiephysiotherapy.com/", "billed": "Physiotherapy", "note": "Schroth, BSPTS", "prov": "MB"},
+  {"name": "Elite Sports Injury", "city": "Winnipeg", "web": "https://physiowinnipeg.com/", "billed": "Physiotherapy", "note": "Schroth", "prov": "MB"},
+  {"name": "Canada Scoliosis & Neuro Centre", "city": "Toronto", "web": "https://scoliosiscentre.com/", "billed": "Physiotherapy", "note": "Schroth. Dedicated scoliosis centre", "prov": "ON"},
+  {"name": "Cornerstone Physiotherapy", "city": "Markham", "web": "https://cornerstonephysio.com/", "billed": "Physiotherapy", "note": "Schroth", "prov": "ON"},
+  {"name": "Neurocore Physiotherapy & Pilates Centre", "city": "Richmond Hill", "web": "https://neurocore.ca/", "billed": "Physiotherapy", "note": "Schroth", "prov": "ON"},
+  {"name": "Physiotherapy & Beyond", "city": "Mississauga", "web": "https://www.physiotherapyandbeyond.com/", "billed": "Physiotherapy", "note": "Schroth", "prov": "ON"},
+  {"name": "Mississauga Physiotherapy and Orthopedic Center", "city": "Mississauga", "web": "https://www.mississauga-physiotherapy-orthopedic.ca/", "billed": "Physiotherapy", "note": "Schroth", "prov": "ON"},
+  {"name": "Elite Physio Care", "city": "Hamilton", "web": "https://elitephysiocare.ca/", "billed": "Physiotherapy", "note": "Schroth, BSPTS. Direct billing to 15+ insurers stated on site", "prov": "ON"},
+  {"name": "Elite Physio Care", "city": "Oakville", "web": "https://elitephysiocare.ca/", "billed": "Physiotherapy", "note": "Schroth, BSPTS. Direct billing to 15+ insurers stated on site", "prov": "ON"},
+  {"name": "Kids Physio Group", "city": "Oakville", "web": "https://www.kidsphysio.ca/", "billed": "Physiotherapy", "note": "Schroth. Direct billing to most major insurers stated on site", "prov": "ON"},
+  {"name": "RCP Health", "city": "Oakville", "web": "https://rcphealth.ca/", "billed": "Physiotherapy", "note": "Schroth. Direct billing to most insurers stated on site", "prov": "ON"},
+  {"name": "Cambridge Physiotherapy & Rehab Center", "city": "Cambridge", "web": "https://cambridgephysio.ca/", "billed": "Physiotherapy", "note": "Schroth, BSPTS. Direct billing to 10 major insurers stated on site", "prov": "ON"},
+  {"name": "Elevate Physiotherapy", "city": "London", "web": "http://www.elevatephysio.com/", "billed": "Physiotherapy", "note": "Schroth", "prov": "ON"},
+  {"name": "Scoliosis Physiotherapy & Posture Centre", "city": "Ottawa", "web": "https://www.scoliosisphysiotherapy.com/", "billed": "Physiotherapy", "note": "Schroth. Dedicated scoliosis clinic", "prov": "ON"},
+  {"name": "CN Physiotherapy", "city": "Ottawa", "web": "https://cnphysiotherapy.ca/", "billed": "Physiotherapy", "note": "Schroth, BSPTS", "prov": "ON"},
+  {"name": "Expert Physio Plus", "city": "Ottawa", "web": "https://expertphysioplus.com/", "billed": "Physiotherapy", "note": "BSPTS", "prov": "ON"},
+  {"name": "A Plus Physiotherapy and Wellness Centre", "city": "Ottawa", "web": "https://aplusphysio.ca/", "billed": "Physiotherapy", "note": "BSPTS, Schroth", "prov": "ON"},
+  {"name": "Physio + Hamel", "city": "Gatineau", "web": "https://physioplushamel.com/", "billed": "Physiotherapy", "note": "scoliosis program", "prov": "QC"},
+  {"name": "Synergy Physiotherapy + Pilates", "city": "Halifax", "web": "https://www.synergyphysiopilates.ca/", "billed": "Physiotherapy", "note": "Schroth", "prov": "NS"},
 ];
