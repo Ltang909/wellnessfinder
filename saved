@@ -38,6 +38,7 @@
 }
 </script>
 <!-- /wf-schema -->
+<script src="/js/posthog-init.js"></script>
 </head>
 <body data-page="saved">
 <header class="site-header">

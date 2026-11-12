@@ -83,6 +83,7 @@
 .wf-treats li a{display:inline-block;padding:7px 13px;border:1px solid #E4E2D6;border-radius:999px;color:#0F2D2B;text-decoration:none;font-weight:600;font-size:.92rem;background:#fff}
 .wf-treats .wf-treats-label{margin:16px 0 0;font-weight:600;color:#0F2D2B}
 </style>
+<script src="/js/posthog-init.js"></script>
 </head>
 <body data-treatment="Fertility Acupuncture">
   <header class="site-header compact-header">

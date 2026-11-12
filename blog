@@ -20,6 +20,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700&family=Playfair+Display:ital,wght,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css?v=123" />
 <link rel="canonical" href="https://wellfinder.ca/blog" />
+<script src="/js/posthog-init.js"></script>
 </head>
 <body data-page="blog">
 <!-- Google Tag Manager (noscript) -->

@@ -74,6 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }
 </script>
 <!-- /wf-schema -->
+<script src="/js/posthog-init.js"></script>
 </head>
 <body data-page="blog-tpi-golf-assessment">
 <!-- Google Tag Manager (noscript) -->

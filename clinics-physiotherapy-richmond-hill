@@ -125,6 +125,7 @@
   ]
 }
 </script>
+<script src="/js/posthog-init.js"></script>
 </head>
 <body>
 <!-- wf-crosslinks -->

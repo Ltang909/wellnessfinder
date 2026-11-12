@@ -84,6 +84,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 .wf-faq summary{cursor:pointer;font-weight:600;color:#0F2D2B}
 .wf-faq details p{margin:8px 0 2px;color:#47635B;line-height:1.55}
 </style>
+<script src="/js/posthog-init.js"></script>
 </head>
 <body data-page="pilates">
 <!-- Google Tag Manager (noscript) -->
