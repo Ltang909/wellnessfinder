@@ -29,12 +29,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "url": "https://wellfinder.ca/blog-tpi-vs-pga-golf-assessment",
   "mainEntityOfPage": "https://wellfinder.ca/blog-tpi-vs-pga-golf-assessment",
   "datePublished": "2026-09-30",
-  "dateModified": "2026-09-30",
+  "dateModified": "2026-11-12",
   "inLanguage": "en-CA",
   "author": {
-    "@type": "Organization",
-    "name": "WellFinder",
-    "url": "https://wellfinder.ca/"
+    "@type": "Person",
+    "name": "Chi Mai",
+    "jobTitle": "Founder, WellFinder",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "WellFinder",
+      "url": "https://wellfinder.ca/"
+    }
   },
   "publisher": {
     "@type": "Organization",
