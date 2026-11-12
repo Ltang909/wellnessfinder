@@ -29,9 +29,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "url": "https://wellfinder.ca/blog-sun-life-coverage",
   "mainEntityOfPage": "https://wellfinder.ca/blog-sun-life-coverage",
   "datePublished": "2026-11-11",
-  "dateModified": "2026-11-11",
+  "dateModified": "2026-11-12",
   "inLanguage": "en-CA",
-  "author": {"@type": "Organization", "name": "WellFinder", "url": "https://wellfinder.ca/"},
+  "author": {"@type": "Person", "name": "Chi Mai", "jobTitle": "Founder, WellFinder", "worksFor": {"@type": "Organization", "name": "WellFinder", "url": "https://wellfinder.ca/"}},
   "publisher": {"@type": "Organization", "name": "WellFinder", "url": "https://wellfinder.ca/"}
 }
 </script>
