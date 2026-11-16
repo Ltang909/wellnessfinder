@@ -1590,3 +1590,15 @@ button.nc-slot-chip { font-family: inherit; cursor: pointer; }
 @media (min-width: 761px) {
   .fc-dots { display: none; }
 }
+
+/* CLS fixes (2026-11-16): reserve space for JS rendered blocks and late loading images so content below does not jump. The :empty rules apply only until app.js fills the containers, then drop away. */
+#tpHead:empty { min-height: 548px; }
+#tpList:empty { min-height: 1600px; }
+@media (max-width: 640px) {
+  #tpHead:empty { min-height: 470px; }
+  #tpList:empty { min-height: 1100px; }
+}
+.tp-fig img { aspect-ratio: 16 / 9; }
+@media (max-width: 640px) { .tp-fig img { aspect-ratio: 3 / 2; } }
+.article-figure img { aspect-ratio: 3 / 2; object-fit: cover; }
+.section-petpet img { aspect-ratio: 266 / 203; }
