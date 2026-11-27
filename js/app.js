@@ -1446,14 +1446,17 @@
     return 2 * R * Math.asin(Math.sqrt(s));
   }
   let _fsaTable = null;
+  let _fsaSync = null;
   function fsaCoords(fsa) {
     if (!_fsaTable) {
       _fsaTable = fetch("/js/fsa-data.json")
         .then((r) => { if (!r.ok) throw new Error("fsa"); return r.json(); })
+        .then((t) => { _fsaSync = t; return t; })
         .catch(() => ({}));
     }
     return _fsaTable.then((t) => t[fsa] || null);
   }
+  fsaCoords(""); /* warm the FSA cache so clinicCoords can use it synchronously */
   function getUserCoords(postal) {
     const cleaned = String(postal || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
     const fsa = cleaned.slice(0, 3);
@@ -1461,6 +1464,15 @@
   }
   function clinicCoords(c) {
     if (c && c.lat != null && c.lng != null) return [parseFloat(c.lat), parseFloat(c.lng)];
+    /* Exact geocode of the clinic's own street address, stored per clinic in
+       CLINIC_EXTRA (g = [lat, lng]); then the clinic's postal FSA centroid;
+       the city centre is only a last resort. */
+    const key = ((c.name || "") + "|" + (c.city || "")).toLowerCase();
+    const X = (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.x[key]) || null;
+    if (X && Array.isArray(X.g) && X.g.length === 2) return X.g;
+    const po = (X && X.po) || c.postal || "";
+    const fsa = String(po).toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 3);
+    if (fsa && _fsaSync && _fsaSync[fsa]) return _fsaSync[fsa];
     return CITY_COORDS[c.city];
   }
   window.wfGeo = { CITY_COORDS, POSTAL_REGION, haversineKm, getUserCoords, clinicCoords };
