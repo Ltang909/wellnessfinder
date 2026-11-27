@@ -4531,7 +4531,7 @@ const GOLF_CLINICS = [
   { name: "Inspire Health & Performance", loc: "Calgary, AB", city: "Calgary", db: "Confirm with clinic", price: "Confirm with clinic", web: "https://www.inspirehealthcalgary.ca/" },
   { name: "More Than Training", loc: "Calgary, AB", city: "Calgary", db: "Confirm with clinic", price: "Confirm with clinic", web: "https://www.morethantraining.org/" },
   { name: "Myo — Kensington", loc: "Calgary, AB", city: "Calgary", db: "No", price: "$230 (90 min TPI Golf Assessment)", web: "https://www.myodetox.com/locations/kensington" },
-  { name: "Versa Movement Collective", loc: "Calgary, AB", city: "Calgary", note: "Evan Baldwin MScPT; TPI Medical Level 2; video-capture gait analysis", db: "Yes", price: "$220 TPI Assessment with 3D swing analysis (90 min)", web: "https://versamc.com/" },
+  { name: "Versa Movement Collective", loc: "Calgary, AB", city: "Calgary", note: "Evan Baldwin MScPT; TPI Medical Level 2; video-capture gait analysis", db: "Yes", price: "$200 TPI Assessment (60 min)", web: "https://versamc.com/" },
     { name: "The Apollo Clinic", loc: "Chilliwack — 45844 Yale Rd #2, V2P 2N8", city: "Chilliwack", db: "Yes", price: "Confirm with clinic", web: "https://chilliwack.theapolloclinic.ca/" },
   { name: "Physiothérapie SN+", loc: "Drummondville, QC", city: "Drummondville", db: "Confirm with clinic", price: "Confirm with clinic", web: "https://physiosn.com/" },
   { name: "Kinetic Living", loc: "Edmonton, AB", city: "Edmonton", db: "Yes", price: "Confirm with clinic", web: "https://kineticliving.ca/" },
