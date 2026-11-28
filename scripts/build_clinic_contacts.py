@@ -53,8 +53,30 @@ def from_slots_js(path):
     return {k: v["_em"] for k, v in slots.items() if isinstance(v, dict) and v.get("_em")}
 
 
+def from_extra_js(path):
+    """js/clinic-extra.js — CLINIC_EXTRA.x[key].em, the website-harvested
+       inbox (2026-11-28). Lowest priority: slots and data.js win."""
+    with open(path, encoding="utf-8") as fh:
+        src = fh.read()
+    start = src.index("window.CLINIC_EXTRA = ") + len("window.CLINIC_EXTRA = ")
+    depth, i = 0, start
+    while True:
+        ch = src[i]
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                break
+        i += 1
+    extra = json.loads(src[start:i + 1])
+    return {k: v["em"] for k, v in extra.get("x", {}).items()
+            if isinstance(v, dict) and v.get("em") and "@" in v["em"]}
+
+
 def main():
-    contacts = from_data_js(os.path.join(ROOT, "js", "data.js"))
+    contacts = from_extra_js(os.path.join(ROOT, "js", "clinic-extra.js"))
+    contacts.update(from_data_js(os.path.join(ROOT, "js", "data.js")))
     slots = from_slots_js(os.path.join(ROOT, "js", "clinic-slots.js"))
     contacts.update(slots)
     dest = os.path.join(ROOT, "api", "clinic-contacts.json")

@@ -163,7 +163,8 @@
   const REQ_ICO = {
     cal: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>`,
     globe: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.9 5.7 3.9 9s-1.4 6.4-3.9 9c-2.5-2.6-3.9-5.7-3.9-9S9.5 5.6 12 3z"/></svg>`,
-    env: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>`
+    env: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>`,
+    phone: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></svg>`
   };
   window.wfIco = REQ_ICO;
 
@@ -1199,10 +1200,12 @@
       /* actions: real links on the centre card, inert on side cards (they jump);
          on mobile every card is reachable by scrolling, so all get real links */
       const book = media.link || c.book || (X && X.b) || (pair && pair.l) || "";
-      const web = c.web || (X && X.w) || "";
+      const web = (pair && pair.l) || c.web || (X && X.w) || "";
+      const phone = (X && X.ph) || c.phone || "";
+      const tel = telHref(phone);
       const btns = (k === 0 || m)
-        ? `<div class="fc-btns">${book ? `<a class="fc-btn fc-btn-book" href="${esc(book)}" target="_blank" rel="noopener">Book appointment</a>` : ""}${web ? `<a class="fc-btn fc-btn-web" href="${esc(web)}" target="_blank" rel="noopener">Website ↗</a>` : ""}</div>`
-        : `<div class="fc-btns">${book ? `<span class="fc-btn fc-btn-book">Book appointment</span>` : ""}${web ? `<span class="fc-btn fc-btn-web">Website ↗</span>` : ""}</div>`;
+        ? `<div class="fc-btns">${book ? `<a class="fc-btn fc-btn-book" href="${esc(book)}" target="_blank" rel="noopener">Book appointment</a>` : ""}${tel ? `<a class="fc-btn fc-btn-call" href="${tel}">Call</a>` : ""}${web ? `<a class="fc-btn fc-btn-web" href="${esc(web)}" target="_blank" rel="noopener">Website ↗</a>` : ""}</div>`
+        : `<div class="fc-btns">${book ? `<span class="fc-btn fc-btn-book">Book appointment</span>` : ""}${tel ? `<span class="fc-btn fc-btn-call">Call</span>` : ""}${web ? `<span class="fc-btn fc-btn-web">Website ↗</span>` : ""}</div>`;
       const photo = media.img ? `<img src="${esc(media.img)}" alt="${esc(c.name)}">` : "";
       const fcSaved = getFavs().includes(c.name);
       const inner = `
@@ -1782,9 +1785,34 @@
       if (e.target.closest("[data-close]") || e.target === d) d.close();
     });
   }
+  function clinicExtraFor(c) {
+    const key = ((c.name || "") + "|" + (c.city || "")).toLowerCase();
+    return (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.x[key]) || null;
+  }
+  /* The Website action should land on the clinic's own page for this
+     treatment (stored per listing as the pair link), not the homepage. */
+  function clinicTreatmentLink(c, treatment) {
+    const X = clinicExtraFor(c);
+    const pair = X && X.pairs && treatment ? X.pairs[treatment] : null;
+    return (pair && pair.l) || c.web || (X && X.w) || "";
+  }
+  function clinicPhone(c) {
+    const X = clinicExtraFor(c);
+    return (X && X.ph) || c.phone || "";
+  }
+  function clinicEmailAddr(c) {
+    const key = ((c.name || "") + "|" + (c.city || "")).toLowerCase();
+    const X = clinicExtraFor(c);
+    return (typeof CLINIC_SLOTS !== "undefined" && CLINIC_SLOTS[key] && CLINIC_SLOTS[key]._em) || c.email || (X && X.em) || "";
+  }
+  function telHref(phone) {
+    const d = String(phone || "").replace(/\D/g, "").slice(-10);
+    return d.length === 10 ? "tel:+1" + d : "";
+  }
   function clinicMailto(c, serviceName) {
-    if (!c.email) return "";
-    return `mailto:${esc(c.email)}?subject=${encodeURIComponent(`Question about ${serviceName} (found via WellFinder)`)}&body=${encodeURIComponent(`Hi,\n\nI found your clinic via wellfinder.ca for ${serviceName}. I hope to get more information regarding price, claim process and schedule.\n\nThank you!`)}`;
+    const addr = clinicEmailAddr(c);
+    if (!addr) return "";
+    return `mailto:${esc(addr)}?subject=${encodeURIComponent(`Question about ${serviceName} (found via WellFinder)`)}&body=${encodeURIComponent(`Hi,\n\nI found your clinic via wellfinder.ca for ${serviceName}. I hope to get more information regarding price, claim process and schedule.\n\nThank you!`)}`;
   }
   function openClinicModal(name) {
     const found = window.wfAllClinics().find((x) => x.clinic.name === name);
@@ -1801,10 +1829,13 @@
       c.note ? `<p><strong>Note</strong><br>${esc(c.note)}</p>` : "",
     ].filter(Boolean).join("");
     const host = c.web ? c.web.replace(/^https?:\/\//, "").split("/")[0] : "";
+    const mWeb = clinicTreatmentLink(c, found.treatment);
+    const mTel = telHref(clinicPhone(c));
     document.getElementById("clinicModalBody").innerHTML =
       `<p class="eyebrow">${esc(found.treatment)}</p><h3>${esc(c.name)}</h3>${rows}
        <div class="clinic-actions">
-         ${c.web ? `<a class="btn btn--ghost btn--sm" href="${esc(c.web)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
+         ${mWeb ? `<a class="btn btn--ghost btn--sm" href="${esc(mWeb)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
+         ${mTel ? `<a class="btn btn--ghost btn--sm" href="${mTel}" aria-label="Call ${esc(c.name)}">📞 Call</a>` : ""}
          ${mailto ? `<a class="btn btn--ghost btn--sm" href="${mailto}" aria-label="Email ${esc(c.name)}">✉</a>` : ""}
          ${c.book ? `<a class="btn btn--primary btn--sm" href="${esc(c.book)}" target="_blank" rel="noopener">Book online ↗</a>` : ""}
        </div>
@@ -1814,9 +1845,10 @@
 
   function clinicListHTML(clinics) {
     if (!clinics.length) return `<p class="gta-empty">No clinics listed yet. <a href="/submit">Suggest a clinic</a></p>`;
-    return `<ul class="gta-list">${clinics.map((c) =>
-      `<li>${c.web ? `<a href="${esc(c.web)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}<span>${esc(c.city || "")}</span></li>`
-    ).join("")}</ul>`;
+    return `<ul class="gta-list">${clinics.map((c) => {
+      const link = clinicTreatmentLink(c, c.treatment);
+      return `<li>${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}<span>${esc(c.city || "")}</span></li>`;
+    }).join("")}</ul>`;
   }
 
   /* Rich clinic cards for the per-treatment minipages:
@@ -1832,14 +1864,17 @@
       const price = c.price && c.price.indexOf("$") > -1 ? `<p class="clinic-price">${esc(c.price)}</p>` : "";
       const also = clinicAlsoOffers(c.name, serviceName || c.treatment).slice(0, 4);
       const alsoHtml = also.length ? `<p class="clinic-also">${also.map((t) => `<span>${esc(t)}</span>`).join("")}</p>` : "";
+      const cWeb = clinicTreatmentLink(c, serviceName || c.treatment);
+      const cTel = telHref(clinicPhone(c));
       return `<article class="clinic-card">
         <button class="fav-btn ${saved ? "saved" : ""}" data-fav="${esc(c.name)}"
           aria-label="Save ${esc(c.name)}" aria-pressed="${saved}">${HEART}</button>
-        <h4>${c.web ? `<a href="${esc(c.web)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}</h4>
+        <h4>${cWeb ? `<a href="${esc(cWeb)}" target="_blank" rel="noopener">${esc(c.name)}</a>` : esc(c.name)}</h4>
         ${meta ? `<p class="clinic-meta">${meta}</p>` : ""}
         ${dist}${addr}${price}${alsoHtml}
         <div class="clinic-actions">
-          ${c.web ? `<a class="btn btn--ghost btn--sm" href="${esc(c.web)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
+          ${cWeb ? `<a class="btn btn--ghost btn--sm" href="${esc(cWeb)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
+          ${cTel ? `<a class="btn btn--ghost btn--sm" href="${cTel}" aria-label="Call ${esc(c.name)}">📞 Call</a>` : ""}
           ${mailto ? `<a class="btn btn--ghost btn--sm" href="${mailto}" aria-label="Email ${esc(c.name)}">✉</a>` : ""}
           ${c.book ? `<a class="btn btn--primary btn--sm" href="${esc(c.book)}" target="_blank" rel="noopener">Book ↗</a>` : ""}
           <button class="btn btn--ghost btn--sm" data-clinic-info="${esc(c.name)}">Info</button>
@@ -1980,8 +2015,10 @@
 
     /* actions */
     const book = media.link || c.book || (X && X.b) || (pair && pair.l) || "";
-    const web = c.web || (X && X.w) || "";
-    const email = (typeof CLINIC_SLOTS !== "undefined" && CLINIC_SLOTS[key] && CLINIC_SLOTS[key]._em) || c.email || "";
+    const web = (pair && pair.l) || c.web || (X && X.w) || "";
+    const email = (typeof CLINIC_SLOTS !== "undefined" && CLINIC_SLOTS[key] && CLINIC_SLOTS[key]._em) || c.email || (X && X.em) || "";
+    const phone = (X && X.ph) || c.phone || "";
+    const tel = telHref(phone);
     let actions = "";
     const ctxSlots = [];
     const ctxSeen = new Set();
@@ -2042,7 +2079,7 @@
 
     const priceLine = price && !hasSlots ? `<p class="nc-hyprice"><b>${esc(price)}</b>${noteHTML ? `<span class="nc-hynote">${noteHTML}</span>` : ""}</p>` : "";
     const ico = window.wfIco || {};
-    actions = `<div class="nc-actions nc-icons">${book ? `<a class="nc-ico" href="${esc(book)}" target="_blank" rel="noopener" aria-label="Book at ${esc(c.name)}">${ico.cal || ""}<span>Book</span></a>` : ""}${web ? `<a class="nc-ico" href="${esc(web)}" target="_blank" rel="noopener" aria-label="Visit ${esc(c.name)} website">${ico.globe || ""}<span>Website</span></a>` : ""}${email ? `<button type="button" class="nc-ico" data-req-email aria-label="Email ${esc(c.name)} for more information">${ico.env || ""}<span>Email</span></button>` : ""}</div>`;
+    actions = `<div class="nc-actions nc-icons">${book ? `<a class="nc-ico" href="${esc(book)}" target="_blank" rel="noopener" aria-label="Book at ${esc(c.name)}">${ico.cal || ""}<span>Book</span></a>` : ""}${tel ? `<a class="nc-ico" href="${tel}" aria-label="Call ${esc(c.name)}">${ico.phone || ""}<span>Call</span></a>` : ""}${web ? `<a class="nc-ico" href="${esc(web)}" target="_blank" rel="noopener" aria-label="Visit ${esc(c.name)} website">${ico.globe || ""}<span>Website</span></a>` : ""}${email ? `<button type="button" class="nc-ico" data-req-email aria-label="Email ${esc(c.name)} for more information">${ico.env || ""}<span>Email</span></button>` : ""}</div>`;
     const reqCtx = { name: c.name, key, city: c.city, email, treatments: [T], book: book ? { [T]: book } : {}, slots: ctxSlots.length ? { [T]: ctxSlots } : {} };
     const metaSegs = [esc(addr), hoursSeg || `<span class="nc-hours-na">Hours not listed</span>`, dbSeg];
     const metaLine = `<div class="nc-metaline">${metaSegs.join(`<span class="nc-sep" aria-hidden="true"> \u00b7 </span>`)}</div>`;

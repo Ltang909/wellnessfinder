@@ -2408,11 +2408,16 @@
       ? '<p class="nc-price-line" title="' + esc(priceStr + " · " + T0) + '">💲 ' + esc(priceStr) + " · " + esc(T0) + "</p>"
       : "";
     var book = bookUrlFor(vm, T0);
-    var web = vm.clinic.link || (vm.X && vm.X.w) || "";
-    var email = (typeof CLINIC_SLOTS !== "undefined" && CLINIC_SLOTS[vm.key] && CLINIC_SLOTS[vm.key]._em) || vm.clinic.email || "";
+    var pair0 = pairFor(vm, T0);
+    var web = (pair0 && pair0.l) || vm.clinic.link || (vm.X && vm.X.w) || "";
+    var email = (typeof CLINIC_SLOTS !== "undefined" && CLINIC_SLOTS[vm.key] && CLINIC_SLOTS[vm.key]._em) || vm.clinic.email || (vm.X && vm.X.em) || "";
+    var phone = (vm.X && vm.X.ph) || vm.clinic.phone || "";
+    var telD = String(phone || "").replace(/\D/g, "").slice(-10);
+    var tel = telD.length === 10 ? "tel:+1" + telD : "";
     var ico = window.wfIco || {};
     var actions = "";
     if (book) actions += '<a class="nc-ico" href="' + esc(book) + '" target="_blank" rel="noopener" aria-label="Book at ' + esc(c.name) + '">' + (ico.cal || "📅") + "<span>Book</span></a>";
+    if (tel) actions += '<a class="nc-ico" href="' + tel + '" aria-label="Call ' + esc(c.name) + '">' + (ico.phone || "📞") + "<span>Call</span></a>";
     if (web) actions += '<a class="nc-ico" href="' + esc(web) + '" target="_blank" rel="noopener" aria-label="Visit ' + esc(c.name) + ' website">' + (ico.globe || "🌐") + "<span>Website</span></a>";
     if (email) actions += '<button type="button" class="nc-ico" data-req-email aria-label="Email ' + esc(c.name) + ' for more information">' + (ico.env || "✉") + "<span>Email</span></button>";
     /* Schedule-request context for the shared chooser/form in app.js:

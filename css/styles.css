@@ -1210,6 +1210,7 @@ a.fs-clinics { display: inline-block; font-size: .66rem; letter-spacing: .18em; 
 .fc-btns .fc-btn { margin-top: 8px; padding: 10px 16px; letter-spacing: .14em; }
 .fc-btn-book { background: #FFCE45; color: #161616; }
 .fc-btn-web { background: #fff; border: 1.5px solid #0F2D2B; color: #0F2D2B; padding: 9.5px 16px; }
+.fc-btn-call { background: #0F2D2B; color: #fff; }
 .fc-card--side .fc-btns .fc-btn { filter: grayscale(1); }
 
 /* Minipage clinic lists: long horizontal rows (Leon's direction) —
