@@ -13,6 +13,27 @@
   ));
   const mapsUrl = window.mapsUrl || ((q) => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q));
 
+  /* Treatment page links and phone numbers live in CLINIC_EXTRA, loaded
+     by the page alongside data.js. Website should land on the clinic's
+     own page for this treatment, not the homepage. */
+  function extraFor(c) {
+    const key = ((c.name || "") + "|" + (c.city || "")).toLowerCase();
+    return (typeof CLINIC_EXTRA !== "undefined" && CLINIC_EXTRA.x[key]) || null;
+  }
+  function treatmentLink(c, treatment) {
+    const X = extraFor(c);
+    const pair = X && X.pairs && treatment ? X.pairs[treatment] : null;
+    return (pair && pair.l) || c.web || (X && X.w) || "";
+  }
+  function phoneFor(c) {
+    const X = extraFor(c);
+    return (X && X.ph) || c.phone || "";
+  }
+  function telHref(ph) {
+    const d = String(ph || "").replace(/\D/g, "").slice(-10);
+    return d.length === 10 ? "tel:+1" + d : "";
+  }
+
   const PIN = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>`;
 
   function badgeClass(db) {
@@ -48,7 +69,8 @@
       ).join("");
     const links = f.links.map((l) => {
       const isMail = /^mailto:/i.test(l.href);
-      const attrs = isMail ? "" : `target="_blank" rel="noopener"`;
+      const isTel = /^tel:/i.test(l.href);
+      const attrs = (isMail || isTel) ? "" : `target="_blank" rel="noopener"`;
       return `<a href="${esc(l.href)}" ${attrs} class="${l.cls || ""}">${esc(l.label)}</a>`;
     }).join("");
     const tags = (f.tags && f.tags.length)
@@ -71,10 +93,14 @@
       </article>`;
   }
 
-  function buildLinks(c) {
+  function buildLinks(c, treatment) {
     const links = [];
-    if (c.web) links.push({ label: "Website ↗", href: c.web });
-    if (c.email) links.push({ label: c.email, href: "mailto:" + c.email });
+    const web = treatmentLink(c, treatment);
+    if (web) links.push({ label: "Website ↗", href: web });
+    const tel = telHref(phoneFor(c));
+    if (tel) links.push({ label: "Call", href: tel });
+    const em = c.email || (extraFor(c) || {}).em;
+    if (em) links.push({ label: em, href: "mailto:" + em });
     if (c.book) links.push({ label: "Book ↗", href: c.book, cls: "book" });
     return links;
   }
@@ -183,7 +209,7 @@
           { label: "Price / 60 min", val: c.price },
           { label: "Direct billing", val: c.db },
         ],
-        links: buildLinks(c),
+        links: buildLinks(c, "Clinical Pilates"),
       }));
       renderList(list, cards, "Try removing a filter, clearing search, or switching province.");
       setCount(filtered.length, total, "clinics");
@@ -237,6 +263,14 @@
 
     wireSearch(state, apply);
 
+    /* One chip selected: the Website link lands on that treatment's page. */
+    function naturoTreatment() {
+      if (state.tags.size !== 1) return "";
+      const id = [...state.tags][0];
+      const chip = (typeof NATURO_CHIPS !== "undefined" ? NATURO_CHIPS : []).find((x) => x.id === id);
+      return chip ? chip.label : "";
+    }
+
     function apply() {
       const filtered = CLINICS.filter((c) =>
         (!state.prov || c.prov === state.prov) &&
@@ -252,7 +286,7 @@
           { label: "Billed as", val: c.billed },
           { label: "Per visit price", val: c.price },
         ],
-        links: buildLinks(c),
+        links: buildLinks(c, naturoTreatment()),
       }));
       renderList(list, cards, "Try selecting All modalities, clearing search, or a different city.");
       setCount(filtered.length, total, "clinics");
@@ -311,7 +345,7 @@
           { label: "Direct billing", val: c.db },
           { label: "Price", val: c.price },
         ],
-        links: buildLinks(c),
+        links: buildLinks(c, "Golf Swing Assessment"),
       }));
       renderList(list, cards, "Try clearing the TPI filter, clearing search, or choosing a different region.");
       setCount(filtered.length, total, "clinics");
